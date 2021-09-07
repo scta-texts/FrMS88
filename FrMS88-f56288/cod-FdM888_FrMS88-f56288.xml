@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="203-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f56288"><!-- l4d12q3 -->
+            <head xml:id="FrMS88-f56288-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f56288-d1e111">
+      <!--409.xml-->
+               <pb ed="#V" n="203-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>QUeritur <sic>quarto</sic> vtrum deus potest se 
+      <lb ed="#V" n="2"/> parare accidens a subiecto non 
+      <lb ed="#V" n="3"/>imprimendo aliquod positiuum. et videtur quod sic: quia 
+      <lb ed="#V" n="4"/>deus potest facere mutationem deperditiuam si 
+      <lb ed="#V" n="5"/>ne acquisitiua.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e134">
+      ¶ Contra. omnis actio habet 
+      <lb ed="#V" n="6"/>terminum positiuum. sed hoc est actio realis. ergo.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e139">
+               <lb ed="#V" n="7"/>Hic sunt quatuor modi dicendi. Unum doctor dicit 
+      <lb ed="#V" n="8"/>quod datur sibi aliquis modus essendi super 
+      <lb ed="#V" n="9"/>naturalis: seu aliquod nouum esse supernaturale.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e148">
+      ¶ Contra. res est 
+      <lb ed="#V" n="10"/>amisit suum proprium esse corrumpitur: quia corruptio est 
+      progres<lb ed="#V" n="11" break="no"/>sio de esse ad non esse. Item si accidens habet aliquod aliud esse 
+      <lb ed="#V" n="12"/>ergo non est idem accidens quod prius. nec illud accidens 
+      sepa<lb ed="#V" n="13" break="no"/>ratur.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e160">
+      ¶ Dico igitur quod eandem existentiam habet quamprius secundum 
+      <lb ed="#V" n="14"/>essentiam. nec propter hoc magis euitantur difficultates: quia 
+      ta<lb ed="#V" n="15" break="no"/>lis virtus supenaturalis si est inherens. tunc non dat alicui quod 
+      <lb ed="#V" n="16"/>subsistat. quia magis inheret quam illud. si autem dicatur quod est 
+      ful<lb ed="#V" n="17" break="no"/>cimentum eius: tantum est ac si sibi daret substantiam vel subie 
+      <lb ed="#V" n="18"/>ctum.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e173">
+      ¶ Alius modus est quod deus substantificat ipsum 
+      <lb ed="#V" n="19"/>accidens: quia semper inhereret nisi esset substantificatum.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e178">
+      ¶ contra 
+      <lb ed="#V" n="20"/>quia deus prius non substantificabat ipsum accidens. modo autem 
+      <lb ed="#V" n="21"/>substantificat. ergo accidens habet aliquid modo quod prius non 
+      ha<lb ed="#V" n="22" break="no"/>buit.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e187">
+      ¶ Alius modus dicendi est quod deus non dat aliquid: sed 
+      <lb ed="#V" n="23"/>aufert aliquid scilicet inherentiam actualem: quae est eius accidens et 
+      <lb ed="#V" n="24"/>ita remanet separatum.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e194">
+      ¶ Contra hoc 4r
+    </p>
+            <p xml:id="FrMS88-f56288-d1e197">
+      ¶ Primo. quod sic 
+      <lb ed="#V" n="25"/>impossibile est aliquod miraculum de nouo fieri nisi aliquid 
+      de<lb ed="#V" n="26" break="no"/>nouo producatur. sed miraculum de nouo positum est quod 
+      di<lb ed="#V" n="27" break="no"/>lis sustentat accidens: et prius non est.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e207">
+      ¶ Secundo sic. 
+      impos<lb ed="#V" n="28" break="no"/>sibile est quod aliquod supernaturale esse conueniat alicui nisi per 
+      <lb ed="#V" n="29"/>formam supernaturalem: sed accidens separatum habet esse super 
+      <lb ed="#V" n="30"/>naturale quod prius non habebat: ergo etc.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e216">
+      ¶ Tertio. 
+      impoent<lb ed="#V" n="31" break="no"/>sibile est quod aliquis effectus dependeat ab aliqua causa 
+      essen<lb ed="#V" n="32" break="no"/>tialiter qua non existente nihil minus sequitur vel esset: 
+      <lb ed="#V" n="33"/>ed si deum nihil influendo separaret accidens. hoc sequeretur. 
+      <lb ed="#V" n="34"/>Probo: quia si deus accidens sic separaret nihil faciendo 
+      <lb ed="#V" n="35"/>tunc prius dependeret a subiecto naturaliter quo non existente nihil 
+      <lb ed="#V" n="36"/>minus esset.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e232">
+      ¶ 4o quandocumque sunt alique cause concurrentes 
+      <lb ed="#V" n="37"/>ad aliquem effectum simul: cessante altera non est effectus. 
+      <lb ed="#V" n="38"/>patet de patre et matre: sed deus et subiectum concurrunt. quia 
+      sul<lb ed="#V" n="39" break="no"/>iectum est in genere cause materialis. sed nihil fit perte nisi 
+      ces<lb ed="#V" n="40" break="no"/>satio causalitatis materialis. ergo non dependet ab illo. 
+      <lb ed="#V" n="41"/>ergo quod alia dependentia dependet ad deum super 
+      <lb ed="#V" n="42"/>Dico nataliter valet dependentia qua prius non depende 
+      <lb ed="#V" n="43"/>bat. hoc probatur 4r.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e250">
+      ¶ Primo. quia deus non potest 
+      supple<lb ed="#V" n="44" break="no"/>re viceme subiecti nisi per habitudinem aliquam: non per agens vniversale 
+      <lb ed="#V" n="45"/>quod erat ante.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e257">
+      ¶ Secundo quandocunque aliqua causa est partialis 
+      <lb ed="#V" n="46"/>respectu cuius non erat nisi vniversalis necessario habet 
+      aliquem<lb ed="#V" n="47" break="no"/>respectum ad illud. sed deum necessario comparatur ad ad 
+      <lb ed="#V" n="48"/>cidens in genere cause particularis quando separat ipsum. 
+      er<lb ed="#V" n="49" break="no"/>go etc.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e268">
+      ¶ Tertio quandocunque aliquid incipit esse causa tota 
+      <lb ed="#V" n="50"/>lis alicuius respectu cuius non erat nisi particularis: habet 
+      <lb ed="#V" n="51"/>necessario aliquem respectum quem prius non habebat. sed 
+      <lb ed="#V" n="52"/>deus post separationem accidentis est totalis causa eius. 
+      er<lb ed="#V" n="53" break="no"/>go etc.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e280">
+      ¶ 4o. quia dependentia qua dependet accidens ad deum 
+      <lb ed="#V" n="54"/>est credita: sed qua dependet ad subiectum est materialiter nota 
+      <lb ed="#V" n="55"/>ergo impossibile est quod sit eadem dependentia.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e287">
+      ¶ Et hoc 
+      <lb ed="#V" n="56"/>concedo propter rationes istas.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e292">
+      ¶ Sed contra istas rationes instatur. 
+      </p>
+            <p xml:id="FrMS88-f56288-d1e295">
+               <lb ed="#V" n="57"/>¶ Contra primam. quando aliquid supplet vicem causae alicuius. 
+      <lb ed="#V" n="58"/>supplet per modum illius. Sed deus non potest esse causa 
+      mateai<lb ed="#V" n="59" break="no"/>lis. ergo non potest supplere vicem illius.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e304">
+      ¶ Secundo. quia 
+      <lb ed="#V" n="60"/>causa materialis dicit imperfectionem. ergo per solam desinitionem 
+      <lb ed="#V" n="61"/>deus supplet.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e311">
+      ¶ Tertio sic. hic est noua causalitas. ergo 
+      <lb ed="#V" n="62"/>nouus effectus: sed idem est accidens quod prius. ergo non fuit 
+      <lb ed="#V" n="63"/>causalitas noua.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e319">
+      ¶ 4o idem effectus non praecedit 
+      sua<lb ed="#V" n="64" break="no"/>causalitatem: sed istud accidens preerat igitur non potest 
+      caus<lb ed="#V" n="65" break="no"/>ri.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e326">
+      ¶ Respondeo ad primum quod non supplet eam per eandem causalitatem. 
+      <lb ed="#V" n="66"/>sed per causalitatem alterius rationis. verbi gratia in po¬ 
+      <!--409.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>liticis verum est quod vnus iudex non potest supplere quod facit 
+      <lb ed="#V" n="68"/>alter nisi per potestatem eiusdem rationis: sed rex per superiore 
+      <lb ed="#V" n="69"/>supplet. sic deus per respectum efficientie supplet materialem 
+      <lb ed="#V" n="70"/>que est superius materiali.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e344">
+      ¶ Ad tertium. noua causalitas 
+      requi<lb ed="#V" n="71" break="no"/>rit nouum effectum.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e349">
+      ¶ Dico quod non est nouitas ad 
+      inferen<lb ed="#V" n="72" break="no"/>dum: sed ad supplendum. causalitas etiam que primo modo supplet po 
+      <lb ed="#V" n="73"/>test praecedere effectum.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e356">
+      ¶ Sed occur. difficultas. si ista relatio est 
+      <lb ed="#V" n="74"/>de nouo acquiritur est eadem fundamento.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e361">
+      ¶ Dico quod de 
+      <lb ed="#V" n="75"/>pendentia ad deum in ratione cause vniversalis est eadem cum 
+      fun<lb ed="#V" n="76" break="no"/>damento. sed dependentia ad deum in ratione cause 
+      particu<lb ed="#V" n="77" break="no"/>laris non est idem: quia ista de nouo aduenit.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e371">
+      ¶ Secunda difficultas 
+      <lb ed="#V" n="78"/>si est intrinsecus adueniens.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e376">
+      ¶ Utur quod possit dici quod sic in 
+      <lb ed="#V" n="79"/>tali fieri. melius tamen dicitur extrinsecus adueniens: sed 
+      <lb ed="#V" n="80"/>alia dependentia erat respectus extrinsecus 
+      adueniens<lb ed="#V" n="81" break="no"/>simpliciter.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e385">
+      ¶ Sed hic est difficultas quia in essentialiter ordinatis et 
+      <lb ed="#V" n="82"/>realiter distinctis deus posset facere prius sine posterioris 
+      <lb ed="#V" n="83"/>sed ista albedo: et inste respectus realiter distinguitur.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e392">
+      ¶ 
+      Di<lb ed="#V" n="84" break="no"/>co quod potest reducendo ipsum ad subiectum.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e397">
+      ¶ Contra 
+      am<lb ed="#V" n="85" break="no"/>be dependentie iste sunt realiter distincte ab albedine. 
+      er<lb ed="#V" n="86" break="no"/>go sine vtraque potest fieri.
+    </p>
+            <p xml:id="FrMS88-f56288-d1e404">
+      ¶ Dico quod ista regula vera est 
+      <lb ed="#V" n="87"/>infactibilibus quando aliqua a deo sunt factibilia: et habent 
+      ta<lb ed="#V" n="88" break="no"/>lem oriom. verum est tunc: sed aliqua non sunt factibilia sicut 
+      <lb ed="#V" n="89"/>factiones. Ista autem relatio est factio. Ideo sibi nullus 
+      <lb ed="#V" n="90"/>potest hanc regulam applicare. Sed ad illa quorum est 
+      <lb ed="#V" n="91"/>factio. vnde productio non est producibilis: sed est 
+      <lb ed="#V" n="92"/>quo est aliquid producibile sic dicitur quod creatio non est 
+      <lb ed="#V" n="93"/>creabilis: sed est quo aliquid est creabile.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

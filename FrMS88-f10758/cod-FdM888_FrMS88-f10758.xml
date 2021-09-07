@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f10758"><!-- l2d3q4 -->
+            <head xml:id="FrMS88-f10758-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f10758-d1e111">
+      Quaestio. iiii. 
+      <lb ed="#V" n="60"/>quaestio est. vtrum omnes angeli differunt 
+      <lb ed="#V" n="61"/>Uaria genere. quod sic. quia corporeum constituit 
+      <lb ed="#V" n="62"/>genus. ergo et incorporeum. Contra. non videtur sufficere 
+      <lb ed="#V" n="63"/>dicitur quod sic. quia plus differunt 
+      angeli<lb ed="#V" n="64" break="no"/>hic diuersorum ordinum quam vnius ordinis 
+      <lb ed="#V" n="65"/>sed vnius ordins differunt specie. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f10758-d1e127">
+      ¶ Sed hoc est difficultas de numero 
+      <lb ed="#V" n="66"/>angelorum minstrantium et assistentium propter verbum Dan. 7. milia 
+      <!--300.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>milium etc. quia dicunt aliqui quod numerus minstrantium est maior. Gre 
+      <lb ed="#V" n="68"/>7moralis. dicit. quod numerus ministrantium est maior. Exponit 
+      <lb ed="#V" n="69"/>etiam milia milium. quasi infinita milia. Sed alius est numerus de 
+      <lb ed="#V" n="70"/>terminatus.
+    </p>
+            <p xml:id="FrMS88-f10758-d1e145">
+      ¶ Dion. autem ponit. 5. ordines ministran 
+      <lb ed="#V" n="71"/>tes: et duos ordines assistentes.
+    </p>
+            <p xml:id="FrMS88-f10758-d1e150">
+      ¶ Sed qui sunt plures 
+      <lb ed="#V" n="72"/>ptrum danati angeli vel alii: Utr hic posse dici secundum Io. in 
+      <lb ed="#V" n="73"/>apocus quod draco trahebat tertiam partem stellarum celi. quod 
+      ter<lb ed="#V" n="74" break="no"/>tia pars danata est.
+    </p>
+            <p xml:id="FrMS88-f10758-d1e160">
+      ¶ Sed tunc quae sunt plures homines vel 
+      <lb ed="#V" n="75"/>angeli:
+    </p>
+            <p xml:id="FrMS88-f10758-d1e165">
+      ¶ Aug. videtur dice. quod homines sunt plures. quia homines 
+      <lb ed="#V" n="76"/>saluati restaurabunt angelorum ruinara: et damnatorum se 
+      <lb ed="#V" n="77"/>des. iuxta illud. constituisti terminos populorum. iuxta 
+      <lb ed="#V" n="78"/>numerum filiorum instrael. plures autem sunt numero damnati aliis. 
+      </p>
+            <p xml:id="FrMS88-f10758-d1e174">
+               <lb ed="#V" n="79"/>¶ Alia difficultas quia Dion. videtur ponere plures quam omnes res 
+      cor<lb ed="#V" n="80" break="no"/>pore. quia ex eadem proporiume numerorum materialium. Sed hoc exponitur. 
+      <lb ed="#V" n="81"/>quia nos non possumus eos numerare. sicut nec arenam 
+      ma<lb ed="#V" n="82" break="no"/>ris.
+    </p>
+            <p xml:id="FrMS88-f10758-d1e185">
+      ¶ Sed quare sub genere spiritus non sunt plura genera: sicut 
+      sub<lb ed="#V" n="83" break="no"/>corpore. Dicitur quod sub differentia nobiliori semper reperiuntur paucio 
+      <lb ed="#V" n="84"/>ra genera: sicut sub rationali solum vna species. sub irrationali 
+      au<lb ed="#V" n="85" break="no"/>tem plures: vt asinus: canis: bos etc.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

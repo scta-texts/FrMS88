@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e39025"><!-- l1q9q2 -->
+            <head xml:id="FrMS88-e39025-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-e39025-d1e111">
+      Quaestio. ii 
+      <lb ed="#V" n="21"/>deus sit simpliciter immutabilis. 
+      <lb ed="#V" n="22"/>Tum Quod non. quia in deo est transitus. 
+      <lb ed="#V" n="23"/>gt etc. Probatio huius. quia in gen. scribitur 
+      <lb ed="#V" n="24"/>Tactus dolore cordins intrinsecus. ergo etc. 
+      <lb ed="#V" n="25"/>d
+    </p>
+            <p xml:id="FrMS88-e39025-d1e124">
+      ¶ Contra alibi. Ego dominus et non 
+      mu<lb ed="#V" n="26" break="no"/>tor: ergo deus est immutabilis. 
+      <lb ed="#V" n="27"/>veritas certa et determinata: sed tota difficultas 
+      <lb ed="#V" n="28"/>Hec est est in probando. Probatur autem a diuersis 4r. 
+      <lb ed="#V" n="29"/>primo sic. Nullum ens perfectissimum potest transmutari: sed deus 
+      <lb ed="#V" n="30"/>est huiusmodi. ergo etc. Maior probatur. quia illud quod est ens 
+      perfectissi<lb ed="#V" n="31" break="no"/>mum non potest recipere aliquid: quia omnia iam habet. illud autem quod est 
+      mu<lb ed="#V" n="32" break="no"/>tabile bene potest recipere aliquid.
+    </p>
+            <p xml:id="FrMS88-e39025-d1e142">
+      ¶ 2o sic. nullum ens quod est 
+      pu<lb ed="#V" n="33" break="no"/>rus actus potest mutari: sed deus est huiusmodi. ergo etc. Ma. patet. quia 
+      il<lb ed="#V" n="34" break="no"/>lud quod est mutabile vt sic: est in potentia ei autem quod est in potentia 
+      re<lb ed="#V" n="35" break="no"/>pugnat quod sit actus purus.
+    </p>
+            <p xml:id="FrMS88-e39025-d1e151">
+      ¶ 3o sic. nullum summe simplex est 
+      <lb ed="#V" n="36"/>mutabile. deus est huiusmodi. ergo etc. Ma. probatur. quia illud quod mutatur 
+      <lb ed="#V" n="37"/>necessario potest recipere terminum: et sic compositionem. summe autem 
+      sim<lb ed="#V" n="38" break="no"/>plex non potest cum aliquo componi.
+    </p>
+            <p xml:id="FrMS88-e39025-d1e161">
+      ¶ 4o sic. Nullum necessare esse est 
+      <lb ed="#V" n="39"/>mutabile: deus est huiusmodi. ergo etc. Maior probatur. quia illud quod 
+      <lb ed="#V" n="40"/>est necessare esse non potest aliquid in se habere: quod non habeat. Illud autem 
+      <lb ed="#V" n="41"/>quod mutatur ex eo quod mutatur necessario aliquid recipit quod non homo 
+      <lb ed="#V" n="42"/>bat: et illud etiam acceptum est contigens. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e39025-d1e172">
+      ¶ Iste rationes vidntur 
+      <lb ed="#V" n="43"/>militare contra aliqua quae sunt vera de deo. nam prima ratio videtur tollem 
+      or<lb ed="#V" n="44" break="no"/>dinem essentialem essentialium a notionalibus: sic ens 
+      perfectis<lb ed="#V" n="45" break="no"/>simum non potest aliquam perfectionem vel aliquid aliud recipere 
+      <lb ed="#V" n="46"/>sed in primo signo in quo essentia praecedit relationem est ens per 
+      <lb ed="#V" n="47"/>fectissimum: quia per relationem nihil sibi accrescit de perfectione 
+      <lb ed="#V" n="48"/>ex aduentum relationis: quia nulla perfectio est. ergo ipsam relationem 
+      <lb ed="#V" n="49"/>non poterit recipere vel fundare.
+    </p>
+            <p xml:id="FrMS88-e39025-d1e190">
+      ¶ Si dcatur: concedo quod non 
+      <lb ed="#V" n="50"/>potest recipere. quia tunc non esset ens perfectissimum: sed bene potest 
+      <lb ed="#V" n="51"/>fundare.
+    </p>
+            <p xml:id="FrMS88-e39025-d1e197">
+      ¶ Contra tunc arguo. quia tunc ratio non ostendent 
+      <lb ed="#V" n="52"/>quin deus posset mutari ad relationem sui ad creaturam: 
+      <lb ed="#V" n="53"/>quia per te: hoc non est imperfectionis: et hoc posito necessario est 
+      mu<lb ed="#V" n="54" break="no"/>tabilis: quia omne illud quod habet in se aliquam formam vel 
+      <lb ed="#V" n="55"/>rem qua denominatur tale: et eam prius non habebat 
+      ne<lb ed="#V" n="56" break="no"/>cessario est mutatum.
+    </p>
+            <p xml:id="FrMS88-e39025-d1e210">
+      ¶ Contra 2m eodem modo arguo: 
+      <lb ed="#V" n="57"/>nam in illo priori quo essentia praecedit relatione m ipsa est 
+      <lb ed="#V" n="58"/>purus actus. ergo vel sibi repugnat recipere relationem ad 
+      in<lb ed="#V" n="59" break="no"/>tra: vel non: si non: non repugnabit sibi relationem ab extra¬ 
+      </p>
+            <p xml:id="FrMS88-e39025-d1e219">
+               <lb ed="#V" n="60"/>¶ Contra 3m. nam perfectiones diuine: vt dictum est. 
+      distin<lb ed="#V" n="61" break="no"/>guuntur ab essentia. et tamen hoc non obstante etiam quod ipsa 
+      <lb ed="#V" n="62"/>sit purus actus et simpliciter simplex. adhuc illa distinctio 
+      <lb ed="#V" n="63"/>stat: ergo eodem modo determino motus.
+    </p>
+            <p xml:id="FrMS88-e39025-d1e231">
+      ¶ Contra 
+      quar<lb ed="#V" n="64" break="no"/>tum. licet enim repugnet necessare esse recipere contingens: non 
+      ta<lb ed="#V" n="65" break="no"/>men repugnat respectus ad extra: ex quo sibi non repugnat 
+      <lb ed="#V" n="66"/>creatio.
+    </p>
+            <p xml:id="FrMS88-e39025-d1e240">
+      ¶ Ideo arguo aliter ex infinitate secundum Augu. ex 
+      <!--110.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>quo enim infinitum est quicquid habet: et quicquid est in deo est deus 
+      <lb ed="#V" n="68"/>in ergo mutaretur terminus mutationis haberetur a deo 
+      <lb ed="#V" n="69"/>et sic esset de nouo deus: sed hoc repugnat deo. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e39025-d1e253">
+               <lb ed="#V" n="70"/>¶ Sed contra istud arguo 4r. primo sic. Omne quod se habet 
+      <lb ed="#V" n="71"/>nunc aliter quam primus mutatur sed posito aliquo 
+      or<lb ed="#V" n="72" break="no"/>dine in diuinis: hoc accidit: ergo etc. Minor patet. nam si 
+      intel<lb ed="#V" n="73" break="no"/>iectus est prior voluntate: in priori signo intellectus huiumd 
+      <lb ed="#V" n="74"/>et voluntas in secundo. hoc ergo aliter in secundo signo 
+      quan<lb ed="#V" n="75" break="no"/>in primo.
+    </p>
+            <p xml:id="FrMS88-e39025-d1e269">
+      ¶ Secundo sic accepta eadem maiore accipio 
+      <lb ed="#V" n="76"/>aliam minorem: sed intellectus in primo signo 
+      origi<lb ed="#V" n="77" break="no"/>nis non est communicatus: et in secundo est 
+      communica<lb ed="#V" n="78" break="no"/>tus. similiter pater in primo signo non habet filium vel 
+      <lb ed="#V" n="79"/>filius non est. in secundo autem habet filium et filius 
+      <lb ed="#V" n="80"/>est. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e39025-d1e282">
+      ¶ Tertio sic. Omne quod transit de ocio 
+      <lb ed="#V" n="81"/>in operationem necessario mutatur: deum est huiusmodi. ergo etc. 
+      <lb ed="#V" n="82"/>Maior videtur manifesta. Minor probatur. quia deus 
+      <lb ed="#V" n="83"/>nunc creat et prius non creauit: hic est talis transitus 
+      <lb ed="#V" n="84"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-e39025-d1e293">
+      ¶ Quarto sic. Impossibile est esse transitum 
+      <lb ed="#V" n="85"/>de contradictorio in contradictorium sine 
+      mutatio<lb ed="#V" n="86" break="no"/>ne: sed deus fit de non volente volens: vel econuerso 
+      <lb ed="#V" n="87"/>dec autem mutatio non est in obiecto. quia ipsum 
+      con<lb ed="#V" n="88" break="no"/>tingit nihil esse. hoc ergo est in deo. et sic habetur pro 
+      <lb ed="#V" n="89"/>positum.
+    </p>
+            <p xml:id="FrMS88-e39025-d1e307">
+      ¶ Ad primum istorum dico. quod mutatio 
+      no<lb ed="#V" n="90" break="no"/>est nisi in signis successiuis: non autem in 
+      permanenti<lb ed="#V" n="91" break="no"/>bus: cuiusmodi sunt signa originis et nature. 
+      Exem<lb ed="#V" n="92" break="no"/>plum subiectum est prius natura passione 
+      nunquam<lb ed="#V" n="93" break="no"/>tamen mutatur ad eam: quia prius et posterius 
+      perma<lb ed="#V" n="94" break="no"/>nentia sunt.
+    </p>
+            <p xml:id="FrMS88-e39025-d1e320">
+      ¶ Eodem modo dicitur ad secundum. 
+      </p>
+            <p xml:id="FrMS88-e39025-d1e323">
+               <lb ed="#V" n="95"/>¶ Ad tertium dico. quod non fit mutatio in deo: sed in 
+      <lb ed="#V" n="96"/>creatura: non enim dicitur deus nunc creare et prius 
+      <lb ed="#V" n="97"/>non: propter aliquid quod sit in deo quod prius non 
+      <lb ed="#V" n="98"/>erat: sed propter nouitatem in termino. quia creatura nunc 
+      <lb ed="#V" n="99"/>incipit.
+    </p>
+            <p xml:id="FrMS88-e39025-d1e336">
+      ¶ Ad quartum dico eodem modo secundum Sco. 
+      <lb ed="#V" n="100"/>quod sit aliqua mutatio ex parte obiecti: ideo nunc dicitur 
+      <lb ed="#V" n="101"/>deus volens et prius non: vel econuerso: producitur 
+      <lb ed="#V" n="102"/>enim obiectum in esse volito quod prius non: de hoc alias 
+      <lb ed="#V" n="103"/>dicetur.
+    </p>
+            <p xml:id="FrMS88-e39025-d1e347">
+      ¶ Ad argumentum patet. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

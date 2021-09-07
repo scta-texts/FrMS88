@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f78096"><!-- l4d44q3 -->
+            <head xml:id="FrMS88-f78096-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f78096-d1e111">
+               <lb ed="#V" n="45"/>Tertio queritur. vtrum omnia quae sunt in 
+      vni<lb ed="#V" n="46" break="no"/>uerso dietut possit reparare eadem 
+      <lb ed="#V" n="47"/>numero. Quod sic. quia eadem ratio videtur vbique.
+    </p>
+            <p xml:id="FrMS88-f78096-d1e120">
+      ¶ Contra. 
+      <lb ed="#V" n="48"/>si deus fecisset mundum ab eterno: si 
+      adnihila<lb ed="#V" n="49" break="no"/>ret ipsum non posset esse reparatio ab eterno. 
+      <lb ed="#V" n="50"/>distinctio de forma substantiali 
+      <lb ed="#V" n="51"/>Hic ponitu et accidentali. Omnem substantiam potest 
+      <lb ed="#V" n="52"/>reparare. licet forte non accidens omne: quia licet omni substantie a 
+      <lb ed="#V" n="53"/>cidat esse praeteritum: non tamen omni accidenti: quia non preteritio 
+      <lb ed="#V" n="54"/>nem.
+    </p>
+            <p xml:id="FrMS88-f78096-d1e138">
+      ¶ 2a difficultas de permanente et successiuo. licet enim forsan de 
+      <lb ed="#V" n="55"/>non possit reparare omne successiuum. potest tamen omne perma 
+      <lb ed="#V" n="56"/>nens. producibilitas enim permanentium fixa est.
+    </p>
+            <p xml:id="FrMS88-f78096-d1e145">
+      ¶ 3a difficultas de 
+      <lb ed="#V" n="57"/>absolutis et respectiuis. quamuis forsan non possit omne 
+      re<lb ed="#V" n="58" break="no"/>spectiuum. potest tamen omne ab solutum: quia in eadem habitudine 
+      <lb ed="#V" n="59"/>nunquam reparatur aliquid.
+    </p>
+            <p xml:id="FrMS88-f78096-d1e155">
+      ¶ 4a difficultas de re et modo rei: quia non 
+      <lb ed="#V" n="60"/>sub eodem modo reparatur sub quo erat.
+    </p>
+            <p xml:id="FrMS88-f78096-d1e160">
+      ¶ his visis 
+      qua<lb ed="#V" n="61" break="no"/>druplici contradictione probo quod non potest omnia reparare.
+    </p>
+            <p xml:id="FrMS88-f78096-d1e165">
+      ¶ 
+      Pri<lb ed="#V" n="62" break="no"/>ma est esse adnihilatum et non adnihilatum: sed nunc est 
+      ve<lb ed="#V" n="63" break="no"/>ra hoc mundus nunquam fuit adnihilatus. Post 
+      reparatio<lb ed="#V" n="64" break="no"/>nem non esset vera sed sua opposita scilicet mundus adnihila 
+      <lb ed="#V" n="65"/>tus fuit. hoc non potest esse secundum idem. igitur secundum aliud et 
+      aliud<lb ed="#V" n="66" break="no"/>et in isto distinguuntur: et est aliquid in vno quod non in alio: 
+      <!--458.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>et illud non est reparatum. Contradictio interatus et non interatus 
+      <lb ed="#V" n="68"/>interemptus et non interemptus et similia. Confirmatur. impossibile est 
+      <lb ed="#V" n="69"/>transire de contradictorio in contradictorium nisi facta mutatione 
+      <lb ed="#V" n="70"/>in aliquo extremorum: et in hoc distinguuntur.
+    </p>
+            <p xml:id="FrMS88-f78096-d1e191">
+      ¶ hoc de 
+      <lb ed="#V" n="71"/>claro quatuor exemplis.
+    </p>
+            <p xml:id="FrMS88-f78096-d1e196">
+      ¶ Primum est in tempore. adnihilet didus 
+      <lb ed="#V" n="72"/>istum mundum: postea per te reparet. per te idem tempus erit nunc: 
+      <lb ed="#V" n="73"/>in primo mundo deus creauit stellas pares in 
+      renoua<lb ed="#V" n="74" break="no"/>tione auferatur vna stella. stelle erunt impares: et ita pro eodem 
+      <lb ed="#V" n="75"/>tempore numero inerunt extrema contradictionis. si des aliud et aliud 
+      <lb ed="#V" n="76"/>in tempore habetur propositum.
+    </p>
+            <p xml:id="FrMS88-f78096-d1e209">
+      ¶ 2m exempositum est in instanti. in illo 
+      instan<lb ed="#V" n="77" break="no"/>ti in quo creauit mundum et luciferum in reparatione non 
+      <lb ed="#V" n="78"/>vult reparare luciferum. ergo in eodem instanti numero 
+      lucifer<lb ed="#V" n="79" break="no"/>erit et non erit: ex quo tu ponis quod idem instans reparatur. 
+      </p>
+            <p xml:id="FrMS88-f78096-d1e219">
+               <lb ed="#V" n="80"/>¶ 3m exemplum est de quando. quod idem no reparetur: si quando mundus 
+      <lb ed="#V" n="81"/>fuit creatus quinque milia annorum sunt. Quero si in eodem 
+      <lb ed="#V" n="82"/>instanti quando tunc simul creatus et reparatus.
+    </p>
+            <p xml:id="FrMS88-f78096-d1e228">
+      ¶ 4m exemplum 
+      <lb ed="#V" n="83"/>de posterioritate. Omnis creatura que producitur in tpore 
+      <lb ed="#V" n="84"/>est posterior eternitate: et quanto posterius tanto magis 
+      <lb ed="#V" n="85"/>distat ab eternitate: sed inequaliter distat ab eternitate quando 
+      <lb ed="#V" n="86"/>reparatur. ergo per aliam posterioritatem. 
+      <lb ed="#V" n="87"/>quod deus non potest omnes circumstantias 
+      vni<lb ed="#V" n="88" break="no"/>Ideo Dico uersi reparare. Confirmatur. licet enim de 
+      <lb ed="#V" n="89"/>habeat futurum in potestate sua: non tamen praeteritum vt preteritum 
+      </p>
+            <p xml:id="FrMS88-f78096-d1e246">
+               <lb ed="#V" n="90"/>¶ Sed contra hoc sunt rationes prius facte et eque dicitur concludere de 
+      <lb ed="#V" n="91"/>omnibus. vnde reducuntur sicut ad illud deducuntur res ad ad 
+      <lb ed="#V" n="92"/>nihilationem a quo incipiunt per creationem sed incipiunt a 
+      pro<lb ed="#V" n="93" break="no"/>ducibilitate: quia in potentia ad creandum similiter eis non datur quod 
+      <lb ed="#V" n="94"/>sint productiones per creationem contra alias rationes superius 
+      indu<lb ed="#V" n="95" break="no"/>ctas.
+    </p>
+            <p xml:id="FrMS88-f78096-d1e262">
+      ¶ hic potest dici quod modi intrinseci non habent productio 
+      <lb ed="#V" n="96"/>nem in se nec adnihilationem: sed consequuntur producibile et ad 
+      <lb ed="#V" n="97"/>nihilabile.
+    </p>
+            <p xml:id="FrMS88-f78096-d1e269">
+      ¶ Sed hic oc. difficultas. si omnia reparata poterant primm 
+      <lb ed="#V" n="98"/>creari in prima productione.
+    </p>
+            <p xml:id="FrMS88-f78096-d1e274">
+      ¶ Dico quod sicut omnia creata 
+      <lb ed="#V" n="99"/>non possunt redire seu repari: nec omnia quae sunt reparata poterant 
+      <lb ed="#V" n="100"/>in prima productione produci.
+    </p>
+            <p xml:id="FrMS88-f78096-d1e282">
+      ¶ Ubi sciendum est quod quatuor 
+      in<lb ed="#V" n="101" break="no"/>ueniuntur in rebus. innuenimus enim primitatem nouitatem 
+      se<lb ed="#V" n="102" break="no"/>cunditatem binaritatem. primitas et nouitas se tenent ex 
+      <lb ed="#V" n="103"/>parte modi priuso producti: nec possunt reparari: quia non potest 
+      am<lb ed="#V" n="104" break="no"/>plius primo produci illud quod semel prius productum est. similiter primo 
+      fu<lb ed="#V" n="105" break="no"/>it de nouo productus eadem natiuitate non potest interum 
+      <lb ed="#V" n="106"/>produci. secunditas autem ex parte renouati se tenet: quia non 
+      <lb ed="#V" n="107"/>potest produci 2o nisi prius fuerit productum et adnihilatum. 
+      <lb ed="#V" n="108"/>quando prima producit non potest bis produxisse: si prius 
+      produ<lb ed="#V" n="109" break="no"/>xisset. ille binarius est duarum circumstantiarum.
+    </p>
+            <p xml:id="FrMS88-f78096-d1e304">
+      ¶ Sed nume 
+      <lb ed="#V" n="110"/>quid deus potest idem timpus reparare. Uidetur mihi quod si habens 
+      <lb ed="#V" n="111"/>fluxum irreparabilem: idem numero reparetur contradictoria 
+      <lb ed="#V" n="112"/>essent simul vera.
+    </p>
+            <p xml:id="FrMS88-f78096-d1e313">
+      ¶ Ideo quo ad formale non potes 
+      <lb ed="#V" n="113"/>reparari.
+    </p>
+            <p xml:id="FrMS88-f78096-d1e318">
+      ¶ Sed quid de motu. videtur quod sic et in 
+      di<lb ed="#V" n="114" break="no"/>uersis temporibus potest esse idem motus.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaesito 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaesito 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f33241"><!-- l3d17-22q4 -->
+            <head xml:id="FrMS88-f33241-Hd1e108">Quaesito 4</head>
+            <p xml:id="FrMS88-f33241-d1e111">
+               <lb ed="#V" n="38"/>¶ Questio. iiii 
+      <lb ed="#V" n="39"/>QUarto quero Utrum si Adam 
+      <lb ed="#V" n="40"/>non peccasset christi 
+      <lb ed="#V" n="41"/>incarnatus fuisset
+    </p>
+            <p xml:id="FrMS88-f33241-d1e122">
+               <lb ed="#V" n="42"/>Licet hic aliquin scint videantur dice 
+      <lb ed="#V" n="43" break="no"/>re quod non. vt Gregorius 
+      <lb ed="#V" n="44"/>Nihil inquit nasci profuit nisi redimi profuisset. Et dicunt 
+      <lb ed="#V" n="45"/>idem alii sancti.
+    </p>
+            <p xml:id="FrMS88-f33241-d1e133">
+      ¶ Uerumtamen doctor noster scotus tenet: quod 
+      <lb ed="#V" n="46"/>si Adam non peccasset christus nihilominus fuisset 
+      incar<lb ed="#V" n="47" break="no"/>natus.
+    </p>
+            <p xml:id="FrMS88-f33241-d1e140">
+      ¶ Prima ratio ad hoc est ista: maximum bonum 
+      <lb ed="#V" n="48"/>quod est in vniuerso non est bonum occasionatum: sed est bo 
+      <lb ed="#V" n="49"/>num per se et simpliciter. Sed incarnatio verbi est maximunm 
+      <lb ed="#V" n="50"/>bonum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f33241-d1e150">
+      ¶ Item 2o. si christus non fuisset incarnat 
+      <lb ed="#V" n="51"/>nisi propter peccatum Ade: tunc innocentia fuisset 
+      detrimen<lb ed="#V" n="52" break="no"/>tum tanti boni. Sed hoc est absurdum: quia status 
+      inno<lb ed="#V" n="53" break="no"/>centie fuit maxime desiderabilis et perfectus.
+    </p>
+            <p xml:id="FrMS88-f33241-d1e159">
+      ¶ Item 3o 
+      <lb ed="#V" n="54"/>quia omnis voluntas ordinata vult magis ea que sunt im 
+      <lb ed="#V" n="55"/>mediatiora fini quam remotiora: quamuis omnia illa sint ad finem 
+      <lb ed="#V" n="56"/>sicut si ad vitam est calefactio cibus potus et sanitas ma 
+      <lb ed="#V" n="57"/>gis est appetenda sanitas quamcibus: quia est immediatior ipsus 
+      <lb ed="#V" n="58"/>vite. Sed immediatior fuit ipsi vltimo fini verbi incarnatio 
+      <lb ed="#V" n="59"/>quam eius mors. et voluntas diuina est ordinatissima. 
+      er<lb ed="#V" n="60" break="no"/>go etc.
+    </p>
+            <p xml:id="FrMS88-f33241-d1e177">
+      ¶ Confirmatur. quia magis sunt necessaria que sunt vltim 
+      <lb ed="#V" n="61"/>mo fini coniucta: sed vnio beata fuit coniucta cum 
+      vltime<lb ed="#V" n="62" break="no"/>fine. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f33241-d1e184">
+      ¶ Item 4o. quia quando aliquid est magis volitum 
+      <lb ed="#V" n="63"/>quam aliud etiam illo circumscripto adhuc est magis volitum. 
+      <lb ed="#V" n="64"/>sed vnio beata magis fuit a deo volita quam mors 
+      chri<lb ed="#V" n="65" break="no"/>sti. igitur sine morte christi adhuc fuit volita.
+    </p>
+            <p xml:id="FrMS88-f33241-d1e193">
+      ¶ Item contro. ces 
+      <lb ed="#V" n="66"/>sante causa cessat etiam effectus. igitur si mors christi fuit causa vnio¬ 
+      <!--355.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>nis. ergo post mortem christi debuit cessare. Sed christus rema 
+      <lb ed="#V" n="68"/>net et remanebit incarnatus perpetuo. ergo christi mors non 
+      <lb ed="#V" n="69"/>fuit causa incarnationis praecisa.
+    </p>
+            <p xml:id="FrMS88-f33241-d1e209">
+      ¶ Item 4o. prius fuit 
+      priui<lb ed="#V" n="70" break="no"/>sa christi praedestinatio quam reprobatio malorum vel peccato 
+      <lb ed="#V" n="71"/>rum casus. igitur prius fuit priuisa christi incarnatio quam 
+      ade<lb ed="#V" n="72" break="no"/>priuaricatio vel mors christi.
+    </p>
+            <p xml:id="FrMS88-f33241-d1e219">
+      ¶ Notandum autem propter dicta 
+      san<lb ed="#V" n="73" break="no"/>ctorum quod vnus et idem effectus potest habere plures causas 
+      fina<lb ed="#V" n="74" break="no"/>les totales: licet non efficientes: quia tunc aliquid dependeret 
+      to<lb ed="#V" n="75" break="no"/>taliter ab aliqua causa finali: qua non existente nihil minus esset. Quod in 
+      <lb ed="#V" n="76"/>causa efficiente est impossibile: eo quod causa efficiens totalis 
+      alte<lb ed="#V" n="77" break="no"/>ri non subordinata ponit effectum suum in existentia 
+      actuali<lb ed="#V" n="78" break="no"/>causa vero finalis non: sed effectus solum habet ordinem ad 
+      fi<lb ed="#V" n="79" break="no"/>nem: non est autem inconueniens quod aliquod ordinetur ad duos vel 
+      <lb ed="#V" n="80"/>plures fines totales. quod credo esse intelligendum de finibus 
+      <lb ed="#V" n="81"/>non subordinatis et immediatis: quia forte omnem effectum oportet 
+      re<lb ed="#V" n="82" break="no"/>ducere ad aliquem vltimum finem. Quod autem idem effectus 
+      pos<lb ed="#V" n="83" break="no"/>fit habere plures causas finales totales sic patet. Nam aliquis 
+      fa<lb ed="#V" n="84" break="no"/>ber facit aliquitiens duos cultellos vnum ad scindendum 
+      <lb ed="#V" n="85"/>panem et alium ad scindendum carnes et tamen ad istos 
+      duo<lb ed="#V" n="86" break="no"/>fines posset sufficere vnus cultellus. Et posset fieri ad 
+      i<lb ed="#V" n="87" break="no"/>los duos fines. Sed si vnus finis istorum non haberet locum 
+      <lb ed="#V" n="88"/>non minus esset cultellus pro alio.
+    </p>
+            <p xml:id="FrMS88-f33241-d1e256">
+      ¶ Item natura ordinauit lin 
+      <lb ed="#V" n="89"/>guam ad duos fines scilicet ad gustum et ad loquelam: quod si aliquod 
+      <lb ed="#V" n="90"/>non vteretur lingua ad loquendum non minus esset vsus ei 
+      <lb ed="#V" n="91"/>ad gustum: sicut ad finem sibi debitum. Sic est in 
+      propos<lb ed="#V" n="92" break="no"/>to. quod licet mors christi fuerit quodammodo finis 
+      incarna<lb ed="#V" n="93" break="no"/>tionis christi: fuit alia causa vel alius finis quae locum habet nunc dato 
+      <lb ed="#V" n="94"/>quod mors christi transierit: et sic intelligunt sancti.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

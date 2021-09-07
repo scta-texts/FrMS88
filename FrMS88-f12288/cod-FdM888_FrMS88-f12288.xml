@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f12288"><!-- l2d6-7q4 -->
+            <head xml:id="FrMS88-f12288-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f12288-d1e111">
+      Questio. iiii. 
+      <lb ed="#V" n="107"/>QUarta quaestio est. Utrum mirabilia fiant 
+      <lb ed="#V" n="108"/>virtute bonorum angelorum. 
+      <lb ed="#V" n="109"/>Et videtur quod sic. quia Aug. dicit. quod omnia fiebant per 
+      <lb ed="#V" n="110"/>angelos.
+    </p>
+            <p xml:id="FrMS88-f12288-d1e122">
+      ¶ Contra in rebus mirabilibus 
+      <lb ed="#V" n="111"/>tota ratio facti etc. 
+      <lb ed="#V" n="112"/>quod si virtus est forma substantialis vel 
+      acciden<lb ed="#V" n="113" break="no"/>hic dico talis noua absoluta: angelus non potest 
+      <lb ed="#V" n="114"/>faceme. Dnde potest tamen animam reunire. Sed tertiam entitatem nin potest 
+      <lb ed="#V" n="115"/>facem. fiebant autem talia misterio angetus.
+    </p>
+            <p xml:id="FrMS88-f12288-d1e135">
+      ¶ De motu loca 
+      <lb ed="#V" n="116"/>li patet. quod possunt sicut de abacuch. Et de approximatione patet quod 
+      <lb ed="#V" n="117"/>possunt.
+    </p>
+            <p xml:id="FrMS88-f12288-d1e142">
+      ¶ Sed numquid per omnes siunt: Dicitur quod per ordinem virtutum 
+      prin<lb ed="#V" n="118" break="no"/>cipalius: qui est in secunda ierarchia. Ptantes autem coercenti 
+      <lb ed="#V" n="119"/>demones concurrente virtute diuina: si sint fortiores eis 
+      <lb ed="#V" n="120"/>naturali potestate. vt patet ex scriptura multipliciter.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

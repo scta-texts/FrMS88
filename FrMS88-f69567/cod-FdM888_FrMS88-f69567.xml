@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="218-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f69567"><!-- l4d21q5 -->
+            <head xml:id="FrMS88-f69567-Hd1e108">Quaestio 5</head>
+            <p xml:id="FrMS88-f69567-d1e111">
+               <lb ed="#V" n="78"/>QUinta quaestio est de suffragiis 
+      defun<lb ed="#V" n="79" break="no"/>ctorum. Utrum suffragia 
+      ecclesie<lb ed="#V" n="80" break="no"/>valeant defunctis: quod non. quia cum status de 
+      <lb ed="#V" n="81"/>ifunctorum sit nobis dubius superfluum videtur 
+      <lb ed="#V" n="82"/>l nobis orare pro mortuis nisi ecclesia eos 
+      <lb ed="#V" n="83"/>resurrecturos speraret. 2. machabe. 12.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e127">
+      ¶ Contra. ibi 
+      <lb ed="#V" n="84"/>scausa: et salubris est cogitatio pro defunctis exorare etc. 
+      <lb ed="#V" n="85"/>2articuli declarandi.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e134">
+      ¶ Primus arti 
+      <lb ed="#V" n="86"/>hic sunt culus quot sunt genera defunctorum. Aug. 
+      <lb ed="#V" n="87"/>ponit distitonem quadruplicem defunctorum. Nam disequens paps 
+      <lb ed="#V" n="88"/>ntroducit extra de celebratione missarum. cao cum marthe. 
+      <lb ed="#V" n="89"/>quarens vtrum suffragia ecclesie prosint ipsis sanctis ad 
+      au<lb ed="#V" n="90" break="no"/>gmentum glorie.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e147">
+      ¶ Utrum inquit in hoc articulo locum 
+      ha<lb ed="#V" n="91" break="no"/>beat illa distinctio qua docetur quod defunctorum. alii sunt 
+      <lb ed="#V" n="92"/>valde boni. alii valde mali alii mediocriter bom. alii 
+      <lb ed="#V" n="93"/>mediocriter mali. Unde suffragia quae siunt a fidelibus 
+      in<lb ed="#V" n="94" break="no"/>eccleaia pro valde bonis actiones sunt gratiarum pro valde ma 
+      <lb ed="#V" n="95"/>lis consolationes viuorum expiationes vero pro mediocriter 
+      <lb ed="#V" n="96"/>bonis: et propiciationes pro mediocriter malis: tua 
+      discre<lb ed="#V" n="97" break="no"/>tio inuestiget. Olosator autem volens hoc declarare dicit quod val 
+      <lb ed="#V" n="98"/>de boni sunt in paradiso valde mali in inferno et de hoc 
+      fa<lb ed="#V" n="99" break="no"/>cit magnam brigam: mediocriter boni et mediocriter 
+      ma<lb ed="#V" n="100" break="no"/>li: si sint in purgatorio coincidunt in vnum membrum: si dicatur 
+      <lb ed="#V" n="101"/>quod mediocriter boni in paradiso sunt cum modica glearia: 
+      <lb ed="#V" n="102"/>hoc non videtur posse dici: quia ponit de istis in dubio quomodo 
+      pos<lb ed="#V" n="103" break="no"/>sint eis suffragia prodesse. non est difficultas de his qui 
+      <lb ed="#V" n="104"/>sunt in paradiso. si dicatur quod mediocriter mali sunt in in 
+      <lb ed="#V" n="105"/>ferno. tunc etiam non est dubium de illis.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e183">
+      ¶ Dico igitur quod 
+      me<lb ed="#V" n="106" break="no"/>diocriter boni sunt illi de purgatorio mediocriter ma 
+      <lb ed="#V" n="107"/>li sunt illi de inferno cum paucis peccatis mortalibus 
+      </p>
+            <p xml:id="FrMS88-f69567-d1e190">
+               <lb ed="#V" n="108"/>¶ Sed quomodo valent eis suffragia:
+    </p>
+            <p xml:id="FrMS88-f69567-d1e195">
+      ¶ Dicitur quod a deo pene 
+      <lb ed="#V" n="109"/>eorum siunt secundum proportionem eandem non secundum quantitatem. verbi gratia 
+      <lb ed="#V" n="110"/>vnus denarius datus pro eis aufert medietatem. et 
+      ali<lb ed="#V" n="111" break="no"/>medietatem medietatis. et sic in infinitum et per istum modum 
+      <lb ed="#V" n="112"/>nunquam totaliter liberantur.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e206">
+      ¶ Unde bene concedo quod deus 
+      pos<lb ed="#V" n="113" break="no"/>set facere. et isto modo diminuere penam diuidendo totam in 
+      <lb ed="#V" n="114"/>puas partes: et alteram in duas: et sic procedere ex quo habet 
+      <lb ed="#V" n="115"/>gradus secundum intensionem: et remissionem.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e215">
+      ¶ Sed quod deus 
+      fa<lb ed="#V" n="116" break="no"/>ciat tale figmentum non apparet: quia ex quo actus eque sunt 
+      <lb ed="#V" n="117"/>meritorii equalem gradum aufert secundus sicut primus: et si 
+      <lb ed="#V" n="118"/>actus secundus fit paruior. adhuc plus aufert si esset secundum par 
+      <lb ed="#V" n="119"/>uiorem virtutem.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e226">
+      ¶ Dico igitur quod quatuor sunt genera praedicta. 
+      <lb ed="#V" n="120"/>mortuorum: quia aliquo sunt valde mali: puta quin decesserunt 
+      <lb ed="#V" n="121"/>cum peccato mortali. aliquin mediocriter mali. quae 
+      deces<lb ed="#V" n="122" break="no"/>serunt cum peccato originali. Aliqui cum gratia et cum pena. 
+      <lb ed="#V" n="123"/>Aliqui cum gratia et sine pena. primi sunt in inferno. secundi 
+      <lb ed="#V" n="124"/>in limbo. tertii in purgatorio quarti in celo. et sic patet qua 
+      <lb ed="#V" n="125"/>liter valde et mediocriter applicantur istis. patet etiam quod quia 
+      in<lb ed="#V" n="126" break="no"/>li de peradiso sunt in gratia: et de purgatorio sunt in gratia: et ideo 
+      <lb ed="#V" n="127"/>boni. primi tamen meliores: et similiter quae sunt in culpa sunt mali 
+      <lb ed="#V" n="128"/>magis autem qui in pctio actuali.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e249">
+      ¶ Sed quomodo tunc dicit. tua 
+      di<lb ed="#V" n="129" break="no"/>cretio inuestiget.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e254">
+      ¶ Dico quod non dicit hoc quod dubitet. sed quia 
+      <lb ed="#V" n="130"/>non est eque notum de mediis. sicut de extremis. 
+      <lb ed="#V" n="131"/>articulus. est de suffragiis quot 
+      mo<lb ed="#V" n="132" break="no"/>Secundus dis fiunt. Et est sciendum quod Greg. 
+      <!--439.xml-->
+      <pb ed="#V" n="218-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ponit quatuor modos suffragiorum. primus est oblatio 
+      <lb ed="#V" n="2"/>sacerdotum. secunds oratio deuota. tertius elemosvna. 
+      quar<lb ed="#V" n="3" break="no"/>tus ineiunium. Et hec se habent sic per ordinem. quia primo 
+      efficacissi<lb ed="#V" n="4" break="no"/>mum est sacra oblatio eucharistie. secundo deuota oratio. 
+      <lb ed="#V" n="5"/>tertio elemosynarum largitio. quarto ieiunium et peregri 
+      <lb ed="#V" n="6"/>natio.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e283">
+      ¶ Ordo istorum suffragiorum declaratur.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e286">
+      ¶ Primum 
+      <lb ed="#V" n="7"/>reducitur ad latriam quia in missa includuntur actus 
+      dua<lb ed="#V" n="8" break="no"/>rum virtutum scilicet charitatis: et latrie.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e293">
+      ¶ De secundo. quia 
+      ora<lb ed="#V" n="9" break="no"/>tio est actus charitatis que sola est nobilior quacumque 
+      <lb ed="#V" n="10"/>alia: quia habet nobilissimum obiectum.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e300">
+      ¶ Tertio elemosyna. 
+      <lb ed="#V" n="11"/>suis directe sit actus mtirie: et reducitur ad actum iustitie. tamen 
+      <lb ed="#V" n="12"/>bene est melior quam actus ieiunii: qui reducitur ad temporantiam quae est 
+      <lb ed="#V" n="13"/>circa passiones bestiales. et iustitia circa rationales. 
+      </p>
+            <p xml:id="FrMS88-f69567-d1e310">
+               <lb ed="#V" n="14"/>¶ Sed hic. oc. dubia.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e315">
+      ¶ Primum est cum in actu misse sint 
+      <lb ed="#V" n="15"/>duo actus quis eorum est magis efficax.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e320">
+      ¶ Dico quod secundum mo 
+      <lb ed="#V" n="16"/>dum procedendi moralem actus ortionis est melior: quia actus 
+      <lb ed="#V" n="17"/>orationis est virtutis charitatis. actus autem latrie est actus 
+      <lb ed="#V" n="18"/>blationis. ideo ex natam virtutis actus ortionis est nobilior: 
+      <lb ed="#V" n="19"/>ti perfectior. et notandum quod cum fit talis comparatio ortionis 
+      <lb ed="#V" n="20"/>ad oblationem: oblatio accipitur simpliciter. non vt oblatio 
+      ta<lb ed="#V" n="21" break="no"/>lis sacrificii. quia vt sic nobilior est omnibus: non ratione virtutis 
+      <lb ed="#V" n="22"/>sub qua reponitur. sed ratione infinite virtut quam continet. 
+      </p>
+            <p xml:id="FrMS88-f69567-d1e338">
+               <lb ed="#V" n="23"/>¶ 2a dubitatio est. quia dare elemosvnam est facilius quam 
+      ineiu<lb ed="#V" n="24" break="no"/>nare. quid est melius.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e345">
+      ¶ Respondeo in ineiunio concurrit actus 
+      temporan<lb ed="#V" n="25" break="no"/>tie: et actus latrie. verbi. ergo. ieiunare. xl. diebus exo christi in 
+      ho<lb ed="#V" n="26" break="no"/>norem ineiunii christi est actus virtut latrie: et vt illam includit 
+      <lb ed="#V" n="27"/>excedit elte nam.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e354">
+      ¶ Sed remanet dubium. si suffragia pro 
+      de<lb ed="#V" n="28" break="no"/>functis transeant totaliter ad defunctos: vel remaneant apud 
+      <lb ed="#V" n="29"/>facientem.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e362">
+      ¶ Dico quod sicut dans elemosynam duo bona 
+      fa<lb ed="#V" n="30" break="no"/>cit scilicet reficit pauperem: et acqurit meritum vite eterne. ita 
+      <lb ed="#V" n="31"/>iste duo bona facit: quia exhibet illi remedium: et maius bo 
+      <lb ed="#V" n="32"/>num ipse lucratur.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e371">
+      ¶ Ite sibi plus prodest: quia vitam eternam 
+      lu<lb ed="#V" n="33" break="no"/>cratur. sed iste pro qui sit non: sed solum relaxationem pene. 
+      <lb ed="#V" n="34"/>articulus. quibus prosunt ista 
+      suffragia<lb ed="#V" n="35" break="no"/>Tertius Et est sciendum quod solum illis mortuis 
+      pro<lb ed="#V" n="36" break="no"/>sunt quae sunt mediocriter boni. quae sunt in purgatorio. non 
+      <lb ed="#V" n="37"/>illis quae sunt in paradiso: nec illis de inferno: nec illis de 
+      <lb ed="#V" n="38"/>imbo. probo. carentia visionis non recipit maius et minus. 
+      </p>
+            <p xml:id="FrMS88-f69567-d1e387">
+               <lb ed="#V" n="39"/>¶ Sed sunt 4or dubia.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e392">
+      ¶ Primum dubium. videtur quod illis 
+      <lb ed="#V" n="40"/>de paradiso. proficiunt quia dicitur in decreto quod eis cedit in 
+      <lb ed="#V" n="41"/>gloriam. Et in collecta missa dicitur eis sit ad gloriam. nobis 
+      <lb ed="#V" n="42"/>autem prosit ad medelam.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e401">
+      ¶ Dico quod nulla fit ibi 
+      augmen<lb ed="#V" n="43" break="no"/>tatio: et si constaret de aliquo quod esset in paradiso: non essent 
+      <lb ed="#V" n="44"/>pro eo facienda suffragia: sed ipsius suffragia exposcem 
+      <lb ed="#V" n="45"/>da: quia iniuriam facit martyri qui rogat pro martyre 
+      </p>
+            <p xml:id="FrMS88-f69567-d1e410">
+               <lb ed="#V" n="46"/>¶ Secundum dubium. de his qui sunt in inferno.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e416">
+      ¶ 
+      Di<lb ed="#V" n="47" break="no"/>citur quod si constaret: quicumque oraret pro eis peccaret 
+      mor<lb ed="#V" n="48" break="no"/>taliter.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e423">
+      ¶ Sed quid de Grego. qui orauit pro Traiano 
+      <lb ed="#V" n="49"/>imperatore gentili.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e428">
+      ¶ Dicitur quod fuit dispesatum cum eo 
+      <lb ed="#V" n="50"/>et hoc propter fuit verberatus graui dolore in hac vi 
+      <lb ed="#V" n="51"/>ta.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e435">
+      ¶ Tertium. de illis qui sunt in limbo.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e438">
+      ¶ Dicitur enim 
+      <lb ed="#V" n="52"/>quod nullo modo est orandum pro eis.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e443">
+      ¶ Quarta di. quia 
+      sal<lb ed="#V" n="53" break="no"/>tem peccata venialia puniuntur pena temporali. ergo 
+      vi<lb ed="#V" n="54" break="no"/>detur quod pro eis possit orari.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e451">
+      ¶ Dicitur quod nullam 
+      adnexio<lb ed="#V" n="55" break="no"/>nem habent cum ecclesia. et ideo nullam influentiam nullam 
+      <lb ed="#V" n="56"/>gratiam nullumque beneficium ab ea recipiunt. 
+      <lb ed="#V" n="57"/>articulus est. a quibus facienda sunt 
+      <lb ed="#V" n="58"/>Quartus suffragia. vbi sciendum quod in 
+      quadrupli<lb ed="#V" n="59" break="no"/>ti statu sunt homines hus vite. aliqui enim sunt in gratia 
+      baptisma<lb ed="#V" n="60" break="no"/>li. Aliqui in gratia penitentiali. Aliqui in culpa mortali 
+      actua<lb ed="#V" n="61" break="no"/>li. Aliqui in culpa originali: vt infideles. primorum duorum actus 
+      <lb ed="#V" n="62"/>sunt meritorii. de infidelibus non est dubium quod non sunt. de 
+      fi<lb ed="#V" n="63" break="no"/>delibus autem existentibus in peccato mortali. dicitur quod non. quia 
+      <lb ed="#V" n="64"/>peccatores deus non audit.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e475">
+      ¶ Sed contra. suffragia prosunt 
+      <lb ed="#V" n="65"/>ro penis temporalibus. sed existens in peccato mortali meretu 
+      <lb ed="#V" n="66"/>et potest mereri bona temporalia.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e482">
+      ¶ Secundo. quia ostensum est 
+      <!--439.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>secundum Scuod. quod homo in peccato mortali potest satisfacere pio 
+      <lb ed="#V" n="68"/>deccato proprio. ergo et alieno.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e493">
+      ¶ Dico quod suffragia 
+      ta<lb ed="#V" n="69" break="no"/>lium non sunt totaliter inutilia. sunt tamen orationes iustorum 
+      <lb ed="#V" n="70"/>meliores.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e500">
+      ¶ Intelligendum tamen quod suffragia talia vel sunt 
+      <lb ed="#V" n="71"/>niversalis ecclesie: et sic sunt equalia omnibus: sed referendo ad 
+      <lb ed="#V" n="72"/>singularem personam. non sunt equalia. 
+      <lb ed="#V" n="73"/>articulus. quantum prosunt.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e509">
+      ¶ Sciendum 
+      <lb ed="#V" n="74"/>Quintus quod non est notum quantum demunt vel 
+      dimi<lb ed="#V" n="75" break="no"/>nuunt de pena illa.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e517">
+      ¶ Sed dubiu est. si omnibus equaliter 
+      <lb ed="#V" n="76"/>prsunt.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e522">
+      ¶ Dicit Grati. quod aliquod suffragium factum in 
+      eccle<lb ed="#V" n="77" break="no"/>na ab aliquo determinate omnibus quidem equaliter prodest. sed 
+      <lb ed="#V" n="78"/>ille tantum habet honorem.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e529">
+      ¶ Sed contra est auctoritas 
+      Grego<lb ed="#V" n="79" break="no"/>rii in epostila ad bonifacium.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e534">
+      ¶ Dico igitur. quod suffragia quae 
+      <lb ed="#V" n="80"/>siunt ab eccleaia indeterminate pro omnibus fidelibus de 
+      <lb ed="#V" n="81"/>functis plus prosunt illis quae sunt in maiori gratia. probatur: 
+      <lb ed="#V" n="82"/>quia comunicatio secundum iustitiam fit. sic quod meliori et plus habenti de 
+      <lb ed="#V" n="83"/>merito. plus distribuitur: et minus digno minus. Si autem 
+      <lb ed="#V" n="84"/>pro determinata persona fiant. tunc quia secundum intentionem merent 
+      <lb ed="#V" n="85"/>portet fieri distributio. ideo plus prodest illi pro quo fit 
+      specia<lb ed="#V" n="86" break="no"/>iter quam aliis. Sed si pro personis que non sunt capaces. sicut 
+      <lb ed="#V" n="87"/>sunt existentes in inferno. tunc dicitur quod fit eo modo quo christus ma 
+      <lb ed="#V" n="88"/>the. x. loquitur de pace. sinaunt ad vos reuertetur.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e556">
+      ¶ 
+      Pu<lb ed="#V" n="89" break="no"/>tatur tamen a quibusdam quod reuertantur etiam talia suffragia ad 
+      in<lb ed="#V" n="90" break="no"/>los quibus magis obligantur. Sed si pro illis qui sunt in 
+      pa<lb ed="#V" n="91" break="no"/>radiso: tunc putatur et rationabiliter quod distribuantur illa 
+      suf<lb ed="#V" n="92" break="no"/>fragia secundum voluntatem et distributionem ac ordinationem 
+      il<lb ed="#V" n="93" break="no"/>lorum pro quibus siunt: et distribuuntur vt placet eis. 
+      <lb ed="#V" n="94"/>articulus. qualiter prosunt.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e572">
+      ¶ Dicunt 
+      aliqui<lb ed="#V" n="95" break="no"/>c 
+      <lb ed="#V" n="96"/>Sextus quod modo commnicabili. sicut res spirituales que 
+      ex<lb ed="#V" n="97" break="no"/>communicatione non diuinduntur. et ideo tantum prosunt illis 
+      <lb ed="#V" n="98"/>simul: sicut vni soli.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e584">
+      ¶ Contra. arguit Scotus. quandocumque 
+      <lb ed="#V" n="99"/>est aliquod bonum limitatum: illud non se habet equaliter ad 
+      plu<lb ed="#V" n="100" break="no"/>res: et ad vnum. sed bonum cuiuslibet sacerdoti meritorium est bo 
+      <lb ed="#V" n="101"/>num limitatum. ergo non se habet equaliter ad plures: et ad vnum. 
+      </p>
+            <p xml:id="FrMS88-f69567-d1e593">
+               <lb ed="#V" n="102"/>¶ Secundo indeterminatum / ad plura eiusdem rationis 
+      qua<lb ed="#V" n="103" break="no"/>ratione ad duo et ad infinita. si ergo eiusdem efficacie est 
+      pro<lb ed="#V" n="104" break="no"/>duobus sicut pro vno. sequitur quod pro infinitis illud bonum 
+      <lb ed="#V" n="105"/>limmitatum se extendet.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e604">
+      ¶ Tertio quia qualibet die liberarentur 
+      <lb ed="#V" n="106"/>omnes anime ab ecclesia vna die de purgatorio. supponitur enim 
+      <lb ed="#V" n="107"/>quod tot suffragia possunt fieri ab eccleia vna die pro vna anima. 
+      <lb ed="#V" n="108"/>quod hec liberetur ista die ab ecclesia.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e613">
+      ¶ Aliter. ista 
+      suffragia<lb ed="#V" n="109" break="no"/>comunicentur omnibus: licet applicentur vni: vt cum dicitur anime famuli 
+      <lb ed="#V" n="110"/>tui. et omnium fidelium defunctorum: tunc si prosunt omnibus 
+      si<lb ed="#V" n="111" break="no"/>cut isti cum pro ista liberanda sint sufficientes. et tunc pro 
+      <lb ed="#V" n="112"/>omnibus: et tunc qualibet die omnes liberabuntur.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e624">
+      ¶ 
+      Quar<lb ed="#V" n="113" break="no"/>to. quia tunc frustra essent speciales ortationes per eccleiam 
+      or<lb ed="#V" n="114" break="no"/>dinate. tantum enim valeret celebrare pro omnibus communiter: sicut 
+      <lb ed="#V" n="115"/>pro aliquo specialiter. et sic ecclesia frustraretur suo intento¬ 
+      </p>
+            <p xml:id="FrMS88-f69567-d1e633">
+               <lb ed="#V" n="116"/>¶ Teneo igitur quod missa vnius sacerdotis prodest plus 
+      <lb ed="#V" n="117"/>vni pro quo fit quam duobus vel pluribus ceteris paribus. 
+      </p>
+            <p xml:id="FrMS88-f69567-d1e641">
+               <lb ed="#V" n="118"/>¶ Sed occur. difficultas si obligatus pro duobus ad 
+      dicen<lb ed="#V" n="119" break="no"/>dum missam pro quolibet. vtrum per vnam satisfaceret 
+      vtri<lb ed="#V" n="120" break="no"/>que.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e650">
+      ¶ Dicitur quod non potest duobus satisfacere dicendo vnam missam: 
+      <lb ed="#V" n="121"/>nisi in missa gregoriana. quando dicitur vna orto vel due. 
+      <lb ed="#V" n="122"/>g articulus. est de solennitatibus que 
+      <lb ed="#V" n="123"/>Septimus fiunt. sicut candelarum accensio 
+      pan<lb ed="#V" n="124" break="no"/>ni aurei depositio etc.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e661">
+      ¶ Deatus Aug. de ciui. dei. 
+      di<lb ed="#V" n="125" break="no"/>cit quod magis sunt viuorum solatia quam mortuorum beneficia 
+      </p>
+            <p xml:id="FrMS88-f69567-d1e666">
+               <lb ed="#V" n="126"/>¶ Distinguendum tamen est quod vel fiunt pro vanagloria: 
+      vel<lb ed="#V" n="127" break="no"/>vt ecclenia ornetur. et ministri ecclesie et pauperes sustenten 
+      <lb ed="#V" n="128"/>tur. Si primo modo dicendum est non ea prodesse sed 
+      ob<lb ed="#V" n="129" break="no"/>esse. Secundo modo possunt fieri sicut elemosyne. 
+      <lb ed="#V" n="130"/>articulus. est de cerimoniis que fiunt 
+      <lb ed="#V" n="131"/>Octauus in suffragis: sicut aque aspersio. turi 
+      <lb ed="#V" n="132"/>ficatio etc. talia.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e684">
+      ¶ Dico quod sunt operationes latrie et 
+      <lb ed="#V" n="133"/>ideo eis prosunt sicut actus bonarum virtutum.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e689">
+      ¶ Sed  
+      <!--440.xml-->
+      <pb ed="#V" n="219-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quid de cerimoniis vetularum: sicut cantus lamenta 
+      <lb ed="#V" n="2"/>biles dicere super sepulchrum vel feretrum.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e703">
+      ¶ Dico 
+      <lb ed="#V" n="3"/>quod sunt superstitiones. et declinant ad vdolatriam. et ideo 
+      <lb ed="#V" n="4"/>non prosunt: sed nocent. sed si non defuncto saltem 
+      ta<lb ed="#V" n="5" break="no"/>li a fieri procurantibus. 
+      <lb ed="#V" n="6"/>articulus est. videre quomodo absoluimus. 
+      Sci<lb ed="#V" n="7" break="no"/>Monus endum est quod aliqua absolutiones sunt per modum 
+      <lb ed="#V" n="8"/>orationis et prosunt per modum suffragii: vel per modum 
+      iurisdi<lb ed="#V" n="9" break="no"/>tionis. sicut excomunicatusm absoluiter. Dico quod tales absolutio 
+      <lb ed="#V" n="10"/>nes in re nihil faciunt. facit ergo talis absolutio illud quod facit 
+      <lb ed="#V" n="11"/>sacerdos quando contritum absoluit. quia dicit eum absolutum. ita in propoto 
+      <lb ed="#V" n="12"/>sito ista absolutio facua quod fideles audent orare pro tali. 
+      <lb ed="#V" n="13"/>articulus. est de sepulturis. Dicit 
+      Au<lb ed="#V" n="14" break="no"/>Secimus gu. in lib. de agenda cura mortuorum. 
+      <lb ed="#V" n="15"/>quod sepultura in loco sacro bona dicitur esse propter merita 
+      mul<lb ed="#V" n="16" break="no"/>ta scorum multorum quibus sociantur. vel quando est locus vbi fiunt 
+      <lb ed="#V" n="17"/>plures orationes.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e738">
+      ¶ Sed si aliquis vouit sepeliri alicubi: et 
+      <lb ed="#V" n="18"/>videatur sibi vtilius in morte sepeliri alibi:
+    </p>
+            <p xml:id="FrMS88-f69567-d1e743">
+      ¶ Dicitur quod potest. si 
+      <lb ed="#V" n="19"/>cut vouens paregrinationem et postea faceret meliorem actum 
+      <lb ed="#V" n="20"/>auciment eprti posset. sicut vouens intrare religionem latiorem 
+      <lb ed="#V" n="21"/>si intraret strictiorem: potest absolui ita dicitur hic. 
+      <lb ed="#V" n="22"/>articulus est. si sepelire 
+      mortu<lb ed="#V" n="23" break="no"/>Undecimus os est opus miere.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e756">
+      ¶ Dicitur ab aliquibus 
+      <lb ed="#V" n="24"/>quod in illo casu in quo non inueniretur qui sepeliret: tunc est opus 
+      <lb ed="#V" n="25"/>mine. alitus autem non.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e763">
+      ¶ Sed hoc nihil est. quod enim de se opus mine est. 
+      <lb ed="#V" n="26"/>quocumque alio concurrente manet opus mine. Alis quae daret 
+      <lb ed="#V" n="27"/>eltenam quando alius esset qui vellet eam dare non faceret opus mtirie. 
+      </p>
+            <p xml:id="FrMS88-f69567-d1e770">
+               <lb ed="#V" n="28"/>¶ Sed contra videtur magis esse opus latrie. quia secundum Dpon. 
+      <lb ed="#V" n="29"/>de eccllelca ierarchia. Cerimonie quae siunt ibi pertinent ad 
+      <lb ed="#V" n="30"/>latriam.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e780">
+      ¶ Distinguo igitur. et dico quod sepelire mortuum quod 
+      <lb ed="#V" n="31"/>inuenitur in causapis est opus mine. sed tradere aliquem 
+      eccle<lb ed="#V" n="32" break="no"/>siastice sepulture est opus latrie. ita quod concurrit ibi 
+      du<lb ed="#V" n="33" break="no"/>plex actus duarum virtutum scilicet mtirie et latrie. 
+      <lb ed="#V" n="34"/>articulus et vltimus est. si opera 
+      <lb ed="#V" n="35"/>Duodecimus mala hoc facta eis nocent. si 
+      bo<lb ed="#V" n="36" break="no"/>na prosunt.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e796">
+      ¶ Dicitur quod non. quia Ete. dicitur. filius non portabit 
+      iniqui<lb ed="#V" n="37" break="no"/>tate patris: nec econverso.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e801">
+      ¶ Sed contra. si haberdes non restituunt fore 
+      fa<lb ed="#V" n="38" break="no"/>cta videtur vergi in dannum illius qui viuens non restituit: nec 
+      aliu<lb ed="#V" n="39" break="no"/>pro eo. 2o si nam dantur legata pro animabus suis quae dari statue 
+      <lb ed="#V" n="40"/>runt: quia et tunc cessant ortiones et sacrificia quae fierent pro eis. 
+      <lb ed="#V" n="41"/>3o si excomunicantur quia tunc priuantur beneficiis ecclesie. 4o. si 
+      <lb ed="#V" n="42"/>ponatur talis casus. quidam praecepit filiis vt interficerentu 
+      <lb ed="#V" n="43"/>quendam inocentem. in morte autem de hoc peccato penituit: sed 
+      fi<lb ed="#V" n="44" break="no"/>lii nihilominus exequuntur eis praeceptum.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e819">
+      ¶ Ad primum dico quod 
+      <lb ed="#V" n="45"/>si fecit quod in se erat: non propter hoc amplius erit in purgatorio. sed 
+      <lb ed="#V" n="46"/>tota culpa erit in haberdibus vel in exequentibus testantum.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e826">
+      ¶ Ad  
+      <lb ed="#V" n="47"/>2m nullum malum positiuum ex hoc sequitur. quia carentia 
+      suffra<lb ed="#V" n="48" break="no"/>giorum bene consequitur. quod est priuatiuum.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e833">
+      ¶ Ad 3m. dico quod ex 
+      <lb ed="#V" n="49"/>comunicatio non directe: sed ex consequenti sibi obest: quia eccletia non 
+      inten<lb ed="#V" n="50" break="no"/>dit orare pro eo.
+    </p>
+            <p xml:id="FrMS88-f69567-d1e841">
+      ¶ Ad vltimum bene quidem punitur pro illa 
+      cul<lb ed="#V" n="51" break="no"/>pa praecedenti quand scilicet hoc praecepit. sed pro actu filiorum non.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

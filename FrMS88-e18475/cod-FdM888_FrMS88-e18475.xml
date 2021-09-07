@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="26-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e18475"><!-- l1d3q8 -->
+            <head xml:id="FrMS88-e18475-Hd1e108">Quaestio 8</head>
+            <p xml:id="FrMS88-e18475-d1e111">
+      Quaestio. viii. 
+      <lb ed="#V" n="126"/>omnis actus intelligendi causetur 
+      <lb ed="#V" n="127"/>Tum ab istis duobu scilicet patia et 
+      ob<lb ed="#V" n="128" break="no"/>iecto. quod sic. quia cause essentialiter ordinate 
+      <lb ed="#V" n="129"/>omnes necessario requiruntur ad effectum communem: sed 
+      <lb ed="#V" n="130"/>iste sunt essentialiter ordinate. ergo etc. 
+      <lb ed="#V" n="131"/>quia intellectus quando intelligit seipsum non 
+      requri<lb ed="#V" n="132" break="no"/>Contra tur ibi species. igitur etc.
+    </p>
+            <p xml:id="FrMS88-e18475-d1e129">
+      ¶ hic dico breuitur 
+      <!--56.xml-->
+      <pb ed="#V" n="27-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quod aliquando non requritur nisi vna causa: sicut quando intellectus intelligitur 
+      <lb ed="#V" n="2"/>seipsum. aliquando due sicut quando intellectus nudus intelligit alia. 
+      <lb ed="#V" n="3"/>aliquando tres: sicut quando intellectus est habituatus. habitus enim tunc con 
+      <lb ed="#V" n="4"/>currit cum obiecto et potentia. Aliquando 4or scilicet quando potentia volitiua concun 
+      <lb ed="#V" n="5"/>rit imperando. mouet enim tunc potentiae intellectiuam. quod non posset 
+      <lb ed="#V" n="6"/>fieri sine impressione alicuius. Istud autem impressum non videtur 
+      <lb ed="#V" n="7"/>aliud esse nisi actus intelligendi. et isto modo verificatur verbum Aug 
+      <lb ed="#V" n="8"/>quod dicit de verbo imperato quod voluntas concurrit ad imperandum sid 
+      <lb ed="#V" n="9"/>ue producendum verbum quod ex amore procedit.
+    </p>
+            <p xml:id="FrMS88-e18475-d1e158">
+      ¶ Sed tunc est 
+      diffifi<lb ed="#V" n="10" break="no"/>quando idem intelligitur se. videtur enim tunc idem referri ad se relatione reali 
+      <lb ed="#V" n="11"/>disquiperantie scilicet mouenti ad motum.
+    </p>
+            <p xml:id="FrMS88-e18475-d1e165">
+      ¶ Dicunt aliqui quod quando in 
+      <lb ed="#V" n="12"/>telligens et intellectum sunt idem non est mouens et motum 
+      </p>
+            <p xml:id="FrMS88-e18475-d1e171">
+               <lb ed="#V" n="13"/>¶ Sed adhuc isto posito videtur intelligentis ad intellectum respectus rea 
+      <lb ed="#V" n="14"/>lis esse: quia intelligens dicitur alicuius intellecti. Nec potest dici quod hoc 
+      <lb ed="#V" n="15"/>non repugnat propter actum nouum qui ibi est: quia obiectum intelligibile 
+      <lb ed="#V" n="16"/>refertur ad principium intellectiuum anteque intelligatur nin mediante actu 
+      <lb ed="#V" n="17"/>intelligendi. Potest dici quod non est relatio formalis: sed 
+      fundamenta<lb ed="#V" n="18" break="no"/>lis: vel si ponatur respecus formalis et realis potest dici quod 
+      <lb ed="#V" n="19"/>hoc non est inconueniens propter diuersas rationes reales inuentas: quia 
+      <lb ed="#V" n="20"/>sunt intellectualitas et intelligibilitas: vel sunt passiones 
+      <lb ed="#V" n="21"/>vel rationes formales in intellectu. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

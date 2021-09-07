@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f23601"><!-- l2d43q1 -->
+            <head xml:id="FrMS88-f23601-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f23601-d1e111">
+               <lb ed="#V" n="50"/>Est praeterea quoddam genus peccati. 
+      <lb ed="#V" n="51"/>CIrca dist. 43. Quero quatuor 
+      quastio<lb ed="#V" n="52" break="no"/>nes.
+    </p>
+            <p xml:id="FrMS88-f23601-d1e120">
+      ¶ Prima quaestio est. vtrum 
+      <lb ed="#V" n="53"/>proprie sit aliquod peccatum contra spiritum sanctum videtur 
+      <lb ed="#V" n="54"/>quod non: quia Io. qui me odit et patrem meum 
+      <lb ed="#V" n="55"/>ondit: et per consequens spiritum sanctum: sed non 
+      <lb ed="#V" n="56"/>est aliquod peccatum proprie in patrem vel 
+      <lb ed="#V" n="57"/>in filium. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f23601-d1e133">
+      ¶ Contra. quia in math. dicitur qui pecca 
+      <lb ed="#V" n="58"/>uerit in patrem et filium dimittetur ei. qui autem in spiritum 
+      <lb ed="#V" n="59"/>sanctum neque in hoc seculo neque in futuro. 
+      <lb ed="#V" n="60"/>aliquin. quod licet quodam modo 
+      appropria<lb ed="#V" n="61" break="no"/>Hic dicuni tum sit aliquod pecatum in spicitum sanctum: tame 
+      <lb ed="#V" n="62"/>nullum proprie: quia eadem est ratio formalis offensionis in 
+      om<lb ed="#V" n="63" break="no"/>nibus personis. Sed vbi eadem ratio offense: et idem est pec 
+      <lb ed="#V" n="64"/>catum: sed offensa respicit tres personas equaliter. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f23601-d1e151">
+      ¶ Sed 
+      <lb ed="#V" n="65"/>contra quod proprie sit aliquod peccatum in spiritum sanctum: vel in perso¬ 
+      <!--330.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>nam spiritus sancti: quia peccatum insidelitatis est discredere 
+      <lb ed="#V" n="67"/>sed arrius et sui sequaces discrediderunt spiritum 
+      san<lb ed="#V" n="68" break="no"/>ctum: quem minorem patre et filio asseruerunt. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f23601-d1e168">
+      ¶ Item 
+      <lb ed="#V" n="69"/>spiritus sanctus potest odiri sine aliis personis: quia aliquis potest 
+      <lb ed="#V" n="70"/>suspendere actum charitatis a persona spiritus sancti: quo 
+      fa<lb ed="#V" n="71" break="no"/>cto erit in peccato odii respectu spiritus sancti. ergo etc 
+      </p>
+            <p xml:id="FrMS88-f23601-d1e177">
+               <lb ed="#V" n="72"/>¶ Tertio. quia potest aliquins spiritum sanctum blasphemare 
+      <lb ed="#V" n="73"/>sicut patrem et filium.
+    </p>
+            <p xml:id="FrMS88-f23601-d1e184">
+      ¶ Quarto: quia dstincta festiuitas 
+      fi<lb ed="#V" n="74" break="no"/>de spiritu sancto: et sic proprie veneratur: et sic ipsum non 
+      velle<lb ed="#V" n="75" break="no"/>colere est proprium peccatum in spiritum sanctum.
+    </p>
+            <p xml:id="FrMS88-f23601-d1e191">
+      ¶ Ideo ditur 
+      <lb ed="#V" n="76"/>quod est proprie peccatum in ipsum: quia peccatum aliquod potest 
+      pro<lb ed="#V" n="77" break="no"/>prie spiritum scum respicere pro obiecto: vt dictum est. 
+      er<lb ed="#V" n="78" break="no"/>go etc.
+    </p>
+            <p xml:id="FrMS88-f23601-d1e200">
+      ¶ Sed contra 4r. primo sic: quia in diuinis non est voluntas 
+      <lb ed="#V" n="79"/>personalis: sed tantum essentialis: et illa est vna: sed 
+      volun<lb ed="#V" n="80" break="no"/>tas diuina solum formaliter offenditur. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f23601-d1e207">
+      ¶ Secum 
+      <lb ed="#V" n="81"/>do sic. bonitas in diuinis est vna tantum: sed omne 
+      pecca<lb ed="#V" n="82" break="no"/>tum obuiat bonitati diuine in tribus personis. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f23601-d1e215">
+               <lb ed="#V" n="83"/>¶ Tertio. quia influentia inspirationis diuine ad bonum est 
+      <lb ed="#V" n="84"/>a tribus personis equaliter: quia earum opera ad extra sunt in 
+      <lb ed="#V" n="85"/>diuisa: ergo resistere illi inspirationi est offensio equaliter 
+      <lb ed="#V" n="86"/>trium personarum.
+    </p>
+            <p xml:id="FrMS88-f23601-d1e226">
+      ¶ Quarto. quia vna est diuinitas trium 
+      <lb ed="#V" n="87"/>personarum: sed peccatum est offensiuum deitatis. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f23601-d1e231">
+               <lb ed="#V" n="88"/>¶ Ad primum dico. quod aliquod peccatum respicit personam: vt 
+      <lb ed="#V" n="89"/>formale obiectum. Sed semper habitudo peccati ad bonita 
+      <lb ed="#V" n="90"/>tem diuinam est vna: sed peccatum formalius respicitur ab 
+      <lb ed="#V" n="91"/>obiecto.
+    </p>
+            <p xml:id="FrMS88-f23601-d1e242">
+      ¶ Ad 2m dico. quod vnius est vt obiectio sed trium 
+      <lb ed="#V" n="92"/>est vt offensa.
+    </p>
+            <p xml:id="FrMS88-f23601-d1e247">
+      ¶ Ad 3m dico. quod resistere inspirationi 
+      di<lb ed="#V" n="93" break="no"/>uine proprie est trium: sed appropriate vnius.
+    </p>
+            <p xml:id="FrMS88-f23601-d1e252">
+      ¶ Ad 4m 
+      <lb ed="#V" n="94"/>dicitur sicut ad primum.
+    </p>
+            <p xml:id="FrMS88-f23601-d1e258">
+      ¶ Ad euidentiam autem predictorum est intel 
+      <lb ed="#V" n="95"/>ligendum quod quedam spiritui sancto attribuuntur proprie 
+      <lb ed="#V" n="96"/>et non appropriate: sicut spiratio passiua. quedam no 
+      pro<lb ed="#V" n="97" break="no"/>prie: sed appropriate: vt bonitas. quedam vero proprie 
+      <lb ed="#V" n="98"/>et appropriate: vt spiritus. Quedam vero nec proprie 
+      nec<lb ed="#V" n="99" break="no"/>appropriate: vt est deitas. Eodem modo quedam peccata 
+      <lb ed="#V" n="100"/>spiritui sancto attribuuntur proprie et non appropriate 
+      si<lb ed="#V" n="101" break="no"/>cut blasphemia. quaedam non proprie sed appropriate: sicut 
+      <lb ed="#V" n="102"/>peccatum ex certa malitia: quedam proprie et appropria 
+      <lb ed="#V" n="103"/>te: vt abnegatio spiritus sancti. Quedam nec proprie 
+      <lb ed="#V" n="104"/>nec appropriate: sicut negatio diuinitatis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

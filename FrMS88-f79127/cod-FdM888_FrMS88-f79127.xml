@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f79127"><!-- l4d45q4 -->
+            <head xml:id="FrMS88-f79127-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f79127-d1e111">
+               <lb ed="#V" n="89"/>Quarto queritur. vtrum anima possit se 
+      re<lb ed="#V" n="90" break="no"/>unire corpori organico propria 
+      <lb ed="#V" n="91"/>virtute. Quod sic. quia in egechie. scribitur. 
+      ingres<lb ed="#V" n="92" break="no"/>sus est spiritus in ossibus etc.
+    </p>
+            <p xml:id="FrMS88-f79127-d1e122">
+      ¶ Contra. ibidem 
+      <lb ed="#V" n="93"/> dicitur a quatuor ventis veni spiritus etc. 
+      <lb ed="#V" n="94"/>ergo per adductionem alicuius. 
+      <lb ed="#V" n="95"/>4a conclusiones.
+    </p>
+            <p xml:id="FrMS88-f79127-d1e131">
+      ¶ prima est. quod 
+      anim<lb ed="#V" n="96" break="no"/>hic introducuntur non potest seipsam vnir 
+      <lb ed="#V" n="97"/>corpori organico.
+    </p>
+            <p xml:id="FrMS88-f79127-d1e138">
+      ¶ prima ratio. est hoc quia quandocumque aliquod agens 
+      in<lb ed="#V" n="98" break="no"/>ducit aliquam formam in materia illius: est nobilius tota entitate 
+      <lb ed="#V" n="99"/>producta: sed anima non est nobilior tota entitate 
+      producta<lb ed="#V" n="100" break="no"/>compositi: quia esset nobilior seipsa. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f79127-d1e148">
+      ¶ 2a ratio: quia omnis 
+      causa<lb ed="#V" n="101" break="no"/>totalis continet virtualiter effectum: sed anima non continet totam istam 
+      <lb ed="#V" n="102"/>entitem compositi virtualiter.
+    </p>
+            <p xml:id="FrMS88-f79127-d1e155">
+      ¶ 3o quia dicitur gen. 2o. quod deus spici 
+      <lb ed="#V" n="103"/>rauit in faciem eius spiraculum vite. Similiter aia si posset 
+      <lb ed="#V" n="104"/>se reunire posset resuscitare corpus.
+    </p>
+            <p xml:id="FrMS88-f79127-d1e162">
+      ¶ 2a conclusio quod nec 
+      ange<lb ed="#V" n="105" break="no"/>lus: quia non continet virtualiter aliquam formam absolutam. 2o: quia secundum 
+      <lb ed="#V" n="106"/>Augustis li gen. ad literam nullam formam absolutam producere potest. 
+      </p>
+            <p xml:id="FrMS88-f79127-d1e169">
+               <lb ed="#V" n="107"/>¶ 3a conclusio quod nec agens naturale. quia prius producit formam quam composium 
+      </p>
+            <p xml:id="FrMS88-f79127-d1e174">
+               <lb ed="#V" n="108"/>¶ 4a conclusio. quia exquo nullus alius nisi solus deus hoc potest: quia 
+      nul<lb ed="#V" n="109" break="no"/>lus alius: et est miraculum.
+    </p>
+            <p xml:id="FrMS88-f79127-d1e181">
+      ¶ Sed oc. difficultas primo. quia agens 
+      natura<lb ed="#V" n="110" break="no"/>le per approximationem actiui ad passum potest causare aliquam 
+      <lb ed="#V" n="111"/>formam: et ita dicetur hoc.
+    </p>
+            <p xml:id="FrMS88-f79127-d1e189">
+      ¶ Dico hoc quod tunc oportet quod illud quod 
+      ap<lb ed="#V" n="112" break="no"/>proximat habeat vim actiuam respectu talis entitatis.
+    </p>
+            <p xml:id="FrMS88-f79127-d1e194">
+      ¶ 2a di. 
+      <lb ed="#V" n="113"/>ex quo materiam disponit sufficienter fcam dispositione vltimata vel 
+      <lb ed="#V" n="114"/>sufficiens. Dico quod sp requritur agens imprimens.
+    </p>
+            <p xml:id="FrMS88-f79127-d1e201">
+      ¶ 3a difficultas. quia 
+      <lb ed="#V" n="115"/>videtur quod humanitas non sit nisi per resultationem.
+    </p>
+            <p xml:id="FrMS88-f79127-d1e206">
+      ¶ Dico quod ad 
+      <lb ed="#V" n="116"/>stam resultationem et vnionem formalem requritur agens. vnde lice 
+      <lb ed="#V" n="117"/>inesse compositi resultet ex istis: tamen in fieri oportet quod causa 
+      extrin<lb ed="#V" n="118" break="no"/>seca concurrat.
+    </p>
+            <p xml:id="FrMS88-f79127-d1e215">
+      ¶ 4a difficultas. quia si ab eterno ponatur quod sit 
+      <lb ed="#V" n="119"/>mam et forma. videtur quod illa 3a entitas resultet sine agentem. 
+      </p>
+            <p xml:id="FrMS88-f79127-d1e220">
+               <lb ed="#V" n="120"/>¶ Contra hoc: quia sco. dicit quod omne compositum est necessarium 
+      <lb ed="#V" n="121"/>nomini.
+    </p>
+            <p xml:id="FrMS88-f79127-d1e228">
+      ¶ Dico quod non: sed si ponerentur ab eterno vni 
+      <lb ed="#V" n="122"/>ta: non videtur quod requireretur aliquod vniens.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

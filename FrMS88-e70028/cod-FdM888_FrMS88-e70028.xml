@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 9</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 9</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="94-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e70028"><!-- l1d29q9 -->
+            <head xml:id="FrMS88-e70028-Hd1e108">Quaestio 9</head>
+            <p xml:id="FrMS88-e70028-d1e111">
+      Quaestio. ix. 
+      <lb ed="#V" n="112"/>semper inascatur irelto eiusdem 
+      <lb ed="#V" n="113"/>Tum rationis inter extrema eiusdem 
+      <lb ed="#V" n="114"/>rationis inquantum eiusdem rationis. 
+      <lb ed="#V" n="115"/>quod inter extrema eiusdem 
+      <lb ed="#V" n="116"/>hic dico rationis inquantum eiusdem 
+      <lb ed="#V" n="117"/>rationis sunt. inascitur relatio eiusdem rationis.
+    </p>
+            <p xml:id="FrMS88-e70028-d1e127">
+      ¶ hoc probo 4 
+      <lb ed="#V" n="118"/>Primo sic. Idem inquantum idem non est natum facere nisi 
+      idemi<lb ed="#V" n="119" break="no"/>illud enim principium tenet in necessario agentibus. ergo cum illa quae 
+      <lb ed="#V" n="120"/>sunt eiusdem rationis vt sic: sint eadem semper. semper 
+      causa<lb ed="#V" n="121" break="no"/>bunt relationem eiusdem rationis. cum sint necessario agentia. 
+      </p>
+            <p xml:id="FrMS88-e70028-d1e138">
+               <lb ed="#V" n="122"/>¶ 2o sic. Ubi agens eiusdem rationis et passum eiusdem 
+      ratio<lb ed="#V" n="123" break="no"/>nis. vt sic: non causabitur effectus nisi eiusdem rationis: sed 
+      <lb ed="#V" n="124"/>extrema: per positum: sunt agentia reitum ipsarum relationum eiusdem 
+      ratio<lb ed="#V" n="125" break="no"/>nis. et similiter susceptiua. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e70028-d1e149">
+      ¶ 3o. Que fundantur super 
+      <lb ed="#V" n="126"/>vnum oportet quod sint eiusdem rationis: vt sic. sed relationes que sunt 
+      <lb ed="#V" n="127"/>inter extrema eiusdem rationis inquantum eiusdem rationis sunt. 
+      <lb ed="#V" n="128"/>fundantur super vnum. ergo non poterunt esse alterius et alteris 
+      <lb ed="#V" n="129"/>rationis.
+    </p>
+            <p xml:id="FrMS88-e70028-d1e161">
+      ¶ 4o. Quecumque sunt eiusdem rationis inquantum hmodi 
+      <lb ed="#V" n="130"/>non possunt dicere difformitatem: et vt sic sunt vnum: sed 
+      quacun<lb ed="#V" n="131" break="no"/>que non habent inter se aliquam difformitatem non possunt 
+      respe<lb ed="#V" n="132" break="no"/>ctus fundare difformes. ergo fuindabunt vniformes. 
+      <!--192.xml-->
+      <pb ed="#V" n="95-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Ideo dico quod impossibile est quod inter extrema eiusdem rationis vt 
+      <lb ed="#V" n="2"/>eiusdem rationis sunt. inascatur relatio nisi eiusdem rationis.
+    </p>
+            <p xml:id="FrMS88-e70028-d1e181">
+      ¶ hoc 
+      <lb ed="#V" n="3"/>confirmatur 4r. Primo sic. Quandocumque aliquod agens non habet. 
+      <lb ed="#V" n="4"/>vim productiuam nisi eiusdem rationis. impossibile est quod effect 
+      <lb ed="#V" n="5"/>producatur ab eo nisi eiusdem rationis. hec est per se nota: quia 
+      nul<lb ed="#V" n="6" break="no"/>lus effectus potest produci ab aliqua causa nisi 
+      respectu<lb ed="#V" n="7" break="no"/>illius effectu producti causa habeat vim causatiuam. ponitur 
+      <lb ed="#V" n="8"/>autem vim habere eandem. ergo idem effectus praecise ponetur: sed extrema 
+      <lb ed="#V" n="9"/>eiusdem rationis vt eiusdem rationis sunt. non habent nisi eandem vim 
+      <lb ed="#V" n="10"/>causatiuam. hoc probo euidenter et credo demonstratiue 
+      <lb ed="#V" n="11"/>Quorumcumque est eadem diffinitio. eadem passio poterit de 
+      <lb ed="#V" n="12"/>monstrari. hoc per se patet. sed quae sunt eiusdem rationis vt sic habent eam 
+      <lb ed="#V" n="13"/>dem diffinitionem ergo eadem passio poterit de eis 
+      demonstra<lb ed="#V" n="14" break="no"/>ri. vis autem productiua quaedam passio est. ergo vis productiua quae 
+      <lb ed="#V" n="15"/>vni istorum quae sunt eiusdem rationis competit. et alteri competit. patet 
+      <lb ed="#V" n="16"/>ergo maior scilicet quod vbi vis productiua est eiusdem rationis et 
+      effe<lb ed="#V" n="17" break="no"/>ctus est eiusdem rationis. Minor autem est euidenter 
+      dedu<lb ed="#V" n="18" break="no"/>cta scilicet quod in his que sunt eiusdem rationis vt sic est eadem vis 
+      <lb ed="#V" n="19"/>productiua ergo etc.
+    </p>
+            <p xml:id="FrMS88-e70028-d1e220">
+      ¶ 2o sic. Quoruncunque sunt eadem 
+      di<lb ed="#V" n="20" break="no"/>finitiua illa videntur esse einsdem rationis: sed relationes quae sunt 
+      <lb ed="#V" n="21"/>inter extrema eiusdem rationis habent eadem diffinitiua: quia 
+      <lb ed="#V" n="22"/>fundamentum et terminum idem. et vtraque sunt eiusdem rationis. 
+      <lb ed="#V" n="23"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-e70028-d1e231">
+      ¶ 3o sic. Relatio non videtur distingui a relatione nisi penes 
+      <lb ed="#V" n="24"/>terminum vel fundamentum. hec est communiter concessa siue quo 
+      <lb ed="#V" n="25"/>ad nos siue simpliciter eque concludit propositum: sed hic est idem 
+      <lb ed="#V" n="26"/>terminus et idem fundamentum specifice. ergo relationes eiusdem 
+      <lb ed="#V" n="27"/>rationis.
+    </p>
+            <p xml:id="FrMS88-e70028-d1e242">
+      ¶ 4o sic. Quamcumque relationem potest fundare vnum 
+      indi<lb ed="#V" n="28" break="no"/>uiduum eiusdem speciei respectu a. et aliud indiuiduum eius 
+      <lb ed="#V" n="29"/>dem speciei eandem respectu a. poterit fundare. hoc patet. quia 
+      <lb ed="#V" n="30"/>potentia et naturalis aptitudo sunt communia illis que sunt eiusdem ratio 
+      <lb ed="#V" n="31"/>nis. sed posito fundamento potente fundare et termino: si 
+      <lb ed="#V" n="32"/>sit respectus intrinsecus adueniens. inascitur actualis 
+      rela<lb ed="#V" n="33" break="no"/>tio. ergo positis duobus indiuiduis et a. inascetur in quolibet relatio ad 
+      <lb ed="#V" n="34"/>ipsum eiusdem rationis. Tunc vltra. Si in vna albedine est 
+      po<lb ed="#V" n="35" break="no"/>tentia maior ad fundandum respectu alterius albedinis 
+      <lb ed="#V" n="36"/>a se similitudinem et in quacumque. si ergo tum ponas in albedine 
+      <lb ed="#V" n="37"/>a. fundari respectum similitudinis ad albedinem b. que est 
+      <lb ed="#V" n="38"/>eiusdem rationis. eadem ratione positiones in albedineb. respectu 
+      <lb ed="#V" n="39"/>similitudinis fundari ad albedinem a. et sic relationes eiusdem 
+      <lb ed="#V" n="40"/>rationis in vtroque.
+    </p>
+            <p xml:id="FrMS88-e70028-d1e273">
+      ¶ Si dicas. eodem modo probatur quod 
+      <lb ed="#V" n="41"/>duorum hominum quilibet erit pater et quilibet filius. 
+      <lb ed="#V" n="42"/>Dico quod inste relationes non praecise oriuntur ex nam 
+      fundamen<lb ed="#V" n="43" break="no"/>ti: sed priuia alia relatione scilicet productione quae praesupponit actio 
+      <lb ed="#V" n="44"/>nem et passionem. Si autem paternitas et filiatio orirentur ex 
+      <lb ed="#V" n="45"/>natura fundamenti immediate. non posset euadi. 
+      <lb ed="#V" n="46"/>sequuntur due regule. Prima est quod quando 
+      in<lb ed="#V" n="47" break="no"/>Ex istis ueniuntur relationes diuersarum rationum fundari 
+      <lb ed="#V" n="48"/>in eodem penitus fundamento. oportet distinctionem inuenire ex 
+      <lb ed="#V" n="49"/>parte terminorum. hoc patet ex dictis.
+    </p>
+            <p xml:id="FrMS88-e70028-d1e296">
+      ¶ 2a regula accipitur 
+      <lb ed="#V" n="50"/>conclrsio quod quandocunque inueniuntur relationes diuersarum rationum 
+      termi<lb ed="#V" n="51" break="no"/>nari ad eundem terminum penitus indistinctum oportet 
+      distinctio<lb ed="#V" n="52" break="no"/>nem inuenire ex parte fundamentorum. hoc etiam patet. 3. Exiptum prime 
+      <lb ed="#V" n="53"/>regule. quia age et producere sunt relationes diuersarum rationum 
+      <lb ed="#V" n="54"/>que fundantur omnino super idem. oportet ergo inuenire distinctionem 
+      <lb ed="#V" n="55"/>in termino. terminus ergo productus erit terminus 
+      productio<lb ed="#V" n="56" break="no"/>nis. et passum erit terminus actionis. Exitum secunde regule est 
+      <lb ed="#V" n="57"/>de esse cognito et esse volito ad idem omnino terminantur. Quic 
+      <lb ed="#V" n="58"/>quid enim cognitum est sub ratione qua cognitum. potest esse volitum. oportet 
+      <lb ed="#V" n="59"/>ergo quod ex parte actuum quae fundant habitudines istas sit 
+      distin<lb ed="#V" n="60" break="no"/>ctio.
+    </p>
+            <p xml:id="FrMS88-e70028-d1e322">
+      ¶ Ex istis per modum correlarii probari potest 
+      euiden<lb ed="#V" n="61" break="no"/>ter distinctio inter propetates absolutas et essentiam. et hoc 4r 
+      </p>
+            <p xml:id="FrMS88-e70028-d1e327">
+               <lb ed="#V" n="62"/>¶ Primo sic. quia anima nostra est similis deo et dissimilis: sed secundum 
+      <lb ed="#V" n="63"/>quod communiter dicunt sancti similitudo et dissimilitudo sunt 
+      re<lb ed="#V" n="64" break="no"/>lationes alterius et alterius rationis. ergo cum habeant idem 
+      funda<lb ed="#V" n="65" break="no"/>mentum penitus et indistinctum. oportet quod distinctio quaeratur ex parte 
+      <lb ed="#V" n="66"/>termini: sed anima nostra dissimilis est deo respectu essentie. et si¬ 
+      <!--192.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>milis respcum attributorum. ergo necessario aliqua distinctio est in 
+      <lb ed="#V" n="68"/>ter diuinam essentiam et attributa ex natura rei.
+    </p>
+            <p xml:id="FrMS88-e70028-d1e349">
+      ¶ 2o sic ex parte 
+      <lb ed="#V" n="69"/>eadem argumentum. Nam albedo habet respctum ad primum sicut ad efficiens: 
+      <lb ed="#V" n="70"/>et sicut ad finem: et sicut ad exemplar. Constat autem quod inste 
+      rela<lb ed="#V" n="71" break="no"/>tiones sunt alterius rationis. distinctio autem non potest accipi 
+      <lb ed="#V" n="72"/>ex fundamento: quia omnino idem fundamentum est. ergo respcum 
+      <lb ed="#V" n="73"/>termini. et sic cum ratione essentie sit finis. et ratione voluntat 
+      <lb ed="#V" n="74"/>efficiens ista distinguuntur.
+    </p>
+            <p xml:id="FrMS88-e70028-d1e365">
+      ¶ 3o arguo ex parte alia. Deus 
+      <lb ed="#V" n="75"/>ad creaturas comparatur vt creans et vt mensurans. illa non 
+      <lb ed="#V" n="76"/>sunt idem. distinctio autem non potest accipi a termino: quia idem 
+      <lb ed="#V" n="77"/>mensuratur et causatur. ergo ex parte fundamenti in deo erit 
+      di<lb ed="#V" n="78" break="no"/>stictio.
+    </p>
+            <p xml:id="FrMS88-e70028-d1e376">
+      ¶ 4o ex eadem parte arguo. Aliud est continere 
+      vir<lb ed="#V" n="79" break="no"/>tualiter et aliud eminenter et deus vtroque modo continet. di 
+      <lb ed="#V" n="80"/>stinctio autem istarum non potest accipi a termino: quia idem 
+      <lb ed="#V" n="81"/>vtroque modo contentum. ergo essentia que continet 
+      emi<lb ed="#V" n="82" break="no"/>nenter distinguitur a potentia executiua que continet virtualiter.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

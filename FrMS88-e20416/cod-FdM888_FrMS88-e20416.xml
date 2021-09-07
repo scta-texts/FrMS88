@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="29-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e20416"><!-- l1d4q2 -->
+            <head xml:id="FrMS88-e20416-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-e20416-d1e111">
+      Quaestio. ii. 
+      <lb ed="#V" n="121"/>generatio secundum eandem rationem 
+      for<lb ed="#V" n="122" break="no"/>Tum malem dcam sit in deo: et in 
+      crea<lb ed="#V" n="123" break="no"/>tura. quod non. quia si ita esset tunc sicut vna est in 
+      <lb ed="#V" n="124"/>telligibilier per naturam: ita et alia: sed deo divina 
+      generatio<lb ed="#V" n="125" break="no"/>ne dicitur. generationem eius quis enarrabit.
+    </p>
+            <p xml:id="FrMS88-e20416-d1e124">
+      ¶ Contra 
+      <lb ed="#V" n="126"/>Omnis paternitas in celo et in terra nominatur ab illa divina: ergo etc. 
+      <lb ed="#V" n="127"/>sicut dictum est in praecedenti quaestione in secundo arti. 
+      di<lb ed="#V" n="128" break="no"/>Hic cunt aliqui quod non. quia in creaturis dicit 
+      imperfectio<lb ed="#V" n="129" break="no"/>nem vel includit.
+    </p>
+            <p xml:id="FrMS88-e20416-d1e135">
+      ¶ Contra. sicut probatum est. arguo. 4r. 
+      Pri<lb ed="#V" n="130" break="no"/>mo per regulam declaratam superius in isto primo lib. q. 2a. 
+      prolo<lb ed="#V" n="131" break="no"/>gi sic. omnis intellectus certus de vno conceptu: et dubius de 
+      duo<lb ed="#V" n="132" break="no"/>bus habet conceptum: de qui est certus alium ab illis de quibus est 
+      <!--61.xml-->
+      <pb ed="#V" n="29-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>dubius. Sed multi certi erant de relatione et generatione: et 
+      du<lb ed="#V" n="2" break="no"/>bitabant vtrum esset creata vel increata: sicut Arriani 
+      cer<lb ed="#V" n="3" break="no"/>ti erant quod generatio erat: et dubitabant vtrum productum esset 
+      <lb ed="#V" n="4"/>deus vel non.
+    </p>
+            <p xml:id="FrMS88-e20416-d1e159">
+      ¶ 2o sic. vbicumque est multitudo secundum 
+      aliquan<lb ed="#V" n="5" break="no"/>rationem eandem. illa est communis secundum Aug. 3o. de tri. sed filius habet duas 
+      <lb ed="#V" n="6"/>generationes. ergo ratio generationis est communis.
+    </p>
+            <p xml:id="FrMS88-e20416-d1e167">
+      ¶ 3o sic. quandocumque aliqua 
+      <lb ed="#V" n="7"/>duo sic se habent quod quicquid conuenit vni inquantum tale conuenit 
+      <lb ed="#V" n="8"/>similiter alteri: et quicquid repugnat vni inquantum tale repugnat 
+      <lb ed="#V" n="9"/>alteri: illa duo videdentur vnam rationem communem habere: super quam cadit 
+      <lb ed="#V" n="10"/>reduplicatio: sed quicquid competit generationi create inquantum 
+      <lb ed="#V" n="11"/>est generatio conuenit dine inquantum est generatio: et quicquid vni 
+      re<lb ed="#V" n="12" break="no"/>pugnat inquantum generatio est repugnat alteri ergo etc.
+    </p>
+            <p xml:id="FrMS88-e20416-d1e183">
+      ¶ 4o 
+      <lb ed="#V" n="13"/>sic. in praecedenti. q. arguebatur de memoria fecunda quod est eius 
+      <lb ed="#V" n="14"/>dem rationis etc.
+    </p>
+            <p xml:id="FrMS88-e20416-d1e190">
+      ¶ Sed contra illud instatur 4r. primo sic. In creaturis 
+      <lb ed="#V" n="15"/>generatio vnius est corruptio alterius. ergo sic erit in divinis. quod est 
+      <lb ed="#V" n="16"/>falsum.
+    </p>
+            <p xml:id="FrMS88-e20416-d1e197">
+      ¶ 2o sic. si sunt eiusdem rationis formalis quicquid dicitur in 
+      <lb ed="#V" n="17"/>poro modo de vna et de alia: sed causatio dicitur de generatione creata in priae 
+      <lb ed="#V" n="18"/>modo. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e20416-d1e204">
+      ¶ 3o sic. accepta eadem maiore. sed factio dicitur 
+      <lb ed="#V" n="19"/>de generatione creata. ergo et de diuina. omnis enim generatio creata 
+      <lb ed="#V" n="20"/>est quidam factio.
+    </p>
+            <p xml:id="FrMS88-e20416-d1e211">
+      ¶ 4o sic. quia tunc haberent eandem diffinitionem: quod 
+      <lb ed="#V" n="21"/>secundu est. quia diffinitio generationis in creaturis est quod sit processus a 
+      fri<lb ed="#V" n="22" break="no"/>esse in esse.
+    </p>
+            <p xml:id="FrMS88-e20416-d1e219">
+      ¶ Ad ista.
+    </p>
+            <p xml:id="FrMS88-e20416-d1e222">
+      ¶ Ad primum dico quod in creaturis 
+      il<lb ed="#V" n="23" break="no"/>la non est vera formaliter: generatio vnius est corruptio alterius. 
+      <lb ed="#V" n="24"/>quia vnum est priuatiuum et reliquum positiuum. sed hec est vera 
+      so<lb ed="#V" n="25" break="no"/>um concomitanter: sicut dicitur quod dies est solis latio super ter 
+      <lb ed="#V" n="26"/>tam. cum tamen dies formaliter non sit motus localis: sic est in proposituo 
+      <lb ed="#V" n="27"/>quia in creaturis communiter concomitatur corruptio generationem et econverso 
+      <lb ed="#V" n="28"/>non tamen inquantum genertio est: sed inquantum talis generatio est: puta creata 
+      </p>
+            <p xml:id="FrMS88-e20416-d1e238">
+               <lb ed="#V" n="29"/>¶ Ad 2m dico. quod sicut sapientia est communis et secundum eandem rationem 
+      for<lb ed="#V" n="30" break="no"/>malem dicitur de deo et creaturis. tamen in creaturis dicimus quod 
+      sa<lb ed="#V" n="31" break="no"/>dientia est qualitas in primo modo dicendi per se. quod tamen non est verum 
+      ac<lb ed="#V" n="32" break="no"/>cipiendo rationem formalem sapine quae est perfectio simpliciter: quia 
+      ipsa<lb ed="#V" n="33" break="no"/>est transcendens: sed tamen cum dicimus sapienia est qualitas: 
+      circumloqui<lb ed="#V" n="34" break="no"/>mur quamdam qualitatem per eam quae inseparabiliter in creaturis 
+      concomi<lb ed="#V" n="35" break="no"/>tatur eam inquantum creata est. et illa qualitas est accidens in per modo 
+      <lb ed="#V" n="36"/>ita suo modo per generationem quae transcendens est circumloquimur crea 
+      <lb ed="#V" n="37"/>tionem et factionem: et ita de generaatione predicantur per 
+      <lb ed="#V" n="38"/>concomitantiam istarum rationum ad generationem in creaturis. 
+      forma<lb ed="#V" n="39" break="no"/>liter tamen nec factio nec creatio de generatione dicuntur. et sic per hoc 
+      <lb ed="#V" n="40"/>patet rsponio ad 2m et 3m.
+    </p>
+            <p xml:id="FrMS88-e20416-d1e267">
+      ¶ Ad 4m dico quod processus a non esse 
+      ac<lb ed="#V" n="41" break="no"/>cidit generationi. nam si mundus fuisset ab eterno sol generasse 
+      <lb ed="#V" n="42"/>radium sicut modo generat. et tamen non fuisset ibi talis progressus a non 
+      <lb ed="#V" n="43"/>esse ad esse.
+    </p>
+            <p xml:id="FrMS88-e20416-d1e276">
+      ¶ Dico ergo quod hoc accidit generationi. vt generatio est. 
+      </p>
+            <p xml:id="FrMS88-e20416-d1e279">
+               <lb ed="#V" n="44"/>¶ Intelligendum tamen quod aliqua repugnant generationi diuine que 
+      <lb ed="#V" n="45"/>non repugnant isti: et aliqua conueniunt illi quae non conueniunt 
+      <lb ed="#V" n="46"/>isti et econverso non tamen inquantum generatio est: sed inquantum 
+      gene<lb ed="#V" n="47" break="no"/>neratio talis. Unde licet generatio sit eis communis. tamen adhuc per 
+      <lb ed="#V" n="48"/>aliquid additum distinguitur specifice vel quasi speci 
+      <lb ed="#V" n="49"/>fice illa ab ista.
+    </p>
+            <p xml:id="FrMS88-e20416-d1e296">
+      ¶ Ad rationem in oppositum dico. quod pater 
+      <lb ed="#V" n="50"/>et filius sunt vnum: non tamen vnus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

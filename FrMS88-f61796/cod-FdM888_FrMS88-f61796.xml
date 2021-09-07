@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f61796"><!-- l4d14q3 -->
+            <head xml:id="FrMS88-f61796-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f61796-d1e111">
+               <lb ed="#V" n="7"/>Tertio quaeritur vtrum penitentia sit virtus.
+    </p>
+            <p xml:id="FrMS88-f61796-d1e116">
+      ¶ Et 
+      <lb ed="#V" n="8"/>videtur quod non quia sacramentum non videtur 
+      <lb ed="#V" n="9"/>esse virtus: sed penitentia est sacramentum 
+      <lb ed="#V" n="10"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-f61796-d1e125">
+      ¶ Contra. christus incepit suam 
+      pre<lb ed="#V" n="11" break="no"/>dicationem a virtutibus. sed primo dixit: 
+      <lb ed="#V" n="12"/>penitentiam agite etc. 
+      <lb ed="#V" n="13"/>4o praemabula.
+    </p>
+            <p xml:id="FrMS88-f61796-d1e134">
+      ¶ primum est quid est praenima quantum 
+      <lb ed="#V" n="14"/>hic sunt ad significationem nomins. Scotus dicit quod 
+      <lb ed="#V" n="15"/>secundum significationem nomins penitentia est quasi pene tenentia. 
+      </p>
+            <p xml:id="FrMS88-f61796-d1e142">
+               <lb ed="#V" n="16"/>¶ 2m praemabulum est quid est secundum rem sigeneratam per nomen.
+    </p>
+            <p xml:id="FrMS88-f61796-d1e147">
+      ¶ 
+      Di<lb ed="#V" n="17" break="no"/>co quod est punitio voluntaria peccatorum.
+    </p>
+            <p xml:id="FrMS88-f61796-d1e152">
+      ¶ 3m preambulum. quod 
+      <lb ed="#V" n="18"/>est actus laudabilis dictatus a ratione quia iustitia hoc exigit: 
+      <lb ed="#V" n="19"/>vt puniatur delinquens secundum exigentiam delicti.
+    </p>
+            <p xml:id="FrMS88-f61796-d1e159">
+      ¶ 4m primam 
+      <lb ed="#V" n="20"/>bulum est. quod ex talibus actibus gnatur habitus: et ille habi 
+      <lb ed="#V" n="21"/>tus est virtus. Unde sciendum. quod aliqua virtutes. sunt ierarchice 
+      <lb ed="#V" n="22"/>que habentur in patria: sicut visio clara. Aliqua theologice. sicut 
+      <lb ed="#V" n="23"/>sides et spes. Alie sunt morales quae ex actibus moralibus 
+      <lb ed="#V" n="24"/>generantur in potentia volitiua. Alie intellectuales. patet autem quod prinina 
+      <lb ed="#V" n="25"/>non est virtus intellectualis: quia melius cognoscens non 
+      sem<lb ed="#V" n="26" break="no"/>per plus penitet: nec ierarchica: quia non est in patria: nec 
+      <lb ed="#V" n="27"/>theologica: quia prnina non habet deum pro obiecto. vnde dico quod 
+      <lb ed="#V" n="28"/>est virtus moralis et naturalis: et naturaliter cognitum est et di. tatum 
+      <lb ed="#V" n="29"/>a ratione recta quod peccatum exigit punitionem.
+    </p>
+            <p xml:id="FrMS88-f61796-d1e183">
+      ¶ Sed oc. 
+      <lb ed="#V" n="30"/>difficultas ad quam virtutem principaliter reducitur: dicitur quod ad iusticiam 
+      qua<lb ed="#V" n="31" break="no"/>quis bene ordinatur ad alterum. per hanc enim virtutem bene quis se habet 
+      <lb ed="#V" n="32"/>ad deum quem offendit.
+    </p>
+            <p xml:id="FrMS88-f61796-d1e192">
+      ¶ 2a difficultas sub qua ratione continet.
+    </p>
+            <p xml:id="FrMS88-f61796-d1e196">
+      ¶ Di 
+      <lb ed="#V" n="33"/>quod non continetur sub commutatiua: sed sub distributiua: que 
+      <lb ed="#V" n="34"/>habet punire mala et distribuere bona. vnde formaliter est 
+      iu<lb ed="#V" n="35" break="no"/>sticia distributiua.
+    </p>
+            <p xml:id="FrMS88-f61796-d1e205">
+      ¶ Sco. tamen dicit quod partinet ad speciem 
+      <lb ed="#V" n="36"/>amicitie: quia ad amicum partinet benefacere et reconciliari 
+      <lb ed="#V" n="37"/>oerffenso.
+    </p>
+            <p xml:id="FrMS88-f61796-d1e212">
+      ¶ Tertia difficultas. si iusticia est nobilissima virtus 
+      <lb ed="#V" n="38"/>moralis.
+    </p>
+            <p xml:id="FrMS88-f61796-d1e217">
+      ¶ Dico quod non. quia alique erunt in patria: et 
+      perfi<lb ed="#V" n="39" break="no"/>cientur in nobilissimo statu.
+    </p>
+            <p xml:id="FrMS88-f61796-d1e222">
+      ¶ 4a difficultas quid est obiectum eius. 
+      </p>
+            <p xml:id="FrMS88-f61796-d1e225">
+               <lb ed="#V" n="40"/>¶ Dico quod malum. sicut enim aliqua virtutes sunt ad amandum 
+      <lb ed="#V" n="41"/>bonum: ita sunt alique ad odiendum malum.
+    </p>
+            <p xml:id="FrMS88-f61796-d1e233">
+      ¶ Sed tunc 
+      <lb ed="#V" n="42"/>dc. difficultas quia omnis virtus est de bono.
+    </p>
+            <p xml:id="FrMS88-f61796-d1e238">
+      ¶ Concedo quantum ad 
+      <lb ed="#V" n="43"/>finem: sed inquantum est quaedam additio oportet quod malum aspiciat.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

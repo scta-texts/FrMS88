@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f83965"><!-- l1d49q4 -->
+            <head xml:id="FrMS88-f83965-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f83965-d1e111">
+               <lb ed="#V" n="45"/>QUarto queritur vtrum pena incendii
+      <lb ed="#V" n="46"/>sit maxima in damnatis. Quod sic 
+      <lb ed="#V" n="47"/>quia istam infligit christus damnatis. Mathe. 2o 
+      <lb ed="#V" n="48"/>dicens. Ite maledicti in ignem eternum etc. 
+      </p>
+            <p xml:id="FrMS88-f83965-d1e122">
+               <lb ed="#V" n="49"/>¶¶ Contra. quia Ecechielis. proponit aliam 
+      <lb ed="#V" n="50"/>penam istis dicens. Non videbunt disecenum deum. 
+      <lb ed="#V" n="51"/>est quod primam pena erit pena 
+      danni<lb ed="#V" n="52" break="no"/>hic sciendum secunda tristitia naturalis de isto 
+      di<lb ed="#V" n="53" break="no"/>no. 3a tristitia quam infliget ignis cum voluntate diuina in 
+      <lb ed="#V" n="54"/>animam. 4o pena quod ignis affliget corpus modo predicto. 
+      </p>
+            <p xml:id="FrMS88-f83965-d1e138">
+               <lb ed="#V" n="55"/>¶ Quod autem pena danni sit maxima probatur.
+    </p>
+            <p xml:id="FrMS88-f83965-d1e143">
+      ¶ Primo. quia 
+      <lb ed="#V" n="56"/>oppositum eius est maximum bomotum scilicet visio diuine essentie 
+      <lb ed="#V" n="57"/>Confirmatur: quia deus est largus in remunerando: et 
+      remi<lb ed="#V" n="58" break="no"/>sus in puniendo. maius ergo bonum est beatitudo beatorum: 
+      <lb ed="#V" n="59"/>quam fit malum infelicitas damnatorum. tantum autem malum est 
+      com<lb ed="#V" n="60" break="no"/>rentia visionis diuine quantum bonum est ipsa visio. ergo etc 
+      </p>
+            <p xml:id="FrMS88-f83965-d1e157">
+               <lb ed="#V" n="61"/>¶ 2o ratio. quia cum pena inferni positiua potest stare beati 
+      <lb ed="#V" n="62"/>tudo: vt superius visum fuit de confessione. non autem cum 
+      pe<lb ed="#V" n="63" break="no"/>na danni: tunc sic. Illud est minus malum quod secum compatit 
+      <lb ed="#V" n="64"/>maximum bonum quam illud quod non. Sed pena sensus quacumque 
+      <lb ed="#V" n="65"/>sit illa causata ab extrinseco. potest secum compati summum bomoium: 
+      <lb ed="#V" n="66"/>quia visionem diuine essentie: vt visum est superius. pena autem 
+      <!--471.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>damni non potest: quia est eius priuatio: et priuatio et 
+      habitu<lb ed="#V" n="68" break="no"/>se in eodem non compatiuntur. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f83965-d1e181">
+      ¶ Quod cum pena sensus 
+      <lb ed="#V" n="69"/>possit stare beatitudo patet de christo: qui maximam penan 
+      <lb ed="#V" n="70"/>sensus sustinuit in cruce: et tamen in instanti illo habuit bea 
+      <lb ed="#V" n="71"/>¬titudininem: sicut modo: et si tantum fuisset afflictus sicut 
+      lucife<lb ed="#V" n="72" break="no"/>affligitur: adhuc stetisset beatitudo eius.
+    </p>
+            <p xml:id="FrMS88-f83965-d1e192">
+      ¶ 3a ratio. 
+      Mai<lb ed="#V" n="73" break="no"/>bonum est priemium ipso merito: quia semper fit praemiatio 
+      vltra<lb ed="#V" n="74" break="no"/>condignum: quia non posset fieri nisi sic esset: sed quia maius bonum 
+      <lb ed="#V" n="75"/>est actus meriti quam fit malum pena inferni: ergo maius malum 
+      <lb ed="#V" n="76"/>est carentia boni meriti quam fit malum ipsa tota pena positi 
+      <lb ed="#V" n="77"/>ua inferni: quia si duo bona sic se habent quod alterum alteri secundm 
+      <lb ed="#V" n="78"/>excellentiam comparantur: si carentia minus excellentis bo 
+      <lb ed="#V" n="79"/>ni est maius malum quodam alio malo positiuo non est 
+      du<lb ed="#V" n="80" break="no"/>bium quin carentia excellentioris boni sit multo magis 
+      <lb ed="#V" n="81"/>malum illo tertio malo positiuo cui ambo comparantur. 
+      </p>
+            <p xml:id="FrMS88-f83965-d1e214">
+               <lb ed="#V" n="82"/>¶ hic non restat probare nisi quod maius malum sit carentia 
+      <lb ed="#V" n="83"/>boni meriti: quam malum pene positiue inferni. hoc probatur per 
+      <lb ed="#V" n="84"/>beatum Anf. in libus. Cur deus homo: qui dicit quod prius diabet vel 
+      <lb ed="#V" n="85"/>le quis esse in inferno eternaliter quam peccare mortaliter. ergo 
+      <lb ed="#V" n="86"/>maius bonum est actus meriti quam pena positiua inferni: et mul 
+      <lb ed="#V" n="87"/>to magis bonum praemii: vt superius est probatum: et per consequens 
+      <lb ed="#V" n="88"/>maximum malum est priuatio: se carentia ipsius.
+    </p>
+            <p xml:id="FrMS88-f83965-d1e232">
+      ¶ 4a ratio patet 
+      <lb ed="#V" n="89"/>per hoc comparando penam tristitie que causatur realiter a 
+      ca<lb ed="#V" n="90" break="no"/>rentia visionis diuine. maior est quam ista quae causatur ab 
+      <lb ed="#V" n="91"/>igne. quia ex pena maiori oritur.
+    </p>
+            <p xml:id="FrMS88-f83965-d1e241">
+      ¶ Sed est difficultas que 
+      maior<lb ed="#V" n="92" break="no"/>sit pena partis sensitiue vel intellectiue.
+    </p>
+            <p xml:id="FrMS88-f83965-d1e247">
+      ¶ Dico quod 
+      maior<lb ed="#V" n="93" break="no"/>est tristitia quaecumque est in parte intellectiua quam quae est in 
+      sen<lb ed="#V" n="94" break="no"/>sitiua: quia non potest esse ita perfecta tristitia sensitive partis: 
+      <lb ed="#V" n="95"/>sicut intellectiue: nec similiter dlectatio.
+    </p>
+            <p xml:id="FrMS88-f83965-d1e256">
+      ¶ Sed contra pueri qui 
+      <lb ed="#V" n="96"/>sunt in limbo puniuntur pena danni. peccata actualia quae 
+      <lb ed="#V" n="97"/>sunt maiora puniuntur pena sensus. ergo vel non erit 
+      corre<lb ed="#V" n="98" break="no"/>spondentia pene et culpe: vel pena sensus est maior. 
+      </p>
+            <p xml:id="FrMS88-f83965-d1e265">
+               <lb ed="#V" n="99"/>¶ Dico quod omnibus peccatis mortalibus debetur pena 
+      sen<lb ed="#V" n="100" break="no"/>sus: et pena dani. Unde obiectio supponit pro peccatis 
+      <lb ed="#V" n="101"/>actualibus quod solum pena sensus debeatur: quod est 
+      fal<lb ed="#V" n="102" break="no"/>sum: quia vt dictum est: vtraque pena debetur eis. sed 
+      pec<lb ed="#V" n="103" break="no"/>cato originali tantum pena damni
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

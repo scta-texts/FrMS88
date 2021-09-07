@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f15103"><!-- l2d13q3 -->
+            <head xml:id="FrMS88-f15103-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f15103-d1e111">
+      Quaestio. iii. 
+      <lb ed="#V" n="34"/>TErtia questio est. Utrum lux diffun 
+      <lb ed="#V" n="35" break="no"/>datur in instanti. Et videtur 
+      <lb ed="#V" n="36"/>quod non secundum perspectiuum qui dicit quod in 
+      <lb ed="#V" n="37"/>tempore imperceptibili.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e122">
+      ¶ Contrarium 
+      <lb ed="#V" n="38"/>dicit Aristo. 
+      <lb ed="#V" n="39"/>opinio perspectiuorum quod in tempore.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e129">
+      ¶ hoc autem 
+      <lb ed="#V" n="40"/>hic est probatur quadrpliciter.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e134">
+      ¶ Primo: quia si tanta vi 
+      <lb ed="#V" n="41"/>tus in tanto tempore et maior in minori. Si ergo sol producit in 
+      <lb ed="#V" n="42"/>instanti: aliquod corpus virtuosius in minori quam in instanti. 
+      <lb ed="#V" n="43"/>quod est impossibile.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e144">
+      ¶ 2o. quia transitus de vno ad aliud non 
+      <lb ed="#V" n="44"/>potest imaginari sine successione. Sol autem transit ab 
+      <lb ed="#V" n="45"/>oriente in occidens.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e151">
+      ¶ 3o. quia sola distantia sine contrarietate 
+      cau<lb ed="#V" n="46" break="no"/>sat successionem.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e156">
+      ¶ 4o. quia sola diuisibilitas termini ad 
+      <lb ed="#V" n="47"/>quem causat successionem.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e161">
+      ¶ Ad oppositum arguitur. quia subiectum 
+      <lb ed="#V" n="48"/>vltimate dispositum recipit formam in instanti. aer est huiusmodi 
+      <lb ed="#V" n="49"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e168">
+      ¶ 2o. quia contrarietas est causa successionis. lux non he 
+      <lb ed="#V" n="50"/>contrium. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e173">
+      ¶ 3o. sol non diuidit aerem emittendo 
+      ra<lb ed="#V" n="51" break="no"/>dium. et ita non est ibi resistentia medii.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e179">
+      ¶ 4o. quia sicut 
+      <lb ed="#V" n="52"/>Aristoteles. dicit: in paruo spatio lateret nos: sed non in tanto. 
+      </p>
+            <p xml:id="FrMS88-f15103-d1e184">
+               <lb ed="#V" n="53"/>¶ Ille autem rationes perspectiuorum non concludunt. Ubi enim 
+      ali<lb ed="#V" n="54" break="no"/>qua translatio mensuratur tempore: ibi tenet illa propositio. in 
+      in<lb ed="#V" n="55" break="no"/>stanti autem nullum est tempus. Unde nulla quantitas est in 
+      pun<lb ed="#V" n="56" break="no"/>cto. vnde angulus obtusus plus appropinquat ad 
+      super<lb ed="#V" n="57" break="no"/>ficiem quam angulus acutus: et tamen vterque attingit lineam 
+      <lb ed="#V" n="58"/>in indiuisibili.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e200">
+      ¶ Ad 2m verum est: vbi agens per prius 
+      re<lb ed="#V" n="59" break="no"/>spicit vnam partem medii quam aliam sicut angelus in motu 
+      <lb ed="#V" n="60"/>suo. Sol autem immediate eque agit in toto medio: cui est 
+      <lb ed="#V" n="61"/>presens virtualiter.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e209">
+      ¶ Ad aliud non est ibi transitus sicut 
+      <lb ed="#V" n="62"/>sagitte: sed radius causatur in omni parte medii.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e214">
+      ¶ Ad 4a 
+      <lb ed="#V" n="63"/>concedo. quod secundum diuisibilitatem intensiuam est ibi 
+      diuisio<lb ed="#V" n="64" break="no"/>sed secundum quantitatem extensiuam eque immediate respicit 
+      to<lb ed="#V" n="65" break="no"/>tum.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e223">
+      ¶ Alie etiam rationes non concludunt. graue enim 
+      immedia<lb ed="#V" n="66" break="no"/>te est in vltimata dispositione ad vbi deorsum: et tamen ibi mo 
+      <!--310.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>uetur successiue.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e235">
+      ¶ Nec etiam 2a valet. quia habitus 
+      succes<lb ed="#V" n="68" break="no"/>siue generatur: et tame contrarietatem non habet.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e240">
+      ¶ Nec etiam 3a. quia 
+      <lb ed="#V" n="69"/>angelus nullam contrarietatem habet ab vbi. nec diuiditur medium 
+      nec<lb ed="#V" n="70" break="no"/>medium resistit.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e247">
+      ¶ Nec 4a valet. quia tarditas motus non 
+      <lb ed="#V" n="71"/>percipitur in multis: sicut in motu cuiusdam rote que per 
+      an<lb ed="#V" n="72" break="no"/>num semel voluebatur.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e254">
+      ¶ Arguo igitur demonstratiue 
+      quidru<lb ed="#V" n="73" break="no"/>pliciter.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e259">
+      ¶ Et primo sic. quia sol in quolibet instanti temporis habet 
+      no<lb ed="#V" n="74" break="no"/>uum radium. ergo lux causatur in instanti. antecedens probatur. primo 
+      <lb ed="#V" n="75"/>quia aliter staret per tempus in spatio sibi equali. et quiesceret. 
+      <lb ed="#V" n="76"/>ergo est in instanti in quo causat radium.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e268">
+      ¶ 2o. quia 
+      accide<lb ed="#V" n="77" break="no"/>tia non migrant. et ideo transeunte sole non potest radius 
+      <lb ed="#V" n="78"/>transire de subiecto in subiectum. et ita in quolibet spatio sibi 
+      equali<lb ed="#V" n="79" break="no"/>causat alium radium. In illo autem non est nisi permutatum esse 
+      <lb ed="#V" n="80"/>quod corrspondet instanti. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e280">
+      ¶ 2o sic. supponitur quod omnis 
+      mo<lb ed="#V" n="81" break="no"/>tus incipit in indiuisibili extrinsece. modo in illo tempore in 
+      quo<lb ed="#V" n="82" break="no"/>mouetur corpus opacum mouetur vmbra eius. et in illo in 
+      <lb ed="#V" n="83"/>stanti in quo incipit corpus moueri et vmbra. Umbra 
+      <lb ed="#V" n="84"/>autem non mouetur nisi quia generatur noua lux. vnde quando corpus 
+      <lb ed="#V" n="85"/>prohibens remoueter: lux generatur: aut ergo in eodem 
+      instan<lb ed="#V" n="86" break="no"/>ti in quo incipit corpus moueri: et lux gnari. et sic habetur 
+      <lb ed="#V" n="87"/>propositum. Si autem in tempore: illud corpus iam est motum. et 
+      <lb ed="#V" n="88"/>non in eodem instanti mouetur corpus et eius vmbra.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e300">
+      ¶ hi 
+      <lb ed="#V" n="89"/>dicitur quod prius mouetur corpus quam vmbra.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e305">
+      ¶ Contra. quando 
+      cor<lb ed="#V" n="90" break="no"/>pus opacum perpendiculariter stat sub luminoso ea per 
+      <lb ed="#V" n="91"/>pendicularitate generatur vmbra sub luminoso. stante autem 
+      <lb ed="#V" n="92"/>eadem dispositione in corpore opaco stat vmbra eodem modo. 
+      <lb ed="#V" n="93"/>Si ergo prius corpus mouetur quam vmbra non manet in 
+      <lb ed="#V" n="94"/>eadem dispositione: sed linea que prius erat perpendicularis: 
+      <lb ed="#V" n="95"/>nunc erit dyametralis.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e321">
+      ¶ 3o sic. simul incipiunt 
+      termina<lb ed="#V" n="96" break="no"/>ri motus corporis opaci et vmbra. et in eodem mutato 
+      <lb ed="#V" n="97"/>esse: et in eodem instanti. quia si radius remanet post instans 
+      <lb ed="#V" n="98"/>ille non posset attingem corpus luminosum: et sic posset 
+      <lb ed="#V" n="99"/>manere absente sole. quia tunc non dependeret a sole. 
+      </p>
+            <p xml:id="FrMS88-f15103-d1e332">
+               <lb ed="#V" n="100"/>¶ 4o notitia intuitiua non videtur res nisi vbi est. tunc sic. 
+      <lb ed="#V" n="101"/>actus videndi si causatur in instanti a sole habetur intentum: si 
+      <lb ed="#V" n="102"/>in tempore imperceptibili. ergo ego video solem. vbi non est. 
+      <lb ed="#V" n="103"/>quia in loco vbi prius fuit.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e343">
+      ¶ Sed hoc est difficultas si vnus 
+      radi<lb ed="#V" n="104" break="no"/>solis continuatur tota die: Dico quod non. quia non vnitate 
+      sim<lb ed="#V" n="105" break="no"/>plicitatis. quia generatur et corrumpitur. nec continuitatis. quia 
+      <lb ed="#V" n="106"/>que sunt in instanti nullam habent continuitatem. sed est vnus 
+      <lb ed="#V" n="107"/>vnitate multiplicationis.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e355">
+      ¶ Dico tunc quod sicut sunt 
+      infi<lb ed="#V" n="108" break="no"/>nita mutata esse. ita sunt infiniti radii in potentia. et 
+      per<lb ed="#V" n="109" break="no"/>transeuntur sicut in motu et tempore.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e362">
+      ¶ Sed cognoscit ne deus 
+      <lb ed="#V" n="110"/>infinitos: Dico quod non. quia ibi non sunt.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e367">
+      ¶ Sed quomodo 
+      contin<lb ed="#V" n="111" break="no"/>nuum non est ex indiuisibilibus cum dies constet ex radiis: 
+      <lb ed="#V" n="112"/>Dico quod dies continua est quantum ad temptus: sed non quantum ad 
+      <lb ed="#V" n="113"/>lucem. quia non est inuenire partem temporis: in qua non est lux. quia in 
+      <lb ed="#V" n="114"/>qualibet parte est instans. vnde sicut non est dare partem linee in quat 
+      <lb ed="#V" n="115"/>non sit punctus. Ita nec partem temporis. in quae non sit instans: quod 
+      <lb ed="#V" n="116"/>sequitur tmpus. sed illam non sequitur vmbra. sed lux: non tamen 
+      <lb ed="#V" n="117"/>continua. sed trmpopus continuatum.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e385">
+      ¶ Sed numquid in quolibet radio 
+      <lb ed="#V" n="118"/>deus posset facem diuisionem continui:.
+    </p>
+            <p xml:id="FrMS88-f15103-d1e390">
+      ¶ Dico quod sic. et sic 
+      <lb ed="#V" n="119"/>esset partransitus potentialis infiniti. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

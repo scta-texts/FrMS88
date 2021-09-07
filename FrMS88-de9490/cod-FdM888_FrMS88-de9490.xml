@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="14-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-de9490"><!-- l1d1q7 -->
+            <head xml:id="FrMS88-de9490-Hd1e108">Quaestio 7</head>
+            <p xml:id="FrMS88-de9490-d1e111">
+      ¶ Quaestio. vii. 
+      <lb ed="#V" n="12"/>Utrum apprehenso vltimo 
+      <lb ed="#V" n="13"/>Ueritur. sine per intellectum possit 
+      vo<lb ed="#V" n="14" break="no"/>luntas non frui.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e120">
+      ¶ Circa istam. q. sunt quatuor. 
+      <lb ed="#V" n="15"/>difficilia declaranda.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e125">
+      ¶ primum est. si sine in gene 
+      <lb ed="#V" n="16"/>Irali appraehenso per intellectum necessario 
+      frui<lb ed="#V" n="17" break="no"/>tur voluntas.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e132">
+      ¶ 2m si in particulari apprehenso et in enig 
+      <lb ed="#V" n="18"/>mate.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e138">
+      ¶ 3m de vltimo fine clare viso in habente volunt 
+      <lb ed="#V" n="19"/>tatem supernaturaliter eleuatam.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e143">
+      ¶ 4m de fine clare viso in 
+      <lb ed="#V" n="20"/>non habente voluntatem supernaturaliter eleuatam. 
+      <lb ed="#V" n="21"/>quantum ad primum. quod voluntas non potest 
+      <lb ed="#V" n="22"/>hic dicitu non frui vltimo fine in generali 
+      appre<lb ed="#V" n="23" break="no"/>henso. Et ratio huius est: quia finis vt sic habet rationem omnis boni. 
+      <lb ed="#V" n="24"/>naturaliter autem voluntas inclinatur ad illud. ergo necessario tendit in illud. 
+      </p>
+            <p xml:id="FrMS88-de9490-d1e156">
+               <lb ed="#V" n="25"/>¶ Contra istam opionem arguo 4r. primo sic. quandocumque aliquoo 
+      <lb ed="#V" n="26"/>mouens mouetur ad aliquem terminum de necessitate: eadem 
+      <lb ed="#V" n="27"/>necessitate remouet impedimentum. hoc patet de graui. sed 
+      apr<lb ed="#V" n="28" break="no"/>petitus noster non de necessitate remouet omne prohibens 
+      <lb ed="#V" n="29"/>inconsideratio autem finis est prohibens. potentia autem 
+      intelle<lb ed="#V" n="30" break="no"/>ctiua subiacet imperio voluntatis. videmus enim quod non 
+      re<lb ed="#V" n="31" break="no"/>mouet illud prohibens. ergo non de necessitate mouetur. 
+      </p>
+            <p xml:id="FrMS88-de9490-d1e174">
+               <lb ed="#V" n="32"/>¶ 2o sic. Quandocumque aliquod mobile mouetur ad aliquem 
+      ter<lb ed="#V" n="33" break="no"/>minum eadem necessitate: qua mouetur quiescit in illo. quia 
+      ea<lb ed="#V" n="34" break="no"/>dem virtute. hoc patet de graui: sed appetitus siue volun 
+      <lb ed="#V" n="35"/>tas nostra. non de necessitate naturali detinet se in appetitu 
+      fi<lb ed="#V" n="36" break="no"/>nis. quia aliter faceret quicquid posset in detinendo se ibi. et sic 
+      te<lb ed="#V" n="37" break="no"/>neret intellectum in continua consideratione finis: quod non 
+      fa<lb ed="#V" n="38" break="no"/>cit: ergo etc.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e192">
+      ¶ 3o sic. quandocumque aliquis appetitus fertur naturali 
+      ne<lb ed="#V" n="39" break="no"/>cessitate in aliquod obiectum: eadem necessitate fertur in media 
+      <lb ed="#V" n="40"/>necessaria. huiusmodi est consideratio finis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e199">
+      ¶ Confirmatur. quia 
+      si<lb ed="#V" n="41" break="no"/>minori necessaritate respiceret medium quam extrema. magis 
+      <lb ed="#V" n="42"/>necessararium dependeret a minus necessario.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e207">
+      ¶ 4o sic. Quod mouer 
+      <lb ed="#V" n="43"/>necessario ad aliquem terminum: mouetur inquantum potest: cum 
+      aga<lb ed="#V" n="44" break="no"/>secundum totum sui conatum. sed voluntas nostra non semper diligit finem 
+      <lb ed="#V" n="45"/>inquantum potest. ergo etc.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e216">
+      ¶ hic respondetur ad istas rationes omnes. 
+      <lb ed="#V" n="46"/>quantum ad id quod tangitur de consideratione finis: dicitur quod 
+      auer<lb ed="#V" n="47" break="no"/>sio intellectus non fit per voluntatem: nec voluntas potest 
+      deti<lb ed="#V" n="48" break="no"/>nere intellectum: quin moueatur a fantasmatibus diuersis oc 
+      <lb ed="#V" n="49"/>currentibus: et per consequens auertitur velit nolit voluntas a 
+      consi<lb ed="#V" n="50" break="no"/>deratione finis.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e229">
+      ¶ Aliter dicitur quod iste rationes verum assumunt drim 
+      <lb ed="#V" n="51"/>eo: quod naturali necessitate mouetur et agit. sed non de eo quod li 
+      <lb ed="#V" n="52"/>bera necessitate mouetur et agit.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e236">
+      ¶ Contra ista. et prim contra primum. 
+      <lb ed="#V" n="53"/>quod non sufficiat. Sicut enim actus intelligendi subiacet 
+      impe<lb ed="#V" n="54" break="no"/>rio voluntatis. ita et actus fantasiandi. Poterit ergo argui 
+      <lb ed="#V" n="55"/>de illo sicut argutum est de actu intelligendi. et tunc eodem 
+      <lb ed="#V" n="56"/>modo currunt rationes. Poterit enim voluntas amouere fanta 
+      <lb ed="#V" n="57"/>sias oppositas. et detinere eas in vno actu conformi 
+      <lb ed="#V" n="58"/>actui considerationis de vltimo fine. Nec secundum satisfacit. 
+      <lb ed="#V" n="59"/>quia remouere prohibens necessario non conuenit agens 
+      <lb ed="#V" n="60"/>ti inquantum naturale: sed inquantum necessarium. et propter hoc 
+      <lb ed="#V" n="61"/>agens quantumcumque liberum. si necessario agat. ita ex 
+      impetu<lb ed="#V" n="62" break="no"/>agit sicut naturale. ergo etc.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e260">
+      ¶ Sed hic sunt due difficultas 
+      <lb ed="#V" n="63"/>tes. Prima est. quia videtur quod sicut possum non diligere 
+      vltim<lb ed="#V" n="64" break="no"/>mum finem: ita possum odire. ex quo non de necessitate 
+      <lb ed="#V" n="65"/>appetitur. hoc autem est falsum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e269">
+      ¶ Dicitur hic. quod quand 
+      <lb ed="#V" n="66"/>aliquid est in potentia ad duo opposita contrarie. si vtrumque est possibile 
+      <!--31.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>potest in illa duo. Sed si sit indeterminatum ad duo contrariam 
+      <lb ed="#V" n="68"/>quorum vnum est impossibile: licet posset in vnum et in priuationem eius. 
+      <lb ed="#V" n="69"/>non tamen potest in aliud contrarium.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e286">
+      ¶ Exemplum: animal est in potentia 
+      <lb ed="#V" n="70"/>ad rationale et irrationale: ideo potest habere vtrumque. Aer autem est 
+      <lb ed="#V" n="71"/>potentia ad luceme et ad oppositum: sed quia contrarium oppositum 
+      <lb ed="#V" n="72"/>luci non est possibile: hinc est quod solum potest habere lucem et priuationem 
+      <lb ed="#V" n="73"/>lucis. Sic est in proposito. Nam odium dei quod est 
+      opposi<lb ed="#V" n="74" break="no"/>tum contrarie dilectioni finis non est possibile. Ideo appetitus licet 
+      <lb ed="#V" n="75"/>possit in dilectionem et in suum oppositum priuatiue: non tamen 
+      <lb ed="#V" n="76"/>potest in suum oppositum contrarie.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e304">
+      ¶ 2a difficultas est de dcis 
+      <lb ed="#V" n="77"/>Aug. i. de tri. quod omnes volunt naturaliter beatitudininem. Et ibi 
+      <lb ed="#V" n="78"/>dem de illo inoculatore quae dixit secundum dicendo quod omnes volunt 
+      <lb ed="#V" n="79"/>chare vendere etc. sed omnes volunt beatitudininem secundum Aug. 
+      </p>
+            <p xml:id="FrMS88-de9490-d1e313">
+               <lb ed="#V" n="80"/>¶ Dico ad hoc quod Aug. intellexit de appetitu naturali vel 
+      <lb ed="#V" n="81"/>inclinatione naturali in habitu: non autem de appetitu naturali actuali. 
+      <lb ed="#V" n="82"/>Nam constat quod omnes non cogitabant actualiter de 
+      beatitudini<lb ed="#V" n="83" break="no"/>ne. et per consequens nec actualiter appetebant. Sed 
+      intelle<lb ed="#V" n="84" break="no"/>xit quod voluntas ex natura sua inclinatur ad beatitudinem. 
+      <lb ed="#V" n="85"/>difficile quantum ad quesitum principale 
+      <lb ed="#V" n="86"/>Secundu est. vtrum in particulari apprehenso 
+      obscu<lb ed="#V" n="87" break="no"/>re vltimo sine necessario fruatur. Dicitur ab eisdem de prima 
+      opi<lb ed="#V" n="88" break="no"/>nione quod non. sicut patet in peccante mortaliter.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e335">
+      ¶ Sed contra 
+      <lb ed="#V" n="89"/>eos arguo sic. primo. quicquid competit primo et per se necessario super 
+      <lb ed="#V" n="90"/>riori: competit per se et necessario inferiori hoc patet 
+      inducti<lb ed="#V" n="91" break="no"/>ue. sed vltimo fini in generali apprehenso. qui se habet sicut superius 
+      <lb ed="#V" n="92"/>competit per se necessitare appetitum. ergo eadem ratione in parti 
+      <lb ed="#V" n="93"/>culari apprehenso: quod se habet sicut inferius. Minor est tua. 
+      <lb ed="#V" n="94"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e351">
+      ¶ 2o sic. quandocumque in aliquo est virtus motiua 
+      <lb ed="#V" n="95"/>necessitandi aliquid necessario. in quocumque inuenitur illa 
+      <lb ed="#V" n="96"/>ratio formalis: quae est ratio illius virtutis inuenitur eadem 
+      neces<lb ed="#V" n="97" break="no"/>sitas: et illud in quo inuenitur habebit eandem vim motiua. 
+      <lb ed="#V" n="98"/>cum ergo finis in particulari appraehensus omnem rationem includat: 
+      <lb ed="#V" n="99"/>quam includit finis in generali. et aliquid addat: ita habebit 
+      ean<lb ed="#V" n="100" break="no"/>dem vim necessitandi vnus sicut alius. Ideo dico. quod sicut vnus 
+      <lb ed="#V" n="101"/>mouet appetitum. ita et alius. Sed dico quod neuter necessitat. 
+      <lb ed="#V" n="102"/>difficile est. Si finis clare visus 
+      neces<lb ed="#V" n="103" break="no"/>Tertium sitat voluntatem in naura supnaturaliter eleuata 
+      </p>
+            <p xml:id="FrMS88-de9490-d1e373">
+               <lb ed="#V" n="104"/>¶ Ad quod videndum est de causa actus fruendi. Et hic 
+      <lb ed="#V" n="105"/>sunt quattuor modi dicendi. Primus quod actus beatifi 
+      <lb ed="#V" n="106"/>cus precise et totaliter causatur ab obiecto. secundus quod 
+      pre<lb ed="#V" n="107" break="no"/>cise et totaliter a voluntate diuina. Et isti habent dicere 
+      <lb ed="#V" n="108"/>quod in potestate voluntatis non est frui: quia non est in potestate 
+      <lb ed="#V" n="109"/>patientis pati. voluntas autem creata passiue. et tanmum modo 
+      <lb ed="#V" n="110"/>receptiue se habet secundum istos duos modos vltimos. Alii 
+      <lb ed="#V" n="111"/>autem dicunt quod potentia volitiua et obiectum concurrunt simul 
+      <lb ed="#V" n="112"/>Alii autem dicunt potentia volitiua precise. Et isti qui 
+      te<lb ed="#V" n="113" break="no"/>nent istos duos vltimos modos habent dicere quod finis 
+      cla<lb ed="#V" n="114" break="no"/>re visus non necessitat voluntatem. quia quandocumque aliquis 
+      effe<lb ed="#V" n="115" break="no"/>ctus causatur a totali causa contingenter: vel saltem aliqua causa ad 
+      <lb ed="#V" n="116"/>eam concurrens contingenter causat. et totus effectus 
+      <lb ed="#V" n="117"/>simpliciter contingenter causatur. quia si causa altera est 
+      <lb ed="#V" n="118"/>contingens: et altera necessaria: effectus est contingens 
+      <lb ed="#V" n="119"/>sicut apparet in conclusionibus. Sed secundum istos duos 
+      <lb ed="#V" n="120"/>modos concurrit voluntas contingenter causans. vel 
+      <lb ed="#V" n="121"/>sicut causa totalis. sicut dicit vltimus modus. vel sicut partia 
+      <lb ed="#V" n="122"/>lis. sicut primus modus: ergo fruitio vel volitio 
+      vlti<lb ed="#V" n="123" break="no"/>mi finis contingenter causabitur et posita poterit non 
+      <lb ed="#V" n="124"/>poni.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e422">
+      ¶ Sed si ponatur alter istorum duorum modorum 
+      <lb ed="#V" n="125"/>occurrit difficultas quo saluatur obstinatio demonum. et cer¬ 
+      <lb ed="#V" n="126"/>¬titudo beatorum.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e429">
+      ¶ Quantum ad primum scilicet quantum ad obsti 
+      <lb ed="#V" n="127"/>nationem demonum. dico quod in duobus videtur stare. Primum est 
+      <lb ed="#V" n="128"/>actus elicitus malus: et de isto dico quod non video 
+      neces<lb ed="#V" n="129" break="no"/>sitatem ad ponendum quod diabolus semper necessitetur ad 
+      <lb ed="#V" n="130"/>actum malum. Uerum est enim quod deus non concurrit ad actu 
+      <lb ed="#V" n="131"/>bonum. sed illud non obstat quin ipsi possunt suspendere actum 
+      <lb ed="#V" n="132"/>malum: quia tamen deus non coopratur ad actum bonum: totam fa¬ 
+      <!--32.xml-->
+      <pb ed="#V" n="15-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>cultatem suam ponunt: et expendunt in malum. Aliud autem in est 
+      <lb ed="#V" n="2"/>stat est pena et tristitia. Et quantum ad hoc dico quod 
+      semi<lb ed="#V" n="3" break="no"/>necessitantur ad tristitiam: nec possunt non tristari quantu 
+      <lb ed="#V" n="4"/>cumque forte ab eis causetur. Quantum ad 2m scilicet de 
+      certitu<lb ed="#V" n="5" break="no"/>dine beatorum est mihi maius dubium. Dicunt enim quidam 
+      <lb ed="#V" n="6"/>quod deus imprimit quandam formam que necessitat eos. 
+      </p>
+            <p xml:id="FrMS88-de9490-d1e464">
+               <lb ed="#V" n="7"/>¶ Sed contra. quia vel cum illa forma voluntas sua naturali virtu 
+      <lb ed="#V" n="8"/>te concurrit vel non. si sic. videretur idem dubium quod ante: quia 
+      <lb ed="#V" n="9"/>semper voluntas contingenter causat: et quantumcumque mille agens 
+      <lb ed="#V" n="10"/>tia concurrant necessario. si vna contingenter agat totus ef 
+      <lb ed="#V" n="11"/>fectus erit contigens. Si non: tunc voluntas nihili causat. 
+      </p>
+            <p xml:id="FrMS88-de9490-d1e477">
+               <lb ed="#V" n="12"/>¶ Dicunt aliqui quod quantum est ex se potest dimittere. sed deus 
+      <lb ed="#V" n="13"/>praeseruat eum. quia videt quod si dimitteret eum: oporteret eum 
+      <lb ed="#V" n="14"/>causare talem actum. Sed hoc nihil est: quia hoc posito volun 
+      <lb ed="#V" n="15"/>tas nihil ageret. Nec hoc videtur sufficere: quia certitudo non 
+      <lb ed="#V" n="16"/>solum habetur a beatis de beatitudinine: sed etiam de modo. hec autem 
+      <lb ed="#V" n="17"/>certitudo licet esset de beatitudine: non tamen de modo.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e493">
+      ¶ Alii 
+      <lb ed="#V" n="18"/>dicunt quod ideo certi sunt: quia deus non concurrit ad actum malum 
+      <lb ed="#V" n="19"/>oppositum.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e500">
+      ¶ Sed contra. quia prior est habitudo ad contingentiam 
+      <lb ed="#V" n="20"/>contradictionis: quam ad contingentiam cuiuscumque alterius oppositionis. 
+      <lb ed="#V" n="21"/>quia in quacumque alia oppositione saluatur contradictio: quia posita 
+      <lb ed="#V" n="22"/>certitudine de contingentia contrarietatis non ponitur 
+      <lb ed="#V" n="23"/>certitudo de contingentia contradictionis: dato enim quod essem 
+      cer<lb ed="#V" n="24" break="no"/>tus quod non odirem deum. tamen quia dilectio dei habet aliud 
+      op<lb ed="#V" n="25" break="no"/>positum. licet non positiuum scilicet non dilectio. adhuc certituden 
+      <lb ed="#V" n="26"/>stabit dide alia parte contradictionis.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e519">
+      ¶ Confirmatur. quia voluntas praes 
+      <lb ed="#V" n="27"/>suspendere actum nullum actu positiuo mediante cum susper 
+      <lb ed="#V" n="28"/>dere actum sit non causare. aliter esset processus in infinitum. Et 
+      <lb ed="#V" n="29"/>vltra. licet voluntas beati non possit odire deum: tamen potest non 
+      <lb ed="#V" n="30"/>diligere: et sic esset non beatus. Et ideo propter istud inter alia 
+      <lb ed="#V" n="31"/>dicta videtur mihi dicendum quod deus est totalis causa respectu 
+      <lb ed="#V" n="32"/>beatitudinis. et sic potest saluari certitudo 
+      <lb ed="#V" n="33"/>difficile. quantum ad principale quaesitum est 
+      <lb ed="#V" n="34"/>Quartu Utrum fine in particulari et clare 
+      viso<lb ed="#V" n="35" break="no"/>dato quod voluntas non sit supernaturaliter eleuata. vtrum 
+      <lb ed="#V" n="36"/>possit frui. Dicitur quod non: quia agere supernaturale praesupponit 
+      <lb ed="#V" n="37"/>esse supernaturale: esse autem supernaturale datur per aliquem 
+      <lb ed="#V" n="38"/>actum eleuantem.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e548">
+      ¶ Contra. omnis potentia potest ferri in quod 
+      <lb ed="#V" n="39"/>cumque. in quo inuenitur perfectissime ratio sui obiecti. sed in deo 
+      <lb ed="#V" n="40"/>perfectissime inuenitur bonitas: que est ratio obiecti voluntatur 
+      <lb ed="#V" n="41"/>ergo etc. Item 2o de anima inter intellectum et sensum est differentia 
+      <lb ed="#V" n="42"/>quia excellens sensibile corrumpit sensum. sed excellens 
+      intelli<lb ed="#V" n="43" break="no"/>gibile roborat intellectum: et non corrumpit: et eodem modo de vi 
+      <lb ed="#V" n="44"/>luntate. ergo quantumcumque deus sit excellens volibile 
+      volun<lb ed="#V" n="45" break="no"/>tas poterit in ipsum ferri. 3o quia tunc deus non posset 
+      ali<lb ed="#V" n="46" break="no"/>cui supernaturale aliquid reuelare nisi causaret necessario aliquod 
+      <lb ed="#V" n="47"/>aliud prius: quod potentiam eleuaret. quod est secundum.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e570">
+      ¶ Ideo vietur 
+      <lb ed="#V" n="48"/>mihi dicendum quod voluntas potest. ex quo enim obiectum habet bonita 
+      <lb ed="#V" n="49"/>tem naturalem: apparet mihi quod voluntas possit sine habitu eleuan 
+      <lb ed="#V" n="50"/>te in ipsum. et in quodcumque obiectum praesentatum.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e579">
+      ¶ Sed tem esset dubium. vtrum 
+      <lb ed="#V" n="51"/>talis actus esset beatificus. potest dici quod non: quia cum habitu posset 
+      <lb ed="#V" n="52"/>haberi actio perfectior.
+    </p>
+            <p xml:id="FrMS88-de9490-d1e586">
+      ¶ Ad ratione patet.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-de3571"><!-- l1prolq8 -->
+            <head xml:id="FrMS88-de3571-Hd1e108">Quaestio 8</head>
+            <p xml:id="FrMS88-de3571-d1e111">
+      Quaestio. viii 
+      <lb ed="#V" n="44"/>UTrum a conceptibus simpliciter simplici 
+      <lb ed="#V" n="45" break="no"/>bus et primo diuersis potest 
+      abstra<lb ed="#V" n="46" break="no"/>hi aliquis conceptus communis eis 
+      <lb ed="#V" n="47"/>Sin on argumentis respondeo quod non. quod tame 
+      <lb ed="#V" n="48"/>est intelligendum de conceptu 
+      quidita<lb ed="#V" n="49" break="no"/>tiuo. Intelligendum tamen quod conceptus sunt in quadruplici genere. 
+      Pri<lb ed="#V" n="50" break="no"/>mi conceptus sunt secundarum intentionum. Alii conceptus sunt 
+      communissima<lb ed="#V" n="51" break="no"/>rum passionum. Alii sunt conceptus habitudinum transcendentium: alii 
+      <lb ed="#V" n="52"/>priuationum.
+    </p>
+            <p xml:id="FrMS88-de3571-d1e133">
+      ¶ Exemplum primi sicut a Petro et martino 
+      ab<lb ed="#V" n="53" break="no"/>strahitur species: sic ab vltimis differentiis haec quod dico differentia vltim: et 
+      <lb ed="#V" n="54"/>a proprietatibus indiuidualibus hoc quod dico proprietas 
+      indidua<lb ed="#V" n="55" break="no"/>lis. et ita vniuoce praedicatur de eis: sicut homo de petro et 
+      mar<lb ed="#V" n="56" break="no"/>timo.
+    </p>
+            <p xml:id="FrMS88-de3571-d1e144">
+      ¶ Exintum secundi. omnia quae sunt vltimo differentiae sunt intelligibiles 
+      <lb ed="#V" n="57"/>et volubiles: et sic vere et bone. Ueritas ergo et bonitas de omni 
+      <lb ed="#V" n="58"/>bus praeditur et vniuoce.
+    </p>
+            <p xml:id="FrMS88-de3571-d1e151">
+      ¶ Exitem tertii: quia sunt quaedam relationes 
+      <lb ed="#V" n="59"/>transcendentes quae omnia circuunt: sicut identitas diuersitas et 
+      di<lb ed="#V" n="60" break="no"/>stictio: et quae etiam de vltimis differentis praedicantur.
+    </p>
+            <p xml:id="FrMS88-de3571-d1e159">
+      ¶ Exentum quarti: si 
+      <lb ed="#V" n="61"/>sunt vnitas et simplicitas: quae priuationes importare videntur: quaes 
+      <lb ed="#V" n="62"/>multis etiam primo diuersis vniuoce praedicantur.
+    </p>
+            <p xml:id="FrMS88-de3571-d1e166">
+      ¶ Sed hoc est tamen vna 
+      <lb ed="#V" n="63"/>difficultas. quia quando aliqua passio conuenit pluribus. per aliquam rationem 
+      comunen<lb ed="#V" n="64" break="no"/>eis conuenire videtur. Si ergo iste passiones pluribus et primo diuersi 
+      <lb ed="#V" n="65"/>conueniunt. videtur quod per rationem vnam commune eis conueniant: et sic non 
+      <lb ed="#V" n="66"/>essent primo diuerla qui dicuntur primo diusa.
+    </p>
+            <p xml:id="FrMS88-de3571-d1e177">
+      ¶ Rsponideo. dico quod ista re¬ 
+      <!--15.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>gula est vera in non transcendentibus. falsa tamen est in transcendenti 
+      <lb ed="#V" n="68"/>bus. Non enim oportet quod transcendentia insint omnibus mediat 
+      <lb ed="#V" n="69"/>te aliqua ratione communi. nisi forte mediante ratione 
+      <lb ed="#V" n="70"/>entis: quae inest omnibus: sed non quiditatiue: sed 
+      denominati<lb ed="#V" n="71" break="no"/>ue: aliquibus aliis quiditatiue.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

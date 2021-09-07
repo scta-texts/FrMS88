@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaesito 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaesito 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="174-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f31648"><!-- l3d12-16q1 -->
+            <head xml:id="FrMS88-f31648-Hd1e108">Quaesito 1</head>
+            <p xml:id="FrMS88-f31648-d1e111">
+               <lb ed="#V" n="65"/>Solet etiam queri etc. 
+      <!--351.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>Haec est distinctio. xii. Cir
+      <lb ed="#V" n="67" break="no"/>ca quam 
+      <lb ed="#V" n="68"/>Queritur vtrum operatio beatifica anime christi 
+      cau<lb ed="#V" n="69" break="no"/>setur totaliter ab obiecto beatifico. Et videtur 
+      <lb ed="#V" n="70"/>Uttas quod sic: quia obiectum quod virtualiter continet 
+      ali<lb ed="#V" n="71" break="no"/>quem actum ipsum potest causare. sed divina essentia siue obiect 
+      <lb ed="#V" n="72"/>beatificum est huiusmodi. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e135">
+      ¶ Contra. quia essentia 
+      diuina<lb ed="#V" n="73" break="no"/>non continet actum beatificum virtualiter. quia hoc est proprium 
+      <lb ed="#V" n="74"/>voluntatis: cum sit operatio ad extra: nec formaliter: 
+      <lb ed="#V" n="75"/>quia actus non est de eius quiditate. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e144">
+               <lb ed="#V" n="76"/>hic introducutur 4or conclusiones. ¶ Prima 
+      <lb ed="#V" n="77"/>est quod actus beatific 
+      <lb ed="#V" n="78"/>anime christi non causatur totaliter ab obiecto beatifico: quia cuius 
+      <lb ed="#V" n="79"/>est essentia principium productiuum cuius est princitum mere naturale et 
+      <lb ed="#V" n="80"/>necessarium. Sed essentia diuina ad extra nihil producit necessario 
+      </p>
+            <p xml:id="FrMS88-f31648-d1e157">
+               <lb ed="#V" n="81"/>¶ Secunda conclusio est. quod ille actus non causatur totaliter a 
+      poten<lb ed="#V" n="82" break="no"/>tia anime christi. quia impossibile est quod aliqua forma supernaturalis sit 
+      to<lb ed="#V" n="83" break="no"/>taliter a causa creata. sed potentia anime christi est quid creatum. 
+      er<lb ed="#V" n="84" break="no"/>go etc.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e169">
+      ¶ Tertia conclusio est. quod essentia divina non est principium 
+      partia<lb ed="#V" n="85" break="no"/>le actus beatifici. quia si essentia divina concurreret ad 
+      causandun<lb ed="#V" n="86" break="no"/>actum beatificum cum potentia: causaret mere naturaliter et necessario. quantum 
+      <lb ed="#V" n="87"/>esset ex parte obiecti. Sed hoc est inconueniens 
+      pone<lb ed="#V" n="88" break="no"/>re. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e180">
+      ¶ Quarta conclusio quod potentia anime christi non est 
+      par<lb ed="#V" n="89" break="no"/>tialis causa actus beatifici. quia tunc sequeretur quod potentia 
+      beatifi<lb ed="#V" n="90" break="no"/>caret seipsam. Quod autem essentia divina non concurrat ad actum 
+      <lb ed="#V" n="91"/>beatificum vt causa partialis probatur 4r.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e189">
+      ¶ Primo: quia si 
+      <lb ed="#V" n="92"/>sic etiam voluntas diuina ibi concurreret vt causa vniuersalis. quia 
+      <lb ed="#V" n="93"/>ad omnem effectum et actum ad extra concurrit. Sed quod si vniversalis 
+      <lb ed="#V" n="94"/>causa probo. quia in plus est respectu effectuum ad extra. Sid 
+      <lb ed="#V" n="95"/>hoc esset irrationabile: quia causa vniversalis diciet esse prior: essentia autem 
+      <lb ed="#V" n="96"/>prior est voluntate.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e202">
+      ¶ Item si essentia cum voluntate con 
+      <lb ed="#V" n="97"/>curreret: voluntas esset primaria et magis praencipalis. sed 
+      <lb ed="#V" n="98"/>hoc est impossibile. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e209">
+      ¶ Item causa vniversalis continet vir 
+      <lb ed="#V" n="99"/>tualiter causam particularem. sed essentia continet voluntatem 
+      <lb ed="#V" n="100"/>etiam formaliter sicut subiectum propriam passionem. ergo 
+      volun<lb ed="#V" n="101" break="no"/>tas cum essentia non potest esse causa partialis.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e218">
+      ¶ Item 4o. 
+      <lb ed="#V" n="102"/>sicut se habent aliqua in essendo. ita etiam in operando et essentia: sed 
+      <lb ed="#V" n="103"/>essentia secundum esse praecedit voluntatem. igitur etc. Quod autem actus 
+      <lb ed="#V" n="104"/>beatificus non sit a potentia sicut a causa partiali probatur 
+      eis<lb ed="#V" n="105" break="no"/>dem medis: quibus est probatum de essentia. quia si potentia 
+      <lb ed="#V" n="106"/>ad actum concurrit cum obiecto ipsa potentia esset causa vniversalis 
+      <lb ed="#V" n="107"/>et essentia particularis: quia in aliis potentia respectu obiecti 
+      <lb ed="#V" n="108"/>videtur causa vniuersalis: et obiectum particularis: quia potentia potest 
+      <lb ed="#V" n="109"/>ad alios actus concurrere et actus specificatur ab obiecto. Sed 
+      <lb ed="#V" n="110"/>hoc est impossibile quod essentia divina cum potentia anime christi vel 
+      <lb ed="#V" n="111"/>alterius concurrat: quia sequerentur inconuenientia supra 
+      di<lb ed="#V" n="112" break="no"/>cta scilicet quod potentia esset prior vel principalior continens virtualiter 
+      <lb ed="#V" n="113"/>essentiam divinam. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e248">
+      ¶ Est igitur ista conclusio intenta quod 
+      <lb ed="#V" n="114"/>actus beatificus anime christi causatur totaliter in voluntate 
+      divina<lb ed="#V" n="115" break="no"/>in genere cause efficientis.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e255">
+      ¶ Sed contra. 4r. Primo quia illud 
+      <lb ed="#V" n="116"/>non est negandum ab obiecto perfectissimo quod competit cui 
+      <lb ed="#V" n="117"/>libet obiecto. sed causare actum attribuitur communiter omni obiecto 
+      <lb ed="#V" n="118"/>quantumcumque imperfecto.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e264">
+      ¶ Dicendum quod essentie bene competit causare: 
+      <lb ed="#V" n="119"/>sed non vt essentia: quia sub ista reduplicatione ageret 
+      no<lb ed="#V" n="120" break="no"/>cessario. Sed voluntati vt est libera bene competit.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e271">
+      ¶ Item 
+      <lb ed="#V" n="121"/>2o. quia omnis ratio causatur effectiue a termino vt dictum est 
+      supit<lb ed="#V" n="122" break="no"/>sed essentia est terminus in ratione finis. igitur et principium vel primum ef 
+      <lb ed="#V" n="123"/>fectiuum.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e280">
+      ¶ Dicendum quod essentia diuna bene est causa: sed non 
+      effe<lb ed="#V" n="124" break="no"/>ctiue. sed in ratione terminantis respectu actus ad obiectum: 
+      <lb ed="#V" n="125"/>quia ipsa essetia terminat actum beatificum.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e287">
+      ¶ Item 3o. quia ex hoc 
+      <lb ed="#V" n="126"/>arguimus quod sol est causa radii: quia ad eius praesentiam causatur et es 
+      <lb ed="#V" n="127"/>non existente non est radius. Sed essentia divina sublata non est 
+      <lb ed="#V" n="128"/>actus beatificus. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e297">
+      ¶ Dicendum quod quia essentia non potest ess 
+      <lb ed="#V" n="129"/>praesens in ratione obiecti beatifici nisi priuia voluntate divina: ideo 
+      <lb ed="#V" n="130"/>ipsa voluntas est causa effectiua actus licet ipsa essentia sit teria 
+      <lb ed="#V" n="131"/>tiua.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e306">
+      ¶ Item 4o. quia potentia videtur vilificari respectu obiecti 
+      <!--352.xml-->
+      <pb ed="#V" n="175-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>perfectissimi si non consequitur actum suum. sed potentia sensitiua 
+      <lb ed="#V" n="2"/>actum habet a suo obiecto. igitur est perfectior quam intellectiua.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e319">
+      ¶ Di 
+      <lb ed="#V" n="3"/>co quod ex imperfectione potentie et naturae nostre est quod per comperationem 
+      <lb ed="#V" n="4"/>ad obiectum perfectissimum no concurrit in causando cum ipso: quia 
+      <lb ed="#V" n="5"/>indigna esset essentia divina si potentie nostre coageret: quia necessario 
+      cau<lb ed="#V" n="6" break="no"/>saret ad extra: quod est absurdum.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e330">
+      ¶ Sed dubium est: si actus 
+      beatifi<lb ed="#V" n="7" break="no"/>cus anime christi est verbum.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e335">
+      ¶ Dico quod non. quia verbum effectiue a 
+      <lb ed="#V" n="8"/>memoria lem. actus autem beatificus non.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e340">
+      ¶ Item est dubium si est 
+      amor<lb ed="#V" n="9" break="no"/>spiratus.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e346">
+      ¶ Dico quod non. quia cbiecti beatisic in fruitio non est 
+      <lb ed="#V" n="10"/>a potentia nostra volitiua vel vi seperatiua causata: vt dictum 
+      <lb ed="#V" n="11"/>est.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e353">
+      ¶ Item est dubium quomodo actus beatificus est talis obiecti scilicet 
+      essen<lb ed="#V" n="12" break="no"/>tie divine cum non causetur ab ea.
+    </p>
+            <p xml:id="FrMS88-f31648-d1e358">
+      ¶ Dico quod actus semper 
+      speci<lb ed="#V" n="13" break="no"/>ficatur ab obiecto licet non causetur ab eo. quia semper actus terminatur ad 
+      <lb ed="#V" n="14"/>obiectum. Unde deus posset in me causare visionem solis sole non 
+      <lb ed="#V" n="15"/>mouente: non tamen sine sole terminante sicut secundum aliquos: 
+      <lb ed="#V" n="16"/>rlatio terminat actum intelligendi licet non moueat ad actum 
+      <lb ed="#V" n="17"/>intelligendi formaliter: sed solum fundamentaliter etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

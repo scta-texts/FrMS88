@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="233-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f83183"><!-- l1d49q2 -->
+            <head xml:id="FrMS88-f83183-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f83183-d1e111">
+               <lb ed="#V" n="74"/>Secundo queritur. vtrum anime separate 
+      <lb ed="#V" n="75"/>possint cruciari igne in 
+      <lb ed="#V" n="76"/>fernali. Quod non: quia Aug. super genesim. declarati 
+      <lb ed="#V" n="77"/>quod nullum corporale potest agere in spiritum. 
+      </p>
+            <p xml:id="FrMS88-f83183-d1e122">
+               <lb ed="#V" n="78"/>¶ Contra. idem Aug.n de ciuitate dei. 
+      oste<lb ed="#V" n="79" break="no"/>dit quod ignis inferni affligit damnatos 
+      <lb ed="#V" n="80"/>hic supponitur pars affirmatia ex side quia 
+      <lb ed="#V" n="81"/>li dicit christus. Mathei. 29. Ite 
+      <lb ed="#V" n="82"/>maledicti in ignem eternum. Et greg. in dyalogo dicit quod 
+      <lb ed="#V" n="83"/>ille ignis erit corporeus. Et alii scti haec tenent.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e138">
+      ¶ Sed quodo 
+      <lb ed="#V" n="84"/>hoc fiet. Aliqui doctores dicunt quod non per se sed vt instatendum diuine 
+      <lb ed="#V" n="85"/>iustis: sicut sacramentia sunt insttra mine. Alii dicunt quod quedam obstantia 
+      <lb ed="#V" n="86"/>possunt attingere informate potentie habitu: ad quod non possent si 
+      <lb ed="#V" n="87"/>ne habitu: et ita deus creat vnum habitum in anima: quo possibile est 
+      <lb ed="#V" n="88"/>eam pati ab igne. Alius dicit quod fit per modum apprehensionis. 
+      <lb ed="#V" n="89"/>quia apprehenditur per modum nociui: et ista afflictio non est 
+      ni<lb ed="#V" n="90" break="no"/>si obiectiua etiam in corporalibus. Alius dicit quod ignis habet 
+      <lb ed="#V" n="91"/>vnam actionem per quam immutat realiter. et vt sic non affligit: quia 
+      <lb ed="#V" n="92"/>tunc lapidem affligeret: cum in ipsum agat realiter. Aliam actio 
+      <lb ed="#V" n="93"/>nem habet intentionalem: et quando proportionaliter immutat affligit: et 
+      <lb ed="#V" n="94"/>ita ignis immutat ad actu doloris.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e164">
+      ¶ Sed contra istos modos 
+      <lb ed="#V" n="95"/>instatur.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e170">
+      ¶ contra primum hoc non sufficit: quia instamentum oportet habere virtutem per 
+      <lb ed="#V" n="96"/>quam agat in passum: sicut dolabra acutiem. quaeritur ergo vnde sit illa 
+      <lb ed="#V" n="97"/>virtus qua possit sic agere in spiritum: quia sidetur quod sit virtus 
+      <lb ed="#V" n="98"/>corporalis creata: eadem erit difficultas si sit specialis. hoc on 
+      <lb ed="#V" n="99"/>sum est esse impossibile quod virtus spiritualis informet subiectum corpo 
+      <lb ed="#V" n="100"/>rale: nec de se ignis habet talem virtutem. ergo nullo modo. 
+      </p>
+            <p xml:id="FrMS88-f83183-d1e183">
+               <lb ed="#V" n="101"/>¶ Contra 2m videtur positio illa tota irrationalis: vel enim ille 
+      <lb ed="#V" n="102"/>habitus quem ponunt est corporalis: vel spiritualis: non 
+      cor<lb ed="#V" n="103" break="no"/>poralis: quia corporalis non potest informare spiritum: nec spiritua 
+      <lb ed="#V" n="104"/>lis: quia tunc eadem difficultas esset. Et argumentum sic. Impossibile est quod 
+      <lb ed="#V" n="105"/>aliqua potentia per quemcumque habitum extendat se vltra obiectum 
+      for<lb ed="#V" n="106" break="no"/>male: sicut visus respectu separatorum non habet actum: sed 
+      <lb ed="#V" n="107"/>ignis non habet virtutem agendi sic. ergo nec per habitum.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e201">
+      ¶ Co 
+      <lb ed="#V" n="108"/>tra 3m. aut enim ista aporehensio est falsa: et tunc falso est 
+      mi<lb ed="#V" n="109" break="no"/>ser: quod negat Aug. quae dicit quod impossibile est quod aliquis sit false 
+      <lb ed="#V" n="110"/>btums: aut miser: Nec potest esse apprehensio vera: quia ignis 
+      <lb ed="#V" n="111"/>non habet esse lesiuum respectu illius. intelligere enim non est 
+      pe<lb ed="#V" n="112" break="no"/>na: seu afflictio intellectus. sed eius perfectio.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e214">
+      ¶ Contra 
+      <lb ed="#V" n="113"/>4m. vtraque enim immutatio est corporalis et inflictiua doloris: 
+      <lb ed="#V" n="114"/>quae est in potentia: vel in subiecto. spiritus autem sepatus nullam habet 
+      po<lb ed="#V" n="115" break="no"/>tentiam sensitiuam: ergo etc.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e223">
+      ¶ Ideo sequendo Scotum. dico 
+      <lb ed="#V" n="116"/>quod ignis habet 4or operationes realiter distinctas. prima est ignire 
+      <lb ed="#V" n="117"/>et ista est generatiua. 2a est calefacere: et ista est alteratiua. 
+      <lb ed="#V" n="118"/>aest intentionalis et sensibilis: sicut quando immutat ad 
+      ope<lb ed="#V" n="119" break="no"/>rationem caloris. ipsam enim calefactionem sequitur operatio 
+      <lb ed="#V" n="120"/>qua percipitur et sentitur calor: quod sentire est actus vitalis. 
+      <lb ed="#V" n="121"/>4a est intellectualis et insensibilis: sicut illa quae immutat intel 
+      <lb ed="#V" n="122"/>lectum ad intelligendum: et voluntatem ad volendum.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e241">
+      ¶ Iste 
+      <lb ed="#V" n="123"/>autem operationes sic ordinantur. prima respectu intellectus. 
+      <lb ed="#V" n="124"/>2a respectu sensus. 3a alterare. 4a generare. Et semper 
+      prio<lb ed="#V" n="125" break="no"/>naturaliter est separabilis ab aliis.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e251">
+      ¶ Probon: quia passiuum il 
+      <lb ed="#V" n="126"/>lud est perfectius et dispositius.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e256">
+      ¶ Ideo licet in instanti eodem 
+      <lb ed="#V" n="127"/>moueat ignis vtrumque scilicet intellectum ad intelligendum: et sen 
+      <lb ed="#V" n="128"/>sum ad sentiendum: tamen prius natura agit respectu 
+      intel<lb ed="#V" n="129" break="no"/>lectus: quia nulla dispositione indiget quam respectu sensus: quia 
+      <lb ed="#V" n="130"/>indiget aliqua dispositione. similiter actus sentiendi praecedit actum 
+      <lb ed="#V" n="131"/>alterandi. probatio: quia actus sentiendi fit in instanti alteratio 
+      <!--470.xml-->
+      <pb ed="#V" n="234-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tempore patet similiter quod alteram praecedit generationem: et generatio 
+      sequi<lb ed="#V" n="2" break="no"/>tur alterationem.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e280">
+      ¶ Sola prima operatio habet locum in substantis 
+      <lb ed="#V" n="3"/>separatis. non enim mutare potest obiectum intelligibile ad actum 
+      <lb ed="#V" n="4"/>potentie sensitiue. ergo sola opertione obiectiua.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e287">
+      ¶ Sed quid ad 
+      <lb ed="#V" n="5"/>propositum: Ista enim immutatio est salus et perfectio. quomodo ergo 
+      pe<lb ed="#V" n="6" break="no"/>na:
+    </p>
+            <p xml:id="FrMS88-f83183-d1e294">
+      ¶ Si dicas quod sicut in sensu non obstante quod sit salus: 
+      <lb ed="#V" n="7"/>et perfectio: tamen immutatio affligit.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e299">
+      ¶ hoc non valet: quia 
+      <lb ed="#V" n="8"/>ex hoc affligit sensum obiectum intensum: quia sensus est quaedam 
+      <lb ed="#V" n="9"/>armonia. potentia autem intellectiua non est talis armonia: 
+      <lb ed="#V" n="10"/>nec aliquod obiectum est sibi in proportionatum. 
+      <lb ed="#V" n="11"/>sciendum quod ignis in intellectu et voluntate causat 
+      <lb ed="#V" n="12"/>Est igu nu 4or operationes: supponendo in vtroque etiam 
+      <lb ed="#V" n="13"/>actiuum et passiuum scilicet intellectum agentem et possibilem: et voluntatem 
+      <lb ed="#V" n="14"/>agentem et possibilem: supponendo etiam quod deus potest supplere causa 
+      <lb ed="#V" n="15"/>litatem cuiuscumque causae efficientis.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e320">
+      ¶ Primus actus est quod 
+      <lb ed="#V" n="16"/>diuina voluntas supplens vicem intellectus agentis concurrit ad 
+      <lb ed="#V" n="17"/>causandum actum intensiuum de igne in intellectu possibili. Et patet quod 
+      <lb ed="#V" n="18"/>hoc est possibile: quia si intellectus agens cum obiecto poterat ergo multo 
+      <lb ed="#V" n="19"/>magis diuina voluntas cum obiecto potest.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e331">
+      ¶ Secundus actus est 
+      <lb ed="#V" n="20"/>in quo voluntas diuina supplens causalitatem voluntatis agem 
+      <lb ed="#V" n="21"/>tis causat cum obiecto in voluntate possibili actum intensiuum volendi. 
+      </p>
+            <p xml:id="FrMS88-f83183-d1e338">
+               <lb ed="#V" n="22"/>¶ 3o tristitia sequitur nolle: quia secundum Aug. tristitia est de his 
+      <lb ed="#V" n="23"/>rebus quae nobis nolentibus accidunt: et quanto intensior actus 
+      <lb ed="#V" n="24"/>nolendi tanto tristitia maior.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e347">
+      ¶ 4us actus. ille recipitur et 
+      in<lb ed="#V" n="25" break="no"/>format voluntatem angeli. et illa est pena eius. Maxima enim 
+      <lb ed="#V" n="26"/>pena est in qua maxime tristatur: cum tristitia sit 
+      maxima<lb ed="#V" n="27" break="no"/>penarum: vt superius est probatum in confessione.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e356">
+      ¶ Sed contra ista 
+      <lb ed="#V" n="28"/>tur 4r.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e361">
+      ¶ primo. quia omnem actum intelligendi perfectum consequitur 
+      <lb ed="#V" n="29"/>delectatio sed quando voluntas diuina supplens 
+      causalita<lb ed="#V" n="30" break="no"/>tem intellectus agentis sic concurrit cum obiecto tanto actus erit 
+      <lb ed="#V" n="31"/>perfectior.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e371">
+      ¶ 2o voluntas cum sit libera. non potest compelli: quodo 
+      <lb ed="#V" n="32"/>ergo habebit necessario actum illum nolendi:
+    </p>
+            <p xml:id="FrMS88-f83183-d1e376">
+      ¶ 3o actus in 
+      <lb ed="#V" n="33"/>voluntatem est voluntarius actus. ergo secundum hoc voluntarie 
+      af<lb ed="#V" n="34" break="no"/>fligetur: et tamen erit sibi penosum.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e383">
+      ¶ 4o quia non videtur talis 
+      af<lb ed="#V" n="35" break="no"/>lictio nisi pena dani:
+    </p>
+            <p xml:id="FrMS88-f83183-d1e388">
+      ¶ Respondeo ad primum. dico quod licet actus sit per 
+      <lb ed="#V" n="36"/>fectus cum sit intuitiue: tamen si innuite euenerit causat tristitiam: 
+      <lb ed="#V" n="37"/>et nisi consequeretur actus nolendi: tunc delectaretur. Ille 
+      au<lb ed="#V" n="38" break="no"/>tem actus nolendi causatur ab extrinseco: quia a voluntate 
+      <lb ed="#V" n="39"/>diuina concurrente cum obiecto.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e399">
+      ¶ Ad 2m dico. quod voluntas inquam 
+      <lb ed="#V" n="40"/>tum agens est: est libera non inquantum recipiens: deus autem 
+      <lb ed="#V" n="41"/>cum obiecto imprimit sibi illum actum nolendi et ipsa recipit eum 
+      <lb ed="#V" n="42"/>mnere naturaliter et non libere. Uoluntas enim supra illum actum 
+      <lb ed="#V" n="43"/>nullam actionem habet. Sed mere recipiet eum.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e410">
+      ¶ Ad 3m. Con 
+      <lb ed="#V" n="44"/>cedo quod quando est a voluntate effectiue. tunc est voluntarie. 
+      <lb ed="#V" n="45"/>hic autem voluntas tantum se habet receptiue.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e418">
+      ¶ Ad 4m. dico quod 
+      <lb ed="#V" n="46"/>est pena positiua. afflictiua violenter ab extrinseco causa 
+      <lb ed="#V" n="47"/>ta. et ita dabet intelligi pena sensus in spiritibus. Unde non est 
+      in<lb ed="#V" n="48" break="no"/>telligendum quod spiritus sensibiliter patiatur sicut corpora: sed 
+      infli<lb ed="#V" n="49" break="no"/>gitur eis talis pena ab extrinseco. qualiter autem sit pena dan 
+      <lb ed="#V" n="50"/>ni dicetur infra.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e431">
+      ¶ Sed hic oc. di.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e434">
+      ¶ Prima si ignis ita de 
+      <lb ed="#V" n="51"/>tinet violenter in consideratione sui intellectum. quod non possit 
+      <lb ed="#V" n="52"/>alia considerare.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e441">
+      ¶ Dicitur quod non. sicut patet de illo diuite 
+      dam<lb ed="#V" n="53" break="no"/>nato quo habuit considerationem et memoriam de fratribus 
+      su<lb ed="#V" n="54" break="no"/>is. NLuce. 19. tamen aliis considerationibus recedentibus et 
+      tran<lb ed="#V" n="55" break="no"/>seuntibus ille actus intelligendi ignem semper manet. et 
+      si<lb ed="#V" n="56" break="no"/>militer ille actus nolendi.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e452">
+      ¶ 2a difficultas. si ibi est inequalitas 
+      pe<lb ed="#V" n="57" break="no"/>narum. Utur enim quod non: cum ignis semper agat naturaliter.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e457">
+      ¶ Di 
+      <lb ed="#V" n="58"/>co quod ex parte ignis non potest dari differentia nec ordo: sed quia 
+      <lb ed="#V" n="59"/>diuina voluntas est causa vniuersalis intendendo actum 
+      <lb ed="#V" n="60"/>suum et ignis similiter actum suum intendit: quia adiuuatur ab illo 
+      <lb ed="#V" n="61"/>principio. sicut natura perfectior patris facit quod mater agit 
+      perfe<lb ed="#V" n="62" break="no"/>ctius. Unde ignis in suo conatu exigit actum voluntatis 
+      <lb ed="#V" n="63"/>diuine.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e474">
+      ¶ 3a difficultas quod secundum istum modum videtur quod beatitudo 
+      consi<lb ed="#V" n="64" break="no"/>stat in passione: si miseria non consistit in actu 
+      volendi<lb ed="#V" n="65" break="no"/>sed in tristitia: ita videtur ex altera parte.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e481">
+      ¶ hic fuit error men 
+      <lb ed="#V" n="66"/>lini: quod infelicitas est in visione illius luciferi.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e486">
+      ¶ Sed hoc 
+      <!--470.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>hic supponutu ciabuntur.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e495">
+      ¶ Ad cuius 
+      <lb ed="#V" n="68"/>non est verum.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e500">
+      ¶ Dico igitur quod sicut visio et fruitio sunt ma 
+      <lb ed="#V" n="69"/>iora bona delectatione consequente: ita carentia istorum est 
+      ma<lb ed="#V" n="70" break="no"/>ior infelicitas quam tristitia consequens.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e507">
+      ¶ 4a difficultas in quo 
+      consisti<lb ed="#V" n="71" break="no"/>magis infelicitas in intellectu vel voluntate.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e513">
+      ¶ Et videtur quod si contr 
+      <lb ed="#V" n="72"/>ria habent fieri circa idem obiectum: sequitur quod infelicitas est in 
+      <lb ed="#V" n="73"/>voluntate damnatorum ergo et in beatis felicitas.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e520">
+      ¶ Sed 
+      <lb ed="#V" n="74"/>hic occurrunt dubia.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e525">
+      ¶ Primum si in alio obiecto possent 
+      af<lb ed="#V" n="75" break="no"/>fligi.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e530">
+      ¶ Dicitur quod sic: quia eodem modo causaretur actus nolendi cum 
+      <lb ed="#V" n="76"/>illo obiecto et voluntate diuina concurrente.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e535">
+      ¶ 2m dubium est si in 
+      <lb ed="#V" n="77"/>celo empireo sic possent affligi.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e540">
+      ¶ Dicitur quod sic. quia deus 
+      vir<lb ed="#V" n="78" break="no"/>tualiter continet volendi et nolendi actum.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e546">
+      ¶ 3m dubium. si 
+      <lb ed="#V" n="79"/>posset deus eos punire in seipsis causando odium de se. 
+      </p>
+            <p xml:id="FrMS88-f83183-d1e551">
+               <lb ed="#V" n="80"/>¶ Dicitur quod sic. ita quod cum substantia eiusdem diuina voluntas concun 
+      <lb ed="#V" n="81"/>reret ad causandum actum nolendi: ad quem sequeretur 
+      tri<lb ed="#V" n="82" break="no"/>stitia sicut in aliis.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e560">
+      ¶ Quartum dubium. si posset eos 
+      affli<lb ed="#V" n="83" break="no"/>gere in essentia diuina. Non video impossibilitatem quin 
+      vi<lb ed="#V" n="84" break="no"/>dendo diuinam essentiam posset causare actum nolendi.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e567">
+      ¶ Sed 
+      <lb ed="#V" n="85"/>talis actus nolendin de essentia diuina potest causari sicut 
+      dan<lb ed="#V" n="86" break="no"/>nati habent actum odii. esset ergo beatus et haberet tristitiam 
+      <lb ed="#V" n="87"/>istam.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e576">
+      ¶ Sed hic est difficultas. Sco. de ista detentione.
+    </p>
+            <p xml:id="FrMS88-f83183-d1e579">
+      ¶ 
+      Di<lb ed="#V" n="88" break="no"/>citur quod naturaliter tristantur: quia ibi detinentur. Sed alia est 
+      su<lb ed="#V" n="89" break="no"/>pernaturalis et causatur ab obiecto cum voluntate diuina.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaesito 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaesito 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="175-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f32113"><!-- l3d12-16q3 -->
+            <head xml:id="FrMS88-f32113-Hd1e108">Quaesito 3</head>
+            <p xml:id="FrMS88-f32113-d1e111">
+               <lb ed="#V" n="79"/>¶ Questio. iii. 
+      <lb ed="#V" n="80"/>TErtio queritur Utrum anima 
+      <lb ed="#V" n="81"/>christi. 
+      Noti<lb ed="#V" n="82" break="no"/>cia intuitiua cognoscat et videat omnia 
+      il<lb ed="#V" n="83" break="no"/>la que videt verbum. 
+    </p>
+            <p xml:id="FrMS88-f32113-d1e124">
+               <lb ed="#V" n="84"/>Hic ponitur duplex distinctio. ¶ Prima est.
+      <lb ed="#V" n="85"/> quod quedam est noticia visioni ese 
+      <lb ed="#V" n="86"/>cognoscuntur omnia praesentia preterita et futura. Alia est 
+      no<lb ed="#V" n="87" break="no"/>ticia simplicis intelligetie qua cognoscuntur omnia 
+      cognosci<lb ed="#V" n="88" break="no"/>bilia possibilia etiam que numquam erunt.
+    </p>
+            <p xml:id="FrMS88-f32113-d1e137">
+      ¶ Secunda distinctio est. quod 
+      <lb ed="#V" n="89"/>quedam est noticia habitualis qua aliquis potest multa 
+      <lb ed="#V" n="90"/>successiue cognoscere.
+    </p>
+            <p xml:id="FrMS88-f32113-d1e144">
+      ¶ Alia autem est noticia actualis 
+      <lb ed="#V" n="91"/>qua quis actu multa cognoscit.
+    </p>
+            <p xml:id="FrMS88-f32113-d1e150">
+      ¶ De noticia simplicis 
+      <lb ed="#V" n="92"/>intelligentie et de noticia actuali est dififutatum quaesiti.
+    </p>
+            <p xml:id="FrMS88-f32113-d1e155">
+      ¶ Est 
+      <lb ed="#V" n="93"/>igitur opinio. quod anima christi non videt omnia que videt verbum 
+      <lb ed="#V" n="94"/>ista duplici noticia: quia sequeretur quod anima christi verbum 
+      cogno<lb ed="#V" n="95" break="no"/>sceret: quantum esset de se cognoscibile: sed verbum non sic 
+      <lb ed="#V" n="96"/>cognoscitur nisi ab intellectu diuino. igitur non cognoscit omnia 
+      <lb ed="#V" n="97"/>predicto modo.
+    </p>
+            <p xml:id="FrMS88-f32113-d1e168">
+      ¶ Sed contra arguit sic doctor subtilis 
+      qua<lb ed="#V" n="98" break="no"/>drupliciter.
+    </p>
+            <p xml:id="FrMS88-f32113-d1e173">
+      ¶ Primo. quia aliquis potest aliquod totum cogno 
+      <lb ed="#V" n="99"/>scere: non tamen totaliter. igitur si aliquid cognoscitur non oportet 
+      <lb ed="#V" n="100"/>quod hoc sit quantum cognoscibile est. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f32113-d1e180">
+      ¶ Item 2o. quia 
+      <lb ed="#V" n="101"/>quilibet fidelis christianus noticia fidei cognoscit tres per 
+      <lb ed="#V" n="102"/>sonas: non tamen omnes eque perfecte. igitur non quantum sunt 
+      co<lb ed="#V" n="103" break="no"/>gnoscibiles.
+    </p>
+            <p xml:id="FrMS88-f32113-d1e189">
+      ¶ Item 3o. quia sancti in patria cognoscunt 
+      tre<lb ed="#V" n="104" break="no"/>personas et attributa et notionalia et ideas. et omnia que 
+      <lb ed="#V" n="105"/>habet deus extensiue. Sed non intensiue igitur non quantum 
+      <lb ed="#V" n="106"/>cognoscibilia sunt.
+    </p>
+            <p xml:id="FrMS88-f32113-d1e199">
+      ¶ 4o. quia posset deum inferiori ange 
+      <lb ed="#V" n="107"/>lo vel beato intensius aliqua reuelare quam superiori vt 
+      superio<lb ed="#V" n="108" break="no"/>ri. Et tenet doctor quod omnia que videt verbum videt ania 
+      <lb ed="#V" n="109"/>christi licet minus perfecte et minus clare quam verbum.
+    </p>
+            <p xml:id="FrMS88-f32113-d1e208">
+      ¶ Sed 
+      con<lb ed="#V" n="110" break="no"/>tra. quia perfectior est cognitio que duo habet quam que vnum 
+      <lb ed="#V" n="111"/>tantum: et perfectior que quatuor quam quae duo tantum: et sic deinceps. 
+      <lb ed="#V" n="112"/>Sic igitur ista cognitio que cognoscit infinita est per 
+      <lb ed="#V" n="113"/>fectissima. ergo eque perfecte cognoscit anima sicut 
+      ver<lb ed="#V" n="114" break="no"/>bum.
+    </p>
+            <p xml:id="FrMS88-f32113-d1e221">
+      ¶ Dicendum quod vbi operatio respicit duo obiecta 
+      pri<lb ed="#V" n="115" break="no"/>ma perfectior est que potest in duo quam que potest in vnum 
+      <lb ed="#V" n="116"/>tantum. sicut est perfectior visio que videt albedinem et 
+      ni<lb ed="#V" n="117" break="no"/>gredinem siue simul siue successiue quam nigredinis tantum: 
+      <lb ed="#V" n="118"/>quia vtrumque est obiectum primum potentie visiue. Sed 
+      si<lb ed="#V" n="119" break="no"/>potentia respicit duo obiecta non prima: sed vnum primarium 
+      <lb ed="#V" n="120"/>et aliud secundarium: quod scilicet secundarium non cognoscitur nisi in 
+      pri<lb ed="#V" n="121" break="no"/>vel saltem potest in primo cognosci: non oportet quod potentia seu operatio 
+      poten<lb ed="#V" n="122" break="no"/>tie perfectionem recipiat a secundario obiecto: sed tantum a primo
+    </p>
+            <p xml:id="FrMS88-f32113-d1e241">
+      ¶ 
+      Ite<lb ed="#V" n="123" break="no"/>ecundo. instatur: quia omnis potentia limitata perfectius se habet 
+      <lb ed="#V" n="124"/>ad vnum obiectum quam ad plura. Sed anima christi est potentia 
+      limi<lb ed="#V" n="125" break="no"/>tata. igitur si potentia diminuatur de perfectione sua propter 
+      <lb ed="#V" n="126"/>plura obiecta non videt anima que videt verbum.
+    </p>
+            <p xml:id="FrMS88-f32113-d1e252">
+      ¶ 
+      Di<lb ed="#V" n="127" break="no"/>co quod potentia limitata non minus fertur in primum obiectum 
+      <lb ed="#V" n="128"/>cum secundario quam in primum solum. sicut si mater diligit 
+      <lb ed="#V" n="129"/>nutricem et puerum non magis diligit nutricem sine 
+      <lb ed="#V" n="130"/>puero quam cum puero: quia nutrix est obiectum secundarium 
+      <lb ed="#V" n="131"/>dilectionis.
+    </p>
+            <p xml:id="FrMS88-f32113-d1e265">
+      ¶ Item 3o. quia omnis virtus vnita fortior est se 
+      <lb ed="#V" n="132"/>ipsa dispersa vel diuisa. Igitur virtus anime christi fortior et 
+      <!--353.xml-->
+      <pb ed="#V" n="175-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>perfectior est circa vnum obiectum quam circa plura.
+    </p>
+            <p xml:id="FrMS88-f32113-d1e279">
+      ¶ Dicendum 
+      <lb ed="#V" n="2"/>quod illud assumptum est verum respectu plurium obiectorum non 
+      <lb ed="#V" n="3"/>subordinatorum: sed quando obstantia sunt subordinata non impeditur 
+      <lb ed="#V" n="4"/>virtus a primo mo propter 2m: quia talis ordo obiectorum est 
+      necessa<lb ed="#V" n="5" break="no"/>rius.
+    </p>
+            <p xml:id="FrMS88-f32113-d1e290">
+      ¶ Item 4o. quia maior est colligantia plurium actuum 
+      <lb ed="#V" n="6"/>ad diuersas potentias quam ad vnam. Sed vna potentia a 
+      <lb ed="#V" n="7"/>suo actu impedit aliam si omnes sunt in actu. igitur magis 
+      pl<lb ed="#V" n="8" break="no"/>ra obiecta impediunt animam christi que est vna potentia.
+    </p>
+            <p xml:id="FrMS88-f32113-d1e299">
+      ¶ Dico 
+      <lb ed="#V" n="9"/>quod actus vel obiecta diuersarum potentiarum sunt disparata: sed 
+      <lb ed="#V" n="10"/>obiecta eiusdem potentie aliquando sunt subordinata sicut est in 
+      <lb ed="#V" n="11"/>proposito nec est ibi pluralitas actuum. licet sint plura obiecta 
+      <lb ed="#V" n="12"/>quia primarium tantum variat actum: non autem secundarium: eo quod 
+      opera<lb ed="#V" n="13" break="no"/>tio potentie illa respicit per accidens: obiectum autem primarium 
+      <lb ed="#V" n="14"/>respicit per se.
+    </p>
+            <p xml:id="FrMS88-f32113-d1e315">
+      ¶ Sed dubium est. si deus posset 
+      ani<lb ed="#V" n="15" break="no"/>me christi occultare aliquid eorum que videt in essentia divina¬ 
+      </p>
+            <p xml:id="FrMS88-f32113-d1e320">
+               <lb ed="#V" n="16"/>¶ Dicendum quod sic. sed reuelatio et occultatio non mutan 
+      <lb ed="#V" n="17"/>actum beatificum licet possint actum intendere vel exter 
+      <lb ed="#V" n="18"/>dere vel remittere: actus enim beatificus per se 
+      relatio<lb ed="#V" n="19" break="no"/>nem habet ad obiecto primarium: quod est essentia divina. relationem 
+      <lb ed="#V" n="20"/>vero per accidens habet ad obiecta secundaria. Sed mutatio quid 
+      <lb ed="#V" n="21"/>rei conuenit per accidens et ex consequenti non mutatur illud quod sibi 
+      con<lb ed="#V" n="22" break="no"/>petit per se. vnde anima christi per infinitas relationes potest cogita 
+      <lb ed="#V" n="23"/>re infinita obiecta secundaria: et vno actu non variato secundum sbstantiam 
+      <lb ed="#V" n="24"/>sed solum secundum respectum: infinitas autem relationum 
+      <lb ed="#V" n="25"/>non repugnat creature: quia respectus non dicit 
+      per<lb ed="#V" n="26" break="no"/>fectionem.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

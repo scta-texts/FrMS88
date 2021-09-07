@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="174-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f31268"><!-- l3d5-12q3 -->
+            <head xml:id="FrMS88-f31268-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f31268-d1e111">
+               <lb ed="#V" n="82"/>¶ Questio. iii 
+      <lb ed="#V" n="83"/>Utrum tres 
+      perso<lb ed="#V" n="84" break="no"/>Ertio quero ne divine posset 
+      ar<lb ed="#V" n="85" break="no"/>sumere eandem naturam numero 
+      <lb ed="#V" n="86"/>opinio communis quod non. quia natura 
+      di<lb ed="#V" n="87" break="no"/>hic est uina: quia est illum inata. Ic 
+      <lb ed="#V" n="88"/>circo eadem numero est in tribus suppositis. Sed nulla crea 
+      <lb ed="#V" n="89"/>ta natura potest esse illimitata. Igitur a tribus personis non potest 
+      <lb ed="#V" n="90"/>assumi.
+    </p>
+            <p xml:id="FrMS88-f31268-d1e133">
+      ¶ Sed contra. quia idem respectus simultatis est in tribus 
+      <lb ed="#V" n="91"/>personis. Sed respectus non est infinitus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f31268-d1e138">
+      ¶ Item 2o. quia 
+      re<lb ed="#V" n="92" break="no"/>spectus fundamentalis causalitatis est idem in tribus personis 
+      di<lb ed="#V" n="93" break="no"/>uinis: quia causalitas competit trinitati.
+    </p>
+            <p xml:id="FrMS88-f31268-d1e145">
+      ¶ Ideo dicunt aliqui et 
+      <lb ed="#V" n="94"/>doctor noster etiam dicit quod eadem nam numero a tribus personis non 
+      <lb ed="#V" n="95"/>potest assumi: non propter causam iam dictam. sed solum propter depender 
+      <lb ed="#V" n="96"/>tiam naturae create ad suppositum: que in vno supposito to 
+      <lb ed="#V" n="97"/>taliter et perfecte terminatur. et tunc si eadem natura que assumpta 
+      <lb ed="#V" n="98"/>est posset ab alio supposito assumi: dependeret ab alie 
+      <lb ed="#V" n="99"/>causa: qua non existente nihilominus esset: quod est 
+      impossi<lb ed="#V" n="100" break="no"/>bile.
+    </p>
+            <p xml:id="FrMS88-f31268-d1e164">
+      ¶ Sed quia dictum est quod inste respectus vnionis non est 
+      <lb ed="#V" n="101"/>respectus dependentie: sed solum sustentificationis.
+    </p>
+            <p xml:id="FrMS88-f31268-d1e169">
+      ¶ Ideo dici 
+      <lb ed="#V" n="102"/>tur quod eadem nam numero potest a tribus suppositis divinis 
+      as<lb ed="#V" n="103" break="no"/>sumi. quia quando aliqua duo se habent sicut prius et posterius potentia 
+      <lb ed="#V" n="104"/>multiplicari posterius non multiplicato priori. Unde secundum do 
+      <lb ed="#V" n="105"/>ctorem subtilem idem corpus potest esse in diuersi locis: quia 
+      <lb ed="#V" n="106"/>potest habere diuersa vbi in eodem fundamento. sed respectus 
+      <lb ed="#V" n="107"/>vnionis est respectus extrinsecus adueniens sicut 
+      respe<lb ed="#V" n="108" break="no"/>ctus vbi. igitur potest multiplicari respectu eiusdem naturae 
+      <lb ed="#V" n="109"/>numero: que potest illos fundare.
+    </p>
+            <p xml:id="FrMS88-f31268-d1e189">
+      ¶ Item 2o sic: duo 
+      corpora<lb ed="#V" n="110" break="no"/>ossunt esse in eodem loco. igitur et respectus diuersi vnionis 
+      <lb ed="#V" n="111"/>in eadem natura. Sed tria supposita suppositare eandem 
+      <lb ed="#V" n="112"/>naturam numero non est nisi tres respectus esse in eadem naturam 
+      <lb ed="#V" n="113"/>quod est possibile per diuinam potentiam.
+    </p>
+            <p xml:id="FrMS88-f31268-d1e200">
+      ¶ hic tamen notandum 
+      <lb ed="#V" n="114"/>est quod aliquod suppositare aliud vel aliquid suppositari in 
+      <lb ed="#V" n="115"/>alio: potest intelligi quatuor modis.
+    </p>
+            <p xml:id="FrMS88-f31268-d1e207">
+      ¶ Primo quod perse 
+      <lb ed="#V" n="116"/>na suppositetur per naturam. et sic non habet veritatem: quia 
+      sup<lb ed="#V" n="117" break="no"/>positum est vltimum incommunicabile natuam vero alteri 
+      comicabi<lb ed="#V" n="118" break="no"/>lis.
+    </p>
+            <p xml:id="FrMS88-f31268-d1e216">
+      ¶ 2o quod natura suppositet naturam: et hoc non: quia vnio naturae 
+      <lb ed="#V" n="119"/>ad naturam est compositio formaliter.
+    </p>
+            <p xml:id="FrMS88-f31268-d1e222">
+      ¶ 3o quod suppositum per 
+      sup<lb ed="#V" n="120" break="no"/>positum. et hoc non: quia vtrumque incomunicabile.
+    </p>
+            <p xml:id="FrMS88-f31268-d1e227">
+      ¶ 4o quod 
+      super<lb ed="#V" n="121" break="no"/>potontium assumat naturam: et sic isto modo habet veritatem.
+    </p>
+            <p xml:id="FrMS88-f31268-d1e232">
+      ¶ Sed 
+      <lb ed="#V" n="122"/>dubium est: si vierum assumeret decem homines: si tunc essent 
+      de<lb ed="#V" n="123" break="no"/>cem supposita vel vnum supositum tantum.
+    </p>
+            <p xml:id="FrMS88-f31268-d1e239">
+      ¶ Dicendum quod essent omnia 
+      <lb ed="#V" n="124"/>vnum suppositum pluribus naturis sicut homo dicitur vnum 
+      qua<lb ed="#V" n="125" break="no"/>le et non plura qualia licet plures habeat qualitates. Uerum 
+      <lb ed="#V" n="126"/>tamen essent plura singularia: quia singularitas ordine est 
+      <lb ed="#V" n="127"/>sentialiter precedit suppositalitatem. hoc autem natura habet a 
+      <lb ed="#V" n="128"/>se non ab alio nec ab alio potest habere. quia natuam indiuiduatur 
+      <lb ed="#V" n="129"/>per aliquid positiuum sui generis.
+    </p>
+            <p xml:id="FrMS88-f31268-d1e255">
+      ¶ Item dubium est. si tres 
+      perso<lb ed="#V" n="130" break="no"/>ne assumerent eundem numero si iste homo esset vnum 
+      sup<lb ed="#V" n="131" break="no"/>pontium vel plura. valet. tria.
+    </p>
+            <p xml:id="FrMS88-f31268-d1e262">
+      ¶ Dicendum quod tria in vna nam 
+      signa<lb ed="#V" n="132" break="no"/>ta. quia quodlibet supposititium communicat sibi suppositalitatem. nec 
+      <!--351.xml-->
+      <pb ed="#V" n="174-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>propter hoc talis nauam esset illimitata. quia hoc a se non 
+      ha<lb ed="#V" n="2" break="no"/>beret: nec sibi hoc naturaliter competeret. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

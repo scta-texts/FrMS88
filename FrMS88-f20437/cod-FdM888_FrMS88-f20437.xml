@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="160-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f20437"><!-- l2d25q1 -->
+            <head xml:id="FrMS88-f20437-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f20437-d1e111">
+               <lb ed="#V" n="71"/>Iam vero ad propositum redeamus 
+      <lb ed="#V" n="72"/>CIrca distinctionem 
+      <lb ed="#V" n="73"/>25. Quero vtrum actus liberi arbitri 
+      <lb ed="#V" n="74"/>causetur ab obiecto vel a voluntate. Et 
+      <lb ed="#V" n="75"/>idetur quod non a voluntate: quia idem ageret in se 
+      <lb ed="#V" n="76"/>ipsum.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e127">
+      ¶ Contra. aliter non esset liber 
+      <lb ed="#V" n="77"/>aliqui. quod totaliter causatur a volun 
+      <lb ed="#V" n="78"/>hic dicunt tate.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e134">
+      ¶ Alii converso quod ab obiecto.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e137">
+      ¶ Ali 
+      <lb ed="#V" n="79"/>quod ab actu intelligendi: quia ad illum sequitur.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e143">
+      ¶ Alii quod 
+      <lb ed="#V" n="80"/>a fantasmate immediate: quia obiectum non est presens 
+      </p>
+            <p xml:id="FrMS88-f20437-d1e148">
+               <lb ed="#V" n="81"/>¶ Contra primum arguitur: quia tunc non requireretur obiectum 
+      </p>
+            <p xml:id="FrMS88-f20437-d1e153">
+               <lb ed="#V" n="82"/>¶ Contra 2m: quia obiectum naturaliter agit: et tunc esset actus 
+      <lb ed="#V" n="83"/>materie naturalis.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e160">
+      ¶ Contra 3m. quia actus intelligendi est 
+      <lb ed="#V" n="84"/>mere naturalis: et ita naturaliter causaret.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e165">
+      ¶ Contra 4m. quia 
+      fan<lb ed="#V" n="85" break="no"/>tasma: nec virtualiter: nec formaliter continet actum 
+      volen<lb ed="#V" n="86" break="no"/>di.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e172">
+      ¶ Pono igitur hic 4or conclusiones.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e176">
+      ¶ Prima est quod non 
+      cau<lb ed="#V" n="87" break="no"/>satur totaliter a potentia volitiua: posito enim 
+      sufficien<lb ed="#V" n="88" break="no"/>ti actiuo et passiuo: et approximatis ponitur effectus in 
+      <lb ed="#V" n="89"/>naturalibus potest etiam poni in contingentibus. oppositum et 
+      <lb ed="#V" n="90"/>perimur in proposito.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e187">
+      ¶ Secunda conclusio quod obiectum non 
+      <lb ed="#V" n="91"/>est totalis causa: quia ignobilius.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e192">
+      ¶ Tertia conclusio. quod 
+      <lb ed="#V" n="92"/>voluntas et obiectum sunt due partiales cause eius: quia 
+      <lb ed="#V" n="93"/>vtrumque requiritur et neutrum sufficit.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e199">
+      ¶ Quarta conclusio 
+      <lb ed="#V" n="94"/>quod voluntas principalius concurrit: quia est causa vniversalis 
+      <lb ed="#V" n="95"/>respectu omnium actuum: obiectum autem est causa 
+      parti<lb ed="#V" n="96" break="no"/>cularis.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e208">
+      ¶ Sed contra. quomodo est actus in potestate nostra 
+      <lb ed="#V" n="97"/>si causatur ab obiecto: Dicitur hic quod vbi effectus de 
+      <lb ed="#V" n="98"/>pendet a duabus causis: si causa est vna contingens to 
+      <lb ed="#V" n="99"/>tus effectus est contingens. sicut habeo in potestate 
+      fra<lb ed="#V" n="100" break="no"/>gere prohibens detinens graue: et postea mouetur naturaliter: 
+      <lb ed="#V" n="101"/>quia igitur voluntas potest causare et non causare: ideo etc. 
+      <lb ed="#V" n="102"/>Unde manifestum est quod in genere cause materialis non libere 
+      <lb ed="#V" n="103"/>causati: et tamen quia effectiue causant et libere totum est 
+      li<lb ed="#V" n="104" break="no"/>berum.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e228">
+      ¶ Sed illi dicunt quod obiectum necessario mouet 
+      vo<lb ed="#V" n="105" break="no"/>luntatem: sed postea impare potest libere: vt desistat 
+      <lb ed="#V" n="106"/>a tali cognitione.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e236">
+      ¶ Contra quandocumque est aliquod mouens 
+      <lb ed="#V" n="107"/>quod non mouet nisi motum: ea necessaritate mouet qua mo 
+      <lb ed="#V" n="108"/>uetur a mouente ipsum: sed voluntas non mouet imperati: 
+      <lb ed="#V" n="109"/>ue alias potentias nisi mota ab abiecto actu elicito: 
+      <lb ed="#V" n="110"/>ergo si naturali necessitate mouetur naturali necessaritate 
+      mo<lb ed="#V" n="111" break="no"/>uet.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e249">
+      ¶ Secunda difficultas. si ad actum liberum concurrit 
+      <lb ed="#V" n="112"/>diuina voluntas: Oportet dicere quod sic.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e254">
+      ¶ Sed contra. aut 
+      <lb ed="#V" n="113"/>diuina voluntate concurrente voluntas non potest non 
+      cau<lb ed="#V" n="114" break="no"/>sare: et tunc necessario causabit: non libere: si potest non 
+      cau<lb ed="#V" n="115" break="no"/>sare: ergo vult deus aliquid quod non impletur. hic dico 
+      <lb ed="#V" n="116"/>quod assistente voluntate diuina potest non velle: quia deus 
+      <lb ed="#V" n="117"/>assistit in ratione cause vniuersalis: et ideo si vis agere agit. 
+      </p>
+            <p xml:id="FrMS88-f20437-d1e267">
+               <lb ed="#V" n="118"/>¶ Sed nonne deus potest imprimere actum liberum in 
+      <lb ed="#V" n="119"/>voluntate: Dico quod non: quia actus liber non est ratione 
+      re<lb ed="#V" n="120" break="no"/>ceptionis: sed quia efficitur: vnde dicitur liberum in habi 
+      <lb ed="#V" n="121"/>tudine ad voluntatem nostram. in relationibus autem 
+      <lb ed="#V" n="122"/>deus non potest supplere causam secundam: vt dictum fui 
+      <lb ed="#V" n="123"/>in primo libro.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e283">
+      ¶ Sed que habitudo prior est ad 
+      con<lb ed="#V" n="124" break="no"/>traria scilicet ad velle et nolle: vel ad contradictoria 
+      <lb ed="#V" n="125"/>scilicet velle et non velle.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e290">
+      ¶ Dico quod ad contradictoria 
+      <lb ed="#V" n="126"/>est libertas prior. Regula enim est quod quando aliquis 
+      <lb ed="#V" n="127"/>habet in potestate actus incompossibiles: potest 
+      quen<lb ed="#V" n="128" break="no"/>libet producere et alterum suspendere: quia 
+      incompos<lb ed="#V" n="129" break="no"/>sibilis illi: sed potentia ad producendum et 
+      suspen<lb ed="#V" n="130" break="no"/>dendum est potentia cottradictionis. ergo.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e304">
+      ¶ Sed  
+      <!--323.xml-->
+      <pb ed="#V" n="160-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>est ne voluntas causa effectiua alicuius actus imparati: Dico 
+      <lb ed="#V" n="2"/>quod oportet causalitatem dare voluntati. ita quod potentia 
+      executi<lb ed="#V" n="3" break="no"/>ua est causa partialis: voluntas autem vniuersalis.
+    </p>
+            <p xml:id="FrMS88-f20437-d1e320">
+      ¶ Sed contra. 
+      absente<lb ed="#V" n="4" break="no"/>actu voluntatis adhuc executiua exequitur. Dico quod 
+      vo<lb ed="#V" n="5" break="no"/>luntas prius ordine essentiali elicit actum elicitum. de 
+      <lb ed="#V" n="6"/>inde imperatum: et sufficit hec prioritas. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

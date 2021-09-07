@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f51511"><!-- l4d11q2 -->
+            <head xml:id="FrMS88-f51511-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f51511-d1e111">
+               <lb ed="#V" n="29"/>SEcundo queritur vtrum per diuinam 
+      po<lb ed="#V" n="30" break="no"/>tentiam fieri possit quod vno 
+      <lb ed="#V" n="31"/>corpore existente in vno loco possint partes eium 
+      <lb ed="#V" n="32"/>esse in diuersis locis.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e122">
+      ¶ Et videtur quod non. quia 
+      auge<lb ed="#V" n="33" break="no"/>Se dicit. 5. de tri. quod locus a correlatiuis tenet in 
+      <lb ed="#V" n="34"/>commutabiliter. sed totum / et pars sunt correlatiua. ergo vbi 
+      <lb ed="#V" n="35"/>est vnum et reliquum.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e131">
+      ¶ Contra. paulus dubitauit vtrun 
+      <lb ed="#V" n="36"/>anima fuerit cum corpore in raptu. non dubitauit autem de 
+      separa<lb ed="#V" n="37" break="no"/>tione. quia non fuit mortuus: ergo tantum in anima fuit praesens ibi 
+      quan<lb ed="#V" n="38" break="no"/>uis corpus non esset presens ibi localiter. 
+      <lb ed="#V" n="39"/>quatuor conclusiones.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e142">
+      ¶ Prima est quod deus potest 
+      <lb ed="#V" n="40"/>hic Dico facere vnum corpus quod est in diuersis 
+      <lb ed="#V" n="41"/>locis in vno loco habere formas respectiuas: quas non 
+      <lb ed="#V" n="42"/>habet in alio. hoc patet in actione: quia corpus christi vere est in 
+      ce<lb ed="#V" n="43" break="no"/>lo vbi potest proiicere lapideme: et in sacramento. vbi nullum membrum 
+      <lb ed="#V" n="44"/>potest mouere. quia non habet naturale vbi. naturaliter. non enim est in altari. ergo 
+      <lb ed="#V" n="45"/>non potest se mouere: quia non habet ibi naturale vbi. nec illud vbi 
+      <lb ed="#V" n="46"/>destruetur cum non fit in illo vbi virtute propria sua.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e161">
+      ¶ Similiter per 
+      <lb ed="#V" n="47"/>cuti et pati. sed percutiebatur in cruce. non autem in pixide. 
+      </p>
+            <p xml:id="FrMS88-f51511-d1e166">
+               <lb ed="#V" n="48"/>¶ Tertio quia corpus christi iacebat in sepulchro et non in 
+      pan<lb ed="#V" n="49" break="no"/>cide. vbi nullum situm habet.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e173">
+      ¶ 4o de habitu. si petrus conse 
+      <lb ed="#V" n="50"/>rasset in triduo ibi non fuissent vestimenta eius quia non 
+      <lb ed="#V" n="51"/>sunt concomitantia simpliciter. erat igitur vestis in praetorio pilati 
+      <lb ed="#V" n="52"/>et non in hostia.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e182">
+      ¶ Secunda conclusio quod corpus potest habere 
+      aliquan<lb ed="#V" n="53" break="no"/>formam absolutam in vno loco et non in alio: sicut potest esse 
+      <lb ed="#V" n="54"/>album in vno et non in alio. hoc patet: quia magis sequitur leges 
+      <lb ed="#V" n="55"/>ubstacti forma magis impressa vel immersa materiae: quam minus 
+      <lb ed="#V" n="56"/>immersa. sed relationes sunt magis immerse: quia separari non 
+      <lb ed="#V" n="57"/>dossunt: et tamen alique conueniunt in vno loco: et non in alio: vt 
+      <lb ed="#V" n="58"/>patet de illis qui vbi sequuntur igitur magis de formis 
+      ab<lb ed="#V" n="59" break="no"/>solutis que sunt minus immerse possunt ab eo separari 
+      </p>
+            <p xml:id="FrMS88-f51511-d1e200">
+               <lb ed="#V" n="60"/>¶ Tertia conclusio quod potest deus idem facere de formis substantiali 
+      <lb ed="#V" n="61"/>bus. ita vt hic non habeat eam. quia forma substantialis aliqua materia 
+      <lb ed="#V" n="62"/>liter separatur. sed nullum accidens.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e209">
+      ¶ 4a conclusio quod non est 
+      inconue<lb ed="#V" n="63" break="no"/>niens quod totum corpus sit in vno loco et pars vna 
+      ali<lb ed="#V" n="64" break="no"/>bi. probo. esse enim vnam partem in diuersis locis non est nisi 
+      <lb ed="#V" n="65"/>habere diuersa vbi corpore non habente. sed non est inconueniens 
+      <lb ed="#V" n="66"/>partem habere proprias relationes et proprias formas absolu¬ 
+      <!--398.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>tas suo toto habente contrarias: sicut secundum vnam partem est aliquis 
+      al<lb ed="#V" n="68" break="no"/>teri similis. Cum igitur magis consequantur leges substanti forme ab 
+      <lb ed="#V" n="69"/>solute. et respectus intrinseci quam extrinseci. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e232">
+      ¶ 2o 
+      <lb ed="#V" n="70"/>posteriora possunt multiplicari non multiplicatis prioribus. sed 
+      <lb ed="#V" n="71"/>hoc potest esse multiplicatio in posterioribus. quia idem caput 
+      <lb ed="#V" n="72"/>potest habere plures similitudines non habente corpore nisi vnam. sed 
+      re<lb ed="#V" n="73" break="no"/>pectus isti sunt priores respectibus vbi. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e243">
+      ¶ 3o. quia in 
+      <lb ed="#V" n="74"/>essentialiter ordinatis et realiter distinctis deus potest facem prius 
+      <lb ed="#V" n="75"/>fine posteriori. sed vbi totius et partium sunt essentialiter 
+      ordina<lb ed="#V" n="76" break="no"/>ta realiter distincta: quia prius conuenit motus toti quam partibus. et 
+      <lb ed="#V" n="77"/>er consequens vbi. sed quod sint realiter distincta patet. quia partes sunt 
+      rea<lb ed="#V" n="78" break="no"/>liter a subiecto distincte. et ita poterit acquri respectus corpori 
+      <lb ed="#V" n="79"/>quae non parti: et econverso. cum realiter distinguantur.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e259">
+      ¶ 4o et fortius. quia qui est 
+      <lb ed="#V" n="80"/>causa quod homo impellens corpus frangit medium. non intendit enim 
+      fra<lb ed="#V" n="81" break="no"/>ctionem. sed quia duo corpora non possunt esse simils. Similiter in 
+      opposi<lb ed="#V" n="82" break="no"/>to in actione et corruptione. quare autem frangit. quia vnu 
+      cor<lb ed="#V" n="83" break="no"/>pus non potest esse in diuersis locis. sed deus potest facem vnum 
+      <lb ed="#V" n="84"/>corpus in diuersis locis vt ostensum est. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e272">
+      ¶ Item omne 
+      <lb ed="#V" n="85"/>aritum quod fieret contra istud concluderet quod vnum corpus non potest esse 
+      <lb ed="#V" n="86"/>in diuersis locis.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e279">
+      ¶ Contra. quia eodem modo posset deus facem 
+      <lb ed="#V" n="87"/>quod essem filius hic et non hic.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e284">
+      ¶ Respondeo quod non apparet 
+      quare<lb ed="#V" n="88" break="no"/>deus non posset hoc facere.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e290">
+      ¶ 2a difficultas quia aliquid simils erit anima 
+      <lb ed="#V" n="89"/>tum. et non animatum.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e295">
+      ¶ Dico quod erit simpliciter aiatum. sed non vt 
+      <lb ed="#V" n="90"/>hic. et ita potest solui de aliis.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e300">
+      ¶ Sed quando christus est in sancramento 
+      ali<lb ed="#V" n="91" break="no"/>taris numquid oportet quod sanguis eius sit ibi ex concomitantia: Di 
+      <lb ed="#V" n="92"/>cunt quod rationes conuincunt quod deus posset facere corpus in alta 
+      <lb ed="#V" n="93"/>ri. dato quod non esset ibi sanguis. sed tunc dico. quod habet praesentiam 
+      <lb ed="#V" n="94"/>ad calice et non ad hostiam: nec hoc videtur impossibile.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e311">
+      ¶ Item ex mi 
+      <lb ed="#V" n="95"/>raculis arius sic. Si qualibet anno resurgunt corpora secundum augmenu 
+      <lb ed="#V" n="96"/>non videtur negandum de ioramne bap. et ita realiter est eius caput in 
+      <lb ed="#V" n="97"/>celo. et tamen habetur pro reliquiis in terris.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e320">
+      ¶ Et si dicatur augmentum 
+      <lb ed="#V" n="98"/>quomodo caput eius est in celo in carne cum corpore: et in terra non 
+      <lb ed="#V" n="99"/>nisi pura ossa.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e327">
+      ¶ Respondeo quod coniunctio corporis ad os partinet ad  
+      <lb ed="#V" n="100"/>approximationem localem.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e333">
+      ¶ Sed hic est dubium. si quarta pars 
+      <lb ed="#V" n="101"/>corporis sit in aliquo loco superficies praecedit vbi et habebit scilicet 
+      <lb ed="#V" n="102"/>superficies ibi. hic autem non habebit. quia hic non est continuum cum 
+      <lb ed="#V" n="103"/>alibi habeat superficiem.
+    </p>
+            <p xml:id="FrMS88-f51511-d1e342">
+      ¶ hic diceretur quod continuitas 
+      <lb ed="#V" n="104"/>est forma respectiua tantum. sed de hoc alias.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

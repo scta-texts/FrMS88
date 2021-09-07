@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f38615"><!-- l3d37-40q6 -->
+            <head xml:id="FrMS88-f38615-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f38615-d1e111">
+               <lb ed="#V" n="38"/>¶ Questio. vi 
+      <lb ed="#V" n="39"/>SExto quero Utrum virtus mo 
+      <lb ed="#V" n="40" break="no"/>ralis habeat circum 
+      <lb ed="#V" n="41"/>stantias sibi essentiales.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e122">
+               <lb ed="#V" n="42"/>hic premittendum est quod 
+      <lb ed="#V" n="43"/>qua <!-- possible line coord order error here -->
+      <lb ed="#V" n="44" break="no"/>tuor sunt modi praesentorum. distinguimus enim praeseta per 
+      <lb ed="#V" n="45"/>quiditatem quantitatem qualitatem et relationem. sic etiam 
+      <lb ed="#V" n="46"/>unt quatuor genera circustantiarum secundum ista quatuor. 
+      Que<lb ed="#V" n="47" break="no"/>dam enim circunstantie accipiuntur ex parte quiditatis scilicet 
+      <lb ed="#V" n="48"/>due quis cui. que sunt circunstantie personales quis 
+      <lb ed="#V" n="49"/>vt in latria. vnde Saul volebat deo vt sacerdos 
+      offer<lb ed="#V" n="50" break="no"/>re: cui vt in misericordia que debet fieri non diuitibus: 
+      <lb ed="#V" n="51"/>sed pauperibus luxta illud. Cum enim facis 
+      elemo<lb ed="#V" n="52" break="no"/>synam voca pauperes et debiles.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e151">
+      ¶ Item ex parte 
+      quan<lb ed="#V" n="53" break="no"/>titatis accipitur vna circunstantia scilicet quantum 
+      opor<lb ed="#V" n="54" break="no"/>tet vt in temperantia: quia homo debet esse contentus 
+      quan<lb ed="#V" n="55" break="no"/>titate sibi proportionata.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e160">
+      ¶ Item ex parte qualitatis  
+      <lb ed="#V" n="56"/>est alia circunstantia vt qualiter oportet: vnde Esau 
+      <lb ed="#V" n="57"/>fuit vituperatus: quia edulium lentis comedebat: et hoc 
+      <lb ed="#V" n="58"/>quia nimis auide.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e170">
+      ¶ Item ex parte relationis sunt 
+      due<lb ed="#V" n="59" break="no"/>valet. quando et vbi. Unde populus licet offerret deo 
+      li<lb ed="#V" n="60" break="no"/>bamina in excelsis: non tamen erat debita 
+      circunstan<lb ed="#V" n="61" break="no"/>lia vbi: quia offerre eim debebat in templo. de quando: quia 
+      <lb ed="#V" n="62"/>icet tantum sacerdos posset comedere panem 
+      san<lb ed="#V" n="63" break="no"/>ctum: non tamen quando iacuerat vel dormierat cum 
+      <lb ed="#V" n="64"/>vxore.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e186">
+      ¶ Sed contra predictas circunstantias argui 
+      <lb ed="#V" n="65"/>tur per ordinem.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e191">
+      ¶ Primo. quia actus commutatiue 
+      <lb ed="#V" n="66"/>iustitie est moralis. Sed non requirit circunstantiam 
+      <!--368.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>personalem: quia posset quis vendere regi sicut et 
+      rusti<lb ed="#V" n="68" break="no"/>co: ita vni sicut et alteri. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e204">
+      ¶ Item secundo. quia 
+      <lb ed="#V" n="69"/>virtus maior est et perfectior quam honor: sed premium 
+      <lb ed="#V" n="70"/>virtutis est honor qui virtuti equiparari non potest 
+      <lb ed="#V" n="71"/>igitur non est ibi quantum attendendum.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e213">
+      ¶ Item 
+      ter<lb ed="#V" n="72" break="no"/>tio. quia actus attritionis est a virtute: vt dictum fuit in 
+      <lb ed="#V" n="73"/>quarto. sed talis non attenditur qualiter: quia homo non 
+      <lb ed="#V" n="74"/>potest nimis atteri propter vilitatem peccati. igitur etc. 
+      </p>
+            <p xml:id="FrMS88-f38615-d1e222">
+               <lb ed="#V" n="75"/>¶ Ad primum dico quod in iustitia commutatiua 
+      atten<lb ed="#V" n="76" break="no"/>ditur circunstantia personalis. quia nullus debet 
+      ven<lb ed="#V" n="77" break="no"/>dere rem alienam vel alterius domini.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e232">
+      ¶ Item 
+      nec<lb ed="#V" n="78" break="no"/>debet vendere inimico reipublice.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e237">
+      ¶ Ad secundum 
+      <lb ed="#V" n="79"/>dico quod meliora que possunt reddi pro virtute 
+      reddum<lb ed="#V" n="80" break="no"/>tur scilicet honor: quia nihil aliud est melius in reddentis ho 
+      <lb ed="#V" n="81"/>minis potestate. Iccirco debet virtuoso sufficere 
+      qua<lb ed="#V" n="82" break="no"/>tum sibi honoris impenditur secundum gradum dignitatis 
+      <lb ed="#V" n="83"/>quem habet in re publica: vt plus possit exhiberi ma 
+      <lb ed="#V" n="84"/>gis virtuoso.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e253">
+      ¶ Ad tertium dico quod attritio debet 
+      ha<lb ed="#V" n="85" break="no"/>bere modum secundum gradum delicti. nec homo debet ex 
+      <lb ed="#V" n="86"/>cedere atterendo. alioquin limites excederet 
+      virtu<lb ed="#V" n="87" break="no"/>tis moralis: licet non forte theologice secundum aliquos. 
+      </p>
+            <p xml:id="FrMS88-f38615-d1e262">
+               <lb ed="#V" n="88"/>¶ Ad quartum dicendum quod assumptum est verum 
+      <lb ed="#V" n="89"/>de actu elicito et interiori: non autem de imperato et 
+      <lb ed="#V" n="90"/>exteriori.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e271">
+      ¶ Sed hic occurrunt dubia.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e274">
+      ¶ Primum 
+      <lb ed="#V" n="91"/>est. si circa quid est circunstantia virtutis.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e280">
+      ¶ 
+      Dicen<lb ed="#V" n="92" break="no"/>dum quod non. quia agere aliquid circa turpia est vitium: 
+      <lb ed="#V" n="93"/>et respectu distantis specifice ex obiecto non est actus 
+      cir<lb ed="#V" n="94" break="no"/>cunstantia.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e289">
+      ¶ Item dubium si. cum quibus. vt puta 
+      <lb ed="#V" n="95"/>cum talibus instrumentis actus morales exerceantur 
+      <lb ed="#V" n="96"/>est circunstantia actus moralis.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e296">
+      ¶ Dicendum quod sic. 
+      <lb ed="#V" n="97"/>sed reducitur ad circunstantiam de qualiter.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e301">
+      ¶ Item 
+      <lb ed="#V" n="98"/>dubium est de fine siue de propter quid.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e306">
+      ¶ Dicendum 
+      <lb ed="#V" n="99"/>quod finis est circunstantia posterior omnibus aliis 
+      cir<lb ed="#V" n="100" break="no"/>cunstantiis: eo quod actus magis specificatur a fine in 
+      <lb ed="#V" n="101"/>genere moris quam ab obiecto licet magis ab obiecto in 
+      <lb ed="#V" n="102"/>genere nature: qui enim secundum Aristotelem mechatur 
+      <lb ed="#V" n="103"/>propter lucrum pecunie magis est auarus quam mechus 
+      </p>
+            <p xml:id="FrMS88-f38615-d1e319">
+               <lb ed="#V" n="104"/>¶ Est igitur notandum quod triplex est malum scilicet 
+      <lb ed="#V" n="105"/>ex genere vt odire parentes: et ex circunstantia: vt 
+      co<lb ed="#V" n="106" break="no"/>gnoscere vxorem et non suam. Ex fine: vt facere actum 
+      <lb ed="#V" n="107"/>liberalitatis propter laudem hominum vel fauorem munm 
+      <lb ed="#V" n="108"/>danum: sic etiam est triplex bonum corrstondens scilicet dilige 
+      <lb ed="#V" n="109"/>re parentes ex genere ex circunstantia: vt esse libera. 
+      <lb ed="#V" n="110"/>lem circa pauperem tantum.
+    </p>
+            <p xml:id="FrMS88-f38615-d1e338">
+      ¶ Item ex fine vt esse 
+      pau<lb ed="#V" n="111" break="no"/>perem propter deum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

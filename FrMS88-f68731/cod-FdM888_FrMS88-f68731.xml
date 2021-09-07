@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="217-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f68731"><!-- l4d21q1 -->
+            <head xml:id="FrMS88-f68731-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f68731-d1e111">
+               <lb ed="#V" n="92"/>Solet etiam queri. 
+      <lb ed="#V" n="93"/>HEc est distinctio xxia. circa quam queruntur 
+      <lb ed="#V" n="94"/>quatuor vel quinque quistiones. 
+      </p>
+            <p xml:id="FrMS88-f68731-d1e120">
+               <lb ed="#V" n="95"/>¶ Prima. vtrum post hanc vitam sit 
+      remis<lb ed="#V" n="96" break="no"/>sio peccatorum.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e127">
+      ¶ Quod non. quia in Io. dixit 
+      <lb ed="#V" n="97"/>christus. venit nox in qua nemo etc.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e132">
+      ¶ Contra.  
+      <lb ed="#V" n="98"/>Math. dixit christus. qui peccauerit in filium 
+      <lb ed="#V" n="99"/>hominis remittetur ei: qui autem peccauerit in 
+      <lb ed="#V" n="100"/>spiritum sanctum non remittetur ei: nec in praesenti seculo: nec in 
+      <lb ed="#V" n="101"/>futuro. ergo in futuro fit remissio sibi de aliquibus. 
+      <lb ed="#V" n="102"/>quod questio ista difficultatem. 
+      <lb ed="#V" n="103"/>hic sciendum habet et habere potest quadruplice. 
+      <lb ed="#V" n="104"/>vel de culpa peccati mortalis: vel de pena eius. vel de 
+      <lb ed="#V" n="105"/>peccato veniali vel de pena eius.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e153">
+      ¶ Et secundum hoc 
+      introducun<lb ed="#V" n="106" break="no"/>tur 4or conclusiones.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e158">
+      ¶ Prima quod post hanc vitam non remittitur 
+      <lb ed="#V" n="107"/>culpa peccati mortalis quod probatur: quia quandocunque aliquis sic 
+      <lb ed="#V" n="108"/>moritur est dignus morte eterna: in qua nihil remittitur. 
+      <lb ed="#V" n="109"/>patet per beatum Gregumentum in dyalogo: quae dicit quod ad iustum dei 
+      iu<lb ed="#V" n="110" break="no"/>dicium partinet: vt nunquam careant supplicio qui 
+      numquan<lb ed="#V" n="111" break="no"/>voluerunt carere peccato: sed non esset eternum si dimittere 
+      <lb ed="#V" n="112"/>tur ergo etc.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e174">
+      ¶ Secunda conclusio quod nec pena peccati mortalis. pro 
+      <lb ed="#V" n="113"/>bo: quia pena proportionatur peccato. Et vlterius christus 
+      dixis<lb ed="#V" n="114" break="no"/>in Math. ite maledicti in ignem eternum sed super eternum 
+      <lb ed="#V" n="115"/>non cadit remissio. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e183">
+      ¶ Tertia conclusio quod culpa pecca 
+      <lb ed="#V" n="116"/>ti venialis diminttitur in alio mundo vel seculo. Ponatu 
+      <lb ed="#V" n="117"/>talis casus. quod aliquis in puncto mortis peccaret venialiter: 
+      <lb ed="#V" n="118"/>non propter hoc danaretur eternaliter: sicut superius ostensum est 
+      <lb ed="#V" n="119"/>quando agebatur de purgatorio in praecedenti quaestione: ergo 
+      remitti<lb ed="#V" n="120" break="no"/>tur ei in alio seculo.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e196">
+      ¶ 4a conclusio. quod pena peccati 
+      ve<lb ed="#V" n="121" break="no"/>nialis similiter remittitur: patet quia non est eterna sed temporalis 
+      <lb ed="#V" n="122"/>cum temporali culpe debeatur.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e203">
+      ¶ Sed instatur contra ista.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e207">
+      ¶ Con 
+      <lb ed="#V" n="123"/>tra primum sumo auctoritatem eandem: qui peccauerit in filium etc. 
+      <lb ed="#V" n="124"/>isto modo quo negatur de peccato in s. scet ict videtur concedin de pecca 
+      <lb ed="#V" n="125"/>to in filium. sed pecatum in i scilicet non remittitur in hoc seculo nec in 
+      <lb ed="#V" n="126"/>futuro. ergo peccatum in filium remittitur in hoc seculo et in 
+      futu<lb ed="#V" n="127" break="no"/>ro sed manifestum est quod peccatum in filium est peccatum 
+      mor<lb ed="#V" n="128" break="no"/>tale. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e223">
+      ¶ contra 2m. quia in fine potest aliquis penitere de omnibus 
+      <lb ed="#V" n="129"/>mortalibus: et tamen remanet tota eorum pena hec autem non 
+      <lb ed="#V" n="130"/>erit eterna. sed aliquando remittitur. alies. vere penitens 
+      eterna<lb ed="#V" n="131" break="no"/>liter puniretur.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e232">
+      ¶ contra 3m. quia non dimittitur. culpa nisi per actum 
+      <!--437.xml-->
+      <pb ed="#V" n="217-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>meritorium: vel per sacramentia: et neutrum in alio seculo locum 
+      <lb ed="#V" n="2"/>habet.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e245">
+      ¶ contra 4rm. illi quae sufficienter debitum soluit: nihil 
+      dimiti<lb ed="#V" n="3" break="no"/>tur: sed nullum malum remanebit impunitum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e250">
+      ¶ Respondeo ad 
+      <lb ed="#V" n="4"/>pium. concedo quod pena peccati in filium remittitur in alio 
+      secu<lb ed="#V" n="5" break="no"/>lo. sed culpa et pena in i scilicet non remittitur: neque in hoc 
+      se<lb ed="#V" n="6" break="no"/>culo: neque in futuro: vt inferius habet videri: vbi ostendetur quod 
+      <lb ed="#V" n="7"/>peccatum in i scilicet est in prmnia.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e261">
+      ¶ Ad 2m dicendum quod pena pecca 
+      <lb ed="#V" n="8"/>ti mortalis transfertur ad penam temporalem: quae est pena pecca 
+      <lb ed="#V" n="9"/>ti venialis: et ideo remittitur.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e269">
+      ¶ Ad 3m. est difficile videre 
+      <lb ed="#V" n="10"/>quomodo aliquo dicunt quod tale peccatum veniale deletur in morte. 
+      </p>
+            <p xml:id="FrMS88-f68731-d1e274">
+               <lb ed="#V" n="11"/>¶ Sco. dicit quod transeunte culpa: non remanet nisi 
+      obliga<lb ed="#V" n="12" break="no"/>tio ad penam temporalem. si autem dicat aliquam habitudinem ad 
+      <lb ed="#V" n="13"/>nolle diuinum tunc non sic deletur nisi quis dicat quod deus 
+      de<lb ed="#V" n="14" break="no"/>let totaliter soluta pena. ita quod habet aliquam habitudinem ad 
+      <lb ed="#V" n="15"/>aliquod nolle diuinum.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e287">
+      ¶ Ad 4m. dico quod nisi sufficienter 
+      <lb ed="#V" n="16"/>soluat non remittitur: sed per hoc non habetur quin illa pena pee 
+      <lb ed="#V" n="17"/>catorum venialium: si sufficienter soluta non sint: non possunt per 
+      suf<lb ed="#V" n="18" break="no"/>fragia ecclesie relaxari.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e296">
+      ¶ Sed oc. di. si peacata possunt remitti in 
+      <lb ed="#V" n="19"/>alio seculo per indulgentias.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e301">
+      ¶ Nota de illo quae dicebat se 
+      <lb ed="#V" n="20"/>habere indulgentias pro illis quae sunt in purgatorio: ita quod pro 
+      <lb ed="#V" n="21"/>vno denario vna dies eis remittebatur et pro duobus 
+      <lb ed="#V" n="22"/>plus etc.
+    </p>
+            <p xml:id="FrMS88-f68731-d1e310">
+      ¶ Sed hoc non est verum. exquo enim aliquis exit limites 
+      <lb ed="#V" n="23"/>ccclesie: et forum istud non potest sibi ecclesia dare indulgentias ni 
+      <lb ed="#V" n="24"/>si pro quanto sunt hic lucrati: non sic autem est de suffragiis 
+      <lb ed="#V" n="25"/>que impetrantur per modum obsec rationis: indulgentie autem 
+      <lb ed="#V" n="26"/>dantur per modum auctoritatis et iurisditionis. non autem habet 
+      <lb ed="#V" n="27"/>ecclesia iurisditionem in purgatorio. ideo error esset dicere 
+      <lb ed="#V" n="28"/>hoc dare: nec vnquam talis indulgentia fuit data.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

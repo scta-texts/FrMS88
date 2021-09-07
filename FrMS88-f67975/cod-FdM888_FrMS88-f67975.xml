@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="216-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f67975"><!-- l4d20q3 -->
+            <head xml:id="FrMS88-f67975-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f67975-d1e111">
+               <lb ed="#V" n="127"/>TErtio queritur. vtrum in puncto mortis 
+      <lb ed="#V" n="128"/> sit penitentia salutifera.
+    </p>
+            <p xml:id="FrMS88-f67975-d1e118">
+      ¶ Dicitur quod si 
+      <lb ed="#V" n="129"/>squia in psalmo: illumina oclusios meos ne 
+      vn<lb ed="#V" n="130" break="no"/>fquam obdormiam in morte.
+    </p>
+            <p xml:id="FrMS88-f67975-d1e125">
+      ¶ Contra in Ido. dicitur 
+      <lb ed="#V" n="131"/>venit nox in qua nemo potest operari. non 
+      <lb ed="#V" n="132"/>autem hic accipitur pro morte. 
+      <!--435.xml-->
+      <pb ed="#V" n="216-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>hic introducuntu qutuor conclusiones. 
+      <lb ed="#V" n="2"/>¶ Prima est quod 
+      <lb ed="#V" n="3"/>nullus potest penitere in vltimo instanti vite. probo in illo 
+      <lb ed="#V" n="4"/>instanti enim quod non est non potest elici actus maritorius. sed non est 
+      <lb ed="#V" n="5"/>dare vltimum instans vite: quia vltimum permanentis non est 
+      da<lb ed="#V" n="6" break="no"/>e. Confirmatur. quia cum fit dare primum instas mortis si esset 
+      vltim<lb ed="#V" n="7" break="no"/>mum instans vite: vel inter illa esset temptus in quae nec esset mortuus 
+      <lb ed="#V" n="8"/>nec viuus: vel in eodem instanti esset mortuus et viuus: vel 
+      <lb ed="#V" n="9"/>duo instantia se haberent consequenter.
+    </p>
+            <p xml:id="FrMS88-f67975-d1e158">
+      ¶ 2a conclusio quod quilibet potest 
+      peni<lb ed="#V" n="10" break="no"/>tere in per instanti mortis: quia in illo instanti in qua voluntas 
+      <lb ed="#V" n="11"/>est libera potest elicere actu pranine. sed in instanti mortis 
+      vo<lb ed="#V" n="12" break="no"/>luntas est libera. ergo potest elice actum prnine.
+    </p>
+            <p xml:id="FrMS88-f67975-d1e168">
+      ¶ 3a conclusio quod illa 
+      prnina<lb ed="#V" n="13" break="no"/>non est fructuosa: quia illa est extra terminos vie: cum anima sit 
+      <lb ed="#V" n="14"/>in illo instanti separata a corpore. et per consequens extra viam.
+    </p>
+            <p xml:id="FrMS88-f67975-d1e175">
+      ¶ 4a 
+      <lb ed="#V" n="15"/> quod prnima in vltima parte vite est fructuosa: quia tunc homo est 
+      <lb ed="#V" n="16"/>inator: et potest mereri et demereri.
+    </p>
+            <p xml:id="FrMS88-f67975-d1e182">
+      ¶ Sed instatur contra prima 
+      <lb ed="#V" n="17"/>mum sic. quin vna forma generatur: et alia corrumpitur simul sunt 
+      <lb ed="#V" n="18"/>ienatio et corruptio quare simul non potest esse mors et vi 
+      <lb ed="#V" n="19"/>ta sicut generatio et corruptio:
+    </p>
+            <p xml:id="FrMS88-f67975-d1e191">
+      ¶ Contra 2m. in primo instanti 
+      <lb ed="#V" n="20"/>quo anima separatur si est in gratia confirmatur in ea: et si in 
+      pec<lb ed="#V" n="21" break="no"/>cato obstinatur eadem ratione. et per consequens penitere non potest 
+      </p>
+            <p xml:id="FrMS88-f67975-d1e198">
+               <lb ed="#V" n="22"/>¶ Contra tertium. actus eiusdem rationis et equalis 
+      pra<lb ed="#V" n="23" break="no"/>fectionis est eque meritorius: sed anima separata equalem 
+      <lb ed="#V" n="24"/>actum potest tunc elicere.
+    </p>
+            <p xml:id="FrMS88-f67975-d1e207">
+      ¶ Contra 4m. quia in nullo 
+      conti<lb ed="#V" n="25" break="no"/>nuo est dare vltimam partem. quia illa habet partes in infinitum.
+    </p>
+            <p xml:id="FrMS88-f67975-d1e213">
+      ¶ Reseo 
+      <lb ed="#V" n="26"/>pondeo ad primum. et dico quod generatio et corruptio eius 
+      <lb ed="#V" n="27"/>dem contraria sunt: et ideo nunquam simul sunt: sed generatio vnius 
+      <lb ed="#V" n="28"/>et corruptio alterius non sunt contraria: et ideo possunt 
+      si<lb ed="#V" n="29" break="no"/>mul esse. similiter vita et mors eiusdem bene sunt contraria 
+      <lb ed="#V" n="30"/>vel priuatiua. et ideo in eodem instanti non potest simul vi 
+      <lb ed="#V" n="31"/>uere: et mori.
+    </p>
+            <p xml:id="FrMS88-f67975-d1e229">
+      ¶ Ad secundum. concedo si tunc obstinetur. non 
+      <lb ed="#V" n="32"/>potest bonum actum et meritorium elicere t sed si dimittats 
+      <lb ed="#V" n="33"/>in puris naturalibus potest.
+    </p>
+            <p xml:id="FrMS88-f67975-d1e236">
+      ¶ Ad 3m. dico quod eiusdem 
+      ra<lb ed="#V" n="34" break="no"/>tionis potest esse actus: sed non sic erit circunstationatus 
+      <lb ed="#V" n="35"/>circumstantie enim variant speciem in moralibus. hic autem non 
+      <lb ed="#V" n="36"/>venitet quandoportet. quia deficit circumstantia requisita.
+    </p>
+            <p xml:id="FrMS88-f67975-d1e245">
+      ¶ Ad  
+      <lb ed="#V" n="37"/>quartum. dico quod non est vltimum simpliciter. sed secundum aliquam 
+      <lb ed="#V" n="38"/>acceptionem sicut minus potest capi per intellectum: tamen illud  
+      <lb ed="#V" n="39"/>non est simpliciter minus: sed secundum acceptionem nostram.
+    </p>
+            <p xml:id="FrMS88-f67975-d1e254">
+      ¶ Sed 
+      <lb ed="#V" n="40"/>occu. dubium. quia dictum fuit quod attritio est in 
+      tempo<lb ed="#V" n="41" break="no"/>re: cum contritio sit in instanti ad quam disponit. si 
+      di<lb ed="#V" n="42" break="no"/>uidatur illud tempus non potest atteri.
+    </p>
+            <p xml:id="FrMS88-f67975-d1e263">
+      ¶ Dico quod 
+      ali<lb ed="#V" n="43" break="no"/>qua mora est quam deus nouit que si diuideretur non 
+      <lb ed="#V" n="44"/>esset sufficiens mora pro attritione.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

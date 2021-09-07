@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f19446"><!-- l2d20q1 -->
+            <head xml:id="FrMS88-f19446-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f19446-d1e111">
+               <lb ed="#V" n="29"/>Post hoc videndum est etc. 
+      <lb ed="#V" n="30"/>CIrca distinctionem. 20. Quero 
+      <lb ed="#V" n="31"/>vtrum subiectum generationis sit 
+      <lb ed="#V" n="32"/>mria prima. Et videtur quod sic: quia Augu. 
+      di<lb ed="#V" n="33" break="no"/>cit super gen. quod vle est fundamentum 
+      <lb ed="#V" n="34"/>generationis.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e127">
+      ¶ Contra. 3o de trinitate: 
+      <lb ed="#V" n="35"/>corpus resoluiter in elementa: ergo etc. 
+      <lb ed="#V" n="36"/>aliqui quod non est 
+      <lb ed="#V" n="37"/>hic dicumt ma pim: sed 
+      ali<lb ed="#V" n="38" break="no"/>quod compositum.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e138">
+      ¶ Contra. plura non sunt ponenda sine 
+      <lb ed="#V" n="39"/>necessaritate: sed sola mam sufficit.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e143">
+      ¶ Secundo transmutatio 
+      fa<lb ed="#V" n="40" break="no"/>cit scire materiam. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e149">
+      ¶ Tertio. quia nullum corpus 
+      <lb ed="#V" n="41"/>incorruptibile est subiectum generationis: si autem esset corruptibile 
+      <lb ed="#V" n="42"/>videntur inconueniens. Dico igitur quod primum subiectum est vle. Et 
+      ci<lb ed="#V" n="43" break="no"/>ca hoc pono 4or conclusiones.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e158">
+      ¶ Prima conclusio est. quod immedia 
+      <lb ed="#V" n="44"/>tum fundamentum generationis est terminus immediate. Ista 
+      <lb ed="#V" n="45"/>enim ratio generationis immediate fundatur in termino: quia ipsum 
+      refer<lb ed="#V" n="46" break="no"/>tur quod dicitur generari. Nam genitum refertur ad generans.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e167">
+      ¶ Secunda 
+      <lb ed="#V" n="47"/>conclusio quod sbiectum generationis est materia: quia in ipsa recipitur terminus generatio 
+      <lb ed="#V" n="48"/>nis immediate.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e174">
+      ¶ Tertia conclusio quod non materia denudata 
+      for<lb ed="#V" n="49" break="no"/>ma quantitatis. influentia enim extensa non potest recipi in 
+      <lb ed="#V" n="50"/>subiecto non extenso: agunt. enim omnia naturalia secundum lineas pirami 
+      <lb ed="#V" n="51"/>dales et angulos modo extenso.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e183">
+      ¶ Quarta conclusio quod non est 
+      <lb ed="#V" n="52"/>subiectum denudatum qualitate. cum enim sit quantum necessario est 
+      fi<lb ed="#V" n="53" break="no"/>nitum vel infinitum.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e190">
+      ¶ Sed contra. generatio est prius termino. 
+      <lb ed="#V" n="54"/>ergo non fundatur in termino. Dico quod principium productiuum bean 
+      <lb ed="#V" n="55"/>est prius termino: sed productio est consequens productum in quo 
+      <lb ed="#V" n="56"/>fundatur.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e200">
+      ¶ Secunda difficultas. quia vna forma non erit altel 
+      <lb ed="#V" n="57"/>ri subordinata.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e205">
+      ¶ Dico quod in homine est ordinatio forma 
+      <lb ed="#V" n="58"/>rum. forme scilicet organizationis ad animam.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e210">
+      ¶ Tertia difficulta 
+      <lb ed="#V" n="59"/>mam nec est quanta nec qualis. Dico quod verum est intrinsece: 
+      <lb ed="#V" n="60"/>tamen prehabet illa in generatione.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e217">
+      ¶ Sed nonne mateam et 
+      forma<lb ed="#V" n="61" break="no"/>sunt vna causa omnium accidentium: Dico quod sic: eorum scilicet que 
+      <lb ed="#V" n="62"/>consequuntur compositum.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e224">
+      ¶ Sed hic est difficultas de 
+      <lb ed="#V" n="63"/>quantitate interminata quid est. Dico quod quantum ex parte 
+      <lb ed="#V" n="64"/>sua matera est indifferens ad maioritatem et minoritatem: tamen 
+      <lb ed="#V" n="65"/>semper est sub aliqua specie.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e233">
+      ¶ Quarta difficultas. quia dicit 
+      <!--320.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>vnus doctor quod accidentia insunt immediate prime materiae. Sed  
+      <lb ed="#V" n="67"/>quid de qualitate symbolica: Dicit idem quod sic cum cadatur 
+      <lb ed="#V" n="68"/>in generato et corrupto: quia cum mtam sit nata prius recipe 
+      <lb ed="#V" n="69"/>formas accidentales aliquas: sicut densitatem et raritatem: non 
+      <lb ed="#V" n="70"/>videtur inconueniens.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e252">
+      ¶ Alia difficultas est. ad quid 
+      requi<lb ed="#V" n="71" break="no"/>ritur dispositio prima si corrumpitur adueniente forma.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e257">
+      ¶ Dicit 
+      <lb ed="#V" n="72"/>Scotus. quod hoc est propter agens continens duos effectus 
+      <lb ed="#V" n="73"/>tales non ex parte forme que recipitur. Sed ponatur. quod ignis 
+      <lb ed="#V" n="74"/>disponat materiam: et amoueatur: et alius applicetur: nonne 
+      in<lb ed="#V" n="75" break="no"/>ducit immediate formam: Dicitur quod effectus respicit 
+      eo<lb ed="#V" n="76" break="no"/>dem modo potentiam productiuam istius: sicut alterius.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e270">
+      ¶ Sed 
+      <lb ed="#V" n="77"/>quid de cicatrice remanente in homine putrefactor quod est 
+      <lb ed="#V" n="78"/>alterius speciei: ex hoc videtur esse commune subiectum compositum.
+    </p>
+            <p xml:id="FrMS88-f19446-d1e277">
+      ¶ Sed 
+      di<lb ed="#V" n="79" break="no"/>co. quod cum mam immediate sit quanta et finita potest saluari 
+      ea<lb ed="#V" n="80" break="no"/>dem cicatrix dato quod non sit ibi commune sbiectum compositum.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

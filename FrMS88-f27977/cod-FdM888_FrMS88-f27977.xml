@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f27977"><!-- l3d1q12 -->
+            <head xml:id="FrMS88-f27977-Hd1e108">Quaestio 12</head>
+            <p xml:id="FrMS88-f27977-d1e111">
+               <lb ed="#V" n="59"/>¶ Questio. xii. 
+      <lb ed="#V" n="60"/>DUodecimo quero Utrum 
+      <lb ed="#V" n="61"/>
+      termi<lb ed="#V" n="62" break="no"/>nus formalis incarnationis sit aliquid 
+      <lb ed="#V" n="63"/>personale vel essentiale 
+      <lb ed="#V" n="64"/>aliqui quod terminus formalis istius 
+      <lb ed="#V" n="65"/>hic dicunt vnionis est essentia: quia est infinita. 
+      </p>
+            <p xml:id="FrMS88-f27977-d1e129">
+               <lb ed="#V" n="66"/>¶ Alii dicunt quod non essentia tantum vel simplex. sed propetate. 
+      <!--342.xml-->
+      <cb ed="#V" n="b"/>
+            </p>
+            <p xml:id="FrMS88-f27977-d1e138">
+               <lb ed="#V" n="67"/>¶ Alii dicunt quod respectus quidam rationis in verbo.
+    </p>
+            <p xml:id="FrMS88-f27977-d1e143">
+      ¶ Ali 
+      <lb ed="#V" n="68"/>dicunt quod vnitum esse.
+    </p>
+            <p xml:id="FrMS88-f27977-d1e149">
+      ¶ Sed contra istos modos per ordine 
+      <lb ed="#V" n="69"/>arguit 4r. Primo. quia quicquid terminatur ad essentiam simpliciter 
+      <lb ed="#V" n="70"/>competit tribus personis: sed incarnatio de facto non 
+      conue<lb ed="#V" n="71" break="no"/>nit nisi filio. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f27977-d1e158">
+      ¶ Secundo contra 2m. quod essentia sub 
+      pro<lb ed="#V" n="72" break="no"/>prietate est ipsa persona: et terminus quod istius vnionis 
+      </p>
+            <p xml:id="FrMS88-f27977-d1e163">
+               <lb ed="#V" n="73"/>¶ Sed queritur quid est terminus non quod sed quo.
+    </p>
+            <p xml:id="FrMS88-f27977-d1e168">
+      ¶ Tertio 
+      <lb ed="#V" n="74"/>contra 3m. quia incarnatio est relatio realis: ergo eius terminus non 
+      <lb ed="#V" n="75"/>potest esse respectus rationis.
+    </p>
+            <p xml:id="FrMS88-f27977-d1e175">
+      ¶ Quarto contra 4rm. nulla relatio est 
+      <lb ed="#V" n="76"/>ad effectum formalem: sed ad terminum: sed esse vnitum est 
+      <lb ed="#V" n="77"/>effectus formalis vnionis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f27977-d1e182">
+      ¶ Item omnis relatio praesuppo 
+      <lb ed="#V" n="78"/>nit extrema: sed vnitum esse est posterius vnione. ergo 
+      termi<lb ed="#V" n="79" break="no"/>nus esse non potest.
+    </p>
+            <p xml:id="FrMS88-f27977-d1e190">
+      ¶ Ideo dicendum. quod proprietas verbi est 
+      ter<lb ed="#V" n="80" break="no"/>minus formalis qua istius incarnationis.
+    </p>
+            <p xml:id="FrMS88-f27977-d1e195">
+      ¶ Sed contra. quia relati 
+      <lb ed="#V" n="81"/>realiter refertur ad terminum vel ad oppositam relationem: sed 
+      ver<lb ed="#V" n="82" break="no"/>bum non est oppositum naturae incarnate vel assumpte vel etiam 
+      <lb ed="#V" n="83"/>ipsius incarnationis. In verbo etiam non est opposita relatio 
+      <lb ed="#V" n="84"/>incarnationis: quia verbum non refertur. Dico quod relatio non 
+      sem<lb ed="#V" n="85" break="no"/>per refertur ad oppositam relationem: sed ad fundamentum in 
+      <lb ed="#V" n="86"/>quo esset sua opposita si fundamento competeret.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

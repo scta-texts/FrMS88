@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="148-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f10046"><!-- l2d2q13 -->
+            <head xml:id="FrMS88-f10046-Hd1e108">Quaestio 13</head>
+            <p xml:id="FrMS88-f10046-d1e111">
+      Questio. xiii 
+      <lb ed="#V" n="114"/>Quarta quaestio est. Utrum angelus possit 
+      <lb ed="#V" n="115"/>moueri in instanti. Et videtur quod 
+      <lb ed="#V" n="116"/>sic. quia efficacior est virtus eius: quam solis qui 
+      <lb ed="#V" n="117"/>radium suum causat in instanti.
+    </p>
+            <p xml:id="FrMS88-f10046-d1e122">
+      ¶ Contra. 
+      <lb ed="#V" n="118"/>quia successiuum includit tempus 
+      <lb ed="#V" n="119"/>est difficultas per respectum ad potentiam diuinam 
+      sumen<lb ed="#V" n="120" break="no"/>hic non do motum large. sed sumendo pro transmu 
+      <lb ed="#V" n="121"/>tatione locali potest esse dif. quantum ad locum adequatum se 
+      <lb ed="#V" n="122"/>artando vel dilatando ad partem loci sui in instati. Si ergo 
+      qua<lb ed="#V" n="123" break="no"/>ritur. vtrum existens in loco proprie possit se artare ad mino 
+      <lb ed="#V" n="124"/>rem in instanti. Dico quod sic. quia anima rationalis est tota in toto 
+      <lb ed="#V" n="125"/>corpore. et tota in qualibet parte. Abscindatur ergo mani 
+      <lb ed="#V" n="126"/>vel pares in instanti desinit ibi esse statim. quandiu est ibi 
+      con<lb ed="#V" n="127" break="no"/>tinuitas ipsa remanet: sed in instanti deficit continuitas in 
+      <lb ed="#V" n="128"/>fine motus. Aliter enim anima esset extra corpus nisi in 
+      instan<lb ed="#V" n="129" break="no"/>ti desineret ibi esse. Et eodem modo potest dici de angelo 
+      <lb ed="#V" n="130"/>quantum ad locum.
+    </p>
+            <p xml:id="FrMS88-f10046-d1e153">
+      ¶ 2a difficultas est. si potest se dilatare in 
+      instan<lb ed="#V" n="131" break="no"/>ti. Dico quod eadem ratio est de dilatatione. quia potest 
+      disper<lb ed="#V" n="132" break="no"/>gere se: sicut de artatione.
+    </p>
+            <p xml:id="FrMS88-f10046-d1e160">
+      ¶ 3a difficultas si a loco sibi equali¬ 
+      <!--299.xml-->
+      <pb ed="#V" n="148-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ad alium locum sibi equalem: Dico quod sic si non distant. 
+      <lb ed="#V" n="2"/>potest enim determinare talem totum locum: sicut partem in 
+      instan<lb ed="#V" n="3" break="no"/>ti. sed si distant non potest. aliter enim non pertransiret medium. quod est 
+      <lb ed="#V" n="4"/>impossibile. quia vbi intermedia sunt dispositiones ad vltimum vbi. 
+      </p>
+            <p xml:id="FrMS88-f10046-d1e179">
+               <lb ed="#V" n="5"/>¶ 4o difficultas quomodo transit de loco ad locum si est in instanti in 
+      ter<lb ed="#V" n="6" break="no"/>mino a quo. et in termino ad quem: Dico quod in toto 
+      tempo<lb ed="#V" n="7" break="no"/>re precedenti est in termino a quo: sed in vltimo instanti 
+      <lb ed="#V" n="8"/>illius est in termino ad quem.
+    </p>
+            <p xml:id="FrMS88-f10046-d1e190">
+      ¶ Sed existens in loco si 
+      <lb ed="#V" n="9"/>bi equali potest ne occupare aliam partem non transeundo per 
+      <lb ed="#V" n="10"/>medium:
+    </p>
+            <p xml:id="FrMS88-f10046-d1e197">
+      ¶ Dico quod sic. ex quo habet totum locum illum pro 
+      <lb ed="#V" n="11"/>loco adequato: si potest in instanti se facere in istum. sequitur quod 
+      <lb ed="#V" n="12"/>possit in qualibet parte eius non transeundo medium.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

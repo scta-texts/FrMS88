@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f07926"><!-- l2d2q4 -->
+            <head xml:id="FrMS88-f07926-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f07926-d1e111">
+      Questio. iiii. 
+      <lb ed="#V" n="105"/>Quarta quaestio est. Utrum sola spiritualia men 
+      <lb ed="#V" n="106" break="no"/>surentur euo. Et videtur quod sic. quia 
+      so<lb ed="#V" n="107" break="no"/>la sunt inuariabilia.
+    </p>
+            <p xml:id="FrMS88-f07926-d1e120">
+      ¶ Contra. quia Aug. vi 
+      <lb ed="#V" n="108"/>detur dicere contrarium super gen 
+      <lb ed="#V" n="109"/>aliqui quod sole substantie spi 
+      <lb ed="#V" n="110"/>hic dicu. ¶t rituales mensurantur 
+      <lb ed="#V" n="111"/>euo. quia sunt inuariabiles.
+    </p>
+            <p xml:id="FrMS88-f07926-d1e131">
+      ¶ Alii etiam dicunt. quod mensuran 
+      <lb ed="#V" n="112"/>tur euo. cuius motus est tempus.
+    </p>
+            <p xml:id="FrMS88-f07926-d1e136">
+      ¶ Alii dicunt quod substantia 
+      quaecur<lb ed="#V" n="113" break="no"/>que mensuratur euo.
+    </p>
+            <p xml:id="FrMS88-f07926-d1e142">
+      ¶ Alii dicunt quod omnia permanentia mensuram 
+      <lb ed="#V" n="114"/>tur euo.
+    </p>
+            <p xml:id="FrMS88-f07926-d1e147">
+      ¶ hic dico quod bene verum est. quod factio successiua 
+      <lb ed="#V" n="115"/>albedinis non mensuratur euo. sed existentia eius intrinseca: quae est 
+      <lb ed="#V" n="116"/>permanens: non apparet ratio quare non mensuretur euo. sicut et 
+      <lb ed="#V" n="117"/>alia.
+    </p>
+            <p xml:id="FrMS88-f07926-d1e156">
+      ¶ Sed hic est difficultas quid est euum: Dico quod est fluxus 
+      for<lb ed="#V" n="118" break="no"/>me scilicetpraesentialitatis et coexistentie creature cum deo.
+    </p>
+            <p xml:id="FrMS88-f07926-d1e161">
+      ¶ 2 
+      <lb ed="#V" n="119"/>ifficultas. si est successiuum vel successio: Dico quod est successio me 
+      <lb ed="#V" n="120"/>ra sicut tmpus.
+    </p>
+            <p xml:id="FrMS88-f07926-d1e168">
+      ¶ 3a difficultas. si euum est eiusdem rationis cum tempore: Dico 
+      <lb ed="#V" n="121"/>quod sic formaliter: sed materialiter non. immo differunt. quia temporus 
+      men<lb ed="#V" n="122" break="no"/>surat res influxu. vt influxu. sed euum mensurat 
+      perma<lb ed="#V" n="123" break="no"/>nentia. vt permanentia. Sed in hoc conclusio cum tempore. quia habet prius 
+      <lb ed="#V" n="124"/>et posterius in successione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

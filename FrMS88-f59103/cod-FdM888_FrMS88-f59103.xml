@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 15</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 15</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f59103"><!-- l4d12q15 -->
+            <head xml:id="FrMS88-f59103-Hd1e108">Quaestio 15</head>
+            <p xml:id="FrMS88-f59103-d1e111">
+               <lb ed="#V" n="35"/>QUarto queritur vtrum sit in speciebus 
+      tran<lb ed="#V" n="36" break="no"/> mutatio abis.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e118">
+               <lb ed="#V" n="37"/>hic est primo videndum de altera 
+      <lb ed="#V" n="38" break="no"/>tione. Patet autem quod ista 
+      ac<lb ed="#V" n="39" break="no"/>cidentia alterantur.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e127">
+      ¶ Sed quomodo est hoc quod 
+      <lb ed="#V" n="40"/>naturaliter alterantur. Aliqui dicunt quod agens non requrit in quid agat sed 
+      <lb ed="#V" n="41"/>secundum quid.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e134">
+      ¶ Sed hoc nihil est: quia agentia naturalia requirunt 
+      semi<lb ed="#V" n="42" break="no"/>inquid agant.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e140">
+      ¶ Aliqui dicunt quod non est alteratio vera.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e143">
+      ¶ Sed  
+      <lb ed="#V" n="43"/>hoc nihil est: quia in sacramentis veritatis non dicitet esse aliqua 
+      falsi<lb ed="#V" n="44" break="no"/>tas.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e150">
+      ¶ Alii dicunt quod omnia accidentia sunt in subiecto praeter quantitatem 
+      <lb ed="#V" n="45"/>et ideo: quia est ibi subiectum immediatum. ideo sufficit quod sibi 
+      impri<lb ed="#V" n="46" break="no"/>mat agens.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e157">
+      ¶ Contra. si hostia diuidatur transit de vna specie 
+      <lb ed="#V" n="47"/>quantitatis ad aliam. et ita non remanent idem indiuiduum: nec 
+      <lb ed="#V" n="48"/>per consequens accidentia.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e164">
+      ¶ Si dicatur quod remanet eadem quantitas 
+      <lb ed="#V" n="49"/>hoc non videtur verum. quia alia est in specie.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e169">
+      ¶ Alii dicunt quod est ibi 
+      <lb ed="#V" n="50"/>quantitas fundamentalis quae recipit alias.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e175">
+      ¶ Sed hoc non 
+      va<lb ed="#V" n="51" break="no"/>let: quia frigiditas et raritas et quodcumque aliud variatur.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e180">
+      ¶ Ui 
+      <lb ed="#V" n="52"/>detur igitur dicendum quod quando agens naturale potest producere cum subiecto 
+      <lb ed="#V" n="53"/>ablata virtute causatiua substanti poterit naturaliter causare: sicut beata 
+      <lb ed="#V" n="54"/>virgo naturaliter agebat in christi conceptione sine patre 
+      </p>
+            <p xml:id="FrMS88-f59103-d1e189">
+               <lb ed="#V" n="55"/>¶ Sed tunc non potuit miraculum vitari. 
+      <lb ed="#V" n="56"/>de condensatione quae hoc apparet:
+    </p>
+            <p xml:id="FrMS88-f59103-d1e196">
+      ¶ Aliqo 
+      <lb ed="#V" n="57"/>Sed quid dicunt quod fit per ingressionem partium inter partes. 
+      </p>
+            <p xml:id="FrMS88-f59103-d1e201">
+               <lb ed="#V" n="58"/>¶ Sed hoc non valet. quia sicut vnum corpus non potest 
+      ingre<lb ed="#V" n="59" break="no"/>di aliud. ita nec partes specierum alias partes. et ita hostia 
+      re<lb ed="#V" n="60" break="no"/>sistit alteri hostie sicut corpus corpri.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e210">
+      ¶ Alii dicunt quod sic. 
+      <lb ed="#V" n="61"/>quando eadem substantia mutat aliquas partes priores et fit minor per 
+      <lb ed="#V" n="62"/>deperditionem aliarum.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e218">
+      ¶ Sed hoc non valet. quia sicut non est 
+      <lb ed="#V" n="63"/>dare substantiam. ita partes cuius non sint substantia: nec ita cuius 
+      par<lb ed="#V" n="64" break="no"/>tes alia possit ingredi.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e225">
+      ¶ Alii dicunt quod est alia et alia 
+      quanti<lb ed="#V" n="65" break="no"/>tas in condensatione.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e230">
+      ¶ Contra. quia hic non est subiectum. 
+      <lb ed="#V" n="66"/>commune.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e235">
+      ¶ Alii dicunt quod per minorem distantiam partium.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e238">
+      ¶ Et hoc 
+      <!--415.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>non valet. quia in rarefactione esset diuisio continui.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e247">
+      ¶ Di 
+      <lb ed="#V" n="68"/>co igitur quod per exalationem vaporum in poris corporis 
+      conden<lb ed="#V" n="69" break="no"/>sati: et coniuguntur partes facta euaporatione. quando igitur 
+      <lb ed="#V" n="70"/>ingrediuntur talia corpora poros fit rarefactio manente 
+      <lb ed="#V" n="71"/>eadem quantitate. non est autem intelligendum quod species 
+      resol<lb ed="#V" n="72" break="no"/>uantur in vapores: sed euaporant talia ibi inclusa que 
+      <lb ed="#V" n="73"/>non sunt transubstantiata in corpus christi 
+      <lb ed="#V" n="74"/>compositione et diuisione quid est subiectum istius diuisio 
+      <lb ed="#V" n="75"/>Sed De nis: cum quantitas continua corrumpatur.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e268">
+      ¶ hi 
+      <lb ed="#V" n="76"/>dico quod sicut in numeris species sunt essentialiter ordinate. ita quod 
+      <lb ed="#V" n="77"/>posteriore corrupta manet prior. ita hic quantitas mono 
+      <lb ed="#V" n="78"/>cubita est ibi subiectum. ita quod est processus a priuatione illius 
+      bi<lb ed="#V" n="79" break="no"/>cubiti ad bicubitum.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e279">
+      ¶ Corrumpitur itaque vna species quantita 
+      <lb ed="#V" n="80"/>tis: et multe manent et sunt infinite in potentia sicut in nul 
+      <lb ed="#V" n="81"/>meris.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e286">
+      ¶ Sed per quod agens inducitur ista quantitas: quia 
+      <lb ed="#V" n="82"/>naturale agens non producit sine subiecto. quomodo igitur facit agens vnan 
+      <lb ed="#V" n="83"/>quantitatem.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e293">
+      ¶ Istud compellit. quia quantitas non est nisi 
+      or<lb ed="#V" n="84" break="no"/>do partium in quantitate que est ibi vere in 
+      subiecto<lb ed="#V" n="85" break="no"/>de augmento et diminutione. patet quod possunt 
+      <lb ed="#V" n="86"/>Sed quid augeri et minui.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e302">
+      ¶ Sed tunc dico quod 
+      <lb ed="#V" n="87"/>naturaliter non possunt augeri: quia hoc esset per continuationem. sed ad 
+      <lb ed="#V" n="88"/>cidens in subiecto non potest eis continuari. nec accidens separatum 
+      <lb ed="#V" n="89"/>quia per agens naturale non potest produci.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e311">
+      ¶ Dico etiam quod non possunt 
+      <lb ed="#V" n="90"/>diminui naturaliter. quia forma que a solo deo dependet ab agentie 
+      <lb ed="#V" n="91"/>naturali corrumpi non potest: sed ita quantitas et eius partes a solo deo 
+      <lb ed="#V" n="92"/>dependent ergo ab agente naturali corrumpi non possunt.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e321">
+      ¶ Sed tunc est 
+      <lb ed="#V" n="93"/>difficultas quia non videtur semper repiri miraculum.
+    </p>
+            <p xml:id="FrMS88-f59103-d1e326">
+      ¶ Dico quod semper 
+      <lb ed="#V" n="94"/>oportet esse miraculum sicut infra ostendetur.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

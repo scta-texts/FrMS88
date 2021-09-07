@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 19</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 19</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="10-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-de6700"><!-- l1prolq19 -->
+            <head xml:id="FrMS88-de6700-Hd1e108">Quaestio 19</head>
+            <p xml:id="FrMS88-de6700-d1e111">
+      Quaestio xix. 
+      <lb ed="#V" n="91"/>UTrum potentia siue sensitiua siue 
+      in<lb ed="#V" n="92" break="no"/>tellectiua possit cognosem 
+      nan<lb ed="#V" n="93" break="no"/>iter non existens. Et arguo quod sic. In libus 
+      re<lb ed="#V" n="94" break="no"/>gum de puero helysey scribitur qua videbatur 
+      <lb ed="#V" n="95"/>currum et alia quae non erant.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e124">
+      ¶ Contra. Ido. ip. 
+      <lb ed="#V" n="96"/>qui vidit testimonium perhibuit: quod non esset si posset esse secundum. 
+      <lb ed="#V" n="97"/>istam quaestione pono duas conclusiones. Una quod potentioa 
+      intel<lb ed="#V" n="98" break="no"/>Circa lectiua non potest intuitiue cognoscere non existens 
+      <lb ed="#V" n="99"/>hoc probo 2m. Primo sic. illa noticia non potest esse falsa aqua 
+      <lb ed="#V" n="100"/>dependet certitudo omnis noticie nostre. hoc probatur. quia in 
+      essen<lb ed="#V" n="101" break="no"/>tialiter ordinatis ablato primo aufertur posterius. si ergo falsa est 
+      il<lb ed="#V" n="102" break="no"/>la noticia a qua dependet omnis nostra certitudo: aufertun 
+      <lb ed="#V" n="103"/>omnis alia veritas: sed a noticia intuitiua dependet omnis certi 
+      <lb ed="#V" n="104"/>tudo nostre cognonis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e146">
+      ¶ 2o sic. Illa noticia non potest esse 
+      <lb ed="#V" n="105"/>dubia ex qua arguitur illud quod nulli est dubium: sed omnino 
+      cer<lb ed="#V" n="106" break="no"/>tum: sed per actum intelligendi cognitum intuitiue arguitur illud 
+      <lb ed="#V" n="107"/>in nobis quod nulli est dubium et scimus nos esse certos. 
+      <lb ed="#V" n="108"/>ergo cognitio intuitiua intellectiua non potest esse dubia. 
+      </p>
+            <p xml:id="FrMS88-de6700-d1e157">
+               <lb ed="#V" n="109"/>¶ 2a conclusio est quantum ad sensitiuam. Et dico quod sensitiua non 
+      <lb ed="#V" n="110"/>potest esse falsa. Et probo primo sic. Nulla propositio in qua est veritas 
+      <lb ed="#V" n="111"/>per se nota: potest esse falsa. cum ex per se notis deducatur 
+      con<lb ed="#V" n="112" break="no"/>clusio demonstratiua: sed talis est per se nota scilicet notitia in 
+      <lb ed="#V" n="113"/>tuitiua sensitiua. hoc probo sic scilicet quod veritas sensitiua 
+      ap<lb ed="#V" n="114" break="no"/>prehensa per sensus intuitiue cognoscentes est per se nota. 
+      Ar<lb ed="#V" n="115" break="no"/>guo sic. Sicut se habent principium ad conclusiones: ita termini ad principium: 
+      <lb ed="#V" n="116"/>sed oportet principium esse notiora conclusione: ergo oportet quod termini sint notio 
+      <lb ed="#V" n="117"/>res principiis: sed terminos cognoscimus per sensus. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-de6700-d1e180">
+               <lb ed="#V" n="118"/>¶ 2o sic. quia in naturali philosophia non deuenitur ad conclusione demonstratiuam 
+      <lb ed="#V" n="119"/>nisi per sensus ergo conclusio non est certior nec notior illis quae 
+      appre<lb ed="#V" n="120" break="no"/>henduntur per sensum: cum veritas conclusionis ab illo dependeat. 
+      As<lb ed="#V" n="121" break="no"/>sumptum de naturali philosophia est manifestum. Ex hoc enim quod video 
+      <lb ed="#V" n="122"/>aliquid moueri arguo esse mouens immobile. aliquid autem actu 
+      <lb ed="#V" n="123"/>moueri percipitur a sensu et per sensum.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e196">
+      ¶ 3o sic. scientia 
+      certissiu<lb ed="#V" n="124" break="no"/>non praesupponit aliquid incertum vel dubium: sed scientiae metaph 
+      y<lb ed="#V" n="125" break="no"/>ce sunt certissime. prsupponunt autem noticiam terminorum quat 
+      <lb ed="#V" n="126"/>dicitur per sensum: et per terminos intelligitur principium. ergo noticia 
+      termi<lb ed="#V" n="127" break="no"/>norum est eque certa: sicut noticia principii.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e207">
+      ¶ Confirmatur per 
+      il<lb ed="#V" n="128" break="no"/>lam regulam. Propter quod vnumquodque tale et illud magis: sed 
+      <lb ed="#V" n="129"/>propter noticiam habitam per sensus cognoscimus terminos: quibus 
+      co<lb ed="#V" n="130" break="no"/>gniti cognoscimus principiua. ergo terminos ipsos magis cogscimus 
+      </p>
+            <p xml:id="FrMS88-de6700-d1e216">
+               <lb ed="#V" n="131"/>¶ 4o sic. In astrologia videntur esse demonstrationes: sed tales 
+      <lb ed="#V" n="132"/>non possunt ese nisi per terminos habitos per sensus. ergo oportet quod iste veri¬ 
+      <!--24.xml-->
+      <pb ed="#V" n="11-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tates accepte per sensus sint per se note. Omnes inste rationes 
+      <lb ed="#V" n="2"/>habent istam vim. Certum non praesupponit incertum: sed omnis certa 
+      co<lb ed="#V" n="3" break="no"/>gnitio scientis praesupponit noticiam sensitiuam. ergo etc. 
+      <lb ed="#V" n="4"/>prdicta sunt multa experimenta. Primo 
+      <lb ed="#V" n="5"/>ed coxi A de auditu. nam sonus videtur audiri vbi 
+      inci<lb ed="#V" n="6" break="no"/>pit multiplicari. multiplicatur autem successiue: et per motum. 
+      <lb ed="#V" n="7"/>Cum ergo est ad aures desinit esse vbi auditur videtur ergo non esse. et tamen 
+      <lb ed="#V" n="8"/>est vera auditio.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e247">
+      ¶ 2a de odoratu. aliqui enim delectantur in vno 
+      <lb ed="#V" n="9"/>obiecto aliqui tristantur in eodem. vnus enim apphendit vt 
+      tristabi<lb ed="#V" n="10" break="no"/>le. alius vt delectabile. ergo necessario aliquis illorum habet odoratum 
+      <lb ed="#V" n="11"/>respcum alicuius non existentis. Similiter de gustu omnino idem est 
+      vni<lb ed="#V" n="12" break="no"/>amarum: alteri dulce. Similiter de tactu respectu casali. vnum et 
+      <lb ed="#V" n="13"/>idem calidum vnius iudicat magis. alius vero minus calidum. 
+      <lb ed="#V" n="14"/>Similiter de motu corporis inter duos digitos.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e263">
+      ¶ hic 
+      intelli<lb ed="#V" n="15" break="no"/>gendum est quod secundum beatum Aug. 2. de tri. c. xi. due sunt 
+      ma<lb ed="#V" n="16" break="no"/>neries vel modi falsitatis. Una est similitus: quia propter 
+      similitudi<lb ed="#V" n="17" break="no"/>nem non possumus distinguere vnum ab alio: et io vnum 
+      iudi<lb ed="#V" n="18" break="no"/>camus esse aliud. 2a autem est coniunctio: quia propter coniunctionem sepe 
+      <lb ed="#V" n="19"/>non potest vnum discerni ab alio: sicut patet de actu 
+      fantasiandi<lb ed="#V" n="20" break="no"/>et actu intelligendi: inter quos propter coniuctionem distingueme 
+      ne<lb ed="#V" n="21" break="no"/>scimus: et separe attribuimus non attribuenda. Et ideo quia actus 
+      <lb ed="#V" n="22"/>sensuum particularium sunt similes multum cum actu sensus 
+      <lb ed="#V" n="23"/>communis et sibi inuicem multum coniucti causatur ibi deceptio ex 
+      im<lb ed="#V" n="24" break="no"/>potentia distinguendi.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e288">
+      ¶ Sunt ergo hic quatuor reglte. Prima. quod 
+      <lb ed="#V" n="25"/>obiectum immutat potentiam scilicet realiter et intentionaliter: sicut sol visum: 
+      <lb ed="#V" n="26"/>sed intentionalis fit in instanti: realis autem non: sed in tempore: 
+      <lb ed="#V" n="27"/>quia est motus et transmutatio.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e297">
+      ¶ 2a reglasia est quod licet sensus 
+      per<lb ed="#V" n="28" break="no"/>ticulares apprehendant obiecta sensus communis scilicet sensibilia communis 
+      <lb ed="#V" n="29"/>per se: in illa tamen non primo feruntur sensus particulares: sed tantum communis 
+      </p>
+            <p xml:id="FrMS88-de6700-d1e304">
+               <lb ed="#V" n="30"/>¶ 3a regula est quod aliter iudicat fantasia quando obiectum est praesens 
+      <lb ed="#V" n="31"/>et mouet sensum particularem: quia tunc conformatur sibi: et indicatur 
+      <lb ed="#V" n="32"/>rem esse qualis est. aliter autem quando obiectum est absins.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e313">
+      ¶ 4a regula est 
+      <lb ed="#V" n="33"/>quod quando aliqua potentia est consueta iudicare secundum vnum modum: illo 
+      <lb ed="#V" n="34"/>modo variato semper vniformiter iudicat nisi percepta varia 
+      <lb ed="#V" n="35"/>tione. Exictum si quis consuetus est surgere de lecto versus oriens: 
+      <lb ed="#V" n="36"/>si vertatur llectus adhuc diu et seprius iudicabit se surgem: sicut 
+      <lb ed="#V" n="37"/>prius.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e326">
+      ¶ Ad instantias per ordinem. Ad primam dico quod nullus 
+      <lb ed="#V" n="38"/>audit sonum nisi illum qui est immediatus. non autem est in 
+      orga<lb ed="#V" n="39" break="no"/>no: sed debite appoximatus. Si vero dicas quod sensus videtur 
+      <lb ed="#V" n="40"/>iudicare esse sonum vbi incipit dico quod illud iudicium est 
+      sen<lb ed="#V" n="41" break="no"/>sus communis. nam ex ordine istius ad illum qui est ad nihilatus 
+      iudi<lb ed="#V" n="42" break="no"/>cat sensus communis adhuc illum primum esse: et immutatio intentiona 
+      <lb ed="#V" n="43"/>lis fit in instanti: sicut sonus.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e342">
+      ¶ Ad aliud de delectabili 
+      <lb ed="#V" n="44"/>et tristabili: dico quod iudicium de istis non est sensus 
+      particu<lb ed="#V" n="45" break="no"/>laris: sed sensus communis: et ad eum partinet. sensus autem 
+      particu<lb ed="#V" n="46" break="no"/>laris apprehendit illud quod est ibi praecise: et nihil aliud. 
+      </p>
+            <p xml:id="FrMS88-de6700-d1e352">
+               <lb ed="#V" n="47"/>¶ Ad aliud de amaro dico quod ibi est realis 
+      amaritu<lb ed="#V" n="48" break="no"/>do quae est ex permixtione reali alicuius amari humori.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e359">
+      ¶ Ad  
+      <lb ed="#V" n="49"/>aliud de tactu dico quod sensus particularis percipit calidet: sed 
+      <lb ed="#V" n="50"/>sensus communis iudicat de intensione et remissione causali.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e366">
+      ¶ Ad  
+      <lb ed="#V" n="51"/>aliud de motu dico quod illud iudicium est sensus communis. 
+      <lb ed="#V" n="52"/>concurrunt aliqua experimenta de visu quae 
+      vi<lb ed="#V" n="53" break="no"/>Sed nucdentur difficilia. Primum est Aug. i. de 
+      <lb ed="#V" n="54"/>tri. cum video corpus luminosum multum apparent: postea 
+      <lb ed="#V" n="55"/>colores lucidi.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e379">
+      ¶ Ad illud dico quod obiectum aliquid immutat 
+      <lb ed="#V" n="56"/>realiter. aliquid intentionaliter. Intentionaliter quidem ad actum videndi. 
+      <lb ed="#V" n="57"/>et huiusmodi immutatio est instantanea et transit. Realiter autem immutat 
+      <lb ed="#V" n="58"/>spiritus per quos fit delatio specierum de loco ad locum: et sic 
+      il<lb ed="#V" n="59" break="no"/>li spiritus accipiunt veros colores: et isti sunt quo postea abeum 
+      <lb ed="#V" n="60"/>te primo obiecto videntur.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e392">
+      ¶ 2m experimentum est de coloribus 
+      di<lb ed="#V" n="61" break="no"/>uersis apparentibus in collo colube: quae tamen secundum quod dicitur non sunt 
+      <lb ed="#V" n="62"/>ibi. Et similiter de quibusdam vestimentis quae nunc videntur vnius 
+      co<lb ed="#V" n="63" break="no"/>loris. nunc autem alterius. Nec valet ad hoc quod aliquo dicunt de 
+      <lb ed="#V" n="64"/>diuersitate partium: quia in eadem parte est variatio coloris 
+      lu<lb ed="#V" n="65" break="no"/>minoso variato. Si poneretur opio Aui. quae forte posset 
+      <lb ed="#V" n="66"/>defendi tunc facilis esset euasio scilicet quod colores non sunt ibi 
+      <!--24.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>nisi praesente luce: ita quod secundum eum color causatur a luce: ita quod 
+      <lb ed="#V" n="68"/>quando lux non est: color non habet esse actu: et secundum approximatio 
+      <lb ed="#V" n="69"/>nem diuersam causatur diuersus color: sicut patet de radio solis 
+      tran<lb ed="#V" n="70" break="no"/>seunte per vitrum. Nam si primo attingatur a radio est primus color scilicet 
+      ru<lb ed="#V" n="71" break="no"/>beus: si remotius causabitur alius color: qui non tantum attingit ad naturam 
+      <lb ed="#V" n="72"/>lucidi: et ita quando maior est distantia causabuntur alii colores 
+      <lb ed="#V" n="73"/>et multo plures. Nam secundum Aui. corpus luminosum variat 
+      <lb ed="#V" n="74"/>suum situm ex dispositione obiecti et causat alium et alium colorem. na secundum 
+      <lb ed="#V" n="75"/>prius radium rubeum. et in 2o viridere. et in 3o liuidum. et in 4o 
+      ni<lb ed="#V" n="76" break="no"/>grum quia inste radius minus claret.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e434">
+      ¶ 3m est de istis picturis 
+      <lb ed="#V" n="77"/>prominentibus.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e440">
+      ¶ Ad hoc dico quod sensus communis iudicat. hoc patet 
+      <lb ed="#V" n="78"/>quia minus assuefacti haec iudicant: et ideo haec non est ex sensu parti 
+      <lb ed="#V" n="79"/>culari.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e447">
+      ¶ 4m est de his quae in somniis videntur. Ad quod 
+      di<lb ed="#V" n="80" break="no"/>co quod opus imaginationis est: ideo non est difficile: quia 
+      imagin<lb ed="#V" n="81" break="no"/>natio bene habet cognitionem abstractiuam potest etiam dici quod aliquo 
+      <lb ed="#V" n="82"/>sensus exteriores non sunt ligati: et ibi est vera sensatio quod 
+      <lb ed="#V" n="83"/>apparet de illis qui ordinate in somnis arguunt vel agunt 
+      <lb ed="#V" n="84"/>ac si vigilarent.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e460">
+      ¶ Ad illud de illusionibus potest dici quod si 
+      <lb ed="#V" n="85"/>fiant in re extra per artem demoniacam: tunc idem omnibus apparet equaliter. 
+      <lb ed="#V" n="86"/>si autem fiant non in obiecto vel in medio: sed in organo: tunc potest 
+      <lb ed="#V" n="87"/>dici quod iudicium et immutatio est in fantasia: propter hoc quod 
+      sen<lb ed="#V" n="88" break="no"/>sus exteriores impediuntur.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e471">
+      ¶ 3m est de specluso. Ad quod dico 
+      <lb ed="#V" n="89"/>quod sensus particulari videt se ipsum et non imaginem in 
+      specu<lb ed="#V" n="90" break="no"/>lo. et sic non dicipitur sensus particulari. Sed quomodo false 
+      iudi<lb ed="#V" n="91" break="no"/>cat: Dico quod iudicium non est sensus particularis nec 
+      dece<lb ed="#V" n="92" break="no"/>ptio: sed commnis qui fallitur per illam regulam: quia sensus particularis 
+      <lb ed="#V" n="93"/>consuetus est vide rem secundum lineam rectam. Ideo dico quod sensus 
+      parti<lb ed="#V" n="94" break="no"/>cularis non iudicat nisi de colore sensus autem communis 
+      iudi<lb ed="#V" n="95" break="no"/>cat de situ vbi: et de distantia: et ideo ibi concurrit. sensus 
+      parti<lb ed="#V" n="96" break="no"/>cularis iudicat obiectum esse vbi non est: pro eo quod in actu suo 
+      <lb ed="#V" n="97"/>consueuit iudicare de obiecto in se. vt dictum est.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e493">
+      ¶ Ad illud 
+      <lb ed="#V" n="98"/>de iride quod est dumntum dico quod in iride sunt veri colores. 
+      </p>
+            <p xml:id="FrMS88-de6700-d1e498">
+               <lb ed="#V" n="99"/>¶ Ad 2m de motu scintille quae propter motum videtur habere formam 
+      <lb ed="#V" n="100"/>circuli. Dico quod decipitur ibi sensus communis. iudicat. enim 
+      contin<lb ed="#V" n="101" break="no"/>nuitatem propter velocem successionem partis ad partem: vel scintille 
+      <lb ed="#V" n="102"/>in isto situ ad alium situm: et non propter aliud.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e510">
+      ¶ Ad eamum quod est 
+      <lb ed="#V" n="103"/>de motu arborum et ripe iudicato per existentem in naui: dico 
+      <lb ed="#V" n="104"/>quod sensus communis haec iudicat. sensus enim particularis non videtur 
+      <lb ed="#V" n="105"/>nisi colorem: et de eo iudicat.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e519">
+      ¶ Ad conclusio de priuatione dico 
+      <lb ed="#V" n="106"/>quod priuatio numquam sentiter: et ideo negandum est quod priuatio videatur. 
+      </p>
+            <p xml:id="FrMS88-de6700-d1e524">
+               <lb ed="#V" n="107"/>¶ Ad pontium de fractione baculi in aliqua: dico quod est iudicium 
+      <lb ed="#V" n="108"/>sensus communis interiori/ qui iudicat erronee fractionem 
+      bacu<lb ed="#V" n="109" break="no"/>li propter diuersam immutationem secundum aliud et aliud dyaphanum 
+      <lb ed="#V" n="110"/>secundum diuersam mutationem visus.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e535">
+      ¶ Ad illud de 
+      specu<lb ed="#V" n="111" break="no"/>o fracto et oculo compresso. Dico quod illam dualitatem non per 
+      <lb ed="#V" n="112"/>cipit visus: sed est iudicium sensus communis: quia obiectum quale est in 
+      se<lb ed="#V" n="113" break="no"/>videt visus: sed est iudicium sensus communis qui iudicat 
+      dualita<lb ed="#V" n="114" break="no"/>tem esse quemadmodum in speculi fractione.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e546">
+      ¶ Ad vltimum de 
+      <lb ed="#V" n="115"/>actu videndi motum dicitur quod verum est quod actus videndi non ma 
+      <lb ed="#V" n="116"/>net nisi per istans: et ideo sicut radius solis in distincto instanti est 
+      di<lb ed="#V" n="117" break="no"/>stinctus: ita eodem modo de actu videndi: et ita actus videndi no 
+      <lb ed="#V" n="118"/>uus habetur in qualibet instanti. ratio est: quia in quolibet instanti vel actu videndi 
+      <lb ed="#V" n="119"/>idetur alia et alia solis distantia et non percipitur. Nam communia 
+      sensi<lb ed="#V" n="120" break="no"/>bilia comprehenduntur per sensum commune: et non per sensus 
+      particu<lb ed="#V" n="121" break="no"/>lares cum eorum non stunt proprie obstantia: sed quia per ipsos compraehendit 
+      ea<lb ed="#V" n="122" break="no"/>sensus communis. quomodo ergo videtur motus cuius nulla pars est: dico quod illud 
+      <lb ed="#V" n="123"/>iudicium non est sensus particulari: sed sensus communis quie solus 
+      con<lb ed="#V" n="124" break="no"/>praehendit motum et iudicat de eo: et immutatur successiue. 
+      </p>
+            <p xml:id="FrMS88-de6700-d1e570">
+               <lb ed="#V" n="125"/>¶ Ad aliud de luna dicitur quod visus lunam videt: sed sensus 
+      <lb ed="#V" n="126"/>ommunis iudicat eius motum. propter aliam et aliam ad nubem distantiam. 
+      <lb ed="#V" n="127"/>videntum esset de modo ponendi istorum quibus iste 
+      istan<lb ed="#V" n="128" break="no"/>Nunc tie concludunt. Dicunt enim quod obiectum in esse apparenti 
+      produ<lb ed="#V" n="129" break="no"/>citur et in esse viso: et in esse cognito. quare pe. au. sed licet ego concedan 
+      <lb ed="#V" n="130"/>quod obiectum in quolibet actu apprehensiuo producatur in aliquo esse: tamen 
+      pro<lb ed="#V" n="131" break="no"/>ductio illius esse in quo producitur per actum visionis illud esse 
+      produ<lb ed="#V" n="132" break="no"/>ctum: necessario praesupponit aliud esse in obiecto. Et probo hoc multi¬ 
+      <!--25.xml-->
+      <pb ed="#V" n="11-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>plicitur. Primo sic. quando aliqua determinatio non diminuens 
+      <lb ed="#V" n="2"/>additur alicui determinato non variat rationem determinati 
+      <lb ed="#V" n="3"/>sed esse visum est determinatio non diminuens: quia si sic omnia 
+      <lb ed="#V" n="4"/>possent destrui per actum visionis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e606">
+      ¶ 2o sic. Omne quod est 
+      <lb ed="#V" n="5"/>ad aliud prius est ad se: sed esse visum est ad aliud: quia 
+      <lb ed="#V" n="6"/>respcum videntis. ergo prius est ad se. ergo esse visum 
+      praesupponi<lb ed="#V" n="7" break="no"/>aliquid aliud esse in obiecto. ergo etc.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e615">
+      ¶ 3o sic. quando est aliquid 
+      <lb ed="#V" n="8"/>simul natura cum aliquo: quicquid est prius vno illorum: et 
+      al<lb ed="#V" n="9" break="no"/>tero: sed producere in esse cognito est nmul natura cum pro 
+      <lb ed="#V" n="10"/>duci: actus autem videndi est prius natura ipso producere. ergo 
+      <lb ed="#V" n="11"/>et ipso produci: sed pro quocumque instanti actus vidend 
+      <lb ed="#V" n="12"/>est: pro illo habet terminum. ergo in illo signo quo actus vi 
+      <lb ed="#V" n="13"/>dendi praecedit produci habet terminum: sed non productum in esse 
+      <lb ed="#V" n="14"/>viso: quia illud non praecedit produci. ergo necessario obiectum habet aliud 
+      <lb ed="#V" n="15"/>esse prius illo.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e635">
+      ¶ 4o sic. Omne esse secundum quid fundatur in esse 
+      <lb ed="#V" n="16"/>simpliciter: sed illud esse scilicet esse visum est esse secundum quid. et 
+      fuin<lb ed="#V" n="17" break="no"/>datur in obiecto. ergo in obiecto est aliquod esse simpliciter: in quo illud  
+      <lb ed="#V" n="18"/>esse secundum quid scilicet esse visum fundatur. Dico ergo quod oportet quod obiectum 
+      <lb ed="#V" n="19"/>habeat aliud esse. non esse essentie: quia tunc cognosceretur 
+      <lb ed="#V" n="20"/>abstractiue tantum: sed esse existentie actualis.
+    </p>
+            <p xml:id="FrMS88-de6700-d1e648">
+      ¶ Ad 
+      ratio<lb ed="#V" n="21" break="no"/>nem in oppositum dico quod erat motus fantasie in 
+      vi<lb ed="#V" n="22" break="no"/>dendo. cuius est percipere motum et talia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

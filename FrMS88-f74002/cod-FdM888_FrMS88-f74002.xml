@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="223-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f74002"><!-- l4d33q1 -->
+            <head xml:id="FrMS88-f74002-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f74002-d1e111">
+               <lb ed="#V" n="120"/>Queritur hic de antiquis etc. 
+      <lb ed="#V" n="121"/>Hic incipit distin. 33a. Circa quam
+      <lb ed="#V" n="122"/>quero vtrum 
+      biga<lb ed="#V" n="123" break="no"/>minia sitl illicita iure naturali. Quod non. quia 
+      <lb ed="#V" n="124"/>in veteri testamento fuit licita.
+    </p>
+            <p xml:id="FrMS88-f74002-d1e124">
+      ¶ Con 
+      <lb ed="#V" n="125"/>tra. alicubi inuenitur prohibita. 
+      <lb ed="#V" n="126"/>quod 
+      quadru<lb ed="#V" n="127" break="no"/>hic sciendum pliciter 
+      su<lb ed="#V" n="128" break="no"/>mitur bigamia. Unius viri cum pluribus vxoribus 
+      <lb ed="#V" n="129"/>simul. Unius vxoris cum pluribus viris simil.
+    </p>
+            <p xml:id="FrMS88-f74002-d1e137">
+      ¶ Ter¬ 
+      <!--449.xml-->
+      <pb ed="#V" n="223-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tio successiue si vnus acciperet plures coniuges successiue: 
+      <lb ed="#V" n="2"/>vel econverso.
+    </p>
+            <p xml:id="FrMS88-f74002-d1e150">
+      ¶ Quarto accipere vxorem que habuerit alium 
+      vi<lb ed="#V" n="3" break="no"/>rum.
+    </p>
+            <p xml:id="FrMS88-f74002-d1e156">
+      ¶ Et iste due vltime non sunt contra ius naturale: quia altero 
+      <lb ed="#V" n="4"/>coniuge mortuo soluitur matrimonium: et redditur persona 
+      legi<lb ed="#V" n="5" break="no"/>tima ad contrahendum: et possunt concurrere omnes causae que assignan 
+      <lb ed="#V" n="6"/>tur in hoc sacramento.
+    </p>
+            <p xml:id="FrMS88-f74002-d1e165">
+      ¶ Secunda vero est contra ius naturale scilicet quod vna 
+      <lb ed="#V" n="7"/>mulier habeat simul plures viros. redderetur enim 
+      incer<lb ed="#V" n="8" break="no"/>titudo prolis. de prima autem aliqui dicunt quod sic: tamen deus dispensauit 
+      <lb ed="#V" n="9"/>in veteri testamento.
+    </p>
+            <p xml:id="FrMS88-f74002-d1e174">
+      ¶ Dicitur tamen quod si intelligitur ius naturale pro 
+      <lb ed="#V" n="10"/>regulis rationis videtur quod sit contra ius naturale: quia ex quo aliquis semel ali 
+      <lb ed="#V" n="11"/>cui dedit corpus suum iterum alteri ipsum dare non potest 
+      stan<lb ed="#V" n="12" break="no"/>te primo. cum igitur vir et mulier in redditione debiti sint 
+      pa<lb ed="#V" n="13" break="no"/>res: non potest alter eorum pluribus dare corpus suum: quia cum 
+      <lb ed="#V" n="14"/>redderet vni debitum non posset alteri reddere: cui tantum et 
+      <lb ed="#V" n="15"/>pro eodem tempore tenetur.
+    </p>
+            <p xml:id="FrMS88-f74002-d1e190">
+      ¶ Sed hic oc. du. vbi bigamia fuit 
+      <lb ed="#V" n="16"/>expressa in nouo testamento. non apparet bene nisi vbi dicit apostolus 
+      <lb ed="#V" n="17"/>vnusquisque vxorem suam habeat. prima corin. 7o. et similiter cum loquebatur de 
+      <lb ed="#V" n="18"/>matrimonio mystico christi et ecclesie dixit. Despondi vos vni 
+      vi<lb ed="#V" n="19" break="no"/>ro virginem castam exhibere christo: vbi tangit ex parte vxoris vni 
+      <lb ed="#V" n="20"/>tatem et integritatem. quae sunt due causae requisite ad hoc ne 
+      biga<lb ed="#V" n="21" break="no"/>mia contrahatur. tamen propter auctoritatem ecclesie videtur hoc esse traditum ab 
+      <lb ed="#V" n="22"/>apostolis.
+    </p>
+            <p xml:id="FrMS88-f74002-d1e208">
+      ¶ Sed in veteri testamonio. quare fuit aliquando condemnata 
+      la<lb ed="#V" n="23" break="no"/>mech. enim vocatur adulter. quia habuit duas vxores: vt patet 
+      <lb ed="#V" n="24"/>gen. 4o. iacob autem qui habuit quatuor non fuit adulter. 
+    </p>
+            <p xml:id="FrMS88-f74002-d1e215">
+      ¶ Respondit 
+      <lb ed="#V" n="25"/>Aug. contra faustum. quia ille ex libidine habuit tres. Iste autem 
+      <lb ed="#V" n="26"/>amore prolis procreande. ad augendum populum dei. habuit quatuor. 
+      <lb ed="#V" n="27"/>et ideo non dicitur adulter.
+    </p>
+            <p xml:id="FrMS88-f74002-d1e225">
+      ¶ Alia difficultas si omnes bigami sunt 
+      irre<lb ed="#V" n="28" break="no"/>gulares:
+    </p>
+            <p xml:id="FrMS88-f74002-d1e230">
+      ¶ Dicitur quod sic in nouo testamonio in veteri autem non quia 
+      <lb ed="#V" n="29"/>viduam poterat sacerdos sumere quae alterius sacerdotis fue 
+      <lb ed="#V" n="30"/>rat vxor. si tamen non erat repudiata.
+    </p>
+            <p xml:id="FrMS88-f74002-d1e237">
+      ¶ Aliud du. si aliquis 
+      <lb ed="#V" n="31"/>potest licite in infinitum contrahere. Aliqua dicunt quod non vltra numerum 
+      qui<lb ed="#V" n="32" break="no"/>narii. quod volunt habere ex verbo saluatoris Io. 4o. quinque 
+      vi<lb ed="#V" n="33" break="no"/>res habuisti et hunc quem habes non est tuus vir.
+    </p>
+            <p xml:id="FrMS88-f74002-d1e246">
+      ¶ Sed communiter 
+      <lb ed="#V" n="34"/>tenetur quod potest successiue habere quotiens est soluta.
+    </p>
+            <p xml:id="FrMS88-f74002-d1e251">
+      ¶ Sed 
+      <lb ed="#V" n="35"/>oc. dif. si fornicatio fuit licita in veteri testamento. Aliquo 
+      pro<lb ed="#V" n="36" break="no"/>bant quod sic per factum iude cum thamari. in lege autem fuit 
+      prohi<lb ed="#V" n="37" break="no"/>bitum scortum. verum est cum alienis. ysido. tamen de summo bo 
+      <lb ed="#V" n="38"/>non expresse dicit quod fuit licita.
+    </p>
+            <p xml:id="FrMS88-f74002-d1e262">
+      ¶ Tamen contrarium est 
+      probabi<lb ed="#V" n="39" break="no"/>lius quia: christum dixit simpliciter non mechaberis. exo. 2o.
+    </p>
+            <p xml:id="FrMS88-f74002-d1e268">
+      ¶ Sed 
+      <lb ed="#V" n="40"/>potuit ne christus dispensare cum facto adulterii.
+    </p>
+            <p xml:id="FrMS88-f74002-d1e273">
+      ¶ Dicitur quod est contra 
+      <lb ed="#V" n="41"/>primas regulas moralium operum quae sunt in prima tabula et in 2a. 
+      </p>
+            <p xml:id="FrMS88-f74002-d1e278">
+               <lb ed="#V" n="42"/>¶ Sed de incestu videtur esse maius quam adulterium. et tamen fuit 
+      di<lb ed="#V" n="43" break="no"/>spensatum: quia cayn sororem suam habuit in vxorem et abraam 
+      so<lb ed="#V" n="44" break="no"/>rorem filiam fratris:
+    </p>
+            <p xml:id="FrMS88-f74002-d1e287">
+      ¶ Dicitur quod tempore necessatitatis fuit concessum 
+      <lb ed="#V" n="45"/>cum sorore: quia aliter genus humanum non potuit multiplica 
+      <lb ed="#V" n="46"/>ri: sed numquam inferior cum superiore vt filius cum matre: nec pater 
+      <lb ed="#V" n="47"/>cum filia.
+    </p>
+            <p xml:id="FrMS88-f74002-d1e296">
+      ¶ Sed quid de loth. qui ebrius concubuit cum 
+      <lb ed="#V" n="48"/>duabus filiabus suis. numquid peccauit mortaliter: Augu. 
+      <lb ed="#V" n="49"/>22. li. contra faustum dicit quod sic.
+    </p>
+            <p xml:id="FrMS88-f74002-d1e303">
+      ¶ Sed quid de eunuchia:
+    </p>
+            <p xml:id="FrMS88-f74002-d1e307">
+      ¶ Di 
+      <lb ed="#V" n="50"/>citur quod eunuchia est contra ius naturale: quia est mutilatio cor 
+      <lb ed="#V" n="51"/>poris: nec ex hoc extinguitur libido. sed potentia coeundi 
+      <lb ed="#V" n="52"/>propter defectum partium genitalium. vnde ex zelotipia fie 
+      <lb ed="#V" n="53"/>bat a principibus vt mulieribus quas custodiebant non 
+      <lb ed="#V" n="54"/>possent carnaliter copulari. modo non sic. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

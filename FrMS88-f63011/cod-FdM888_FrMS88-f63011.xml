@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="210-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f63011"><!-- l4d15q4 -->
+            <head xml:id="FrMS88-f63011-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f63011-d1e111">
+               <lb ed="#V" n="113"/>QUarto queritur vtrum ista 3a 
+      con<lb ed="#V" n="114" break="no"/>fessio contritio et satiffactio 
+      <lb ed="#V" n="115"/>sint partes penitentie.
+    </p>
+            <p xml:id="FrMS88-f63011-d1e120">
+      ¶ Et videtur quod sic 
+      <lb ed="#V" n="116"/>quia ita dicit magister.
+    </p>
+            <p xml:id="FrMS88-f63011-d1e125">
+      ¶ Contra aliqua 
+      prae<lb ed="#V" n="117" break="no"/>cedunt et aliqua sequuntur. 
+      <lb ed="#V" n="118"/>sciendum quod penitentia accipitur multipli 
+      <lb ed="#V" n="119"/>hic est citer. Aliquando pro statu. sicut homo religio 
+      <lb ed="#V" n="120"/>sus dicitur esse in statu penitentie. Aliquando pro virtute: sicut 
+      <lb ed="#V" n="121"/>christus incepit predicationem suam a virtutibus. dicens 
+      <lb ed="#V" n="122"/>penitentiam agite etc. Aliquando pro actu sicut petrus dixit 
+      <lb ed="#V" n="123"/>Actis. secundo. penitentiam agite vt deleantur peocata videsra. Aliquand 
+      <lb ed="#V" n="124"/>pro sacramento.
+    </p>
+            <p xml:id="FrMS88-f63011-d1e145">
+      ¶ Tunc dico quod ista tria non sunt 
+      par<lb ed="#V" n="125" break="no"/>tes penitentie: vt sumuntur pro statu: nec vt sumuntur 
+      <lb ed="#V" n="126"/>pro virtute. quia actus non sunt de essentia virtutis. 
+      <lb ed="#V" n="127"/>nec sunt partes vnius actus: vt sumitur 3o nec quarto 
+      <lb ed="#V" n="128"/>nodo quasi partes integrales: sed sunt partes virtua 
+      <lb ed="#V" n="129"/>es. vt homo habeat contritionem in corde 
+      confessio<lb ed="#V" n="130" break="no"/>nem in voce satiffactionem in opere.
+    </p>
+            <p xml:id="FrMS88-f63011-d1e162">
+      ¶ Sed numquid 
+      <lb ed="#V" n="131"/>attritio et confessio sunt de essentia sacramenti dicitur 
+      <lb ed="#V" n="132"/>quod sunt preuie. non de essentia. quia quando est absolutio. 
+      ces<lb ed="#V" n="133" break="no"/>sauit confessio. et est ibi forma debita. et manteria et 
+      in<lb ed="#V" n="134" break="no"/>tentio.
+    </p>
+            <p xml:id="FrMS88-f63011-d1e173">
+      ¶ Sed queritur si de necessitate debet peniten¬ 
+      <!--424.xml-->
+      <pb ed="#V" n="211-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tia imponi.
+    </p>
+            <p xml:id="FrMS88-f63011-d1e184">
+      ¶ Dicitur quod non de necessitate sed de 
+      con<lb ed="#V" n="2" break="no"/>gruo. et peccaret mortaliter qui non iniungeret: tamen 
+      to<lb ed="#V" n="3" break="no"/>ta essentia completa est. Et si penitens moreretur ante iniun 
+      <lb ed="#V" n="4"/>ctionem saluaretur.
+    </p>
+            <p xml:id="FrMS88-f63011-d1e193">
+      ¶ Secundo queritur si aliquis non 
+      <lb ed="#V" n="5"/>compleat penitentiam sibi iniunctam. vtrum de peccatis illis 
+      <lb ed="#V" n="6"/>pro quibus iniuncta sibi fuit debeat confiteri vel solum 
+      <lb ed="#V" n="7"/>de hoc: quod penitentiam non compleuit.
+    </p>
+            <p xml:id="FrMS88-f63011-d1e202">
+      ¶ Dicunt aliqui quod 
+      <lb ed="#V" n="8"/>sic de peccatis: quia dicunt quod satisfactio est de 
+      integrita<lb ed="#V" n="9" break="no"/>te confessionis. Item totum fedus violauit. et ideo vt 
+      di<lb ed="#V" n="10" break="no"/>cunt oportet eum interum renouari.
+    </p>
+            <p xml:id="FrMS88-f63011-d1e211">
+      ¶ Sed hic nimium 
+      aggraua<lb ed="#V" n="11" break="no"/>ret. si enim condennetur a iudice ad penam certam: et non 
+      <lb ed="#V" n="12"/>compleat potest per alium iudicem compelli. ita est hic 
+      compel<lb ed="#V" n="13" break="no"/>let eum ad soluendum tantum vel plus: nec inuenitur vbi 
+      <lb ed="#V" n="14"/>hoc sit expriessum quod totum debeat reconfiteri. tamen in 
+      <lb ed="#V" n="15"/>negocio salutis anime tutior via debet eligi.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

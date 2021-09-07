@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 18</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 18</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="202-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f55241"><!-- l4d11q18 -->
+            <head xml:id="FrMS88-f55241-Hd1e108">Quaestio 18</head>
+            <p xml:id="FrMS88-f55241-d1e111">
+               <lb ed="#V" n="87"/>QUeritur vtrum terminus formalis 
+      <lb ed="#V" n="88"/>
+               <sic>transubationis</sic> istius sit 
+      for<lb ed="#V" n="89" break="no"/>ima corruptibilis. Et videtur quod non. quia est sacramentum 
+      <lb ed="#V" n="90"/>incorruptibile.
+    </p>
+            <p xml:id="FrMS88-f55241-d1e125">
+      ¶ Contra. res in hoc sacramento 
+      con<lb ed="#V" n="91" break="no"/>tenta fuit aliquando corruptibilis ergo per aliqua
+      <lb ed="#V" n="92"/>formam corruptibilem. ergo forma hoc videtur esse terminus.
+    </p>
+            <p xml:id="FrMS88-f55241-d1e132">
+               <lb ed="#V" n="93"/>hic sut duo preambula. ¶ Primum est quod 
+      cor<lb ed="#V" n="94" break="no"/>pus christi nunc in celo ex puris naturalibus 
+      <lb ed="#V" n="95"/>est corruptibile.
+    </p>
+            <p xml:id="FrMS88-f55241-d1e141">
+      ¶ Secundam praeambulum est quod de facto 
+      fui<lb ed="#V" n="96" break="no"/>corruptibile.
+    </p>
+            <p xml:id="FrMS88-f55241-d1e147">
+      ¶ hoc viso dicunt aliqui quod terminus 
+      for<lb ed="#V" n="97" break="no"/>malis est per se corpus. quia aliter compositum non esset 
+      <lb ed="#V" n="98"/>corruptibile: licet aliqui negent hoc. quia dato quod terminus sit 
+      <lb ed="#V" n="99"/>incorruptibilis. tamen totum compositum potest esse corrupt 
+      <lb ed="#V" n="100"/>bile per separationem.
+    </p>
+            <p xml:id="FrMS88-f55241-d1e158">
+      ¶ Probo igitur quod si anima ratio 
+      <lb ed="#V" n="101"/>nalis cum materia esset tantum in composito: quod totum 
+      con<lb ed="#V" n="102" break="no"/>positum sit incorruptibile. probo sic. Quando aliquod 
+      con<lb ed="#V" n="103" break="no"/>positum constituitur ex duobus principiis incorruptibi 
+      <lb ed="#V" n="104"/>libus: non poterit corrumpi nisi per separationem ipsorum 
+      <lb ed="#V" n="105"/>principiorum. hanc autem concedunt aduersarii veritatis. sed 
+      <lb ed="#V" n="106"/>impossibile est per solam separationem constitutiuorum 
+      com<lb ed="#V" n="107" break="no"/>positum corrumpi. probatio: quia per separationem talium 
+      prin<lb ed="#V" n="108" break="no"/>cipiorum nihil deperditur de substantia: quia sola vnio que est 
+      <lb ed="#V" n="109"/>accidens hic separatur.
+    </p>
+            <p xml:id="FrMS88-f55241-d1e180">
+      ¶ Secundo. quia impossibile est quod 
+      <lb ed="#V" n="110"/>aliquod compositum destruatur non destructo 
+      aliquo<lb ed="#V" n="111" break="no"/>quod est de eius essentia: sed secundum istos impossibile est 
+      corrun<lb ed="#V" n="112" break="no"/>pi aliquid de esse compositi. maior patet: quia manente tota es 
+      <lb ed="#V" n="113"/>sentia compositi manet totum compositum. sed si nihil de ess 
+      <lb ed="#V" n="114"/>compositi destruatur totum compositum manet et esse 
+      <lb ed="#V" n="115"/>compositi.
+    </p>
+            <p xml:id="FrMS88-f55241-d1e196">
+      ¶ 3a ratio est cuius tota essentia et natum manet et est 
+      <lb ed="#V" n="116"/>incorruptibilis: illud secundum se totum erit incorruptibile: sed 
+      <lb ed="#V" n="117"/>tota nura est incorruptibilis secundum dicta. Maior patet de se. 
+      <lb ed="#V" n="118"/>Minor autem habetur ab eis. Si autem detur aliquid praeter anima 
+      <lb ed="#V" n="119"/>et materiam habetur intentum.
+    </p>
+            <p xml:id="FrMS88-f55241-d1e207">
+      ¶ Quarto sic. posita tota quidita 
+      <lb ed="#V" n="120"/>te alicuius quocumque alio circumscripto: quod non est de eium 
+      <lb ed="#V" n="121"/>quiditate ponitur illud cuius est quiditas tota: sed tota quod 
+      <lb ed="#V" n="122"/>ditas per te consistit in anima rationali et materia. Quia vnio cum 
+      <lb ed="#V" n="123"/>sit relatio non est de essentia hominis. igitur quandocumque 
+      separan<lb ed="#V" n="124" break="no"/>tur maneret totum. igitur videtur quod ibi oportet ponere aliquam 
+      for<lb ed="#V" n="125" break="no"/>mam corruptibilem.
+    </p>
+            <p xml:id="FrMS88-f55241-d1e223">
+      ¶ Sed aliquin dicunt quod anima rationalis 
+      <lb ed="#V" n="126"/>continet virtualiter omnes alias formas: et ita facit quod 
+      alie<lb ed="#V" n="127" break="no"/>faciunt.
+    </p>
+            <p xml:id="FrMS88-f55241-d1e231">
+      ¶ hoc bene concedo quod virtualiter continet: sed 
+      <lb ed="#V" n="128"/>tunc arguo sic. impossibile est quod aliquid seipsum contineat. 
+      <lb ed="#V" n="129"/>sed anima rationalis continet virtualiter sensitiuam et 
+      <lb ed="#V" n="130"/>negatiuam. ergo non est idem cum illis. sed alia est forma 
+      <lb ed="#V" n="131"/>continens: et alia contenta.
+    </p>
+            <p xml:id="FrMS88-f55241-d1e242">
+      ¶ Sciendum tamen quod virtua 
+      <lb ed="#V" n="132"/>liter continet: quia in genere finalis cause: quia est finis ipsarum. 
+      <!--407.xml-->
+      <pb ed="#V" n="202-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>sed non in genere cause formalis: quia tunc non 
+      differ<lb ed="#V" n="2" break="no"/>ret: nec per modum efficientis: quia non efficit ipsas: er 
+      <lb ed="#V" n="3"/>go relinquitur quod per modum cause finalis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="222-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f73483"><!-- l4d30q2 -->
+            <head xml:id="FrMS88-f73483-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f73483-d1e111">
+               <lb ed="#V" n="92"/>SEcundo queritur. vtrum inter virginem ma 
+      <lb ed="#V" n="93" break="no"/>riam et ioseph. fuerit verum 
+      <lb ed="#V" n="94"/>matrimonium. Quod non. quia ibi fuit sola desponsatio 
+      <lb ed="#V" n="95"/>icitur enim cum esset desponsata.
+    </p>
+            <p xml:id="FrMS88-f73483-d1e122">
+      ¶ Sed conclra. quia ibi 
+      <lb ed="#V" n="96"/>dem dicitur. Noli timere ioseph accipere mariam 
+      <lb ed="#V" n="97"/>coniugem tuam. et vocatur etiam vir eius. 
+      <lb ed="#V" n="98"/>Nintelligendum quod quando aliqua virtus coniungitur sacramento 
+      <lb ed="#V" n="99"/>Hic est dicitur consecrata. quia sacre rei iuncta. et ideo 
+      <lb ed="#V" n="100"/>nobilissima. vnde christus consecrauit 4or virginitates. primo vir 
+      <lb ed="#V" n="101"/>ginitatem suam cum sacramento incarnationis. quod fuit 
+      excellen<lb ed="#V" n="102" break="no"/>tissimum sacramentum. huic fuit coniucta caro christi.
+    </p>
+            <p xml:id="FrMS88-f73483-d1e140">
+      ¶ Secundo 
+      <lb ed="#V" n="103"/>virginitatem matris volunt consecrare. ideo volunt quod contrahe 
+      <lb ed="#V" n="104"/>ret cum inoseph vinculo matrimoniali. Dicit Aug.n de 
+      ser<lb ed="#V" n="105" break="no"/>mone diuni in modte. capitulo. 1 4o beatiora sane coniugia 
+      iudi<lb ed="#V" n="106" break="no"/>canda sunt que sine filiis procreatis. que etiam illa 
+      terena<lb ed="#V" n="107" break="no"/>prole contempta continentiam inter se pari consensu seruare 
+      <lb ed="#V" n="108"/>poterant.
+    </p>
+            <p xml:id="FrMS88-f73483-d1e156">
+      ¶ 3o virginitatem ioseph consecrauit matrimonio 
+      <lb ed="#V" n="109"/>ne claudicaret. fuit enim ioseph virgo secundum magistrum in 
+      <lb ed="#V" n="110"/>ltera.
+    </p>
+            <p xml:id="FrMS88-f73483-d1e164">
+      ¶ 4o virginitatem Ioemuanis euangeliste: vt christus faceret 
+      <lb ed="#V" n="111"/>virginitatem illius similem sibi volunt quod contraheret.
+    </p>
+            <p xml:id="FrMS88-f73483-d1e169">
+      ¶ Sed 
+      <lb ed="#V" n="112"/>quare diffuentia nostra contraxit.
+    </p>
+            <p xml:id="FrMS88-f73483-d1e174">
+      ¶ hic sunt. 5. rationes.
+    </p>
+            <p xml:id="FrMS88-f73483-d1e177">
+      ¶ Prima 
+      <lb ed="#V" n="113"/>accipitur ex proprietate ipsius virginis. vnde Ambro. ma 
+      <lb ed="#V" n="114"/>luit diceuns de se dubitare etc. sciebat enim etc. ideo propter 
+      fa<lb ed="#V" n="115" break="no"/>mam eius seruandam: nec decuit quod aliter quam illo decentissi 
+      <lb ed="#V" n="116"/>mo et honestissimo modo eam ab infamia custodiret. 
+      </p>
+            <p xml:id="FrMS88-f73483-d1e188">
+               <lb ed="#V" n="117"/>¶ 2a ex parte christi. Quid igitur potuisset ascribi herodi. 
+      </p>
+            <p xml:id="FrMS88-f73483-d1e193">
+               <lb ed="#V" n="118"/>¶ 3a ratio. quia sicut christus volunt circumcidi vt assimilaretur 
+      <lb ed="#V" n="119"/>antiquis patribus ita in hoc.
+    </p>
+            <p xml:id="FrMS88-f73483-d1e201">
+      ¶ Quarta ratio. vt inoseph 
+      <lb ed="#V" n="120"/>posset perficere familiarius. et propter necessaritatem obsequii. 
+      </p>
+            <p xml:id="FrMS88-f73483-d1e206">
+               <lb ed="#V" n="121"/>¶ Quinta ratio. propter malitiam iudeorum. iudei enim hioc 
+      op<lb ed="#V" n="122" break="no"/>posuerunt coram pylato: vt dicit nichodemus et fuert 
+      <lb ed="#V" n="123"/>xii. alii quin testificati sunt se interfuisse nuptiis inoseph. 
+      </p>
+            <p xml:id="FrMS88-f73483-d1e215">
+               <lb ed="#V" n="124"/>¶ Sexta ratio. vt mysterium dyao. celaretur secundum ori 
+      <lb ed="#V" n="125"/>genem.
+    </p>
+            <p xml:id="FrMS88-f73483-d1e222">
+      ¶ Sed oc. difficultas si beata virgo vouit virginitatem. 
+      </p>
+            <p xml:id="FrMS88-f73483-d1e225">
+               <lb ed="#V" n="126"/>¶ Dicitur quod sic. hoc enim habetur in euangelio. 
+      An<lb ed="#V" n="127" break="no"/>sel. autem de conceptu virginali. dicit. decuit etc. 
+      maior<lb ed="#V" n="128" break="no"/>et excellentior virginitas est cum voto quam sine voto. 
+      </p>
+            <p xml:id="FrMS88-f73483-d1e234">
+               <lb ed="#V" n="129"/>¶ Secundum difficile quomodo potuit stare matrimonium cum 
+      <lb ed="#V" n="130"/>virginitate: cum consensus requiratur implicite vel explici¬ 
+      <!--448.xml-->
+      <pb ed="#V" n="223-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>te in copulam illam: quia datur alteri potestas proprii corporis. cum 
+      <lb ed="#V" n="2"/>igitur dedit potestatem hanc. quomodo stetit votum virginitatis. 
+      </p>
+            <p xml:id="FrMS88-f73483-d1e253">
+               <lb ed="#V" n="3"/>¶ hic dicunt aliqui quod beata virgo habuit consensum de 
+      ha<lb ed="#V" n="4" break="no"/>bitatione non de copula.
+    </p>
+            <p xml:id="FrMS88-f73483-d1e260">
+      ¶ Sed contra. quia talis consensus 
+      pos<lb ed="#V" n="5" break="no"/>set haberi cum sorore. Alii dicunt quod consenserit in bonum matrimo 
+      <lb ed="#V" n="6"/>nii secundum fidem quod semper seruaret sibi fidem. sed hoc non 
+      suf<lb ed="#V" n="7" break="no"/>ficit. sic enim posset fieri cum sorore faciendo pacta similis. nec 
+      <lb ed="#V" n="8"/>tamen aliquando copularentur.
+    </p>
+            <p xml:id="FrMS88-f73483-d1e271">
+      ¶ Dico igitur quod fuit certificata a 
+      <lb ed="#V" n="9"/>spiritu sancto quod ioseph numquam peteret debitum: sicut sunt 
+      <lb ed="#V" n="10"/>sancti ceteri de sua beatitudinine. ideo dedit sibi potesta 
+      <lb ed="#V" n="11"/>tem super corpus suum cum tali certitudinine.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

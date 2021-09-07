@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="154-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f15630"><!-- l2d14q1 -->
+            <head xml:id="FrMS88-f15630-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f15630-d1e111">
+               <lb ed="#V" n="46"/>¶ Distinctio. xiiii. Quaestio 1. 
+      <lb ed="#V" n="47"/>Dixit quoque deus etc. 
+      <lb ed="#V" n="48"/>CIrca distinctionem.14. quero 
+      qua<lb ed="#V" n="49" break="no"/>tuor quaestiones. Prima est. vtrum 
+      <lb ed="#V" n="50"/>corpora celestia sint animata. et videtur quod 
+      <lb ed="#V" n="51"/>sic: quia hec fuit opinio communissima philosophorum. 
+      <lb ed="#V" n="52"/>quorum inquisitio fuit subtilissima. Con 
+      <lb ed="#V" n="53"/>trarium dicunt theologi. 
+      <lb ed="#V" n="54"/>philosophi dicunt communiter quod sic. quia secundum commune opinionem 
+      <lb ed="#V" n="55"/>Hic philosophorum motus celi est naturalis. et per consequens a motore 
+      <lb ed="#V" n="56"/>intrinseco.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e137">
+      ¶ Sed contra illud argentem 4r
+    </p>
+            <p xml:id="FrMS88-f15630-d1e140">
+      ¶ Primo. quia anima est 
+      <lb ed="#V" n="57"/>actus corporis physici potentia vitam habentis. Corpora autem illa 
+      <lb ed="#V" n="58"/>non habent organizationem: quia sunt homogenea. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f15630-d1e147">
+               <lb ed="#V" n="59"/>¶ Item nec anima vegetatiua cum sit corporalis: nec 
+      sensitiu<lb ed="#V" n="60" break="no"/>quia illa habet potentias organicas: que ibi esse non possunt: nec 
+      <lb ed="#V" n="61"/>anima intellectiua. quia illa habet potentias que se habent ad oppo 
+      <lb ed="#V" n="62"/>sita. motus autem celi est vniformis. Item vbi non ponitur 
+      nec<lb ed="#V" n="63" break="no"/>vegetatiua: nec sensitiua: nec intellectiua non ponitur anima. 
+      </p>
+            <p xml:id="FrMS88-f15630-d1e161">
+               <lb ed="#V" n="64"/>¶ Confirmatur. quia nobilior esset anima celi quam hominis: quia esset 
+      <lb ed="#V" n="65"/>corporis incorruptibilis.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e168">
+      ¶ Confirmatur etiam: quia intelle¬ 
+      <!--311.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>ctiua anima est nobilior creatura. Compositum autem est 
+      no<lb ed="#V" n="67" break="no"/>bilius forma.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e179">
+      ¶ 3o. quia tunc essent in eodem genere cum ho 
+      <lb ed="#V" n="68"/>mine. Corruptibilia autem et incorruptibilia non sunt eius 
+      <lb ed="#V" n="69"/>dem generis. Item homo non esset finis naturalium.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e186">
+      ¶ Sed contra 
+      <lb ed="#V" n="70"/>omne corpus animatum est nobilius inaimato. Inferiora 
+      ergi<lb ed="#V" n="71" break="no"/>corpora cum sint animata erunt nobiliora illis si sint 
+      inaima<lb ed="#V" n="72" break="no"/>aa. Item illa sunt incorruptibilia. et per consequens nobiliora istis. 
+      </p>
+            <p xml:id="FrMS88-f15630-d1e195">
+               <lb ed="#V" n="73"/>¶ 3o. quia viuentia sunt nobiliora non viuentibus. 19. de tri¬ 
+      </p>
+            <p xml:id="FrMS88-f15630-d1e200">
+               <lb ed="#V" n="74"/>¶ 4o. quia erit ibi forma corporalis naturalis gratia sui. In homine 
+      <lb ed="#V" n="75"/>autem forma organica non gratia sui. perfectiones que tantum 
+      <lb ed="#V" n="76"/>sunt in aliquo gratia alterius sunt nobiliori modo quam vbi 
+      <lb ed="#V" n="77"/>sunt gratia sui.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e212">
+      ¶ Ad primam instantiam dicunt aliqui. quod 
+      l<lb ed="#V" n="78" break="no"/>corpus animatum excedat non animatum. non tantum simpliciter. sed 
+      <lb ed="#V" n="79"/>hoc nihil est. quia non loquimur hoc de his que per accidens in 
+      <lb ed="#V" n="80"/>sunt. sed de perfectionibus essentialibus. Quodcunque autem in 
+      <lb ed="#V" n="81"/>diuiduum sub nobiliori specie est nobilius quocunque 
+      sul<lb ed="#V" n="82" break="no"/>ignobiliori.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e225">
+      ¶ Oportet ergo dicere quod omnia corpora animata sunt 
+      <lb ed="#V" n="83"/>nobiliora inaimatis essentialiter. licet in accidentalibus sit aliter. 
+      </p>
+            <p xml:id="FrMS88-f15630-d1e230">
+               <lb ed="#V" n="84"/>¶ Ad aliud oportet negare quod homo est nobilior celo.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e235">
+      ¶ Sed 
+      <lb ed="#V" n="85"/>contra. genus corruptibile excedit incorruptibile vel eo 
+      <lb ed="#V" n="86"/>uerso: si secundo modo. Omne incorruptibile est nobilius 
+      cor<lb ed="#V" n="87" break="no"/>ruptibili. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e244">
+      ¶ hic dico. quod incorruptibilitas per se 
+      <lb ed="#V" n="88"/>non facit differre genere. sed sunt passiones consequentes. Unde bene 
+      <lb ed="#V" n="89"/>oportet quod vnum genus excedat aliud.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e251">
+      ¶ Sed non oportet de 
+      <lb ed="#V" n="90"/>passionibus. animatum autem et inaiatum sunt priora. et ideo 
+      <lb ed="#V" n="91"/>de essentia. Iste autem sunt posteriores. et infra eandem 
+      spe<lb ed="#V" n="92" break="no"/>ciem: videmus corruptibile et incorruptibile sicut 
+      speri<lb ed="#V" n="93" break="no"/>ca figura celi et cupri. Ex hoc concedo quod omne viuens est no 
+      <lb ed="#V" n="94"/>bilius non viuente.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e265">
+      ¶ Ad aliud concedo. quando sunt eiusdem 
+      <lb ed="#V" n="95"/>rationis sicut anima sensitiua in homine et asino. et ita tenet cete 
+      <lb ed="#V" n="96"/>ris paribus. Non autem quando non sunt eiusdem rationis.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e272">
+      ¶ Sed 
+      <lb ed="#V" n="97"/>hic est difficultas quomodo tunc corpora celestia producunt 
+      vegetabi<lb ed="#V" n="98" break="no"/>lia. cum non contineant ipsa: nec formaliter: nec etiam virtualiter. 
+      </p>
+            <p xml:id="FrMS88-f15630-d1e279">
+               <lb ed="#V" n="99"/>¶ 2a difficultas in generatione brutorum. quia secundum omnes equoce generan 
+      <lb ed="#V" n="100"/>tur a celo. oportet ergo quod ibi contineantur vel formaliter vel 
+      vir<lb ed="#V" n="101" break="no"/>tualiter.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e288">
+      ¶ 3a difficultas quia ponitur communiter quod anima sensitiua in 
+      ho<lb ed="#V" n="102" break="no"/>mine est a gnante.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e293">
+      ¶ 4a difficultas quia compositum hominis generatur 
+      a<lb ed="#V" n="103" break="no"/>sole quicquid sit de anima. Et est nobilius quam anima. ergo oportet quod 
+      <lb ed="#V" n="104"/>sol contineat ista virtualiter. et per consequens nobilior est eius 
+      for<lb ed="#V" n="105" break="no"/>ma.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e302">
+      ¶ hic euaditur vno modo dicendo. quod corpora celestia sunt 
+      <lb ed="#V" n="106"/>nobiliora omnibus istis corporibus.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e308">
+      ¶ Sed hoc non potest 
+      sta<lb ed="#V" n="107" break="no"/>re si ista diuisio concedatur. corpus aliud animatum. aliud 
+      im<lb ed="#V" n="108" break="no"/>animatum: cum fit diuisio essentialis: et animatum sit perfectius 
+      <lb ed="#V" n="109"/>simpliciter. licet in accidentibus non oporteat.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e317">
+      ¶ 2o. soluitur quod 
+      <lb ed="#V" n="110"/>aliquid potest esse nobilius virtualiter quam formaliter. quia causa equo 
+      <lb ed="#V" n="111"/>ca potest esse ita nobilior.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e324">
+      ¶ Sed hoc nihil est. quia certa est 
+      <lb ed="#V" n="112"/>nobis regula: quod causa nobilior est suo effectu. vt in 4or 
+      vi<lb ed="#V" n="113" break="no"/>sum fuit. Item quare est aptum natum producere. quia est tale 
+      <lb ed="#V" n="114"/>ens. passio autem non excedit subiectum.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e333">
+      ¶ Ideo dicunt aliquin 
+      <lb ed="#V" n="115"/>quod ista generatio fit virtute anime. et ita derelinquitur ab anima in 
+      <lb ed="#V" n="116"/>semine.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e340">
+      ¶ Sed hoc non valet: quia illa virtus non est 
+      cor<lb ed="#V" n="117" break="no"/>poralis: et tunc non potest.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e345">
+      ¶ Alii dicunt quod in contextura 
+      ele<lb ed="#V" n="118" break="no"/>mentorum omnia creata sunt: et postea in esse prodeunt.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e351">
+      ¶ Con 
+      <lb ed="#V" n="119"/>tra. si in actu. tunc omnia fuerunt producta simul. Si in 
+      po<lb ed="#V" n="120" break="no"/>tentia de hoc querimus.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e358">
+      ¶ Dicit Secundo quod oportet 
+      recurren<lb ed="#V" n="121" break="no"/>ad deum. nec potest esse recursus ad intelligentias. quia nullan 
+      <lb ed="#V" n="122"/>formam absolutam producunt secundum sanctos. Supplet ergo 
+      <lb ed="#V" n="123"/>deus defectum naturae.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e367">
+      ¶ Sed contra. quia tunc generatio 
+      vniuscu<lb ed="#V" n="124" break="no"/>iusque viri erit supenaturalis. erunt etiam forme supernaturales. 
+      <lb ed="#V" n="125"/>Item ita bene dicemus de forma bruti. quod est a creante si 
+      <lb ed="#V" n="126"/>cut intellectiua. Item nec generatio vniuoca erit in istis. 
+      <lb ed="#V" n="127"/>Sed istud potest intelligi sic. quia secundum Tho. angelus exigit 
+      <lb ed="#V" n="128"/>sic. quod sibi infundantur species supernaturaliter et postea intelligit 
+      <lb ed="#V" n="129"/>naturaliter. Ita deus disposuit quod facta dispositione tali: producatur 
+      <lb ed="#V" n="130"/>tales formas: et sic non est nouum miraculum.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e385">
+      ¶ Sed sunt 
+      <lb ed="#V" n="131"/>ne due forme supernaturales:
+    </p>
+            <p xml:id="FrMS88-f15630-d1e390">
+      ¶ Dico quod non. quia infunduntur 
+      <!--312.xml-->
+      <pb ed="#V" n="155-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>secundum dispositiones inatas.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e401">
+      ¶ Sed contra. supernaturalitas non 
+      <lb ed="#V" n="2"/>est a parte suscipientis: sed agentis.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e407">
+      ¶ Potest concedi quod 
+      <lb ed="#V" n="3"/>sunt partim supernaturales quantum ad partialem creationem 
+      <lb ed="#V" n="4"/>qua creantur in deo.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e414">
+      ¶ Sed quare magis dicitur anima 
+      ratio<lb ed="#V" n="5" break="no"/>nalis supernaturalis quam anima bruti. dico quod anima rationalis 
+      crea<lb ed="#V" n="6" break="no"/>tur a deo nulla causa naturali concurrente. Unde non dependet a 
+      <lb ed="#V" n="7"/>corpore organico in genere cause materialis: vt in qua: sicut 
+      ac<lb ed="#V" n="8" break="no"/>cidens in subiecto.
+    </p>
+            <p xml:id="FrMS88-f15630-d1e425">
+      ¶ Ad aliud dicit Secundo quod non semper 
+      re<lb ed="#V" n="9" break="no"/>quiritur ad hoc quod sit generatio vniuoca. quod principium 
+      <lb ed="#V" n="10"/>roductiuum sit eiusdem rationis cum termino producto: sed 
+      <lb ed="#V" n="11"/>sufficit quod producens et productum habeant eandem 
+      for<lb ed="#V" n="12" break="no"/>mam in specie. ita est hic. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

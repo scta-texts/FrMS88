@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f53511"><!-- l4d11q12 -->
+            <head xml:id="FrMS88-f53511-Hd1e108">Quaestio 12</head>
+            <p xml:id="FrMS88-f53511-d1e111">
+               <lb ed="#V" n="81"/>QUarta questio est. vtrum 
+      spe<lb ed="#V" n="82" break="no"/>cies mouean 
+      <lb ed="#V" n="83"/>tur motu naturali.
+    </p>
+            <p xml:id="FrMS88-f53511-d1e120">
+      ¶ Et videtur quod non: 
+      <lb ed="#V" n="84"/>quia non sunt corpora.
+    </p>
+            <p xml:id="FrMS88-f53511-d1e125">
+      ¶ Contra. quia 
+      sensibi<lb ed="#V" n="85" break="no"/>liter apparet quod mouentur. 
+      <lb ed="#V" n="86"/>quatuor conclusiones.
+    </p>
+            <p xml:id="FrMS88-f53511-d1e132">
+      ¶ Pri<lb ed="#V" n="87" break="no"/>hic inducuntur. ma est. quod nouentur ab 
+      in<lb ed="#V" n="88" break="no"/>trinseco motore naturaliter. quia graue mouetur a motore 
+      intri<lb ed="#V" n="89" break="no"/>seco. per grauitatem. vnde iste species sibi dimisse caderent 
+      </p>
+            <p xml:id="FrMS88-f53511-d1e142">
+               <lb ed="#V" n="90"/>¶ Secunda conclusio quod mouentur violeter a more extrinseco: quia 
+      s<lb ed="#V" n="91" break="no"/>naturaliter mouentur deorsum: possunt violenter moueri sursum ab 
+      <lb ed="#V" n="92"/>extrinseco.
+    </p>
+            <p xml:id="FrMS88-f53511-d1e151">
+      ¶ Tertia conclusio quia a motore coniuncto scilicet christo possunt 
+      <lb ed="#V" n="93"/>ad omnem partem moueri quia vere christus habet potentiam motiuam su 
+      <lb ed="#V" n="94"/>per eas.
+    </p>
+            <p xml:id="FrMS88-f53511-d1e158">
+      ¶ Quarta conclusio quod formaliter ab agente naturali possun 
+      <lb ed="#V" n="95"/>moueri secundum alterationem. hoc patet ad sensum.
+    </p>
+            <p xml:id="FrMS88-f53511-d1e163">
+      ¶ Sed contra primam 
+      <lb ed="#V" n="96"/>maria conclusione. arguitur sic. quia grauitas est passio consequens formam 
+      <lb ed="#V" n="97"/>grauis. sed hic non est forma grauis.
+    </p>
+            <p xml:id="FrMS88-f53511-d1e170">
+      ¶ Contra secundam sic 
+      <lb ed="#V" n="98"/>quod est in potentia neutra ad situm: non potest moueri 
+      vio<lb ed="#V" n="99" break="no"/>lenter. sed sic est de istis accidentibus.
+    </p>
+            <p xml:id="FrMS88-f53511-d1e177">
+      ¶ Contra tertiam 
+      <lb ed="#V" n="100"/>quia potentia christi motiua est organica que non agit nisi 
+      <lb ed="#V" n="101"/>ecundum situm. sed ibi non est secundum situm.
+    </p>
+            <p xml:id="FrMS88-f53511-d1e185">
+      ¶ Contra quartam. quia 
+      <lb ed="#V" n="102"/>species non habent ibi esse naturale. ergo nec naturaliter 
+      pa<lb ed="#V" n="103" break="no"/>tientur.
+    </p>
+            <p xml:id="FrMS88-f53511-d1e192">
+      ¶ Ad primum. si dicatur quod grauitas est forma 
+      <lb ed="#V" n="104"/>mixti. tunc impossibile est contra nos. Si dicatur quod passio sit tunc 
+      <lb ed="#V" n="105"/>non posset separari. Si naturalis inclinatio. tuc destructo 
+      fun<lb ed="#V" n="106" break="no"/>damento destrueretur relatio. Si dicas quod est forma 
+      abso<lb ed="#V" n="107" break="no"/>luta. tunc deus posset facere ferrum sine grauitate et sta 
+      <lb ed="#V" n="108"/>bit sursum naturaliter non cadens. Si dicas quod est tantum dispo 
+      <lb ed="#V" n="109"/>passiua ad mouendum tantum valet mihi potest tamen dici quod deus 
+      <lb ed="#V" n="110"/>eas eo modo mouet naturaliter quo mouetur naturaliter panis ne 
+      perci<lb ed="#V" n="111" break="no"/>piatur miraculum: sed melius est quod ponatur grauitas 
+      quali<lb ed="#V" n="112" break="no"/>tas absoluta.
+    </p>
+            <p xml:id="FrMS88-f53511-d1e214">
+      ¶ Ad 2m. dico quod accidentia sunt in poten 
+      <lb ed="#V" n="113"/>tia neutra praeter grauitatem.
+    </p>
+            <p xml:id="FrMS88-f53511-d1e219">
+      ¶ Ad 3m. concedo quod potentia 
+      <lb ed="#V" n="114"/>christi organica non potest mouem. sed alia non organica quae anima 
+      <lb ed="#V" n="115"/>se mouet: potest haec facere.
+    </p>
+            <p xml:id="FrMS88-f53511-d1e226">
+      ¶ Ad 4m. dico quod forma quae 
+      su<lb ed="#V" n="116" break="no"/>penaturaliter inducitur naturaliter agit.
+    </p>
+            <p xml:id="FrMS88-f53511-d1e231">
+      ¶ Sed remanet dubium. hic 
+      po<lb ed="#V" n="117" break="no"/>natur quod cadat hostia dum proferuntur verba. certum est quod 
+      con<lb ed="#V" n="118" break="no"/>secratio est in instanti. et est ibi motus continuus specierum. Alius 
+      <lb ed="#V" n="119"/>est motus quae substantia panis transbstantata mouebatur. Alius corporis 
+      <lb ed="#V" n="120"/>christi. modo corpus christi et panis sunt duo. et ita motus non sunt 
+      <lb ed="#V" n="121"/>continui. nec potest intercidere mora. quia in instanti quiesceret 
+      <lb ed="#V" n="122"/>mobile violenter. sed species non quiescunt.
+    </p>
+            <p xml:id="FrMS88-f53511-d1e248">
+      ¶ Dico quod isti 
+      mo<lb ed="#V" n="123" break="no"/>tus non essent continui. nec intercideret mora quod quiesceret 
+      <lb ed="#V" n="124"/>non substantia panis: quia non est: nec corpus christi. quia mouetur cum 
+      <lb ed="#V" n="125"/>speciebus. igitur essent duo motus continui. sicut duo corpora 
+      conmuisu<lb ed="#V" n="126" break="no"/>cta. ita quod vltimum istius motus esset cum primo alterius. 
+      Imagine<lb ed="#V" n="127" break="no"/>mur ergo quod in eodem instanti quae desinit panis. sit corpus christi. 
+      <lb ed="#V" n="128"/>et istod coniugit duo continua diuersorum subiectorum: vsque ad in 
+      <lb ed="#V" n="129"/>stans erit motus panis.
+    </p>
+            <p xml:id="FrMS88-f53511-d1e266">
+      ¶ Sed tunc videtur quod inter duos mot 
+      <lb ed="#V" n="130"/>non sit quies media.
+    </p>
+            <p xml:id="FrMS88-f53511-d1e271">
+      ¶ Dico quod non habemus pro 
+      incom<lb ed="#V" n="131" break="no"/>uenienti in contiguis. et contra hoc rationes philosophi non 
+      de<lb ed="#V" n="132" break="no"/>monstrant. cum isti non sint contrarii motus.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

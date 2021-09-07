@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="188-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f43178"><!-- l4d4-5q3 -->
+            <head xml:id="FrMS88-f43178-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f43178-d1e111">
+               <lb ed="#V" n="103"/>TErtio queritur vtrum malitia ministri 
+      <lb ed="#V" n="104"/>impediat effectum baptismi. 
+      </p>
+            <p xml:id="FrMS88-f43178-d1e118">
+               <lb ed="#V" n="105"/>¶ Et videtur quod sic. quia ¶yprianus 
+      bapti<lb ed="#V" n="106" break="no"/>pabat ab hereticis baptimatos.
+    </p>
+            <p xml:id="FrMS88-f43178-d1e125">
+      ¶ Contra. 
+      <lb ed="#V" n="107"/>Auguus dicit quod non est singularis persone: sed 
+      <lb ed="#V" n="108"/>totius eccletie. igitur propter malitia ministri non impeditur.
+    </p>
+            <p xml:id="FrMS88-f43178-d1e132">
+               <lb ed="#V" n="109"/>Hic est intelligendum quod malitia mi 
+      <lb ed="#V" n="110" break="no"/>nistri potest 
+      arten<lb ed="#V" n="111" break="no"/>di 4r.
+    </p>
+            <p xml:id="FrMS88-f43178-d1e142">
+      ¶ Aut enim est ex parte habitus vt quando est here 
+      <lb ed="#V" n="112"/>ticus aut scismaticus. et hoc non impedit. Dum tamen 
+      at<lb ed="#V" n="113" break="no"/>tendat facere quod ecclesia facit.
+    </p>
+            <p xml:id="FrMS88-f43178-d1e149">
+      ¶ Aut ex parte reatus. vt 
+      <lb ed="#V" n="114"/>degradatus suspesus et excommunicatus nec ista impediunt. 
+      <lb ed="#V" n="115"/>Dum tamen in fide ecclesie fiat. Aut ex parte actus vt si ex ma 
+      <lb ed="#V" n="116"/>litia fiat non intendens facere quod facit ecclesia: sed exterius 
+      <lb ed="#V" n="117"/>facit ad apparendum.
+    </p>
+            <p xml:id="FrMS88-f43178-d1e160">
+      ¶ Dicitur quod quantum est ex parte 
+      <lb ed="#V" n="118"/>acramenti nihil facit. quia intentio est de essentia sacramenti 
+      <lb ed="#V" n="119"/>sicut cause alie. creditur tamen quod deus suppleat vt talis 
+      ba<lb ed="#V" n="120" break="no"/>ptim etur baptismo flaminis. quia ibi est innuincibilis igno 
+      <lb ed="#V" n="121"/>rantia. sed deus non obligat ad impossibile.
+    </p>
+            <p xml:id="FrMS88-f43178-d1e171">
+      ¶ Aut ex 
+      <lb ed="#V" n="122"/>parte sacramenti vt si desit materia vel forma: nihil fit. 
+      </p>
+            <p xml:id="FrMS88-f43178-d1e176">
+               <lb ed="#V" n="123"/>¶ Sed hic occurrit dubium si aliquis baptimetur ab 
+      he<lb ed="#V" n="124" break="no"/>retico vel a scismatico numquid peccat mortaliter:
+    </p>
+            <p xml:id="FrMS88-f43178-d1e183">
+      ¶ Se 
+      <lb ed="#V" n="125"/>cundum dubium est. si ab eo qui est notorius peccator. 
+      </p>
+            <p xml:id="FrMS88-f43178-d1e189">
+               <lb ed="#V" n="126"/>¶ hic dicitur quod si ex officio sibi incumbit non peccat. quia 
+      <lb ed="#V" n="127"/>malitia sacerdotis non dicbiet redundare in populum.
+    </p>
+            <p xml:id="FrMS88-f43178-d1e196">
+      ¶ Si 
+      <lb ed="#V" n="128"/>autem non: et posset habere alium bonum: male faceret. 
+      <lb ed="#V" n="129"/>si primum acceptaret.
+    </p>
+            <p xml:id="FrMS88-f43178-d1e203">
+      ¶ Tertium dubium. si ille qui 
+      <lb ed="#V" n="130"/>administratindebite sacramentum. peccat mortaliter.
+    </p>
+            <p xml:id="FrMS88-f43178-d1e208">
+      ¶ 
+      Di<lb ed="#V" n="131" break="no"/>citur quod regula est generalis quod ministrans aliquod sacramentum 
+      so<lb ed="#V" n="132" break="no"/>lemniter sine contritione aliqua peccat mortaliter.
+    </p>
+            <p xml:id="FrMS88-f43178-d1e215">
+      ¶ Sed  
+      <!--380.xml-->
+      <pb ed="#V" n="189-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>uis potius peccat dans vel recipiens:
+    </p>
+            <p xml:id="FrMS88-f43178-d1e226">
+      ¶ Dicitur quod ille 
+      <lb ed="#V" n="2"/>quindigne recipit plus peccat: quia magis obiicit seipsum 
+      <lb ed="#V" n="3"/>spiritui scto a quo reciperet gratiam de virtute sacramenti. qua tamen 
+      <lb ed="#V" n="4"/>minister non reciperet.
+    </p>
+            <p xml:id="FrMS88-f43178-d1e236">
+      ¶ Sed hic est dubium: applicans 
+      sa<lb ed="#V" n="5" break="no"/>cramentum rebus inaiatis numquid est censendus 
+      he<lb ed="#V" n="6" break="no"/>reticus: sicut sortilegi qui baptizant imagines cereas. 
+      <lb ed="#V" n="7"/>aut corpus christi ponunt in ore bufonis: et inde faciunt ma 
+      <lb ed="#V" n="8"/>leficia.
+    </p>
+            <p xml:id="FrMS88-f43178-d1e247">
+      ¶ hic distinguo. quia aut credunt quod habeant sacramenta 
+      <lb ed="#V" n="9"/>efficaciam ad talem effectum. Aut hoc non credunt sed 
+      fa<lb ed="#V" n="10" break="no"/>ciunt in contemptum dei et irreuerentiam sacramenti. vt per hoc 
+      <lb ed="#V" n="11"/>sit peractum Dyabolus operatur ista maleficia. Si 
+      pri<lb ed="#V" n="12" break="no"/>mo modo. tunc est censendus hereticus: quia habet solum 
+      <lb ed="#V" n="13"/>errorem intellectus.
+    </p>
+            <p xml:id="FrMS88-f43178-d1e260">
+      ¶ Si 2o modo tunc est vdolatra: et non 
+      <lb ed="#V" n="14"/>habet errorem in intellectu. quia hoc non credit. sed 
+      ha<lb ed="#V" n="15" break="no"/>bet peruersitatem in voluntate.
+    </p>
+            <p xml:id="FrMS88-f43178-d1e267">
+      ¶ Unde Augustinus 
+      <lb ed="#V" n="16"/>super illud deutro nomii. 5. dicit quod ydolatria est vicium 
+      <lb ed="#V" n="17"/>quod exhibet demonii cultum deo debitum. sed sacramentia 
+      pre<lb ed="#V" n="18" break="no"/>cise sunt ad cultum dei. Ideo talis verissime est vdolatra: quia 
+      <lb ed="#V" n="19"/>actus dei: et ad cultum eius ordinatos deputat dyabolo.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

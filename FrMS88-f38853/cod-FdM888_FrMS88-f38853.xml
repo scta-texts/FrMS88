@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="183-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f38853"><!-- l3d37-40q7 -->
+            <head xml:id="FrMS88-f38853-Hd1e108">Quaestio 7</head>
+            <p xml:id="FrMS88-f38853-d1e111">
+      Questio. vii 
+      <lb ed="#V" n="112"/>SEptimo quero. Utrum circa 
+      vir<lb ed="#V" n="113" break="no"/>tutes morales: maius 
+      pec<lb ed="#V" n="114" break="no"/>catum sit superabundantia in virtute 
+      quan<lb ed="#V" n="115" break="no"/>u defectus.
+    </p>
+            <p xml:id="FrMS88-f38853-d1e122">
+               <lb ed="#V" n="116"/>hic premittendum est quod sicut sunt 
+      qua<lb ed="#V" n="117" break="no"/>tuor virtutes 
+      ca<lb ed="#V" n="118" break="no"/>diales vel praeciie quarum tres sunt morales scilicet fortitudo: iusti 
+      <lb ed="#V" n="119"/>tia: temperantia: et vna intellectualis scilicet prudentia: ita 
+      sun<lb ed="#V" n="120" break="no"/>quatuor genera virtutum: quia quedam sunt virtutes quae dant 
+      <lb ed="#V" n="121"/>appetitui ad intendendum actum circa suum obiectum: 
+      <lb ed="#V" n="122"/>quia minus pronus est appetitus ad ferendum in ipsum: 
+      <lb ed="#V" n="123"/>vt fortitudo: que est circa arduum: quia circa terrorem 
+      <lb ed="#V" n="124"/>mortis.
+    </p>
+            <p xml:id="FrMS88-f38853-d1e144">
+      ¶ Quedam autem dantur ad actum remit 
+      <lb ed="#V" n="125"/>tendum: quia appetitus nimis pronus est ad 
+      mergen<lb ed="#V" n="126" break="no"/>dum se in obiectum: vt temperantia: que est circa 
+      ta<lb ed="#V" n="127" break="no"/>ctus et motus brutales.
+    </p>
+            <p xml:id="FrMS88-f38853-d1e153">
+      ¶ Item quedam sunt virtutes 
+      <lb ed="#V" n="128"/>que dantur ad vtrunque scilicet ad actum intendendum et 
+      re<lb ed="#V" n="129" break="no"/>mittendum vt iustitia distributiua: que diuiditur in 
+      pu<lb ed="#V" n="130" break="no"/>nitiuam. et remuneratiuam. homines enim proni suntad resistendum 
+      <lb ed="#V" n="131"/>et per consequens nimis rigidi ad penitendum: 
+      iccir<lb ed="#V" n="132" break="no"/>co indigent habitu remittente actum puniendi.
+    </p>
+            <p xml:id="FrMS88-f38853-d1e167">
+      ¶ Item 
+      <!--369.xml-->
+      <pb ed="#V" n="183-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>homines sunt proni ad cupiditatem rerum temporalium et ad 
+      dili<lb ed="#V" n="2" break="no"/>gendum sua et per consequens ad remunerandum citra condignum: 
+      <lb ed="#V" n="3"/>ccirco indiget habitu actum remunerandi intendente: vnde 
+      <lb ed="#V" n="4"/>iustitia distributiua vere vtrique deseruit.
+    </p>
+            <p xml:id="FrMS88-f38853-d1e185">
+      ¶ Quedam 
+      <lb ed="#V" n="5"/>vero virtutes sunt quae dantur non ad actum intendendum nec 
+      remis<lb ed="#V" n="6" break="no"/>tendum: sed ad actum dirigendum: vt prudentia quae est recta ratio 
+      <lb ed="#V" n="7"/>agibilium et regulat actus aliarum virtutum.
+    </p>
+            <p xml:id="FrMS88-f38853-d1e194">
+      ¶ Dicendum 
+      igiu<lb ed="#V" n="8" break="no"/>quod quando virtus datur ad actum intendendum. defectus in tali virtute 
+      <lb ed="#V" n="9"/>deior est quam superabundantia: vnde timidus magis est vitupe 
+      <lb ed="#V" n="10"/>randus quam audax. Quando autem virtus datur ad actum 
+      remittendi<lb ed="#V" n="11" break="no"/>superabundantia in virtute peior est defectu: vnde magis est 
+      <lb ed="#V" n="12"/>vituparabilis intpratus quam insensibilis. Quando autem datur ad 
+      <lb ed="#V" n="13"/>vtrumque simul peior est qui secundum aliam et aliam comparationem 
+      ma<lb ed="#V" n="14" break="no"/>gis a medio recedit: vnde magis vituparabilis est 
+      vindica<lb ed="#V" n="15" break="no"/>tiuus quam misericors.
+    </p>
+            <p xml:id="FrMS88-f38853-d1e214">
+      ¶ Item magis deficiens in remune 
+      <lb ed="#V" n="16"/>rando quam superabundans.
+    </p>
+            <p xml:id="FrMS88-f38853-d1e219">
+      ¶ Sed contra. praedicta per ordinem. 
+      Pri<lb ed="#V" n="17" break="no"/>mo quia virtus amicitie: habet superabundantiam et defectum: qui 
+      <lb ed="#V" n="18"/>dam enim sunt philotimi id est nimis amatiui. Alii sunt ni 
+      <lb ed="#V" n="19"/>minis agrestes: sed amicitia datur ad actum intendendum: et tamen 
+      <lb ed="#V" n="20"/>magis vituprabilis est qui nimis abundat in amicitia: quia 
+      <lb ed="#V" n="21"/>nimis est diligens creaturam: secundum enim Aug. tunc 
+      fruimu<lb ed="#V" n="22" break="no"/>vtendis.
+    </p>
+            <p xml:id="FrMS88-f38853-d1e235">
+      ¶ Item 2o. quia magnanimitas datur ad actum inten 
+      <lb ed="#V" n="23"/>dendum: et tamen superabundans est vituparabilis: quia est superbus. 
+      </p>
+            <p xml:id="FrMS88-f38853-d1e241">
+               <lb ed="#V" n="24"/>¶ Item 3o. quia liberalitas datur ad actum intendendum: et tamen 
+      su<lb ed="#V" n="25" break="no"/>perabundans peior est: quia prodigus qui omnia sine ratione ex 
+      <lb ed="#V" n="26"/>pendit: quam qui deficit in expendendo.
+    </p>
+            <p xml:id="FrMS88-f38853-d1e250">
+      ¶ Ite 4o. quia 
+      eutrape<lb ed="#V" n="27" break="no"/>lia virtus est bene conuiuendi et conuersandi cum hominibus: et 
+      da<lb ed="#V" n="28" break="no"/>tur ad actum intendendum: et tamen peior est irrisor quo superabun 
+      <lb ed="#V" n="29"/>dat: quam solitarius qua deficit et numquam ridet.
+    </p>
+            <p xml:id="FrMS88-f38853-d1e259">
+      ¶ Ad primum dicendum 
+      <lb ed="#V" n="30"/>quod frui vtendis excedit limites virtutis moralis: nec est v 
+      <lb ed="#V" n="31"/>cium pure morale: sed est oppositum charitatis deficiens 
+      <lb ed="#V" n="32"/>po in amicitia: ceteris paribus: peior est quam superabundans 
+      <lb ed="#V" n="33"/>in genere moris.
+    </p>
+            <p xml:id="FrMS88-f38853-d1e270">
+      ¶ Ad 2m dicendum quod magnanimitas datur ad 
+      <lb ed="#V" n="34"/>actum remittendum: quia magis proni sunt homines ad 
+      ap<lb ed="#V" n="35" break="no"/>petendum honorem quam ad fugiendum.
+    </p>
+            <p xml:id="FrMS88-f38853-d1e277">
+      ¶ Ad 3m dicendum quod 
+      ali<lb ed="#V" n="36" break="no"/>quid aliquando dicitur magis malum: quod tamen magis laudabile est: 
+      <lb ed="#V" n="37"/>sicut esse audacem est magis laudabile quam esse timidum quod 
+      ma<lb ed="#V" n="38" break="no"/>gis recedit a virtute sic prodigalitas: licet sit magis malum: 
+      <lb ed="#V" n="39"/>et rei temporalis magis damnum: tamen minus est 
+      vituperabi<lb ed="#V" n="40" break="no"/>lis quam auaritia.
+    </p>
+            <p xml:id="FrMS88-f38853-d1e290">
+      ¶ Ad 4m dicendum. quod eutrapelia datur ad 
+      <lb ed="#V" n="41"/>actum remittendum: et ideo peior est irrisor.
+    </p>
+            <p xml:id="FrMS88-f38853-d1e296">
+      ¶ Sed hic 
+      <lb ed="#V" n="42"/>occurrit dubium: si virtus que datur vni homini ad actum 
+      <lb ed="#V" n="43"/>intendendum: detur alteri ad remittendum: vtputa libera 
+      <lb ed="#V" n="44"/>litas: quia quidam homines de natura sua et complexione naturali sunt 
+      <lb ed="#V" n="45"/>ita liberales quod nullum actum illiberalitatis facem possunt 
+      <lb ed="#V" n="46"/>Alii econtra ita prodigi quod vix possunt medium libera 
+      <lb ed="#V" n="47"/>litatis tenere: sic etiam est in aliis virtutibus: quidam enim sunt 
+      <lb ed="#V" n="48"/>naturaliter timidi: alii autem audaces.
+    </p>
+            <p xml:id="FrMS88-f38853-d1e314">
+      ¶ Ex hoc sic arguit 
+      <lb ed="#V" n="49"/>impossibile est quod forma eiusdem rationis inclinet ad oppo 
+      <lb ed="#V" n="50"/>sitos terminos vel etiam diuersos. Sed actus 
+      inten<lb ed="#V" n="51" break="no"/>sus et actus remissus sunt termini diuersi. Igitur idem 
+      <lb ed="#V" n="52"/>habitus virtutis ad istos inclinare non potia: sed sic oportet 
+      ha<lb ed="#V" n="53" break="no"/>bitum foritudinins in vno homine differre ab 
+      habitu<lb ed="#V" n="54" break="no"/>alterius: quod est inconueniens: quia non essent vniuoce 
+      vir<lb ed="#V" n="55" break="no"/>tuosi.
+    </p>
+            <p xml:id="FrMS88-f38853-d1e332">
+      ¶ Dicendum quod sicut intellectus circa idem obiectum 
+      <lb ed="#V" n="56"/>continet actum negandi et affirmandi in propositione: 
+      <lb ed="#V" n="57"/>sic habitus duos actus continet virtualiter scilicet intensum circa 
+      <lb ed="#V" n="58"/>vnum et remissum circa aliud secundum diuersas hominum 
+      con<lb ed="#V" n="59" break="no"/>plexiones: nec oportet ponere alium et alium habitum virtu 
+      <lb ed="#V" n="60"/>tis: quia actus non est totaliter nec principaliter ab habitu: sed 
+      <lb ed="#V" n="61"/>ab obiecto et potentia: sed idem obiectum et eadem potentia remanet igitur 
+      <lb ed="#V" n="62"/>non potest actus per habitum specie variari. Vel dicendum: et puto me 
+      <lb ed="#V" n="63"/>ius quod sufficit ad propositum quod habitus virtutis vel ipse 
+      <lb ed="#V" n="64"/>viriutes dantur per se ad medium attingendum per 
+      <lb ed="#V" n="65"/>actum: ex consequenti autem et per accidens ad actum intendendum vel 
+      <lb ed="#V" n="66"/>remittenus secundum quod appetitus hominum differunter se habent cir 
+      <!--369.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>ca obiecta virtutum: vnde habitu virtutis per se respicit actum 
+      <lb ed="#V" n="68"/>attingendi medium: per accidens vero respicit illius actus 
+      <lb ed="#V" n="69"/>intensionem vel remissionem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

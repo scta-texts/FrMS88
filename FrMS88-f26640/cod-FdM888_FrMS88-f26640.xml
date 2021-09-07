@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f26640"><!-- l3d1q6 -->
+            <head xml:id="FrMS88-f26640-Hd1e108">Quaestio 6</head>
+            <p xml:id="FrMS88-f26640-d1e111">
+      Questio. vi. 
+      <lb ed="#V" n="16"/>SExto quero Utrum incarnatio sit 
+      <lb ed="#V" n="17"/>dissolubilis per naturam 
+      <lb ed="#V" n="18"/>quod non: quia apostolus dicit quod hoc sacramentum ma 
+      <lb ed="#V" n="19"/>gnum est in christo.
+    </p>
+            <p xml:id="FrMS88-f26640-d1e122">
+      ¶ Sed hoc non esset si 
+      pos<lb ed="#V" n="20" break="no"/>set dissolui.
+    </p>
+            <p xml:id="FrMS88-f26640-d1e127">
+      ¶ Contra. quia in praes dicitur: deus vt 
+      <lb ed="#V" n="21"/>idme dereliquisti in finem etc. Et christus hoc dixit in cruce. 
+      <lb ed="#V" n="22"/>hic premittiti. quod quatuor sunt genera 
+      crea<lb ed="#V" n="23" break="no"/>iturarum: sunt enim quaedam 
+      cre<lb ed="#V" n="24" break="no"/>ature: quarum creatio etiam conseruatio est supernaturalis: et nullo 
+      <lb ed="#V" n="25"/>modo naturalis sicut angelus a deo creatur et a deo conseruaturmo 
+      <lb ed="#V" n="26"/>quia non ab aliqua alia causa.
+    </p>
+            <p xml:id="FrMS88-f26640-d1e143">
+      ¶ Item sunt quaedam creaturarum: 
+      <lb ed="#V" n="27"/>quorum creatio est supenaturalis: licet conseruatio sit naturalis: vt gratia 
+      <lb ed="#V" n="28"/>naturaliter conseruatur in anima: sed supernaturaliter creatur a deo. 
+      </p>
+            <p xml:id="FrMS88-f26640-d1e151">
+               <lb ed="#V" n="29"/>¶ Item quaedam sunt: quarum conseruatio solum est 
+      supernan<lb ed="#V" n="30" break="no"/>lis: sed creatio non: sicut accidentia separata in sacramento que 
+      <lb ed="#V" n="31"/>supenaturaliter a deo conseruantur.
+    </p>
+            <p xml:id="FrMS88-f26640-d1e160">
+      ¶ Item quarto sunt quedam 
+      <lb ed="#V" n="32"/>creature: quarum nec creatio: nec conseruatio sunt supenaturalem: 
+      <lb ed="#V" n="33"/>sed vtraque naturalis tantum: sicut accidentia naturaliter in subiecto. Nunc 
+      <lb ed="#V" n="34"/>autem ita est quod incarnationis creatio et conseruatio non est 
+      <lb ed="#V" n="35"/>primo modo vt angeli: quia ab eadem causa creantur et conseruan 
+      <lb ed="#V" n="36"/>tur. Nec tertio modo: quia non est accidens separatum. 
+      <lb ed="#V" n="37"/>Nec quarto modo: quia ipsa aliquo modo creatur a deo 
+      <lb ed="#V" n="38"/>vt dictum est supra. Est igitur secundo modo. quia eius 
+      crea<lb ed="#V" n="39" break="no"/>tio est supernaturalis: sed naturaliter conseruatur manente suo 
+      <lb ed="#V" n="40"/>fundamento et termino vt gratia manente anima.
+    </p>
+            <p xml:id="FrMS88-f26640-d1e182">
+      ¶ Ex 
+      <lb ed="#V" n="41"/>hoc sic arguitur. quandocumque aliqua forma naturaliter conset 
+      <lb ed="#V" n="42"/>uatur corrupto subiecto illa forma est naturaliter dissolubi 
+      <lb ed="#V" n="43"/>lis. Sed incarnatio naturaliter conseruatur. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f26640-d1e191">
+      ¶ Sed notandum 
+      <lb ed="#V" n="44"/>quod destructio accidentis potest esse quatuor modis scilicet vel ex 
+      <lb ed="#V" n="45"/>parte efficientis: vt corrumpitur lumen radii si non luceat 
+      <lb ed="#V" n="46"/>sol: vel ex parte subiecti: vt corrumpitur lumen si non sit 
+      <lb ed="#V" n="47"/>diaphanum. vel contrarii sicut corruptio caliditatis per 
+      fri<lb ed="#V" n="48" break="no"/>giditatem: vel ex parte sui: sicut trmptus et motus 
+      corrum<lb ed="#V" n="49" break="no"/>puntur ex propria natura: quia sunt successiua. sed corruptio in 
+      <lb ed="#V" n="50"/>carnationis non partinet ad primum modum: quia proprietas est 
+      <lb ed="#V" n="51"/>eius efficiens. Nec tertio modo. quia non habet contrarium. Nec 
+      quar<lb ed="#V" n="52" break="no"/>to modo ex parte sui: quia est accidens permanens: sed prouenit 
+      <lb ed="#V" n="53"/>secundo modo ex parte subiecti vel fundamenti scilicet humanitatis  
+      </p>
+            <p xml:id="FrMS88-f26640-d1e215">
+               <lb ed="#V" n="54"/>¶ Sed contra. quia eius creatio videtur supernaturalior quam 
+      crea<lb ed="#V" n="55" break="no"/>tio angeli. igitur et eius conseruatio per consequens. igitur.
+    </p>
+            <p xml:id="FrMS88-f26640-d1e222">
+      ¶ Dicendum 
+      <lb ed="#V" n="56"/>quod assumptum non est verum: quia ad creationem angeli nihil 
+      <lb ed="#V" n="57"/>concurrit cum deo: sed ad incarnationem concurrit 
+      funda<lb ed="#V" n="58" break="no"/>mentum.
+    </p>
+            <p xml:id="FrMS88-f26640-d1e232">
+      ¶ Item secundo. quia secundum hoc sensitiua bruti 
+      conser<lb ed="#V" n="59" break="no"/>uabitur sicut et gratia: et econuerso: quia creatio subiecti est 
+      natura<lb ed="#V" n="60" break="no"/>lis: iccirco sic conseruabitur gratia in anima: sicut sensitiua 
+      <lb ed="#V" n="61"/>in bruto. Dico quod hoc non est inconueniens.
+    </p>
+            <p xml:id="FrMS88-f26640-d1e241">
+      ¶ Sed tunc 
+      <lb ed="#V" n="62"/>dubium est vnde habet anima rationalis quod sit magis 
+      immorta<lb ed="#V" n="63" break="no"/>is quam sensitiua: quia videtur quod sicut anima et angelus supernaliter 
+      <lb ed="#V" n="64"/>creantur. ita et supernaturaliter conseruantur. Dico quod 
+      consua<lb ed="#V" n="65" break="no"/>tio anime et angeli dicitur naturalis pro tanto: quia ad hoc quod perpetuo 
+      <lb ed="#V" n="66"/>pseruentur in esse non indiget nisi influentia vniversali diuina: sed per 
+      <!--339.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>talem influentiam solum non posset sensitiua bruti consuari: eo 
+      <lb ed="#V" n="68"/>quod ipsa in esse dependet a corpore: vt a causa materiali: qua 
+      defi<lb ed="#V" n="69" break="no"/>ciente necessario sensitiua habet deficere: nisi deus ad sui 
+      conser<lb ed="#V" n="70" break="no"/>uationem specialiter influeret: corpus autem quod ex contrariis est 
+      <lb ed="#V" n="71"/>compositum: necessario est corruptibile.
+    </p>
+            <p xml:id="FrMS88-f26640-d1e269">
+      ¶ Unde circa praedicta 
+      <lb ed="#V" n="72"/>notandum est. quod in incarnatione est quedam vnio quae 
+      dissolu<lb ed="#V" n="73" break="no"/>bilis est solum per diuinam potentiam. non autem per 
+      crea<lb ed="#V" n="74" break="no"/>turam: sicut vnio verbi ad animam rationalem.
+    </p>
+            <p xml:id="FrMS88-f26640-d1e278">
+      ¶ Alia est quae 
+      <lb ed="#V" n="75"/>dissolubilis est per naturam. non tamen fuit dissoluta: sicut vnio 
+      <lb ed="#V" n="76"/>ad carnem si caro fuisset corrupta.
+    </p>
+            <p xml:id="FrMS88-f26640-d1e285">
+      ¶ Alia est quae de facto 
+      <lb ed="#V" n="77"/>fuit dissoluta sicut vnio ad humanitatem vel ad tertiam 
+      <lb ed="#V" n="78"/>entitatem.
+    </p>
+            <p xml:id="FrMS88-f26640-d1e292">
+      ¶ Alia vnio fuit dissoluta etiam extrenis 
+      rema<lb ed="#V" n="79" break="no"/>nentibus: quia multa christus perdidit dum viuebat de his quae ad verita 
+      <lb ed="#V" n="80"/>tem humane nature partinebant per consumptionem 
+      humi<lb ed="#V" n="81" break="no"/>di radicalis: vt de humoribus sanguine ex alimento: 
+      re<lb ed="#V" n="82" break="no"/>manebant tamen extrema totaliter: licet non partialiter. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

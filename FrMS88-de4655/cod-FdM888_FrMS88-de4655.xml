@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-de4655"><!-- l1prolq13 -->
+            <head xml:id="FrMS88-de4655-Hd1e108">Quaestio 13</head>
+            <p xml:id="FrMS88-de4655-d1e111">
+      Quaestio. xiii. 
+      <lb ed="#V" n="22"/>Utrum sit aliqua ratio transcendens
+      <lb ed="#V" n="23" break="no"/>communior ente 
+      <lb ed="#V" n="24"/>istam quaestionem duo sunt que faciun 
+      <lb ed="#V" n="25"/>Circa difficultatem. primum est 
+      distribu<lb ed="#V" n="26" break="no"/>Omne enim quod distribuiter pro aliquibus est communius 
+      <lb ed="#V" n="27"/>eis: sed hoc quod dico positiuum: distribuitur pro ente et pro aliis 
+      <lb ed="#V" n="28"/>ab ente scilicet pro veritate et bonitate. Dicimus enim quod omne 
+      positi<lb ed="#V" n="29" break="no"/>uum distribuitur pro ente: et pro aliis ab ente praedictis. ergo etc. 
+      <lb ed="#V" n="30"/>Secundum faciens difficultatem est numeratio. Omnia enim illa 
+      <lb ed="#V" n="31"/>quae numerantur in aliquo termino: oportet quod terminus ille communis 
+      <lb ed="#V" n="32"/>sit eis: sed nos numeramus rationem boni et veri et 
+      en<lb ed="#V" n="33" break="no"/>tis. dicendo quod tres sunt rationes. ergo etc. Pono igitur 4or conclusiones 
+      </p>
+            <p xml:id="FrMS88-de4655-d1e140">
+               <lb ed="#V" n="34"/>¶ prima est. quod licet nulla ratio intentionis prime sit communior ente 
+      <lb ed="#V" n="35"/>tamen ratio aliqua secunde intentionis est communior ente 
+      <lb ed="#V" n="36"/>hoc probo. Accipio enim perfectionem simpliciter et diffinitionem 
+      <lb ed="#V" n="37"/>eius. Et tunc arguo sic. Ille conceptus vel illa ratio est communior 
+      <lb ed="#V" n="38"/>ente et veritate quo dicitur de ente et veritate secundum idem nomen et 
+      eandem<lb ed="#V" n="39" break="no"/>diffinitionem: sed perfectio simpliciter est huiusmodi. ergo etc. Quodlibet enim illo 
+      <lb ed="#V" n="40"/>in quolibet est melius ipsum: quam non ipsum. Ista est diffinito perfectio 
+      <lb ed="#V" n="41"/>nis simpliciter qua conuenit enti et veritati. Simimiliter nomen conclusio es. 
+      <lb ed="#V" n="42"/>quia ens est perfectio simus. similiter et veritas. 2o probo idem sic. quacumque 
+      <lb ed="#V" n="43"/>distinguuntur formaliter: quod libet illorum habet rationem formalem: 
+      <lb ed="#V" n="44"/>sed entitas et veritas sunt huiusmodi. ergo ratio formalis dicitur de eis. Item 
+      <lb ed="#V" n="45"/>3a quod dicitur de duobus secundum eandem rationem formalem. est communius 
+      quali<lb ed="#V" n="46" break="no"/>bet illorum: sed vniversale dicitur de ente et veritate secundum eandem rationem 
+      for<lb ed="#V" n="47" break="no"/>malem. ergo et similiter 2a intene. Et sic de multis aliis.
+    </p>
+            <p xml:id="FrMS88-de4655-d1e173">
+      ¶ 2a conclusio quod in 
+      <lb ed="#V" n="48"/>respectibus transcendentibus aliquid est communius ente: quia quaecumque 
+      <lb ed="#V" n="49"/>sunt distincta. distinctio est eis communis: et communior quolibet illorum. Que. 
+      <lb ed="#V" n="50"/>cumque etiam sunt ordinata: ordinatio est eis communis et communior quolibet 
+      <lb ed="#V" n="51"/>illorum. homo sunt ista. ens est verum et bonum. Omnia enim ista sun 
+      <lb ed="#V" n="52"/>ordinata. ergo etc.
+    </p>
+            <p xml:id="FrMS88-de4655-d1e186">
+      ¶ 3a conclusio est. quod in aptitudinibus est aliquid communis 
+      <lb ed="#V" n="53"/>ente. Nam quod dicitur de ente. et de aliis ab ente est conus 
+      en<lb ed="#V" n="54" break="no"/>te. homo sunt aptitudines scilicet intelligibilitas. volibilitas 
+      </p>
+            <p xml:id="FrMS88-de4655-d1e194">
+               <lb ed="#V" n="55"/>¶ 4a conclusio est. quod in priuatiuis est aliquid communius ente. Nam 
+      <lb ed="#V" n="56"/>illa priuatio est comunior ente que dicitur de ente: et de aliis ab 
+      <lb ed="#V" n="57"/>ente: sed nin solum ens: sed et a4a ab estiae scilicet passiones quod licet istorum est 
+      <lb ed="#V" n="58"/>vnum. veritas enim est vna. bonitas est vna. et sic de aliis. ergo etc 
+      <lb ed="#V" n="59"/>ista arguitur 4r. Primo sic. Omnis ratio commnior est 
+      </p>
+            <p xml:id="FrMS88-de4655-d1e207">
+               <lb ed="#V" n="60"/>¶ ontra prior: sed secunde intentiones non sunt priores 
+      <lb ed="#V" n="61"/>ente. ergo etc.
+    </p>
+            <p xml:id="FrMS88-de4655-d1e214">
+      ¶ 2o sic. Omne diuisum per aliqua est communius 
+      quali<lb ed="#V" n="62" break="no"/>bet illorum: sed ens diuiditur per absolutum et respectiuum est 
+      <lb ed="#V" n="63"/>nec absolutum nec respectiuum. cuiusmodi sunt distinctiuo 
+      <lb ed="#V" n="64"/>et ordo. nullum illorum erit communius ente.
+    </p>
+            <p xml:id="FrMS88-de4655-d1e223">
+      ¶ 3o sic. nulla 
+      pas<lb ed="#V" n="65" break="no"/>sio adequata suo subiecto excedit eum. Uerum et bonum 
+      <lb ed="#V" n="66"/>sunt passiones adequate entis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-de4655-d1e230">
+      ¶ 4o sic. quando aliquid 
+      <!--18.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>praescindit ab aliqui vel distinguitur formaliter ab eo. illud est vnum 
+      <lb ed="#V" n="68"/>vt sic praescindit: sed bonitas praescindit et distinguitur formaliter 
+      <lb ed="#V" n="69"/>ab ente. ergo vt sic. vna est: sed vnitas dicitur de ente. igitur propria 
+      <lb ed="#V" n="70"/>passio communior est ente.
+    </p>
+            <p xml:id="FrMS88-de4655-d1e246">
+      ¶ Ad primum illorum dico. quod in communioribus 
+      <lb ed="#V" n="71"/>quiditatiuis verum est quod ipsa sunt priora: sed in aliis talibus non 
+      <lb ed="#V" n="72"/>immo simpliciter communiora sunt posteriora: sicut apparet 
+      manife<lb ed="#V" n="73" break="no"/>iste: quia genus quod est 2a intentio est communius quam animal: non tamen est priue¬ 
+      </p>
+            <p xml:id="FrMS88-de4655-d1e256">
+               <lb ed="#V" n="74"/>¶ Ad 2m dico. quod animal non diuiditur per ratioabilitatem: sed per 
+      re<lb ed="#V" n="75" break="no"/>nale. Non sic autem animalitas diuiditur. Ita dicitur in proposito. qui 
+      <lb ed="#V" n="76"/>ens in sua communitate acceptum. denominatiue accipitur. et 
+      diui<lb ed="#V" n="77" break="no"/>ditur in absolutum et respectiuum. Sicut animal in ratioale et in irratio 
+      <lb ed="#V" n="78"/>nale. Entitas autem vel ratio formalis entis praecisa est magis 
+      <lb ed="#V" n="79"/>artata. et non sic diuiditur: sicut nec animalitas. Ad aliud de 
+      <lb ed="#V" n="80"/>aptitudinibus et vnitate dico. quod iste non sunt passiones 
+      enti<lb ed="#V" n="81" break="no"/>adequate. vel etiaitatis sub sua praecisione accepte: sed enti simpliciter 
+      <lb ed="#V" n="82"/>accepti.
+    </p>
+            <p xml:id="FrMS88-de4655-d1e278">
+      ¶ Sed hoc est vnum dubium: quomodo ens secundum totam suam lati 
+      <lb ed="#V" n="83"/>tudinem accipiatur. Aut enim accipitur pro ratione entis praecisa. Et 
+      <lb ed="#V" n="84"/>hoc non. quia non est concretum vt sic. nec de omnibus dicitur: vt sic: sed 
+      <lb ed="#V" n="85"/>sub ratione precisa. Aut accipitur pro substratis. Et hoc non. 
+      <lb ed="#V" n="86"/>quia illa non habent vnitatem sicut diuinitas et humanitas quae 
+      <lb ed="#V" n="87"/>non habent vnitatem: alicuius rationis: vt ab eis 
+      presci<lb ed="#V" n="88" break="no"/>dit ratio entis. On ergo dicere quod accipiatur pro aggregato. Sed 
+      <lb ed="#V" n="89"/>hoc non valet: quia nunquam talis aggregati pars predicatur in 
+      <lb ed="#V" n="90"/>quid de toto. Et sic ens non diceretur in quid de illis aggre 
+      <lb ed="#V" n="91"/>gatis.
+    </p>
+            <p xml:id="FrMS88-de4655-d1e300">
+      ¶ Ad istud respondeo et dico. quod ens supponit 
+      <lb ed="#V" n="92"/>pro substratis. non sic intelligendo. quod ratio entis non 
+      intelli<lb ed="#V" n="93" break="no"/>gatur cum ratione illa vt prima. In ordine enim ad rationem entita 
+      <lb ed="#V" n="94"/>tis ens praedicatur: sicut albu supponit pro substratis in 
+      or<lb ed="#V" n="95" break="no"/>dine tamen ad albedinem.
+    </p>
+            <p xml:id="FrMS88-de4655-d1e311">
+      ¶ Sed hic est vnum dubium: quia in 
+      <lb ed="#V" n="96"/>essentialiter ordinatis vbicunque inuenitur posterius et prius 
+      <lb ed="#V" n="97"/>Exitum. vbicumque inuenitur album quod est posterius. inuenitur 
+      a<lb ed="#V" n="98" break="no"/>bedo que est prior: sed ratio entis est prior ente. ergo vbi 
+      inueni<lb ed="#V" n="99" break="no"/>tur ens inuenitur ratio entitatis. Praeterea effectus formalis non videndu 
+      <lb ed="#V" n="100"/>esse maioris latitudinis quam sit forma: sed ens est effcus 
+      <lb ed="#V" n="101"/>formalis entitatis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-de4655-d1e327">
+      ¶ Item vbicumque inuenitur ens. 
+      <lb ed="#V" n="102"/>inuenitur entitas.
+    </p>
+            <p xml:id="FrMS88-de4655-d1e332">
+      ¶ Dico ad istud. quod licet in essentialiter 
+      <lb ed="#V" n="103"/>ordinatis. ibi inuenitur prius. vbi inuenitur posterius. non 
+      <lb ed="#V" n="104"/>tamen de omnibus praeditur prius: de quibus praeditur posterius. Exitum vbi est 
+      aliu<lb ed="#V" n="105" break="no"/>ibi est albedo: et tamen de ligno dicitur album et non dicitur albedo. 
+      <lb ed="#V" n="106"/>Eodem modo in proposito. quod vbi est ens ibi est entitas. Sed 
+      <lb ed="#V" n="107"/>ens de aliquibus praedicatur de quibus non praedicatur entitas. Eodem 
+      <lb ed="#V" n="108"/>modo dicendum est de formali effectu. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

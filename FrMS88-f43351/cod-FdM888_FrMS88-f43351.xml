@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f43351"><!-- l4d4-5q4 -->
+            <head xml:id="FrMS88-f43351-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f43351-d1e111">
+               <lb ed="#V" n="20"/>QUarto queritur vtrum sacramentum 
+      ba<lb ed="#V" n="21" break="no"/>ptismi sit interabile. Et vide 
+      <lb ed="#V" n="22"/>tur quod sic: quia eius causa est interabilis. scilicet 
+      <lb ed="#V" n="23"/>peccata delenda.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e122">
+      ¶ Contra. peccatum 
+      <lb ed="#V" n="24"/>iui originale non potest nisi semel contrahi. 
+      <lb ed="#V" n="25"/>ergo non nisi semel deleri. sed baptismus est principaliter 
+      <lb ed="#V" n="26"/>ad deletionem institutus: ergo etc. 
+      <lb ed="#V" n="27"/>veritas determinata. sed vario modo 
+      red<lb ed="#V" n="28" break="no"/>hic est ditur causa huius. Aliqui dicunt quod propter 
+      <lb ed="#V" n="29"/>impressionem caracteris qui numquam deletur. Aliqui propter 
+      <lb ed="#V" n="30"/>rationem superius factam in oppositum. Alii dicunt quod 
+      <lb ed="#V" n="31"/>daretur occasio peccandi. Aliipropter dignitatem sacramenti. quia 
+      <lb ed="#V" n="32"/>irreuerentia fieret sibi.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e144">
+      ¶ Sed prima ratio non valet. quia 
+      ca<lb ed="#V" n="33" break="no"/>racter ponitur quaedam qualitas. nec videtur 
+      inconueniens<lb ed="#V" n="34" break="no"/>quod augeatur vel diminuatur sicut et gratia: et ita interabitur 
+      <lb ed="#V" n="35"/>propter intensionem caracteris sicut dictum fuit in primo de 
+      habitu<lb ed="#V" n="36" break="no"/>intellectuali qui non potest corrumpi. potest tamen intendi. 
+      </p>
+            <p xml:id="FrMS88-f43351-d1e155">
+               <lb ed="#V" n="37"/>¶ Ulterius rationabiliter potest dici quod interatio non imprimit 
+      <lb ed="#V" n="38"/>caracterem: sed gratiam solum.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e163">
+      ¶ Alia etiam ratio non valet. 
+      <lb ed="#V" n="39"/>quia multi fuerunt baptizati sine peccato originali vt 
+      pa<lb ed="#V" n="40" break="no"/>tuit supra.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e170">
+      ¶ Tertia ratio non valet. quia sic diceretur de 
+      pe<lb ed="#V" n="41" break="no"/>nitentia.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e175">
+      ¶ Nec 4a valet. quia sacramentum eucharistie longe 
+      di<lb ed="#V" n="42" break="no"/>gnius est quocumque alio.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e180">
+      ¶ Dicit igitur scotus quod sola 
+      <lb ed="#V" n="43"/>voluntas divina est causa: et rationsufficiens est cum 
+      conuenien<lb ed="#V" n="44" break="no"/>tia. quare non interatur. quia sicut scripti ad militiam non 
+      <lb ed="#V" n="45"/>interantur. ita in hoc sacramento.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e189">
+      ¶ Sed occurrunt dubia 4or. 
+      </p>
+            <p xml:id="FrMS88-f43351-d1e192">
+               <lb ed="#V" n="46"/>¶ Primum quid est pena interantium baptismum.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e198">
+      ¶ Di 
+      <lb ed="#V" n="47"/>citur quod tam recipiens quam conferens efficitur irregularis. 
+      </p>
+            <p xml:id="FrMS88-f43351-d1e203">
+               <lb ed="#V" n="48"/>¶ Sed quid si est ibi ignorantia:
+    </p>
+            <p xml:id="FrMS88-f43351-d1e208">
+      ¶ Dicitur quod ignoran 
+      <lb ed="#V" n="49"/>tia iuris non excusat. sed ignorantia facti vt si 
+      nesciat<lb ed="#V" n="50" break="no"/>baptizatum.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e215">
+      ¶ Sed quomodo debet fieri quando dubitatur vtrum 
+      <lb ed="#V" n="51"/>sit baptizatus:
+    </p>
+            <p xml:id="FrMS88-f43351-d1e220">
+      ¶ Dicitur quod cum conditione. vt si non est 
+      <lb ed="#V" n="52"/>baptizatus. ego te baptigo in nomine patris et filii et spirit 
+      <lb ed="#V" n="53"/>sancti.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e227">
+      ¶ Sed quid si aliquis creditur esse baptizatus: 
+      <lb ed="#V" n="54"/>et non est. vt faciunt quedam vetule que baptizant in 
+      no<lb ed="#V" n="55" break="no"/>mine alicuius sancti. sicut dicitur de quodam fratre: quod 
+      <lb ed="#V" n="56"/>vetula quaedam baptigauit eum in nomine scti andree.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e237">
+      ¶ Di 
+      <lb ed="#V" n="57"/>citur quod si talis fuisset mortuus non fuisset damnatus. quia 
+      <lb ed="#V" n="58"/>ignorantia innuincibilis fuit.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e244">
+      ¶ Sed de tali quid debuit 
+      <lb ed="#V" n="59"/>fieri: nunquid debuit interum baptizari:
+    </p>
+            <p xml:id="FrMS88-f43351-d1e249">
+      ¶ Dicitur quod sic. quia 
+      <lb ed="#V" n="60"/>baptismus est sacramentum et inanua quo omisso omnia sacramentia 
+      ni<lb ed="#V" n="61" break="no"/>hil valent. nec potest caracter imprimi aliorum.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e256">
+      ¶ Sed 
+      <lb ed="#V" n="62"/>hic occurrit dubium. si aliquis potest baptigzare se sicut 
+      di<lb ed="#V" n="63" break="no"/>citur de quodam iudeo qui non inueniens qui baptiza 
+      <lb ed="#V" n="64"/>ret eum ipse seipsum baptigauit.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e265">
+      ¶ Dicitur quod non 
+      po<lb ed="#V" n="65" break="no"/>test fieri. quia nullus potest se gignere vel regenerare. sed 
+      <lb ed="#V" n="66"/>paptismus est quaedam regenertio.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e272">
+      ¶ Sed quid nunquid suffi¬ 
+      <!--380.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>cit ibi solus vnus minister: vt idem sit loquens: et 
+      aquan<lb ed="#V" n="68" break="no"/>infundens:
+    </p>
+            <p xml:id="FrMS88-f43351-d1e284">
+      ¶ Dicitur quod sic. quia verba baptizantis referuntr 
+      <lb ed="#V" n="69"/>ad actum baptizantis. et ideo si mancus et mutus bapti 
+      <lb ed="#V" n="70"/>garent nihil facerent.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e291">
+      ¶ Sed nunquid requritur ibi 
+      simul<lb ed="#V" n="71" break="no"/>tas verborum cum ablutione. sed tamen indiuisibili: non 
+      indi<lb ed="#V" n="72" break="no"/>uisibili. Ita quod si in medio verborum incipiat abluere 
+      suffi<lb ed="#V" n="73" break="no"/>cit. sed si omnino post ablutionem inciperet verba: nihil facent. 
+      </p>
+            <p xml:id="FrMS88-f43351-d1e300">
+               <lb ed="#V" n="74"/>¶ Sed quid de quantitate aque:
+    </p>
+            <p xml:id="FrMS88-f43351-d1e305">
+      ¶ Dicitur quod in praemitiua eo 
+      <lb ed="#V" n="75"/>clesiam baptizabant cum yosoposito. sed hoc est pariculosum. 
+      <lb ed="#V" n="76"/>quia batismum non est aspersio sed ablutio.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e312">
+      ¶ Sed numquid 
+      <lb ed="#V" n="77"/>potest aliquins baptizare sine respondente:
+    </p>
+            <p xml:id="FrMS88-f43351-d1e317">
+      ¶ Dicitur quod sic 
+      <lb ed="#V" n="78"/>quia de essentia sacramenti non sunt nisi mtam et forma verborum 
+      cum<lb ed="#V" n="79" break="no"/>intentione debita prolata a baptizante: sed omnia ista possunt 
+      <lb ed="#V" n="80"/>fieri sine respondente. et ipsemet potest dicere amen.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e327">
+      ¶ Sed 
+      <lb ed="#V" n="81"/>quid de mostris: vnum fuit quod habuit duo capita. 4o 
+      <lb ed="#V" n="82"/>brachia et duos pedes et erant mulleres.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e334">
+      ¶ Certum enim 
+      <lb ed="#V" n="83"/>erat quod due anime erant ibi: quia vna erat casta. alia 
+      incon<lb ed="#V" n="84" break="no"/>tinens vna aliam per capillos trahebat. Certe tale modo 
+      <lb ed="#V" n="85"/>strum duplici baptismo diabet baptizari: vel debuerun 
+      <lb ed="#V" n="86"/>verba in plurali proferri: vt baptigo vos etc.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e345">
+      ¶ Aliud modo 
+      <lb ed="#V" n="87"/>strum fuit. qui erant duo homines et duos pedes et duo 
+      ca<lb ed="#V" n="88" break="no"/>dita habentes: et vnus fuit per annum ante mortuus.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e352">
+      ¶ Dicitur 
+      si<lb ed="#V" n="89" break="no"/>cut de primo. quod quilibet debuit baptizari per se: vel sub numero 
+      plu<lb ed="#V" n="90" break="no"/>rali.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e359">
+      ¶ Sed incidenter occurit dubium quomodo due anime possunt 
+      vni<lb ed="#V" n="91" break="no"/>corpus informare. Aliquo dicunt quod vna est in vno capus 
+      <lb ed="#V" n="92"/>te tantum: et alia in toto corpore. quia si in capite cum acu 
+      punga<lb ed="#V" n="93" break="no"/>tur vtrumque sentit.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e368">
+      ¶ Sed quomodo:
+    </p>
+            <p xml:id="FrMS88-f43351-d1e372">
+      ¶ hic sunt 4or difficilia 
+      </p>
+            <p xml:id="FrMS88-f43351-d1e375">
+               <lb ed="#V" n="94"/>¶ Primum est quod subiectum vnum habet priuationem forme eius 
+      <lb ed="#V" n="95"/>dem rationis cum ista quam habet sine amissione alterius. 
+      mo<lb ed="#V" n="96" break="no"/>do quandocumque sunt aliqua eiusdem rationis formalis. quod habet 
+      <lb ed="#V" n="97"/>impossibilitatem ad vnum et ad reliquum. sicut si albedo huic 
+      <lb ed="#V" n="98"/>nigredini est incompossibilis et cuilibet est incompossibilis: quia 
+      <lb ed="#V" n="99"/>omnes nigredines incompossibiles sunt sibi: quia sunt eiusdem ratio 
+      <lb ed="#V" n="100"/>nis formalis: sed hec anima et hec priuatio non sunt compossibiles 
+      <lb ed="#V" n="101"/>formaliter. immo incompossibiles. ergo et omni anime est 
+      incompos<lb ed="#V" n="102" break="no"/>sibilis.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e397">
+      ¶ hec ratio videtur sufficiens. quia due forme eiusdem 
+      <lb ed="#V" n="103"/>rationis non videntur esse in eodem subiecto nec sunt.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e402">
+      ¶ 
+      Se<lb ed="#V" n="104" break="no"/>cundum difficile est: quia anima vna poterit informare omnia 
+      <lb ed="#V" n="105"/>corpora. Probatio. Quandocumque aliquid est indeterminatum 
+      <lb ed="#V" n="106"/>ad vnum vnius rationis si possit in vno et in quotcumque. Si 
+      <lb ed="#V" n="107"/>autem due anime sint in vno corpore sequitur quod infinite et omnes 
+      si<lb ed="#V" n="108" break="no"/>mul.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e415">
+      ¶ Respondo patet ex dictis in per libro ibi ratio ista fuit declaria 
+      <lb ed="#V" n="109"/>ta quando querebatur vtrum possint esse plures filii in divinis. 
+      </p>
+            <p xml:id="FrMS88-f43351-d1e420">
+               <lb ed="#V" n="110"/>¶ Tertium quia ibidem dicitur quod ex infinitate diuine 
+      essen<lb ed="#V" n="111" break="no"/>tie ibi est quod eadem essentia numero est in tribus suppositis. 
+      <lb ed="#V" n="112"/>hic autem dicere possum similiter.
+    </p>
+            <p xml:id="FrMS88-f43351-d1e430">
+      ¶ Quartum. quia idem 
+      cor<lb ed="#V" n="113" break="no"/>pus erit simul viuum et mortuum. viuum secundum quod 
+      informai<lb ed="#V" n="114" break="no"/>anima. mortuum secundum quod recessit. Quid igitur dicendum:
+    </p>
+            <p xml:id="FrMS88-f43351-d1e437">
+      ¶ Si 
+      sensi<lb ed="#V" n="115" break="no"/>tiua est extensa tunc diceretur quod sensitiua esset vna in 
+      to<lb ed="#V" n="116" break="no"/>to corpore. et due intellectiue in illis capitibus: et ita esset 
+      <lb ed="#V" n="117"/>animalitas vna in duobus suppositis distinctis. et sic 
+      <lb ed="#V" n="118"/>esset vnum animal. et duo homines. sed de hoc alies:
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="220-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f71285"><!-- l4d23q2 -->
+            <head xml:id="FrMS88-f71285-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f71285-d1e111">
+               <lb ed="#V" n="87"/>SEcundo queritur an hoc sacramen 
+      <lb ed="#V" n="88"/> tum sit interabile videtur quod sic. 
+      <lb ed="#V" n="89"/>quia magister et communes loquentes computant 
+      <lb ed="#V" n="90"/>ipsum inter interabilia.
+    </p>
+            <p xml:id="FrMS88-f71285-d1e122">
+      ¶ Contra. quia non inte 
+      <lb ed="#V" n="91" break="no"/>ratur circa eandem materiam
+    </p>
+            <p xml:id="FrMS88-f71285-d1e127">
+               <lb ed="#V" n="92"/>hic primo videndum est vnde prouenit interabi 
+      <lb ed="#V" n="93" break="no"/>litas sacramentorum. Aliqui dicunt quod hoc et 
+      <lb ed="#V" n="94"/>quia caracter imprimitur qui est indelebilis: vt in sancramento 
+      ba<lb ed="#V" n="95" break="no"/>ptismi confirmationis et ordinum. Alii dicunt quod hoc non est 
+      <lb ed="#V" n="96"/>ex nam caracteris: quia augeri et minui potest secundum naturam suam: 
+      <lb ed="#V" n="97"/>et quantum ad hoc interarentur quantum ad augmentum. sed ex 
+      ho<lb ed="#V" n="98" break="no"/>est: vt dicunt: quod in illis sacramentis aliquis constituitur in aliquo 
+      <lb ed="#V" n="99"/>certo statu: sicut sacramentum confirmationis: sed alia sacramentia 
+      consi<lb ed="#V" n="100" break="no"/>stunt in vsu solum. Et ideo quia quando aliquis in statu aliquo est in 
+      <lb ed="#V" n="101"/>eodem interum statu poni non potest: sicut patet in politia. Exqui 
+      <lb ed="#V" n="102"/>enim aliquis in statu militari constitutus est: in eodem statui 
+      <lb ed="#V" n="103"/>non potest: nec fieri iterum miles. Alia autem sacramentia: quia consistunt 
+      <lb ed="#V" n="104"/>in vsu. Usus autem transit. ideo interari possunt.
+    </p>
+            <p xml:id="FrMS88-f71285-d1e158">
+      ¶ Sed contra. sacramentum 
+      <lb ed="#V" n="105"/>eucharistie ita parum est interabile. sicut baptismus: nam sicut ni 
+      <lb ed="#V" n="106"/>hil faceret qui primo rite baptizatum rebaptizaret: ita nihil 
+      fa<lb ed="#V" n="107" break="no"/>ceret quo hostiam rite consecratam iterum consecraret. quare illa non 
+      <lb ed="#V" n="108"/>fuit causa: quia non compraehendit omnia sacramentia non interabilia.
+    </p>
+            <p xml:id="FrMS88-f71285-d1e170">
+      ¶ Alii 
+      <lb ed="#V" n="109"/>dicunt quod hoc est propter reuerentiam sacramentorum. ex quo debent minus 
+      mul<lb ed="#V" n="110" break="no"/>tiplicari. sicut res dignissima.
+    </p>
+            <p xml:id="FrMS88-f71285-d1e177">
+      ¶ Sed contra. eucharistia est 
+      di<lb ed="#V" n="111" break="no"/>gnissimum sacramentum secundum omnes: et isti: quae hanc non interationis causam 
+      <lb ed="#V" n="112"/>assignant: dicunt eucharistiam sacramentum esse interabile.
+    </p>
+            <p xml:id="FrMS88-f71285-d1e184">
+      ¶ Alii 
+      <lb ed="#V" n="113"/>dicunt quod irreuerentia eis fieret.
+    </p>
+            <p xml:id="FrMS88-f71285-d1e189">
+      ¶ Sed contra. Natno minus 
+      irreue<lb ed="#V" n="114" break="no"/>rentia est facienda sacramento digumitum eucharistie et ceteris quam illis 
+      <lb ed="#V" n="115"/>tribus scilicet bapus confirmationi et sancramento ordins.
+    </p>
+            <p xml:id="FrMS88-f71285-d1e196">
+      ¶ Dico ergo quod causa 
+      <lb ed="#V" n="116"/>praedicta non interationis est. quia habent sufficientem efficaciam respecut 
+      <lb ed="#V" n="117"/>sui effectus: et hoc est generale omnibus sacramentis: et ideo nullum est 
+      <lb ed="#V" n="118"/>interabile.
+    </p>
+            <p xml:id="FrMS88-f71285-d1e205">
+      ¶ hoc declaratur in artibus. videmus enim quod 
+      an<lb ed="#V" n="119" break="no"/>tifex ictum interat: quia in principio non sufficienter facit 
+      effectum<lb ed="#V" n="120" break="no"/>quem intendit. vnde trahens serram: si semel trahendo liguum 
+      <lb ed="#V" n="121"/>perfecte secaret: nunquam interum traheret: nec impelleret 
+      ser<lb ed="#V" n="122" break="no"/>ram: et sic de consimilibus. Similiter in naturalibus: si agens vnica 
+      <lb ed="#V" n="123"/>actione qua incipit agere produceret perfecte suum effectum 
+      <lb ed="#V" n="124"/>nunquam ageret aliqua actione alia: nec in alia hora: patet de 
+      <lb ed="#V" n="125"/>alteratione: quia in instanti: non potest inducere formam. ideo inducit 
+      <lb ed="#V" n="126"/>eam successiue: sed quia generans in instanti inducit formam: ideo 
+      <lb ed="#V" n="127"/>non interat actionem. Patet similiter in ciuilibus quia rex vnica 
+      actio<lb ed="#V" n="128" break="no"/>ne facit perfecte militem. ideo non interat actionem. Quia igitur 
+      <lb ed="#V" n="129"/>omnia sacramentia noue legis habent sufficientem efficaciam respectu sue ma 
+      <lb ed="#V" n="130"/>terie. ideo omnia equaliter et ratione vna non sunt interabilia. 
+      </p>
+            <p xml:id="FrMS88-f71285-d1e235">
+               <lb ed="#V" n="131"/>¶ Ad hoc applicentur rationes Augustinus. omnibus sacramentis debetur 
+      <lb ed="#V" n="132"/>maxima reuerentia. igitur omnia non sunt interabilia. magna¬ 
+      <!--443.xml-->
+      <pb ed="#V" n="220-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>enim reuerentia non exhibetur eis. si non concedantur habere 
+      <lb ed="#V" n="2"/>sufficientem efficaciam respectu sui effectus. De sancramento 
+      bap<lb ed="#V" n="3" break="no"/>confirmationis: et ordinis patet quod non interantur. Et hoc omnes con 
+      <lb ed="#V" n="4"/>cedunt. Eodem modo de eucharistia ostendam. si circa eandem 
+      <lb ed="#V" n="5"/>materiam applices verba consecratoria bis nihil facis. sicut 
+      <lb ed="#V" n="6"/>si circa eundem hominem applices bis bapitum. si potes circa 
+      <lb ed="#V" n="7"/>aliam hostiam: similiter et potes circa alium hominem. vnde respectu eiusdem 
+      <lb ed="#V" n="8"/>materiae equaliter est de omnibus.
+    </p>
+            <p xml:id="FrMS88-f71285-d1e266">
+      ¶ Si dicas illud facrament scilicet 
+      eu<lb ed="#V" n="9" break="no"/>charistie frequenter sumiter: Respondeo in susceptione non 
+      <lb ed="#V" n="10"/>stat ratio sacramenti: sed in consecratione.
+    </p>
+            <p xml:id="FrMS88-f71285-d1e273">
+      ¶ Sed quid de matrimoo: 
+      </p>
+            <p xml:id="FrMS88-f71285-d1e276">
+               <lb ed="#V" n="11"/>¶ Dico quod inter easdem duas personas nunquam interatur. sed 
+      <lb ed="#V" n="12"/>cum alia ben. et tunc non est eadem materia: quia in primo matrimoo: 
+      mo<lb ed="#V" n="13" break="no"/>tuo altero coniugum dissoluiter matrimonium et legitimum est 
+      <lb ed="#V" n="14"/>ontrahere viuenti.
+    </p>
+            <p xml:id="FrMS88-f71285-d1e287">
+      ¶ Sed de prnima est dubium: quia aliquo dicunt 
+      <lb ed="#V" n="15"/>quod prnina habet multotiens efficaciam super eadem poesta.
+    </p>
+            <p xml:id="FrMS88-f71285-d1e292">
+      ¶ Credo 
+      <lb ed="#V" n="16"/>quod est verum ratione meriti et humiliationis: sed tamen 
+      supposi<lb ed="#V" n="17" break="no"/>to quod absolutus fuerit primo nihil facit 2a absolutioo Vel secundum 
+      <lb ed="#V" n="18"/>eadem pecstia pluries transire non potest: quia vel primo illud sacramentum 
+      <lb ed="#V" n="19"/>habuit totalem efficaciam super peata confessa: vel non. si 
+      conce<lb ed="#V" n="20" break="no"/>dis quod sic. igitur vlterius dicitur super eadem nihil potest. Si dicas 
+      <lb ed="#V" n="21"/>quod non: tu derogas dignitati et efficacie sacramenti.
+    </p>
+            <p xml:id="FrMS88-f71285-d1e309">
+      ¶ Sed quid 
+      <lb ed="#V" n="22"/>de extrema vnctione. Manifestum est quod homo egrotus est 
+      <lb ed="#V" n="23"/>materia hus sacramentio. potest dici quod matam proxima est oleum oliuarum. et 
+      <lb ed="#V" n="24"/>illo eodem nunquam vnget bis: quia resolutum est. 2o potest dici quod 
+      <lb ed="#V" n="25"/>mam remota est homo sub egritudine constitutus: sed si in 
+      ea<lb ed="#V" n="26" break="no"/>dem egritudine diu manet: et sit pluries in pariculo 
+      mor<lb ed="#V" n="27" break="no"/>et petit hoc sacramentum pluries potest dari. hoc dico quia alia est 
+      <lb ed="#V" n="28"/>egritudo in quolibet pariculo morti: et ipse homo est immediatum 
+      <lb ed="#V" n="29"/>susceptiuum sub tali pariculo. pericula autem sunt distincta. 
+      </p>
+            <p xml:id="FrMS88-f71285-d1e329">
+               <lb ed="#V" n="30"/>¶ Quid ergo dicetur ad commune dictum doctorum quae distinguunt inter 
+      <lb ed="#V" n="31"/>sacramentia interabilia. et no interabilia.
+    </p>
+            <p xml:id="FrMS88-f71285-d1e336">
+      ¶ Respondeo quod pro tanto alia 
+      di<lb ed="#V" n="32" break="no"/>cuntur interabilia: quia diunsis materiis facilius applicantur: sed 
+      <lb ed="#V" n="33"/>proprie loquendo respectu proprie materiae nullum est interabile.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

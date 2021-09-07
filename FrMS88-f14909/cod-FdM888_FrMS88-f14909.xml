@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="153-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f14909"><!-- l2d13q2 -->
+            <head xml:id="FrMS88-f14909-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f14909-d1e111">
+      Quaestio. ii. 
+      <lb ed="#V" n="117"/>SEcunda questio est. Utrum lux 
+      <lb ed="#V" n="118"/> sit primum obiectum visus 
+      <lb ed="#V" n="119"/>nostri. Et videtur quod sic. Nam omne quod 
+      mani<lb ed="#V" n="120" break="no"/>festatur in luce manifestatur.
+    </p>
+            <p xml:id="FrMS88-f14909-d1e122">
+      ¶ Contra. 
+      </p>
+            <p xml:id="FrMS88-f14909-d1e125">
+               <lb ed="#V" n="121"/>¶ Diony. in quaedam epostila dicit. quod eclypsis est. 
+      <lb ed="#V" n="122"/>aliqui quod lux est primum obiectum 
+      vi<lb ed="#V" n="123" break="no"/>Aic dicun sus: quia quicquid videtur sub ratione 
+      lu<lb ed="#V" n="124" break="no"/>cis videtur.
+    </p>
+            <p xml:id="FrMS88-f14909-d1e136">
+      ¶ Alii dicunt. quod color. quia abscolor videri non 
+      <lb ed="#V" n="125"/>otest.
+    </p>
+            <p xml:id="FrMS88-f14909-d1e142">
+      ¶ Contra primum arguitur. lux nunquam est in medio 
+      <lb ed="#V" n="126"/>nisi ratione terminati. Nigredo etiam videtur que non est lux¬ 
+      </p>
+            <p xml:id="FrMS88-f14909-d1e147">
+               <lb ed="#V" n="127"/>¶ Contra 2m. albedo est color perfectissimus. nec illo 
+      <lb ed="#V" n="128"/>colore est sol coloratus.
+    </p>
+            <p xml:id="FrMS88-f14909-d1e154">
+      ¶ Sunt ergo hic quatuor conclusiones. 
+      <lb ed="#V" n="129"/>Prima conclusio est. quod sumendo lucem proprie non est 
+      adequa<lb ed="#V" n="130" break="no"/>tum obiectum visus.
+    </p>
+            <p xml:id="FrMS88-f14909-d1e161">
+      ¶ 2a conclusio quod accipiendo lucem pro illa que 
+      <lb ed="#V" n="131"/>est incorporata in corpore terminato. Illa similiter non est 
+      <!--310.xml-->
+      <pb ed="#V" n="154-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>primum obiectum. quia non inuenitur in omnibus.
+    </p>
+            <p xml:id="FrMS88-f14909-d1e174">
+      ¶ 3a conclusio est. quod 
+      co<lb ed="#V" n="2" break="no"/>lor non est obiectum adequatum. quia sol videtur qui non habet 
+      colo<lb ed="#V" n="3" break="no"/>rem.
+    </p>
+            <p xml:id="FrMS88-f14909-d1e181">
+      ¶ 4a conclusio quod accipiendo lucem prout se extendit ad lucem 
+      <lb ed="#V" n="4"/>essentialiter et participatiue: sic est primum obiectum adequatum visus. 
+      </p>
+            <p xml:id="FrMS88-f14909-d1e187">
+               <lb ed="#V" n="5"/>¶ Sed hic est difficultas si visio causatur totaliter ab obiecto:
+    </p>
+            <p xml:id="FrMS88-f14909-d1e192">
+      ¶ 
+      Di<lb ed="#V" n="6" break="no"/>co quod eisdem rationibus probatur quod non totaliter ab obiecto si 
+      <lb ed="#V" n="7"/>cut de actu intelligendi.
+    </p>
+            <p xml:id="FrMS88-f14909-d1e199">
+      ¶ hic est difficultas si ex hoc quod po 
+      <lb ed="#V" n="8"/>tentia est causa visionis oporteat distinguere inter 
+      <lb ed="#V" n="9"/>visum agentem et possibilem:
+    </p>
+            <p xml:id="FrMS88-f14909-d1e206">
+      ¶ Dico quod eadem ratione 
+      op<lb ed="#V" n="10" break="no"/>hic ponere duas rationes formales. vnam secundum quam agit. 
+      <lb ed="#V" n="11"/>aliam secundum quam patitur.
+    </p>
+            <p xml:id="FrMS88-f14909-d1e213">
+      ¶ 3a difficultas si amoto obiecto perma 
+      <lb ed="#V" n="12"/>nent idem actus videndi:
+    </p>
+            <p xml:id="FrMS88-f14909-d1e218">
+      ¶ Dico quod impossibile est hoc. quia 
+      <lb ed="#V" n="13"/>visio fit per modum trianguli vel pyramidis: cuius basis 
+      <lb ed="#V" n="14"/>est in re visa. et angulus vel conus in vidente: ille linee 
+      <lb ed="#V" n="15"/>recte stant in indiuisibili: et si mouetur obiectum alius trian 
+      <lb ed="#V" n="16"/>gulus fit: et per consequens influentia.
+    </p>
+            <p xml:id="FrMS88-f14909-d1e230">
+      ¶ Sed quomodo tunc videtur 
+      mo<lb ed="#V" n="17" break="no"/>bile sub motu: Dico quod non videtur motus intuitiue: sed 
+      <lb ed="#V" n="18"/>quia mobile est alibi distanter a primo vbi. arguimus 
+      mo<lb ed="#V" n="19" break="no"/>tum. sicut in rota horologii. Unde dico. quod sol in quolibet 
+      <lb ed="#V" n="20"/>instanti est in spatio sibi equali. et sic causat visionem. 
+      </p>
+            <p xml:id="FrMS88-f14909-d1e241">
+               <lb ed="#V" n="21"/>¶ Sed hic est difficultas si sint duo actus videndi in duobus 
+      <lb ed="#V" n="22"/>oculis de eodem obiecto:
+    </p>
+            <p xml:id="FrMS88-f14909-d1e248">
+      ¶ Dicunt aliqui quod non est vnus. 
+      </p>
+            <p xml:id="FrMS88-f14909-d1e251">
+               <lb ed="#V" n="23"/>¶ Sed diceret Aristoteles. quod vnus est. quia fit in organo 
+      inter<lb ed="#V" n="24" break="no"/>medio corrspondente duobus oculis.
+    </p>
+            <p xml:id="FrMS88-f14909-d1e258">
+      ¶ Aliter essent 
+      due<lb ed="#V" n="25" break="no"/>potentie visiue organice numero in homine eiusdem rationis. 
+      </p>
+            <p xml:id="FrMS88-f14909-d1e263">
+               <lb ed="#V" n="26"/>¶ 2m dubium. quo possunt videri duo contraria. quia actus contrarii 
+      <lb ed="#V" n="27"/>videntur organici.
+    </p>
+            <p xml:id="FrMS88-f14909-d1e271">
+      ¶ hic dicitur quod organum est extensum. et ad 
+      <lb ed="#V" n="28"/>cidens in extenso est extensum. Et ita secundum diuersas partes 
+      <lb ed="#V" n="29"/>potest recipere contraria.
+    </p>
+            <p xml:id="FrMS88-f14909-d1e278">
+      ¶ 3m dubium. si oportet ponere speciem in 
+      me<lb ed="#V" n="30" break="no"/>dio:
+    </p>
+            <p xml:id="FrMS88-f14909-d1e283">
+      ¶ Dico quod non oportet. sed obiectum immediate causat duos 
+      <lb ed="#V" n="31"/>effectus ordinatos. vnus speciem. et alius actum immeie.
+    </p>
+            <p xml:id="FrMS88-f14909-d1e288">
+      ¶ Alia 
+      <lb ed="#V" n="32"/>difficultas si per receptionem vel emissionem:
+    </p>
+            <p xml:id="FrMS88-f14909-d1e293">
+      ¶ Dico quod per 
+      rece<lb ed="#V" n="33" break="no"/>ptionem: quia visio est actio immanens. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

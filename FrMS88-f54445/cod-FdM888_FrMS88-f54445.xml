@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 16</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 16</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="201-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f54445"><!-- l4d11q16 -->
+            <head xml:id="FrMS88-f54445-Hd1e108">Quaestio 16</head>
+            <p xml:id="FrMS88-f54445-d1e111">
+               <lb ed="#V" n="98"/>Queritur vtrum deus possit 
+      conuer<lb ed="#V" n="99" break="no"/>tere quodlibet in quodlibet 
+      vi<lb ed="#V" n="100" break="no"/>detur quod non. quia Aug. dicit quod conuerti corpo 
+      <lb ed="#V" n="101"/>rale in spirituale nulla ratione coprehendi potest. 
+      <lb ed="#V" n="102"/>S
+    </p>
+            <p xml:id="FrMS88-f54445-d1e124">
+      ¶ Contra. quia transubstantiatio panis in 
+      cor<lb ed="#V" n="103" break="no"/>pus christi fit per potentiam obedientia. sed ista est in 
+      <lb ed="#V" n="104"/>omnibus entibus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e131">
+               <lb ed="#V" n="105"/>hic sunt quatuor conclusiones affirmatiue. 
+    </p>
+            <p xml:id="FrMS88-f54445-d1e136">
+               <lb ed="#V" n="106"/>¶ Prima est quod deus potest quodlibet 
+      <lb ed="#V" n="107"/>accidens in quodlibet aliud conuertere. probatur quia illa 
+      <lb ed="#V" n="108"/>cuersio est secundum quam succedit corpus Christi substantie 
+      <lb ed="#V" n="109"/>panis. sed quodlibet accidens potest alteri succedere. quia 
+      <lb ed="#V" n="110"/>non plus distat vnum ab alio. quam ille substantie inter se. 
+      </p>
+            <p xml:id="FrMS88-f54445-d1e150">
+               <lb ed="#V" n="111"/>¶ Secunda conclusio. quod quodlibet accidens in substantiam. quia 
+      <lb ed="#V" n="112"/>plus distat nihil ab ente quam accidens a substantia.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e157">
+      ¶ Tertia 
+      <lb ed="#V" n="113"/>conclusio. quod potest conuerti virtute diuina quelibet 
+      <lb ed="#V" n="114"/>substantia in quodlibet accidens hoc patet per idem.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e164">
+      ¶ 4ao 
+      <lb ed="#V" n="115"/>conclusio. quod quamlibet. substantiam in quanlibet substantiam. 
+      <lb ed="#V" n="116"/>Quia agens continens in virtute duo extrema 
+      totali<lb ed="#V" n="117" break="no"/>ter potest conuertere vnum in aliud. sed deus continet 
+      vir<lb ed="#V" n="118" break="no"/>tualiter quamlibet substantiam. ergo. probatio minoris. 
+      <lb ed="#V" n="119"/>et quia producit ea per incarnationem. et posset anihilare. 
+      </p>
+            <p xml:id="FrMS88-f54445-d1e177">
+               <lb ed="#V" n="120"/>¶ Sed occurrit difficultas primo contra primam conclusionem. 
+      <lb ed="#V" n="121"/>Quia similitudo in me est de gnere relationis. tunc si 
+      con<lb ed="#V" n="122" break="no"/>uertat similitudinem meam in albedinem tuam. tunc erit 
+      <lb ed="#V" n="123"/>relatio sine termino.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e188">
+      ¶ Contra secundam. quod non possit 
+      <lb ed="#V" n="124"/>conuertere accidens in substantiam: probatur. quia raritas 
+      <lb ed="#V" n="125"/>est dispositio necessaria ad formam ignis. detur ergo quod 
+      <lb ed="#V" n="126"/>conuertat deus raritatem in ignem. tunc erit ignis sine rari 
+      <lb ed="#V" n="127"/>tate.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e199">
+      ¶ Tertio contra tertiam. quia non videtur quod possit 
+      sub<lb ed="#V" n="128" break="no"/>stantiam conuertere in accidens. si albedo sit separata 
+      sub<lb ed="#V" n="129" break="no"/>iectum similitudinis conuertatur in istam. tunc erit relatio 
+      <lb ed="#V" n="130"/>sine fundamento.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e209">
+      ¶ Contra quartam. quia si potest conuerte 
+      <lb ed="#V" n="131"/>re quamlibet substantiam. in quamlibet substantiam videtur 
+      ea<lb ed="#V" n="132" break="no"/>dem ratione quod possit conuertere formam substantialem in 
+      <!--405.xml-->
+      <pb ed="#V" n="201-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>aliam: et sic conuertet sensitiuam in intellectiuam et 
+      econ<lb ed="#V" n="2" break="no"/>trario. in homine. et tunc non erit sensitiuus vel 
+      intelle<lb ed="#V" n="3" break="no"/>ctiuus: quod est impossibile.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e229">
+      ¶ Ad primum. dico quod deus potest 
+      <lb ed="#V" n="4"/>conuertere quodlibet in quodlibet. dum tamen amoueat illud. 
+      <lb ed="#V" n="5"/>et si non. non potest. quia implicatur contradictio. quia hoc solo 
+      <lb ed="#V" n="6"/>priuatur deus. q. ethicorum. vnde si meam albedinem: que 
+      <lb ed="#V" n="7"/>est terminus tue similitudinis conuerteretur in similitudi 
+      <lb ed="#V" n="8"/>nem. destrueret eam. non potest ergo terminum conuertere in 
+      <lb ed="#V" n="9"/>relationem. quia ad desinitionem eius desineret aliud sed 
+      <lb ed="#V" n="10"/>albedinem aliam ad quam non terminatur. potest conuertere in 
+      <lb ed="#V" n="11"/>similitudinem istam.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e249">
+      ¶ Ad 2m. dico quod raritatem potest 
+      <lb ed="#V" n="12"/>conuertere in substantiam: sed non in illam formam que realiter 
+      <lb ed="#V" n="13"/>dependet ab illa raritate.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e256">
+      ¶ Ad 3m. dico quod destructo 
+      <lb ed="#V" n="14"/>priori destruitur posterius. et ideo destructo fundamento 
+      <lb ed="#V" n="15"/>destruitur necessario relatio. Per idem dictum ad secundum 
+      <lb ed="#V" n="16"/>patet ad quartum de anima sensitiua et intellectiua. 
+      vn<lb ed="#V" n="17" break="no"/>de bene potest eas conuertere: sed hoc esset destruere 
+      ho<lb ed="#V" n="18" break="no"/>minem: licet absolute possit talis conuersio fieri
+    </p>
+            <p xml:id="FrMS88-f54445-d1e269">
+               <lb ed="#V" n="19"/>Deinde ponende sunt conclusiones negatiue. ¶ Prima 
+      <lb ed="#V" n="20"/>est. quod deus non potest conuertere idem 
+      <lb ed="#V" n="21"/>in se ipsum. patrobo. omne quod conuertitur dicitur ad aliud 
+      <lb ed="#V" n="22"/>inquantum conuertitur. sed omne ad aliud et ad se sunt 
+      <lb ed="#V" n="23"/>opposita. Cum igitur idem non sit oppositum sibi ipsi idem 
+      <lb ed="#V" n="24"/>non potest conuerti in se ipsum.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e285">
+      ¶ Secunda conclusio est quod 
+      <lb ed="#V" n="25"/>non potest conuertere sic quod remaneat existens. quia tunc non 
+      <lb ed="#V" n="26"/>esset conuersa res illa sed permanens. et eque diceretur 
+      com<lb ed="#V" n="27" break="no"/>uerti alterum in ipsum sicut econtrario.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e295">
+      ¶ Tertia 
+      conclu<lb ed="#V" n="28" break="no"/>sio. quod deus in se aliquid aliud non potest conuertere. quia 
+      s<lb ed="#V" n="29" break="no"/>se posset conuertere in aliud: et sic posset desinere esse: 
+      <lb ed="#V" n="30"/>quod est impossibile. et omnes sancti dixerunt istam 
+      exposi<lb ed="#V" n="31" break="no"/>tionem esse erroneam super verbum caro factum est: 
+      qua<lb ed="#V" n="32" break="no"/>dicebatur verbum in carnem conuersum. quia hoc pro 
+      impos<lb ed="#V" n="33" break="no"/>sibili habebant.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e311">
+      ¶ Quarta conclusio. quod deus in nihil ali 
+      <lb ed="#V" n="34"/>ad potest conuerti. et patet ex hoc. quia si deus in aliud 
+      con<lb ed="#V" n="35" break="no"/>uerti posset. tunc desineret esse.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e318">
+      ¶ Contra primam 
+      conclu<lb ed="#V" n="36" break="no"/>sionem arguitur sic. passio et subiectum sunt idem reali 
+      <lb ed="#V" n="37"/>ter: sed quando duo extrema sunt que deus continet 
+      vir<lb ed="#V" n="38" break="no"/>tualiter potest conuertere vnum in aliud: sed sic est hic de 
+      <lb ed="#V" n="39"/>subiecto et passione. et ita conclusio demonstrationis esset 
+      <lb ed="#V" n="40"/>falsa.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e331">
+      ¶ Dico quod potest conuertere quodlibet in quodlibet 
+      <lb ed="#V" n="41"/>quod continet in virtute distincta realiter. sicut quia potest 
+      pro<lb ed="#V" n="42" break="no"/>duci homo sin colore et asino: et accidens sine subiecto ideo potest hoc fie 
+      <lb ed="#V" n="43"/>ri: sed illa non continet in virtute distincta: sed vbi est 
+      distin<lb ed="#V" n="44" break="no"/>cta actualitas realiter ibi semper potest.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e342">
+      ¶ Contra 2am. quia ma 
+      <lb ed="#V" n="45"/>gis requritur in actione agentis naturalis esse forme 
+      produ<lb ed="#V" n="46" break="no"/>cte. quam desinitio termini: sed hic das transubstantiationem 
+      qua<lb ed="#V" n="47" break="no"/>terminus ad quem acqurit esse. ergo multo fortius poterit vbi 
+      <lb ed="#V" n="48"/>non desinit terminus a quo.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e353">
+      ¶ hic dico quod nullus 
+      transi<lb ed="#V" n="49" break="no"/>tus potest imaginari. quin alter terminus desinat esse. sed 
+      <lb ed="#V" n="50"/>in innstanti transubstantiationis cum requirat fundamentum: et illud 
+      <lb ed="#V" n="51"/>est terminus ad quem vt ostensum est oportet quod terminus a quae 
+      <lb ed="#V" n="52"/>desinat esse.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e365">
+      ¶ Contra 3m conclusione arguitur sic. illa actio quae 
+      <lb ed="#V" n="53"/>ex sua terminatione ad deum non ponit mutationem in illo 
+      <lb ed="#V" n="54"/>non repugnat deo: sicut patet de actu intelligendi 
+      termina<lb ed="#V" n="55" break="no"/>to ad deum. sed hec transubstantiatio per se nullam facit muta 
+      <lb ed="#V" n="56"/>tionem in christo. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e376">
+      ¶ Dico quod sine mutatione corpus 
+      <lb ed="#V" n="57"/>christi potest conuertere substantiam in ipsum: sed inconueniens 
+      <lb ed="#V" n="58"/>est in proposito. quia terminare actum intelligendi non dicit 
+      <lb ed="#V" n="59"/>imperfectionem. sed hoc dicit continere virtualiter quod deo 
+      re<lb ed="#V" n="60" break="no"/>pugnat.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e387">
+      ¶ Contra 4am arilus. quod deus possit conuerti in aliud 
+      <lb ed="#V" n="61"/>denominatione extrinseca sicut creare dicitur.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e392">
+      ¶ Dico quod per 
+      <lb ed="#V" n="62"/>istum modum. valet. per comunicationem vdiomatum: non est 
+      incom<lb ed="#V" n="63" break="no"/>ueniens quin deus possit sic conuerti: sed deitas nullo modo 
+      <lb ed="#V" n="64"/>potest.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e401">
+      ¶ Sed queritur si ista est vera. corpus christi fuit 
+      pa<lb ed="#V" n="65" break="no"/>nis vel panis erit corpus christi.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e406">
+      ¶ Sco. dicit quod non: quia 
+      <lb ed="#V" n="66"/>nulla propositio de praeterito vel de futuro potest esse vera: 
+      <!--405.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>nisi fit dare veram de praesenti. hec autem semper est falsa: 
+      pa<lb ed="#V" n="68" break="no"/>nis est corpus christi.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e420">
+      ¶ Si autem dicatur: illud quod nunc est 
+      cor<lb ed="#V" n="69" break="no"/>pus christi fuit panis:
+    </p>
+            <p xml:id="FrMS88-f54445-d1e425">
+      ¶ Dico quod non potest dici quia 
+      praedica<lb ed="#V" n="70" break="no"/>tiones in se sunt impermixte.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e430">
+      ¶ Sed quomodo tunc exprimum 
+      <lb ed="#V" n="71"/>tur:
+    </p>
+            <p xml:id="FrMS88-f54445-d1e435">
+      ¶ Dicit Sco. panis fit corpus christi.
+    </p>
+            <p xml:id="FrMS88-f54445-d1e438">
+      ¶ Contra. si fit 
+      <lb ed="#V" n="72"/>factum est. sed si factum est sequitur quod est: quia factum non 
+      di<lb ed="#V" n="73" break="no"/>minuit de esse. Quomodo potest dici:
+    </p>
+            <p xml:id="FrMS88-f54445-d1e445">
+      ¶ Dico quod fit. quia panis 
+      <lb ed="#V" n="74"/>transubtantatur in corpus: nec intelligitur nisi ordo huius 
+      <lb ed="#V" n="75"/>ad hoc: sicut fuit dictum supra.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

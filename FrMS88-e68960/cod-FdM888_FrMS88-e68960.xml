@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e68960"><!-- l1d29q6 -->
+            <head xml:id="FrMS88-e68960-Hd1e108">Quaestio 6</head>
+            <p xml:id="FrMS88-e68960-d1e111">
+      Quaestio. vi 
+      <lb ed="#V" n="16"/>relatio aliqua possit esse 
+      si<lb ed="#V" n="17" break="no"/>Trum netermino. quod sic. Nam scienti 
+      <lb ed="#V" n="18"/>refertur ad scibile. ergo aliqua relatione refertur. 
+      <lb ed="#V" n="19"/>Constat autem quod scientia potest esse scibili non existente 
+      <lb ed="#V" n="20"/>ergo et relatio sine termino.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e124">
+      ¶ Contra. Difficultas 
+      <lb ed="#V" n="21"/>nitum non potest esse sine diffinitione. relatio diffinitur per terminum. 
+      <lb ed="#V" n="22"/>dicta cuiusdam docto 
+      <lb ed="#V" n="23"/>hic introducuntur ris qui dicit quod 
+      respe<lb ed="#V" n="24" break="no"/>ctus potest esse ad terminum non existentem. licet non sine fundamento 
+      <lb ed="#V" n="25"/>Ratio autem sua est ista: quia relatio que est praedicamentum non 
+      <lb ed="#V" n="26"/>habet terminum. quia non habet oppositum. ergo non repugnat ratio 
+      <lb ed="#V" n="27"/>n sine termino esse.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e142">
+      ¶ Sed contra illud arguo. 4r Primo sic 
+      <lb ed="#V" n="28"/>Relatio est ad aliud necessario. quia de eius quiditate et intrinsece 
+      <lb ed="#V" n="29"/>in primo modo. Tunc sic. Quandocumque aliquod totum constat ex aliqui 
+      <lb ed="#V" n="30"/>bus quorum vnum est reale et alterum non reale. illud totum 
+      <lb ed="#V" n="31"/>non en reale. constitutum enim semper sequitur debiliorem partem 
+      <lb ed="#V" n="32"/>costituentem: sicut patet in silito constituto ex necessario et 
+      contingente<lb ed="#V" n="33" break="no"/>totum constituium est contingens. sed relatio est res essentialiter ad 
+      <lb ed="#V" n="34"/>aliud. ergo si illud aliud non sit reale. tota relatio non erit 
+      <lb ed="#V" n="35"/>ens reale: sed de quocumque dicitur non reale ipsum est non reale. 
+      <lb ed="#V" n="36"/>rlatio autem est ad aliud quod non est reale. ergo ratio erit non realis. 
+      hoi<lb ed="#V" n="37" break="no"/>est secundum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e166">
+      ¶ 2o sic. Quandocumque aliqua sunt essentialiter 
+      ordi<lb ed="#V" n="38" break="no"/>nata respectu alicuius tertii: illud quod prius aduenit illi 3o est 
+      ma<lb ed="#V" n="39" break="no"/>gis intrinsecum illi quam quod posterius aduenit: sed habitudo prius 
+      <lb ed="#V" n="40"/>ordine essentiali est ad terminum quam ad fundamentum ergo ma 
+      <lb ed="#V" n="41"/>gis intimum relationi est esse ad terminum quam ad fundamentum: 
+      <lb ed="#V" n="42"/>sed: per te: impossibile est esse relationem sine fundamento in actu. ergo 
+      <lb ed="#V" n="43"/>multo minus sine termino poterit esse in actu.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e183">
+      ¶ 
+      Confir<lb ed="#V" n="44" break="no"/>matur. quia ideo relatio non potest esse sine fundamento propter 
+      inheren<lb ed="#V" n="45" break="no"/>tiam accidentalem que consequitur necessario relationem realem que est ad 
+      <lb ed="#V" n="46"/>fundamntum.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e192">
+      ¶ Tunc sic. Eque necessario respicit paternitas vel 
+      <lb ed="#V" n="47"/>imilitudo suum terminum: sicut inherentia istarum relationum suum 
+      <lb ed="#V" n="48"/>fundamentum: sed ista inherentia: ita respicit suum fundamentum 
+      <lb ed="#V" n="49"/>quod non potest esse sine fundamento. ergo nec sine termino similitude 
+      <lb ed="#V" n="50"/>et paternitas quod est intentum.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e203">
+      ¶ 3o sic. quandocumque aliqua sic se habent 
+      <lb ed="#V" n="51"/>quod quicquid potest vnum potest reliquum et plus. si illud quod potest plus 
+      <lb ed="#V" n="52"/>non potest aliquid facere. nec aliud: sed intellectus et nauam sic se habent quod 
+      <lb ed="#V" n="53"/>quicquid potest nauam potest et intellectus et plus intelligere. et non econvers 
+      <lb ed="#V" n="54"/>quia multa intelligere possumus: quae natam facere non potest. si e rgo 
+      <lb ed="#V" n="55"/>nam potest separare relationem a termino: et intellectus potest ea 
+      intellige<lb ed="#V" n="56" break="no"/>re sine termino: sed hoc est silium: ergo nec natura poterit eam facere 
+      <lb ed="#V" n="57"/>sine termino: quia tunc intellectus posset eam intelligetur.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e221">
+      ¶ 
+      Confirma<lb ed="#V" n="58" break="no"/>tur: quia intellectus est magis sequestratiua potentia quam natura. distinguit 
+      <lb ed="#V" n="59"/>enim intellectus inter adunata in esse quod sepe nam facere non potest. sed 
+      <lb ed="#V" n="60"/>ergo intellectus intelligendo relationem sequestrare non potest eam 
+      a<lb ed="#V" n="61" break="no"/>termino. multo minus nec natura.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e232">
+      ¶ 4o sic. Omnis effectus in actu 
+      <lb ed="#V" n="62"/>est a causa in actu: sed relatio dependet a termino effectiue: quae 
+      depen<lb ed="#V" n="63" break="no"/>dentia cum non poterit ad aliquod aliud genus causare reduci 
+      ni<lb ed="#V" n="64" break="no"/>si ad causam efficientem. oportet ergo si ipsa ratio sit in actu quod eius 
+      ter<lb ed="#V" n="65" break="no"/>minus sit in actu.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e243">
+      ¶ hec conlusiconfirmatur 4r. Primo sic. quia sicut 
+      <lb ed="#V" n="66"/> 
+               <lb ed="#V" n="67"/>tiamostensum est: de diffinitione et quiditate relationis est: quod sit 
+      <!--189.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="68"/>ad aliud: sed illud quod est ad aliud non est ad nihil. illud autem 
+      <lb ed="#V" n="69"/>quod est ad terminum non existentem est ad nihil. ergo relatio non potest 
+      <lb ed="#V" n="70"/>esse sine termino existente.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e262">
+      ¶ 2o Relatio quiditatiue est ad 
+      ali<lb ed="#V" n="71" break="no"/>ud. ergo illud quod est terminus relationis necessario est aliud a relatio 
+      <lb ed="#V" n="72"/>ne: sed quod est nihil non habet alietatem ad aliquid. ergo relatio non potest 
+      <lb ed="#V" n="73"/>esse ad nihil: sed quod non est existens simpliciter est nihil. ergo ratio non 
+      <lb ed="#V" n="74"/>est sine termino existente.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e273">
+      ¶ 3o confirmatur per proprietates reatio 
+      <lb ed="#V" n="75"/>nis. Primo per primam que est. quod relatiua dicuntur ad 
+      conuerten<lb ed="#V" n="76" break="no"/>tiam. Tunc sic. Quandocumque aliqua conuertuntur oportet quod similis coexistant. 
+      <lb ed="#V" n="77"/>nura aliter non possunt conuerti.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e282">
+      ¶ 2o quia Aug. primo de doctrina christia 
+      <lb ed="#V" n="78"/>na ponit locum a correlatiuis scilicet posito vno correlatiuo 
+      <lb ed="#V" n="79"/>rum ponitur et reliquum. et hoc est verum quando istud verbum: est: po 
+      <lb ed="#V" n="80"/>nitur 2m adiacens: sicut si pater est: filius est. non autem quando est 
+      <lb ed="#V" n="81"/>3m adiacens: sicut si pater est bonus. ergo et filius. non sequtur. ergo requiris 
+      <lb ed="#V" n="82"/>mutua existentia amborum.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e295">
+      ¶ 4o confirmatur. Omnis habitudo 
+      ne<lb ed="#V" n="83" break="no"/>cessario praesupponit extrema illius habitudinis. nam 
+      notissi<lb ed="#V" n="84" break="no"/>mum est quod complexio terminorum et cognitio complexionis eorum 
+      prae<lb ed="#V" n="85" break="no"/>supponit terminos et notitiam terminorum numquam enim potest 
+      co<lb ed="#V" n="86" break="no"/>gnosci aliqua complexio esse vera nisi praecognoscantur extrema illius 
+      <lb ed="#V" n="87"/>complexionis. aut si ita non esset. cognoscens propositionem non 
+      ne<lb ed="#V" n="88" break="no"/>cessario cognosceret terminos: et sic propositio per se non non 
+      ha<lb ed="#V" n="89" break="no"/>beret notitiam ex termis: quod est falsum. Similiter vnio naturae 
+      hu<lb ed="#V" n="90" break="no"/>mane ad verbum praesupponit extrema illius vnionis. Similili 
+      <lb ed="#V" n="91"/>vnio materiae ad formam vel econverso praesupponit extrema. et sic habetur 
+      <lb ed="#V" n="92"/>intentum.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e319">
+      ¶ Sed contra instatur 4r. Primo sic. In genere causae 
+      efficien<lb ed="#V" n="93" break="no"/>tis virtus primi causantis continet omnes formas generabiles et 
+      <lb ed="#V" n="94"/>corruptibiles et ex hoc sequitur quod sit productiuum omnium earum: 
+      <lb ed="#V" n="95"/>sed productiuum refertur ad producibile: quod nondum est. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e68960-d1e328">
+               <lb ed="#V" n="96"/>¶ 2o sic. Mam est in potentia ad omnes formas. ila autem potentia dicit 
+      re<lb ed="#V" n="97" break="no"/>spectum non ad formam quam habet. ergo ad illam quae non est. et sic est 
+      re<lb ed="#V" n="98" break="no"/>spectus ad non existens.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e338">
+      ¶ 3o sic. quia anima separata habet inclina 
+      <lb ed="#V" n="99"/>tionem ad corpus. illa inclinatio est respectus qui est ad non 
+      <lb ed="#V" n="100"/>ens.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e345">
+      ¶ 4o sic. Omnis per se effectus dependet a sua per se causa sed 
+      <lb ed="#V" n="101"/>effectus causare finalis est a fine. ergo effectus causare finalis 
+      de<lb ed="#V" n="102" break="no"/>pendet a sine quando causat: sed quando finis causat tunc non est. 
+      <lb ed="#V" n="103"/>ergo dependentia erit ad non ens.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e354">
+      ¶ hic videtur 
+      impossibi<lb ed="#V" n="104" break="no"/>lis euasio nisi per respectus fundamentales. non habeo 
+      <lb ed="#V" n="105"/>autem pro inconuenienti quod respectus fundamentalis sit ad 
+      <lb ed="#V" n="106"/>non existens.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e363">
+      ¶ Unde dico quod ratio productiui in deo est ratio 
+      <lb ed="#V" n="107"/>relatiua fundamentalis: similiter respectus materia ad formam 
+      <lb ed="#V" n="108"/>et similiter anime ad corpus. et sic ad illa.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e370">
+      ¶ Ad quartum de 
+      fine<lb ed="#V" n="109" break="no"/>dico quod potest poni dependentia actualis respectu finis 
+      vl<lb ed="#V" n="110" break="no"/>timi et vniuersalis: sed respectu finis propinqui non existentis illa non 
+      <lb ed="#V" n="111"/>est nisi fundamentalis: ideo ordo medicine ad sanitatem 
+      <lb ed="#V" n="112"/>non est nisi respectus fundamentalis qui potest esse sine 
+      ter<lb ed="#V" n="113" break="no"/>mino.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e383">
+      ¶ Sed adhuc est difficultates. Primo de actu volendi 
+      <lb ed="#V" n="114"/>qui habet relationem realem ad volitum. quod quidem est non ens 
+      </p>
+            <p xml:id="FrMS88-e68960-d1e389">
+               <lb ed="#V" n="115"/>¶ 2o de intellectu qui intelligit aliquod obiectum non existens: 
+      <lb ed="#V" n="116"/>et tamen respectus realiter est actus ad obiectum.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e396">
+      ¶ 3o quia motus est ens 
+      <lb ed="#V" n="117"/>reale et habet prius et posterius: sed quando est pars quo dicitur prior non est poste 
+      <lb ed="#V" n="118"/>rior quo dicitur terminus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e403">
+      ¶ 4o similiter dubitatur dicet tempore.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e406">
+      ¶ Ad  
+      <lb ed="#V" n="119"/>pria duo de actu intelligendi et volendi dico. quod in eis respectu 
+      <lb ed="#V" n="120"/>obiectorum non est necessario ponere respectum actualen 
+      <lb ed="#V" n="121"/>et formalem: sed sufficit fundamentalis loquendo de 
+      ab<lb ed="#V" n="122" break="no"/>stractiuis.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e417">
+      ¶ Ad 3m et ad 4m de tempore et de motu dico. quod 
+      <lb ed="#V" n="123"/>numquam prioritas et posterioritas habent esse plus in rerum 
+      <lb ed="#V" n="124"/>nura quam partes motus vel temporis. non videtur autem quod 
+      aliqua<lb ed="#V" n="125" break="no"/>pars motus vel temporis sit in rerum natura: sed fuge ad 
+      funda<lb ed="#V" n="126" break="no"/>mentales.
+    </p>
+            <p xml:id="FrMS88-e68960-d1e428">
+      ¶ Ad argumentum patet. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

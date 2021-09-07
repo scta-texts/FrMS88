@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f52605"><!-- l4d11q8 -->
+            <head xml:id="FrMS88-f52605-Hd1e108">Quaestio 8</head>
+            <p xml:id="FrMS88-f52605-d1e111">
+               <lb ed="#V" n="90"/>QUarta questio est. vtrum 
+      il<lb ed="#V" n="91" break="no"/> la que 
+      con<lb ed="#V" n="92" break="no"/>ueniunt corpori christi in cruce conueniant sid 
+      <lb ed="#V" n="93"/>bi in pixide scilicet si fuit nudatum in pixide 
+      si<lb ed="#V" n="94" break="no"/>cut fuit in cruce. 
+    </p>
+            <p xml:id="FrMS88-f52605-d1e124">
+               <lb ed="#V" n="95"/>Respondeo et dico quod omnes respectus priores vbi 
+      <lb ed="#V" n="96"/> insunt vtrobique et sic fuisset sine 
+      <lb ed="#V" n="97"/>vestimentis scilicet in hostia. sed expoliatur extra.
+    </p>
+            <p xml:id="FrMS88-f52605-d1e133">
+      ¶ Secunda 
+      <lb ed="#V" n="98"/>difficultas de coronatione.
+    </p>
+            <p xml:id="FrMS88-f52605-d1e138">
+      ¶ Dico quod coronatur. dicit 
+      comuniun<lb ed="#V" n="99" break="no"/>ctionem localem: et est posterior vbi. et ideo non fuisset in ho 
+      <lb ed="#V" n="100"/>stia. sed illa eadem vulnera fuissent in hostia.
+    </p>
+            <p xml:id="FrMS88-f52605-d1e146">
+      ¶ Tertio 
+      <lb ed="#V" n="101"/>difficultas de crucifixione.
+    </p>
+            <p xml:id="FrMS88-f52605-d1e151">
+      ¶ Dico quod dicit coniunctionem cum 
+      <lb ed="#V" n="102"/>cruce: et sit crux non fuisset in pixiste. sed dolor et 
+      diui<lb ed="#V" n="103" break="no"/>sio continui fuisset ibi: vnde et etiam habuisset ibi vulnus 
+      <lb ed="#V" n="104"/>in pixide. sed non fuisset ibi vulneratus inquantum dicit conium 
+      <lb ed="#V" n="105"/>ctionem ferri cum latere: quia est posterior vbi: sed vulnus dere 
+      <lb ed="#V" n="106"/>lictum ibi fuisset et dolor et omnia talia: licet non vt ibi inflicta.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

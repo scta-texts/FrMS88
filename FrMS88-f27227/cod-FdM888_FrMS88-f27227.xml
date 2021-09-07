@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 9</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 9</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f27227"><!-- l3d1q9 -->
+            <head xml:id="FrMS88-f27227-Hd1e108">Quaestio 9</head>
+            <p xml:id="FrMS88-f27227-d1e111">
+      Questio. ix. 
+      <lb ed="#V" n="79"/>NOno quero Utrum incarnatio
+      <lb ed="#V" n="80"/>secundum quod proprie 
+      acci<lb ed="#V" n="81" break="no"/>ditur fundetur in aliquo supposito: de cum 
+      <lb ed="#V" n="82"/>lus essentia sit anima rationalis. Et arguitur quod 
+      <lb ed="#V" n="83"/>Ui sic: quia in symbolo Athanasii: sicut anima 
+      ro<lb ed="#V" n="84" break="no"/>nalis et caro vnus est homo: ita deus et homo vnus est 
+      <lb ed="#V" n="85"/>christus. sed vnio anime ad carnem fundatur in composito carnis. 
+      <lb ed="#V" n="86"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-f27227-d1e131">
+      ¶ Contra. quia Ambrosius dicit quod idem fuit 
+      cor<lb ed="#V" n="87" break="no"/>pus christi de virgine sumptum et in sepulchro positum. sed in 
+      <lb ed="#V" n="88"/>triduo non fuit vnio ad hominem. ergo etc. 
+      <lb ed="#V" n="89"/>videndum est. quid sit caro. Dicunt 
+      qui<lb ed="#V" n="90" break="no"/>Hic primo dam quod caro et os non differunt nisi 
+      <lb ed="#V" n="91"/>secundum qualitatem: vnde non differunt quiditatiue: sed qualitatiue 
+      <lb ed="#V" n="92"/>tantum.
+    </p>
+            <p xml:id="FrMS88-f27227-d1e147">
+      ¶ Sed contra. quia secundum hoc caro non esset nisi qualitas: et 
+      <lb ed="#V" n="93"/>tunc vel esset in anima: sicut in subiecto: vel in materia prima: sed 
+      <lb ed="#V" n="94"/>vtrumque est falsum et impossibile. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f27227-d1e154">
+      ¶ Item non 
+      assum<lb ed="#V" n="95" break="no"/>psit accidens nisi mediante subiecto: sed assumpsit immediate 
+      <lb ed="#V" n="96"/>carnem. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f27227-d1e162">
+      ¶ Alii dicunt quod caro est effectus 
+      for<lb ed="#V" n="97" break="no"/>malis anime rationalis.
+    </p>
+            <p xml:id="FrMS88-f27227-d1e167">
+      ¶ Sed contra primo: quia omnis effectus 
+      for<lb ed="#V" n="98" break="no"/>malis continet essentialiter suam causam: sed nihil quod continetur 
+      <lb ed="#V" n="99"/>in aliquo essentialiter continnet illud vixtualiter: igitur anima si est 
+      <lb ed="#V" n="100"/>de essentia carnis non est causa. eius formalis: nec 
+      caro<lb ed="#V" n="101" break="no"/>eius effectus.
+    </p>
+            <p xml:id="FrMS88-f27227-d1e178">
+      ¶ Item 2o: omnis causa formalis est de 
+      essen<lb ed="#V" n="102" break="no"/>tia sui effectus: sicut albedo de essentia albi: sed compositum 
+      <lb ed="#V" n="103"/>est effectus in genere substantie: cum non sint nisi tria in 
+      sup<lb ed="#V" n="104" break="no"/>posito scilicet materia forma et compositum. nec mateam nec forma 
+      di<lb ed="#V" n="105" break="no"/>ti possunt effectus.
+    </p>
+            <p xml:id="FrMS88-f27227-d1e189">
+      ¶ Item 3o. omnis causa prior naturaliter est 
+      <lb ed="#V" n="106"/>suo effectu: sed anima rationalis in composito est posterior 
+      car<lb ed="#V" n="107" break="no"/>ne: igitur caro non est eius effectus formalis.
+    </p>
+            <p xml:id="FrMS88-f27227-d1e196">
+      ¶ Item 4o. 
+      <lb ed="#V" n="108"/>omnis effectus formalis est nobilior sua causa: quia eam essen 
+      <lb ed="#V" n="109"/>tialiter continet et aliquid addit illi: sed anima non potest esse 
+      <lb ed="#V" n="110"/>ignobilior carne. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f27227-d1e205">
+      ¶ Item 5to. nulla causa potest 
+      im<lb ed="#V" n="111" break="no"/>formare suum effectum formalem nec alium: sed anima informat 
+      <lb ed="#V" n="112"/>carnem. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f27227-d1e213">
+      ¶ Item co. quia secundum hoc caro esset incorrupti 
+      <lb ed="#V" n="113"/>bilis per naturam: quia illud est incorruptibile: de cuius essen 
+      <lb ed="#V" n="114"/>tia est aliquid incorruptibile: sed anima est incorruptibilis: et 
+      <lb ed="#V" n="115"/>est de essentia carnis. ergo etc. Iccirco dico quod caro non est 
+      <lb ed="#V" n="116"/>huiusmodi sed est aliquid ex prima mateam et forma carnis: que dat ma 
+      <lb ed="#V" n="117"/>terie prime esse carnem: sicut anima rationalis dat corpori 
+      orga<lb ed="#V" n="118" break="no"/>nico esse hominem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

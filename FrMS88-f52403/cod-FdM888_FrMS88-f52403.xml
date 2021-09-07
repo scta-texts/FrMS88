@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f52403"><!-- l4d11q7 -->
+            <head xml:id="FrMS88-f52403-Hd1e108">Quaestio 7</head>
+            <p xml:id="FrMS88-f52403-d1e111">
+               <lb ed="#V" n="36"/>Tertio quaeritur vtrum christo in eucharistia 
+      <lb ed="#V" n="37"/>conueniant actiones 
+      transeun<lb ed="#V" n="38" break="no"/>tes.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e120">
+      ¶ Et videtur quod non: quia sunt 
+      accidentia<lb ed="#V" n="39" break="no"/>quae sibi non conueniunt.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e125">
+      ¶ Contra. quia ex 
+      pleni<lb ed="#V" n="40" break="no"/>tudine perfectionis insunt. 
+      <lb ed="#V" n="41"/>intelligendum quod in homine sunt quatuor poentie. 
+      <lb ed="#V" n="42"/>hic ct actiue. Alique sunt mere naturales: vt 
+      humi<lb ed="#V" n="43" break="no"/>ditas et frigiditas. Alie sunt virtuales vt nutritiue et 
+      aug<lb ed="#V" n="44" break="no"/>mentatiue. Alie sunt animales: vt audire et videre. Alie vero 
+      <lb ed="#V" n="45"/>rationales vt intelligere et velle.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e141">
+      ¶ secundum igitur hoc sunt hic 
+      <lb ed="#V" n="46"/>quatuor conclusiones.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e147">
+      ¶ Prima est quod primas actiones non habet quia 
+      <lb ed="#V" n="47"/>potentia naturalis agit secundum situm. ibi autem non est ordo secundum situm 
+      <lb ed="#V" n="48"/>vt dictum est.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e154">
+      ¶ Secunda conclusio quod quantum ad potentias vegeta. 
+      <lb ed="#V" n="49"/>tiuas nihil potest ibi facere. quia tales non agunt nisi praemissis 
+      <lb ed="#V" n="50"/>naturalibus de quibus dictum est quod non possunt ibi esse.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e161">
+      ¶ 2o quia agunt 
+      <lb ed="#V" n="51"/>cum transmutatione materiali sed talis non conuenit corpori christi in 
+      <lb ed="#V" n="52"/>sacramento. cum non habeat ibi situm.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e168">
+      ¶ Tertia conclusio quod nec ibi sib 
+      <lb ed="#V" n="53"/>conueniunt actiones sensitiue. quia tales sunt secundum situm modo 
+      <lb ed="#V" n="54"/>materiali.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e175">
+      ¶ Quarta conclusio quod actiones intellectuales sunt ibi vt 
+      <lb ed="#V" n="55"/>dicere et spirare: quia tales potentie non requirunt situm in agendo. 
+      </p>
+            <p xml:id="FrMS88-f52403-d1e180">
+               <lb ed="#V" n="56"/>¶ Contra primam. quia ibi est actiuum naturale et passiuum 
+      appro<lb ed="#V" n="57" break="no"/>ximatum debite. sed tunc sequitur operatio necessario.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e188">
+      ¶ Contra 
+      se<lb ed="#V" n="58" break="no"/>cundam. quia corpus christi naturale mansisset ibi in perpetuum naturaliter 
+      si<lb ed="#V" n="59" break="no"/>ne corruptione: quod videtur inconueniens esse sine miraculo. quia 
+      <lb ed="#V" n="60"/>corruptio videtur esse per actionem qualitatum et ita sine 
+      miracule<lb ed="#V" n="61" break="no"/>permansisset incorruptum.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e199">
+      ¶ Ad primum dico quod approximatio 
+      <lb ed="#V" n="62"/>debita in actione philosophica est secundum situm.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e204">
+      ¶ Ad aliud dico 
+      <lb ed="#V" n="63"/>quod non est inconueniens quod sic mansisset incorruptum.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e209">
+      ¶ Sed 
+      <lb ed="#V" n="64"/>occurrit difficultas si deus potest collocare mortuum corpus in 
+      <lb ed="#V" n="65"/>sepulchro quod in perpetuum materiaeret incorruptibile.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e216">
+      ¶ 
+      Di<lb ed="#V" n="66" break="no"/>co quod eo modo potest collocare quo collocauit corpus christi 
+      <!--400.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>in hostia. ita quod esset totum in sepulchro et in qualibet per 
+      <lb ed="#V" n="68"/>te eius. et tunc nullum agens potest in ipsum agere actione 
+      <lb ed="#V" n="69"/>philosophica: et sic numquam induceret formam incompossibilem ilii.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e232">
+      ¶ 2am 
+      <lb ed="#V" n="70"/>difficultas si deus collocaret sic homines in vnum locum: si 
+      indigin<lb ed="#V" n="71" break="no"/>rent nutrimento.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e240">
+      ¶ Dico quod non quia nulla deperditio 
+      pe<lb ed="#V" n="72" break="no"/>ibi fieri sed totum dependet a per miraculo.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e245">
+      ¶ Tertia difficultas 
+      <lb ed="#V" n="73"/>si deus poneret corpus corruptibile extra mundum si 
+      cor<lb ed="#V" n="74" break="no"/>rumperetur.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e252">
+      ¶ Dico quod non corrumperetur. quia non foret 
+      influen<lb ed="#V" n="75" break="no"/>tia corrumpens.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e257">
+      ¶ Quarta difficultas si in vacuo poneretur ser 
+      <lb ed="#V" n="76"/>corrumperetur.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e262">
+      ¶ Dico quod vel illud corpus esset animatum: vel 
+      sin<lb ed="#V" n="77" break="no"/>plex: vel mixtum. Si simplex non corrumperetur: quia nullum 
+      <lb ed="#V" n="78"/>agens attingeret illud: quia corpora celestia semper 
+      transmu<lb ed="#V" n="79" break="no"/>tant medium priusquam ad aliquid distans attingant.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e271">
+      ¶ Item 
+      <lb ed="#V" n="80"/>nulla influentia potest esse in vacuo: quia tunc accidens esset sine 
+      <lb ed="#V" n="81"/>subiecto.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e279">
+      ¶ Si fit mixtum tunc videretur quod praedominans corrum 
+      <lb ed="#V" n="82"/>pere possit: sed si elementa non marent in mixto. videtur quod per 
+      <lb ed="#V" n="83"/>tes possint se sic alterare quod corpus non esset sufficienter 
+      <lb ed="#V" n="84"/>receptiuum anime rationalis: et aia separaretur.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e288">
+      ¶ Sed quid intro 
+      <lb ed="#V" n="85"/>ducet tunc formam cadaueris: cum corpus celeste tunc non 
+      <lb ed="#V" n="86"/>influat:
+    </p>
+            <p xml:id="FrMS88-f52403-d1e295">
+      ¶ Dico quod si ponantur plures forme. patet ex hoc 
+      <lb ed="#V" n="87"/>quod vna remaneret: sed si sit vna sola forma. tunc ex. 
+      pu<lb ed="#V" n="88" break="no"/>ris naturalibus remanet materia sine forma.
+    </p>
+            <p xml:id="FrMS88-f52403-d1e302">
+      ¶ Et hoc videtur 
+      de<lb ed="#V" n="89" break="no"/>monstrare contra illos qui ponunt tantum vnam formam.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

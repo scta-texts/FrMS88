@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="170-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f28083"><!-- l3d3q1 -->
+            <head xml:id="FrMS88-f28083-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f28083-d1e111">
+               <lb ed="#V" n="87"/>Queritur etiam de carne verbi etc. 
+      <lb ed="#V" n="88"/>CIrca 3am distinctionem quero primo. Utrum 
+      <lb ed="#V" n="89"/>beata virgo fuerit scinficata. 
+      <lb ed="#V" n="90"/>Quod non. Apostolus dicit quod omnes sumus natura f 
+      <lb ed="#V" n="91"/>lii ire: sed beata virgo fuit ab Adam per 
+      pro<lb ed="#V" n="92" break="no"/>pagationem: ergo. scificatio enim 
+      repu<lb ed="#V" n="93" break="no"/>gnat ire.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e129">
+      ¶ Sed contra. in praes dicitur. 
+      sanctifica<lb ed="#V" n="94" break="no"/>uit tabinaculum suum altissimus.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e134">
+      ¶ hic 
+      <lb ed="#V" n="95"/>sunt. x. artitum declarandi: quorum primus 
+      <lb ed="#V" n="96"/>est: quid sit scieitas.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e141">
+      ¶ Secundus quid est scinficatio.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e145">
+      ¶ Tertius 
+      <lb ed="#V" n="97"/>qure matr dei fuit scificata.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e150">
+      ¶ Quartus quando.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e153">
+      ¶ Quintum 
+      <lb ed="#V" n="98"/>vbi.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e158">
+      ¶ Sextus a quibus.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e161">
+      ¶ Septimus quibus fuit 
+      san<lb ed="#V" n="99" break="no"/>ctificata.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e166">
+      ¶ Octauus quantum de sanctificatione habuit. 
+      </p>
+            <p xml:id="FrMS88-f28083-d1e170">
+               <lb ed="#V" n="100"/>¶ Nonus quotiens.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e175">
+      ¶ Decimus qualiter. 
+      <lb ed="#V" n="101"/>primus articulus quid sit scienitas. Dicunt 
+      <lb ed="#V" n="102"/>Est igitur quidam quod sanctitas est abnegatio mun 
+      <lb ed="#V" n="103"/>danorum: vnde sanctus dicitur. quasi sine terra vel sine affectione 
+      <lb ed="#V" n="104"/>terrenorum.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e186">
+      ¶ Contra. quia patriarche: et primi patres et reges 
+      <lb ed="#V" n="105"/>fuerunt scientia: et tamen multi dilexerunt terrena et optauerunt es 
+      <lb ed="#V" n="106"/>obtinuerunt.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e193">
+      ¶ Ideo dicunt alii. quod sanctitas nihil aliud 
+      <lb ed="#V" n="107"/>est quam gratia divina: qui enim habet gratiam diuinam sanctus est.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e198">
+      ¶ Sed 
+      <lb ed="#V" n="108"/>contra. quia pueri statim post baptismum habent gratiam diuinara: 
+      <lb ed="#V" n="109"/>et tamen non dicuntur sancti.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e205">
+      ¶ Ideo dicunt alii. quod scientas est 
+      <lb ed="#V" n="110"/>ipsa beatitudo: vnde beati proprie dicuntur scienti.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e211">
+      ¶ Contra. quia san 
+      <lb ed="#V" n="111"/>ctitas est virtus que cadit sub consilio: sed beatitudo non potest 
+      <lb ed="#V" n="112"/>cadere sub consilio: nec sub praecepto cum sit nobis impossibilis. 
+      </p>
+            <p xml:id="FrMS88-f28083-d1e218">
+               <lb ed="#V" n="113"/>¶ Dicendum igitur. quod scientas est excellentia virtutum 
+      theologi<lb ed="#V" n="114" break="no"/>carum et heroicarum: quando enim aliquis homo fidem specie et charita 
+      <lb ed="#V" n="115"/>tem: et ceteras virtutes morales in quaedam excellentia habet:. 
+      <lb ed="#V" n="116"/>tunc dicitur sanctus: quia tunc magis secundum operationes videtur esse 
+      fi<lb ed="#V" n="117" break="no"/>lius dei quam filius hominis.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e231">
+      ¶ Sed circa hoc sunt duo videre 
+      <lb ed="#V" n="118"/>da.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e236">
+      ¶ Primum si virtus heroyca vel heroya: que hoc dicitur si 
+      <lb ed="#V" n="119"/>ctitas sit vna virtus tantum vel plures. Secundo si bestialitas 
+      <lb ed="#V" n="120"/>que virtuti heroyce opponitur sit tantum vnum vitium vel 
+      plu<lb ed="#V" n="121" break="no"/>ra.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e245">
+      ¶ Quantum ad primum notandum est. quod secundum philosophum virtus est 
+      <lb ed="#V" n="122"/>certa pugna passionum. vbi oportet ostendere 4or per ordinem 
+      <lb ed="#V" n="123"/>que faciunt virtutes 4or: circa que etiam sunt quatuor vitia op 
+      <lb ed="#V" n="124"/>posita illis virtutibus.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e254">
+      ¶ Primi enim qui pugnant cum 
+      <lb ed="#V" n="125"/>passionibus dicuntur perseuerantes: quia in pugna nec 
+      vin<lb ed="#V" n="126" break="no"/>cunt passiones: nec ab eis vincuntur.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e262">
+      ¶ Secundi autem 
+      dicun<lb ed="#V" n="127" break="no"/>tur continentes: quia in pugna vincunt passiones: sed cum diffifuit 
+      <lb ed="#V" n="128"/>ficultate: et post longam agoniam.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e269">
+      ¶ Tertii dicuntur tempe 
+      <lb ed="#V" n="129"/>rati: quia leuiter et faciliter vincunt passiones et suprant: et 
+      ta<lb ed="#V" n="130" break="no"/>les proprie dicuntur virtuosi. Primi vero et secundi largo modo 
+      <lb ed="#V" n="131"/>dicuntur virtuosi: sed non proprie.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e278">
+      ¶ Quarti vero 
+      <!--343.xml-->
+      <pb ed="#V" n="170-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/> 
+               <lb ed="#V" n="2"/>dicuntur heroyci: quia nihil sentiunt passiones: quia per cre 
+      <lb ed="#V" n="3"/>bras victorias praecedentes talis factus est totus diuinus: 
+      <lb ed="#V" n="4"/>ita quod omnis sua operatio circa virtutes sit diuina: et secundum istam 
+      <lb ed="#V" n="5"/>positionem virtus heroyca est tantum vna virtus 
+      particula<lb ed="#V" n="6" break="no"/>ris aliis virtutibus condiuisa.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e300">
+      ¶ Sed contra. virtutes que 
+      <lb ed="#V" n="7"/>que sunt circa passiones tactus sunt minime: vnde fortitu 
+      <lb ed="#V" n="8"/>do que est circa passionem concupiscibilem est perfectior 
+      vir<lb ed="#V" n="9" break="no"/>tus quam temperantia: ergo circa passiones tactus non potest 
+      <lb ed="#V" n="10"/>poni virtus maxima. sed sanctitas: et virtus heroyca est 
+      <lb ed="#V" n="11"/>maxima virtutum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e313">
+      ¶ Dicendum quod virtus heroyca non est 
+      <lb ed="#V" n="12"/>vna modo praedicto: sed dicit gradum excellentem omnium 
+      vir<lb ed="#V" n="13" break="no"/>tutum necessariarum ad salutem: vnde virtus heroyca est 
+      excel<lb ed="#V" n="14" break="no"/>lentia virtutis circa pugnam passionum: quia deficiente ex 
+      <lb ed="#V" n="15"/>cellentia solius virtutis circa aliquam virtutem 
+      passio<lb ed="#V" n="16" break="no"/>num non esset quis heroycus vel sanctus.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e326">
+      ¶ Quantum vero 
+      <lb ed="#V" n="17"/>ad 2m notandum est quod bestialitas est vitium oppositum 
+      <lb ed="#V" n="18"/>virtuti heroyce: quia dicit excessum vitii circa quamlibet 
+      <lb ed="#V" n="19"/>passionem: vnde imperseuerantes dicuntur: qui cum modica 
+      pu<lb ed="#V" n="20" break="no"/>gna vincuntur a passionibus: incontinentes qui cito 
+      succun<lb ed="#V" n="21" break="no"/>bunt passioni. intemparati qui praeueniunt passionem. 
+      bestia<lb ed="#V" n="22" break="no"/>les qui vltra humanam malitiam et modum humanum se 
+      <lb ed="#V" n="23"/>extendunt ad peccata: sicut narrat philosophus quod bestiales erans 
+      <lb ed="#V" n="24"/>qui comedebant pueros: sic circa omne vitium bestialis dicitur 
+      <lb ed="#V" n="25"/>qui excedit in illo vitio humanam malitiam: sicut in 
+      ira<lb ed="#V" n="26" break="no"/>qui statim patrem et matrem occiderit: sicut in gula qui 
+      <lb ed="#V" n="27"/>semper ebrius est. in inuindia gratis odire etc.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e353">
+      ¶ Nonndum 
+      <lb ed="#V" n="28"/>tamen quod licet ad heroycum requratur virtus modo dicto: tamen ad 
+      <lb ed="#V" n="29"/>destialem sufficit excessus vitii circa vnum: eo quod ad virtu 
+      <lb ed="#V" n="30"/>tem requratur necessario multe condictiones. 
+      <lb ed="#V" n="31"/>est quid est 
+      sanctifi<lb ed="#V" n="32" break="no"/>Secundus articulus catio. vbi 
+      scien<lb ed="#V" n="33" break="no"/>dum quod sanctificatio accipitur 4or modis.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e369">
+      ¶ Primo eni 
+      <lb ed="#V" n="34"/>pro dedieatione latrie. vt Gen. 2o. Dsptendixit deus diei se 
+      <lb ed="#V" n="35"/>ptimo et scificauit illum id est cultui latrie dedicauit.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e376">
+      ¶ 2o 
+      <lb ed="#V" n="36"/>pro perfectione iustitie leuitici. io. de nadab et abiu. 
+      scintfi<lb ed="#V" n="37" break="no"/>cabor in eis scilicet exercendo iustitie vltimonem.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e383">
+      ¶ 3o pro 
+      colla<lb ed="#V" n="38" break="no"/>tione gratie: vnde Aposutls: christus scificauit nos lauacro. Item vt 
+      <lb ed="#V" n="39"/>scificauit pplicitum suum proprio sanguine.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e390">
+      ¶ 4o sumitur pro 
+      re<lb ed="#V" n="40" break="no"/>muneratione glerie: vnde Io. scinfica eos in veritate scilicet ad 
+      <lb ed="#V" n="41"/>ad gloriam: sed mater disfuni fuit scificata tertio modo proprie secundum 
+      <lb ed="#V" n="42"/>quod accipitur pro collatione gratie. et quarto glorie. 
+      <lb ed="#V" n="43"/>est: quare mater dimuni fuit 
+      <lb ed="#V" n="44"/>Tertius articulus sctiicata.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e403">
+      ¶ Ubi no 
+      <lb ed="#V" n="45"/>tandum quod in scripturis inuenimus quinque signa scificatio 
+      <lb ed="#V" n="46"/>nis.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e411">
+      ¶ Primum signum est diuine scripture attestatio: et 
+      <lb ed="#V" n="47"/>in isto signo inuenimus 4or personas scificatas scilicet Isaiam: 
+      <lb ed="#V" n="48"/>dieremiam: Ioan. baptistam et christum: de primo. disequenus ab 
+      vte<lb ed="#V" n="49" break="no"/>ro vocauit me. Item noui te ex nomine. quod non potest 
+      intelligi<lb ed="#V" n="50" break="no"/>nisi ex sanctificatione. De hieremia dicitur hiere. prae priusquam 
+      <lb ed="#V" n="51"/>formarem te in vtero etc. De Io. baptista et christo. Tuce 
+      pram<lb ed="#V" n="52" break="no"/>spiritu sco replebitur adhuc exutero etc. Item virtus 
+      altissi<lb ed="#V" n="53" break="no"/>mi obumbrabit tibi.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e429">
+      ¶ Secundum signum est diuina 
+      pronuncia<lb ed="#V" n="54" break="no"/>tio: vnde Ambro. super lucam. habent hoc sanctorum merita: vt a 
+      <lb ed="#V" n="55"/>deo nomen accipiant. Primus fuit Isaac. Secundus Iosias. 
+      <lb ed="#V" n="56"/>Tertius Io. baptista. Quartus fuit christus. De per Gen. 
+      <lb ed="#V" n="57"/>vocauit nomen eius Isaac. De 2o 3o regum. filius nascer 
+      <lb ed="#V" n="58"/>domui dauid nomine Iosias. De 3o et 4o Luce primo. et matth. 
+      <lb ed="#V" n="59"/>i.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e445">
+      ¶ Tertium signum est angelica annunciatio et secundum hoc 
+      <lb ed="#V" n="60"/>inuenimus in scriptura 4or personas scinificatas scilicet Isaac: 
+      <lb ed="#V" n="61"/>Sansonem: Io. bap. et christum. De his omnibus gene. iudi. et 
+      <lb ed="#V" n="62"/>luce.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e454">
+      ¶ Quartum signum fuit miraculosa conceptio. et hic 
+      <lb ed="#V" n="63"/>fuerunt quinque. Quorum primus Isaac de Sara. Secundus ina 
+      <lb ed="#V" n="64"/>cob de Rebecca. Tertius Samuel de Anna. 
+      Quar<lb ed="#V" n="65" break="no"/>tus Io. baptista de helisabeth. Quintus christus de 
+      virgi<lb ed="#V" n="66" break="no"/>ne maria.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e465">
+      ¶ Quintum signum. est supenaturalis formatio: et 
+      <lb ed="#V" n="67"/>fuerunt quatuor. Primus fuit lucifer: qui secundum aliquos fuit 
+      <!--343.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="68"/>creatus in gratia: vnde christus in euangelio nunquam legitur contra 
+      <lb ed="#V" n="69"/>aliquem curasse supenaturaliter quantum ad corpus quem in 
+      <lb ed="#V" n="70"/>etiam non curauit supenaturaliter quantum ad animam. 
+      Iccin<lb ed="#V" n="71" break="no"/>co formatio supernaturalis aliquorum videtur importare priuile 
+      <lb ed="#V" n="72"/>gium alicuius gratie: licet forte non sint de se sufficientes 
+      si<lb ed="#V" n="73" break="no"/>ne proprio conatu ad merendam gratiam angelicam. Secundus 
+      <lb ed="#V" n="74"/>fuit Adam. Tertius Cua. Quartus christus: mater autem 
+      <lb ed="#V" n="75"/>consequeni quatuor prima signa scificationis habuit: sed quintum 
+      <lb ed="#V" n="76"/>sibi christus specialiter retinuit: fuit igitur beata virgo sanctifi 
+      <lb ed="#V" n="77"/>cata quantum ad primum signum testimonio diuine 
+      scri<lb ed="#V" n="78" break="no"/>pture attestante praes. sanctificabit tabernaculum suum 
+      al<lb ed="#V" n="79" break="no"/>tissimus: et illud fundamenta eius in modtibus sanctis: 
+      <lb ed="#V" n="80"/>et illud. gleniosa dicta sunt de teciuitas dei: que omnia 
+      expo<lb ed="#V" n="81" break="no"/>nuntur de beata virgine.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e504">
+      ¶ Item 2o fuit a deo prienominata: 
+      <lb ed="#V" n="82"/>vt dicunt hystorie: vnde mater eius accepit oraculum: quod 
+      <lb ed="#V" n="83"/>pareret filiam sanctam: cuius nomen esset maria. ideo 
+      ma<lb ed="#V" n="84" break="no"/>ter eius tres filias habuit quas omnes vocauit hoc nomine. scilicet 
+      <lb ed="#V" n="85"/>maria: ne deficeret quod optabat: licet mater dei fuerit 
+      pri<lb ed="#V" n="86" break="no"/>mogenita.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e518">
+      ¶ Item 3o. per angelum fuit praenunciata pri et 
+      <lb ed="#V" n="87"/>matri cuilibet eorum seorsum: vt legitur et prie creditur.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e523">
+      ¶ Item 
+      <lb ed="#V" n="88"/>4o. miraculose fuit concepta: quoniam ante eius partum mudr 
+      <lb ed="#V" n="89"/>eius Anna fuit infecunda: licet alias filias naturaliter genuerit. 
+      </p>
+            <p xml:id="FrMS88-f28083-d1e530">
+               <lb ed="#V" n="90"/>¶ Sed contra. ista 4or signa instatur.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e535">
+      ¶ Primo sic: quia Is 
+      <lb ed="#V" n="91"/>mael sicut et Isaac fuit per angelum nunciatus abrae: et 
+      <lb ed="#V" n="92"/>tamen Ismael non fuit sanctus sed pessimus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e542">
+      ¶ Secundo 
+      <lb ed="#V" n="93"/>quia eque conceptus Esau et Iacob fuit nunciatus: et tamen 
+      <lb ed="#V" n="94"/>scriptum est quod Esau odio habuit.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e549">
+      ¶ Item 3o. quia Cirus 
+      <lb ed="#V" n="95"/>fuit prenominatus: sicut iosias. Isaias. hec dicit dicuns christo 
+      <lb ed="#V" n="96"/>meo ciro.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e557">
+      ¶ Item 4o. quia Anna cum Samuele alios 
+      fi<lb ed="#V" n="97" break="no"/>ios habuit: qui tamen non fuerunt sancti: licet supnaturaliter et 
+      mi<lb ed="#V" n="98" break="no"/>raculose fuerunt geniti seu concepti. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e564">
+      ¶ Ad primum dico. 
+      <lb ed="#V" n="99"/>quod Ismael fuit prenunciatus in malum non in bonum: sicut 
+      <lb ed="#V" n="100"/>sequentia manifestant: vnde et sequitur. Manus eius 
+      contra<lb ed="#V" n="101" break="no"/>omnes etc. ipse erit homo ferus: et eregione contra fratres 
+      <lb ed="#V" n="102"/>suos figet tabernacula.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e575">
+      ¶ Ad 2m dico. quod in inacob fuit 
+      <lb ed="#V" n="103"/>lispesatio specialis voluntatis diuine: vt tenetur: vt eius 
+      <lb ed="#V" n="104"/>merita diis acceptarentur: et Esau odio haberentur.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e582">
+      ¶ Ad 
+      <lb ed="#V" n="105"/>im dico. quod in principio fuit bonus sed malum exitum 
+      ha<lb ed="#V" n="106" break="no"/>buit. Vel est dicendum quod non propter se fuit prenunciatus 
+      so<lb ed="#V" n="107" break="no"/>lum: sed propter sanctitatem aliorum ad quam eius 
+      regimen<lb ed="#V" n="108" break="no"/>ordinauerat: quia quod reedificaretur hierusalem.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e593">
+      ¶ Ad 4m 
+      <lb ed="#V" n="109"/>dicendum. quod Samuel conceptus fuit miraculose: non 
+      ta<lb ed="#V" n="110" break="no"/>men alii filii sequentes: quia que prius infecunda extitit 
+      <lb ed="#V" n="111"/>postea naturaliter concipere potuit. 
+      <lb ed="#V" n="112"/>fuit. quando fuit 
+      scintfica<lb ed="#V" n="113" break="no"/>Quartus articulus ta. Quidam dicunt 
+      <lb ed="#V" n="114"/>quod in eodem instanti primo sue conceptionis vel infusionis 
+      <lb ed="#V" n="115"/>anime in corpore sed pro alio signo fuit concepta et scinficata. 
+      <lb ed="#V" n="116"/>Sed hoc totum fuit in eodem instanti temporis.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e613">
+      ¶ Sed contra. 
+      <lb ed="#V" n="117"/>quia indiuisibile secundum aliquam quantitatem non potest 
+      diuidi<lb ed="#V" n="118" break="no"/>secundum eandem: sed instans est indiuisibile secundum durationem. 
+      igi<lb ed="#V" n="119" break="no"/>tur impossibile est quod diuidatur. punctum enim diuidi in puncta 
+      <lb ed="#V" n="120"/>est punctum non esse indiuisibile secundum quantitatem 
+      dimensi<lb ed="#V" n="121" break="no"/>uam. Nec valet si obiiciatur quod punctus est principium linee 
+      <lb ed="#V" n="122"/>vnius et finis alterius: quia nihil prohibet aliquod 
+      indiuisi<lb ed="#V" n="123" break="no"/>bile diuidi non in se: sed in comparatione ad diuersos ter 
+      <lb ed="#V" n="124"/>minos ad quos refertur: quia tale diuidi non potest nisi 
+      fun<lb ed="#V" n="125" break="no"/>lando respectus distinctos.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e636">
+      ¶ Alii dicunt quod sanctificata 
+      <lb ed="#V" n="126"/>fuit non in primo instanti sed in tempore: sicut citius potuit. 
+      </p>
+            <p xml:id="FrMS88-f28083-d1e641">
+               <lb ed="#V" n="127"/>¶ Sed contra. quia creatio gratie est instantanea: aut igitur in 
+      in<lb ed="#V" n="128" break="no"/>stanti conceptionis virginis: aut in alio: si in eodem: hoc est 
+      <lb ed="#V" n="129"/>intentum: et est contra te: si in alio: ergo temprus medium 
+      inter<lb ed="#V" n="130" break="no"/>cessit in quo creari potuit et illud fuit diuisibile in 
+      infi<lb ed="#V" n="131" break="no"/>nitum: ergo semper potuit scificari antequam fuerit sanctifi 
+      <lb ed="#V" n="132"/>cata: quod non tenetur.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e657">
+      ¶ Sed notandum. quod deus potuit 
+      <lb ed="#V" n="133"/>sanctificare beatam virginem in tempore immediate sequente primum 
+      <!--344.xml-->
+      <pb ed="#V" n="171-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>instans sue conceptionis: quia instans non potest immediate 
+      se<lb ed="#V" n="2" break="no"/>qui instans: tamen hoc non decuit: quia tunc beata virgo habuis 
+      <lb ed="#V" n="3"/>set peccatum originale per vnum instans: licet in tempore toto 
+      sequen<lb ed="#V" n="4" break="no"/>ti fuisset sub scificatione.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e677">
+      ¶ Iccirco dicendum. quod beata virgo in 
+      <lb ed="#V" n="5"/>per instanti sue conceptionis fuit scificata.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e682">
+      ¶ Unde notandum 
+      <lb ed="#V" n="6"/>quod in eodem signo durationis sunt 4or signa naturae ordinata. 
+      </p>
+            <p xml:id="FrMS88-f28083-d1e687">
+               <lb ed="#V" n="7"/>¶ Primum. in quo corpus beatem marie vginis fuit 
+      orga<lb ed="#V" n="8" break="no"/>nizatum vltimate ad introducendam animam.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e695">
+      ¶ Secundum. in cuo 
+      <lb ed="#V" n="9"/>anima a deo fuit creata.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e700">
+      ¶ Tertium. in quo anima corpi 
+      fui<lb ed="#V" n="10" break="no"/>vnita.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e705">
+      ¶ Quartum. in quo fuit scinficata: quia in illo quarto 
+      <lb ed="#V" n="11"/>igno incurrisset peccatum originale: si peccatum originale 
+      conris<lb ed="#V" n="12" break="no"/>et: tamen hoc totum fuit in eodem instanti temporis. 
+      <lb ed="#V" n="13"/>est vbi beatam virgo ma 
+      <lb ed="#V" n="14"/>Quintus articulus ria fut secintficata. Di 
+      <lb ed="#V" n="15"/>cendum quod in matris vtero: et in 4or membris praencipalibus 
+      <lb ed="#V" n="16"/>siue partibus.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e721">
+      ¶ Primo in corpore vel in carne: ne vnquam 
+      ve<lb ed="#V" n="17" break="no"/>niale vel originale contraheret: eo quod peccatum est causaliter in 
+      car<lb ed="#V" n="18" break="no"/>ne: de carne enim venit inclinatio morbida et fomes praeccai. 
+      </p>
+            <p xml:id="FrMS88-f28083-d1e728">
+               <lb ed="#V" n="19"/>¶ Secundo. in anima vegetatiua: quia in prima scificatione scilicet ic 
+      <lb ed="#V" n="20"/>virgini contulit vim generatiuam christi.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e735">
+      ¶ Tertio. an anima 
+      intelle<lb ed="#V" n="21" break="no"/>ctiua: quia extitit supernaturaliter illuminata.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e741">
+      ¶ Quarto in 
+      vo<lb ed="#V" n="22" break="no"/>litiua: quia extitit charitate inflammata et gratia: que sunt in 
+      <lb ed="#V" n="23"/>voluntate subiectiue.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e748">
+      ¶ Sed dubium est: si beata virgo in 
+      vte<lb ed="#V" n="24" break="no"/>ro matris sue habuerit actus scificatos.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e753">
+      ¶ Dicendum quod licet de 
+      <lb ed="#V" n="25"/>ommuni lege scificati non habeant nisi habitus sicut paruuli in 
+      <lb ed="#V" n="26"/>paptismo habentes habitus virtutum et ornatus gratiarum in 
+      <lb ed="#V" n="27"/>nima non possunt in aliquos actus secundum illos habitus: tamen 
+      <lb ed="#V" n="28"/>creditur quod speciali modo maria habuit aliquos actus: 
+      <lb ed="#V" n="29"/>sicut Ioan. baptista exultauit in vtero propter christum 
+      <lb ed="#V" n="30"/>quando eum in spiritu cognouit supra naturam. 
+      <lb ed="#V" n="31"/>fuit. a quibus fuit 
+      scinfica<lb ed="#V" n="32" break="no"/>Sextus articulus ta. dico quod a tota 
+      trini<lb ed="#V" n="33" break="no"/>tate: quia eius opera ad extra sunt indiuisa: sed sua 
+      sancti<lb ed="#V" n="34" break="no"/>ficatio suit appropriata personis scilicet patri propter 
+      confir<lb ed="#V" n="35" break="no"/>mationem. filio propter diuine sapientie illustrationem. 
+      <lb ed="#V" n="36"/>spiritui sancto propter gratie diffusionem. 
+      <lb ed="#V" n="37"/>quibus beata virgo 
+      <lb ed="#V" n="38"/>Deptimus articulus maria fuit 
+      sctitfi<lb ed="#V" n="39" break="no"/>cata. Dicendum quod quatuor generibus personarum.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e788">
+      ¶ Primo scilicet 
+      ange<lb ed="#V" n="40" break="no"/>lis bonis: quia licet cuilibet persone sit deputatus vnus 
+      boni<lb ed="#V" n="41" break="no"/>angelus ad custodiam: tamen beatam virginem plures 
+      custodie<lb ed="#V" n="42" break="no"/>runt: vnde Aug. in ome. super illo verbo: inuenta est in vtero 
+      <lb ed="#V" n="43"/>habens etc. Inquit. ab angelis seruientibus: et ipsam 
+      custodien<lb ed="#V" n="44" break="no"/>tibus.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e801">
+      ¶ 2o demonibus: vnde Ambro. super luc. vt haec sacramentum 
+      <lb ed="#V" n="45"/>omniabolo celaretur: an scilicet christum virgo pareret.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e806">
+      ¶ 3o hominibus 
+      <lb ed="#V" n="46"/>bonis: vt patet de thadeo quae tot beneficia accepit a virgine: 
+      <lb ed="#V" n="47"/>vnde virgini familiaris in eius aspectu et familiaritate 
+      <lb ed="#V" n="48"/>maxime consolabantur.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e816">
+      ¶ 4o hominibus malis: quia nullus 
+      ipsa<lb ed="#V" n="49" break="no"/>male concupiscere potuit: sed magis mori in eius 
+      aspe<lb ed="#V" n="50" break="no"/>ctu concupiscentiam sentiebant refrigerio. 
+      <lb ed="#V" n="51"/>quetum beata virgo 
+      <lb ed="#V" n="52"/>Octauus articulus de btificatione 
+      ha<lb ed="#V" n="53" break="no"/>puit.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e829">
+      ¶ Dicendum quod sanctificatio fit secundum quadruplicem 
+      propor<lb ed="#V" n="54" break="no"/>tionem: quedam enim sctificatio que est a capacitate naturae 
+      di<lb ed="#V" n="55" break="no"/>minuta: et tamen est capacitati naturae proportionata: sicut est 
+      <lb ed="#V" n="56"/>scificatio angelorum: est enim diminuta: quia christus excellit 
+      an<lb ed="#V" n="57" break="no"/>gelos in merito est autem proportionata: quia secundum meritum 
+      ha<lb ed="#V" n="58" break="no"/>bent gratiam.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e842">
+      ¶ Item alia que est a capacitate diminuta: 
+      <lb ed="#V" n="59"/>et capacitati naturae improportionata: vt beati petri et 
+      alio<lb ed="#V" n="60" break="no"/>rum sctorum: essent enim capaces gratie: sicut beatam virgo: et 
+      ange<lb ed="#V" n="61" break="no"/>lus: tamen hoc potest plus et minus: cum tamen omnes secundum eandem propositr 
+      <lb ed="#V" n="62"/>tionem sint capaces.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e853">
+      ¶ Item alia est que est proportiona 
+      <lb ed="#V" n="63"/>la naturae et adequate: sed non vltimate consumata et perfecta 
+      <lb ed="#V" n="64"/>quia non est in summo sicut est scificatio virginis.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e860">
+      ¶ Item alia 
+      <lb ed="#V" n="65"/>que est adequata et naturae proportionata et vltimate 
+      perfecta<lb ed="#V" n="66" break="no"/>vt scinficatio christi que tanta fuit quantam sibi dare deus po¬ 
+      <!--344.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>tuit.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e873">
+      ¶ Sed contra ista per ordinem. primo quia omnis gratia angeli: 
+      <lb ed="#V" n="68"/>et per consequens gloria excedit gratiam hominum: qui gratiam accepe 
+      <lb ed="#V" n="69"/>runt secundum ornatum sue naturae: sed natam angeli excedit naturam 
+      <lb ed="#V" n="70"/>hominis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e883">
+      ¶ Dicendum quod licet angelus et ania christi differant 
+      <lb ed="#V" n="71"/>pecie: non tamen in potentiis: vt dictum est supra. Vel dicendum quod 
+      con<lb ed="#V" n="72" break="no"/>paratio proportionis attenditur secundum angelos tantum.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e890">
+      ¶ Item 2 
+      <lb ed="#V" n="73"/>videtur quod scti sunt diminuti a gratia: et per consequens a gloria. igitur 
+      <lb ed="#V" n="74"/>non habent gloriam: quia desiderant perfectiorem.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e897">
+      ¶ Dicendum quod 
+      su<lb ed="#V" n="75" break="no"/>ficit cuilibet sancto: quod habet de gloria propter obiectum beatificum 
+      <lb ed="#V" n="76"/>in quo non potest esse nisi omnis plenitudo: in quocumque 
+      gra<lb ed="#V" n="77" break="no"/>du actus habeatur.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e906">
+      ¶ Item 3o. quia beata virgo fuit ita capax 
+      <lb ed="#V" n="78"/>sicut christus: quia easdem in se habuit potentias.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e911">
+      ¶ Dicendum quod 
+      ar<lb ed="#V" n="79" break="no"/>ticulus dicit quod anima christi est nobilior anima petri in puris 
+      <lb ed="#V" n="80"/>naturalibus. Ideo oportet hoc concedere de omnibus aliis.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e918">
+      ¶ Item 4o. 
+      <lb ed="#V" n="81"/>quia aliquis de ordine luciferi nobilior est xpo quantum ad 
+      <lb ed="#V" n="82"/>naturam: ideo videtur quod maiori gearia vltimate perfici dabet.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e926">
+      ¶ Di 
+      <lb ed="#V" n="83"/>cendum est quod verum esset quantum ad naturam: non tamen quantum ad 
+      <lb ed="#V" n="84"/>potentias: vt dictum est. Unde notandum quod angeli in patria sicut 
+      <lb ed="#V" n="85"/>gratiam habent ad ornatum sue naturae: ita gratiam habent 
+      corrsponden<lb ed="#V" n="86" break="no"/>ter. Sed in hominibus non est sic: quia primus homo non meruit secundum per 
+      <lb ed="#V" n="87"/>fectionem suorum naturalium: ideo geria datur hominibus secundum arbitrium 
+      <lb ed="#V" n="88"/>divine voluntatis: tamen aliquo modo corrspondenter ad merita: et quod 
+      <lb ed="#V" n="89"/>christus summe deo placuit: ideo gratiam et gleriam in summo habuit. 
+      <lb ed="#V" n="90"/>quotiens fuit beatam virgo 
+      <lb ed="#V" n="91"/>Nonus articulus scinficata. Dicuendum quod 4a 
+      <lb ed="#V" n="92"/>vicibus. Primo. in sua sctam conceptione. Secundo. in verbi 
+      com<lb ed="#V" n="93" break="no"/>ceptione: Tuce primo. aue gratia plena. Tertio in s escilicet 
+      nissio<lb ed="#V" n="94" break="no"/>neractuum. 2. repleti sunt omnes spiritus scomo. Quarto in sua 
+      as<lb ed="#V" n="95" break="no"/>sumptione et gelerificatione. In prima autem scificatione fuit in 
+      <lb ed="#V" n="96"/>ea fomes extinctus siue praeuentus. In 2a autem totaliter 
+      extin<lb ed="#V" n="97" break="no"/>ctus. In 3a autem fuit gratia cumulata: in vltima autem 
+      vltima<lb ed="#V" n="98" break="no"/>te consumata.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e963">
+      ¶ Sed tunc est dubium: si in 2a fuit plena gratia 
+      <lb ed="#V" n="99"/>quantum tunc recepit in prima: et quare indiguit. 3a et 4a. Ubi est 
+      <lb ed="#V" n="100"/>dicedum quod in prima tantum de gratia habuit quantum sufficem potuit 
+      <lb ed="#V" n="101"/>et suffecit ad preuentionem culpe originalis. In 2a quantum ad 
+      <lb ed="#V" n="102"/>conceptionem filii dei: et hoc quia maius est: ideo dicitur plena gratia. 
+      <lb ed="#V" n="103"/>In 3a vero recepit gloriam in specie. In 4a recepit gleriam in 
+      <lb ed="#V" n="104"/>re: ideo fuit gratia consumata: non enim ante 4am sanctificata 
+      <lb ed="#V" n="105"/>fuit nisi in speie: in quarta autem fuit in 
+      re<lb ed="#V" n="106" break="no"/>est qualiter scinficata. 
+      <lb ed="#V" n="107"/>Secimus articulus Ubi est notandum quod 
+      <lb ed="#V" n="108"/>quinque sunt gradus sctificationis.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e987">
+      ¶ Primus in quo nec 
+      <lb ed="#V" n="109"/>gratia datur nec culpa diluiter: et tunc sctificatio accipitur 
+      pro<lb ed="#V" n="110" break="no"/>dedicatione vel deputatione. sicut dicitur in Exo. vbi discuns 
+      <lb ed="#V" n="111"/>precepit sibi sctificari primogenita filiorum israel: vnde ib 
+      <lb ed="#V" n="112"/>dicitur. scinfica mihi omne primogenitum.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e998">
+      ¶ Secundus gradus. in est 
+      <lb ed="#V" n="113"/>gratia est collata sed non confirmata: vt in sansone qui postes 
+      <lb ed="#V" n="114"/>per dalidam ipsam perdidit. Tertius. in quo gratia est 
+      colla<lb ed="#V" n="115" break="no"/>ta et confirmata sed non immaculata: vt aplitulorum post spiritus 
+      scui<lb ed="#V" n="116" break="no"/>receptionem: potuerunt enim postea peccare venialiter sicut 
+      pa<lb ed="#V" n="117" break="no"/>tuit de facto: sed non mortaliter.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e1011">
+      ¶ Quartus gradus. in quo 
+      <lb ed="#V" n="118"/>gratia est collata confirmata et immaculata: vt in beata virginem 
+      <lb ed="#V" n="119"/>que nec mortaliter nec venialiter peccare potuit.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e1018">
+      ¶ 
+      Qui<lb ed="#V" n="120" break="no"/>tus gradus in quo omnia praedicta: et vltra ad redundantiam 
+      <lb ed="#V" n="121"/>gratia datur: vt scinficatio christi que redundauit in nos 
+      ha<lb ed="#V" n="122" break="no"/>bunde.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e1028">
+      ¶ Sed dubium est. si beata virgo sola habuit 
+      tan<lb ed="#V" n="123" break="no"/>tam gratiam: quantam habuit tota ecclentia militans.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e1033">
+      ¶ 
+      Di<lb ed="#V" n="124" break="no"/>cendum. quod non oportuit: sed de christo hoc pine credendum est: 
+      <lb ed="#V" n="125"/>quia gradus charitatis eius excessit omnes gradus 
+      chari<lb ed="#V" n="126" break="no"/>tatis: quos vnquam habuerunt omnes persone ecclenie simul: quia 
+      <lb ed="#V" n="127"/>caput ecclesie existens habet in membra sensum cognitionis 
+      <lb ed="#V" n="128"/>et bone operationis motum.
+    </p>
+            <p xml:id="FrMS88-f28083-d1e1046">
+      ¶ Item notandum. quod 
+      scifica<lb ed="#V" n="129" break="no"/>tio beate virginis non fuit causa per se et necessaria sue 
+      confir<lb ed="#V" n="130" break="no"/>mationis: sed connexiue modo quodam et concomitatiue 
+      <lb ed="#V" n="131"/>multi enim sanctificati fuerunt qui non fuerunt in gratia 
+      <lb ed="#V" n="132"/>confirmati: sed ab ea penitus postea ceciderunt.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

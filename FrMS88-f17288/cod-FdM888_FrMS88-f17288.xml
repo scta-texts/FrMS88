@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f17288"><!-- l2d14q7 -->
+            <head xml:id="FrMS88-f17288-Hd1e108">Quaestio 7</head>
+            <p xml:id="FrMS88-f17288-d1e111">
+      Quaestio. vii. 
+      <lb ed="#V" n="2"/>TErtio quero. Utrum proiecta
+      mo<lb ed="#V" n="3" break="no"/>ueantur ab aliqua forma 
+      im<lb ed="#V" n="4" break="no"/>trinseca. Et videtur quod sic. quia mouens est 
+      <lb ed="#V" n="5"/>coniunctum mobili. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f17288-d1e122">
+      ¶ Contra 
+      <lb ed="#V" n="6"/>quia tunc mouerentur naturaliter. 
+      <lb ed="#V" n="7"/>aliqui quod mouentur per aliquam 
+      for<lb ed="#V" n="8" break="no"/>hic dicunc mam impressam que quandiu mo 
+      <lb ed="#V" n="9"/>uet illud mouetur. annihilatio enim prohibente continuatur 
+      <lb ed="#V" n="10"/>motus.
+    </p>
+            <p xml:id="FrMS88-f17288-d1e135">
+      ¶ Sed contra quadrupliciter. primo: quia impossibile 
+      <lb ed="#V" n="11"/>est quod forma eiusdem rationis inclinet mobile ad contrarias par 
+      <lb ed="#V" n="12"/>tes. eadem autem forma et eiusdem rationis imprimiter 
+      quan<lb ed="#V" n="13" break="no"/>do mouetur sursum et deorsum. ibi enim est actiuum et 
+      <lb ed="#V" n="14"/>passiuum eiusdem rationis.
+    </p>
+            <p xml:id="FrMS88-f17288-d1e146">
+      ¶ Secundo sic. nos experimur quod 
+      <lb ed="#V" n="15"/>vehementior est motus proiectionis qui fit impellendo: 
+      <lb ed="#V" n="16"/>tuius contrarium esset si per impressionem forme fieret hoc 
+      </p>
+            <p xml:id="FrMS88-f17288-d1e154">
+               <lb ed="#V" n="17"/>¶ Tertio. quia videmus quod motus inualescit in 
+      distan<lb ed="#V" n="18" break="no"/>tia: quia quando est multum proprieo proiiciens: mobile debi 
+      <lb ed="#V" n="19"/>lius mouetur.
+    </p>
+            <p xml:id="FrMS88-f17288-d1e163">
+      ¶ Quarto. quia nulla potentia executiua 
+      <lb ed="#V" n="20"/>continet formam absolutam. perfectissima enim est 
+      poten<lb ed="#V" n="21" break="no"/>tia executiua angeli: et tamen nullam formam absolutam 
+      produ<lb ed="#V" n="22" break="no"/>cit: angelus autem plus potest proiicere quam alius. Ideo 
+      di<lb ed="#V" n="23" break="no"/>co quod mouetur a medio. Ubi tamen sciendum est quod 4or se habent 
+      <lb ed="#V" n="24"/>per ordinem. Primo motus pellentis. Secundo iste pellens 
+      <lb ed="#V" n="25"/>diuidit medium violenter a parte post. medium clauditur 
+      <lb ed="#V" n="26"/>ne sit vacuum: ex illa clausione pellitur mobile. Sicut 
+      <lb ed="#V" n="27"/>diuisio a parte anteriori requiritur ne sint duo corpora in 
+      <lb ed="#V" n="28"/>eodem loco.
+    </p>
+            <p xml:id="FrMS88-f17288-d1e185">
+      ¶ Sed contarera: quia illa circulatio durabit 
+      sem<lb ed="#V" n="29" break="no"/>per. primus enim actus est quando diuiditur medium. secundus 
+      <lb ed="#V" n="30"/>clausio a parte posteriori. tertius pulsio. quartus 
+      inte<lb ed="#V" n="31" break="no"/>rata diuisio: medium non potest diuidi a parte ante quin 
+      <lb ed="#V" n="32"/>claudatur a parte post: non potest claudi quin pellatur: non 
+      <lb ed="#V" n="33"/>potest pelli quin diuidat: et sic in infinitum.
+    </p>
+            <p xml:id="FrMS88-f17288-d1e198">
+      ¶ Ulterius 
+      <lb ed="#V" n="34"/>alique sunt partes medii pellentes et non pulse medie 
+      <lb ed="#V" n="35"/>vtroque modo: et sic si sit deuenire ad pulsam tantum erunt 
+      <lb ed="#V" n="36"/>duo corpora in eodem loco. Iste rationes currunt: sicut 
+      ra<lb ed="#V" n="37" break="no"/>tiones genonis. si esset dare vltimam partem motus 
+      ra<lb ed="#V" n="38" break="no"/>tiones demonstrarent. fit igitur circulatio vsque ad partem 
+      <lb ed="#V" n="39"/>que non est mobilis: et ita fit condensatio moderata: 
+      ta<lb ed="#V" n="40" break="no"/>men secundum partes eiusdem proportionis non est dare 
+      par<lb ed="#V" n="41" break="no"/>tem quin pellat et pellatur: non tamen secundum partes 
+      eius<lb ed="#V" n="42" break="no"/>dem quantitatis: sicut dictum est frequenter de 
+      diui<lb ed="#V" n="43" break="no"/>sione ipsius continui. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="136-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f01514"><!-- l1d46q4 -->
+            <head xml:id="FrMS88-f01514-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f01514-d1e111">
+      Quaestio. iiii. 
+      <lb ed="#V" n="100"/>productio rerum in esse 
+      in<lb ed="#V" n="101" break="no"/>Tum tellecto sit prior generatione verbi 
+      <lb ed="#V" n="102"/>in divinis. hic sunt duo facienda. Primum 
+      <lb ed="#V" n="103"/>Qd 
+      <lb ed="#V" n="104"/>est inquirem de ordine illius productionis 
+      <lb ed="#V" n="105"/>ad productionem verbi. 2m de ordine 
+      produ<lb ed="#V" n="106" break="no"/>ctionis in esse volito ad productionem spiritussancti. 
+      <lb ed="#V" n="107"/>ad primum introducuntur quatuor rationes 
+      <lb ed="#V" n="108"/>Quantum probantes quod productio verbi est prior. 
+      <lb ed="#V" n="109"/>Prima est talis: quandocumque aliqua comparantur secundum primum et 2m. primum in 
+      or<lb ed="#V" n="110" break="no"/>dine prioris est prius primo in ordine posterioris: sed esse reale 
+      <lb ed="#V" n="111"/>est prius quam esse ronis. ergo prius reale est prius primo rationis. sed 
+      produ<lb ed="#V" n="112" break="no"/>ctio verbi est prima realis. productio in esse cognito est 
+      prae<lb ed="#V" n="113" break="no"/>ma rationis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f01514-d1e144">
+      ¶ 2a ratio. productio simplicitur est 
+      <lb ed="#V" n="114"/>prior productione secundum quid. sed productio verbi est 
+      pro<lb ed="#V" n="115" break="no"/>ductio simplicitur: productio quiditatum in esse 
+      cognito<lb ed="#V" n="116" break="no"/>est productio secundum quid. ergo illa est prior.
+    </p>
+            <p xml:id="FrMS88-f01514-d1e153">
+      ¶ 3a quandocumque 
+      <lb ed="#V" n="117"/>aliqua potentia comparatur ad operationem intrinsecam et 
+      <lb ed="#V" n="118"/>extrinsecam: prior est comparatio ad intrinsecam quam ad ex 
+      <lb ed="#V" n="119"/>trinsecam: sed potentia intellectiua diuina vt compratur ad 
+      pro<lb ed="#V" n="120" break="no"/>ductionem verbi. comparatur ad operationem intrinsecam: vt 
+      <lb ed="#V" n="121"/>comparatur ad productionem quiditatiui in esse cognito 
+      con<lb ed="#V" n="122" break="no"/>paratur ad extrinsecam: ergo prior est comparati ad 
+      productio<lb ed="#V" n="123" break="no"/>nem verbi.
+    </p>
+            <p xml:id="FrMS88-f01514-d1e171">
+      ¶ 4a. et est ratio docor quando aliqua potentia comparatur 
+      <lb ed="#V" n="124"/>ad obiectum primarium et secundarium: prius comperatur ad primarium quam 
+      <lb ed="#V" n="125"/>ad secundarium: sed productio verbi est vt comperatur ad obiectum 
+      pri<lb ed="#V" n="126" break="no"/>marium: productio in esse cognito quiditatu est vt ad 
+      scunda<lb ed="#V" n="127" break="no"/>rium. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f01514-d1e183">
+      ¶ Sed contra. primo quia in divinis communia sunt priora propriis: 
+      <lb ed="#V" n="128"/>sed productio creaturarum est communis: productio verbi propria. ergo 
+      <lb ed="#V" n="129"/>etc.
+    </p>
+            <p xml:id="FrMS88-f01514-d1e190">
+      ¶ 2o. quia absolutum in diuinis est prius respectiuo: 
+      <lb ed="#V" n="130"/>actus intelligendi qui producitur creatura est quid absolutum 
+      <lb ed="#V" n="131"/>actus generandi respectiuum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f01514-d1e197">
+      ¶ 3o. quia omne infinitum in 
+      di<lb ed="#V" n="132" break="no"/>uinis est prius non infinito: actus intelligendi est quid 
+      infi<lb ed="#V" n="133" break="no"/>nitum: actus generandi non. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f01514-d1e204">
+      ¶ 4o. quia perfectio simpliciter in 
+      <!--275.xml-->
+      <pb ed="#V" n="136-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>diuinis est prior non perfectione simpliciter: actus 
+      intelligendi<lb ed="#V" n="2" break="no"/>est perfectio simpliciter: aliud non. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f01514-d1e217">
+      ¶ Ad primum dico. qut 
+      <lb ed="#V" n="3"/>communia ad extra non percedunt propria ad intra. Unde communia ad extra: si 
+      <lb ed="#V" n="4"/>creare et huiusmoi: sunt posteriora propriis.
+    </p>
+            <p xml:id="FrMS88-f01514-d1e224">
+      ¶ Ad 2m et ad 
+      alia<lb ed="#V" n="5" break="no"/>similiter dico. quod intelligere diuinum potest accipi 2. Primo modo vt 
+      <lb ed="#V" n="6"/>dicit quid absolutum: et vt sic dico quod prius est quam generare: quia 
+      <lb ed="#V" n="7"/>vt sic est absolutum est infinitum: et dicit perfectionem simpliciter 
+      <lb ed="#V" n="8"/>Alioo potest accipi non pro absoluto tantum: sed vt est talis obiecti: 
+      <lb ed="#V" n="9"/>sic non est prius. Cessant enim tunc omnes rationes. quia vt sic nec est 
+      <lb ed="#V" n="10"/>aliquid absolutum: nec infinitum: nec dicit perfectionem 
+      simpli<lb ed="#V" n="11" break="no"/>citer: sed solum isto modo dicitur productio quiditatis in esse 
+      intelle<lb ed="#V" n="12" break="no"/>cto et in esse cognito: et non primo modo. 
+      <lb ed="#V" n="13"/>ad 2m dicendum est eodem modo scilicet quod 
+      spira<lb ed="#V" n="14" break="no"/>Quantum re praecedit productionem quiditatum in ess 
+      <lb ed="#V" n="15"/>volito. Et hoc posset confirmari illis eisdem rationibus quae addu 
+      <lb ed="#V" n="16"/>cte sunt ad primum articulum de intellectu.
+    </p>
+            <p xml:id="FrMS88-f01514-d1e254">
+      ¶ Sed contra. quia quicquid  
+      <lb ed="#V" n="17"/>est in patre et filio: prius est ordine naturae quam illud quod est in spiritusan 
+      <lb ed="#V" n="18"/>cto: sed producere creaturas est in patre et filio conclusio est prius natura quam 
+      <lb ed="#V" n="19"/>illud quod est in spiritusancto. sed in spiritu sancto est spitatio 
+      <lb ed="#V" n="20"/>passiua: quae est similis nam cum spiratione actiua. ergo producere 
+      crea<lb ed="#V" n="21" break="no"/>turas in patre et filio prius natam sunt quam spiratio passiua in spiritu 
+      <lb ed="#V" n="22"/>sancto: et per consequens quam spiratio actiua.
+    </p>
+            <p xml:id="FrMS88-f01514-d1e270">
+      ¶ 2o quicquid est in patre 
+      <lb ed="#V" n="23"/>et filio: prius est origine quam illud quod est in spiritusancto: sed 
+      <lb ed="#V" n="24"/>producere creaturas est in patre et filio. ergo praecedunt origine spicitum 
+      <lb ed="#V" n="25"/>ianctum. Dico quod in eodem signo originis oportet imaginari 
+      <lb ed="#V" n="26"/>multa signa naturae. Duo ergo sunt signa naturae: vnum in quo comparant 
+      <lb ed="#V" n="27"/>illa quae sunt ad intra. 2m in quo fit comparatio ad ex. Item 
+      si<lb ed="#V" n="28" break="no"/>gnum naturae ad intra diuiditur in plura signa: sicut patet de intellectu 
+      <lb ed="#V" n="29"/>et voluntate. In diuinis autem non sunt nisi tria signa origis. 
+      <lb ed="#V" n="30"/>quia non sunt ibi nisi tria realiter distincta. sed tamen tot 
+      perfectio<lb ed="#V" n="31" break="no"/>nes sunt quot signa naturae: nec est circulatio: quia illa 
+      sun<lb ed="#V" n="32" break="no"/>iccidentaliter ordinata scilicet ordo orginis et naturae: vt patuit 
+      dis<lb ed="#V" n="33" break="no"/>4a.
+    </p>
+            <p xml:id="FrMS88-f01514-d1e296">
+      ¶ Ad primum ergo dico. quod prius est productio talis in patre et 
+      <lb ed="#V" n="34"/>filio quam in spirituscton. Sed si compares esse cognitum ad spicituscnum 
+      <lb ed="#V" n="35"/>prius producitur spiritusanctus quam res in esse cognito: sicut si homo est 
+      <lb ed="#V" n="36"/>se generaret alium in aliquo instanti: risibilitas generantis ben 
+      <lb ed="#V" n="37"/>praecedent risibilitatem geniti: sed tamen non humanitatem. Sic 
+      di<lb ed="#V" n="38" break="no"/>co de patre et filio quando communicant spirituiscomo deitatem: prius sibi 
+      commun<lb ed="#V" n="39" break="no"/>causat quam intelligantur producere res in esse cognito et completo in 
+      <lb ed="#V" n="40"/>lo ordine in quo intelligitur comunicatio naturae: sequitur ordo illorum 
+      <lb ed="#V" n="41"/>qua consequuntur naturam. cuiusmodi est productio creaturarum in esse 
+      co<lb ed="#V" n="42" break="no"/>gnito. Et tunc dico. quod pater et filius prius producunt quam spiritus sanctus
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f39117"><!-- l3d37-40q8 -->
+            <head xml:id="FrMS88-f39117-Hd1e108">Quaestio 8</head>
+            <p xml:id="FrMS88-f39117-d1e111">
+      Questio. viii 
+      <lb ed="#V" n="70"/>quero. Utrum aliquis 
+      ha<lb ed="#V" n="71" break="no"/>Ctauo bitus possit venire a supera 
+      <lb ed="#V" n="72"/>bundantia virtutis ad defectum vel 
+      ecom<lb ed="#V" n="73" break="no"/>uerso no transeundo per medium virtuti.
+    </p>
+            <p xml:id="FrMS88-f39117-d1e122">
+               <lb ed="#V" n="74"/>Dicitur communiter quod non. quere 
+      ra<lb ed="#V" n="75" break="no"/>tionem.
+    </p>
+            <p xml:id="FrMS88-f39117-d1e129">
+      ¶ Sed contra dupliciter. Primo quia quod transea 
+      <lb ed="#V" n="76"/>tur de vno extremo ad aliud extremum per medium 
+      <lb ed="#V" n="77"/>est: quia medium est eiusdem rationis cum extremis: si 
+      <lb ed="#V" n="78"/>cut patet de calido et frigido per tepidum: sed 
+      extre<lb ed="#V" n="79" break="no"/>ma virtutis specie differunt a medio. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f39117-d1e140">
+      ¶ Item 
+      <lb ed="#V" n="80"/>secundo. quia ex actibus illiberalitatis potest quis transire 
+      <lb ed="#V" n="81"/>ad prodigalitatem: sed nullus actus prodigalitatis vel illi 
+      <lb ed="#V" n="82"/>beralitatis est virtuosus. igitur etc. 
+      <lb ed="#V" n="83"/>vna opinio Tullii et Aristoteles. quomodo quis 
+      <lb ed="#V" n="84"/>hic est dabet de extremo reduci ad medium virtutis 
+      <lb ed="#V" n="85"/>Tullius enim dicit quod ille qui est illiberalis diabet se 
+      re<lb ed="#V" n="86" break="no"/>ducere ad medium per actus minimos liberalitatis in 
+      <lb ed="#V" n="87"/>cipiendo et contintate in maiores actus proficiendo versus 
+      <lb ed="#V" n="88"/>liberalitatem quousque perueniat ad medium libera 
+      <lb ed="#V" n="89"/>litatis. Sed Aristotele. Dicit quod illiberalis debet facere 
+      ma<lb ed="#V" n="90" break="no"/>gnatos actus liberalitatis: vt citius ad medium peruen 
+      <lb ed="#V" n="91"/>at et ponit exemplum: sicut lignum curuum quando debet rectifi 
+      <lb ed="#V" n="92"/>cari viertitur ad contrariam curuitatem: et postea redit ad medium. 
+      </p>
+            <p xml:id="FrMS88-f39117-d1e172">
+               <lb ed="#V" n="93"/>¶ Non autem puto istam fuisse intentionem Tullii et 
+      <lb ed="#V" n="94"/>Aristoteles. quia sic nunquam aliquis per se veniret ad virtutem: 
+      <lb ed="#V" n="95"/>sed si veniret forte per accidens hoc esset: omnes enim actus illibe 
+      <lb ed="#V" n="96"/>ralitatis et prodigalitatis: siue intensi: siue remissi sunt 
+      <lb ed="#V" n="97"/>eiusdem rationis: et sunt viciosi: nec etiam per se genererant 
+      ha<lb ed="#V" n="98" break="no"/>ditus nisi viciosos.
+    </p>
+            <p xml:id="FrMS88-f39117-d1e188">
+      ¶ Est igitur intentio Tullii quod illibera 
+      <lb ed="#V" n="99"/>lis dabet incipere a mimis actibus liberalitatis: vt paulatio 
+      <lb ed="#V" n="100"/>ne crescat vsque ad vltimum gradum liberalitatis: quia 
+      <lb ed="#V" n="101"/>sibi esset difficile a maiori gradum liber alitatis incipere 
+      <lb ed="#V" n="102"/>sicut prodigus a minimo.
+    </p>
+            <p xml:id="FrMS88-f39117-d1e199">
+      ¶ Intentio autem Aristo. 
+      <lb ed="#V" n="103"/>fuit quod liberalis a maiori actu liberalitatis incipiat: 
+      <lb ed="#V" n="104"/>vt citius virtutis habitus inducatur: et viciosus citius 
+      <lb ed="#V" n="105"/>corrumpatur: et sic ex vtraque parte habitus virtuosus 
+      <lb ed="#V" n="106"/>ex actibus virtuosis acquiritur: et numque ex actibus viciosis 
+      <lb ed="#V" n="107"/>posset acquiri.
+    </p>
+            <p xml:id="FrMS88-f39117-d1e212">
+      ¶ Sed tunc est dubium: quis modus est me 
+      <lb ed="#V" n="108"/>lior Tullii an Aristoteles.
+    </p>
+            <p xml:id="FrMS88-f39117-d1e217">
+      ¶ Dicendum quod modus Tullii est 
+      <lb ed="#V" n="109"/>facilior: sed modus Aristotelis est virtuosior. facilius. 
+      ni<lb ed="#V" n="110" break="no"/>est incipere a gradu minimo virtutis quam a maximo: sed 
+      <lb ed="#V" n="111"/>incipere a maximo semper est virtuosius: et citius 
+      in<lb ed="#V" n="112" break="no"/>ducitur habitus virtutis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f15961"><!-- l2d14q2 -->
+            <head xml:id="FrMS88-f15961-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f15961-d1e111">
+      Quaestio. ii. 
+      <lb ed="#V" n="13"/>SEcunda questio est. Utrum corpora
+      <lb ed="#V" n="14"/>celestia sint composita ex 
+      <lb ed="#V" n="15"/>materia et forma. Et videtur quod sic. quia sunt in ge 
+      <lb ed="#V" n="16"/>nere substantie: cuius principium sunt mtam et forma. 
+      <lb ed="#V" n="17"/>
+               <!-- line coord error -->
+            </p>
+            <p xml:id="FrMS88-f15961-d1e126">
+      ¶ Contra. quia materia est principium corporis. 
+      <lb ed="#V" n="18"/>aliqui quod sic. quia non potest esse forma 
+      <lb ed="#V" n="19"/>hic dicunt pura separata. quia illa esset nobilior 
+      <lb ed="#V" n="20"/>nima rationali: nec etiam materia pura. ergo compositum ex his. 
+      </p>
+            <p xml:id="FrMS88-f15961-d1e135">
+               <lb ed="#V" n="21"/>¶ Contra 4r. Primo. quia transmutatio fecit nos scire 
+      <lb ed="#V" n="22"/>materiam: sicut operatio formam. et sicut lux formam solis. Ex 
+      <lb ed="#V" n="23"/>hoc enim inuestigauerunt philosophi ista principia. vt patet ab Ariis. 
+      <lb ed="#V" n="24"/>nunquam enim videtur materia: sed argumentatur per 
+      transmutatio<lb ed="#V" n="25" break="no"/>nem: sicut per transmutationem accidentium arguitur substantia. 
+      <lb ed="#V" n="26"/>arguitur ergo sic: sublato medio quo probatur materia: non 
+      po<lb ed="#V" n="27" break="no"/>test ibi argui materia: sed in corporibus celestibus non appares 
+      <lb ed="#V" n="28"/>nisi transmutatio accidentalis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e155">
+      ¶ 2o sic. plura 
+      <lb ed="#V" n="29"/>non sunt ponenda sine necessitate: sed in celo non oportet 
+      po<lb ed="#V" n="30" break="no"/>nere materiam. quia ponitur propter generationem et corruptionem 
+      <lb ed="#V" n="31"/>et huiusmodi. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e165">
+      ¶ 3o. quia essent adinuincem transmutabilia. 
+      <lb ed="#V" n="32"/>et sic oportet dare agens potens ea transmutare. Si enim est 
+      <lb ed="#V" n="33"/>materia eiusdem rationis. erit nata recipere formam eiusdem 
+      ratio<lb ed="#V" n="34" break="no"/>nis. et ita materia linee est nata recipere formam solis: si alte 
+      <lb ed="#V" n="35"/>rius rationis: quod est inconueniens et irrationabile: saltem in 
+      <lb ed="#V" n="36"/>partibus homogeneis erit eiusdem rationis: et sequitur 
+      incom<lb ed="#V" n="37" break="no"/>ueniens inductum.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e181">
+      ¶ Quarto arguitur sic. quia celum 
+      <lb ed="#V" n="38"/>vere esset corruptibile. vbicumque enim est priuatio 
+      physi<lb ed="#V" n="39" break="no"/>ta: ibi est corruptio: vel illud est corruptibile: sed sic est 
+      <lb ed="#V" n="40"/>hic. Si enim fit eiusdem rationis patet. priuatio enim physica non 
+      <lb ed="#V" n="41"/>dicit solum carentiam: sed aptitudinem ad talem formam: sed 
+      <lb ed="#V" n="42"/>ita erit de sole per comparationem ad ignem. quia cum sit 
+      <lb ed="#V" n="43"/>eiusdem rationis erit per se receptiua eiusdem rationis: et est 
+      <lb ed="#V" n="44"/>priuata parte. Si vero non sit eiusdem rationis: saltem habeo 
+      <lb ed="#V" n="45"/>quod erit corruptibile de se. licet non sit corrumpens: sicut si 
+      <lb ed="#V" n="46"/>non esset nisi aqua in mundo.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e203">
+      ¶ Dico igitur quod sunt subiectum 
+      <lb ed="#V" n="47"/>implex accidentium.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e208">
+      ¶ Contra: quia tunc eque simplex 
+      <lb ed="#V" n="48"/>erit celum sicut angelus.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e213">
+      ¶ Secundo. quia forma illa 
+      ma<lb ed="#V" n="49" break="no"/>tis separata est a matera quam anima. et per consequens nobilior.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e218">
+      ¶ 3o. quia 
+      <lb ed="#V" n="50"/>beatus Petrus dicit. quod comburentur celi.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e224">
+      ¶ 4o. quia magi 
+      <lb ed="#V" n="51"/>ter ponit quod de materia prima fuerunt creati.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e229">
+      ¶ Ad primum 
+      <lb ed="#V" n="52"/>dico quod non. quia in celo est compositio quantitatiua.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e234">
+      ¶ Ad 
+      <lb ed="#V" n="53"/>aliud dico quod non est forma: sed subiectum quoddam. Et cum dicitur 
+      <lb ed="#V" n="54"/>quod omnis substantia vel est mateam vel forma vel compositum. 
+      Di<lb ed="#V" n="55" break="no"/>co quod ibi est compositio ex genere et differentia.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e243">
+      ¶ Ad aliud dicitur. quod 
+      <lb ed="#V" n="56"/>per caelum intelligitur aer.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e248">
+      ¶ Ad 4m dicitur. si sit per transubstam 
+      <lb ed="#V" n="57"/>tiationem. non est difficile. sed hoc non intendunt sancti. Sed 
+      <lb ed="#V" n="58"/>quod vere sit ibi materia: et hoc posset non propter rationes: sed propter 
+      <lb ed="#V" n="59"/>auentes teneri.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e257">
+      ¶ Sunt autem hic 4or que ibi arguunt 
+      <lb ed="#V" n="60"/>materiam.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e263">
+      ¶ Aliquin dicunt quod quantitas que materiam consequitur. 
+      <lb ed="#V" n="61"/>qualitates sensibiles. 3o ex passione: quia patiuntur 
+      cor<lb ed="#V" n="62" break="no"/>pora celestia. 4o per motum. in re enim mota oportet 
+      imma<lb ed="#V" n="63" break="no"/>ginari materiam.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e272">
+      ¶ hic dicit Secundo quod materia aliquando sumiter pro 
+      <lb ed="#V" n="64"/>singularitate. vnde indiuidua dicuntur materialia. per 
+      compara<lb ed="#V" n="65" break="no"/>tionem ad vniversalia. Isto modo sumendo dico et concedo. quod 
+      il<lb ed="#V" n="66" break="no"/>la arguunt ibi materiam. vnde quantitas est significatiua 
+      <!--312.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>sensibilitatis: vniversalia autem non sunt sensibilia: nec 
+      passibi<lb ed="#V" n="68" break="no"/>lia: nec subiectum motus. Illa ergo arguunt ibi materiam. isto 
+      mo<lb ed="#V" n="69" break="no"/>do. non prout est pars compositi. vnde accidentia in 
+      sacra<lb ed="#V" n="70" break="no"/>m etiamo sunt extensa: nec tamen est ibi materia. Pono ergo ibi ma 
+      <lb ed="#V" n="71"/>teriam: que est subiectum quantitatis et motus. mobile autem 
+      <lb ed="#V" n="72"/>est mateam motus. In qua scilicet est motu. vnde et anima patitur quam 
+      <lb ed="#V" n="73"/>non ponunt tamen habere materiam.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e301">
+      ¶ Sed est difficultas de angelo. 
+      <lb ed="#V" n="74"/>vtrum habeat materiam:
+    </p>
+            <p xml:id="FrMS88-f15961-d1e306">
+      ¶ Dico quod eadem ratione non apparet 
+      <lb ed="#V" n="75"/>quare in eis sit materia: nec in anima rationali: nec accidentia sunt 
+      <lb ed="#V" n="76"/>composita nisi ex genere et differentia.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e313">
+      ¶ Sed est ne omnis creatura 
+      <lb ed="#V" n="77"/>composita intrinsece.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e318">
+      ¶ Dico quod sic compositione 
+      logica<lb ed="#V" n="78" break="no"/>li scilicet ex genere et differentia: est autem extrinsece componibilis 
+      al<lb ed="#V" n="79" break="no"/>teri.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e326">
+      ¶ Sed quid de actu et potentia: Distinguunt aliquin 
+      <lb ed="#V" n="80"/>de materia spirituali. Sed non video differentiam. ex quo ponitur vnum 
+      <lb ed="#V" n="81"/>perfectibile. et aliud perfectiuum essentialiter. Est enim heo 
+      <lb ed="#V" n="82"/>diffinitio materiae et forme.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e335">
+      ¶ Alia difficultas quomodo tunc est in 
+      an<lb ed="#V" n="83" break="no"/>gelo actus et potentia:
+    </p>
+            <p xml:id="FrMS88-f15961-d1e340">
+      ¶ Dico quod est perfectiuus non 
+      for<lb ed="#V" n="84" break="no"/>maliter. quia est principium productiuum actus: et est 
+      rece<lb ed="#V" n="85" break="no"/>ptiuus: et sunt rationes differentes. vnde essentia simpliciter 
+      an<lb ed="#V" n="86" break="no"/>geli habet illas duas passiones que faciunt compositionem 
+      <lb ed="#V" n="87"/>cum subiecto. non vnam cum altera.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e351">
+      ¶ Intelligendum autem 
+      <lb ed="#V" n="88"/>est hic. quod actus et potentia sic inueniuntur. quod potentia 
+      su<lb ed="#V" n="89" break="no"/>berat actum sicut in generatiums. Aliquando econuerso sunt: 
+      si<lb ed="#V" n="90" break="no"/>cut anima rationalis. Aliquando adequata sicut in corporibus 
+      cele<lb ed="#V" n="91" break="no"/>stibus. Aliquando disperata sicut de illis formis 
+      rationabili<lb ed="#V" n="92" break="no"/>bus iam dictis.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e364">
+      ¶ Ex adequatione volunt aliquin vita 
+      <lb ed="#V" n="93"/>re corruptionem.
+    </p>
+            <p xml:id="FrMS88-f15961-d1e369">
+      ¶ Sed hoc non valet per regulam istam. acti 
+      <lb ed="#V" n="94"/>uum eiusdem rationis potest inducere in passiuo eiusdem 
+      ratio<lb ed="#V" n="95" break="no"/>nis effectum eiusdem rationis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

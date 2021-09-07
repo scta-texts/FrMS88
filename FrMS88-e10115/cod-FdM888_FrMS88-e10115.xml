@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="15-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e10115"><!-- l1d2q1 -->
+            <head xml:id="FrMS88-e10115-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-e10115-d1e111">
+      ¶ Dist. ii. 
+      <lb ed="#V" n="104"/>hec itaquem vera etc. Quaestio. i. 
+      <lb ed="#V" n="105"/>distinctionem secundam queritur 
+      <lb ed="#V" n="106"/>Irca Utrum deum esse sit per se 
+      noti<lb ed="#V" n="107" break="no"/>quod sicut dic Dam. lib id est capi id est quod cognitio 
+      <lb ed="#V" n="108"/>existendi deum naturaliter est inserta. non sunt autem 
+      <lb ed="#V" n="109"/>li nobis naturaliter inserta: nisi prima principia 
+      <lb ed="#V" n="110"/>que sunt per se nota. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e129">
+      ¶ Contra 
+      <lb ed="#V" n="111"/>Nullum per se notum potest negari. sed dixit 
+      insipien<lb ed="#V" n="112" break="no"/>in corde suo non est deus. ergo etc 
+      <lb ed="#V" n="113"/>istam quaestionem primo videndum est quid est 
+      <lb ed="#V" n="114"/>Circa per se notum. Ad quod quidam docor dicit quod 
+      <lb ed="#V" n="115"/>propositio per se nota est: que habet euidentiam ex rationibus 
+      <lb ed="#V" n="116"/>formalibus terminorum: vt termini eius sunt. Sed quia 
+      <lb ed="#V" n="117"/>hoc verum est solum in notitia abstractiua et non in 
+      intui<lb ed="#V" n="118" break="no"/>tiua: quia in sensu per se notum est. quod nix est alba. non tamen 
+      <lb ed="#V" n="119"/>hoc est euidens ex rationibus formalibus terminorum 
+      <lb ed="#V" n="120"/>Ideo illa descriptio non sufficit.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e153">
+      ¶ Ideo alius dicit quod in 
+      <lb ed="#V" n="121"/>lsa propositio est per se nota: quam necesse est habere quemlibet de 
+      <lb ed="#V" n="122"/>centem in scientia. Sed nec ista sufficit. quia licet hoc sit verum in 
+      <lb ed="#V" n="123"/>scientiis subalternantibus. non tamen verum est in subalter 
+      <lb ed="#V" n="124"/>natis. in quibus sumuntur propositiones que sunt demonstrate 
+      <lb ed="#V" n="125"/>in scientia subalternate.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e166">
+      ¶ Dico ergo. quod illa propositio est per se 
+      nol<lb ed="#V" n="126" break="no"/>ta quae habet euidentiam ex se: et non ex alia propositione. Et hoc onten 
+      <lb ed="#V" n="127"/>do sic. omne perfectibile: aut habet perfectionem a se: aut ab alio: 
+      <lb ed="#V" n="128"/>si a se: hoc perfecte habet: et per seipsum. Si ab alio non habet 
+      per<lb ed="#V" n="129" break="no"/>fecte et per se illud. nec est per se tale. Cuidentia autem est 
+      perfe<lb ed="#V" n="130" break="no"/>ctio propositionis. ergo si habet ab alio euidentiam non est per se 
+      <lb ed="#V" n="131"/>euidens.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e183">
+      ¶ Confirmatur. quia euidentia veritatis propositio¬ 
+      <!--33.xml-->
+      <pb ed="#V" n="15-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>nis videtur esse ex conformitate cognitionis et cognoscibilis. 
+      </p>
+            <p xml:id="FrMS88-e10115-d1e194">
+               <lb ed="#V" n="2"/>¶ Et tunc arguo sicut prius. Istam conformitatem aut habet 
+      <lb ed="#V" n="3"/>a se. et sic habet euidentiam. et per consequens est per se nota. Si autem 
+      <lb ed="#V" n="4"/>stam conformitatem ab alio habet. sic non est per se nota.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e203">
+      ¶ Sed 
+      <lb ed="#V" n="5"/>notandum quod propositio per se nota potest dici dupliciter: aut formaliter: 
+      <lb ed="#V" n="6"/>vel originaliter. Si autem intelligatur formaliter: sic non 
+      intelli<lb ed="#V" n="7" break="no"/>igitur ad praesens. Nam si ly per se diceret circumstantiam cause 
+      <lb ed="#V" n="8"/>formalis quelibet propositio quantumcumque sit conclusio esset per 
+      <lb ed="#V" n="9"/>se no. quia in se includit formaliter euidentiam: et illud per quod 
+      <lb ed="#V" n="10"/>cognosci potest.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e219">
+      ¶ Debet ergo originaliter intelligi. 
+      <lb ed="#V" n="11"/>illa ergo propositio que non habet originaliter ab alio euidentiam 
+      <lb ed="#V" n="12"/>est per se nota. et que habet ab alio non est per se nota.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e226">
+      ¶ Con 
+      <lb ed="#V" n="13"/>tra hoc arguitur quadrupliciter. Primo sic. quia secundum hoc prio 
+      <lb ed="#V" n="14"/>principium non est per se notum. quia omnis propositio in qua 
+      predi<lb ed="#V" n="15" break="no"/>catur passio de subiecto illa potest demonstrari. sed in 
+      ia<lb ed="#V" n="16" break="no"/>princinpio est hoc. quia in eo praedicatur affirmatio vel 
+      negatio<lb ed="#V" n="17" break="no"/>que sunt passiones: maior est de se nota: quia illa passio potest 
+      <lb ed="#V" n="18"/>per diffinitionem substani probari.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e242">
+      ¶ 2o Ista est per se nota. 
+      <lb ed="#V" n="19"/>Omne totum est maius sua parte: et tamen est 
+      demonstrabi<lb ed="#V" n="20" break="no"/>lis. quia omne quod continet multitudinem partium excedit 
+      quod<lb ed="#V" n="21" break="no"/>libet illius multitudinis: quia continet tantundere et adhuc 
+      am<lb ed="#V" n="22" break="no"/>plius: sed totum est hmodi respectu partis: ergo totum est ma 
+      <lb ed="#V" n="23"/>ius sua parte.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e256">
+      ¶ 3o quia constat quod aliqua sunt per se nota. quo 
+      <lb ed="#V" n="24"/>rum tamen notitia habetur per inductionem sicut illa. Omnis nix est 
+      alba<lb ed="#V" n="25" break="no"/>ergo non habet euidentiam a se.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e263">
+      ¶ 4o quia hec est per se nota. 
+      <lb ed="#V" n="26"/>sol est mobilis. et tamen potest demonstrari. quia omne corpus spe 
+      <lb ed="#V" n="27"/>ricum est mobile. sol est huiusmodi. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e270">
+      ¶ Ad ista.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e273">
+      ¶ Ad primum 
+      <lb ed="#V" n="28"/>dico quod non potest probari prius principium.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e278">
+      ¶ Ad probationem 
+      <lb ed="#V" n="29"/>quando dicitur quod omnis passio potest demonstrari per diffinitionem 
+      substanti<lb ed="#V" n="30" break="no"/>verum est quando subiectum habet diffinitionem. modo in proposito non 
+      <lb ed="#V" n="31"/>est sic. quia ens quod est subiectum non habet diffinitionem. quia est 
+      sim<lb ed="#V" n="32" break="no"/>pliciter simplex. si autem haberet diffinitionem dico quod 
+      ve<lb ed="#V" n="33" break="no"/>re posset demonstrari.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e291">
+      ¶ Ad 2m dico quod illa propositio. oe etc. 
+      <lb ed="#V" n="34"/>non est per se nota: sed demonstrabilis. silito tamen impercepti 
+      <lb ed="#V" n="35"/>bili et in instanti. et ideo apparet per se nota. non tamen est sic. 
+      </p>
+            <p xml:id="FrMS88-e10115-d1e299">
+               <lb ed="#V" n="36"/>¶ Ad 3m dico quod non est propositio per se nota. Omnis nix 
+      <lb ed="#V" n="37"/>est alba. quod autem hec nix sit alba est per se notum per sen 
+      <lb ed="#V" n="38"/>sum: sed quia deus potest conseruare niuem destruendo 
+      albe<lb ed="#V" n="39" break="no"/>dinem. Ideo vniversalis illa non est per se nota.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e310">
+      ¶ Ad 4m dico quod 
+      <lb ed="#V" n="40"/>non est inconueniens quod aliqua propositio que est per se nota 
+      im<lb ed="#V" n="41" break="no"/>tuitiue sit demonstrabilis in notitia abstractiua. Et ita 
+      <lb ed="#V" n="42"/>de ista propositione: sol est mobilis. quia ipsa cognita per notitiam 
+      <lb ed="#V" n="43"/>intuitiuam est per se nota. in abstractiua autem ipsa est demonstrabilis. 
+      <lb ed="#V" n="44"/>autem faciendum est videre. Utrum 
+      <lb ed="#V" n="45"/>Secundum deum esse sit per se notum. Et circa hoc 
+      <lb ed="#V" n="46"/>sunt quattuor difficilia partractanda.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e328">
+      ¶ Primum est. vtrum 
+      <lb ed="#V" n="47"/>apud intellectum intuitiue videntem deum sit per se nota 
+      <lb ed="#V" n="48"/>ista. deus est.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e335">
+      ¶ Et ad hoc dico quod sic. Et hoc probo qua 
+      <lb ed="#V" n="49"/>drupliciter. Primo sic. Omnis propositio est per se nota illi 
+      in<lb ed="#V" n="50" break="no"/>tellectui simpliciter: apud quem non contingit dubitare: sed 
+      <lb ed="#V" n="51"/>intellectui habenti notitiam intuitiuam de essentia diuina 
+      <lb ed="#V" n="52"/>non contingit dubitare: nam notitia intuitiua 
+      veram<lb ed="#V" n="53" break="no"/>existentiam requirit.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e348">
+      ¶ Secundo sic. Omnis notitia experimen 
+      <lb ed="#V" n="54"/>talis est per se nota: cum ex ea experior me intelligere: 
+      <lb ed="#V" n="55"/>sed intelligendo deum intuitiue: experior me 
+      intellige<lb ed="#V" n="56" break="no"/>re deum intuitiue. ergo est per se notum.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e357">
+      ¶ Tertio sic 
+      <lb ed="#V" n="57"/>Quandocumque aliquid competit alicui per accidens: si intuitiue 
+      co<lb ed="#V" n="58" break="no"/>gnoscitur illud est per se notum. hoc patet in creaturis. quia 
+      <lb ed="#V" n="59"/>cognitio intuitiua qua cognoscitur quod creatura existit: 
+      <lb ed="#V" n="60"/>ista est per se nota. ergo multo magis illa est per se 
+      no<lb ed="#V" n="61" break="no"/>ta: quae intuitiue cognoscitur: quod deus existit. cum existentia 
+      <lb ed="#V" n="62"/>magis sit intrinseca deo: quam creature.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e374">
+      ¶ 4o sic. Illud quo 
+      <lb ed="#V" n="63"/>supposito multa alia demonstratiue inducuntur est per se 
+      <lb ed="#V" n="64"/>notum: sed cognita existentia dei intuitiue multas alis 
+      <lb ed="#V" n="65"/>veritates concludunt sancti de deo demmonstratiue: ergo 
+      exi<lb ed="#V" n="66" break="no"/>stentia dei est eis per se nota: vel deum esse est eis per se 
+      <!--33.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>notum.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e392">
+      ¶ Secundum difficile pertractandum est. Utrum 
+      <lb ed="#V" n="68"/>intellectui habenti speciem intelligibilem distincte repraesentantem 
+      <lb ed="#V" n="69"/>essentiam diuinam esset hec propositio per se nota. Deus est. 
+      </p>
+            <p xml:id="FrMS88-e10115-d1e399">
+               <lb ed="#V" n="70"/>¶ Dicit vnus doctor quod sic. et probat propositum sic. Omnis 
+      <lb ed="#V" n="71"/>propositio in qua predicatur aliquid de aliquo in primo modo 
+      <lb ed="#V" n="72"/>dicendi per se est per se nota: sed esse dicitur de deo quiditatiue: et 
+      <lb ed="#V" n="73"/>in primo modo dicendi per se: ergo est per se nota. ergo etc 
+      <lb ed="#V" n="74"/>Maior est manifesta. minor probatur. quia praedicatio in 
+      ab<lb ed="#V" n="75" break="no"/>stracto videtur esse de primo modo. sed esse dei dicitur de deo in 
+      ab<lb ed="#V" n="76" break="no"/>stracto. quia deus est suum esse. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e417">
+      ¶ Secundo sic. Illud quod 
+      <lb ed="#V" n="77"/>ex sua ratione formali est necesse esse includit existentiam in 
+      <lb ed="#V" n="78"/>prio modo dicendi per se. sed deus est huiusmodi. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e424">
+      ¶ Tertio 
+      <lb ed="#V" n="79"/>sic. illud quod ex sua ratione formali est actus purus esse 
+      <lb ed="#V" n="80"/>dicitur de eo in primo modo dicendi per se. deus est humoi. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e10115-d1e431">
+               <lb ed="#V" n="81"/>¶ Quarto sic. Omne quod non includit aliquid in primo modo 
+      <lb ed="#V" n="82"/>dicendi per se est prius illo. sed essentia diuina non 
+      inclu<lb ed="#V" n="83" break="no"/>dit esse in primo modo per te. ergo est prior ipso esse: sed quod est 
+      <lb ed="#V" n="84"/>prius ipso esse pro aliquo priori habet essentiam: pro quo 
+      <lb ed="#V" n="85"/>non habet esse. ergo essentia diuina pro aliquo priori habet 
+      essen<lb ed="#V" n="86" break="no"/>tiam quo non habet esse: ergo essentia diuina pro aliquo prio 
+      <lb ed="#V" n="87"/>ri non habebit esse. sed omne quod precedit aliquid ex se non 
+      <lb ed="#V" n="88"/>determinat sibi illud: ergo essentia diuina non 
+      determi<lb ed="#V" n="89" break="no"/>naret sibi simpliciter esse: quod est falsum.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e454">
+      ¶ Alius 
+      <lb ed="#V" n="90"/>docto. dicit quod deum esse: non est per se notum tali 
+      intelle<lb ed="#V" n="91" break="no"/>ctui habenti speciem. Et hoc probat assumendo oppositum 
+      <lb ed="#V" n="92"/>eius: quod accipit alius docto. dicens. quod illud quod non 
+      pre<lb ed="#V" n="93" break="no"/>dicatur de aliquo in primo modo. sed in secundo non est per 
+      <lb ed="#V" n="94"/>se notum de illo. sed esse est huiusmodi respectu dei. ergo etc. 
+      <lb ed="#V" n="95"/>Probat autem assumptum. primo sic. Nulla ratio 
+      pri<lb ed="#V" n="96" break="no"/>mo diuersa includit aliquod commne: vt in primo modo. sed 
+      <lb ed="#V" n="97"/>deitas est ratio primo diuersa. ergo non includit esse quod 
+      <lb ed="#V" n="98"/>est sibi commune et aliis. Secundo sic. Nullum simpliciter simplex 
+      <lb ed="#V" n="99"/>recipit aliquod predicatum essentiale commune: sed deitas 
+      <lb ed="#V" n="100"/>est hmodi. esse autem est commune. ergo etc. 3o sic. si esse 
+      include<lb ed="#V" n="101" break="no"/>retur quiditatiue in diuinitate. maxime propter istas rationes 
+      <lb ed="#V" n="102"/>que adducte sunt de abstractione die necesse esse. de puro 
+      <lb ed="#V" n="103"/>actu. eque sapientia intellectus et omnia attributa 
+      include<lb ed="#V" n="104" break="no"/>rent esse. hoc autem est falsum: quia quandocumque aliqua sunt eius 
+      <lb ed="#V" n="105"/>dem rationis formalis. quicquid dicitur quiditatiue de vno 
+      <lb ed="#V" n="106"/>et de altero: hec est manifesta. sed intellectus diuinus 
+      <lb ed="#V" n="107"/>et humanus sunt eiusdem rationis formalis. esse autem per te dicitur 
+      <lb ed="#V" n="108"/>de intellectu diuino quiditatiue. ergo et de humano 
+      quidi<lb ed="#V" n="109" break="no"/>tatiue. quod est falsum. Item 4o si esset ita: attributa in 
+      <lb ed="#V" n="110"/>deo distinguerentur secundum existentiam sicut 
+      distinguun<lb ed="#V" n="111" break="no"/>tur formaliter.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e504">
+      ¶ Dico ergo quod actualis existentia: vel esse 
+      <lb ed="#V" n="112"/>est modus intrinsecus. quod propositio sic.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e509">
+      ¶ Quandocumque aliquid 
+      <lb ed="#V" n="113"/>adueniens alicui non variat eius rationem formalem. illud est 
+      <lb ed="#V" n="114"/>modus intrinsecus. sed existentia adueniens alicui non 
+      va<lb ed="#V" n="115" break="no"/>riat eius rationem formalem. Nam homo in potentia. et idem 
+      <lb ed="#V" n="116"/>postea in actu est idem homo formaliter: nec variatur 
+      <lb ed="#V" n="117"/>eius ratio formalis: ergo existentia vel esse est modus 
+      intri<lb ed="#V" n="118" break="no"/>secus.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e525">
+      ¶ Ad rationes alterius docto.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e528">
+      ¶ Ad primam dico. 
+      <lb ed="#V" n="119"/>quod quando aliquid predicatur de aliquo in abstracto et est 
+      <lb ed="#V" n="120"/>intrinsecum: et nullum eorum est infinitum. seper est vera illa 
+      <lb ed="#V" n="121"/>propositione in primo modo dicendi per se. si autem alterum vel ambo 
+      <lb ed="#V" n="122"/>essent infinita non est verum. sicut est hic. De quocumque enim 
+      <lb ed="#V" n="123"/>predicatur esse in abstracto. ipsum est infinitum vel illud 
+      <lb ed="#V" n="124"/>quod predicatur de eo: et sic est solum identica: et non 
+      for<lb ed="#V" n="125" break="no"/>malis praedicatio.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e546">
+      ¶ Ad secundum et tertium dico quod 
+      necessi<lb ed="#V" n="126" break="no"/>tas et actualitas sunt modi intrinseci: sicut existentia: ideo 
+      <lb ed="#V" n="127"/>non tenent. Nam ista. deus est purus actus: vel 
+      necessi<lb ed="#V" n="128" break="no"/>esse pertinet ad primum modum. sicut ista. deum est: vel 
+      <lb ed="#V" n="129"/>deus est suum esse.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e558">
+      ¶ Ad quartum concedo. quod est ibi 
+      <lb ed="#V" n="130"/>prioritas per intellectum. sed tamen posterius non aduenit prio 
+      <lb ed="#V" n="131"/>ri per aliquam productionem: nec est profluxus realis ab 
+      <lb ed="#V" n="132"/>illo quod est prius ad illud quod est posterius. 
+      <!--34.xml-->
+      <pb ed="#V" n="16-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>difficile declarandum est. Utrum apud 
+      <lb ed="#V" n="2"/>Tertium intellectum creatum habentem notitiam in 
+      <lb ed="#V" n="3"/>tuitiuam de omnibus creaturis sit ista propositio per se nota. Deus 
+      <lb ed="#V" n="4"/>est.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e582">
+      ¶ Et hic dico quod sic. et potest demonstrari quadrupliciter. 
+      </p>
+            <p xml:id="FrMS88-e10115-d1e585">
+               <lb ed="#V" n="5"/>¶ Primo sic. Omnis intellectus habens notitiam intuitiuam 
+      <lb ed="#V" n="6"/>de aliquo: habet notitiam per se notam de omnibus: que 
+      inclu<lb ed="#V" n="7" break="no"/>duntur in quiditate illius. sed talis intellectus cognoscit 
+      <lb ed="#V" n="8"/>intuitiue relationem creature ad deum. ergo omnia que 
+      inclu<lb ed="#V" n="9" break="no"/>duntur in ratione relationis sunt ei per se nota. sed deus est huiusmodi 
+      <lb ed="#V" n="10"/>vnum enim relatiuum per aliud diffinitur. deus enim est terminus 
+      <lb ed="#V" n="11"/>relationis illius.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e603">
+      ¶ Secundo sic. et primo confirmatur primum 
+      <lb ed="#V" n="12"/>vel cognosco relationem sine discursu. vel cum discursu. si 
+      <lb ed="#V" n="13"/>sine discursu tunc cognita relatione cognosco deum. et sic 
+      <lb ed="#V" n="14"/>habeo propositum. si solum cum discursu: tunc sequuntur duo 
+      <lb ed="#V" n="15"/>inconuenientia. Primum pro aliquo signo habebo 
+      noti<lb ed="#V" n="16" break="no"/>tiam intuitiuam perfectam de aliquo. et tamen non cognoscam 
+      <lb ed="#V" n="17"/>illud quod includitur in ratione eius formali. Secundum quod 
+      sequi<lb ed="#V" n="18" break="no"/>tur est eque inconueniens. quod pro aliquo signo 
+      cogno<lb ed="#V" n="19" break="no"/>scam relationem sine termino. quia adhuc ignoro terminum 
+      <lb ed="#V" n="20"/>esse.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e625">
+      ¶ 2o arguo sic. Omnis intellectus cognoscens hab 
+      <lb ed="#V" n="21"/>tudinem inter aliqua extrema prius cognoscit extrena. 
+      <lb ed="#V" n="22"/>quia in essentialiter ordinatis non solum quo ad esse: sed etiam 
+      <lb ed="#V" n="23"/>quo ad cognosci cognoscens posterius necessario 
+      ve<lb ed="#V" n="24" break="no"/>prius vel simils cognoscit ipsum prius. habitudo autem inter 
+      <lb ed="#V" n="25"/>extrema ordine essentiali est posterior extremis: sed 
+      ta<lb ed="#V" n="26" break="no"/>lis intellectus cognoscit relationem creature ad deum. 
+      er<lb ed="#V" n="27" break="no"/>go etc.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e643">
+      ¶ Tertio sic. Ista que sunt simils naturali 
+      intelligentia<lb ed="#V" n="28" break="no"/>cuicumque intellectui si vnum est per se notum et reliquum. sed 
+      re<lb ed="#V" n="29" break="no"/>latiua vt relatiua sunt simili naturali intelligentia. ergo cum 
+      <lb ed="#V" n="30"/>vnum sit tali intellectui per se notum: ergo et reliquum: constat 
+      <lb ed="#V" n="31"/>quod intellectui tali hec est per se nota creatura est dependens 
+      <lb ed="#V" n="32"/>ad deum. ergo et deum esse. maior est manifesta. quia ad 
+      op<lb ed="#V" n="33" break="no"/>positum iam non sunt simils tali simultate.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e660">
+      ¶ 4o sic. Impossibile est 
+      <lb ed="#V" n="34"/>itelleitet intelligere relationem sine termino. si ergo intellectui 
+      co<lb ed="#V" n="35" break="no"/>gnoscenti relationem est per se notum deum esse habere propositum. si non. 
+      tomn<lb ed="#V" n="36" break="no"/>erit notum sibi quod relatio est et ignorabit. vtrum terminus eius sit. 
+      <lb ed="#V" n="37"/>que difficile videndum est de intellectu 
+      nol<lb ed="#V" n="38" break="no"/>Quartum stro. Utrum ei sit per se notum deum esse. 
+      <lb ed="#V" n="39"/>Et hic dico quod non. quia quod a multis concipientibus 
+      termi<lb ed="#V" n="40" break="no"/>nos negatur non est per se notum. deum esse est huiusmodi. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e10115-d1e678">
+               <lb ed="#V" n="41"/>¶ 2o sic. quod probatur ab aliquo illud non est per se 
+      no<lb ed="#V" n="42" break="no"/>tum. sed sancti conati sunt probare deum esse. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e10115-d1e685">
+               <lb ed="#V" n="43"/>¶ Tertio sic. Nulla propositio in qua ponitur subiectum non 
+      sim<lb ed="#V" n="44" break="no"/>pliciter simplex. sed includens partes quas non est per se 
+      no<lb ed="#V" n="45" break="no"/>tum vniri. nulla talis propositio est per se nota. hoc patet. quia ex 
+      <lb ed="#V" n="46"/>notitia terminorum dependet notitia propositionis. ergo si ter 
+      <lb ed="#V" n="47"/>mini sunt dubii: propositio erit dubia. 2o patet aliter. quia subiectus in 
+      <lb ed="#V" n="48"/>cludens partes vere repugnantes non recipit praedicationem 
+      <lb ed="#V" n="49"/>alicuius. eodem modo subiectum includens dubia non est per se 
+      <lb ed="#V" n="50"/>notum vniri praedicato. deus autem secundum quod hic concipitur a 
+      no<lb ed="#V" n="51" break="no"/>bis non habet conceptum simpliciter simplicem. sed includit partes 
+      <lb ed="#V" n="52"/>quarum vnio non est per se nota: quia includit entitatem et infinita 
+      <lb ed="#V" n="53"/>tem: quarum vnionem multi conantur demonstrare.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e711">
+      ¶ 4o sic. 
+      pri<lb ed="#V" n="54" break="no"/>mam causam esse non est per se notum. ergo nec deum esse. antecedens 
+      <lb ed="#V" n="55"/>probatur ex mouentibus enim et motis probatur primmam 
+      causam<lb ed="#V" n="56" break="no"/>esse. consequentia patet: quia ab omnibus conceditur. quod prima causa sit deus 
+      <lb ed="#V" n="57"/>ex antecedente potest etiam inferri quod non est per se notum infinitum est 
+      <lb ed="#V" n="58"/>se.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e724">
+      ¶ Sed contra hoc est illud quod dicit Ans. quod deus est 
+      il<lb ed="#V" n="59" break="no"/>lud quo maius excogitari non potest. Et ex hoc arguitur 
+      <lb ed="#V" n="60"/>sic. Omnis ista propositio est per se nota quando oppositum predicati 
+      <lb ed="#V" n="61"/>repugnat subiecto. sed si deum esse non esset per se notum ali 
+      <lb ed="#V" n="62"/>quid magis ens et notius ens cogitaretur: quod tamen 
+      repu<lb ed="#V" n="63" break="no"/>gnat deo.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e737">
+      ¶ Item Doetius dicit. quod est de primis 
+      conce<lb ed="#V" n="64" break="no"/>ptionibus.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e743">
+      ¶ Item per se notum est effectum esse in rerum 
+      natura<lb ed="#V" n="65" break="no"/>ergo per se notum est causam esse illius effectus: deus autem 
+      <lb ed="#V" n="66"/>est talis causa. ergo per se notum est deum esse.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e750">
+      ¶ Item in scientia mo¬ 
+      <!--34.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>rali per se notum est deum esse colendum.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e759">
+      ¶ Ad primum 
+      di<lb ed="#V" n="68" break="no"/>co. quod est ad oppositum. nam per illam diffinitionem Anu. nitit 
+      <lb ed="#V" n="69"/>probare et demonstrare deum esse. ergo est demonstrabilis 
+      <lb ed="#V" n="70"/>sed nullum demonstrabile est per se notum. Eodem modo ad 
+      ar<lb ed="#V" n="71" break="no"/>gumentum de Doetio dico quod intelligit quod deum esse est de 
+      <lb ed="#V" n="72"/>numero illarum propositionum vel conceptionum que commniter concedum 
+      <lb ed="#V" n="73"/>tur. Ad aliud quod deus sit colendus non est per se notum. 
+      si<lb ed="#V" n="74" break="no"/>cut nec modus colendi. Ad quartum dico. quod si esset per 
+      <lb ed="#V" n="75"/>se notum aliquos effectus esse dei: bene curreret tunc 
+      ar<lb ed="#V" n="76" break="no"/>gumentum: sed hoc non est verum. Dato enim quod res sint note per se 
+      <lb ed="#V" n="77"/>esse. non tamen vt effectiue a deo.
+    </p>
+            <p xml:id="FrMS88-e10115-d1e783">
+      ¶ Ad ans. patet.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

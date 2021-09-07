@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f19029"><!-- l2d18q1 -->
+            <head xml:id="FrMS88-f19029-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f19029-d1e111">
+               <lb ed="#V" n="25"/>In eodem quoque paradiso. 
+      <lb ed="#V" n="26"/>CIrca distinctionem 
+      <lb ed="#V" n="27"/>18. Quero vtrum per viam creationis de 
+      <lb ed="#V" n="28"/>costa adae factam sit mulier. Et quod sic videtur: 
+      <lb ed="#V" n="29"/>quia in sex diebus etc. 
+      <lb ed="#V" n="30"/>videndum si adequa 
+      <lb ed="#V" n="31"/>hic primote de costa adam 
+      <lb ed="#V" n="32"/>fuit mulier facta.
+    </p>
+            <p xml:id="FrMS88-f19029-d1e131">
+      ¶ Aliqui dicunt quod per viam reformatio. 
+      <lb ed="#V" n="33"/>nis.
+    </p>
+            <p xml:id="FrMS88-f19029-d1e136">
+      ¶ Aliquo dicunt quod per augmentum materiae non creando 
+      <lb ed="#V" n="34"/>materiam de nouo: sed applicando quantitatem.
+    </p>
+            <p xml:id="FrMS88-f19029-d1e141">
+      ¶ Contra primum sic 
+      <lb ed="#V" n="35"/>rarissimum corpus est ignis: et ex eodem in millecupla 
+      <lb ed="#V" n="36"/>pportione terra: corpus autem mulleris non est tantum depsum: 
+      <lb ed="#V" n="37"/>sicut terra. magis aut excedit corpus illud costam quam in 
+      ta<lb ed="#V" n="38" break="no"/>li proportione.
+    </p>
+            <p xml:id="FrMS88-f19029-d1e153">
+      ¶ Secundo. ratio incompossibilitatis est in formis per 
+      <lb ed="#V" n="39"/>raritatem inductam: sed tanta fuisset tunc rarefactio quod 
+      suffi<lb ed="#V" n="40" break="no"/>ceret ad corruptionem elementorum: ergo magis de forma 
+      <lb ed="#V" n="41"/>humana.
+    </p>
+            <p xml:id="FrMS88-f19029-d1e162">
+      ¶ Tertio. quia forma mulleris est eiusdem rationis 
+      <lb ed="#V" n="42"/>cum viro: ergo requrit maiorem depsionem quam ibi fuisset 
+      </p>
+            <p xml:id="FrMS88-f19029-d1e167">
+               <lb ed="#V" n="43"/>¶ Quarto. quia mixtio elementorum fit in diuersis speciebus 
+      <lb ed="#V" n="44"/>secundum diuersam raritatem: et ibi fuisset minus proportiona 
+      <lb ed="#V" n="45"/>ta quam inter distincta specie.
+    </p>
+            <p xml:id="FrMS88-f19029-d1e176">
+      ¶ Contra secundum: quia materia prima fuisset 
+      <lb ed="#V" n="46"/>forma spiritualis: quia secundum se totam in diuersis partibus.
+    </p>
+            <p xml:id="FrMS88-f19029-d1e181">
+      ¶ 
+      Se<lb ed="#V" n="47" break="no"/>cundo. quia substantia non inouata sub diuersis partibus fuisset in 
+      <lb ed="#V" n="48"/>diuersis locis et separata quantitate remanere potuisset in 
+      <lb ed="#V" n="49"/>diuersis locis. Dico igitur quod hoc fuit deo supplente materiam 
+      <lb ed="#V" n="50"/>vel creando: vel aliud corpus resoluendo: vnde dico quod materia 
+      <lb ed="#V" n="51"/>non potest augeri nisi per creationem: vel appositionem de 
+      <lb ed="#V" n="52"/>materia alterius corporis.
+    </p>
+            <p xml:id="FrMS88-f19029-d1e197">
+      ¶ Sed numquid mateam potest condempsari separa 
+      <lb ed="#V" n="53"/>ta. Dico quod si augmentatio fiat per poros non potest.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="181-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f37419"><!-- l3d37-40q1 -->
+            <head xml:id="FrMS88-f37419-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f37419-d1e111">
+      <!-- <lb ed="#V"/> missing line --> Sed iam distributio decalogi etc
+      <lb ed="#V" n="39"/>dist. 37. et vsque ad finem libri. 
+      qua<lb ed="#V" n="40" break="no"/>Irca ro primo. Utrum virtutes 
+      mora<lb ed="#V" n="41" break="no"/>les consistant in medio. Et videtur quod non 
+      <lb ed="#V" n="42"/>quia illa que sunt in deo formaliter non sumtin me 
+      <lb ed="#V" n="43"/>dio: quia talia sunt infinita formaliter. sed 
+      <lb ed="#V" n="44"/>virtutes morales sunt in deo formaliter 
+      <lb ed="#V" n="45"/>vt supra dictum est. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e131">
+      ¶ Contra. quia virtutes modo 
+      <lb ed="#V" n="46"/>rales que sunt in deo sunt de obiecto limmitato: et finito: sed 
+      <lb ed="#V" n="47"/>tales virtutes et habitus sunt in medio. igitur etc 
+      <lb ed="#V" n="48"/>est insistendum circa verborum 
+      <lb ed="#V" n="49"/>hic primo significationem. 2o circa rerum 
+      inuesti<lb ed="#V" n="50" break="no"/>gationem.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e144">
+      ¶ Quantum ad primum sunt quatuor articuli de 
+      <lb ed="#V" n="51"/>clarandi. Primus quid est medietas. Secundus quid est 
+      <lb ed="#V" n="52"/>medium. Tertius quot sunt genera mediorum. Quartus quid 
+      <lb ed="#V" n="53"/>est medium virtutis. de quo queritur 
+      <lb ed="#V" n="54"/>igitur primus articulus: quid est medietas 
+      <lb ed="#V" n="55"/>hic est
+    </p>
+            <p xml:id="FrMS88-f37419-d1e157">
+      ¶ Dicitur communiter quod est altera partium 
+      intel<lb ed="#V" n="56" break="no"/>grantium aliquod totum: vt medietas circuli est 
+      semi<lb ed="#V" n="57" break="no"/>circulus: et medietas quaternarii est dualitas: quia 
+      qua<lb ed="#V" n="58" break="no"/>ternarius consistit ex duabus dualitatibus.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e167">
+      ¶ Sed contra. quia int 
+      <lb ed="#V" n="59"/>tus est quedam medietas: vt nunc supponitur: sed 
+      virtu<lb ed="#V" n="60" break="no"/>non est altera pars: quia quelibet pars extrema 
+      virtu<lb ed="#V" n="61" break="no"/>tis est vitium: et sic virtutes essent vitium: quod falsum 
+      <lb ed="#V" n="62"/>est. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e178">
+      ¶ Item medietas saluat fortitudinem: sed for¬ 
+      <lb ed="#V" n="63"/>¬titudo non intelligitur saluari per extremum: quia esset tun 
+      <lb ed="#V" n="64"/>superbia vel pusillanimitas.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e185">
+      ¶ Item tertio. quia medie 
+      <lb ed="#V" n="65"/>tas humorum in medicina saluat sanitatem: sed extremum 
+      <!--365.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>sanitatem corrumpit.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e196">
+      ¶ Dicendum ergo quod meditas est quae 
+      <lb ed="#V" n="67"/>dam relatio que fundatur in medio per comparationem 
+      <lb ed="#V" n="68"/>ad extrema: quia medium refertur ad extrema: sed 
+      medie<lb ed="#V" n="69" break="no"/>tas est ratio referendi. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e205">
+      ¶ Sed contra. quia si 
+      diui<lb ed="#V" n="70" break="no"/>datur circulus medietas eius est altera pars. Item me 
+      <lb ed="#V" n="71"/>dietas mundi est altera pars totius mundi.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e212">
+      ¶ 
+      Dicen<lb ed="#V" n="72" break="no"/>dum quod hoc medietas accipitur non pro medio de quo 
+      <lb ed="#V" n="73"/>querimus: sed separe accipitur vnum pro alio: sicut quando 
+      con<lb ed="#V" n="74" break="no"/>cretum accipitur pro abstracto: dicendo albedo est alba vel 
+      <lb ed="#V" n="75"/>candor est candidus secundum Aug. sed ipsa medietas 
+      pro<lb ed="#V" n="76" break="no"/>prie est relatio: licet accipiatur aliquando pro 
+      fundamen<lb ed="#V" n="77" break="no"/>to relationis.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e229">
+      ¶ Sed est dubium. si medietas que est 
+      <lb ed="#V" n="78"/>ratio referendi medium ad extremum. sit vna relatio 
+      tan<lb ed="#V" n="79" break="no"/>tum vel plures.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e236">
+      ¶ Dicendum sicut in primo dictum est: quod quin 
+      <lb ed="#V" n="80"/>relatio existens in fundamento refertur ad plura vel habs 
+      <lb ed="#V" n="81"/>plura extrema: quorum vnum potest corrumpi alio 
+      manen<lb ed="#V" n="82" break="no"/>te: illa relatio non est vna sed plures. sicut paternitas 
+      <lb ed="#V" n="83"/>corrumpitur ad vnum filium et remanet ad alium. sed 
+      <lb ed="#V" n="84"/>corrupto altero extremorum iam medium non remanet: et per 
+      <lb ed="#V" n="85"/>consequens nec medietas fundata in ipso medio.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e252">
+      ¶ Sed contra. quia 
+      <lb ed="#V" n="86"/>medietas alicuius totius habet duo extrema. quarum vnum potest 
+      cor<lb ed="#V" n="87" break="no"/>rumpi alio manente: sed relatio est effectiue a termino: lic 
+      <lb ed="#V" n="88"/>sit materialiter a fundamento. ergo corrupto vno extremo 
+      <lb ed="#V" n="89"/>rum relatio remanet ad aliud.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e263">
+      ¶ Dicendum est quod non 
+      cau<lb ed="#V" n="90" break="no"/>satur totaliter a quolibet extremorum: sed partialiter a 
+      <lb ed="#V" n="91"/>quolibet: et totaliter a duobus exxremis simul: ideo me 
+      <lb ed="#V" n="92"/>dietas dependet a duobus extremis. Sed paternitas 
+      <lb ed="#V" n="93"/>causatur totaliter a quolibet filio. ideo non est simile. 
+      <lb ed="#V" n="94"/> articulus est. quid est medium.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e276">
+      ¶ Dicendum 
+      <lb ed="#V" n="95"/>Secundus quod medium est relatiuum constitutum 
+      <lb ed="#V" n="96"/>medietatem: sicut pater per paternitatem et simile per similitudinem.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e283">
+      ¶ Alii 
+      <lb ed="#V" n="97"/>qui tamen dicunt quod medium est quod distat equaliter ab extremis 
+      </p>
+            <p xml:id="FrMS88-f37419-d1e289">
+               <lb ed="#V" n="98"/>¶ Sed contra. quia linea est medium inter duo puncta. sed 
+      a<lb ed="#V" n="99" break="no"/>neutro distat.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e296">
+      ¶ Ideo dicendum quod ratio generalis medii est ista: quod 
+      <lb ed="#V" n="100"/>medium est quod inexistit extremis: vel quod existit 
+      <lb ed="#V" n="101"/>inter extrema. 
+      <lb ed="#V" n="102"/>articulus est. quot sunt genera mediorum. 
+      <lb ed="#V" n="103"/>Tertius
+    </p>
+            <p xml:id="FrMS88-f37419-d1e307">
+      ¶ Dicendum quod quatuor. quia quodam est medium quia 
+      <lb ed="#V" n="104"/>dicitur per cuiuslibet extremorum perfectam inclusionem: et sic acci 
+      <lb ed="#V" n="105"/>pit Doe. de tri. triplex inquit est substantia mtam forma et 
+      compo<lb ed="#V" n="106" break="no"/>situm: sed medium prosequamur inqut compositum quod 
+      includi<lb ed="#V" n="107" break="no"/>materiam et formam.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e318">
+      ¶ Item quoddam est medium per vtriusque 
+      ex<lb ed="#V" n="108" break="no"/>tremi coniunctionem vt in mathematicis linea est medium 
+      <lb ed="#V" n="109"/>inter duo puncta quae coniugit.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e325">
+      ¶ Item quoddam est medium per 
+      <lb ed="#V" n="110"/>vtriusque extremi participationem: sicut tepidum est me 
+      <lb ed="#V" n="111"/>inter calidum et frigidum: quia accipit de vtroque: et pallidum 
+      <lb ed="#V" n="112"/>inter album et nigrum.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e334">
+      ¶ Item aliquod est medium per vtriusque 
+      <lb ed="#V" n="113"/>extremi abnegationem: vt quantitas est medium inter 
+      <lb ed="#V" n="114"/>substantiam et qualitatem siue alia accidentia quae insunt substantie me 
+      <lb ed="#V" n="115"/>diante quantitate. vel accidens absolutum est medium inter 
+      sub<lb ed="#V" n="116" break="no"/>stantiam et relationem: quia neutrum extremorum est. Medium 
+      <lb ed="#V" n="117"/>autem virtutis non est medium. primo modo. quia non includit 
+      vi<lb ed="#V" n="118" break="no"/>cia. Nec 2o modo: quia incompossibile est cuilibet extremo 
+      <lb ed="#V" n="119"/>rum. Nec 3o modo. quia nihil participat de vitio: sed est medii 
+      <lb ed="#V" n="120"/>4o. quia abnegat vtrumque suorum extremorum 
+      <lb ed="#V" n="121"/>articulus: quid est medium virtutis.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e357">
+      ¶ Dicendum 
+      <lb ed="#V" n="122"/>Quartus secundum Aistote. quod vtus est medium rationis seundum 
+      propor<lb ed="#V" n="123" break="no"/>tionem: quo ad nos vt vir sapiens dieterminabit. In ista 
+      diifuini<lb ed="#V" n="124" break="no"/>ne medii virtut sunt 4or particule. prima quod medium virtutis est me 
+      <lb ed="#V" n="125"/>dium rationis. 2a est quod proportionis. 3a quod quo ad nos. 
+      <lb ed="#V" n="126"/>4a quod determinabile a sapiente.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e370">
+      ¶ Est igitur primua particula quod 
+      <lb ed="#V" n="127"/>medium virtutis est medium rationis.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e375">
+      ¶ Ubi est notandum quod 
+      <lb ed="#V" n="128"/>aliquid dicitur esse rationis quatuor modis: vel quia a ratione informa 
+      <lb ed="#V" n="129"/>tum: vt homo est creatura rationis vel rationalis: quia informat 
+      <lb ed="#V" n="130"/>anima rationali.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e384">
+      ¶ Item quia a ratione causatum: vt actus rationis 
+      <lb ed="#V" n="131"/>siue intelligere simplicem quiditatem est actus primus rationis: et 
+      <!--366.xml-->
+      <pb ed="#V" n="182-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>componere et diuidere 2us.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e397">
+      ¶ Item quia a ratione confectum: vt 
+      <lb ed="#V" n="2"/>intentiones 2o et relationes rationis.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e402">
+      ¶ Item 4o. quia a ratione regu 
+      <lb ed="#V" n="3"/>latum: sicut August. dicit benfieri quae siunt secundum diuinam ratio 
+      <lb ed="#V" n="4"/>nem id est quando regulantur a diuina voluntate. Et Iob. numquid nosti 
+      <lb ed="#V" n="5"/>rationem ponere. medium autem virtutis non dicitur rationis. nec primo modo. nec 
+      <lb ed="#V" n="6"/>2o nec 3o sed 4o modo: quia a ratione regulatum.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e414">
+      ¶ 2a particula est 
+      <lb ed="#V" n="7"/>secundum proportionem.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e419">
+      ¶ Ubi notandum quod aliquid dicitur secundum 
+      propor<lb ed="#V" n="8" break="no"/>tione 4or modis. vel in habitudine ad subiectum vt temporantia: 
+      <lb ed="#V" n="9"/>quia non omnes sunt eiusdem complexionis: et quod vni est peruum alteri est 
+      <lb ed="#V" n="10"/>magnum. Ideo temparantia accipitur secundum proportionem ad subiectum. Item 
+      <lb ed="#V" n="11"/>2o in habitudine ad obiectum: vt est sobrietas potus. non. enim esset sobri 
+      <lb ed="#V" n="12"/>us qui tantum biberet de vino multum forti quantum de debili: lice 
+      <lb ed="#V" n="13"/>bibe multum vel parum respiciat idem obiectum scilicet vinum.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e435">
+      ¶ Item 
+      <lb ed="#V" n="14"/>tertio modo in habitudine ad circumstantias: vt liberalitas: 
+      <lb ed="#V" n="15"/>non enim liberalis equaliter expendere dabet in solennitate et in 
+      <lb ed="#V" n="16"/>simplici die nec tantum in calciamento: sicut in vestimento. et 
+      <lb ed="#V" n="17"/>hoc accipitur secundum proportionem circunstantie diei et 
+      necessi<lb ed="#V" n="18" break="no"/>tatis.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e448">
+      ¶ Item quarto modo in habitudine ad finem: vt 
+      for<lb ed="#V" n="19" break="no"/>titudo quae medium proportionis debite seruat si sit propter finem 
+      <lb ed="#V" n="20"/>vt puta propter bonum publicum. deficit autem a virtute siquis 
+      <lb ed="#V" n="21"/>exponit se mortipropter inanem gloriam: vel propter aliquid aliud 
+      le<lb ed="#V" n="22" break="no"/>ue: sed sic esset audax et praesumptuosus.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e459">
+      ¶ Omnibus autem 
+      <lb ed="#V" n="23"/>dictis modis accipitur medium virtutis secundum proportionem 
+      <lb ed="#V" n="24"/>valet in habitudine ad subiectum ad obiectum: ad circunstantiam 
+      <lb ed="#V" n="25"/>et ad finem.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e468">
+      ¶ Tertia particula est. quo ad nos. et hoc 4r. 
+      <lb ed="#V" n="26"/>vel in habitudine quo ad nos secundum bona anime vt 
+      magna<lb ed="#V" n="27" break="no"/>nimitas quae vult magis honorari magis honore dignum 
+      <lb ed="#V" n="28"/>quia si econverso saicem deficeret a virtute: vnde dignificans se 
+      honori<lb ed="#V" n="29" break="no"/>bus virtuosus existens dicitur magnanimus: qui carens 
+      virtu<lb ed="#V" n="30" break="no"/>te esset superbus.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e482">
+      ¶ 2o in habitudine ad bona corporis 
+      <lb ed="#V" n="31"/>vt temperantia. non enim dicitet quis tantum comedere infirmus quantum 
+      <lb ed="#V" n="32"/>sanus. et si facere vellet deficeret a medio virtutis et est 
+      <lb ed="#V" n="33"/>set intemperatus.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e491">
+      ¶ Item tertio secundum bona extrinseca: vt 
+      li<lb ed="#V" n="34" break="no"/>beralitas: ntura liberalis non diabet tantum expendere pauper 
+      quan<lb ed="#V" n="35" break="no"/>diues: quia bona exteriora non sibi suppetunt. vnde aliqua 
+      ex<lb ed="#V" n="36" break="no"/>pendens diues dicitur liberalis que expendens pauper dice 
+      <lb ed="#V" n="37"/>retur prodigus.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e502">
+      ¶ Item 4o in habitudine quo ad nos: secundum 
+      <lb ed="#V" n="38"/>pollitiam: vt magnanimitas: vnde deficeret virtute qui 
+      <lb ed="#V" n="39"/>magis vellet preesse in pollitia et plus honoris 
+      reci<lb ed="#V" n="40" break="no"/>pere quam sit dignus: vel qui vellet videri magis 
+      virtuo<lb ed="#V" n="41" break="no"/>sus secundum aliorum iudicium: aut respiciendo ad bonum 
+      digni<lb ed="#V" n="42" break="no"/>tatis sicut in magnificentia aliqua dans rex diceretur ma 
+      <lb ed="#V" n="43"/>gnificus quae si daret miles diceretur bamnausus quasi consum 
+      <lb ed="#V" n="44"/>ptor.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e520">
+      ¶ Item quarta particula est prout sapiens 
+      determi<lb ed="#V" n="45" break="no"/>nabit scilicet prudens secundum rectam rationem. hoc autem pro tanto 
+      <lb ed="#V" n="46"/>est: quia solius prudentis est innuenire medium: sicut inue 
+      <lb ed="#V" n="47"/>nire medium circuli solius geometre est 
+      <lb ed="#V" n="48"/>praencinpaliter est insistendum circa 
+      re<lb ed="#V" n="49" break="no"/>Secundo rum inuestigatione scilicet si virtutes mora 
+      <lb ed="#V" n="50"/>les sunt in medio.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e536">
+      ¶ Ad quod dicendum quod sic. quia cuicumque 
+      con<lb ed="#V" n="51" break="no"/>petit diffinitio et diffinitum. sed in diffinitione virtutis moralis 
+      in<lb ed="#V" n="52" break="no"/>genere ponitur medium. igitur virtus moralis consistit in me 
+      <lb ed="#V" n="53"/>dio.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e545">
+      ¶ Sed contra 4r. Primo de virtute heroyca: quia virtus 
+      <lb ed="#V" n="54"/>ista est in extremo cum sit diuina. ergo non est in medio 
+      </p>
+            <p xml:id="FrMS88-f37419-d1e551">
+               <lb ed="#V" n="55"/>¶ Item secundo de fortitudinie: quia fortitudo non est circa quos 
+      <lb ed="#V" n="56"/>cunque terrores vt sit in medio. Sed est circa vltimum 
+      <lb ed="#V" n="57"/>terribilium. igitur est in extremo.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e560">
+      ¶ Item tertio de 
+      virgi<lb ed="#V" n="58" break="no"/>nitate. quia virginitas est circa extremum: quia a se excludit 
+      <lb ed="#V" n="59"/>omnem tactum illicitum.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e567">
+      ¶ Item 4o de latria: quia latria non est 
+      <lb ed="#V" n="60"/>in medio: sed in extremo: est enim latria honor soli dieo 
+      <lb ed="#V" n="61"/>exhibitus. Sed nullus potest nimis deum honorare. 
+      er<lb ed="#V" n="62" break="no"/>go etc.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e576">
+      ¶ Ad solutionem omnium praedictorum est notandum quod 
+      vir<lb ed="#V" n="63" break="no"/>tutem esse in medio potest accipi quaedrupliciter.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e581">
+      ¶ Quedam enim 
+      <lb ed="#V" n="64"/>virtutes in medio consistunt: tam ex parte obiecti quam 
+      <lb ed="#V" n="65"/>x parte circumstantiarum: vt temperantia. Tum quia quis 
+      <lb ed="#V" n="66"/>posset nimis comedere. Tum quia quando vel vbi non oportet 
+      <!--366.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>sicut princeps qui mane comederet vel in abscondito 
+      di<lb ed="#V" n="68" break="no"/>uoraret.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e599">
+      ¶ Quedam sunt quae ex parte obiecti habent 
+      supera<lb ed="#V" n="69" break="no"/>bundantiam: sed ex parte circumstantie sunt in medio vt 
+      <lb ed="#V" n="70"/>fortitudo. Tum quia vltimum terribilium respicit pro obiecto 
+      <lb ed="#V" n="71"/>Tum quia dicibet circumstantionari de vltimo fine. vnde si pro 
+      inani<lb ed="#V" n="72" break="no"/>gloria: non diceretur fortis sed audax.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e611">
+      ¶ Quedam sunt 
+      ver<lb ed="#V" n="73" break="no"/>tutes quae sunt in defectu ex parte obiecti: in medio tamen ex 
+      <lb ed="#V" n="74"/>parte circumstantie: vt virginitas. Tum quia negat omnem 
+      <lb ed="#V" n="75"/>actum circa tactum. Tum quia seruat bonum rei publice. 
+      </p>
+            <p xml:id="FrMS88-f37419-d1e620">
+               <lb ed="#V" n="76"/>¶ Quedam autem sunt virtutes que nec ex parte obiecti 
+      <lb ed="#V" n="77"/>nec ex parte circumstantie sunt in medio: vt latria. Tun 
+      <lb ed="#V" n="78"/>quia ipsa habet vltimum bonum pro obiecto vt deum. Tum quia 
+      <lb ed="#V" n="79"/>non potest nimis in ipsum fieri.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e631">
+      ¶ Sed contra istud dictum im 
+      <lb ed="#V" n="80"/>mediate obiicitur. quia cuicunque competit superius vt genus: et 
+      <lb ed="#V" n="81"/>diffinitio illius generis competit ei. sed latrie competit esse virtutem 
+      <lb ed="#V" n="82"/>moralem secundum Aristo. ergo in medio consistit.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e640">
+      ¶ Dicendum 
+      <lb ed="#V" n="83"/>quod Arist. loquebatur de virtutibus respicientibus 
+      bo<lb ed="#V" n="84" break="no"/>num creatum: sed latriam respicit bonum increatum.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e647">
+      ¶ Vel 
+      <lb ed="#V" n="85"/>dicendum quod latria consistit in medio: quia non habet immediate 
+      <lb ed="#V" n="86"/>deum pro obiecto. sed aliquid creatum. valet. cultum reuerentie 
+      <lb ed="#V" n="87"/>in ordine ad deum vt sunt oblationes genuflexiones. 
+      <lb ed="#V" n="88"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e658">
+      ¶ Et istud est aliquid creatum: et in talibus homo 
+      <lb ed="#V" n="89"/>potest excedere secundum Aristo. saltem in actu exteriori: vt si 
+      <lb ed="#V" n="90"/>semper et vbique vellet offerre deo et genuflectere et 
+      simi<lb ed="#V" n="91" break="no"/>lia facere. habent enim ista tempus suum et locum et mo 
+      <lb ed="#V" n="92"/>dum: licet actu interiori semper teneatur esse paratus ad 
+      <lb ed="#V" n="93"/>talia quantum in se est.
+    </p>
+            <p xml:id="FrMS88-f37419-d1e672">
+      ¶ Unde notandum quod 
+      quedan<lb ed="#V" n="94" break="no"/>sunt virtutes: que habent superabundantiam et non 
+      di<lb ed="#V" n="95" break="no"/>fectum: vt fortitudo: quedam econverso: que habent defectum et non 
+      <lb ed="#V" n="96"/>superabundantiam: vt virginitas: quidam que plus habent 
+      <lb ed="#V" n="97"/>de superabundantia: vt latria: quedam que plus 
+      ha<lb ed="#V" n="98" break="no"/>pent de defectu: vt est temperantia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

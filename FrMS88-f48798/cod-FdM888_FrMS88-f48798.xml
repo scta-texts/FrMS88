@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f48798"><!-- l4d9q4 -->
+            <head xml:id="FrMS88-f48798-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f48798-d1e111">
+               <lb ed="#V" n="6"/>QUarto quaeritur. vtrum hoc demonstret quod 
+      <lb ed="#V" n="7"/> proferimus.
+    </p>
+            <p xml:id="FrMS88-f48798-d1e118">
+      ¶ hic sunt quatu 
+      <lb ed="#V" n="8"/>or concluiiones.
+    </p>
+            <p xml:id="FrMS88-f48798-d1e123">
+      ¶ Prima est: quod non potest 
+      demon<lb ed="#V" n="9" break="no"/>strare nisi corpus christi per rationes factas 
+      su<lb ed="#V" n="10" break="no"/>perius.
+    </p>
+            <p xml:id="FrMS88-f48798-d1e130">
+      ¶ Secunda conclusio quod non demonstrat 
+      cor<lb ed="#V" n="11" break="no"/>pus christi: vt hic praesens. quia ibi non est pro instanti vltim.
+    </p>
+            <p xml:id="FrMS88-f48798-d1e136">
+      ¶ 
+      Ter<lb ed="#V" n="12" break="no"/>tia conclusio quod non demonstrat pro futuro patet de se. quia falsum 
+      di<lb ed="#V" n="13" break="no"/>ceret.
+    </p>
+            <p xml:id="FrMS88-f48798-d1e143">
+      ¶ 4a conclusio quod nec vt in celo: quia non est demonstratio 
+      <lb ed="#V" n="14"/>ad praesentiam illam.
+    </p>
+            <p xml:id="FrMS88-f48798-d1e148">
+      ¶ 53a conclusio quod demonstrat corpus christi: vt 
+      conse<lb ed="#V" n="15" break="no"/>cratum a christo in cena: et hoc probo. 4r.
+    </p>
+            <p xml:id="FrMS88-f48798-d1e153">
+      ¶ Ubi sciendum quod 
+      ali<lb ed="#V" n="16" break="no"/>qua oteto potest accipi indicatiue: vel recitatiue. tunc sic 
+      <lb ed="#V" n="17"/>quandocunque aliqua ortero profertur indicatiue vel recitatiue. ed 
+      <lb ed="#V" n="18"/>modo demonstrat quo fuit ab indicante prolata et nihil aliud: quia 
+      <lb ed="#V" n="19"/>habitudo realis est ad indicantem. sed istam ortionem non dicimus 
+      <lb ed="#V" n="20"/>nisi recitatiue. probo: quia nos dicimus quod christus bendixit 
+      fre<lb ed="#V" n="21" break="no"/>git: et dixit accipite etc. ergo idem demonstramus quod christus 
+      de<lb ed="#V" n="22" break="no"/>monstrauit.
+    </p>
+            <p xml:id="FrMS88-f48798-d1e171">
+      ¶ 2o sic quandocumque aliquis dicit in persona alterius: 
+      <lb ed="#V" n="23"/>designat illud verbum: sicut profertur ab illo: et conuenit illi in 
+      cu<lb ed="#V" n="24" break="no"/>ius persona dicitur. sed ita dicimus hoc: accepit panere et dixit. hoc 
+      <lb ed="#V" n="25"/>est corpus meum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f48798-d1e180">
+      ¶ 3o quandocumque aliqua propositio est de 
+      praeste<lb ed="#V" n="26" break="no"/>rito: eius demonstratio est prout fuit in praeterito: sed ista propositio habe 
+      <lb ed="#V" n="27"/>habitudinem ad praeteritum signatum: et per consequens habet rationem et dmonstratio 
+      <lb ed="#V" n="28"/>nem ad illud secundum quod fuit in praeterito.
+    </p>
+            <p xml:id="FrMS88-f48798-d1e190">
+      ¶ 4o quia dicit scoo. quia si 
+      sim<lb ed="#V" n="29" break="no"/>pliciter diceretur. hoc est corpus meum sine praecedentibus: nihil fieret 
+      <lb ed="#V" n="30"/>ergo oportet quod ista verba habeant habitudinem ad precedentia. sed 
+      <lb ed="#V" n="31"/>bora verba sunt prolata in ordine ad consecrationem christi ergo 
+      <lb ed="#V" n="32"/>illud demonstrat quod christus demonstrauit in cena.
+    </p>
+            <p xml:id="FrMS88-f48798-d1e201">
+      ¶ Sed hoc est 
+      <lb ed="#V" n="33"/>di. quia nulla dictio potest demonstrare quod non est.
+    </p>
+            <p xml:id="FrMS88-f48798-d1e206">
+      ¶ Respondeo quod vem 
+      <lb ed="#V" n="34"/>est si sumitur indicatiue. sed si sumatur recitatiue potest 
+      demonstra<lb ed="#V" n="35" break="no"/>re quod fuit: verbi gratia quando recitando dicimus in persona ade. 
+      <lb ed="#V" n="36"/>hoc nuncos ex ossibus meis.
+    </p>
+            <p xml:id="FrMS88-f48798-d1e215">
+      ¶ 2a difficultas quod omne quod 
+      demonstra<lb ed="#V" n="37" break="no"/>intuitiue est cognoscibile. ergo existit.
+    </p>
+            <p xml:id="FrMS88-f48798-d1e220">
+      ¶ Respondeo sicut prius verum est 
+      <lb ed="#V" n="38"/>de demonstratione perfectionis indicatiue.
+    </p>
+            <p xml:id="FrMS88-f48798-d1e225">
+      ¶ 3a difficultas. quia 
+      sal<lb ed="#V" n="39" break="no"/>tem pro tempore praesenti non potest demonstrare.
+    </p>
+            <p xml:id="FrMS88-f48798-d1e231">
+      ¶ Respondeo quod hoc trmpus non 
+      <lb ed="#V" n="40"/>est praesens simpliciter. sed recitat illud ad quod fuit praesens.
+    </p>
+            <p xml:id="FrMS88-f48798-d1e236">
+      ¶ Sed 
+      <lb ed="#V" n="41"/>remanet dubium. quia ista propositio. hoc est corpus meum: eiusdem 
+      si<lb ed="#V" n="42" break="no"/>sigeneratiua et indicatiua. seu demonstratiua: cuius est 
+      effectiua<lb ed="#V" n="43" break="no"/>sed efficit corpus christi: vt nunc est haoc: non vt fuit in cena 
+      effe<lb ed="#V" n="44" break="no"/>ctiue: nisi vt est respectu illius consecrationis. ergo et demonstra 
+      <lb ed="#V" n="45"/>tiue.
+    </p>
+            <p xml:id="FrMS88-f48798-d1e249">
+      ¶ Respondeo quod aliter habet causationem et aliter significationem nam 
+      ex<lb ed="#V" n="46" break="no"/>instictione divina habet causare: ex instictione autem humana habet 
+      demon<lb ed="#V" n="47" break="no"/>strare: et ideo ad aliud potest referri: et sigeneratio et demonstratio.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

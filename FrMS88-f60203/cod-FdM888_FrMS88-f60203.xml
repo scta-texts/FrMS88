@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="207-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f60203"><!-- l4d13q5 -->
+            <head xml:id="FrMS88-f60203-Hd1e108">Quaestio 5</head>
+            <p xml:id="FrMS88-f60203-d1e111">
+      <!--417.xml-->
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>vtrum corpus christi in hoc 
+      <lb ed="#V" n="68"/>Ueritur sacramento videatu ex hoc quod pecie 
+      <lb ed="#V" n="69"/>videntur.
+    </p>
+            <p xml:id="FrMS88-f60203-d1e124">
+      ¶ Ista quaestio mota est propter contentionem 
+      <lb ed="#V" n="70"/>quorundam doctorum vnus dicebat quod corpus 
+      <lb ed="#V" n="71"/>christi vere dicitur videri quando species videntur: sicut quando 
+      <lb ed="#V" n="72"/>videbatur christi humanitas. Alius dicebat quod non.
+    </p>
+            <p xml:id="FrMS88-f60203-d1e133">
+      ¶ Et 
+      ar<lb ed="#V" n="73" break="no"/>guitur ad primam partem. valet. quod videatur: quia Aug. primo de 
+      trini<lb ed="#V" n="74" break="no"/>dicit dei filius videbatur. quia coniunctus erat cum 
+      humanita<lb ed="#V" n="75" break="no"/>te. sed aliqua coniunctio est corporis christi ad species. ergo ipsis 
+      vi<lb ed="#V" n="76" break="no"/>sis videtur.
+    </p>
+            <p xml:id="FrMS88-f60203-d1e144">
+      ¶ Contra Gre. in omelia pascali in hoc sacramento. aliud 
+      <lb ed="#V" n="77"/>est quod cernitur: aliud est quod creditur ergo proprie non videtur 
+      <lb ed="#V" n="78"/>ponitur distinctio de visione 
+      intelle<lb ed="#V" n="79" break="no"/>Hic primo ctuali et sensibili. Et alia distinctiode 
+      <lb ed="#V" n="80"/>esse aliquo in supposito: quia vel dicitur esse aliquid in 
+      sup<lb ed="#V" n="81" break="no"/>posito formaliter: sicut divinitas est in supposito verbi. vel 
+      <lb ed="#V" n="82"/>suppositaliter: et personaliter. sicut humanitas assumpta in 
+      <lb ed="#V" n="83"/>verbo. Et sic ista est vera: deus est homo.
+    </p>
+            <p xml:id="FrMS88-f60203-d1e163">
+      ¶ Et sunt hic 
+      <lb ed="#V" n="84"/>quatuor regule.
+    </p>
+            <p xml:id="FrMS88-f60203-d1e168">
+      ¶ Prima est. quod quando aliqua natura est in 
+      aliquo<lb ed="#V" n="85" break="no"/>supposito suppositaliter. non sequitur si videatur intuitiue 
+      vi<lb ed="#V" n="86" break="no"/>sione intellectuali aliqua naturali forma quod suppositum vi 
+      <lb ed="#V" n="87"/>deatur intuitiue: verbi gratia albedo erat suppositata in christo: 
+      <lb ed="#V" n="88"/>non oportet quod qui videt istam albedinem intuitiue videret 
+      <lb ed="#V" n="89"/>suppositum verbi intuitiue. aliter demones vidissent 
+      perso<lb ed="#V" n="90" break="no"/>nam verbi.
+    </p>
+            <p xml:id="FrMS88-f60203-d1e184">
+      ¶ Secunda regula similiter est de noticia intellectua 
+      <lb ed="#V" n="91"/>li quod videns aliquam rationem formalem intuitiue. forma 
+      existen<lb ed="#V" n="92" break="no"/>te in aliquo supposito. non oportet quod videat illud in quo etia 
+      <lb ed="#V" n="93"/>hoc fuit ostensum in primo de proprietate et essentia.
+    </p>
+            <p xml:id="FrMS88-f60203-d1e193">
+      ¶ Ter 
+      <lb ed="#V" n="94"/>tia regula est de cognitione sensitiua: quia videns tale vi 
+      <lb ed="#V" n="95"/>sione intuitiue aliquam naturam videt illud in quo est illa 
+      natura<lb ed="#V" n="96" break="no"/>suppositaliter. vnde ex hoc quod videbatur corpus christi filius 
+      <lb ed="#V" n="97"/>dei videbatur intuitiue.
+    </p>
+            <p xml:id="FrMS88-f60203-d1e204">
+      ¶ 4a regula est. quod quando aliquis videtur 
+      <lb ed="#V" n="98"/>aliquam naturam formaliter in aliquo necessario videt suppositum 
+      il<lb ed="#V" n="99" break="no"/>lud.
+    </p>
+            <p xml:id="FrMS88-f60203-d1e211">
+      ¶ Sed vnde prouenit hoc in sensitiua potius quam in 
+      <lb ed="#V" n="100"/>intellectiua:
+    </p>
+            <p xml:id="FrMS88-f60203-d1e217">
+      ¶ Respode hoc est propter materialitatem potentie. et ideo 
+      <lb ed="#V" n="101"/>actus non est sic precisus sicut actus intellectus. 
+      <lb ed="#V" n="102"/>patet solutio quaestionis quomodo species videntur: quia 
+      <lb ed="#V" n="103"/>Ex istis ista accidentia panis et vini non sunt in 
+      sup<lb ed="#V" n="104" break="no"/>posito verbi: nec formaliter: nec suppositaliter: sed oportet quod si 
+      <lb ed="#V" n="105"/>suppositum debet dici videri quod ratio illa vel esset in 
+      sup<lb ed="#V" n="106" break="no"/>posito formaliter vel suppositaliter. Eodem modo de audi 
+      <lb ed="#V" n="107"/>tu. quia illa fractio non est in supposito: nec sapor ille in eo: 
+      <lb ed="#V" n="108"/>et ideo non gustat sacerdos corpus christi. Eodem modo de 
+      <lb ed="#V" n="109"/>qualitatibus tactus: et de fumali euaporatione.
+    </p>
+            <p xml:id="FrMS88-f60203-d1e239">
+      ¶ Sed 
+      <lb ed="#V" n="110"/>contra. quia corpus christi vere est mutatum quando venit huc: et 
+      moue<lb ed="#V" n="111" break="no"/>tur localiter. Eodem modo comeditur corpus christi et ver e 
+      masti<lb ed="#V" n="112" break="no"/>catur. et iste propositiones sunt concesse a sanctis.
+    </p>
+            <p xml:id="FrMS88-f60203-d1e248">
+      ¶ Respondeo. 
+      <lb ed="#V" n="113"/>dico quod ideo mutatus est: quia aliquis respectus praesentialita 
+      <lb ed="#V" n="114"/>tis /est in corpore christi formaliter et vere mouetur localiter 
+      <lb ed="#V" n="115"/>quia accipit nouum vbi: licet proprium non dimittat.
+    </p>
+            <p xml:id="FrMS88-f60203-d1e257">
+      ¶ De 
+      co<lb ed="#V" n="116" break="no"/>mestione vero sciendum. quod dicit attritionem cibi et dicit 
+      <lb ed="#V" n="117"/>transitum et trahitionem priuo nonteritur. nec frangitur. sed  
+      <lb ed="#V" n="118"/>bene transit localiter ad stomacum.
+    </p>
+            <p xml:id="FrMS88-f60203-d1e266">
+      ¶ Intelligendum tamen quod 
+      <lb ed="#V" n="119"/>aliquid potest videri quaedrupliciter.
+    </p>
+            <p xml:id="FrMS88-f60203-d1e271">
+      ¶ Primo. sicut illud ad 
+      <lb ed="#V" n="120"/>quod primo actus videndi terminatur. et isto modo sola 
+      <lb ed="#V" n="121"/>lux vel color videtur.
+    </p>
+            <p xml:id="FrMS88-f60203-d1e279">
+      ¶ Secundo modo. sicut quando illud quod 
+      <lb ed="#V" n="122"/>immediate subiicitur tali obiecto. sicut dicitur: sol videtur: 
+      <lb ed="#V" n="123"/>quia lux videtur que est in eo formaliter: et ita de 
+      substan<lb ed="#V" n="124" break="no"/>tiis aliis.
+    </p>
+            <p xml:id="FrMS88-f60203-d1e288">
+      ¶ Tertio modo. sicut in quo obiectum visus 
+      <lb ed="#V" n="125"/>suppositatur: et isto modo verificatur actus videndi de 
+      <lb ed="#V" n="126"/>christo et erat verum dicere: video deum.
+    </p>
+            <p xml:id="FrMS88-f60203-d1e295">
+      ¶ Quarto mo 
+      <lb ed="#V" n="127"/>do. sicut illud ad quod obiectum visus refertur. sicut 
+      <lb ed="#V" n="128"/>videndo hominem armatum non video nisi arma: et propter 
+      <lb ed="#V" n="129"/>relationem habitus armorum est verum dicere video 
+      homi<lb ed="#V" n="130" break="no"/>nem. Et isto modo dicebatur in scriptura angelus vider 
+      <lb ed="#V" n="131"/>ri. quia corpus assumptum habebat relationem ad ipsum: quod 
+      <lb ed="#V" n="132"/>tamen non erat aliquid eius: nec in eo erat formaliter: nec supposi¬ 
+      <!--418.xml-->
+      <pb ed="#V" n="208-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>taliter.
+    </p>
+            <p xml:id="FrMS88-f60203-d1e319">
+      ¶ Et isto modo. quia species habent aliquem respectum 
+      <lb ed="#V" n="2"/>ad corpus christi quaesi habitus ipsis visis dicetur videri corpus 
+      <lb ed="#V" n="3"/>christi. vnde sacerdos quando dicit infirmo. credis haec quod vides esse 
+      <lb ed="#V" n="4"/>corpus christi. in ista propositione fit demonstratio vel ad sensum vel 
+      <lb ed="#V" n="5"/>ad intellectum. si ad intellectum sic est verum: quod intellectu demonstrat 
+      <lb ed="#V" n="6"/>sicut si diceretur de homine demonstrato. credis hunc quem vides 
+      <lb ed="#V" n="7"/>esse regeme tuum. si ad sensum dicitet exponi sic. credis haec quod 
+      vi<lb ed="#V" n="8" break="no"/>des id est sub hac specie sensibili quam vides esse corpus christi propter 
+      <lb ed="#V" n="9"/>elationem de qua dictum est. et ideo secundum illum doctorem antiquum 
+      Ale<lb ed="#V" n="10" break="no"/>xandrum diet adorari sic vocaliter vel mentaliter. Ad oro te disfene 
+      <lb ed="#V" n="11"/>lesu christe saluator quem credo sub hac specie quam video.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

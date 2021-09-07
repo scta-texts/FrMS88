@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="215-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f67460"><!-- l4d20q1 -->
+            <head xml:id="FrMS88-f67460-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f67460-d1e111">
+               <lb ed="#V" n="100"/>Sciendum est etc. 
+      <lb ed="#V" n="101"/>Ic incipit distinctio xxa. Circa quam 
+      quae<lb ed="#V" n="102" break="no"/>runtur 4or vers qunque quaestio 
+      <lb ed="#V" n="103"/>nes.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e122">
+      ¶ Prima. vtrum mors sit 
+      maxima<lb ed="#V" n="104" break="no"/>penarum.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e127">
+      ¶ Et videtur quod non. quia illud quod 
+      conueni<lb ed="#V" n="105" break="no"/>alicui secundum exigentiam sue naturae non est sibi 
+      <lb ed="#V" n="106"/>dena maxima. sic est de morte respectu 
+      <lb ed="#V" n="107"/>hominis.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e136">
+      ¶ Contra. illud quod a iusto iudice infunditur pro ma 
+      <lb ed="#V" n="108"/>xima culpa est maxima pena. mors est huiusmodi. ergo etc 
+      <lb ed="#V" n="109"/>videndum est quid est mors. vb 
+      <lb ed="#V" n="110"/>hic primo sciendum quod secundum doni. de 
+      ecclesia<lb ed="#V" n="111" break="no"/>stica ierarchia qui diffiniens mortem dicit. quod 
+      mors<lb ed="#V" n="112" break="no"/>non est alicuius rei consumptio: sed coniunctorum separatio. 
+      </p>
+            <p xml:id="FrMS88-f67460-d1e150">
+               <lb ed="#V" n="113"/>¶ Ubi sciendum est quod ista per ordinem se habent.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e155">
+      ¶ Primo 
+      ces<lb ed="#V" n="114" break="no"/>satio quae res desinit esse ex sua nam sicut instans statim 
+      tran<lb ed="#V" n="115" break="no"/>sit vel raptim.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e162">
+      ¶ 2o destructio qua: aliqua ex sua nam non 
+      ce<lb ed="#V" n="116" break="no"/>sant sed quia inducitur ab agente forma incompossibilis 
+      <lb ed="#V" n="117"/>illis.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e169">
+      ¶ 3o corruptio. qua illa quae sunt de genere substantie deficiun 
+      </p>
+            <p xml:id="FrMS88-f67460-d1e172">
+               <lb ed="#V" n="118"/>¶ Quarto mors que separat vnita.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e177">
+      ¶ Et est 
+      intel<lb ed="#V" n="119" break="no"/>ligendum quod sunt tres gradus anime scilicet vegetatiue sensitiue 
+      <lb ed="#V" n="120"/>et intecllectiue. modo dyon. vult ostendere quod mors hominis vt 
+      <lb ed="#V" n="121"/>homo est: non est destructio sed separatio anime a materia. ex quae difficulta 
+      <lb ed="#V" n="122"/>nitione data de morte eliciuntur quatuor conclusiones. quae 
+      con<lb ed="#V" n="123" break="no"/>tra nos aduersantur.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e191">
+      ¶ Prma quod in homine non est 
+      <lb ed="#V" n="124"/>nisi vna forma: quia nihil de anima corrumpitur hominis 
+      <lb ed="#V" n="125"/>nihil autem est de substantia hominis incorruptibilis ni 
+      <lb ed="#V" n="126"/>si anima.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e200">
+      ¶ Secunda conclusio. quod anima intellectiua est 
+      <lb ed="#V" n="127"/>idem sensitiue: quia si differrent concorrumperentur.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e205">
+      ¶ Ter 
+      <lb ed="#V" n="128"/>tia conclusio quod in homine non est dare tertiam entitatem differente: 
+      <lb ed="#V" n="129"/>realiter a partibus: quia illa destrueretur in morte.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e212">
+      ¶ 4a 
+      con<lb ed="#V" n="130" break="no"/>clusio. quod christus fuit homo in triduo secundum magistrum. quia esse ho 
+      <lb ed="#V" n="131"/>minis non perdidit.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e219">
+      ¶ Sciendum est autem propter so¬ 
+      <!--434.xml-->
+      <pb ed="#V" n="216-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>lutionem istorum: quod sicut homo viuit triplici vita 
+      pre<lb ed="#V" n="2" break="no"/>dicta. ita moriter triplici morte corrspondente: licet si similis. numerum 
+      <lb ed="#V" n="3"/>enim priuationum oportet esse secundum numerum affirmationum: similiter 
+      ali<lb ed="#V" n="4" break="no"/>qua praecedunt mortem: sicut dispositio. concomitatur autem mortem 
+      <lb ed="#V" n="5"/>separatio: quae est aliquid positiuum: et ex hoc sequitur dissolutio 
+      con<lb ed="#V" n="6" break="no"/>positi.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e241">
+      ¶ Ad primum itaque inconueniens dicendum quod mors hominis 
+      <lb ed="#V" n="7"/>vt sic nullius est corruptio: quia vt sic non est nisi separaton 
+      <lb ed="#V" n="8"/>anime: sed non est inconueniens quod sequantur alie priuationes scilice 
+      <lb ed="#V" n="9"/>aliarum formarum.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e251">
+      ¶ Ad 2m dicendum quod corruptio anime 
+      sentiue<lb ed="#V" n="10" break="no"/>non est mors hominis: vt homo est: sed vt animal.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e256">
+      ¶ Ad 3m dicendum 
+      <lb ed="#V" n="11"/>quod licet mortem sequatur destructio entitatis tertie. tamen quia 
+      il<lb ed="#V" n="12" break="no"/>la non est vita hominis ideo nec formaliter est mors. nec 
+      destru<lb ed="#V" n="13" break="no"/>ctio.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e265">
+      ¶ Ad aliud eodem modo non fuit mors formaliter de 
+      <lb ed="#V" n="14"/>structio illius: licet fuerit destructa. quando ergo dicitur quod mors est 
+      <lb ed="#V" n="15"/>separatio. ista diffinitio est per concomitans: quod est principium vite 
+      <lb ed="#V" n="16"/>formaliter quam concomitatur separatio. 
+      <lb ed="#V" n="17"/>particula ptractanda est de quasito. Et in 
+      <lb ed="#V" n="18"/>Secunda ducuntur quatuor conclusiones.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e278">
+      ¶ Prima. quod mors 
+      <lb ed="#V" n="19"/>non est aliqua pena sensus: accipiendo penam sensus pro 
+      <lb ed="#V" n="20"/>vena corporali.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e285">
+      ¶ Secunda conclusio quod non est pena spiritualis anime: 
+      pro<lb ed="#V" n="21" break="no"/>ut accipitur pro ista quae est positiua in anima ratioali.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e290">
+      ¶ Tertia 
+      <lb ed="#V" n="22"/>ontra quod est pena danni quantum ad corpus.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e296">
+      ¶ 4a conclusio quod est pena dan 
+      <lb ed="#V" n="23"/>ni in anima.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e301">
+      ¶ prima conclusio patet. supposito igitur quod mors sit in 
+      instan<lb ed="#V" n="24" break="no"/>ti. alites. esset diuisibilis anima rationalis si successiue 
+      expelle<lb ed="#V" n="25" break="no"/>retur. in eodem enim instanti quo separatur est mors. separatur 
+      <lb ed="#V" n="26"/>in eodem instanti quo est separata et moritur. et est mortuum: 
+      <lb ed="#V" n="27"/>quia in instantibus siue instantaneis est idem fieri et factum 
+      <lb ed="#V" n="28"/>esse. sed corpus mortuum nullam penam potest sentire. in quo 
+      <lb ed="#V" n="29"/>enim esset dolor: non in corpore organico. quia in isto 
+      <lb ed="#V" n="30"/>stanti ibi non est anima: nec in anima sensitiua: quia corrupta est 
+      <lb ed="#V" n="31"/>vel si est separata nullam operationem elicit nisi in organo 
+      <lb ed="#V" n="32"/>ergo pro instanti mortis nulla est in corpore pena 
+      sen<lb ed="#V" n="33" break="no"/>sus. cum simul sit mori et mortuum esse.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e325">
+      ¶ Secunda conclusio 
+      <lb ed="#V" n="34"/>quod non est pena spiritualis anime. quemcumque enim actum 
+      vo<lb ed="#V" n="35" break="no"/>lendi potest habere anima separata: potest habere in instanti 
+      mor<lb ed="#V" n="36" break="no"/>tis: quia in illo instanti separata est et habet liberam voluntate 
+      <lb ed="#V" n="37"/>sicut in quocunque instanti: sed anima separata potest velle 
+      mor<lb ed="#V" n="38" break="no"/>tem. ergo in instanti separationis potest velle: tristitia autem 
+      <lb ed="#V" n="39"/>de re volita non potest esse. sed pena positiua anime 
+      sepa<lb ed="#V" n="40" break="no"/>rate non est nisi tristitia: quia si deus affligat eam. hoc est 
+      <lb ed="#V" n="41"/>ex puris naturalibus.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e345">
+      ¶ Ulterius sancti humerunt actum 
+      vo<lb ed="#V" n="42" break="no"/>lendi respectu mortis dum adhuc viuerent. ergo 
+      mul<lb ed="#V" n="43" break="no"/>to fortius potest eum habere anima separata in instanti 
+      <lb ed="#V" n="44"/>autem quo separatur est separata vt dictum est.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e354">
+      ¶ Tertia conclu 
+      <lb ed="#V" n="45"/>quod mors est pena danni respectu corporis. quandocumque enim 
+      <lb ed="#V" n="46"/>aliquid priuatur aliquo bono sibi debito habet penam 
+      da<lb ed="#V" n="47" break="no"/>ni. sed corpus pro fora maxime habet animam rationalem.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e363">
+      ¶ 4 
+      <lb ed="#V" n="48"/>est. quod mors pena damni respectu anime: quia quod priuatur 
+      sub<lb ed="#V" n="49" break="no"/>iecto vel fine sibi debito habet penam damni: sed anima or 
+      <lb ed="#V" n="50"/>dinatur: sicut ad finem: ad tertiam entitatem: cum igitur 
+      pri<lb ed="#V" n="51" break="no"/>uetur homo humanitate in morte igitur anima priuatur 
+      <lb ed="#V" n="52"/>subiecto: et fine sibi debito.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e377">
+      ¶ Sed instatur 4or contra ista. 
+      </p>
+            <p xml:id="FrMS88-f67460-d1e380">
+               <lb ed="#V" n="53"/>¶ Contra primum quia clamor in morte christi fuit 
+      nota<lb ed="#V" n="54" break="no"/>maximin doloris: secundum sanctos.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e387">
+      ¶ Contra 2m. anima rationa 
+      <lb ed="#V" n="55"/>lis naturaliter appetit corpus. et per consequens naturaliter non potest 
+      <lb ed="#V" n="56"/>nolle corpus: nec potest velle separationem corporis. et per 
+      <lb ed="#V" n="57"/>consequens videtur illa tristari.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e396">
+      ¶ Contra tertiam. pena non 
+      impo<lb ed="#V" n="58" break="no"/>nitur in rebus inaiatis corpus autem est res inaiata.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e401">
+      ¶ Con 
+      <lb ed="#V" n="59"/>tra 4r. quia anima separata est liberior ad eliciendum operatio 
+      <lb ed="#V" n="60"/>nes suas quam ante.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e408">
+      ¶ Respondeo ad primum dico quod christus viuens 
+      clama<lb ed="#V" n="61" break="no"/>uit: et tunc bene habuit dolorem: quia erat dispositio ad 
+      mor<lb ed="#V" n="62" break="no"/>tem: sed in instanti mortis non clamauit. sed fuit mortuus 
+      </p>
+            <p xml:id="FrMS88-f67460-d1e416">
+               <lb ed="#V" n="63"/>¶ Ad secundum. tristitia sequitur actum nolendi elicitum 
+      <lb ed="#V" n="64"/>naturalis autem inclinatio anime ad corpus non est 
+      acti<lb ed="#V" n="65" break="no"/>elicitus: sed naturalis conuenientia ad subiectum.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e425">
+      ¶ Unde se 
+      <lb ed="#V" n="66"/>paratio naturalis non est quedam disconuenientia naturalis: sed 
+      <!--434.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>ex hoc non sequitur tristari nec sancti in patria: 
+      quo<lb ed="#V" n="68" break="no"/>rum anime huiusmodi inclinationem habent ad suum corpus resumen 
+      <lb ed="#V" n="69"/>dum: sic actu elicito tristantur.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e441">
+      ¶ Ad aliud dicendum. quod sicut 
+      <lb ed="#V" n="70"/>corpus potest habere beatitudinem per dotes: ita penara per carentiam 
+      <lb ed="#V" n="71"/>perfectionis debite.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e448">
+      ¶ Ad aliud non est verum quod melius 
+      <lb ed="#V" n="72"/>habeat esse naturaliter: immo melius haberet esse cum corpore in statu 
+      inno<lb ed="#V" n="73" break="no"/>centie: et melius posset operari. Sed quod dicitur quod mors est vltimum 
+      <lb ed="#V" n="74"/>terribilium 3o ethi. Item in gene. de rachele dicitur egrediente 
+      <lb ed="#V" n="75"/>anima pre dolore.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e459">
+      ¶ Dico quod dispositio illa quae est ad mortem est 
+      <lb ed="#V" n="76"/>maxime dolorosa: et hanc sentit anima antequam 
+      se<lb ed="#V" n="77" break="no"/>paretur.
+    </p>
+            <p xml:id="FrMS88-f67460-d1e466">
+      ¶ Ad aliud: quia est priuatio maximi boni: et ma 
+      <lb ed="#V" n="78"/>ximum displicens. ideo maxime dabet timeri.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

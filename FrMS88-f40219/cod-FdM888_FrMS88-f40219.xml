@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f40219"><!-- l3d37-40q12 -->
+            <head xml:id="FrMS88-f40219-Hd1e108">Quaestio 12</head>
+            <p xml:id="FrMS88-f40219-d1e111">
+               <lb ed="#V" n="29"/>¶ Questio. xii. 
+      <lb ed="#V" n="30"/>DUodecimo quero. Utrum in 
+      <lb ed="#V" n="31" break="no"/>stitia monastica sit 
+      <lb ed="#V" n="32"/>virtus mortalis. 
+    </p>
+            <p xml:id="FrMS88-f40219-d1e122">
+               <lb ed="#V" n="33"/>hic premittuntur 
+      qua<lb ed="#V" n="34" break="no"/>tuor
+      <lb ed="#V" n="35"/>dicta per ordinem. Primum est quod in regno anime 
+      vo<lb ed="#V" n="36" break="no"/>luntas est domina. Secundum quod diuersis virtutibus 
+      <lb ed="#V" n="37"/>et potentiis anime ipsa voluntas diuersimode 
+      domin<lb ed="#V" n="38" break="no"/>natur et principatur. Tertium est quod voluntas virtuti 
+      <lb ed="#V" n="39"/>bus intellectiuis et sensitiuo appetitui principatur prin 
+      <lb ed="#V" n="40"/>cipatu politico: executiuis potentiis dominatur prin 
+      <lb ed="#V" n="41"/>cipatu despotico: potentiis autem vegetatiuis 
+      domi<lb ed="#V" n="42" break="no"/>natur principatu tyrannico: sicut homo brutis. 
+      Quar<lb ed="#V" n="43" break="no"/>tum dictum est quod iustitia monastica est in voluntate: 
+      <lb ed="#V" n="44"/>sicut in subiecto principali
+    </p>
+            <p xml:id="FrMS88-f40219-d1e151">
+               <lb ed="#V" n="45"/>His premissis est dicendum quod quedam 
+      sun<lb ed="#V" n="46" break="no"/> virtutes per quas participa 
+      <lb ed="#V" n="47"/>mus cum intelligentiis: quedam per quas participa 
+      <lb ed="#V" n="48"/>mus cum brutis: et inter istas virtutes est cotinua 
+      pu<lb ed="#V" n="49" break="no"/>gna: quia in homine sibiinuicem rebellant: voluntas 
+      <lb ed="#V" n="50"/>autem: que est domina: potest eis precipere vt 
+      preua<lb ed="#V" n="51" break="no"/>leant: et triumphent: ille. valet. quas voluntas vult de aliis 
+      <lb ed="#V" n="52"/>triumphare: hoc autem facit per habitum qui dicitur 
+      <lb ed="#V" n="53"/>iustitia monastica: que imperat omnes actus virtutum 
+      <lb ed="#V" n="54"/>hominis ad seipsum.
+    </p>
+            <p xml:id="FrMS88-f40219-d1e175">
+      ¶ Aliquando igitur virtus 
+      mo<lb ed="#V" n="55" break="no"/>nastica vergit ad virtutes superiores et earum actibus 
+      <lb ed="#V" n="56"/>imperando amplius intendit: et tunc homo est 
+      quas<lb ed="#V" n="57" break="no"/>heroycus.
+    </p>
+            <p xml:id="FrMS88-f40219-d1e185">
+      ¶ Aliquando autem voluntas se 
+      immergi<lb ed="#V" n="58" break="no"/>viribus inferioribus: vel imperando: vel laxando est 
+      <lb ed="#V" n="59"/>rum actus: et tunc homo est brutalis vel bestialis 
+      </p>
+            <p xml:id="FrMS88-f40219-d1e192">
+               <lb ed="#V" n="60"/>¶ Aliquando autem voluntas insistit vtrisque viribus 
+      <lb ed="#V" n="61"/>et virtutibus et mediat inter ipsas quantum ad actus 
+      <lb ed="#V" n="62"/>humanos: et tunc iustus est vel iniustus monastice. Sid 
+      <lb ed="#V" n="63"/>enim intendat voluntas ipsas mediare secundum virtutem 
+      <lb ed="#V" n="64"/>iustitia est monastica. Si autem secundum temperantiam 
+      so<lb ed="#V" n="65" break="no"/>lum vt quietius viuat quam si vires inferiores essent 
+      effre<lb ed="#V" n="66" break="no"/>nate: iustus non est.
+    </p>
+            <p xml:id="FrMS88-f40219-d1e210">
+      ¶ Sed dubium est: cum volun¬ 
+      <!--372.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>tas sit magis connexa cum potentiis superioribus quam 
+      <lb ed="#V" n="68"/>inferioribus quare magis inclinatur ad appetitum 
+      <lb ed="#V" n="69"/>sensitiuum.
+    </p>
+            <p xml:id="FrMS88-f40219-d1e223">
+      ¶ Dicendum quod plaga est homini inflicta 
+      <lb ed="#V" n="70"/>ex propria culpa. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

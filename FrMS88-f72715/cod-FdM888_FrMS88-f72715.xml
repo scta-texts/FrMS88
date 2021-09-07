@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="221-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f72715"><!-- l4d26q1 -->
+            <head xml:id="FrMS88-f72715-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f72715-d1e111">
+               <lb ed="#V" n="124"/>Cum alia sacramenta etc. 
+      <lb ed="#V" n="125"/>HIc incipit distin. 26a. Circa quam
+      <lb ed="#V" n="126" break="no"/>queritur. vtrum 
+      ma<lb ed="#V" n="127" break="no"/>trimonium sit sacramentum. Quod non. quia 
+      <lb ed="#V" n="128"/>in statu innocentie non fuerunt sacramenta: cum 
+      <lb ed="#V" n="129"/>ordinentur contra plagas quas homo 
+      incidiu<lb ed="#V" n="130" break="no"/>propter peccatum: vt patet in parabola samari¬ 
+      <!--446.xml-->
+      <pb ed="#V" n="222-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tani. Lucr. c2imo. matrimonium autem tunc fuit.
+    </p>
+            <p xml:id="FrMS88-f72715-d1e137">
+      ¶ Contra. aptolus 
+      <lb ed="#V" n="2"/>dicit ad ephe. 5o. hoc sacramentum magnum est in christo. 
+      <lb ed="#V" n="3"/>quod matrimonium 
+      fui<lb ed="#V" n="4" break="no"/>hic intelligendum in quaedruplici statu 
+      <lb ed="#V" n="5"/>et in quadruplici tempore scilicet inocentie naturae legis scripte. legi grnter 
+      <lb ed="#V" n="6"/>vsque ad finem. In per quidem statu statutum fuit gene. 2o. et propter 
+      <lb ed="#V" n="7"/>hanc relinquet homo patrem suum et matrem et adherebit 
+      vxo<lb ed="#V" n="8" break="no"/>ri sue. Ubi tria bona exprimuntur scilicet bonum sacramenti. bonum 
+      fi<lb ed="#V" n="9" break="no"/>dei. bonum prolis scilicet in carne vna.
+    </p>
+            <p xml:id="FrMS88-f72715-d1e157">
+      ¶ 2o in statu legis naturae fuit 
+      <lb ed="#V" n="10"/>confirmatum: nec legitur in illo statu fuisse in aliquo diminutum. 
+      </p>
+            <p xml:id="FrMS88-f72715-d1e162">
+               <lb ed="#V" n="11"/>¶ 3o in lege scripta fuit diminutum quare data fuit lex 
+      di<lb ed="#V" n="12" break="no"/>uortii quae prius non fuit permissa. In istis tribus temporibus fuit matr 
+      <lb ed="#V" n="13"/>monium: sed non sacramentum efficaciter significans gratiam: sicut modo bene 
+      <lb ed="#V" n="14"/>significabat rem sacrauan: sed pro nunc est causa gratie tunc non erat. Sed in 
+      <lb ed="#V" n="15"/>4o statu quando christus dixit. math. 19. Quos deus coniunxit homo sn 
+      <lb ed="#V" n="16"/>separet fuit vere sacramentua.
+    </p>
+            <p xml:id="FrMS88-f72715-d1e179">
+      ¶ Intelligendum tamen quod sicut in aliis sacramentis 
+      <lb ed="#V" n="17"/>4or ad eius integritatem requruntur ita hoc oportet. Cam efficiens 
+      veo<lb ed="#V" n="18" break="no"/>luntas personarum contrahentium. causa materialis persone legitie et etatis 
+      perfe<lb ed="#V" n="19" break="no"/>cte. Cam formaliter non sicut in aliis: quia hoc non est deterinata forma 
+      <lb ed="#V" n="20"/>verborum: sed sub quibuscumque signis exprimatur sufficit causa finali 
+      <lb ed="#V" n="21"/>procreatio prolis ad cultum dei.
+    </p>
+            <p xml:id="FrMS88-f72715-d1e192">
+      ¶ Sed hic oc. difficultas. si ille actus est 
+      <lb ed="#V" n="22"/>licitus. Aliqui heretici dicunt quod idem est actus matrimonialis et 
+      <lb ed="#V" n="23"/>fornicationis. hoc autem est hereticum vt inuit apstulus. Unusquisque 
+      <lb ed="#V" n="24"/>inqut vxorem suam habeat propter fornicationem scilicet deuitandam. prima. ad 
+      <lb ed="#V" n="25"/>cori. 3o.
+    </p>
+            <p xml:id="FrMS88-f72715-d1e203">
+      ¶ Dubium tamen est. si in illo actu licito possit esse 
+      pec<lb ed="#V" n="26" break="no"/>catum mortale.
+    </p>
+            <p xml:id="FrMS88-f72715-d1e208">
+      ¶ Respondeo. et dico quod sic. si non essent debite 
+      cir<lb ed="#V" n="27" break="no"/>cumstantie: sicut in comedendo et in aliis actibus: et in hoc non est diffifulta 
+      <lb ed="#V" n="28"/>ficultas.
+    </p>
+            <p xml:id="FrMS88-f72715-d1e215">
+      ¶ Sed difficultas est si propter abstinentiam a fornicatione fiat 
+      <lb ed="#V" n="29"/>nulla alia intentione habita. vtrum sit veniale. Aliqui dicunt quod 
+      <lb ed="#V" n="30"/>practum est exqui apistuls dicit. prima ad cori. 3o. vxori vir debitum 
+      <lb ed="#V" n="31"/>reddat: tamen videtur quod sic: quod patet cum subdit: hoc autem dico secundum 
+      indul<lb ed="#V" n="32" break="no"/>gentiam. sed indulgentia praesupponit aliquam culpam.
+    </p>
+            <p xml:id="FrMS88-f72715-d1e226">
+      ¶ 2a difficultas. si 
+      <lb ed="#V" n="33"/>in aliquo casu est peccatum mortale.
+    </p>
+            <p xml:id="FrMS88-f72715-d1e232">
+      ¶ Dicitur quod 4r exercetur 
+      il<lb ed="#V" n="34" break="no"/>le actus. Aliquando propter redditionem debiti. aliquando propter prolem 
+      pro<lb ed="#V" n="35" break="no"/>creandam. Aliquando propter vitamdam fornicationem. Aliquando propter 
+      ex<lb ed="#V" n="36" break="no"/>tinguendam libidinem. Et in hoc vltimo videtur esse peccatu mor 
+      <lb ed="#V" n="37"/>tale: sicut dicit Raphael in tobia. tobie. o. audi me et onte 
+      <lb ed="#V" n="38"/>dam tibi etc. Sed propter vitandam fornicationem est veniale. propter 
+      <lb ed="#V" n="39"/>generationem prolis ad divinum cultum: et propter redditionem debiti est 
+      <lb ed="#V" n="40"/>meritorius actus: quia actus iusticie est redditio debiti. et 
+      <lb ed="#V" n="41"/>actus latrie videtur: quando est propter prolem procreandam ad diuinum 
+      <lb ed="#V" n="42"/>cultum.
+    </p>
+            <p xml:id="FrMS88-f72715-d1e254">
+      ¶ 3a difficultas si sit actus gratiosus quod infundatur gratia 
+      <lb ed="#V" n="43"/>vertute eius.
+    </p>
+            <p xml:id="FrMS88-f72715-d1e259">
+      ¶ hic dico quod licet sacramentum hoc habeat per se conferre 
+      <lb ed="#V" n="44"/>gratiam: non tamen actus ex parte operis: sed ex parte operantis: quia 
+      <lb ed="#V" n="45"/>actus non est sacramentum: sed sequela: sed primus consensus matri 
+      <lb ed="#V" n="46"/>monialis est causa.
+    </p>
+            <p xml:id="FrMS88-f72715-d1e268">
+      ¶ 4a difficultas. si cadit sub praecepto. Dicitur quod sic 
+      <lb ed="#V" n="47"/>quando alter coniugum exigit debitum. in lege autem naturae fuit matr 
+      <lb ed="#V" n="48"/>monium sub praecepto. cum deus dixit: crescite et multiplica 
+      <lb ed="#V" n="49"/>mini etc. gen. 2o. ca. Nunc autem non: nec sub consilio similiter. 
+      </p>
+            <p xml:id="FrMS88-f72715-d1e277">
+               <lb ed="#V" n="50"/>¶ Sed apud infideles est ne matrimoium per modum vinculi. 
+      </p>
+            <p xml:id="FrMS88-f72715-d1e282">
+               <lb ed="#V" n="51"/>¶ Certum est quod non est sacramentum. apstulus paulus videtur 
+      di<lb ed="#V" n="52" break="no"/>cere quod sic. si quis inquid vxorem infidelem etc.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

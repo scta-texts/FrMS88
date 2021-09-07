@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="115-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e85410"><!-- l1d38-39q1 -->
+            <head xml:id="FrMS88-e85410-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-e85410-d1e111">
+      Quaestio i. 
+      <!--232.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>¶ Distinctio. xxxviii. et. xxxix. 
+      <lb ed="#V" n="68"/>Nunc ergo ad propositum 
+      re<lb ed="#V" n="69" break="no"/>uertens cepto insistamus etc. 
+      <lb ed="#V" n="70"/>Propterea solet quaeri vtrum scientia 
+      <lb ed="#V" n="71"/>dei possit augeri vel minui etc. 
+      <lb ed="#V" n="72"/>distinctionem 38am et 39am quero 
+      <lb ed="#V" n="73"/>Irca vtrum deus habeat certam 
+      noti<lb ed="#V" n="74" break="no"/>tiam de futuris contingentibus. quod non. quia de 
+      <lb ed="#V" n="75"/>us pronunciauit per Isaiam mortem 
+      Eze<lb ed="#V" n="76" break="no"/>chie: quae non euenit. Isa. 38. et tamen loquebatur 
+      <lb ed="#V" n="77"/>ex parte dei.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e142">
+      ¶ Contra. Danielis. 3o. Deus 
+      eter<lb ed="#V" n="78" break="no"/>ne quin absconditorum es cognitor. quae nosti omnia antequam fiant 
+      </p>
+            <p xml:id="FrMS88-e85410-d1e147">
+               <lb ed="#V" n="79"/>¶ hic sciendum est quod Aug. libro de ciuitate duas opiniones 
+      re<lb ed="#V" n="80" break="no"/>citat contrarias.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e154">
+      ¶ Una fuit dicentium. quod omnia eueniunt de neces 
+      <lb ed="#V" n="81"/>sitate ad saluandum praescientiam dei in sua infallibilitate. 
+      <lb ed="#V" n="82"/>Alii dixerunt quod deus nullam habet notitiam de futuris 
+      contin<lb ed="#V" n="83" break="no"/>gentibus: ad saluandum rerum contingentiam.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e164">
+      ¶ Istis tamen 
+      erro<lb ed="#V" n="84" break="no"/>ribus exclusis ipse determinat quod stant simul scilicet quod deus 
+      <lb ed="#V" n="85"/>omnia contingentia certitudinaliter nouit: et tamen hoc non 
+      eueni<lb ed="#V" n="86" break="no"/>re de necessitate.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e173">
+      ¶ Ad declarationem autem huius. quat 
+      <lb ed="#V" n="87"/>tuor sunt per ordinem inquirenda et declaranda. Primum si 
+      <lb ed="#V" n="88"/>in rebus est contingentia. 2m vnde procedit hec contingentia. 
+      <lb ed="#V" n="89"/>3m vtrum deus cognoscat hec contingentia. 4m 
+      qua<lb ed="#V" n="90" break="no"/>liter a deo cognoscantur. 
+      <lb ed="#V" n="91"/>ad primum fuerunt aliqui antiqui qui 
+      dixe<lb ed="#V" n="92" break="no"/>Quantum runt. quod nulla contingentia est in rebus: 
+      <lb ed="#V" n="93"/>sed omnia eneniunt de necessitate: quia omne quod est praesens fuit 
+      fu<lb ed="#V" n="94" break="no"/>turum: et ideoo quod est futurum erit praesens: sicut omne praeteritum 
+      <lb ed="#V" n="95"/>fuit presens: et omne praesens erit praeteritum.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e195">
+      ¶ Sed contra istos 
+      ar<lb ed="#V" n="96" break="no"/>guitur 4r. Primo sic. quia tollunt omnem prudentiam: quia 
+      pruden<lb ed="#V" n="97" break="no"/>tis est consiliari: et tamen de necessariis nullus confiliatur nisi 
+      <lb ed="#V" n="98"/>frustra: quia nec prouidere nec remediare potest circa illa. 
+      </p>
+            <p xml:id="FrMS88-e85410-d1e204">
+               <lb ed="#V" n="99"/>¶ro quia tollunt omnem iustitiam. cuius est reniunerare 
+      meren<lb ed="#V" n="100" break="no"/>tes. et punire malos: quia de illis quae necessario fiunt nullus 
+      me<lb ed="#V" n="101" break="no"/>retur nec demeretur.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e213">
+      ¶ 3o quia destruitur scientia demonstratiua 
+      <lb ed="#V" n="102"/>et certa. Per se enim notum est. quod illud quod potest ab alio 
+      sepa<lb ed="#V" n="103" break="no"/>rari non inest enim necessario: quia necessarium est quod non potest aliter se 
+      <lb ed="#V" n="104"/>habere: et per se notum est ab aliquo subiecto albedinem 
+      sepa<lb ed="#V" n="105" break="no"/>rari. vel calorem ab aqua cum sit intuitiue cognitum.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e224">
+      ¶ Ex 
+      <lb ed="#V" n="106"/>quibus sequitur necessario ista conclusio. quod aqua non est 
+      necessa<lb ed="#V" n="107" break="no"/>rio calida.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e232">
+      ¶ 4o. quia tollunt certam experientiam. 
+      certitudi<lb ed="#V" n="108" break="no"/>naliter enim experimur quod possumus facere aliquid quod non 
+      <lb ed="#V" n="109"/>facimus. et aliqua dimittere quae facimus. cum membra 
+      subii<lb ed="#V" n="110" break="no"/>ciantur dispotice id est in seruiliter imperio voluntatis: et ipsa 
+      <lb ed="#V" n="111"/>possit velle aliqua que non vult. et non velle aliqua que vult. 
+      <lb ed="#V" n="112"/>Alioquin quis frustra rogaretur moueretur vel ei 
+      commina<lb ed="#V" n="113" break="no"/>retur.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e248">
+      ¶ Ideo dico. quod necessario contingentia est ponenda in 
+      <lb ed="#V" n="114"/>rebus: quia multa sunt possibilia aliter se habere.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e253">
+      ¶ Sed contra 
+      <lb ed="#V" n="115"/>istam veritatem instatur 4r. Primo. quia in praesentibus non potest esse 
+      <lb ed="#V" n="116"/>contingentia: quia in eis est necessitas. Omne enim quod est. quando est necesse 
+      <lb ed="#V" n="117"/>est esse.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e262">
+      ¶ 2o. quia in praeteritis non videtur posse poni contingentia: quia 
+      <lb ed="#V" n="118"/>impossibile est ea aliter se habere.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e267">
+      ¶ 3o. quia in futuris non potest esse 
+      <lb ed="#V" n="119"/>contingentia: non enim existunt. Contingetia autem est conditio 
+      existen<lb ed="#V" n="120" break="no"/>tis.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e274">
+      ¶ 4o. quia praesens componitur ex praeterito et futuro. quia praesens 
+      <lb ed="#V" n="121"/>est cuius pars praeteriit. pars quoque futura est: sed neutrum 
+      isto<lb ed="#V" n="122" break="no"/>rum potest esse contingens. ergo nec praesens.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e282">
+      ¶ Ad primum dico. quod illud 
+      <lb ed="#V" n="123"/>quod est quando est necesse est esse. hoc verum est in sensu 
+      compositio<lb ed="#V" n="124" break="no"/>nis: sed in sensu diuisionis. quod est quando est. contingens est esse. 
+      <lb ed="#V" n="125"/>quia nunquam contingit nisi dum est. sicut sortes sedens 
+      necessa<lb ed="#V" n="126" break="no"/>rio sedet in sensu compositionis. et contingenter in sensu 
+      diuisio<lb ed="#V" n="127" break="no"/>nis. Exemplum quod est album. quando est album: necessario est album. 
+      ve<lb ed="#V" n="128" break="no"/>rum est in sensu compositionis. quia hoc totum quod dico: album. 
+      <!--233.xml-->
+      <pb ed="#V" n="115-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>non potest esse nisi album. Sed in sensu diuisionis potest est 
+      <lb ed="#V" n="2"/> 
+               <lb ed="#V" n="3"/>se. quia illud quod est album potest esse quamuis non fit album. 
+      </p>
+            <p xml:id="FrMS88-e85410-d1e311">
+               <lb ed="#V" n="4"/>¶ Ad 2m sicut se habet praesens ad esse sic preteritum ad fuisse: 
+      <lb ed="#V" n="5"/>et ideo sicut praesens est contingens: ita praeteritum fuit contingens: licet 
+      <lb ed="#V" n="6"/>modo non sit contingens: quia non existit.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e320">
+      ¶ Ad 3m dico. quod futurum 
+      <lb ed="#V" n="7"/>non est continges: sicut nec praesteam: sed erit contingens: sicut praetelum contingens 
+      <lb ed="#V" n="8"/>fuit.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e327">
+      ¶ Ad 4m in tempore praesenti nulla est contingentia actu. nisi sicut 
+      <lb ed="#V" n="9"/>est in preterito et futuro: quia nulla pars temporis existit: sed tantum 
+      <lb ed="#V" n="10"/>ipsum instans est sic contingens.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e334">
+      ¶ Sed hic sunt aliquae difficulta 
+      <lb ed="#V" n="11"/>tes. Prima quare illud quod est dum est. necesse est esse: in 
+      <lb ed="#V" n="12"/>sensu compositionis. et non in sensu divisionis.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e341">
+      ¶ Dico quod aliter 
+      <lb ed="#V" n="13"/>comparatur accxidens ad subiectum cui accidit et aliter ad totum 
+      com<lb ed="#V" n="14" break="no"/>positum ex subiecto et ipso accidente: sicut aliter comparatur 
+      forma<lb ed="#V" n="15" break="no"/>ad materiam cui accit: et aliter ad totum compotsintius cui inest per se primo 
+      <lb ed="#V" n="16"/>Et ideo quia in sensu compositionis accipitur in subiecto esse cum existentia 
+      <lb ed="#V" n="17"/>simul: ideo necessario dicitur de existentia: et quasi in primo. In sensu autem 
+      di<lb ed="#V" n="18" break="no"/>uisionis non intelligitur in subiecto nisi essemus cui accidit existentiam 
+      </p>
+            <p xml:id="FrMS88-e85410-d1e358">
+               <lb ed="#V" n="19"/>¶ 2a difficultas. si praeteritum et futurum possunt esse contingentia.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e363">
+      ¶ Dico 
+      <lb ed="#V" n="20"/>quod existentia est adequata contigetie et necessitati: ita quod omne quod 
+      <lb ed="#V" n="21"/>est. vel est contingens vel necessarium. Unde illa que non existunt. 
+      <lb ed="#V" n="22"/>neutrum istorum habent. nec contingentiam scilicet nec necessitatem. Sunt 
+      <lb ed="#V" n="23"/>enim immediata circa existentiam: sicut finitum et infinitum circa 
+      quan<lb ed="#V" n="24" break="no"/>titatem. Pro quanto ergo praeteritum fuit existens et quando fuit: fuit contin 
+      <lb ed="#V" n="25"/>gens. pro tanto dicitur contingens. pro quanto autem nunc non est. contingens 
+      <lb ed="#V" n="26"/>non est.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e381">
+      ¶ Similiter dico de futuro. pro quanto enim erit et quando erit 
+      <lb ed="#V" n="27"/>contingens. dicetur contingens. pro nunc autem non dicitur.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e386">
+      ¶ 3a difficultas de 
+      instan<lb ed="#V" n="28" break="no"/>taneis et raptim transeuntibus. quomodo in eis potest esse contingentia. 
+      <lb ed="#V" n="29"/>cum in eis sit simili fieri et factum ese. non videtur ergo in potestate facientis. 
+      <lb ed="#V" n="30"/>dum est instans: quod raptim transeat. Et sic non est contingens. 
+      nes<lb ed="#V" n="31" break="no"/>etiam res ex qua fcam est eius factio non est in potestate facientis. nec 
+      <lb ed="#V" n="32"/>per consequens contingens.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e399">
+      ¶ Dico quod factum esse est 2. vel quod transit in 
+      <lb ed="#V" n="33"/>praeteritum. et vt sic non dicitur esse contingens: quia iam non est in potestate 
+      <lb ed="#V" n="34"/>facientis. Aliud factum esse est. quod licet veniat manet per 
+      tem<lb ed="#V" n="35" break="no"/>pus: et ideo quando est bene potest intelligi contingens. Et eodem modo illud 
+      <lb ed="#V" n="36"/>quod est solum per instans. quia pro eodem nunc pro quo fit. potest 
+      nun<lb ed="#V" n="37" break="no"/>fieri. et per consequens non esse: sicut pro quocumque tempore moueo 
+      continge<lb ed="#V" n="38" break="no"/>ter possum non mouere.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e415">
+      ¶ Ad cuus intellectums est sciendum. quod in 
+      <lb ed="#V" n="39"/>instanti temporis sunt duo signa naturae. in quorum primo intelligicur 
+      <lb ed="#V" n="40"/>agens indeterminatum ad alteram partem contradictionis: potens tamen 
+      <lb ed="#V" n="41"/>in quamlibet. In 2o autem intelligitur determinatum. Ticet ergo ipsum 
+      <lb ed="#V" n="42"/>agens vt intelligitur in 2o signo naturae. non possit non agere: quia 
+      <lb ed="#V" n="43"/>tunc ageret et non ageret: vt tamen in primo signo bene intelligitur pos 
+      <lb ed="#V" n="44"/>se non agere: quia pro illo signo indeterminatum intelligitur. et per 
+      <lb ed="#V" n="45"/>consequens adhuc non est agens.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e434">
+      ¶ 4a difficultas quare ponuntur aliqua 
+      futu<lb ed="#V" n="46" break="no"/>ra contingentia: et aliqua necessaria. Omnia enim futura secundum theologos 
+      <lb ed="#V" n="47"/>subsunt voluntati divine: qua est principium mere contingens: et sic 
+      comn<lb ed="#V" n="48" break="no"/>tingens est solem oriri cras.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e443">
+      ¶ Dico quod sicut quaedam sunt 
+      impossi<lb ed="#V" n="49" break="no"/>bilia simpliciter: quia a nullo possunt fieri: vt quod creatura simpliciter 
+      <lb ed="#V" n="50"/>sit infinita. Alia secundum quid. quia non possunt fieri a potentia limmitata: vt 
+      <lb ed="#V" n="51"/>quod accidentia separentur et subsistant. Ita aliqua dicuntur necessaria 
+      <lb ed="#V" n="52"/>simpliciter: quia eorum oppositum includit contradictionem: sicut deum esse 
+      <lb ed="#V" n="53"/>Alia autem sunt necessaria secundum quid: quia licet respectu alicuius agentis op 
+      <lb ed="#V" n="54"/>positum possit fieri: tamen non respectu alicuius alterius: et 
+      <lb ed="#V" n="55"/>ideo respectu eius sunt contingentia. et sic dico in proposito de 
+      contingen<lb ed="#V" n="56" break="no"/>ti. Nullum enim futurum simpliciter est necessarium imo omne est simpliciter 
+      <lb ed="#V" n="57"/>contingens. Sed tamen respectu alicus agentis potest aliquod dici 
+      ne<lb ed="#V" n="58" break="no"/>cessarium: sicut solem oriri cras.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e467">
+      ¶ hec sunt dicta 
+      theologi<lb ed="#V" n="59" break="no"/>ce. Philosopi enim aliter dixerunt: quia posuertt intelligentias naturaliter mo 
+      <lb ed="#V" n="60"/>nere et necessario: et ideo necessarius erat motus celestis. et per consequens se 
+      <lb ed="#V" n="61"/>lem oriri cras.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e476">
+      ¶ Sed contra eos habetur demonstratio: quia quando 
+      ali<lb ed="#V" n="62" break="no"/>quid pro aliquoi istanti potest esse sub opposito a. non repugnat 
+      <lb ed="#V" n="63"/>sibi esse pro toto tempore eterno sub illo: quia ex quo illud et 
+      op<lb ed="#V" n="64" break="no"/>positum sunt similis in eodem instanti: sequitur quod non sunt incompossibilia 
+      <lb ed="#V" n="65"/>ex suis rationibus formalibus: sed pro aliquo instanti videtur 
+      ce<lb ed="#V" n="66" break="no"/>lum non moueri. et intelligentiam non mouere. ergo non mouer 
+      <lb ed="#V" n="67"/>caelum et non mouere intelligentiam sunt compossibilia. 
+      <!--233.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="68"/>pars istius quaestionis est vide 
+      <lb ed="#V" n="69"/>Secunda re vnde prouenit 
+      contingen<lb ed="#V" n="70" break="no"/>tia in rebus.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e502">
+      ¶ hicautem introducuntur 4or 
+      <lb ed="#V" n="71"/>conclusiones. Prima quod prima radix 
+      contingen<lb ed="#V" n="72" break="no"/>tie in creaturis est a voluntate diuina: quia cum 
+      <lb ed="#V" n="73"/>ipsa sit omnino prima causa et perfectissima. ipsa 
+      <lb ed="#V" n="74"/>necessario causante. nulla alia posset 
+      contin<lb ed="#V" n="75" break="no"/>genter causare. Quod probatur. quia voluntas 
+      di<lb ed="#V" n="76" break="no"/>uina potest causare omnem effectum cuiuscunque 
+      <lb ed="#V" n="77"/>cause secunde: et ideo cum agens necessarium 
+      <lb ed="#V" n="78"/>agat inquantum potest. omnia necessario causaret. et 
+      <lb ed="#V" n="79"/>sic omnia essent de necessitate: sed nulla causa 
+      po<lb ed="#V" n="80" break="no"/>test contingenter illum effectum causare: qui est de 
+      <lb ed="#V" n="81"/>necessitate. ergo nulla causa posset contingenter 
+      <lb ed="#V" n="82"/>causare aliquid.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e531">
+      ¶ 2a conclusio est. quod contingentia est 
+      in<lb ed="#V" n="83" break="no"/>effectibus secundario a voluntate creata. Nanm 
+      <lb ed="#V" n="84"/>omnia creanda sunt deo equaliter 
+      contingen<lb ed="#V" n="85" break="no"/>tia: et tamen talia distinguuntur in contingentia et 
+      ne<lb ed="#V" n="86" break="no"/>cessaria. non nisi in habitudine ad voluntatem 
+      <lb ed="#V" n="87"/>creatam.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e545">
+      ¶ Item quando aliquod mouens non mouet 
+      <lb ed="#V" n="88"/>nisi vt motum. si necessario moueatur: necessario mouet: 
+      <lb ed="#V" n="89"/>sed nulla causa 2a agit nisi vt a prima mota. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e552">
+      ¶ 3 
+      <lb ed="#V" n="90"/>conclusio. quod ex concursu duplicis voluntatis 
+      pro<lb ed="#V" n="91" break="no"/>uenit duplex contingentia in rebus: quia duplex 
+      <lb ed="#V" n="92"/>principium contingens. ex concursu autem cuiusdam 
+      alte<lb ed="#V" n="93" break="no"/>rius non. quia omnia alia necessario: et naturaliter agunt. 
+      <lb ed="#V" n="94"/>voluntas autem solum contingenter.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e565">
+      ¶ 4a 
+      conclu<lb ed="#V" n="95" break="no"/>sio. quod ex concursu alterius solius voluntati: 
+      <lb ed="#V" n="96"/>cum aliis causis naturalibus. prouenit contingentia 
+      <lb ed="#V" n="97"/>in rebus: quia quandocunque ad aliquem effectum 
+      con<lb ed="#V" n="98" break="no"/>currit aliqua causa contingens: quocumque alio 
+      <lb ed="#V" n="99"/>concurrente quantumcumque necessario ille effectus 
+      <lb ed="#V" n="100"/>est contingens. Cam est quia effectus semper sequitur parte: 
+      <lb ed="#V" n="101"/>debiliorem. contingens autem principium est huiusmodi.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e583">
+      ¶ Praeterea 
+      ne<lb ed="#V" n="102" break="no"/>cessarium nunquam dependet a contingente. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e85410-d1e588">
+               <lb ed="#V" n="103"/>¶ Sed contra has conclusiones instatur quadrupliciter. 
+      <lb ed="#V" n="104"/>Primo. quia philosophi posuerunt contingentiam in rebus: 
+      <lb ed="#V" n="105"/>et tamen posuerunt deum agere necessario.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e597">
+      ¶ 2o squia 
+      <lb ed="#V" n="106"/>non videtur aliqua maior contingentia in volunt 
+      <lb ed="#V" n="107"/>tate nostra: quam in actione cuiuscumque alterius 
+      <lb ed="#V" n="108"/>agentis: quia sicut sol concurrente voluntate 
+      diui<lb ed="#V" n="109" break="no"/>na ad causandum radium: necessario causat 
+      ra<lb ed="#V" n="110" break="no"/>dium. sic voluntas nostra respectu actus 
+      sui<lb ed="#V" n="111" break="no"/>concurrente voluntate diuina necessario 
+      cau<lb ed="#V" n="112" break="no"/>sat. Si autem non concurrat: non potest. causare. 
+      </p>
+            <p xml:id="FrMS88-e85410-d1e616">
+               <lb ed="#V" n="113"/>¶ 3o. quia non videtur quod respectu cuiuscumque con 
+      <lb ed="#V" n="114"/>tingentis voluntas diuina concurrat. Nam volunt 
+      <lb ed="#V" n="115"/>tas nostra est contingens non solum respectu 
+      contra<lb ed="#V" n="116" break="no"/>riorum scilicet velle et nolle: sed respectu 
+      contradicto<lb ed="#V" n="117" break="no"/>riorum scilicet velle et non velle scilicet in suspensione actus: 
+      <lb ed="#V" n="118"/>sed in tali suspensione voluntas diuina 
+      nihil<lb ed="#V" n="119" break="no"/>potest agere: quia actus negatiuus et priuatiuum 
+      <lb ed="#V" n="120"/>est. ergo voluntas diuina coagit solum 
+      respe<lb ed="#V" n="121" break="no"/>ctu positiuorum.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e638">
+      ¶ Praeterea bruta videntur etiam non 
+      ne<lb ed="#V" n="122" break="no"/>cessario agere: quia videtur quod possint 
+      manudu<lb ed="#V" n="123" break="no"/>ci ad diuertendum se ab actibus suis.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e645">
+      ¶ 4o. quia 
+      <lb ed="#V" n="124"/>tunc omnes effectus essent contingentes. cum ad 
+      <lb ed="#V" n="125"/>omnes concurrat voluntas diuina. Vel sic. agens 
+      <lb ed="#V" n="126"/>non potest agere necessario: quin effectus sit 
+      ne<lb ed="#V" n="127" break="no"/>cessarius. cum impossibile sit actionem sine 
+      termi<lb ed="#V" n="128" break="no"/>no esse.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e658">
+      ¶ Ad primum dico. quod philosophi in hoc sin dixerunt 
+      <lb ed="#V" n="129"/>consequenter ad dicta sua. Ex quo enim posue 
+      <lb ed="#V" n="130"/>runt deum agere de necessitate. alie autem cause 
+      <lb ed="#V" n="131"/>solum agunt vt mote a deo. cum omne mouens 
+      <lb ed="#V" n="132"/>motum eadem necessitate qua mouetur: eadem 
+      <lb ed="#V" n="133"/>mouet: quare omnes causare 2o de necessaritate causant. Si ergo 
+      <!--234.xml-->
+      <pb ed="#V" n="116-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>omnes necessario causant. omnes effectus de necessitate 
+      cau<lb ed="#V" n="2" break="no"/>santur. et sic omnia eueniunt mere de necessitate. 
+      Supposi<lb ed="#V" n="3" break="no"/>to ergo quod aliqua causa 2a contingenter agat. sequitur necessario: quod et 
+      pri<lb ed="#V" n="4" break="no"/>ma. Sed forte philosophi non posuerunt deum concurrere in 
+      cau<lb ed="#V" n="5" break="no"/>satione omnium effectuum.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e689">
+      ¶ Ad 2m dico quod assistente 
+      volun<lb ed="#V" n="6" break="no"/>tate diuina in ratione cause vniuersalis. sol non potest non producere 
+      <lb ed="#V" n="7"/>radium: immo necessario producit: sed assistente voluntate 
+      diu<lb ed="#V" n="8" break="no"/>na voluntati nostre in ratione cause vniuersalis: sic voluntas nostra potest 
+      <lb ed="#V" n="9"/>suspendere actum quod non contingit in sole: et in causis naturalibus 
+      <lb ed="#V" n="10"/>non videtur requiri aliqua alia causa nec motio. nisi ista assistentia. 
+      <lb ed="#V" n="11"/>Et ideo non videtur conuincere prima ratio facta de radice contin 
+      <lb ed="#V" n="12"/>gentie: nisi supposita fide. Et sic apparet quomodo aliqua 
+      contin<lb ed="#V" n="13" break="no"/>gentia est in actu voluntatis nostre: que non est in aliis effe 
+      <lb ed="#V" n="14"/>ctibus naturalibus.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e711">
+      ¶ Ad 3m difficile est valde videre quomodo 
+      <lb ed="#V" n="15"/>voluntas nostra in suspensione actus dependeat a volun 
+      <lb ed="#V" n="16"/>tate diuina. Si enim fiat per actum volendin positiuum 
+      <lb ed="#V" n="17"/>vel volendi. tunc satis patet quomodo voluntas 
+      diui<lb ed="#V" n="18" break="no"/>na concurrat.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e723">
+      ¶ Sed tunc remanet difficultas. de 
+      proces<lb ed="#V" n="19" break="no"/>su in infinitum in actibus: sed de hoc alias.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e728">
+      ¶ Ad illud quod ad  
+      <lb ed="#V" n="20"/>ditur de brutis dico. quod talia fiunt per manuductiones et 
+      <lb ed="#V" n="21"/>tristitias quae mouent necessario ipsa bruta: qua scilicet tristitie vel 
+      de<lb ed="#V" n="22" break="no"/>lectationes inducuntur in eis ab extrinseco.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e737">
+      ¶ Ad 4m 
+      conce<lb ed="#V" n="23" break="no"/>do conclusiones quod omnes effectus et omnia quae sunt extra deum sunt 
+      contin<lb ed="#V" n="24" break="no"/>gentia: licet secundum quid aliqua possunt dici necessaria: quia ab aliquo principio 
+      <lb ed="#V" n="25"/>naturali et necessario producuntur: sicut a sole radius.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e746">
+      ¶ Sed oritur 
+      <lb ed="#V" n="26"/>difficultas. si contingentia voluntatis create reducatur in 
+      com<lb ed="#V" n="27" break="no"/>tingentiam voluntatis diuine.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e753">
+      ¶ Dicitur quod voluntas creata habet 
+      <lb ed="#V" n="28"/>duplicem contingentiam. Unam ad contraria vtpote ad nolle et 
+      vel<lb ed="#V" n="29" break="no"/>le. quae sunt actius contrarii. et in istis contingentia reducitur 
+      manife<lb ed="#V" n="30" break="no"/>ste in contingentiam diuine voluntatis: quia non potest aliquem isto 
+      <lb ed="#V" n="31"/>rum actuum elicere. nisi concurrente voluntate diuina vt est 
+      <lb ed="#V" n="32"/>causa vniuersalis. Aliam habet ad contradictoria. que est ad actum eliciendum 
+      <lb ed="#V" n="33"/>vel suspendendum. et hoc in primo modo patet: sicut supra. Sed in 
+      <lb ed="#V" n="34"/>suspesione actus cum nihil dicat positiuum: ista suspensio est 
+      <lb ed="#V" n="35"/>difficilis: nisi dicatur quod actu positiuo quo vult non vel 
+      <lb ed="#V" n="36"/>le: suspendit ipsum velle. Et si de illo actu suspendente 
+      quae<lb ed="#V" n="37" break="no"/>ratur. dicetur eodem modo: sicut de primo. et erit processus 
+      in<lb ed="#V" n="38" break="no"/>infinitum: sicut in reflexionibus intellectus. et tunc 
+      volun<lb ed="#V" n="39" break="no"/>tas erit contingens simpliciter ad contradictoria: sicut fuit 
+      premis<lb ed="#V" n="40" break="no"/>sum. cum in suspendente eliciat actum positiuum: et interum 
+      praesen<lb ed="#V" n="41" break="no"/>te obiecto non poterit non elicere aliquem actum. 
+      <lb ed="#V" n="42"/>prencipale declarandum. Utrum deus 
+      cogno<lb ed="#V" n="43" break="no"/>Tertiu scat ipsa contigentia. hic aliqui volunt 
+      dice<lb ed="#V" n="44" break="no"/>re quod non. quia tunc vilesceret eius intellectus cum intellectus perficiatur 
+      <lb ed="#V" n="45"/>ab obiecto.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e795">
+      ¶ Sed istud non potest stare. Primo. quia deus habet 
+      <lb ed="#V" n="46"/>prudentiam et artem. talia autem sunt respectu contingentium.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e801">
+      ¶ 2o 
+      <lb ed="#V" n="47"/>quia non videtur plus de necessariis quam de contingentibus: quia 
+      <lb ed="#V" n="48"/>eque voluntas continet virtualiter contingentia: sicut entia 
+      ne<lb ed="#V" n="49" break="no"/>cessaria. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e810">
+      ¶ Aliter arguitur 4r. Primo. quia eadem 
+      ratio<lb ed="#V" n="50" break="no"/>ne non intelligeret essentiam suam: cum ab ipsa intellectus ipse 
+      <lb ed="#V" n="51"/>nihil recipiat: nec ab ea immuteter.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e817">
+      ¶ 2o quia potentia cognitiua 
+      <lb ed="#V" n="52"/>quanto nobilior tanto communior et vniuersalior: sed intellectus diuinus 
+      <lb ed="#V" n="53"/>est potentia nobilissima.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e824">
+      ¶ 3o quia si obiecta sensibilia 
+      vi<lb ed="#V" n="54" break="no"/>lificarent potentiam. multum ignobilitaretur intellectus in 
+      pru<lb ed="#V" n="55" break="no"/>dentia et arte et scientia perspectiua.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e831">
+      ¶ 4o. quia diuina voluntas 
+      <lb ed="#V" n="56"/>continet supereminenter omnia contingentia et virtualiter: sicut est 
+      <lb ed="#V" n="57"/>sentia continet necessaria: sed tale repraesentans est sufficiens ad 
+      perfe<lb ed="#V" n="58" break="no"/>cte cognoscendum.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e840">
+      ¶ Ideo dico. quod deus intelligit omnia tam 
+      pre<lb ed="#V" n="59" break="no"/>sentia quam futura. quod patet ex scriptura diuina. Patet etiam ex 
+      con<lb ed="#V" n="60" break="no"/>cessis a philosophis: qui concedunt quod deus habet prouidentiam de istis 
+      in<lb ed="#V" n="61" break="no"/>ferioribus contingentibus. ergo intelligit illa. Probatur etiam ratione. 
+      <lb ed="#V" n="62"/>quicumque enim intellectus cognoscit aliquam causam vt causa est. 
+      co<lb ed="#V" n="63" break="no"/>gnoscit effectum: sed deus cognoscit seipsum vt causam 
+      contingen<lb ed="#V" n="64" break="no"/>tem: ergo necessario cognoscit contingens. Minor patuit 
+      su<lb ed="#V" n="65" break="no"/>pra. Nec valet eorum motiuum: quia ille conditiones 
+      obiecti<lb ed="#V" n="66" break="no"/>solum attribuuntur obiecto respectu intellectus creatio 
+      <!--234.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>vt superius patuit.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e867">
+      ¶ Sed contra instatur quadrupliciter. 
+      <lb ed="#V" n="68"/>Primo sic. Omnis potentia naturalis et necessario agens 
+      ne<lb ed="#V" n="69" break="no"/>cessario operatur: sed intellectus diuinus est potentia 
+      natura<lb ed="#V" n="70" break="no"/>lis et necessario agens. ergo necessario operatur circa ob 
+      <lb ed="#V" n="71"/>iectum suum. et per consequens necessario intelliget contin 
+      <lb ed="#V" n="72"/>gentia.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e880">
+      ¶ 2o. quia deus nihil cognoscit nisi intuitiue sed 
+      <lb ed="#V" n="73"/>contingens non potest cognosci intuitiue: quia ab eterno non 
+      <lb ed="#V" n="74"/>fuit. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e887">
+      ¶ 3o quia quicquid deus cognoscit 
+      euinden<lb ed="#V" n="75" break="no"/>ter cognoscit: sed contingentia non possunt esse euidentia: quia 
+      <lb ed="#V" n="76"/>sunt indifferentia ad oppositum.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e894">
+      ¶ 4o. quia videretur quod 
+      pos<lb ed="#V" n="77" break="no"/>set esse mutatio in scientia diuina: quia multa erunt 
+      que<lb ed="#V" n="78" break="no"/>ipse potest impedire. Similiter posset esse augmentatior 
+      <lb ed="#V" n="79"/>quia posito quod producat in esse quae non producet. tunc cogno 
+      <lb ed="#V" n="80"/>sceret aliqua que non cognoscet: et sic augmentatio in 
+      scien<lb ed="#V" n="81" break="no"/>tia diuina.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e907">
+      ¶ Ad primum dico quod omnis potentia naturalis quantum est 
+      <lb ed="#V" n="82"/>ex se. semper agit. et fertur necessario in obiectum suum: potest 
+      <lb ed="#V" n="83"/>tamen contingenter ferri in obiectum aliquod. si concurrat vel 
+      prae<lb ed="#V" n="84" break="no"/>supponat aliquam potentiam contingenter operantem. et 
+      con<lb ed="#V" n="85" break="no"/>tingenter cum ea concurrentem: sicut ignis causat naturaliter. 
+      <lb ed="#V" n="86"/>tamen approximationem requirit que potest esse contingens. Et 
+      <lb ed="#V" n="87"/>ideo sua actio simpliciter erit contingens. Sic dico in 
+      pro<lb ed="#V" n="88" break="no"/>posito quod voluntas precedit intellectum quo ad 
+      continge<lb ed="#V" n="89" break="no"/>tia: sicut postea dicetur. et opratur contigenter. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e927">
+      ¶ Ad  
+      <lb ed="#V" n="90"/>2m dicunt aliqui. quod deus intuitiue cognoscit contingentiam 
+      <lb ed="#V" n="91"/>quia ea cognoscit in repraesentatiuo: quod melius repraesentat quam 
+      <lb ed="#V" n="92"/>res sint in se. Et hoc sufficit.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e937">
+      ¶ Ad 3m dico. quod non 
+      ob<lb ed="#V" n="93" break="no"/>stante quod contingens poterit aliter se habere. adhuc 
+      euinden<lb ed="#V" n="94" break="no"/>ter potest cognosci sicut euidenter cognosco te sedere cum 
+      <lb ed="#V" n="95"/>sedes. non obstante quod aliter posset esse. dato quod possis 
+      <lb ed="#V" n="96"/>non sedere. Eodem modo dico in proposito.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e948">
+      ¶ Ad 4m 
+      <lb ed="#V" n="97"/>dico quod scientiam augeri vel minui potest intelligi duplici 
+      <lb ed="#V" n="98"/>ter. vel in se formaliter. Et sic dico quod scientia dei non 
+      au<lb ed="#V" n="99" break="no"/>getur nec minuitur. Vel quo ad obiecta in esse 
+      cogni<lb ed="#V" n="100" break="no"/>to. et sic non est inconueniens: quia ex hoc non sequitur 
+      mu<lb ed="#V" n="101" break="no"/>tatio in aliquo quod sit formaliter in deo. Sola enim muta 
+      <lb ed="#V" n="102"/>tione facta in obiectis in esse cognito eorum possunt 
+      aliqua<lb ed="#V" n="103" break="no"/>esse scita et non scita: que tamen prius opposito modo dice 
+      <lb ed="#V" n="104"/>bantur. sicut propter solam mutationem in re creata 
+      fa<lb ed="#V" n="105" break="no"/>ctam. dicitur deus creare: que prius non dicebatur. Sic 
+      dico<lb ed="#V" n="106" break="no"/>in proposito. Obiecta enim secundum quod voluntas acceptat accipi 
+      <lb ed="#V" n="107"/>unt esse cognitum quod prius non habebant. 
+      <lb ed="#V" n="108"/>princinpaliter inquirendum est. Quomodo deus 
+      <lb ed="#V" n="109"/>Quartum futura contingentia cognoscat. Et 
+      quan<lb ed="#V" n="110" break="no"/>tum ad hoc propter diuersos modos dicendi. dico 
+      qua<lb ed="#V" n="111" break="no"/>tuor conclusiones. Prima est ista. quod deus non cognoscit 
+      <lb ed="#V" n="112"/>futura contingentia per suam essentiam: sicut aliquo dixerunt. 
+      mo<lb ed="#V" n="113" break="no"/>ti ex hoc quod ipsa est prius obiectum intellectus diuini. Pro 
+      <lb ed="#V" n="114"/>bo sic. Nam diuina essentia cuiuscumque est principium vel 
+      repra<lb ed="#V" n="115" break="no"/>sentatiuum: necessario et vniformiter representat: et 
+      di<lb ed="#V" n="116" break="no"/>uinus intellectus necessario intelligit quantum est ex se quod 
+      <lb ed="#V" n="117"/>quid intelligit: et ideo si diuina essentia futurum 
+      contir<lb ed="#V" n="118" break="no"/>gens repraesentaret. ipsum vniformiter et necessario repsun 
+      <lb ed="#V" n="119"/>taret. et diuinus intellectus necessario intelligeret. Et sic se 
+      <lb ed="#V" n="120"/>queretur. vel quod esset necessarium. sicut esset necessario non 
+      <lb ed="#V" n="121"/>tum. vel quod diuinus intellectus deciperetur: quorum vtrumque est 
+      <lb ed="#V" n="122"/>impossibile. Euenirent enim omnia de necessitate.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1007">
+      ¶ 2a 
+      conclu<lb ed="#V" n="123" break="no"/>sio. quod non intelligit per vdeas: sicut aliquin dixerunt quod 
+      di<lb ed="#V" n="124" break="no"/>uinus intellectus intelligitur per vdeas que sunt in mente 
+      diui<lb ed="#V" n="125" break="no"/>na. Quod probant sic. quia omnis artifex cognoscit artificium per 
+      <lb ed="#V" n="126"/>exemplar eius quod habet apud se: sed ydee secundum Aug. sunt 
+      exe<lb ed="#V" n="127" break="no"/>plaria rerum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1020">
+      ¶ Sed istud non potest stare: quia ydee sunt 
+      <lb ed="#V" n="128"/>ex natura sua incommutabilia et incommutabiliter repraesentantia: 
+      <lb ed="#V" n="129"/>sicut essentia. Et ideo si repraesentant istud futurum semper 
+      <lb ed="#V" n="130"/>ipsum necessario repraesentabunt. et per consequens necessario erit. vel si 
+      <lb ed="#V" n="131"/>no: falso repraesentabunt.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1031">
+      ¶ 3a conclusio quod non per presentiam 
+      pro<lb ed="#V" n="132" break="no"/>priam. aliqui enim imaginantur quod omnia sunt deo praesentia tan 
+      <!--235.xml-->
+      <pb ed="#V" n="116-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>futura quam praeterita: et ideo sicut cognoscit presentia: sic 
+      co<lb ed="#V" n="2" break="no"/>gnoscit praeterita et futura.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1047">
+      ¶ Sed istud stare non potest: quia 
+      <lb ed="#V" n="3"/>quod in se non est: immo est omnino non ens: alteri praesens esse non potest 
+      <lb ed="#V" n="4"/>cum praesens esse praesupponat esse: futurum autem non est. ergo etc 
+      </p>
+            <p xml:id="FrMS88-e85410-d1e1055">
+               <lb ed="#V" n="5"/>¶ Praeterea dato quod in se sint praesentia: sicut illa que nunc sunt. 
+      ad<lb ed="#V" n="6" break="no"/>huc deus illa per seipsa non cognosceret. cum deum apud se 
+      <lb ed="#V" n="7"/>omnia cognoscat nihil a rebus mendicando.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1064">
+      ¶ 4a conclusio quod non 
+      <lb ed="#V" n="8"/>cognoscit ea per indistantiam sicut dicunt aliqui quod deus per 
+      indi<lb ed="#V" n="9" break="no"/>stantiam ea cognoscit. Quod probant. licet enim ea quae non sunt 
+      persen<lb ed="#V" n="10" break="no"/>tia deo esse non possint positiue: tamen nullatenus distant a 
+      <lb ed="#V" n="11"/>deo: cum ipse sit indistans omni dimensioni temporis: sicut et loci¬ 
+      </p>
+            <p xml:id="FrMS88-e85410-d1e1075">
+               <lb ed="#V" n="12"/>¶ Sed istud non potest stare. Ratio enim negatiua non vide 
+      <lb ed="#V" n="13"/>tur esse sufficiens repraesentatiuum alicuius positiui: sed bi 
+      <lb ed="#V" n="14"/>econverso. Et praeterea talem indistantiam respectu omnium habet: et ideo 
+      ne<lb ed="#V" n="15" break="no"/>cessario talia cognosceret: et per consequens talia necessario essent 
+      </p>
+            <p xml:id="FrMS88-e85410-d1e1086">
+               <lb ed="#V" n="16"/>¶ Praeterea talem indistantiam habet respectu ommum futurorum 
+      <lb ed="#V" n="17"/>et non futurorum: possibilium et non possibilium: quia nullum ab 
+      <lb ed="#V" n="18"/>eo positiue distat: et tamen dicimus. quod aliter nouit 
+      futura<lb ed="#V" n="19" break="no"/>quam non futura. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1097">
+      ¶ Confirmatur: quia omnis ratio 
+      negati<lb ed="#V" n="20" break="no"/>ua reducitur ad affirmatiuam: nec etiam aliqua negatiua potentia 
+      <lb ed="#V" n="21"/>esse simpliciter prima.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1104">
+      ¶ Dico ergo conclusionem affirmatiuam scilicet quod 
+      <lb ed="#V" n="22"/>deus cognoscit omnia futura contingentia et etiam praesentia per volun 
+      <lb ed="#V" n="23"/>tatem suam: siue per determinationem proprie voluntatis: quia 
+      <lb ed="#V" n="24"/>per propriam causam cognoscitur effectus: sed voluntas 
+      diu<lb ed="#V" n="25" break="no"/>na est propria causa contingentis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1116">
+      ¶ 2o quia variabile non 
+      pria<lb ed="#V" n="26" break="no"/>cognosci nisi per variabile. vel formaliter vel virtualiter. 
+      <lb ed="#V" n="27"/>sola voluntas in deo est variabilis saltem virtualiter. ergo etc 
+      </p>
+            <p xml:id="FrMS88-e85410-d1e1123">
+               <lb ed="#V" n="28"/>¶ Sed contra ista instatur 4r. Primo. quia diuina voluntas 
+      ita<lb ed="#V" n="29" break="no"/>idetur ex se inuariabilis: sic essentia et intellectus. ergo videtur quod quicquid 
+      <lb ed="#V" n="30"/>repraesentat vniformiter et necessario repraesentabit: sicut essentia¬ 
+      </p>
+            <p xml:id="FrMS88-e85410-d1e1132">
+               <lb ed="#V" n="31"/>¶ 2o. quia eodem modo velle diuinum est perfectio absoluta et in 
+      <lb ed="#V" n="32"/>commutabilis et necessaria: sicut essentia. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1139">
+      ¶ 3o. quia non videtur 
+      <lb ed="#V" n="33"/>quod possit fugere ad dieterminationem actiuam. quia ista 
+      deter<lb ed="#V" n="34" break="no"/>minatio non est in deo formaliter. quia nihil est formaliter in 
+      <lb ed="#V" n="35"/>deo quod fit contingens. Ista autem determinatio est contingens: 
+      <lb ed="#V" n="36"/>sed deus nihil cognoscit nisi per illud quod est in se 
+      for<lb ed="#V" n="37" break="no"/>maliter. ergo non per determinationem.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1152">
+      ¶ 4o. quia non potest est 
+      <lb ed="#V" n="38"/>dici de determinatione passiua: quia certum est: quod illa est in ob 
+      <lb ed="#V" n="39"/>iecto extra: sed per nihil quod sit formaliter extra deus aliquid 
+      <lb ed="#V" n="40"/>cognoscit. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1161">
+      ¶ Ad primum dico. quod accipiendo voluntatem 
+      <lb ed="#V" n="41"/>pro potentia volitiua. videtur mihi quod argumentum 
+      conclu<lb ed="#V" n="42" break="no"/>dat. quia quantum est ex se necessario repraesentat.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1169">
+      ¶ Similiter ad 2m 
+      <lb ed="#V" n="43"/>accipiendo actum voluntatis diuine secundum quod est quedam perfe 
+      <lb ed="#V" n="44"/>ctio absoluta. oportet ergo fugere ad determinationem volun 
+      <lb ed="#V" n="45"/>tatis. Quid ergo dicat determinatio.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1178">
+      ¶ Dico quod oportet 
+      intel<lb ed="#V" n="46" break="no"/>ligere vnam determinationem actiuam in voluntate 
+      diuina<lb ed="#V" n="47" break="no"/>et vnam passiuam in creatura determinata.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1185">
+      ¶ Sed quid esn 
+      <lb ed="#V" n="48"/>illa determinatio actiua in voluntate dei:
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1190">
+      ¶ Dico quod noim 
+      <lb ed="#V" n="49"/>est nisi productio actiua qua voluntas ipsa obiecta pro 
+      <lb ed="#V" n="50"/>ducit in esse volito. Est ergo respectus rationis consequens 
+      vo<lb ed="#V" n="51" break="no"/>luntatem in voluntate: sicut respectus rationis est in intel 
+      <lb ed="#V" n="52"/>lectu. consequens intellectum.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1201">
+      ¶ Sed quomodo ens rationis potest esst 
+      <lb ed="#V" n="53"/>principium cognoscendi rem:
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1206">
+      ¶ Dico quod non est inconueniens quod 
+      <lb ed="#V" n="54"/>respectus rationis non confictus a ratione: sed derelictus: sit 
+      ra<lb ed="#V" n="55" break="no"/>tio cognoscendi rem. Tunc ergo intellectus intuitiue 
+      cogno<lb ed="#V" n="56" break="no"/>scendo respectum istum. cognoscit et terminum: quia 
+      respe<lb ed="#V" n="57" break="no"/>tus cognosci non potest nisi per verum terminum.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1218">
+      ¶ Sed hoc 
+      <lb ed="#V" n="58"/>est difficultas quia videtur quod deus necessaria cognoscere poterit 
+      <lb ed="#V" n="59"/>per suam essentiam: quia eminenter ea continet. cum ergo eque 
+      emi<lb ed="#V" n="60" break="no"/>nenter contineat contingentia: sicut necessaria videtur quod per 
+      essen<lb ed="#V" n="61" break="no"/>tiam eque cognoscit contingentia sicut necessaria.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1229">
+      ¶ Praeterea 
+      <lb ed="#V" n="62"/>essentia est ratio cognoscendi omnia attributa: et per consequens 
+      ve<lb ed="#V" n="63" break="no"/>luntatem: sed per voluntatem cognoscitur illa 
+      determin<lb ed="#V" n="64" break="no"/>natio. ergo per essentiam per quam cognoscitur voluntas: 
+      <lb ed="#V" n="65"/>per illam regulam. quicquid est causa cause. est causa causati: 
+      </p>
+            <p xml:id="FrMS88-e85410-d1e1240">
+               <lb ed="#V" n="66"/>¶ Dico quod oportet concedere vltimate resoluendo. quod omnia 
+      <!--235.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>cognoscantur per essentiam diuinam tanquam per primum obiectum. 
+      </p>
+            <p xml:id="FrMS88-e85410-d1e1251">
+               <lb ed="#V" n="68"/>¶ Sed quia istud quantum ad omnia non sufficit: maxime in 
+      com<lb ed="#V" n="69" break="no"/>tingentium cognitione: ideo oportet aliquid aliud coassumere: 
+      <lb ed="#V" n="70"/>et illud est voluntas vel determinatio voluntatis: secundum 
+      pre<lb ed="#V" n="71" break="no"/>dicta.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1262">
+      ¶ Sunt ergo quatuor essentialiter ordinata. Primum 
+      <lb ed="#V" n="72"/>est diuina essentia. 2m potentia volitiua. 3m est actus volen 
+      <lb ed="#V" n="73"/>di. Et 4m est obiectum volitum. Eentia enim diuina vt supra 
+      <lb ed="#V" n="74"/>patuit: non potest contingenter praecise praesentare propter suam 
+      neces<lb ed="#V" n="75" break="no"/>sariam et vniformen respectu omnium repraesentationem nec po 
+      <lb ed="#V" n="76"/>volitiua in se: eadem ratione: nec actus volendi in se. sed per 
+      deter<lb ed="#V" n="77" break="no"/>minationem: vt prius dictum est. Sed ista tria sunt necessaria equaliter 
+      <lb ed="#V" n="78"/>secundum se et secundum suam naturam. non tamen obiectum volitum: quia est ratio 
+      co<lb ed="#V" n="79" break="no"/>gnoscendi tunc deus acciparet notitiam a rebus: sed sola 
+      determi<lb ed="#V" n="80" break="no"/>natio se tenens ex parte actus volendi qui est in deo: quia omnia alia 
+      <lb ed="#V" n="81"/>sunt eque necessaria: sed ista determinatio potest inesse diuine voli 
+      <lb ed="#V" n="82"/>tioni sine eius mutatione. cum sit respectus non realis consequens 
+      <lb ed="#V" n="83"/>actum diuine voluntatis: sicut respectus rationis actum 
+      diui<lb ed="#V" n="84" break="no"/>ni intellectus: et determinatio divine voluntatis non addit supra 
+      <lb ed="#V" n="85"/>actum volendi nisi productionem actiuam in esse volito: pro tali et 
+      <lb ed="#V" n="86"/>tali periodo.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1297">
+      ¶ Sed contra. quia divina voluntas est realiter volens 
+      <lb ed="#V" n="87"/>istud futurum. et non illud. ergo realiter est determinata.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1303">
+      ¶ Praeterea per 
+      <lb ed="#V" n="88"/>aliquid non reale non videtur posse cognosci reale: sed contingentia 
+      <lb ed="#V" n="89"/>praesentia sunt realia.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1310">
+      ¶ Ad primum dico quod realiter est volens sicut 
+      <lb ed="#V" n="90"/>realiter creans: cum tamen actiua creatio sit respectus rationis tantum 
+      <lb ed="#V" n="91"/>ita quod realiter refertur ad fundamentum determinationis 
+      </p>
+            <p xml:id="FrMS88-e85410-d1e1317">
+               <lb ed="#V" n="92"/>¶ Ad 2m dico. quod habitudo extremorum in contingentibus 
+      <lb ed="#V" n="93"/>non ponitur nisi respectus rationis. et dato quod realis. nullum 
+      <lb ed="#V" n="94"/>nconueniens est. si intellectus intelligat vel cognoscat aut 
+      ve<lb ed="#V" n="95" break="no"/>luntas per respectus rationis sue.
+    </p>
+            <p xml:id="FrMS88-e85410-d1e1328">
+      ¶ Ad argumentum patet. quia deus 
+      <lb ed="#V" n="96"/>praenouerat prolongationem dierum quam disponebat. Et 
+      enun<lb ed="#V" n="98" break="no"/>
+               <!-- line coord order error -->ciatio. Esaie intelligebatur cum conditione.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

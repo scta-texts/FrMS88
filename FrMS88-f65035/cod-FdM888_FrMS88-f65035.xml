@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f65035"><!-- l4d17q3 -->
+            <head xml:id="FrMS88-f65035-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f65035-d1e111">
+               <lb ed="#V" n="51"/>TErtia quaestio. vtrum aliquis teneatur 
+      con<lb ed="#V" n="52" break="no"/> siteri de peccatis venialibus 
+      </p>
+            <p xml:id="FrMS88-f65035-d1e118">
+               <lb ed="#V" n="53"/>¶ Et videtur quod non. quia per aquam benedictam: et 
+      <lb ed="#V" n="54"/>llhuitum remittuntur et abluuntur. Contra dci omnibus ped 
+      <lb ed="#V" n="55"/>S catis est confitendum: sed venialia sunt peccatua. ergo etc. 
+      <lb ed="#V" n="56"/>videndum est de distinctione 
+      pecca<lb ed="#V" n="57" break="no"/>Dic primo ti venialis: et mortalis. Et dicuntur 
+      <lb ed="#V" n="58"/>aliqui quod mortale est: quando voluntas intense deordinatur 
+      <lb ed="#V" n="59"/>sed quando remisse. tunc est veniale.
+    </p>
+            <p xml:id="FrMS88-f65035-d1e136">
+      ¶ Sed contra. quia aliqua sunt 
+      <lb ed="#V" n="60"/>que quantumcunque remisse fiant sunt peccata mortalia: sicut 
+      <lb ed="#V" n="61"/>blasphemia dei.
+    </p>
+            <p xml:id="FrMS88-f65035-d1e143">
+      ¶ Alii dicunt quod distinguuntur ex parte obiecti 
+      <lb ed="#V" n="62"/>quia peccatum mortale est circa finem: veniale circa ea que 
+      <lb ed="#V" n="63"/>sunt ad finem.
+    </p>
+            <p xml:id="FrMS88-f65035-d1e151">
+      ¶ Contra. subrepticia cogitatio 
+      infideli<lb ed="#V" n="64" break="no"/>tatis est circa finem et potest esse peccatum veniale. simili 
+      <lb ed="#V" n="65"/>cogitatio de adulterio potest esse peccatum mortale.
+    </p>
+            <p xml:id="FrMS88-f65035-d1e158">
+      ¶ Alii 
+      <lb ed="#V" n="66"/>dicunt quod veniale est quicquid potest stare cum charitate. morta¬ 
+      <!--428.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>le autem quod est incompossibile charitati.
+    </p>
+            <p xml:id="FrMS88-f65035-d1e169">
+      ¶ Sed hoc nihil est 
+      <lb ed="#V" n="68"/>quia per hoc non ostenditur in quo consistat peccatum morta 
+      <lb ed="#V" n="69"/>le.
+    </p>
+            <p xml:id="FrMS88-f65035-d1e176">
+      ¶ Aliter dicit sco. mortale est. quando est contra preceptum 
+      <lb ed="#V" n="70"/>sed veniale quod est contra consilium.
+    </p>
+            <p xml:id="FrMS88-f65035-d1e181">
+      ¶ Prima pars est vera.
+    </p>
+            <p xml:id="FrMS88-f65035-d1e184">
+      ¶ 2o 
+      <lb ed="#V" n="71"/>dubia. quia non faciendo consilium puta non renunciare 
+      <lb ed="#V" n="72"/>rebus temporalibus non oportet esse peccatum aliquod. alites omnes 
+      <lb ed="#V" n="73"/>qui non intrant religionem peccant venialiter.
+    </p>
+            <p xml:id="FrMS88-f65035-d1e194">
+      ¶ Dico igi 
+      <lb ed="#V" n="74"/>tur quod mortale est in qui est formaliter respectus divine displicem 
+      <lb ed="#V" n="75"/>tie. et odii voluntatis divine adaliquem: et alii tres respect 
+      <lb ed="#V" n="76"/>dicti distin. supra. 14a. sed deordinatio talis in qua non 
+      <lb ed="#V" n="77"/>includitur talis respectus est venialis:
+    </p>
+            <p xml:id="FrMS88-f65035-d1e205">
+      ¶ Sed quomodo 
+      co<lb ed="#V" n="78" break="no"/>gnosceretur quando est mortale vel veniale.
+    </p>
+            <p xml:id="FrMS88-f65035-d1e210">
+      ¶ Ad hoc 
+      <lb ed="#V" n="79"/>valet documentum scoti. quod illa que non sunt contra precepta 
+      <lb ed="#V" n="80"/>sunt venialia: et in hoc cognoscuntur.
+    </p>
+            <p xml:id="FrMS88-f65035-d1e217">
+      ¶ Sunt autem quatuor. 
+      <lb ed="#V" n="81"/>gradus in mortali peccato.
+    </p>
+            <p xml:id="FrMS88-f65035-d1e222">
+      ¶ Primus gradus est actus 
+      <lb ed="#V" n="82"/>cognitionis de malis. et hic de se non est peccatum sed sugi 
+      <lb ed="#V" n="83"/>gestio sola.
+    </p>
+            <p xml:id="FrMS88-f65035-d1e229">
+      ¶ Secundus. delectatio subrepticia. et hoc est 
+      <lb ed="#V" n="84"/>veniale.
+    </p>
+            <p xml:id="FrMS88-f65035-d1e235">
+      ¶ Tertius consensus in tentationes. cum 
+      consen<lb ed="#V" n="85" break="no"/>tit in delectationem mali scientur non in malum ipsum. 
+      ma<lb ed="#V" n="86" break="no"/>xime autem circa materiam venereorum est mortale. de aliis videtur 
+      <lb ed="#V" n="87"/>durum.
+    </p>
+            <p xml:id="FrMS88-f65035-d1e244">
+      ¶ Quartus consensus in actu. et hic est mortale. 
+      <lb ed="#V" n="88"/>particula est de principali quesito. 
+      <lb ed="#V" n="89"/>Secunda
+    </p>
+            <p xml:id="FrMS88-f65035-d1e251">
+      ¶ Et hic est dicendum quod de veniali quam 
+      <lb ed="#V" n="90"/>tum de se est non tenetur quis confiteri. quia nullam 
+      fa<lb ed="#V" n="91" break="no"/>cit incompossibilitatem cum gratia. vnde in puncto 
+      mor<lb ed="#V" n="92" break="no"/>tis potest quis peccare venialiter: nec hoc salutem 
+      im<lb ed="#V" n="93" break="no"/>pedit. Alii dicunt quod propter preceptum ecclensie tenetur quis semel 
+      <lb ed="#V" n="94"/>in anno confiteri. et tunc dicere peccata venialia. si non 
+      <lb ed="#V" n="95"/>habet conscientiam de mortali.
+    </p>
+            <p xml:id="FrMS88-f65035-d1e267">
+      ¶ Alii dicunt quod non. quia non sunt 
+      <lb ed="#V" n="96"/>materia huius sacramenti: sed solum mortalia.
+    </p>
+            <p xml:id="FrMS88-f65035-d1e272">
+      ¶ Dico igitur 
+      <lb ed="#V" n="97"/>quod non solum propter preceptum ecclesie. sed etiam propter ius 
+      <lb ed="#V" n="98"/>diuinum. necessarium est quod aliquando quilibet 
+      confi<lb ed="#V" n="99" break="no"/>eatur. cum nullus sine peccato viuat.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f24850"><!-- l2d44q5 -->
+            <head xml:id="FrMS88-f24850-Hd1e108">Quaestio 5</head>
+            <p xml:id="FrMS88-f24850-d1e111">
+      Questio i. 
+      <lb ed="#V" n="35"/>eternitatem mundi. Adhuc 
+      que<lb ed="#V" n="36" break="no"/>Irca ro quatuor quaestiones.
+    </p>
+            <p xml:id="FrMS88-f24850-d1e118">
+      ¶ 
+      Prima<lb ed="#V" n="37" break="no"/>questio est: vtrum deus potuerit 
+      produ<lb ed="#V" n="38" break="no"/>cere mundum ab eterno. Et videtur quod non: 
+      <lb ed="#V" n="39"/>quia proprietas dei est eternitas: ergo non 
+      <lb ed="#V" n="40"/>conuenit creature.
+    </p>
+            <p xml:id="FrMS88-f24850-d1e129">
+      ¶ Contra diony. de 
+      di<lb ed="#V" n="41" break="no"/>no. per se esse: et per se vita communicatur creaturis: 
+      <lb ed="#V" n="42"/>licet sint proprietates dei. 
+      <lb ed="#V" n="43"/>aliqui quod impossibilitas potest prouenire ex 
+      <lb ed="#V" n="44"/>hic dicunt impotentia producentis et ex parte 
+      produ<lb ed="#V" n="45" break="no"/>cti. Primo modo sic quod motus fiat in instanti. Secundo modo ex 
+      <lb ed="#V" n="46"/>parte intelligentie: quod caelum non potest moueri velocius. Dicunt 
+      <lb ed="#V" n="47"/>igitur quod deus potest quantum est de se: sed hoc repugnat mundo. 
+      </p>
+            <p xml:id="FrMS88-f24850-d1e147">
+               <lb ed="#V" n="48"/>¶ Sed contra hoc arguitur 4r.
+    </p>
+            <p xml:id="FrMS88-f24850-d1e153">
+      ¶ Primo: quia omnis potentia 
+      producti<lb ed="#V" n="49" break="no"/>ua est productiua alicuius producibilis si ab eterno 
+      ab<lb ed="#V" n="50" break="no"/>eterno.
+    </p>
+            <p xml:id="FrMS88-f24850-d1e160">
+      ¶ Confirmatur. quia productiuum et producibile 
+      adiui<lb ed="#V" n="51" break="no"/>cem referuntur: et ideo si est dare vnum et alterum.
+    </p>
+            <p xml:id="FrMS88-f24850-d1e165">
+      ¶ 2o sic: nulla 
+      <lb ed="#V" n="52"/>potentia actiua potest esse alicuius impossibilis: diuina potentia est 
+      po<lb ed="#V" n="53" break="no"/>actiua. ergo pro quocumque signo est potentia potuit esse terminus. 
+      </p>
+            <p xml:id="FrMS88-f24850-d1e172">
+               <lb ed="#V" n="54"/>¶ 3o. illa potentia est frustra quae non est nata reduci ad actum 
+      <lb ed="#V" n="55"/>tiam pro signo illo pro quo est potentia.
+    </p>
+            <p xml:id="FrMS88-f24850-d1e179">
+      ¶ 4o. quia nulla potentia est 
+      respe<lb ed="#V" n="56" break="no"/>ctu alicuius entis prohibiti: si ergo mundus est ens prohibi 
+      <lb ed="#V" n="57"/>tum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f24850-d1e186">
+      ¶ Dico igitur. quod non est dare productiuum: quin sit 
+      <lb ed="#V" n="58"/>alicuius producibilis. Item si est productiuum ab eterno: 
+      <lb ed="#V" n="59"/>et producibile potuit esse ab eterno: nec hoc videtur dubium. 
+      <lb ed="#V" n="60"/>Item non requiruntur plura nisi principium productiuum vel virtus 
+      pro<lb ed="#V" n="61" break="no"/>ductiua et producibile.
+    </p>
+            <p xml:id="FrMS88-f24850-d1e198">
+      ¶ hic dicitur quod ab eterno fuit 
+      produ<lb ed="#V" n="62" break="no"/>ctus sed no pro eterno. Contra istud arguo sic. impossibile est 
+      <lb ed="#V" n="63"/>transire de contradictorio in contradictorium: etc. fuit autem mundus 
+      <lb ed="#V" n="64"/>producibilis pro nunc: et non pro tunc: et ita nunc ex tempore et non 
+      ab<lb ed="#V" n="65" break="no"/>eterno nulla mutatione facta in mundo: quia non erat ad 
+      <lb ed="#V" n="66"/>huc: nec ex parte dei: ergo si est productiuus ab eterno: et pro 
+      <!--333.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>nunc.
+    </p>
+            <p xml:id="FrMS88-f24850-d1e218">
+      ¶ 2o quandocumque aliquod fundamentum transit ad aliquod 
+      <lb ed="#V" n="68"/>quod non habuit prius: oportet quod detur sibi ab aliquo: sed mundus 
+      <lb ed="#V" n="69"/>transit ab extremo conditionis ad aliud extremum: quia 
+      pro<lb ed="#V" n="70" break="no"/>ducitur pro nunc: sed producibilitas non potest dari ab agente 
+      ali<lb ed="#V" n="71" break="no"/>quo: quia necessario inest mundo. Non arguitur autem ex 
+      processuin<lb ed="#V" n="72" break="no"/>iando successiue: quia potuerunt esse ab etrno.
+    </p>
+            <p xml:id="FrMS88-f24850-d1e231">
+      ¶ Alii arguunt 
+      <lb ed="#V" n="73"/>ex perfectione agentis. Sed dicitur quod repugnat effectui. Sed 
+      <lb ed="#V" n="74"/>quomodo saluabitur contingentia mundi si productus ab eterno fuit 
+      <lb ed="#V" n="75"/>vnde arguitur sic. deus habet in potestate producere et non produceret 
+      <lb ed="#V" n="76"/>vel hunit ante productionem: et hoc non: quia tunc non esset mundus 
+      <lb ed="#V" n="77"/>ab eterno. nec in instanti quo produxit: quia tunc est productus 
+      <lb ed="#V" n="78"/>et omne quod est quando est etc. Nec postquam transiuit in praeteritum: quia hoc 
+      <lb ed="#V" n="79"/>solo priuatur deus quod genita non potest facere ingenita.
+    </p>
+            <p xml:id="FrMS88-f24850-d1e249">
+      ¶ hic 
+      <lb ed="#V" n="80"/>dico quod non ante: sed in instanti quo produxit: potentia 
+      <lb ed="#V" n="81"/>enim contradictionis est respectu eiusdem signi: factum autem 
+      <lb ed="#V" n="82"/>esse quod est in instanti cum transit in preteritum est 
+      neces<lb ed="#V" n="83" break="no"/>sarium. in instanti quo fit potest non fieri. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

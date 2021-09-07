@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f71917"><!-- l4d24q1 -->
+            <head xml:id="FrMS88-f71917-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f71917-d1e111">
+               <lb ed="#V" n="38"/>Nunc potest considerationem. 
+      <lb ed="#V" n="39"/>HIc incipit distinctio 24a. Circa quam
+      <lb ed="#V" n="40"/>queruntur 4or quaestiones. 
+      </p>
+            <p xml:id="FrMS88-f71917-d1e120">
+               <lb ed="#V" n="41"/>¶ Prima vtrum sacramentum ordinis sit sacramentum 
+      no<lb ed="#V" n="42" break="no"/>ue legis. Quod non. quia non inuenitur vbi christus 
+      il<lb ed="#V" n="43" break="no"/>lud instituerit.
+    </p>
+            <p xml:id="FrMS88-f71917-d1e129">
+      ¶ Contra. Luc. 2 2o. hoc 
+      <lb ed="#V" n="44"/>facite in meam commemorationem. tunc 
+      <lb ed="#V" n="45"/>enim dedit eis potestatem consecrandi.
+    </p>
+            <p xml:id="FrMS88-f71917-d1e136">
+               <lb ed="#V" n="46"/>hic est sciendum quod supposito quod sit sacramentum 
+      noue<lb ed="#V" n="47" break="no"/> legis quatuor ad ipsum requiruntur. Causa 
+      <lb ed="#V" n="48"/>efficiens est eprtes ordinatus. alius autem nihil faceret. causa 
+      <lb ed="#V" n="49"/>materialis persona rationabilis vtens ratione. causa formalis si 
+      <lb ed="#V" n="50"/>gnum sensibile et verba certa ad hoc ordinata. Causa fi 
+      <lb ed="#V" n="51"/>nalis ad conficiendum corpus christi. Et intelligendum quod 
+      <lb ed="#V" n="52"/>ordines distinguuntur secundum diuersam habitudinem ad 
+      sa<lb ed="#V" n="53" break="no"/>cramentum eucharistie.
+    </p>
+            <p xml:id="FrMS88-f71917-d1e157">
+      ¶ Ulterius est sciendum quod in 
+      <lb ed="#V" n="54"/>aliis sacramentis sola verba sunt forma. hic autem signum 
+      sensi<lb ed="#V" n="55" break="no"/>bile.
+    </p>
+            <p xml:id="FrMS88-f71917-d1e164">
+      ¶ Sed oc. di. si eptrs non intendit ordinare nisi 
+      il<lb ed="#V" n="56" break="no"/>lum quem potest de inure et aliquis qui non potest de 
+      iu<lb ed="#V" n="57" break="no"/>re suo occurrit sibi. numquid ordinans istum facit aliquid 
+      </p>
+            <p xml:id="FrMS88-f71917-d1e171">
+               <lb ed="#V" n="58"/>¶ Dicitur quod licet in vniversali fecerit protestationem: tamen quia ille oo 
+      <lb ed="#V" n="59"/>currit sibi in particulari. in particulari intendit eum 
+      or<lb ed="#V" n="60" break="no"/>dinare. et ideo est ordinatus de facto.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

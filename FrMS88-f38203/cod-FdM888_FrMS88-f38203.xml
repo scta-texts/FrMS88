@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f38203"><!-- l3d37-40q4 -->
+            <head xml:id="FrMS88-f38203-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f38203-d1e111">
+      Questio. iiii 
+      <lb ed="#V" n="35"/>QUarto quero Utrum virtutes 
+      <lb ed="#V" n="36"/>theologice 
+      con<lb ed="#V" n="37" break="no"/>sistant in medio.
+    </p>
+            <p xml:id="FrMS88-f38203-d1e120">
+               <lb ed="#V" n="38"/>Dicunt communiter docto 
+      <lb ed="#V" n="39"/>res quod 
+      <lb ed="#V" n="40"/>non. quia habent bonum infinitum pro obiecto: sed circa tale obiectum non potest 
+      <lb ed="#V" n="41"/>esse excessus: et per consequens nec medium. Circa bonum 
+      limi<lb ed="#V" n="42" break="no"/>tatum et finitum attenditur medium eo quod tale obiectum nin 
+      <lb ed="#V" n="43"/>minis potest diligi.
+    </p>
+            <p xml:id="FrMS88-f38203-d1e136">
+      ¶ Sed contra. videtur quod fides et spies habeant modo 
+      <lb ed="#V" n="44"/>dium: eo quod habent defectum et superabundantiam: qui enim 
+      <lb ed="#V" n="45"/>quatuor personas crederet in diuinis ille excederet: 
+      <lb ed="#V" n="46"/>qui vero tantum duas: ille deficeret.
+    </p>
+            <p xml:id="FrMS88-f38203-d1e145">
+      ¶ Sic eodem modo de 
+      <lb ed="#V" n="47"/>pe: posset enim quis de mina dei considere nimis et vel 
+      <lb ed="#V" n="48"/>tra exigentiam suorum meritorum: et interum posset quis 
+      ni<lb ed="#V" n="49" break="no"/>minis deficere.
+    </p>
+            <p xml:id="FrMS88-f38203-d1e155">
+      ¶ Sed dicitur ad omnia ista quod omnis talis erro: 
+      <lb ed="#V" n="50"/>sonat in defectum solum propter obiecti ignorantiam. 
+      <lb ed="#V" n="51"/>sed habita cognitione obiecti: que sufficit nullus 
+      poe<lb ed="#V" n="52" break="no"/>set circa obiectum deficere vel excedere in credendo 
+      <lb ed="#V" n="53"/>vel in sperando: nec ex parte obiecti: quia obiectum 
+      am<lb ed="#V" n="54" break="no"/>plius credibile est: nec ex parte actus: quia nullus actus 
+      <lb ed="#V" n="55"/>ad hoc in vltimo sui sufficit.
+    </p>
+            <p xml:id="FrMS88-f38203-d1e171">
+      ¶ Pis visis 
+      introducun<lb ed="#V" n="56" break="no"/>tur quatuor conclusiones.
+    </p>
+            <p xml:id="FrMS88-f38203-d1e176">
+      ¶ Prima est. quod virtus amicitie quae 
+      <lb ed="#V" n="57"/>formaliter est in deo non consistit in medio. Maior enim 
+      <lb ed="#V" n="58"/>amicitia est inter duas personas diuinas que possit esse: 
+      <lb ed="#V" n="59"/>quia quelibet est diligibilis in infinitum: sed pater non potest 
+      ni<lb ed="#V" n="60" break="no"/>minis diligere filium: nec econuerso. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f38203-d1e187">
+      ¶ Secunda 
+      <lb ed="#V" n="61"/>conclusio. quod virtus magnanimitatis que est formaliter 
+      <lb ed="#V" n="62"/>in deo non consistit in medio: patet. quia persone diuine 
+      in<lb ed="#V" n="63" break="no"/>infinitum sunt honorande. ergo quelibet potest velle ho 
+      <lb ed="#V" n="64"/>norari quantum possibile est creature.
+    </p>
+            <p xml:id="FrMS88-f38203-d1e198">
+      ¶ Tertia con 
+      <lb ed="#V" n="65"/>clusio. quod virtus mine que formaliter est in deo consistit 
+      <lb ed="#V" n="66"/>in medio. quia illa est in deo per comparationem ad cre¬ 
+      <!--367.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>turas: ad intra enim non est necessaria mina: sed deus 
+      <lb ed="#V" n="68"/>posset nimis misereri: sicut si dimitteret non peniten 
+      <lb ed="#V" n="69"/>ti vel actu resistenti.
+    </p>
+            <p xml:id="FrMS88-f38203-d1e216">
+      ¶ Sed contra primam 
+      conclusio<lb ed="#V" n="70" break="no"/>nem. quia deus habet amicitiam ad extra. diligit enim 
+      <lb ed="#V" n="71"/>creaturas: sed homo est magis diligibilis quam vermis 
+      <lb ed="#V" n="72"/>ergo si deus diligit ordinate amicitia eius ad 
+      creatu<lb ed="#V" n="73" break="no"/>ras est in medio.
+    </p>
+            <p xml:id="FrMS88-f38203-d1e228">
+      ¶ Contra secundam: quia de ratione 
+      <lb ed="#V" n="74"/>formali virtutis moralis est quod consistat in medio: sed 
+      <lb ed="#V" n="75"/>magnanimitas est huiusmodi. ergo in deo erit in medio: si 
+      po<lb ed="#V" n="76" break="no"/>natur talis virtus in deo.
+    </p>
+            <p xml:id="FrMS88-f38203-d1e237">
+      ¶ Ad primum dicendum quod 
+      <lb ed="#V" n="77"/>in deo est duplex amicitia. vna ad intra de qua est 
+      pri<lb ed="#V" n="78" break="no"/>ma conclusio. Alia ad extra: de qua currit instantia. et ista 
+      <lb ed="#V" n="79"/>est in medio.
+    </p>
+            <p xml:id="FrMS88-f38203-d1e246">
+      ¶ Ad secundum dico quod oportet alterum de 
+      <lb ed="#V" n="80"/>duobus dicere vel quod virtutes morales non sunt eius 
+      <lb ed="#V" n="81"/>dem rationis in deo et in creatura: vel quod virtus non habet 
+      <lb ed="#V" n="82"/>medium nisi respectu obiecti creati vel limitati.
+    </p>
+            <p xml:id="FrMS88-f38203-d1e255">
+      ¶ Ic<lb ed="#V" n="83" break="no"/>circo notandum est quod virtutes in deo et creatura se habent in eust 
+      <lb ed="#V" n="84"/>druplici differentia. quia quaedam sunt virtutes que in deo et in 
+      crea<lb ed="#V" n="85" break="no"/>tura consistunt in medio: vt iustitia et mina: quedam quae 
+      nec<lb ed="#V" n="86" break="no"/>in deo nec in creatura sunt in medio vt amicitia: quaedam 
+      <lb ed="#V" n="87"/>quae non in deo. sed tantum in creatura sunt in medio: vt ma 
+      <lb ed="#V" n="88"/>gnanimitas: quia omnis creatura potest nimis honorari. 
+      <lb ed="#V" n="89"/>deus autem non: quaedam autem quae non in creatura: sed in deo tantum sunt 
+      <lb ed="#V" n="90"/>in medio: vt iustitia distributiua. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

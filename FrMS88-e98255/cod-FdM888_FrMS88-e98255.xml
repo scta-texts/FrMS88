@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="132-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e98255"><!-- l1d43-44q10 -->
+            <head xml:id="FrMS88-e98255-Hd1e108">Quaestio 10</head>
+            <p xml:id="FrMS88-e98255-d1e111">
+    
+      Questio. x. 
+      <lb ed="#V" n="43"/>DEcima questio est. Utrum deus potue 
+      <lb ed="#V" n="44" break="no"/>rit producere aliquid actu 
+      ali<lb ed="#V" n="45" break="no"/>ter infinitum. quod non. quia deus non potest facere alium 
+      <lb ed="#V" n="46"/> deum: illud autem infinitum esset deus: quia quo 
+      ma<lb ed="#V" n="47" break="no"/>ius cogitari non posset.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e124">
+      ¶ Contra. diuina 
+      <lb ed="#V" n="48"/>potentia est infinita. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e129">
+      ¶ hic intelligendum est. quod 4or sun 
+      <lb ed="#V" n="49"/>modi infinitatis. de quibus quaestio potest habere difficultatem scilicet 
+      <lb ed="#V" n="50"/>modus infinitatis extensiue secundum quantitatem continuam sicut in 
+      <lb ed="#V" n="51"/>lineis. Alia infinitas est secundum quantitatem discretam: sicut in 
+      <lb ed="#V" n="52"/>numeris. Alia secundum quantitatem virtutis: sicut in gradibus 
+      <lb ed="#V" n="53"/>perfectionum. Alia secundum quantitatem durationis sicut in temn 
+      <lb ed="#V" n="54"/>pore. Et quantum ad ista sunt 4or inuestiganda. 
+      <lb ed="#V" n="55"/>est. si deus potest facere infinitum secundum 
+      multi<lb ed="#V" n="56" break="no"/>Primum tudinem. Dicunt aliqui quod non. quia infinitum est 
+      <lb ed="#V" n="57"/>cuius quantitatem accipientibus semper est aliquid extra accipere: quod 
+      <lb ed="#V" n="58"/>tamen non contingeret si esset infinitum.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e153">
+      ¶ Sed contra arguo. 4r. Primo sic. 
+      <lb ed="#V" n="59"/>natura specifica humana non est determinata ad certam 
+      multi<lb ed="#V" n="60" break="no"/>sudinem indiuiduorum. quia da oppositum. sequeretur quod deus 
+      in<lb ed="#V" n="61" break="no"/>hoc mundo generationem non posset continuare in eternum: 
+      <lb ed="#V" n="62"/>sed tantum vsque ad illum numerum quem sibi determinaret. Nam hoc 
+      <lb ed="#V" n="63"/>supposito arguitur sic. quandocumque est aliqua natura cui ex se non 
+      re<lb ed="#V" n="64" break="no"/>pugnat comunicari infinitis simil: deo non repugnat sic facere 
+      <lb ed="#V" n="65"/>sciliceteam infinitis simils comunicare: quia nunquam prouenit impossibilitas ex 
+      <lb ed="#V" n="66"/>parte dei: sed natura humana non habet ex se repugnantiam ad hoc quod 
+      <!--266.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>infinitis simili comunicetur. hoc probo. nam ipsa est nata comunicari 
+      <lb ed="#V" n="68"/>mille simils et. x. millibus. et sic quantumcumque multiplicetur 
+      nume<lb ed="#V" n="69" break="no"/>rus. sibi non repugnat simils comunicari. ergo deus potest eam 
+      connica<lb ed="#V" n="70" break="no"/>re infinitis simil.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e187">
+      ¶ 2o sic. quot sunt indiuidua eiusdem speciei 
+      pro<lb ed="#V" n="71" break="no"/>ducibilia simul. tot deum potest producere simul. cum possit 
+      <lb ed="#V" n="72"/>omne possibile: sicut est possibile: sed infinita indiuidua sunt simul et 
+      <lb ed="#V" n="73"/>fuerunt simul producibilia. cum omnia habuerint ab 
+      eterno<lb ed="#V" n="74" break="no"/>suam producibilitatem. ergo possunt simul produci.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e198">
+      ¶ Ista tamen ratio mi 
+      <lb ed="#V" n="75"/>nus probaret. nisi aliud adderetur. concluderet enim quod deus omnes 
+      <lb ed="#V" n="76"/>partes motus et temporis: et omnium successiuorum potest facere: quia 
+      cer<lb ed="#V" n="77" break="no"/>tum est quod suam producibilitatem ab eterno habuerut simil. 
+      <lb ed="#V" n="78"/>Propter hoc arguo sic addendo. Aut infinita sunt simils 
+      pro<lb ed="#V" n="79" break="no"/>ducibilia pro similis aut non. Si sic. tunc simils deus poterit 
+      produ<lb ed="#V" n="80" break="no"/>cere. nec valet de partibus successiuorum: quia licet sint simil 
+      produci<lb ed="#V" n="81" break="no"/>biles: tamen non sunt producibiles pro similis.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e216">
+      ¶ Si autem dicas. quod 
+      <lb ed="#V" n="82"/>non simul et pro similis sunt infinita producibilia. tunc erit dare 
+      <lb ed="#V" n="83"/>certum numerum: vltra quem deus producere non potest vnam 
+      animam<lb ed="#V" n="84" break="no"/>simul intelligendo. quod videtur satis inconueniens.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e225">
+      ¶ 3o sic. quandocum 
+      <lb ed="#V" n="85"/>que sunt alqua producibilia successiue. quibus ex se non rept 
+      <lb ed="#V" n="86"/>nat similitas: illa deus simul potest producere: sed infinitis anima 
+      <lb ed="#V" n="87"/>bus que sunt successiue producibiles. non repugnat 
+      si<lb ed="#V" n="88" break="no"/>multas ex se: quia non sunt in loco. hoc patet. quia quamcumque mul¬ 
+      <lb ed="#V" n="89"/>¬titudinem animarum accipias simul. nullam inuemes 
+      repugnan<lb ed="#V" n="90" break="no"/>tiam.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e241">
+      ¶ 4o sic. In re finita impossibile est procedere in infinitum secundum 
+      <lb ed="#V" n="91"/>partes eiusdem quantitatis: sed in indiuiduis producibilibus simils et 
+      <lb ed="#V" n="92"/>pro simul procedere est possibile in infinitum. Data enim 
+      quacum<lb ed="#V" n="93" break="no"/>que multitudine finita simul deus potest illam simili. et adhud 
+      <lb ed="#V" n="94"/>non est possibile dare tantum quin adhuc poterit tantum. ergo videtur quod possi 
+      <lb ed="#V" n="95"/>infinita simul producere. et non solum simul: sed et pro simul. 
+      </p>
+            <p xml:id="FrMS88-e98255-d1e254">
+               <lb ed="#V" n="96"/>¶ Ideo videtur aliquibus dicendum. quod deus potest facere simils 
+      multitu<lb ed="#V" n="97" break="no"/>dinem actu infinitam: quia non videtur repugnantia: si pro quolibet 
+      <lb ed="#V" n="98"/>solis radio vel instanti temporis deus vnam animam creet et 
+      conser<lb ed="#V" n="99" break="no"/>uet eam. et tunc essent infinite.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e266">
+      ¶ Sed tamen contra istam snientiam instatur 
+      <lb ed="#V" n="100"/>4r Primo sic. quia omnis multitudo creabilis est numerus. 
+      <lb ed="#V" n="101"/>sed numerus est multitudo mensurata per vnum multitudo autem 
+      <lb ed="#V" n="102"/>finitum mensurari non potest. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e275">
+      ¶ 2o sic. illa multitudo signata 
+      <lb ed="#V" n="103"/>erit vnum indiuinduum multitudinins in re: et per consequens erit in 
+      <lb ed="#V" n="104"/>aliqua specie multitudis constituibilis per vnitatem: et sic sub 
+      aliqui<lb ed="#V" n="105" break="no"/>specie numeri constituta per vnitatem erit dare numerum 
+      infini<lb ed="#V" n="106" break="no"/>tum.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e286">
+      ¶ 3o sic. quia si deus subtraheret vnum denarium a tali 
+      <lb ed="#V" n="107"/>multitudine de vno denario esset diminuta. et tunc aut est 
+      <lb ed="#V" n="108"/>set finita: aut non. Si non. tunc infinitum esset maius infinito. quia 
+      <lb ed="#V" n="109"/>plus et maius erat ante ablationem denarii quam prius. Sid 
+      <lb ed="#V" n="110"/>autem sit diminuta tunc erit finita: et sic sequitur quod vnus de 
+      <lb ed="#V" n="111"/>narius constituebat multitudinem infinita.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e299">
+      ¶ 4o sic. quia 
+      ta<lb ed="#V" n="112" break="no"/>li multitudini adhuc videtur quod deus possit addere vnam 
+      ani<lb ed="#V" n="113" break="no"/>mam. cum possit eam subtrahere: et manente tota vel eadem 
+      <lb ed="#V" n="114"/>multitudine reparare: et eadem ratione duas et tres. et sic in in 
+      <lb ed="#V" n="115"/>finitum. ergo vltra infinitam multitudinem potest aliam 
+      infri<lb ed="#V" n="116" break="no"/>nitam creare: et similiter duas: et per consequens infinities infinitas in 
+      <lb ed="#V" n="117"/>infinitum.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e315">
+      ¶ Ad primum dico. quod licet multitudo creabilis sit nul 
+      <lb ed="#V" n="118"/>merus si sit finita: non tamen si est infinita. Unde talis 
+      multitu<lb ed="#V" n="119" break="no"/>do non est numerus. nec est in genere quantitatis discrete 
+      <lb ed="#V" n="120"/>nisi per reductionem: sicut vnitas. quia tunc esset necessario 
+      <lb ed="#V" n="121"/>sub aliqua eius specie.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e326">
+      ¶ Et si dicatur quod infiniti ratio quantita 
+      <lb ed="#V" n="122"/>ti congruit. Dico quod verum est reductiue: sicut diuisibile et in 
+      <lb ed="#V" n="123"/>diuisibile pertinent ad quantitatem solum reductiue: ita 
+      <lb ed="#V" n="124"/>finitum et infinitum vnum per se scilicet diuisibile et finitum aliud 
+      au<lb ed="#V" n="125" break="no"/>em reductiue.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e338">
+      ¶ Ad 2m dico. quod ille numerus non esset 
+      <lb ed="#V" n="126"/>indiuiduum generis quantitatis. nec alicuius speciei illius 
+      <lb ed="#V" n="127"/>generis formaliter et quiditatiue: sed tantum reductiue: sicut 
+      vni<lb ed="#V" n="128" break="no"/>tas hec non est per se in illo genere. nec in aliqua eius specie: 
+      <lb ed="#V" n="129"/>reducitur tamen ad illud.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e349">
+      ¶ Ad 3m dico. quod facta subtractio 
+      <lb ed="#V" n="130"/>ne quantecumque multitudinins finite. adhuc remanet 
+      mul<lb ed="#V" n="131" break="no"/>titudo infinita: et in nullo penitus minorata. sicut nec 
+      <lb ed="#V" n="132"/>quo ad nos mare per mille guttas minoratur.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e358">
+      ¶ Si 
+      <!--267.xml-->
+      <pb ed="#V" n="132-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>militer dico. quod quantumcumque apponatur non augmentatur. 
+      <lb ed="#V" n="2"/>Et ratio omnium istorum est quae dicta est supra: quia equale et 
+      inequa<lb ed="#V" n="3" break="no"/>e sunt passiones quantitatis finite: et maius et minus sunt 
+      <lb ed="#V" n="4"/>species inequalitatis. Et ideo isti multitudini non possunt iste 
+      pas<lb ed="#V" n="5" break="no"/>tiones competere scilicet equalitas et inequalitas.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e378">
+      ¶ Ad 4m 
+      <lb ed="#V" n="6"/>dico de animabus quod potest vnam animam creare et vnam illa 
+      <lb ed="#V" n="7"/>rum subtrahere: tamen adhuc remanent infinite: sicut in 
+      conti<lb ed="#V" n="8" break="no"/>nuo sunt infinite partes. et si vna illarum in qua sunt infinite 
+      <lb ed="#V" n="9"/>auferatur. remanent infinite: ita quod sunt ibi infinities 
+      infini<lb ed="#V" n="10" break="no"/>te: sic in proposito.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e391">
+      ¶ Sed contra. quia si sic. semper deus vltra omnem 
+      <lb ed="#V" n="11"/>multitudinem potest facere plures.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e396">
+      ¶ Dico quod in tali mul¬ 
+      <lb ed="#V" n="12"/>¬titudinine non habet locum hoc signum omnis. Dico tamen consequentur ad 
+      pre<lb ed="#V" n="13" break="no"/>dicta. quod deus infinitas multitudines potest facere scilicet 
+      infi<lb ed="#V" n="14" break="no"/>nities: sicut patet in continnuo.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e406">
+      ¶ Sed hoc sunt difficultate. Prima est. quod 
+      <lb ed="#V" n="15"/>cum maior sit perfectio in pluribus animabus quam in vna. ita in 
+      infi<lb ed="#V" n="16" break="no"/>nitis quam finitis. ergo in infinitis est infinita perfectio intensiue: sed 
+      il<lb ed="#V" n="17" break="no"/>a perfectio infinita est quae aliquid maius cogitari non potest. et hoc 
+      <lb ed="#V" n="18"/>est idem quod deus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e417">
+      ¶ Dico quod ista infinitas perfectionis 
+      <lb ed="#V" n="19"/>est infinitas secundum quid. quia in finito genere: et in limitata specie secundum 
+      <lb ed="#V" n="20"/>gradus indiuiduales et non est sicut dei infinitas: quae est 
+      tran<lb ed="#V" n="21" break="no"/>scendens et totaliter alterius rationis ab ista infinitate.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e426">
+      ¶ 2a dif 
+      <lb ed="#V" n="22"/>ulias est si in ista multitudine infinita sunt infinite species 
+      nume<lb ed="#V" n="23" break="no"/>rorum.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e433">
+      ¶ Dico quod sic. et ideo quoscumque vltra faceret deus. 
+      <lb ed="#V" n="24"/>non distinguerentur nisi numeraliter ab istis. et vltra specie nul 
+      <lb ed="#V" n="25"/>neri hic contentam deus non potest facere nisi indiuidua.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e440">
+      ¶ 3 
+      <lb ed="#V" n="26"/>fficultas quia omnis species que est subiectiua pars multitudinis. videtur 
+      <lb ed="#V" n="27"/>finita: sed ista singularis multitudo continetur sub 
+      multitu<lb ed="#V" n="28" break="no"/>dine vt pars subitantiua. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e449">
+      ¶ Dico quod quando multitudo 
+      diui<lb ed="#V" n="29" break="no"/>ditur per finitum et infinitum. sub finita cadunt species numeri infinite. 
+      <lb ed="#V" n="30"/>Sub infinita autem sola vna pars subiectiua: que non est pro 
+      <lb ed="#V" n="31"/>prie species: sicut in ente diuiso per finitum et infinitum. solus de 
+      <lb ed="#V" n="32"/>us cadit sub infinito. Nicet ergo infinite species numeri sint sub 
+      fini<lb ed="#V" n="33" break="no"/>ta multitudine: non tamen multitudo ipsarum specierum infinitarum. 
+      </p>
+            <p xml:id="FrMS88-e98255-d1e463">
+               <lb ed="#V" n="34"/>¶ 4a difficultas quia videtur quod posita illa infinita multitudine. quod 
+      opor<lb ed="#V" n="35" break="no"/>teat ponere in vno particulari subiecto infinita actu accidentia. 
+      <lb ed="#V" n="36"/>cum quodlicet indiuiduum ad quodlicet habeat respectum similitudinis et 
+      disti<lb ed="#V" n="37" break="no"/>ctionis.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e474">
+      ¶ Dico quod isti respectus non multum onerant. oportet enim 
+      po<lb ed="#V" n="38" break="no"/>iere in quolibet indiuiduo vniuersi ad omnia alia multos 
+      re<lb ed="#V" n="39" break="no"/>spectus: immo in vno continuo videntur infiniti respectus fundari: 
+      <lb ed="#V" n="40"/>qui tamen destruuntur per vnicam diuisionem. Sic ergo dico. quod nini 
+      <lb ed="#V" n="41"/>est inconueniens quod talia multa ponantur. Sed quomodo infinitum 
+      <lb ed="#V" n="42"/>est extra cuius quantitatem semper est aliquid accipere extra.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e487">
+      ¶ Di 
+      <lb ed="#V" n="43"/>co quod illa est diffinitio quo ad intellectum nostrum cui 
+      acci<lb ed="#V" n="44" break="no"/>pienti quantamcumque multitudinem semper contingit accipere extra: 
+      <lb ed="#V" n="45"/>quia numquam accipit nisi multitudine finitam et non infinitan. 
+      <lb ed="#V" n="46"/>ad 2m praencinpale videndum est. si deus 
+      po<lb ed="#V" n="47" break="no"/>Quantum test facere infinitam magnitudinem 
+      <lb ed="#V" n="48"/>actu.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e503">
+      ¶ Dicunt aliqui quod non. quia de ratione infiniti est. quod sit in 
+      <lb ed="#V" n="49"/>actu permixto cum potentia et per consequens sibi repugnat esse inactu 
+      <lb ed="#V" n="50"/>sine potentia.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e510">
+      ¶ Sed contra arguo. 4r Primo sic. secundum quod patuit: 
+      <lb ed="#V" n="51"/>finitam multitudinem actu deus potest creare simul. 
+      Po<lb ed="#V" n="52" break="no"/>namus quod creet infinitas guttas aquae. et eas potest coniungere. 
+      <lb ed="#V" n="53"/>ergo infinitam aquam creare.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e519">
+      ¶ 2o sic. In re finita non est possibilis 
+      <lb ed="#V" n="54"/>processus in infinitum. si ergo deus non potest infinitam magnitudinem 
+      <lb ed="#V" n="55"/>simul ereare. erit aliquam dare magnitudinem vltra quam 
+      <lb ed="#V" n="56"/>deus nihil poterit creare simul. hoc est falsum. quia tunc 
+      <lb ed="#V" n="57"/>in re finita esset possibilis processus in infinitum. nam quantumcumque de 
+      <lb ed="#V" n="58"/>us creat. adhuc minora potest creare: quod non esset possibi 
+      <lb ed="#V" n="59"/>le. si solum finitum posset creare.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e536">
+      ¶ 3o sic. quia illa quantitas quae 
+      <lb ed="#V" n="60"/>est vltra omnem finitam est infinita: sed illa magnitudo 
+      quan<lb ed="#V" n="61" break="no"/>deus vltimate potest simul facere. est vltra omnem finitam. ergo 
+      <lb ed="#V" n="62"/>est infinita. Probatio minoris. quia vltra omnem 
+      magnitudi<lb ed="#V" n="63" break="no"/>nem finitam quam deus creat potest maiorem creare. ergo 
+      il<lb ed="#V" n="64" break="no"/>a que omnes excedit est infinita.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e549">
+      ¶ 4o sic. splluto diuisiuo. 
+      <lb ed="#V" n="65"/>Aut illa quam deus vltimate potest producere est finita vel 
+      <lb ed="#V" n="66"/>infinita. Si infinita habetur intentum. Si finita. hoc est impossibile: quia 
+      <!--267.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>eodem modo esset status in quocumque alio gradu. cum sit eiusdem 
+      <lb ed="#V" n="68"/>rationis.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e565">
+      ¶ Ideo videtur aliquibus esse dicendum. quod deus magnitudinem 
+      <lb ed="#V" n="69"/>actualiter infinitam potest producere et simul creare: quia nullus 
+      <lb ed="#V" n="70"/>effectus negandus est possibilis a potentia diuina. nisi manifestam 
+      <lb ed="#V" n="71"/>repugnantiam includat.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e574">
+      ¶ Sed contra arguo 4r. Primo sic. natura 
+      <lb ed="#V" n="72"/>illa magnitudo aut constat ex partibus aliquitins finitis aute 
+      infi<lb ed="#V" n="73" break="no"/>nitis. si finitis. ergo infinitum esset ex finitis. Si dicas quod ex 
+      infini<lb ed="#V" n="74" break="no"/>tis. tunc infinitum esset maius infinitis.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e583">
+      ¶ 2o sic. vbicumque est 
+      <lb ed="#V" n="75"/>continuum. ibi est pars et pars. quia continuum est diuisibile in partes. 
+      <lb ed="#V" n="76"/>sed illa magnitudo esset continua. ergo in ipsa essent partes. et sic 
+      <lb ed="#V" n="77"/>pars esset in infinito: quod est impossibile: quia semper totius ad partem est 
+      ali<lb ed="#V" n="78" break="no"/>qua proportio.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e594">
+      ¶ 3o sic. omne corpus est figuratum: sed illud non 
+      <lb ed="#V" n="79"/>posset esse figuratu. ergo non esset corpus.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e600">
+      ¶ 4o. quia propria 
+      pas<lb ed="#V" n="80" break="no"/>sio corporis est mobilitas: sed corpus illud esset immobile: quia 
+      <lb ed="#V" n="81"/>extra ipsum nihil esset. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e607">
+      ¶ Ad primum dico. quod illud corpus 
+      <lb ed="#V" n="82"/>non haberet partes aliquotas.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e612">
+      ¶ Et similiter ad 2m. quod non haberet 
+      par<lb ed="#V" n="83" break="no"/>tes. de ratione enim corporis finiti est habere partes et partes 
+      ali<lb ed="#V" n="84" break="no"/>quotas. Rationi autem infiniti repugnat vtrumque.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e619">
+      ¶ Sed 
+      nun<lb ed="#V" n="85" break="no"/>quid in illo infinito sunt partes: Dico quod semper pars est 
+      respe<lb ed="#V" n="86" break="no"/>ctu totius. si ergo intelligatur quod aliqua pars sit in isto infinito: ita quod 
+      <lb ed="#V" n="87"/>infinitum sit totum respectu istius partis. sic dico quod nihil est in isto 
+      <lb ed="#V" n="88"/>continuo quod sit pars. Si autem itelligatur pars non illius infiniti: sed 
+      <lb ed="#V" n="89"/>alicuius certe quantitatis accepte in isto infinito. Sic 
+      di<lb ed="#V" n="90" break="no"/>co quod multa sunt quibus conuenit esse partem: quia ibi etiam sunt multa 
+      <lb ed="#V" n="91"/>tota.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e637">
+      ¶ Ad 3m dico. quod illud corpus non esset figuratum. et 
+      <lb ed="#V" n="92"/>per consequens non esset visibile. ille enim sunt passiones quantitatis /
+      fini<lb ed="#V" n="93" break="no"/>te.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e644">
+      ¶ Ad 4m dico. quod ex natura sua esset mobile. et 
+      quodlibe<lb ed="#V" n="94" break="no"/>ipsius esset mobile. ipsum autem ratione infinitatis non.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e650">
+      ¶ Sed  
+      <lb ed="#V" n="95"/>hic sunt aliqua dubia. Primum. vtrum deum tale corpus posset 
+      <lb ed="#V" n="96"/>diuidere. Et videtur quod non. quia diuisio est in partes diuisi: sed istud 
+      <lb ed="#V" n="97"/>non habet partes.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e659">
+      ¶ Dico quod deus non posset illud infinitum 
+      diuide<lb ed="#V" n="98" break="no"/>re in partes suas quia nullas habet: sed bene in partes alterius quantitatis 
+      <lb ed="#V" n="99"/>in eo determinate creando vnam nouam superficiem in 
+      aliqui<lb ed="#V" n="100" break="no"/>continuitatis acceptione. Sed esset ne in loco.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e668">
+      ¶ Dico 
+      <lb ed="#V" n="101"/>quod esset praesens deo bene: sed non esset in loco: quia mobilitas et 
+      <lb ed="#V" n="102"/>visibilitas et figuralitas sunt passiones corporis finiti: 
+      <lb ed="#V" n="103"/>quia istud corpus non habet superficiem nec colorem: tamen esset vbique 
+      <lb ed="#V" n="104"/>secundum assistentiam.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e679">
+      ¶ 2m dubium est. vtrum creata aqua infinita deus 
+      vl<lb ed="#V" n="105" break="no"/>tra illam posset aliam creare.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e684">
+      ¶ Dicunt aliqui quod non. quia tunc 
+      to<lb ed="#V" n="106" break="no"/>ta nam aque esset adequata in actu.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e689">
+      ¶ Contra. quia certum est quod 
+      <lb ed="#V" n="107"/>posset illius aque adnihilare vnam guttam: et tamen adhuc 
+      re<lb ed="#V" n="108" break="no"/>maneret infinita. et postea illam eandem guttam reparare. 
+      </p>
+            <p xml:id="FrMS88-e98255-d1e697">
+               <lb ed="#V" n="109"/>¶ Ideo dico. quod vltra omnem illam aquam deus potest aliam 
+      <lb ed="#V" n="110"/>aquam creare: sicut fuit dictum de multium infinita.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e704">
+      ¶ 3a difficultas 
+      <lb ed="#V" n="111"/>vtrum creata infinita aqua posset infinitam aliam aquam creare. 
+      </p>
+            <p xml:id="FrMS88-e98255-d1e709">
+               <lb ed="#V" n="112"/>¶ Dico quod sic. quia posset aliam infinitam creare. et adhucs ma 
+      <lb ed="#V" n="113"/>orem. et sic infinitam: sicut fuit argutum de prima aqua infinita. 
+      </p>
+            <p xml:id="FrMS88-e98255-d1e716">
+               <lb ed="#V" n="114"/>¶ 4a difficultas. si creatis infinities infinitis. quantum deus potest similis. si 
+      <lb ed="#V" n="115"/>habet statum: ita quod vltra non possit addere.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e723">
+      ¶ Dico quod non. quia 
+      <lb ed="#V" n="116"/>eadem ratione habuisset statum in semel infinita: cum infinities 
+      <lb ed="#V" n="117"/>infinitum non excedat simpliciter semel infinitum.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e730">
+      ¶ Sed rema. 
+      <lb ed="#V" n="118"/>ifficultas si deus posset indiuiduum continnuum simul diuidere in 
+      infi<lb ed="#V" n="119" break="no"/>nitas partes.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e738">
+      ¶ Dico quod non. quia partes infinite continui non sunt 
+      <lb ed="#V" n="120"/>immediate: sicut si esset simil infinita multibus aut magnits: in quibus 
+      <lb ed="#V" n="121"/>facut deum infinitas partes inactu. diuisio autem continui procedit 
+      <lb ed="#V" n="122"/>in infinitum. ordinate proueniendo a maioribus partibus ad mi 
+      <lb ed="#V" n="123"/>nores: et ideo illud infinitum est successiuum. 
+      <lb ed="#V" n="124"/>ad 3m praencipale videndum est. vtrum deus 
+      <lb ed="#V" n="125"/>Quantum possit aliquid intensiue infinitum creare 
+      <lb ed="#V" n="126"/>actualiter.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e756">
+      ¶ Ad declarationem autem partis affirmatiue 
+      <lb ed="#V" n="127"/>stius. 4. sunt notanda: que possunt haberi ex praemissis. Primum 
+      <lb ed="#V" n="128"/>est. quod deus potest infinitas animal simul in actu creare. vt 
+      <lb ed="#V" n="129"/>patuit ex primo articulo. 2m est. quod in singulis animabus potest 
+      <lb ed="#V" n="130"/>charitatem infundere: quia infinitas non magis repugnat 
+      <lb ed="#V" n="131"/>charitatibus quam animabus simili. 3m est. quod charitates ipse 
+      <lb ed="#V" n="132"/>possunt ab animabus separari a deo: quia forme quanto sunt nobilio¬ 
+      <!--268.xml-->
+      <pb ed="#V" n="133-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>res. tanto minus dependent a materia. et per consequens possunt facilius separa 
+      <lb ed="#V" n="2"/>ri. Et ideo cum gratia sit nobilior accidentibus sensibilibus. videtur quod 
+      <lb ed="#V" n="3"/>fit magis separabilis a subiecto. 4m est. quod caritates separate 
+      <lb ed="#V" n="4"/>a subiecto possunt omnes vniri: quia quacumque sunt eiusdem rationis sunt 
+      <lb ed="#V" n="5"/>equaliter vnibilia. cum vnitas sit per se passio eorum: sicut naturalis 
+      <lb ed="#V" n="6"/>aptitudo.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e791">
+      ¶ Istis praemissis patet per quem modum posset deus 
+      <lb ed="#V" n="7"/>facere infinitam charitatem intensiue. quia ex infinitis grad 
+      <lb ed="#V" n="8"/>bus infinita intensio constat vel charitas infinita intensiuem 
+      <lb ed="#V" n="9"/>Aliter tamen declararent eam Artiste. supposito enim 2o 
+      articulo<lb ed="#V" n="10" break="no"/>quod sit infinita magnitudo in infinita magnitudine non potest esset 
+      <lb ed="#V" n="11"/>vatus finita. ergo necessario infinita virtus est intensiue. ergo etc. a
+    </p>
+            <p xml:id="FrMS88-e98255-d1e804">
+      ¶ Sed 
+      <lb ed="#V" n="12"/>ontra tale infinitum intensiue esset equale deo. cum deus fit infinitus intens 
+      <lb ed="#V" n="13"/>ue.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e811">
+      ¶ 2o quia tale accidens infinitum esset perfectius substantia. cum substeanti 
+      <lb ed="#V" n="14"/>sit finita intensiue.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e816">
+      ¶ 3o. quia cum omnes anime sint eiusdem rationis. 
+      <lb ed="#V" n="15"/>posset deus vnam animam infinitam creare.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e822">
+      ¶ 4o quia tunc gratia quae 
+      <lb ed="#V" n="16"/>est in christo. non esset summa creabilis.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e827">
+      ¶ Ad primum dico. quod illa 
+      <lb ed="#V" n="17"/>infinitas est solum secundum quid. Ista enim infinitas clauditur et limita 
+      <lb ed="#V" n="18"/>tur ad aliquod determinatum genus. non sic de infinitate difin 
+      </p>
+            <p xml:id="FrMS88-e98255-d1e834">
+               <lb ed="#V" n="19"/>¶ Ad 2m dico. quod infiniti asini non valent vnum hominem: nec 
+      <lb ed="#V" n="20"/>infiniti gradus coloris vnum gradum charitatis. nec 
+      infini<lb ed="#V" n="21" break="no"/>ta charitas finitam substantiam.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e843">
+      ¶ Ad 3m dico. quod si anime haberent 
+      <lb ed="#V" n="22"/>gradus distinctos realiter eiusdem rationis: idem sequeretur: sed non 
+      <lb ed="#V" n="23"/>habent.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e850">
+      ¶ Ad 4m dico. quod gratia christi est summa inter illas quae 
+      <lb ed="#V" n="24"/>anime possunt infundi: sed que possunt creari separate: non. 
+      <lb ed="#V" n="25"/>ad 4m priencipale videndum est de 
+      infini<lb ed="#V" n="26" break="no"/>Quantum tate durationis: si dubium sit de 
+      dura<lb ed="#V" n="27" break="no"/>tione successiua. tunc patet quid fit dicendum. quia illud deus non potentia 
+      <lb ed="#V" n="28"/>similis creare: quia habet partes repugnantes. huiusmodi est esse successiuum: 
+      <lb ed="#V" n="29"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e866">
+      ¶ Sed si quras de duratione similtanea. vtrum deus po 
+      <lb ed="#V" n="30"/>terit talem durationem infinitam creare. Dicitur quod non. quia infinita 
+      <lb ed="#V" n="31"/>duratio non potest habere terminum: sed deus nihil potest facere: quia 
+      <lb ed="#V" n="32"/>postea possit illud adnihilare. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e876">
+      ¶ Praeterea. deus non potest 
+      <lb ed="#V" n="33"/>aliquid nunc creare quod non habeat sue durationis principium: sed 
+      in<lb ed="#V" n="34" break="no"/>finite durationi repugnat habere principium. ergo deus non potest infinitam 
+      <lb ed="#V" n="35"/>durationem creare.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e885">
+      ¶ Ad rationem in oppositum. patet.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e888">
+      ¶ Sed hoc 
+      <lb ed="#V" n="36"/>sunt duo duus. quantum ad rationem potentie diuine. Primum est. 
+      <lb ed="#V" n="37"/>si deus possit facere mundum antiquiorem.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e895">
+      ¶ hoc dubium 
+      <lb ed="#V" n="38"/>potest habere duplicem intellectum. vel quod intelligat quantu ad esse materiale 
+      <lb ed="#V" n="39"/>vniuersi. et sic nulli dubium dilbet esse: quia omnem substantiam quam 
+      <lb ed="#V" n="40"/>deus creauit potuit ante creasse.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e904">
+      ¶ Si autem dubium quaerat form 
+      <lb ed="#V" n="41"/>liter quantum ad omnia. tam absoluta quam relatiua: ita quod quicquid 
+      <lb ed="#V" n="42"/>creauit in mundo potuit ante creasse. Sic apparet mihi 
+      di<lb ed="#V" n="43" break="no"/>cendum quod non. hoc autem probo. Primo sic. quia impossibile est 
+      contra<lb ed="#V" n="44" break="no"/>dictoria de eodem verificari: sed si deus non produxisset mundum 
+      <lb ed="#V" n="45"/>quando produxit. sed ante quantum ad omnia. tunc fuisset idem respectu 
+      <lb ed="#V" n="46"/>praesentialitatis qui fuit quando deus creauit. et sic contradictoria: quia 
+      <lb ed="#V" n="47"/>creasset mundu quando non creauit. quia in eodem quando.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e922">
+      ¶ Si 
+      di<lb ed="#V" n="48" break="no"/>cas. quod non fuisset idem respectus tunc habetur propositum. quod scilicet quantum 
+      <lb ed="#V" n="49"/>ad omnia tam absoluta quam respectiua deus non potuisset prius 
+      <lb ed="#V" n="50"/>creasse quam creauit.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e932">
+      ¶ 2o sic. quia respectus disquiperantie 
+      semi<lb ed="#V" n="51" break="no"/>arguit diuersitatem: sed prius et posterius sunt respectus 
+      di<lb ed="#V" n="52" break="no"/>squiperantie. ergo oportet quod inter prius quo deus creasset mundum 
+      <lb ed="#V" n="53"/>et posterius in quo nunc creauit esset varietas. et per consequens omnem 
+      <lb ed="#V" n="54"/>respectum non creasset ante.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e943">
+      ¶ 3o sic: quia incompossibilia similis creari non 
+      <lb ed="#V" n="55"/>possunt: sed prius in fquo mundus fuisset creatus. et posterit 
+      <lb ed="#V" n="56"/>in quo nunc fuit creatus sunt incompossibilia: sicut patet. ergo cum tunc 
+      <lb ed="#V" n="57"/>fuisset creatum illud prius istod posterius non potuisset tunc 
+      <lb ed="#V" n="58"/>creari.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e954">
+      ¶ 4o sic. quia aut in eodem nunc fuisset creatus munm 
+      <lb ed="#V" n="59"/>dus. aut in alio et alio. Si in eodem. ergo non prius. Si in alio 
+      <lb ed="#V" n="60"/>et alio. et duo nunc non possunt similis creari. ergo etc. Ideo apparet mihi 
+      <lb ed="#V" n="61"/>quod intelligendo per mundum omnia quae sunt in mundo tam absoluta 
+      <lb ed="#V" n="62"/>quam respectiua: deus non potuit creare mundum antiquio 
+      <lb ed="#V" n="63"/>rem. nec simpliciter antequam creauit. Et de hoc alias.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e967">
+      ¶ 2a difficultas 
+      <lb ed="#V" n="64"/>vtrum deus potuit facere mundum meliorem quam sit.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e972">
+      ¶ hi 
+      <lb ed="#V" n="65"/>portet distinguere sicut in dubio praecedenti: quia illa meliori 
+      <lb ed="#V" n="66"/>tas potest intelligi 2r. vel melioritas absoluta: quae est secundum 
+      <!--268.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>vniuscuiusque substantiam. Alias scilicet melioritas respectiua quae est 
+      <lb ed="#V" n="68"/>in comparatione ad determinatum agens vel obiectum. Primo 
+      <lb ed="#V" n="69"/>modo mus est melior pane: quia corpus animatum melius est 
+      <lb ed="#V" n="70"/>corpore non animato. 2o modo panis est melior mure: quia in 
+      con<lb ed="#V" n="71" break="no"/>paratione ad vitam humanam panis est melior: quia nutrit 
+      <lb ed="#V" n="72"/>hominem.
+    </p>
+            <p xml:id="FrMS88-e98255-d1e996">
+      ¶ Si primo modo intelligas. sic dico. quod deus potuisset 
+      <lb ed="#V" n="73"/>mundum meliorem creasse: quia omnes stellas potuit faceme 
+      ange<lb ed="#V" n="74" break="no"/>los. Si autem 2o modo inquantum bonitas consistit in ordine rerum 
+      <lb ed="#V" n="75"/>in vniuerso. dicendum est quod non. et ita dicit Aug. quod quodlibet 
+      <lb ed="#V" n="76"/>per se bonum est: sed tamen omnia bona similis. valde bomoa. Et ideo 
+      ma<lb ed="#V" n="77" break="no"/>gis consistit decor vniuersi in varietate rerum quam si omnia essent 
+      <lb ed="#V" n="78"/>vnius naturae et substantie: quia sic non esset ordo etc.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

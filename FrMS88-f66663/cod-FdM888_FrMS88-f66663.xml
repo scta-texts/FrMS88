@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="214-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f66663"><!-- l4d19q2 -->
+            <head xml:id="FrMS88-f66663-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f66663-d1e111">
+               <lb ed="#V" n="108"/>SEcundo vtrum princeps vniuersali: 
+      <lb ed="#V" n="109"/>ecclesie possit dare 
+      indul<lb ed="#V" n="110" break="no"/>gentias.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e120">
+      ¶ Et videtur quod non. quia dicitur in 
+      lu<lb ed="#V" n="111" break="no"/>ca. Nemo potest dimittem peccata nisi 
+      so<lb ed="#V" n="112" break="no"/>lus deus.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e127">
+      ¶ Contra. Io. xxicto. dicitur 
+      Quo<lb ed="#V" n="113" break="no"/>tum remiseritis peccata etc. 
+      <lb ed="#V" n="114"/>multipliciter.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e134">
+      ¶ Primo quod 
+      indul<lb ed="#V" n="115" break="no"/>Hic dicitur gentie date sunt ecclesie: de 
+      the<lb ed="#V" n="116" break="no"/>sauro passionis christi et sanctorum: quia sanguis 
+      christi<lb ed="#V" n="117" break="no"/>sufficiebat pro infinitis. Similiter martyres sine morte 
+      ta<lb ed="#V" n="118" break="no"/>li et passione quam sustinuerunt poterant saluari: et ita 
+      <lb ed="#V" n="119"/>de illo superabundanti dantur indulgentie.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e148">
+      ¶ Alii 
+      di<lb ed="#V" n="120" break="no"/>sunt quod hoc est: quia summus pontifex habet auctoritatem 
+      <lb ed="#V" n="121"/>super omnes viatores: sed illi quin sunt in purgatorio 
+      aliquo<lb ed="#V" n="122" break="no"/>modo sunt viatores: quia adhuc ad terminum non peruenerumt 
+      </p>
+            <p xml:id="FrMS88-f66663-d1e157">
+               <lb ed="#V" n="123"/>¶ Alii dicunt quod per modum orationis: quia dicitur in 
+      <lb ed="#V" n="124"/>priuilegiis. De benignitate apostolorum petri et 
+      pau<lb ed="#V" n="125" break="no"/>li considentes damus centum dies indulgentie. Ita dicitur in 
+      <lb ed="#V" n="126"/>pando eas.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e168">
+      ¶ Alii dicunt quod valet per modum meriti: vt quod 
+      <lb ed="#V" n="127"/>vadit ad sanctum inacobum: et huiusmodi. ita quod tales actus 
+      requi<lb ed="#V" n="128" break="no"/>runtur.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e175">
+      ¶ Sed instatur contra istos modos.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e178">
+      ¶ Contra primum. quia xhpotus 
+      <lb ed="#V" n="129"/>est plene et complete remuneratus de omnibus acti 
+      <lb ed="#V" n="130"/>bus suis. vnde ad philip. secundo. humiliauit semetipsum etc. 
+      <lb ed="#V" n="131"/>propter quod deus exaltauit illum. Undede omni superabum 
+      <!--432.xml-->
+      <pb ed="#V" n="215-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>danti est bene sibi remuneratum.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e196">
+      ¶ Item martyres 
+      <lb ed="#V" n="2"/>plus habent de primio. quam habuerunt de merito: quia 
+      <lb ed="#V" n="3"/>semper deus remunerat vltra condignum.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e204">
+      ¶ Co ni 
+      <lb ed="#V" n="4"/>tra 2m. quia illi proprie sunt viatores qui possunt mereri 
+      ac<lb ed="#V" n="5" break="no"/>vemereri. vnde super anima separata beati peti i habet adhuc iu 
+      <lb ed="#V" n="6"/>risditionem: Contra tertium multi sunt homines eque 
+      per<lb ed="#V" n="7" break="no"/>fecti sicut papa. et ideo melius conferrent quam praeapa.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e215">
+      ¶ E 
+      <lb ed="#V" n="8"/>tra quartum. quia sine merito aliquando datur. si enim ex 
+      natura<lb ed="#V" n="9" break="no"/>siua: non indigeret auctoritate. sed per quam auctorita 
+      <lb ed="#V" n="10"/>tem: hoc querimus.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e224">
+      ¶ Ideo dico quod ex virtute huius 
+      <lb ed="#V" n="11"/>verbi habent efficaciam. Quodcumque ligaueris etc. quia tunc 
+      fuis<lb ed="#V" n="12" break="no"/>institutus sicut princeps habens inurisditionem plenariam 
+      <lb ed="#V" n="13"/>in ecclesia. et ex tali auctoritate habuit talem potesta 
+      <lb ed="#V" n="14"/>tem. hoc probo: quia regula nota est quod quando aliquins princeps 
+      <lb ed="#V" n="15"/>habet plenitudinem potestatis in aliqua psolitia. omne debitum in 
+      <lb ed="#V" n="16"/>illo regno potest dimittere: sed hic in foro ecclesie 
+      de<lb ed="#V" n="17" break="no"/>letur aliquod debitum: quia sacerdos absoluens permutat 
+      <lb ed="#V" n="18"/>penam eternam in temporalem: quod erat inferni in 
+      <lb ed="#V" n="19"/>vno foro debitum: transfert ad foru ecclesie. ergo summus 
+      <lb ed="#V" n="20"/>poentifex. quia potest transferre penam purgatorii in penam huius 
+      <lb ed="#V" n="21"/>mundi potest totum dimittere: seu remittere.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e250">
+      ¶ Sed 
+      oc<lb ed="#V" n="22" break="no"/>currit dubium ad quid valent indulgentie.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e255">
+      ¶ Dicitur quod tantum 
+      <lb ed="#V" n="23"/>valent quantum sonant. Ut quicumque vadit illuc scilicet ad talem 
+      <lb ed="#V" n="24"/>sanctum habet viginti dies indulgentie. Si sacerdos 
+      <lb ed="#V" n="25"/>dedit sibi viginti dies prnine. habet remissionem illorum de 
+      <lb ed="#V" n="26"/>penitentiis sibi iniunctis. ita dicunt isti. 
+      <lb ed="#V" n="27"/>si valent in isto menondo 
+      <lb ed="#V" n="28"/>Nunc videamus vt istos dies quos 
+      in<lb ed="#V" n="29" break="no"/>iungit sacerdos remittant indulgentie: Dico quod sic. ex 
+      <lb ed="#V" n="30"/>quo cadunt super prniam iniunctam.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e275">
+      ¶ Sed quomodo 
+      <lb ed="#V" n="31"/>valent pro purgatorio:
+    </p>
+            <p xml:id="FrMS88-f66663-d1e281">
+      ¶ Dico quod statutum erat antiquoi 
+      <lb ed="#V" n="32"/>tus. quod determinata prnima erat pro quantitate peccatorum 
+      <lb ed="#V" n="33"/>sic: vt vno anno peniteat vel sic. modo talis si post 
+      mor<lb ed="#V" n="34" break="no"/>tem iuisset ad purgatorium stetisset vno die pro anno: 
+      <lb ed="#V" n="35"/>propter pnimam. igitur lucraris pro vno anno diem in 
+      <lb ed="#V" n="36"/>purgatorio. ergo remittendo annum remittitur dies. 
+      </p>
+            <p xml:id="FrMS88-f66663-d1e294">
+               <lb ed="#V" n="37"/>¶ Sed si dantur decem dies: nunquid sunt decem dies 
+      in<lb ed="#V" n="38" break="no"/>purgatorio.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e301">
+      ¶ Dico quod non: quia ecclesia non habet aucto 
+      <lb ed="#V" n="39"/>ritatem proportionandi illas penitentias. sed secundum quod 
+      <lb ed="#V" n="40"/>deus permiserit ita dicitet fieri. Auferatur ergo secundum 
+      pro<lb ed="#V" n="41" break="no"/>portionem istam secundum quam in ecclesia delet: et 
+      dimitta<lb ed="#V" n="42" break="no"/>tur totum quantum stetisset: si non soluisset tantum.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e312">
+      ¶ Ten 
+      <lb ed="#V" n="43"/>tia difficultas si valent pro inferno.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e317">
+      ¶ hic est sciendum quod 
+      ali<lb ed="#V" n="44" break="no"/>quis penitet de aliquo peccato vno mortali 
+      sufficien<lb ed="#V" n="45" break="no"/>ter. si postea vadit ad infernum: numquid illud quod 
+      re<lb ed="#V" n="46" break="no"/>stabat potest dimitti a papa.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e326">
+      ¶ Uidetur quod quautum 
+      <lb ed="#V" n="47"/>ad illa pro quibus fuisset habita penitentia: possent 
+      di<lb ed="#V" n="48" break="no"/>mitti.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e334">
+      ¶ Quarta difficultas quis daet conferre indulgentias.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e337">
+      ¶ Et 
+      <lb ed="#V" n="49"/>dicitur quod ille quae habet plenitudinem potestatis. Et alii quibus 
+      <lb ed="#V" n="50"/>pedit auctoritatem secundum modum quo eis committit.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e344">
+      ¶ Sed 
+      <lb ed="#V" n="51"/>numquid eprieri per se possent dare: si ius non artaret: quia in dyo 
+      <lb ed="#V" n="52"/>cesibus suis habent potestatem dimittendi peccata. 
+      <lb ed="#V" n="53"/>quibus valent: dicitur quod vere 
+      peni<lb ed="#V" n="54" break="no"/>Secundo tentibus et confessis: quia quandiu quis est 
+      <lb ed="#V" n="55"/>in peccato est obligatus ad infernum: et ita est in 
+      alio<lb ed="#V" n="56" break="no"/>foro. Unde papa non habet principatum nec sufficit penite 
+      <lb ed="#V" n="57"/>re nisi sit confessus vel confessio. probatio. quia adhuc non 
+      <lb ed="#V" n="58"/>est translata obligatio ad penam ecclesiasticam super 
+      <lb ed="#V" n="59"/>quam potest.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e366">
+      ¶ Sed nunquid potest lucrari penitens 
+      <lb ed="#V" n="60"/>sic confessus de aliquibus. postea cadit in peccatum 
+      <lb ed="#V" n="61"/>mortale. et cum illo vadit ad indulgentias pro primis 
+      con<lb ed="#V" n="62" break="no"/>fessis.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e375">
+      ¶ Dicitur quod sic. quia existens in peccato mortali potest 
+      sa<lb ed="#V" n="63" break="no"/>tissacere pro peccatis alectus confessis secundum scotum. et tunc 
+      papa<lb ed="#V" n="64" break="no"/>potest sibi remittere illud: de quo potest satisfacere. 
+      <lb ed="#V" n="65"/>qualiter conferri potest.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e384">
+      ¶ Dinco quod de 
+      con<lb ed="#V" n="66" break="no"/>Tertio gruo actus meritorius potest: vel debet 
+      <!--432.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>ibi adminti: sed de plenitudine potestatis potest 
+      sim<lb ed="#V" n="68" break="no"/>pliciter dimittere: et dare indulgentias sine huiusmodi actibus 
+      </p>
+            <p xml:id="FrMS88-f66663-d1e398">
+               <lb ed="#V" n="69"/>¶ Sed quantum potest papa dare de indulgentis:
+    </p>
+            <p xml:id="FrMS88-f66663-d1e403">
+      ¶ Di 
+      <lb ed="#V" n="70"/>citur quod sine omni limitatione: ex quo potestatem habet illimi 
+      <lb ed="#V" n="71"/>tatam.
+    </p>
+            <p xml:id="FrMS88-f66663-d1e410">
+      ¶ Alii autem non possunt nisi per quadraginta 
+      di<lb ed="#V" n="72" break="no"/>es: nisi sint legati. quibus papa potest committerre: et secundum 
+      <lb ed="#V" n="73"/>quod committit sic possunt plus vel minus
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

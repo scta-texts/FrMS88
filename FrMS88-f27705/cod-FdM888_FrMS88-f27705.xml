@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="169-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f27705"><!-- l3d1q11 -->
+            <head xml:id="FrMS88-f27705-Hd1e108">Quaestio 11</head>
+            <p xml:id="FrMS88-f27705-d1e111">
+               <lb ed="#V" n="100"/>¶ Questio. xi. 
+      <lb ed="#V" n="101"/>Utrum 
+      <lb ed="#V" n="102"/>Undecimo quero  
+      termi<lb ed="#V" n="103" break="no"/>nus a quo incarnationis differt realiter 
+      <lb ed="#V" n="104"/>a natura assumptibili
+    </p>
+            <p xml:id="FrMS88-f27705-d1e124">
+               <lb ed="#V" n="105"/>Hic introducuntur 4or conclusiones. Prima 
+      <lb ed="#V" n="106"/>est quod nam et 
+      suppo<lb ed="#V" n="107" break="no"/>situm in creaturis non distinguuntur formaliter et 
+      quiditati<lb ed="#V" n="108" break="no"/>ue: quia vbi non est quiditas: et quiditas non potest esse 
+      distin<lb ed="#V" n="109" break="no"/>ctio quiditatiua: sed inter naturam et suppositum non est 
+      quidi<lb ed="#V" n="110" break="no"/>tas et quiditas: quia omnis quiditas est comunicabilis. suppositum 
+      <lb ed="#V" n="111"/>non est comunicabile. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f27705-d1e142">
+      ¶ Secunda conclusio. quod nam et 
+      <lb ed="#V" n="112"/>suppositum non differunt realiter: quia natua potest esse sine 
+      supposi<lb ed="#V" n="113" break="no"/>to: et tamen deus non posset ipsam facere quin esset 
+      supposi<lb ed="#V" n="114" break="no"/>a.
+    </p>
+            <p xml:id="FrMS88-f27705-d1e151">
+      ¶ 3a conclusio quod natura et suppositum non distinguuntur essentia 
+      <lb ed="#V" n="115"/>iter: quia natura opposite se habet ad supposita: eo quod 
+      supposi<lb ed="#V" n="116" break="no"/>tum est incomunicabile: natura autem communicabilis: sed comnicabile / et 
+      <lb ed="#V" n="117"/>incomunicabile differenter dicuntur de eodem essentialiter vel de 
+      <lb ed="#V" n="118"/>eodem respectu eiusdem essentie. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f27705-d1e163">
+      ¶ 4a conclusio quod nam et 
+      sup<lb ed="#V" n="119" break="no"/>positum non sunt omnibus modis idem: quia vnum potest separari 
+      <lb ed="#V" n="120"/>ab alio: manet enim nauam in christo non manente propria 
+      suppo<lb ed="#V" n="121" break="no"/>sitatione.
+    </p>
+            <p xml:id="FrMS88-f27705-d1e172">
+      ¶ Sed contra praedictas conclusiones instatur per ordinem. 
+      <lb ed="#V" n="122"/>Primo. illa distinguuntur formaliter: quorum vnum potest 
+      con<lb ed="#V" n="123" break="no"/>cipi sine alio: sed natuam potest concipi sine supposito.
+    </p>
+            <p xml:id="FrMS88-f27705-d1e179">
+      ¶ Dico 
+      <lb ed="#V" n="124"/>quod verum est: sed non econuerso.
+    </p>
+            <p xml:id="FrMS88-f27705-d1e184">
+      ¶ Item 2o. illa distinguum 
+      <lb ed="#V" n="125"/>tur realiter: quorum vnum potest esse sine alio: sed natura 
+      humana<lb ed="#V" n="126" break="no"/>in christo est priuata proprio supposito. Dico quod assumptum 
+      <lb ed="#V" n="127"/>habet veritatem quando vtrumque eorum est res vel quiditas aliqua. 
+      </p>
+            <p xml:id="FrMS88-f27705-d1e193">
+               <lb ed="#V" n="128"/>¶ Sed tunc est dubium quid est ratio suppositalis. Dico quod 
+      <lb ed="#V" n="129"/>non includit absolutum nec respectiuum: sed abstrahit ab 
+      <lb ed="#V" n="130"/>vtroque.
+    </p>
+            <p xml:id="FrMS88-f27705-d1e202">
+      ¶ Item dubium est si dicit aliquid positiuum vel 
+      <lb ed="#V" n="131"/>priuatiuum. Dico quod dicit negationem duplicis 
+      depen<lb ed="#V" n="132" break="no"/>dentie: quia si diceret aliud quam negationem: tunc natura 
+      huma<lb ed="#V" n="133" break="no"/>na in christo esset perpetua priuata entitate aliqua positiua. 
+      <!--342.xml-->
+      <pb ed="#V" n="170-r"/>
+               <cb ed="#V" n="a"/>
+            </p>
+            <p xml:id="FrMS88-f27705-d1e219">
+               <lb ed="#V" n="1"/>¶ Item vltima ratio positiua in quolibet ente est 
+      ra<lb ed="#V" n="2" break="no"/>tio indiuidualis: sed ratio suppositalis est vltima. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f27705-d1e226">
+               <lb ed="#V" n="3"/>¶ Sed dubium est. si ratio suppositalis dicit perfectio 
+      <lb ed="#V" n="4"/>nem.
+    </p>
+            <p xml:id="FrMS88-f27705-d1e233">
+      ¶ Dico quod formaliter non dicit perfectionem: nec imper 
+      <lb ed="#V" n="5"/>fectionem. Sed fundamentaliter dicit perfectionem sicut 
+      incor<lb ed="#V" n="6" break="no"/>ruptibilitas dicit perfectionem forme.
+    </p>
+            <p xml:id="FrMS88-f27705-d1e240">
+      ¶ Sed contra: quia 
+      age<lb ed="#V" n="7" break="no"/>re est perfectionis sed actiones sunt suppositorum.
+    </p>
+            <p xml:id="FrMS88-f27705-d1e245">
+      ¶ 
+      Di<lb ed="#V" n="8" break="no"/>co quod suppositalitas non est ratio agendi: sed conditio 
+      con<lb ed="#V" n="9" break="no"/>comitans illud quod agit: vnde suppositum dicitur principium 
+      <lb ed="#V" n="10"/>actionis solum: quia actio est illius quod habet talem negationem 
+      <lb ed="#V" n="11"/>de pendentie: quia nihil aduenit vltra rem naturae quod sit ratio 
+      <lb ed="#V" n="12"/>agendi: sed hoc habito potest dici agere.
+    </p>
+            <p xml:id="FrMS88-f27705-d1e258">
+      ¶ Sed dubium 
+      <lb ed="#V" n="13"/>est quid negat ratio suppositalis a nam in qua est.
+    </p>
+            <p xml:id="FrMS88-f27705-d1e264">
+      ¶ 
+      Di<lb ed="#V" n="14" break="no"/>cendum quod negat incomicabilitatem ad suppositum 
+      actua<lb ed="#V" n="15" break="no"/>lem et potentialem.
+    </p>
+            <p xml:id="FrMS88-f27705-d1e271">
+      ¶ Unde nota quod sicut aliquid dicitur 
+      commu<lb ed="#V" n="16" break="no"/>nicabile alicui: ita dicitur incommunicabile quadrupliciter. Primo 
+      <lb ed="#V" n="17"/>enim aliquid dicitur comunicabile alicui comunicatione que est ad 
+      <lb ed="#V" n="18"/>indiuiduum: vt natura humana socrati et platoni. Secundo 
+      con<lb ed="#V" n="19" break="no"/>municatione que est subiectum: vt albedo superficiei: quia albe 
+      <lb ed="#V" n="20"/>do dat sibi suum esse formale scilicet esse album: vt superficies 
+      <lb ed="#V" n="21"/>dicatur alba. Tertio comunicatione que est ad fundamentum: 
+      <lb ed="#V" n="22"/>vt bonum vel verum ad ens: quia omnis passio inititur 
+      funda<lb ed="#V" n="23" break="no"/>mento sui subiecti: nec aliud habere potest. Quarto et vel 
+      <lb ed="#V" n="24"/>timo aliquid conicat se alicui comunicatione que est ad 
+      supi<lb ed="#V" n="25" break="no"/>positum: vt albedo homin vel corpori: quia non suppositatur in 
+      <lb ed="#V" n="26"/>se: sed in corpore: vel in homine: vel in supposito in quo est. 
+      <lb ed="#V" n="27"/>Ita etiam econuerso aliquid dicitur esse incommunicabile alicui. primo 
+      <lb ed="#V" n="28"/>communicatione que est ad indiuiduum: vt nam singularis. Se 
+      <lb ed="#V" n="29"/>cundo commnicatione ad subiectum: vt tertia entitas. 
+      Ter<lb ed="#V" n="30" break="no"/>tio conicatione que est ad fundamentum: vt anima et 
+      ange<lb ed="#V" n="31" break="no"/>lus que nulli fundamento inituntur. Quarto et vltimo 
+      <lb ed="#V" n="32"/>aliquind dicitur incommunicabile alicui comuicatione que est ad 
+      sup<lb ed="#V" n="33" break="no"/>positum: vt pater in diuinis vel quodlibet aliud suppositum 
+      <lb ed="#V" n="34"/>diuinum vel creatum.
+    </p>
+            <p xml:id="FrMS88-f27705-d1e315">
+      ¶ Ultima autem incommunicabilitas. scilicet 
+      <lb ed="#V" n="35"/>suppositalis est de formali ratione suppositi: licet alie 
+      incommun<lb ed="#V" n="36" break="no"/>cabilitates possint concurrere.
+    </p>
+            <p xml:id="FrMS88-f27705-d1e322">
+      ¶ Item notandum. quod 
+      incom<lb ed="#V" n="37" break="no"/>municabilitas est eiusdem rationis vniuoce in creaturis: 
+      <lb ed="#V" n="38"/>vt in diuinis: licet sit positiua in diuinis: et constituat. verum 
+      <lb ed="#V" n="39"/>amen hoc non impedit: quia etiam in diuinis est illud vltimum 
+      <lb ed="#V" n="40"/>quo habito illud cuius est fit incommnicabile sicut in 
+      crea<lb ed="#V" n="41" break="no"/>turis: in creaturis autem ratio suppositalis non constituit 
+      <lb ed="#V" n="42"/>simpliciter. quia aduenit naturae iam constitute in esse singulari: quod 
+      <lb ed="#V" n="43"/>non est in diuinis: vnde proprietas in diuinis constituit etiam 
+      <lb ed="#V" n="44"/>in esse singulari personam et in esse incommunicabili: in creatu 
+      <lb ed="#V" n="45"/>ris vero ratio suppositalis non constituit simpliciter. Sed dat 
+      <lb ed="#V" n="46"/>esse incommunicabile solum: et quantum ad illud vltimum 
+      suppo<lb ed="#V" n="47" break="no"/>italitas est eiusdem rationis in deo et in creaturis.
+    </p>
+            <p xml:id="FrMS88-f27705-d1e348">
+      ¶ Item 
+      <lb ed="#V" n="48"/>notandum. quod ista sunt essentialiter ordinata particulare sin 
+      <lb ed="#V" n="49"/>gulare indiuiduum suppositum et persona. omne enim 
+      singu<lb ed="#V" n="50" break="no"/>lare est particulare. et non econuerso: sicut patet de 
+      indiui<lb ed="#V" n="51" break="no"/>duo vago quod est particulare et non singulare. Item omn 
+      <lb ed="#V" n="52"/>indiuiduum est singulare. non autem econuerso: vt patet de 
+      <lb ed="#V" n="53"/>mam et forma separatis que sunt singularia et non sunt 
+      indi<lb ed="#V" n="54" break="no"/>uidua. Irem omne suppositum est indiuinduum. et non 
+      econuer<lb ed="#V" n="55" break="no"/>so: vt patet de anima et corpore separatis que sunt indiuidua et non 
+      <lb ed="#V" n="56"/>supposita.
+    </p>
+            <p xml:id="FrMS88-f27705-d1e370">
+      ¶ Item omnis persona est suppositum. et non 
+      econ<lb ed="#V" n="57" break="no"/>uerso: sicut patet de supposito bruti quod non tamen est persona: 
+      <lb ed="#V" n="58"/>vnde persona est naturae. rationalis indiuidua substantia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

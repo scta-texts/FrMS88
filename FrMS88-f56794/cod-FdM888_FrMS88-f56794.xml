@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f56794"><!-- l4d12q5 -->
+            <head xml:id="FrMS88-f56794-Hd1e108">Quaestio 5</head>
+            <p xml:id="FrMS88-f56794-d1e111">
+               <lb ed="#V" n="16"/>QUeritur secundo vtrum idem accidens 
+      nu<lb ed="#V" n="17" break="no"/>mero possit esse in diuersis 
+      <lb ed="#V" n="18"/>subiectis.
+    </p>
+            <p xml:id="FrMS88-f56794-d1e120">
+      ¶ Et videtur quod sic. quia idem corpus 
+      po<lb ed="#V" n="19" break="no"/>test esse in diuersis locis.
+    </p>
+            <p xml:id="FrMS88-f56794-d1e125">
+      ¶ Contra. quia tunc 
+      <lb ed="#V" n="20"/>accidens suppositaretur in diuersis subiectis et 
+      <lb ed="#V" n="21"/>argueretur infinitas in eo sicut in essentia diuina que 
+      <lb ed="#V" n="22"/>in pluribus suppositis inuenitur.
+    </p>
+            <p xml:id="FrMS88-f56794-d1e134">
+               <lb ed="#V" n="23"/>hic inducuntur  quatuor conclusiones. ¶ Prima 
+      <lb ed="#V" n="24"/>eidem accidens numero non 
+      <lb ed="#V" n="25"/>potest esse in duobus totalibus subiectis per diuinam 
+      poten<lb ed="#V" n="26" break="no"/>tiam. Ratio huius est. quia omne accidens causatur a subiecto in 
+      <lb ed="#V" n="27"/>genere cause materialis: sed idem effectus non potest esse a duabus 
+      <lb ed="#V" n="28"/>totalibus causis secundum idem genus cause: quia altera corru 
+      <lb ed="#V" n="29"/>pta nihil minus esset effectus etc.
+    </p>
+            <p xml:id="FrMS88-f56794-d1e153">
+      ¶ 2a conclusio quod nec in 
+      diuer<lb ed="#V" n="30" break="no"/>sis partibus subiecti nisi secundum aliam et partem. quia quelibet 
+      re<lb ed="#V" n="31" break="no"/>spiceret totaliter accidens: et totaliter in genere causare materialis 
+      <lb ed="#V" n="32"/>causaret et tunc indest quod. supra.
+    </p>
+            <p xml:id="FrMS88-f56794-d1e162">
+      ¶ 3a conclusio quod deum potest facere migra 
+      <lb ed="#V" n="33"/>re accidens a subiecto in subiectum. hoc autem determinatur ex 
+      <lb ed="#V" n="34"/>tra de celebratione missarum. Cum marthe. Et probatur 
+      <lb ed="#V" n="35"/>sic. omne subiectum eiusdem rationis est in potentia ad accidens 
+      eius<lb ed="#V" n="36" break="no"/>dem rationis cum sint eiusdem potentie. sed sic est de 
+      superfi<lb ed="#V" n="37" break="no"/>cie mea et tua. igitur ista potentia que nata est recipere 
+      <lb ed="#V" n="38"/>formam quam habeo: deus potest imprimere in te.
+    </p>
+            <p xml:id="FrMS88-f56794-d1e178">
+      ¶ 4a 
+      com<lb ed="#V" n="39" break="no"/>clusio. quod accidens separatum potest ad idem subiectum reduci. 
+      vn<lb ed="#V" n="40" break="no"/>de prius fuerat separatum. quia eandem potentiam haberet 
+      <lb ed="#V" n="41"/>panis se paratus sicut ante.
+    </p>
+            <p xml:id="FrMS88-f56794-d1e187">
+      ¶ Sed instatur contra primam 
+      contr<lb ed="#V" n="42" break="no"/>nem: quia respectus dupli fundatur in duobus extremis: 
+      <lb ed="#V" n="43"/>et tamen est vnum accidens solum.
+    </p>
+            <p xml:id="FrMS88-f56794-d1e194">
+      ¶ Contra 2am. quia forma nume 
+      <lb ed="#V" n="44"/>meri est vna forma in diuersis substantis.
+    </p>
+            <p xml:id="FrMS88-f56794-d1e199">
+      ¶ Item respe 
+      <lb ed="#V" n="45"/>ctus totalitatis est in tota domo et in partibus eius. 
+      </p>
+            <p xml:id="FrMS88-f56794-d1e205">
+               <lb ed="#V" n="46"/>¶ Contra tertiam. quia si deus posset deus producere 
+      duos<lb ed="#V" n="47" break="no"/>soles nunquam vnus esset in potentia ad radium alterius 
+      <lb ed="#V" n="48"/>causandum. Et hoc videtur similiter in potentiis passiuis 
+      <lb ed="#V" n="49"/>quia ad alia accidentia est in potentia superficies mea et 
+      <lb ed="#V" n="50"/>tua. ad alia inquam numero. Sed deus non potest imprime 
+      <lb ed="#V" n="51"/>re in subiecto aliquod accidens ad quod non est in potentia.
+    </p>
+            <p xml:id="FrMS88-f56794-d1e221">
+      ¶ Contra 
+      <lb ed="#V" n="52"/>quartam. quia reparato subiecto. videtur quod naturaliter redeanti 
+      <lb ed="#V" n="53"/>quia naturaliter videntur inclinari ad ipsum sicut graue ad 
+      <lb ed="#V" n="54"/>locum suum.
+    </p>
+            <p xml:id="FrMS88-f56794-d1e230">
+      ¶ Respondeo ad primum et ad secundum dico quod duplum 
+      <lb ed="#V" n="55"/>est vnum vnitate integritatis non simplicitatis sicut 
+      re<lb ed="#V" n="56" break="no"/>spectus totalitatis. Eodem modo est de forma numeri. 
+      <lb ed="#V" n="57"/>similiter respectus totalitatis domus non fundatur in 
+      qua<lb ed="#V" n="58" break="no"/>libet parte domus. coniuctio autem erat quando accidens erat totum in 
+      <lb ed="#V" n="59"/>qualibet parte.
+    </p>
+            <p xml:id="FrMS88-f56794-d1e243">
+      ¶ Ad tertium. dico quod si distincta substanti 
+      <lb ed="#V" n="60"/>numero habent potentias ad eandem formam numero vide 
+      <lb ed="#V" n="61"/>tur quod non sit respectu agentium creatorum. tamen simpliciter 
+      <lb ed="#V" n="62"/>ad easdem albedines ad quas idem est in potentia et 
+      ali<lb ed="#V" n="63" break="no"/>ud est in potentia.
+    </p>
+            <p xml:id="FrMS88-f56794-d1e254">
+      ¶ Sed tunc quare agens non est idem 
+      <lb ed="#V" n="64"/>in potentia actiua respectu earundem albedinum in 
+      nu<lb ed="#V" n="65" break="no"/>mero vt inducat in istum actum. immo videtur quod eandem 
+      pos<lb ed="#V" n="66" break="no"/>fit reparare. quia habet per se vim producendi talem albedi 
+      <!--410.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>nem. et de hoc infra. capis de reste.
+    </p>
+            <p xml:id="FrMS88-f56794-d1e270">
+      ¶ Ad quartum. si 
+      sepatra<lb ed="#V" n="68" break="no"/>ratio fieret videretur quod graue moueretur sursum. tunc ita 
+      <lb ed="#V" n="69"/>esset: quia graue habet sufficiens principium quo potest sibi imprime 
+      <lb ed="#V" n="70"/>re motum: sed nulla forma seipsam producit: nec potest 
+      <lb ed="#V" n="71"/>seipsam imprimere. quandocumque autem forma subiecto imprimit 
+      <lb ed="#V" n="72"/>formam ipsam producit: sed nulla forma seipsam 
+      produce<lb ed="#V" n="73" break="no"/>re potest. vnde quia deus separando accidens imprimit sibi de 
+      <lb ed="#V" n="74"/>pendentiam particularem. oportet quod istam auferat et 
+      impri<lb ed="#V" n="75" break="no"/>mat eam postea subiecto.
+    </p>
+            <p xml:id="FrMS88-f56794-d1e291">
+      ¶ Sed occurrit difficultas ponatur quod 
+      <lb ed="#V" n="76"/>deus reparet substantiam panis: quo modo reimprimetur e 
+      </p>
+            <p xml:id="FrMS88-f56794-d1e296">
+               <lb ed="#V" n="77"/>¶ Dico quod sicut dictum fuit duplici dependentia dependet 
+      <lb ed="#V" n="78"/>ad deum accidens separatum post separationem in genere 
+      cau<lb ed="#V" n="79" break="no"/>se efficientis. vniversalis et particularis. non capit autem 
+      intelle<lb ed="#V" n="80" break="no"/>ctus quod aliqua causa esset qua non existente nihil minus 
+      effe<lb ed="#V" n="81" break="no"/>ctus esset: quia tunc illa causa superflueret.
+    </p>
+            <p xml:id="FrMS88-f56794-d1e309">
+      ¶ Si autem dicas quod 
+      <lb ed="#V" n="82"/>si sola dependentia auferatur. quid igitur faciet subiectum: 
+      </p>
+            <p xml:id="FrMS88-f56794-d1e314">
+               <lb ed="#V" n="83"/>¶ Ad hoc dico quod deus modo est causa totalis: ante vere 
+      <lb ed="#V" n="84"/>non: quod non esset nisi haberet aliquam causalitatem nouam. 
+      </p>
+            <p xml:id="FrMS88-f56794-d1e321">
+               <lb ed="#V" n="85"/>¶ Et tunc est difficultas quomodo reimprimiter et quomodo fit.
+    </p>
+            <p xml:id="FrMS88-f56794-d1e326">
+      ¶ Dico quod 
+      <lb ed="#V" n="86"/>istam particularem dependentiam aufert et reddit illam parti 
+      <lb ed="#V" n="87"/>cularem quam subiectum habebat: quia eundem terminum habent. sed 
+      <lb ed="#V" n="88"/>non idem fundamentum: quia hanc dependentiam cum illo 
+      <lb ed="#V" n="89"/>respectu qui est ad deum. vt causa vniuersalis fundat.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

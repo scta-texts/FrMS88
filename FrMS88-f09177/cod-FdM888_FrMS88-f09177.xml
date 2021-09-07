@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="147-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f09177"><!-- l2d2q8 -->
+            <head xml:id="FrMS88-f09177-Hd1e108">Quaestio 8</head>
+            <p xml:id="FrMS88-f09177-d1e111">
+      Questio. viii. 
+      <lb ed="#V" n="109"/>quaestio est. Utrum idem angelus 
+      pos<lb ed="#V" n="110" break="no"/>Ertia sit esse in diuersis locis. 
+      <lb ed="#V" n="111"/>potest esse difficultases de 
+      diui<lb ed="#V" n="112" break="no"/>hic primo na poentia i oc potest. et 
+      di<lb ed="#V" n="113" break="no"/>l co simitur quod sic. et in infinitis locis. Si enim hoc potest 
+      <lb ed="#V" n="114"/>de corpore vno: vt probatum est in 4o sniarum. multo ma 
+      <lb ed="#V" n="115"/>gis de natura spirituali.
+    </p>
+            <p xml:id="FrMS88-f09177-d1e129">
+      ¶  2o potest esse difficultas de potentia creata. et 
+      <lb ed="#V" n="116"/>de locis adequatis. et dicitur simpliciter quod non. quia ex quo habet 
+      <lb ed="#V" n="117"/>locum adequatum non potest se facere in alio: primo manente 
+      </p>
+            <p xml:id="FrMS88-f09177-d1e136">
+               <lb ed="#V" n="118"/>¶ Sed maior difficultas potest esse si potest esse in partibus distantibus sui loci 
+      <lb ed="#V" n="119"/>adequati: et non in medi. Et dicitur quod sic. quia angelus est totus 
+      <lb ed="#V" n="120"/>in qualibet parte sui loci. sed potest dimittere extrema: et 
+      ma<lb ed="#V" n="121" break="no"/>nere in medio. ergo eadem ratione potest dimittere medium et 
+      mane<lb ed="#V" n="122" break="no"/>re in extremis fine medio sicut econverso.
+    </p>
+            <p xml:id="FrMS88-f09177-d1e149">
+      ¶ Confirmatur. quia 
+      vnifor<lb ed="#V" n="123" break="no"/>miter et per respectum eiusdem rationis respicit medium et extrema. 
+      er<lb ed="#V" n="124" break="no"/>go eadem ratione potest manere in extremis sine medi sicut econverso. 
+      <lb ed="#V" n="125"/>Probatur autem aliter idem. quia quandocumque respectus sunt eiusdem 
+      <lb ed="#V" n="126"/>rationis: qua ratione potest vnus dimitti: et alius.
+    </p>
+            <p xml:id="FrMS88-f09177-d1e161">
+      ¶ Sed hic 
+      <lb ed="#V" n="127"/>remanet di. quare anima non est in extremis partibus corporis 
+      <lb ed="#V" n="128"/>eodem modo et non in medio.
+    </p>
+            <p xml:id="FrMS88-f09177-d1e168">
+      ¶ Dicitur quod hoc est: quia informat 
+      cor<lb ed="#V" n="129" break="no"/>pus mediante anima scilicet sensitiua: que est extensa cum corpore: 
+      <lb ed="#V" n="130"/>et ideo non potest discontinuari corpus: sed tunc videtur quod angelus 
+      <lb ed="#V" n="131"/>simul possit esse in celo et in terra: dico quod ita potest esse quod 
+      <lb ed="#V" n="132"/>dimisso medio simul sit in celo et in terra: nec video contra¬ 
+      <!--297.xml-->
+      <pb ed="#V" n="147-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>dictionem. et ita potest intelligi dictum Raphaelis 
+      archan<lb ed="#V" n="2" break="no"/>geli in Thobia: qui dixit. Ego inquit sum qui in conspectu disfini 
+      <lb ed="#V" n="3"/>semper existo. et tamen erat in terra mysterium suum implens: et simul
+      <lb ed="#V" n="4"/>(astabat deo. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

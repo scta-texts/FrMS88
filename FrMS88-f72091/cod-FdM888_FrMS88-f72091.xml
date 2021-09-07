@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f72091"><!-- l4d24q3 -->
+            <head xml:id="FrMS88-f72091-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f72091-d1e111">
+               <lb ed="#V" n="92"/>TErtio queritur. vtrum nobilior 
+      sitor<lb ed="#V" n="93" break="no"/>do sacerdoti quam episcopatus. Quod sic. 
+      <lb ed="#V" n="94"/>quia immediate est a christo institutus.
+    </p>
+            <p xml:id="FrMS88-f72091-d1e120">
+      ¶ 
+      Con<lb ed="#V" n="95" break="no"/>ta dyoni. de ecclesiastica ierarcas. dicit quod 
+      <lb ed="#V" n="96"/>epratus est maximus ordo. 
+      <lb ed="#V" n="97"/>intelligendum quod nobilitas ordinis est 
+      at<lb ed="#V" n="98" break="no"/>hic cst tendenda respectu obiecti. sacerdos itaque habet. 
+      <lb ed="#V" n="99"/>poestantem corpus christi verum conficiendi epters vero circa corpus 
+      <lb ed="#V" n="100"/>christi mysticum: prescindendo igitur vnum ab alio nobilior 
+      <lb ed="#V" n="101"/>est ordo sacerdotii: quam epriatus. potest tamen epters dici 
+      emi<lb ed="#V" n="102" break="no"/>nentior propter multitudinem actuum ad quos se 
+      exten<lb ed="#V" n="103" break="no"/>dit.
+    </p>
+            <p xml:id="FrMS88-f72091-d1e142">
+      ¶ Sed contra. episcopatus est causa equiuoca sacerdo. 
+      <lb ed="#V" n="104"/>tii: cum ipsum conferat.
+    </p>
+            <p xml:id="FrMS88-f72091-d1e147">
+      ¶ Similiter est posterior ordine 
+      <lb ed="#V" n="105"/>essentiali. igitur est nobilior.
+    </p>
+            <p xml:id="FrMS88-f72091-d1e153">
+      ¶ Simimiliter includit duo. 
+      </p>
+            <p xml:id="FrMS88-f72091-d1e156">
+               <lb ed="#V" n="106"/>¶ Quarto quia magis defertur epieris quam presbyteris. 
+      </p>
+            <p xml:id="FrMS88-f72091-d1e161">
+               <lb ed="#V" n="107"/>¶ Ad primum respondeo et dico quod non est causa 
+      principa<lb ed="#V" n="108" break="no"/>lis: sed quasi instrumentalis: et ideo licet sit equiuoca non 
+      <lb ed="#V" n="109"/>est nobilior: quia illa regula non tenet in causis instrumen 
+      <lb ed="#V" n="110"/>talibus: sed principalibus.
+    </p>
+            <p xml:id="FrMS88-f72091-d1e172">
+      ¶ Ad 2m dico quod non est 
+      or<lb ed="#V" n="111" break="no"/>do essentialis.
+    </p>
+            <p xml:id="FrMS88-f72091-d1e177">
+      ¶ Ad aliud concedo quod vtrumque includita: 
+      <lb ed="#V" n="112"/>sed si prescindantur tunc nobilior est ordo sacerdotii. 
+      </p>
+            <p xml:id="FrMS88-f72091-d1e182">
+               <lb ed="#V" n="113"/>¶ Ad 4m. verum est iurisditionis: sed si prescindantur 
+      <lb ed="#V" n="114"/>magis. deferri debet sacerdotio
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

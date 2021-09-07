@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="58-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e42061"><!-- l1q11q1 -->
+            <head xml:id="FrMS88-e42061-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-e42061-d1e111">
+               <lb ed="#V" n="31"/>¶ Distinctio. xi. Quaestio. i. 
+      <lb ed="#V" n="32"/>hic dicendum est spiritus sanctus esse etc. 
+      <lb ed="#V" n="33"/>CIrca distinctionem vndecimam
+      <lb ed="#V" n="34"/>Quero vtrum spiritussancum 
+      <lb ed="#V" n="35"/>procedat a patre et filio. quod non. Io. 19. Cum 
+      <lb ed="#V" n="36"/>venerit spiritus sanctus qui a pre 
+      procedit<lb ed="#V" n="37" break="no"/>hic nulla mentio fit de filio quod ab eo 
+      pro<lb ed="#V" n="38" break="no"/>cedat. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e131">
+      ¶ Contra At hanasius in 
+      sem<lb ed="#V" n="39" break="no"/>bolo fidei christiane dicit sic. Spiritusancus a patre et filio non 
+      <lb ed="#V" n="40"/>factus nec creatus nec genitus: sed procedens. ergo videtur 
+      <lb ed="#V" n="41"/>quod ab vtroque procedat.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e140">
+      ¶ Circa istam questionem quatuor 
+      <lb ed="#V" n="42"/>sunt inquirenda. Primum est. Utrum spiritussanctus 
+      <lb ed="#V" n="43"/>procedat a patre et filio. 2o si procedat a patre per filium 
+      <lb ed="#V" n="44"/>3o si procedat in filium. 4o si a filio in patrem procedit 
+      <lb ed="#V" n="45"/>s ad primum dicunt greci quod spiritussanctus 
+      <lb ed="#V" n="46"/>Qualc procedit a patre et non affilio: quia nihil est 
+      <lb ed="#V" n="47"/>tenendum nisi quod determinate habetur in scriptura: sed non 
+      <lb ed="#V" n="48"/>habetur quod procedat a filio. ergo hoc non est tenendum si 
+      <lb ed="#V" n="49"/>cut aliquid fidei.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e160">
+      ¶ Sed contra hoc arguitur per scripturam 
+      sa<lb ed="#V" n="50" break="no"/>tram 4r. Primo sic. per scripturam Ioeam. 19. Cum venerit 
+      <lb ed="#V" n="51"/>spiritus quem mittam vobis a patre. et Io. 19. Ego mittam vi 
+      <lb ed="#V" n="52"/>bis eum. et tamen non potest mittere nisi persona originans. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e42061-d1e170">
+               <lb ed="#V" n="53"/>¶ 2a est. Io. 19. Ipse de meo accipiet. si autem accipiet de 
+      <lb ed="#V" n="54"/>eo quod est filii. ergo etc. Ex quo colligitur quod ex quo spirituscus 
+      <lb ed="#V" n="55"/>accipit aliquid a filio: totus est a filio: quia deus est 
+      quicqui<lb ed="#V" n="56" break="no"/>habet secundum hyla. de tri. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e181">
+      ¶ 3a est Io. 2o. vbi christus in 
+      <lb ed="#V" n="57"/>fufflauit in apitulos dices. Accipite spiritumscauntum quorum 
+      <lb ed="#V" n="58"/>re. etc.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e188">
+      ¶ 4a est pauli qui appellat spiritumscum spiritum christi. 
+      <lb ed="#V" n="59"/>quod non fecisset nisi significare volunsset spiritumscantum christi 
+      <lb ed="#V" n="60"/>esse. ergo ad ipsum refertur. et non nisi relatione originis. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e42061-d1e195">
+               <lb ed="#V" n="61"/>¶ 2o arguo 4r per rationem. Prima sumitur ex personarum ger 
+      <lb ed="#V" n="62"/>manitate. 2a ex summa identitate. 3a ex summa 
+      equa<lb ed="#V" n="63" break="no"/>litate. 4a ex fecunditate.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e204">
+      ¶ Ex prima arguitur sic. Intur 
+      pro<lb ed="#V" n="64" break="no"/>sonas diuinas est summa germanitas et 
+      excellentissi<lb ed="#V" n="65" break="no"/>ma: sed si spiritussanctus non procederet a filio non esset in¬ 
+      <!--118.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>ter eos summa germanitas et excellentissima: quia ma 
+      <lb ed="#V" n="67"/>ior germanitas est inter personas quando vna originat 
+      <lb ed="#V" n="68"/>ab alia. quam quando vtraque praecise a tertia: sicut filii ad patrem 
+      <lb ed="#V" n="69"/>quam fcatris ad fratrem. hec est ratio hugo. de sacramentis. 
+      </p>
+            <p xml:id="FrMS88-e42061-d1e224">
+               <lb ed="#V" n="70"/>¶ Ex 2a sic. quandocumque aliqua habent eandem vim 
+      produ<lb ed="#V" n="71" break="no"/>ctiuam equaliter producunt: sed filius et pater habent 
+      eande<lb ed="#V" n="72" break="no"/>vim productiuam respectu spiritusci. ergo filius eque 
+      pre<lb ed="#V" n="73" break="no"/>ducit sicut pater. Minor patet. quia voluntas et obiectum est 
+      <lb ed="#V" n="74"/>perfectissimum principium spiritussancti: sed constat quod perfecte 
+      <lb ed="#V" n="75"/>est in eis.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e241">
+      ¶ 3o sic. secundum hyla. Pater produxit sibi filium 
+      <lb ed="#V" n="76"/>equalem. ergo conicat sibi omnem vim productiuam que sei 
+      <lb ed="#V" n="77"/>bi non repugnat: sed vis productiua respectu spiritussanci 
+      <lb ed="#V" n="78"/>non repugnat filio: ergo sibi eam conicat. Alioquin eum si 
+      <lb ed="#V" n="79"/>bi equalem non genuisset: quia ipse pater vim productiuam 
+      <lb ed="#V" n="80"/>perfecte habet.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e254">
+      ¶ 4o sic. quando principium productiuum non 
+      <lb ed="#V" n="81"/>praehabens terminum adequatum comicatur alicui 
+      supposi<lb ed="#V" n="82" break="no"/>to illud potest producere: sed principium productiuum spiri 
+      <lb ed="#V" n="83"/>tussancti non prehabens terminum adequatum conicatur 
+      <lb ed="#V" n="84"/>filio. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e265">
+      ¶ Praeterea perfecta charitas et amicitia hoc 
+      <lb ed="#V" n="85"/>concludit: quia naturalis inclinatio est producentis ad productum: 
+      <lb ed="#V" n="86"/>et econuerso: et ideo naturalior esset inclinatio et 
+      ami<lb ed="#V" n="87" break="no"/>citia inter patrem et personas et econuerso. quam aliarum duari 
+      <lb ed="#V" n="88"/>personarum que nullam inter se haberent comunicationem 
+      adin<lb ed="#V" n="89" break="no"/>uicem.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e278">
+      ¶ Sed contra istud instatur 4r. Primo sic. Nam 
+      <lb ed="#V" n="90"/>maior germanitas ponitur inter patrem et filium quam inter eos 
+      <lb ed="#V" n="91"/>et spiritumsanctum. quia conueniunt in spiratione actiua. ergo ex 
+      <lb ed="#V" n="92"/>summa germanitate: ita fortiter arguitur contra nos: sicut 
+      <lb ed="#V" n="93"/>contra grecos.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e289">
+      ¶ 2o contra secundam viam: quia illud quod hao 
+      <lb ed="#V" n="94"/>bet idem principium producendi illud potest producere: sed eque 
+      <lb ed="#V" n="95"/>habet filius principium generandi: sicut habet principium 
+      <lb ed="#V" n="96"/>spirandi: quia habet memoriam perfectam. ergo eque per illud 
+      <lb ed="#V" n="97"/>concluditur quod filius potest generare: sicut quod potest spirare. 
+      </p>
+            <p xml:id="FrMS88-e42061-d1e300">
+               <lb ed="#V" n="98"/>¶ 3o contra tertiam. quia pater spirat sibi sp scilicet equalem. est 
+      <lb ed="#V" n="99"/>go si ex equalitate concluditur quod filius potest spirare. ergo 
+      <lb ed="#V" n="100"/>ex equalitate spiritussancti ad patrem eque concluditur quod 
+      spiri<lb ed="#V" n="101" break="no"/>tussanctus poterit generare filium. presertim cum sibi 
+      <lb ed="#V" n="102"/>non repugnet.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e314">
+      ¶ 4a contra quartam. Nam propositiones accepte vi 
+      <lb ed="#V" n="103"/>dentur supponere prius et posterius in divinis. quod a 
+      mul<lb ed="#V" n="104" break="no"/>tis negatur. non est ergo ibi praehabere quod necessario includit prius 
+      <lb ed="#V" n="105"/>quod in divinis negatur.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e323">
+      ¶ Ad primum dico. quod germanitas 
+      con<lb ed="#V" n="106" break="no"/>sistit in consubstantialitate et origine. non autem in proprieta 
+      <lb ed="#V" n="107"/>te superueniente: quia ipsa eis scilicet suppositis comparatur sicut 
+      <lb ed="#V" n="108"/>quasi accidens eis adueniens. tres ergo persone summam 
+      <lb ed="#V" n="109"/>germanitatem habent quia eandem substantiam: et vna ab alia 
+      or<lb ed="#V" n="110" break="no"/>ginatur. non est ergo maior germanitas patris ad filium 
+      <lb ed="#V" n="111"/>propter spirationem actiuam in qua conueniunt. quia eis 
+      compa<lb ed="#V" n="112" break="no"/>ratur quasi accidens eis aduemes. Exemplum. si duo fratres 
+      <lb ed="#V" n="113"/>sint albi et tertius niger. non propter hoc est maior 
+      ger<lb ed="#V" n="114" break="no"/>manitas inter duos albos propter conuenientiam in albed 
+      <lb ed="#V" n="115"/>ne quam eorum ad tertium: quia equaliter est in omnibus ratio 
+      ger<lb ed="#V" n="116" break="no"/>manitatis scilibet consubstantialitas et origo.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e349">
+      ¶ Ad 2m dico 
+      <lb ed="#V" n="117"/>quod oportet addem: nisi illi supposito repugnet producere. filio 
+      <lb ed="#V" n="118"/>autem non repugnat spirare spiritum sanctum: quod 
+      conclude<lb ed="#V" n="119" break="no"/>bat ratio: sed tamen filio repugnat generare: quia generaret seipsum 
+      <lb ed="#V" n="120"/>ideo instantia non valet.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e360">
+      ¶ Ad 3m dico quod habens 
+      vin<lb ed="#V" n="121" break="no"/>productiuam siue principium productiuum potest per illud 
+      <lb ed="#V" n="122"/>producere si non repugnat supposito producenti et 
+      producto<lb ed="#V" n="123" break="no"/>licet ergo commnicetur spirituisancto principium productiuum filii: et licetu 
+      <lb ed="#V" n="124"/>spiritui scilicet non repugnet ex se filium producere: tamen filio repi 
+      <lb ed="#V" n="125"/>gnat. eo quod iam primintelligitur productus. nam producto et 
+      ha<lb ed="#V" n="126" break="no"/>benti esse simpliciter repugnat produci siue capere esse. spiri 
+      <lb ed="#V" n="127"/>tusscus autem non praeintelligitur in diuinis productus antequam 
+      fi<lb ed="#V" n="128" break="no"/>lius habeat vim spiratiuam.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e380">
+      ¶ Ad 4m dico quod sicut mihi 
+      <lb ed="#V" n="129"/>idetur nisi ponatur ordo rationes sunt insolubiles que probans 
+      <lb ed="#V" n="130"/>filium procedere a spirituscom. et filium ita a spirituscom: sicut 
+      spiritussan<lb ed="#V" n="131" break="no"/>ctus a filio: ideo videtur mihi necesse positionem ordinem: et 
+      <!--119.xml-->
+      <pb ed="#V" n="58-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>per consequens prius.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e398">
+      ¶ Sed hoc remanent due difficultates. Prima est quod 
+      <lb ed="#V" n="2"/>non videtur quod illud quod est prius productum totaliter ab aliquo quod 
+      ali<lb ed="#V" n="3" break="no"/>quo modo ab alio produci posset: sed prius origine patur 
+      pro<lb ed="#V" n="4" break="no"/>ducit spiritum scntdum quam filius: hoc patet: quia sicut pater prius origine est 
+      <lb ed="#V" n="5"/>filio: ita pater prius spirat origine filio: quia a se: si ergo pater 
+      <lb ed="#V" n="6"/>in primo signo originis producit spicitum scundum. non potest spiritusancus in 
+      <lb ed="#V" n="7"/>2o signo produci a filio.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e415">
+      ¶ 2a difficultas est quia non videtur quod due causae 
+      <lb ed="#V" n="8"/>totales possint concurrere ad causandum aliquem 
+      effe<lb ed="#V" n="9" break="no"/>ctum: quia tunc effectus ab aliquo dependeret. quae non 
+      existen<lb ed="#V" n="10" break="no"/>te. nihil minus esset. Sed hic ponuntur duo principism 
+      to<lb ed="#V" n="11" break="no"/>talia respectu spiritussancti. Nam pater totale principium 
+      <lb ed="#V" n="12"/>est speissancti: quia si non esset filius adhuc vim productiuam 
+      <lb ed="#V" n="13"/>haberet patur respectu spiritussancti. Eodem modo dico de 
+      <lb ed="#V" n="14"/>filio. ergo videtur quod pater et filius producere non possunt. 
+      </p>
+            <p xml:id="FrMS88-e42061-d1e433">
+               <lb ed="#V" n="15"/>¶ Ad prim dico quod non alia productione pater producit 
+      spi<lb ed="#V" n="16" break="no"/>ritum sanctum et filius: sed omnino eadem productione. Non est 
+      <lb ed="#V" n="17"/>autem inconueniens quod illud quod productum est vna productione 
+      <lb ed="#V" n="18"/>in primo signo quod eadem productione producatur ab alio in secundo 
+      <lb ed="#V" n="19"/>signo. Exemplum in creaturis. Anima beati petri nunc agit 
+      <lb ed="#V" n="20"/>operationem beatificam: et eam elicit secundum multos. in resurre 
+      <lb ed="#V" n="21"/>ctione autem totum suppositum eliciet eandem operationem 
+      <lb ed="#V" n="22"/>eadem elitione comunicata supposito qua prius anima elicie. 
+      <lb ed="#V" n="23"/>bat. Ista ergo operatio post resurrectione erit et 
+      inci<lb ed="#V" n="24" break="no"/>piet accipere esse ab aliquo a quo prius non accipiebat: et 
+      <lb ed="#V" n="25"/>tamen prius habebat esse. hoc autem ideo est quia eadem 
+      pro<lb ed="#V" n="26" break="no"/>ductione comnicata. Sic dico in proposito. Ticet enim 
+      spiri<lb ed="#V" n="27" break="no"/>tus sanctus prius origine spiretur a patre quam a filio. non 
+      ta<lb ed="#V" n="28" break="no"/>men sibi repugnat spirari a filio: eo quod filius eadem 
+      spi<lb ed="#V" n="29" break="no"/>ratione spirat qua pater prius spirabat. sibi a patre 
+      con<lb ed="#V" n="30" break="no"/>municata.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e470">
+      ¶ Ad 2m dico quod idem esse a duobus totaliter 
+      <lb ed="#V" n="31"/>producentibus. potest intelligi dupliciter. vel a duobus tota 
+      <lb ed="#V" n="32"/>libus et cum hoc diuersis principiis productiuis. siue 
+      pro<lb ed="#V" n="33" break="no"/>ducentibus: et sic est impossibile: quia sic sequerentur 
+      mul<lb ed="#V" n="34" break="no"/>ta inconuenientia.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e481">
+      ¶ Primo quod aliquid dependeret ab 
+      <lb ed="#V" n="35"/>aliquo. quo non existente nihil minus esset.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e486">
+      ¶ Secundo cum 
+      <lb ed="#V" n="36"/>productiones distinguantur penes principia. tunc sicut essent 
+      <lb ed="#V" n="37"/>distincta principia totalia. sic essent distincte productiones 
+      <lb ed="#V" n="38"/>totales. idem autem produci diuersis productionibus totali 
+      <lb ed="#V" n="39"/>bus est omnino impossibile. Si autem intelligatur idem esse 
+      <lb ed="#V" n="40"/>a duobus producentibus idem principium productiuum et eam 
+      <lb ed="#V" n="41"/>dem vim productiuam habentibus. hoc non est impossibilem 
+      <lb ed="#V" n="42"/>sicut si duo homines vnam animam haberent. omnino vnum 
+      <lb ed="#V" n="43"/>actum intelligendi causarent: et quilibet esset totale 
+      pro<lb ed="#V" n="44" break="no"/>ducens. nec esset inconueniens quod eadem vi productiua 
+      <lb ed="#V" n="45"/>actum intelligendi ambo producerent.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e510">
+      ¶ Aliud 
+      exem<lb ed="#V" n="46" break="no"/>plum multum accommodatum. vnum enim actum videndin 
+      ha<lb ed="#V" n="47" break="no"/>bent duo oculi. et totaliter ab vtroque causatur: quod 
+      pa<lb ed="#V" n="48" break="no"/>tet: quia vno clauso et nihil vidente alius videt. tota 
+      au<lb ed="#V" n="49" break="no"/>tem causa: quare sic est. est quia habent vnam potentiam 
+      <lb ed="#V" n="50"/>Non est ergo inconueniens quod duo principia totalia 
+      ha<lb ed="#V" n="51" break="no"/>bentia idem principium productiuum causent eundem 
+      effe<lb ed="#V" n="52" break="no"/>ctum: et quilibet eorum totaliter: et sic est in proposito: quia 
+      <lb ed="#V" n="53"/>pater et filius idem principium productiuum habent. 
+      </p>
+            <p xml:id="FrMS88-e42061-d1e531">
+               <lb ed="#V" n="54"/>¶ Ad illud quod greci adducunt quod nihil est traditum 
+      <lb ed="#V" n="55"/>in scriptura patet esse falsum: sicut ostensum est 
+      qua<lb ed="#V" n="56" break="no"/>drupliciter.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e540">
+      ¶ Secundo etiam non concludit: quia 
+      lo<lb ed="#V" n="57" break="no"/>cus ab auctoritate negatiue non tenet. non enim 
+      ha<lb ed="#V" n="58" break="no"/>betur in scriptura quod christus descendit ad inferos. 
+      <lb ed="#V" n="59"/>ad 2m. Utrum pater producat spiritum 
+      <lb ed="#V" n="60"/>Quantum sanctum per filium. Sciendum quod 
+      <lb ed="#V" n="61"/>4r. modis potest intelligi aliquid agere per aliud. Aut 
+      <lb ed="#V" n="62"/>per principium productiuum: sicut ignis calefacit per 
+      ca<lb ed="#V" n="63" break="no"/>lorem: qui est in eo formaliter. Aut sicut per instrumen 
+      <lb ed="#V" n="64"/>tanum: sicut faber fabricat per martellum. 3o modo sicut 
+      <lb ed="#V" n="65"/>per causam secundam: sicut deus mouet caelum per 
+      intelligen<lb ed="#V" n="66" break="no"/>tiam. Aut sicut per illud cui comunicat equalem virtutem 
+      <!--119.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>productiuam: quomodo deus pater per verbum feci 
+      <lb ed="#V" n="68"/>omnia: vt habetur Io id est
+    </p>
+            <p xml:id="FrMS88-e42061-d1e573">
+      ¶ Primo ergo modo deus 
+      pa<lb ed="#V" n="69" break="no"/>ter non producit spiritum sanctum per filium: quia filius non 
+      <lb ed="#V" n="70"/>est vis productiua patris. nec principium in patre 
+      for<lb ed="#V" n="71" break="no"/>maliter existens. Nec secundo modo: quia instrumentum est 
+      <lb ed="#V" n="72"/>minus perfectum quam fit praencipale agens. filius autem 
+      <lb ed="#V" n="73"/>tam in entitate quam in perfectione nec non in vi 
+      producti<lb ed="#V" n="74" break="no"/>ua per omnia est patri equalis. Nec 3o modo: quia 
+      om<lb ed="#V" n="75" break="no"/>nis causa primaria plus influit in causatum quam 
+      secun<lb ed="#V" n="76" break="no"/>daria. et per consequens secunda deficit a prima. In filio autem 
+      nul<lb ed="#V" n="77" break="no"/>lus defectus est. Remanet ergo quartus modus. quod 
+      <lb ed="#V" n="78"/>producit siue spirat per filium: quia comunicat sibi eandem vim 
+      <lb ed="#V" n="79"/>productiuam: sicut omnia causat per verbum quia ei 
+      comnuni<lb ed="#V" n="80" break="no"/>cat vim productiuam eandem: qua ipse pater causat. 
+      </p>
+            <p xml:id="FrMS88-e42061-d1e602">
+               <lb ed="#V" n="81"/>¶ Sed hic re. diffticul. Si producitur spiritus sanctus a 
+      <lb ed="#V" n="82"/>patre mediante filio. Deatus Augustiu. 19o. de trini. videtur 
+      <lb ed="#V" n="83"/>dicere quod non. sed quod pater et filius eque immediate 
+      produ<lb ed="#V" n="84" break="no"/>cant. non autem sicut stagnum a fonte mediante riuo: sed 
+      <lb ed="#V" n="85"/>eque immediate ab vtroque: sicut conclusio eque immedia 
+      <lb ed="#V" n="86"/>te a duabus praemissis. secundum beatum Clementem. 
+      Accommo<lb ed="#V" n="87" break="no"/>datum exemplum in grammatica ad hoc inuenitur de tribus 
+      <lb ed="#V" n="88"/>personis. Est enim in grammatica prima persona que loquitur de 
+      <lb ed="#V" n="89"/>se ipsa. 2a ad quam prima loquit. Et 3a de qua fit sermo in 
+      <lb ed="#V" n="90"/>ter illas: et ita est in locutione naturali: ille enim ordo non est 
+      <lb ed="#V" n="91"/>constitutus ad placitum: sed ex natura rei. Et sic etiam est 
+      or<lb ed="#V" n="92" break="no"/>do in diuinis personis. pater enim est tenens locum prime 
+      per<lb ed="#V" n="93" break="no"/>sone quae loquitur a se. 2a est ad quam terminatur locutio prime 
+      <lb ed="#V" n="94"/>persone. 3a de qua fit sermo inter primam et secundam. 
+      Pro<lb ed="#V" n="95" break="no"/>ducitur ergo spirituscus de commni concordia et communi collocutione 
+      <lb ed="#V" n="96"/>a patre et a filio. et non ab vno mediante alio. ergo etc. 
+      <lb ed="#V" n="97"/>ad tertium scilicet vtrum spiritusanctus 
+      proce<lb ed="#V" n="98" break="no"/>Quantum dat a patre in filium. Dico quod sic. Nam 
+      <lb ed="#V" n="99"/>secundum Aug. Quicquid habet spiritussanctus habet a patre et 
+      <lb ed="#V" n="100"/>filio: sed spiritussanctus per circumincessionem habet esse in filio: 
+      <lb ed="#V" n="101"/>ergo hoc habet a patre.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e650">
+      ¶ Simililiter dico quod filius habet 
+      <lb ed="#V" n="102"/>a patre quod sit in spiritu sancto: sed talis inexistentia est reali 
+      <lb ed="#V" n="103"/>ter in vtroque relatio equiparante. si ergo filius a patre 
+      <lb ed="#V" n="104"/>habet quod sit in spiritusscom: et econverso spiritussanctus habet a patre 
+      <lb ed="#V" n="105"/>quod sit in filio. verba autem Andree sic debent exponi. 
+      <lb ed="#V" n="106"/>ad quartum scilicet Utrum spiritussanctus 
+      <lb ed="#V" n="107"/>Quantum procedat a filio in patrem. Dico quod sic. 
+      <lb ed="#V" n="108"/>Et ad hoc inducuntur quatuor actoritates. Prima est 
+      <lb ed="#V" n="109"/>Cementis in libro de articulis fidei: qui dicit monas 
+      <lb ed="#V" n="110"/>gignit monadem. et in seipsum suum reflectit ardorem. 2m 
+      <lb ed="#V" n="111"/>est Richar. de trini. qui dicit quod non est amor iocundus 
+      <lb ed="#V" n="112"/>nisi sit mutuus: ita quod eundem amorem quem habet 
+      pa<lb ed="#V" n="113" break="no"/>ter ad filium rependat filius ipsi patri. 3a est Augustius. 5. 
+      <lb ed="#V" n="114"/>de trini. Spiritusscus est connexio patris et filii. 4 
+      <lb ed="#V" n="115"/>est hyla. 2o. de trini. Spiritus sanctus est connexus 
+      mutu<lb ed="#V" n="116" break="no"/>us. ergo vnus procedit in alium.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e685">
+      ¶ Patet hoc idem 
+      ra<lb ed="#V" n="117" break="no"/>tione. Nam quicquid habet spiritussanctus habet a filio: sed 
+      <lb ed="#V" n="118"/>spiritussanctus est in patre per circumincessionem. ergo 
+      <lb ed="#V" n="119"/>hoc habet a filio.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e695">
+      ¶ Sed contra istud arguiter 4r. 
+      Pri<lb ed="#V" n="120" break="no"/>mo sic. pater nihil habet a filio. et per consequens non 
+      ha<lb ed="#V" n="121" break="no"/>pet in se s scilicet a filio
+    </p>
+            <p xml:id="FrMS88-e42061-d1e702">
+      ¶ 2o sic. quia filius non habet a se ipso 
+      <lb ed="#V" n="122"/>in se quod producat spiritum sanctum: sed habet a patre 
+      </p>
+            <p xml:id="FrMS88-e42061-d1e707">
+               <lb ed="#V" n="123"/>¶ 3o sic. quia filius nihil habet nisi a patre.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e712">
+      ¶ 4o sic. quia 
+      <lb ed="#V" n="124"/>pater nihil originaliter habet nisi a se.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e717">
+      ¶ Ad ista posset 
+      <lb ed="#V" n="125"/>dici quod forsan isti respectus insistentie non sunt nisi 
+      fun<lb ed="#V" n="126" break="no"/>damentales: et ideo nihil addunt ad personas insistentes: 
+      <lb ed="#V" n="127"/>et ideo quod pater sit in filio a nullo habet. vel quod sit in 
+      spi<lb ed="#V" n="128" break="no"/>ritusancto: sed quod ipsi sint in seinuicere: vel in eo. hoc 
+      ha<lb ed="#V" n="129" break="no"/>bent a patre.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e730">
+      ¶ Vel potest dici quod aliud est habere spiritum 
+      <lb ed="#V" n="130"/>anctum a se et in se: et aliud est dicere quod spiritussanctus 
+      <lb ed="#V" n="131"/>habeat patrem in se. vel quod habeat esse in patre. Primum 
+      <lb ed="#V" n="132"/>enim precise competit patri. Nulla enim persona in di¬ 
+      <!--120.xml-->
+      <pb ed="#V" n="59-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>uinis habet aliquid a se nisi precise pater: sed filius habet 
+      <lb ed="#V" n="2"/>piritum sanctu a patre: sicut enim filius et spiritus sanctus. 
+      <lb ed="#V" n="3"/>procedunt a patre: ita quicquid habent a patre habent. et sic 
+      <lb ed="#V" n="4"/>esse in quocunque habent a patre. spiritusscus autem habet omnia 
+      <lb ed="#V" n="5"/>a patre et a filio.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e757">
+      ¶ Ex istis sequuntur multe veritates  
+      <lb ed="#V" n="6"/>theologice. Prima est quod pater habet esse in filio a se. Se 
+      <lb ed="#V" n="7"/>cunda quod habet esse in spiritu sancto a se. Tertia quod patet 
+      <lb ed="#V" n="8"/>producit filium in se. Quarta quod producit filium in spiritum 
+      <lb ed="#V" n="9"/>sanctum. Quinta quod producit spiritum sanctum in se. Sexta 
+      <lb ed="#V" n="10"/>quod producit spiecitum sanctum in filio. Septima quod filius pro 
+      <lb ed="#V" n="11"/>ducit spiritum sanctum in se: licet non a se. Octaua quod filius 
+      pro<lb ed="#V" n="12" break="no"/>ducit spiritum sancum in patre: et sic de aliis.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e775">
+      ¶ De istis 
+      <lb ed="#V" n="13"/>autem relationibus circumincessiuis est dubium: quod pro 
+      <lb ed="#V" n="14"/>nunc transeo: quia alias videbitur in loco suo.
+    </p>
+            <p xml:id="FrMS88-e42061-d1e782">
+      ¶ Ad 
+      ar<lb ed="#V" n="15" break="no"/>gumentum in oppositum dictum est quod locus ab 
+      au<lb ed="#V" n="16" break="no"/>ctoritate non tenet negatiue. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

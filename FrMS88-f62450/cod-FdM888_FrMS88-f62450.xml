@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="210-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f62450"><!-- l4d15q2 -->
+            <head xml:id="FrMS88-f62450-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f62450-d1e111">
+               <lb ed="#V" n="76"/>SEcundo queritur vtrum tristitia sit 
+      <lb ed="#V" n="77"/>effectus penitentie.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e118">
+      ¶ Et videtur 
+      <lb ed="#V" n="78"/>non. quia effectus virtutis est delectatio. vnde 
+      <lb ed="#V" n="79"/>virtus facit propte et delectabiliter operari. 
+      <lb ed="#V" n="80"/>3
+    </p>
+            <p xml:id="FrMS88-f62450-d1e127">
+      ¶ Contra effectus penitentie est pena. 
+      <lb ed="#V" n="81"/>videndum est de tristitia in se.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e132">
+      ¶ Et 
+      <lb ed="#V" n="82"/>Hic primo inducuntur quatuor conclusiones.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e138">
+      ¶ Prima 
+      <lb ed="#V" n="83"/>der est. quod tristitia est penarum prima: quae est maxima: et qua 
+      cir<lb ed="#V" n="84" break="no"/>cumscripta nulla alia manet: sed sic est de tristitia.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e145">
+      ¶ Pro 
+      <lb ed="#V" n="85"/>bo sic. omnis retributio mensuratur secundum delectationes 
+      magni<lb ed="#V" n="86" break="no"/>tudinem: quia in eo quod sibi magis placet reputat se punitum 
+      <lb ed="#V" n="87"/>in quo dolet plus. Quod autem circumscripta tristitia nulla sit 
+      pe<lb ed="#V" n="88" break="no"/>na patet. quia ricardus de arra sponse dicit quod si quis cum amo 
+      <lb ed="#V" n="89"/>re posset esse in inferno: non esset sibi pena. vnde nullum 
+      voli<lb ed="#V" n="90" break="no"/>tum. vt sic est penosum. Et qui me volentem ire retineret. 
+      <lb ed="#V" n="91"/>esset mihi pena.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e163">
+      ¶ Secunda conclusio quod tristitia est penarum 
+      maxi<lb ed="#V" n="92" break="no"/>ma: quia maximum peccatum punitur tristitia. sicut peccatum 
+      <lb ed="#V" n="93"/>luciferi. peccatum enim eius est tristitia afflictiua: non quod 
+      con<lb ed="#V" n="94" break="no"/>buratur: ita quod mediante igne vt innstro causetur 
+      afflictio<lb ed="#V" n="95" break="no"/>tristitie: vt infra declarabit.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e174">
+      ¶ Tertia conclusio quod ista pena non 
+      <lb ed="#V" n="96"/>potest esse voluntaria secundum affectionem commodi. que consequitur 
+      <lb ed="#V" n="97"/>bonum delectabile. Ansel enim dicit quod quedam est 
+      affectio<lb ed="#V" n="98" break="no"/>commodi que consequitur bonum delectabile alia est affectio 
+      <lb ed="#V" n="99"/>iusti que consequitur bonum honestum. vnde secundum affectionem 
+      con<lb ed="#V" n="100" break="no"/>modi non potest esse voluntaria. quia tristitia maxime 
+      ex<lb ed="#V" n="101" break="no"/>dellit delectationem. que consequitur affectionem commodi. 
+      </p>
+            <p xml:id="FrMS88-f62450-d1e190">
+               <lb ed="#V" n="102"/>¶ Quarta conclusio quod potest esse voluntaria secundum affectionem iusti. 
+      <lb ed="#V" n="103"/>quia vt sic reconciliatur cum deo.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e197">
+      ¶ Sed hic est dubium quodo 
+      <lb ed="#V" n="104"/>affectio commodi et iusti possunt esse simul cum sint contraria.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e203">
+      ¶ Di 
+      <lb ed="#V" n="105"/>co quod contraria virtualiter possunt esse simul: quia voluntas continet 
+      <lb ed="#V" n="106"/>ista virtualiter. intelligedum tamen quod tristitia causatur ex 
+      obie<lb ed="#V" n="107" break="no"/>cto: et ex actu voluntatis qui est nolle: et de hoc fuit vi 
+      <lb ed="#V" n="108"/>sum in primo de 4r ordinatis vnde actum volendi consequitur 
+      tristi<lb ed="#V" n="109" break="no"/>tia: quia est de his quae nobis nolentibus accidunt secundum Aug. 
+      <lb ed="#V" n="110"/>videndum est si virtus prinine est 
+      effecti<lb ed="#V" n="111" break="no"/>Secundoua tristitie. patet quod sic: quia est virtus 
+      indu<lb ed="#V" n="112" break="no"/>ctiua pene: et est medicina preaeccti.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e223">
+      ¶ Sed comparatur ad eam 
+      <lb ed="#V" n="113"/>voluntas 4r. aut in ratione tolerantis. quando alicui infertur 
+      ma<lb ed="#V" n="114" break="no"/>lum et patienter suffert. sicut in infirmitate peccatorum me 
+      <lb ed="#V" n="115"/>mores non remurmurant.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e232">
+      ¶ Aliquando in ratione 
+      acceptatio<lb ed="#V" n="116" break="no"/>nis. quia volunt quod inferatur eis. et placet eis propter peccata sua. 
+      </p>
+            <p xml:id="FrMS88-f62450-d1e237">
+               <lb ed="#V" n="117"/>¶ Tertio in ratione elicientis: sicut considerando peccatum. 
+      <lb ed="#V" n="118"/>elicit actum nocendi et consequitur tristitia.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e244">
+      ¶ Quarto in 
+      ratio<lb ed="#V" n="119" break="no"/>ne imperantis quando mouet vires inferiores: valet representent 
+      <lb ed="#V" n="120"/>sub modo detegibiliori quo peccata possunt ostendi. et hoc 
+      <lb ed="#V" n="121"/>est maxime meritorium.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e253">
+      ¶ Sed instatur contra primum. Illud quod 
+      <lb ed="#V" n="122"/>est volitum non dicitur esse penosum: sed tristitia est pena 
+      for<lb ed="#V" n="123" break="no"/>maliter.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e261">
+      ¶ Secundo arguitur sic: omnis potentia refugit 
+      naturali<lb ed="#V" n="124" break="no"/>ter suum lesiuum improportionatum. sicut tactus ignitum ferrum 
+      <lb ed="#V" n="125"/>sed tristitia est improportionata appetitui. igitur naturaliter si 
+      <lb ed="#V" n="126"/>bi repugnat.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e270">
+      ¶ Tertio sic. nulla causa causat effectum sibi 
+      <lb ed="#V" n="127"/>contrarium: sed tristitia maxime est contraria appetitui: quia est eius 
+      <lb ed="#V" n="128"/>mors. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e277">
+      ¶ Quarto approximato obiecto tristitie 
+      <lb ed="#V" n="129"/>non est in potestate non tristari. et ita non est meritorium.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e282">
+      ¶ Respod 
+      <lb ed="#V" n="130"/>ad primum falsum est quod dicitur: quia pena christi fuit voluntarie 
+      assum<lb ed="#V" n="131" break="no"/>pta. tamen sustinuit penam voluntariam.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e289">
+      ¶ Ad secundum. dico quod 
+      <lb ed="#V" n="132"/>potentia voluntaria secundum affectionem iusti acceptat illud  
+      <lb ed="#V" n="133"/>quod est sibi contrarium secundum affectionem commodi. in aliis potentiis 
+      <!--423.xml-->
+      <pb ed="#V" n="210-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/> 
+               <lb ed="#V" n="2"/>sensitiuis non est nisi affectio commodi: quia appetitus 
+      con<lb ed="#V" n="3" break="no"/>cupiscentie et amicitie reperitur in voluntate.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e309">
+      ¶ Ad terti 
+      <lb ed="#V" n="4"/>um. magis est contratium peccatum anime quam pena. et maior de 
+      <lb ed="#V" n="5"/>ordinatio: et tamen voluntas eligit actum peccati. vnde bene 
+      <lb ed="#V" n="6"/>elicit potentia actum sibi contrarium.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e319">
+      ¶ Ad 4m dico quod 
+      ele<lb ed="#V" n="7" break="no"/>ctio non est meritoria sed potentia volitiua potest libere 
+      mo<lb ed="#V" n="8" break="no"/>uere vires alias vt sic vel sic representent. habet enim in potesta 
+      <lb ed="#V" n="9"/>te actum volendi et nolendi ad quis sequitur delectatio et 
+      tristi<lb ed="#V" n="10" break="no"/>tia.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e330">
+      ¶ Sed dubium est quomodo est tristitia in habente istam 
+      <lb ed="#V" n="11"/>virtutem. videtur enim quod delectabilius operetur quanto magis est 
+      habi<lb ed="#V" n="12" break="no"/>tuatus.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e337">
+      ¶ Aliqui dicunt quod tristitia est de preccato et delectatio 
+      <lb ed="#V" n="13"/>est de actu bono.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e342">
+      ¶ Contra tristitia expellit 
+      delectatio<lb ed="#V" n="14" break="no"/>nem non solum contrariam sed et contingentem. vii. ethicorum.
+    </p>
+            <p xml:id="FrMS88-f62450-d1e347">
+      ¶ Respondeo quicquid 
+      <lb ed="#V" n="15"/>sit de sensibus videtur quod aliquis possit perfecte delectari in 
+      ap<lb ed="#V" n="16" break="no"/>detitu intellectiuo de vno obiecto et tristari de alio: illa autem 
+      <lb ed="#V" n="17"/> 
+               <lb ed="#V" n="18"/>auctoritas tenet in appetitu sensitiuo vbi cum magna 
+      <lb ed="#V" n="19"/>delectatione non stat tristitia: quamuis de alio obiecto. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

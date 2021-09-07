@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="157-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f18071"><!-- l2d14q11 -->
+            <head xml:id="FrMS88-f18071-Hd1e108">Quaestio 11</head>
+            <p xml:id="FrMS88-f18071-d1e111">
+               <lb ed="#V" n="119"/>¶ Questio. <sic>x.</sic> 
+               <lb ed="#V" n="120"/>TErtia questio est. Utrum motus 
+      ha<lb ed="#V" n="121" break="no"/>beat esse in anima vel in re 
+      extra<lb ed="#V" n="122" break="no"/>quidam doctor quod in 
+      <lb ed="#V" n="123"/>hic dicit anima: quia sicut de tempore non 
+      <lb ed="#V" n="124"/>habemus nisi nunc: ita de motu non nisi 
+      <lb ed="#V" n="125"/>mutatum esse.
+    </p>
+            <p xml:id="FrMS88-f18071-d1e132">
+      ¶ Sed contra. primo virtus productiua realis est 
+      <lb ed="#V" n="126"/>ad terminum realem: virtus autem executiua angeli est 
+      rea<lb ed="#V" n="127" break="no"/>lis: et est ad motum. ergo etc. Similiter quia vbi est terminus 
+      <lb ed="#V" n="128"/>realis: ergo productione reali acquiritur. Similiter 3o: quia bruta 
+      cogno<lb ed="#V" n="129" break="no"/>scunt. Quarto: quia motus erat ante creationem hominis.
+    </p>
+            <p xml:id="FrMS88-f18071-d1e143">
+      ¶ Di 
+      <lb ed="#V" n="130"/>co ergo quod motus habet esse extra animam.
+    </p>
+            <p xml:id="FrMS88-f18071-d1e148">
+      ¶ Sed instatur. 4r 
+      <lb ed="#V" n="131"/>et primo quia prius et posterius sunt respectus 
+      consti<lb ed="#V" n="132" break="no"/>tuentes motum vel eius passiones: sed ista sunt tanus 
+      <lb ed="#V" n="133"/>tum in anima: quia relatio prioritatis in motu est 
+      <!--317.xml-->
+      <pb ed="#V" n="157-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ad nihil: quia ad partem que non est: similiter quando 
+      <lb ed="#V" n="2"/>posterioritas est: prioritas non est.
+    </p>
+            <p xml:id="FrMS88-f18071-d1e169">
+      ¶ Secundo. omnes par 
+      <lb ed="#V" n="3"/>tes motus sunt in anima: vel enim sunt coordinate: vel 
+      <lb ed="#V" n="4"/>non generate.
+    </p>
+            <p xml:id="FrMS88-f18071-d1e176">
+      ¶ Tertio ens prohibitum est illud quia 
+      <lb ed="#V" n="5"/>constat ex partibus incompossibilibus: sic est de 
+      mo<lb ed="#V" n="6" break="no"/>tu: quia impossibile est duos esse simul.
+    </p>
+            <p xml:id="FrMS88-f18071-d1e183">
+      ¶ Quarto. quia 
+      <lb ed="#V" n="7"/>compositum ex non entibus non est ens: sic est de 
+      mo<lb ed="#V" n="8" break="no"/>tu.
+    </p>
+            <p xml:id="FrMS88-f18071-d1e190">
+      ¶ Ad primum dicunt aliqui: quod est sine termino. Sed 
+      <lb ed="#V" n="9"/>contradictio est. quin habeat terminum: modo illud 
+      <lb ed="#V" n="10"/>posterius non est smpliciter nihil: sed habet esse in 
+      po<lb ed="#V" n="11" break="no"/>tentia: sufficit autem hoc ponere relationem 
+      fundamen<lb ed="#V" n="12" break="no"/>talem.
+    </p>
+            <p xml:id="FrMS88-f18071-d1e201">
+      ¶ Ad aliud dico quod est presentis temporis: et 
+      a<lb ed="#V" n="13" break="no"/>quiritur pro presenti tempore: et presens est cuius pars 
+      <lb ed="#V" n="14"/>preteriit parsque futura est: et isto modo est in actu.
+    </p>
+            <p xml:id="FrMS88-f18071-d1e208">
+      ¶ Sed 
+      <lb ed="#V" n="15"/>si sumatur hic cum dicit nunc praesens. Dico quod nihil est ad 
+      <lb ed="#V" n="16"/>cipiendo praesens primo modo.
+    </p>
+            <p xml:id="FrMS88-f18071-d1e216">
+      ¶ Contra accipio partem 
+      <lb ed="#V" n="17"/>que praeteriit: ista fuit praesens. Dico quod verum est accipiendo 
+      <lb ed="#V" n="18"/>presens primo modo.
+    </p>
+            <p xml:id="FrMS88-f18071-d1e223">
+      ¶ Sed difficultas est: quia aliquo 
+      di<lb ed="#V" n="19" break="no"/>cunt quod tempors habet esse per instans in rerum natura: sed hoc 
+      <lb ed="#V" n="20"/>est falsum: quia quando nunc est: impossibile est esse 
+      <lb ed="#V" n="21"/>tempus. Dico igitur quod per suas partes habet esse non 
+      <lb ed="#V" n="22"/>per nunc: sicut linea non est in rerum natura per puncta. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

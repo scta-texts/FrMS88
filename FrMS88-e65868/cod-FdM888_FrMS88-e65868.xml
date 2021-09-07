@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e65868"><!-- l1d28q4 -->
+            <head xml:id="FrMS88-e65868-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-e65868-d1e111">
+      Quaestio. iiii 
+      <lb ed="#V" n="15"/>Ingenitum et innascibile sint 
+      <lb ed="#V" n="16"/>Tum extrema contraictionis.
+    </p>
+            <p xml:id="FrMS88-e65868-d1e118">
+      ¶ hi 
+      <lb ed="#V" n="17"/>prae videndum est si contradictio est prima oppositio 
+      <lb ed="#V" n="18"/>inter alias species oppositionis. 2o. Utrum 
+      <lb ed="#V" n="19"/>maior vel minor oppositio. 3o de quasito. 
+      <lb ed="#V" n="20"/>ad primum dicunt aliqui. quod relatiua oppositio est prima. 
+      <lb ed="#V" n="21"/>Quantu et hoc probant sic. Illud est prius aliqui a quae non 
+      <lb ed="#V" n="22"/>conuertitur subsistendi consequentia: sed omnis oppositio est relatio vel habitudo. 
+      <lb ed="#V" n="23"/>Oppositio enim ex suo conceptu est ad aliud: non tamen econverscilicet quod omnis 
+      re<lb ed="#V" n="24" break="no"/>latio sit oppositio relatiua: ergo oppositio respectiua est prima.
+    </p>
+            <p xml:id="FrMS88-e65868-d1e138">
+      ¶ Sed 
+      <lb ed="#V" n="25"/>istud stare non potest. Primo quia illa opposition est prior cuius 
+      extrena<lb ed="#V" n="26" break="no"/>sunt priora: sed extrema contradictionis sunt priora omnibus extremis 
+      <lb ed="#V" n="27"/>aliarum oppositionum: quia affinte et negatus ens et non ens quae sunt 
+      <lb ed="#V" n="28"/>priora omnibus aliis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e65868-d1e149">
+      ¶ 2o sic. Illa est prior oppositio quae potest 
+      ab<lb ed="#V" n="29" break="no"/>aliis separari et non econverso. sed deus subiectum potest facem sine vtroque tam 
+      <lb ed="#V" n="30"/>respectus oppositorum quam contrarie oppositorum. non autem potest facem sine 
+      <lb ed="#V" n="31"/>altero contradictoriorum. ergo contradictio est prior oppositio quam sit aliqua 
+      <lb ed="#V" n="32"/>aliarum. Maior et minor sunt de se manifeste. Dico 
+      er<lb ed="#V" n="33" break="no"/>go quod oppositio contradictoria est simpliciter prima. 
+      <lb ed="#V" n="34"/>viderium est de 2o. Utrum fit mima vel maxima. 
+      <lb ed="#V" n="35"/>Nunc
+    </p>
+            <p xml:id="FrMS88-e65868-d1e168">
+      ¶ Dicunt aliqui quod est mima: quia est habitudo cum 
+      <lb ed="#V" n="36"/>ius extremum non est. Alie autem habent extrema.
+    </p>
+            <p xml:id="FrMS88-e65868-d1e173">
+      ¶ Contra. 
+      <lb ed="#V" n="37"/>Quando aliquid commune immediate diditur magis opponuntur 
+      imme<lb ed="#V" n="38" break="no"/>diate diuidentia quam contenta sub altero didentium. Ex ista 
+      seui<lb ed="#V" n="39" break="no"/>quod magis opponitur diuisum et suum oppositum quam 
+      diuidentia<lb ed="#V" n="40" break="no"/>et diuisum inter se: sed ens et non ens immediate opponuntur: 
+      <lb ed="#V" n="41"/>ergo plus opponentur quam contenta sub ente scilicet contraria vel respectuam 
+      </p>
+            <p xml:id="FrMS88-e65868-d1e186">
+               <lb ed="#V" n="42"/>¶ 2o quae se toti opponuntur magis opponuntur quam quae aliquibus 
+      eo<lb ed="#V" n="43" break="no"/>rum: sicut quae se totis differunt magis differunt quam diunsa quae in aliquo conueniunt. 
+      <lb ed="#V" n="44"/>sed contradictoria se totis opponuntur: non contraria. nec relatiam 
+      <lb ed="#V" n="45"/>quia in aliquo conueniunt. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e65868-d1e197">
+      ¶ Dico ergo quod mima est 
+      relati<lb ed="#V" n="46" break="no"/>ua. 2a contraria. quia habent idem genus. 3o priuatia. quia habent idem 
+      sub<lb ed="#V" n="47" break="no"/>iectum.
+    </p>
+            <p xml:id="FrMS88-e65868-d1e204">
+      ¶ Contradictoria autem est maxium. quia nihil commune habent 
+      <lb ed="#V" n="48"/>quod probatur 4r. Primo. quia sola potentia divina accipitur per comperatione 
+      <lb ed="#V" n="49"/>ad condictoria: quia potest aliquid educere de non ente ad ens: ideo 
+      <lb ed="#V" n="50"/>concluditur infinta.
+    </p>
+            <p xml:id="FrMS88-e65868-d1e213">
+      ¶ 2o. quia deus potest facem subiectum sine vtroque ex 
+      <lb ed="#V" n="51"/>tremorum contrarietatis et relationis. non autem contradictionis. ergo est ma 
+      <lb ed="#V" n="52"/>ior. nam nunquam sunt simul vera: nec simul falsa. alie autem 
+      si<lb ed="#V" n="53" break="no"/>mul possunt adminus esse false.
+    </p>
+            <p xml:id="FrMS88-e65868-d1e223">
+      ¶ 3o. quia illud solum dicitur impossibil 
+      <lb ed="#V" n="54"/>quod implicat contradictionem.
+    </p>
+            <p xml:id="FrMS88-e65868-d1e228">
+      ¶ 4o. quia termini oppositi per principi 
+      <lb ed="#V" n="55"/>sunt in infinitum distantes: et propositio ex eis formata est falsissim: 
+      <lb ed="#V" n="56"/>sicut sua opposita est verissima.
+    </p>
+            <p xml:id="FrMS88-e65868-d1e235">
+      ¶ Contra 4r. Primo quia 
+      <lb ed="#V" n="57"/>contradictoria saluantur in minime distantibus. ergo ex se non ma 
+      <lb ed="#V" n="58"/>xime distant.
+    </p>
+            <p xml:id="FrMS88-e65868-d1e242">
+      ¶ 2o. quia per comperationem ad diuersa possunt 
+      contradi<lb ed="#V" n="59" break="no"/>ctoria simul esse: non autem contraria. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e65868-d1e247">
+      ¶ 3o. quia sunt maxime 
+      <lb ed="#V" n="60"/>immediata. ergo minus distantia.
+    </p>
+            <p xml:id="FrMS88-e65868-d1e252">
+      ¶ 4o. quia includiter in omnibus 
+      <lb ed="#V" n="61"/>aliis oppositionibus quae se habent per additionem ad illam. ergo est mi 
+      <lb ed="#V" n="62"/>nor.
+    </p>
+            <p xml:id="FrMS88-e65868-d1e260">
+      ¶ Ad primum dico. quod non saluatur in aliis quiditatiue: sed 
+      <lb ed="#V" n="63"/>solum denominatiue: et propter hoc non sequitur propositum.
+    </p>
+            <p xml:id="FrMS88-e65868-d1e265">
+      ¶ Ad  
+      <lb ed="#V" n="64"/>2m dico quod simile Pctro: et non simile Mauritio non sunt contr 
+      <lb ed="#V" n="65"/>dictoria. ideo non valet.
+    </p>
+            <p xml:id="FrMS88-e65868-d1e272">
+      ¶ Ad 3m dico quod est ad oppositum. In 
+      <lb ed="#V" n="66"/>omnibus. u oppositis immediatis vnum semper est coniuctum cum 
+      <!--181.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>non esse alterius. in mediatis autem non sic. et ideo maximam 
+      di<lb ed="#V" n="68" break="no"/>stantiam habent immediata et nraximam inimicitiam.
+    </p>
+            <p xml:id="FrMS88-e65868-d1e285">
+      ¶ Ad 4m 
+      <lb ed="#V" n="69"/>dico sicut ad primum. quod contradictio non includitur quiditatiue i 
+      <lb ed="#V" n="70"/>aliis: sed denominatiue tantum: sicut homo denominatiue est non 
+      <lb ed="#V" n="71"/>asinus: non autem quiditatiue: et ideo non valet.
+    </p>
+            <p xml:id="FrMS88-e65868-d1e294">
+      ¶ Quantum 
+      <lb ed="#V" n="72"/>ad 3m scilicet de quesito patet quid dicendum sit per ea quae dcam sunt etc.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

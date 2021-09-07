@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f44696"><!-- l4d7q1 -->
+            <head xml:id="FrMS88-f44696-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f44696-d1e111">
+               <lb ed="#V" n="13"/>NUnc de sacramento confirmatas etc.
+      <lb ed="#V" n="14"/>hec est 7a distinctio circa 
+      <lb ed="#V" n="15"/>quam quero 4or quaestio 
+      <lb ed="#V" n="16" break="no"/>nes secundum 4or causas. Prima igitur 
+      <lb ed="#V" n="17"/>quaestio est quae est causa efficiens huius sacramenti. Et 
+      <lb ed="#V" n="18"/>videtur quod quilibet sacerdos: quia sicut patet in epistula 
+      <lb ed="#V" n="19"/>bti gregorii ad ianuarium. Saceus 
+      <lb ed="#V" n="20"/>tempore illo poterat conferre 
+      or<lb ed="#V" n="21" break="no"/>dines.
+    </p>
+            <p xml:id="FrMS88-f44696-d1e133">
+      ¶ Contra quia praepimo reuocauit 
+      <lb ed="#V" n="22"/>quod non fecisset si fuisset vdoneus minister. 
+      <lb ed="#V" n="23"/>hic Dicitur breuiter quod eprts consecratus est tanten causa 
+      <lb ed="#V" n="24"/>efficiens huius sacramentio. vnde philippi 
+      <lb ed="#V" n="25"/>discinpulus qui fuit vnus de septem dyaconibus baptizauit 
+      il<lb ed="#V" n="26" break="no"/>los de samaria. sed apsiuli confirmauerunt eos.
+    </p>
+            <p xml:id="FrMS88-f44696-d1e146">
+      ¶ Sed dubium est de 
+      <lb ed="#V" n="27"/>gregorio qui sacerdotibus concessit. Dicitur quod ipse 
+      excusat<lb ed="#V" n="28" break="no"/>4r. Primo dicunt quidam quod concessit tantum quod innungerent oled 
+      <lb ed="#V" n="29"/>scodo non confirmando. Alii alio modo propter scandalum 
+      po<lb ed="#V" n="30" break="no"/>puli. Alii alio modo: quia in praemitiua ecclesia omnes 
+      sacerdo<lb ed="#V" n="31" break="no"/>tes erant eprni. Alii alio modo. quia summus poenstifex in illa istra 
+      <lb ed="#V" n="32"/>potuit omnes illos sacerdotes facere epritos.
+    </p>
+            <p xml:id="FrMS88-f44696-d1e162">
+      ¶ Sed nulla 
+      <lb ed="#V" n="33"/>istarum excusationum valet.
+    </p>
+            <p xml:id="FrMS88-f44696-d1e168">
+      ¶ Prima non. quia daretur causa vel 
+      <lb ed="#V" n="34"/>occasio erroris: quia putarent se esse confirmatos: et non essent. 
+      </p>
+            <p xml:id="FrMS88-f44696-d1e173">
+               <lb ed="#V" n="35"/>¶ Nec 2a. quia vtilius scandalum nasci permittitur. quam veritas 
+      <lb ed="#V" n="36"/>relinquatur de regulis iuris.
+    </p>
+            <p xml:id="FrMS88-f44696-d1e180">
+      ¶ Nec 3a quia in praemitiua 
+      ecclentia<lb ed="#V" n="37" break="no"/>discipuli erant distincti ab apistulis nec confirmabant. sed tantum 
+      <lb ed="#V" n="38"/>apistuli: sicut patet in actionibus de supraedicto philippo.
+    </p>
+            <p xml:id="FrMS88-f44696-d1e187">
+      ¶ Ned 
+      <lb ed="#V" n="39"/>4a. quia per litras non datur ordo epritralis. licet iurisditio dari 
+      <lb ed="#V" n="40"/>posset: videtur igitur difficile eum posse excusari
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

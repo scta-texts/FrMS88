@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="89-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e66062"><!-- l1d29q1 -->
+            <head xml:id="FrMS88-e66062-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-e66062-d1e111">
+               <lb ed="#V" n="73"/>¶ Distinctio. xxix. Quaestio 
+      <lb ed="#V" n="74"/>Estpreterea aliud nomen etc. 
+      <lb ed="#V" n="75"/>distinctionem. 2o. vbi magitur 
+      tra<lb ed="#V" n="76" break="no"/>Irca ctat de relatione principii.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e122">
+      ¶ Ad  
+      <lb ed="#V" n="77"/>euidentiam istius materiae quaero multas quaestiones. 
+      <lb ed="#V" n="78"/>Primo. vtrum relatio sit aliquid Quod non: quia non 
+      <lb ed="#V" n="79"/>est quid secundum Aug. 5. de tri. ergo non est aliquid. 
+      </p>
+            <p xml:id="FrMS88-e66062-d1e131">
+               <lb ed="#V" n="80"/>¶ contra. In eodem quando dicimus patrem ingenitum. 
+      di<lb ed="#V" n="81" break="no"/>cimus quid non sit. ergo per oppositum genitum dicit aliquid.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e138">
+      ¶ hic 
+      intron<lb ed="#V" n="82" break="no"/>ducuntur 4or declaranda. Primum quid sit relatio in generali. 2o que 
+      <lb ed="#V" n="83"/>sunt proprietates relationis. 3o quot sunt modi relationum. 4o 
+      <lb ed="#V" n="84"/>si relatio est ens in anima vel extra animam. Deinde ad quesitum. 
+      <lb ed="#V" n="85"/>ad primum dico inuxtra dictum beati Aug. 5. de trini. quod 
+      <lb ed="#V" n="86"/>Quantu relatio est ens ad aliud. Ista autem difintio declarati 
+      <lb ed="#V" n="87"/>primo per viam diuisionis sicut alie diffinitiones. Nam per viam diuisionis 
+      <lb ed="#V" n="88"/>diffinitiones inquiruntur. ens autem diuiditur prima sui diuisione in ens 
+      <lb ed="#V" n="89"/>ad se: et in ens ad aliud: relatio non est ens ad se: ergo est ens 
+      <lb ed="#V" n="90"/>ad aliud.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e161">
+      ¶ 2o hoc idem declaratur ex interpraetatione vocabuli 
+      <lb ed="#V" n="91"/>secundum philosophos qui vocant relationem ad aliquid. illud aliquid non est 
+      <lb ed="#V" n="92"/>ipsarum relatio: ergo est ad aliud habens modum termin eius.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e168">
+      ¶ 
+      Con<lb ed="#V" n="93" break="no"/>tra istud instatur 4r. primo sic. Nam causalitas est ad aliud. sed de 
+      <lb ed="#V" n="94"/>est causa. et per consequens causalitas vera est in eo respectu omnium. ergo in deo est 
+      <lb ed="#V" n="95"/>aliquid ad aliud. sed quod est ad aliud est relatio secundum dcam: ergo in 
+      <lb ed="#V" n="96"/>deo est vera relatio ad extra. et sicut est causa realis. ita erit relatio realis. 
+      </p>
+            <p xml:id="FrMS88-e66062-d1e179">
+               <lb ed="#V" n="97"/>¶ 2 Risibilitas videtur esse ad aliud scilicet ad actum ridendi: sed n est 
+      <lb ed="#V" n="98"/>relatio: quia homo est risibilis dato quod non rideat: nec sit actus 
+      <lb ed="#V" n="99"/>ridendi: et tunc relatio esset sine termino: quod est contra rationem 
+      relatio<lb ed="#V" n="100" break="no"/>nis: cum ergo sit ad aliud et non est relatioo. diffinitio non erit 
+      bo<lb ed="#V" n="101" break="no"/>na. Eodem modo deur materia.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e192">
+      ¶ 3o impossibile est. quod conceptus absolutus 
+      <lb ed="#V" n="102"/>includatur in ratione relatiui: sed ens habet conceptum absolutum. ergo non 
+      <lb ed="#V" n="103"/>otest includi in ratione relatiui. Maior est non. Mi. patet: quia ens 
+      <lb ed="#V" n="104"/>pt concipi nullo alio intellecto. ergo est absolutum. et per consequens difcuni 
+      <lb ed="#V" n="105"/>relationis per ens non erit bona.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e203">
+      ¶ 4o. Ratio formalis 
+      re<lb ed="#V" n="106" break="no"/>lationis: par te: est ad aliud. ratio formalis entis non est 
+      <lb ed="#V" n="107"/>ad aliud: ergo ratio formalis relationis non est ens. Mior 
+      pro<lb ed="#V" n="108" break="no"/>batur. quia diuisum non est formaliter aliquod diuidentium: sed ens 
+      <lb ed="#V" n="109"/>diuiditur per absolutum et respectiuum: ergo non est formaliter respectitum 
+      </p>
+            <p xml:id="FrMS88-e66062-d1e214">
+               <lb ed="#V" n="110"/>¶ Ad primum videtur dicendum quod relatio potest esse sine termino. Dico ergo 
+      <lb ed="#V" n="111"/>quod 2a est relatio in vniversali scilicet actualis et fundamentalis. causalitas 
+      <lb ed="#V" n="112"/>que est in deo respectu illorum que sunt extra non est 
+      re<lb ed="#V" n="113" break="no"/>latio actualis: sed solum fundamentalis.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e226">
+      ¶ Sed contra. Ista 
+      <lb ed="#V" n="114"/>relatio fundamentalis autem est ad se: aut ad aliud: non 
+      vi<lb ed="#V" n="115" break="no"/>detur esse ad se. causalitas enim est respectu alicuius causabilis. ergo 
+      <lb ed="#V" n="116"/>idetur quod sit ad aliud. Dico quod ex sua quiditate est ad 
+      termi<lb ed="#V" n="117" break="no"/>num: tamen quia fundamentalis non requrit terminum nisi in potentia. 
+      <lb ed="#V" n="118"/>Vel potest dici quod abstrahit ab esse ad se: et ab esse ad 
+      <lb ed="#V" n="119"/>aliud. si accipiantur vniformiter et actualiter. quid tamen sit de hoc 
+      <lb ed="#V" n="120"/>patebit inferius in quaestione de respectu fundamentali¬ 
+      </p>
+            <p xml:id="FrMS88-e66062-d1e244">
+               <lb ed="#V" n="121"/>¶ Ad 2m de risibilitate dicendum est eodem modo quod non est 
+      re<lb ed="#V" n="122" break="no"/>pectus actualis.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e251">
+      ¶ Ad 3m dico. quod ens non habet 
+      con<lb ed="#V" n="123" break="no"/>ceptum absolutum nec respectiuum: sed abstrahit ab 
+      vtro<lb ed="#V" n="124" break="no"/>que sicut diuisum a suis diuidentibus: sicut substantia a corpo 
+      <lb ed="#V" n="125"/>reo et incorporeo.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e260">
+      ¶ Ad probationem quando dicitur quod 
+      po<lb ed="#V" n="126" break="no"/>test intelligi per se nullo intellecto alio. Dico quod illud non 
+      <lb ed="#V" n="127"/>tantum comperit absoluto quod diuidatur ex opposito contra respecti 
+      <lb ed="#V" n="128"/>uum: sed etiam competit illi quod secundum suam rationem formalem non est ad 
+      <lb ed="#V" n="129"/>aliud: sed abstrahit: sicut omne diuisum a suic diuidentibus. 
+      <lb ed="#V" n="130"/>ita quod illud indifferens potest intelligi nullo alio intellecto. 
+      </p>
+            <p xml:id="FrMS88-e66062-d1e273">
+               <lb ed="#V" n="131"/>¶ Ad 4m potest dici dupliciter. Uno modo quod ens non dicitur quidi¬ 
+      <!--182.xml-->
+      <pb ed="#V" n="90-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tatiue de relatione: sed solum eo modo quo superius fuit dictum: sicut 
+      <lb ed="#V" n="2"/>genus de differentia: quia dato quod sic: tunc relatio non esset ad aliud 
+      <lb ed="#V" n="3"/>secundum se totam: sed secundum rationem specificam tantum. Aliter autem potest 
+      di<lb ed="#V" n="4" break="no"/>cem qui non vult tenem illam viam: quod sicut homo ex ratione specifica 
+      <lb ed="#V" n="5"/>est homo. et non per multa inclusa in eius quiditate: sic relatio secundum 
+      <lb ed="#V" n="6"/>suam rationem specificam est ad aliud: licet omnia sua priora intrinseca 
+      <lb ed="#V" n="7"/>non sint ad aliud. Ex ista diffinitione sequiur vna regula vniversalis scilicet 
+      <lb ed="#V" n="8"/>quod nihil ad seipsum refertur: quod patet ex hoc: nam per dcam relatio est ad 
+      <lb ed="#V" n="9"/>aliud. ergo illud ad quod refertur est aliud.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e304">
+      ¶ Ex ista autem 
+      re<lb ed="#V" n="10" break="no"/>gula introducuntur 4or conclusiones determinate. Prima est 
+      Au<lb ed="#V" n="11" break="no"/>gu. primo de tri. Nulla res seipsam gignit: quia omnis relatio est 
+      <lb ed="#V" n="12"/>ad aliud. producens refertur ad productum: ergo productum est aliud 
+      <lb ed="#V" n="13"/>a producente.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e316">
+      ¶ 2a quod idem non potest agem in seipsum: nec modo 
+      <lb ed="#V" n="14"/>uem seipsum: quia tam agens quam mouens referuntur: vnum ad 
+      pas<lb ed="#V" n="15" break="no"/>sum: aliud ad motum: ergo cum relatio sit ad aliud distinctum: oportet 
+      <lb ed="#V" n="16"/>quod passum differat ab agente et motum a mouente.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e325">
+      ¶ 3 
+      am<lb ed="#V" n="17" break="no"/>quod excedens necessario distinguitur ab excesso. quia excedens et 
+      <lb ed="#V" n="18"/>excessum referuntur ratione inequalitatis. et per consequens vnum abi 
+      <lb ed="#V" n="19"/>alio distinguitur: et non solum est non identitas: sed alietas 
+      <lb ed="#V" n="20"/>quedam ex qui relatio requrit termini alietatem.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e336">
+      ¶ Ex instoa conclusi 
+      <lb ed="#V" n="21"/>ne sequitur euidentur quod essentia et proprietas aliquo modo distinguuntur: 
+      <lb ed="#V" n="22"/>quia excedens distinguitur ab excesso: sed esentua divina excedit 
+      <lb ed="#V" n="23"/>proprietatem. ergo essentia divina distinguitur aliquo modo a proprietate 
+      </p>
+            <p xml:id="FrMS88-e66062-d1e345">
+               <lb ed="#V" n="24"/>¶ 4a conclusio quod commune distinguitur a proprio. Nam commune refertur ad 
+      pro<lb ed="#V" n="25" break="no"/>prium. ergo distinguitur a proprio. Ex hoc formetur similitus de essentia et 
+      <lb ed="#V" n="26"/>relatione. Omne commune distinguitur a proprio: sed essentia divina est 
+      com<lb ed="#V" n="27" break="no"/>munis: et relatio propria: ergo essentia divina distinguitur a relatione. 
+      <lb ed="#V" n="28"/>Intelligendum tamen ad euidentiam istorum quod 4or sunt rationes s 
+      <lb ed="#V" n="29"/>seinuiceme abstrahentes. Prima est ratio relatiui. a qua 
+      abstra<lb ed="#V" n="30" break="no"/>hit ratio relationis. quia quod refertur relatione refertur. ergo causa form 
+      <lb ed="#V" n="31"/>lis relatiui inquantum relatiuum est relatio: sed omnis causa formalis 
+      <lb ed="#V" n="32"/>abstrahit ab eo cuius est causa formalis. ergo ratio formalis 
+      re<lb ed="#V" n="33" break="no"/>lationis abstrahit a relatiuo: ratio ergo relatiui est prima: rati 
+      <lb ed="#V" n="34"/>relationis est 2a. 3a que abstrahit a ratione relationis est ratio 
+      <lb ed="#V" n="35"/>respectus accipiendo proprie relationem pro illa quae est in genere relatio 
+      <lb ed="#V" n="36"/>nis. patet. quia respectus inuenitur in deo: non tamen relatio
+    </p>
+            <p xml:id="FrMS88-e66062-d1e376">
+      ¶ 2o patet 
+      <lb ed="#V" n="37"/>hoc idem: quia illud quod est commune ad multa praedicamenta 
+      abstra<lb ed="#V" n="38" break="no"/>hit ab illo quod est in vno illorum: sed respectus est communis ad 
+      <lb ed="#V" n="39"/>multa praedicamenta. quia ad separtem: quod pro nunc suppono. et 
+      <lb ed="#V" n="40"/>patet satis ex rationibus diffinitis eorum. Relatio autem proprie 
+      sum<lb ed="#V" n="41" break="no"/>pta est praecise in vno illorum seprtem. ergo ratio respectus abstrahit a 
+      re<lb ed="#V" n="42" break="no"/>latione proprie sumpta.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e392">
+      ¶ 4a ratio quae abstrahit a respcum est 
+      ha<lb ed="#V" n="43" break="no"/>bitudo. habitudo enim abstrahit a respectu: habitudo enim 
+      <lb ed="#V" n="44"/>est inter diffinitionem et diffinitum: non tamen relatio ponitur int 
+      <lb ed="#V" n="45"/>ea. Similiter ponimus multas habitudines inter perfectio 
+      <lb ed="#V" n="46"/>nes diuinas: que non sunt relationes.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e404">
+      ¶ Ex istis apparet 
+      <lb ed="#V" n="47"/>quod licet sit habitudo inter essentiam et relationem alietatis et 
+      <lb ed="#V" n="48"/>inequalitatis et multe tales: non tamen est inter ea relatio. Simili 
+      <lb ed="#V" n="49"/>de omnibus aliis exceptis personis que sunt in diuinis. 
+      <lb ed="#V" n="50"/>i inquirendum est de proprietatibus relatio 
+      <lb ed="#V" n="51"/>Secundum nis: et hic dico secundum Aug. in suis 
+      cathoe<lb ed="#V" n="52" break="no"/>goriis. quod quatuor sunt proprietates.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e420">
+      ¶ Prima est. quod 
+      pro<lb ed="#V" n="53" break="no"/>prium est relationi quod cointelligatur cum suo termino. Omne enim quod 
+      <lb ed="#V" n="54"/>est ad se: vel generaliter sumendo: quod non est ad aliud: potest in 
+      <lb ed="#V" n="55"/>telligi nullo alio cointellecto: relatio autem si debeat 
+      intel<lb ed="#V" n="56" break="no"/>ligi necessario requrit suum terminum cointelligit.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e431">
+      ¶ 2a 
+      proprie<lb ed="#V" n="57" break="no"/>tas est. quod omnia relatiua dicuntur ad conuertentiam. hanc 
+      po<lb ed="#V" n="58" break="no"/>nit Augu. 5. de tri. vbi declarat de personis quomodo 
+      dicunt<lb ed="#V" n="59" break="no"/>ad conuertentiam.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e440">
+      ¶ 3a est quod relatiue opposita sunt in eodem 
+      <lb ed="#V" n="60"/>susceptibili per comparationem ad diuersa: quia potest a. esse si 
+      <lb ed="#V" n="61"/>mile. b. et dissimile c. secundum idem fundamentum: non sic de aliis 
+      <lb ed="#V" n="62"/>oppositis.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e449">
+      ¶ 4a proprietas est modus praedicationis. 
+      Re<lb ed="#V" n="63" break="no"/>cipit enim praedicationem in obliqui. quia relatio hoc ipsum quod est 
+      alio<lb ed="#V" n="64" break="no"/>ru est vel alterius: et sic praedicatum diffinitiuum relationis est 
+      <lb ed="#V" n="65"/>in obliqui. quod non conuenit aliis: intelligendo de praedicato 
+      <lb ed="#V" n="66"/>extra genus relationis: non autem de praedicato in genere.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e460">
+      ¶ Contra 
+      <!--182.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>istas proprietates arguitur 4r.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e470">
+      ¶ Primo contra primam. Quicumque in 
+      <lb ed="#V" n="68"/>telligit actum videndi necessario comintelligit obiectum. sed constat quod 
+      <lb ed="#V" n="69"/>actus videndi non est relatio: sed absolutum: ergo hoc non est 
+      propriu<lb ed="#V" n="70" break="no"/>relationi quod non possit intellecti sine alio cointellecto.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e479">
+      ¶ 2 
+      <lb ed="#V" n="71"/>contra secundam sic. Creatura refertur realiter ad deum et non econverso 
+      <lb ed="#V" n="72"/>similiter scientia ad scibile et non econverso. ergo cum ista sint 
+      cor<lb ed="#V" n="73" break="no"/>relatiua. videtur quod omnibus relatiuis non conueniat dici ad 
+      con<lb ed="#V" n="74" break="no"/>uertentiam.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e490">
+      ¶ 3a contra tertiam. quia tunc ratio boni esset relati 
+      <lb ed="#V" n="75"/>ua. Aliquid autem potest esse bonum vni et malum alteri: sicut 
+      pas<lb ed="#V" n="76" break="no"/>sio christi fuit multis bona. aliquibus autem mala.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e497">
+      ¶ 4o 
+      con<lb ed="#V" n="77" break="no"/>tra 4am: quia de omni absoluto potest fieri praedicatio in obliqui: 
+      <lb ed="#V" n="78"/>quia anima est hominis: et albedo est alicuius subiecti.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e504">
+      ¶ Ad primum 
+      <lb ed="#V" n="79"/>dico. quod actum intelligendi vel videndi cum respectum ad 
+      ob<lb ed="#V" n="80" break="no"/>iectum nullus potest videre nec intelligere sine obiecto: sed hoc non 
+      <lb ed="#V" n="81"/>est ratione absoluti quod est in actu. sed ratione respecuns 
+      <lb ed="#V" n="82"/>fundati in illo absoluto quod non potest intelligi fine obiecto 
+      co<lb ed="#V" n="83" break="no"/>intellecto. qualitatem autem illam quae est absoluta in actu vt 
+      pre<lb ed="#V" n="84" break="no"/>scindit a relatione que est actus ad obiectum: certe ista potest 
+      <lb ed="#V" n="85"/>intelligi sine quocumque alio simul cointellecto sicut et alia 
+      <lb ed="#V" n="86"/>absoluta.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e524">
+      ¶ Ad 2m dico. quod omnia relatiua dicuntur ad 
+      conuer<lb ed="#V" n="87" break="no"/>tentiam. Quando autem dicitur de scibili et scientia. Dico quod scibile 
+      respe<lb ed="#V" n="88" break="no"/>ctu findamentali dicitur ad scientiam. Unde valde superficialiter 
+      <lb ed="#V" n="89"/>considerant qui dicunt quod scibile non refertur ad scientiam. 
+      <lb ed="#V" n="90"/>sed potest esse sine scientia. m enim deus: de quo magis videtur: possit esse 
+      <lb ed="#V" n="91"/>sine creatura: tamen non propter hoc dabet dici quin deus respecum 
+      <lb ed="#V" n="92"/>licet non formaliter realem: tamen fundamentalem habeat ad 
+      <lb ed="#V" n="93"/>creaturam: mediante quo dicitur ad conuertentiam: sicut 
+      crcatu<lb ed="#V" n="94" break="no"/>ra creatoris creatura.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e545">
+      ¶ Ad 3m dico. quod ratio boni ab 
+      <lb ed="#V" n="95"/>strahit ab absoluto et respectiuo. Aliquando autem non 
+      ac<lb ed="#V" n="96" break="no"/>cipitur bonum absolute. sed bonum pro conuenienti: et bonum 
+      <lb ed="#V" n="97"/>sub tali ratione sumptum erit relatiuum: hoc est bonum 
+      <lb ed="#V" n="98"/>huic id est conueniens huic.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e556">
+      ¶ Ad 4m dico quod semper quando 
+      pre<lb ed="#V" n="99" break="no"/>dicatio fit in obliquo cointelligitur respectus. Unde in ta 
+      <lb ed="#V" n="100"/>li praedicatione: anima hominis vel albedo sortis: licet anima sit 
+      ali<lb ed="#V" n="101" break="no"/>quid absolutum. tamen semper cointelligitur respectus quo 
+      <lb ed="#V" n="102"/>anima est ad hominem: et quo albedo ad sortem. 
+      <lb ed="#V" n="103"/>inquirendum est. quot sunt modi 
+      rela<lb ed="#V" n="104" break="no"/>Tertium tionum: et quantum ad hoc dico quod 4or 
+      distinctio<lb ed="#V" n="105" break="no"/>nes relationis inueniuntur in communi.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e574">
+      ¶ Prima est diuisio 
+      qua<lb ed="#V" n="106" break="no"/>diuiditur relatio in relationem secundum esse et in relationem secundum dici. 
+      In<lb ed="#V" n="107" break="no"/>telligendo autem per relatiua secundum dici illa que sunt aliorum 
+      <lb ed="#V" n="108"/>praedicamentorum et secundum se sunt absoluta. intelliguntur tamen cum 
+      <lb ed="#V" n="109"/>habitudine ad aliud: sicut anima. licet sit quid absolutum et substantia: ipsa tamen 
+      <lb ed="#V" n="110"/>intellecitur cum habitudine ab hominem: ita quod non intelligo quod ista 
+      <lb ed="#V" n="111"/>habitudo cointellecta cum anima: et sic de aliis: sit relatio 
+      ratio<lb ed="#V" n="112" break="no"/>nis: sed est vere realis. Relatiua autem secundum esse sunt quae secundum 
+      <lb ed="#V" n="113"/>totam naturam suam et totum illud quod sunt: sunt in praedicamento. 
+      <lb ed="#V" n="114"/>relationis: et sic intelligendo vt paternitas.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e596">
+      ¶ 2a diuisio 
+      relatio<lb ed="#V" n="115" break="no"/>num est in relationes rationis quae sunt ab anima fabricate et in anima 
+      <lb ed="#V" n="116"/>obiectiue: et in relationes quae non sunt fabricate ab intellectu: 
+      <lb ed="#V" n="117"/>sed sunt in rerum nam circumscripta omni operatione intellectus. 
+      </p>
+            <p xml:id="FrMS88-e66062-d1e605">
+               <lb ed="#V" n="118"/>¶ 3a diuisio est in relationes disquiperantie quae sunt alterius 
+      <lb ed="#V" n="119"/>speciei in vtroque extremorum quae necessario sunt inter extrema 
+      al<lb ed="#V" n="120" break="no"/>terius et alterius rationis. et in relationes equiparantie quae sunt 
+      <lb ed="#V" n="121"/>eiusdem rationis in vtroque extremo.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e616">
+      ¶ 4a diuisio est in 
+      re<lb ed="#V" n="122" break="no"/>lationes superpositionis quae sunt principaliores: et in relationes 
+      <lb ed="#V" n="123"/>suppositionis: quae sunt inferiores et minus praencipales. Exitum dicuenus 
+      <lb ed="#V" n="124"/>et fiuus. Sic ergo patent iste 4or diuisiones relationis.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e626">
+      ¶ Sed 
+      <lb ed="#V" n="125"/>numquid est innuenire diuisionem secundum dici: et secundum esse in aliis 
+      <lb ed="#V" n="126"/>pondicamenti. Dico quod sic. sicut patet in genere substantie. Differentia enim substanti 
+      <lb ed="#V" n="127"/>lis quantum ad esse est in genere substantie: et tamen secundum dici est in genere 
+      <lb ed="#V" n="128"/>qualitatis. Similiter simuia quae ponitur in genere qualitatis est solum secundum dici in 
+      <lb ed="#V" n="129"/>genere qualitatis: et secundum esse in genere relationis: quia est formalis respe 
+      <lb ed="#V" n="130"/>ctus. Similiter scientia secundum dici est in genere relationis. secundum esse in praenento 
+      <lb ed="#V" n="131"/>qualitatis. Ulterius ponitur alia distinctio: quam ponit de 
+      <lb ed="#V" n="132"/>ctor de relationibus: quia quaedam sunt transcendentes: quae non sunt 
+      <!--183.xml-->
+      <pb ed="#V" n="90-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>alicuius praedicamenti. Alie autem sunt qua ponuntur in praeseto 
+      </p>
+            <p xml:id="FrMS88-e66062-d1e655">
+               <lb ed="#V" n="2"/>¶ Sed notandum est de istis relationibus transcendentibus 
+      <lb ed="#V" n="3"/>quod sunt 4or genera relationum transcendentium.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e662">
+      ¶ Primum genus est 
+      <lb ed="#V" n="4"/>relationum illarum: quo conueniunt enti inquantum ens scilicet vt abstrahit 
+      <lb ed="#V" n="5"/>a praesentis et a passionibus: et tales sunt habitudines ordins et 
+      <lb ed="#V" n="6"/>distinctionis: quae sunt inter ens et eius passiones scilicet bonum verum 
+      <lb ed="#V" n="7"/>et huiusmodi.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e673">
+      ¶ 2m genus est relationum: quibus diuiditur ens: sicut sunt 
+      <lb ed="#V" n="8"/>relationes identitatis et diuersitatis. Idem enim et diuersum 
+      diui<lb ed="#V" n="9" break="no"/>dunt ens.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e680">
+      ¶ 3m genus est relationu qui circuunt omne genus: sicut 
+      su<lb ed="#V" n="10" break="no"/>perius et inferius. Iste enim sunt in omni genere.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e685">
+      ¶ 4m genus relationum 
+      <lb ed="#V" n="11"/>transcendentium est illarum quae sunt in deo: et breuitur de omnibus 
+      <lb ed="#V" n="12"/>talibus relationibus talis regula datur. quod omnis relatio quae non est 
+      di<lb ed="#V" n="13" break="no"/>stincta realiter a fundamento vel subiecto est ex se transcendens. 
+      <lb ed="#V" n="14"/>Et hus ratio est. quia omnis relatio quae est directe in genere relationis: vel 
+      <lb ed="#V" n="15"/>in aliquo alio genere per se et directe est accidens. relatio autem quae est 
+      <lb ed="#V" n="16"/>cum fundatus eadem realiter non potest esse accidens.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e702">
+      ¶ Alia diuisio 
+      <lb ed="#V" n="17"/>relationum quam ponit doctor est. quod quiedam sunt relationes ex 
+      <lb ed="#V" n="18"/>trinsecus aduenientes. et alique intrinsecus aduenientes. 
+      <lb ed="#V" n="19"/>Relationes intrinsecus aduenientes sunt qua positis 
+      extre<lb ed="#V" n="20" break="no"/>minis inascuntur. Extrinsecus aduenientes non inascuntur positi 
+      <lb ed="#V" n="21"/>extremis absolute: immo stantibus extremins in actu non po 
+      <lb ed="#V" n="22"/>nitur respectus ille: sed ponitur respectus ille per nouam actionem posse 
+      acqui<lb ed="#V" n="23" break="no"/>ri sine absoluto.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e720">
+      ¶ Sed contra istam distinctionem arguiter 4r. 
+      </p>
+            <p xml:id="FrMS88-e66062-d1e723">
+               <lb ed="#V" n="24"/>¶ Primo sic. Nam vbi ponitur respectus extrinsecus adueniens: 
+      <lb ed="#V" n="25"/>et tamen posito corpore et loco necessario ponitur vbi.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e730">
+      ¶ 2o idem patet 
+      <lb ed="#V" n="26"/>de quando. posito enim temporali et tempore necessario ponitur quando.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e735">
+      ¶ 3o patet idem 
+      <lb ed="#V" n="27"/>de situ. Nam posito corpore et eius partibus ponitur situs. 
+      </p>
+            <p xml:id="FrMS88-e66062-d1e740">
+               <lb ed="#V" n="28"/>¶ 4o idem apparet de habitu posito enim corpore et aliquo 
+      <lb ed="#V" n="29"/>circa corpus stati inascitur habitus. et ita inste relationes 
+      <lb ed="#V" n="30"/>erunt intrinsecus aduenientes.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e750">
+      ¶ Ad primum dico. quod vbi 
+      <lb ed="#V" n="31"/>non inascitur posito termino et fundamento. Nam si stante 
+      <lb ed="#V" n="32"/>corpore et loco staret vbi. sequeretur quod nullum corpus posset 
+      <lb ed="#V" n="33"/>moueri: cum maneat idem corpus et idem locus: et sic 
+      semper<lb ed="#V" n="34" break="no"/>maneret idem vbi. Motus autem non potest fieri nisi propter 
+      varia<lb ed="#V" n="35" break="no"/>tionem vbi: ergo si stat semper idem vbi et nullum acquritur impossibile 
+      <lb ed="#V" n="36"/>est quod motus sit.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e766">
+      ¶ Similiter dico ad 2m. Manente enim eadem 
+      <lb ed="#V" n="37"/>re tprali et eodem tempore: transit res de quando in quando.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e771">
+      ¶ Similiter ad 
+      <lb ed="#V" n="38"/>3m dico. quod manentibus eisdem partibus in terra locante: et in 
+      la<lb ed="#V" n="39" break="no"/>pide locato variatur situs.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e778">
+      ¶ Similiter si arma circa corpus. 
+      <lb ed="#V" n="40"/>ponantur non necessario consurgit habitus nisi sit conscriptum 
+      <lb ed="#V" n="41"/>arminis.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e785">
+      ¶ Sed hic sunt due difficultates. Prima est. si omnis 
+      re<lb ed="#V" n="42" break="no"/>latio intrinsecus adueniens sit de genere relationis. Do 
+      <lb ed="#V" n="43"/>ctor noster videtur dicere quod sic. ponens differentiam inter respectus de genere 
+      rela<lb ed="#V" n="44" break="no"/>tionis et alios respectus ponit istam distinctionem.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e794">
+      ¶ Con 
+      <lb ed="#V" n="45"/>tra hoc arguo 4or. Nam respectus loci ad locatum est respe 
+      <lb ed="#V" n="46"/>ctus extrinsecus adueniens: et tamen non est in genere vbi. quia 
+      <lb ed="#V" n="47"/>vbi est respecus locati ad locum. Non videtur autem posse 
+      re<lb ed="#V" n="48" break="no"/>duci nisi ad genus relationis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e806">
+      ¶ 2o eodem modo potest ar 
+      r<lb ed="#V" n="49" break="no"/>gui de quando. Respecuns enim temporis ad rem temporalem non est in genere 
+      <lb ed="#V" n="50"/>quando. quia respectus ille qui est de illo genere quando. est in re temporali ad  
+      <lb ed="#V" n="51"/>ipsum tmpus. Constant autem quod non est intrinsecus adueniens. 
+      </p>
+            <p xml:id="FrMS88-e66062-d1e815">
+               <lb ed="#V" n="52"/>¶ 3o sic. Unio anime ad corpus est respectus extrinsecus ad 
+      <lb ed="#V" n="53"/>ueniens. et tamen in nullo ponitur sex principiorum.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e822">
+      ¶ 4o. Omne 
+      <lb ed="#V" n="54"/>accidens: vt videtur: necessario ponitur in aliquo praedicamento: sed non 
+      ap<lb ed="#V" n="55" break="no"/>paret in aliquo alio posse poni vnio naturae humane ad 
+      ver<lb ed="#V" n="56" break="no"/>bum: ergo est in praento relationis.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e831">
+      ¶ Ad primum dico. quod licet 
+      nume<lb ed="#V" n="57" break="no"/>rus praedicamentorum non possit demonstrari: tamen non bonum 
+      <lb ed="#V" n="58"/>est negare quod ab omnibus supponitur: et maxime ab Aug. 
+      <lb ed="#V" n="59"/>et ideo non negando: sed supponendo dico quod omne relatiuum 
+      <lb ed="#V" n="60"/>et omnis relatio talis de quibus est facta mentio: est in aliquo 
+      prie<lb ed="#V" n="61" break="no"/>dicamento quiditatiue: vel reductiue.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e844">
+      ¶ Unde ad primum dico. 
+      <lb ed="#V" n="62"/>quod licet inste respecus qui est loci ad locatum non sit de praesento vbi 
+      <lb ed="#V" n="63"/>directe et quiditatiue: tamen reductiue est in praedicamento vbi. 
+      </p>
+            <p xml:id="FrMS88-e66062-d1e851">
+               <lb ed="#V" n="64"/>¶ Ad 2m eodem modo dico quod respectus ille temporis ad 
+      rem<lb ed="#V" n="65" break="no"/>teporalem est reductiue in praedicamento quando. licet non directe 
+      </p>
+            <p xml:id="FrMS88-e66062-d1e859">
+               <lb ed="#V" n="66"/>¶ Ad 3m de vnione dico. quod licet sit difficile: tamen potest di¬ 
+      <!--183.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>ci quod reducitur ad praedicamentum vbi propter praesentialitatem: 
+      </p>
+            <p xml:id="FrMS88-e66062-d1e870">
+               <lb ed="#V" n="68"/>¶ Ad 4m dico de vnione nature humane ad verbum. 
+      <lb ed="#V" n="69"/>licet sit magnum dubium. oportet videre et dicere dubitando 
+      <lb ed="#V" n="70"/>si. dicatur quod reducitur ad vbi. non videtur inconueniens: tamen 
+      <lb ed="#V" n="71"/>dico quod hoc est valde methaphorice dictum et imprope¬ 
+      </p>
+            <p xml:id="FrMS88-e66062-d1e881">
+               <lb ed="#V" n="72"/>¶ 2a difficultas. Ssentiare et generari: dicere et dici sunt de genere 
+      relatio<lb ed="#V" n="73" break="no"/>nis: et tamen non semper manent manentibus extremis. quod patet 
+      <lb ed="#V" n="74"/>maxime de generatione: quia genitum quandiu est non semper generatur: 
+      <lb ed="#V" n="75"/>sed solum pro illo signo pro quo accipitur esse.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e892">
+      ¶ Dico quod 4or 
+      <lb ed="#V" n="76"/>sunt gradus in respectibus intrinsecus aduenientibus. 
+      Pri<lb ed="#V" n="77" break="no"/>mus est illorum qui consurgunt positis extremins de necessitate 
+      <lb ed="#V" n="78"/>simpiciter. ita quod per quamcumque poam oppositum non potest fieri: sicut sunt 
+      <lb ed="#V" n="79"/>respecuns creature ad deum. quia sic necessario consurgunt. quod deus 
+      <lb ed="#V" n="80"/>nulloos potest facem quin creatura dependeat ab eo. Alie sunt 
+      <lb ed="#V" n="81"/>relationes quae consurgunt necessario necessitate solum secundum quid: sicut 
+      <lb ed="#V" n="82"/>imilitudo. Potest enim deum vt inferius patebit et supre patuit: 
+      <lb ed="#V" n="83"/>facere duo alba sine similitudine: et ideo licet positis albis 
+      consur<lb ed="#V" n="84" break="no"/>gat similitudo: tamen oppositum potest esse. Alie sunt quae necessario 
+      con<lb ed="#V" n="85" break="no"/>surgunt positis extremis. tamen non simpliciter. sed priuia 
+      aliqua<lb ed="#V" n="86" break="no"/>dispositione: sicut paternitas et filiatio. quia si deus creasset me et 
+      <lb ed="#V" n="87"/>patrem meum: non fuissent. respectus paternitatis et filiationis: 
+      <lb ed="#V" n="88"/>sed tamen posito actu generandi: necessario insunt: vna vel alia 
+      ne<lb ed="#V" n="89" break="no"/>cessitate. Alie sunt quae necessario consurgunt positis extremis non 
+      <lb ed="#V" n="90"/>inesse pro semper: sed in esse in fieri: sicut generatio. quae est 
+      respe<lb ed="#V" n="91" break="no"/>ctus producentis ad productum in fieri: posito producto in fie 
+      <lb ed="#V" n="92"/>ri: necessario consurgit: sed in esse non stant ille relationes: non sic 
+      <lb ed="#V" n="93"/>autem est de actione illa: quae ponitur respecus extrinsecus 
+      adue<lb ed="#V" n="94" break="no"/>niens. quia quantumcumque ponantur extrema et approximentur non 
+      <lb ed="#V" n="95"/>equitur necessario relatio. sed potest oppositum euenire. sicut patet in 
+      Danie<lb ed="#V" n="96" break="no"/>le de tribus pueris. generare ergo et dicere sunt de genere 
+      <lb ed="#V" n="97"/>relationis. que consequuntur extrema solum in 
+      fieri<lb ed="#V" n="98" break="no"/>ad 4m principioe videndum est si relatio sit ens in 
+      ani<lb ed="#V" n="99" break="no"/>Qua ma: vel extra animam.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e947">
+      ¶ Introducuntur hoc 4or 
+      di<lb ed="#V" n="100" break="no"/>cta solennium docor Primum est. quod omnis relatio est ab anima fabia 
+      <lb ed="#V" n="101"/>2m dictum est quod relationes reales sunt ille ad quas fabri 
+      <lb ed="#V" n="102"/>compelliter intellectus. Relationes autem rationis sunt ad quas fabri 
+      <lb ed="#V" n="103"/>causadas non compelliter intellectus. Extrema enim relatio 
+      <lb ed="#V" n="104"/>nis realis compellunt intellectum ad causandum 
+      conce<lb ed="#V" n="105" break="no"/>ptum de relatione illa: sicut duo alba de similitudine: non 
+      <lb ed="#V" n="106"/>sic de aliis.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e965">
+      ¶ 3m dictum est quod relationes sub ratione originum 
+      <lb ed="#V" n="107"/>manent in diuinis: non tamen sub ratione relationis.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e971">
+      ¶ 4m 
+      di<lb ed="#V" n="108" break="no"/>ctum est quod relatio completiue est ab anima: materialiter autem 
+      <lb ed="#V" n="109"/>siue fundamentaliter est in re extra.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e978">
+      ¶ Sed ista non possunt 
+      <lb ed="#V" n="110"/>stare. Ideo contra primum dictum arguo. 4r
+    </p>
+            <p xml:id="FrMS88-e66062-d1e983">
+      ¶ Primo sic logicaliter. 
+      <lb ed="#V" n="111"/>Sicut ens diuiditur in ens in anima. et in ens extra animam. 
+      <lb ed="#V" n="112"/>ta relationes reales et rationis: sed prima diuisio non potest 
+      <lb ed="#V" n="113"/>stare si ponantur omnia entia ab anima fabricata. ergo nec 2a 
+      </p>
+            <p xml:id="FrMS88-e66062-d1e992">
+               <lb ed="#V" n="114"/>¶ 2o sic. quando aliquod diuisum est reale et extra animam. 
+      diui<lb ed="#V" n="115" break="no"/>dentia sunt extra animam: sed ens diuiditur in. x. predicamenta. 
+      <lb ed="#V" n="116"/>ens dico reale et extra animam. relatio autem est vnum. 2. 
+      praedica<lb ed="#V" n="117" break="no"/>mentorum: ergo relatio erit ens extra animam.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e1003">
+      ¶ Confirmatur 
+      <lb ed="#V" n="118"/>quia. x. praedicamenta sunt. x. rerum principia.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e1008">
+      ¶ 3o arguitur 
+      phy<lb ed="#V" n="119" break="no"/>sice sic. Illud quod cognoscitur per sensum est reale: sed 
+      re<lb ed="#V" n="120" break="no"/>latio est huiusmodi. nam distantia solis a terra est relatio quaedam. 
+      <lb ed="#V" n="121"/>Constat autem quod potest cognosci per sensum.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e1018">
+      ¶ Confirmatur. quia 
+      <lb ed="#V" n="122"/>omne intuitiue cognitum est in re. sed ordo distantia et huiusmodi 
+      <lb ed="#V" n="123"/>sunt talia.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e1025">
+      ¶ 4o metatie sic. Coordinatio et decor entium 
+      <lb ed="#V" n="124"/>non est praecise in anima. sed decor entium / ordo est et ordo est 
+      re<lb ed="#V" n="125" break="no"/>latio quidam. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e1032">
+      ¶ Similiter productio rei videtur realis: alioquin 
+      <lb ed="#V" n="126"/>itellectus omnia produceret: sed productio rei est relatio. suum enim 
+      <lb ed="#V" n="127"/>esse est ad aliud. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e1039">
+      ¶ Similiter theologice. si repugna 
+      <lb ed="#V" n="128"/>ret relationibus esse reales. tunc nulla relatio esset realis: cum 
+      <lb ed="#V" n="129"/>ergo persone diuine ponantur constitui relationibus: ponerent 
+      <lb ed="#V" n="130"/>pstitui per entia rationis: quod videtur slium. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e1048">
+      ¶ Contra 2m dictum 
+      <lb ed="#V" n="131"/>quod est Petri aureoli arguo. 4r
+    </p>
+            <p xml:id="FrMS88-e66062-d1e1053">
+      ¶ Primo sic. Nullum 
+      <lb ed="#V" n="132"/>obiectum compellit intellctum cognoscentem solum abstractiue ad co¬ 
+      <!--184.xml-->
+      <pb ed="#V" n="91-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>gnoscendum que sibi insunt per accidens. sed multe relationes 
+      <lb ed="#V" n="2"/>sunt reales quae insunt fundamento fsine obiecto per accidens. ergo etc. 
+      <lb ed="#V" n="3"/>maior videtur manifesta. quia quae ratione vnum et aliud: et sic cum 
+      exi<lb ed="#V" n="4" break="no"/>stentia conueniat per accidens. posset intellctus abstractiue 
+      co<lb ed="#V" n="5" break="no"/>grgoscens cognoscere vtrum obiectum existat vel non existat.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e1076">
+      ¶ Sid 
+      <lb ed="#V" n="6"/>militer repraesentatiuum repraesentat vniformiter. cum ergo illa quae sunt per 
+      <lb ed="#V" n="7"/>accidens varientur. repraesentatiuum aliquando selundu repraesentaret. 
+      Mi<lb ed="#V" n="8" break="no"/>nor de se nota est. Nam columne per accidens conuenit esse sursum 
+      <lb ed="#V" n="9"/>vel deorsum: et sic de multi aliis relationibus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e1087">
+      ¶ 2o. 
+      <lb ed="#V" n="10"/>secundum illud dictum. Illa habitudo quae cognoscitur illis extremis 
+      <lb ed="#V" n="11"/>cognitis necessario est realis. sed cogniti termis propositionis per 
+      <lb ed="#V" n="12"/>se note cognoscitur habitudo necessaria et complexio. ergo inter eos erit 
+      <lb ed="#V" n="13"/>relatio realis.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e1098">
+      ¶ contra 3m dictum quod est eiusdem arguo sic. Omne 
+      <lb ed="#V" n="14"/>illud cui competit relationis diffinitio: et relationis proprietas est 
+      <lb ed="#V" n="15"/>relatio. sed huiusmodi est origo. patet de diffinitione superius data: patet etiam 
+      <lb ed="#V" n="16"/>discurrendo per proprietates supius numeratas. ergo est relatio. Si 
+      <lb ed="#V" n="17"/>tamen doctor iste solemnis intendit dicere quod relatio quae sit de genere 
+      <lb ed="#V" n="18"/>relationis non sit in divinis: credo quod verum dicit: quia nihil quod 
+      <lb ed="#V" n="19"/>est in genere est in divinis: tamen alicui quod est in deo competit 
+      <lb ed="#V" n="20"/>diffinito relationis superius data.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e1116">
+      ¶ Contra 4m dictum arguo 
+      <lb ed="#V" n="21"/>quidruplicitur. Primo sic. Nullum absolutum potest esse de ratione 
+      <lb ed="#V" n="22"/>diffinitiua relationis: accipiendo rationem diffinitiuam non illam 
+      <lb ed="#V" n="23"/>quae datur per additamentum: sed illam proprii generis: sed secundum istud 
+      <lb ed="#V" n="24"/>dictum omne quod est extra est absolutum: vel si non: habetur propositum: ergo 
+      <lb ed="#V" n="25"/>nihil quod sit extra erit de ratione diffinitiua relationis: et per consequens 
+      <lb ed="#V" n="26"/>non erit constitutiuum relationis: quia ratio diffinitiua datur per 
+      consti<lb ed="#V" n="27" break="no"/>tuentia.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e1134">
+      ¶ 2o sic. Nullum absolutum potest esse de quiditate 
+      rela<lb ed="#V" n="28" break="no"/>tionis: sed omne quod est extra est absolutum: vel si non: habetur propositum. 
+      <lb ed="#V" n="29"/>ergo si aliquid sit extra non poterit esse de quiditate relatiois. Con 
+      <lb ed="#V" n="30"/>stat autem quod si relatio esset ex ente in anima et ente extra. quiditas 
+      <lb ed="#V" n="31"/>relationis esset ex istis duobus: sicut quiditas hominis ex matea et 
+      <lb ed="#V" n="32"/>forma. Maior est de se non. Primo. quia ex eo quod est ad 
+      <lb ed="#V" n="33"/>se: et ex eo quod est ad aliud non constituitur aliquid vnum per se in 
+      <lb ed="#V" n="34"/>aliquo genere. Similitur relatio secundum totum illud quod est. est ad 
+      <lb ed="#V" n="35"/>aliud. ergo nihil includit de esse ad se.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e1154">
+      ¶ 3o arguo per viam 
+      di<lb ed="#V" n="36" break="no"/>uisionis sic. Quicquid est in rerum natura: vel est ad se: vel ad  
+      <lb ed="#V" n="37"/>aliud: sed secundum te: quicquid est extra est ad se. ergo relatio non erit 
+      <lb ed="#V" n="38"/>aliquid eorum quae sunt ex: et cum talibus repugnat esse in rerum 
+      <lb ed="#V" n="39"/>natura: relationi repugnabit.
+    </p>
+            <p xml:id="FrMS88-e66062-d1e1166">
+      ¶ 4o. Nam si hoc esset 
+      <lb ed="#V" n="40"/>verum. tunc relatio esset ens prohibitum: quia chimera ideo 
+      <lb ed="#V" n="41"/>est ens prohibitum: quia est ex partibus incompossibilibus: sed ma 
+      <lb ed="#V" n="42"/>gis sunt incompossibilia ens reale: et ens rationis quam homo 
+      <lb ed="#V" n="43"/>capra et serpes. ergo magis erit prohibitum. 
+      <lb ed="#V" n="44"/>dico ad questionem quando queritur. Utrum 
+      <lb ed="#V" n="45"/>His visis relatio sit quid. Dico quod quid accipitur 4r. 
+      <lb ed="#V" n="46"/>Primo vt distinguitur contra ad aliquid. 2o. vt distinguitur contra 
+      <lb ed="#V" n="47"/>modum. 3o vt distinguitur contra nihil vel ens prohibitum. 4 
+      <lb ed="#V" n="48"/>vt distinguitur contra ens in actu. Si primo modo accipitur: dico quod 
+      <lb ed="#V" n="49"/>relatio non est quid illo modo accipiendo quid. 2o modo 
+      <lb ed="#V" n="50"/>dico quod est quid. quia quid dicit rationem formalem. 3o etiam modo 
+      <lb ed="#V" n="51"/>dico quod est quid. quia non est ens prohibitum: sed potest esse 
+      si<lb ed="#V" n="52" break="no"/>cut quiditas absoluta. Si autem 4o modo accipitur vt 
+      distin<lb ed="#V" n="53" break="no"/>guitur contra ens in actu. Dico quod sicut quiditas multorum ab 
+      <lb ed="#V" n="54"/>solutorum est aliquando in potentia: aliquando in actu: nec alterrum sibi 
+      <lb ed="#V" n="55"/>determinat. ita quiditas relationis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

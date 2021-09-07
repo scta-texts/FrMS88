@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f83050"><!-- l1d49q1 -->
+            <head xml:id="FrMS88-f83050-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f83050-d1e111">
+               <lb ed="#V" n="35"/>Post resurrectionem etc. 
+      <lb ed="#V" n="36"/>Hic incipit distinctio  49a. Circa quam
+      <lb ed="#V" n="37" break="no"/>quero quatuor.
+    </p>
+            <p xml:id="FrMS88-f83050-d1e120">
+      ¶ Pri 
+      <lb ed="#V" n="38" break="no"/>mum. vtrum demones puniantur in inferno ma 
+      <lb ed="#V" n="39"/>iori pena quam homines. Quod sic. Quandocumque est 
+      ali<lb ed="#V" n="40" break="no"/>quid ordinatum propter duo: et vnum illorum habet 
+      <lb ed="#V" n="41"/>rationem vltimi finis. videtur quod sic si efficaciam habet 
+      <lb ed="#V" n="42"/>respectu illorum quod maiorem habeat respectu illius 
+      vlti<lb ed="#V" n="43" break="no"/>mi. sed ignis infernalis ordinatus est propter homines et 
+      demen<lb ed="#V" n="44" break="no"/>nes et praencipalius propter demones: quia dicitur Math. 2o. Ite 
+      <lb ed="#V" n="45"/>maledicti in ignem eternum qui paratus est dyabolo et 
+      ange<lb ed="#V" n="46" break="no"/>lis suis.
+    </p>
+            <p xml:id="FrMS88-f83050-d1e142">
+      ¶ Contra inter actiuum et passiuum est 
+      proportio<lb ed="#V" n="47" break="no"/>sed magis est proportio ignis ad hominem quam ad 
+      demo<lb ed="#V" n="48" break="no"/>nes: cum homo et ignis sint corporales: ergo etc. 
+      <lb ed="#V" n="49"/>Hic Diciti  quod demonum erit maior pena: quod 
+      pro<lb ed="#V" n="50" break="no"/>batur 4r.
+    </p>
+            <p xml:id="FrMS88-f83050-d1e153">
+      ¶ primo ex parte naturae patienti: quia 
+      <lb ed="#V" n="51"/>nam quanto excellentior: tanto magis sentit suum nociuum: sicut 
+      <lb ed="#V" n="52"/>homo plus sentit passionem lesiuam quam brutum: et inter homine 
+      <lb ed="#V" n="53"/>melius complexionatus quam peius: sed natura demonum nobilior 
+      <lb ed="#V" n="54"/>est natura hominis: ergo etc.
+    </p>
+            <p xml:id="FrMS88-f83050-d1e165">
+      ¶ 2o ex parte causare efficientis: quia nulla 
+      causa<lb ed="#V" n="55" break="no"/>potest ibi inferre passionem nisi obiectiue. potentia autem quanto 
+      perfe<lb ed="#V" n="56" break="no"/>ctior tanto melius elicit actum et obiectum sibi magis imprimit 
+      </p>
+            <p xml:id="FrMS88-f83050-d1e172">
+               <lb ed="#V" n="57"/>¶ 3o ex parte peccati: quia maius est pecatum angeli: quia irrepara 
+      <lb ed="#V" n="58"/>bile: et pluribus modis excusatur pecatum hominis. quibus pecca 
+      <lb ed="#V" n="59"/>tum angeli non potest.
+    </p>
+            <p xml:id="FrMS88-f83050-d1e181">
+      ¶ 4o ex parte amissi primi. Si 
+      oppositiu<lb ed="#V" n="60" break="no"/>in opposito et propositum in proposito: sed angeli dei communi 
+      le<lb ed="#V" n="61" break="no"/>ge habent maiorem gloriam quam homines.
+    </p>
+            <p xml:id="FrMS88-f83050-d1e188">
+      ¶ Nam secundum Iero. in 
+      ser<lb ed="#V" n="62" break="no"/>mone de assumptione: excepta virgine Maria non est 
+      <lb ed="#V" n="63"/>fas credere aliquem sublimari super omnes choros 
+      angelo<lb ed="#V" n="64" break="no"/>rum: et lucisfer fuisset superior omnibus.
+    </p>
+            <p xml:id="FrMS88-f83050-d1e197">
+      ¶ Sed oc. dubitatio. 
+      <lb ed="#V" n="65"/>si eiusdem rationis erit pena hominis: et demonis hominis dico 
+      <!--469.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>quantum ad animam.
+    </p>
+            <p xml:id="FrMS88-f83050-d1e208">
+      ¶ Aliqui dicunt quod actus intelligendin hominis et 
+      an<lb ed="#V" n="67" break="no"/>geli est alterius rationis et alterius speciei: et actus voluntatis  
+      <lb ed="#V" n="68"/>similiter: et ita differunt specie semper.
+    </p>
+            <p xml:id="FrMS88-f83050-d1e216">
+      ¶ Quod non creditur: quia Iudas 
+      <lb ed="#V" n="69"/>scarioth plus meretur cruciari multis demonibus.
+    </p>
+            <p xml:id="FrMS88-f83050-d1e221">
+      ¶ Dicitur 
+      <lb ed="#V" n="70"/>ergo quod eiusdem rationis sunt et intenditur et remittitur.
+    </p>
+            <p xml:id="FrMS88-f83050-d1e226">
+      ¶ Sed est 
+      <lb ed="#V" n="71"/>dubium: quia homo punitur dupliciter scilicet corporaliter: et quantum ad 
+      ani<lb ed="#V" n="72" break="no"/>mam: sed demon solum spiritualiter. ergo plus punitur homo¬ 
+      </p>
+            <p xml:id="FrMS88-f83050-d1e233">
+               <lb ed="#V" n="73"/>¶ Dicitur quod illa excedit vtramque penam et anime et corporis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

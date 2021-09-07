@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="158-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f18780"><!-- l2d17q1 -->
+            <head xml:id="FrMS88-f18780-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f18780-d1e111">
+               <lb ed="#V" n="74"/>hic de origine anime etc. 
+      <lb ed="#V" n="75"/>CIrca distinctionem 
+      <lb ed="#V" n="76"/>17 que hic incipit. Quero vtrum 
+      anima<lb ed="#V" n="77" break="no"/>sensitiua et intellectiua differant realiter 
+      <lb ed="#V" n="78"/>in homine. Et videtur quod non: quia genus et differentia non 
+      <lb ed="#V" n="79"/>differunt realiter.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e127">
+      ¶ Contra. quia 
+      anima<lb ed="#V" n="80" break="no"/>sensitiua ordinatur ad intellectiuam 
+      <lb ed="#V" n="81"/>4or vie ad hoc probandum.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e134">
+      ¶ Prima est 
+      <lb ed="#V" n="82"/>hic sunt via diffinitionis: quecumque enim sunt eiusdem 
+      <lb ed="#V" n="83"/>diffinitionis: si vni conuenit esse corporeum et reliquo: 
+      <lb ed="#V" n="84"/>sed anima bruti est corporea: et intellectiua incorporea 
+      <lb ed="#V" n="85"/>corporeum autem et incorporeum non sunt idem 
+      rea<lb ed="#V" n="86" break="no"/>liter: certum est autem quod animalitas in homine et in 
+      bru<lb ed="#V" n="87" break="no"/>to sunt eiusdem rationis. habent enim eadem obiecta 
+      <lb ed="#V" n="88"/>eiusdem rationis potentie sensitiue hominis et asini¬ 
+      </p>
+            <p xml:id="FrMS88-f18780-d1e152">
+               <lb ed="#V" n="89"/>¶ Secunda via. est via separationis: quia si anima 
+      sen<lb ed="#V" n="90" break="no"/>sitiua separaretur sicut intellactiua: tunc gustaret et vide 
+      <lb ed="#V" n="91"/>ret: quia operatio sensitiua recipitur in potentia: sicut 
+      <lb ed="#V" n="92"/>in subiecto sed obiectum est sufficiens principium actus 
+      <lb ed="#V" n="93"/>sentiendi productiuum: et potentia receptiua.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e166">
+      ¶ Si 
+      di<lb ed="#V" n="94" break="no"/>cas quod ibi requiritur organum.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e171">
+      ¶ Contra. quod organum 
+      <lb ed="#V" n="95"/>non est receptiuum nisi immediatum. potentia autem 
+      <lb ed="#V" n="96"/>est dispositio organi non econuerso.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e178">
+      ¶ Tertia via. est 
+      <lb ed="#V" n="97"/>via extensionis: sed anima sensitiua non est eadem in to 
+      <lb ed="#V" n="98"/>to corpore: ergo non est eadem anime intellectiue. quod 
+      <lb ed="#V" n="99"/>autem non sit eadem in toto corpore. patet: quia in 
+      pe<lb ed="#V" n="100" break="no"/>de potest immutari ad actum doloris per frigiditatem: 
+      <lb ed="#V" n="101"/>et in manu per calefactionem. isti autem dolores 
+      sun<lb ed="#V" n="102" break="no"/>contrarii: ergo est alia in vna parte: et alia in alia. 
+      Si<lb ed="#V" n="103" break="no"/>militer eodem actu videndi video albedinem et 
+      nigre<lb ed="#V" n="104" break="no"/>dinem: et hoc arguit actum extensum.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e198">
+      ¶ Quarta via 
+      <lb ed="#V" n="105"/>est per generationem et corruptionem. Si anima 
+      sen<lb ed="#V" n="106" break="no"/>sitiua continue generatur in augmento: potentia enim 
+      <lb ed="#V" n="107"/>sensitiua bruti generat continue animam sensitiuam: 
+      <lb ed="#V" n="108"/>vel enim acquirit partem et partem et habetur 
+      inten<lb ed="#V" n="109" break="no"/>tum: si prehunit partes: ergo anima bruti est separabi 
+      <lb ed="#V" n="110"/>lis: si quod de subiecto in subiectum transiret. Item 
+      impos<lb ed="#V" n="111" break="no"/>sibile est: quod aliquid dependeat ab aliquo quo non 
+      exi<lb ed="#V" n="112" break="no"/>stente non minus esset: si ergo informaret partem de nouo 
+      <lb ed="#V" n="113"/>secundum illud quod prierat non dependeret ab illa: et per consequens 
+      nec<lb ed="#V" n="114" break="no"/>ab aliqua alia.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e222">
+      ¶ Sed contra. quia homo non esset per se 
+      <lb ed="#V" n="115"/>animal: quia aliud esset ab anima rationali.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e227">
+      ¶ Secundo quia. quod 
+      <lb ed="#V" n="116"/>aduenit alicui enti in actu completo est accidens.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e233">
+      ¶ 
+      Ter<lb ed="#V" n="117" break="no"/>tio. quia ex duobus in actu existentibus etc.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e238">
+      ¶ Quarto. quia 
+      <lb ed="#V" n="118"/>vnius rei est vnum esse.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e243">
+      ¶ Ad primum ducitur ad oppositum 
+      quando<lb ed="#V" n="119" break="no"/>cumque sunt aliqua totaliter idem praedicatur de se in abstracto 
+      </p>
+            <p xml:id="FrMS88-f18780-d1e248">
+               <lb ed="#V" n="120"/>¶ Sed ista est falsa. animalitas est humanitas. et ideo ista non 
+      <lb ed="#V" n="121"/>est vltimate abstracta. homo est animal: et ideo secundum gradum 
+      <lb ed="#V" n="122"/>concretionis potest fieri praedicatio.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e257">
+      ¶ Ad aliud dico 
+      <lb ed="#V" n="123"/>quod nulla forma dat esse perfectum: nisi vltima rei specifica 
+      <lb ed="#V" n="124"/>hoc est anima rationalis.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e264">
+      ¶ Ad aliud. non est imaginandum quod 
+      <lb ed="#V" n="125"/>nima intellectiua perficiat sensitiuam: sed ambe perficiunt materiam 
+      <lb ed="#V" n="126"/>ordine quodam.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e272">
+      ¶ Ad aliud. ex duobus existentibus 
+      in<lb ed="#V" n="127" break="no"/>actu non sit vnum praecise: sed non facio vnum ex istis: vt inter 
+      <lb ed="#V" n="128"/>se: sed per comperationem ad aliud quod est in potentia scilicet ad 
+      <lb ed="#V" n="129"/>corpus organicum.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e281">
+      ¶ Ad vltimum. tenemus quod essen¬ 
+      <!--319.xml-->
+      <pb ed="#V" n="158-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tia et esse non differunt. Certum est autem quod alia est natura 
+      <lb ed="#V" n="2"/>forme et alia materiae: et ita sunt plura esse. potest etiam dici quod 
+      <lb ed="#V" n="3"/>vnum est ibi esse totale.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e297">
+      ¶ Aliter dico. quod consequentia est a forma: e 
+      <lb ed="#V" n="4"/>vnius esse vna forma. reducatur ad formam silogisticam sic. vnius 
+      <lb ed="#V" n="5"/>effectus vna est causa. sed esse est effectus: forme ergo. in 
+      com<lb ed="#V" n="6" break="no"/>posito autem vnum est esse maior est simpliciter falsa: quia vnus 
+      <lb ed="#V" n="7"/>effectus multas habet causas: et causam formalem et efficientem 
+      <lb ed="#V" n="8"/>niversalem et particularem materialem et formalem. Nam mataeram et 
+      for<lb ed="#V" n="9" break="no"/>ma sunt causae eiusdem effectus.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e313">
+      ¶ Dico ergo quod vnus ef 
+      <lb ed="#V" n="10"/>fectus potest esse a multis formis: sicut a mtam et forma. Sed 
+      <lb ed="#V" n="11"/>isti dicunt quod anima continet alias virtualiter.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e320">
+      ¶ Sed contra quid intel 
+      <lb ed="#V" n="12"/>ligis per hoc virtualiter: si supeeminenter: albedo daret esse 
+      <lb ed="#V" n="13"/>nigrum aliter: quia dat tale esse: arguo igitur sic: si anima continet 
+      <lb ed="#V" n="14"/>formaliter alias. ergo anima formaliter est sensitiua corporea et 
+      <lb ed="#V" n="15"/>separata contineret illa et haberet: si accipis virtualiter 
+      distin<lb ed="#V" n="16" break="no"/>ctum contra formaliter: tunc sic: continens virtualiter continnet: vt 
+      di<lb ed="#V" n="17" break="no"/>stinctum a se: sed anima continet istas virtualiter: ergo sunt 
+      distin<lb ed="#V" n="18" break="no"/>cte.
+    </p>
+            <p xml:id="FrMS88-f18780-d1e338">
+      ¶ Sed isti inducunt exemplum de pentagono: et est 
+      contra<lb ed="#V" n="19" break="no"/>eos: quia si intelligas quod trigonum sit formaliter in 
+      quadrangu<lb ed="#V" n="20" break="no"/>lo: ita quod anima sensitiua et corpea sunt formaliter in anima 
+      intel<lb ed="#V" n="21" break="no"/>ectiua. Aliter intelligitur quod in tetragono sunt duo 
+      angi<lb ed="#V" n="22" break="no"/>li materialiter: si sic dicatur: tunc certum est quod totum ad 
+      <lb ed="#V" n="23"/>dit realiter ad partes: et ita erit in proposito: et eodem modo de se 
+      <lb ed="#V" n="24"/>nario ad quaeternarium aliquid reale addit.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

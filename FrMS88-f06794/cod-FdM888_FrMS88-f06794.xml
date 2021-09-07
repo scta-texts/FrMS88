@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 9</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 9</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f06794"><!-- l2d1q9 -->
+            <head xml:id="FrMS88-f06794-Hd1e108">Quaestio 9</head>
+            <p xml:id="FrMS88-f06794-d1e111">
+      Quaestio. ix 
+      <lb ed="#V" n="2"/>andem distitonem adhuc quero. 4 
+      <lb ed="#V" n="3"/>Irca quaestiones de mam creationis. 
+      Pri<lb ed="#V" n="4" break="no"/>ma est. Utrum creatio sit productio de 
+      ni<lb ed="#V" n="5" break="no"/>hilo secundum suam quiditatiamraionem. Et videtur ergo 
+      <lb ed="#V" n="6"/>sic. Ambrosius in examero recitans 
+      opi<lb ed="#V" n="7" break="no"/>nionem de tribus principiis redarguens philosophum dicit: quod mum 
+      <lb ed="#V" n="8"/>dus productus est de materia: sed non de nihilo.
+    </p>
+            <p xml:id="FrMS88-f06794-d1e129">
+      ¶ Sed contra. 
+      <lb ed="#V" n="9"/>Augi.i iducit illud. Qui creasti mundum de mteam inuisa. 
+      <lb ed="#V" n="10"/>est quod secundum Ans. fieri de nihilo 
+      <lb ed="#V" n="11"/>hic sciendum aliquid dicitur vno modo seundum 
+      sncessio<lb ed="#V" n="12" break="no"/>nem. sicut dies fit ex nocte. ita aliquid est post nihil. Alie 
+      <lb ed="#V" n="13"/>modo non successiue. sed subiectiue quantum ad materiam tran 
+      <lb ed="#V" n="14"/>seuntem: sicut farina transit in panere: et nihileitas in entita 
+      <lb ed="#V" n="15"/>tem. Alio modo quantum ad materiam permanentem. vt nihileitas. 
+      <lb ed="#V" n="16"/>Alio modo sicut dicitur: ille loquitur de nihilo. quia non de aliquo 
+      <lb ed="#V" n="17"/>vt intelligatur non est aliquid vnde fiat creatura.
+    </p>
+            <p xml:id="FrMS88-f06794-d1e151">
+      ¶ 
+      Distinguen<lb ed="#V" n="18" break="no"/>do ergo quando queritur vtrum creao sit productio de nihilo: in 
+      <lb ed="#V" n="19"/>telligatur causa materialis: vt illud fiat de nihilo: quod non habet materiam: 
+      <lb ed="#V" n="20"/>si intelligatur de mteam ex qua. per illum modum creatio non 
+      <lb ed="#V" n="21"/>est de nihilo. vt dicit carentiam huius causae materialis. quia tunc 
+      <lb ed="#V" n="22"/>homo cum habeat materiam non posset creari. Nec potest 
+      intel<lb ed="#V" n="23" break="no"/>ligin de materia in qua. quia gratia creatur: et habet materiam in qua: nec 
+      <lb ed="#V" n="24"/>ita creatio est de nihilo. quia non habet materiam transeuntem in ipsuam 
+      <lb ed="#V" n="25"/>quia tunc lux crearetur. quia non est aliquid quod transeat in radium 
+      <lb ed="#V" n="26"/>et si sumatur materia permanens non potest sic intelligi: quia anima 
+      ratio<lb ed="#V" n="27" break="no"/>nalis non crearetur. Ideo non videtur quod sit hec ratio creationis. 
+      <lb ed="#V" n="28"/>Et confirmatur quadrupliciter. Primo sic. impossibile est quod de ratione 
+      <lb ed="#V" n="29"/>positiui sit aliquod priuatiuum. creatio autem est aliquid positiuum 
+      <lb ed="#V" n="30"/>et nihil priuatiuum. ergo.
+    </p>
+            <p xml:id="FrMS88-f06794-d1e182">
+      ¶ 2o quandocumque est aliqua ratio de ratione 
+      <lb ed="#V" n="31"/>eius non est nisi esse ad aliud. sed terminus creationis non est 
+      <lb ed="#V" n="32"/>nisi essentia creature. ergo.
+    </p>
+            <p xml:id="FrMS88-f06794-d1e190">
+      ¶ 3o sic. creatio est productio 
+      <lb ed="#V" n="33"/>permanens. sed in tota duratione creature non manet: vt 
+      <lb ed="#V" n="34"/>est de nihilo. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f06794-d1e197">
+      ¶ 4o sic. omnis habitudo positiui ad 
+      <lb ed="#V" n="35"/>nihil est habitudo rationis. per talem vero non diffinitur ens 
+      <lb ed="#V" n="36"/>reale. ergo videtur quod nihil non est de ratione creationis. Est ex 
+      <lb ed="#V" n="37"/>go aliquid annexum creationi: non de ratione eius: sicut actus 
+      <lb ed="#V" n="38"/>generandi est prius paternitate: non de ratione eius. Que 
+      ergo<lb ed="#V" n="39" break="no"/>est diffinitio eius. Sciendum est quod in diuinis non inueniuntur 
+      <lb ed="#V" n="40"/>nisi due productiones ad intra: et due in creaturis 
+      corre<lb ed="#V" n="41" break="no"/>spondentes: vna per modum naturae. alia per modum libis. 
+      Di<lb ed="#V" n="42" break="no"/>co igitur quod est factio supernaturalis. et quia vbi est inuenire 
+      crea<lb ed="#V" n="43" break="no"/>tionem: ibi etiam est innuenire factionem supernaturalem et econvers 
+      <lb ed="#V" n="44"/>per hoc quod est factio distinguitur a productionibus diuinis. 
+      <lb ed="#V" n="45"/>per hoc quod est supernaturalis distinguitur ab omni productione 
+      <lb ed="#V" n="46"/>agentis creati: cuius actio non est supernaturalis. Omnis 
+      eni<lb ed="#V" n="47" break="no"/>creatio est a principio supernaturali: nec est innuenire aliquid quod 
+      <lb ed="#V" n="48"/>deus facit supernaturaliter quin sit creatum.
+    </p>
+            <p xml:id="FrMS88-f06794-d1e230">
+      ¶ Et est 
+      scien<lb ed="#V" n="49" break="no"/>dum quod aliter dicitur creari lux: aliter gratia. et aliter anima rationalis. et 
+      <lb ed="#V" n="50"/>aliter angelus. Tux enim bene producitur a sole. sed tamen 
+      concurren<lb ed="#V" n="51" break="no"/>te voluntate diuina: et actione eius. Prima productio est 
+      <lb ed="#V" n="52"/>naturalis. 2a supernaturalis: nec potest negari: quin omnis 
+      crea<lb ed="#V" n="53" break="no"/>tura creetur a deo isto modo. vnde deus non concurrit ib 
+      <lb ed="#V" n="54"/>naturaliter. sed effectiue et supernaturaliter. Et in hoc est 
+      creatio<lb ed="#V" n="55" break="no"/>Catia autem dicitur creari magis proprie. quia non tot cause 
+      natura<lb ed="#V" n="56" break="no"/>les concurrunt ad eius creationem. Nulla enim causa 
+      effi<lb ed="#V" n="57" break="no"/>ciens concurrit: nisi deus: sed materialis tantum. Anima autem rationalis 
+      <lb ed="#V" n="58"/>magis proprie. quia ibi nulla causa naturalis concurrit in 
+      crean<lb ed="#V" n="59" break="no"/>do. quia a corpore organico non dependet. nec in fieri nec 
+      in<lb ed="#V" n="60" break="no"/>esse. preuia tamen dispositione exigente anime creationem. Ange 
+      <lb ed="#V" n="61"/>lus autem creatur magis proprie. vbi tantum diuina voluntas 
+      <lb ed="#V" n="62"/>concurrit in illa dispositione disponente. et omnibus istis 
+      con<lb ed="#V" n="63" break="no"/>uenit diffinitio assignata.
+    </p>
+            <p xml:id="FrMS88-f06794-d1e265">
+      ¶ Sed quare sancti sic difficulta 
+      <lb ed="#V" n="64"/>niunt. sicut fuit dictum in principio quaestionis: Dico quod frequenter 
+      <lb ed="#V" n="65"/>per habitudines posteriores notificant nobis aliqua: quae 
+      <lb ed="#V" n="66"/>sunt nobis magis nota. etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

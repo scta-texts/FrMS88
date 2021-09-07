@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f01315"><!-- l1d46q3 -->
+            <head xml:id="FrMS88-f01315-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f01315-d1e111">
+      Quaestio. iii. 
+      <lb ed="#V" n="32"/>intellectus diuinus producat 
+      qui<lb ed="#V" n="33" break="no"/>Tu ditates in esse intelligitili. Quod 
+      <lb ed="#V" n="34"/>sic. quia in esse intellecto. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f01315-d1e120">
+      ¶ Con 
+      <lb ed="#V" n="35"/>tra. quia preintelliguntur intelligibiles. 
+      <lb ed="#V" n="36"/>4or rato 
+      <lb ed="#V" n="37"/>hic introducuntur nes 
+      eui<lb ed="#V" n="38" break="no"/>dentur probantes partem negatiuam. Prima est talis: ab eodem 
+      <lb ed="#V" n="39"/>habet res esse simpis et esse verum. sed quiditas ex sua ratione 
+      forma<lb ed="#V" n="40" break="no"/>li habet esse simpliciter. et non ab extrinseco. ergo etc. Maior patet. quia 
+      <lb ed="#V" n="41"/>veritas non dicit nisi respectum fundamentalem intelligibilitatis 
+      <lb ed="#V" n="42"/>obitenctia ad potentiam. Minor apparet: quia esse essentie voco esse sint 
+      <lb ed="#V" n="43"/>pliciter: quiditas autem vt quiditas non habet illud ab intellectu. quia in 
+      <lb ed="#V" n="44"/>tellectus non dat nisi esse secundum quid et diminutum. esse autem 
+      essenti<lb ed="#V" n="45" break="no"/>non est esse secundum quid: nec diminutum.
+    </p>
+            <p xml:id="FrMS88-f01315-d1e146">
+      ¶ 2o. quia quandocumque 
+      ali<lb ed="#V" n="46" break="no"/>quid conuenit alicui per se: non conuenit sibi a causa extrinseca: sed 
+      <lb ed="#V" n="47"/>intelligibilitas conuenit quiditati per se. ergo non ab intellectu. 
+      </p>
+            <p xml:id="FrMS88-f01315-d1e153">
+               <lb ed="#V" n="48"/>¶ 3o. quod producitur in esse intelligibili illo priori qui suam 
+      produ<lb ed="#V" n="49" break="no"/>ctionem praecedit: aut fuit intelligibile vel non. Si non: 
+      im<lb ed="#V" n="50" break="no"/>possibile est quod fiat intelligibile. Si sic. ergo impossibile est quod accipiat 
+      <lb ed="#V" n="51"/>ntelligibilitatem per illam productionem. eo quod ante illam 
+      productio<lb ed="#V" n="52" break="no"/>nem intellectur habere ea.
+    </p>
+            <p xml:id="FrMS88-f01315-d1e167">
+      ¶ 4o. quia non plus accipit homo esse 
+      in<lb ed="#V" n="53" break="no"/>telligibile quam esse producibile: sed non accipit esse producibi 
+      <lb ed="#V" n="54"/>le. Probo. quia tunc in illo priori non esset producibile. et per 
+      <lb ed="#V" n="55"/>consequens esset ens prohibitum. ergo eodem modo in proposito. Ideo apparet 
+      <lb ed="#V" n="56"/>mihi esse dicendum. quod licet intellectus diuinus producat quiditates in esse 
+      <lb ed="#V" n="57"/>intellecto. tamen non in esse intelligibili.
+    </p>
+            <p xml:id="FrMS88-f01315-d1e180">
+      ¶ Et hoc confirmo 
+      <lb ed="#V" n="58"/>dupliciter. Primo sic. illud non habet quiditas ab 
+      intellectu<lb ed="#V" n="59" break="no"/>divino. quod praehabet ante primum esse quod dat intellectus diuinus: 
+      <lb ed="#V" n="60"/>sed quiditas prius habet esse intelligibile quam habeat esse intellectut: 
+      <lb ed="#V" n="61"/>quod tamen est primum esse quod dat intellectus diuinus. ergo quiditas esse 
+      in<lb ed="#V" n="62" break="no"/>telligibile non recipit ab intellectui divino.
+    </p>
+            <p xml:id="FrMS88-f01315-d1e193">
+      ¶ 2o. illud quod 
+      prae<lb ed="#V" n="63" break="no"/>telligitur in quiditate antequam deus intelligatur intelligens. non habet 
+      <lb ed="#V" n="64"/>ditas ab intellectui divino. hoc patet: quia nihil habet ab intellectui divino 
+      <lb ed="#V" n="65"/>quiditas: nisi inquantum intellecitur. sed intelligibile esse intellecitur in 
+      <lb ed="#V" n="66"/>quiditate antequam deus intelligatur intelligens. ergo etc. Minorem 
+      <!--274.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>probo. quia prius intellectur deus intellectiuus quam intelligens. quia 
+      pr<lb ed="#V" n="68" break="no"/>dier quod habet potentiam intellectiuam dicitur intelligens. sed pro quo 
+      <lb ed="#V" n="69"/>cumque signo deus est intellectiuus. quiditas est intelligibilis. ergo 
+      <lb ed="#V" n="70"/>prius quiditas est intelligibilis quam deus intelligatur intelligens 
+      <lb ed="#V" n="71"/>et per consequens non accipit esse intelligibile a deo. vt intelligente. 
+      </p>
+            <p xml:id="FrMS88-f01315-d1e219">
+               <lb ed="#V" n="72"/>¶ Sed contra quadruplicitur. Primo. a quocumque aliquiod 
+      <lb ed="#V" n="73"/>habet esse simpliciter: habet esse quod sequitur illud esse: sed esse 
+      sim<lb ed="#V" n="74" break="no"/>cnsequitur quiditatem: et quiditas est a deo. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f01315-d1e228">
+      ¶ 2o. illud  
+      <lb ed="#V" n="75"/>quod non conuenit alicui ex sua ratione formali: conuenit 
+      si<lb ed="#V" n="76" break="no"/>bi ab alio: sed intelligibilitas non conuenit creature ex 
+      <lb ed="#V" n="77"/>sua ratione formali. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f01315-d1e237">
+      ¶ 3o a quae aliquid dependet ab illo 
+      <lb ed="#V" n="78"/>videtur esse: sed esse intelligibile videtur dependere ab 
+      <lb ed="#V" n="79"/>intellectu: quia si non esset intellectiuum: non inesset 
+      intelli<lb ed="#V" n="80" break="no"/>gibile. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f01315-d1e247">
+      ¶ 4o. quia secundum Aug. scientia nostra ideo est 
+      <lb ed="#V" n="81"/>vera. quia res sic sunt: sed sic est in rebus: quia diuina scientia sic 
+      <lb ed="#V" n="82"/>nouit. ergo intelligibilitas est a divina scientia.
+    </p>
+            <p xml:id="FrMS88-f01315-d1e254">
+      ¶ Ad primum 
+      con<lb ed="#V" n="83" break="no"/>cedo quod a quo esse simpliciter habet aliquid: ab eo habet consequens illud esse: 
+      <lb ed="#V" n="84"/>et ideo quia a deo habet esse existere: ideo ab eo habet esse consequens illud 
+      <lb ed="#V" n="85"/>esse: quiditatiuum autem esse ad quod sequitur intelligibilitas: 
+      <lb ed="#V" n="86"/>non habet creatura vel quiditas ab aliquo: sed in illo 
+      <lb ed="#V" n="87"/>esse: et secundum illud esse abstrahit ab omni causalitate.
+    </p>
+            <p xml:id="FrMS88-f01315-d1e267">
+      ¶ Ad  
+      <lb ed="#V" n="88"/>num dico. quod intelligibilitas conuenit quiditati ex ratione sua 
+      for<lb ed="#V" n="89" break="no"/>mali: licet in 2o modo. sicut quod homo sit risibilis.
+    </p>
+            <p xml:id="FrMS88-f01315-d1e274">
+      ¶ Ad 3m 
+      <lb ed="#V" n="90"/>dico. quod aliter est in respectibus fundamentalibus quam in 
+      <lb ed="#V" n="91"/>actualibus: quia fundamentales non causantur a termino. 
+      <lb ed="#V" n="92"/>sed consequuntur quiditatem non in esse existere: sed in esse 
+      <lb ed="#V" n="93"/>abstrahente simpliciter.
+    </p>
+            <p xml:id="FrMS88-f01315-d1e285">
+      ¶ Ad 4m dico. quod Augu. intelligit 
+      <lb ed="#V" n="94"/>de futuris contingentibus: quia veritas talium consequitur 
+      vo<lb ed="#V" n="95" break="no"/>luntatem diuina: sed non est sic de veritate necessariorum 
+      <lb ed="#V" n="96"/>et incommutabilium: quia veritas talium videtur consequi esse quo 
+      <lb ed="#V" n="97"/>ditatiuum simpliciter ex se: et non a causa extrinseca in ratione 
+      effi<lb ed="#V" n="98" break="no"/>cientis: licet aliquo modo in ratione exemplaris vel finis 
+      <lb ed="#V" n="99"/>poterit concedi.
+    </p>
+            <p xml:id="FrMS88-f01315-d1e301">
+      ¶ Ad argumentum. patet. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

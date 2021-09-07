@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f09804"><!-- l2d2q12 -->
+            <head xml:id="FrMS88-f09804-Hd1e108">Quaestio 12</head>
+            <p xml:id="FrMS88-f09804-d1e111">
+      Questio. xii. 
+      <lb ed="#V" n="43"/>Tertio questio est. Utrum angelus 
+      pos<lb ed="#V" n="44" break="no"/>sit moueri in puncto. Uidetur quod non. quia 
+      <lb ed="#V" n="45"/>p. phy. demonstratur quod indiuisibile non potest 
+      <lb ed="#V" n="46"/>moueri.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e122">
+      ¶ Contra. in 4o physi. ponitur quod 
+      in<lb ed="#V" n="47" break="no"/>stans fluit: et hoc tantum est sicut moueri 
+      <lb ed="#V" n="48"/>quidam quod nullum indiuisibile potest 
+      <lb ed="#V" n="49"/>Hic dicunt moueri localiter.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e131">
+      ¶ hoc probat 
+      Aistote<lb ed="#V" n="50" break="no"/>quadruplici ratione. Primo sic. Omne quod mouetur partim est 
+      <lb ed="#V" n="51"/>in termino a quo: et partim in termino ad quem: hoc autem 
+      <lb ed="#V" n="52"/>non conuenit indiuisibili. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e140">
+      ¶ 2o sic. Quod mouetur prius 
+      <lb ed="#V" n="53"/>pertransit spacium equale quam maius. et minus quam equale. sed non 
+      <lb ed="#V" n="54"/>potest dari spacium minus puncto. et si equale: non transit nis 
+      <lb ed="#V" n="55"/>per puncta.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e150">
+      ¶ 3a ratio. quando mobile pertransit per tmpus spacium sibi 
+      <lb ed="#V" n="56"/>equale. in minori tempore pertransit sibi minus de spacio¬ 
+      </p>
+            <p xml:id="FrMS88-f09804-d1e155">
+               <lb ed="#V" n="57"/>¶ 4a ratio. continuias temporis et mobilis sunt ordinata. quia continui 
+      <lb ed="#V" n="58"/>tas temporis est a continuitate motus et continuitas motus a 
+      mo<lb ed="#V" n="59" break="no"/>bili. Indiuisibile autem non est aliquid continuum.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e164">
+      ¶ Sed contra hoc 
+      <lb ed="#V" n="60"/>arguitur. Primo in exemplo super planum de spera: que 
+      <lb ed="#V" n="61"/>contingit in puncto: et non facit ad propositum quando voluintur. 
+      <lb ed="#V" n="62"/>quia non est motus puncti. sed si attingit super planum tunc 
+      <lb ed="#V" n="63"/>idem punctus transit de vna parte ad aliam. 
+      Indiuisi<lb ed="#V" n="64" break="no"/>bile ergo mouetur sicut punctus super planum.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e177">
+      ¶ hic dicitur quod 
+      <lb ed="#V" n="65"/>non est dare omnino corpus spericum: sed hoc non valet. Cer 
+      <lb ed="#V" n="66"/>tum est enim quod corpora celestia sunt sperica: et quare non 
+      <!--298.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>posset deus facere vnum planum corpus: super quod 
+      moue<lb ed="#V" n="68" break="no"/>retur caelum.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e193">
+      ¶ Alii dicunt quod non sit contactus in pucto 
+      ma<lb ed="#V" n="69" break="no"/>thematico. sed naturali quod non est indiuisibile simpliciter. sed hoc 
+      <lb ed="#V" n="70"/>non valet. quia tunc esset applicatio curui ad rectum: quod est 
+      <lb ed="#V" n="71"/>impossibile.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e202">
+      ¶ 2m ex sentum de triangulo. cum mouetur 
+      triangu<lb ed="#V" n="72" break="no"/>lus: tunc angulus trianguli terminatus in puncto 
+      diui<lb ed="#V" n="73" break="no"/>dit aerem.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e210">
+      ¶ 3m exemsnitum de quadrangulo si transit per lineam 
+      <lb ed="#V" n="74"/>diuidit eam: corpus cubum non potest moueri quin perueniat 
+      <lb ed="#V" n="75"/>superficies in diuidendo aere. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e217">
+      ¶ Dicitur hic quod puctus 
+      num<lb ed="#V" n="76" break="no"/>quam mouetur separatus. sed per accidens mouetur.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e222">
+      ¶ Sed hoc non 
+      <lb ed="#V" n="77"/>impedit. quia certum est quod successiue transit per totum spacium 
+      <lb ed="#V" n="78"/>siue per se: siue per accidens.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e229">
+      ¶ Praeterea dico quod indiuisibile potest mo 
+      <lb ed="#V" n="79"/>ueri. hoc confirmatur 4r. Et primo sic. quandocunque 
+      diuidi<lb ed="#V" n="80" break="no"/>tur corpus: securis primo partransit superficiem quam attingatur 
+      <lb ed="#V" n="81"/>corpus. sicut autem totum continnuum transit super 
+      indiuisibi<lb ed="#V" n="82" break="no"/>le. ita indiuisibile potest transire totum continuum.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e240">
+      ¶ 2o punctus 
+      <lb ed="#V" n="83"/>in medio circuli in toto medio acqurit sibi alium et alium 
+      <lb ed="#V" n="84"/>respectum: et sic mouetur formaliter.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e247">
+      ¶ 3o anima mutatur in 
+      ali<lb ed="#V" n="85" break="no"/>quam partium corporis quae semper aliter se habent sicut patet in 
+      <lb ed="#V" n="86"/>augmento.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e255">
+      ¶ 4o substantia solis in quolibet instanti coexistit 
+      <lb ed="#V" n="87"/>toti tempori.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e260">
+      ¶ Sed contra. quia secundum hoc essent infinita puncta partransita. 
+      </p>
+            <p xml:id="FrMS88-f09804-d1e263">
+               <lb ed="#V" n="88"/>¶ 2o continuum compositum erit ex indiuisibilibus. quia 
+      indi<lb ed="#V" n="89" break="no"/>uisibile commensurat se spacio.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e270">
+      ¶ 3o. quia motus est 
+      conti<lb ed="#V" n="90" break="no"/>nuus. ergo non recipitur in indiuisibili.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e275">
+      ¶ 4o impossibile est. 
+      <lb ed="#V" n="91"/>quod indiuisibile coexistat diuisibili.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e280">
+      ¶ Ad primum idem probatur 
+      <lb ed="#V" n="92"/>de corpore: quia in quolibet moueri sunt infinita mutata 
+      <lb ed="#V" n="93"/>ese: et ita corpus prtransit infinita. Non est ergo inconueniens 
+      <lb ed="#V" n="94"/>ptransire infinita non distintus. sed quaecunque in potentia. et ita est in 
+      propo<lb ed="#V" n="95" break="no"/>sito.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e292">
+      ¶ Ad aliud. non sequitur sicut corpus in quolibet 
+      <lb ed="#V" n="96"/>mutato esse est in spacio sibi equali. et tamen motus non 
+      componi<lb ed="#V" n="97" break="no"/>tur ex mutatis esse.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e299">
+      ¶ Ad aliud concedo de permanente. sed 
+      <lb ed="#V" n="98"/>diuisibile successiuum potest recipi in indiuisibili in quodam 
+      <lb ed="#V" n="99"/>fluxu. sicut quantitas in mateam indiuisibili recipitur.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e306">
+      ¶ Ad 
+      <lb ed="#V" n="100"/>aliud verum est in simultate durationis: sed influxu potest. 
+      </p>
+            <p xml:id="FrMS88-f09804-d1e311">
+               <lb ed="#V" n="101"/>¶ Ad rationes Aristoteles. dicit Secundo quod bene probant secundum intentio 
+      <lb ed="#V" n="102"/>nem eius quando mobile mouetur quod vna causa successionis est 
+      di<lb ed="#V" n="103" break="no"/>stantia maioris spacii. et alia magnitudo mobilis. Mo 
+      <lb ed="#V" n="104"/>bile enim maioris quantitatis super idem spacium tardius partram 
+      <lb ed="#V" n="105"/>sit quam mobile minoris quantitatis. Uoluit ergo Aristoteles. quod vbi 
+      <lb ed="#V" n="106"/>successio sumitur ex parte mobilis. indiuisibile secundum hoc non 
+      <lb ed="#V" n="107"/>potest moueri: nec habet successionem. et de illo verum est quod 
+      par<lb ed="#V" n="108" break="no"/>tim est in termino a quo: partim in termino ad quem. quia suc 
+      <lb ed="#V" n="109"/>cessio sumitur ex eius quantitate diuisibili.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e333">
+      ¶ Ad 2m verum 
+      <lb ed="#V" n="110"/>est quod quanto maius est mobile: tanto tardius partransit vbi 
+      <lb ed="#V" n="111"/>sumitur successio ex parte mobilis.
+    </p>
+            <p xml:id="FrMS88-f09804-d1e340">
+      ¶ Et hoc confirmat 
+      <lb ed="#V" n="112"/>4a ratio de continuitate mobilis. et sic ille rationes concludunt 
+      in<lb ed="#V" n="113" break="no"/>tentum suum: non contra dicta. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

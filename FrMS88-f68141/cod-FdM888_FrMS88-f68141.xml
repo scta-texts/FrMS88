@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="216-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f68141"><!-- l4d20q4 -->
+            <head xml:id="FrMS88-f68141-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f68141-d1e111">
+               <lb ed="#V" n="45"/>QUarto queritur. vtrum post hanc vi 
+      <lb ed="#V" n="46"/> tam sit necessarium ponere 
+      <lb ed="#V" n="47"/>purgatorium.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e120">
+      ¶ Quod non. quia in scriptura non 
+      <lb ed="#V" n="48"/>inuenitur.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e125">
+      ¶ Contra. quia platous hoc posuit 
+      <lb ed="#V" n="49"/>lquia dixit quod virtutes anime separate sunt 
+      ratio<lb ed="#V" n="50" break="no"/>nes animi purgati: nec possunt induci in medio: sed 
+      <lb ed="#V" n="51"/>durgantur in campos helyseos. 
+      <lb ed="#V" n="52"/>veritas determinata per ecclesiam. quod sic. 
+      <lb ed="#V" n="53"/>hic est
+    </p>
+            <p xml:id="FrMS88-f68141-d1e138">
+      ¶ Sed hic errant heretici.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e142">
+      ¶ Unde ali 
+      <lb ed="#V" n="54"/>qui eorum dicunt quod propter auaritiam ecclesia posuit 
+      <lb ed="#V" n="55"/>purgatorium esse post hanc vitam: vt scilicet pro animabus 
+      <lb ed="#V" n="56"/>dentur elemosyne et oblationes: et fiant exequie et 
+      ta<lb ed="#V" n="57" break="no"/>ia.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e153">
+      ¶ Sed contra. Ieronymus in canone hoc exprei 
+      <lb ed="#V" n="58"/>se dicit. et Augusti. et Gregori. in epistola ad 
+      bonifa<lb ed="#V" n="59" break="no"/>tium et in multis locis.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e160">
+      ¶ Respondent heretici. et 
+      <lb ed="#V" n="60"/>dicunt quod isti doctores fuerunt de parte ecclesie.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e165">
+      ¶ Et 
+      <lb ed="#V" n="61"/>ideo aliquin doctores ac inquisitores arguunt sic 
+      con<lb ed="#V" n="62" break="no"/>tra eos.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e172">
+      ¶ Primo sic. moriatur homo ommino iustus 
+      <lb ed="#V" n="63"/>et innocens: et alius qui fuerit semper peccator et 
+      peni<lb ed="#V" n="64" break="no"/>uit in fine. quomodo erit quod ambo simul vadant ad 
+      <lb ed="#V" n="65"/>paradisum. nunquid innocens debet statim euolare: 
+      <lb ed="#V" n="66"/>et ille qui semper peccator fuit: et in fine penituit. sed pro¬ 
+      <!--435.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>peccatis nullam penam sustinuit debet post hanc vitam 
+      <lb ed="#V" n="68"/>puniri.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e192">
+      ¶ Respondeut quod non: sed ambo inre ad paradisum 
+      <lb ed="#V" n="69"/>led ille qui pro prerctis penam non sustinuit minuetur eni de 
+      <lb ed="#V" n="70"/>gloria.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e200">
+      ¶ Secundo. quia si purgatorium non est. frustra 
+      <lb ed="#V" n="71"/>timemus peccata et abstinemus: quia possemus penite 
+      <lb ed="#V" n="72"/>re in fine: et sic euolare:
+    </p>
+            <p xml:id="FrMS88-f68141-d1e207">
+      ¶ Dicunt quod non est frustra: quia vt 
+      <lb ed="#V" n="73"/>vt dictum est minus de gloria habebit.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e212">
+      ¶ Tertio quia 
+      nul<lb ed="#V" n="74" break="no"/>lum malum erit impunitum: sed si purgatorium non esset non 
+      <lb ed="#V" n="75"/>punirentur pectam omnia eorum qui saluantur.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e219">
+      ¶ 4o. quia deus 
+      ali<lb ed="#V" n="76" break="no"/>quos malos punit in hac vita. aliquos non.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e224">
+      ¶ Iste ratio 
+      <lb ed="#V" n="77"/>nes non conuincut: sed sunt contra nos sicut conclusillos. sic. aliquis non 
+      <lb ed="#V" n="78"/>vult baptizari bapus fluminis vsque ad finem eque 
+      euola<lb ed="#V" n="79" break="no"/>bit sicut alii qui semper bene agunt.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e233">
+      ¶ Dicunt enim quod tanta vi 
+      <lb ed="#V" n="80"/>tus est in sacramento prinine ad delendunt peccata: sicut in baptis 
+      <lb ed="#V" n="81"/>mo.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e241">
+      ¶ Arguo igitur sic.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e244">
+      ¶ Primo quod si hoc esset aliquis 
+      <lb ed="#V" n="82"/>puniretur de veniali peccato eternaliter. ex multitudine 
+      <lb ed="#V" n="83"/>enim peccatorum venialium. si non punitur in purgatorio. ergo cum 
+      <lb ed="#V" n="84"/>saluatur debetur sibi aliquis gradus glorie. quo priuabitr 
+      <lb ed="#V" n="85"/>poper illa peccata venialia: et sic carentia illius gradus 
+      <lb ed="#V" n="86"/>glorie: que alis sibi debebatur cum sit perpetua. erit 
+      perpe<lb ed="#V" n="87" break="no"/>tua pena illis peccatis venialibus correspondens.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e260">
+      ¶ Se 
+      <lb ed="#V" n="88"/>cundo ix: supposito quod maior pena et maius malum est 
+      <lb ed="#V" n="89"/>priuatio visionis diuine quam pena sensus. sed tantum est in 
+      <lb ed="#V" n="90"/>malo carentia visionis diuine quantum in bono visio 
+      di<lb ed="#V" n="91" break="no"/>uina. Tunc sic. quandocumque mala sic comparantur quod vnum secundum 
+      <lb ed="#V" n="92"/>naturam excedit reliquum: quicumque gradus mali excedentis 
+      <lb ed="#V" n="93"/>excedit totum aliud malum: sed carentia visionis diuine 
+      <lb ed="#V" n="94"/>secundum naturam excedit in malo penam sensus. ergo quicumque 
+      <lb ed="#V" n="95"/>gradus priuationis visionis diuine excedit totam penam 
+      <lb ed="#V" n="96"/>sensus inferni.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e282">
+      ¶ hic dicunt quod iste rationes sunt philosophyce 
+      <lb ed="#V" n="97"/>et subtiles. apostolus autem dicit: nemo vos seducat per inanem 
+      <lb ed="#V" n="98"/>phlosophiam. ideo petunt auctoritates sacri canonis.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e289">
+      ¶ Prima 
+      <lb ed="#V" n="99"/>ergo auctoritas est. 2. machabeo. 12. vbi dicitur quod iudas 
+      <lb ed="#V" n="100"/>considerabat quod hi qui cum pietate dormitionem acceperant 
+      <lb ed="#V" n="101"/>etc. et obtulit pro eis. 12. milia dragmas argenti. Illa autem 
+      <lb ed="#V" n="102"/>oblatio non potuit esse pro eis qui in inferno sunt: quia ibi 
+      nul<lb ed="#V" n="103" break="no"/>la est redemptio. iob. Nec pro his quae sunt in peradiso. quia 
+      re<lb ed="#V" n="104" break="no"/>demptione non indigent: nec potest dici de illis illud quod 
+      sequi<lb ed="#V" n="105" break="no"/>tur. sctam ergo et salubris cogitatio pro defunctis exorare: 
+      <lb ed="#V" n="106"/>vt a praecctis soluantur. quia ipsi preccata non habent. ergo fuit ista 
+      obla<lb ed="#V" n="107" break="no"/>tio pro his quae sunt in purgatorio.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e311">
+      ¶ hic dicunt quod liber il 
+      <lb ed="#V" n="108"/>le non est de canone.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e317">
+      ¶ Contra eos accipio ergo verbum christi 
+      <lb ed="#V" n="109"/>math. 19. iratus dicecunus tradidit seruum tortoribus quousque 
+      <lb ed="#V" n="110"/>redderet vniuersum debitum. hoc non potest intelligi in hac 
+      <lb ed="#V" n="111"/>vita. nec in inferno: quia illi semper sunt in debito. ergo habet intellectu 
+      <lb ed="#V" n="112"/>de his quae sunt in purgatorio.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e328">
+      ¶ 2a est auctoritas 
+      euange<lb ed="#V" n="113" break="no"/>lii. Esto consentiens aduersario tuo: et sequitur Amen dico 
+      <lb ed="#V" n="114"/>tibi non exhibis donec reddas etc. istud exire non 
+      intel<lb ed="#V" n="115" break="no"/>ligitur de peradiso: nec de inferno. ergo de purgatorio.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e337">
+      ¶ Sed 
+      <lb ed="#V" n="116"/>ontra istud. donec. quia quandoque donec accipitur cum exclusione actus 
+      <lb ed="#V" n="117"/>sequentis sicut gene. 5. dicitur coruus quem emisit noe non 
+      reuer<lb ed="#V" n="118" break="no"/>tebatur donec siccarentur aquae super terram: et tamen numquam postea est 
+      re<lb ed="#V" n="119" break="no"/>uersus. et similiter de difcunta et spionso suo iosephdicitur: quod non 
+      cogno<lb ed="#V" n="120" break="no"/>uit eam donec peperit filium suum primogenitum: nec ex habet 
+      sequi<lb ed="#V" n="121" break="no"/>tur quod fuerit cognita postea.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e353">
+      ¶ Sed arguo contra saltem in 
+      primo<lb ed="#V" n="122" break="no"/>dicta auctoritate est redditio debiti: sed illi de inferno 
+      <lb ed="#V" n="123"/>nunquam reddunt debitum. ergo licet non possit argui per li 
+      <lb ed="#V" n="124"/>donec: potest tamen per redditionem debiti. 
+      <lb ed="#V" n="125"/>hc calumnietur induco ad huc. 7. auctates. 
+      <lb ed="#V" n="126"/>Sed n
+    </p>
+            <p xml:id="FrMS88-f68141-d1e366">
+      ¶ prima est math. 12. quicumque peccauerit in 
+      fi<lb ed="#V" n="127" break="no"/>lio hominis remittetur: ei qui autem in s is scilicet no remittetur ei nequa in hoc 
+      <lb ed="#V" n="128"/>seculo: neque in futuro: ergo in purgatorio alites non esset verum 
+      <lb ed="#V" n="129"/>verbum christi.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e375">
+      ¶ 2a luce. 12o. Seruus qui cognouit voluntatem 
+      <lb ed="#V" n="130"/>divfuni sui: et non facit eam plagis vapulabit multis: et alius 
+      <lb ed="#V" n="131"/>paucis qui non cognouit: nec fecit eam: sed in inferno non est multum et 
+      <lb ed="#V" n="132"/>paucum: sed infinitum. ergo hoc habet intellect de purgus.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e385">
+      ¶ 3a est aposto 
+      <!--436.xml-->
+      <pb ed="#V" n="217-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>li prima ad corin. 3o. sic vt opus exarserit detrimentum 
+      <lb ed="#V" n="2"/>patietur. ipse autem saluus erit. sic tamen quasi per ignem: non 
+      <lb ed="#V" n="3"/>autem loquitur de igne istius mundi. nec inferni qui non saluat. 
+      <lb ed="#V" n="4"/>ergo de igne purgatorii.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e403">
+      ¶ 4a est apstuli prime ad cori. xv. 
+      <lb ed="#V" n="5"/>qui vult probare resurrectionem. Si mortui non resurgunt 
+      <lb ed="#V" n="6"/>vt quid baptizantur pro mortuis. aliquis ergo actus pro 
+      mor<lb ed="#V" n="7" break="no"/>tuis exhibetur: vel baptismus lachrymarum: vel aliquid 
+      ta<lb ed="#V" n="8" break="no"/>le. nullus autem dicibet exhibere pro mortuis de inferno nec 
+      <lb ed="#V" n="9"/>de paradiso. ergo de purgatorio.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e416">
+      ¶ 5a auctoritas. scribitur 
+      <lb ed="#V" n="10"/>actuum 2o hunc deus suscitauit a mortuis in die 3a soluti do 
+      <lb ed="#V" n="11"/>loribus inferni: certum est autem quod christus non soluit dolores in 
+      <lb ed="#V" n="12"/>ferni inferioris nec limbi: quia ibi erat magna consolatio. si 
+      <lb ed="#V" n="13"/>cut de Tazaro existente in limbo. Tuc. 19. hoc consolatur: tu vero 
+      <lb ed="#V" n="14"/>cruciaris ergo haec intelligitur de doloribus purgatorii.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e429">
+      ¶  
+      <lb ed="#V" n="15"/>scribitur Apoc. 3o. vidi in dxtera sedentu super tronum libus etc. 
+      <lb ed="#V" n="16"/>et nemo est inuentus dignus aperire librum: nec in celo: nec in 
+      ter<lb ed="#V" n="17" break="no"/>ra: nec subtus terram. ex hoc habetur quod aliqui credantur digni vel in 
+      <lb ed="#V" n="18"/>celo: vel in terra: vel subtus terram: sed non in inferno: quia ibi 
+      nul<lb ed="#V" n="19" break="no"/>la dignitas. igitur in aliqua mansione subtus terram quae non est in 
+      <lb ed="#V" n="20"/>fernus: et hoc vocatur purgatorium.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e445">
+      ¶ a auctoritas. scribi 
+      <lb ed="#V" n="21"/>tur ibidem. omnes causatabant in celo in terra: et subtus terram: hoc 
+      <lb ed="#V" n="22"/>non potest intelligin de inferno. quia ibi non cantant nec laudant 
+      <lb ed="#V" n="23"/>deum: sed sunt in sempiterna blassemia. ex istis auctori 
+      <lb ed="#V" n="24"/>tatibus satis patet intentum. quod est dare purgatorium
+    </p>
+            <p xml:id="FrMS88-f68141-d1e456">
+               <lb ed="#V" n="25"/>Deinde quaeritur vbi est dare purgatorium. 
+      
+    </p>
+            <p xml:id="FrMS88-f68141-d1e462">
+               <lb ed="#V" n="26"/>¶ Dicitur quod inferno sunt 4or 
+      man<lb ed="#V" n="27" break="no"/>siones.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e469">
+      ¶ Prima est inferior. qui est locus pro 
+      <lb ed="#V" n="28"/>prius damnatorum.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e474">
+      ¶ 2a est libus paruulorum 
+      <lb ed="#V" n="29"/>non baptizatorum.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e479">
+      ¶ 3a est purgatorium qui: est 
+      ele<lb ed="#V" n="30" break="no"/>ctorum: non tamen perfectorum.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e484">
+      ¶ 4a est sinus habrae qui est pat: 
+      <lb ed="#V" n="31"/>antiquorum.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e489">
+      ¶ Primi sunt in culpa actuali et in pena 
+      sen<lb ed="#V" n="32" break="no"/>sus et danni. secundi in culpa originali: et in pena danni tantum 
+      <lb ed="#V" n="33"/>tertii in gratia: et in pena. quarti in gratia et consolatione maxima. nul 
+      <lb ed="#V" n="34"/>lam enim penam sensus habebant.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e499">
+      ¶ Sed oc. difficultas de loco purga 
+      <lb ed="#V" n="35"/>torii: quia beatus Greg. in libro dyalogorum narrat de quaedam epritro quo 
+      <lb ed="#V" n="36"/>appuit in quidam balneo et ibi praestabat obsequm. et hoc erat 
+      si<lb ed="#V" n="37" break="no"/>bi purgatorium. Et de anima cuiuidam quae in glacie purgabatur. 
+      </p>
+            <p xml:id="FrMS88-f68141-d1e508">
+               <lb ed="#V" n="38"/>¶ Dicitur quod hoc potuit esse de aliqua speciali gratia vt pro 
+      confirmanda<lb ed="#V" n="39" break="no"/>fide nostra de alia vita: vel vt illi anime subueniretur a fidelibus 
+      </p>
+            <p xml:id="FrMS88-f68141-d1e515">
+               <lb ed="#V" n="40"/>¶ Sed de commni lege locus purgatorii est sub terra.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e520">
+      ¶ Sed  
+      <lb ed="#V" n="41"/>quid de tempore.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e525">
+      ¶ Dicendum quod prius locus scilicet infernus inferior damnato. 
+      <lb ed="#V" n="42"/>rum habet. 5. tempora vt patet hoc consequer scilicet in statu innocentie pro 
+      demoni<lb ed="#V" n="43" break="no"/>bus qui peccauerunt. in statu legis naturae: quia tunc homo peccauis 
+      <lb ed="#V" n="44"/>vt cavn in statu legis scripte eadem ratione. in statu legis gratiae 
+      <lb ed="#V" n="45"/>eadem ratione. et post iudicium: et ex tunc semper durabit.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e536">
+      ¶ 2us 
+      <lb ed="#V" n="46"/>locus limbus peruulorum habet 4or: in lege naturae: et legis scripte 
+      <lb ed="#V" n="47"/>et legis gratie: et post iudicium.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e544">
+      ¶ 3o scilicet locus purgatorii habet 
+      <lb ed="#V" n="48"/>tria in statu naturae lapse et legis scripte: et legis gratie: sed 
+      <lb ed="#V" n="49"/>post iudicium non remanebit.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e551">
+      ¶ Sed 4us locus scilicet sinus 
+      ha<lb ed="#V" n="50" break="no"/>brae. habet duo tempora scilicet legis naturae: et legis scripte quia in statu 
+      <lb ed="#V" n="51"/>legis gratie fuit eumatus.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e558">
+      ¶ Sed hoc est dubius quae erat in 
+      vete<lb ed="#V" n="52" break="no"/>ri testo comparatio purgatorii ad sinum habrae.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e563">
+      ¶ Dicitur quod 
+      <lb ed="#V" n="53"/>eadem quae nunc est ad paradisum.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e568">
+      ¶ De pena purgatorum: 
+      <lb ed="#V" n="54"/>est ne maxima pena:
+    </p>
+            <p xml:id="FrMS88-f68141-d1e573">
+      ¶ Dicunt aliqui quod sic. quia in mundo non 
+      <lb ed="#V" n="55"/>potest esse talis.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e579">
+      ¶ primo patet ex virtute agentis: quia ignis ille est 
+      in<lb ed="#V" n="56" break="no"/>strumentum potentissime virtuu diuine.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e584">
+      ¶ 2o ex parte patiet 
+      <lb ed="#V" n="57"/>tis: quia anima separata non impeditur ab organo corporali in 
+      <lb ed="#V" n="58"/>sua operatione. et sic sentit omnem passionem intensissime.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e591">
+      ¶ 3o 
+      <lb ed="#V" n="59"/>quia pena illa non est sic satisfactoria: et ideo pro modico plus 
+      <lb ed="#V" n="60"/>atisfaceret in hac vita ordinando hoc per liberum arbitrium 
+      <lb ed="#V" n="61"/>ad bonum ineiunando: vel aliquid boni faciendo. similiter videt 
+      to<lb ed="#V" n="62" break="no"/>tam voluntatem suam. et hoc est causa maioris pene. et etiam homo 
+      <lb ed="#V" n="63"/>plus affligitur quam alia animalia propter nobilitatem complexionis. 
+      </p>
+            <p xml:id="FrMS88-f68141-d1e604">
+               <lb ed="#V" n="64"/>¶ Sed nunquid habet aliquod refrigerium:
+    </p>
+            <p xml:id="FrMS88-f68141-d1e609">
+      ¶ Dico quod sic. 
+      pri<lb ed="#V" n="65" break="no"/>mum est quod in gratia sunt confirmati. et hoc est eis certum. 2m quod 
+      <lb ed="#V" n="66"/>sunt de gloria habenda certificati tertium. quia sunt affectati 
+      <!--436.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>affectione iustitie quae plus est quam affectio commodi. vnde 
+      vo<lb ed="#V" n="68" break="no"/>lunt illam penam. Unde Ugo de arra spoitonse. si pena 
+      inferni<lb ed="#V" n="69" break="no"/>esset voluntaria. non esset pena. similiter quia impatientiam non habent 
+      <lb ed="#V" n="70"/>nec turbationem. sicut de illo qui percutiter: et habet patientiam: et 
+      <lb ed="#V" n="71"/>sibi placet.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e631">
+      ¶ Sed hic occurrit dubium. a quo infligitur 
+      <lb ed="#V" n="72"/>ista pena.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e637">
+      ¶ Dicitur voluntate diuina. cum ministerio bonorum 
+      <lb ed="#V" n="73"/>angelorum. non enim credendum quod a demonibus: quia in hoc mundo 
+      <lb ed="#V" n="74"/>ab eis deuicti fuerunt: et prostrati tunc aliquid patiantur. 
+      </p>
+            <p xml:id="FrMS88-f68141-d1e644">
+               <lb ed="#V" n="75"/>¶ Secundo du. quo possunt affligi vel tristari in pena 
+      debi<lb ed="#V" n="76" break="no"/>ta.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e651">
+      ¶ Dicitur quod deus potest infligere actum tristitie non preuio 
+      <lb ed="#V" n="77"/>actu nolendi. vnde habent ordinem naturalem non realem.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e656">
+      ¶ Sed 
+      <lb ed="#V" n="78"/>nunquid est ibi gaudium: credo quod sit maius quam possit haberi 
+      <lb ed="#V" n="79"/>in hoc mundo. et credo quod praeligerent ibi manere quam esse in 
+      <lb ed="#V" n="80"/>quibuscunque deliciis huius mundi. beatitudinine enim 
+      posoliti<lb ed="#V" n="81" break="no"/>ca aliquis potest esse beatus cum penis. sicut patet de forti cum 
+      <lb ed="#V" n="82"/>est in agone: et habeant isti plus quam aliquis pure viator. plus 
+      <lb ed="#V" n="83"/>enim cogitant de diuina bonitate: et cognoscunt.
+    </p>
+            <p xml:id="FrMS88-f68141-d1e672">
+      ¶ Sed 
+      <lb ed="#V" n="84"/>nunquid papa potest extrahere aliquem de purgatorio. 
+      </p>
+            <p xml:id="FrMS88-f68141-d1e677">
+               <lb ed="#V" n="85"/>¶ Dicendum quod quantum ad illos qui ibi sunt non habet potestatem. ideoque si 
+      <lb ed="#V" n="86"/>posset facere. cuicumque concederet haberet indulgentiam pene: 
+      <lb ed="#V" n="87"/>sed quantum ad viuentes in mundo: habet vnde posset statue. 
+      <lb ed="#V" n="88"/>re talem legem: Quicumque de hoc seculo recedit contritus et 
+      <lb ed="#V" n="89"/>ponfessus: vel saltem contritus ipso facto euolet statim: et 
+      <lb ed="#V" n="90"/>tunc nullus descenderet ad purgatorium: sed hoc esset 
+      oc<lb ed="#V" n="91" break="no"/>casio mali: sed non video quin possit.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

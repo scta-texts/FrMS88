@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="194-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f48389"><!-- l4d9q3 -->
+            <head xml:id="FrMS88-f48389-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f48389-d1e111">
+               <lb ed="#V" n="21"/>TErtio quaeritur vtrum hoc pronomen hoc 
+      demonstra<lb ed="#V" n="22" break="no"/>uerit aliquid quando christus confecit. 
+      </p>
+            <p xml:id="FrMS88-f48389-d1e118">
+               <lb ed="#V" n="23"/>¶ Et videtur quod non. quia est demonstratiuum ad 
+      ocu<lb ed="#V" n="24" break="no"/>llum. sed non potuit demonstrare ad 
+      ocu<lb ed="#V" n="25" break="no"/>lum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e127">
+      ¶ Contra quia ex sua ratione est 
+      prono<lb ed="#V" n="26" break="no"/>men demonstratiuum. igitur semper demonstrat vbicunque sit.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e132">
+               <lb ed="#V" n="27"/>Hic dico quatuor conclusiones. ¶ Prima est quod hoc 
+      prono<lb ed="#V" n="28" break="no"/>Hic dico me. hoc. aliquid demonstrat: sed non substantiam 
+      pa<lb ed="#V" n="29" break="no"/>nis. hoc probo dupliciter.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e142">
+      ¶ Primo. quia illud non demonstratur in 
+      <lb ed="#V" n="30"/>biecto quod est in compossibile cum suo praedicato: sed substantia 
+      <lb ed="#V" n="31"/>panis est incomplis corpori christi. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e149">
+      ¶ 2a quia est impossibile quod 
+      <lb ed="#V" n="32"/>corpus incorruptibile praedicetur de corruptibili: sed corpus 
+      <lb ed="#V" n="33"/>hristi quod est meum. est incorruptibile. panis autem est corruptibili. 
+      <lb ed="#V" n="34"/>etc.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e158">
+      ¶ 2a conclusio quod nec accidentia. quia nlla substantia praedicatur de accidente 
+      <lb ed="#V" n="35"/>sumpto in abstracto. sed ita esset hoc. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e163">
+      ¶ 2o quia aliquod 
+      de<lb ed="#V" n="36" break="no"/>monstratiuum ibi sensibiliter non videtur.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e168">
+      ¶ 3a conclusio. quia nec substantia panis 
+      <lb ed="#V" n="37"/>cum accidentibus. quia non potest esse subiectum per comperationem ad istuod 
+      praedica<lb ed="#V" n="38" break="no"/>tum. nec manet substantia illa.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e175">
+      ¶ 4a conclusio quod nec accidentia cum corpore 
+      <lb ed="#V" n="39"/>christi. tamquam vnum sensibile sit demonstratum: quia istuod non facit 
+      <lb ed="#V" n="40"/>vnum nisi per aggregationem. igitur non potest dici de parte siue de 
+      <lb ed="#V" n="41"/>pane quod sit corpus christi. Item ista est falsa corpus sumptum cum 
+      <lb ed="#V" n="42"/>accidentibus est substantia. sed hoc demonstrat subiectum.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e187">
+      ¶ Pono ergo conclusionem 
+      <lb ed="#V" n="43"/>affirita. Nihil demonstrat nisi corpus christi.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e192">
+      ¶ hoc ostendo 4r 
+      </p>
+            <p xml:id="FrMS88-f48389-d1e195">
+               <lb ed="#V" n="44"/>¶ primo quia indiuiduum de vno solo praedicatur scilicet de seipso. igitur 
+      <lb ed="#V" n="45"/>in dicitur corpus meum. dicitur corpus christi.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e202">
+      ¶ 2o sic. quandocumque aliqua duo 
+      <lb ed="#V" n="46"/>idiectiua sic se habent quod vnum praedicatur de alio. oportet quod ambo 
+      prae<lb ed="#V" n="47" break="no"/>dicentur in habitudine ad idem subiectum. sicut patet de albo et 
+      mus<lb ed="#V" n="48" break="no"/>co. sed hoc et meum: sic se habent quod dicuntur de se. ergo habent idem subiectum. 
+      <lb ed="#V" n="49"/>et demonstratur per hoc quod est corpus christi.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e213">
+      ¶ 3o quia pronomen 
+      posseffi<lb ed="#V" n="50" break="no"/>uum designat in habitudine ad possessorem illud quod 
+      desi<lb ed="#V" n="51" break="no"/>gnat. sed hoc pronomen meum: est huiusmodi. christus autem est possidens. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f48389-d1e220">
+               <lb ed="#V" n="52"/>¶ 4o quandocumque aliqua dictio personalis. quae designat in habitudine 
+      <lb ed="#V" n="53"/>id aliud. illa diesignat habitues ad persotuas primam quam designat 
+      <lb ed="#V" n="54"/>sed meum est persone prime. igitur quicquid designat designat in 
+      ha<lb ed="#V" n="55" break="no"/>ditudine ad personam primam. qui est persona christi.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e232">
+      ¶ Dico igitur quod 
+      <lb ed="#V" n="56"/>hoc nihil designat nisi corpus christi.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e237">
+      ¶ Sed occ. di. quomodo 
+      de<lb ed="#V" n="57" break="no"/>moastrat quod non est ibi. quia corpus christi non est dum verba proferuntur 
+      <lb ed="#V" n="58"/>sed cum prolata sunt.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e244">
+      ¶ Soluiter hoc 4r. Aliqui dicunt quod pro nomin non 
+      <lb ed="#V" n="59"/>accidit tempus. sed verbo. ideo abstrahit ab omni tempore et si 
+      suppo<lb ed="#V" n="60" break="no"/>net faciet hoc pro futuro. Aliter dicitur quod est indiuiduum 
+      va<lb ed="#V" n="61" break="no"/>gum: quod est commune ad duo indiuidua. vt quando dicitur hoc dicitur stare 
+      va<lb ed="#V" n="62" break="no"/>ge sed quando dicitur hoc meum dicitur pro corpore christi. Alii dicunt quod est 
+      indiu<lb ed="#V" n="63" break="no"/>duum immediate quod est correspondens corpori. quia est vna 
+      <lb ed="#V" n="64"/>ratio corpori in xpisto et in pane. Alii dicunt quod verba possun 
+      <lb ed="#V" n="65"/>considerari. vel vt consecratiua. et sic precedunt 
+      transubstan<lb ed="#V" n="66" break="no"/>tiationem: vel vt demonstratiua. et sic sequuntur vel. vt 
+      <!--391.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>neutrum et sic causant.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e270">
+      ¶ Sed nulla viarum istarum valet. 
+      </p>
+            <p xml:id="FrMS88-f48389-d1e273">
+               <lb ed="#V" n="68"/>¶ primua non. concedebatur enim quod sic supponat. sed cum ita non fit. 
+      <lb ed="#V" n="69"/>talsa est licet vera fit quando erit.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e280">
+      ¶ Item ista numquam est vera pro praesenti 
+      <lb ed="#V" n="70"/>ubstantia panis est corpus christi. igitur nec pro futuro. probo. omne 
+      <lb ed="#V" n="71"/>futurum fiet aliquando praesens.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e288">
+      ¶ Nec 2a quia cuicunque praeponitur 
+      pro<lb ed="#V" n="72" break="no"/>nomen demonstratiuum id est sigeneratiuum sui.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e293">
+      ¶ Item vera est hoc contra 
+      <lb ed="#V" n="73"/>dictio. hoc est corpus christi. et hoc non est corpus christi: sed in 
+      <lb ed="#V" n="74"/>ter indiuidua vaga nulla est contradictio.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e300">
+      ¶ Nec 3a valet: 
+      <lb ed="#V" n="75"/>quia hec est falsa. hoc corpus substantie panis est corpus christi.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e305">
+      ¶ Nec 
+      <lb ed="#V" n="76"/>valet 4a cum dicitur neutrum causat sed verificatur ex consequenti. quia nihil est de 
+      <lb ed="#V" n="77"/>patrone: quando est transubtantiatio sed demonstratio non fit nisi in oratione. 
+      <lb ed="#V" n="78"/>et ita praecedit instans transubeantationis: et per consequens veritas eius 
+      praece<lb ed="#V" n="79" break="no"/>dit transubstationem. 
+    </p>
+            <p xml:id="FrMS88-f48389-d1e316">
+      ¶ 2o quia impossibile est quod propositio ipsa se ipsam 
+      <lb ed="#V" n="80"/>verificet. sed sacramentum est causa veritatis propositionis. et ita propositio erit 
+      <lb ed="#V" n="81"/>casa sui ipsius.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e323">
+      ¶ Dicit ergo secundo quod conceptus ortionis perfecte non habetur 
+      <lb ed="#V" n="82"/>ab aliqui citra vltimum instans ortionis prolate: quia tota orto est 
+      <lb ed="#V" n="83"/>causa conceptus totalis.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e331">
+      ¶ 2o dicit quod quando orntiao sucecliects profertur. 
+      quali<lb ed="#V" n="84" break="no"/>bet dictio causat in fantasia aliquam dispositionem verbaliter. et 
+      neces<lb ed="#V" n="85" break="no"/>sitas huius est. quia dispositio remanet transeunte verbo. Aliter 
+      vox<lb ed="#V" n="86" break="no"/>preterita nihil posset causare.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e340">
+      ¶ 3o dicit quod ille dispositiones 
+      <lb ed="#V" n="87"/>sunt permanentes alioquin essent annihilate quando orteo 
+      termina<lb ed="#V" n="88" break="no"/>tur.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e347">
+      ¶ 4o quia in instanti vltimo concurrunt omnes ille dispositiones 
+      <lb ed="#V" n="89"/>ad causandum conceptum ortaonis prolate totalem. vnde remanent 
+      il<lb ed="#V" n="90" break="no"/>le dispositiones in virtute: quarum causatur totalis conceptus huius 
+      <lb ed="#V" n="91"/>poramionis. et in illo est transubstantiatio.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e356">
+      ¶ Contra istud arguitur 
+      <lb ed="#V" n="92"/>4r
+    </p>
+            <p xml:id="FrMS88-f48389-d1e361">
+      ¶ Primo quia impossibile est quod aliqua dictio sigeneret. nisi quandoest 
+      <lb ed="#V" n="93"/>quia sigenerare est respectus dcotonis ad sigeneratum. sed impossibile est quod 
+      <lb ed="#V" n="94"/>tespectus sit in actu nisi fundatum sit in actu: sed in vltim 
+      in<lb ed="#V" n="95" break="no"/>tanti haec dictio hoc. non est.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e370">
+      ¶ 2o quandocumque aliqua dictio sigenera 
+      <lb ed="#V" n="96"/>tiua profertur quando profertur sigenerat. sed ista dictio. hoc: quando profertur 
+      <lb ed="#V" n="97"/>est in pripio ortionis. ergo in principio sigeneat. et hoc significare est 
+      de<lb ed="#V" n="98" break="no"/>nonstrare.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e380">
+      ¶ 3o quia dictio idem significat posita in oratione 
+      <lb ed="#V" n="99"/>et separata: sed extra ortionem cum profertur significat. ergo in 
+      <lb ed="#V" n="100"/>oratione vbi est significabit.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e387">
+      ¶ 4o sic. sicut se habet significa 
+      <lb ed="#V" n="101"/>tio orteionis totius ad orationem: ita pars ad partem. sed in 
+      fi<lb ed="#V" n="102" break="no"/>ne orationis est significatio eius totalis. igitur in fine 
+      pro<lb ed="#V" n="103" break="no"/>lationis huius hoc significat et demonstrat: et loquor 
+      <lb ed="#V" n="104"/>de oratione qua conficimus.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e398">
+      ¶ Dico ergo quod non demonstrat nisi 
+      <lb ed="#V" n="105"/>quando profertur. hoc confirmatur 4r.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e403">
+      ¶ Primo. quia hic non est men 
+      <lb ed="#V" n="106"/>tio de significato vocis. sed conceptuum. sed hoc vt 
+      descri<lb ed="#V" n="107" break="no"/>bitur a conceptu est eius paus significare. ergo illam habebit 
+      <lb ed="#V" n="108"/>vbicumque ponatur vel in principio: vel in medio.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e412">
+      ¶ 2o quia oratio 
+      <lb ed="#V" n="109"/>est successiua. ergo in ipsa est significatio successiua¬ 
+      </p>
+            <p xml:id="FrMS88-f48389-d1e417">
+               <lb ed="#V" n="110"/>¶ Tertio. quia propositio nulla de contingenti est vera 
+      ni<lb ed="#V" n="111" break="no"/>si actu existat. et dum actu enunciat. sed ista est de 
+      con<lb ed="#V" n="112" break="no"/>ingenti. hoc est corpus meum.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e427">
+      ¶ 4o quia veritas cuiuslibet 
+      <lb ed="#V" n="113"/>propositionis est posterior suo subiecto. ergo ista veritas est prior quam 
+      pro<lb ed="#V" n="114" break="no"/>poteitia sit vera. hoc est corpus meum. sed impossibile est: quia posteri 
+      <lb ed="#V" n="115"/>us esset prius.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e436">
+      ¶ Dico ergo quod opinio Inno. quietat 
+      intel<lb ed="#V" n="116" break="no"/>lectum. qui dicit quod christus non consecrauit per verba illa: quia 
+      <lb ed="#V" n="117"/>prius fuit consecratio quam confractio. et primo diuisit. 
+      po<lb ed="#V" n="118" break="no"/>stea distribuit. et ita demonstrauit per illa verba quod con 
+      <lb ed="#V" n="119"/>ecrauit per benedictionem.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e447">
+      ¶ Sed est difficultas. Quia 
+      am<lb ed="#V" n="120" break="no"/>prosius de sacramentis dicit. quod sacerdos conficit per 
+      <lb ed="#V" n="121"/>lla verba que christus dixit. vel per verba christi.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e454">
+      ¶ Responde quod 
+      am<lb ed="#V" n="122" break="no"/>prosius non dixit per que verba. vnde verum est quod per verba 
+      <lb ed="#V" n="123"/>que christus dixit consecrat. sed non habetur quod christus per 
+      ea<lb ed="#V" n="124" break="no"/>onsecrauit.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e463">
+      ¶ Secunda difficultas quia videtur quod eucharistia sit 
+      <lb ed="#V" n="125"/>alterius rationis quam conficimus ab illa quam christus confecit. 
+      </p>
+            <p xml:id="FrMS88-f48389-d1e468">
+               <lb ed="#V" n="126"/>¶ Respodeo dictum fuit quod quia istud sacramentum est perma 
+      <lb ed="#V" n="127"/>nens. ideo non oportet quod forma sit eiusdem rationis.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e476">
+      ¶ Ter 
+      <lb ed="#V" n="128"/>lia difficultas quomodo demonstrauit hoc. cum sit demonstratiuum 
+      <lb ed="#V" n="129"/>ad sensum.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e483">
+      ¶ Respondeo quod debet intelligi ad oculum 
+      menta<lb ed="#V" n="130" break="no"/>em. sicut cum dico. hic actus intelligendi: vel hoc 
+      desi<lb ed="#V" n="131" break="no"/>derium.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e490">
+      ¶ Quarta difficultas. quia idem erit dicere 
+      cor<lb ed="#V" n="132" break="no"/>pus meum est corpus meum. et dicere hoc est corpus 
+      <!--392.xml-->
+      <pb ed="#V" n="195-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>meum. ex quo demonstrat corpus christi.
+    </p>
+            <p xml:id="FrMS88-f48389-d1e503">
+      ¶ Respondeo quod substra 
+      <lb ed="#V" n="2"/>tum supponit pro ente: vel pro re. non est igitur 
+      incon<lb ed="#V" n="3" break="no"/>ueniens dicere hoc ens: vel res: vel substantia: est 
+      cor<lb ed="#V" n="4" break="no"/>pus meum. et est determinatio apposita indiuiduo su 
+      <lb ed="#V" n="5"/>perioris ad aliquod indiuiduum determinate speciei. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

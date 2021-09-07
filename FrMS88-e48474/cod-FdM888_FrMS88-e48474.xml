@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="66-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e48474"><!-- l1d14-16q1 -->
+            <head xml:id="FrMS88-e48474-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-e48474-d1e111">
+               <lb ed="#V" n="87"/>¶ Distinctio. 14. 19. et. 1d. Questio i.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e116">
+               <lb ed="#V" n="88"/>Preterea diligenter annotandum est etc. 
+      <lb ed="#V" n="89"/>¶ hic considerandum est etc. 
+      <lb ed="#V" n="90"/>¶ Nunc de spiritu sancto videndum est etc. 
+      <lb ed="#V" n="91"/>Circa distinctionem. 14. 15 et 16 
+      <lb ed="#V" n="92"/>Quero. Utrum in divinis sit 
+      <lb ed="#V" n="93"/>ordo essentialis. Quod non. quia tunc esset ibi 
+      <lb ed="#V" n="94"/>disto essentialis. quod est falsum.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e134">
+      ¶ Contra 
+      <lb ed="#V" n="95"/>vbi distinctio et non ordo. ibi confusio. 
+      </p>
+            <p xml:id="FrMS88-e48474-d1e139">
+               <lb ed="#V" n="96"/>¶ Circa istam quaestionem prae videndum est quid 
+      <lb ed="#V" n="97"/>fit ordo essentialis. 2o vtrum sit in deo. 
+      <lb ed="#V" n="98"/>Nad primum dico. quod ordo 
+      <lb ed="#V" n="99"/>Quaneta essentialis est ille qui 
+      com<lb ed="#V" n="100" break="no"/>petit extremins illius ordinis per se: omnis 
+      <lb ed="#V" n="101"/>emem ordo qui competit extremis: vel conuenit eis per se vel per 
+      <lb ed="#V" n="102"/>accidens. Primus est ordo essentialis. 2us accidentalis. quia certum 
+      <lb ed="#V" n="103"/>est quod non est essentialis. ergo per consequens accidentalis. quia per istos 
+      du<lb ed="#V" n="104" break="no"/>os ordines sufficienter diuiditur ordo.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e162">
+      ¶ Iste autem ordo 
+      <lb ed="#V" n="105"/>declaratur quadruplici extieo et postea regula quaedruplici 
+      no<lb ed="#V" n="106" break="no"/>tificatur. primum exitum est de substantia et accidente: conuenit enim subiectum per se 
+      <lb ed="#V" n="107"/>esse prius accidente. quia naturaliter. Similiter de fundamento et relationes. 
+      <lb ed="#V" n="108"/>fundamentum est prius ipsa relatione ordine essentiali. Similiter 
+      <lb ed="#V" n="109"/>ordo materiae ad formam. materia enim praecedit formam ordine 
+      essentia<lb ed="#V" n="110" break="no"/>li. Similiter de causa et effectu: accipiendo per se causam. tunc causa est 
+      pri<lb ed="#V" n="111" break="no"/>or ordine essentiali suo effectu in quocumque genere cause. 
+      </p>
+            <p xml:id="FrMS88-e48474-d1e180">
+               <lb ed="#V" n="112"/>¶ 2o introducuntur 4r regule.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e185">
+      ¶ Prima est quod in essentialiter 
+      <lb ed="#V" n="113"/>ordinatis priori non repugnat esse sine posteriori quantum 
+      <lb ed="#V" n="114"/>est ex se et ex natura sua. licet non forte per naturam hoc possit fieri: tamen si 
+      <lb ed="#V" n="115"/>bi non repugnat: sed econverso est impossibile. Repugnat enim posterio. 
+      <lb ed="#V" n="116"/>ri in ordine essentiali esse sine priori.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e196">
+      ¶ hec regula 
+      diclara<lb ed="#V" n="117" break="no"/>tur primo sic. quandocumque aliqua sic se habent quod vnum aliud praesuppositionit: 
+      <lb ed="#V" n="118"/>et non econverso. licet praesupposito non repugnet esse sine praesupponen 
+      <lb ed="#V" n="119"/>te: praesupponens tamen non potest esse sine praesupposito. si enim non 
+      <lb ed="#V" n="120"/>e ita haberent tunc vnum per se aliud non praesupponeret nec econverso 
+      <lb ed="#V" n="121"/>Sic autem est in essentialiter ordinatis ordine essentiali. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e48474-d1e209">
+               <lb ed="#V" n="122"/>¶ 2o sic. quandocumque aliqua sic se habent quod vnum per se dependet ab 
+      <lb ed="#V" n="123"/>alio: et no econverso dependenti repugnat esse sine termino et non 
+      <lb ed="#V" n="124"/>econverso. sed prius essentialiter et posterius sic se habent in ordine 
+      <lb ed="#V" n="125"/>essentiali. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e220">
+      ¶ 3o sic. Quandocumque aliqua sic se habent quod vnum 
+      <lb ed="#V" n="126"/>pro aliquo signo priori praecedit aliud: sibi non repugnat esse si 
+      <lb ed="#V" n="127"/>ne alio. quia si sic. pro illo signo sibi repugnaret. Sed ita 
+      <lb ed="#V" n="128"/>se habent prius et posterius inordine essentiali. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e230">
+      ¶ Sed contra hoc 
+      <lb ed="#V" n="129"/>instatur 4r. Primo sic. Nam. par te. subiectum prius essentialiter est 
+      pro<lb ed="#V" n="130" break="no"/>pria passione. ergo poterit esse sine propria passione. quod est 
+      <lb ed="#V" n="131"/>falsum. quia tunc conclusio demonstrationis esset contingens. quia eius 
+      <!--136.xml-->
+      <pb ed="#V" n="67-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>oppositum esset verum.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e248">
+      ¶ 2o sic. Creatura essentialiter est 
+      <lb ed="#V" n="2"/>prior sua dependentia ad deum. ergo poterit esse sine ea. quod 
+      <lb ed="#V" n="3"/>est impossibile.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e255">
+      ¶ 3o instatur contra secundam particulam regule 
+      supra<lb ed="#V" n="4" break="no"/>dicte scilicet quod posterius non potest esse sine priori.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e260">
+      ¶ Primo sic. 
+      <lb ed="#V" n="5"/>Nam accidens potest esse sine subiecto: sicut patet in sancramento altaris. et 
+      <lb ed="#V" n="6"/>tamen accidens essentialiter posterius est subiecto.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e267">
+      ¶ 4o ad idem. 
+      Manm<lb ed="#V" n="7" break="no"/>siue corpus praecedit animam rationalem: sed tamen anima rationalis potest 
+      <lb ed="#V" n="8"/>esse sine corpore.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e274">
+      ¶ Ad primum et ad 2m istorum dico quod nec substanti 
+      <lb ed="#V" n="9"/>ex sua ratione formali repugnat esse sine passione: nec 
+      crea<lb ed="#V" n="10" break="no"/>ture sine dependentia eius ad deum: sed tota causa est propter 
+      <lb ed="#V" n="11"/>identitatem realem eorum inter se.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e284">
+      ¶ Ad 3m dico. quod duplex est 
+      <lb ed="#V" n="12"/>ordo essentialis. Unus qui est necessarius necessitate simpliciter. 
+      <lb ed="#V" n="13"/>et iste ita incommutabilis est quod per quamcumque potentiam 
+      con<lb ed="#V" n="14" break="no"/>mutari non potest. sicut relationis ad fundamentum. nam 
+      posi<lb ed="#V" n="15" break="no"/>ta relatione necessario ponitur subiectum vel fundamentum.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e295">
+      ¶ 
+      Ali<lb ed="#V" n="16" break="no"/>us est ordo qui necius est necessitate non simpliciter: sed 
+      so<lb ed="#V" n="17" break="no"/>lum secundum quid. quia licet deus istum commutare posset. tamen natura 
+      <lb ed="#V" n="18"/>non. Isto modo dici potest ordo inter substantiam et accidens. Exiptum 
+      con<lb ed="#V" n="19" break="no"/>ueniens pro vtroque.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e306">
+      ¶ Alius est ordo inter actum intelligen 
+      <lb ed="#V" n="20"/>di: et actum fantasiadi: et alius inter actum intelligendi et 
+      <lb ed="#V" n="21"/>actum volendi. Primus enim solus est necessarius pro sta 
+      <lb ed="#V" n="22"/>tu. et ideo secundum quid est praecise necessarius. quia deus posset 
+      ali<lb ed="#V" n="23" break="no"/>ter facere. Eodem modo de subiecto et accidente. Alius est necessarius 
+      <lb ed="#V" n="24"/>simpliciter: nam non solum naturae: verum etiam deo impossibile est quod actus 
+      vo<lb ed="#V" n="25" break="no"/>lendi fit sine actu intelligendi.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e322">
+      ¶ Ad 4m dico. quod matea non est 
+      <lb ed="#V" n="26"/>prior ordine essentiali anima intellectiua. Et si dicas de aliis 
+      <lb ed="#V" n="27"/>formis. Dico quod dato quod sit talis ordo: non est tamen ita 
+      essen<lb ed="#V" n="28" break="no"/>tialis. quod sit necessarius simpliciter: sed solum secundum quid.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e331">
+      ¶ 2a re 
+      <lb ed="#V" n="29"/>gula est. quod in essentialiter ordinatis non potest esse 
+      circula<lb ed="#V" n="30" break="no"/>tio.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e338">
+      ¶ hoc declaro dupliciter. Primo sic. quia idem esset 
+      pri<lb ed="#V" n="31" break="no"/>us seipso. Et probatur hoc sic. Quicquid per se est prius prio 
+      <lb ed="#V" n="32"/>re: est per se prius posteriore. Sed ponamus. a. b. c. A. 
+      <lb ed="#V" n="33"/>est prius b. et b. prius. c. si esset circulatio: tunc posito quod 
+      <lb ed="#V" n="34"/>a. sitprius. b. et b. sit prius a. Tunc sic. Omne quod est 
+      pri<lb ed="#V" n="35" break="no"/>us. b. est prius. a. sed a. est prius. b. ergo a. est prius a. et si 
+      <lb ed="#V" n="36"/>militer de c.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e355">
+      ¶  2o sequitur. quod idem dependeret a seipso: quia 
+      <lb ed="#V" n="37"/>a. dependet a. b. et b. ab a. ergo a. dependet ab a. Similiter 
+      <lb ed="#V" n="38"/>posset dici quod idem causaret se. quod est falsum.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e362">
+      ¶ Sed 3ot 
+      <lb ed="#V" n="39"/>istam regulam instatur quadrupliciter. Primo sic. nam in 
+      <lb ed="#V" n="40"/>partibus motus celi est circulatio. et tamen videtur esse 
+      or<lb ed="#V" n="41" break="no"/>do essentialis inter eas. quia vna videtur esse prior 
+      es<lb ed="#V" n="42" break="no"/>sentialiter altera.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e373">
+      ¶ 2o quia in ipsis quando vel in ipsis 
+      <lb ed="#V" n="43"/>partibus temporis videtur esse circulatio: et tamen inter ea videtur esse 
+      essen<lb ed="#V" n="44" break="no"/>tialis ordo.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e380">
+      ¶ 3o quia inter elementa videtur esse essentialis 
+      or<lb ed="#V" n="45" break="no"/>do: et tamen inter eorum generationes est circulatio.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e385">
+      ¶ 4 
+      <lb ed="#V" n="46"/>quia inter mixta etiam videtur essentialis ordo. et tamen inter 
+      ea<lb ed="#V" n="47" break="no"/>est circulatio. quia ex terra depluta sit vapor: et ex 
+      vapo<lb ed="#V" n="48" break="no"/>re pluuia: et ex pluuia interato terra deplutatur.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e394">
+      ¶ Ad 
+      <lb ed="#V" n="49"/>ista. Ad primum de motu dico quod vna pars motus non est 
+      al<lb ed="#V" n="50" break="no"/>tera essentialiter posterior nec prior: immo solum 
+      acciden<lb ed="#V" n="51" break="no"/>taliter. Nam illa quae nunc est prima posset esse secunda: 
+      <lb ed="#V" n="52"/>et econuerso.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e406">
+      ¶ Ad 2m de tempore et quando dico similiter quod 
+      nes<lb ed="#V" n="53" break="no"/>inter quando: nec partes temporis potest esse ordo essentialis. 
+      <lb ed="#V" n="54"/>Et sic dico generaliter quod in ordine durationis nunquam 
+      vni<lb ed="#V" n="55" break="no"/>essentialiter est prius alio inquantum ordinata sunt 
+      ordi<lb ed="#V" n="56" break="no"/>ne durationis. Unde omnis ordo durationis est precise 
+      <lb ed="#V" n="57"/>accidentalis.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e419">
+      ¶ Ad 3m de elementis. Et ad 4m de mixtis 
+      <lb ed="#V" n="58"/>dico. quod licet inter elementa et mixta sit ordo eminentie 
+      <lb ed="#V" n="59"/>et secundum perfectionem: tamen secundum generationem non est ibi ordo 
+      <lb ed="#V" n="60"/>essentialis: immo ipsa vt sic sunt accidentaliter ordinata. 
+      </p>
+            <p xml:id="FrMS88-e48474-d1e428">
+               <lb ed="#V" n="61"/>¶ 3a regula est. quod in essentialiter ordinatis non potest esse 
+      pre<lb ed="#V" n="62" break="no"/>cessus in infinitum a priori: a posteriori autem non repu 
+      <lb ed="#V" n="63"/>gnat eis talis processus. hec regula quantum ad 
+      am<lb ed="#V" n="64" break="no"/>bas partes probatur per idem. nam in essentialiter 
+      ordina<lb ed="#V" n="65" break="no"/>tis semper posterius praexigit prius. si ergo versus 
+      pri<lb ed="#V" n="66" break="no"/>us esset processus in infinitum: tunc posito aliquo poste 
+      <!--136.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>riori necessario ibi essent actu infinita: quod est falsum. 
+      <lb ed="#V" n="68"/>Per oppositum. quia prius non necessario exigit posterius: 
+      <lb ed="#V" n="69"/>possunt esse priora fine posterioribus aliis: et sic non 
+      se<lb ed="#V" n="70" break="no"/>quitur processus in infinitum.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e457">
+      ¶ Exictum quantum ad vtrumque de 
+      <lb ed="#V" n="71"/>numero. Eundo enim versus vnitate: quia itur ad 
+      essentia<lb ed="#V" n="72" break="no"/>liter prius: semper est status. Eundo tamen versus pluralitatem: 
+      <lb ed="#V" n="73"/>quia inter versus posterius. nunquam est status: sicut patet. quia 
+      di<lb ed="#V" n="74" break="no"/>uisio continui vadit in infinitum. sic per consequens plurificatio nul 
+      <lb ed="#V" n="75"/>merorum.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e470">
+      ¶ Sed contra hoc instatur 4r. Primo sic. nam in 
+      pro<lb ed="#V" n="76" break="no"/>ductione mundi eundo versus principium non est dare aliquod 
+      pri<lb ed="#V" n="77" break="no"/>istans ante quod non potuerit mundus produci. ergo etc. 2o similiter 
+      <lb ed="#V" n="78"/>de motu. 3o de gradibus forme augmentabilis. 4o de 
+      <lb ed="#V" n="79"/>speciebus continui.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e481">
+      ¶ Ad ista. Ad primum dico. et ad 2m et ad m 
+      <lb ed="#V" n="80"/>quod non est ibi essentialis ordo in productione mundi: nec in 
+      <lb ed="#V" n="81"/>motu: nec in gradibus forme. sed est praecise accidentalis 
+      or<lb ed="#V" n="82" break="no"/>do.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e491">
+      ¶ Sed 4a instantia fortior est de speciebus continui: 
+      bicu<lb ed="#V" n="83" break="no"/>bitum enim ordine essentiali praesupponit monocubitum: sicut 
+      <lb ed="#V" n="84"/>dualitas vnitatem: et tamen sicut per eandem proportionem 
+      <lb ed="#V" n="85"/>est processus in infinitum in speciebus continui eundo ad 
+      <lb ed="#V" n="86"/>prius. videtur quod in essentialiter ordinatis sit processus 
+      in<lb ed="#V" n="87" break="no"/>infinitum semper eundo ad prius: sicut a bicubito ad 
+      mo<lb ed="#V" n="88" break="no"/>nocubitum: et sic procedendo.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e507">
+      ¶ Dicunt aliqui quod non sunt 
+      <lb ed="#V" n="89"/>species distincte: sed solum sunt gradus intrinseci: processus 
+      <lb ed="#V" n="90"/>autem in infinitum est ratione numeri. Sed si ponatur species non 
+      <lb ed="#V" n="91"/>sufficeret hoc. Ideo videtur dicendum vno duorum modorum. 
+      <lb ed="#V" n="92"/>vel quod non sunt species distincte: vel si sunt non est ordo 
+      essen<lb ed="#V" n="93" break="no"/>tialis inter eas. de hoc tamen alias quando agetur de diui 
+      <lb ed="#V" n="94"/>sione continui: et de speciebus figurarum scilicet bicubiti et 
+      mono<lb ed="#V" n="95" break="no"/>cubiti.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e525">
+      ¶ 4a regula est. quod essentialis ordo non potest esse in 
+      <lb ed="#V" n="96"/>ter illa que sunt eiusdem ronis. hanc probo dupliciter. Primo 
+      <lb ed="#V" n="97"/>sic. Quandocumque aliqua sunt eiusdem rationis quicquid 
+      compe<lb ed="#V" n="98" break="no"/>tit vni est natum conuenire alteri. vel aliquid eiusdem rationis: 
+      <lb ed="#V" n="99"/>sed cum priori ordine essentiali hoc competat quod est vel 
+      <lb ed="#V" n="100"/>possit esse sine posteriori: et si posterius est eiusdem rationis 
+      <lb ed="#V" n="101"/>cum priori: posterius potest esse sine priori. sicut econuerso: si 
+      <lb ed="#V" n="102"/>inter ea posset esse ordo essentialis: quod est contra primam 
+      regu<lb ed="#V" n="103" break="no"/>lam.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e545">
+      ¶ Confirmatur. quia posterioritas postquam conuenit. a. 
+      <lb ed="#V" n="104"/>non videtur causa quare non possit conuenire. b. cum. b. sit 
+      <lb ed="#V" n="105"/>eiusdem rationis cum a. sed in b. ponitur prioritas. ergo idem 
+      <lb ed="#V" n="106"/>poterit esse prius et posterius seipso: quod est contra regulam 2am. 
+      </p>
+            <p xml:id="FrMS88-e48474-d1e554">
+               <lb ed="#V" n="107"/>¶ 2o sic. Relatio disquiperantie non potest esse inter ea que sunt 
+      <lb ed="#V" n="108"/>eiusdem rationis inquantu eiusdem rationis sunt: sed solum 
+      inquan<lb ed="#V" n="109" break="no"/>tum diuersa: sed ordo complectitur relationes disquiperam 
+      <lb ed="#V" n="110"/>tie. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e565">
+      ¶ Sed contra. per se causa videtur ordine essentiali esse 
+      <lb ed="#V" n="111"/>prior suo effectu: sed homo est per se causa hominis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e571">
+      ¶ Similiter causa 
+      <lb ed="#V" n="112"/>formalis et effectus sunt eiusdem rationis: et similiter eodem modo 
+      <lb ed="#V" n="113"/>de causa finali: et de causa materiali per illud idem.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e578">
+      ¶ Ad primum dico. quod 
+      <lb ed="#V" n="114"/>in quibuscumque causis vniuocis quantumcumque per se sint causae 
+      defi<lb ed="#V" n="115" break="no"/>cit illa propositione. Nam sicut pater meus genuit me. ita si ego 
+      <lb ed="#V" n="116"/>fuissem prior eo potuissem eum generare: et ideo homo non est 
+      <lb ed="#V" n="117"/>prior homine.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e589">
+      ¶ Ad 2m dico. quod causa formalis semper est 
+      alte<lb ed="#V" n="118" break="no"/>rius rationis ab effectu: sicut causa formalis humanitatis est anima 
+      <lb ed="#V" n="119"/>rationalis. et humanitas est alterius rationis ab anima rationali. 
+      <lb ed="#V" n="120"/>sicut patet.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e598">
+      ¶ Ad 3m dico. quod non est ordo inter causam finalem 
+      <lb ed="#V" n="121"/>et eius effectum: si sunt eiusdem rationis ex rationibus formali 
+      <lb ed="#V" n="122"/>bus: sed solum propter alium et alium gradum intrinsecum: qui vt sic non 
+      <lb ed="#V" n="123"/>sunt eiusdem ronis.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e607">
+      ¶ Ad 4m dico. quod causa materialis semper est 
+      <lb ed="#V" n="124"/>alterius rationis ab effectu: sicut dictum est de causa formali: 
+      <lb ed="#V" n="125"/>nam mam non est causa forme: nec forma materiae: sed vtraque 
+      con<lb ed="#V" n="126" break="no"/>positi: et compositum est alterius rationis ab eis. 
+      <lb ed="#V" n="127"/>videndum est si in diuinis sit talis ordo. Et 
+      <lb ed="#V" n="128"/>Altimo dico quod ordines 4or essentiales sunt in 
+      di<lb ed="#V" n="129" break="no"/>uinis. Primus est inter relationes scilicet inter dicere et 
+      spira<lb ed="#V" n="130" break="no"/>re: sicut inter actum intellectus et voluntatis.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e625">
+      ¶ 2us est inter 
+      <lb ed="#V" n="131"/>psonas: quia sicut inter constituentia: inter constituta.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e631">
+      ¶ 3us est 
+      <lb ed="#V" n="132"/>inter attributa: quia intellectus est essentialiter prior vo¬ 
+      <!--137.xml-->
+      <pb ed="#V" n="67-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>luntate.
+    </p>
+            <p xml:id="FrMS88-e48474-d1e644">
+      ¶ 4us inter modos intrinsecos. sicut inter 
+      infini<lb ed="#V" n="2" break="no"/>tatem et existentiam. sicut dictum est generaliter de ordine naturae. 
+      </p>
+            <p xml:id="FrMS88-e48474-d1e649">
+               <lb ed="#V" n="3"/>¶ Ad argumentum dico. quod sicut non sequitur. sunt ordinata 
+      essen<lb ed="#V" n="4" break="no"/>tialiter vel distincta. ergo distincte essentie. Eodem modo de ordine 
+      pro<lb ed="#V" n="5" break="no"/>pter identitatem realem non ponitur separabiliter inter 
+      or<lb ed="#V" n="6" break="no"/>dinata in deo: patet quare etc.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

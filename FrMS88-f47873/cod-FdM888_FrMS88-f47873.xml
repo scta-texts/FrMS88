@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="193-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f47873"><!-- l4d9q1 -->
+            <head xml:id="FrMS88-f47873-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f47873-d1e111">
+               <lb ed="#V" n="125"/>Et sicut sunt due res etc. 
+      <lb ed="#V" n="126"/>HEc est 9 dist. ¶ Circa quam quaero 4 
+      <lb ed="#V" n="127"/>quaestiones.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e120">
+      ¶ prima est vtrum verba 
+      conse<lb ed="#V" n="128" break="no"/>crationis habeant virtutem supernaturaliter infusam. pio 
+      <lb ed="#V" n="129"/>quam possint causare terminum istius consecrationis 
+      <lb ed="#V" n="130"/>et transubstantiationis. Et videtur quod sic. quia dicit ambro. 
+      <lb ed="#V" n="131"/>de sacramentis: quod ibi sunt aliqua ex vi verbo 
+      <!--390.xml-->
+      <pb ed="#V" n="194-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>rum. Aliqua per concomitantiam: sed hoc non esset verum. nisi verba haberent 
+      <lb ed="#V" n="2"/>aliquam virtutem.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e142">
+      ¶ Contra. nullum accidens spirituale potest 
+      <lb ed="#V" n="3"/>recipi in aliquo subiecto 
+      corporali<lb ed="#V" n="4" break="no"/>quaestione sunt 4or concluisiones.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e149">
+      ¶ prima est quod aliqua talis virtus 
+      <lb ed="#V" n="5"/>In ista non potest esse in tota prolatione verborum infusa. hoc aut pro 
+      <lb ed="#V" n="6"/>bo 4r
+    </p>
+            <p xml:id="FrMS88-f47873-d1e157">
+      ¶ primo sic. impossibile est quod aliquis effcuns habeat esse ab aliqua 
+      <lb ed="#V" n="7"/>vertute in illo tempore in quo virtus illa non existit: sed istans transubstationis 
+      <lb ed="#V" n="8"/>n coexistit toti tempor prolationis: verborum. probo: quia nullum indisibi 
+      <lb ed="#V" n="9"/>le potest coexistem divisibili successiuo: quia iam esset in tempore. ergo etc 
+      </p>
+            <p xml:id="FrMS88-f47873-d1e166">
+               <lb ed="#V" n="10"/>¶ 2o quia quandocumque aliquod successiuum est causa permanentis quod fitin 
+      <lb ed="#V" n="11"/>instanti: illud non causat ipsum nisi dispositiue. sed in hoc sacramento nulla 
+      <lb ed="#V" n="12"/>est dispositio ad transubstationem: quia nec species nec panis sunt apta 
+      <lb ed="#V" n="13"/>nata recipere dispositionem ad transbationem.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e177">
+      ¶ 3o quia frustra 
+      <lb ed="#V" n="14"/>ponitur virtus in secumonto quae prius distruitur ante aduentum termini. 
+      </p>
+            <p xml:id="FrMS88-f47873-d1e182">
+               <lb ed="#V" n="15"/>¶ 4o quia quandocumque aliqua ita se habent: quod vnum est alteri incompossibile. 
+      <lb ed="#V" n="16"/>illud non habet rationem causae ad aliud. sed prolatio verborum et instans 
+      <lb ed="#V" n="17"/>transubstantiationis: sunt incompossibilia: quia quando sit prolatio non est 
+      <lb ed="#V" n="18"/>transubstantiatio. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e193">
+      ¶ Secunda conclusio quod non est in vltimata sillaba 
+      <lb ed="#V" n="19"/>successiua. Probo dupliciter.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e198">
+      ¶ Quia sicut prolatio 
+      mensu<lb ed="#V" n="20" break="no"/>ratur tempore: ita vltima sillaba erit successiua sicut illa: sed ex 
+      <lb ed="#V" n="21"/>successione ostensum est propositum. Item sillaba mensuratur bre 
+      <lb ed="#V" n="22"/>uis vel longa ex tempore. ergo est successiua sicut ortero eius.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e208">
+      ¶ 3 
+      <lb ed="#V" n="23"/>contra est: quod nec in vltima littera que videtur indiuisibilis esse cum 
+      <lb ed="#V" n="24"/>tota ortio constet ex itentis. si litra esset indiuisibilis: tota ortiao 
+      <lb ed="#V" n="25"/>esset indiuisibilis: si litra constet ex duabus lterenis: si quelibet 
+      <lb ed="#V" n="26"/>esset indiuisibilis tota oratio esset indiuisibilis: et tunc 
+      <lb ed="#V" n="27"/>currunt omnes rationes praecedentes: si litra habeat prolationem 
+      <lb ed="#V" n="28"/>successiuam.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e224">
+      ¶ 4a conclusio quod nec in vltimo innstanti post prolatio 
+      <lb ed="#V" n="29"/>nem: quod probatur.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e229">
+      ¶ Primo sic: quia otro prolata in innstanti 
+      pos<lb ed="#V" n="30" break="no"/>prolationem: in eo quod prolata est: non est nec aliquid eius: quia 
+      <lb ed="#V" n="31"/>essentia eius est in fieri. quo consumpto non habet esse: sed 
+      si<lb ed="#V" n="32" break="no"/>non esset: tunc non esset aliqua virtus in instanti ortionis 
+      <lb ed="#V" n="33"/>prolate.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e240">
+      ¶ Secundo sic. Quandocumque aliqua sunt immediate 
+      con<lb ed="#V" n="34" break="no"/>iuncta transacto priori: incipit posterius: sicut motus 
+      <lb ed="#V" n="35"/>et quies se habent: sed silentium sequitur prolationem immedia 
+      <lb ed="#V" n="36"/>te: sed in silentio non potest esse immediate talis virtus. 
+      </p>
+            <p xml:id="FrMS88-f47873-d1e249">
+               <lb ed="#V" n="37"/>¶ Tertio. quia est impossibile quod in vltimo mutato esse sit 
+      ali<lb ed="#V" n="38" break="no"/>quid de motu.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e256">
+      ¶ Sed in vltima prolatione verborum est ibi 
+      <lb ed="#V" n="39"/>mutatum esse finis illius motus.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e262">
+      ¶ Quarto. quia non esse 
+      il<lb ed="#V" n="40" break="no"/>lius virtutis. primo non potest stare cum primo esse corporis 
+      <lb ed="#V" n="41"/>christi: sed in vltimo primo instanti est non esse illius virtutis 
+      <lb ed="#V" n="42"/>primo et esse primum corporis christi. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e271">
+      ¶ Dico igitur propter istas 
+      <lb ed="#V" n="43"/>rationes quod nulla virtus est ibi.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e276">
+      ¶ Sed hic occurrit difficulta 
+      <lb ed="#V" n="44"/>cultas. quia sancti videntur hoc dicere. quod scilicet virtus est in 
+      ver<lb ed="#V" n="45" break="no"/>omnis.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e283">
+      ¶ Respondeo quod non nego virtutem aliquo modo. sicut datur 
+      au<lb ed="#V" n="46" break="no"/>ctoritas in actibus ierarchicis. sicut dixit christus post resurre 
+      <lb ed="#V" n="47"/>ctionem. Data est mihi omnis potestas etc. non autem potestas absoluta 
+      <lb ed="#V" n="48"/>sed aliqua noua auctoritas que non est forma realis: sed 
+      <lb ed="#V" n="49"/>respectus voluntatis diuine: sic datur auctoritas 
+      popula<lb ed="#V" n="50" break="no"/>ris: et sicut pylatus habebat potestatem crucifigendi christum: non quod 
+      <lb ed="#V" n="51"/>esset aliqua qualitas absoluta: sed quaedam auctoritas ab 
+      impe<lb ed="#V" n="52" break="no"/>ratore sibi collata.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e301">
+      ¶ Secunda particula inquisitionis huius 
+      <lb ed="#V" n="53"/>est: quia dato quod poneretur: non posset tamen attingere ad 
+      termi<lb ed="#V" n="54" break="no"/>num istius transubstantiationis. sicut dicunt aliqui: tamen quia sicut instatentum 
+      <lb ed="#V" n="55"/>attigit terminum praencipalis causare etc.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e310">
+      ¶ contra. quia nulla 
+      forma<lb ed="#V" n="56" break="no"/>inherens potest attingere ad adnihilationem primme materiae: 
+      <lb ed="#V" n="57"/>quia non dependent ab aliquo nisi a deo. sed aliquid non 
+      praes<lb ed="#V" n="58" break="no"/>adnihilare aliud nisi desinat causare illud quod ipsum causabat: 
+      <lb ed="#V" n="59"/>sed in hoc sacramento adnihilari dicitur. igitur talis virtus si ponati 
+      <lb ed="#V" n="60"/>non poterit talem adnihilationem attingere: si dicas non 
+      ad<lb ed="#V" n="61" break="no"/>nihilatur saltem hoc est verum quod desinit esse. ergo attingit ad  
+      <lb ed="#V" n="62"/>suum non esse: quod non potest aliquis nisi deus.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e329">
+      ¶ Secundo ex 
+      par<lb ed="#V" n="63" break="no"/>te termini ad que: quia transubtantiatio fit in totum corpus christi 
+      <lb ed="#V" n="64"/>non in partem. Et ita terminus partialis est materia: sed nulla causa 2a 
+      <lb ed="#V" n="65"/>potest attingere insttraliter ad productionem prius materiae cum sit 
+      <lb ed="#V" n="66"/>fundamentum in causis secundis semper praesuppositum.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e340">
+      ¶ 3o quando 
+      <!--390.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>cumque aliquod mouens potest inducere aliquem terminum potest 
+      pro<lb ed="#V" n="68" break="no"/>ducere per consequens omnia accidentia eius per concomitantiam: sed in 
+      transubstantia<lb ed="#V" n="69" break="no"/>tione anima substantial christi est concomitans. ergo virtus creata habet aliquam 
+      <lb ed="#V" n="70"/>virtutem super animam christi rationalem: et etiam super virtutem eodem modo qui 
+      at<lb ed="#V" n="71" break="no"/>tingeret productiue. quod est impossibile.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e358">
+      ¶ Sed occu. di. quia licet 
+      <lb ed="#V" n="72"/>ignis generans ignem no generet materiam primam: tamen generat totum 
+      <lb ed="#V" n="73"/>compositum: et per consequens materiam sed non primo.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e365">
+      ¶ Item homo generat hominem: 
+      <lb ed="#V" n="74"/>et tamen non attingit terminum praencipalis.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e370">
+      ¶ Item caelum generat 
+      <lb ed="#V" n="75"/>bruta.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e375">
+      ¶ Ad primum dico quod compositum accipitur 2. Aliquando pro 
+      <lb ed="#V" n="76"/>mam et forma simils sumptis: et isto modo generans numquam gnerat 
+      com<lb ed="#V" n="77" break="no"/>positum. Aliquando accipitur pro 3a entitate resultante et sic 
+      conce<lb ed="#V" n="78" break="no"/>ditur.
+    </p>
+            <p xml:id="FrMS88-f47873-d1e385">
+      ¶ Ad 2m non video quod si in eo non esset nisi illa forma quae 
+      <lb ed="#V" n="79"/>esset homo produceretur ab homine. et per idem de sole animalia generante.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="101-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e74850"><!-- l1d32q7 -->
+            <head xml:id="FrMS88-e74850-Hd1e108">Quaestio 7</head>
+            <p xml:id="FrMS88-e74850-d1e111">
+      Questio. vii. 
+      <lb ed="#V" n="60"/>UTrum actus spirandi praecedat actum 
+      <lb ed="#V" n="61"/>volendi.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e118">
+      ¶ hic per videndum 
+      <lb ed="#V" n="62"/>est de terminis. 2m de quesito.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e123">
+               <lb ed="#V" n="63"/>Quantum ad primum quid scilicet sit 
+      spira<lb ed="#V" n="64" break="no"/>re et velle. Dico quod 
+      <lb ed="#V" n="65"/>velle est actus elicitus voluntatis. quo ipsa voluntas vult 
+      <lb ed="#V" n="66"/>Spirare autem est ipsa elicitio prioris actus.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e134">
+      ¶ Ad cuius 
+      <lb ed="#V" n="67"/>euidentiam sciendum est quod voluntas habet 4or actus. Primo. enim est 
+      <!--204.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="68"/>actus elicitus. et non impratus: sicut ille quo voluntas libere 
+      <lb ed="#V" n="69"/>vult suum obiectum: quia talis elicitur a potentia libera cum sit liber: non 
+      <lb ed="#V" n="70"/>est autem imparatus. cum sibipsi voluntas impare non possit. 
+      </p>
+            <p xml:id="FrMS88-e74850-d1e151">
+               <lb ed="#V" n="71"/>¶ 2us actus est elicitus et imperatus sicut actus potentie 
+      intelle<lb ed="#V" n="72" break="no"/>ctiue quando mouetur a voluntate.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e158">
+      ¶ 3us est imperatus et non eli 
+      <lb ed="#V" n="73"/>citus: sicut ille qui est executiue potentie motea volun 
+      <lb ed="#V" n="74"/>tate. Tales enim potentie proprie non eliciunt actus suos. eo quod 
+      <lb ed="#V" n="75"/>sint transeuntes. tamen causantur per imperium voluntatis.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e167">
+      ¶ 4o 
+      <lb ed="#V" n="76"/>nec est elicitus nec imparatus: sed est ipsa elicitio. vt po 
+      <lb ed="#V" n="77"/>te actus elitionis quo elicit suum actum: quia elitio non elici 
+      <lb ed="#V" n="78"/>tur: sed est illud quo aliquid elicitur: sicut relatio non referti 
+      <lb ed="#V" n="79"/>sed est ratio referendi: alioquin esset processus in infinitum. Nec 
+      <lb ed="#V" n="80"/>etiam ipsa elicio impratur. quia ipsa omnem actum voluntatis alii 
+      <lb ed="#V" n="81"/>praecedit: qui scilicet dici debeat imperatus. Actus autem quo 
+      volun<lb ed="#V" n="82" break="no"/>tas imperat praecedit imperatum. Iste autem actus scilicet ipsa elitio 
+      <lb ed="#V" n="83"/>est spiratio. Sicut enim ad memoriam fecumdam partinet dicetur 
+      <lb ed="#V" n="84"/>actum intelligendi vel producere verbum secundum Aug. de tri. sic 
+      <lb ed="#V" n="85"/>ad voluntatem partinet spirare amorem qui est actus 
+      volendi<lb ed="#V" n="86" break="no"/>Patet ergo quid vtrumque istorum sit. 
+      <lb ed="#V" n="87"/>est quis istorum actuum fit 
+      prior<lb ed="#V" n="88" break="no"/>Nunc videndum Et quantum ad hoc pono 4o 
+      <lb ed="#V" n="89"/>iclusiones. Prima est quod actus spirandi in diuinis simpliciter est 
+      <lb ed="#V" n="90"/>posterior actu volendi: quia actus fecunditatis intellecti 
+      <lb ed="#V" n="91"/>ue praecedit secundum aliquem ordinem actum fecunditatis volitiue 
+      <lb ed="#V" n="92"/>ergo quocumque est posterior actus fecunditatis intellectiue 
+      <lb ed="#V" n="93"/>eodem est posterior actus fecunditatis volitiue: sed 
+      <lb ed="#V" n="94"/>omni perfectione simpliciter primus est posterior. et per consequens actu 
+      <lb ed="#V" n="95"/>volendi. ergo et 2us erit posterior actu volendi.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e213">
+      ¶ 2a conclusio est. quod 
+      <lb ed="#V" n="96"/>actus volendi vt in supposito spiritussancti est posterior 
+      <lb ed="#V" n="97"/>actu spirandi. quia omnis habitudo praesupponit sua 
+      extrena<lb ed="#V" n="98" break="no"/>sed velle vt in tali supposito dicit habitudinem actus 
+      vo<lb ed="#V" n="99" break="no"/>lendi vt ad tale suppositum. ergo praesupponit suppositum ex 
+      <lb ed="#V" n="100"/>tremum. Illud autem suppositum praesupponit suum formale 
+      <lb ed="#V" n="101"/>constitutiuum: quod est spiratio passiua siue actus 
+      spirandi<lb ed="#V" n="102" break="no"/>ergo actus volendi vt in spiritusancto praesupponit actum spiran 
+      <lb ed="#V" n="103"/>di.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e233">
+      ¶ Confirmatur. quia omne totum praesupponit suas partes: sed 
+      <lb ed="#V" n="104"/>actus volendi vt in supposito spiritussancti est quodam totum. 
+      <lb ed="#V" n="105"/>cuius partes sunt spiritussanctus et actus spirandi. ergo ille 
+      par<lb ed="#V" n="106" break="no"/>tes priores sunt. et per consequens actus spirandi.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e242">
+      ¶ 3a conclusio est. quod actus 
+      <lb ed="#V" n="107"/>volendi vt in supposito patris et filii non est posterior actu 
+      <lb ed="#V" n="108"/>spirandi. quia ante spirationem siue actiuam siue passiuam pater et 
+      <lb ed="#V" n="109"/>filius intelliguntur constituti in esse. et tunc actus volendi pries 
+      <lb ed="#V" n="110"/>eis attribui.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e254">
+      ¶ 4a conclusio est. quod actus spirandi in creaturis est 
+      <lb ed="#V" n="111"/>posterior actu volendi. et hanc probo 4r. Primo sic. quandocum 
+      <lb ed="#V" n="112"/>que aliqua duo: ita se habent quod posito vno necessario ponitur et 
+      <lb ed="#V" n="113"/>aliud. si vnum non est in potestate voluntatis: nec aliud. sei 
+      <lb ed="#V" n="114"/>ergo actus spirandi fit prior actu volendi. oportebit quod actus 
+      <lb ed="#V" n="115"/>spirandi vel sit in potestate voluntatis. vel si no. quod eo 
+      <lb ed="#V" n="116"/>posito actus volendi contingenter ponatur: sed vtrumque isto 
+      <lb ed="#V" n="117"/>rum est falsum. non autem actus spirandi est in potestate 
+      vo<lb ed="#V" n="118" break="no"/>luntatis. quia posito termino et fundamento velit nolit 
+      <lb ed="#V" n="119"/>voluntas: ponitur non posito autem termino velit no 
+      <lb ed="#V" n="120"/>lit voluntas: non potest poni. est enim respectus intrinse 
+      <lb ed="#V" n="121"/>cus adueniens. Sequitur ergo quod si spirare vel spirari fit 
+      pri<lb ed="#V" n="122" break="no"/>us actu volendi. quod ipse actus volendi non erit in potestate 
+      <lb ed="#V" n="123"/>nostra.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e285">
+      ¶ Secundo sic. Omnis relatio est posterior suo termino: 
+      <lb ed="#V" n="124"/>sed spiratio actiua est relatio terminata ad actum 
+      volen<lb ed="#V" n="125" break="no"/>di. ergo posterior.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e292">
+      ¶ Tertio sic. Spirare et spiraristur simul 
+      <lb ed="#V" n="126"/>natura: sed spirari est posterius suo fundamento quod est 
+      velle<lb ed="#V" n="127" break="no"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e299">
+      ¶ Quarto quia non repugnat actui volendi esse 
+      <lb ed="#V" n="128"/>sine actu spirandi. vt patet in patre. Repugnat autem vniversaliter actui 
+      <lb ed="#V" n="129"/>spirandi esse sine actu volendi. ergo actus volendi simpliciter est 
+      <lb ed="#V" n="130"/>prior. patet etiam minor in creaturis: quia si actus volendi 
+      totali<lb ed="#V" n="131" break="no"/>ter causatur a deo. erit actus volendi et non spirandi.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e310">
+      ¶ Sed 
+      <lb ed="#V" n="132"/>der ista instatur. 4r. primo sic. habitudo ad intra est prior 
+      habitudi<lb ed="#V" n="133" break="no"/>ne ad extra. sed actu volendi deus attingit creaturam. et per 
+      <!--205.xml-->
+      <pb ed="#V" n="101-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>consequens habet habitudidinem ad extra. per spirare solum ad intra. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e74850-d1e326">
+               <lb ed="#V" n="2"/>¶ 2o sic. quia dictum fuit superius quod actus dicendi non solum in se. 
+      ve<lb ed="#V" n="3" break="no"/>rum etiam in supposito patris est posterior actu intelligendi. ergo 
+      <lb ed="#V" n="4"/>videtur quod vniformiter sit dicendum de actu spirandi et volendi in 
+      <lb ed="#V" n="5"/>spusan.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e338">
+      ¶ 3o sic. Nam persone vniformiter volunt. ergo eodem 
+      <lb ed="#V" n="6"/>ordine actus volendi eis comuicatur. cum ergo velle in supposito 
+      <lb ed="#V" n="7"/>spiritussancti sit posterius actu spirandi. eodem modo erit dicendum 
+      <lb ed="#V" n="8"/>quod velle in supposito patris et filii erit posterius actu 
+      spiran<lb ed="#V" n="9" break="no"/>di.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e349">
+      ¶ 4o quia cum velle sit recipere actum volendi. non est in 
+      potesta<lb ed="#V" n="10" break="no"/>te nostra: sed producere actum quod idem est quod spirare.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e354">
+      ¶ Ad primum 
+      di<lb ed="#V" n="11" break="no"/>co quod deus eodem actu vult intrinseca et extrinseca. et ille 
+      <lb ed="#V" n="12"/>actus in se praecedit: licet n in habitudine ad extrinate.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e361">
+      ¶ Ad 2m 
+      <lb ed="#V" n="13"/>dieo quod vniformiter est dicendum vtrobique. Dico enim quod 
+      intelli<lb ed="#V" n="14" break="no"/>gere vt in supposito patris praesupponit patrem et est posterius 
+      <lb ed="#V" n="15"/>ipsodiceme. Eodem modo dicendum est de spirituscom.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e370">
+      ¶ Ad 3m dico quod 
+      <lb ed="#V" n="16"/>verum concluderet si spirare esset constitutiuum patris et filii. ¶3 
+      <lb ed="#V" n="17"/>ero supposita patris et filii et spiritussa. eodem ordine actum 
+      volendin<lb ed="#V" n="18" break="no"/>habeant. non tamen eodem ordine addita reduplicatione scilicet in 
+      re<lb ed="#V" n="19" break="no"/>spectu ad actum spirandi.
+    </p>
+            <p xml:id="FrMS88-e74850-d1e381">
+      ¶ Ad 4m dico quod actus 
+      volen<lb ed="#V" n="20" break="no"/>di non est in potestate nostra per productionem: aut per spirare: sicut prius 
+      <lb ed="#V" n="21"/>osensum est. sed per posse producere et posse non produce quod 
+      <lb ed="#V" n="22"/>non est aliud nisi virtus actiua voluntatis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

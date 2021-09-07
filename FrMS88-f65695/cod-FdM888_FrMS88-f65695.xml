@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="213-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f65695"><!-- l4d18q3 -->
+            <head xml:id="FrMS88-f65695-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f65695-d1e111">
+               <lb ed="#V" n="100"/>Tertia questio. vtrum 
+      excommuni<lb ed="#V" n="101" break="no"/>catio fuerit instituta a iure 
+      di<lb ed="#V" n="102" break="no"/>uino.
+    </p>
+            <p xml:id="FrMS88-f65695-d1e120">
+      ¶ Et videtur quod non. Dicit enim 
+      <lb ed="#V" n="103"/>apostolus. potestatem non dedit in destructio 
+      <lb ed="#V" n="104"/>nem sed in edificationem.
+    </p>
+            <p xml:id="FrMS88-f65695-d1e127">
+      ¶ Contra. Ide 
+      <lb ed="#V" n="105"/>qui enim aue dixerit ei communicat operibus eius ma 
+      <lb ed="#V" n="106"/>lis etc. et hoc est excommunicatione. 
+      <lb ed="#V" n="107"/>est. quid est excomunicatio. 
+      <lb ed="#V" n="108"/>hic videndum
+    </p>
+            <p xml:id="FrMS88-f65695-d1e138">
+      ¶ Et dico quatuor 
+      con<lb ed="#V" n="109" break="no"/>clusiones.
+    </p>
+            <p xml:id="FrMS88-f65695-d1e144">
+      ¶ Prima est quod excomnicatio non est peccatum. sed  
+      <lb ed="#V" n="110"/>pena peccati.
+    </p>
+            <p xml:id="FrMS88-f65695-d1e149">
+      ¶ Primum patet. quia illud quod ab 
+      extrinse<lb ed="#V" n="111" break="no"/>co infertur non est peccatum. sic est de exconicatione. vnde 
+      <lb ed="#V" n="112"/>inuoluntarie inferuntur.
+    </p>
+            <p xml:id="FrMS88-f65695-d1e156">
+      ¶ Secundum etiam patet. quia nunquam infertur 
+      <lb ed="#V" n="113"/>nisi pro preccato.
+    </p>
+            <p xml:id="FrMS88-f65695-d1e161">
+      ¶ Secunda. quia non dicit formam realem: sed ratio 
+      <lb ed="#V" n="114"/>nis.
+    </p>
+            <p xml:id="FrMS88-f65695-d1e166">
+      ¶ Primum patet. quia causatur a sola voluntate 
+      alicu<lb ed="#V" n="115" break="no"/>ius distantis sicut prope. vnde potest papa excommunicare 
+      <lb ed="#V" n="116"/>existens in roma aliquem in hyspania.
+    </p>
+            <p xml:id="FrMS88-f65695-d1e173">
+      ¶ Secundum patet 
+      <lb ed="#V" n="117"/>accipiendo rationem prout sequitur actum voluntatis iurisditio 
+      <lb ed="#V" n="118"/>nis superioris.
+    </p>
+            <p xml:id="FrMS88-f65695-d1e181">
+      ¶ Tertia conclusio. quod est ens 
+      respe<lb ed="#V" n="119" break="no"/>ctiuum. quia in habitudine ad aliud. vnde comicare dicint 
+      <lb ed="#V" n="120"/>respectum. ergo extra comunicare: quia ad idem genus 
+      reduci<lb ed="#V" n="121" break="no"/>tur priuatio cum suo habitu secundum Augu. o de trinita. 
+      </p>
+            <p xml:id="FrMS88-f65695-d1e190">
+               <lb ed="#V" n="122"/>¶ Quarta conclusio. quod est pena priuatiua: quia priuat 
+      com<lb ed="#V" n="123" break="no"/>munionem prout omnia membra ecclesie sunt connexa in 
+      ca<lb ed="#V" n="124" break="no"/>pite influente scilicet christo in vita spirituali.
+    </p>
+            <p xml:id="FrMS88-f65695-d1e199">
+      ¶ Sed nunquid est 
+      pe<lb ed="#V" n="125" break="no"/>na determinati peccati.
+    </p>
+            <p xml:id="FrMS88-f65695-d1e204">
+      ¶ Dicitur quod mortalis tantum: non tame 
+      <lb ed="#V" n="126"/>cuiuscumque mortalis: sed precti secundum quod institutum est. 
+      <lb ed="#V" n="127"/>particula in quibus casibus fit 
+      excon<lb ed="#V" n="128" break="no"/>Secunda municatio in scriptura inueniuntur 
+      <lb ed="#V" n="129"/>autem quatuor casus in quibus apostoli excomnicauerunt 
+      <lb ed="#V" n="130"/>in heresis perfidia in enormi culpa. in conuersatione 
+      <lb ed="#V" n="131"/>peuersa: et in contumacia siue inobstantia.
+    </p>
+            <p xml:id="FrMS88-f65695-d1e220">
+      ¶ Primum pare. 
+      <!--430.xml-->
+      <pb ed="#V" n="214-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ad galie. primo. Si quis aliud euangeligzauerit praeterquam quod 
+      euangeli<lb ed="#V" n="2" break="no"/>atum est anathema sit. hoec idem ad titum per ca. Aliqui 
+      nau<lb ed="#V" n="3" break="no"/>ragauerunt circa fidere: quos tradidi sathane. Et nota 
+      <lb ed="#V" n="4"/>quod in praemitiua ecclesia secundum aliquos: vt ostenderetur quam timen 
+      <lb ed="#V" n="5"/>da esset pena illa excomunicationis: statim excommunicatus 
+      acci<lb ed="#V" n="6" break="no"/>diebatur: et rapiebatur a demone. Item Io. in. 2. cantia sua. 
+      <lb ed="#V" n="7"/>si quis venit ad vos: et hanc doctrinam non habet nolite eum 
+      reci<lb ed="#V" n="8" break="no"/>pere in domo: nec aue ei dixeritis.
+    </p>
+            <p xml:id="FrMS88-f65695-d1e246">
+      ¶ 2m patet. prima ad 
+      cori<lb ed="#V" n="9" break="no"/>quinto. qui fecerit incestum cum vxore patris sui huiusmodi hominem 
+      <lb ed="#V" n="10"/>tradidi sathane.
+    </p>
+            <p xml:id="FrMS88-f65695-d1e254">
+      ¶ Tertium de conuersatione peruersa 
+      <lb ed="#V" n="11"/>patet et potissime qui viuebant inquiete: et discordias 
+      semina<lb ed="#V" n="12" break="no"/>bant. Ro. vltimo. Rogo vos fratres vt obsuetis eos 
+      <lb ed="#V" n="13"/>qui discensiones: et offendicula praeter doctrinam quam 
+      au<lb ed="#V" n="14" break="no"/>distis ferunt: et declinetis ab illis scilicet non communicando. et 
+      pri<lb ed="#V" n="15" break="no"/>me ad corin. 5o. si is qui nominatus est frits inter vos est forni 
+      <lb ed="#V" n="16"/>cator: aut auarus: aut idolis seruiens autem maledicus. aut 
+      <lb ed="#V" n="17"/>ebriosus. aut rapax. cum huiusmodi nec cibum sumere: nec comuica 
+      <lb ed="#V" n="18"/>re. quod intelligitur de frequenter monito.
+    </p>
+            <p xml:id="FrMS88-f65695-d1e274">
+      ¶ De 4o. 
+      secun<lb ed="#V" n="19" break="no"/>da ad thesaloni. vltimo. si quis non obedit verbo meo per 
+      <lb ed="#V" n="20"/>eptlam hanc notate. et non commisceamini cum illo: vt 
+      confi<lb ed="#V" n="21" break="no"/>datur. Et quia tales pene sunt medicine. ideo subdit et nolite 
+      <lb ed="#V" n="22"/>quasi inimicum illum existimare: sed corripite vt fratrem.
+    </p>
+            <p xml:id="FrMS88-f65695-d1e285">
+      ¶ Et 
+      <lb ed="#V" n="23"/>hec nota est ex comunicationis.
+    </p>
+            <p xml:id="FrMS88-f65695-d1e290">
+      ¶ Sed quid modo si dicitet 
+      obsen<lb ed="#V" n="24" break="no"/>uari talis modus.
+    </p>
+            <p xml:id="FrMS88-f65695-d1e295">
+      ¶ Dicitur quod solus modus quartus 
+      contu<lb ed="#V" n="25" break="no"/>macie vel inobenie eiure. vnde pro enormi culpa nullus 
+      <lb ed="#V" n="26"/>excomunicatur nisi habeat contumaciam annexam
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

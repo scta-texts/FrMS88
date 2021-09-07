@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f70309"><!-- l4d22q1 -->
+            <head xml:id="FrMS88-f70309-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f70309-d1e111">
+               <lb ed="#V" n="52"/>Cumque multis auctoritatibus. 
+      <lb ed="#V" n="53"/>HIc incipit xxiia
+    </p>
+            <p xml:id="FrMS88-f70309-d1e118">
+      ¶ Circa 
+      <lb ed="#V" n="54"/>quam queruntur quatuor. 
+      </p>
+            <p xml:id="FrMS88-f70309-d1e123">
+               <lb ed="#V" n="55"/>¶ Primo. vtrum post relapsum in pecca 
+      <lb ed="#V" n="56"/>tum mortale reuertantur omnia peccata praete 
+      <lb ed="#V" n="57"/>rita.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e132">
+      ¶ Quod sic. deuterono. mea est vltimo 
+      <lb ed="#V" n="58"/>et ego retribuam eis in tempore vt labatur 
+      <lb ed="#V" n="59"/>pes eorum id est si labantur in peccatum: et loquitur de 
+      pecca<lb ed="#V" n="60" break="no"/>to beelphegor per vdolatriam. ergo per relapsum de o 
+      <lb ed="#V" n="61"/>bus puniuntur.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e144">
+      ¶ Contra. prophilosopha dicit. Non consurget 
+      du<lb ed="#V" n="62" break="no"/>plex tribulatio bis in ipsum: et introducitur in listera 
+      <lb ed="#V" n="63"/>quatuor 
+      conclusio<lb ed="#V" n="64" break="no"/>hic introducuntur nes.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e153">
+      ¶ Prima est 
+      <lb ed="#V" n="65"/>quod peccata de quibus fuit alis confessus possunt eadem re¬ 
+      <!--440.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>dire de potentia absoluta dei. hoc probatur. quia si peccatum 
+      <lb ed="#V" n="67"/>dicit habitum vitiosum. certum est quod deus hoc potest. si 
+      di<lb ed="#V" n="68" break="no"/>cit actum malum. similiter. Si reatum ad penam quod sic. si 
+      re<lb ed="#V" n="69" break="no"/>spectum ad iracundiam dei. patet etiam quod sic.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e171">
+      ¶ Secunda 
+      con<lb ed="#V" n="70" break="no"/>clusio. quod hoc non potest de potentia ordinata secundum 
+      norman<lb ed="#V" n="71" break="no"/>iustitie. probatur. quia pronior est ad miserendum quam ad 
+      pu<lb ed="#V" n="72" break="no"/>niendum. vt patet Exo. xicdio. igitur dato quod bona opera 
+      remi<lb ed="#V" n="73" break="no"/>niscantur. non tamen peccata. alioquin eque esset durus ad 
+      pu<lb ed="#V" n="74" break="no"/>niendum sicut est proptus ad miserendum.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e184">
+      ¶ Secundo. 
+      <lb ed="#V" n="75"/>quia in absolutione commutatur pena eterna in temporalem 
+      <lb ed="#V" n="76"/>sed non esset recta iustitia quod obligatus temporaliter pun a 
+      <lb ed="#V" n="77"/>tur eternaliter. et tamen hoc sequeretur.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e193">
+      ¶ Tertia conclusio quod secundum 
+      iu<lb ed="#V" n="78" break="no"/>stitiam non redeunt. probatio. quia peccatis mortalibus 
+      <lb ed="#V" n="79"/>confessis non est debita nisi pena temporalis. igitur secundum 
+      re<lb ed="#V" n="80" break="no"/>gulam iustitie eternaliter non dicet puniri.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e202">
+      ¶ Secundo quando 
+      ali<lb ed="#V" n="81" break="no"/>quis sufficienter est punitus secundum aliquod iudicium secundum 
+      consen<lb ed="#V" n="82" break="no"/>sum partium. non est iustitia quod de eodem facto in alio 
+      iu<lb ed="#V" n="83" break="no"/>dicio puniatur: sed in confessione ex consensu peccatoris et 
+      <lb ed="#V" n="84"/>dei taxata est pena temporalis pro peccatis. igitur non diliet 
+      <lb ed="#V" n="85"/>trahi pro eisdem est aliud iudicium.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e216">
+      ¶ Quarta 
+      conclusio<lb ed="#V" n="86" break="no"/>quod reuertuntur vt circumstantia aggrauans. talis enim cui 
+      <lb ed="#V" n="87"/>peccata sunt dimissa: magis deo tenetur. et per consequens 
+      ma<lb ed="#V" n="88" break="no"/>lorem ingratitudinem incurrit.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e225">
+      ¶ Secundo. quia pluribus ob 
+      <lb ed="#V" n="89"/>ligationibus obligatur talis et frangit pactum cum deo. 
+      <lb ed="#V" n="90"/>ideo plus peccauit.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e232">
+      ¶ Tertio in politicis. latro signa 
+      <lb ed="#V" n="91"/>tur semel. Secundo mutilatur. Tertio suspenditur. In 
+      eccle<lb ed="#V" n="92" break="no"/>sia similiter quando quis loquitur contra fidem. Primo monetur. 
+      po<lb ed="#V" n="93" break="no"/>stea si recidiuet condennatur. sed instatur contra ista.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e241">
+      ¶ Contra 
+      <lb ed="#V" n="94"/>prium deo volente. nullus fit deterior secundum Augu.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e246">
+      ¶ Dicitur quod 
+      <lb ed="#V" n="95"/>de facto deus non causat habitum vitiosum. sed quin de potentia 
+      <lb ed="#V" n="96"/>absoluta omnem habitum vitiosum posset causare sicut 
+      quan<lb ed="#V" n="97" break="no"/>cumque aliam naturam non apparet.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e255">
+      ¶ Contra 2m. hic 
+      redi<lb ed="#V" n="98" break="no"/>eadem ratio formalis peccati quae est habitudo ad 
+      iracun<lb ed="#V" n="99" break="no"/>diam dei. sicut ante prius fuit in ira. ita in eadem ira.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e263">
+      ¶ Di 
+      <lb ed="#V" n="100"/>co quod non pro eodem instanti.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e268">
+      ¶ contra 3m. quia flagitii contumacia 
+      <lb ed="#V" n="101"/>plus videtur displicere deo quam interando cum interruptione.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e273">
+      ¶ hoc est 
+      <lb ed="#V" n="102"/>difficile.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e278">
+      ¶ Dinco tamen quod ceteris paribus plus displicet dieon 
+      <lb ed="#V" n="103"/>interans: quia magis ex deliberatione videtur peccare. continuans 
+      <lb ed="#V" n="104"/>autem magis ex passione.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e285">
+      ¶ contra 4m. quando aliquis alitius non pecca 
+      <lb ed="#V" n="105"/>uit maiorem gratiam facit sibi deus quam alteri reddendo sibi 
+      in<lb ed="#V" n="106" break="no"/>nocentiam.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e292">
+      ¶ Dico quod vtrumque aggrauat pecatum relapsus et 
+      <lb ed="#V" n="107"/>innocentia.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e298">
+      ¶ Sed quid magis:
+    </p>
+            <p xml:id="FrMS88-f70309-d1e301">
+      ¶ Uitur quod relapsus. Tuc. 7. 
+      <lb ed="#V" n="108"/>dicitur duo debitores erant etc. Quis ergo plus diligit existio 
+      <lb ed="#V" n="109"/>quod ille cui plus donauit. Illi autem qui plus peccauit plus 
+      <lb ed="#V" n="110"/>donatur: qui magis est obligatus ad diligendum. sicut ille cui 
+      <lb ed="#V" n="111"/>dimisit plus peccat. similiter Io. 5. Ne deterius tibi contingat 
+      <lb ed="#V" n="112"/>Si deterius igitur interatio magis grauat.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e314">
+      ¶ Sed contra. 
+      regu<lb ed="#V" n="113" break="no"/>la moralis est. peccatum quanto magis voluntarium tanto grauius 
+      <lb ed="#V" n="114"/>sicut magis peccat intemperatus quam incontinens. ille autem qui 
+      nun<lb ed="#V" n="115" break="no"/>quam peccauit non habet inclinationem ad pecatum sicut alius. ideo me 
+      <lb ed="#V" n="116"/>raliter videtur peior ille qui nunquam peccauit: quia non sic impugna 
+      <lb ed="#V" n="117"/>tur.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e327">
+      ¶ 2o. pecatum luciferi fuit tantum: quia non habuit inclinatio 
+      <lb ed="#V" n="118"/>nem malam. et ex hoc fuit irremissibile. Similiter adam non hunit 
+      pro<lb ed="#V" n="119" break="no"/>nitatem. et ideo dicitur magis peccasse.
+    </p>
+            <p xml:id="FrMS88-f70309-d1e334">
+      ¶ Uitur mihi dicendum quod in 
+      <lb ed="#V" n="120"/>vno actu plus peccat qui fuit innocens: quia magis ingratus 
+      <lb ed="#V" n="121"/>maius enim benficium receparat: etiam moraliter: quia non inclinatur: sed 
+      <lb ed="#V" n="122"/>ex aliis pluribus: vt quia consuetus ad peccandum et non est 
+      era<lb ed="#V" n="123" break="no"/>dicans habitum. videtur alius plus peccare. vnde habent se sicut 
+      ex<lb ed="#V" n="124" break="no"/>cedentia et excessa: nam alterum alterum excedit.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

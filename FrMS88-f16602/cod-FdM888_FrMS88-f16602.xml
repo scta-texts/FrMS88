@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="155-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f16602"><!-- l2d14q5 -->
+            <head xml:id="FrMS88-f16602-Hd1e108">Quaestio 5</head>
+            <p xml:id="FrMS88-f16602-d1e111">
+      Quaestio. v 
+      <!--313.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>predictam distinctionem adhuc 
+      <lb ed="#V" n="68"/>Irc quero 4or quaestiones.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e122">
+      ¶ Prima quoes 
+      <lb ed="#V" n="69"/>est. Utrum sint quattuor spere elementorum. 
+      <lb ed="#V" n="70"/>Et videtur quod non. quia Gen. primo. ca. non nomi 
+      <lb ed="#V" n="71"/>natur nisi terra et aqua.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e131">
+      ¶ Contra. 
+      Da<lb ed="#V" n="72" break="no"/>uid innuitando creaturas interserit ignem: et 
+      aquam<lb ed="#V" n="73" break="no"/>preintelligere secundum philosophos et sanctos 
+      <lb ed="#V" n="74"/>hic oportet quod in vniuerso sunt. 14. spere 
+      <lb ed="#V" n="75"/>Prima est celi empyrei immobilis. 2a celi cristallini quid 
+      <lb ed="#V" n="76"/>est primum mobile. 3a est firmamenti. 4a est saturni. 5a est 
+      <lb ed="#V" n="77"/>iouis. 6a martis. 3a solis. 5a veneris. 5a mercurii. id 
+      <lb ed="#V" n="78"/>lune. a ignis. 2a aeris. 13a aque. 14a terre.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e149">
+      ¶ Sed  
+      <lb ed="#V" n="79"/>hic est dif. quare caelum empyreum dicitur sic:
+    </p>
+            <p xml:id="FrMS88-f16602-d1e155">
+      ¶ Dicendum quod dicitur a 
+      <lb ed="#V" n="80"/>pir: quod est ignis: quia fulget sicut ignis: immo incomparabi 
+      <lb ed="#V" n="81"/>liter plus.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e162">
+      ¶ 2a difficultas de celo cristallino.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e165">
+      ¶ Dico quod est 
+      <lb ed="#V" n="82"/>non quod sit de nam cristalli. sed quia ita clarum est ad modum 
+      <lb ed="#V" n="83"/>cristalli.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e172">
+      ¶ 3a difficultas de firmameto. Dicitur quod sic dicitur: non eo quod 
+      <lb ed="#V" n="84"/>solidum. quia etiam alia sunt huiusmodi. sed sic dicitur propter opacitatem. 
+      <lb ed="#V" n="85"/>Alia enim vel sunt lucida vel peruia.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e179">
+      ¶ 4a difficultas de spera 
+      <lb ed="#V" n="86"/>saturni.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e184">
+      ¶ Dicitur quod est planeta maliuolus: siccus et 
+      mela<lb ed="#V" n="87" break="no"/>cholicus: et sic dicitur nomine cuiusdam qui sic vocatus fuit. 
+      </p>
+            <p xml:id="FrMS88-f16602-d1e190">
+               <lb ed="#V" n="88"/>¶ 5a difficultas de inoue. dicitur quod est beniuolus calidus et 
+      humi<lb ed="#V" n="89" break="no"/>dus: et fuit filius saturni.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e197">
+      ¶  6a difficultas de spera martis 
+      </p>
+            <p xml:id="FrMS88-f16602-d1e200">
+               <lb ed="#V" n="90"/>¶ Dicitur quod est roboratiuus cordis. et ideo dictus esta 
+      <lb ed="#V" n="91"/>marte illo.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e207">
+      ¶ a difficultas de sole.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e210">
+      ¶ Dicitur quod est pater omnium 
+      <lb ed="#V" n="92"/>rerum.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e215">
+      ¶ 5a difficultas de venere.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e219">
+      ¶ Sciendum est quod est 
+      beniue<lb ed="#V" n="93" break="no"/>lus in calore et humore: et generatiuus amicitie. Et dicitur est 
+      <lb ed="#V" n="94"/>hesperus nobilissimum corpus inter stellas praeter solem. 
+      </p>
+            <p xml:id="FrMS88-f16602-d1e226">
+               <lb ed="#V" n="95"/>¶ Nona difficultas de mercurio.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e231">
+      ¶ Dicitur quod est humidus. 
+      </p>
+            <p xml:id="FrMS88-f16602-d1e234">
+               <lb ed="#V" n="96"/>¶ Decima di. de luna.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e239">
+      ¶ Dicitur quod est maliuolus planeta. 
+      <lb ed="#V" n="97"/>sed variatur eius effectus: quia multum discurrit in godiaco. 
+      </p>
+            <p xml:id="FrMS88-f16602-d1e244">
+               <lb ed="#V" n="98"/>¶ Undecima difficultas de igne: que necessaritas 
+      compel<lb ed="#V" n="99" break="no"/>lit ignem positionem in spera. non apparet ratio.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e252">
+      ¶ Sed per 
+      in<lb ed="#V" n="100" break="no"/>fluentiam corporum celestium potest saluari. vnde quia leuia 
+      ascene<lb ed="#V" n="101" break="no"/>dunt sursum. ideo ponitur ibi aliquod corpus actiuum: et in 
+      <lb ed="#V" n="102"/>hoc concordant sancti et philosophi.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e261">
+      ¶ Duodecima difficultas. 
+      <lb ed="#V" n="103"/>de spera aeris. dicitur quod excedit in quantitate decupla ignis 
+      <lb ed="#V" n="104"/>aerem: quia positio materiae in eis fuit equalis: raritas autem in 
+      <lb ed="#V" n="105"/>decuplo.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e270">
+      ¶ Tredecima difficultas de aqua: quomodo non circuit 
+      <lb ed="#V" n="106"/>terram cum debeat esse sperica.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e275">
+      ¶ Dicitur quod naturaliter ita esset: sed 
+      <lb ed="#V" n="107"/>propter habitationem animalium deus dixit. Congregentur 
+      <lb ed="#V" n="108"/>aque omnes in vnum locum etc.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e282">
+      ¶ Decimaquarta difficultas de 
+      <lb ed="#V" n="109"/>terra que est immobilis: cum ignis et alia sint mobilia. 
+      </p>
+            <p xml:id="FrMS88-f16602-d1e287">
+               <lb ed="#V" n="110"/>¶ Dicit tamen quidam doctor quod si terra moueretur et caelum quid 
+      <lb ed="#V" n="111"/>sceret: quod hoc esset melior dispositio. Sed hoc impugnatur 
+      <lb ed="#V" n="112"/>propter diuersitatem motuum in celo que non possent salua 
+      <lb ed="#V" n="113"/>ri. Sunt autem due qualitates actiue scilicet frigiditas et 
+      calidi<lb ed="#V" n="114" break="no"/>tas: et due passiue scilicet siccitas et humiditas.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e301">
+      ¶ Sed 
+      sun<lb ed="#V" n="115" break="no"/>ne per se passiones elistentorum:
+    </p>
+            <p xml:id="FrMS88-f16602-d1e306">
+      ¶ Dico quod non: quia 
+      frigidi<lb ed="#V" n="116" break="no"/>tas separatur ab aqua: sunt tamen conuertibiles.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e311">
+      ¶ Alia difficultas 
+      <lb ed="#V" n="117"/>cum maior sit siccitas terre quam ignis. quare non magis 
+      <lb ed="#V" n="118"/>desiccat: et eodem modo de humiditate aeris.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e318">
+      ¶ Dico quod 
+      <lb ed="#V" n="119"/>hoc est: quia caliditas et frigiditas sunt qualitates actiue. 
+      <lb ed="#V" n="120"/>ignis autem est primo calidus: siccitas de se non est qualitas 
+      <lb ed="#V" n="121"/>actiua.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e327">
+      ¶ Alia difficultas quando aqua diuiditur redit ad 
+      sperici<lb ed="#V" n="122" break="no"/>tatem. Dico quod hoc attestatur fini eius materiali.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e332">
+      ¶ Alia difficultas 
+      <lb ed="#V" n="123"/>quare ignis habet figuram pyramidalem. Dicitur quod hoc est: quia 
+      <lb ed="#V" n="124"/>appetit esse sursum. ideo habet talem figuram quandiu mouetur: 
+      <lb ed="#V" n="125"/>sed quando est in loco suo in magna quantitate habet tantum figuran 
+      <lb ed="#V" n="126"/>spericam.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e344">
+      ¶ Sed quid de flamma: est ne purum eltentum. Dicitur 
+      <lb ed="#V" n="127"/>quod vapor et flamma sunt corpora mixta. In sola autem sper 
+      <lb ed="#V" n="128"/>est inuenire purum elistentum.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e351">
+      ¶ Alia difficultas. quare non vide 
+      <lb ed="#V" n="129"/>tur: et dicitur quod est dyaphanum magis quam aer: in aliena 
+      <lb ed="#V" n="130"/>autem mtam terminatur et videtur.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e358">
+      ¶ Alia difficultas. quare in 
+      <lb ed="#V" n="131"/>suis finibus non se consumunt. Dicitur quod habent qualitates: 
+      <lb ed="#V" n="132"/>ita remissas in extremitatibus quod non corrumpunt sed 
+      <!--314.xml-->
+      <pb ed="#V" n="156-r"/>
+               <cb ed="#V" n="a"/>
+            </p>
+            <p xml:id="FrMS88-f16602-d1e371">
+               <lb ed="#V" n="1"/>¶ Sed est ne dare antipodas: certum est de 
+      possibili<lb ed="#V" n="2" break="no"/>quod deus posset facere: sed de facto non est: quia scriptura 
+      <lb ed="#V" n="3"/>nihil de hoc dicit. Sed si esset dare plures mundos esset 
+      <lb ed="#V" n="4"/>ne sicut Aristo. dicit. Quod terra vnius moueretur ad 
+      ter<lb ed="#V" n="5" break="no"/>ram alterius vel ad centrum eius. Dicitur quod non: quia in alio 
+      <lb ed="#V" n="6"/>mundo esset sufficienter quietata. ideo non appeteret aliud 
+      </p>
+            <p xml:id="FrMS88-f16602-d1e387">
+               <lb ed="#V" n="7"/>¶ Alia difficultas. si deus creauit animalia que sunt 
+      in<lb ed="#V" n="8" break="no"/>quolibet elemento de natura illius elementi. Dico quod 
+      animali<lb ed="#V" n="9" break="no"/>terrestria de terra. aues tamen et pisces de ma aque 
+      </p>
+            <p xml:id="FrMS88-f16602-d1e396">
+               <lb ed="#V" n="10"/>¶ Alia difficultas. Si ignis est corpus rarissimum. 
+      <lb ed="#V" n="11"/>Dicitur quod sic. quia inter simplicia est maxime rarum. vnde et 
+      <lb ed="#V" n="12"/>videmus quod de modico corpore fumus egrediter quasi in 
+      <lb ed="#V" n="13"/>improportionabili quantitate.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e408">
+      ¶ Alia difficultas. si 
+      <lb ed="#V" n="14"/>ignis posset naturaliter perpetuari alicui intrinsecus. Dico quod 
+      <lb ed="#V" n="15"/>sic. quia nulla forma incompossibilis posset introduci. que enim 
+      <lb ed="#V" n="16"/>esset: non forma mixti: quia illud esset depraessius et densius 
+      <lb ed="#V" n="17"/>igne et sic condensando esset ibi vacuum. Sed quid dicemus 
+      <lb ed="#V" n="18"/>quando vinum in vase corrumpitur et est rarius alio corpore 
+      mi<lb ed="#V" n="19" break="no"/>xto. si introducitur mixtum rarius: tunc duo corpora essent in 
+      <lb ed="#V" n="20"/>eodem loco. si depressius habetur vacuum. Potest autem dici quod 
+      <lb ed="#V" n="21"/>sint corpora porosa et fit euaporatio substantialis. Sed 
+      <lb ed="#V" n="22"/>potest ne dari vacuum naturaliter. videtur quod sic. accipiantur duo 
+      <lb ed="#V" n="23"/>corpora plana coniugantur quando eleuantur: vel oportet implere 
+      <lb ed="#V" n="24"/>aere: vel est vacuum: et quia aer non potest ingredi nisi in 
+      ten<lb ed="#V" n="25" break="no"/>pore: et in illo est vacuum.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e437">
+      ¶ hic dicitur quod non est dare talia 
+      <lb ed="#V" n="26"/>duo corpora contigua inter que non sit aer: et iste aer rarefit 
+      <lb ed="#V" n="27"/>successiue: sicut illud mouetur successiue.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e444">
+      ¶ Sed contra. 
+      <lb ed="#V" n="28"/>vltra decuplam proportionem non potest rarefieri aer. ponatur 
+      er<lb ed="#V" n="29" break="no"/>go tanta latitudo eorum quod requiratur vltra decuplam propositotum 
+      <lb ed="#V" n="30"/>tionem: et sic non poterit fieri tanta rarefactio nisi dicatur 
+      <lb ed="#V" n="31"/>quod illa corpora sint porosa per que aer ingrediter. non 
+      ap<lb ed="#V" n="32" break="no"/>paret solutio.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e457">
+      ¶ Sed quare deus fecit illa corpora sperice 
+      <lb ed="#V" n="33"/>figure.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e462">
+      ¶ Rsonsisio. primo: quia figura sperica est 
+      simplicissi<lb ed="#V" n="34" break="no"/>ma. alie autem constant ex pluribus superficiebus: sicut 
+      qua<lb ed="#V" n="35" break="no"/>dratus est ex sex superficiebus.
+    </p>
+            <p xml:id="FrMS88-f16602-d1e469">
+      ¶ Secundo: quia est figura 
+      ca<lb ed="#V" n="36" break="no"/>pacissima. similiter equalissima: quia linee ducte a centro 
+      <lb ed="#V" n="37"/>ad circunferentiam sunt equales. similiter 
+      integerri<lb ed="#V" n="38" break="no"/>ma: quia nunquam potest diuidi in speras. et ideo 
+      figu<lb ed="#V" n="39" break="no"/>ra perfectissima est sperica propter istas quattuor 
+      pre<lb ed="#V" n="40" break="no"/>rogatiuas.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

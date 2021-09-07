@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="134-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f00038"><!-- l1d45q4 -->
+            <head xml:id="FrMS88-f00038-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f00038-d1e111">
+      Questio. iiii. 
+      <lb ed="#V" n="124"/>in actibus moralibus 
+      intelle<lb ed="#V" n="125" break="no"/>Trum ctus praecedat voluntatem. 
+      </p>
+            <p xml:id="FrMS88-f00038-d1e118">
+               <lb ed="#V" n="126"/>¶ hic sunt duo videnda. primum est 
+      proposit<lb ed="#V" n="127" break="no"/>situm. 2m est. vtrum voluntas possit aliquid  
+      <lb ed="#V" n="128"/>velle non precognitum. 
+      <lb ed="#V" n="129"/>ad primum dicit vnus doctor quod in morali 
+      <lb ed="#V" n="130"/>Quantum bus voluntas praecedit intellectum: et 
+      <lb ed="#V" n="131"/>actus volendin vt moralis: est prior actu intelligendi omnis 
+      <lb ed="#V" n="132"/>autem actus moralis specificatur a fine: sed non nisi inquantum 
+      <!--271.xml-->
+      <pb ed="#V" n="134-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>prordinatur in ipsum: sed non priordinatur nisi per voluntatem. ergo ipsa 
+      <lb ed="#V" n="2"/>praecedit. Sequitur etiam quod actus intellectus vt praecedit actum volunta. 
+      <lb ed="#V" n="3"/>tis: non est mere moralis: sed tantum naturalis.
+    </p>
+            <p xml:id="FrMS88-f00038-d1e149">
+      ¶ 2o sic. omnis 
+      exte<lb ed="#V" n="4" break="no"/>sio per quam aliquid fit practicum praecedit actum qui fit practicur 
+      <lb ed="#V" n="5"/>per eam: vt practicus est: sed ista sit a voluntate. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f00038-d1e156">
+      ¶ Sed 
+      <lb ed="#V" n="6"/>de actu imperato: quodo potest esse prius impratum quam cognitum. 
+      du<lb ed="#V" n="7" break="no"/>est. Dicitur hoc quod prius cognoscitur sub ratione vniuersali.
+    </p>
+            <p xml:id="FrMS88-f00038-d1e164">
+      ¶ Contra. quia 
+      <lb ed="#V" n="8"/>sub ratione particulari impratur. ergo imperatur sub ista ratione: sub qua 
+      <lb ed="#V" n="9"/>non praecognoscitur. Dicitur quod illa ratio particulari est praecognita in generali. 
+      <lb ed="#V" n="10"/>Non videtur mihi quod aliter posset perfecte saluari: nisi dicendo quod est 
+      ali<lb ed="#V" n="11" break="no"/>qua ratio occulta quae praesupponitur inquirenda. Dico ergo quod oportet 
+      <lb ed="#V" n="12"/>necessario ponere: quod licet obiectum sit praecognitum scilicet talis acti 
+      <lb ed="#V" n="13"/>imparatus. non oportet tamen omnem conditionem obiecti praecognosci: sicut estam 
+      <lb ed="#V" n="14"/>dum ageretur de modis intrinsecis quomodo a deo 
+      cognoscun<lb ed="#V" n="15" break="no"/>tur et quomodo non. fuit superius ostensum. 
+      <lb ed="#V" n="16"/>ad 2m videndum est. si voluntas potest 
+      ali<lb ed="#V" n="17" break="no"/>Quantum quid velle n praecognitum. Dicit vnus doco 
+      <lb ed="#V" n="18"/>quod deus hoc de potentia sua absoluta posset facem. Et hoc declarat 
+      <lb ed="#V" n="19"/>sic. Actus intelligendi non videtur praexigi nisi in ratione alicuius 
+      causa<lb ed="#V" n="20" break="no"/>respectu actus volendi: sed non potest haec intellecti nisi in ratione causare 
+      extrin<lb ed="#V" n="21" break="no"/>sece et efficientis. Et tunc clarum est quod deus illam poterit supplem 
+      <lb ed="#V" n="22"/>quia tunc immediate per se ipsum causabit. Si dicatur quod non. quia sunmt ef 
+      <lb ed="#V" n="23"/>fectus essentialiter ordinati: sicut agens naturale praexigit approxi 
+      <lb ed="#V" n="24"/>mationem sui ad passum necessario. hoc dicendo habetur propositum. quia 
+      <lb ed="#V" n="25"/>in essentialiter ordinatis et realiter distinctis deus posterius 
+      po<lb ed="#V" n="26" break="no"/>terit facem sine priori: si sint absoluta. sicut patet de alteration 
+      <lb ed="#V" n="27"/>quae ordine essentiali praecedit generationem.
+    </p>
+            <p xml:id="FrMS88-f00038-d1e210">
+      ¶ Si dicatur. quod inter 
+      <lb ed="#V" n="28"/>velle et intelligere est ordo essentialis simpliciter. inter ista autem 
+      <lb ed="#V" n="29"/>secundum quid tantum.
+    </p>
+            <p xml:id="FrMS88-f00038-d1e217">
+      ¶ Sed contra. quia tunc petitur principium. quia ista sunt distincta 
+      <lb ed="#V" n="30"/>et absoluta.
+    </p>
+            <p xml:id="FrMS88-f00038-d1e222">
+      ¶ Alii autem dicunt. quod voluntas non potest ferri 
+      <lb ed="#V" n="31"/>obiectum nisi sit sibi repraesentatum. actus autem intellectus repraesentat obiectum 
+      <lb ed="#V" n="32"/>Sed quare deus non possit repraesentare. non video demonstrationem 
+      <lb ed="#V" n="33"/>Teneo tamen oppositum propter auteitates Aug. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

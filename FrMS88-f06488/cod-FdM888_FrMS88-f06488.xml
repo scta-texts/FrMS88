@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f06488"><!-- l2d1q7 -->
+            <head xml:id="FrMS88-f06488-Hd1e108">Quaestio 7</head>
+            <p xml:id="FrMS88-f06488-d1e111">
+      Quaestio. vii. 
+      <lb ed="#V" n="41"/>riq quaestio. Utrum essentia rei creabilis sit 
+      <lb ed="#V" n="42"/> Erutt semsentum creationis. Etiditur. quod sic. Quid 
+      <lb ed="#V" n="43"/>est in ea. vt in fundamento.
+    </p>
+            <p xml:id="FrMS88-f06488-d1e120">
+      ¶ Contra 
+      produ<lb ed="#V" n="44" break="no"/>ctio fundatur immediate in terio formali. Et 
+      <lb ed="#V" n="45"/>hic terminus non est idem quod subiectum. ergo etc. 
+      <lb ed="#V" n="46"/>aliqui quod essentia est subiectum generationis: quia ma 
+      <lb ed="#V" n="47"/>hic dicunt net sub esse et non esse. Eodem modo 
+      intrun<lb ed="#V" n="48" break="no"/>posito quiditas est indeterminata ad esse et non esse.
+    </p>
+            <p xml:id="FrMS88-f06488-d1e133">
+      ¶ Con 
+      <lb ed="#V" n="49"/>tra. quia impossibile est quod productio totalis habeat subiectum. quia 
+      il<lb ed="#V" n="50" break="no"/>lud non produceretur tali productione sed supponeretur. Sed 
+      crea<lb ed="#V" n="51" break="no"/>tio est productio totalis essemus. Et confirmatur. quia ideo generationis 
+      <lb ed="#V" n="52"/>assignatur subiectum. quia aliquid supponitur in generatione: sed in 
+      crea<lb ed="#V" n="53" break="no"/>tione nihil praexistit. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f06488-d1e146">
+      ¶ 2o sic. quia esse rei quod caret exi 
+      <lb ed="#V" n="54"/>stentia non existit.
+    </p>
+            <p xml:id="FrMS88-f06488-d1e152">
+      ¶ 3o. quia repugnat existere sub priuatio 
+      <lb ed="#V" n="55"/>ne termini formalis.
+    </p>
+            <p xml:id="FrMS88-f06488-d1e157">
+      ¶ 4o. quia tunc deus non esset totalis causa 
+      <lb ed="#V" n="56"/>creaturarum. sed subiectum ibi concurreret et causaret.
+    </p>
+            <p xml:id="FrMS88-f06488-d1e162">
+      ¶ Ideo 
+      di<lb ed="#V" n="57" break="no"/>to quod creatio non habet subiectum: sed est productio totius entitatis. 
+      <lb ed="#V" n="58"/>Si enim eius esset aliquod subiectum: idem esset annihilationis. et sic 
+      <lb ed="#V" n="59"/>annihilatum existeret.
+    </p>
+            <p xml:id="FrMS88-f06488-d1e171">
+      ¶ Sed contra. illud est subiectum alicuius 
+      in<lb ed="#V" n="60" break="no"/>quo est illud subiectiue. Sed creatis est formaliter et subiectiue 
+      in<lb ed="#V" n="61" break="no"/>essemus rei creabilis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f06488-d1e178">
+      ¶ 2o sic. illud est subiectum generationis quod 
+      <lb ed="#V" n="62"/>manet sub esse: et sub non esse. Sed ita est de quiditate crea 
+      <lb ed="#V" n="63"/>ture: quod manet sub vtroque termino. ergo est subiectum.
+    </p>
+            <p xml:id="FrMS88-f06488-d1e185">
+      ¶ 3o sic per 
+      <lb ed="#V" n="64"/>annihilationem resoluiter creatura in esse quantitatiuo. ergo illud 
+      <lb ed="#V" n="65"/>est subiectum. Ad primum dico. quod esse in subiecto. vel est sicut inherens subiecto: 
+      <lb ed="#V" n="66"/>vel sicut inferius in suo superiori. Exetum primi. albedo in ho¬ 
+      <!--290.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>mine. Exentum secundi. rationale in animali. sic ad propositum dico: quod 
+      crea<lb ed="#V" n="68" break="no"/>non est in creatura primo modo. sed sicut existentia in essemus tamquam 
+      <lb ed="#V" n="69"/>modus eius. Vel dic quod est in subiecto sumendo subiectum large 
+      pro<lb ed="#V" n="70" break="no"/>fundamento. Sed hoc non est proprie.
+    </p>
+            <p xml:id="FrMS88-f06488-d1e208">
+      ¶ Ad aliud. subiectum 
+      <lb ed="#V" n="71"/>existit sub vtroque termino. sed essentia non existit quando 
+      existen<lb ed="#V" n="72" break="no"/>tia non est. et sic per idem ad aliud.
+    </p>
+            <p xml:id="FrMS88-f06488-d1e215">
+      ¶ Ad 4m dico. quod non 
+      <lb ed="#V" n="73"/>est resolutio ad aliquid existens.
+    </p>
+            <p xml:id="FrMS88-f06488-d1e220">
+      ¶ Sed hoc est difficultas quid est ergo 
+      <lb ed="#V" n="74"/>subiectum. dicitur quod nihil. quia ibi est productio totalis.
+    </p>
+            <p xml:id="FrMS88-f06488-d1e225">
+      ¶ 2a 
+      di<lb ed="#V" n="75" break="no"/>si eodem modo est subiectum in creatione et generatione divina: 
+      Di<lb ed="#V" n="76" break="no"/>co quod non. quia divina essentia existit sub generatione: et eius priuatione. 
+      <lb ed="#V" n="77"/>Essentia autem creature non existit sub non esse creature. quia 
+      <lb ed="#V" n="78"/>nullam habebat realitatem. ergo etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

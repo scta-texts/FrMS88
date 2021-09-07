@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="195-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f48950"><!-- l4d10q1 -->
+            <head xml:id="FrMS88-f48950-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f48950-d1e111">
+               <lb ed="#V" n="48"/>Sunt item alii etc. 
+      <lb ed="#V" n="49"/>Ic incipit decima distinctio. ¶ 
+      Cir<lb ed="#V" n="50" break="no"/>ca quam quero 4o quaestio 
+      <lb ed="#V" n="51"/>nes.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e122">
+      ¶ Prima est. vtrum corpus christi 
+      inci<lb ed="#V" n="52" break="no"/>diat esse in loco consecrationis: sine sui 
+      mu<lb ed="#V" n="53" break="no"/>tatione.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e129">
+      ¶ Et videtur quod sic. per Augustinum dici. quod do 
+      <lb ed="#V" n="54"/>nec finiatur seculum: sursum est disuens.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e134">
+      ¶ Con 
+      <lb ed="#V" n="55" break="no"/>tra. quia post consecrationem est vbi ante non erat. 
+      <lb ed="#V" n="56"/>communis opio quae dicit quod sine 
+      mu<lb ed="#V" n="57" break="no"/>hic inducitur tatione sui incipit ibi esse per 
+      <lb ed="#V" n="58"/>solam transubstatationem panis in corpus suum: sicut si ex 
+      aqua<lb ed="#V" n="59" break="no"/>generatur ignis. Ignis sine mutatione incipit esse vbi fuit aqua¬ 
+      </p>
+            <p xml:id="FrMS88-f48950-d1e148">
+               <lb ed="#V" n="60"/>¶ Contra istu modum arguitur.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e153">
+      ¶ Primo. quia quandocumque 
+      duo<lb ed="#V" n="61" break="no"/>mutationes habent distinctos terminos. quorum vnus potest 
+      <lb ed="#V" n="62"/>acquri sine alio: mutatio ad vnum non est mutatio ad alterum 
+      </p>
+            <p xml:id="FrMS88-f48950-d1e160">
+               <lb ed="#V" n="63"/>¶ Ista patet de se. sed transubstantiatio: et praesentialitas corporis 
+      <lb ed="#V" n="64"/>christi. sunt alius et alius terminus: quia deus posset 
+      face<lb ed="#V" n="65" break="no"/>re praesens corpus christi sine omni transubstantiatione
+    </p>
+            <p xml:id="FrMS88-f48950-d1e169">
+      ¶ 2o ex ordine 
+      <!--392.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>essentiali. patet idem. Quandocumque aliqua duo sic se habent quod vnum 
+      <lb ed="#V" n="67"/>potest acquiri alio habito. non eadem mutatione acquiruntur. 
+      <lb ed="#V" n="68"/>Sed corpus christi prius posset esse in altari. et postea 
+      transubstantia<lb ed="#V" n="69" break="no"/>ri. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e185">
+      ¶ 3o quia deus posset transubstantiare panere in corpus 
+      su<lb ed="#V" n="70" break="no"/>um: vt in celo. quia si potest in distante: sicut fecit in cena. vbi 
+      pa<lb ed="#V" n="71" break="no"/>nis aliquo modo distabat a corpore suo: sequitur quod in quacum 
+      <lb ed="#V" n="72"/>que distantia erit transubstantiatio: et tamen corpus christi non erit hic 
+      </p>
+            <p xml:id="FrMS88-f48950-d1e194">
+               <lb ed="#V" n="73"/>¶ 4o quandocunque aliquid conuertitur in praexistens: magis ipsum 
+      <lb ed="#V" n="74"/>acquirit locum praexistentis. quam econverso. sicut in conuersione cibi in 
+      <lb ed="#V" n="75"/>praexistens: sed transubstantiatio fit in praexistens. igitur ex vi 
+      transubstantia<lb ed="#V" n="76" break="no"/>tionis magis acquiritur pani locus christi: quam econverso.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e206">
+      ¶ Dico ergo 
+      <lb ed="#V" n="77"/>quod aliqua mutatione hoc oportet fieri. et confirmo hoc 4r
+    </p>
+            <p xml:id="FrMS88-f48950-d1e211">
+      ¶ 
+      Pri<lb ed="#V" n="78" break="no"/>mo. quia corpus christi ante consecrationem et post se habet aliter nunre 
+      <lb ed="#V" n="79"/>quam prius. quia ista est vera corpus christi est hic. vbi prius non erat 
+      </p>
+            <p xml:id="FrMS88-f48950-d1e218">
+               <lb ed="#V" n="80"/>¶ 2o quia impossibile est quod aliquod subiectum transeat de contradictori. 
+      <lb ed="#V" n="81"/>in contradictorium sine mutatione in ipso. Sed hic corpus christ 
+      <lb ed="#V" n="82"/>transit de non presente ad presens.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e227">
+      ¶ Tertio. quia si 
+      <lb ed="#V" n="83"/>dicatur per denominationem extrinsecam. non valet: quia 
+      <lb ed="#V" n="84"/>quia tunc perit via ad probandum quamcunque mutationem quia 
+      <lb ed="#V" n="85"/>sol est modo in oriente. vbi prius non fuit. ergo est 
+      mu<lb ed="#V" n="86" break="no"/>tatus.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e238">
+      ¶ Diceres autem quod non. sed est mutatus denominatione est 
+      <lb ed="#V" n="87"/>trinseca. quando autem terminus est illuminatus: vt quando deus creat 
+      <lb ed="#V" n="88"/>de nouo vnam animam. tunc dicitur mutatus. et aliter se habere 
+      <lb ed="#V" n="89"/>nunc quam prius. quia de non creante fit creans: sed hoc est 
+      de<lb ed="#V" n="90" break="no"/>nominatione extrinseca. Denominatio autem extrinseca 
+      sal<lb ed="#V" n="91" break="no"/>uat mutationem. sed in terminis limitatis videtur esse proba 
+      <lb ed="#V" n="92"/>tio sufficiens.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e254">
+      ¶ 4o sic. Quandocumque aliqua operatio conuenit 
+      ali<lb ed="#V" n="93" break="no"/>cui quod non conueniebat prius ipsum aliquam formam habet quam 
+      <lb ed="#V" n="94"/>prius non habebat. sed ita est in proposito. probo. quia 
+      ante<lb ed="#V" n="95" break="no"/>transubstantiationem repugnat corpori christi transferri de altan 
+      <lb ed="#V" n="96"/>in altare a sacerdote. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e266">
+      ¶ Dico igitur quod est 
+      aliqua<lb ed="#V" n="97" break="no"/>mutatio quam acquirit respcum praesentialitatis ad locum hostie 
+      <lb ed="#V" n="98"/>fcam transubstantiatione.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e273">
+      ¶ Ad cuius euidentiam pono quatuo 
+      <lb ed="#V" n="99"/>onclusiones.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e278">
+      ¶ Prima est. quod non potest esse aliqua mutatio: quin habe 
+      <lb ed="#V" n="100"/>at saltem duos terminos. vnum qui remouetur. alium qui 
+      acqui<lb ed="#V" n="101" break="no"/>ritur.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e285">
+      ¶ Secunda. quod in mutationibus. in quibus termini habent 
+      <lb ed="#V" n="102"/>prietatem sunt due mutationes. et quatuor termini. hoc patet: 
+      <lb ed="#V" n="103"/>quia quando aqua frigida fit calidia. et de frigido sit non frigidum. 
+      <lb ed="#V" n="104"/>et de non calido fit calidum.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e294">
+      ¶ 3a conclusio quod inuenitur aliqua mutatio 
+      <lb ed="#V" n="105"/>vbi non sunt nisi duo termini: vt est priuatio et 
+      forma<lb ed="#V" n="106" break="no"/>quia per se sunt termini omnis transmutationis. vnus tamen abii 
+      <lb ed="#V" n="107"/>citur. alius acquiritur.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e303">
+      ¶ 4a conclusio est. quod aliquando est inuenire. supra 
+      ter<lb ed="#V" n="108" break="no"/>minos. et quatuor mutationes. sicut quando corpus transit de 
+      <lb ed="#V" n="109"/>loco ad locum: vt nauis quando mouetur ad aliquem locum aliud 
+      <lb ed="#V" n="110"/>corpus expellit et istud expulsum habet etiam quatuor terminos 
+      <lb ed="#V" n="111"/>quia amittit vnum vbi et priuationem eius acquirit. et a priuatio 
+      <lb ed="#V" n="112"/>ne alterius vadit ad ipsum.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e317">
+      ¶ Ex hoc. statim patet quomodo deus 
+      <lb ed="#V" n="113"/>potest vnam mutationem ab alia separare.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e322">
+      ¶ Tunc ad propo 
+      <lb ed="#V" n="114"/>situm. corpus christi in celo habet priuationem istius vbi in alta 
+      <lb ed="#V" n="115"/>ri. et ita non est ibi mutatio deperditiua sed acquisitiua: quia 
+      <lb ed="#V" n="116"/>solum est ibi acquisitio praesentialitatis quam non habebat.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e331">
+      ¶ Se 
+      <lb ed="#V" n="117"/>endum tamen quod mutatio localis potest intelligi fieri sine acquis 
+      <lb ed="#V" n="118"/>tione et deperditione. et hoc est impossibile. quia nulla mutatio 
+      <lb ed="#V" n="119"/>ibi saluare potest. vel fiat acquisitio. et nulla deperditio sicut 
+      <lb ed="#V" n="120"/>generatur habitus scientialis. et nihil deperditur. Alia est tantum 
+      deper<lb ed="#V" n="121" break="no"/>ditiua et non acquisitiua sicut in potentiis sensitiuis. 
+      <lb ed="#V" n="122"/>similiter quando mutatio est inter contraria. cum igitur possit facere deus 
+      <lb ed="#V" n="123"/>mutationem deperditiuam. sine acquisitiua. quare non potest 
+      <lb ed="#V" n="124"/>facere acquisitiuam sine deperditius: non apparet 
+      inconue<lb ed="#V" n="125" break="no"/>niens. et ita fit in hoc sacramento. quia christus sine deperditione corporis 
+      <lb ed="#V" n="126"/>prioris acquirit nouum vbi in altari.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e355">
+      ¶ Contra. quia ista 
+      <lb ed="#V" n="127"/>praesentialitas videtur esse quidam respectus. sed ad eum non potest 
+      <lb ed="#V" n="128"/>esse mutatio secundum philosophum. 5. philosoph.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e362">
+      ¶ Secundo. quia idem 
+      mobili<lb ed="#V" n="129" break="no"/>ad locum dimittit locum priorem.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e367">
+      ¶ Tertio. quia eadem 
+      ratio<lb ed="#V" n="130" break="no"/>ne potest esse deperditiua sine acquisitiua et sic corpus christi 
+      <lb ed="#V" n="131"/>erit nusquam.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e375">
+      ¶ Quarto. quia poterit christus expelli: et perde 
+      <!--393.xml-->
+      <pb ed="#V" n="195-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>re primum vbi nullum acquirendo.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e386">
+      ¶ Responde ad primum et dico quod ad 
+      <lb ed="#V" n="2"/>respectum intrinsecus aduenientem. quales sicut in genere 
+      <lb ed="#V" n="3"/>relationis. non est motus: vel mutatio per se scilicet in tertio 
+      <lb ed="#V" n="4"/>modo scilicet solitarie. sed bene cum fundamento. nam existente 
+      <lb ed="#V" n="5"/>vno albo. si fiat motus ad alterum album. per accidens fit mo 
+      <lb ed="#V" n="6"/>tus ad similitudinem: sed si sit respectus extrinsecus ad 
+      <lb ed="#V" n="7"/>ueniens. qualis est vbi bene est motus in tertio modo 
+      <lb ed="#V" n="8"/>dicendi per se et solitarie.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e404">
+      ¶ Ad 2m divsecunum. quod hoc est: quia 
+      <lb ed="#V" n="9"/>idem mobile non potest esse in diuersis locis naturaliter.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e409">
+      ¶ Ad  
+      <lb ed="#V" n="10"/>aliud concedo quod deus posset facere quod nusquam esset corpus 
+      <lb ed="#V" n="11"/>christi.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e416">
+      ¶ Ad aliud non habeo pro inconuenienti: quod totum inter 
+      <lb ed="#V" n="12"/>medium destruatur: et tamen remanent loca distincta celi et terre 
+      <lb ed="#V" n="13"/>et esset vacuum. licet ex ordine naturali non posset esse.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e423">
+      ¶ Sed hic 
+      <lb ed="#V" n="14"/>est dubium in quo predicamento est ista presentialitas 
+      </p>
+            <p xml:id="FrMS88-f48950-d1e429">
+               <lb ed="#V" n="15"/>¶ Dico quod aliqui respectus sunt in predicamento per 
+      redu<lb ed="#V" n="16" break="no"/>ctionem. sicut locatum habet respectum ad locum. sicut econverso. sed 
+      <lb ed="#V" n="17"/>respectus locati ad locum non respicit predicationem vbi. tamen 
+      <lb ed="#V" n="18"/>reducitur ad praedicamentum vbi. et ita est hoc.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e440">
+      ¶ Secunda difficultas. quia 
+      <lb ed="#V" n="19"/>si potest fieri motus deperditionis sine acquisitione. ergo materia 
+      <lb ed="#V" n="20"/>posset denudari omni forma. nulla acquisita.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e447">
+      ¶ Respondeo quod non 
+      <lb ed="#V" n="21"/>habeo pro inconuenienti virtute diuina.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e452">
+      ¶ Tertia difficult 
+      <lb ed="#V" n="22"/>quia acquireretur nigredo non exclusa albedine: et essent si 
+      <lb ed="#V" n="23"/>mul contraria.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e459">
+      ¶ Dico quod non. quia sunt incompossibiles 
+      simu<lb ed="#V" n="24" break="no"/>in eodem subiecnto. quando autem sunt incompossibiles. non potest esse 
+      acqui<lb ed="#V" n="25" break="no"/>sitio vnius. quin aliud deperdatur: et tamen hoc non est ex ratione illo 
+      <lb ed="#V" n="26"/>rum motuum sed sic non est de respectibus. quia vnum corpus 
+      <lb ed="#V" n="27"/>vt ostensum est. potest simul habere opposita et disperata vbi. 
+      </p>
+            <p xml:id="FrMS88-f48950-d1e470">
+               <lb ed="#V" n="28"/>¶ Quarta difficultas quia figura est respectus et tamen figura non 
+      prae<lb ed="#V" n="29" break="no"/>acquiri nisi alia remota. quia alis idem corpus esset quadrati 
+      <lb ed="#V" n="30"/>et circulare.
+    </p>
+            <p xml:id="FrMS88-f48950-d1e480">
+      ¶ Dico quod magis est intrinseca figura. quae 
+      <lb ed="#V" n="31"/> 
+               <lb ed="#V" n="32"/>respectus vbi. et non plures ideo sunt possibiles simul.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

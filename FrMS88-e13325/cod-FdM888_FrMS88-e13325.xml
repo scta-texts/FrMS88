@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 9</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 9</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="19-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e13325"><!-- l1d2q9 -->
+            <head xml:id="FrMS88-e13325-Hd1e108">Quaestio 9</head>
+            <p xml:id="FrMS88-e13325-d1e111">
+      Quaestio. ix. 
+      <lb ed="#V" n="87"/>Ueritur vtrum i divinis sint 3 persone 
+      <lb ed="#V" n="88"/>quod non. In praes. Tu es deus 
+      <lb ed="#V" n="89"/>solus.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e120">
+      ¶ Contra. Io. tres situr qui testionu dant in 
+      ce<lb ed="#V" n="90" break="no"/>ego istius quaestionis: que 
+      <lb ed="#V" n="91"/>Ad conclusione certa side 
+      tene<lb ed="#V" n="92" break="no"/>adducuntur 4or fundamenta per quae autiqui doctores conati sunt 
+      <lb ed="#V" n="93"/>persuadere istam trinitatem.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e131">
+      ¶ Primum radicatum erat in natura per 
+      <lb ed="#V" n="94"/>fectionis et naturae. Ex vi naturae arguebant sic. Nam este qua pullu 
+      <lb ed="#V" n="95"/>ans pullulat. nam diuia est quaedam natura. ergo nam divina pullulat 
+      <lb ed="#V" n="96"/>Ex perfectione arguitur sic. o vnumquodque est perfectum quando potest 
+      si<lb ed="#V" n="97" break="no"/>bi simile generare: sed nam divina est perfectissima. ergo genero est in 
+      <lb ed="#V" n="98"/>diuinis. et per consequens pluralitas.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e144">
+      ¶ 2m fundamentum erat radica 
+      <lb ed="#V" n="99"/>tum in natam actualitatis: quia quanto aliqua natuam est actualior tanto 
+      <lb ed="#V" n="100"/>actiuior: sed nam divina est infinite actualitatis. ergo erit 
+      inf<lb ed="#V" n="101" break="no"/>nite actiuitatis. non autem ad extra. ergo ad intra.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e154">
+      ¶ 3m 
+      funda<lb ed="#V" n="102" break="no"/>mentum radicatum est in natura bonitatis: quia omne bonum est naturaliter 
+      <lb ed="#V" n="103"/>comunicatiuum suiipsius. bomoitas autem divina est infinita. ergo est in 
+      <lb ed="#V" n="104"/>finite suiipsius comnicatiua. non autem ad extra ergo ad intra¬ 
+      </p>
+            <p xml:id="FrMS88-e13325-d1e163">
+               <lb ed="#V" n="105"/>¶ 4m erat radicatum in naum felicitatis: quia secundum Ric. de trini.¬ 
+      <lb ed="#V" n="106"/>nullus solitarius potest esse beatus. nec amor vnius ad se potest 
+      <lb ed="#V" n="107"/>esse iocundus. oportet ergo quod sit ad aliud. ergo pluralitas.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e172">
+      ¶ Co 
+      <lb ed="#V" n="108"/>tra istas rationes instatur eo ordinequa sunt posite.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e177">
+      ¶ Contra 
+      <lb ed="#V" n="109"/>primum de natura pullulante non capit intellectus quod natura pullulans et 
+      pu<lb ed="#V" n="110" break="no"/>lulata sit vna. ergo plures.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e184">
+      ¶ Praeterea. nam non estibi pullulans. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e13325-d1e187">
+               <lb ed="#V" n="111"/>¶ Contra fundamentum illud de perfectione. certum est quod natura 
+      an<lb ed="#V" n="112" break="no"/>gelica est perfectior quam asinina. et tamen asinus generat et non angelus. 
+      <lb ed="#V" n="113"/>Et ratio est quia angelus non indiget conseruatione speciei in alio a 
+      se<lb ed="#V" n="114" break="no"/>asinus autem sic.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e199">
+      ¶ Contra 2m de actualitate. certum est quod actua 
+      <lb ed="#V" n="115"/>lior est anima rationalis quam corpus organicum vel forma asini. et tamen 
+      <lb ed="#V" n="116"/>non est actiuior: quia corpus generat corpus. et asinus asinum: et n 
+      <lb ed="#V" n="117"/>anima animam.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e208">
+      ¶ Contra 3m de bonitate. Nulli dubium est quod 
+      an<lb ed="#V" n="118" break="no"/>gelus est nobilior celo: et tamen celum comnicat se: quia multas 
+      <lb ed="#V" n="119"/>formas substantiales producit. angelus autem non: nec vnam potest 
+      <lb ed="#V" n="120"/>producere.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e217">
+      ¶ Contra 4o dne felicitate arguo sic: felicitas 
+      <lb ed="#V" n="121"/>siue beatitudo est perfectio simpliciter: quia in quolibet ipsa est 
+      <lb ed="#V" n="122"/>melior quam non ipsa: ideo est ponitur in deo: sed accipio tunc sic. 
+      <lb ed="#V" n="123"/>quicquid perfectionis est in tribus personis est in vna earum 
+      seor<lb ed="#V" n="124" break="no"/>lum accepta: sicut dicit Dion. de vnica et discreta 
+      theo<lb ed="#V" n="125" break="no"/>logia et de di. no. ergo beatitudini non prouenit aliqua 
+      perfec<lb ed="#V" n="126" break="no"/>ex pluralitate.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e233">
+      ¶ Nunc adduco rationes docor modernorum 
+      <lb ed="#V" n="127"/>Et est prima quae fundatur in producto intentionali talis. vbicumque in 
+      <lb ed="#V" n="128"/>uenitur operatio per quam producitur obiectum in esse cognito potest esse 
+      ta<lb ed="#V" n="129" break="no"/>le productum in esse cognito: sed obiectum productum in esse 
+      cogni<lb ed="#V" n="130" break="no"/>to est verbum: ergo ibi potest esse verbum: sed in diuis talis 
+      opera<lb ed="#V" n="131" break="no"/>tio inuenitur. ergo in diuis potest esse verbum. et per consequens est. 
+      Ma<lb ed="#V" n="132" break="no"/>ior videtur manifesta. Minorem ostendo: quia in deo est actus 
+      <!--42.xml-->
+      <pb ed="#V" n="20-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>intelligendi qui est huiusmodi operatio. Eodem modo argui potest de spiritu. sed 
+      <lb ed="#V" n="2"/>Sed quia potest dici quod productio in esse cognito quam videmus 
+      <lb ed="#V" n="3"/>in creatura est intentionalis. ideo vlterius arguitur fic. Quandocunque 
+      <lb ed="#V" n="4"/>aliquid inuenitur in creaturis quod est perfectionis: cum tamen aliqua 
+      imperfe<lb ed="#V" n="5" break="no"/>ctione: illud dabet attribui: deo: tamen sublata omni imperfectione: sed 
+      <lb ed="#V" n="6"/>posse producere obiectum est perfectionis in creatura. quod autem 
+      pro<lb ed="#V" n="7" break="no"/>ducatur in esse secundum quid hoc est imperfectionis. ergo attribuetur deo 
+      pro<lb ed="#V" n="8" break="no"/>ducere non in esse secbentum quid. et per consequens in esse reali: quod est propositum. 
+      </p>
+            <p xml:id="FrMS88-e13325-d1e272">
+               <lb ed="#V" n="9"/>¶ Contra istam rationem insto 4r. Primo sic. Illi repugnatam 
+      <lb ed="#V" n="10"/>duci in esse reali cognito: cui repugnat produci realiter: sed 
+      <lb ed="#V" n="11"/>essentie diuine repugnat produci realiter: ergo 
+      essen<lb ed="#V" n="12" break="no"/>tie diuine repugnat produci in esse reali cognito.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e283">
+      ¶ Con 
+      <lb ed="#V" n="13"/>firmatur. quia illud quod est primo cognitum est primo productum in esse 
+      real<lb ed="#V" n="14" break="no"/>cognito: sed essentia divina ab intellectu divino est primo cognita. 
+      <lb ed="#V" n="15"/>ergo ipsa est per producta in esse reali cognito: quod tamen sibi 
+      repu<lb ed="#V" n="16" break="no"/>gnat.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e295">
+      ¶ 2o sic. Eodem modo quo persona producens intelligitur se: 
+      <lb ed="#V" n="17"/>producit se in esse reali cognito: sed pater intelligitur se totum saltem 
+      <lb ed="#V" n="18"/>secundario. ergo pater producit seipsum in esse reali: quod est falsum et 
+      <lb ed="#V" n="19"/>impossibile.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e304">
+      ¶ 3o sic. filius intelligit essentiam et seipsum: sicut pater. 
+      <lb ed="#V" n="20"/>cum ergo pater intelligendo essentiam producat verbum sequitur quod filius 
+      <lb ed="#V" n="21"/>similiter intelligendo essentiam producat verbum. Etiam sicut pater 
+      produ<lb ed="#V" n="22" break="no"/>cit seipsum: ita et filius. cum intelligat seipsum: sicut pater.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e313">
+      ¶ Cor 
+      <lb ed="#V" n="23"/>firmatur. quia quod divina essentia sit cognita habet ex cognitione 
+      <lb ed="#V" n="24"/>vt in patre. cum ergo filio conueniat ista cognitio per quam fit 
+      <lb ed="#V" n="25"/>ista productio sequitur quod se producat realiter.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e322">
+      ¶ 4o sic. Nam 
+      <lb ed="#V" n="26"/>spiritui scond eque conuenit operatio intelligendi et volendi: sicut et 
+      <lb ed="#V" n="27"/>patri. si ergo pater ex eo quod habet talem operationem producit: similiter spiritus 
+      <lb ed="#V" n="28"/>san. producet filium et spicitum scilicet
+    </p>
+            <p xml:id="FrMS88-e13325-d1e331">
+      ¶ Ideo dicitur quod iste doctor non 
+      inten<lb ed="#V" n="29" break="no"/>dit demonstrare nisi quod in deo sunt persone saltem secundum rationem 
+      <lb ed="#V" n="30"/>et inesse rationis producte.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e338">
+      ¶ Sed contra hoc arguo. Illud quod non 
+      <lb ed="#V" n="31"/>est possibile non est demonstrabile: sed non est possibile quod sit persona ratio 
+      <lb ed="#V" n="32"/>nis. ergo non est demonstrabile.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e346">
+      ¶ Confirmatur quia esse rationis 
+      <lb ed="#V" n="33"/>est incompossibile persone diuine: quia ipsa est necessarium et reale est 
+      <lb ed="#V" n="34"/>non rationis.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e353">
+      ¶ Dico ergo quod docto. ille vt puto non intendit de 
+      <lb ed="#V" n="35"/>monstrare simpituer. nec esonce intedo negare quin persona producatur in 
+      <lb ed="#V" n="36"/>esse cognito: sed illud esse praesupponit aliud esse: quia ens ratio 
+      <lb ed="#V" n="37"/>nis non potest esse prius esse persone diuine.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e362">
+      ¶ Ideo adducitur ratio 
+      <lb ed="#V" n="38"/>Io. quae fundatur in nam productionis. et est talis. Ubicumque est 
+      <lb ed="#V" n="39"/>iuenire principia productiua aliquorum sine imperfectio 
+      <lb ed="#V" n="40"/>ne: illa supposita in quibus inueniuntur possunt talia producere 
+      <lb ed="#V" n="41"/>quorum habent principia productiua. cum non possunt impediri per 
+      <lb ed="#V" n="42"/>imperfectionem: sed in diuino supposito est innuenire principim 
+      <lb ed="#V" n="43"/>productiuum notitie genite scilicet memoriam fecundam que est 
+      <lb ed="#V" n="44"/>obiectum cum intellectu. et principium productiuum amoris spirati. 
+      <lb ed="#V" n="45"/>quod est obiectum voluntate. ergo suppositum diuinum habens 
+      <lb ed="#V" n="46"/>ista duo prius productiua perfectissime poterit producere 
+      <lb ed="#V" n="47"/>notitiam genitam et amorem spiratum. talia autem in diuinis 
+      <lb ed="#V" n="48"/>non possunt esse nisi subsistentia. cum inherentia dicat in 
+      perfectio<lb ed="#V" n="49" break="no"/>nem. ergo in diuis sunt duo subsistentia producta. et vnum 
+      <lb ed="#V" n="50"/>producens realiter distinctum ab eis.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e393">
+      ¶ Sed contra istam rationem 
+      <lb ed="#V" n="51"/>arguo. 4r Primo sic. potentia intellectiua et volitiua sunt po 
+      <lb ed="#V" n="52"/>tentie actiue et non factiue. vt habetur. 5. meta. vt scilicet earum actio 
+      <lb ed="#V" n="53"/>transeat in aliud suppositum. quia earum actiones sunt imma 
+      <lb ed="#V" n="54"/>nentes solum et non transeuntes. cum ergo nihil possunt producere 
+      <lb ed="#V" n="55"/>nisi earum actio transeat in aliud suppositum. ergo non possunt 
+      <lb ed="#V" n="56"/>aliquid producere.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e409">
+      ¶ 2o sic. Quandocumque poseitione habent actus ad 
+      <lb ed="#V" n="57"/>equatos non possunt vltra producere. vt patet de intellectu et 
+      <lb ed="#V" n="58"/>voluntate quando perfecte nitutur ad vnum: sed potentia intellectiua et 
+      <lb ed="#V" n="59"/>volitiua prehabent actus adequatos intelligendi et volendi et 
+      in<lb ed="#V" n="60" break="no"/>finitos ante illam productionem: ergo nihil vltra producens 
+      </p>
+            <p xml:id="FrMS88-e13325-d1e420">
+               <lb ed="#V" n="61"/>¶ 3o sic. intellectus agens et obiectum in nobis: licet sint 
+      prin<lb ed="#V" n="62" break="no"/>productiua: nihil tamen possunt producere nisi haberent sufficiens 
+      <lb ed="#V" n="63"/>receptiuum. ergo eodem modo in deo si non habent sufficiens rece 
+      <lb ed="#V" n="64"/>ptiuum non producent.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e432">
+      ¶ 4o sic. philosopi posuerunt quod 
+      intelligen<lb ed="#V" n="65" break="no"/>tie non habent notitiam genitam in intellectu. et hoc rationabiliter: quia 
+      <lb ed="#V" n="66"/>ponebant in angelis notitiam connateuralem. cum ergo notitia in 
+      <!--42.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>tuitiua diuina sit sibi magis conqueralis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e445">
+      ¶ 
+      Confini<lb ed="#V" n="68" break="no"/>matur quia multi videntur ponere verbum essentiale. quare ergo po 
+      <lb ed="#V" n="69"/>nitur verbum personale et notionale:
+    </p>
+            <p xml:id="FrMS88-e13325-d1e452">
+      ¶ Ad ista respondeo vi 
+      <lb ed="#V" n="70"/>magis declaretur ratio.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e457">
+      ¶ Ad primum dico quod iste positione sunt 
+      opera<lb ed="#V" n="71" break="no"/>tiue et productiue. operatiue quidem sunt inquantum intelligunt et 
+      <lb ed="#V" n="72"/>volunt: et vt sic non habent nisi operationes immanentes. sunt autem 
+      pro<lb ed="#V" n="73" break="no"/>ductiue vt dicunt et spirant: et vt sic habent actiones transeun 
+      <lb ed="#V" n="74"/>tes.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e468">
+      ¶ Ad 2m dico quod non habent illos actus inquantum sunt 
+      prin<lb ed="#V" n="75" break="no"/>cipia productiua scilicet intelligere: et velle: sed inquantum sunt prin 
+      <lb ed="#V" n="76"/>operatiua. Ideo aritu videtur esse ad oppositum: quia intellectus videtur esse principi 
+      <lb ed="#V" n="77"/>productiuu. ergo respectu alicuius termini: sed hic 
+      termi<lb ed="#V" n="78" break="no"/>nus non est intelligere diuinum: quia est improductum. ergo necessario 
+      <lb ed="#V" n="79"/>erit respectu alterius termini.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e481">
+      ¶ Ad 3m dico quod licet in 
+      nol<lb ed="#V" n="80" break="no"/>bis requiratur susceptiuum ad productionem. non tamen ibi. 
+      Intelle<lb ed="#V" n="81" break="no"/>ctus enim agens quod requirat susceptiuum ad productionem. hoc 
+      <lb ed="#V" n="82"/>non est nisi imperfectionis: ideo ponendum est ibi solum illud quia 
+      <lb ed="#V" n="83"/>est perfectionis: vtpote quod ibi fit principium productiuum: sed non 
+      o<lb ed="#V" n="84" break="no"/>ibi ponere illud quod est imperfectionis scilicet quod ibi sit aliquod 
+      su<lb ed="#V" n="85" break="no"/>sceptiuum.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e498">
+      ¶ Ad 4m dico quod philosophi respexerunt potentiam tantum 
+      <lb ed="#V" n="86"/>vt operatiuam. et per consequens vt receptiuam. non autem vt 
+      fecundam<lb ed="#V" n="87" break="no"/>nec vt productiua. Si autem ad hoc respexissent forte 
+      posui<lb ed="#V" n="88" break="no"/>sent verbum et notitiam productam.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e507">
+      ¶ Ad confirmationem quod si 
+      <lb ed="#V" n="89"/>ponatur illud verbum ponitur quasi productum et non simpliciter 
+      <lb ed="#V" n="90"/>sed vbi est principium simpliciter productiuum ibi non sufficit 
+      quasi<lb ed="#V" n="91" break="no"/>productio: sed oportet quod ibi sit vera productio.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e516">
+      ¶ Sed adhud 
+      <lb ed="#V" n="92"/>dicunt aliqui ad rationem quod non concludit nam licet ibi fit memoria 
+      <lb ed="#V" n="93"/>que est principium productiuum verbi et voluntas fecunda que est 
+      <lb ed="#V" n="94"/>principium productiuum amoris spirati. non tamen sequitur quod verbum in 
+      <lb ed="#V" n="95"/>diuinis sit producibile nec amor: quia hec sunt infinita 
+      <lb ed="#V" n="96"/>Exitum licet in deo sit infinita vis creatiua non potest creare 
+      infi<lb ed="#V" n="97" break="no"/>nitam creaturam: quia repugnat infinitas creature: et ita in 
+      <lb ed="#V" n="98"/>proposito dicunt ipsi quod licet sit ibi memoria: vt principium 
+      produ<lb ed="#V" n="99" break="no"/>ctiuum: tamen verbum non est producibile: et ita dicerent de 
+      <lb ed="#V" n="100"/>amore spirato.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e538">
+      ¶ Contra istud arguo 4r. Primo sic. 
+      Si<lb ed="#V" n="101" break="no"/>cut omne producens necessario aliquid producit. sic omne productiuum 
+      <lb ed="#V" n="102"/>necessario est respectu alicuius producibilis: sed tum concedis 
+      in<lb ed="#V" n="103" break="no"/>diuinis esse principium productiuum ad intra. ergo necessario erit 
+      ali<lb ed="#V" n="104" break="no"/>quid producibile ad intra. ergo verbum vel amor 
+      spira<lb ed="#V" n="105" break="no"/>tus: quia aliquid aliud non potest esse respectu talium 
+      principio<lb ed="#V" n="106" break="no"/>rum.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e554">
+      ¶ 2o sic. Nulla potentia potest esse respectu alicuius 
+      incon<lb ed="#V" n="107" break="no"/>possibilis sed tu concedis in diuinis potentiam productiuam 
+      <lb ed="#V" n="108"/>verbi. ergo verbum non erit impossibile produci. et per consequens est 
+      <lb ed="#V" n="109"/>producibile.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e563">
+      ¶ 3o sic. Omnis potentia frustra ponitur que non 
+      <lb ed="#V" n="110"/>potest reduci ad actum: sed tu ponis eam in deo. ergo frustra. 
+      <lb ed="#V" n="111"/>quod et est falsum in natura.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e571">
+      ¶ 4o sic. Nulla potentia est in deo que 
+      <lb ed="#V" n="112"/>sit respectu prohibiti: sed verbum improducibile est ens 
+      <lb ed="#V" n="113"/>prohibitum. ergo nulla potentia est in deo respectu verbi: quod tamen 
+      <lb ed="#V" n="114"/>tu negas. non videtur ergo ratio euacuata: sed magis 
+      confirma<lb ed="#V" n="115" break="no"/>ta.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e582">
+      ¶ Confirmo ergo rationem doc. primo sic. Quandocumque aliqua 
+      sun<lb ed="#V" n="116" break="no"/>eiusdem rationis formalis quicquid per se per vel 2o modo 
+      conue<lb ed="#V" n="117" break="no"/>nit vni: et reliquo: sed memoria eiusdem rationis formalis 
+      <lb ed="#V" n="118"/>est in deo et in creatura. ergo etc. Tunc vltra. Productiuum 
+      <lb ed="#V" n="119"/>dicitur de memoria in creaturis in 2o modo dicendi per se. 
+      er<lb ed="#V" n="120" break="no"/>go et in deo. Maior apparet vera. nam que sunt eiusdem 
+      <lb ed="#V" n="121"/>rationis formalis habent easdem differentias. et similiter easdem 
+      passio<lb ed="#V" n="122" break="no"/>nes. Nam diffinitio est medium. vbi ergo eadem 
+      diffinitio<lb ed="#V" n="123" break="no"/>semper eedem passiones. Minor scilicet quod memoria sit eiusdem 
+      <lb ed="#V" n="124"/>rationis formalis supponitur: sed quod productiuum dicatur de 
+      <lb ed="#V" n="125"/>ea in 2o modo apparet: quia est naturalis aptitudo eius.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e606">
+      ¶ 
+      Confir<lb ed="#V" n="126" break="no"/>matur. quia quando aliqua sunt eiusdem rationis formalis 
+      quic<lb ed="#V" n="127" break="no"/>quid potest demonstrari de vno: et de alio: sed de memoria 
+      <lb ed="#V" n="128"/>in nobis potest demonstrari quod ipsa sit productiua verbi 
+      <lb ed="#V" n="129"/>ergo et de memoria in diuinis.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e617">
+      ¶ Item arguo sic. et est 
+      con<lb ed="#V" n="130" break="no"/>firmatio praedictorum. Intellectus enim noster est principium 
+      pro<lb ed="#V" n="131" break="no"/>ductiuum verbi. tuc arguo. Aut inquantum finitus. et sic volunt 
+      <lb ed="#V" n="132"/>tas: quia finita esset productiua verbi. Aut inquantum intelle¬ 
+      <!--43.xml-->
+      <pb ed="#V" n="20-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ctus hic. et sic nullus alius. aut inquantum creatus. et sic 
+      re<lb ed="#V" n="2" break="no"/>spectus esset principium et causa absoluti. Aut inquantum intellectus 
+      sim<lb ed="#V" n="3" break="no"/>pliciter: et sic habetur propositum. quicquid enim conuenit intellectui: vt in 
+      <lb ed="#V" n="4"/>tellectus est: conuenit omni intellectui: et sic intellectui diuino. 
+      <lb ed="#V" n="5"/>quod est propositum.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e643">
+      ¶ Sed contra instatur 4r. primo sic. Quecumque 
+      sun<lb ed="#V" n="6" break="no"/>eiusdem rationis formalis quicquid per se in per vel in 2o modo 
+      con<lb ed="#V" n="7" break="no"/>uenit vni et reliquo. sed esse factiuum verbi conuenit in 2o 
+      <lb ed="#V" n="8"/>modo intellectui creato: ergo et intellectui diuino.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e652">
+      ¶ Item 
+      <lb ed="#V" n="9"/>esse factiuum verbi non conuenit intellectui: quia finitus: quia 
+      sic<lb ed="#V" n="10" break="no"/>voluntati: nec quia hic: quia tunc nulli alteri: nec quia creatus: 
+      <lb ed="#V" n="11"/>quia respectus non est factiuus: ergo ratione intellectus simpliciter. 
+      <lb ed="#V" n="12"/>ergo conuenit creato et diuino.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e664">
+      ¶ 3o sic. Esse receptiuum 
+      <lb ed="#V" n="13"/>est passio per se conueniens 2o modo intellectui nostro. cum ergo si 
+      <lb ed="#V" n="14"/>eiusdem rationis formalis cum intellectu diuino: habebit in 
+      <lb ed="#V" n="15"/>tellectus diuinus easdem passiones. et sic erit receptiuus 
+      </p>
+            <p xml:id="FrMS88-e13325-d1e673">
+               <lb ed="#V" n="16"/>¶ 4o eodem modo potest argui. quia intellectus noster non recipit verbum 
+      <lb ed="#V" n="17"/>quia finitus. nec quia hic. nec quia creatus per easdem rationes 
+      <lb ed="#V" n="18"/>quas prius adduxi. ergo intellectus simpliciter. ergo 
+      intelle<lb ed="#V" n="19" break="no"/>ctui diuino conuenit.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e684">
+      ¶ Sed posset responderi ad ista. quia 
+      si<lb ed="#V" n="20" break="no"/>cut producere verbum subsistens non conuenit intellectui 
+      diui<lb ed="#V" n="21" break="no"/>no: nec inquantum intellectus: quia sic omni intellectui: nec quia 
+      <lb ed="#V" n="22"/>infinitus: quia sic competeret voluntati que infinita est. sed in 
+      <lb ed="#V" n="23"/>quantum intellectus infinitus. sic posset dici quod producere 
+      ver<lb ed="#V" n="24" break="no"/>bum inherens non competit intellectui creato inquantum 
+      intelle<lb ed="#V" n="25" break="no"/>ctus nec inquantum finitus. sed inquantum intellectus finitus: licet 
+      <lb ed="#V" n="26"/>inquam posset sic dici: tamen quia eodem modo possent 
+      preceden<lb ed="#V" n="27" break="no"/>tia solui. Dico tamen quod trinitas naturaliter non est demonstrabi 
+      <lb ed="#V" n="28"/>lis. nec per istam rationem nec per aliam secundum hylaium. de tri. 
+      <lb ed="#V" n="29"/>per totum.
+    </p>
+            <p xml:id="FrMS88-e13325-d1e708">
+      ¶ Ad auctem dico quod solitudo excludit 
+      plu<lb ed="#V" n="30" break="no"/>ralitatem naturarum solum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

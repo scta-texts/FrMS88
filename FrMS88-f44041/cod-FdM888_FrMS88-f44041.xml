@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="189-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f44041"><!-- l4d6q2 -->
+            <head xml:id="FrMS88-f44041-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f44041-d1e111">
+               <lb ed="#V" n="88"/>SEcundo queritur vtrum 
+      cau<lb ed="#V" n="89" break="no"/>sa istnalis attingat 
+      ter<lb ed="#V" n="90" break="no"/>minum causae praencipalis. Et videtur quod sic. quia 
+      <lb ed="#V" n="91"/>non dicitur instatum: nisi respectu cause principa 
+      <lb ed="#V" n="92"/>lis.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e124">
+      ¶ Contra. quia nulla causa videtur 
+      subli<lb ed="#V" n="93" break="no"/>mari ad agendum super eius naturam. sed terminus causare prin 
+      <lb ed="#V" n="94"/>cipalis excedit naturam cause innsttralis: ergo etc.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e131">
+               <lb ed="#V" n="95"/>In ista quaestione prius distinguendum est de instrumen 
+      <lb ed="#V" n="96"/>to.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e138">
+      ¶ Quia per sumiter in artificialibus. et in 
+      <lb ed="#V" n="97"/>de deriuatur ad aliud sicut dolabra.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e144">
+      ¶ In naturalibus minus 
+      <lb ed="#V" n="98"/>proprie. sicut aliquin dicunt quod forma causaliditatis in igne est 
+      <lb ed="#V" n="99"/>primum.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e151">
+      ¶ Qualitates autem vocantur instra in moral 
+      <lb ed="#V" n="100"/>bus. sicut potentie dicuntur innsttra quibus anima operatur et 
+      <lb ed="#V" n="101"/>habitus: et hoc minus proprie.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e158">
+      ¶ Quarto modo insuper 
+      <lb ed="#V" n="102"/>naturalibus. sicut sacramentia dicuntur innstra gratie. et ignis 
+      in<lb ed="#V" n="103" break="no"/>strumentum diuine iusticie.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e165">
+      ¶ Quodtum ad primum. Dicunt 
+      ali<lb ed="#V" n="104" break="no"/>qui quod omnis causa innstatralis habet duplicem causalitatem. 
+      <lb ed="#V" n="105"/>Unam ratione naturae sue. Aliam inquantum instsenundum.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e172">
+      ¶ 
+      Prima<lb ed="#V" n="106" break="no"/>sicut dolabra habet formam acutiem et duritiem et respe 
+      <lb ed="#V" n="107"/>ctu istorum non est causa instralis.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e179">
+      ¶ De 2o. sicut 
+      quan<lb ed="#V" n="108" break="no"/>do artifex impellit dolabram ex quo impulsu facit 
+      ar<lb ed="#V" n="109" break="no"/>cham: et secundum hoc instatralis dicitur agens.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e187">
+      ¶ Sed contra. quod 
+      <lb ed="#V" n="110"/>acuties non sit forma actiua. quia figura non dicit nisi 
+      or<lb ed="#V" n="111" break="no"/>dinem partium in toto. sed nulla forma respectiua 
+      po<lb ed="#V" n="112" break="no"/>test esse actiua.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e196">
+      ¶ Item si esset actiua naturaliter et esset 
+      suffi<lb ed="#V" n="113" break="no"/>cienter approximata ageret per seipsam.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e201">
+      ¶ Item de du 
+      <lb ed="#V" n="114"/>ritie magis patet. quia est qualitas passiua qua aptum natum 
+      <lb ed="#V" n="115"/>est resistere alicui.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e208">
+      ¶ Ultimo. si esset ensis de lana et non 
+      <lb ed="#V" n="116"/>curuaretur posset per eam scindi res alia: si virtute 
+      diuina<lb ed="#V" n="117" break="no"/>conseruaretur in rectitudine sua.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e215">
+      ¶ Similiter quod dicitur de motu 
+      <lb ed="#V" n="118"/>impressionis. ostendo quod non attingit ad artificium.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e220">
+      ¶ 
+      Pri<lb ed="#V" n="119" break="no"/>mo. quia quando aliqua duo sunt incompossibila. posito vno aliud 
+      <lb ed="#V" n="120"/>remouetur. Sed instans et tmpus sunt incompossibilia et 
+      effectus<lb ed="#V" n="121" break="no"/>artis artificis complentur in instanti. et tunc motus non est. 
+      </p>
+            <p xml:id="FrMS88-f44041-d1e230">
+               <lb ed="#V" n="122"/>¶ Secundo. quia ex quo aliquid est corruptum non causat. sed 
+      <lb ed="#V" n="123"/>in primo instanti quo perficitur artificium motus non 
+      <lb ed="#V" n="124"/>est actualis.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e239">
+      ¶ Similiter de impulsione non videtur quod 
+      <lb ed="#V" n="125"/>sit aliud quam motus localis: si sit motus ad formam qui 
+      <lb ed="#V" n="126"/>impellit dolabram in quolibet instanti ponit eam in spi 
+      <lb ed="#V" n="127"/>cio sibi equali: et ponitur ab aliquo ageute in isto 
+      in<lb ed="#V" n="128" break="no"/>stanti non a motu: quia tunc non est simpliciter 
+      vlti<lb ed="#V" n="129" break="no"/>mum: videtur quod inequali spacio inducitur ab agens 
+      <lb ed="#V" n="130"/>te aliquo. Non ab impulsione. quia iam desit.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e255">
+      ¶ Ideo 
+      <lb ed="#V" n="131"/>dico quod instrumentum in artificialibus nullam habe 
+      <lb ed="#V" n="132"/>causalitatem. Sed immediate ab agente causatur.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e262">
+      ¶ De¬ 
+      <!--382.xml-->
+      <pb ed="#V" n="190-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>clarat hoc Scotus sic. quando agens inducit caliditatem ex 
+      <lb ed="#V" n="2"/>pellit frigiditatem: quia sunt due forme incompossibiles. sicut 
+      <lb ed="#V" n="3"/>duo corpora sunt incompossibilia in eodem loco. Uolens igitur 
+      <lb ed="#V" n="4"/>inducere dolabram in tali vbi habens virtutem huius non 
+      <lb ed="#V" n="5"/>potest facere alio corpore stante in tali vbi.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e282">
+      ¶ Sed 
+      contra<lb ed="#V" n="6" break="no"/>quia omne agens naturale agit vt videtur per contactum. sed agens 
+      <lb ed="#V" n="7"/>non attingit dolabram nisi in manubrio: et manubrium 
+      <lb ed="#V" n="8"/>non agit. sed ferrum: ad quod non ingreditur virtus agentis. 
+      </p>
+            <p xml:id="FrMS88-f44041-d1e291">
+               <lb ed="#V" n="9"/>¶ Similiter porto vinum mediante lagena: sed lagena 
+      ni<lb ed="#V" n="10" break="no"/>hil facit quando non porto vinum.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e299">
+      ¶ Item in pulsatione 
+      causa<lb ed="#V" n="11" break="no"/>pane: chorda agit immediate ad campanam.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e304">
+      ¶ Item 
+      vol<lb ed="#V" n="12" break="no"/>uens rotam et illa aliam. non attingitur a prima.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e309">
+      ¶ Respondeo 
+      <lb ed="#V" n="13"/>si videamus quomodo intelligentia mouet celum faciliter 
+      vi<lb ed="#V" n="14" break="no"/>dentur ista.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e316">
+      ¶ Nam angelus mouens celum est in 
+      ali<lb ed="#V" n="15" break="no"/>qua parte determinata: vtpote in oriente. sed virtus mo 
+      <lb ed="#V" n="16"/>tiua eius immediate attingit totum celum. Non quod vna 
+      <lb ed="#V" n="17"/>pars moueat aliam. nec motus motum. nec habet ille mo 
+      <lb ed="#V" n="18"/>tus aliam causam nisi intelligentiam. igitur immediante causatur 
+      <lb ed="#V" n="19"/>in partibus ab intelligentia.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e329">
+      ¶ Eodem modo dico quod 
+      suf<lb ed="#V" n="20" break="no"/>ficit in corpore continuo dolabre tangere vnam partem. 
+      </p>
+            <p xml:id="FrMS88-f44041-d1e334">
+               <lb ed="#V" n="21"/>¶ Similiter non est imaginandu m quod lagena portet vinum 
+      <lb ed="#V" n="22"/>sed quod coniuncta sunt corpora illa: et mouendo vnam partem 
+      <lb ed="#V" n="23"/>mouet totum. Et eodem modo est de causapana: quia sufficit 
+      <lb ed="#V" n="24"/>contingere chordam: et virtus extenditur ad totum.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e346">
+      ¶ Sed 
+      <lb ed="#V" n="25"/>contra causa instrumentalis est vere causa. ergo aliquid caum 
+      <lb ed="#V" n="26"/>sat.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e353">
+      ¶ Dicitur quod vere est instrumentum. Et quando dicitur quod 
+      ve<lb ed="#V" n="27" break="no"/>re est causa.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e358">
+      ¶ Dicitur quod causa instrumentalis deficitur a 
+      ve<lb ed="#V" n="28" break="no"/>ra causa. sic quod dependeat effectus ab instrumento.
+    </p>
+            <p xml:id="FrMS88-f44041-d1e363">
+      ¶ Sed 
+      <lb ed="#V" n="29"/>quomodo per se ordinatur inter caufas per se:
+    </p>
+            <p xml:id="FrMS88-f44041-d1e368">
+      ¶ Dicit 
+      <lb ed="#V" n="30"/>quod sicut effectus essentialiter ordinati. Unum per se 
+      requi<lb ed="#V" n="31" break="no"/>ritur et primo ante alium. ideo aliquo modo ordinat 
+      <lb ed="#V" n="32"/>inter causas per se: tanquam per se requisitum.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

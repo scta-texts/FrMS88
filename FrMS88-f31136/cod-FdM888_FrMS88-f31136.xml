@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f31136"><!-- l3d5-12q2 -->
+            <head xml:id="FrMS88-f31136-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f31136-d1e111">
+               <lb ed="#V" n="38"/>¶ Questio. ii. 
+      <lb ed="#V" n="39"/>Secundo quero Utrum 
+      sup<lb ed="#V" n="40" break="no"/>positum 
+      an<lb ed="#V" n="41" break="no"/>geli possit assumere naturam creatam 
+      <lb ed="#V" n="42"/>quatuor. 
+      <lb ed="#V" n="43"/>hic introducuntur conclusione 
+      </p>
+            <p xml:id="FrMS88-f31136-d1e127">
+               <lb ed="#V" n="44"/>¶ Prima est quod angelus non potest aliquam naturam creatam 
+      <lb ed="#V" n="45"/>an proprio naturae supposito separare. quia non potest influere ad 
+      <lb ed="#V" n="46"/>naturam non influendo ad suppositum: eo quod neutrum virtua 
+      <lb ed="#V" n="47"/>iter continet.
+    </p>
+            <p xml:id="FrMS88-f31136-d1e138">
+      ¶ Secunda conclusio quod angelus non potest imprimere 
+      <lb ed="#V" n="48"/>respectum vnionis ad suum suppositum in natura creata: quia quod 
+      <lb ed="#V" n="49"/>non est rei naturale non potest ei nisi supernaturaliter imprimi. Sed 
+      <lb ed="#V" n="50"/>angelus non potest aliquid supernaturaliter imprimere. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f31136-d1e147">
+               <lb ed="#V" n="51"/>¶ Tertia conclusio quod dato quod deus vnionem istam causaret: tamen 
+      an<lb ed="#V" n="52" break="no"/>gelus non posset ipsam terminare: quia omnis habitudo creatu 
+      <lb ed="#V" n="53"/>re ad creaturam semper est naturalis. Sed ista vnio non est naturalis 
+      <lb ed="#V" n="54"/>sed supernaturalis. ergo istam non potest angelus teriare.
+    </p>
+            <p xml:id="FrMS88-f31136-d1e159">
+      ¶ 
+      Quar<lb ed="#V" n="55" break="no"/>ta conclusio est quod ex istis sequitur quod angelus non possit esse homo: quia 
+      <lb ed="#V" n="56"/>non nisi per comuicatione ideomatum. sed per assumptionem 
+      <lb ed="#V" n="57"/>ad suppositum fit comunicatio ideomatum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f31136-d1e168">
+      ¶ Sed contra. quia 
+      <lb ed="#V" n="58"/>deus potest supplere in creatura illud quod contradictionem 
+      <lb ed="#V" n="59"/>non implicat nec naturae repugnat. Sed si angelus per divinam 
+      <lb ed="#V" n="60"/>potentiam assumat naturam humanam non videtur contradictio.
+    </p>
+            <p xml:id="FrMS88-f31136-d1e177">
+      ¶ Dicendum 
+      <lb ed="#V" n="61"/>quod deus non potest creature attribuere quod sue naturae repugnat 
+      <lb ed="#V" n="62"/>sicut quod luna a se gignat et producat radium. suppositum autem 
+      <lb ed="#V" n="63"/>angeli non est vltimum independens in genere 
+      suppositatio<lb ed="#V" n="64" break="no"/>nis: ideo non potest nisi dependentiam sue proprie naturae teria 
+      <lb ed="#V" n="65"/>re: quia sua suppositalitas est sue naturae totaliter adequata. 
+      </p>
+            <p xml:id="FrMS88-f31136-d1e190">
+               <lb ed="#V" n="66"/>¶ Unde notandum quod materia aliquando excedit formansicut in generabili¬ 
+      <!--350.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>bus et corruptibilibus. Aliquando econverso forma excedit materiam: vt 
+      <lb ed="#V" n="68"/>patet in formis separabilibus. anima enim potest separari a sua materia 
+      <lb ed="#V" n="69"/>Aliquando autem matearia et forma sunt adequata: ita quod neutrum 
+      exce<lb ed="#V" n="70" break="no"/>dit reliquum. vt in corporibus celestibus vbi mteam et forma numquam 
+      <lb ed="#V" n="71"/>separantur.
+    </p>
+            <p xml:id="FrMS88-f31136-d1e210">
+      ¶ Sic est dicendum quod suppositum aliquando 
+      excedi<lb ed="#V" n="72" break="no"/>naturam: vt in divinis: ideo suppositum non ptest solum sustentare 
+      <lb ed="#V" n="73"/>naturam diuinam: sed etiam creaturam. Aliquando etiam nam excedit 
+      <lb ed="#V" n="74"/>suppositum vt naam divina que propter suam illimitationem 
+      re<lb ed="#V" n="75" break="no"/>quirit suppositorum pluralitatem. Aliquando autem nam et 
+      sup<lb ed="#V" n="76" break="no"/>positum sunt adequata vt in creaturis vbi natura supposita 
+      <lb ed="#V" n="77"/>tur in proprio supposito et illud suppositum suppositatio 
+      <lb ed="#V" n="78"/>nem alterius naturae non terminat.
+    </p>
+            <p xml:id="FrMS88-f31136-d1e228">
+      ¶ hic tamen est notandum 
+      <lb ed="#V" n="79"/>quod licet diuinum suppositum naturam excedat: vt dictum est: non 
+      <lb ed="#V" n="80"/>tamen intensiue sed extensiue solum. nam vero 
+      supposi<lb ed="#V" n="81" break="no"/>tum intensiue et extensiue excedit. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f66399"><!-- l4d19q1 -->
+            <head xml:id="FrMS88-f66399-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f66399-d1e111">
+               <lb ed="#V" n="29"/>Postquam ostensum est etc. 
+      <lb ed="#V" n="30"/>Hic distinctio. 19a. Circa 
+      <lb ed="#V" n="31"/>quam quaeritur 4or quaestiones. 
+      <lb ed="#V" n="32"/>Prima. vtrum princeps ecclesie habeat 
+      <lb ed="#V" n="33"/>plenitudinem potestatis in iurisditione spi 
+      <lb ed="#V" n="34"/>rituali vniuersalis ecclesie.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e127">
+      ¶ Et videtur quod 
+      <lb ed="#V" n="35"/>non: quia solus christus est caput ecclesie secundum 
+      <lb ed="#V" n="36"/>ampostolum. alii vicarii tantum.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e134">
+      ¶ Contra. quia christus de 
+      <lb ed="#V" n="37"/>dit beato petro plenitudininem potestatis. 
+      <lb ed="#V" n="38"/>videndum est de collatione 
+      pote<lb ed="#V" n="39" break="no"/>hic primo statis et auctoritatis facta beato 
+      <lb ed="#V" n="40"/>petro.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e145">
+      ¶ Circa quod sciendum quod in quatuor locis 
+      sa<lb ed="#V" n="41" break="no"/>re sctipture innuenimus mentionem factam de ea.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e151">
+      ¶ 
+      Pri<lb ed="#V" n="42" break="no"/>mo fuit figurata Ioan. primo. tum vocaberis cephas: 
+      <lb ed="#V" n="43"/>dued interpretatur caput: secundum Ieronymum. Et in signum 
+      <lb ed="#V" n="44"/>buius summis pontificibus mutantur nomina. Secum 
+      <lb ed="#V" n="45"/>do fuit promissa Math. ide. tum es petrus et super hanc 
+      <lb ed="#V" n="46"/>petram etc. Et sequitur tibi dabo claues regni celorum 
+      <lb ed="#V" n="47"/>tunc enim promisit. sed tunc non dedit.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e167">
+      ¶ Tertio fuit 
+      <lb ed="#V" n="48"/>insinuata in passione: quando dixit christus. symon. ecce 
+      sa<lb ed="#V" n="49" break="no"/>thanas expectauit etc. et sequitur. Ego autem pro te 
+      roga<lb ed="#V" n="50" break="no"/>ui vt non deficiat fides tua: et tum aliquando conuersus etc. 
+      </p>
+            <p xml:id="FrMS88-f66399-d1e176">
+               <lb ed="#V" n="51"/>¶ Quarto fuit tradita. Ioan. 2io. Simon ioannis 
+      di<lb ed="#V" n="52" break="no"/>ligis me etc. Et sequitur. Pasce oues meas inquit. et heo 
+      <lb ed="#V" n="53"/>dixit enim ter. Sed instatur.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e185">
+      ¶ Primo videtur quod non possit 
+      <lb ed="#V" n="54"/>omnia soluere: quia filius tenetur honorare parentes et 
+      nutri<lb ed="#V" n="55" break="no"/>re eos: sed hoc non potest petrus soluere.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e192">
+      ¶ Item in 
+      <lb ed="#V" n="56"/>veteri testo dicitur non furtum facies. Contra hoc non 
+      <lb ed="#V" n="57"/>potest petrus. Nec supra matrimonium: vt soluat illud. 
+      </p>
+            <p xml:id="FrMS88-f66399-d1e199">
+               <lb ed="#V" n="58"/>¶ Item non potest obligare ad culpam: vt quod 
+      menda<lb ed="#V" n="59" break="no"/>cium inocosum sit mortale.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e207">
+      ¶ Ad primum. dico quod sunt 
+      <lb ed="#V" n="60"/>aliqua de iure naturali super quibus non fuit data sibi 
+      <lb ed="#V" n="61"/>potestas.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e214">
+      ¶ Ad secundum. illud remanet quo ad morale: 
+      <lb ed="#V" n="62"/>et ideo non habet auctoritatem super illud.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e219">
+      ¶ Ad tertium 
+      <lb ed="#V" n="63"/>dicendum quod non dedit tantam potestatem petro quod rumperet 
+      <lb ed="#V" n="64"/>leges quas ipse statuit.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e226">
+      ¶ Ad quartum dicendum. quod 
+      ta<lb ed="#V" n="65" break="no"/>lia sunt de iure diuino: et ideo non potest. Tamen bene 
+      <!--431.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>potest precipere per obendientiam quod non fiat tale opus: 
+      <lb ed="#V" n="67"/>buta mentire iocose: quod tantum est veniale de se: sed transgre 
+      <lb ed="#V" n="68"/>diendo: esset peccatum mortale. sed hoc non esset tunc 
+      <lb ed="#V" n="69"/>mortale: quia inocosum: sed quia preceptum.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e244">
+      ¶ Sed 
+      nunquo<lb ed="#V" n="70" break="no"/>beatus petrus fuit factus irregularis mutilando sen 
+      <lb ed="#V" n="71"/>uum et amputando sibi aurem.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e251">
+      ¶ Dico quod non erat: tunc 
+      <lb ed="#V" n="72"/>instituta irregularitas: nec erat illicitum interficere lici 
+      <lb ed="#V" n="73"/>te in veteri testo: quia sacerdotes poterant interficere 
+      li<lb ed="#V" n="74" break="no"/>cite: hoc patet de samuele primo regum qui concidit in 
+      <lb ed="#V" n="75"/>frusta agag regem amaleh.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e263">
+      ¶ Sed quid si modo summus 
+      <lb ed="#V" n="76"/>pontifex mutilaret aliquem vel occideret: nunquid esset 
+      <lb ed="#V" n="77"/>irregularis:
+    </p>
+            <p xml:id="FrMS88-f66399-d1e270">
+      ¶ Dico quod non esset irregularis: quia ipse 
+      <lb ed="#V" n="78"/>est superior: nec aliquod inus ipsum obligat. 
+      <lb ed="#V" n="79"/>videndum est qualiter successoribus eius 
+      <lb ed="#V" n="80"/>Secundo est commissa plenitudo potestatis. 
+      </p>
+            <p xml:id="FrMS88-f66399-d1e279">
+               <lb ed="#V" n="81"/>¶ Et declaratur quadruplici via.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e284">
+      ¶ Primo ex 
+      scri<lb ed="#V" n="82" break="no"/>ptura: quia quod dixit discipulis et successoribus dicit. 
+      <lb ed="#V" n="83"/>Quod autem vobis dico omnibus dico vigilate.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e291">
+      ¶ Item 
+      <lb ed="#V" n="84"/>quando dixit apostolis: baptizantes eos in nomine 
+      <lb ed="#V" n="85"/>patris etc. Mathei vltimo: non cessauit illa potestas 
+      <lb ed="#V" n="86"/>a posterioribus.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e300">
+      ¶ Secunda. via in primo concsilio gene 
+      <lb ed="#V" n="87"/>rali: quod fecerunt apostoli. expressit symon vnitatem 
+      <lb ed="#V" n="88"/>ecclesie ponens hunc articulum. sanctam ecclesiam 
+      <lb ed="#V" n="89"/>catholicam: et hec est vnitas ordinis. hec oportet quod 
+      <lb ed="#V" n="90"/>it in habitudine ad vnum primum: et ita est de 
+      articu<lb ed="#V" n="91" break="no"/>is fidei: quod sit aliquod primum in ecclesia.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e314">
+      ¶ Tertia 
+      <lb ed="#V" n="92"/>quia vbicumque est eadem causa condendi inus ibi debet esse 
+      <lb ed="#V" n="93"/>eadem ratio sed eadem est ratio nunc sicut tunc scilicet 
+      habe<lb ed="#V" n="94" break="no"/>re principem.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e323">
+      ¶ Quarta: quia petrus commisit 
+      eccle<lb ed="#V" n="95" break="no"/>siam beato clementi sicut christus sibi commiserat: et 
+      <lb ed="#V" n="96"/>linus etiam fuit electus de consensu clementis. talem 
+      <lb ed="#V" n="97"/>igitur iurisditionem dedit lino qualem christus sibi. 
+      </p>
+            <p xml:id="FrMS88-f66399-d1e332">
+               <lb ed="#V" n="98"/>¶ Sed occurrunt difficultates.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e337">
+      ¶ Prima quod petrus 
+      <lb ed="#V" n="99"/>habuit potestatem non solum super homines. sed etiam 
+      <lb ed="#V" n="100"/>super demones. Item super egritudines.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e344">
+      ¶ Dico quod 
+      <lb ed="#V" n="101"/>ista non pertinent ad iurisditionem: seu auctoritatem: sed 
+      <lb ed="#V" n="102"/>magis ad sanctitatem.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e351">
+      ¶ Sed quero si summus 
+      potentia<lb ed="#V" n="103" break="no"/>tifex quin habet plenitudininem potestatis possit seipsum 
+      <lb ed="#V" n="104"/>absoluere in foro prnimnali.
+    </p>
+            <p xml:id="FrMS88-f66399-d1e359">
+      ¶ Dico quod non: quia non potest 
+      <lb ed="#V" n="105"/>fieri confessio ad seipsum: nec per forum iudiciale. quia 
+      <lb ed="#V" n="106"/>id hoc non obligatur. vt dictum est. cum sit supra to 
+      <lb ed="#V" n="107"/>tum ius positiuum institutum.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

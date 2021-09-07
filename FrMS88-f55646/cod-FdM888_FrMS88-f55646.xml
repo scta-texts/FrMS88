@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="202-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f55646"><!-- l4d12q1 -->
+            <head xml:id="FrMS88-f55646-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f55646-d1e111">
+               <lb ed="#V" n="69"/>Si autem queritur. 
+      <lb ed="#V" n="70"/>Ic incipit duodecima distinctio
+      <lb ed="#V" n="71"/>circa quam queritur vtrum 
+      <lb ed="#V" n="72"/>deus possit facere aliquam formam 
+      absolu<lb ed="#V" n="73" break="no"/>tam sine proprio subiecto.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e124">
+      ¶ Et videtur 
+      <lb ed="#V" n="74"/>quod non: quia ista sunt relatiua secundum rationem 
+      <lb ed="#V" n="75"/>perfectiui et perfecti: que necessario se 
+      exi<lb ed="#V" n="76" break="no"/>gunt secundum <ref xml:id="FrMS88-f55646-Rd1e132">Aug. 5o de trini.</ref>
+            </p>
+            <p xml:id="FrMS88-f55646-d1e136">
+      ¶ Contra. ab 
+      <lb ed="#V" n="77"/>solutum est de se: et secundum hoc non exigit aliud.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e141">
+               <lb ed="#V" n="78"/>hic inducuntur due opinio erronee. ¶ 
+      Pri<lb ed="#V" n="79" break="no"/>ma es contra quam disputat 
+      <lb ed="#V" n="80"/>magister hugo de scondo vicitste. que est illorum qui dixerunt 
+      <lb ed="#V" n="81"/>quod substantia panis est ibi: et quod christus assumit substantiam panis: 
+      <lb ed="#V" n="82"/>vt vere christus ipse dicatur impaneatus.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e155">
+      ¶ Sed istud es conitr 
+      <lb ed="#V" n="83"/>rationem incarnationis: quia ipsa fuit maxima exinanitio 
+      <lb ed="#V" n="84"/>quam fecit deus secundum sanctos. sed ista esset maior.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e162">
+      ¶ Sid 
+      <lb ed="#V" n="85"/>cundo contra naturam redemptionis. quia ad hoc christus factus est homo: 
+      <lb ed="#V" n="86"/>quia natura humana erat lapsa. non autem panis est talis natura: vt 
+      <lb ed="#V" n="87"/>possit labi.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e171">
+      ¶ 3o. simpliciter contra naturam resurrectionis quia Tpristius 
+      <lb ed="#V" n="88"/>postquam resurrexit nihil corruptibile habuit: et tamen secundum hoc 
+      <lb ed="#V" n="89"/>adhuc christus esset corruptibilis.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e178">
+      ¶ 4o eodem modo contra 
+      <lb ed="#V" n="90"/>naturam in celo collocationis: quia vt dicit Aug. donec finia 
+      <lb ed="#V" n="91"/>tur seculum sursum est diseuns. sed hoc posito localiter esset 
+      <lb ed="#V" n="92"/>hic discuens nunc sicut tunc.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e187">
+      ¶ Alii dixerunt quod 
+      accidentia<lb ed="#V" n="93" break="no"/>sunt in aere: vt in subiecto: quia non videtur quod accidens sit sine subie 
+      <lb ed="#V" n="94"/>cto.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e194">
+      ¶ Sed hoc est contra naturam et experientiam sensus quia 
+      aer<lb ed="#V" n="95" break="no"/>est corpus dyaphum. sed vbi egreditur aer suam rationem. non 
+      <lb ed="#V" n="96"/>remanet eletum: sed esset mixtum sicut nebula. habent etiam 
+      <lb ed="#V" n="97"/>ille species saporem et soliditatem contra naturam aeris. 
+      <lb ed="#V" n="98"/>igitur hic primo de forma. quia que 
+      <lb ed="#V" n="99"/>Sistinguo dam sunt substantiles quedam 
+      accidenta<lb ed="#V" n="100" break="no"/>les: Item alie corporales alie spirituales. et quedam 
+      absolu<lb ed="#V" n="101" break="no"/>te: et quedam relatiue. secundum igitur hec sunt quatuor 
+      conclusio<lb ed="#V" n="102" break="no"/>nes.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e215">
+      ¶ Prima quod forma absoluta accidentalis corpora 
+      <lb ed="#V" n="103"/>lis potest fieri sine subiecto per diuinam potentiam. Probatio 
+      <lb ed="#V" n="104"/>huius non potest sumi ex sensibus: quia contra sensum apparet. 
+      <lb ed="#V" n="105"/>neque per viam metaphisicalem. quia tunc ostenderetur quod non 
+      <lb ed="#V" n="106"/>esset essentialis ordo et dependentia accidentis ad subiectum. 
+      <lb ed="#V" n="107"/>ergo ista est credita et ex ista alie deducuntur.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e228">
+      ¶ Secunda cnclu 
+      <lb ed="#V" n="108"/>est. deus potest facere formam spiritualem sine subiecto. hoc 
+      <lb ed="#V" n="109"/>autem deducitur exprima. tamen probatur aliter. quandocumque due 
+      for<lb ed="#V" n="110" break="no"/>me comparantur et separantur quanto aliqua est perfectior tanto 
+      <lb ed="#V" n="111"/>magis est immaterialis. vel minus materialis. et per consequens magis 
+      <lb ed="#V" n="112"/>separabilis sed forma spiritualis est huiusmodi respectu 
+      cor<lb ed="#V" n="113" break="no"/>poralis de qua hic supponitur ex fide. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e244">
+      ¶ Secundo sic. 
+      <lb ed="#V" n="114"/>ex defectu actualitatis forme est quod non sit separabilis: 
+      <lb ed="#V" n="115"/>sed forme spirituales sunt actualiores. quae ergo magis actuali 
+      <lb ed="#V" n="116"/>tatem habet magis est separabilis.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e253">
+      ¶ Tertia conclusio. quod 
+      <lb ed="#V" n="117"/>deus potest facere formam materialem substantialem sine subie 
+      <lb ed="#V" n="118"/>cto. probatio. quia quod plus habet de substantialitate plus 
+      ha<lb ed="#V" n="119" break="no"/>bet de separabilitate. sed forma materialis substantialitate plus 
+      <lb ed="#V" n="120"/>habet de substantialitate quam accidens. ergo magis est nata esse per 
+      <lb ed="#V" n="121"/>se: quia est proprietas generis substantie et per consequens potest separari 
+      <lb ed="#V" n="122"/>et plus habet de perseitate tertii modi que est quod natum est 
+      pear<lb ed="#V" n="123" break="no"/>se solitarie subsistere: et ex hoc potest formari noualrto quod 
+      <lb ed="#V" n="124"/>habet plus de perseitate tertii modi magis est natum per se 
+      <lb ed="#V" n="125"/>subsistere. forma substantialis materialis est huiusmodi. ergo etc. Probatio 
+      <lb ed="#V" n="126"/>maioris. quia hec est proprietas generis substantie.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e277">
+      ¶ 4a conclusio. omnis 
+      <lb ed="#V" n="127"/>forma substantialis spiritualis potest fieri naturaliter sine 
+      subie<lb ed="#V" n="128" break="no"/>cto: quia ex quo est tota in qualibet parte materiae non dependet 
+      <lb ed="#V" n="129"/>a materia: quia tuc dependeret tota a qualibet parte: quod non potest 
+      <lb ed="#V" n="130"/>esse. Item precisa vna parte adhuc remaneret: igitur non 
+      <lb ed="#V" n="131"/>dependet ab ea.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e290">
+      ¶ Contra primam conclusionem. arguitur secundum 
+      <!--408.xml-->
+      <pb ed="#V" n="203-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Augustinus quod candor est candidus: sed candidum non potest esse 
+      <lb ed="#V" n="2"/>sine subiecto: ergo nequem candor. Contra 2am. quia si sapientiam 
+      po<lb ed="#V" n="3" break="no"/>test separare: potest eam in lapidem imprimere: quod videtur 
+      incon<lb ed="#V" n="4" break="no"/>ueniens.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e309">
+      ¶ Contra tertiam. de essentia igneitatis est materia: 
+      <lb ed="#V" n="5"/>sed igneitas est forma ignis. ergo talis forma materialis 
+      <lb ed="#V" n="6"/>a materia separari non potest.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e316">
+      ¶ Contra quartam. Greg. in 
+      dya<lb ed="#V" n="7" break="no"/>logo dicit quod quedam est forma spiritualis que corpore tegitur 
+      <lb ed="#V" n="8"/>et cum carne moritur sicut brutum. Quedam que nec carne 
+      <lb ed="#V" n="9"/>tegitur: nec cum carne moritur: vt angelus. Quedam que 
+      <lb ed="#V" n="10"/>carne tegitur: sed non cum carne moritur: sicut anima: ergo secundum 
+      <lb ed="#V" n="11"/>eum bruti forma est spiritualis: et per consequens potest naturaliter se 
+      <lb ed="#V" n="12"/>parari.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e332">
+      ¶ Ad primum dicitur quod concretum. aliquando sumitur materialiter si 
+      <lb ed="#V" n="13"/>cut dicendo album currit. Aliquando formaliter vt dicendo album 
+      <lb ed="#V" n="14"/>est qualitas. et hoc modo vltimo intelligit Aug.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e339">
+      ¶ Ad 
+      <lb ed="#V" n="15"/>2m concedo quod deus potest imprimere sapientiam in 
+      conue<lb ed="#V" n="16" break="no"/>nienti susceptiuo. non autem in quocumque: sicut animam in 
+      ali<lb ed="#V" n="17" break="no"/>quo corpore tamen organico.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e348">
+      ¶ Ad 3m dico quod materia est de est 
+      <lb ed="#V" n="18"/>sentia igneitatis. sed ista forma separata non esset ignei 
+      <lb ed="#V" n="19"/>tas: quia est forma totius sicut humanitas: esset tamen in specie 
+      <lb ed="#V" n="20"/>igneitatis per reductionem.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e357">
+      ¶ Ad illud autem Greg. dico quod 
+      <lb ed="#V" n="21"/>loquitur equoce de spiritu: quia antiqui vocauerunt corpora 
+      sub<lb ed="#V" n="22" break="no"/>tilia spiritum. sicut facit etiam prophta. os meum aperui et 
+      attra<lb ed="#V" n="23" break="no"/>xi spiritum id est aerem secundum ltram. sed proprie anima sensitiua non est 
+      <lb ed="#V" n="24"/>anima spiritualis cum sit extensa sicut corpus.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e369">
+      ¶ Sed occurrit 
+      <lb ed="#V" n="25"/>ifficultas nam accidens ab accidendo dicitur quod aliquid ergo dicatur accidents 
+      <lb ed="#V" n="26"/>non probat esse accidens: nisi accidat: sicut non potest esse actu 
+      <lb ed="#V" n="27"/>currens quin currat.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e378">
+      ¶ Dico quod si accipiatur participaliter 
+      <lb ed="#V" n="28"/>quod ita est: sed nominaliter dat tantum intelligere inherentiam 
+      aptitu<lb ed="#V" n="29" break="no"/>dinalem.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e385">
+      ¶ 2a difficultas quia secundum philosophos accidentis esse est inesse 
+      </p>
+            <p xml:id="FrMS88-f55646-d1e388">
+               <lb ed="#V" n="30"/>¶ Dico quod verum est actualiter vel aptitudinaliter: et hoc 
+      suffi<lb ed="#V" n="31" break="no"/>cit.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e395">
+      ¶ Tertia difficultas quia quod ponitur in descriptione 
+      alicuiu<lb ed="#V" n="32" break="no"/>non videtur separabile ab illo: sed inherentia ponitur in 
+      descri<lb ed="#V" n="33" break="no"/>ptione accidentis: quia accidens est quod adest et abest.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e402">
+      ¶ Dicit 
+      <lb ed="#V" n="34"/>ad hoc quod verum est in apositum.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e408">
+      ¶ Quarta difficultas. quia subiectum 
+      po<lb ed="#V" n="35" break="no"/>nitur in diffinitione accidentis.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e413">
+      ¶ Dico quod duplex est 
+      diffini<lb ed="#V" n="36" break="no"/>tio. vna que est per additamentum: et talis non est propria 
+      <lb ed="#V" n="37"/>sed si proprie diffiniatur in suo genere non oportet.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e420">
+      ¶ Sed de 
+      quali<lb ed="#V" n="38" break="no"/>tate dubitatur de qualibet eius specie. et primo de prima specie: si 
+      <lb ed="#V" n="39"/>sunt separabilia. et dicitur quod sic nec apparet causa quare non si 
+      <lb ed="#V" n="40"/>cut corporalia et multo fortius.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e429">
+      ¶ Secundo de 2a specie 
+      pu<lb ed="#V" n="41" break="no"/>ta potentia vel impotentia.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e434">
+      ¶ Dico quod potentia aliquando est 
+      <lb ed="#V" n="42"/>accidens sicut potentia calefaciendi in igne que est calor: et tunc 
+      <lb ed="#V" n="43"/>talis potest separari: sed de accidentibus quae sunt proprie 
+      pas<lb ed="#V" n="44" break="no"/>siones. sicut potentie anime non possunt separari: quia licet habeant 
+      <lb ed="#V" n="45"/>modum accidentis: sunt tamen eiusdem praedicamenti cum subiecto¬ 
+      </p>
+            <p xml:id="FrMS88-f55646-d1e445">
+               <lb ed="#V" n="46"/>¶ De illis tertie speciei patet quod sic.
+    </p>
+            <p xml:id="FrMS88-f55646-d1e451">
+      ¶ Sed de figura:
+    </p>
+            <p xml:id="FrMS88-f55646-d1e454">
+      ¶ 
+      Di<lb ed="#V" n="47" break="no"/>co quod non potest separari: nec est proprie de genere qualitatis: cum 
+      <lb ed="#V" n="48"/>sit quidam ordo partium. licet secundum dici sit in genere qualitatis: non tamen 
+      <lb ed="#V" n="49"/>secundum esse quod habeat modum et esse in genere qualitatis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

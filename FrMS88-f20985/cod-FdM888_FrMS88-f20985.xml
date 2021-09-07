@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="160-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f20985"><!-- l2d28q1 -->
+            <head xml:id="FrMS88-f20985-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f20985-d1e111">
+               <lb ed="#V" n="107"/>CIrca distinctionem 28. 
+      Quae<lb ed="#V" n="108" break="no"/>ro vrum 
+      <lb ed="#V" n="109"/>liberum arbitrium sine gratia sufficiat 
+      <lb ed="#V" n="110"/>ad merendum. et videtur quod sic per exemplum 
+      <lb ed="#V" n="111"/>de cornelio: cuius opera accepta fuerunt 
+      <lb ed="#V" n="112"/>qua 
+      <lb ed="#V" n="113"/>sine fide.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e129">
+      ¶ Sed contra ibidem dicitur 
+      <lb ed="#V" n="114"/>contrarium quod accersiuit beatum petrum 
+      <lb ed="#V" n="115"/>error pelagii monachi quae dicebat quod ex 
+      <lb ed="#V" n="116"/>hic fuit puris naturalibus potest homo 
+      mere<lb ed="#V" n="117" break="no"/>ri sufficienter: quia in facultate nostra sunt actus 
+      intel<lb ed="#V" n="118" break="no"/>ligendi et volendi quibus meremur.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e142">
+      ¶ Sed contra 
+      <lb ed="#V" n="119"/>quadruplici auctoritate sacre scripture: prima Math. 
+      <lb ed="#V" n="120"/>9 apud deum est hoc possibile apud homines impossi 
+      <lb ed="#V" n="121"/>bile. et loquitur de consequendo salutem.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e151">
+      ¶ Secunda 
+      <lb ed="#V" n="122"/>Ioan. 19. sine menihil potestis facere: non loquitur de 
+      <lb ed="#V" n="123"/>operibus naturalibus sed de meritoriis.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e159">
+      ¶ Tertia se 
+      <lb ed="#V" n="124"/>cunda corin. 3o. non sumus sufficientes cogitare aliquid  
+      <lb ed="#V" n="125"/>a nobis. et sequitur. qui idoneos nos fecit ministros etc. 
+      </p>
+            <p xml:id="FrMS88-f20985-d1e166">
+               <lb ed="#V" n="126"/>¶ Quarta inacobi primo. c. cano. sue omne datum 
+      opti<lb ed="#V" n="127" break="no"/>mum: et omne donum perfectum hic est actus merito 
+      <lb ed="#V" n="128"/>rius.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e175">
+      ¶ Ideo tenet fides catholica: quod liberum 
+      arbi<lb ed="#V" n="129" break="no"/>trium sine gratia non sufficit ad meredum. Et ad hoc 
+      <!--324.xml-->
+      <pb ed="#V" n="161-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quatuor sunt conclusiones. Quarum prima est quod liberum 
+      <lb ed="#V" n="2"/>arbitrium potest elicere actum meritorium in genere morum sine 
+      <lb ed="#V" n="3"/>gratia: quia actum virtutum moralium posuerunt philosophi et 
+      ha<lb ed="#V" n="4" break="no"/>buerunt tales actus. qui tamen nullam gratiam habuerunt: 
+      <lb ed="#V" n="5"/>assistente tamen eis generali influentia.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e197">
+      ¶ Secunda 
+      conclu<lb ed="#V" n="6" break="no"/>sio est quod liberum arbitrium potest elicere actum qui est meri 
+      <lb ed="#V" n="7"/>torius de congruo: quia actus attritionis est actus merito 
+      <lb ed="#V" n="8"/>rius de congruo: non meretur autem de condigno: alioquin 
+      gra<lb ed="#V" n="9" break="no"/>tia non esset gratia.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e208">
+      ¶ Tertia conclusio quod non potest elicere actum 
+      <lb ed="#V" n="10"/>meritorium de condigno: quia ex puris naturalibus non 
+      <lb ed="#V" n="11"/>otest esse condignus vita eterna.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e215">
+      ¶ Quarta conclusio. quod 
+      <lb ed="#V" n="12"/>iberum arbitrium non potest vitare peccatum meritorie sine 
+      <lb ed="#V" n="13"/>gratia: probatur per Grego. peccatum quod per penitentiam 
+      <lb ed="#V" n="14"/>non diluitur mox suo pondere ad aliud trahit.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e225">
+      ¶ Sed contra 
+      <lb ed="#V" n="15"/>primam conclusionem. per apostolum. omne quod non est ex fide 
+      pec<lb ed="#V" n="16" break="no"/>catum est: tale autem non potest esse actus bonus: ergo etc.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e232">
+      ¶ 
+      Con<lb ed="#V" n="17" break="no"/>tra secundam conclusione: quia tunc primam gratiam posset quis 
+      mere<lb ed="#V" n="18" break="no"/>ri: quod negat apostolus.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e239">
+      ¶ Contra 3am: quia nullus actus 
+      <lb ed="#V" n="19"/>est condignus vita eterna.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e244">
+      ¶ Contra 4am Ansel. de 
+      concor<lb ed="#V" n="20" break="no"/>dia liberi arbitrii: dicit quod liberum arbitrium est potestas 
+      <lb ed="#V" n="21"/>eruandi rectitudinem: ergo potest quis cauere a peccato. 
+      </p>
+            <p xml:id="FrMS88-f20985-d1e251">
+               <lb ed="#V" n="22"/>¶ Ad primum dicunt aliqui: quod infidelibus totum est peccatum 
+      <lb ed="#V" n="23"/>quicquid faciunt.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e258">
+      ¶ Sed hoc non videtur verum: quia 
+      <lb ed="#V" n="24"/>dare elemosinam et diligere deum esset eis peccatum. 
+      </p>
+            <p xml:id="FrMS88-f20985-d1e264">
+               <lb ed="#V" n="25"/>¶ Sed auctoritas apostoli est intelligenda de contrario fidei: 
+      <lb ed="#V" n="26"/>sicut dicit: si quis aliud euangelizauerit anathema sit 
+      <lb ed="#V" n="27"/>idest qui contrarium euangelizauerit.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e273">
+      ¶ Ad aliud 
+      di<lb ed="#V" n="28" break="no"/>co quod gratia non est gratia: si de condigno meretur: sed de 
+      <lb ed="#V" n="29"/>congruo non remouetur.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e280">
+      ¶ Ad aliud concedo quantum ad 
+      <lb ed="#V" n="30"/>naturam: sed ex institutione legis latoris potest esse: sicut 
+      <lb ed="#V" n="31"/>quod tantum daretur pro obulo quantum pro aureo potest: 
+      <lb ed="#V" n="32"/>rex instituere.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e289">
+      ¶ Ad aliud dicit Sco. potestas 
+      seruan<lb ed="#V" n="33" break="no"/>li etc. cum adiutorio gratie: quod non intendit excludere 
+      An<lb ed="#V" n="34" break="no"/>sel.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e296">
+      ¶ Sic haec est difficultas si homo cum gratia potest vitare pec 
+      <lb ed="#V" n="35"/>catum veniale. Dicitur quod non per illud ve. te. septies 
+      in<lb ed="#V" n="36" break="no"/>dmie cadit iustus etc. Et in nouo te. si dixerimus: quia pec 
+      <lb ed="#V" n="37"/>atum etc. dicit beatus Io. non igitur ex gratia: sed ex aliqua 
+      <lb ed="#V" n="38"/>confirmatione potest fieri: sicut de beata virgine Ma 
+      <lb ed="#V" n="39"/>ria.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e309">
+      ¶ Sed vnde est hoc: si per vnam horam potest quis non 
+      cade<lb ed="#V" n="40" break="no"/>re: quare non per alias. Dicitur hic propter auctoritatem 
+      sa<lb ed="#V" n="41" break="no"/>cre scripture: et ratio est quia ex occurrentibus sine 
+      delibe<lb ed="#V" n="42" break="no"/>ratione plena incurritur peccatum veniale.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e319">
+      ¶ Secunda 
+      <lb ed="#V" n="43"/>difficultas quare homo sine gratia non potest vitare 
+      pec<lb ed="#V" n="44" break="no"/>catum mortale cum ad hoc requratur plena deliberatio: 
+      <lb ed="#V" n="45"/>et si necessitetur non est peccatum. Dicit Scotus quod hic 
+      <lb ed="#V" n="46"/>est difficultas de peccato commissionis. Dicit autem quod 
+      <lb ed="#V" n="47"/>peccatum potest accipi: vel pro actu deordinato: et sic 
+      <lb ed="#V" n="48"/>transit: sed quantum ad reatum: illud non potest dimitti sine 
+      <lb ed="#V" n="49"/>gratia. Sed hoc non querit: sed de actu elicito queritur 
+      <lb ed="#V" n="50"/>go etc. De isto non apparet ratio quare non possit vitari. 
+      </p>
+            <p xml:id="FrMS88-f20985-d1e339">
+               <lb ed="#V" n="51"/>¶ Sed quid de peccato omissionis. Dicit quod non potest 
+      <lb ed="#V" n="52"/>vitare sine gratia: quilibet enim in peccato tenetur ad actu 
+      at<lb ed="#V" n="53" break="no"/>tritionis: quo habito datur gratia: quod si omittit finaliter 
+      pec<lb ed="#V" n="54" break="no"/>cat mortaliter.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e350">
+      ¶ Alia difficultas si gratia et peccatum sint 
+      <lb ed="#V" n="55"/>mediate opposita. Dicit Scotus quod de facto semper est 
+      <lb ed="#V" n="56"/>homo sub altero eorum: tamen de potentia dei absoluta 
+      <lb ed="#V" n="57"/>ipse posset facere in puris naturalibus.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e359">
+      ¶ Sed est ne omnis 
+      <lb ed="#V" n="58"/>actus elicitus cum gratia dignus vita eterna. Dicitur quod sic: si 
+      <lb ed="#V" n="59"/>actus ordinetur in vltimum finem: quicumque enim dederit 
+      cali<lb ed="#V" n="60" break="no"/>cem aque frigide etc. Sed si non ordinatur non: sicut dans 
+      ele<lb ed="#V" n="61" break="no"/>mosinam ex pietate naturali. obiectum enim gratie est vltimus 
+      <lb ed="#V" n="62"/>finis.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e372">
+      ¶ Sed hic est difficultas. si aliquis obligatur ad gratiam 
+      <lb ed="#V" n="63"/>habendam.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e377">
+      ¶ Quidam dicit quod sic. sicut ad alia praecepta. 
+      </p>
+            <p xml:id="FrMS88-f20985-d1e381">
+               <lb ed="#V" n="64"/>¶ Sed alius dicit oppositum. deus enim non obligat hominem 
+      <lb ed="#V" n="65"/>ad impossibile. Sed habere gratiam in se non est sibi 
+      <lb ed="#V" n="66"/>possibile nec in potestate eius.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e390">
+      ¶ Alius autem arguit quod deus 
+      <!--324.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>nullum dannat nisi ex transgressione precepti: sed ex 
+      ca<lb ed="#V" n="68" break="no"/>rentia gratie damnatur quis: nec est simpliciter 
+      impossibile<lb ed="#V" n="69" break="no"/>omni homine: licet enim gratia non fit simpliciter in potestate nostra: 
+      <lb ed="#V" n="70"/>tamen deus sic ordinauit quod disponenti se daret eam.
+    </p>
+            <p xml:id="FrMS88-f20985-d1e406">
+      ¶ Sed  
+      <lb ed="#V" n="71"/>pro: quia secundum hoc aliquins obligatus esset ad gloriam. 
+      </p>
+            <p xml:id="FrMS88-f20985-d1e411">
+               <lb ed="#V" n="72"/>¶ Ideo teneo quod non obligatur. Sed nunquid obseruans 
+      <lb ed="#V" n="73"/>precepta sine gratia peccat mortaliter. Dico hic quod non
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

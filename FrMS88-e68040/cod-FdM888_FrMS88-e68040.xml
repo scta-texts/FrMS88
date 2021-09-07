@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="92-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e68040"><!-- l1d29q4 -->
+            <head xml:id="FrMS88-e68040-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-e68040-d1e111">
+      Quaestio. iiii. 
+      <lb ed="#V" n="93"/>relatione in comparatione ad 
+      <lb ed="#V" n="94"/>Iso De suum fundamentum. videns 
+      <lb ed="#V" n="95"/>dum est de relatione in comparatione ad 
+      su<lb ed="#V" n="96" break="no"/>lum terminum. Et circa hoc quero primo. 
+      <lb ed="#V" n="97"/>Utrum relatio possit terminari ad relatio 
+      <lb ed="#V" n="98"/>nem. quod sic secundum August. Generans refertur ad genitum 
+      </p>
+            <p xml:id="FrMS88-e68040-d1e127">
+               <lb ed="#V" n="99"/>¶ Contra. Spiritussanctus non refertur ad patrem. 
+      <lb ed="#V" n="100"/>vna communis smnita. quod omnis relatio terminatur ad 
+      <lb ed="#V" n="101"/>hic ct suum oppositum. et hoc probatur sic. Ad illud terminat 
+      <lb ed="#V" n="102"/>relatio: ad quod terminaretur omni alio circumscripto: sed 
+      cir<lb ed="#V" n="103" break="no"/>cumscripto omni alio a patre praeter paternitatem adhuc filiatio 
+      ter<lb ed="#V" n="104" break="no"/>minaretur ad paternitatem. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e143">
+      ¶ Contra hoc arguit 
+      doctor<lb ed="#V" n="105" break="no"/>quadruplicitur. Primo sic. Omnis diffinitio prior est diffinito. sed 
+      re<lb ed="#V" n="106" break="no"/>atio diffinitur per terminum: ergo terminus est prior ea. relatio autem 
+      <lb ed="#V" n="107"/>ppposita simul est cum ea: ergo non est terminus. Maior est 
+      <lb ed="#V" n="108"/>mania: siue diffinitio fiat per intrinseca priora: siue per additamentum 
+      </p>
+            <p xml:id="FrMS88-e68040-d1e154">
+               <lb ed="#V" n="109"/>¶ 2o sic. In essentialit ordinatis non potest esse circulatio: omne 
+      <lb ed="#V" n="110"/>autem diffinitum notificatur per diffinitionem: si ergo relatio esset 
+      term<lb ed="#V" n="111" break="no"/>nus. tunc esset prior et notior: et eadem ratione alia oppositam 
+      <lb ed="#V" n="112"/>et sic esset circulatio.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e166">
+      ¶ 3o sic. Omnis relatio dmpendet a ter 
+      <lb ed="#V" n="113"/>mino et a fundamento. et per consequens est posterior eis: sed 
+      rela<lb ed="#V" n="114" break="no"/>tio oppositua non potest esse prior hac relatione cum sit simul ntura cum 
+      <lb ed="#V" n="115"/>ea. ergo non potest esse terminus: quia non potest ab ea dependere: esset enim 
+      <lb ed="#V" n="116"/>circulus.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e177">
+      ¶ 4o sic. Omnis habitudo inter extrema 
+      praesuppo<lb ed="#V" n="117" break="no"/>nit extrema illius habitudinis: sed omnis relatio est habitudo in 
+      <lb ed="#V" n="118"/>ter fundamentum et terminum. ergo praesupponit terminum: 
+      rela<lb ed="#V" n="119" break="no"/>tionem autem oppositam sibi non proesupponit. ergo non terminatur 
+      <lb ed="#V" n="120"/>ad eam.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e188">
+      ¶ Ista conclusio sic probata confitus sic quadruplici signo. 
+      </p>
+            <p xml:id="FrMS88-e68040-d1e191">
+               <lb ed="#V" n="121"/>¶ Primum est de relatione inter causam et effectum. Effectus. eni 
+      <lb ed="#V" n="122"/>prime causae ad primam causam est relatio realis. Quero ad quid 
+      <lb ed="#V" n="123"/>terminatur. non ad relationem realem: quia non est: nec 
+      ad<lb ed="#V" n="124" break="no"/>relationem rationis. ergo ad absolutum.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e202">
+      ¶ 2m signum est. 
+      <lb ed="#V" n="125"/>quod scientia terminatur ad scibile quod aliquando non est. 
+      Que<lb ed="#V" n="126" break="no"/>ro ad quid terminatur in scibili: non ad relationem realem 
+      <lb ed="#V" n="127"/>quia non est: nec ad relationem rationis. quia ens rationis non 
+      <lb ed="#V" n="128"/>est terminus relationis realis. ergo oportet dicere quod ad 
+      absoluti<lb ed="#V" n="129" break="no"/>in scibili.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e215">
+      ¶ 3m signum est. quod generatio in diuinis terminatur 
+      <lb ed="#V" n="130"/>ad essentiam. Similiter generatio in creaturis ad naturam: et non 
+      <lb ed="#V" n="131"/>potest dici quod ad relationem oppositam. quia illud ad quod 
+      ter<lb ed="#V" n="132" break="no"/>minatur generatio generatur sed absolutum in termino pro¬ 
+      <!--187.xml-->
+      <pb ed="#V" n="92-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>prie accipiendo generatur etc.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e234">
+      ¶ 4m signum est. quod passiua 
+      <lb ed="#V" n="2"/>spiratio in diuinis terminatur non ad spirationem 
+      oppos<lb ed="#V" n="3" break="no"/>tam actiuam vel passiuam: sed actiua ad esentiam praecise: 
+      pass<lb ed="#V" n="4" break="no"/>ua vero ad voluntatem fecumdam. Similiter generatio passiua ad 
+      <lb ed="#V" n="5"/>memoriam fecundam. ergo etc. Intelligendum tamen quod relatio 
+      fun<lb ed="#V" n="6" break="no"/>datur aliquando in absoluto: et terminatur ab absolutum. sicut relatio si 
+      <lb ed="#V" n="7"/>militudinins inter duas albedines. Aliquando fundatur in 
+      re<lb ed="#V" n="8" break="no"/>spectiuo: et terminatur ad respectum. sicut distintio numeralis inter 
+      du<lb ed="#V" n="9" break="no"/>as similitudines vel specificas. Aliquando fundatur in absolntu et 
+      <lb ed="#V" n="10"/>terminatur ad relatiuum: sicut prioritas qua fundamentum 
+      <lb ed="#V" n="11"/>dicitur esse prius relatione: fundatur quidem in absoluto: et 
+      termina<lb ed="#V" n="12" break="no"/>tur ad respectiuum. Aliquando econverso. sicut posterioritas eius ad 
+      <lb ed="#V" n="13"/>fundamentum que terminatur ad absolutum.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e263">
+      ¶ Sed hic sunt 
+      due<lb ed="#V" n="14" break="no"/>difficultates. Prima quia omnes relatiua diffinientes semper ponuntr 
+      <lb ed="#V" n="15"/>vnum oppositum in diffinitione alterius.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e270">
+      ¶ Dico quod non est 
+      im<lb ed="#V" n="16" break="no"/>telligedum propter hoc quod terminus relationis diffinite sit sua 
+      op<lb ed="#V" n="17" break="no"/>posita relatio. sed per illam circumloquimur absolutum: quod 
+      <lb ed="#V" n="18"/>est proprie terminus: sicut in diffinitione vtimur loco differentiae 
+      pro<lb ed="#V" n="19" break="no"/>pria passione. circumloquentes per eam propriam differentiam 
+      <lb ed="#V" n="20"/>et essentialem: terminatur ergo relatio ad fundamentum opposite 
+      <lb ed="#V" n="21"/>relationis: vel ad illud quod fundaret si esset opposita.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e286">
+      ¶ 2m 
+      <lb ed="#V" n="22"/>difficultas quomodo relationes opposite sunt simul nam si vna non 
+      coe<lb ed="#V" n="23" break="no"/>xigit aliam sicut terminus terminum.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e293">
+      ¶ Dico quod relatio 
+      opposiu<lb ed="#V" n="24" break="no"/>est posterior fundaminto vno signo: et vno signo suo 
+      ter<lb ed="#V" n="25" break="no"/>mino.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e300">
+      ¶ Tunc sic. Quecumque equaliter distant ab aliquo sunt ex 
+      <lb ed="#V" n="26"/>hoc simul: et si sunt equaliter alicui posteriora sunt similis. sed 
+      re<lb ed="#V" n="27" break="no"/>lationes iste opposite equaliter distant a termino vel 
+      funda<lb ed="#V" n="28" break="no"/>mento: et equaliter sunt posteriores: ergo sunt simul. 
+      <lb ed="#V" n="29"/>vt melius conclusio declaretur instatur 
+      <lb ed="#V" n="30"/>Sed ad huc quadruplicitur. Primo sic. 
+      Ter<lb ed="#V" n="31" break="no"/>minus precedit relationem: sed diuina essentia in filio 
+      <lb ed="#V" n="32"/>non praecedit patrem: vt pater est. ergo essentia diuina in 
+      fi<lb ed="#V" n="33" break="no"/>lio non erit terminus paternitatis vel generationis actiue. 
+      </p>
+            <p xml:id="FrMS88-e68040-d1e321">
+               <lb ed="#V" n="34"/>¶ 2o sic. Eentia in spiritussancto non precedit spirationem 
+      <lb ed="#V" n="35"/>actiuam: quia spirituisancto comnicaretur essentia per spirationem 
+      <lb ed="#V" n="36"/>actiuam. vt habetur. 19. de tri. cum ergo non praecedit ipsam 
+      ter<lb ed="#V" n="37" break="no"/>minare non poterit. cum terminus: etiam per te: semper ponatur prior. 
+      </p>
+            <p xml:id="FrMS88-e68040-d1e332">
+               <lb ed="#V" n="38"/>¶ 3o simimiliter arguo sic de generatione passiua. Tu dicis quod 
+      <lb ed="#V" n="39"/>terminatur ad absolutum in patre scilicet ad memoriam. sed 
+      me<lb ed="#V" n="40" break="no"/>moria fundamentum est paternitatis: et vt sic praecedit: nihil 
+      <lb ed="#V" n="41"/>autem terminat nisi quod est in patre. ergo memoria vt in 
+      pa<lb ed="#V" n="42" break="no"/>tre praecedit patrem.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e345">
+      ¶ 4o sic. Impossibile est spiritussanctum 
+      <lb ed="#V" n="43"/>intelligi spiratum antequam pater et filius spirentur: sed sic 
+      <lb ed="#V" n="44"/>esset si ponitur illud quod positum est. quia prius est 
+      spiratio<lb ed="#V" n="45" break="no"/>passiua quam pater et filius spirent: quia prius est terminus eius: 
+      <lb ed="#V" n="46"/>et sic prius erit spiritussanctus.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e356">
+      ¶ Ad primum dico: quod sicut 
+      for<lb ed="#V" n="47" break="no"/>ma in composito est terminus generationis: non tamen vt in 
+      <lb ed="#V" n="48"/>composito: sic enim est posterior ipso composito: ita 
+      diui<lb ed="#V" n="49" break="no"/>na essentia que est in filio est terminus generationis actiue: et 
+      <lb ed="#V" n="50"/>sic praecedit ipsam generationem actiuam: non tamen vt in filio. quia 
+      <lb ed="#V" n="51"/>bi intelligitur essentia per generationem actiuam.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e369">
+      ¶ Sed 
+      con<lb ed="#V" n="52" break="no"/>tra. Illud quod competit diuine essentie: vt intellecitur 
+      praecede<lb ed="#V" n="53" break="no"/>re personas: conuenit ei in tribus personis penitus 
+      indistin<lb ed="#V" n="54" break="no"/>cte: cum in illo priori nulla sit in ea distinctio: et tunc 
+      si<lb ed="#V" n="55" break="no"/>essentia praecedens generationem actiuam terminat eam. tunc 
+      com<lb ed="#V" n="56" break="no"/>uenit ei talis terminatio ante primam personam: et per consequens 
+      <lb ed="#V" n="57"/>in personis omnibus terminabit: et sic in persona patris 
+      ter<lb ed="#V" n="58" break="no"/>minabit generationem actiuam. quod videtur inconueniens.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e387">
+      ¶ Dico 
+      <lb ed="#V" n="59"/>ad hoc quod illud quod conuenit naturae diuine per se vel alicui naturaem 
+      <lb ed="#V" n="60"/>conuenit ei in illis omnibus quibus comunicatur. sicut diffinito vel 
+      <lb ed="#V" n="61"/>passio insunt naturae: vna in primo modo. altera in 2o. sed de his 
+      <lb ed="#V" n="62"/>que conueniunt alicui naturae per accidens. sicut heceitas. 
+      <lb ed="#V" n="63"/>non est inconueniens quod sibi non conueniant in omnibus quibus 
+      <lb ed="#V" n="64"/>comunicatur: sicut dato quod humanitas que est in Petro 
+      com<lb ed="#V" n="65" break="no"/>municetur Martino non oportet quod heceitas Petri comicetur 
+      <lb ed="#V" n="66"/>Martino: et tamen diffinitio humanitatis et risibilitas comnicat 
+      <!--187.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>Martino. cuius ratio est: quia heceitas conuenit humanita 
+      <lb ed="#V" n="68"/>ti per accidens. diffinitio autem et passio conueniunt per se. 
+      <lb ed="#V" n="69"/>Sic dico in proposito. quicquid conuenit essentie per se 
+      con<lb ed="#V" n="70" break="no"/>municatur cum essentia: sed tamen illud quod conuenit essentie 
+      <lb ed="#V" n="71"/>per accidens: sicut proprietates personales. cuiusmodi est 
+      ter<lb ed="#V" n="72" break="no"/>minare. que conueniunt sibi ad modum heceitatum non oportet 
+      <lb ed="#V" n="73"/>in omnibus commuicari.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e427">
+      ¶ Ad 2m dico quod sicut materia in 
+      compo<lb ed="#V" n="74" break="no"/>sito precedit formam quam causat in suo genere: non tamen 
+      <lb ed="#V" n="75"/>vt in composito: cum non sit in composito donec sit 
+      composi<lb ed="#V" n="76" break="no"/>quod est posterius forma: ita essentia in spiritusancto prece 
+      <lb ed="#V" n="77"/>dit spirationem: non tamen vt in spiritusancto est: quia tunc est 
+      po<lb ed="#V" n="78" break="no"/>sterior.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e440">
+      ¶ Sed contra. impossibile est quod eidem omnino 
+      indistin<lb ed="#V" n="79" break="no"/>cto competant extrema contradictionis: sed essentie sine 
+      re<lb ed="#V" n="80" break="no"/>duplicatione in filio conuenit terminare. essentie in 
+      pa<lb ed="#V" n="81" break="no"/>tre sine reduplicatione non conuenit istud terminare 
+      er<lb ed="#V" n="82" break="no"/>go essentia in patre distinguitur ab essentia in filio.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e451">
+      ¶ Dico 
+      <lb ed="#V" n="83"/>quod ista ratio demonstrat quod de essentia que est in patre verificatur 
+      <lb ed="#V" n="84"/>illud praedicatum terminare generationem actiuam: sine spiratio 
+      <lb ed="#V" n="85"/>nem: non tamen vt in patre: et similiter de essentia que est in filio 
+      ve<lb ed="#V" n="86" break="no"/>rificatur illud praedicatum terminare generationem passiuam siue spi 
+      <lb ed="#V" n="87"/>rationem: non tamen vt in filio.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e464">
+      ¶ Ad 3m dico quod essentia 
+      <lb ed="#V" n="88"/>in patre est ante paternitatem: et ita anteque sit patur. 
+      accipien<lb ed="#V" n="89" break="no"/>do essentiam absolute: non tamen essentia vt in patre scilicet sub 
+      re<lb ed="#V" n="90" break="no"/>duplicatione: sicut corpus in homine est prius quam anima: non 
+      <lb ed="#V" n="91"/>tamen vt in homine.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e475">
+      ¶ Ad 4m dico quod licet voluntas fit 
+      prior<lb ed="#V" n="92" break="no"/>intellectu id es naturali intelligentia: et forte prior natura ipsa 
+      spira<lb ed="#V" n="93" break="no"/>tione actiua: tamen spiratio passiua non terminatur ad ipsam 
+      <lb ed="#V" n="94"/>pro illo priori: sed pro illo signo quo est simul natura cum 
+      ip<lb ed="#V" n="95" break="no"/>sa scilicet pro secundo in qui est sua opposita.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e486">
+      ¶ Sed hoc est 
+      difficulta<lb ed="#V" n="96" break="no"/>quomodo generatio diuina terminatur ad essentiam: et tamen non dicatur 
+      <lb ed="#V" n="97"/>essentia generari: quia enim ad compositum terminatur generatio in 
+      <lb ed="#V" n="98"/>creaturis: ideo compositum dicitur generari. Et similiter est dubium: 
+      <lb ed="#V" n="99"/>si generatio passiua terminetur ad memoriam: quare non 
+      di<lb ed="#V" n="100" break="no"/>catur memoria producta.
+    </p>
+            <p xml:id="FrMS88-e68040-d1e500">
+      ¶ Dico quod ille productiones et 
+      re<lb ed="#V" n="101" break="no"/>lationes non referunt terminum formalem: sed totalem 
+      pre<lb ed="#V" n="102" break="no"/>cise: sicut generatio non refert potsentiam generatiuam: sed suppositum. 
+      </p>
+            <p xml:id="FrMS88-e68040-d1e507">
+               <lb ed="#V" n="103"/>¶ Sic dico de essentia que est terminus formalis. 
+      </p>
+            <p xml:id="FrMS88-e68040-d1e512">
+               <lb ed="#V" n="104"/>¶ Ad argumentum patet. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

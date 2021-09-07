@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f22399"><!-- l2d34q3 -->
+            <head xml:id="FrMS88-f22399-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f22399-d1e111">
+      <!--327.xml-->
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>¶ Questio. iii. 
+      <lb ed="#V" n="68"/>TErtia questio est. Utrum fit darem mi 
+      <lb ed="#V" n="69" break="no"/>norem vnitatem vnitate 
+      nume<lb ed="#V" n="70" break="no"/>rali. Et videtur quod non: quia verum est 
+      indi<lb ed="#V" n="71" break="no"/>uisibile.
+    </p>
+            <p xml:id="FrMS88-f22399-d1e129">
+      ¶ Contra. vbi est alia entitas. ibi 
+      <lb ed="#V" n="72"/>est alia vnitas. 
+      <lb ed="#V" n="73"/>aliqui. quod nulla est vnitas minor 
+      nu<lb ed="#V" n="74" break="no"/>hic dicun. c merali.
+    </p>
+            <p xml:id="FrMS88-f22399-d1e138">
+      ¶ Contra. in vnoquaque generest 
+      <lb ed="#V" n="75"/>dare vnum quod est mensura omnium illorum que sunt in illo. il 
+      <lb ed="#V" n="76"/>lud autem non est vnum indiuinduum.
+    </p>
+            <p xml:id="FrMS88-f22399-d1e145">
+      ¶ Secundo sic. vnum vnior 
+      <lb ed="#V" n="77"/>ponitur non potest autem hoc esse in indiuiduis.
+    </p>
+            <p xml:id="FrMS88-f22399-d1e151">
+      ¶ 3o quandocunque 
+      <lb ed="#V" n="78"/>sunt aliqua duo contraria immediata: posito vno remouetur 
+      reli<lb ed="#V" n="79" break="no"/>quum: et econverso.
+    </p>
+            <p xml:id="FrMS88-f22399-d1e158">
+      ¶ Sed ab aliquibus remouetur disto specifi 
+      <lb ed="#V" n="80"/>ca circumscripto omni opere intellectus: ergo oportet quod inducatur 
+      vni<lb ed="#V" n="81" break="no"/>tas opposita.
+    </p>
+            <p xml:id="FrMS88-f22399-d1e165">
+      ¶ 4o quia si multitudo et equalitas sunt 
+      re<lb ed="#V" n="82" break="no"/>lationes reales: ergo et fundamentum reale: quod est vnum: non 
+      <lb ed="#V" n="83"/>numero sed specie. Ideo dicitur hic quod sunt 4or vnitates 
+      ordi<lb ed="#V" n="84" break="no"/>nate in rerum natura scilicet vnitas numeralis specifica generis et 
+      transcen<lb ed="#V" n="85" break="no"/>dentis. Quod autem omnes iste vnitates sint in rerum natura probatur: 
+      <lb ed="#V" n="86"/>quia vbi est innuenire distinctas entitates. ibi est inueniri 
+      <lb ed="#V" n="87"/>distinctas vnitates. Sed alia est entitas indiuidui et spe 
+      <lb ed="#V" n="88"/>ciei: et aliorum dictorum: quia quodlibet potest cognosci seorsum 
+      al<lb ed="#V" n="89" break="no"/>tero non cognito.
+    </p>
+            <p xml:id="FrMS88-f22399-d1e185">
+      ¶ Item secundum idem non materiae conformitas et 
+      di<lb ed="#V" n="90" break="no"/>formitas: sed secundum rationem generis habent conformitatem aliqua 
+      <lb ed="#V" n="91"/>et difformitatem secundum naturam specificam.
+    </p>
+            <p xml:id="FrMS88-f22399-d1e192">
+      ¶ Tertio. idem et 
+      di<lb ed="#V" n="92" break="no"/>uersum sunt contraria immediata: sed ab illis quae sunt in genere anima 
+      <lb ed="#V" n="93"/>lis remouetur distinctio generis: ergo identitas inducitur 
+      opposi<lb ed="#V" n="94" break="no"/>ta: eodem modo de conformitate.
+    </p>
+            <p xml:id="FrMS88-f22399-d1e201">
+      ¶ Quarto. quecumque 
+      distin<lb ed="#V" n="95" break="no"/>guuntur solis posterioribus in illo priori quae praecedunt illa: 
+      nul<lb ed="#V" n="96" break="no"/>lam habent distictonem in ratione formali: quia quod ille partinet ad quidi  
+      <lb ed="#V" n="97"/>tatem non potest esse posterius ea: sed quecumque sunt eiusdem 
+      ratio<lb ed="#V" n="98" break="no"/>nis distinguuntur posterioribus.
+    </p>
+            <p xml:id="FrMS88-f22399-d1e213">
+      ¶ Si enim aliquo priori iam non 
+      <lb ed="#V" n="99"/>habent eandem rationem formalem.
+    </p>
+            <p xml:id="FrMS88-f22399-d1e218">
+      ¶ Sed contra. primo immediata sunt primo 
+      di<lb ed="#V" n="100" break="no"/>uersa.
+    </p>
+            <p xml:id="FrMS88-f22399-d1e223">
+      ¶ Dico quod verum est quantitatiue: nec est tanta vnitas: 
+      <lb ed="#V" n="101"/>vnitas generis: sicut speciei: verum est quod in eo quod vnum nullam habent 
+      <lb ed="#V" n="102"/>distonem: sed tamen dicitur minor qua multitudinem maiorem compati 
+      <lb ed="#V" n="103"/>tur.
+    </p>
+            <p xml:id="FrMS88-f22399-d1e232">
+      ¶ Sed hic est difficultas. si omnia sunt vnum. Et videtur quod sic: quia omnia 
+      <lb ed="#V" n="104"/>sunt ens: ergo omnia sunt vnum. hec est demonstraso propter quid: quia vnum /est 
+      <lb ed="#V" n="105"/>passio entis: omne quod est aptum natum intelligi est ens. Ideo dico 
+      <lb ed="#V" n="106"/>quod sicut omnia sunt ens: ita omnia sunt vnum in ratione formali 
+      en<lb ed="#V" n="107" break="no"/>titatis. Sed est ne vnitas realis: Dico quod non: licet 
+      fundamn<lb ed="#V" n="108" break="no"/>sit reale. est tamen vnitas formalis. In singulis autem indiduis sunt 
+      <lb ed="#V" n="109"/>diuerse realitates.
+    </p>
+            <p xml:id="FrMS88-f22399-d1e248">
+      ¶ Sed est ne fcam ab anima: Dico quod nm: quia 
+      <lb ed="#V" n="110"/>principium per se nota: et veritates incommutabiles in his fundantur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

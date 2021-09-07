@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="149-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f10847"><!-- l2d4-5q1 -->
+            <head xml:id="FrMS88-f10847-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f10847-d1e111">
+               <lb ed="#V" n="86"/>¶ Distinctio. iiii. et. v. Questio i. 
+      <lb ed="#V" n="87"/>host hec videndum est etc. 
+      <lb ed="#V" n="88"/>Host hec considerom adducit etc. 
+      <lb ed="#V" n="89"/> distinctionem. 4. et. 5. quaro 4or. quia 
+      <lb ed="#V" n="90"/>Irca quarum prima est. vtrum angeli meruerunt 
+      <lb ed="#V" n="91"/>suam beatitudinem antequam eam humerunt a dideo. Quod 
+      <lb ed="#V" n="92"/>sic videtur sentire Greg. in moraliter. vbi dicit. 
+      <lb ed="#V" n="93"/>Deus naturam summorum spirituum condidit bonan 
+      <lb ed="#V" n="94"/>sed mutabilem: vt qui vellent stare 
+      remane<lb ed="#V" n="95" break="no"/>rent et qui nollent: ruerent.
+    </p>
+            <p xml:id="FrMS88-f10847-d1e135">
+      ¶ Contra. magitur in littera. 
+      <lb ed="#V" n="96"/>dicit magiter: et in haoc nion tenetur. Quod prius habuerunt prima 
+      <lb ed="#V" n="97"/>Hic mium: quam meruerunt. et postea meruerunt tam in 
+      ob<lb ed="#V" n="98" break="no"/>sequio fidelium: quam in decursu totius temporis: sicut prius militi 
+      <lb ed="#V" n="99"/>bus datur stipecietum antequam exequentur laborem.
+    </p>
+            <p xml:id="FrMS88-f10847-d1e146">
+      ¶ Sed contra hoc primo. quia 
+      <lb ed="#V" n="100"/>hoc solum meritum est quo ad aliquos angelos: nion quo ad omnes 
+      <lb ed="#V" n="101"/>quia non omnes mittuntur sicut cherubi et seraphi.
+    </p>
+            <p xml:id="FrMS88-f10847-d1e153">
+      ¶ Similiter 
+      sequere<lb ed="#V" n="102" break="no"/>tur 2o quod beatitudio angetus dependent ab hominibus.
+    </p>
+            <p xml:id="FrMS88-f10847-d1e159">
+      ¶ 3o aritu Secundo. quod 
+      <lb ed="#V" n="103"/>secundum hoc aliquis posset mereri primam gratiam. quia deus praeuidet 
+      <lb ed="#V" n="104"/>quod beatus bene vteretur gratia sibi data. Item semper acquirerem 
+      <lb ed="#V" n="105"/>btitudinem.
+    </p>
+            <p xml:id="FrMS88-f10847-d1e168">
+      ¶ Ideo dicunt doctor quod beatitudinm essentialem non merent 
+      <lb ed="#V" n="106"/>sed a principio nam angelica est perfectissima. ergo sequitur suam beatitudinem 
+      <lb ed="#V" n="107"/>per operationem propriam. et per consequens prius eam mereri potuerunt. Sed 
+      <lb ed="#V" n="108"/>tamen modus istius possibilitatis diuersitbie declaratur. vnde distintua 
+      <lb ed="#V" n="109"/>sunt sex signa in angelis bonis. Primum in quo fuerunt in 
+      <lb ed="#V" n="110"/>puris naturalibus creati. In 2o ad bonam operatione conuersi: et hoc est 
+      <lb ed="#V" n="111"/>bene esse quod supponit esse. Et hoc ex naturalibus eliciendo 
+      bo<lb ed="#V" n="112" break="no"/>nam operationem. quia de congruo merebantur gratiam. In 3o fuerunt 
+      <lb ed="#V" n="113"/>sub gratia constintu quam meruerunt de congruo. meruerunt autem 
+      <lb ed="#V" n="114"/>prius praemio. In 4o quando voluntas informata charitate elice 
+      <lb ed="#V" n="115"/>bat actum meritorium de condigno. In 2o fuerunt 
+      confirmati<lb ed="#V" n="116" break="no"/>in gratia. actus enim meritorius elicitur immutabiliter esse: et ex consequenti 
+      <lb ed="#V" n="117"/>fuerunt confirmati in gratia. In. 5. signo fuerunt in beatitudine per 
+      <lb ed="#V" n="118"/>fecti.
+    </p>
+            <p xml:id="FrMS88-f10847-d1e199">
+      ¶ Ex parte autem malorum angelorum sunt alia. 5. signa 
+      <lb ed="#V" n="119"/>istis corrspondentia. In primo signo sunt sicut primi in puris natura 
+      <lb ed="#V" n="120"/>libus.
+    </p>
+            <p xml:id="FrMS88-f10847-d1e206">
+      ¶ In secundo couerterunt se ad malum.
+    </p>
+            <p xml:id="FrMS88-f10847-d1e209">
+      ¶ In 3o 
+      fue<lb ed="#V" n="121" break="no"/>runt reprobati. quia lata snienta contra eos ad penam eterntura. 
+      <lb ed="#V" n="122"/>cuius peccatum est causa.
+    </p>
+            <p xml:id="FrMS88-f10847-d1e216">
+      ¶ In 4o fuerunt in potestate sua de 
+      <lb ed="#V" n="123"/>peccato penitere vel non penitere. et in illo non peccaue 
+      <lb ed="#V" n="124"/>runt: sed fuerunt obstinati ex parte sua.
+    </p>
+            <p xml:id="FrMS88-f10847-d1e224">
+      ¶ In. 5. 
+      instanti<lb ed="#V" n="125" break="no"/>cum fuerunt per se obdurati deus obstinauit eos.
+    </p>
+            <p xml:id="FrMS88-f10847-d1e229">
+      ¶ In. . 
+      <lb ed="#V" n="126"/>perfecti in pena sua fuerunt.
+    </p>
+            <p xml:id="FrMS88-f10847-d1e234">
+      ¶ Sic ergo fuerunt 
+      simul<lb ed="#V" n="127" break="no"/>in puris naturalibus constituti. Deinde sicut dictum est per 
+      ordi<lb ed="#V" n="128" break="no"/>nem habuerunt se.
+    </p>
+            <p xml:id="FrMS88-f10847-d1e241">
+      ¶ Sed nunquid ista signa sunt discitu 
+      ordi<lb ed="#V" n="129" break="no"/>ne durationis.
+    </p>
+            <p xml:id="FrMS88-f10847-d1e246">
+      ¶ Dico quod non oportet. quia in per istanti potuerunt 
+      <lb ed="#V" n="130"/>elicere actum 2m.
+    </p>
+            <p xml:id="FrMS88-f10847-d1e251">
+      ¶ Sed comparando ad tertium oportet pone¬ 
+      <!--301.xml-->
+      <pb ed="#V" n="149-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>re durationem. quia fuit in primo in 2o informis: et in 3o 
+      infor<lb ed="#V" n="2" break="no"/>matus gratia. Similiter in confirmatione et immutatione. quia mere 
+      <lb ed="#V" n="3"/>bantur mutabiliter similiter inter temporus vie et terminum. oportet distincte eti 
+      <lb ed="#V" n="4"/>stantia ista. Sed quo modo potest deus creare quin aliquo modo 
+      di<lb ed="#V" n="5" break="no"/>ligat vel odiat:
+    </p>
+            <p xml:id="FrMS88-f10847-d1e272">
+      ¶ Dico quod tunc diligit esse in esse naturae: sed 
+      <lb ed="#V" n="6"/>non dilectione qua diligit aliquem in gratia gratum faciente. quae 
+      <lb ed="#V" n="7"/>habita est quis dignus vita eterna.
+    </p>
+            <p xml:id="FrMS88-f10847-d1e279">
+      ¶ 2a difficultas si deus 
+      crea<lb ed="#V" n="8" break="no"/>ret vnum angelum in gratia: numquid potuisset esse inter illas 
+      mo<lb ed="#V" n="9" break="no"/>ras: Dico quod non praeter illas quae sunt vie et patrie.
+    </p>
+            <p xml:id="FrMS88-f10847-d1e286">
+      ¶ 3a difficultas 
+      <lb ed="#V" n="10"/>si istis corrspondeant instantia temporis:
+    </p>
+            <p xml:id="FrMS88-f10847-d1e291">
+      ¶ Dico quod non. quia 
+      instan<lb ed="#V" n="11" break="no"/>tia non se habent consequetr in tempore. vel ergo oportet quod primum signum sit 
+      <lb ed="#V" n="12"/>in innstanti temporis. Aliud autem in tempore vel econverso.
+    </p>
+            <p xml:id="FrMS88-f10847-d1e298">
+      ¶ Sed 
+      nunquid<lb ed="#V" n="13" break="no"/>mensurantur per tmpus discretum. Dicit Secundo quod per instans eui¬ 
+      <lb ed="#V" n="14"/> 
+            </p>
+            <p xml:id="FrMS88-f10847-d1e305">
+               <lb ed="#V" n="15"/>¶ Sed est difficultas si operatio angeli primo ponatur in 
+      <lb ed="#V" n="16"/>primo instanti. et postea in puris naturalibus:
+    </p>
+            <p xml:id="FrMS88-f10847-d1e313">
+      ¶ Dicitur quod sic. 
+      <lb ed="#V" n="17"/>Sed nunquid onium in primo instanti fuerunt in puris 
+      natura<lb ed="#V" n="18" break="no"/>libus et postea operati sunt:
+    </p>
+            <p xml:id="FrMS88-f10847-d1e320">
+      ¶ Dico quod sic. et in hoc nulla 
+      <lb ed="#V" n="19"/>est repugnantia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

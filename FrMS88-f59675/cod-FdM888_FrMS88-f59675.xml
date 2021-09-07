@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f59675"><!-- l4d13q3 -->
+            <head xml:id="FrMS88-f59675-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f59675-d1e111">
+               <lb ed="#V" n="55"/>TErtio queritur vtrum aqua quae commiscetur in 
+      <lb ed="#V" n="56"/> vinum conuertatur in sanguinem. 
+      <lb ed="#V" n="57"/>christi. et videtur quod sic. quia quicquid est in hostia 
+      tran<lb ed="#V" n="58" break="no"/>substantiatur in corpus christi. ergo quicquid est in vino 
+      <lb ed="#V" n="59"/>transbatur in sanguinem christi.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e124">
+      ¶ Con 
+      <lb ed="#V" n="60"/>tra. quia in sanguinem non conuertitur nisi vinum: sed 
+      <lb ed="#V" n="61"/>aqua non est vinum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e131">
+               <lb ed="#V" n="62"/>hic sunt 4or modi dicendi: quos papa recitat de 
+      cece<lb ed="#V" n="63" break="no"/>lebra. missarum. c. cum marthe.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e138">
+      ¶ 
+      Pri<lb ed="#V" n="64" break="no"/>mus est quod conuertitur in sanguinem: quia dicunt quod materia huius 
+      <lb ed="#V" n="65"/>sacramenti est aqua sicut vinum.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e146">
+      ¶ Alii dicunt quod vinum in 
+      san<lb ed="#V" n="66" break="no"/>guinem. et aqua in aquam: et ita erit ibi sanguis et aqua: 
+      <!--416.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>sicut alatere saluatoris fluxit.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e157">
+      ¶ Alii dicunt quod aqua con 
+      <lb ed="#V" n="68"/>uertitur in vinum: et tunc vinum in sanguinem.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e162">
+      ¶ Alii dicunt 
+      <lb ed="#V" n="69"/>quod aqua remanet circumfusa speciebus vini.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e167">
+      ¶ Sed nullus 
+      <lb ed="#V" n="70"/>istorum satisfacit.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e172">
+      ¶ Primus modus dicendi non. quia sicut materia 
+      <lb ed="#V" n="71"/>propria bapus est aqua ita propria mateam sanguis christi est vinum: 
+      <lb ed="#V" n="72"/>et corporis christi panis: et sicut baptismus non attingit ad 
+      <lb ed="#V" n="73"/>panem et vinum. ita nec virtus istius sacramenti ad aiquam.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e181">
+      ¶ Con 
+      <lb ed="#V" n="74"/>tra 2m modum arguitur. virtus verborum non attingit ad 
+      ali<lb ed="#V" n="75" break="no"/>quem terminum nisi qui exprimiter in verbis: sed ibi non 
+      ex<lb ed="#V" n="76" break="no"/>primitur aliquid de aqua: sed dicitur calix sanguis mei.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e191">
+      ¶ 3 
+      <lb ed="#V" n="77"/>3m. quia non satisfacit ista conuersio aque in vinum. non enim fit 
+      <lb ed="#V" n="78"/>in instanti: sed indiget dispositione priuia: et in illo tempore si fiat 
+      <lb ed="#V" n="79"/>consecratio non transubstatatur aqua.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e200">
+      ¶ Contra 4. quia non 
+      <lb ed="#V" n="80"/>semper remanet circumfusa: sed corrumpitur naturaliter.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e205">
+      ¶ hic gergo 
+      <lb ed="#V" n="81"/>oportet distinguere. primo de quantitate magnitudinis: quia si 
+      aqua<lb ed="#V" n="82" break="no"/>sit tanta in se quantum est vinum. tunc non conuerteretur in vinum 
+      <lb ed="#V" n="83"/>et si non: tunc nulla opinio teneri dicitet: sed si sit minima quanti 
+      <lb ed="#V" n="84"/>tas: tunc potest teneri quod conuertatur in vinum et totum in 
+      <lb ed="#V" n="85"/>sanguinem: si autem sit quantitas intensiua: quia aliqua vina sunt 
+      <lb ed="#V" n="86"/>fortia et statim conuertunt. que autem sunt debilia non cito 
+      con<lb ed="#V" n="87" break="no"/>uertunt: sed si accipiatur quantitas: secundum multitudinem. si sint 
+      <lb ed="#V" n="88"/>multe gutte: et similiter secundum durationem: si fiat commixio aquae et 
+      <lb ed="#V" n="89"/>vini per multum thrmpotus ante. et ideo in principio misse vino dabet 
+      appo<lb ed="#V" n="90" break="no"/>ni aqua vt fiat commixtio: et est tutius.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e229">
+      ¶ Sed occurri 
+      <lb ed="#V" n="91"/>difficultas quia dubium est in die natiuitatis diviuni: si sacerdos sit 
+      ieiu<lb ed="#V" n="92" break="no"/>nus si aqua remaneret non mixta cum vino in prima missa 
+      <lb ed="#V" n="93"/>quando celebrat 3am non videtur ieiunus in 3a missa.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e238">
+      ¶ hic 
+      di<lb ed="#V" n="94" break="no"/>co quod ignorantia facti est sufficiens excusatio et hoc non po 
+      <lb ed="#V" n="95"/>test bene sciri. vnde minimum de aqua datet poni. et bona ho 
+      <lb ed="#V" n="96"/>ra et bono vino et forti fiat celebratio vbi est possibile. 
+      </p>
+            <p xml:id="FrMS88-f59675-d1e247">
+               <lb ed="#V" n="97"/>¶ Alia difficultas dum fit alteratio aque successiue si in 
+      ille<lb ed="#V" n="98" break="no"/>tempore proferret verba. et in eodem instanti in quo cessat altel 
+      <lb ed="#V" n="99"/>ratio et est in dispositione tali: vt conuertatur cum etiam in eodem 
+      <lb ed="#V" n="100"/>instanti fiat transubstantiatio numquid aqua conuerteretur.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e259">
+      ¶ 
+      Di<lb ed="#V" n="101" break="no"/>co quod non in illo quia in instanti substantia vini non est ibi: et ita non 
+      <lb ed="#V" n="102"/>poterit conuertere aquam. Item in illo instanti est ibi corpus 
+      <lb ed="#V" n="103"/>christi. et per consequens non substantia vini. ergo si in primo instanti prolationis verbo 
+      <lb ed="#V" n="104"/>rum non sit completa alteratio non transbatur aquae: sed rema 
+      <lb ed="#V" n="105"/>net.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e272">
+      ¶ Sed quid si in vno calice pleno speciebus vini ponatur 
+      <lb ed="#V" n="106"/>gutta aquae.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e277">
+      ¶ Dico quod corrumpetur forma aquae et matam divino 
+      mi<lb ed="#V" n="107" break="no"/>raculo et iungerentur species speciebus. Vel necessario remanebit 
+      <lb ed="#V" n="108"/>in sua dispositione prima: quia non potest aliquid inducere formam 
+      natura<lb ed="#V" n="109" break="no"/>lem quia impossibilis est in lllo subiecto.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e286">
+      ¶ Sed quid si ponatur 
+      op<lb ed="#V" n="110" break="no"/>positum. vna gutta vini consecrati ponatur in vno pleno do 
+      <lb ed="#V" n="111"/>lio aquae quid fiet:
+    </p>
+            <p xml:id="FrMS88-f59675-d1e293">
+      ¶ Dico quod alqua alterabit eam modo naturaliter et 
+      <lb ed="#V" n="112"/>quando totum est dispositum oportet quod deus creet ibi materiam.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e298">
+      ¶ Sed 
+      <lb ed="#V" n="113"/>hic est dubium. quia philosophici dicunt quod aqua potest naturaliter separari a vio: 
+      <lb ed="#V" n="114"/>et sic numquam fuit transubstantiata.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e306">
+      ¶ hic est dicendum quod quando est transubstantia 
+      <lb ed="#V" n="115"/>ta separari non potest: sed quandiu manet: separari potest: vn 
+      <lb ed="#V" n="116"/>de quando est minima quantitas aque nunquam fiet separatio¬ 
+      </p>
+            <p xml:id="FrMS88-f59675-d1e313">
+               <lb ed="#V" n="117"/>¶ Sed quid significat ista mixtio: dicitur quod fluxum sanguis et 
+      aque<lb ed="#V" n="118" break="no"/>de latere christi.
+    </p>
+            <p xml:id="FrMS88-f59675-d1e320">
+      ¶ Sed potest fieri consecratio sine aquam: 
+      </p>
+            <p xml:id="FrMS88-f59675-d1e323">
+               <lb ed="#V" n="119"/>¶ Dicitur quod sic. sed tamen peccaret mortaliter si 
+      omit<lb ed="#V" n="120" break="no"/>teret aliquis. Nam greci non ponunt.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

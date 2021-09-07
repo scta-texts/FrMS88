@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f63648"><!-- l4d16q2 -->
+            <head xml:id="FrMS88-f63648-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f63648-d1e111">
+               <lb ed="#V" n="54"/>SEcundo queritur vtrum 
+      restitu<lb ed="#V" n="55" break="no"/>tio sit facienda de bonis 
+      <lb ed="#V" n="56"/>fortune.
+    </p>
+            <p xml:id="FrMS88-f63648-d1e120">
+      ¶ Et videtur quod sic. quia lex talionis est 
+      <lb ed="#V" n="57"/>euacuata in euangelio.
+    </p>
+            <p xml:id="FrMS88-f63648-d1e125">
+      ¶ Contra si pecca¬ 
+      <lb ed="#V" n="58"/> uerit in te frater tuus etc. 
+      <lb ed="#V" n="59"/>videndum est de bonis anime.
+    </p>
+            <p xml:id="FrMS88-f63648-d1e132">
+      ¶ Et 
+      in<lb ed="#V" n="60" break="no"/>Hic primo telligendum quod simpliciter nullus potest 
+      <lb ed="#V" n="61"/>auferre bona anima vt virtutes et huiusmodi. sed frequenter 
+      inci<lb ed="#V" n="62" break="no"/>tando bene potest eum retrahere. Et ideo dicitur quod eodem modo 
+      <lb ed="#V" n="63"/>uo incitauit ad peccandum: et perdendum bonum anime 
+      tene<lb ed="#V" n="64" break="no"/>tur opposito modo inducere in bonum et a malo pro posse 
+      <lb ed="#V" n="65"/>reuocare.
+    </p>
+            <p xml:id="FrMS88-f63648-d1e149">
+      ¶ Sed quid de illo qui impediuit aliquem ab 
+      ingressu<lb ed="#V" n="66" break="no"/>religionis:
+    </p>
+            <p xml:id="FrMS88-f63648-d1e154">
+      ¶ Dicitur quod tenetur efficaciter eum inducere 
+      <!--425.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>ad hoc vel melius a quae retraxit eum. Sed si quis exire faciat 
+      <lb ed="#V" n="68"/>aliquam personam de religione vel impediat ingressum. de quo 
+      <lb ed="#V" n="69"/>talis tenetur restituere:
+    </p>
+            <p xml:id="FrMS88-f63648-d1e167">
+      ¶ Dicitur quod seipsum dicitet dare 
+      pro<lb ed="#V" n="70" break="no"/>illo vel procurare equiualentem. vel facere quod in se est. 
+      <lb ed="#V" n="71"/>videndum de bonis corporis. sicut de 
+      <lb ed="#V" n="72"/>Secundo sanitate et mutilatione.
+    </p>
+            <p xml:id="FrMS88-f63648-d1e176">
+      ¶ Et dicitur quod sic 
+      <lb ed="#V" n="73"/>quia ista sunt maiora bona. quam bona fortune. fiat de istis 
+      <lb ed="#V" n="74"/>restitutio in equiualenti: vt possibile est: verbi gratia. si 
+      il<lb ed="#V" n="75" break="no"/>le qua amisit manum acquirebat sibi necessaria manualiter 
+      <lb ed="#V" n="76"/>laborando. daet sibi prouidere de vite necessariis si habet vnde 
+      <lb ed="#V" n="77"/>vel ipsemet laborare pro ipso. Unde regula est generalis 
+      <lb ed="#V" n="78"/>Quod si sibi non potest satisfieri. diet stare super hoc arbitrio 
+      boni<lb ed="#V" n="79" break="no"/>viri et iudicetur per eum. et restituatur secundum interesse.
+    </p>
+            <p xml:id="FrMS88-f63648-d1e194">
+      ¶ Sed 
+      <lb ed="#V" n="80"/>quid si aliquis occidatur:
+    </p>
+            <p xml:id="FrMS88-f63648-d1e199">
+      ¶ Dicitur quod si taliter occisus prius patrem: 
+      <lb ed="#V" n="81"/>et matrem suam pascebat: et sustentabat: vel occisus 
+      habu<lb ed="#V" n="82" break="no"/>it prolem: quae non patitur seipsam defendere vel nutrire. tenetur 
+      <lb ed="#V" n="83"/>eis breuiter ad omnia que occisus prestabat. 
+      <lb ed="#V" n="84"/>de bonis fame.
+    </p>
+            <p xml:id="FrMS88-f63648-d1e211">
+      ¶ Dicitur quod tenetur restitue 
+      <lb ed="#V" n="85"/>Sed quid re famam: quia bona fame sunt maiora 
+      quan<lb ed="#V" n="86" break="no"/>bona corporis vel fortune.
+    </p>
+            <p xml:id="FrMS88-f63648-d1e218">
+      ¶ Sed hic est dubium. si 
+      fal<lb ed="#V" n="87" break="no"/>so diffamauerit. et non potest restituere nisi seipsum 
+      diffa<lb ed="#V" n="88" break="no"/>mando: cum plus dabet sua famam diligere quam alterius quid 
+      <lb ed="#V" n="89"/>faciet:
+    </p>
+            <p xml:id="FrMS88-f63648-d1e227">
+      ¶ Dicitur quod plus diabet velle alicui famam iustam quam sibi 
+      <lb ed="#V" n="90"/>iniustam: sicut autem non tenetur se diffamare in ponendo sibi 
+      <lb ed="#V" n="91"/>falsum. quod vere ipse numquam fecit.
+    </p>
+            <p xml:id="FrMS88-f63648-d1e234">
+      ¶ 2a difficultas si diffamauit 
+      ali<lb ed="#V" n="92" break="no"/>quem de occulto vere.
+    </p>
+            <p xml:id="FrMS88-f63648-d1e239">
+      ¶ Dicitur ab aliquibus quod diciet reuocare et 
+      <lb ed="#V" n="93"/>se diffamare: quia modo secreto sciebat.
+    </p>
+            <p xml:id="FrMS88-f63648-d1e244">
+      ¶ Sed hoc non videtur mi 
+      <lb ed="#V" n="94"/>hi: quia mendacium non est dicendum propter famam alicuius. Tenet 
+      <lb ed="#V" n="95"/>igitur penitere de malitia: sed non se accusare: et falsum dicen¬ 
+      </p>
+            <p xml:id="FrMS88-f63648-d1e252">
+               <lb ed="#V" n="96"/>¶ 3a difficultas de illo qui accusauit vere: et alius falso se excusat. si 
+      <lb ed="#V" n="97"/>talis tenetur postea verum dicere. et isto modo se diffamare 
+      </p>
+            <p xml:id="FrMS88-f63648-d1e259">
+               <lb ed="#V" n="98"/>¶ Et videtur quod sic. quia negando veritatem notat accusatorem suum 
+      <lb ed="#V" n="99"/>de mendacio.
+    </p>
+            <p xml:id="FrMS88-f63648-d1e266">
+      ¶ Tnde sco. finaliter dicit. quod quia ipsum alter ma 
+      <lb ed="#V" n="100"/>litiose et indebite accusauit. ideo non tenetur. dabet tamen penitere. 
+      </p>
+            <p xml:id="FrMS88-f63648-d1e271">
+               <lb ed="#V" n="101"/>¶ 4a difficultas de muliere adultera habente filios de adulterio. 
+      <lb ed="#V" n="102"/>vtrum teneatur hoc insinuare marito ne hereditas perueniatur 
+      <lb ed="#V" n="103"/>ad eos.
+    </p>
+            <p xml:id="FrMS88-f63648-d1e280">
+      ¶ Aliqui dicunt quod sic.
+    </p>
+            <p xml:id="FrMS88-f63648-d1e283">
+      ¶ Sed communiter dicitur quod non 
+      <lb ed="#V" n="104"/>quia maius malum est infamia vel vxoricidium. quod posset 
+      <lb ed="#V" n="105"/>inde faciliter euenire quam quod illi habeant hereditatem: sed 
+      pro<lb ed="#V" n="106" break="no"/>posse dabet laborare ne ipsi perueniant ad hereditatem. 
+      <lb ed="#V" n="107"/>de bonis honoris. dicitur quod tenetur. quia 
+      maxi<lb ed="#V" n="108" break="no"/>Sed quid mum bonum est cum reddatur deo et etia pro virtute 
+      <lb ed="#V" n="109"/>Unde dicitet rependere honorem debitum. et se illi humiliare. 
+      </p>
+            <p xml:id="FrMS88-f63648-d1e300">
+               <lb ed="#V" n="110"/>¶ Sed oc. difficultas de ludo alearum.
+    </p>
+            <p xml:id="FrMS88-f63648-d1e305">
+      ¶ Dicitur quod hoc per ecclesiam 
+      <lb ed="#V" n="111"/>diffinitum est quod diciet reddere ad opera pietatis. et non illi 
+      <lb ed="#V" n="112"/>a quo lucratur.
+    </p>
+            <p xml:id="FrMS88-f63648-d1e312">
+      ¶ Sed de ludo torneamenti. dicit scodo. quod 
+      <lb ed="#V" n="113"/>non tenetur: quia labor in exercitio est vtilis communitati nec 
+      <lb ed="#V" n="114"/>est ludus illicitus nisi quia prohibitus ab ecclesia. et in 
+      tali<lb ed="#V" n="115" break="no"/>prohibitione non exprimiter quod fiat restitutio.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

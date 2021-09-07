@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaesito 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaesito 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="175-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f32493"><!-- l3d17-22q1 -->
+            <head xml:id="FrMS88-f32493-Hd1e108">Quaesito 1</head>
+            <p xml:id="FrMS88-f32493-d1e111">
+               <lb ed="#V" n="72"/>Post praedicta considerari oportet etc 
+      <lb ed="#V" n="73"/>UTrum christus meruit 
+      glo<lb ed="#V" n="74" break="no"/>riam quam 
+      <lb ed="#V" n="75"/>habet. quod sic. Gregorius in moralibus: tanto 
+      <lb ed="#V" n="76"/>angelus maiorem habuit gloriam quante 
+      <lb ed="#V" n="77"/>ipsam ex meritis acquisiuit. Sed christus ma 
+      <lb ed="#V" n="78"/>iorem habuit gloriam quam quicumque angelus. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f32493-d1e129">
+               <lb ed="#V" n="79"/>¶ Contra. quia Aug. dicit quod semper meritum praecedit primium. sed 
+      <lb ed="#V" n="80"/>christus habuit gloriam in instanti sue conceptionis. igitur etc
+    </p>
+            <p xml:id="FrMS88-f32493-d1e136">
+               <lb ed="#V" n="81"/>Hic pono 4or conclusiones. ¶ Prima. quod christus non me 
+      <lb ed="#V" n="82" break="no"/>ruerit suam beatitudinem antequm 
+      ha<lb ed="#V" n="83" break="no"/>buit ipsam ordine durationis: quia in instanti in quo 
+      ani<lb ed="#V" n="84" break="no"/>ma christi fuit creata fuit et beata. Sed ante illud primum instans 
+      <lb ed="#V" n="85"/>christus non potuit mereri beatitudininem. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e149">
+      ¶ Secunda conclsuio 
+      <lb ed="#V" n="86"/>quod postquam ipsam habuit non potuit ipsam mereri. quia 
+      <lb ed="#V" n="87"/>secundum Augu. de ratione meriti est quod praecedat prieimium. quia que 
+      <lb ed="#V" n="88"/>fiunt ad finem praecedunt finem. sed meritum ordinatur ad 
+      <lb ed="#V" n="89"/>premium sicut ad finem. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e161">
+      ¶ Tertia conclusio quod in ista 
+      <lb ed="#V" n="90"/>ti in quo beatitudininem habuit potuit eam mereri et de 
+      fa<lb ed="#V" n="91" break="no"/>cto meruit: quia angelus in primo instanti sue creationis po 
+      <lb ed="#V" n="92"/>tuit suam beatitudinem mereri: quia perfectam habuit obiecti 
+      <lb ed="#V" n="93"/>noticiam et perfectam potentiam. Sed anima christi in primo 
+      <lb ed="#V" n="94"/>instanti habuit causas sufficientes actus meritori s. sed 
+      <lb ed="#V" n="95"/>obiectum et potentiam et conditionem expeditam. igitur 
+      <lb ed="#V" n="96"/>si eam debuit mereri: tunc meruit.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e179">
+      ¶ Quarta conclusio est. quod 
+      or<lb ed="#V" n="97" break="no"/>dine naturae licet non durationis meritum christi praecesserit 
+      pre<lb ed="#V" n="98" break="no"/>minum suum vel suam beatitudininem: quia oportet meritum 
+      prce<lb ed="#V" n="99" break="no"/>dere praemium. Sed non potuit praecedere duratione: vt 
+      di<lb ed="#V" n="100" break="no"/>ctum est: igitur tantum natura precessit.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e190">
+      ¶ Sed contra praedictas conclusiones 
+      <lb ed="#V" n="101"/>instatur per ordinem.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e195">
+      ¶ Et primo: quia sicut gratia praesupponit naturam. 
+      <lb ed="#V" n="102"/>ita gloria praesupponit gratiam. Sed non videtur esse idem instans 
+      <lb ed="#V" n="103"/>naturae et gratie. ergo nec gratie et glorie.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e202">
+      ¶ Item 2o. quia ma 
+      <lb ed="#V" n="104"/>gister dicit quod angeli postquam suam beatitudininem habue 
+      <lb ed="#V" n="105"/>runt meruerunt eam.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e209">
+      ¶ Item 3o. quia ad meritum 
+      requri<lb ed="#V" n="106" break="no"/>tur deliberatio et elicitio actus. Sed anima christi in primo insta 
+      <lb ed="#V" n="107"/>ti non potuit deliberare: quia non potuit elicere et non eli 
+      <lb ed="#V" n="108"/>cere.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e219">
+      ¶ Item 4o. quia ordo naturae est ordo essentialis. Sed 
+      or<lb ed="#V" n="109" break="no"/>do meriti ad priemium non est essentialis: quia deum posset da 
+      <lb ed="#V" n="110"/>re primium sine merito ergo etc.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e226">
+      ¶ Ad primum nego minorem: 
+      <lb ed="#V" n="111"/>quia illa presuppositione est ordinis naturae solum. non durationis: qua 
+      <lb ed="#V" n="112"/>sigratria praesupponit naturam.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e233">
+      ¶ Ad 2m dico quod Magitur ibi a 
+      <lb ed="#V" n="113"/>doctoribus non tenetur.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e238">
+      ¶ Ad 3m dicendum quod verum est in nobis 
+      <lb ed="#V" n="114"/>vbi est recursus ad fantasmata. Sed in angelis et in 
+      anim<lb ed="#V" n="115" break="no"/>christi vbi erat dispositio vltimata potest esse elicitio in 
+      insta<lb ed="#V" n="116" break="no"/>ti: et pro illo instanti pro quo elicit potest non elicere. alias 
+      ne<lb ed="#V" n="117" break="no"/>eliceret contingenter. sed necessario: quod falsum est.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e249">
+      ¶ Ad 4m 
+      <lb ed="#V" n="118"/>dico quod non omnis ordo naturae est essentialis. Sed ille tantum qui est 
+      <lb ed="#V" n="119"/>ordo ex natura rei. Iste autem ordo meriti ad praemium non est 
+      or<lb ed="#V" n="120" break="no"/>do naturae: sed accidentalis: tamen ordo naturae est ex ordinatione 
+      di<lb ed="#V" n="121" break="no"/>uina sic disponente et exigente quod meritum praecedat 
+      pre<lb ed="#V" n="122" break="no"/>minum saltem nam vbi duratione non potest praecedere.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e262">
+      ¶ Sed 
+      <lb ed="#V" n="123"/>hic oriuntur dubia.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e268">
+      ¶ Primum est. si christus eodem actu bea 
+      <lb ed="#V" n="124"/>tifico meruit beatitudininem suam.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e273">
+      ¶ Dico quod non. sed 
+      alie<lb ed="#V" n="125" break="no"/>qui tantum illum precessit natura non duratione: quia eius 
+      <lb ed="#V" n="126"/>dem ad se non potest esse ordo essentialis. Iterum po 
+      <lb ed="#V" n="127"/>tentia anime christi gratia christi concurrente se actiue 
+      <lb ed="#V" n="128"/>habuit ad eliciendum actum meritorium non autenm 
+      <lb ed="#V" n="129"/>ad eliciendum actum beatificum: qui est totaliter a 
+      ve<lb ed="#V" n="130" break="no"/>luntate diuina effectiue: vt dictum est supra 
+      immedia<lb ed="#V" n="131" break="no"/>te.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e291">
+      ¶ Item dubium est. si christus mereri potuit illam 
+      <!--354.xml-->
+      <pb ed="#V" n="176-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>vnionem ad verbum per illum actum.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e302">
+      ¶ Dicendum quod 
+      <lb ed="#V" n="2"/>non potuit ex natam actus. Sed hoc potuisset ex ordinatio 
+      <lb ed="#V" n="3"/>ne divina: sicut enim mereri poterat beatitudinem. ita et vnio 
+      <lb ed="#V" n="4"/>nem si deus hoc ordinasset. nullus enim actus humanus habet. 
+      <lb ed="#V" n="5"/>quare sit condignus vita eterna de natam sua: sed solum ex 
+      or<lb ed="#V" n="6" break="no"/>linatione divina.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e315">
+      ¶ Item dubium est si in illo primo instanti 
+      <lb ed="#V" n="7"/>ine actu christus meruit totam beatitudininem.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e320">
+      ¶ Dico quod sic 
+      <lb ed="#V" n="8"/>sicut angelus in primo actu meruit.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e326">
+      ¶ Sed tunc est 
+      du<lb ed="#V" n="9" break="no"/>bium: quare angelus non maiorem corrspondentem habuit 
+      <lb ed="#V" n="10"/>gloriam: cum actus fuerit potior et intensior: quia secundum 
+      maio<lb ed="#V" n="11" break="no"/>rem conatum naturae angeli que est nobilior anima christi. 
+      </p>
+            <p xml:id="FrMS88-f32493-d1e335">
+               <lb ed="#V" n="12"/>¶ Dicendum quod actus christi fuit cum maiori gratia: et per consequens 
+      a<lb ed="#V" n="13" break="no"/>maiori charitate elicitus: ideo maiorem gloriam meruit 
+      <lb ed="#V" n="14"/>et habuit: quia gloria corrspondet gratie et charitati: non autem 
+      <lb ed="#V" n="15"/>potentie elicitiue vel receptiue nisi forte in puris naturali 
+      <lb ed="#V" n="16"/>pus vbi non coopratur habitus gratum faciens.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e348">
+      ¶ Item 
+      <lb ed="#V" n="17"/>dubium est. si christus et angeli possent adhuc modo actu 
+      <lb ed="#V" n="18"/>illo primo mereri.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e355">
+      ¶ Dicendum quod non. quia sunt totaliter 
+      compre<lb ed="#V" n="19" break="no"/>hensores. Sed nullus potest mereri nisi pro quanto est via 
+      <lb ed="#V" n="20"/>tor. christus autem secundum totam portionem inferiorem fuit viator: 
+      <lb ed="#V" n="21"/>et etiam secundum partem anime pro quanto ex ordinatione divina 
+      de<lb ed="#V" n="22" break="no"/>bebat mereri suam beatitudinem quo habito secundum illud non 
+      <lb ed="#V" n="23"/>erat amplius viator: sic etiam ordinauit de angelis quod 
+      <lb ed="#V" n="24"/>essent viatores pro quanto eorum meritum ordine naturae praecedit 
+      pra<lb ed="#V" n="25" break="no"/>minum et non plus.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e373">
+      ¶ Sed interum dubium est. si christus 
+      ali<lb ed="#V" n="26" break="no"/>quid meruit pro nobis illo actu.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e378">
+      ¶ Dico quod sic.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e382">
+      ¶ Ad 
+      cu<lb ed="#V" n="27" break="no"/>ius euidentiam vel intellectum sciendum est quod in omni 
+      me<lb ed="#V" n="28" break="no"/>rito nostro ad hoc quod sit vita eterna condignum praecedit 
+      ali<lb ed="#V" n="29" break="no"/>quis actus noster disponens ad meritum de congruo 
+      si<lb ed="#V" n="30" break="no"/>cut est actus attritionis. et hoc partialiter tantum: et meritum 
+      <lb ed="#V" n="31"/>christi illi actui concurrit partialiter de condigno: sicut causa vniuersalis: 
+      <lb ed="#V" n="32"/>actus autem noster de congruo sicut causa partialis. vnde 
+      meri<lb ed="#V" n="33" break="no"/>ta propria sunt causa particularum. Istis autem sic concurrentibus 
+      <lb ed="#V" n="34"/>deus dat gratiam que actum nostrm facit meritorium de 
+      con<lb ed="#V" n="35" break="no"/>digno.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e404">
+      ¶ Sed contra videtur: quia dicit Apstulus si ex meritis 
+      <lb ed="#V" n="36"/>am non est gratia.
+    </p>
+            <p xml:id="FrMS88-f32493-d1e409">
+      ¶ Dicendum quod apituls intelligit de meritis 
+      pro<lb ed="#V" n="37" break="no"/>priis non de meritis alienis. vnde gratiam non merentur nisi 
+      <lb ed="#V" n="38"/>de congruo et particulariter tantum. christus autem pro nobis 
+      me<lb ed="#V" n="39" break="no"/>tuit de condigno et vniversaliter: vt dictum est supra etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="228-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f78546"><!-- l4d45q2 -->
+            <head xml:id="FrMS88-f78546-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f78546-d1e111">
+               <lb ed="#V" n="45"/>SEcundo queritur. vtrum resurrectio 
+      <lb ed="#V" n="46"/> possit probari ratione 
+      natura<lb ed="#V" n="47" break="no"/>li. Quod sic. quia antiqui philosophi hoc posuerunt vt 
+      <lb ed="#V" n="48"/>recitat Augu. xxicio. de ci. dei.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e122">
+      ¶ Contra. quia 
+      <lb ed="#V" n="49"/>est articulus 
+      fidei<lb ed="#V" n="50" break="no"/>insistendum est circa dcam philosophorum.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e129">
+      ¶ primum 
+      <lb ed="#V" n="51"/>Hic primo est socratis. qui primus posuit animam 
+      <lb ed="#V" n="52"/>immortalem. Ante enim eum alii philosophi non ponebant. et ideo eum irrid 
+      <lb ed="#V" n="53"/>pat. vnde congregati in vnum eis dicebat: vel anime nostre moriem 
+      <lb ed="#V" n="54"/>tur vel non. Si morientur non poteris conuincere conuincendo 
+      <lb ed="#V" n="55"/>mortem: nec post mortem: mortem: si iam conuicti eritis.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e142">
+      ¶ 2a 
+      <lb ed="#V" n="56"/>dictum est platonis qui resurrectionem astruxit post purga 
+      <lb ed="#V" n="57"/>tionem in campos elyseos.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e150">
+      ¶ 3m. est dictum Ari. qui posuit 
+      <lb ed="#V" n="58"/>nimam esse perfectione corporis organici.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e155">
+      ¶ 4m. est 
+      dictun<lb ed="#V" n="59" break="no"/>porphirii qui virorum perfectorum animas dicebat non debere 
+      re<lb ed="#V" n="60" break="no"/>dire ad has calamitates.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e162">
+      ¶ Ex his dictis philosophorum 
+      contrahi<lb ed="#V" n="61" break="no"/>resurrectio.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e167">
+      ¶ prim coniugendo dictum platonis et porphy 
+      <lb ed="#V" n="62"/>rii. plato dixit quod redibunt postpurgationem. porphyri 
+      <lb ed="#V" n="63"/>quod non redibunt ad has calamitates. Ita similiter ex dictis 
+      <lb ed="#V" n="64"/>socra. et ari. potest conuinci: quia vnus dicit quod est immortalis. 
+      <lb ed="#V" n="65"/>alius quod est forma corporis. Resurrectionem plato vidit quod 
+      <lb ed="#V" n="66"/>post purgationem redibunt: porphy quod non ad has cala¬ 
+      <!--459.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>mitates. ita quod ex dictis socratis et arist. si eorum dicta 
+      di<lb ed="#V" n="68" break="no"/>cantur simul: quod sit immortalis. per dictum socratis: et quod sit 
+      <lb ed="#V" n="69"/>forma corporis per dictum Aristo 
+      <lb ed="#V" n="70"/>videamus de dictis prophiosopharum. Exodi 3 
+      <lb ed="#V" n="71"/>Secundo habet: quod christus recitat Mat. 2o contra saduce 
+      <lb ed="#V" n="72"/>os. quae dicunt resurrectionem non esse. Ego sum diseus abraam etc. 
+      <lb ed="#V" n="73"/>quod verbum ad probandum resurrectionem deducitur sic. positi 
+      <lb ed="#V" n="74"/>vno relatiuorum ponitur reliquum: sed dicebatur relatiue ad 
+      <lb ed="#V" n="75"/>illos: quia deus abraam: ergo cum deus esset et ipsi erant.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e204">
+      ¶ 2ao 
+      <lb ed="#V" n="76"/>auemitas. Iob. 19o. quae est expraessissima. Credo quod redempto¬: 
+      <lb ed="#V" n="77"/>meus viuit etc.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e211">
+      ¶ 3a. osee. 8o. venite et reuertamur ad  
+      <lb ed="#V" n="78"/>disecunum: quia ipse cepit et saluabit nos etc.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e217">
+      ¶ Et 2o. 
+      macha<lb ed="#V" n="79" break="no"/>beorum. patet expraesse. vir fortissimus iudas etc.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e222">
+      ¶ De 
+      di<lb ed="#V" n="80" break="no"/>ctis apitulorum patet expresse. vnde paulus. 
+      Seminatu<lb ed="#V" n="81" break="no"/>corpus corruptibile et resurget incorruptibile. Et 
+      re<lb ed="#V" n="82" break="no"/>formabit corpus humilitatis nostre configuratum 
+      cor<lb ed="#V" n="83" break="no"/>pori claritatis sue. 
+      <lb ed="#V" n="84"/>videamus. si per rationes naturales potest 
+      ostendi<lb ed="#V" n="85" break="no"/>rit
+    </p>
+            <p xml:id="FrMS88-f78546-d1e238">
+      ¶ Sunt autem hic 4or fundamenta nota phy 
+      <lb ed="#V" n="86"/>losophantibus. primum de immortalitate anime. 2m contrsa. platonem 
+      <lb ed="#V" n="87"/>quod anima non transit de courpore in corpus. 3m ad dictum Aristo 
+      <lb ed="#V" n="88"/>oportet aspicere quod anima est forma naturalis corporis. 4m contra comentato 
+      <lb ed="#V" n="89"/>rem quod vnius singularis corporis est vna forma distincta 
+      <lb ed="#V" n="90"/>ab aliis.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e251">
+      ¶ Ista probantur post. Suppositis igitur his 
+      ar<lb ed="#V" n="91" break="no"/>guo primo sic. impossibile est quod sit aliquod informatiuum nisi respectu 
+      al<lb ed="#V" n="92" break="no"/>cuius informabilis: sicut nec productiuum sine producibili: sed 
+      <lb ed="#V" n="93"/>anima per se est informatiua corporis. ergo necessario est corpus 
+      infor<lb ed="#V" n="94" break="no"/>mabile corrspondens ei: quod anima actu informet accidit ei: sed 
+      <lb ed="#V" n="95"/>quod sit informatiua: hoc conuenit eim per se: et per consequens perpetuo. ergo oportet 
+      <lb ed="#V" n="96"/>quod sit aliquod quod possit facere quod informet suum informabile 
+      <lb ed="#V" n="97"/>Et hec ratio probat quod resurrectio sit possibilis: non quod si 
+      <lb ed="#V" n="98"/>futura de facto.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e271">
+      ¶ 2o sic. impossibile est quod inclinatio 
+      natura<lb ed="#V" n="99" break="no"/>lis sit ad impossibile: sed naturalis inclinatio anime est ad informam 
+      <lb ed="#V" n="100"/>dum corpus. ergo etc. maior patet de se. probatio minoris. 
+      <lb ed="#V" n="101"/>quia anima est naturaliter in corpore: sicut perfectio in perfectibus 
+      <lb ed="#V" n="102"/>li suo: quod autem habet alicui naturaliter inesse si separetur: habet naturalem 
+      <lb ed="#V" n="103"/>inclinationem ad illud: sicut graue naturaliter est deorsum: et si 
+      <lb ed="#V" n="104"/>separetur naturaliter inclinatur ad deorsum.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e287">
+      ¶ 3o sic. Regula no 
+      <lb ed="#V" n="105"/>ta est quod deus et nam nihil faciunt frustra: et si non circa intf 
+      <lb ed="#V" n="106"/>ma. multo minus circa nobilissima: sed si anima 
+      rationa<lb ed="#V" n="107" break="no"/>lis esset perpetuo separata a corpore: frustra esset poto 
+      <lb ed="#V" n="108"/>tentia informatiua: quia perpetuo frustraretur ab actu: quia 
+      <lb ed="#V" n="109"/>est inconueniens.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e301">
+      ¶ 4o fortius sic impossibile est quod 
+      aliqua<lb ed="#V" n="110" break="no"/>species quantum ad omnia indiuidua frustretur sine 
+      inten<lb ed="#V" n="111" break="no"/>to: licet in aliquo indiuiduo hoc possit contingere: sicut 
+      <lb ed="#V" n="112"/>quod aliquins homo non sit beatus pollitice: licet omnes priuari 
+      <lb ed="#V" n="113"/>non possint illo fine: sed omnis forma ordinatur ad compositum: 
+      <lb ed="#V" n="114"/>sicut ad proprium finem. sicut materia ad formam materia est propter formam et 
+      <lb ed="#V" n="115"/>mam et forma sunt propter compositum. ergo cum anima sit forma corporis: cuius 
+      <lb ed="#V" n="116"/>finis est humanitas. ergo inconueniens est quod perpetud 
+      <lb ed="#V" n="117"/>frustretur humanitate.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e321">
+      ¶ Iste rationes videntur 
+      demonstra<lb ed="#V" n="118" break="no"/>re: sicut quecumque philosophorum rationes.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e326">
+      ¶ Et confiritut 4o exio.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e329">
+      ¶ primum 
+      <lb ed="#V" n="119"/>exeitum. est Arist. primo. medie. quod non est impossibile peruenire ad 
+      scientiam<lb ed="#V" n="120" break="no"/>quia omnes homines natura scire desiderant: et esset aliter frustra 
+      deside<lb ed="#V" n="121" break="no"/>rium sed omnis homo appetit naturaliter perpetuari in vita. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e338">
+      ¶ Si 
+      <lb ed="#V" n="122"/>dicas quod est desiderium elicitum liberum non naturale.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e343">
+      ¶ contra. illud  
+      <lb ed="#V" n="123"/>est naturale: quod conclusio omnibus indiuiduis alicuius speciei: sed non 
+      <lb ed="#V" n="124"/>est aliquis qui non appetat perpetuari in vita amota contradictio 
+      <lb ed="#V" n="125"/>ne mala.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e353">
+      ¶ Item plures homines efficacius anhelant ad 
+      <lb ed="#V" n="126"/>vitam quam ad scientiam. igitur magis vtile videtur hoc quam illud.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e358">
+      ¶ 2m 
+      <lb ed="#V" n="127"/>exitum. in moralibus. Quandocunque aliqua perfectio debetur naturae 
+      <lb ed="#V" n="128"/>specifice secundum se: illa conuenit indiuiduis vt in pluribus 
+      <lb ed="#V" n="129"/>sicut homin loqui: sed esse virtuosum conclusio naturae hominis vt homo est 
+      <lb ed="#V" n="130"/>secundum perfectionem specificam: sed homines vt in pluribus 
+      <lb ed="#V" n="131"/>non sunt virtuosi: quia ad hoc oportet habere omnes virtutes. Cum igitur 
+      <lb ed="#V" n="132"/>non sint boni vt in pluribus moraliter videtur esse vita alia 
+      <!--460.xml-->
+      <pb ed="#V" n="229-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>vbi in pluribus sint virtuosi et beati.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e382">
+      ¶ 3m exemplum 
+      philosophicum<lb ed="#V" n="2" break="no"/>gnatio est in rebus corporalibus ad saluandum naturam specificam quae non 
+      <lb ed="#V" n="3"/>potest in vno perpetuari. non ordinauit autem hoc nam in 
+      incorru<lb ed="#V" n="4" break="no"/>ptibilibus: quia sufficienter conseruatur in vno indiuiduo. Tunc 
+      <lb ed="#V" n="5"/>sumo regulam istam quod nobiliori modo saluantur que in vno in 
+      <lb ed="#V" n="6"/>diuiduo: quam quae per generationem: nura autem magis intendit esse 
+      eter<lb ed="#V" n="7" break="no"/>num: et magis principaliter. et per consequens magis conseruationem eo 
+      <lb ed="#V" n="8"/>rum intendit et nobiliori mo. cum igitur homo sit principalior 
+      ci<lb ed="#V" n="9" break="no"/>tra intelligentias. et nobilior sole et celo. ergo nobiliori modo 
+      <lb ed="#V" n="10"/>intendit naturam suam conseruare quam celi: et hoc tenet supponendo 
+      <lb ed="#V" n="11"/>quod caelum n fit animatum.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e406">
+      ¶ Exitum. 4m. est de fine et eis quae sunt ad 
+      fi<lb ed="#V" n="12" break="no"/>nem: quia finis imponit necessitatem eis quae sunt ad finem. ergo quam 
+      <lb ed="#V" n="13"/>to aliqua maiorem connexionem habent ad finem: tanto magis sunt 
+      <lb ed="#V" n="14"/>necessaria: sed homo habet maiorem connexionem ad finem quam sol: quia 
+      <lb ed="#V" n="15"/>homo habet potentiam intellectiuam qua attingit finem obiectiue. ergo 
+      natura<lb ed="#V" n="16" break="no"/>magis intendit ad conseruationem hominis: et nobiliori modo quam 
+      <lb ed="#V" n="17"/>ad conseruationem solis.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e422">
+      ¶ Sed oc. difficultas quia n videtur demonstrabile 
+      <lb ed="#V" n="18"/>quia ad hoc philosophi non deuenerunt.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e427">
+      ¶ Dicitur quod locus ab aucto 
+      <lb ed="#V" n="19"/>ritate. non tenet negatiue.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e433">
+      ¶ 2a difficultas quomodo articulus 
+      fi<lb ed="#V" n="20" break="no"/>dei potest demonstrari cum sit contingens.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e438">
+      ¶ Dicitur quod resurre 
+      <lb ed="#V" n="21"/>ctio actu fiat non est demonstrabile: sed deus non potest 
+      fa<lb ed="#V" n="22" break="no"/>cere quin anima sit inclinata ad hoc.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e445">
+      ¶ Alia di quod doctores 
+      <lb ed="#V" n="23"/>nostri non dicunt hoc.
+    </p>
+            <p xml:id="FrMS88-f78546-d1e450">
+      ¶ Dico quod forsan non est 
+      demonstra<lb ed="#V" n="24" break="no"/>bile. tamen non video solutionem predictarum rationum.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

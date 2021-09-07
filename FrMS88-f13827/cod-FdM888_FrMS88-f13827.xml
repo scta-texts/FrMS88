@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="152-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f13827"><!-- l2d12q1 -->
+            <head xml:id="FrMS88-f13827-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f13827-d1e111">
+               <lb ed="#V" n="73"/>¶ Distinctio. xii. Questio i. 
+      <lb ed="#V" n="74"/>hec de angelica natura etc. 
+      <lb ed="#V" n="75"/>distinctionem. 12. quero 
+      qua<lb ed="#V" n="76" break="no"/>Irca tuor questiones. Prima est 
+      <lb ed="#V" n="77"/>vtrum materia fuerit creata a deo de 
+      <lb ed="#V" n="78"/>facto sine forma. Et videtur quod sic. 
+      Au<lb ed="#V" n="79" break="no"/>gust. super gen. prius facta est 
+      infor<lb ed="#V" n="80" break="no"/>minis materia.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e131">
+      ¶ Contra ibidem idem 
+      <lb ed="#V" n="81"/>August. dicit quod sicut sonus precedit 
+      <lb ed="#V" n="82"/>cantum. etc. 
+      <lb ed="#V" n="83"/>5artium declarandi. Primus est. quid 
+      <lb ed="#V" n="84"/>hic sunt est materia: Dicitur autem ommuniter secundum intentionem 
+      <lb ed="#V" n="85"/>Aristoteles quod materia est ens in potentia. Et ex hoc tenent multi 
+      <lb ed="#V" n="86"/>doctores. quod nullam actualitatem habet sicut actus primus 
+      <lb ed="#V" n="87"/>nullam potentialitatem.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e149">
+      ¶ Sed contra hoc arguitur 4r. Et 
+      pri<lb ed="#V" n="88" break="no"/>mo. quia terminus creationis est aliquid in actu. quia 
+      pro<lb ed="#V" n="89" break="no"/>ductio terminatur ad ens actu. sed materia est terminus 
+      crea<lb ed="#V" n="90" break="no"/>tionis. ergo etc. Respondetur. verum est. non tamen per se sed cum forma 
+      </p>
+            <p xml:id="FrMS88-f13827-d1e158">
+               <lb ed="#V" n="91"/>¶ Contra. quia quocumque modo sit materia est creata. Item 
+      <lb ed="#V" n="92"/>quod est annihilabile est ens in actu. quia ens in poten 
+      <lb ed="#V" n="93"/>tia. vt sic. non est annihilabile: sed materia est 
+      annihilabi<lb ed="#V" n="94" break="no"/>lis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e170">
+      ¶ Item 3o quod est subiectum naturalis generationis 
+      <lb ed="#V" n="95"/>est ens in actu: sed materia est subiectum naturalis generationis. 
+      er<lb ed="#V" n="96" break="no"/>go etc.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e177">
+      ¶ 4o. quia est causa in actu compositi. sed omnis 
+      cau<lb ed="#V" n="97" break="no"/>sa in actu: est ens in actu. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e182">
+      ¶ Ideo dico quod aliquo 
+      <lb ed="#V" n="98"/>modo est ens in actu. Possunt autem actus et potentia 
+      du<lb ed="#V" n="99" break="no"/>pliciter sumi. vno modo potentia dicitur de potentia obientiua. 
+      <lb ed="#V" n="100"/>quae opponitur actuali existentie.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e191">
+      ¶ Alia potentia dicitur passiua: cuim 
+      <lb ed="#V" n="101"/>opponitur actus receptus. sicut Aristoteles. dicit quod corpus 
+      <lb ed="#V" n="102"/>organicum est potentia vitam habens. Cum tamen sit ens actu. 
+      <lb ed="#V" n="103"/>Dico tunc quod materia est ens actu opoesio obsiectiue potentie quae deduci 
+      <lb ed="#V" n="104"/>tur ad actum per creationem. quia reducitur ad actualem 
+      exi<lb ed="#V" n="105" break="no"/>stentiam. Si autem sumatur secundo modo potentia. 
+      conce<lb ed="#V" n="106" break="no"/>do quod nihil actualitatis habet. sicut enim prius actus: ita natus 
+      <lb ed="#V" n="107"/>est informare. quod non est natus informari. ita matera 
+      econ<lb ed="#V" n="108" break="no"/>uerso.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e211">
+      ¶ Contra istud instatur quadrupliciter. Primo 
+      <lb ed="#V" n="109"/>sic. quia ratio diffinitiua materiae est esse in potentia.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e216">
+      ¶ 2o. quia 
+      for<lb ed="#V" n="110" break="no"/>ma est actus de sua ratione formali. materia autem est 
+      infor<lb ed="#V" n="111" break="no"/>minis.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e224">
+      ¶ 3o. quia esse est a forma. et ita actualis existentia 
+      <lb ed="#V" n="112"/>est a forma.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e229">
+      ¶ Quarto. quia forma accidentalis et 
+      ni<lb ed="#V" n="113" break="no"/>hil aliud dat esse secundum quid. ergo forma substantialis et nihil 
+      <lb ed="#V" n="114"/>aliud dat esse simpliciter.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e236">
+      ¶ Ad primum concedo. quod 
+      <lb ed="#V" n="115"/>excludit actualitatem oppositam potentie subiectiue 
+      <lb ed="#V" n="116"/>quia per illam diffinitur.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e243">
+      ¶ Ad secundum concedo. quod forma est 
+      <lb ed="#V" n="117"/>actus perfectiuus non ens actu adequate.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e248">
+      ¶ Ad aliud 
+      <lb ed="#V" n="118"/>dico. certum est quod ordine essentiali materia precedit 
+      for<lb ed="#V" n="119" break="no"/>mam. et sic non recipit actualem existentiam a forma. sed 
+      <lb ed="#V" n="120"/>magis econuerso: esse enim forme aliquo modo 
+      depen<lb ed="#V" n="121" break="no"/>det a materia.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e259">
+      ¶ Ad aliud dico quod non est simile. quia accidens 
+      <lb ed="#V" n="122"/>quodlibet est forma tantum. sed in genere substantie est dare 
+      du<lb ed="#V" n="123" break="no"/>as actualitates intrinsecas. vna que est perfectibilis 
+      <lb ed="#V" n="124"/>et alia que est perfectiua. Intelligo igitur per materiam 
+      <lb ed="#V" n="125"/>istam actualitatem que est mere perfectibilis. 
+      <lb ed="#V" n="126"/>articulus. si materia tenet insimum 
+      <lb ed="#V" n="127"/>Secundus gradum in entibus. Dicitur quod sic. 
+      <lb ed="#V" n="128"/>quia secundum Aug. materia est prope nihil.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e278">
+      ¶ Sed contra 4r. Primo 
+      <lb ed="#V" n="129"/>quia materia est in perfectissimo genere scilicet substantie.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e283">
+      ¶ 2o. quia 
+      om<lb ed="#V" n="130" break="no"/>ne subiectum nobilius est sua passione.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e288">
+      ¶ Tertio. quia etiam 
+      <lb ed="#V" n="131"/>accidentibus subiicitur.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e293">
+      ¶ 4o quia omne absolutum est nobi¬ 
+      <!--308.xml-->
+      <pb ed="#V" n="153-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>lius respectiuo.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e304">
+      ¶ Dico igitur. quod in genere substantie est 
+      imperfe<lb ed="#V" n="2" break="no"/>ctior entitas. est tamen perfectior accidente.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e309">
+      ¶ Sed contra. saltem 
+      <lb ed="#V" n="3"/>videtur quod spiritualia sunt nobiliora corporalibus. accidentia 
+      <lb ed="#V" n="4"/>autem multa sunt spiritualia. Dico quod verum est in eodem genere. sed 
+      <lb ed="#V" n="5"/>vnumquodque in genere substantie nobilius est omni acci 
+      <lb ed="#V" n="6"/>dente. siue sit spirituale: siue etiam corporale 
+      <lb ed="#V" n="7"/>i articulus est. si mteam et forma differunt 
+      reali<lb ed="#V" n="8" break="no"/>Ters. b ter. aliquin dicunt quod sunt vna realitas. quia 
+      <lb ed="#V" n="9"/>totum generatur ex toto.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e328">
+      ¶ Contra istud arguiter 4r. Primo 
+      <lb ed="#V" n="10"/>quia generatio est mutatio. In omni autem mutatione oportet quod 
+      ter<lb ed="#V" n="11" break="no"/>minus a quo et ad quem distinguantur realiter a subiecto 
+      <lb ed="#V" n="12"/>mutationis.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e337">
+      ¶ 2o sic. generatio esset creatio. quia tota entitas 
+      <lb ed="#V" n="13"/>produceretur in esse per gnationem.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e342">
+      ¶ 3o. quia corruptio erit 
+      anni<lb ed="#V" n="14" break="no"/>hilatio. quia tota entitas destrueretur.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e347">
+      ¶ 4o. quia effectus et 
+      <lb ed="#V" n="15"/>causa differut realiter. forma autem est finis materiae.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e352">
+      ¶ Ideo 
+      <lb ed="#V" n="16"/>dico quod differunt realiter. quia vnum potest destrui alio 
+      manen<lb ed="#V" n="17" break="no"/>te.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e359">
+      ¶ Sed contra istud arguiter 4r. Primo sic. quia non est 
+      ma<lb ed="#V" n="18" break="no"/>ior distincto inter causam materialem: et effectum eius. quam inter producens 
+      <lb ed="#V" n="19"/>et productum. sed idem potest esse producens et productum. respe 
+      <lb ed="#V" n="20"/>ctu diuersorum.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e369">
+      ¶ 2o. quia idem potest esse mouens et motum. 
+      </p>
+            <p xml:id="FrMS88-f13827-d1e372">
+               <lb ed="#V" n="21"/>¶ 3o. quia forma corporis organici videtur esse forma et materia 
+      <lb ed="#V" n="22"/>respectu diuersorum.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e379">
+      ¶ 4o. quia forma substantialis 
+      infor<lb ed="#V" n="23" break="no"/>matur accidentibus. dixi igitur bene: quia vna simplex 
+      rea<lb ed="#V" n="24" break="no"/>litas potest habere rationem forme et materiae. vt informat et 
+      in<lb ed="#V" n="25" break="no"/>formatur.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e388">
+      ¶ Sed inste rationes non concludunt de materia 
+      pri<lb ed="#V" n="26" break="no"/>ma simpliciter sumpta. quia omnibus subiicitur. 
+      <lb ed="#V" n="27"/>r g articulus est. si materia differt formaliter a 
+      <lb ed="#V" n="28"/>Quar c  forma. hec est entitas praecisa. Dicit 
+      vnu<lb ed="#V" n="29" break="no"/>poctor quod non sunt realitates precise: sed indeterminate. 
+      </p>
+            <p xml:id="FrMS88-f13827-d1e399">
+               <lb ed="#V" n="30"/>¶ Sed hoc non videtur. Ipse enim concedit quod distinguunt 
+      <lb ed="#V" n="31"/>realiter. et quod multiplicatur entitas in eis. et realitatem hic 
+      <lb ed="#V" n="32"/>voco praecisionem. Si autem intelligat quod non sunt perfecte res 
+      <lb ed="#V" n="33"/>in genere per se. concedo imprecisionem: sed ratio quantitatiua 
+      <lb ed="#V" n="34"/>partialis materiae suo modo praescindit a forma.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e412">
+      ¶ Sed hic 
+      <lb ed="#V" n="35"/>est difficultas. si intellectus separate potest intelligere vnum sine alio: 
+      </p>
+            <p xml:id="FrMS88-f13827-d1e418">
+               <lb ed="#V" n="36"/>¶ Dico quod si accipias: vt relatiue sumuntur in ratione 
+      perfi<lb ed="#V" n="37" break="no"/>cientis et perfectibilis. concedo quod non. si vero sumuntur quantum 
+      <lb ed="#V" n="38"/>ad entitates absolutas. sic non videtur quin possnt 
+      intelligiua<lb ed="#V" n="39" break="no"/>quia rationes distinte sunt obiectiue.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e429">
+      ¶ 2a difficultas. si dicunt 
+      <lb ed="#V" n="40"/>puas entitates praecisas praecisione tertii modi:
+    </p>
+            <p xml:id="FrMS88-f13827-d1e434">
+      ¶ Dico quod 
+      <lb ed="#V" n="41"/>non. perseytas enim cuiuslibet istorum est partialis.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e439">
+      ¶ 3a 
+      dififticul<lb ed="#V" n="42" break="no"/>tas. si possunt esse vnum formaliter: Dico quod si non 
+      pone<lb ed="#V" n="43" break="no"/>tetur 3a entitas vna formaliter: non apparet vnitas 
+      con<lb ed="#V" n="44" break="no"/>positi. Dico etiam quod materia reducitur ad speciem forme: quia 
+      <lb ed="#V" n="45"/>st pars compositi: quod est in tali specie. non sic quod 
+      intrin<lb ed="#V" n="46" break="no"/>sece dependeat vel sumat speciem a forma. 
+      <lb ed="#V" n="47"/>articulus. si materia habet aliquam causalitatem 
+      re<lb ed="#V" n="48" break="no"/>Quintus spectu forme: Dicunt aliqui quod non. quia 
+      <lb ed="#V" n="49"/>est entitas in pura potentia. et non continet virtualiter formam. 
+      </p>
+            <p xml:id="FrMS88-f13827-d1e459">
+               <lb ed="#V" n="50"/>¶ Sed ego dico. quod materia habet 4or effectus essentialiter 
+      ordina<lb ed="#V" n="51" break="no"/>tos. Primus est respectu forme. Secundus est respectu 
+      com<lb ed="#V" n="52" break="no"/>positi. Tertius respectu accidentium. Quartus in 
+      compa<lb ed="#V" n="53" break="no"/>ratione ad motum.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e470">
+      ¶ Primum patet. quia omnis forma causatur a 
+      <lb ed="#V" n="54"/>mam in genere cause materialis. quia dependet ab alio in genere 
+      causae<lb ed="#V" n="55" break="no"/>materialis.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e478">
+      ¶ Secundum patet. quia causat compositum. aliquando tamen per 
+      <lb ed="#V" n="56"/>modum cause intrinsece in primo modo. aliquando hoc est per 
+      mo<lb ed="#V" n="57" break="no"/>dum cause extrinsece. Et ex habet tinet illa diuso materiae. in quae et ex qua¬ 
+      </p>
+            <p xml:id="FrMS88-f13827-d1e485">
+               <lb ed="#V" n="58"/>¶ Tertium patet. quia omne accidens dependet a subiecto in 
+      <lb ed="#V" n="59"/>genere cause materialis. sicut forma substantialis a priema materia. 
+      </p>
+            <p xml:id="FrMS88-f13827-d1e492">
+               <lb ed="#V" n="60"/>¶ Quartum patet. per comparationem ad motum. quia 
+      mo<lb ed="#V" n="61" break="no"/>uet intellectum. et intellectus est mobilis per eam. 
+      <lb ed="#V" n="62"/>articu. si materia habet gradus:
+    </p>
+            <p xml:id="FrMS88-f13827-d1e501">
+      ¶ Dicunt aliqui 
+      <lb ed="#V" n="63"/>Sextus quod sic. sicut composita que ex ea siunt.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e506">
+      ¶ Con 
+      <lb ed="#V" n="64"/>tra. quia vel illi sunt etherogenei. et hoc non. quia illa non 
+      po<lb ed="#V" n="65" break="no"/>test intelligi sine distinctonem specifica que non est in materia.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e513">
+      ¶ 2o. quia 
+      <lb ed="#V" n="66"/>tales partes non faciunt vnum nisi per compositionem. Nec 
+      <!--308.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>potest dici quod homogeneas partes habeat. quia agens 
+      natu<lb ed="#V" n="68" break="no"/>rale crearet. quia cum sint eiusdem rationis: qua ratione vnum 
+      <lb ed="#V" n="69"/>et alterum crearet.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e530">
+      ¶ Intelligendum tamen quod materia in diuersis 
+      <lb ed="#V" n="70"/>habet gradus. illa que est subiectum generationis. subiectum 
+      <lb ed="#V" n="71"/>quod est corpus organicum. subiec tum accidentium.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e537">
+      ¶ Sed  
+      <lb ed="#V" n="72"/>contra. compositum non potest generari nisi generetur 
+      <lb ed="#V" n="73"/>materia et forma.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e544">
+      ¶ Responsio verum est vt terminus 
+      tota<lb ed="#V" n="74" break="no"/>lis. forma autem est terminus formalis. 
+      <lb ed="#V" n="75"/>et articulus. si deum de facto facit ma 
+      <lb ed="#V" n="76"/>Septimus teriam sine forma:
+    </p>
+            <p xml:id="FrMS88-f13827-d1e553">
+      ¶ Dicitur quod non. quia 
+      <lb ed="#V" n="77"/>non oportuit facere tale miraculum.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e558">
+      ¶ Contra. videtur 
+      <lb ed="#V" n="78"/>dicere Augu. quod ex mateai informi creauit deus mundum. 
+      </p>
+            <p xml:id="FrMS88-f13827-d1e563">
+               <lb ed="#V" n="79"/>¶ Dico quod non apparet quare non creauit materiam sine 
+      for<lb ed="#V" n="80" break="no"/>ma. Si ponatur quod illa forma transiuit ad alia composita. 
+      <lb ed="#V" n="81"/>non apparet necessitas.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e573">
+      ¶ Sed contra. stetitne naturaliter sine 
+      <lb ed="#V" n="82"/>forma post creationem: hic dico. quod sine miraculo si spo 
+      <lb ed="#V" n="83"/>liaret nunc eam non destrueretur. quia non dependet 
+      essentia<lb ed="#V" n="84" break="no"/>liter ab aliis. Nihil autem corrumpitur nisi cessante illo a 
+      <lb ed="#V" n="85"/>quo dependet. Causa autem quare ab agente naturali non po 
+      <lb ed="#V" n="86"/>test fieri sine forma est. quia nunquam corrumpit formam nisi 
+      <lb ed="#V" n="87"/>inducendo formam oppositam. Sed non video si spolia 
+      <lb ed="#V" n="88"/>retur. quare naturaliter non staret.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e591">
+      ¶ 2a difficultas vbi erat: 
+      Ali<lb ed="#V" n="89" break="no"/>qui dicunt quod in conuexo celi empyrei.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e596">
+      ¶ Sed quomodo tunc 
+      <lb ed="#V" n="90"/>recit celos de materia secundum illos qui dicunt quod in celo est materia¬ 
+      </p>
+            <p xml:id="FrMS88-f13827-d1e601">
+               <lb ed="#V" n="91"/>¶ Potest dici quod deus fecit de meam tanquam de non 
+      remanen<lb ed="#V" n="92" break="no"/>te. sed transeunte.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e608">
+      ¶ Alia difficultas quomodo fecit comr illa:
+    </p>
+            <p xml:id="FrMS88-f13827-d1e611">
+      ¶ Di 
+      <lb ed="#V" n="93"/>citur quod condensando et rarefaciendo. 
+      <lb ed="#V" n="94"/>E articulus. si de ea fuerunt omnia facta: Di 
+      <lb ed="#V" n="95"/>Octauus cit Aug. quod sic.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e621">
+      ¶ Sed tunc videtur quod 
+      <lb ed="#V" n="96"/>omnia sunt composita: vel per translationem. Si enim primo modo 
+      <lb ed="#V" n="97"/>essent naturaliter dissolubiles: quia eadem mateara esset nata informa 
+      <lb ed="#V" n="98"/>ri forma ignis et comuniutus. et alia corruptibilia.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e630">
+      ¶ Anima etiam 
+      <lb ed="#V" n="99"/>rationalis oportet quod semper de nouo crearetur de materia. et vbi illa 
+      <lb ed="#V" n="100"/>acciperetur oporteret quod semper de nouo crearetur.
+    </p>
+            <p xml:id="FrMS88-f13827-d1e637">
+      ¶ Augu. 
+      <lb ed="#V" n="101"/>autem aliquando vocat spiritualia corpora celestia aerea. et tales 
+      <lb ed="#V" n="102"/>prus sunt immateuriales. vel dic de materia transeunte. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

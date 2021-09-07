@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="162-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f22110"><!-- l2d34q1 -->
+            <head xml:id="FrMS88-f22110-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f22110-d1e111">
+               <lb ed="#V" n="107"/>Post predicta etc. 
+      <lb ed="#V" n="108"/>CIrca Distinctionem. 34. quero de 
+      vni<lb ed="#V" n="109" break="no"/>tate specifica quatuor quaestiones 
+      </p>
+            <p xml:id="FrMS88-f22110-d1e120">
+               <lb ed="#V" n="110"/>¶ Prima est vtrum natura specifica sit 
+      <lb ed="#V" n="111"/>de se singularis: et videtur quod sic per Doe 
+      <lb ed="#V" n="112"/>tium qui dicit quod omne quod est: ideo est: 
+      <lb ed="#V" n="113"/>quia vnum numero est.
+    </p>
+            <p xml:id="FrMS88-f22110-d1e131">
+      ¶ Contra. Dam. 
+      <lb ed="#V" n="114"/>ait: Christus assumit naturam in athomo 
+      <lb ed="#V" n="115"/>aliqui quod de se est singularis per sua 
+      <lb ed="#V" n="116"/>hic dicun t principum intrinseca: nec oportet de hoc quo 
+      <lb ed="#V" n="117"/>rere.
+    </p>
+            <p xml:id="FrMS88-f22110-d1e142">
+      ¶ Sed contra. quandocumque aliquid conuenit alicui in primo modo 
+      di<lb ed="#V" n="118" break="no"/>cendi per se non potest sine ipso concipi: sed natura specifica intel 
+      <lb ed="#V" n="119"/>igitur sine omni singularitate.
+    </p>
+            <p xml:id="FrMS88-f22110-d1e150">
+      ¶ Secunda ratio est hoc quandocum 
+      <lb ed="#V" n="120"/>que aliquid conuenit alicui in 2o modo dicendi per se: illud 
+      con<lb ed="#V" n="121" break="no"/>uenit sibi in quocumque inueniatur sed humanitati non 
+      <lb ed="#V" n="122"/>conuenit singularitas in quocumque. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f22110-d1e159">
+      ¶ Tertio. 
+      quan<lb ed="#V" n="123" break="no"/>documque sunt aliqua contraria. si vnum conuenit per se: 
+      reli<lb ed="#V" n="124" break="no"/>quum repugnat. si ergo idem numeraliter conuenit 
+      natu<lb ed="#V" n="125" break="no"/>re. ergo distingui numeraliter sibi repugnat.
+    </p>
+            <p xml:id="FrMS88-f22110-d1e168">
+      ¶ Quarto. quia 
+      <lb ed="#V" n="126"/>ista est praedicatio per accidens. homo est hic homo. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f22110-d1e173">
+      ¶ Ideo di 
+      <lb ed="#V" n="127"/>cono. quod nulla natura specifica est de se hec nisi deitas: et per hoc 
+      <lb ed="#V" n="128"/>probatur quod non est nisi vnus deus: et si ita esset de 
+      huma<lb ed="#V" n="129" break="no"/>nitate. omnis homo esset vnus homo.
+    </p>
+            <p xml:id="FrMS88-f22110-d1e182">
+      ¶ Sed contra. singularitas 
+      <lb ed="#V" n="130"/>non conuenit homini per accidens. ergo per se. Dico quod non 
+      <lb ed="#V" n="131"/>conuenit per accidens: sicut accidens subiecto: sed sicut inferius 
+      <!--327.xml-->
+      <pb ed="#V" n="162-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>suo superiori.
+    </p>
+            <p xml:id="FrMS88-f22110-d1e198">
+      ¶ Secundo. quia quicquid est naam videtur esse 
+      <lb ed="#V" n="2"/>singulare. Dico quod verum est: sed non quiditatiue nec per se: 
+      <lb ed="#V" n="3"/>sicut non est innuenire hominem quin fit risibilis. Et tamen 
+      nul<lb ed="#V" n="4" break="no"/>lus homo est risibilis quiditatiue.
+    </p>
+            <p xml:id="FrMS88-f22110-d1e208">
+      ¶ Tertio. quia cuilibes 
+      <lb ed="#V" n="5"/>singulari videtur per se conuenire principium agendi et 
+      patiendi<lb ed="#V" n="6" break="no"/>Sed hoc conuenit naturae. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f22110-d1e215">
+      ¶ Dico quod singularitas est 
+      <lb ed="#V" n="7"/>conditio agentis: sed non ratio agendi.
+    </p>
+            <p xml:id="FrMS88-f22110-d1e220">
+      ¶ Quarto. quia 
+      prin<lb ed="#V" n="8" break="no"/>cipium productiuum et terminus videntur esse singularia 
+      <lb ed="#V" n="9"/>se. Dico quod non per se vt sic.
+    </p>
+            <p xml:id="FrMS88-f22110-d1e227">
+      ¶ Sed quae est necessaritas 
+      ponendi<lb ed="#V" n="10" break="no"/>quod nam non sit singularis: Dico quod est necessitas omnis scientiae qut 
+      <lb ed="#V" n="11"/>radicatur in actu diuisionis: illa enim diuisio vel est ex 
+      natura<lb ed="#V" n="12" break="no"/>rei: vel rationis: si rationis omnes scientiae erunt ab anima. Et similiter 
+      dif<lb ed="#V" n="13" break="no"/>finitio. certum est quod sortes et pla. habent vnam diffinitionem 
+      cir<lb ed="#V" n="14" break="no"/>cumscripto omni opere intellectus. Similiter via 
+      composi<lb ed="#V" n="15" break="no"/>tionis. Similiter via argumentationis. hic homo est. ergo homo 
+      <lb ed="#V" n="16"/>est.
+    </p>
+            <p xml:id="FrMS88-f22110-d1e245">
+      ¶ Sed hic est difficultas si nam indiuiduatur per materiam. Di 
+      <lb ed="#V" n="17"/>co quod non. quia anima rationalis non habet materiam. Item nec forma 
+      <lb ed="#V" n="18"/>quia ipsa est ratio conueniendi specifice. Item nec vnio ma 
+      <lb ed="#V" n="19"/>terie cum forma: quia diffinitionem ingrediuntur mateam et 
+      for<lb ed="#V" n="20" break="no"/>ma vnita. Item nec actualis existentia: quia idem numero est 
+      <lb ed="#V" n="21"/>in actu et in potetia. Item nec negatio indiuisionis in se: 
+      <lb ed="#V" n="22"/>et diuisionis a quocumque alio: omnis enim negatio est posterior. 
+      <lb ed="#V" n="23"/>affirmatione. illa autem affirmatio si est singularis habetur 
+      in<lb ed="#V" n="24" break="no"/>tentum: si non negatio singularis fundatur in vniversali. Item iste 
+      ne<lb ed="#V" n="25" break="no"/>gationes si habent idem fundatum non est nisi vnum positiuum. Sed 
+      <lb ed="#V" n="26"/>diuersa habetur intentum. Iterum nec accidentia: quia substantia 
+      pre<lb ed="#V" n="27" break="no"/>cedit omne accidens: et in illo priori causat accidens: et est hoc 
+      <lb ed="#V" n="28"/>Similiter diminuitur in quantitate: et manet idem numero.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

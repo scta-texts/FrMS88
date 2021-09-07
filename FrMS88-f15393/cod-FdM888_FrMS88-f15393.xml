@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="154-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f15393"><!-- l2d13q4 -->
+            <head xml:id="FrMS88-f15393-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f15393-d1e111">
+      Quaestio. iiii. 
+      <lb ed="#V" n="120"/>questio est. Utrum lux 
+      edu<lb ed="#V" n="121" break="no"/>Uari.c catur de fecunditate 
+      medu<lb ed="#V" n="122" break="no"/>Et videtur quod non. quia ab extrinseco. 
+      </p>
+            <p xml:id="FrMS88-f15393-d1e120">
+               <lb ed="#V" n="123"/>¶ Contra. quia est forma naturalis. 
+      <lb ed="#V" n="124"/>4or conclusiones. quarum prima est. 
+      <lb ed="#V" n="125"/>hic sunt quod lux educitur de poten 
+      <lb ed="#V" n="126"/>tia factiua solis et corporis luminosi. De. enim dicit 
+      ha<lb ed="#V" n="127" break="no"/>bitudinem originis secundum Aug. xi. de trinitate. Tux autem 
+      <lb ed="#V" n="128"/>originatur a corpore luminoso.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e136">
+      ¶ 2a conclusio quod producitur de 
+      poten<lb ed="#V" n="129" break="no"/>tia substectiua corporis. quia omne accidens dependet a subiecto: in genere 
+      <lb ed="#V" n="130"/>cause materialis: tanquam a matera in qua.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e143">
+      ¶ 3a conclusio quod non producitur a 
+      <lb ed="#V" n="131"/>sole: sic quod praefuerit in sole formaliter. quia accidentia non 
+      mi<lb ed="#V" n="132" break="no"/>grant de subiecto in subiectum.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e151">
+      ¶ 4a conclusio quod non sic quod aliquid aeris 
+      <!--311.xml-->
+      <pb ed="#V" n="154-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>conuertatur in lucem. quia quanto plus illuminaretur tanto 
+      <lb ed="#V" n="2"/>plus diminueretur.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e164">
+      ¶ Sed contra primam conclusionem. quia secundum hoc 
+      <lb ed="#V" n="3"/>eius potentia multum expendit de sua virtute.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e169">
+      ¶ Responsideo. 
+      <lb ed="#V" n="4"/>quod non diciet sic intelligi quod aliquid de sole conuertatur in dictum 
+      <lb ed="#V" n="5"/>effectum: sed per virtutem suam causat illum.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e176">
+      ¶ Contra secundam 
+      <lb ed="#V" n="6"/>quomodo educitur de potentia medii cum nihil eius transeat 
+      <lb ed="#V" n="7"/>ipsum.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e183">
+      ¶ Dicitur quod materialiter causatur ab eo.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e186">
+      ¶ 3o quomodo preerat: 
+      <lb ed="#V" n="8"/>Dico quod virtualiter.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e192">
+      ¶ Sed quomodo sit de potentia subiecti: 
+      Di<lb ed="#V" n="9" break="no"/>co quod quia est eius causa: non quod transeat in illud.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e197">
+      ¶ Sed hoc 
+      <lb ed="#V" n="10"/>est difficultas si due luces eiusdem rationis possunt esse in aere:m 
+      </p>
+            <p xml:id="FrMS88-f15393-d1e202">
+               <lb ed="#V" n="11"/>¶ Dicunt aliqui quod sic. ex diuersitate vmbrarum hoc probant. 
+      </p>
+            <p xml:id="FrMS88-f15393-d1e207">
+               <lb ed="#V" n="12"/>¶ Sed contra. lux est forma intensibilis et realis. 
+      Qua<lb ed="#V" n="13" break="no"/>do autem gradus homogenei coniuguntur cedunt in 
+      eanden<lb ed="#V" n="14" break="no"/>formam.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e216">
+      ¶ Dicitur ergo quod eadem lux secundum quod diuersis origin 
+      <lb ed="#V" n="15"/>nibus originatur eadem facit diuersas vmbras.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e221">
+      ¶ Sed  
+      <lb ed="#V" n="16"/>quomodo intelligitur quod est in medio intentionaliter:
+    </p>
+            <p xml:id="FrMS88-f15393-d1e227">
+      ¶ Dicitur quod quia 
+      <lb ed="#V" n="17"/>inducit in cognitionem obiecti.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e232">
+      ¶ Alia difficultas quare lux non 
+      <lb ed="#V" n="18"/>remanet absente agente:
+    </p>
+            <p xml:id="FrMS88-f15393-d1e237">
+      ¶ Dixi quod alique forme 
+      semi<lb ed="#V" n="19" break="no"/>dependent ab agente: et hoc exigit nam talium.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e242">
+      ¶ Sed 
+      pos<lb ed="#V" n="20" break="no"/>set ne lux in vacuo multiplicari:
+    </p>
+            <p xml:id="FrMS88-f15393-d1e247">
+      ¶ Aliquo dicunt quod sic: 
+      <lb ed="#V" n="21"/>sed non videtur. quia cum sit accidens quod possit esse in vacuo 
+      <lb ed="#V" n="22"/>nisi per potentiam diuinam separando.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e254">
+      ¶ Sed que 
+      necessi<lb ed="#V" n="23" break="no"/>tas est ponendi lucem in medio:
+    </p>
+            <p xml:id="FrMS88-f15393-d1e260">
+      ¶ Dico quod non apparet nen 
+      <lb ed="#V" n="24"/>cessitas videndi radium: non videndo aliquid in medio 
+      <lb ed="#V" n="25"/>Sed videtur in aliquo terminato.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e267">
+      ¶ Sed de coloribus 
+      <lb ed="#V" n="26"/>vtrum esse habeant in medio tantum ad praesentiam lucis.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e272">
+      ¶ Uidetur 
+      <lb ed="#V" n="27"/>Urum. sentire quod color permanet sicut superficies. 
+      Auicenna<lb ed="#V" n="28" break="no"/>tenet oppositum. quod tantum ad praesentiam corporis 
+      luminosi<lb ed="#V" n="29" break="no"/>Et ex hoc videtur quod color est immediate in corpore: sicut 
+      su<lb ed="#V" n="30" break="no"/>perficies. Ratio est ad hoc. quia posito sufficienti actiuo 
+      <lb ed="#V" n="31"/>et passiuo et approximatis ponitur effectus. sed color est 
+      <lb ed="#V" n="32"/>obiectum visus. ergo si sit in tenebris videretur.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e288">
+      ¶ Si dicas 
+      <lb ed="#V" n="33"/>quod non est illuminatus.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e293">
+      ¶ Contra. oculus in tenebris vi 
+      <lb ed="#V" n="34"/>det colorem.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e298">
+      ¶ 2o sic. a quocumque causatur diuersitas speci 
+      <lb ed="#V" n="35"/>fica colorum: et ipsi colores. sed a corporibus luminosis 
+      <lb ed="#V" n="36"/>causatur hec distino. Uideo enim quod radio cadente directe super 
+      <lb ed="#V" n="37"/>superficiem disgregatur visus: reflexe congregatur.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e308">
+      ¶ 3o sic. quian 
+      <lb ed="#V" n="38"/>radius transit in vitrum vbi est rubedo: illa que ibi videtur 
+      <lb ed="#V" n="39"/>intuitiue non est nisi vbi videtur.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e315">
+      ¶ Ulterius de collo 
+      co<lb ed="#V" n="40" break="no"/>lumbe ex diuersa oppositione solis videtur nunc rubeum: 
+      <lb ed="#V" n="41"/>nunc viride: nunc lucidum.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e322">
+      ¶ Sed contra. in nocte est ignis 
+      colo<lb ed="#V" n="42" break="no"/>ratus.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e327">
+      ¶ Responsio non est inconueniens. quia quando diuiditur corpus sta. 
+      <lb ed="#V" n="43"/>tim albedo apparet etiam in profundo.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e332">
+      ¶ Sed contra. tunc omnia 
+      <lb ed="#V" n="44"/>erunt eiusdem coloris.
+    </p>
+            <p xml:id="FrMS88-f15393-d1e337">
+      ¶ Respondeo. sicut in stellis causat 
+      diuer<lb ed="#V" n="45" break="no"/>sas luces secundum dispositiones patientium. sic et in proposito.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

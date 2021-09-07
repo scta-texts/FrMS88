@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="133-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e99163"><!-- l1d45q1 -->
+            <head xml:id="FrMS88-e99163-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-e99163-d1e111">
+               <lb ed="#V" n="79"/>¶ Distinctio. xly. Questio 1. 
+      <lb ed="#V" n="80"/>Iam de voluntate dei aliquid etc. 
+      <lb ed="#V" n="81"/>distinctionem. 4o. in qua 
+      tra<lb ed="#V" n="82" break="no"/>Irca ctatur de voluntate. Quero 
+      <lb ed="#V" n="83"/>vtrum voluntas diuina sit prima 
+      regu<lb ed="#V" n="84" break="no"/>la omnium contingentium. quod non: quia praes. Omnia in 
+      <lb ed="#V" n="85"/>sapientia fecisti: sed sapientia pertinet ad 
+      <lb ed="#V" n="86"/>intellectum.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e131">
+      ¶ Contra. in praes. Omnia quaecumque 
+      <lb ed="#V" n="87"/>volunt deus fecit.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e136">
+      ¶ hic sunt quatuor modi dicendi. 
+      <lb ed="#V" n="88"/>est. quod essentia diuina est prima 
+      regula<lb ed="#V" n="89" break="no"/>Primus omnium tam necessariorum quam contingentium: quia 
+      <lb ed="#V" n="90"/>ipsa est primum obiectum intellectus diuini. in quo omnia 
+      <lb ed="#V" n="91"/>relucent: ita quod nulla potentia in ipsam intendens potest 
+      <lb ed="#V" n="92"/>obliquari.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e149">
+      ¶ Alii dicunt. quod prima regula tam 
+      necessa<lb ed="#V" n="93" break="no"/>riorum quam contingentium est diuina intelligentia: quia sicut 
+      vo<lb ed="#V" n="94" break="no"/>luntas nostra regulatur ab intellectu nostro practico. ipsum in 
+      <lb ed="#V" n="95"/>agentibus dirigendo: ita in deo. Sicut enim diuina 
+      intel<lb ed="#V" n="96" break="no"/>ligentia cognoscit esse facienda: ita voluntas diuina exequitur 
+      </p>
+            <p xml:id="FrMS88-e99163-d1e161">
+               <lb ed="#V" n="97"/>¶ Alii dicunt. quod omnium tam necessariorum quam contingentium 
+      <lb ed="#V" n="98"/>voluntas diuina est prima regula ad extra. quia secundum Aug. di 
+      <lb ed="#V" n="99"/>trini. diuina voluntas est omnium quae fiunt prima et summa causa: 
+      <lb ed="#V" n="100"/>sed prima causa videtur esse prima regula. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e172">
+      ¶ Alii dicunt 
+      <lb ed="#V" n="101"/>quod intellectus informatus habitibus intellectualibus: 
+      <lb ed="#V" n="102"/>quia eius vt sic est informatus proprie est dirigere: sed ad 
+      re<lb ed="#V" n="103" break="no"/>gulam partinet diriger. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e181">
+      ¶ Sed nullus istorum modorum 
+      <lb ed="#V" n="104"/>stare potest. Primus non. quia obiectum in comparatione ad 
+      po<lb ed="#V" n="105" break="no"/>tentiam non habet rationem regulantis: sicut nec bonum agibile in 
+      <lb ed="#V" n="106"/>moralibus dicitur regula actuum humanorum: sed prudentia 
+      <lb ed="#V" n="107"/>Nec secunds. quia cum intellectus diuinus regulet necessario 
+      <lb ed="#V" n="108"/>ex se quicquid regulat: eo quod est potentia mere naturalis: et natura 
+      <lb ed="#V" n="109"/>sit semper ad vnum determinata. sequeretur quod nulla res 
+      <lb ed="#V" n="110"/>posset aliter fieri quam fiat. cum tamen contingat fieri idem 
+      pluri<lb ed="#V" n="111" break="no"/>bus modis. Nec tertius. quia obstantia necessaria et 
+      contigen<lb ed="#V" n="112" break="no"/>tia prius cognoscuntur a deo quam possunt appeti. vt alibi patet 
+      <lb ed="#V" n="113"/>et in illo priori eorum percipitur certitudo. et sic a volun 
+      <lb ed="#V" n="114"/>tate sequente non primo regltsratur. Nec 4us. quia sicut intellectus ex 
+      <lb ed="#V" n="115"/>se mere agit naturaliter et determinatur ad vnum. sic intellectus 
+      <lb ed="#V" n="116"/>informatus quocunque habitu intellectuali.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e212">
+      ¶ Ideo 
+      <lb ed="#V" n="117"/>dicit Doctor. noster aliter. quod voluntas diuina est 
+      prima<lb ed="#V" n="118" break="no"/>regula omnium contingentium precise: necessaria 
+      au<lb ed="#V" n="119" break="no"/>tem aliunde regulantur.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e221">
+      ¶ hoc autem confirmo 4r 
+      <lb ed="#V" n="120"/>Primo sic. Omnis alia regula a voluntate diuina est modo 
+      <lb ed="#V" n="121"/>re necessaria et naturaliter regulans. si ergo aliquid 
+      ali<lb ed="#V" n="122" break="no"/>ud a voluntate regularet: mere necessario regularet: 
+      <lb ed="#V" n="123"/>et sic impossibile esset eam aliter regulari. Istud autem 
+      <lb ed="#V" n="124"/>est falsum: immo quod vno tempore est regulatum: 
+      <lb ed="#V" n="125"/>in alio tempore est irregulatum: sicut patet de circumcisione in 
+      <lb ed="#V" n="126"/>veteri testo.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e239">
+      ¶ 2o sic. illa potentia que ab aliquo 
+      regu<lb ed="#V" n="127" break="no"/>latur: si ab eo deueniet obliqua est. si ergo voluntas 
+      di<lb ed="#V" n="128" break="no"/>uina regulatur ab intellectu: vel ab aliquo alio necessario 
+      re<lb ed="#V" n="129" break="no"/>gulante: cum omne tale necessario determinatur ad partem 
+      <lb ed="#V" n="130"/>alteram contradictionis: voluntas diuina non poterit in 
+      al<lb ed="#V" n="131" break="no"/>teram partem contradictionis quin sit obliqua: sed hoc est fal¬ 
+      <!--269.xml-->
+      <pb ed="#V" n="133-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>sum: videmus enim quod voluntas recte potest in vtramque partem 
+      contradi<lb ed="#V" n="2" break="no"/>ctionis.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e264">
+      ¶ Confirmatur. quia voluntas diuina dicitur ese 
+      inobli<lb ed="#V" n="3" break="no"/>bilis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e269">
+      ¶ 3o sic. quia aliqua sunt prohibita: quia mala. Alii 
+      <lb ed="#V" n="4"/>qua autem ideo mala: quia prohibita. si ergo in istis fiat resoluti 
+      <lb ed="#V" n="5"/>ad voluntatem habetur intentum. Si ad aliquid aliud vt ad intellicet 
+      <lb ed="#V" n="6"/>cum necessario intelligat talia: necessario essent mala: non quod 
+      <lb ed="#V" n="7"/>prohibita tantum.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e280">
+      ¶ 4o. quia aliqua sunt bona: quia praecepta. Alia 
+      <lb ed="#V" n="8"/>ideo praecepta. quia bona. si ergo fiat resolutio ad voluntatem habetur 
+      in<lb ed="#V" n="9" break="no"/>tentum: si ad intellectet: cum necessario intelligit: omnia erunt necessario bo 
+      <lb ed="#V" n="10"/>na ex se.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e289">
+      ¶ Sed contra instatur 4r. Primo sic. Omnis prudentia est 
+      <lb ed="#V" n="11"/>regulatiua suorum actuum sequentium actus voluntatis: cum 
+      <lb ed="#V" n="12"/>sit recta ratio agibilium: sed in deo est formaliter prudentia quae 
+      <lb ed="#V" n="13"/>pertinet ad intellectum: cum ibi sit ars quae est inferior ea. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e99163-d1e298">
+               <lb ed="#V" n="14"/>¶ 2o sic. ars est prima regula factibilium: sed deum agit per 
+      <lb ed="#V" n="15"/>modum artis secundum Ans. in mono. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e305">
+      ¶ 3o sic. quia omnis 
+      ele<lb ed="#V" n="16" break="no"/>ctio praesupponit actum intellectus regulantis: sed deus 
+      agi<lb ed="#V" n="17" break="no"/>per electionem. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e313">
+      ¶ 4o sic. quia omnis comperatio voluntatis 
+      <lb ed="#V" n="18"/>vt comparatur ad extra est praxis: sed omnis praxis praexigit acti 
+      <lb ed="#V" n="19"/>intellectus regulantis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e320">
+      ¶ Ad primum concedo quod prudentia 
+      <lb ed="#V" n="20"/>est in intellectu diuino: sed tamen intelligendum est de 
+      pruden<lb ed="#V" n="21" break="no"/>tia dei quantum ad contingentia: quod ipsa est in intellectu postquam 
+      vo<lb ed="#V" n="22" break="no"/>luntas est determinata circa ea. Unde post determinatio 
+      <lb ed="#V" n="23"/>nem voluntatis sequitur actus intellectus secundum determinatio 
+      <lb ed="#V" n="24"/>nem voluntatis et etiam prudentia.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e333">
+      ¶ Et si dicas. quod tunc 
+      pru<lb ed="#V" n="25" break="no"/>dentia erit: et nihil erit per prudentiam regulatum: cum tamen fir 
+      <lb ed="#V" n="26"/>sit contra rationem prudentie. Dico quod licet voluntas non reguletur 
+      <lb ed="#V" n="27"/>quantum ad contingentia: sed fit prima regula: tamen potentia 
+      execu<lb ed="#V" n="28" break="no"/>tiua regulatur. cuius actum praecedit prudentia illa.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e344">
+      ¶ Sed num 
+      <lb ed="#V" n="29"/>quid prudentia aliquem actum habet circa incommutabilia.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e349">
+      ¶ Di 
+      <lb ed="#V" n="30"/>co quod si ponatur quod sic. tunc oportet dicere quod prudentia quantum ad 
+      <lb ed="#V" n="31"/>incommutabilia praecedit omnem actum voluntatis. quantum autem ad 
+      <lb ed="#V" n="32"/>commutabilia et contingentia sequitur.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e358">
+      ¶ Sed numquid prudentia 
+      <lb ed="#V" n="33"/>regulat in praeceptis prime tabule: vel solum vt sequitur de 
+      <lb ed="#V" n="34"/>terminationem voluntatis: Ppotest dici. quod circa praecepta prim 
+      <lb ed="#V" n="35"/>me tabule est in priori ante actum voluntatis: in praecepti 
+      <lb ed="#V" n="36"/>ecunde tabule est posterior. Et de hoc alias.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e370">
+      ¶ Ad secundum 
+      <lb ed="#V" n="37"/>de arte eodem modo dicendum est. Ars enim non regulat voluntatem 
+      <lb ed="#V" n="38"/>sed sequitur determinationem voluntatis: regulat tamen potentiam 
+      <lb ed="#V" n="39"/>executiuam. Nisi forte dicatur quod factibilia vt sic fiant: sunt 
+      <lb ed="#V" n="40"/>necessaria: et tunc esset regula voluntatis.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e381">
+      ¶ Ad 3m de 
+      ele<lb ed="#V" n="41" break="no"/>ctione dico. quod executionem electionis potest ratio regulare 
+      <lb ed="#V" n="42"/>et ista aliquando accipitur pro electione scilicet volitio: vt comparatur 
+      <lb ed="#V" n="43"/>ad extra. tamen electio vt est determinatio voluntatis diuine 
+      <lb ed="#V" n="44"/>sic dico quod praecedit rationem.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e392">
+      ¶ Ad 4m dico. quod praxis est 
+      re<lb ed="#V" n="45" break="no"/>gulabilis ab intellectu sequente actum voluntatis: loque 
+      <lb ed="#V" n="46"/>do de praxi quae est contingentium: sed de illa quae est 
+      necessario<lb ed="#V" n="47" break="no"/>rum: illa regulatur per intellectum praecedentem omnem actum volunta. 
+      <lb ed="#V" n="48"/>tis.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e403">
+      ¶ Sed hic sunt di. Prima. quia si non est aliqua ratio 
+      illo<lb ed="#V" n="49" break="no"/>tum quae siunt. Quare Anu. et alii sancti inuestigant rationem 
+      <lb ed="#V" n="50"/>eorum quae siunt: vtpote de incarnatione et aliis.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e410">
+      ¶ Dico quod 
+      <lb ed="#V" n="51"/>alibi. Aug. dicit. quod illorum quae siunt libem a voluntate 
+      diuina<lb ed="#V" n="52" break="no"/>non est quaerenda causa. Unde quando ipsi quaerunt causam incarnationis: 
+      <lb ed="#V" n="53"/>non quarunt nisi qua ad nos. simpliciter autem aliter fieri potuisset. 
+      <lb ed="#V" n="54"/>Nam deus aliter facem potuisset redemptionem humani generis quam 
+      <lb ed="#V" n="55"/>fecerit. vt patet 3o de tri.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e423">
+      ¶ 2a difficultas. si fuisset aliter factum: 
+      quan<lb ed="#V" n="56" break="no"/>rationem reddemmus. Dico quod vbi apparet cogens ratio aliter fieri ni 
+      <lb ed="#V" n="57"/>potuisset: sed tamen vbi ratio non est cogens: aliter fieri 
+      po<lb ed="#V" n="58" break="no"/>tuisset: et tunc congruitates adducerentur.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e433">
+      ¶ 3a difficultas est. quia 
+      <lb ed="#V" n="59"/>ecundum Ans. de casu diaboli. omnis voluntas sicut habet quid: ita habet 
+      <lb ed="#V" n="60"/>sur: sed illud cur accipitur a ratione regulante. Dico quod fote 
+      <lb ed="#V" n="61"/>intentio eius est applicare illam regulam ad sola creata. Uel 
+      <lb ed="#V" n="62"/>si ad diuina: tunc oportet dicere: quod voluntas vt exequens 
+      regu<lb ed="#V" n="63" break="no"/>latur: et habet cur in prudentia sequente actum diuinum volendi¬ 
+      </p>
+            <p xml:id="FrMS88-e99163-d1e446">
+               <lb ed="#V" n="64"/>¶ Sed tunc sequitur eque magis difficultas si voluntas diuina 
+      oppi<lb ed="#V" n="65" break="no"/>huius quod nunc est determinasset: ratio quae redditur a sanctis houb 
+      <lb ed="#V" n="66"/>determinationis iam facte quae accipitur a prudentia sequente 
+      <!--269.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>voluntatem non valuisset. Dico quod in contingentibus est potenti 
+      <lb ed="#V" n="68"/>ad opposita in sensu diuisionis: non in sensu compositionis: 
+      <lb ed="#V" n="69"/>et ideo rationes vel congruitates sicut dictum est concurrerens 
+      </p>
+            <p xml:id="FrMS88-e99163-d1e466">
+               <lb ed="#V" n="70"/>¶ 4a difficultas est. quia si deus opposita eorum que ordinauit 
+      <lb ed="#V" n="71"/>ordinasset tota prudentia qui est de ordinatis a deo fuisset 
+      <lb ed="#V" n="72"/>ad opposita: et tamen ita dissonarent intellectui nostro: sicut 
+      <lb ed="#V" n="73"/>nunc dissonant: cum eius determinatio esset nobis igno 
+      <lb ed="#V" n="74"/>ta. Dico sicut dictum est. quod illa que omnino intellectui vere 
+      <lb ed="#V" n="75"/>intelligenti dissonant: videntur necessario sic a diuina ratio 
+      <lb ed="#V" n="76"/>ne regulata.
+    </p>
+            <p xml:id="FrMS88-e99163-d1e484">
+      ¶ Ad argumentum patet.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

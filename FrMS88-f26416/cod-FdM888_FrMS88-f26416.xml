@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="168-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f26416"><!-- l3d1q5 -->
+            <head xml:id="FrMS88-f26416-Hd1e108">Quaestio 5</head>
+            <p xml:id="FrMS88-f26416-d1e111">
+               <lb ed="#V" n="76"/>¶ Questio. v. 
+      <lb ed="#V" n="77"/>QUinto quero Utrum 
+      incarna<lb ed="#V" n="78" break="no"/>tio verbi sit proprie 
+      <lb ed="#V" n="79"/>creabilis. Quod non: quia apostolus dicit. omnis 
+      <lb ed="#V" n="80"/>creatura dei bona est. Sed omne tale 
+      di<lb ed="#V" n="81" break="no"/>cit perfectionem. incarnatio cum sit relatio 
+      <lb ed="#V" n="82"/>non dicit perfectionem.
+    </p>
+            <p xml:id="FrMS88-f26416-d1e129">
+      ¶ Contra. in apocalipsi dicitur. omnia 
+      <lb ed="#V" n="83"/>propter voluntatem tuam siunt et creata sunt: sed 
+      incar<lb ed="#V" n="84" break="no"/>natio est de numero omnium. ergo etc. 
+      <lb ed="#V" n="85"/>quod quatuor 
+      <lb ed="#V" n="86"/>hic est premittendum modis 
+      di<lb ed="#V" n="87" break="no"/>citur aliquid creari a deo.
+    </p>
+            <p xml:id="FrMS88-f26416-d1e142">
+      ¶ Primo sicut a causa vniversali 
+      <lb ed="#V" n="88"/>tantum. et sic anima creatur a deo: quia deus cum omni secunda 
+      <lb ed="#V" n="89"/>cam concurrit.
+    </p>
+            <p xml:id="FrMS88-f26416-d1e149">
+      ¶ Secundo modo sicut a causa particulari vel 
+      <lb ed="#V" n="90"/>partiali: vt humanitas christi: vbi deus suppleuit causa 
+      <lb ed="#V" n="91"/>litatem agentis particularis.
+    </p>
+            <p xml:id="FrMS88-f26416-d1e157">
+      ¶ Tertio modo sicut a 
+      <lb ed="#V" n="92"/>causa totali: sed in genere cause efficientis tantum: vt gratia 
+      crea<lb ed="#V" n="93" break="no"/>ture a deo totaliter et effectiue: sed dependet ab anima subitanti 
+      <lb ed="#V" n="94"/>ue: sicut a causa materiali in qua. Quarto sicut causa 
+      <lb ed="#V" n="95"/>totalis suppletur: quia nulla alia causa concurrit et hoc 
+      <lb ed="#V" n="96"/>modo angelus creatur totaliter a deo: quia in suo esse: sicut 
+      <lb ed="#V" n="97"/>et in fieri non dependet nisi a deo. Incarnatio vero non 
+      <lb ed="#V" n="98"/>creatur a deo. per modo quia ibi deficit agens creatum 
+      <lb ed="#V" n="99"/>particulare.
+    </p>
+            <p xml:id="FrMS88-f26416-d1e177">
+      ¶ Nec tertio modo. quia ibi terminus 
+      con<lb ed="#V" n="100" break="no"/>currit scilicet proprietas personalis verbi a qua ipsua non est 
+      effe<lb ed="#V" n="101" break="no"/>ctiue sed partialiter.
+    </p>
+            <p xml:id="FrMS88-f26416-d1e184">
+      ¶ Nec quarto modo: quia 
+      incar<lb ed="#V" n="102" break="no"/>natio sicut et relatio dependet a fundamento: sed 
+      crea<lb ed="#V" n="103" break="no"/>tur a deo secundo modo: sicut a causa particulari con 
+      <lb ed="#V" n="104"/>currente cum causa vniuersali que est voluntas 
+      diuina<lb ed="#V" n="105" break="no"/>et humanitas christi: in qua etiam cum matre concurre 
+      <lb ed="#V" n="106"/>bat diuina voluntas. vt causa partialis non solum vt 
+      <lb ed="#V" n="107"/>vniuersalis. sed et hic cum voluntate diuina et 
+      funda<lb ed="#V" n="108" break="no"/>mento concurrit: vt causa particularis in causando 
+      <lb ed="#V" n="109"/>incarnationem terminus ipse vt proprietas persona 
+      <lb ed="#V" n="110"/>lis verbi terminans hanc relationem.
+    </p>
+            <p xml:id="FrMS88-f26416-d1e206">
+      ¶ Sed contra 
+      prae<lb ed="#V" n="111" break="no"/>dicta arguo quadrupliciter. Et primo. quia relationis 
+      <lb ed="#V" n="112"/>non est relatio sed incarnatio est relatio. Similiter crea 
+      <lb ed="#V" n="113"/>tio est relatio: ergo ad incarnationem non est creatio. 
+      </p>
+            <p xml:id="FrMS88-f26416-d1e215">
+               <lb ed="#V" n="114"/>¶ Dico quod assumptum non est verum: quia ad vbi est 
+      causa<lb ed="#V" n="115" break="no"/>litas ipsius agentis quae est respectus ipsius vbi ad agens 
+      <lb ed="#V" n="116"/>siue mouens: et tamen vbi est quaedam relatio: vnde omnis causalitas 
+      <lb ed="#V" n="117"/>est quaedam relatio: quia semper est ad effectum siue 
+      abso<lb ed="#V" n="118" break="no"/>lutum siue respectiuum.
+    </p>
+            <p xml:id="FrMS88-f26416-d1e228">
+      ¶ Item secundo. quia sic 
+      incarna<lb ed="#V" n="119" break="no"/>tio non erit supernaturaliter creata: quia omnis relatio naturaliter 
+      con<lb ed="#V" n="120" break="no"/>surgit ex extremis: Dico quod licet per comparationem ad 
+      ter<lb ed="#V" n="121" break="no"/>minum se propretatem non sit supernaturalis per comperationem tamen ad 
+      di<lb ed="#V" n="122" break="no"/>uinam voluntatem erit supernaturalis.
+    </p>
+            <p xml:id="FrMS88-f26416-d1e240">
+      ¶ Item tertio. quia omnis 
+      <lb ed="#V" n="123"/>forma creabilis est separabilis: sed incarnatio cum sit relatio non 
+      <lb ed="#V" n="124"/>potest fundamento manente ab ipso separari. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f26416-d1e247">
+      ¶ Dico 
+      <lb ed="#V" n="125"/>quod assumptum habet veritatem tantum in abium et realiter distinctis. 
+      </p>
+            <p xml:id="FrMS88-f26416-d1e252">
+               <lb ed="#V" n="126"/>¶ Quarto: quia illud quod creatur fit de nihilo: sed 
+      incar<lb ed="#V" n="127" break="no"/>natio est in fundamento: quia non potest esse sine ipso. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f26416-d1e259">
+               <lb ed="#V" n="128"/>¶ Dicendum quod ad incarnationem concurrit fundamentum quantum 
+      <lb ed="#V" n="129"/>est secundum potentiam obedientialem tantum. non autem secundum potentiam 
+      natura<lb ed="#V" n="130" break="no"/>lem: sicut concurrit in his quae deficiunt totaliter a creatione. 
+      </p>
+            <p xml:id="FrMS88-f26416-d1e268">
+               <lb ed="#V" n="131"/>¶ Sed dubium est si creatio incarnationis differt ab ea 
+      </p>
+            <p xml:id="FrMS88-f26416-d1e273">
+               <lb ed="#V" n="132"/>¶ Dicendum quod sunt due relationes: ideo non potest osten 
+      <!--339.xml-->
+      <pb ed="#V" n="168-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>di earum differentia nisi in comperatione ad duos terminos. 
+      Diffe<lb ed="#V" n="2" break="no"/>runt igitur non realiter sed formaliter tantum: quia sunt ad 
+      diuer<lb ed="#V" n="3" break="no"/>sos terminos.
+    </p>
+            <p xml:id="FrMS88-f26416-d1e292">
+      ¶ Est enim incarnatio ad proprietatem 
+      <lb ed="#V" n="4"/>icut ad terminum. creatio vero eius ad voluntatem diuinana¬ 
+      </p>
+            <p xml:id="FrMS88-f26416-d1e297">
+               <lb ed="#V" n="5"/>¶ Item aliud dubium est quomodo relatio extrinsecus adueniens 
+      <lb ed="#V" n="6"/>otest fundare relationem intrinsecus aduenientem.
+    </p>
+            <p xml:id="FrMS88-f26416-d1e304">
+      ¶ Dicendum quod 
+      <lb ed="#V" n="7"/>ex hoc non est inconueniens: quia in vbi fundatur respectus 
+      <lb ed="#V" n="8"/>causalitatis ad mouens. vnde sicut creatio creature est 
+      po<lb ed="#V" n="9" break="no"/>sterior ordine naturae creatura absoluta et fundatur in ipsa: 
+      <lb ed="#V" n="10"/>ta creatio siue respectus effectualitatis fundatur in 
+      incar<lb ed="#V" n="11" break="no"/>natione: et est posterior ea: quia fundamentum praecedit naturaliter 
+      <lb ed="#V" n="12"/>illud quod fundatur in eo.
+    </p>
+            <p xml:id="FrMS88-f26416-d1e320">
+      ¶ Ite non. quod deus non potest supe naturaliter 
+      <lb ed="#V" n="13"/>treare relationem intrinsecus aduenientem: quia talis respectus 
+      <lb ed="#V" n="14"/>necessario presupponit extrema: et eis positis 
+      necessa<lb ed="#V" n="15" break="no"/>rio consurgit vel innascitur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

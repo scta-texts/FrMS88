@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f22279"><!-- l2d34q2 -->
+            <head xml:id="FrMS88-f22279-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f22279-d1e111">
+               <lb ed="#V" n="29"/>Questio. ii. 
+      <lb ed="#V" n="30"/>SEcunda questio est. Utrum 
+      natu<lb ed="#V" n="31" break="no"/>ra de se sit vniuersalis. Et 
+      <lb ed="#V" n="32"/>videtur quod sic: quia est superius.
+    </p>
+            <p xml:id="FrMS88-f22279-d1e122">
+      ¶ Contra. quia 
+      vni<lb ed="#V" n="33" break="no"/>uersale est secunda intentio: ergo non 
+      dici<lb ed="#V" n="34" break="no"/>U tur per se de prima. 
+      <lb ed="#V" n="35"/>4or conclusiones.
+    </p>
+            <p xml:id="FrMS88-f22279-d1e131">
+      ¶ 
+      Pri<lb ed="#V" n="36" break="no"/>hic introducuntur ma conclusio est. qui 
+      <lb ed="#V" n="37"/>natura specifica non est vniversalis in primo modo dicendi per se. probatur: 
+      <lb ed="#V" n="38"/>quia vniversale diffinitur in habitudine ad aliud: sed natura 
+      specifi<lb ed="#V" n="39" break="no"/>ca in primo modo dicendi per se non est alia vel aliud.
+    </p>
+            <p xml:id="FrMS88-f22279-d1e142">
+      ¶ Item nulla 
+      <lb ed="#V" n="40"/>relatio dicitur per se in primo modo de abo.
+    </p>
+            <p xml:id="FrMS88-f22279-d1e148">
+      ¶ 2a conclusio. quod nec 
+      per<lb ed="#V" n="41" break="no"/>accidens couenit sibi: quia aptitudo naturalis: nullo modo 
+      sub<lb ed="#V" n="42" break="no"/>iecto suo conuenit per accidens: sed vniversalitas termini dicit 
+      ha<lb ed="#V" n="43" break="no"/>dnitudinem naturalem essendi in pluribus.
+    </p>
+            <p xml:id="FrMS88-f22279-d1e157">
+      ¶ Tertia conclusio est. quod 
+      <lb ed="#V" n="44"/>inest sibi in secundo modo: quia omnis naturalis aptitudo est passio 
+      <lb ed="#V" n="45"/>per se apti nali: sed communicabilitas nature est eius naturalis 
+      <lb ed="#V" n="46"/>aptitudo. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f22279-d1e166">
+      ¶ Quarta conclusio quod ista vniuersalitas nature non est 
+      <lb ed="#V" n="47"/>ab anima: quia circumscripto omni opere intellectus natura esset 
+      communi<lb ed="#V" n="48" break="no"/>cabilis pluribus: et si esset ab anima ipsa circumscripta esset 
+      natura<lb ed="#V" n="49" break="no"/>incommunicabilis pluribus: quod est falsum: quia ratio eius 
+      diffiniti<lb ed="#V" n="50" break="no"/>ua conuenit omnibus indiuiduis.
+    </p>
+            <p xml:id="FrMS88-f22279-d1e177">
+      ¶ Sed contra primam conclusiones 
+      ar<lb ed="#V" n="51" break="no"/>guitur sic: natura specifica non est per se singularis: ergo vniversalis 
+      <lb ed="#V" n="52"/>cum sint opposita immediate.
+    </p>
+            <p xml:id="FrMS88-f22279-d1e184">
+      ¶ Dico hic. quod natura 
+      specifi<lb ed="#V" n="53" break="no"/>ca non est de se singularis nec vniuersalis: sed abstrahit ab vtro 
+      <lb ed="#V" n="54"/>que scilicet a ratione vniuersalis et particularis: quae sunt rationes 
+      re<lb ed="#V" n="55" break="no"/>pectiue.
+    </p>
+            <p xml:id="FrMS88-f22279-d1e193">
+      ¶ Contra. secundam probatur quod infit per accidens: quia 
+      <lb ed="#V" n="56"/>ens diuiditur per vniversale et particulare. Si alterum est per se et 
+      <lb ed="#V" n="57"/>alterum accidens. Dico quod non: si diuisio est per passione 
+      cir<lb ed="#V" n="58" break="no"/>cumloquentes naturam.
+    </p>
+            <p xml:id="FrMS88-f22279-d1e203">
+      ¶ Contra tertiam: quia sequitur quod vbicumque 
+      <lb ed="#V" n="59"/>uenitur natura erit comuicabilitas. et ita in hoc indiuiduo. 
+      Di<lb ed="#V" n="60" break="no"/>co quod natura que est in homine secundum suam rationem formalem est 
+      <lb ed="#V" n="61"/>communicabilis: sed illa passio non conuenit sibi ratione totium 
+      <lb ed="#V" n="62"/>cum singularitate nec in hoc: sed secundum se.
+    </p>
+            <p xml:id="FrMS88-f22279-d1e214">
+      ¶ Quarto in 
+      <lb ed="#V" n="63"/>statur: quia sicut in diuinis est vna natura in pluribus perso 
+      <lb ed="#V" n="64"/>nis ita vna natura est hic in pluribus indiuiduis: Dico quod 
+      <lb ed="#V" n="65"/>non est vna numero in pluribus. distinguitur enim proprie 
+      <lb ed="#V" n="66"/>tatibus indiuindualibus: non autem sic in diuinis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

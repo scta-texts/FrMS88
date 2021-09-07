@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f09283"><!-- l2d2q10 -->
+            <head xml:id="FrMS88-f09283-Hd1e108">Quaestio 10</head>
+            <p xml:id="FrMS88-f09283-d1e111">
+      Quaestio. x. 
+      <lb ed="#V" n="9"/>Circa eandem distinctionem adhuc quero 4or 
+      <lb ed="#V" n="10"/>quaestiones de motu angeli. 
+      Prima<lb ed="#V" n="11" break="no"/>est. vtrum angelus moueatur ab aliquo loca 
+      <lb ed="#V" n="12"/>p 
+      <lb ed="#V" n="13"/>liter quod non. beatus Aug. super gen. distinguit die 
+      <lb ed="#V" n="14"/> Qed 
+      <lb ed="#V" n="15"/>el 
+      <lb ed="#V" n="16"/>motu. quod aliquam creaturam scilicet spiritualem mouet 
+      <lb ed="#V" n="17"/>per tempus et non per locum: corporalia autem mouentur tempora 
+      <lb ed="#V" n="18"/>liter et secundum locum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f09283-d1e135">
+      ¶ Contra. Greg. super Iob. Sola 
+      <lb ed="#V" n="19"/>nam incomprehensibilis a statu suo nescit moueri. 
+      <lb ed="#V" n="20"/>veritas determinata per scripturam. quod 
+      mo<lb ed="#V" n="21" break="no"/>Hic est uentur scilicet tam angeli boni. quam etiam mali. et arti 
+      <lb ed="#V" n="22"/>culus fidei est de anima christi. quod descendit ad inferos. Declarat 
+      <lb ed="#V" n="23"/>autem Sco. sic. per vnam propositionem quae habet 4or partes: et est hec. 
+      quandocum<lb ed="#V" n="24" break="no"/>que aliquod est susceptiuum formarum differeuntium specie et eiusdem 
+      <lb ed="#V" n="25"/>generis: et non est determinatum ad aliquam illarum. nec est 
+      illi<lb ed="#V" n="26" break="no"/>mitatum ad omnes. tale potest moueri: sic autem est in proposito. 
+      er<lb ed="#V" n="27" break="no"/>go etc. Maior patet. et primo apparet prima conditio scilicet susceptiuum 
+      for<lb ed="#V" n="28" break="no"/>marum differuntium specie. quia motus non est inter formas eiusdem 
+      ratio<lb ed="#V" n="29" break="no"/>nis. sed semper est aliqua contrarietas inter terminos motus.
+    </p>
+            <p xml:id="FrMS88-f09283-d1e161">
+      ¶ Ex 
+      <lb ed="#V" n="30"/>hoc apparet 2a conditio. quod oportet esse inter formas eiusdem generis 
+      <lb ed="#V" n="31"/>quia contraria sunt in eodem genere.
+    </p>
+            <p xml:id="FrMS88-f09283-d1e168">
+      ¶ Similiter apparet 3a conditio. quod 
+      <lb ed="#V" n="32"/>non determinat sibi alterum.
+    </p>
+            <p xml:id="FrMS88-f09283-d1e174">
+      ¶ 4o requitur quod non sit illimitatum: 
+      <lb ed="#V" n="33"/>sicut essena distitia est illimitata ad tres proprietates. quia simul 
+      <lb ed="#V" n="34"/>in actu habet omnes. Nunc autem omnia vbi sunt specie differentia. vt alias 
+      <lb ed="#V" n="35"/>patebit. et sunt omnia eiusdem generis. Angelus autem non est 
+      ma<lb ed="#V" n="36" break="no"/>gis determinatus ad vnum vbi: quam ad aliud: nec est illimita 
+      <lb ed="#V" n="37"/>tus ad illa. quia non habet omnia vbi actu. ergo sequitur intentum: 
+      <lb ed="#V" n="38"/>quod scilicet possit moueri.
+    </p>
+            <p xml:id="FrMS88-f09283-d1e190">
+      ¶ Sed contra. motus includit 
+      suc<lb ed="#V" n="39" break="no"/>tessionem ex quadruplici causa scilicet ex debilitate agentis. ex 
+      contra<lb ed="#V" n="40" break="no"/>rietate patientis. ex diuisibilitate mobilis: et ex 
+      resi<lb ed="#V" n="41" break="no"/>tentia medii. sed nullum istorum est in angelo. non primum 
+      <lb ed="#V" n="42"/>scilicet debilitas vel defectus in agendo. quia angelus est 
+      vir<lb ed="#V" n="43" break="no"/>tuosior in mouendo se: quam sol in producendo radium: nec est 
+      <lb ed="#V" n="44"/>ibi contrarietas ex parte patientis. quia angelus nullam 
+      inclina<lb ed="#V" n="45" break="no"/>tionem naturalem habet ad aliquem locum: nec ex parte medii. 
+      <lb ed="#V" n="46"/>quia corpus non resistit spiritui: nec diuindit spiritus corpus: nec 
+      <lb ed="#V" n="47"/>est diuisibilitas mobilis. quia angelus est indiuisibilis. 
+      </p>
+            <p xml:id="FrMS88-f09283-d1e212">
+               <lb ed="#V" n="48"/>¶ Ad ista dico. quod ex nullo istorum potest argui successio. est 
+      <lb ed="#V" n="49"/>ergo hic ex distantia medii. dato enim quod nulla esset 
+      resi<lb ed="#V" n="50" break="no"/>stentia medii. tamen successio esset ratione distantie: sicut 
+      <lb ed="#V" n="51"/>quando inducitur forma: que non habet contrarium: sicut lux 
+      <lb ed="#V" n="52"/>in aere: non est ibi successio ex aliqua contrarietate: sed 
+      so<lb ed="#V" n="53" break="no"/>lum ex diuisibilitate termini ad quem. Similiter angelus 
+      <lb ed="#V" n="54"/>accipit totum illud spacium pro termino ad quem.
+    </p>
+            <p xml:id="FrMS88-f09283-d1e230">
+      ¶ Sed 
+      <lb ed="#V" n="55"/>hic est difficultas quid acquirit angelus per motum talem: Dico 
+      <lb ed="#V" n="56"/>quod nullam formam absolutam. quia nullam talem potest 
+      produ<lb ed="#V" n="57" break="no"/>cere. secundum Augu. Sed acquirit formam respectiuam 
+      pri<lb ed="#V" n="58" break="no"/>cipalitatis.
+    </p>
+            <p xml:id="FrMS88-f09283-d1e241">
+      ¶ Secunda difficultas cuius predituate est. Dicitur quod 
+      re<lb ed="#V" n="59" break="no"/>ducitur ad principium vbi. nec oportet quod omnia que sunt in 
+      predi<lb ed="#V" n="60" break="no"/>camento recipiant predicationem illius praedicamenti. sed 
+      <lb ed="#V" n="61"/>reductiue sunt in illo.
+    </p>
+            <p xml:id="FrMS88-f09283-d1e250">
+      ¶ 3a difficultas si posset moueri in 
+      va<lb ed="#V" n="62" break="no"/>cuo. Dicitur quod si corpus caderet in vacuo nulla esset 
+      <lb ed="#V" n="63"/>resistentia ex parte medii. sed tamen aliunde moueretur 
+      <lb ed="#V" n="64"/>uccessiue.
+    </p>
+            <p xml:id="FrMS88-f09283-d1e260">
+      ¶ 4a difficultas si posset moueri in nihilo si non est 
+      <lb ed="#V" n="65"/>et nisi angelus et deus. Philosophi dicunt quod non. sed 
+      theolo<lb ed="#V" n="66" break="no"/>gi habent dicere oppositum. vnde non video quin moueretur 
+      <lb ed="#V" n="67"/>si celum destrueretur. sicut modo.
+    </p>
+            <p xml:id="FrMS88-f09283-d1e269">
+      ¶ Quid autem tunc 
+      <lb ed="#V" n="68"/>acquireret:
+    </p>
+            <p xml:id="FrMS88-f09283-d1e274">
+      ¶ Dico quod alium et alium respectum princi 
+      <lb ed="#V" n="69"/>palitatis ad deum. ergo etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

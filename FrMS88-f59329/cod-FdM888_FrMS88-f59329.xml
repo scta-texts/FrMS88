@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="206-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f59329"><!-- l4d13q1 -->
+            <head xml:id="FrMS88-f59329-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f59329-d1e111">
+               <lb ed="#V" n="95"/>Solet etiam queri. 
+      <lb ed="#V" n="96"/>HIc incipit distinctio 3a
+    </p>
+            <p xml:id="FrMS88-f59329-d1e118">
+      ¶ Circa 
+      quan<lb ed="#V" n="97" break="no"/>queruntur quatuor. quia. 
+      </p>
+            <p xml:id="FrMS88-f59329-d1e123">
+               <lb ed="#V" n="98"/>¶ Prima vtrum ex istis accidentibus 
+      possi<lb ed="#V" n="99" break="no"/>aliquid generari naturaliter.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e130">
+      ¶ Et videtur quod sic. quia ali 
+      <lb ed="#V" n="100"/>quid potest ex eis naturaliter nutriri ex quae 
+      nutritio<lb ed="#V" n="101" break="no"/>ne est aggeneratio.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e138">
+      ¶ Contra. ex non substantis non fit substantia 
+      <lb ed="#V" n="102"/>4or modi dicendi.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e143">
+      ¶ Primus eorum qui dicunt 
+      <lb ed="#V" n="103"/>hic sunt quod quando sit dispositio sufficiens reuertut substantia 
+      pa<lb ed="#V" n="104" break="no"/>nis: et ex ista cetera generantur alia.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e150">
+      ¶ Secundus modus 
+      eo<lb ed="#V" n="105" break="no"/>rum qui dicunt quod impossibile est substantiam reuerti: quia tunc 
+      opor<lb ed="#V" n="106" break="no"/>teret quod corpus christi transubstantiaretur. siue conuerteretur in substantiam 
+      <lb ed="#V" n="107"/>panis: sed reuertitur materia aliqua que ibi creatur.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e159">
+      ¶ Tertius 
+      <lb ed="#V" n="108"/>modum est. quod hic remanent substantie interminate ex 
+      quibu<lb ed="#V" n="109" break="no"/>agens naturaliter inducit talia.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e166">
+      ¶ Quartus modus est rica 
+      <lb ed="#V" n="110"/>di. qui dicit quod purum possibile imprimitur accidentibus.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e171">
+      ¶ Con 
+      <lb ed="#V" n="111"/>tra primum modum arguitur: aut. enim substantia reuertitur in vltim 
+      <lb ed="#V" n="112"/>mo instanti alterationis: et hoc non. quia quando genertur aliud 
+      cor<lb ed="#V" n="113" break="no"/>pus impossibile est ibi substantiam esse in eodem instanti. et si prius 
+      <lb ed="#V" n="114"/>hoc est in tempore alterationis precedentis: non tamen in termic 
+      <lb ed="#V" n="115"/>alterationis: quia tunc est ibi ccrpus christi.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e185">
+      ¶ Contra 2m 
+      <lb ed="#V" n="116"/>arguitur. quia quandocumque aliquod agens naturaliter transmutat materiam 
+      <lb ed="#V" n="117"/>ad formam prius fuit sub priuatione: et ita ante illiud in 
+      <lb ed="#V" n="118"/>stans.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e194">
+      ¶ Confirmatur. quia quandocumque aliqua materia coexistit 
+      for<lb ed="#V" n="119" break="no"/>me et simul producitur agens naturale de vna non educit aliud 
+      </p>
+            <p xml:id="FrMS88-f59329-d1e199">
+               <lb ed="#V" n="120"/>¶ Et tertius modus. non potest stare: quia non esset verum 
+      <lb ed="#V" n="121"/>compositum ex tali quantitate.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e206">
+      ¶ Nec quartus modus 
+      va<lb ed="#V" n="122" break="no"/>let. quia materia est terminus: non nisi creationis. et ideo de 
+      ta<lb ed="#V" n="123" break="no"/>li possibili non potest produci mtam et forma per naturam. Ideo in 
+      <lb ed="#V" n="124"/>ducuntur hic quatuor conclusiones.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e215">
+      ¶ Prima est quod de istis acci 
+      <lb ed="#V" n="125"/>dentibus per agens naturale non potest aliquid generari 
+      <lb ed="#V" n="126"/>quia quandocumque per agens naturale aliquid generatur eius 
+      <lb ed="#V" n="127"/>pars est materia: sed accidentia non possunt esse pars 
+      <lb ed="#V" n="128"/>illius quod corrumpitur: nec materia potest ibi 
+      produ<lb ed="#V" n="129" break="no"/>ci per agens naturale. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e228">
+      ¶ Secunda conclusio quod 
+      pos<lb ed="#V" n="130" break="no"/>ista accidentia bene ibi aliquid generatur. sicut patet 
+      <lb ed="#V" n="131"/>in nutritus: quia nutriunt. et ideo sequitur ibi generatio: et simul 
+      <!--416.xml-->
+      <pb ed="#V" n="207-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>resoluuntur in cineres.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e245">
+      ¶ 3a conclusio quod ista productio potest esse generatio 
+      <lb ed="#V" n="2"/>et ideo non oportet quod deus ibi creet materiam: et in instanti vltimo creas 
+      <lb ed="#V" n="3"/>vltimate dispositam materiam: et in tali instanti agens naturale potest 
+      edu<lb ed="#V" n="4" break="no"/>cere formam: nec est dubium quin in tali instanti deus possit materiam 
+      <lb ed="#V" n="5"/>sic disponere.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e256">
+      ¶ 4a conclusio quod talis forma potest etiam produci per 
+      creatio<lb ed="#V" n="6" break="no"/>nem: quia deus potest immediate disponere et imprimere.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e261">
+      ¶ Sed 
+      in<lb ed="#V" n="7" break="no"/>statur contra istas conclusiones. et primo contra primam conclusiones. quia experientia docet 
+      op<lb ed="#V" n="8" break="no"/>quia mutaos non generatur nisi ex nutrites. ergo ex habet ibi est hus generatio. 
+      </p>
+            <p xml:id="FrMS88-f59329-d1e268">
+               <lb ed="#V" n="9"/>¶ contra 2am. quia ibi est istans post instans. et per consequens tmpus 
+      mediu<lb ed="#V" n="10" break="no"/>in qua nec corpus christi: nec aliqua substantia est ibi.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e275">
+      ¶ contra 3mam. quia ibi non 
+      <lb ed="#V" n="11"/>est transmuus naturalis de priuatione ad formam.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e280">
+      ¶ contra 4. quia tunc 
+      <lb ed="#V" n="12"/>essent accidentia annihilata: quod repugt agenti naturali.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e286">
+      ¶ Respondeo. ad 
+      <lb ed="#V" n="13"/>primum. aliquid fit ex aliquo materialiter aliquid fit ex aliquo non materialiter 
+      <lb ed="#V" n="14"/>sed quaedam ordine: vt prius hoc priuo non potest fieri de istis accidentibus 
+      <lb ed="#V" n="15"/>sed 2o modo potest: vt post desinitionem eorum creata mteam 
+      introdu<lb ed="#V" n="16" break="no"/>catur forma talis.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e297">
+      ¶ Ad 2m dico quod postcessationem non est: sed in 
+      <lb ed="#V" n="17"/>eodem instanti fit introductio formo post cessationem accidentium 
+      </p>
+            <p xml:id="FrMS88-f59329-d1e302">
+               <lb ed="#V" n="18"/>¶ Ad 3m. dico quod generatio in creatis bene est concomitatiate muta 
+      <lb ed="#V" n="19"/>tio: sed si detur materia summe disposita. ignis igniret sine muta 
+      <lb ed="#V" n="20"/>tione.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e311">
+      ¶ Ad 4m. dico quod destructio illorum accidentium esset 
+      <lb ed="#V" n="21"/>annihilatio. si elementa corrumporentur. quod non potest fieri per agens 
+      <lb ed="#V" n="22"/>naturale.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e318">
+      ¶ Sed oc. difficultas quia videtur miraculum sempiternum: quia oportet quod 
+      <lb ed="#V" n="23"/>deus semper creet materiam.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e323">
+      ¶ Dico quod nin potest aliter saluari nisi 
+      po<lb ed="#V" n="24" break="no"/>nendo talia miraclsa: nec multum laborat deus faciendo ea¬ 
+      </p>
+            <p xml:id="FrMS88-f59329-d1e329">
+               <lb ed="#V" n="25"/>¶ Sed oc. difficultas si materia eadem numero potest redire qua fuit sub 
+      for<lb ed="#V" n="26" break="no"/>panis vel alia.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e336">
+      ¶ Quidam dicunt quod eadem non potest reuerti: 
+      <lb ed="#V" n="27"/>quia exquo aliquid deus creauit non potest illud iterum creare nisi sit 
+      <lb ed="#V" n="28"/>adnihilatu: sed non fuit ita adnihilatum in transubstantiatione 
+      pa<lb ed="#V" n="29" break="no"/>nis.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e345">
+      ¶ Sed hoc non videtur possibile. quia non actualiter exit. nec est ens 
+      <lb ed="#V" n="30"/>prohibitum. et tale potest creari.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e350">
+      ¶ Item potest creare formamlcor 
+      <lb ed="#V" n="31"/>ruptam quae non actualiter existit nec est adnihilata. vnde sufficit 
+      <lb ed="#V" n="32"/>non actualiter existere.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e357">
+      ¶ 3a difficultas si corpus christi manet diu sub 
+      <lb ed="#V" n="33"/>istis speciebus.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e362">
+      ¶ Dicitur quod quandiu remanent species panis vt 
+      distin<lb ed="#V" n="34" break="no"/>guatur ab aliis.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e368">
+      ¶ Sed 4a difficultas. si vermis species panis 
+      come<lb ed="#V" n="35" break="no"/>dat: vel sortilegiis applicetur numquid corpus christi 
+      recedita<lb ed="#V" n="36" break="no"/>speciebus:
+    </p>
+            <p xml:id="FrMS88-f59329-d1e375">
+      ¶ Dicit vnus doctor quod non materiaet quia non applicat 
+      <lb ed="#V" n="37"/>vsui ad quem est sacramentum ordinatum.
+    </p>
+            <p xml:id="FrMS88-f59329-d1e380">
+      ¶ Sed contrarium mihi videtur et dicitur quod 
+      <lb ed="#V" n="38"/>quandiu manent ibi species: tandiu manct ibi corpus christi.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="57-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e41430"><!-- l1q10q3 -->
+            <head xml:id="FrMS88-e41430-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-e41430-d1e111">
+      Quaestio. iii 
+      <lb ed="#V" n="92"/>UTrum diuina essentia spiret vel spi 
+      <lb ed="#V" n="93" break="no"/>retur 
+      <lb ed="#V" n="94"/>Dico sine argumentis quod non. et tamen 
+      <lb ed="#V" n="95"/>non propter hoc 
+      concedi<lb ed="#V" n="96" break="no"/>quod distinguatur a se: quia conceditur quod deus 
+      spi<lb ed="#V" n="97" break="no"/>rat et spiratur. et tamen non conceditur quod deus distinguatur a deo 
+      </p>
+            <p xml:id="FrMS88-e41430-d1e127">
+               <lb ed="#V" n="98"/>¶ Dico quod istius veritatis sunt due rationes. vna logica et 
+      <lb ed="#V" n="99"/>sermocinalis. alia realis.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e134">
+      ¶ Prima est ista. Quandocumque 
+      <lb ed="#V" n="100"/>aliquis terminus est vltimate praecisus non potest recipere de 
+      <lb ed="#V" n="101"/>nominationem alicuius extranei a sua ratione quiditatiua: sed 
+      di<lb ed="#V" n="102" break="no"/>uina essentia est terminus vltimate praecisus: sicut equinitas: 
+      <lb ed="#V" n="103"/>et ideo sicut equinitas: vt sic: non generat nec generatur. sic 
+      <lb ed="#V" n="104"/>nec essenus divina generat nec generatur quia non includitur in 
+      ra<lb ed="#V" n="105" break="no"/>tione sua. Maior declaratur 2.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e150">
+      ¶ Primo. quia quando aliquid  
+      <lb ed="#V" n="106"/>est summe precisum ipsum est solum. si enim aliquid ipsum 
+      <lb ed="#V" n="107"/>denominaret: iam non esset ab illo praecisum.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e158">
+      ¶ 2o quia 
+      quan<lb ed="#V" n="108" break="no"/>to magis terminus praescinditur tanto pauciora de ipso dicum 
+      <lb ed="#V" n="109"/>tur: et ideo quando vltimate est precisus. paucissima de ips 
+      <lb ed="#V" n="110"/>so dicuntur. et illa praecise sunt rationi sue intranea. 
+      Minor<lb ed="#V" n="111" break="no"/>partet. quodscilicet essentia est vltimate abstracta: quia ipsa: vt sic est 
+      <lb ed="#V" n="112"/>primo diuersa a quocumque alio.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e171">
+      ¶ Contra istam rationem instatur 
+      <lb ed="#V" n="113"/>4r. Primo sic. nam magis videtur essentia divina precisa a 
+      <lb ed="#V" n="114"/>generatione et spiratione quam a generare et spirare: quia substantia 
+      <lb ed="#V" n="115"/>magis distat a qualitate quam a quali. Ista autem conceditur. Essen 
+      <lb ed="#V" n="116"/>divina est spiratio. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e182">
+      ¶ 2o sic. Abstractione et praecisione 
+      <lb ed="#V" n="117"/>facta a quiditate essentie vel sapientie: adhuc ista est vera 
+      <lb ed="#V" n="118"/>quiditas sapientie distinguitur a iustitia vel ab essentia. 
+      er<lb ed="#V" n="119" break="no"/>go eodem modo in proposito.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e191">
+      ¶ 3o sic. nam essentia non vi 
+      <lb ed="#V" n="120"/>detur vltimate praecila. Ista enim conceditur. essentia est pater 
+      <lb ed="#V" n="121"/>nitas. et tamen ista non conceditur. Ratio formalis essentie est 
+      ra<lb ed="#V" n="122" break="no"/>tio formalis paternitatis. ergo formalis ratio est magis 
+      <lb ed="#V" n="123"/>precisa.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e202">
+      ¶ 4o sic. divina essentia principiat et terminat 
+      di<lb ed="#V" n="124" break="no"/>uinam productionem. diuina essentia comunicatur et datur. Ista 
+      <lb ed="#V" n="125"/>omnia videntur ita extranea a ratione sua quiditatiua: sic ge 
+      <lb ed="#V" n="126"/>nerare et spirare. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e211">
+      ¶ Ad ista. Ad primum dico. quod l 
+      <lb ed="#V" n="127"/>cet essentia sit magis precisa a generatione quam a genera 
+      <lb ed="#V" n="128"/>re vel generante: quia tamen in abstracto conceditur identica 
+      praedica<lb ed="#V" n="129" break="no"/>tio: ideo ista concediter identice. essemus divina est generatio vel 
+      pa<lb ed="#V" n="130" break="no"/>ternitas: sed formalis vel denominatiua habet solum fieri in 
+      <lb ed="#V" n="131"/>concreto: ideo conceditur illa. et ista negatur. nam istud 
+      praedica<lb ed="#V" n="132" break="no"/>tum generare non est aptum natum praedicari nisi formaliter. 
+      <!--117.xml-->
+      <pb ed="#V" n="57-v"/>
+               <cb ed="#V" n="a"/>
+            </p>
+            <p xml:id="FrMS88-e41430-d1e234">
+               <lb ed="#V" n="1"/>¶ Ad 2m dico quod distinctio essenie vel cuiuscunque 
+      vltima<lb ed="#V" n="2" break="no"/>te praecisi non est aliquid extra rationem formalem nisi respectus 
+      sundamen<lb ed="#V" n="3" break="no"/>talis: qui nihil ponit vltra fundatum. Vel potest dici quod talis 
+      <lb ed="#V" n="4"/>distinctio est per se propria passio demonstrabilis de essenus 
+      <lb ed="#V" n="5"/>per rationem formalem eius in abstracto.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e247">
+      ¶ Ad 3m dico quod 
+      <lb ed="#V" n="6"/>essentis est vltimate praecisa: et etiam vltimate abstracta intellectum 
+      <lb ed="#V" n="7"/>do de abstratione que fit per nomnina primus intentionis. ratio autem 
+      <lb ed="#V" n="8"/>formalis fit per nomina secunde intentionis: ideo non est 
+      <lb ed="#V" n="9"/>simile.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e258">
+      ¶ Ad 4m dico quod in illis respectibus non vide 
+      <lb ed="#V" n="10"/>tur verificari regula: qui non requrunt distinctum quod et 
+      <lb ed="#V" n="11"/>quo: sicut comunicatio et terminatio. priuatio et datio: sed 
+      pro<lb ed="#V" n="12" break="no"/>ductio. generatio. spiratio. distincta quo et quod requirunt. 
+      </p>
+            <p xml:id="FrMS88-e41430-d1e267">
+               <lb ed="#V" n="13"/>¶ Ratio autem realis huius veritatis est ista: quod princi 
+      <lb ed="#V" n="14"/>pio quo repugnat esse quod: sed essemus divina est principium quo 
+      <lb ed="#V" n="15"/>respectu spirationis actiue et passiue. ergo impsa non potest 
+      <lb ed="#V" n="16"/>esse quod.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e278">
+      ¶ Sed contra istam regulam instatur 4r. Primo. quia essems 
+      di<lb ed="#V" n="17" break="no"/>uina est principium quo in beatificatione anime: et tamen est vel potest esse 
+      <lb ed="#V" n="18"/>obiectum quod beatificat.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e285">
+      ¶ 2o quia divina voluntas est principium quo in 
+      <lb ed="#V" n="19"/>creatione angeli. et tamen de ipsa conceditur quod creat.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e291">
+      ¶ 3o quia 
+      <lb ed="#V" n="20"/>principium quo est divina essemus in constitutione persone. et 
+      tamen<lb ed="#V" n="21" break="no"/>psa est que constituit personam.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e298">
+      ¶ 4o quia prius quo. quo 
+      distin<lb ed="#V" n="22" break="no"/>guitur persona est ratio divina: et tamen de ipsa conceditur quod 
+      distin<lb ed="#V" n="23" break="no"/>guit et distinguitur.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e305">
+      ¶ Ad primum dico quod actiones immanentes 
+      <lb ed="#V" n="24"/>non requirunt distinctionem in quo et quod: sicut origines 
+      <lb ed="#V" n="25"/>que sunt quasi transeuntes.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e312">
+      ¶ Ad 2m dico quod voluntas non 
+      <lb ed="#V" n="26"/>est vltimate praecisa: sed ratio formalis voluntatis quae non creat. 
+      </p>
+            <p xml:id="FrMS88-e41430-d1e317">
+               <lb ed="#V" n="27"/>¶ Ad 3m dico quod in constitutione: generaliter loquendo: quo et 
+      <lb ed="#V" n="28"/>quod coincidunt.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e324">
+      ¶ Ad 4m dico quod oportet ibi tantum procedere 
+      <lb ed="#V" n="29"/>perscindendo quod deueniatur ad rationem formalem distinctionis 
+      <lb ed="#V" n="30"/>que non est distincta. Sed hic est vna difficultas quare 
+      concedit<lb ed="#V" n="31" break="no"/>plus in creaturis quod natuam sit quod quam in divinis. Dicitur quod 
+      nulla<lb ed="#V" n="32" break="no"/>ntura est quod in creaturis.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e336">
+      ¶ Contra: quia anima separata 
+      intelli<lb ed="#V" n="33" break="no"/>git vere accidentia in altari: ideo sunt vere quod.
+    </p>
+            <p xml:id="FrMS88-e41430-d1e341">
+      ¶ Dico quod hoc 
+      <lb ed="#V" n="34"/>est ideo: quia nulla natam creata est principium quo respectu sue 
+      ope<lb ed="#V" n="35" break="no"/>rationis vel productionis: sed semper concurrit voluntas 
+      divina<lb ed="#V" n="36" break="no"/>in omni productione vel virtus eius tanquam principium primarium 
+      quo<lb ed="#V" n="37" break="no"/>et ideo sibi potest competere esse quod. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

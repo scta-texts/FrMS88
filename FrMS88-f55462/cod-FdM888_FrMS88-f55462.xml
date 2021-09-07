@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 20</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 20</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f55462"><!-- l4d11q20 -->
+            <head xml:id="FrMS88-f55462-Hd1e108">Quaestio 20</head>
+            <p xml:id="FrMS88-f55462-d1e111">
+               <lb ed="#V" n="20"/>QUeritur vtrum panis anihilaretur. 
+    </p>
+            <p xml:id="FrMS88-f55462-d1e116">
+               <lb ed="#V" n="21"/>¶ Et videtur quod sic: quia nihil de 
+      <lb ed="#V" n="22"/>qul substantia panis remanet ibi.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e123">
+      ¶ contra. quia conutitur in aliud. 
+    </p>
+            <p xml:id="FrMS88-f55462-d1e126">
+               <lb ed="#V" n="23"/>hic dicunt aliqui quod anihilatur: 
+      <lb ed="#V" n="24"/> quia nihil eius 
+      rema<lb ed="#V" n="25" break="no"/>net.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e136">
+      ¶ Contra hoc est Ambrosius libro de sacramentis et 
+      san<lb ed="#V" n="26" break="no"/>cti doctores.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e141">
+      ¶ Difficultas itaque est in saluando per quem 
+      <lb ed="#V" n="27"/>modum adnihilatur.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e146">
+      ¶ Sed hoc saluatur per aliquos: quia 
+      il<lb ed="#V" n="28" break="no"/>lud quod est corpus christi fuit substantia panis.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e151">
+      ¶ Sed hoc fuit 
+      im<lb ed="#V" n="29" break="no"/>probatum superius. quia proposition de praeterito non est vera nisi 
+      <lb ed="#V" n="30"/>fuerit aliquando vera de praesenti etc.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e158">
+      ¶ Alii dicunt quod remanet in 
+      <lb ed="#V" n="31"/>potentia quia matam in corpore christi est eiusdem rationis cum materia que fuit 
+      <lb ed="#V" n="32"/>in pane.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e165">
+      ¶ Contra. quia per istum modum deum non posset anihi 
+      <lb ed="#V" n="33"/>lare paneme nec aliquid nisi omnia entia et omnem essentiam 
+      destrue<lb ed="#V" n="34" break="no"/>ret.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e173">
+      ¶ Aliqui dicunt quod saluatur in equalenti.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e176">
+      ¶ Contra. quia 
+      <lb ed="#V" n="35"/>si faceret tot angelos quot sunt inferiora essent equales vel 
+      <lb ed="#V" n="36"/>equiualens. et sic nunquam esset adnihilatio.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e183">
+      ¶ Oportet igitur 
+      <lb ed="#V" n="37"/>hic dicere duo.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e188">
+      ¶ Primum. quod panis totaliter desinit esse. 
+      <lb ed="#V" n="38"/>Et hoc patet: quia nihil eius remanet.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e193">
+      ¶ Secundum quod non 
+      adni<lb ed="#V" n="39" break="no"/>dilatur: quia conuertitur.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e198">
+      ¶ Sed quomodo hoc est:
+    </p>
+            <p xml:id="FrMS88-f55462-d1e202">
+      ¶ Sciendum 
+      <lb ed="#V" n="40"/>quod deus potest desinere facere ens dupliciter. aut secundum se: aut in 
+      <lb ed="#V" n="41"/>ordine ad aliud.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e209">
+      ¶ Primo mo est panis adnihilatio. 
+      <lb ed="#V" n="42"/>Sed quando non in se: sed in ordine ad aliud. tunc ex tali 
+      ordi<lb ed="#V" n="43" break="no"/>ne saluatur quod non sit adnihilatio: verbi. ergo. Deus facit quod non 
+      <lb ed="#V" n="44"/>destruit vnum hominem quin creet vnum angelum. tunc dico quod 
+      <lb ed="#V" n="45"/>ex hoc quod intendit aliquid positiuum potest dici quod non adnihi 
+      <lb ed="#V" n="46"/>latur: ergo non facit desinitionem panis secundum se: sed in ordine 
+      <lb ed="#V" n="47"/>ad aliud. valet ad corpus christi sacramentiale.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e225">
+      ¶ Sed hic est dubium. 
+      <lb ed="#V" n="48"/>quia videtur quod hic sit adnihilatio. probatio. quandocumque aliquid 
+      de<lb ed="#V" n="49" break="no"/>ducitur ad terminum adnihilationis ipsum adnihilatur 
+      <lb ed="#V" n="50"/>sicut videtur de creatione. quando aliquid deducitur ad terminum 
+      <lb ed="#V" n="51"/>creationis ipsum creatur. sed per istam conuersionem panis 
+      dedu<lb ed="#V" n="52" break="no"/>citur ad purum nihil: nec est aliquid in se: nec aliquid in corpora 
+      <lb ed="#V" n="53"/>christi. quid est enim anihilau: nis aliquid fieri nihil.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e241">
+      ¶ 2o sic. 
+      <lb ed="#V" n="54"/>anihilaus et corrupus distinguitur: quia in corrupion aliquid 
+      rema<lb ed="#V" n="55" break="no"/>net. in anihilatur autem nihil: sed sic est hoc. quia nihil remanet. 
+      <lb ed="#V" n="56"/>ergo est vera anihilatio.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e250">
+      ¶ 3o. quia accidit desinitioni panis 
+      <lb ed="#V" n="57"/>quod corpus christi accipiat 4o esse. sed per hoc quod est per accii 
+      <lb ed="#V" n="58"/>dens non variatur aliquid quod est per se.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e257">
+      ¶ 4o sic. 
+      adnihila<lb ed="#V" n="59" break="no"/>tum et non adnihilatum sunt extrema contradictionis. sed de 
+      <lb ed="#V" n="60"/>pane non potest propter substantiam corporis christi: quod non 
+      <lb ed="#V" n="61"/>est anihilatum. ergo ex parte panis oportet poni aliquid per quod 
+      <lb ed="#V" n="62"/>saluetur et hoc non potest dari: quia nihil est: et per consequens per 
+      ni<lb ed="#V" n="63" break="no"/>hil non potest saluari.
+    </p>
+            <p xml:id="FrMS88-f55462-d1e271">
+      ¶ Ad primum dico quod verum est si fit 
+      de<lb ed="#V" n="64" break="no"/>ductum ad nihil quod non est in ordine ad aliud. Et per 
+      <lb ed="#V" n="65"/>idem ad alia argumenta potest responderi. quia igitur de 
+      <lb ed="#V" n="66"/>ordinauit desinitionem istius panis esse ad alium termi¬ 
+      <!--407.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>num non apparet alius modus melior per quem salue 
+      <lb ed="#V" n="68"/>tur quod non sit anihilatio. Qui potest capere capiat. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f40342"><!-- l3d37-40q13 -->
+            <head xml:id="FrMS88-f40342-Hd1e108">Quaestio 13</head>
+            <p xml:id="FrMS88-f40342-d1e111">
+               <lb ed="#V" n="71"/>¶ Questio. xiii. 
+      <lb ed="#V" n="72"/>TErtiodecimo et vltimo 
+      que<lb ed="#V" n="73" break="no"/>ro. Utrum lex
+      <lb ed="#V" n="74"/>noui testamenti contineat aliquam 
+      ope<lb ed="#V" n="75" break="no"/>rationem que terminetur ad diuinam 
+      <lb ed="#V" n="76"/>essentiam: ita quod non ad personam.
+    </p>
+            <p xml:id="FrMS88-f40342-d1e127">
+               <lb ed="#V" n="77"/>hic notandum quod ex distinctione quidita 
+      <lb ed="#V" n="78" break="no"/>tiua aliquorum arguitur 
+      <lb ed="#V" n="79"/>ordo essentialis necessario inter illa: quia quecunque sunt 
+      <lb ed="#V" n="80"/>distincta quiditatiue sunt ordinata vel confusa.
+    </p>
+            <p xml:id="FrMS88-f40342-d1e138">
+      ¶ Item 
+      <lb ed="#V" n="81"/>notandum. quod ordo inter primarium et secundarium 
+      <lb ed="#V" n="82"/>obiectum non sufficit ad hoc quod possit videri obiectum 
+      <lb ed="#V" n="83"/>primarium sine obiecto secundario.
+    </p>
+            <p xml:id="FrMS88-f40342-d1e147">
+      ¶ Sed requiritu 
+      <lb ed="#V" n="84"/>libertas voluntatis diuine libere et contingenter agens 
+      <lb ed="#V" n="85"/>ad manifestationem primarii obiecti et non influens 
+      <lb ed="#V" n="86"/>eadem libertate ad manifestationem secundarii.
+    </p>
+            <p xml:id="FrMS88-f40342-d1e157">
+      ¶ Iter 
+      <lb ed="#V" n="87"/>notandum quod vbicunque est ratio formalis alicuius ib 
+      <lb ed="#V" n="88"/>est ratio eius diffinitiua. et econuerso.
+    </p>
+            <p xml:id="FrMS88-f40342-d1e164">
+      ¶ Sed vbi est 
+      <lb ed="#V" n="89"/>ratio diffinitiua ibi est etiam et diffinitum: et hoc 
+      demon<lb ed="#V" n="90" break="no"/>stratiue sequitur: quia medium demonstrationis est 
+      <lb ed="#V" n="91"/>diffinitio.
+    </p>
+            <p xml:id="FrMS88-f40342-d1e173">
+      ¶ Iccirco vltima resolutio stat ad ratione 
+      <lb ed="#V" n="92"/>formalem que non potest probari per aliquid prius 
+      <lb ed="#V" n="93"/>nec notium.
+    </p>
+            <p xml:id="FrMS88-f40342-d1e180">
+      ¶ Item notandum quod quandocunque sic 
+      di<lb ed="#V" n="94" break="no"/>citur: in quocunque supposito est quo alicuius 
+      opera<lb ed="#V" n="95" break="no"/>tionis ipsum est quod habet tantum veritatem in actionibus 
+      <lb ed="#V" n="96"/>transeuntibus: non autem in immanentibus: quia tunc 
+      <lb ed="#V" n="97"/>de necessitate visa essentia diuina viderentur personem 
+      <lb ed="#V" n="98"/>et etiam visa vna persona videretur et alia.
+    </p>
+            <p xml:id="FrMS88-f40342-d1e193">
+      ¶ 
+      Confir<lb ed="#V" n="99" break="no"/>matur. quia ex puris naturalibus angeli intuitiue vi 
+      <lb ed="#V" n="100"/>dent humanam naturam christi: sed ipsa suppositatur 
+      <lb ed="#V" n="101"/>in supposito verbi. ergo ex puris naturalibus augeli 
+      <lb ed="#V" n="102"/>possunt cognoscere suppositum verbi: quod est 
+      fal<lb ed="#V" n="103" break="no"/>sum.
+    </p>
+            <p xml:id="FrMS88-f40342-d1e206">
+      ¶ Sed contra. quia per te videns aliquid 
+      intui<lb ed="#V" n="104" break="no"/>tiue videt etiam illa que illi rei per accidens compe 
+      <lb ed="#V" n="105"/>tunt: sicut videns solem videt vbi sol est: sed nature 
+      con<lb ed="#V" n="106" break="no"/>petit per accidens suppositum. igitur cognita natura 
+      <lb ed="#V" n="107"/>intuitiue cognoscitur suppositum.
+    </p>
+            <p xml:id="FrMS88-f40342-d1e218">
+      ¶ Dicendum quod 
+      ve<lb ed="#V" n="108" break="no"/>rum est de possibili et de facto: non tamen de 
+      necessa<lb ed="#V" n="109" break="no"/>rio: vnde si deus non suspenderet visionem suppositi a 
+      <lb ed="#V" n="110"/>visione nature visa natura videretur suppositum 
+      pre<lb ed="#V" n="111" break="no"/>prium na:ure: quod non potest hic propter naturam 
+      <lb ed="#V" n="112"/>humanam christi que suppositatur in supposito 
+      alie<lb ed="#V" n="113" break="no"/>no et supernaturaliter ei inititur. Ideo angelus videns 
+      <lb ed="#V" n="114"/>ex puris naturalibus intuitiue naturam christi: non 
+      <lb ed="#V" n="115"/>videt intuitiue verbum. 
+      </p>
+            <p xml:id="FrMS88-f40342-d1e238">
+               <lb ed="#V" n="116"/>¶ Illuminati docto. fratris francisci Mayronis 
+      ordi<lb ed="#V" n="117" break="no"/>nis minorum. prouincie sancti Ludouici scriptum 
+      pre<lb ed="#V" n="118" break="no"/>clarissimum super tertium sententiarum. Correctum 
+      <lb ed="#V" n="119"/>atque decoratum summa cura atque solertia sacre 
+      theo<lb ed="#V" n="120" break="no"/>logie doco. eximini patris fratris Mauritim de 
+      hyber<lb ed="#V" n="121" break="no"/>nia eiusdem religionis: dum actu theologiam publi 
+      <lb ed="#V" n="122"/>ce in alma vniuersitate Patauina legebat: fine felici 
+      <lb ed="#V" n="123"/>terminatur etc.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="205-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f58002"><!-- l4d12q10 -->
+            <head xml:id="FrMS88-f58002-Hd1e108">Quaestio 10</head>
+            <p xml:id="FrMS88-f58002-d1e111">
+               <lb ed="#V" n="121"/>TErtio queritur vtrum quantitas 
+      di<lb ed="#V" n="122" break="no"/> cat formam absolutam.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e118">
+      ¶ Ui<lb ed="#V" n="123" break="no"/>detur quod sic. quia distinguitur contra 
+      re<lb ed="#V" n="124" break="no"/>lationem: et tamen dicunt respectum et ita 
+      vi<lb ed="#V" n="125" break="no"/>detur quod non sit inconueniens in proposito.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e127">
+               <lb ed="#V" n="126"/>Hic primo negociandum est circa genus 
+      quanti<lb ed="#V" n="127" break="no"/> tatis in communi.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e134">
+      ¶ Et pono vnam 
+      regu<lb ed="#V" n="128" break="no"/>lam. Quandocumque genus diuinditur per differentias 
+      re<lb ed="#V" n="129" break="no"/>spectiuas ipsum est respectiuum: nec potest esse 
+      abso<lb ed="#V" n="130" break="no"/>utum: quia species per illas differentias constituitur. et per consequens 
+      <lb ed="#V" n="131"/>sunt respectiue. et sic non sunt in genere absoluto. Et 
+      confir<lb ed="#V" n="132" break="no"/>matur. Impossibile est enim quod eadem quantitas sit ad se: et ad 
+      <!--413.xml-->
+      <pb ed="#V" n="205-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>aliud: quia talia diuidunt immediate ens: sed si genus est 
+      ab<lb ed="#V" n="2" break="no"/>solutum et differentia respectiua idem esset ad se: et ad aliud quae 
+      diui<lb ed="#V" n="3" break="no"/>dunt immediate ens: sed quantitas diditur immediate per differentiam 
+      re<lb ed="#V" n="4" break="no"/>spectiuas scilicet per continuum et discretum: vt patet per Aristoteles. i praescentis: 
+      <lb ed="#V" n="5"/>et etiam Aug.n diuidit sic. Si autem hoc negetur negabitur de quolibet. 
+      <lb ed="#V" n="6"/>seu quocumque.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e168">
+      ¶ Sed quod iste differentiae sint respectiue. probatur 
+      <lb ed="#V" n="7"/>quadrupliciter.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e173">
+      ¶ Primo sic illud est ad aliud in cuius ratione 
+      <lb ed="#V" n="8"/>non poniuntur nisi respectiue causarum: sed in diffinitione 
+      con<lb ed="#V" n="9" break="no"/>tinui non ponuntur nisi respectiue rationes: quia continua sunt 
+      <lb ed="#V" n="10"/>illa quorum extrema sunt vnum.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e182">
+      ¶ Secundo sic quandocumque 
+      ali<lb ed="#V" n="11" break="no"/>qua duo condiuidunt vnum genus si vnum est respectiuum 
+      <lb ed="#V" n="12"/>et aliud: sed continuum et contiguum diuindunt subiectum hoc: quod est 
+      <lb ed="#V" n="13"/>esse coniunctum: sed continuum est respectiuum: ergo et 
+      con<lb ed="#V" n="14" break="no"/>tiguum est respectiuum.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e193">
+      ¶ Tertio sic omne contiguum alicu 
+      <lb ed="#V" n="15"/>est contiguum: et ita continuum alicui est continuum. et per consequens 
+      <lb ed="#V" n="16"/>respectiuum.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e200">
+      ¶ Quarto sic omne discretum ab alio est 
+      di<lb ed="#V" n="17" break="no"/>scretum. et per consequens discretio est ratio respectiua.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e205">
+      ¶ hic 
+      <lb ed="#V" n="18"/>dicitur quod ista diuisio est per differentias accidentales.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e211">
+      ¶ Sed hoc 
+      pre<lb ed="#V" n="19" break="no"/>terire est. quia idem diceretur de omni diuisione.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e216">
+      ¶ Tunc a 
+      <lb ed="#V" n="20"/>guo sic. illud est essentialis differentia: quo sublato amouetur 
+      <lb ed="#V" n="21"/>ratio specifica speciei alicuius generis. sed bicubitum et 
+      <lb ed="#V" n="22"/>tricubitum sunt species diuerse: si auferatur tamen continui 
+      <lb ed="#V" n="23"/>tas auferetur alia species. et illa que sub illa continuitate 
+      <lb ed="#V" n="24"/>continetur. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e229">
+      ¶ Item continuitas et discretio 
+      mu<lb ed="#V" n="25" break="no"/>tant speciem diuisiuam. si enim diuidatur quaternarius non 
+      <lb ed="#V" n="26"/>acquritur nisi discretio et est alia species.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e236">
+      ¶ Item 
+      continui<lb ed="#V" n="27" break="no"/>tas est forma respectiua. non est autem intrinsecus 
+      adue<lb ed="#V" n="28" break="no"/>niens: quia ponuntur extrena sine continuitate nec etiam in 
+      <lb ed="#V" n="29"/>aliquo alio predicamento nisi in genere quantitatis: ergo 
+      <lb ed="#V" n="30"/>videtur quod genus quantitatis sit respectiuum. 
+      <lb ed="#V" n="31"/>negociandum est circa eius species.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e249">
+      ¶ Ubi 
+      <lb ed="#V" n="32"/>Secundo sciendum est quod quadam est quantitas 
+      per<lb ed="#V" n="33" break="no"/>manens: quaedam successiua. Eodem modo de discreta 
+      <lb ed="#V" n="34"/>quantitate et continua. de quantitate continua permanente probo 
+      <lb ed="#V" n="35"/>quod sit respectiua. quia differentia constitutiua eius est respectiua. 
+      <lb ed="#V" n="36"/>dicit enim scotus quod ordo partium in toto est de genere quantitatis. 
+      <lb ed="#V" n="37"/>et est differentia quantitatis continue. siue sit diuisiua siue 
+      constitu<lb ed="#V" n="38" break="no"/>tiua. habetur intentum: quia ratio formalis ordinis est 
+      re<lb ed="#V" n="39" break="no"/>spectiua.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e269">
+      ¶ Et si dicas quod est differentia accidentalis. tunc 
+      sequi<lb ed="#V" n="40" break="no"/>tur quod non est in isto praesento: sed in alio. Et confirmatur. quia 
+      <lb ed="#V" n="41"/>nullus potest concipere quantitatem continnuam. quin 
+      conci<lb ed="#V" n="42" break="no"/>piat partem post partem sed hoc concipere. est concipere 
+      <lb ed="#V" n="43"/>aliquid ad aliud. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e281">
+      ¶ Item non potest intelligi 
+      si<lb ed="#V" n="44" break="no"/>ne extensione. sed extensio: cum sit tensio extra et 
+      alicu<lb ed="#V" n="45" break="no"/>lus extensio est ratio respectiua. ergo non aliud videtur 
+      <lb ed="#V" n="46"/>continuitas nisi ordo partium talis.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e290">
+      ¶ Confirmatur totum 
+      </p>
+            <p xml:id="FrMS88-f58002-d1e293">
+               <lb ed="#V" n="47"/>¶ Sed instatur contra hoc. quia Aug. contra manicheos probatur 
+      <lb ed="#V" n="48"/>quod nulla forma absoluta potest produci ab angelo: sed 
+      an<lb ed="#V" n="49" break="no"/>gelus potest producere speciem de genere quantitatis: quia mouen 
+      <lb ed="#V" n="50"/>do corpus causat nouam superficiem.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e304">
+      ¶ Item 
+      diuiden<lb ed="#V" n="51" break="no"/>do causat eam.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e309">
+      ¶ Tertio sic. forme artificiales non sunt 
+      <lb ed="#V" n="52"/>absolute nec artifex causat formas absolutas: sed arti 
+      <lb ed="#V" n="53"/>ex causat multas superficies.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e316">
+      ¶ Item rumpens filum 
+      <lb ed="#V" n="54"/>rumpit speciem quantitatis continue.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e322">
+      ¶ Quarto. quia nullum 
+      <lb ed="#V" n="55"/>agens naturale causat vel potest causare siue producere 
+      for<lb ed="#V" n="56" break="no"/>mam absolutam in quodcumque distans: quia virtutis est 
+      limita<lb ed="#V" n="57" break="no"/>te. forma autem absoluta perfectionem dicit. et in maiori 
+      <lb ed="#V" n="58"/>distantia est virtuosius: sed species de genere quantitatis continue 
+      <lb ed="#V" n="59"/>causatur in qualibet distantia. quia si vna gutta aque addatur 
+      <lb ed="#V" n="60"/>aque maris est maior et alia species. quia sicut impossibile est 
+      <lb ed="#V" n="61"/>distinctionem esset inter quantitates eiusdem speciei vel 
+      dis<lb ed="#V" n="62" break="no"/>similitudinem. ita eque impossibile est esse in equelitatem in 
+      <lb ed="#V" n="63"/>ter quantitates eiusdem speciei: sed addita gutta est 
+      inequal<lb ed="#V" n="64" break="no"/>tas.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e346">
+      ¶ Item ille qui apponit guttam mutat totam 
+      quanti<lb ed="#V" n="65" break="no"/>tatem.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e351">
+      ¶ Item bicubitum et tricubitum differunt spe 
+      <lb ed="#V" n="66"/>tie in quantitatem et sic de aliis. 
+      <!--413.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>videndum est de quantitate successiua: et 
+      pri<lb ed="#V" n="68" break="no"/>Tertio mo de tepor. quia tempus est mora et 
+      successie<lb ed="#V" n="69" break="no"/>sed succedens vt sic ad aliud est succedens.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e367">
+      ¶ Secundo. 
+      <lb ed="#V" n="70"/>quia differentiae temporis sunt prius et posterius: et sed iste rationes sunt 
+      <lb ed="#V" n="71"/>respectiue.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e374">
+      ¶ Item nulla passio absolutior est suo subiecto 
+      <lb ed="#V" n="72"/>sed tempus est passio motus primi mobilis. qui est 
+      mo<lb ed="#V" n="73" break="no"/>tus ad vbi. et per consequens est respectiuum.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e381">
+      ¶ Quarto. quia 
+      <lb ed="#V" n="74"/>multa respectiua mensurantur tempore et per 
+      conse<lb ed="#V" n="75" break="no"/>quens mensura est respectiua. 
+      <lb ed="#V" n="76"/>videndum est de numero: et probo quod est 
+      for<lb ed="#V" n="77" break="no"/>Quarto ma respectiua.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e393">
+      ¶ Probatio. quia omnis 
+      for<lb ed="#V" n="78" break="no"/>ma absoluta dicit aliquam perfectionem sed numerus non. 
+      <lb ed="#V" n="79"/>Probatio. si enim trinitas diceret perfectionem. tunc 
+      <lb ed="#V" n="80"/>vna persona diuina non esset eque perfecta sicutt res. 
+      <lb ed="#V" n="81"/>tum etiam quia natura generis contineret infinitas 
+      perfectio<lb ed="#V" n="82" break="no"/>nes. quia in numeris per appositionem est processus in 
+      in<lb ed="#V" n="83" break="no"/>finitum.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e409">
+      ¶ Item 3o impossibile est quod forma absoluta 
+      <lb ed="#V" n="84"/>fundetur in respectiua naturaliter sed numerus 
+      funda<lb ed="#V" n="85" break="no"/>tur in respectiuis: quia per diuisionem continui habentur 
+      <lb ed="#V" n="86"/>quatuor similitudines sicut quatuor albedines.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e418">
+      ¶ 
+      Quar<lb ed="#V" n="87" break="no"/>to. quia impossibile est quod in terminis vel vltimis 
+      ab<lb ed="#V" n="88" break="no"/>stractis fundetur ratio: sed in vltimis absolutis fundatur 
+      <lb ed="#V" n="89"/>numerus: certum est autem: quod est dare vltima absolutas 
+      <lb ed="#V" n="90"/>arguitur de oratione: quia oratio mensu¬ 
+      <lb ed="#V" n="91"/> 
+               <lb ed="#V" n="92"/>Utimo ratur breuis et longa: sed ratio breuis 
+      <lb ed="#V" n="93"/>et longi est respectiua.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e436">
+      ¶ Item oratio formaliter est com 
+      <lb ed="#V" n="94"/>plexio. sed talis est respectus.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e441">
+      ¶ Item constat ex compotie 
+      <lb ed="#V" n="95"/>ne et diuisione.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e446">
+      ¶ Quarto oratio ad dictiones nibil ad 
+      <lb ed="#V" n="96"/>dit nisi connexionem.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e452">
+      ¶ Sed instatur contra ista.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e455">
+      ¶ Prio 
+      <lb ed="#V" n="97"/>omnis relatio est ad aliud: sed corpus non est ad aliud. 
+      <lb ed="#V" n="98"/>quia corpus non est alicuius corporis. igitur ista species 
+      <lb ed="#V" n="99"/>non est ad aliud.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e464">
+      ¶ Secundo sic. quantitas discreta constat 
+      <lb ed="#V" n="100"/>ex vnitatibus que non sunt respectiue.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e469">
+      ¶ Tertio quod prim 
+      <lb ed="#V" n="101"/>in motum videtur esse sine termino.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e474">
+      ¶ Quarto vox est 
+      ali<lb ed="#V" n="102" break="no"/>quid absolutum: sed ex talibus constat orto. igitur 
+      vi<lb ed="#V" n="103" break="no"/>detur ipsa ortrio dicere aliquid absolutum.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e481">
+      ¶ Respondeo ad primum 
+      <lb ed="#V" n="104"/>et dico quod sicut superficies alicuius est superficies. ita 
+      <lb ed="#V" n="105"/>corpus alicuius cum sit dimensio trina est alicuius 
+      en<lb ed="#V" n="106" break="no"/>titatis.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e491">
+      ¶ Ad 2m. dico quod non constat ex vnitatibus 
+      for<lb ed="#V" n="107" break="no"/>maliter. sed tantum materialiter.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e496">
+      ¶ Ad 3m. de priori et poste 
+      <lb ed="#V" n="108"/>riori in motu est aliqua difficultas. quia scilicet ibi est 
+      respe<lb ed="#V" n="109" break="no"/>ctus sine termino actuali: sed de hoc magis in secundo. 
+      </p>
+            <p xml:id="FrMS88-f58002-d1e503">
+               <lb ed="#V" n="110"/>¶ Ad 4m. dico quod vox non est quantitas sed ordo partium 
+      <lb ed="#V" n="111"/>popter breuitatem et longitudinem.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e510">
+      ¶ Sed oc. difficultas quia 
+      ma<lb ed="#V" n="112" break="no"/>thelus abstrahit lineam. sed relatio non est abstrahibilis. 
+      </p>
+            <p xml:id="FrMS88-f58002-d1e515">
+               <lb ed="#V" n="113"/>¶ Dico quod sicut numerus non abstrahit a numero entium. ita hoc 
+      <lb ed="#V" n="114"/>dico quod abstrahit a dimensionibus aque et ignis. sed non 
+      <lb ed="#V" n="115"/>entitati. vnde matheus non abstrahit ab omni: et sicut ma 
+      <lb ed="#V" n="116"/>thelus considerat dimensiones esse alicuius entitatis: 
+      <lb ed="#V" n="117"/>ita considerat entitatem et ordinem partium illius 
+      en<lb ed="#V" n="118" break="no"/>titatis que est eorum continuitas.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e531">
+      ¶ Secunda 
+      dficulia<lb ed="#V" n="119" break="no"/>cultas. quia quantitas est ordo partium et illas 
+      presup<lb ed="#V" n="120" break="no"/>ponit. quid est autem illud prius.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e539">
+      ¶ Dico quod hyposta 
+      <lb ed="#V" n="121"/>ses partium: sicut partes lapidis quantum ad hyposta 
+      <lb ed="#V" n="122"/>ses sunt in genere substantie. Sed continuitas trahit ad genus 
+      quan<lb ed="#V" n="123" break="no"/>titatis. Sed si fiant partes sine quantitate vel continuitate quid  
+      <lb ed="#V" n="124"/>est.
+    </p>
+            <p xml:id="FrMS88-f58002-d1e550">
+      ¶ Dico quod albedo habet partes de genere qualitatis. sicut 
+      <lb ed="#V" n="125"/>charitas: sed non potest eas habere extensas nisi per quantitatem
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f74217"><!-- l4d34q1 -->
+            <head xml:id="FrMS88-f74217-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f74217-d1e111">
+               <lb ed="#V" n="55"/>Nunc superest ostendere etc. 
+      <lb ed="#V" n="56"/>Hic incipit distinctio. 34a. Circa 
+      <lb ed="#V" n="57"/>quam queritur vtrum 
+      ma<lb ed="#V" n="58" break="no"/>trimonium possit immpediri. Quod non. quia 
+      <lb ed="#V" n="59"/>vbi sunt omnia que requiruntur non 
+      po<lb ed="#V" n="60" break="no"/>test.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e127">
+      ¶ Contra patet de facto. 
+      <lb ed="#V" n="61"/>videndum est. quibus 
+      <lb ed="#V" n="62"/>Hic primo modis impeditur 
+      <lb ed="#V" n="63"/>sponsalia.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e136">
+      ¶ Ubi sciendum quod sponsalia reuocantur et 
+      diri<lb ed="#V" n="64" break="no"/>muntur.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e141">
+      ¶ primo quando ille cum quo contracta sunt intrat religionem. 
+      </p>
+            <p xml:id="FrMS88-f74217-d1e145">
+               <lb ed="#V" n="65"/>¶ 2us casus. quando post sponsalia contrahit cum alio per verba de praesen¬ 
+      <!--449.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>ti. secundus enim contractus eunat prima sponsalia.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e156">
+      ¶ 3us casus quando alter for 
+      <lb ed="#V" n="67"/>nicatur.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e161">
+      ¶ 4us casus. quando alter incurrit notabilem 
+      infirmi<lb ed="#V" n="68" break="no"/>tatem.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e166">
+      ¶ 5us casus quando per voluntatem et mutuum consensum. 
+      </p>
+            <p xml:id="FrMS88-f74217-d1e169">
+               <lb ed="#V" n="69"/>¶ 6us casus: quando affinitas interuenit.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e174">
+      ¶ 7us quando alter 
+      coniun<lb ed="#V" n="70" break="no"/>gum emittit votum non solemne.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e180">
+      ¶ 8us casus. quando tempore indebi 
+      <lb ed="#V" n="71"/>te etatis.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e185">
+      ¶ Ulterius matrimonium impeditur. primo ex parte 
+      intel<lb ed="#V" n="72" break="no"/>lectus scilicet ex errore persone. 2o ex parte voluntatis vbi est 
+      coa<lb ed="#V" n="73" break="no"/>ctio talis quae cadit in constantem virum.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e192">
+      ¶ 3us casus. ex crimine 
+      <lb ed="#V" n="74"/>quando committit incestum cum alia de consanguinitate vxoris.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e197">
+      ¶ 4us 
+      <lb ed="#V" n="75"/>casus si alter machinatur ad mortem coniugis. et si facit 
+      pa<lb ed="#V" n="76" break="no"/>ctum cum altera. vt post mortem prioris eam ducat.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e204">
+      ¶ 5us 
+      ca<lb ed="#V" n="77" break="no"/>sus ex consanguinitate circa debitum gradum.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e209">
+      ¶ 6us de 
+      affi<lb ed="#V" n="78" break="no"/>nitate.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e215">
+      ¶ 7us cognatione spirituali quando sunt parentes etc 
+      </p>
+            <p xml:id="FrMS88-f74217-d1e218">
+               <lb ed="#V" n="79"/>¶ 8us de publice honestatis iusticia. vt si aliquis sacerdos 
+      <lb ed="#V" n="80"/>contrahit cum aliqua: nullus de cognatione illius potest 
+      contrahe<lb ed="#V" n="81" break="no"/>re cum illa.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e227">
+      ¶ 9us quando infrigidatur vir.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e230">
+      ¶ 10us de mulilere 
+      <lb ed="#V" n="82"/>articulata.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e235">
+      ¶ 11us. de dispari cultu.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e238">
+      ¶ 12us. quando alter est 
+      <lb ed="#V" n="83"/>seruus vel ancilla.
+    </p>
+            <p xml:id="FrMS88-f74217-d1e244">
+      ¶ 13us quando maleficium est ibi perpetratum. 
+      <lb ed="#V" n="84"/>si tamen postea cognouerit aliam debet redire ad primam.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f19869"><!-- l2d23q1 -->
+            <head xml:id="FrMS88-f19869-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f19869-d1e111">
+               <lb ed="#V" n="29"/>Preterea queri solet etc. 
+      <lb ed="#V" n="30"/>CIrca distinctionem. 23. Quero vtrum 
+      <lb ed="#V" n="31"/>liberum arbitrium 
+      principa<lb ed="#V" n="32" break="no"/>lius consistat in intellectu vel in volunta 
+      <lb ed="#V" n="33"/>te. Et videtur quod in voluntate. probatur: quia 
+      di<lb ed="#V" n="34" break="no"/>cit An sel. de conceptu virginali: quod in 
+      vo<lb ed="#V" n="35" break="no"/>luntate est dominium anime.
+    </p>
+            <p xml:id="FrMS88-f19869-d1e129">
+      ¶ Contra. Augut 
+      <lb ed="#V" n="36"/>de vera religione. Iudicans praesidet illis de quibus iudicat 
+      <lb ed="#V" n="37"/>aliquin quod liberum arbitrium consistit 
+      <lb ed="#V" n="38"/>Hic dicun c in intellectu tantum: quo iudicante 
+      ne<lb ed="#V" n="39" break="no"/>cessario voluntas fertur in illud.
+    </p>
+            <p xml:id="FrMS88-f19869-d1e140">
+      ¶ Alii dicunt oppositum. 
+      <lb ed="#V" n="40"/>quod intellectus est potentia mere naturalis: que distinguitur 
+      co<lb ed="#V" n="41" break="no"/>tra liberum arbitrium.
+    </p>
+            <p xml:id="FrMS88-f19869-d1e147">
+      ¶ Sed alii dicunt quod in vtroque: sed 
+      <lb ed="#V" n="42"/>principalius in intellectu regente.
+    </p>
+            <p xml:id="FrMS88-f19869-d1e153">
+      ¶ Alii dicunt econverso quo 
+      <lb ed="#V" n="43"/>impare pertinet ad voluntatem et mouere potentias alias 
+      </p>
+            <p xml:id="FrMS88-f19869-d1e158">
+               <lb ed="#V" n="44"/>¶ Sed sumendo illud quod significat liberum arbitrium non 
+      <lb ed="#V" n="45"/>capio aliquem illorum modorum. prium non: quia nulla libertas 
+      <lb ed="#V" n="46"/>est in intellectu. Nec 2m. quia voluntas nullum habet arbitrium: 
+      <lb ed="#V" n="47"/>sicut nec intellectus libertatem. Nec 3m poterit stare 
+      <lb ed="#V" n="48"/>quia quod est principalius: oportet quod ibi sit secundum se totum. Sed 
+      <lb ed="#V" n="49"/>libertas nullo modo est in intellectu simpliciter. nec liberum 
+      <lb ed="#V" n="50"/>arbitrium consistit totaliter in voluntate. ergo nec 
+      principa<lb ed="#V" n="51" break="no"/>lius voluntas dicitur talis: sicut homo non potest dici princi 
+      <lb ed="#V" n="52"/>palius rationalis et sensibilis secundum partem intellectiuam 
+      <lb ed="#V" n="53"/>quia illa duo in ea non sunt: nec etiam dici potest quod 
+      compo<lb ed="#V" n="54" break="no"/>situm sit praencipalius in actu et potentia per formam 
+      </p>
+            <p xml:id="FrMS88-f19869-d1e184">
+               <lb ed="#V" n="55"/>¶ Accedo tamen ad rem quaestionis: per quid nos sumus 
+      <lb ed="#V" n="56"/>actuum nostrorum domini.
+    </p>
+            <p xml:id="FrMS88-f19869-d1e191">
+      ¶ Et dico quod per potentiam 
+      <lb ed="#V" n="57"/>volitiuam. probatur hoc.
+    </p>
+            <p xml:id="FrMS88-f19869-d1e196">
+      ¶ Primo. per illud non potest esse 
+      <lb ed="#V" n="58"/>homo dominum suorum actuum: per quod operatur mere 
+      na<lb ed="#V" n="59" break="no"/>turaliter: sic autem est de potentia intellectiua seu 
+      in<lb ed="#V" n="60" break="no"/>tellectu: sicut sol non est dominus sue calefactionis. 
+      </p>
+            <p xml:id="FrMS88-f19869-d1e205">
+               <lb ed="#V" n="61"/>¶ Secundo. per illam potentiam que mere contingenter 
+      oper<lb ed="#V" n="62" break="no"/>tur sumus divuni nostrorum actuum: sic est de voluntate. 
+      </p>
+            <p xml:id="FrMS88-f19869-d1e213">
+               <lb ed="#V" n="63"/>¶ Tertio. quia potentia cuius solis actibus meremur: 
+      <lb ed="#V" n="64"/>illa est qua sumus divfuni nostrorum actuum: sic est de voluntate 
+      <lb ed="#V" n="65"/>in qua est charitas. Et eodem modo non vituperamur ni 
+      <!--321.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>si de his que sunt in potestate nostra.
+    </p>
+            <p xml:id="FrMS88-f19869-d1e229">
+      ¶ Sed contra. hoc 
+      <lb ed="#V" n="67"/>instatur quadrupliciter. primo: quia hoc quod dico liberum est 
+      <lb ed="#V" n="68"/>adiectiuum. arbitrium autem substantiuum: et praencipalius 
+      <lb ed="#V" n="69"/>de intellectu.
+    </p>
+            <p xml:id="FrMS88-f19869-d1e238">
+      ¶ Item arbitrium se habet: vt subiectum 
+      <lb ed="#V" n="70"/>liberum autem: vt accidens.
+    </p>
+            <p xml:id="FrMS88-f19869-d1e243">
+      ¶ Tertio. per malas 
+      cogi<lb ed="#V" n="71" break="no"/>tationes quis vitupratur.
+    </p>
+            <p xml:id="FrMS88-f19869-d1e248">
+      ¶ Quarto. quia per actum 
+      con<lb ed="#V" n="72" break="no"/>templandi aliquis meretur que duo pertinent ad 
+      intel<lb ed="#V" n="73" break="no"/>lectum: Dico ad primum quod res adiectiui est principalior hic 
+      <lb ed="#V" n="74"/>sicut hic. quidam appetitus sensitiuus quidam 
+      intelle<lb ed="#V" n="75" break="no"/>ctiuus: esse intellectiuum est principalius. Similiter 
+      <lb ed="#V" n="76"/>liberum est adiectiuum et ponitur adiectiue: quia est quid  
+      <lb ed="#V" n="77"/>formale: sed quia actus voluntatis est posterior: ideo 
+      adie<lb ed="#V" n="78" break="no"/>ctiue ponitur ratione posterioritatis.
+    </p>
+            <p xml:id="FrMS88-f19869-d1e266">
+      ¶ Ad aliud. 
+      que<lb ed="#V" n="79" break="no"/>rimus hic de formali ratione liberi arbitrii: et ideo ex parte 
+      <lb ed="#V" n="80"/>predicati sumitur.
+    </p>
+            <p xml:id="FrMS88-f19869-d1e274">
+      ¶ Ad aliud dico quod per cogitatio 
+      <lb ed="#V" n="81"/>nes quascumque absolute non demeremur: nisi pro 
+      quan<lb ed="#V" n="82" break="no"/>to acceptantur a nobis: et imperantur a voluntate: sicut 
+      <lb ed="#V" n="83"/>christus sciuit bona et mala: eodem modo de laude propter 
+      <lb ed="#V" n="84"/>finem bonum contemplationis quis meretur. Sed hic 
+      <lb ed="#V" n="85"/>instatur: quia radix libertatis videtur esse in 
+      intellectu<lb ed="#V" n="86" break="no"/>qui est prior.
+    </p>
+            <p xml:id="FrMS88-f19869-d1e290">
+      ¶ Respondeo secundum illud fantasia esset principa 
+      <lb ed="#V" n="87"/>lior intellectu: possumus enim fantasiari: dato quod non 
+      <lb ed="#V" n="88"/>intelligamus: et non econuerso.
+    </p>
+            <p xml:id="FrMS88-f19869-d1e297">
+      ¶ Alia est difficultas 
+      <lb ed="#V" n="89"/>quia actu dicitur malus qui discordat recte rationi: vt 
+      <lb ed="#V" n="90"/>regule sue.
+    </p>
+            <p xml:id="FrMS88-f19869-d1e304">
+      ¶ hic dico quod ex hoc non habetur propositum. 
+      </p>
+            <p xml:id="FrMS88-f19869-d1e307">
+               <lb ed="#V" n="91"/>¶ Aliud enim est rationi consiliarii et divfuni siue mgistri: sei 
+      <lb ed="#V" n="92"/>cut patet de consiliario regis: male enim facit rex 
+      nisi<lb ed="#V" n="93" break="no"/>faciat iuxta consilium bonum sui consiliarii: et 
+      tamern<lb ed="#V" n="94" break="no"/>totum dominium super hoc est apud regem. sic de 
+      intel<lb ed="#V" n="95" break="no"/>lectu et voluntate: vnde concedo quod rectitudo 
+      liberta<lb ed="#V" n="96" break="no"/>tis sumitur a ratione recta.
+    </p>
+            <p xml:id="FrMS88-f19869-d1e323">
+      ¶ Sed habent ne bruta 
+      <lb ed="#V" n="97"/>libertatem: Dico quod non: quia naturali necessitate 
+      moue<lb ed="#V" n="98" break="no"/>tur ad obiectum apprehensum.
+    </p>
+            <p xml:id="FrMS88-f19869-d1e331">
+      ¶ Sed est ne in 
+      demo<lb ed="#V" n="99" break="no"/>nibus: Dico quod sic fundamentaliter: non tamen 
+      quan<lb ed="#V" n="100" break="no"/>tum ad vsum: quia non concurrit eis diuina voluntas. 
+      </p>
+            <p xml:id="FrMS88-f19869-d1e338">
+               <lb ed="#V" n="101"/>¶ Alia difficultas de angelis bonis: Dico quod sic: non 
+      <lb ed="#V" n="102"/>tamen habent vsum quo ad malum.
+    </p>
+            <p xml:id="FrMS88-f19869-d1e345">
+      ¶ Quarta 
+      diffia<lb ed="#V" n="103" break="no"/>cultas. de deo: Dico quod in deo est libertas quantum ad 
+      <lb ed="#V" n="104"/>intra. ad extra autem liberum arbitrium.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

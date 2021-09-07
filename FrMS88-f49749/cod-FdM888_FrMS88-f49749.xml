@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f49749"><!-- l4d10q4 -->
+            <head xml:id="FrMS88-f49749-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f49749-d1e111">
+               <lb ed="#V" n="23"/>QUarto quaeritur vtrum transeat per medium. 
+      <lb ed="#V" n="24"/>quando enit in sacrament. Et videtur quod sic. 
+      <lb ed="#V" n="25"/>quia hic est essentialis ordo.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e120">
+      ¶ Contra. quia ordo 
+      <lb ed="#V" n="26"/>situs est accidentalis: vt prius fuit visum.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e125">
+               <lb ed="#V" n="27"/>Hic dicunt aliqui quod venit in tempore 
+      <lb ed="#V" n="28"/>imperceptibili.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e132">
+      ¶ Sed 
+      <lb ed="#V" n="29"/>iste modus: licet videatur possessionis. non tamen videtur 
+      conueni<lb ed="#V" n="30" break="no"/>ens.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e140">
+      ¶ Alii dicunt quod in instanti. et ita simul esset in omni 
+      <lb ed="#V" n="31"/>bus. Et hoc non oportet.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e145">
+      ¶ Dico ergo quod corpus christi incipit hoc 
+      <lb ed="#V" n="32"/>esse: non transeundo medium. sed immediate inducitur ille 
+      re<lb ed="#V" n="33" break="no"/>spectus in esse. verbi gratia sonus qui transit in instanti 
+      <lb ed="#V" n="34"/>per aerem ad aures audientis non transit per medium. quia tunc 
+      <lb ed="#V" n="35"/>migrarent accidentia: sed idem corpus causat ipsum 
+      imme<lb ed="#V" n="36" break="no"/>diate in qualibet parte medii: sicut sol radium in 
+      quali<lb ed="#V" n="37" break="no"/>bet parte medii. ita in proposito.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e161">
+      ¶ Sed sco. hoc 
+      respon<lb ed="#V" n="38" break="no"/>det sic. Quandocumque est aliquod mobile respiciens formam 
+      <lb ed="#V" n="39"/>mediante dispositione transeunte. tale subiectum potest recipere 
+      ean<lb ed="#V" n="40" break="no"/>dem formam a deo non supponendo dispositiones transeuntes: sed 
+      <lb ed="#V" n="41"/>media vbi sunt dispositiones ad vtrunque vbi. ita deus potest 
+      <lb ed="#V" n="42"/>facere etc.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e174">
+      ¶ Sed ista regula est dubia: et ideo sciendum 
+      <lb ed="#V" n="43"/>quod alique sunt dispositiones permanentes cum forma ad 
+      quam<lb ed="#V" n="44" break="no"/>disponunt sicut raritas in igne. Alique non 
+      permanen<lb ed="#V" n="45" break="no"/>tes. sicut qualitates in alteratione corrumpuntur inducta 
+      <lb ed="#V" n="46"/>forma substantiali. Sine primis dispositionibus deus non 
+      praes<lb ed="#V" n="47" break="no"/>inducere formas sicut de actu intelligendi respectu actus 
+      vo<lb ed="#V" n="48" break="no"/>iendi. sed sine aliis potest.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e190">
+      ¶ hoc autem probo sic. Quicquid 
+      <lb ed="#V" n="49"/>se tenet ex parte agentis potest deus suplere. sicut est de 
+      <lb ed="#V" n="50"/>talibus dispositionibus. quia ignis prius deficcat. non quod ista 
+      <lb ed="#V" n="51"/>forma necessario exigat illam cum corrumpatur. sunt igitur 
+      <lb ed="#V" n="52"/>effectus essentialiter ordinati. quia prius inducit vnam: 
+      quan<lb ed="#V" n="53" break="no"/>aliam. successiue et huius.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e203">
+      ¶ 2o quandocunque est aliqua forma 
+      <lb ed="#V" n="54"/>que non dependeat ab alia nec in esse nec in fieri potest esse 
+      <lb ed="#V" n="55"/>i fieri sine illa. sed ita est de talibus. quia quando est hoc formam 
+      <lb ed="#V" n="56"/>non est illa. quando est fit in instanti. fit forma ignis. illa autem 
+      <lb ed="#V" n="57"/>non scilicet deficcatio. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e215">
+      ¶ Tertio. quia non repugnat 
+      for<lb ed="#V" n="58" break="no"/>me inducte a talibus dispositionibus in toto tempore permane 
+      <lb ed="#V" n="59"/>re. igitur nec pro instanti. quando fit.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e222">
+      ¶ Item quandocumque sunt aliqu 
+      <lb ed="#V" n="60"/>essentialiter ordinata posterius non potest fieri sine priori. sed 
+      <lb ed="#V" n="61"/>inter tales dispositiones et tales formas non est essentialis 
+      <lb ed="#V" n="62"/>ordo. Alioquin numquam posset fieri sine illis.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e231">
+      ¶ Et contra hoc in 
+      <lb ed="#V" n="63"/>statur. quia secundum hoc aliquis posset esse similis alicui albo 
+      <lb ed="#V" n="64"/>sine albedine: que est dispositio ad eam.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e238">
+      ¶ Respondeo quod hec dispositio 
+      <lb ed="#V" n="65"/>est permanens.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e243">
+      ¶ Secundo. quia approximatio videtur esse que 
+      <lb ed="#V" n="66"/>dam dispositio transiens. igitur poterit aliquid agere sine ap¬ 
+      <!--394.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>proximatione ad passum.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e254">
+      ¶ Responde quod approximatio non 
+      <lb ed="#V" n="68"/>transit: sed permanet quando actio durat.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e260">
+      ¶ Tertia difficultas. quia 
+      <lb ed="#V" n="69"/>videtur secundum hoc quod deus posset facere aliquem filium naturalem 
+      <lb ed="#V" n="70"/>alicuius et nunquam genuisset eum: quia generatio non est 
+      fun<lb ed="#V" n="71" break="no"/>damentum paternitatis. sed tantum prima dispositio 
+      transi<lb ed="#V" n="72" break="no"/>ens. igitur secundum regulam datam poterit deus facere aliquo 
+      <lb ed="#V" n="73"/>filium alicuius. qui nunquam genuerit eum.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e273">
+      ¶ Utur ergo dicendum 
+      <lb ed="#V" n="74"/>sicut prius dictum fuit. quod regula tenet in formis 
+      absolu<lb ed="#V" n="75" break="no"/>tis. non respectiuis.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e280">
+      ¶ Contra. vbi est respectus. igitur 
+      <lb ed="#V" n="76"/>non tenet in proposito.
+    </p>
+            <p xml:id="FrMS88-f49749-d1e285">
+      ¶ Dico quod oportet astringere 
+      regu<lb ed="#V" n="77" break="no"/>lam quantum ad respectus intrinsecos. non extrinsecos. quoniam 
+      <lb ed="#V" n="78"/>in istis non tenet. Sed que est causa vide.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

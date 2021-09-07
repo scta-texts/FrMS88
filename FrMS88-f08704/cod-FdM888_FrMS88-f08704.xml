@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="146-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f08704"><!-- l2d2q6 -->
+            <head xml:id="FrMS88-f08704-Hd1e108">Quaestio 6</head>
+            <p xml:id="FrMS88-f08704-d1e111">
+      Questio. <sic>v.</sic> 
+               <lb ed="#V" n="96"/>eandem distinctionem. adhuc quaero 4o 
+      <lb ed="#V" n="97"/>Ia quaestiones. Prima est. Utrum 
+      angelu<lb ed="#V" n="98" break="no"/>sit in loco per essentiam. Et videtur quod non. quia Dam. di 
+      <lb ed="#V" n="99"/>cit. quod est vbi operatur.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e125">
+      ¶ Contra. Aug. dicit. quod 
+      <lb ed="#V" n="100"/>illud quod est bonum: non potest esse 
+      nusquan<lb ed="#V" n="101" break="no"/>Naliqui quod angelus est in loco per 
+      essen<lb ed="#V" n="102" break="no"/>hic dicune tiam.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e134">
+      ¶ Alii dicunt. quod per operationem: 
+      <lb ed="#V" n="103"/>non per essentiam: quia quaedam est simplicitas sita alicubi: 
+      si<lb ed="#V" n="104" break="no"/>cut punctus. alia non est sita sicut vnitas. et hoc modo substanti 
+      <lb ed="#V" n="105"/>angeli est simplex. et per consequens non est in loco per essentiam: sedi  
+      <lb ed="#V" n="106"/>operationem.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e145">
+      ¶ Alii dicunt. quod nec sic nec sic. sed per 
+      quan<lb ed="#V" n="107" break="no"/>dam applicationem.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e151">
+      ¶ Alii dicunt quod per heceitatem sicut 
+      <lb ed="#V" n="108"/>per proprietatem indiuiduale. quia secundum eam conuenit sibi esse 
+      <lb ed="#V" n="109"/>hic et nunc.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e158">
+      ¶ Sed nulla istarum opinionum videtur esse sufficiens. 
+      </p>
+            <p xml:id="FrMS88-f08704-d1e161">
+               <lb ed="#V" n="110"/>¶ Contra primam arguitur sic. Impossibile est quod 
+      ange<lb ed="#V" n="111" break="no"/>lo conueniat esse in loco per illud quod conuenit sibi: siue sit 
+      in<lb ed="#V" n="112" break="no"/>loco. siue non. Sed essentia sibi conuenit in potentia obiectiua. in qua 
+      <lb ed="#V" n="113"/>nondum est in loco. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e172">
+      ¶ 2o. quod conuenit alicui per accidens: 
+      <lb ed="#V" n="114"/>non conuenit sibi per naturam suam: sed esse in loco conuenit 
+      an<lb ed="#V" n="115" break="no"/>gelo per accidens. sicut et existentia per accidens sibi conuenit 
+      <lb ed="#V" n="116"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e181">
+      ¶ Contra 2am opinio. quamuis multum sit vulgata. A 
+      <lb ed="#V" n="117"/>guitur 4r. et primo sic. quando aliqua sunt esentialiter ordinata: 
+      <lb ed="#V" n="118"/>posterius non est causa: quod prius insit. sed approximatio est causa 
+      <lb ed="#V" n="119"/>ipsius operari: et prius essentialiter. per hoc autem quod approximatur 
+      <lb ed="#V" n="120"/>est in loco. ergo in loco esse precedit essentialiter operari. 
+      er<lb ed="#V" n="121" break="no"/>go a primo ad vltimum non est ratio essendi in loco.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e194">
+      ¶ 2 
+      <lb ed="#V" n="122"/>sic. secundum eos angelus non est in toto celo localiter: sed si esset 
+      <lb ed="#V" n="123"/>in loco per operationem: oporteret quod esset in toto celo: cum 
+      <lb ed="#V" n="124"/>moueat omnes partes eius: et ita operatur per totum caelum.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e204">
+      ¶ Si 
+      <lb ed="#V" n="125"/>dicas. quod angelus mouet vnam partem: et illa aliam 
+      quasi<lb ed="#V" n="126" break="no"/>per modum cuiusdam circuitus vel giri.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e211">
+      ¶ Contra. quia ea 
+      <lb ed="#V" n="127"/>dem ratio esset de prima parte: sicut de aliis. et tunc celum 
+      pe<lb ed="#V" n="128" break="no"/>se posset moueri: et non indigeret motore extrinseco: quia 
+      <lb ed="#V" n="129"/>tamen omnes ponunt.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e220">
+      ¶ 3o sic. per illud non est angelus 
+      ini<lb ed="#V" n="130" break="no"/>loco: quod non est formaliter in ipso. Sed operatio angeli per 
+      <lb ed="#V" n="131"/>quam dicunt ipsum esse in loco est operatio transiens: et non 
+      <lb ed="#V" n="132"/>immanens. quia per solam operationem immanentem non facit se 
+      <!--296.xml-->
+      <pb ed="#V" n="147-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>esse in loco. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e238">
+      ¶ 4o sic: quandocumque aliquid est in 
+      aliquo<lb ed="#V" n="2" break="no"/>loco per aliquid alterum: oportet quod eodem modo applicetur loco 
+      si<lb ed="#V" n="3" break="no"/>cut illud per quod est in loco. sicut corpus est in loco per 
+      quan<lb ed="#V" n="4" break="no"/>titatem: et ideo sicut quantitas est commensurata loco. ita 
+      <lb ed="#V" n="5"/>et corpus: cuius est. Sed operatio angeli transiens: sicut mo 
+      <lb ed="#V" n="6"/>tus quem causat in celo. est aliquod continuum. et per consequens commensura 
+      <lb ed="#V" n="7"/>tiue in loco. ergo et angelus. quod est impossibile.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e254">
+      ¶ Contram 
+      <lb ed="#V" n="8"/>opinio. arguitur. quod incidit in idem cum positione prima vel 2a. aut 
+      <lb ed="#V" n="9"/>enim est actus primus illa applicatio. et ita redit 
+      opi<lb ed="#V" n="10" break="no"/>nio prima. quod per essentiam sit in loco. aut est actus 2o. et 
+      <lb ed="#V" n="11"/>tunc est idem quod opeatio: et redit opinio 2a.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e265">
+      ¶ Contra 4am 
+      <lb ed="#V" n="12"/>opinio. licet sit rationabilior aliis. arguitur sic. quia per illud per quod angeli 
+      <lb ed="#V" n="13"/>sunt diuersi per illud non est dare rationem communem: per quam 
+      dican<lb ed="#V" n="14" break="no"/>tur vniformiter esse in loco: sed pheceitates sunt angeli 
+      <lb ed="#V" n="15"/>pord diuersi. et in nullo conueniunt. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e277">
+      ¶ Dico igitur. quod 
+      an<lb ed="#V" n="16" break="no"/>gelus est in loco per actualem existentiam.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e282">
+      ¶ Ad cuius de 
+      <lb ed="#V" n="17"/>clarationem est sciedum quod 4or sunt que se habent per ordinem. 
+      <lb ed="#V" n="18"/>Primo esse in loco simpliciter. et sic aliquo mo deus est in 
+      lo<lb ed="#V" n="19" break="no"/>co. quia vbique.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e291">
+      ¶ 2o esse in loco diffinitiue: et hoc addit 
+      su<lb ed="#V" n="20" break="no"/>per esse in loco: esse in hoc loco: et sic determinat ipsum quod non 
+      <lb ed="#V" n="21"/>it similis in alio per naturam.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e298">
+      ¶ 3o esse in loco circumscriptiue et 
+      com<lb ed="#V" n="22" break="no"/>mensuratiue. et addit super alia duo. quod pars loci 
+      correspon<lb ed="#V" n="23" break="no"/>det parti locati vt in corposotuams.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e305">
+      ¶ 4o sic in vno loco esse 
+      <lb ed="#V" n="24"/>quod violenter transferatur ad alium locum.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e310">
+      ¶ Ad propositum 
+      <lb ed="#V" n="25"/>angelus est in loco: et diffinitiue est in loco: non 3o modo 
+      con<lb ed="#V" n="26" break="no"/>mensuratiue: cum sit substantia simplex. nec quarto modo. quia 
+      <lb ed="#V" n="27"/>tunc violenter esset in loco. quod non est verum. quia 
+      indifferen<lb ed="#V" n="28" break="no"/>ter respicit omnem locum: sicut cera omnem figuram. 
+      <lb ed="#V" n="29"/>est dubium. si angelus est in loco: sicut anima 
+      <lb ed="#V" n="30"/>Sed hic in corpore. Dicitur quod sic. quo ad hoc quia sicut anima 
+      <lb ed="#V" n="31"/>est tota in toto corpore: et tota in qualibet parte. ita ange 
+      <lb ed="#V" n="32"/>lus est in loco proportionato sibi totum in toto.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e331">
+      ¶ 2a difficultas 
+      <lb ed="#V" n="33"/>si necessario sit in loco ita quod habeat praesentialitatem ad 
+      ali<lb ed="#V" n="34" break="no"/>quam creaturam: Dicitur quod sic naturaliter: ita quod non posset se 
+      <lb ed="#V" n="35"/>tacere sine praesentialitate ad aliquam creaturam. Sed per 
+      <lb ed="#V" n="36"/>potentiam diuinam possunt fieri sine omni creatura. et forte 
+      fue<lb ed="#V" n="37" break="no"/>runt creati ante creationem celi empirei. Vel saltem 
+      po<lb ed="#V" n="38" break="no"/>tuerunt creari.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e347">
+      ¶ Alia difficultas si deus possit facere angelum 
+      <lb ed="#V" n="39"/>sine omni praesentialitate. videtur quod sic. cum prius fieri fine posteriori 
+      <lb ed="#V" n="40"/>non repugnet.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e354">
+      ¶ Dicitur quod quia deum non potest facere ange 
+      <lb ed="#V" n="41"/>lum quin possit eum mouere etiam in vacuod. quod non posset fieri 
+      <lb ed="#V" n="42"/>sine acquisitione alicuius respectus. Sequitur ex habet quod 
+      sem<lb ed="#V" n="43" break="no"/>per habeat necessario aliquem respectum principium. aliter deus 
+      <lb ed="#V" n="44"/>non posset eum mouere ad praesentialitatem aliam.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e365">
+      ¶ Sed 
+      inte<lb ed="#V" n="45" break="no"/>rum occurrunt quatuor difficultates. Prima. vtrum angelus potest 
+      <lb ed="#V" n="46"/>esse in quolibet loco cuiuslibet figure.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e372">
+      ¶ Dicitur quod sic. 
+      <lb ed="#V" n="47"/>quia ponit se in loco per voluntatem suam: et substantia sua non 
+      <lb ed="#V" n="48"/>magis est applicabilis vni loco quam alteri.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e379">
+      ¶ 2a difficultas si 
+      po<lb ed="#V" n="49" break="no"/>test esse in quantocumque magno loco: Dicitur quod non per 
+      ar<lb ed="#V" n="50" break="no"/>ticulum. ita quod secundum proportionem quam habent possunt occupare 
+      <lb ed="#V" n="51"/>oca maiora: et vniversaliter quae sunt maioris virtutis et perfectionis: 
+      <lb ed="#V" n="52"/>maiora loca occupant. et qui minoris perfectionis sunt: 
+      <lb ed="#V" n="53"/>minora loca occupant.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e393">
+      ¶ 3a difficultas si possunt esse in quantumcumque 
+      <lb ed="#V" n="54"/>minimo loco. Dicitur quod sic. ex quo est in qualibet parte totus 
+      <lb ed="#V" n="55"/>sicut anima. et sicut corpus christi in hostia. Et illud est 
+      diuisi<lb ed="#V" n="56" break="no"/>bile in infinitum. ideo non potest dari ita paruus locus quin 
+      <lb ed="#V" n="57"/>possit esse in minori. vnde forsan omnes angeli per istum 
+      mo<lb ed="#V" n="58" break="no"/>dum possunt esse in foramine acus.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e406">
+      ¶ 4a difficultas si potest 
+      exhi<lb ed="#V" n="59" break="no"/>bere praesentiam in extremis quantumcumque distantibus. Dicit 
+      <lb ed="#V" n="60"/>Scodo. quod sic. quia ex quo non determinat sibi figuram ponatur 
+      <lb ed="#V" n="61"/>quod sit quadrangulus locus: iste partes quadranguli possunt 
+      <lb ed="#V" n="62"/>intantum secundum perfectionem et appositionem seu constrictionem 
+      <lb ed="#V" n="63"/>extendi. quod attingent vsque ad extremum mundi.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e419">
+      ¶ Alia difficultas 
+      <lb ed="#V" n="64"/>est hic. si angelus possit esse in corpore. ita quod non in 
+      super<lb ed="#V" n="65" break="no"/>ficie illius: Dicitur quod sic. sicut anima est in corpore: sic quod non 
+      <lb ed="#V" n="66"/>est in superficie: quae non est pars corporis.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e428">
+      ¶ Alia difficultas si po¬ 
+      <!--296.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>test esse in puncto. videtur Scotus dicere quod non. Non tamen 
+      <lb ed="#V" n="68"/>apparet mihi euidens contradictio quin possit esse in 
+      pun<lb ed="#V" n="69" break="no"/>cto: ex quo est substantia simplex.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e441">
+      ¶ Alia. difficultas. si sit in corpore. 
+      <lb ed="#V" n="70"/>ita quod in quolibet puncto eius: Dicitur quod non. sicut anima non est 
+      <lb ed="#V" n="71"/>in quolibet puncto. sed in corpore. et in qualibet eius parte. 
+      </p>
+            <p xml:id="FrMS88-f08704-d1e448">
+               <lb ed="#V" n="72"/>¶ Sed hoc remanet dubium. quia exquo determinat sibi esse 
+      <lb ed="#V" n="73"/>in loco per voluntatem: si non determinat se quasi non aduertat 
+      <lb ed="#V" n="74"/>de hoc loco in qua figura relinquatur non apparet bene quare 
+      <lb ed="#V" n="75"/>magis ad vnam quam ad aliam applicetur.
+    </p>
+            <p xml:id="FrMS88-f08704-d1e460">
+      ¶ Illud valde difficulta 
+      <lb ed="#V" n="76"/>cile est. potest tamen dici quod quia angelus est in potentia neutra ad locum. 
+      <lb ed="#V" n="77"/>ideo manet sub figura: sub qua per se applicauit quousque 
+      <lb ed="#V" n="78"/>introducatur alia incompossibilis prime: sicut potest poni 
+      exen<lb ed="#V" n="79" break="no"/>de cera quae si sit sub figura circulari semper manet sub 
+      ea<lb ed="#V" n="80" break="no"/>quousque alia sibi imprimatur: per quam prima expellatur. nunc 
+      <lb ed="#V" n="81"/>determinatio loci ab angelo dependet ab eo tantum in 
+      <lb ed="#V" n="82"/>fieri non in esse: ideo etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

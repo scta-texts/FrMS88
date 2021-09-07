@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e73933"><!-- l1d32q5 -->
+            <head xml:id="FrMS88-e73933-Hd1e108">Quaestio 5</head>
+            <p xml:id="FrMS88-e73933-d1e111">
+      Questio. v. 
+      <lb ed="#V" n="14"/>pater et filius et spiritussanctus 
+      <lb ed="#V" n="15"/>Trum dicant verbo. Quod non. quia solus 
+      <lb ed="#V" n="16"/>pater generat: sed generare in diuinis idem est 
+      <lb ed="#V" n="17"/>quod dicere. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e73933-d1e122">
+      ¶ Contra. Ans. in 
+      mo<lb ed="#V" n="18" break="no"/>l nolo. demonstrat oppositum. 
+      <lb ed="#V" n="19"/>primo premittuntur quatuor preambula.
+    </p>
+            <p xml:id="FrMS88-e73933-d1e129">
+      ¶ 
+      Pri<lb ed="#V" n="20" break="no"/>Hic mum est. quod dicere accipitur dupliciter scilicet entialiter. et 
+      <lb ed="#V" n="21"/>isto modo accipit Aug. quod pater seipsum dicit. Alio 
+      mo<lb ed="#V" n="22" break="no"/>do accipitur personaliter: sicut cum dicitur: pater dicit 
+      fi<lb ed="#V" n="23" break="no"/>lium: hoc est generat. Istam equiuocationem expresse 
+      po<lb ed="#V" n="24" break="no"/>nit Ans. in monolo.
+    </p>
+            <p xml:id="FrMS88-e73933-d1e142">
+      ¶ 2m preambulum est. quod hic non 
+      ac<lb ed="#V" n="25" break="no"/>cipitur dicere personaliter: sed essentialiter: quia nullum 
+      perso<lb ed="#V" n="26" break="no"/>nale est commune tribus: licet duobus scilicet patri et filio sit vna 
+      re<lb ed="#V" n="27" break="no"/>latio communis. conceditur autem quod pater et filius et spiritussanctus 
+      di<lb ed="#V" n="28" break="no"/>tant verbo.
+    </p>
+            <p xml:id="FrMS88-e73933-d1e154">
+      ¶ 3m est. quod verbo non accipitur hic secundum 
+      pro<lb ed="#V" n="29" break="no"/>prietatem: sed secundum appropriationem. quia licet pater in 
+      di<lb ed="#V" n="30" break="no"/>uinis aliquid operetur verbo sumpto secundum suam 
+      pro<lb ed="#V" n="31" break="no"/>prietatem. quia dat ei vim operatiuam: tamen spiritussanctus 
+      ver<lb ed="#V" n="32" break="no"/>bo nihil operatur sumpto secundum suam proprietatem. quia 
+      spiritussan<lb ed="#V" n="33" break="no"/>ctus verbo nihil dat.
+    </p>
+            <p xml:id="FrMS88-e73933-d1e167">
+      ¶ 4m est. quod licet illa praedicatio 
+      videa<lb ed="#V" n="34" break="no"/>tur verificari tantum identice: tamen cum dictione hic accepta 
+      pro<lb ed="#V" n="35" break="no"/>intellectione nullo modo possunt diuine persone formaliter in 
+      <lb ed="#V" n="36"/>telligere tali dictione que sit formaliter verbum. Potest tamen 
+      <lb ed="#V" n="37"/>verificari praedicatio quod intelligant verbo: hoc est 
+      intelle<lb ed="#V" n="38" break="no"/>ctione cui appropriatur verbum: vel econverso.
+    </p>
+            <p xml:id="FrMS88-e73933-d1e180">
+      ¶ Istis 
+      praemis<lb ed="#V" n="39" break="no"/>sis pono 4or conclusiones. Prima est. quod deus pater solus in diuinis 
+      <lb ed="#V" n="40"/>dicit verbum. accipiendo dicere personaliter: quia illud 
+      dice<lb ed="#V" n="41" break="no"/>re est per modum intellectus producere: et illud non conuenit 
+      <lb ed="#V" n="42"/>nisi patri.
+    </p>
+            <p xml:id="FrMS88-e73933-d1e191">
+      ¶ 2a conclusio est. quod pater et filius et spiritussanctus dicunt 
+      <lb ed="#V" n="43"/>verbum: accipiendo dicere essentialiter. quia isto modo dictio 
+      essen<lb ed="#V" n="44" break="no"/>tialis non potest accipi nisi pro actuali notitia. qua quidem 
+      <lb ed="#V" n="45"/>notitia tres persone actualiter intelligunt verbum: et similiter 
+      creatu<lb ed="#V" n="46" break="no"/>ram.
+    </p>
+            <p xml:id="FrMS88-e73933-d1e202">
+      ¶ 3a conclusio est. quod pater et filius et spiritus sanctus non dicunt verbo 
+      <lb ed="#V" n="47"/>accipiendo dicere personaliter: quia cuicumque repugnat superius: 
+      <lb ed="#V" n="48"/>et inferius: sed generare est superius ad dicere: et ideo cum repugnet 
+      <lb ed="#V" n="49"/>spiriutuisancto generare. repugnabit et dicere.
+    </p>
+            <p xml:id="FrMS88-e73933-d1e211">
+      ¶ 4a conclusio est. quod pater 
+      <lb ed="#V" n="50"/>et filius et spiritussanctus dicunt verbo. accipiendo tam 
+      ver<lb ed="#V" n="51" break="no"/>bum quam dicere essentialiter: quia dicunt hoc est intelligunt. verbo: 
+      <lb ed="#V" n="52"/>hoc est actuali notitia: sicut producens sua productione 
+      produ<lb ed="#V" n="53" break="no"/>cit in 4oro dicendi per se: vt patet. et ideo hic verbum supponit 
+      <lb ed="#V" n="54"/>pro actu intelligedi: sicut pro suo appropiato ex modo 
+      <lb ed="#V" n="55"/>sue emanationis.
+    </p>
+            <p xml:id="FrMS88-e73933-d1e228">
+      ¶ Sed hic occurrunt 4or difficultates. 
+      Prima<lb ed="#V" n="56" break="no"/>est. quia pater in diuinis non videtur verus verbo. nec sapiens 
+      <lb ed="#V" n="57"/>verbo: cum tamen veritas et sapientia verbo approprientur. 
+      </p>
+            <p xml:id="FrMS88-e73933-d1e235">
+               <lb ed="#V" n="58"/>¶ Dico quod nulla diuina perfectio est ita verbo appropria 
+      <lb ed="#V" n="59"/>ta: sicut actualis notitia. cui ex natura sua vbi non est inata. 
+      <lb ed="#V" n="60"/>uenit produci per actum dicendi: sicut verbo diuino: et ideo 
+      <lb ed="#V" n="61"/>illa sola verbo appropriatur ratione sue productionis 
+      passi<lb ed="#V" n="62" break="no"/>ue. Alia autem appropriantur sibi ratione sue productionis 
+      <lb ed="#V" n="63"/>actiue.
+    </p>
+            <p xml:id="FrMS88-e73933-d1e251">
+      ¶ 2a difficultas quia sancti qui concedunt quod spiritussanctus et 
+      <lb ed="#V" n="64"/>pater dicunt verbo. negant spiritum sanctum dicere verbum. vt 
+      <lb ed="#V" n="65"/>prtet de Ans. et tamen secundum premissa eo modo quo concediter vterque 
+      <lb ed="#V" n="66"/>dicere verbo: conceditur dicere verbum vniformiter acci¬ 
+      <!--202.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>diendo.
+    </p>
+            <p xml:id="FrMS88-e73933-d1e267">
+      ¶ Dico quod quando negant spiritum sanctum dicere verbum. 
+      <lb ed="#V" n="68"/>est accipiendum dicere personaliter: quando autem dicunt spiritum sanctum 
+      <lb ed="#V" n="69"/>dicere verbo. est accipiendum essentialiter: licet non exprimant. hoc 
+      <lb ed="#V" n="70"/>tamen habetur ex intentione dictorum suorum que sunt ad hoc. 
+      </p>
+            <p xml:id="FrMS88-e73933-d1e276">
+               <lb ed="#V" n="71"/>¶ 3a difficultas quia hic non videtur appropriari verbo notitia actua 
+      <lb ed="#V" n="72"/>lis: sed magis econuerso. cum dicitur verbum notitia genita. 
+      ver<lb ed="#V" n="73" break="no"/>bum enim videtur appropriari ipsi notitie actuali: quia 
+      ver<lb ed="#V" n="74" break="no"/>bum accipitur pro actuali notitia genita. non econverso.
+    </p>
+            <p xml:id="FrMS88-e73933-d1e287">
+      ¶ Dico quod 
+      <lb ed="#V" n="75"/>nihil obstat si fiat appropriatio communium personalibus. siue 
+      <lb ed="#V" n="76"/>personalium communibus: sicut dietum est superius in ista distone.
+    </p>
+            <p xml:id="FrMS88-e73933-d1e295">
+      ¶ 4m 
+      <lb ed="#V" n="77"/>fficultas est. si per eundem modum intelligimus patrem et filium diligere 
+      <lb ed="#V" n="78"/>se spiritusancto: sicut intelligimus patrem et filium et spiritum sanctum 
+      <lb ed="#V" n="79"/>dicere verbo.
+    </p>
+            <p xml:id="FrMS88-e73933-d1e304">
+      ¶ Dico quod sic. nisi quia vitatur equocatio: quia 
+      <lb ed="#V" n="80"/>ibi accipitur dilectio. hic dictio. Sed tamen quo vellet equoca. 
+      <lb ed="#V" n="81"/>re de actu spirandi: sicut equocatur de dicere. simile esset. sed hoc 
+      <lb ed="#V" n="82"/>non est in vsu.
+    </p>
+            <p xml:id="FrMS88-e73933-d1e313">
+      ¶ Ad argumentum patet. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

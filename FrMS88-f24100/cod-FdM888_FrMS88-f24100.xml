@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f24100"><!-- l2d43q4 -->
+            <head xml:id="FrMS88-f24100-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f24100-d1e111">
+      Quaestio. iiii. 
+      <lb ed="#V" n="74"/>Quarta quaestio est: vtrum deus sit causa
+      <lb ed="#V" n="75" break="no"/>effectiua peccati.
+    </p>
+            <p xml:id="FrMS88-f24100-d1e118">
+               <lb ed="#V" n="76"/>Est quaedam opinio quod sic 
+      quan<lb ed="#V" n="77" break="no"/>tum ad substratum 
+      <lb ed="#V" n="78"/>T actus: et non quantum ad formale peccati. 
+      </p>
+            <p xml:id="FrMS88-f24100-d1e127">
+               <lb ed="#V" n="79"/>¶ Sed contra. quia a quocumque producitur subiectum: et passio substanti: quia 
+      <lb ed="#V" n="80"/>sunt idem realis: vt dictum est supra. Sed formalis ratio 
+      pecca<lb ed="#V" n="81" break="no"/>ti est per se passio actus praecati: quia blasphemie diuine per se 
+      in<lb ed="#V" n="82" break="no"/>est ratio formalis effectus eius: et per consequens imputabilitas peccai¬ 
+      </p>
+            <p xml:id="FrMS88-f24100-d1e138">
+               <lb ed="#V" n="83"/>¶ Sed dicunt quidam quod hoc solum habet veritatem in passionibus 
+      posi<lb ed="#V" n="84" break="no"/>tiuis non priuatiuis. Sed quod in priuatiuis etiam habeat veritatem 
+      pro<lb ed="#V" n="85" break="no"/>bo: quia sicut pater in diuinis comnunicat filio divitatem per productionem: 
+      <lb ed="#V" n="86"/>ita et incomicabilitatem: et sicut communicat angelo entitatem: ita et 
+      in<lb ed="#V" n="87" break="no"/>corporeitatem: et sicut celo mobilitatem: ita et incorruptitatem: et 
+      <lb ed="#V" n="88"/>puncto indiuisibilitatem.
+    </p>
+            <p xml:id="FrMS88-f24100-d1e155">
+      ¶ Iccirco iuxta hoc introducuntur 
+      <lb ed="#V" n="89"/>4o conclusiones.
+    </p>
+            <p xml:id="FrMS88-f24100-d1e160">
+      ¶ Prima conclusio est. quod deus causat actum malum pecit: quantum 
+      <lb ed="#V" n="90"/>ad substratum: quia concurrit ad causandum istum actum: sicut causa vniversalis et 
+      <lb ed="#V" n="91"/>prima cum causa 2a et particulari. omnis autem causa prima plus influint. etc. 
+      </p>
+            <p xml:id="FrMS88-f24100-d1e167">
+               <lb ed="#V" n="92"/>¶ 2a conclusio quod deus causat priuationem que inest per se: et concomitatu 
+      <lb ed="#V" n="93"/>actum: quia in causando illa non possunt separari ab innuicere: quorum vnum 
+      <lb ed="#V" n="94"/>per se inest alteri.
+    </p>
+            <p xml:id="FrMS88-f24100-d1e176">
+      ¶ 3a conclusio quod deus causat respectum qui per se 
+      in<lb ed="#V" n="95" break="no"/>est actui malo: quia posito fundamento tali ponitur 
+      rela<lb ed="#V" n="96" break="no"/>tio talis. Sed actus malus: vt dictum est: est fundamentum 
+      <lb ed="#V" n="97"/>respectus: et vltimus finis terminus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f24100-d1e185">
+      ¶ 4a conclusio 
+      <lb ed="#V" n="98"/>quod nullum praedictorum causat deus totaliter. sed solum partia 
+      <lb ed="#V" n="99"/>liter: quia est solum causa vniversalis et non particularis.
+    </p>
+            <p xml:id="FrMS88-f24100-d1e192">
+      ¶ Sed contra 4r. 
+      <lb ed="#V" n="100"/>port sic: quia deus non est causa alicuius mali culpe: licet secundum 
+      san<lb ed="#V" n="101" break="no"/>ctos: et secundum scripturam bene possit esse causa mali pene. Dico 
+      <lb ed="#V" n="102"/>quod verum est simpliciter et totaliter. Vel dicendum quod verum est quod deus non 
+      <lb ed="#V" n="103"/>vult mala voluntate antecedente sed consequente: vult enim pactum 
+      <lb ed="#V" n="104"/>tenere et non sugere scilicet quod in omni actione creature assistit in 
+      <lb ed="#V" n="105"/>anndo: et ad bonum et ad malum.
+    </p>
+            <p xml:id="FrMS88-f24100-d1e209">
+      ¶ 2o: quia si deus respectu 
+      <lb ed="#V" n="106"/>peccati est causa partialis: potest etiam esse causa eius totalis: quia potest 
+      <lb ed="#V" n="107"/>supplem vicem cae particularis in genere causare efficientis. Dico quod 
+      <lb ed="#V" n="108"/>verum est quantum ad esse absolutum et positiuum: ideo posset etiam 
+      <lb ed="#V" n="109"/>in me causar e peccatum: sed illud non esset mihi imputatum: quia 
+      <lb ed="#V" n="110"/>llud non esset a me elicitum: et per consequens non causaret respectum 
+      of<lb ed="#V" n="111" break="no"/>fense ad deum: qui non offenditur nisi ex demerito hominis. 
+      </p>
+            <p xml:id="FrMS88-f24100-d1e225">
+               <lb ed="#V" n="112"/>¶ Tertio. quia secundum hoc magis dicibet pecatum deo imputari quam 
+      no<lb ed="#V" n="113" break="no"/>bis. cum immediatius et praestantius agat ad omnem effectum quam 
+      <lb ed="#V" n="114"/>creatura. Dico quod verum est: si deus esset causa particularis: in 
+      <lb ed="#V" n="115"/>quam effectus magis reducitur: vnde nec aliqua causa vniversalis 
+      ef<lb ed="#V" n="116" break="no"/>fectum sibi assimilat: sed partialis aliquando: licet non omnis partialis 
+      <lb ed="#V" n="117"/>sit causa vniuoca.
+    </p>
+            <p xml:id="FrMS88-f24100-d1e241">
+      ¶ 4o. quia Aug. dicit quod peccatum non habet. 
+      <lb ed="#V" n="118"/>causam efficientem sed deficientem. Dico quod intendit tangere solum 
+      <lb ed="#V" n="119"/>causam ex parte hominis ratione deordinationis: que deficit a 
+      <lb ed="#V" n="120"/>causa recte ordinata: iccirco peccatum non habet causam 
+      effi<lb ed="#V" n="121" break="no"/>cientem id est ordinatam ex parte peccantis: sed deficientem id est 
+      <lb ed="#V" n="122"/>veordinatam respectu vltimi finis. vt dictum est. 
+      <lb ed="#V" n="123"/>host predicta consideratione
+      <lb ed="#V" n="124"/>dignum est etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

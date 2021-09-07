@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f07795"><!-- l2d2q2 -->
+            <head xml:id="FrMS88-f07795-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f07795-d1e111">
+      Questio. ii. 
+      <lb ed="#V" n="69"/>SEcunda questio est. Utrum euum 
+      <lb ed="#V" n="70"/>differat realiter abeuiter 
+      <lb ed="#V" n="71"/>nis. et videtur quod non. quia si sic. euum mensura 
+      <lb ed="#V" n="72"/>retur euo: et sic in infinitum.
+    </p>
+            <p xml:id="FrMS88-f07795-d1e122">
+      ¶ Contra. euum 
+      <lb ed="#V" n="73"/>fluit substantia angeli manente. ergo etc. 
+      <lb ed="#V" n="74"/>4conclusio per se scilicet quod prius et posterius in euo 
+      <lb ed="#V" n="75"/>hic patet differunt realiter inter se: et per consequens a substanti 
+      <lb ed="#V" n="76"/>angeli quae est simplex.
+    </p>
+            <p xml:id="FrMS88-f07795-d1e133">
+      ¶ Item per contraria. existentia angeli est 
+      <lb ed="#V" n="77"/>permanens: euum est successiuum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f07795-d1e138">
+      ¶ Item per priuatiua. quia 
+      <lb ed="#V" n="78"/>cum priuatione alicus partis eui stat existentia angeli.
+    </p>
+            <p xml:id="FrMS88-f07795-d1e144">
+      ¶ Item per 
+      <lb ed="#V" n="79"/>contradictoria. quia quando reparatur angelus non repatur euum.
+    </p>
+            <p xml:id="FrMS88-f07795-d1e149">
+      ¶ Te 
+      <lb ed="#V" n="80"/>neo igitur quod realiter differunt.
+    </p>
+            <p xml:id="FrMS88-f07795-d1e154">
+      ¶ Sed hic est di. quia in 
+      essentia<lb ed="#V" n="81" break="no"/>liter ordinatis: et realiter distinctis prius potest esse sine poste 
+      <lb ed="#V" n="82"/>riori: sed substantia angeli est prius suo euo. ergo potest esse sine euo. 
+      </p>
+            <p xml:id="FrMS88-f07795-d1e161">
+               <lb ed="#V" n="83"/>¶ Dicitur quod ita est de facto. quia vna pars euin transit alia 
+      <lb ed="#V" n="84"/>adueniente vel accunte.
+    </p>
+            <p xml:id="FrMS88-f07795-d1e168">
+      ¶ Sed contra. quia si ab illo et ab illo 
+      <lb ed="#V" n="85"/>potest deus separare. ergo ab omnibus simul.
+    </p>
+            <p xml:id="FrMS88-f07795-d1e173">
+      ¶ Dicitur quod deus potest 
+      <lb ed="#V" n="86"/>facere sine euo. et erit in instanti eui existentia angeli.
+    </p>
+            <p xml:id="FrMS88-f07795-d1e179">
+      ¶ Sed 
+      <lb ed="#V" n="87"/>contra. si instans eui realiter differt remanet eadem difficultas si non 
+      <lb ed="#V" n="88"/>eadem ratione nec euum. Vel ergo oportet negare regulam 
+      <lb ed="#V" n="89"/>in relatiuis. vel dicere quod substantia angeli et eui sunt simul 
+      <lb ed="#V" n="90"/>natura sicut relatiua. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

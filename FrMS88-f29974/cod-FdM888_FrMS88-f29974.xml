@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="172-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f29974"><!-- l3d4q1 -->
+            <head xml:id="FrMS88-f29974-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f29974-d1e111">
+               <lb ed="#V" n="69"/>Cum vero incarnatio verbi etc. 
+      <lb ed="#V" n="70"/>CIrca distinctionem quartam. Queritur vtrum 
+      <lb ed="#V" n="71"/>conceptio virginis actiua 
+      <lb ed="#V" n="72"/>respectu verbi fuerit supernaturalis: 
+      <lb ed="#V" n="73"/>videtur quod non: quia illud quod ibi spiritus 
+      <lb ed="#V" n="74"/>sanctus operatus est: solum 
+      superna<lb ed="#V" n="75" break="no"/>turale fuit: sed operatio actiua 
+      vir<lb ed="#V" n="76" break="no"/>ginis fuit a beata virgine: non a spi 
+      <lb ed="#V" n="77"/>ritu sancto.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e133">
+      ¶ Contra. quia Dionysius 
+      <lb ed="#V" n="78"/>dicit quod contra legem nature fuit conceptus christus de 
+      san<lb ed="#V" n="79" break="no"/>guinibus virginis: sed spiritus naturales sanguinum se 
+      ha<lb ed="#V" n="80" break="no"/>buerunt actiue ad formationem corporis christi de 
+      vir<lb ed="#V" n="81" break="no"/>gine. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e144">
+      ¶ hic sunt octo articuli per ordinem 
+      <lb ed="#V" n="82"/>declarandi.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e149">
+      ¶ Primus est de angelica salutatione. 
+      </p>
+            <p xml:id="FrMS88-f29974-d1e153">
+               <lb ed="#V" n="83"/>¶ Secundus de salutationis susceptione.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e158">
+      ¶ Tertius 
+      <lb ed="#V" n="84"/>de diuine virtutis operatione.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e163">
+      ¶ Quartus de 
+      virgi<lb ed="#V" n="85" break="no"/>nis cooperatione.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e168">
+      ¶ Quintus de christi in virgine 
+      ha<lb ed="#V" n="86" break="no"/>ditatione.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e173">
+      ¶ Sextus de parturitione.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e176">
+      ¶ Septimus 
+      <lb ed="#V" n="87"/>de virginis ad christum filium maternitate.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e182">
+      ¶ 
+      Octa<lb ed="#V" n="88" break="no"/>uus de christi ad matrem filiatione. 
+      <lb ed="#V" n="89"/>primus articulus de angelica 
+      saluta<lb ed="#V" n="90" break="no"/>Est igitur tione. de qua Tuce. io. c. dicitur. 
+      mis<lb ed="#V" n="91" break="no"/>sus est angelus gabriel etc. Et sequitur ingressus 
+      an<lb ed="#V" n="92" break="no"/>gelus ab eam etc.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e195">
+      ¶ Sed dubium est de angeli perso 
+      <lb ed="#V" n="93"/>nalitate. si gabriel est nomen officii vel persone. Dicunt 
+      <lb ed="#V" n="94"/>aliquin quod officii: quia ipse fortitudo dei interpretatur: 
+      <lb ed="#V" n="95"/>et est missus ad opus fortissimum et miraculosum a 
+      <lb ed="#V" n="96"/>deo etc.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e206">
+      ¶ Sed melius creditur quod est nomen persone: 
+      <lb ed="#V" n="97"/>sicut est michael et raphael.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e211">
+      ¶ Sed dubium est de 
+      quo<lb ed="#V" n="98" break="no"/>ordine.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e216">
+      ¶ Dicunt aliqui quod fuit de ordine angelorum 
+      <lb ed="#V" n="99"/>vel archangelorum: quia superiores ordines non 
+      mit<lb ed="#V" n="100" break="no"/>tuntur. Sed hoc non valet: quia angelus missus ad 
+      <lb ed="#V" n="101"/>Isaiam fuit de ordine seraphin. volauit inquit ad me 
+      <lb ed="#V" n="102"/>vnus de seraphin: et in manu eius calculus etc. Ideo 
+      <lb ed="#V" n="103"/>non fuit de ordine archangelorum deputatus forte ad  
+      <lb ed="#V" n="104"/>custodiam virginis: sed forte ordine seraphin ex priui 
+      <lb ed="#V" n="105"/>legio speciali.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e234">
+      ¶ Sed dubium est qualiter angelus 
+      <lb ed="#V" n="106"/>virgini apparuit. Dicitur autem quod fuit apparitio 
+      cor<lb ed="#V" n="107" break="no"/>poralis mediante corpore assumpto. locutio etiam 
+      an<lb ed="#V" n="108" break="no"/>teli fuit sensibilis et non intelligibilis. non autem in 
+      <lb ed="#V" n="109"/>loco vel plantea communi: sed in penetralibus domus: 
+      <lb ed="#V" n="110"/>vbi virgo abscondita laudabat deum et adorabat. 
+      </p>
+            <p xml:id="FrMS88-f29974-d1e248">
+               <lb ed="#V" n="111"/>¶ Sed dubium est de tempore: dicit Monauentura quod 
+      <lb ed="#V" n="112"/>hora completorii: qua christus fuit in sepulchro.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e255">
+      ¶ Alii 
+      <lb ed="#V" n="113"/>dicunt quod in medio noctis silentio propter illud 
+      ver<lb ed="#V" n="114" break="no"/>bum sacre scripture: dum medium silentium tenerent 
+      <lb ed="#V" n="115"/>omnia et nox etc. quod verbum ad litteram de incarnatio 
+      <lb ed="#V" n="116"/>ne verbi dictum est. Sed vtrunque fieri potuit quod 
+      ange<lb ed="#V" n="117" break="no"/>lus ad virginem forte hora completorii veniret: et 
+      cir<lb ed="#V" n="118" break="no"/>ca noctis silentium virgo eius dictis assentiret: quia 
+      <lb ed="#V" n="119"/>pie creditur quod diu cum ipsa in diuinis colloquiis fuit: 
+      <lb ed="#V" n="120"/>eam informando et docendo.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e275">
+      ¶ Unde notandum quod 
+      <lb ed="#V" n="121"/>decem vicibus idem angelus gabriel propter istius 
+      in<lb ed="#V" n="122" break="no"/>carnationis mysterium in scriptura apparuit.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e282">
+      ¶ Pri 
+      <lb ed="#V" n="123"/>mo quidem Danieli reuelando ei quod lapis abscisus 
+      si<lb ed="#V" n="124" break="no"/>ne manibus erat christus.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e289">
+      ¶ Secundo Facharie 
+      pro<lb ed="#V" n="125" break="no"/>beato Idanne vbi de conceptione christi aliquid 
+      teti<lb ed="#V" n="126" break="no"/>git.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e296">
+      ¶ Tertio beate virgini.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e300">
+      ¶ Quarto eidem virgi 
+      <lb ed="#V" n="127"/>ni interum.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e305">
+      ¶ Quinto pastoribus.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e308">
+      ¶ Sexto magis. 
+      </p>
+            <p xml:id="FrMS88-f29974-d1e311">
+               <lb ed="#V" n="128"/>¶ Septimo ipsi Ioseph in somnis: vt fugeret in 
+      egy<lb ed="#V" n="129" break="no"/>ptum.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e318">
+      ¶ Octauo eidem vt rediret in terram iuda. 
+      </p>
+            <p xml:id="FrMS88-f29974-d1e321">
+               <lb ed="#V" n="130"/>¶ Nono apostolis in galileam.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e327">
+      ¶ Decimo 
+      aposto<lb ed="#V" n="131" break="no"/>lis post christi resurrectionem. 
+      <!--348.xml-->
+      <pb ed="#V" n="173-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>est de 
+      salutatio<lb ed="#V" n="2" break="no"/>Secundus articulus nis susceptionem 
+      <lb ed="#V" n="3"/>et quomodo ipsa virgo habuit seipsam in suscipiendo.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e345">
+      ¶ Et pri 
+      <lb ed="#V" n="4"/>est dubium quid ipsa cogitabat. Dicitur quod mysterium 
+      incai<lb ed="#V" n="5" break="no"/>nationis verbi: quod in salutatione sibi extitit reuelatum. 
+      </p>
+            <p xml:id="FrMS88-f29974-d1e352">
+               <lb ed="#V" n="6"/>¶ Sed tunc est dubium quodo turbata est. Dicunt quidam quod 
+      <lb ed="#V" n="7"/>etiam sibi cum hoc fuit mysterium passionis filii reuelatum: 
+      <lb ed="#V" n="8"/>et propter hoc simul cum cogitatione fuit turbata.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e361">
+      ¶ Alii 
+      <lb ed="#V" n="9"/>dicunt et melius quod licet mysterium incarnationis fuerit sibi 
+      re<lb ed="#V" n="10" break="no"/>uelatum: non tamen modus quo virgo pareret: et ideo time 
+      <lb ed="#V" n="11"/>bat ne hoc esset vel fieret cum non integritate 
+      illibatissi<lb ed="#V" n="12" break="no"/>me virginitatis sue: malebat enim virgo concipere quam non virgo. 
+      </p>
+            <p xml:id="FrMS88-f29974-d1e372">
+               <lb ed="#V" n="13"/>¶ Iccirco de hoc timebat: et forte plus appetiit esse vit 
+      <lb ed="#V" n="14"/>go quam verbum concipere sine virginitate. virginitas enim est de 
+      <lb ed="#V" n="15"/>numero laudabilium: verbum autem concipere est de numero 
+      honora<lb ed="#V" n="16" break="no"/>bilium: circa que non est virtus: sed priemium virtutis. primium 
+      <lb ed="#V" n="17"/>vero honorabile: sed virtus laudabilis. Sed virtus magis 
+      <lb ed="#V" n="18"/>est appetenda quod honor: igitur virtus est magis eligenda quam 
+      <lb ed="#V" n="19"/>premium virtutis: quia homo circa virtutem meretur: non autem 
+      <lb ed="#V" n="20"/>circa praemium: quia non est in potestate sua.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e392">
+      ¶ Sed quid est 
+      <lb ed="#V" n="21"/>de virginis obedientia. Obedientia enim secundum philosophos nihil aliud 
+      <lb ed="#V" n="22"/>est quam legalis iustitia quae quis bene se habet ad totam legem. Il 
+      <lb ed="#V" n="23"/>le vero bene se habet ad totam legem qui est obediens circa 
+      <lb ed="#V" n="24"/>oncepta legis diuine: et etiam interdum legis humane: inquantum 
+      <lb ed="#V" n="25"/>bonus rex non est aliud quam lex bona.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e406">
+      ¶ Si ergo 
+      huma<lb ed="#V" n="26" break="no"/>na praecepta sunt secundum debitam rationem ordinata: aliquis bene 
+      <lb ed="#V" n="27"/>se habens erga ipsa: bene se habet ad legem. talis autem vere 
+      obe<lb ed="#V" n="28" break="no"/>diens dicitur.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e415">
+      ¶ Sed quid de eius humilitate: qua se 
+      voca<lb ed="#V" n="29" break="no"/>uit ancillam.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e420">
+      ¶ Dicendum quod potior fuit sua virginitate: quia 
+      perfe<lb ed="#V" n="30" break="no"/>ctio virtutis attenditur circa excessum sui vitii sibi 
+      opposi<lb ed="#V" n="31" break="no"/>ti circa eandem materiam. Intemperantia vero que est circa 
+      dele<lb ed="#V" n="32" break="no"/>ctationes tactus non est maius vitium: propter quod castitas 
+      <lb ed="#V" n="33"/>que ad temprantiam reducitur est inferior vtus inter 
+      car<lb ed="#V" n="34" break="no"/>dinales: sed superbia contra quam militat humilitas est ma 
+      <lb ed="#V" n="35"/>ius vitium. Ergo ex isto sumitur quod plus placuit deo ma 
+      <lb ed="#V" n="36"/>rie humilitas quam sua virginitas: quia illa virtus laudabilior 
+      <lb ed="#V" n="37"/>est: cuius oppositum vitium peius est et detestabilius.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e440">
+      ¶ Sed 
+      <lb ed="#V" n="38"/>quid de consensu virginis marie. Dicendum quod consensus eius fuit 
+      <lb ed="#V" n="39"/>actus credendi diuino oraculo per angelum reuelato: et etiam 
+      <lb ed="#V" n="40"/>actus volendi obedire et subiici dispositioni et ordinationi 
+      di<lb ed="#V" n="41" break="no"/>uine.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e451">
+      ¶ Sed dubium est. si consensus eius fuit causa conceptionis 
+      <lb ed="#V" n="42"/>verbi.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e456">
+      ¶ Dicendum quod sic ex ordinatione divina: sicut effectus 
+      essen<lb ed="#V" n="43" break="no"/>tialiter ordinati dicuntur causa non per quam: sed sine qua: non sicut 
+      <lb ed="#V" n="44"/>sacramenta ex ordinatione diuina sunt causa gratie. 
+      <lb ed="#V" n="45"/>est de spiritus scieti 
+      operatio<lb ed="#V" n="46" break="no"/>Tertius articulus ne.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e468">
+      ¶ Ubi est 
+      notan<lb ed="#V" n="47" break="no"/>dum quod in materiae prime creatione deus praeuidit primo 
+      aliquan<lb ed="#V" n="48" break="no"/>eius portionem que postea transfunderetur in virginem ad 
+      <lb ed="#V" n="49"/>formandum corpus christi: et hoc congruebat: quod ex 
+      purissi<lb ed="#V" n="50" break="no"/>ma materia formaretur. Ista autem iam dicta portio materiae primo 
+      <lb ed="#V" n="51"/>fuit sub ista parte elementi terre: vnde homo primus de 
+      <lb ed="#V" n="52"/>debat formari: et deinceps quando fuit eua formata de 
+      co<lb ed="#V" n="53" break="no"/>sta transfusa est ista portio in mulierem: quia prius 
+      ordina<lb ed="#V" n="54" break="no"/>ta fuerat in costam: et deinceps semper per successionem 
+      <lb ed="#V" n="55"/>transfusa est illa portio vel aliquid eius secundum 
+      corpulen<lb ed="#V" n="56" break="no"/>tam substantiam vsque ad parentes marie: et de ipsis in virginem: 
+      <lb ed="#V" n="57"/>et de virgine in christum vel in corpus christi.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e494">
+      ¶ Sed dubium 
+      <lb ed="#V" n="58"/>est si ista transfusio illius materiae fieri potuit naturaliter.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e499">
+      ¶ Dicendum 
+      <lb ed="#V" n="59"/>quod non: sed per divinum miraculum: quia per consumptionem 
+      <lb ed="#V" n="60"/>humidi radicalis infinities potuisset resolui si non 
+      fuis<lb ed="#V" n="61" break="no"/>set a deo specialiter preseruata.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e508">
+      ¶ Primo igitur fuit in 
+      vir<lb ed="#V" n="62" break="no"/>gine diuina virtute sanguinum collectio. et hoc in virginis 
+      <lb ed="#V" n="63"/>vtero.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e515">
+      ¶ Secundo forme corporis introductio.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e518">
+      ¶ Tertio 
+      <lb ed="#V" n="64"/>forme sanguinis explilctrio.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e524">
+      ¶ Quarto corporis organiza 
+      <lb ed="#V" n="65"/>tio.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e529">
+      ¶ Quito anime christi infusio: et omnis predicta sunt facta 
+      <lb ed="#V" n="66"/>in vno instanti.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e534">
+      ¶ Sed tunc est dubium. quia secundum hoc deus 
+      <!--348.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>fecit contraria in eodem instanti: que simul esse non 
+      pos<lb ed="#V" n="68" break="no"/>sunt: quia contraria videntur sanguinum collectio et eorum 
+      expul<lb ed="#V" n="69" break="no"/>sio.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e547">
+      ¶ Dicendum quod licet deus idem corpus non posset mo 
+      <lb ed="#V" n="70"/>uere ad formas contrarias absolutas: potest tamen idem corpus 
+      <lb ed="#V" n="71"/>mouere ad formas contrarias respectiuas: vel ad contraria. 
+      <lb ed="#V" n="72"/>vbi sicut potest facere idem corpus in diuersis locis 
+      con<lb ed="#V" n="73" break="no"/>trariis. vel quod idem referatur ad diuersa. vnde ille due actio 
+      <lb ed="#V" n="74"/>nes non sunt magis contrarie vel incompossibiles quam ipsorum 
+      termi<lb ed="#V" n="75" break="no"/>ni. Si ergo deus potest facere idem corpus numero in 
+      di<lb ed="#V" n="76" break="no"/>uersis locis contrariis: vel distinctis: potest ipsum mouere 
+      <lb ed="#V" n="77"/>ad illa: sic autem est in proposito: quia collectio sanguis est 
+      mo<lb ed="#V" n="78" break="no"/>tus localis. Iccirco est compossibilis cum expulsione 
+      for<lb ed="#V" n="79" break="no"/>me sanguinis licet sit expulsio forme absolute. Sed in 
+      <lb ed="#V" n="80"/>ductio forme corporis organici non est simul cum illa ex 
+      <lb ed="#V" n="81"/>pulsione: quia ambe sunt forme absolute. 
+      <lb ed="#V" n="82"/>est de virginis 
+      coopora<lb ed="#V" n="83" break="no"/>Quartus articulus tione.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e580">
+      ¶ Circa quod 
+      <lb ed="#V" n="84"/>introducuntur 4or conclusiones.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e585">
+      ¶ Prima est quod in generatione naturali 
+      pro<lb ed="#V" n="85" break="no"/>lis pater non solum se habet in ratione principii actiui. sed etiam pas 
+      <lb ed="#V" n="86"/>siui. habet enim se pater actiue respectu prolis: quia habet potentiam 
+      <lb ed="#V" n="87"/>generatiuam. habet se etiam passiue: quia nulla proles haberet 
+      con<lb ed="#V" n="88" break="no"/>substantialitatem cum patre nisi in se et in sua substantia aliquid 
+      <lb ed="#V" n="89"/>transiret de substantia patris et materia eius. Si enim esset solum pater: quia 
+      <lb ed="#V" n="90"/>menstrua mulleris transmutaret. tunc sol posset dici 
+      pa<lb ed="#V" n="91" break="no"/>ter: eo quod actiue se habet sol intransmutando.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e604">
+      ¶ Secunda conclusio 
+      <lb ed="#V" n="92"/>quod in gnatione naturali prolis matetur se habet non solum passiue. sed etia 
+      <lb ed="#V" n="93"/>actiue. quia potentia vegetatiua. seu vis generatiua in viro et in 
+      <lb ed="#V" n="94"/>muliere sunt eiusdem rationis. sed quecumque habent easdem 
+      poten<lb ed="#V" n="95" break="no"/>tias possunt in eosdem effectus illarum potentiarum. igitur etc. 
+      </p>
+            <p xml:id="FrMS88-f29974-d1e615">
+               <lb ed="#V" n="96"/>¶ Tertia conclusio. quod pater in generatione se habet actiue principaliter 
+      <lb ed="#V" n="97"/>quia eius virtus est intensior et perfectior.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e622">
+      ¶ Quarta conclusio. 
+      <lb ed="#V" n="98"/>quod mater in administratione materiae principaliter se habet: quia plus 
+      <lb ed="#V" n="99"/>de materia administrat et minus sua vis actiua sufficit.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e629">
+      ¶ Sed 
+      <lb ed="#V" n="100"/>contra praedicta per ordinem instatur.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e634">
+      ¶ Primo: quia secundum hoc 
+      <lb ed="#V" n="101"/>tantum posset intendi vis actiua matris quod cum sole sine viro 
+      <lb ed="#V" n="102"/>poterit concipere: ex quo habent potentias generatiuas eiusdem 
+      <lb ed="#V" n="103"/>rationis.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e643">
+      ¶ Dicendum quod virtus generatiua mulleris scilicet menstruum 
+      <lb ed="#V" n="104"/>non est sufficienter digestum vt sufficiat ad actualitatem 
+      <lb ed="#V" n="105"/>posset tamen in tantum intendi quod sufficeret: ex quo est eiusdem 
+      ratio<lb ed="#V" n="106" break="no"/>nis cum principio actiuo viri quia si duo homines possunt trahere 
+      na<lb ed="#V" n="107" break="no"/>uem: in tantum posset virtus vnius intendi quod vnus sufficeret 
+      <lb ed="#V" n="108"/>ad trahendum. sic dicendum est de virtute passiua. Sed tunc 
+      <lb ed="#V" n="109"/>mater esset respectu prolis pater et tanta esset germanitas et 
+      <lb ed="#V" n="110"/>propinquitas eius ad illam quanta esset simul ad vtrumque 
+      <lb ed="#V" n="111"/>parentum.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e664">
+      ¶ Item 2o: quia secundum hoc totum semen ageret in 
+      <lb ed="#V" n="112"/>totum: quia semen viri in semine mulleris et econverso.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e669">
+      ¶ Dicendum 
+      <lb ed="#V" n="113"/>quod quando facta est seminum commixtio: tunc actiuum viri et 
+      <lb ed="#V" n="114"/>mulleris agit in totum passiuum vtriusque.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e676">
+      ¶ Item 3o 
+      <lb ed="#V" n="115"/>quia maior est germanitas et propinquitas prolis ad matrem 
+      <lb ed="#V" n="116"/>quam ad patrem: quia plus de materia administrat. et cum hoc acti 
+      <lb ed="#V" n="117"/>ue se habet.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e685">
+      ¶ Dicendum quod germanitas attenditur per 
+      comperatio<lb ed="#V" n="118" break="no"/>nem ad principia actiua seminum: et quia pater principaliter se 
+      ha<lb ed="#V" n="119" break="no"/>bet in hoc vt dictum est. ideo etc. Unde quantumcumque 
+      abun<lb ed="#V" n="120" break="no"/>daret semen mulleris non sufficeret eo quod est indigestum 
+      <lb ed="#V" n="121"/>nisi intenderetur virtus eius actiua. vnde magis sunt 
+      di<lb ed="#V" n="122" break="no"/>gesti spiritus in semine viri ad generandum quam mulleris. 
+      </p>
+            <p xml:id="FrMS88-f29974-d1e698">
+               <lb ed="#V" n="123"/>¶ Et iuxta hoc ad propositum introducuntur alie 
+      due<lb ed="#V" n="124" break="no"/>onclusiones.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e705">
+      ¶ Prima est. quod beata virgo Maria non se habuis 
+      <lb ed="#V" n="125"/>totaliter actiue in generatione sue benedicte prolis: vel 
+      <lb ed="#V" n="126"/>quod idem est: non causauit eam totaliter in genere 
+      <lb ed="#V" n="127"/>cause efficientis. quia alites posset aliqua mater suffice 
+      <lb ed="#V" n="128"/>re sine viro ad prolem.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e717">
+      ¶ Secunda conclusio. quod bea 
+      <lb ed="#V" n="129"/>ta virgo Maria suam benedictam prolem causauit vel 
+      <lb ed="#V" n="130"/>generauit totaliter in genere cause materialis: quia ibi nulla 
+      <lb ed="#V" n="131"/>alia materia concurrit nisi purissimi sanguines virginis marie. 
+      <lb ed="#V" n="132"/>habuit autem beata virgo Maria verum semen: quod 
+      <!--349.xml-->
+      <pb ed="#V" n="173-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>est prolis et generationis verum principium actiuuum: non tamen omnino digestum. 
+      <lb ed="#V" n="2"/>Sed spiritus sanctus illud semen vel illum sanguinem 
+      vltima<lb ed="#V" n="3" break="no"/>te digessit: vt sic haberet sufficientes spiritus actiuos ad 
+      di<lb ed="#V" n="4" break="no"/>gerendum.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e743">
+      ¶ Sed tunc est dubium: si deus posset face 
+      <lb ed="#V" n="5"/>re fetum vel prolem de patre tantum sine matre: sicut fecit econverso in bea 
+      <lb ed="#V" n="6"/>ta maria virgine.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e750">
+      ¶ Dicendum quod sic supplendo quod deficeret 
+      <lb ed="#V" n="7"/>ex parte mulleris: videlicet materiam in qua: seu subiectum recepti 
+      <lb ed="#V" n="8"/>uum quod suppleret mediante aliqua creatura valet aere vel 
+      <lb ed="#V" n="9"/>aliquo alio huiusmodi
+    </p>
+            <p xml:id="FrMS88-f29974-d1e759">
+      ¶ Sed adhuc remanet dubium ad quid 
+      <lb ed="#V" n="10"/>beata virgo Maria respectu prolis cooprata est spiritui 
+      san<lb ed="#V" n="11" break="no"/>cto agenti in principio actiuo.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e766">
+      ¶ Dicendum quod ad formam carnis 
+      <lb ed="#V" n="12"/>solum non ad transubstantiationem sanguinis vel ad in 
+      <lb ed="#V" n="13"/>troductionem organizationis: quia illa tantum a deo fuerunt 
+      <lb ed="#V" n="14"/>vt dictum est.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e775">
+      ¶ Sed hoc est dubium: quia introductio forme 
+      <lb ed="#V" n="15"/>carnis cum sit genero praesupponit alterationem que non 
+      pre<lb ed="#V" n="16" break="no"/>cessit secundum predicta.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e783">
+      ¶ Dicendum quod non oportet quod praecedat: quia hoc 
+      <lb ed="#V" n="17"/>solum verbum est in actione pure naturali que dispositionibus 
+      <lb ed="#V" n="18"/>preuiis indiget in agendo. Uerumtamen facta per agens naturale 
+      <lb ed="#V" n="19"/>immediate in passum sibi proportionatum potest inducere 
+      for<lb ed="#V" n="20" break="no"/>mam. sic fuit in proposito. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e794">
+      ¶ Est tamen notandum quod 
+      <lb ed="#V" n="21"/>per divinam potentiam et forte naturaliter aliquo modo 
+      pos<lb ed="#V" n="22" break="no"/>set virgo generare et mulier virgo concipere si tamen esset seminum 
+      <lb ed="#V" n="23"/>commixtio sine vtriusque libidine: vel quomodolicet aliter dorminen 
+      <lb ed="#V" n="24"/>do. Unde dicit Aristoteles. quod virgo potest in balneo concipere: et 
+      <lb ed="#V" n="25"/>aliquando de facto accidit: non tamen virgo posset per naturam 
+      pare<lb ed="#V" n="26" break="no"/>re: quia ibi requritur necessario apertio claustrorum violenta: quae 
+      <lb ed="#V" n="27"/>in seminis emissione simplici vel receptione vel conce 
+      <lb ed="#V" n="28"/>ptione non necessario requiritur. Sed de communi lege 
+      <lb ed="#V" n="29"/>non fit sine fractione integritatis. 
+      <lb ed="#V" n="30"/>est de christi habitatio 
+      <lb ed="#V" n="31"/>Quintus articulus ne in virgine. Ubi 
+      <lb ed="#V" n="32"/>duo vel tria priuilegia fuerunt.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e823">
+      ¶ Primum quod christus secundum se 
+      <lb ed="#V" n="33"/>totum fuit de substantia matris.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e828">
+      ¶ Secundum: quia decem mensibus 
+      <lb ed="#V" n="34"/>fuit in vtero matris: quia a medio martii vsque ad finem 
+      de<lb ed="#V" n="35" break="no"/>cembris. et hoc est quod scriptura in persona christi dicit. decem 
+      <lb ed="#V" n="36"/>mensibus in vtero matris alitus sum: quia duo tantum menses 
+      <lb ed="#V" n="37"/>excluduntur in quibus christus non habitauit in virgine corpora 
+      <lb ed="#V" n="38"/>liter scilicet Ianuarius et februarius.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e841">
+      ¶ Tertium est quod in 
+      vte<lb ed="#V" n="39" break="no"/>ro matris vere potuit nutriri et augerin sine discretione scilicet 
+      <lb ed="#V" n="40"/>vel grauidatione: quod videtur aliquibus multum difficile. 
+      <lb ed="#V" n="41"/>est de virginis 
+      parturi<lb ed="#V" n="42" break="no"/>Sextus articulus tione.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e852">
+      ¶ Ubi notandum 
+      <lb ed="#V" n="43"/>quod christus in matris vtero tantam quantitatem habuit sicut alii 
+      <lb ed="#V" n="44"/>pueri communiter: et tunc est dubium quo ex vtero exiens 
+      ser<lb ed="#V" n="45" break="no"/>uare potuit matris virginis integritatem.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e862">
+      ¶ Dicendum quod christi 
+      <lb ed="#V" n="46"/>corpus in matris vtero vere habuit ordinem partium in to 
+      <lb ed="#V" n="47"/>to: et non ordinem partium in loco sicut ipse in hostia habet. 
+      <lb ed="#V" n="48"/>ideo non erat ibi distinctio localis: sed solum 
+      diffiniti<lb ed="#V" n="49" break="no"/>ue: et tunc potuit egredi de vtero virginis per claustra 
+      si<lb ed="#V" n="50" break="no"/>ne ipsorum aptione. Nec oportet ibi ponere nouum miraculum 
+      <lb ed="#V" n="51"/>quod duo corpora fuerunt in eodem loco localiter: sed vnum 
+      cor<lb ed="#V" n="52" break="no"/>pus fuit diffinitiue in alio.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e880">
+      ¶ Sed tunc est dubium si christus 
+      <lb ed="#V" n="53"/>sic erat in vtero virginis quomodo ali potuit cum corpi sic 
+      existen<lb ed="#V" n="54" break="no"/>ti actiones naturales non conueniant. quia praesupponunt corpus 
+      <lb ed="#V" n="55"/>esse in loco. vide de hoc in 4o li. si potest saluari vel si non 
+      <lb ed="#V" n="56"/>relinquatur diuine adminrationi.
+    </p>
+            <p xml:id="FrMS88-f29974-d1e891">
+      ¶ Septimum articulus 
+      <lb ed="#V" n="57"/>erat de maternitate. 8us articulus de filiatione.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

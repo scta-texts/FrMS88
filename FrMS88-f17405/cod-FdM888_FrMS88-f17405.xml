@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f17405"><!-- l2d14q8 -->
+            <head xml:id="FrMS88-f17405-Hd1e108">Quaestio 8</head>
+            <p xml:id="FrMS88-f17405-d1e111">
+      Quaestio. viii. 
+      <lb ed="#V" n="44"/>Quarta questio est. Utrum inter duos 
+      <lb ed="#V" n="45"/>motus contrarios intercidatur 
+      <lb ed="#V" n="46"/>necessario quies. Et videtur quod sic: quia 
+      <lb ed="#V" n="47"/>intellectus hoc iudicat.
+    </p>
+            <p xml:id="FrMS88-f17405-d1e122">
+      ¶ Contra. quia 
+      <lb ed="#V" n="48"/>sensus dicit oppositum. 
+      <lb ed="#V" n="49"/>opinio Aristotelis quod sic: quia idem non 
+      <lb ed="#V" n="50"/>hec fuit potest moueri motibus contraris.
+    </p>
+            <p xml:id="FrMS88-f17405-d1e131">
+      ¶ Sed 
+      comn<lb ed="#V" n="51" break="no"/>tra istud arguiter 4r. Primo sic. Quandocunque est aliquod 
+      <lb ed="#V" n="52"/>mobile quod in aliquo mutato esse est indifferes ad 
+      con<lb ed="#V" n="53" break="no"/>trarios motus potest agens liberum ad alterum istorum mo 
+      <lb ed="#V" n="54"/>uere si contineat virtualiter: sed corpus celi est indifferens 
+      <lb ed="#V" n="55"/>secundum se in quolibet mutato esse ad ante et retro: 
+      quando<lb ed="#V" n="56" break="no"/>ergo est in mutato esse in toto tempore sequenti poterit 
+      indu<lb ed="#V" n="57" break="no"/>ci motus alius.
+    </p>
+            <p xml:id="FrMS88-f17405-d1e149">
+      ¶ Secundo sic. in primo instanti in quo con 
+      <lb ed="#V" n="58"/>lum incepit moueri: potuit moueri ad dexteram et ad 
+      <lb ed="#V" n="59"/>finistram. ergo in primo mutato esse creationis fuit aptum 
+      <lb ed="#V" n="60"/>moueri vtroque modo: sed in quolibet mutato esse est 
+      <lb ed="#V" n="61"/>in eadem dispositione: sicut tunc. ergo etc. Si neges de 
+      <lb ed="#V" n="62"/>celo: non potes negare de rota figuli. in primo enim in 
+      <lb ed="#V" n="63"/>stanti potuit moueri ad vtranque partem. in quolibet 
+      <lb ed="#V" n="64"/>enim mutato esse est in eadem dispositione. Secunda ratio 
+      <lb ed="#V" n="65"/>est hec. in motu perpendiculari ponantur due linee a. b. et 
+      <lb ed="#V" n="66"/>pono quod ista mobilia sint eiusdem generis: et simililiter sint 
+      <!--315.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>motiua sibi coniuncta in eodem mutato esse: vnum 
+      mo<lb ed="#V" n="68" break="no"/>uet aliud: aliud ad vnam partem: et alterum ad aliam: et 
+      ma<lb ed="#V" n="69" break="no"/>nifestum est quod potest mouere illud quod est eiusdem rationis cum 
+      <lb ed="#V" n="70"/>illo.
+    </p>
+            <p xml:id="FrMS88-f17405-d1e185">
+      ¶ Tertio in motu proiectionis in repercussione ex 
+      <lb ed="#V" n="71"/>fractione aeris instatur. aut illud mobile est in instanti. 
+      <lb ed="#V" n="72"/>quo contingit incipere moueri: et habetur intentum. si per tmpus 
+      <lb ed="#V" n="73"/>quiescit: in illo non est fractio aeris: si non: nunquam 
+      moue<lb ed="#V" n="74" break="no"/>bit in ipsum primum.
+    </p>
+            <p xml:id="FrMS88-f17405-d1e196">
+      ¶ Quarto proiiciendo lapidem sursum: 
+      <lb ed="#V" n="75"/>quero si quiescit: causa quietis est eadem cum causa motus.
+    </p>
+            <p xml:id="FrMS88-f17405-d1e201">
+      ¶ Di 
+      <lb ed="#V" n="76"/>cunt aliqui quod debilitata virtute non sufficit ad motum sed 
+      <lb ed="#V" n="77"/>prohibet descensum.
+    </p>
+            <p xml:id="FrMS88-f17405-d1e208">
+      ¶ Contra. in illo tempore medium est quie 
+      <lb ed="#V" n="78"/>tum. et per consequens poterit sic perseuerare. Sumes te de dispositio 
+      <lb ed="#V" n="79"/>ne que remittitur.
+    </p>
+            <p xml:id="FrMS88-f17405-d1e215">
+      ¶ Contra. illa dispositio vel fuit sine 
+      <lb ed="#V" n="80"/>remissione per tempus. ita poterat stare: si remittitur in secunda 
+      <lb ed="#V" n="81"/>parte non sufficiet: et sic in infinitum. Ideo dico quod non oportet 
+      <lb ed="#V" n="82"/>interuenire quietem: et pono exemplum: luna successiue 
+      <lb ed="#V" n="83"/>suscipit incrementum lucis: et decremen:um secundum quod 
+      acce<lb ed="#V" n="84" break="no"/>dit ad solem vel recedit: sed non est dare medium inter illos 
+      <lb ed="#V" n="85"/>actus contrarios: luna autem augetur in lucem per remotionem 
+      <lb ed="#V" n="86"/>vel per accessionem ad solem: sed non est dare tempus 
+      in<lb ed="#V" n="87" break="no"/>quo luna non sit in approximatione vel elongatione a 
+      <lb ed="#V" n="88"/>sole.
+    </p>
+            <p xml:id="FrMS88-f17405-d1e237">
+      ¶ Secundum exemplum de eclypsi solis respectu 
+      ocu<lb ed="#V" n="89" break="no"/>li sunt motus contrarii de videndo vmbram et lucem. Ter 
+      <lb ed="#V" n="90"/>tio constat quod planeta aliquando approximatur: aliquando 
+      <lb ed="#V" n="91"/>elongatur sine quiete media. Et si dicatur quod mouetur ad  
+      <lb ed="#V" n="92"/>formam propter diuersitatem respectiuam: hoc non 
+      va<lb ed="#V" n="93" break="no"/>let: quia sunt ibi motus contrarii: nec est ibi quies aliqua. 
+      <lb ed="#V" n="94"/>Ulterius in solstitiis sol accedit et recedit.
+    </p>
+            <p xml:id="FrMS88-f17405-d1e254">
+      ¶ Dicetur quod 
+      <lb ed="#V" n="95"/>non vadit per lineam rectam: sed per codiacum. Sed hoc 
+      <lb ed="#V" n="96"/>non impedit: quia quocumque modo fiat appropinquat ad 
+      <lb ed="#V" n="97"/>aquilonem et elongatur ab oriente: et econuerso. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f17405-d1e263">
+               <lb ed="#V" n="98"/>¶ Dico igitur quod in vno mutato esse sunt in termino: 
+      <lb ed="#V" n="99"/>et in alio incipit motus sequens.
+    </p>
+            <p xml:id="FrMS88-f17405-d1e270">
+      ¶ Sed contra: tunc idem 
+      <lb ed="#V" n="100"/>mouebitur motibus contrariis. Item idem erit in 
+      termi<lb ed="#V" n="101" break="no"/>no a quo: et ad quem. Ulterius motus non terminatur 
+      <lb ed="#V" n="102"/>nisi in quietem vel in quietem: similiter motus 
+      contra<lb ed="#V" n="103" break="no"/>rius non incipit nisi a priuatione forme. Dico quod 
+      mo<lb ed="#V" n="104" break="no"/>tus non sunt simul: quia motus prior mensuratur tempore 
+      <lb ed="#V" n="105"/>priori: et tempore posteriori motus sequens: in termine 
+      <lb ed="#V" n="106"/>autem non est motus nec quies.
+    </p>
+            <p xml:id="FrMS88-f17405-d1e288">
+      ¶ Ad aliud dico quod 
+      <lb ed="#V" n="107"/>verum est eiusdem motus: vnde quando est terminus 
+      <lb ed="#V" n="108"/>a quo motus sequentis.
+    </p>
+            <p xml:id="FrMS88-f17405-d1e295">
+      ¶ Ad aliud dico quod bene pri 
+      <lb ed="#V" n="109"/>uatio motus est in illo instanti. Exemplum est de 
+      na<lb ed="#V" n="110" break="no"/>ui mota ad orientem et semper ad occidentem moueba 
+      <lb ed="#V" n="111"/>tur primo ad orientem. Similiter de obuiante 
+      mole<lb ed="#V" n="112" break="no"/>quando faciet moram: quia quiesceret mola: nec per 
+      <lb ed="#V" n="113"/>se: nec per accidens potest saluari. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="78-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e57478"><!-- l1d23q1 -->
+            <head xml:id="FrMS88-e57478-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-e57478-d1e111">
+               <lb ed="#V" n="87"/>¶ Distinctio. xxiii. Quaestio. 
+      <lb ed="#V" n="88"/>Predictis adiciendum est etc. 
+      <lb ed="#V" n="89"/>distictionem. 23am. Quero vtrum 
+      <lb ed="#V" n="90"/>Irca persona sit nomen prime 
+      inten<lb ed="#V" n="91" break="no"/>tionis. quod sic. quia quod potest ad 
+      sensum<lb ed="#V" n="92" break="no"/>demonstrari est nomen prime 
+      intentio<lb ed="#V" n="93" break="no"/>nis: huiusmodi est persona: quia tum es filius medus. 
+      </p>
+            <p xml:id="FrMS88-e57478-d1e129">
+               <lb ed="#V" n="94"/>¶ Contra. indiuiduum dicit nomen se 
+      <lb ed="#V" n="95"/>cunde intentionis. ergo et persona. 
+      <lb ed="#V" n="96"/>sciendum est quid sit nomen primo 
+      intentio<lb ed="#V" n="97" break="no"/>hic primo nis vel primo intentio: et 2o de quesito. 
+      </p>
+            <p xml:id="FrMS88-e57478-d1e140">
+               <lb ed="#V" n="98"/>¶ Quantum ad prius introducuntur 4or conclusiones. Prima est quod prima in 
+      <lb ed="#V" n="99"/>tentio non est actus intelligendi.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e147">
+      ¶ hanc probo dupliciter. primo sic. Omnis 
+      <lb ed="#V" n="100"/>actus intelligendi vere et realiter est in genere qualitatis. Prima intentio 
+      <lb ed="#V" n="101"/>non est semper in genere qualitatis. ergo etc. Ma. est communiter concessa. 
+      Mi<lb ed="#V" n="102" break="no"/>de se patet. quia homo et animal ponuntur prime intentiones. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e57478-d1e157">
+               <lb ed="#V" n="103"/>¶ 2o sic. Unus actus intelligendi non praedicatur de alio: quia sunt 
+      <lb ed="#V" n="104"/>indiuidua diuersarum specierum vel eiusdem actus enim quo 
+      intelli<lb ed="#V" n="105" break="no"/>go animal non praedicatur de actu quo intelligo hominem: sed pria 
+      inten<lb ed="#V" n="106" break="no"/>tio praedicatur de prima intentione: sicut haec homo est animal.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e168">
+      ¶ 2a conclusio est. quod 
+      <lb ed="#V" n="107"/>prima intentio non est species intelligibilis. et hoc probatur per eadem 
+      me<lb ed="#V" n="108" break="no"/>dia per quae et prima. tum quia species intelligibilis est in determinato genere 
+      <lb ed="#V" n="109"/>qualitatis. prima intentio non. Tum quia species non praedicatur de specie. 
+      er<lb ed="#V" n="110" break="no"/>go etc.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e179">
+      ¶ 3a conclusio est. quod prima intentio non est quiditas obiecti in esse 
+      <lb ed="#V" n="111"/>cognito.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e184">
+      ¶ hanc probo dupliciter. primo sic. Nullum per se reducitur 
+      <lb ed="#V" n="112"/>ad per accidens: sed per se homo est animal: vt sunt prius intentiones. 
+      Acci<lb ed="#V" n="113" break="no"/>dit autem quod homo vel animal sit in intellectu. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e191">
+      ¶ 2o sic. Aut 
+      im<lb ed="#V" n="114" break="no"/>telligis quod sunt producte a nobis in tali esse: et hoc non dat 
+      <lb ed="#V" n="115"/>sibi esse primas intentiones: quia ab eterno homo fuit animal vt 
+      pri<lb ed="#V" n="116" break="no"/>me intentiones sunt: aut per intellectum diuinum: et hoc non 
+      <lb ed="#V" n="117"/>quia vt praecedunt suum esse intellectum: homo vere est animal.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e202">
+      ¶ 4am 
+      <lb ed="#V" n="118"/>est. quod prima intentio non est quiditas in esse intelligibili. 
+      <lb ed="#V" n="119"/>Cum quia propositio vera in primo modo non verificatur per aliquid partinens 
+      <lb ed="#V" n="120"/>ad 2m modum: sed ista: homo est animal: est vera de primo modo vt 
+      <lb ed="#V" n="121"/>sunt intentiones prime: et non per esse intelligibile: quod est 
+      di<lb ed="#V" n="122" break="no"/>secundo modo.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e216">
+      ¶ 2o. Quod conuenit alicui ex se et per se: et a 
+      se<lb ed="#V" n="123" break="no"/>non conuenit sibi per respectum ad aliquid aliud: sed homini per 
+      <lb ed="#V" n="124"/>et ex se et a se: et quiditatiue competit quod sit animal. quod autem sit in 
+      <lb ed="#V" n="125"/>telligibilis habet per respectum ad intellectum. ergo non est 
+      ani<lb ed="#V" n="126" break="no"/>mal ex eo quod intelligibilis.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e227">
+      ¶ Contra istas conclusiones instatur 
+      <lb ed="#V" n="127"/>4r. Primo quia intentio est intus tentio: sed nulli competit 
+      <lb ed="#V" n="128"/>intus tendere nisi actui intellectus vel voluntatis. ergo 
+      <lb ed="#V" n="129"/>pa intentio erit vel vterque istorum actuum vel alter et hoc 
+      <lb ed="#V" n="130"/>videtur esse de intentione magstri.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e238">
+      ¶ 2o quia quiditas in 
+      <lb ed="#V" n="131"/>specie representata videtur esse prima intentio ex eo quod quidi¬ 
+      <!--160.xml-->
+      <pb ed="#V" n="79-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tas iml praesentata praedicatur: et quiditas illa subiicitur: sed quiditas 
+      <lb ed="#V" n="2"/>non aliquid aliud est quam species in qua relucet. ergo species est 
+      pri<lb ed="#V" n="3" break="no"/>intentio.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e256">
+      ¶ 3o quia posterius non variat rationem formalem prioris: 
+      <lb ed="#V" n="4"/>sed esse cognitum est posterius ipsa quiditate. ergo quiditas sic 
+      pro<lb ed="#V" n="5" break="no"/>ducta in esse cognito non aufert quin ipsa vt sic posset ese 
+      <lb ed="#V" n="6"/>prima intentio: quia non diminuit.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e265">
+      ¶ 4o quia esse essentie videtur esse primum 
+      <lb ed="#V" n="7"/>intentio: sed esse intelligibile non videtur aliud quam esse essentie. 
+      er<lb ed="#V" n="8" break="no"/>go essentia in esse intelligibili videtur esse prima intentio:
+    </p>
+            <p xml:id="FrMS88-e57478-d1e272">
+      ¶ Con 
+      <lb ed="#V" n="9"/>firmatur dupliciter. Primo quia in tali esse quiditates non sunt ab 
+      <lb ed="#V" n="10"/>anima fabricate.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e280">
+      ¶ 2o quia esse intelligibile est habere esse 
+      obie<lb ed="#V" n="11" break="no"/>ctiuum in potentia: sed ex hoc quod aliquid habet esse obiectiuum in 
+      re<lb ed="#V" n="12" break="no"/>dicitur primua intentio. ergo quiditas in esse intelligibili est prima 
+      inten<lb ed="#V" n="13" break="no"/>tio et nihil aliud.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e289">
+      ¶ Ad ista respondeo per ordinem.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e292">
+      ¶ Ad  
+      <lb ed="#V" n="14"/>primam dico quod est equocatio de intentione. oquor enim 
+      <lb ed="#V" n="15"/>de intentionibus illis per quas fit praedicatio et de quibus fit 
+      praedica<lb ed="#V" n="16" break="no"/>tio. Actus autem intelligendi vel volendi non sunt tales 
+      inten<lb ed="#V" n="17" break="no"/>tiones: quia licet homo sit animal: tamen actus intelligendin hominem non est actus 
+      <lb ed="#V" n="18"/>intelligedi animal.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e305">
+      ¶ Ad 2m dico quod non est intelligibile quod 
+      qui<lb ed="#V" n="19" break="no"/>ditas in specie sit aliud a specie. nec est aliud dicere quiditatem 
+      <lb ed="#V" n="20"/>repraesentatam relucere in specie nisi quod species repraesentat quod nihil 
+      <lb ed="#V" n="21"/>aliud est quam intellectum causare intellectionem illius quiditatis. 
+      </p>
+            <p xml:id="FrMS88-e57478-d1e314">
+               <lb ed="#V" n="22"/>¶ Ad 3m dico quod nolo negare quin homo postquam vere 
+      intel<lb ed="#V" n="23" break="no"/>lectus est fit vere prima intentio: sed volo dicere quod esse intellectum 
+      <lb ed="#V" n="24"/>non sibi dat hoc. Exentum homo albus est animal et tamen albedo non 
+      <lb ed="#V" n="25"/>dat sibi esse animal.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e325">
+      ¶ Ad 4m dico quod esse intelligibile non dat 
+      <lb ed="#V" n="26"/>ipsi essentie esse essentie: quia esse essentie habet ex seipsa in primo modo 
+      di<lb ed="#V" n="27" break="no"/>cendi per se: esse autem intelligibile conuenit sibi in 2o modo 
+      dicendi<lb ed="#V" n="28" break="no"/>per se. per hoc autem quod est esse essentie conuenit sibi quod fit primas intentio et 
+      <lb ed="#V" n="29"/>quod praedicetur.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e337">
+      ¶ Ad confirmationes.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e340">
+      ¶ Ad primum dico quod sicut 
+      <lb ed="#V" n="30"/>dicetur inferius: licet non sint tales quiditates secundum esse existentie: tamen non 
+      <lb ed="#V" n="31"/>sunt per animam: sunt enim i esse quiditatiuo.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e347">
+      ¶ Ad 2am dico quod esset 
+      <lb ed="#V" n="32"/>quiditatiuum est prius esse obiectiuo: quia vnum est de primo modo aliud 
+      <lb ed="#V" n="33"/>de 2o. Nunc pono conclusione affirmatiuam scilicet quod prima intentio est 
+      quidi<lb ed="#V" n="34" break="no"/>tas in esse quiditatiuo. Intelligo autem per quiditatem in esse 
+      quidi<lb ed="#V" n="35" break="no"/>tatiuo quiditatem praecisam ab omni alio quod non est de primo modo 
+      dicen<lb ed="#V" n="36" break="no"/>di per se.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e360">
+      ¶ hanc conclusione declaro 4r. Primo per viam 
+      abstractio<lb ed="#V" n="37" break="no"/>nis. Nam abstractiones quibus abstrahunt vniversalia a 
+      singulari<lb ed="#V" n="38" break="no"/>bus siunt per primas intentiones sicut homo ab hoc homine et animal ab 
+      <lb ed="#V" n="39"/>homine: sed tales abstractiones non siunt nisi per quiditates in esse 
+      <lb ed="#V" n="40"/>obiectiuo: ergo primus intentiones sic accipiuntur.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e371">
+      ¶ 2o per viam 
+      diffinio<lb ed="#V" n="41" break="no"/>nis. Nam diffinitiones non dantur de diffinitis nisi per primas inter 
+      <lb ed="#V" n="42"/>tiones: sed diffinitiones non conueniunt diffinitis nisi i esse quiditati 
+      <lb ed="#V" n="43"/>uo. Diffinitio enim et qualibet pars diffinitionis dicitur in primo modo. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e380">
+      ¶ 3o prir 
+      <lb ed="#V" n="44"/>viam diuisionis. Nam diuisiones formales non siunt nisi in esse 
+      <lb ed="#V" n="45"/>quiditatiuo: sed diuisiones formales dantur et siunt per primas 
+      im<lb ed="#V" n="46" break="no"/>tentiones. sicut patet. quia animal diuiditur per rationale et irrationale quae 
+      <lb ed="#V" n="47"/>sunt prim intentiones. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e392">
+      ¶ 4o per viam demonstrationis. Nam de 
+      <lb ed="#V" n="48"/>monstrationes praecise siunt per primas intentiones saltem: quae siunt in 
+      <lb ed="#V" n="49"/>scientiis realibus: sed demonstrationes fiunt per primum rationes 
+      for<lb ed="#V" n="50" break="no"/>males et quiditatiuas. ergo etc. Ma. et mi. sunt materiai.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e401">
+      ¶ Sed 
+      <lb ed="#V" n="51"/>hocest differecntie ce quid intelligitur per esse quiditatiuum. Dico quod sicut dictum 
+      <lb ed="#V" n="52"/>est: et dicetur magis inferius nihil aliud intelligo per esse quiditati: 
+      <lb ed="#V" n="53"/>uum nisi quiditatem in illo esse in quo abstrahit ab omni duratione 
+      <lb ed="#V" n="54"/>necessitate contingentia esse in anima: et extra et ab omnibus talibus. 
+      <lb ed="#V" n="55"/>ad 2m partractandum scilicet de quasito. Utrum 
+      <lb ed="#V" n="56"/>Quantum persona sit nomen primum intentionis.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e417">
+      ¶ In 
+      <lb ed="#V" n="57"/>troducuntur hoc 4or regule per quas euidenter potest cognosci prima et 
+      <lb ed="#V" n="58"/>2a intentio et quomodo prime intentiones distinguuntur a secundis.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e424">
+      ¶ primum 
+      <lb ed="#V" n="59"/>est ista: et accipitur a natura subalternationis sic. Quandocumque 
+      ali<lb ed="#V" n="60" break="no"/>quid est commune et superius assignatur multis: et non est eis 
+      essentia<lb ed="#V" n="61" break="no"/>le: illud est 2a intentio: sicut genus assignatur et dicitur de animali 
+      <lb ed="#V" n="62"/>et lapide: et species de homine et asino et non essentialiter. hec 
+      re<lb ed="#V" n="63" break="no"/>gula non habet instantiam nisi de denominatiua praedicatione.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e437">
+      ¶ 2m 
+      <lb ed="#V" n="64"/>regula accipitur ex naam praedicationis: et est ista. Quicquid 
+      prae<lb ed="#V" n="65" break="no"/>dicatur de superiori et de inferiori affirmatiue et econverso 
+      negati<lb ed="#V" n="66" break="no"/>ue illud est primus intentio: quia quomo alterum de altero praedicatur etc. 
+      <!--160.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>Ista propositio habet solum instantiam in secundis intentionibus et non alibi: quia 
+      <lb ed="#V" n="68"/>dato quod homo sit species: et hoc homo sit homo: non tamen hoc homo est species. vnde 
+      <lb ed="#V" n="69"/>per hoc cognoscitur 2a intentio quando hoc propositio fallit.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e457">
+      ¶ 3a relatia ad 
+      <lb ed="#V" n="70"/>cipitur ex natura diffinitionis: et est ista. Ubi locus a diffinitione tenet: ibi 
+      <lb ed="#V" n="71"/>accipiuntur prius intentiones sicut haec: animal rationale est. ergo homo est: 
+      <lb ed="#V" n="72"/>sed iste locus a diffinitione nec a descriptione non tenet in secundis 
+      inten<lb ed="#V" n="73" break="no"/>tionibus: sicut haec. animal rationale est dffinto. ergo homo est diffinitio: non sequitur 
+      </p>
+            <p xml:id="FrMS88-e57478-d1e469">
+               <lb ed="#V" n="74"/>¶ 4a regula accipitur ex sillogimationibus. Nam quando fit 
+      ar<lb ed="#V" n="75" break="no"/>ex inferioribus ad superiora semper consequentia est realis et bona nisi 
+      <lb ed="#V" n="76"/>in secundis intentionibus: sicut animal egenus. homo est animal. ergo homo est 
+      ge<lb ed="#V" n="77" break="no"/>nus. non sequitur: sed communitur ibi assignatur fallia accidentis.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e480">
+      ¶ Istis 
+      <lb ed="#V" n="78"/>regulis praemissis patere potest quod persona est nomen 2o 
+      litentio<lb ed="#V" n="79" break="no"/>nis et non primuo.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e487">
+      ¶ Ex prima reglasia patet quod persona est superius ad omne 
+      im<lb ed="#V" n="80" break="no"/>diuiduum naturae intellectualis: et tamen non essentiale: quia separatur 
+      <lb ed="#V" n="81"/>indiuiduum a personalitate: sicut in christo fuit.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e494">
+      ¶ Ex 2a regula 
+      <lb ed="#V" n="82"/>patet sic. Quicquid dicitur de superiori et de inferiori: sed persona est 
+      <lb ed="#V" n="83"/>quid commune ad patrem et filium. dicitur autem persona ad se. ergo pater et filius. 
+      <lb ed="#V" n="84"/>similiter pater non est ad se. ergo et persona non est ad se persona. ergo non est primas. 
+      <lb ed="#V" n="85"/>intentio.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e505">
+      ¶ Ex 3a reglsia sic patet. primo. quia persona diffinitur per 
+      indi<lb ed="#V" n="86" break="no"/>uiduum quod est 2a intentio. ergo ipsa est 2a intentio. 2o quia pater diffinitur 
+      <lb ed="#V" n="87"/>per filium: et dicitur pater filii et diffinitur per esse ad aliud. persone ista non 
+      <lb ed="#V" n="88"/>conueniunt: quia persona non est persone persona.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e514">
+      ¶ Ex 4a relatia patet. 
+      <lb ed="#V" n="89"/>Nam pater est persona: sed non est persona filii. ergo non est pater filii. Si autem 
+      <lb ed="#V" n="90"/>esset per sona prima intentio esset bona doetductio. certum autem est quod conclusio i 
+      <lb ed="#V" n="91"/>sequitur: portet ergo quod sic sit scilicet quod persona sit 2a intentio.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e524">
+      ¶ Sed contra istud 
+      <lb ed="#V" n="92"/>instatur 4r. primo sic. Cuicumque conuenit actio et operatio realis ipsum 
+      <lb ed="#V" n="93"/>est prima intentio: sed persone attribuitur actio et operatio realis. ergo etc. 
+      <lb ed="#V" n="94"/>Ma. patet. Mi. probatur. Nam ista est vera: persona creauit mundum 
+      </p>
+            <p xml:id="FrMS88-e57478-d1e533">
+               <lb ed="#V" n="95"/>¶ 2o sic. 2a intentio non est adoranda: persona adoratur.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e538">
+      ¶ 2o sic. 
+      <lb ed="#V" n="96"/>Nulla 2oa intentio constituitur ex duobus realibus: sed persona: 
+      <lb ed="#V" n="97"/>sicut communiter dicitur: constituitur ex essentia et relatione quae sunt entia 
+      <lb ed="#V" n="98"/>realia. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e547">
+      ¶ 4o sic. Nulla prima intentio dicitur per se de 2a 
+      <lb ed="#V" n="99"/>sed deus qui est prius intentio de persona dicitur per se. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e552">
+      ¶ Ad  
+      <lb ed="#V" n="100"/>ista respondeo: sed est intelligendum quod 2a intentio aliquando supponit 
+      pro<lb ed="#V" n="101" break="no"/>seipsa: aliquando pro prima. isto supposito patet ad omnia.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e559">
+      ¶ Ad primum 
+      <lb ed="#V" n="102"/>dico quod quando operationes reales attribuuntur secundis intentioni 
+      <lb ed="#V" n="103"/>bus tunc semper supponunt pro primis: sicut quando dicitur. hoc 
+      <lb ed="#V" n="104"/>indiuiduum generat: supponit enim pro sorte vel Platone: sic 
+      di<lb ed="#V" n="105" break="no"/>co in proposito.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e571">
+      ¶ Ad secundum dico quod persona non est 
+      <lb ed="#V" n="106"/>adoranda nisi vt supponit pro patre et filio et spiritusancto. 
+      </p>
+            <p xml:id="FrMS88-e57478-d1e576">
+               <lb ed="#V" n="107"/>¶ Ad 3m dico quod sicut dicimus quod species constat ex genere et 
+      <lb ed="#V" n="108"/>differentia: ita in proposito: species enim et differentia et genus supponunt 
+      <lb ed="#V" n="109"/>pro primis intentionibus. sic in proposito.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e585">
+      ¶ Ad 4m dico quod deus 
+      <lb ed="#V" n="110"/>qui est prima intentio numquam praedicatur de persona nisi vt persona 
+      sup<lb ed="#V" n="111" break="no"/>ponit pro patre et filio et spiritu scilicet et sic dico quod persona et omnis 2a 
+      <lb ed="#V" n="112"/>itentio pet recipere praedicationem primarum intentionum.
+    </p>
+            <p xml:id="FrMS88-e57478-d1e594">
+      ¶ 
+      Intel<lb ed="#V" n="113" break="no"/>ligendum tamen quod 4or sunt conceptus essentialiter ordinati scilicet 
+      per<lb ed="#V" n="114" break="no"/>ticulare. indiuiduum. suppotitum. et persona. Nam omnis persona est 
+      <lb ed="#V" n="115"/>suppositum. vt patet inductiue. non tamen econtro: quia sol est suppositum: non tamn 
+      <lb ed="#V" n="116"/>est persona: quia persona non habet esse nisi in genere naturae rationalis 
+      <lb ed="#V" n="117"/>suppositum autem in hoc et in aliis. nam asinus vere est 
+      sup<lb ed="#V" n="118" break="no"/>positum: similiter omne suppositum vere est indiuiduum: non tamen econverso: quia albe 
+      <lb ed="#V" n="119"/>do separata vere est singularis et indiuiduum: non tamen est 
+      sup<lb ed="#V" n="120" break="no"/>positum. suppositum enim proprie non est nisi in genere substantie. 
+      indi<lb ed="#V" n="121" break="no"/>uiduum autem vel singulare in omni genere. similiter omne indiuiduum 
+      <lb ed="#V" n="122"/>est particulare. non tamen econtro: quia species quoddammodo dicitur particula 
+      <lb ed="#V" n="123"/>ris respectu generis: eo quod generis sit pars subiectiua: non tamen 
+      <lb ed="#V" n="124"/>dicitur indiuidua eo quod semper diuisibilis est eo modo quo 
+      <lb ed="#V" n="125"/>vniversale diuiditur in partes subiectiuas. Ex istis patet quod 
+      persona<lb ed="#V" n="126" break="no"/>est secunda intentio quia eius superiora sunt 2o intentiones 
+      </p>
+            <p xml:id="FrMS88-e57478-d1e627">
+               <lb ed="#V" n="127"/>¶ Ad primum aritum patet ex dictis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

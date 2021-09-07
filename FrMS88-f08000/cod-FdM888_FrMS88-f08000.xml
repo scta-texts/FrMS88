@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="145-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f08000"><!-- l2d2q5 -->
+            <head xml:id="FrMS88-f08000-Hd1e108">Quaestio 5</head>
+            <p xml:id="FrMS88-f08000-d1e111">
+      Questio. v. 
+      <lb ed="#V" n="125"/>2am distitonem. iterum quero vnam 
+      quaestio<lb ed="#V" n="126" break="no"/>Irca nem incidentalem. et est ista. Utrum 
+      <lb ed="#V" n="127"/>caelum fuerit productum a tribus personis secundum 
+      <lb ed="#V" n="128"/>prdinem aliquem. Et videtur quod non. quia persone in 
+      <lb ed="#V" n="129"/>quantum productiue omnimodam habent 
+      identita<lb ed="#V" n="130" break="no"/>tem. ergo non est ibi aliquis ordo.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e127">
+      ¶ Contra. hvel. 4. de 
+      tri<lb ed="#V" n="131" break="no"/>Nihil habet filius nisi per natiuitatem a patre. et ita 
+      crea<lb ed="#V" n="132" break="no"/>tionem habet a a patre. et hoc est ordo originis. ergo. 
+      <!--294.xml-->
+      <pb ed="#V" n="146-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>octo puncti declarandi. Primus est de 
+      <lb ed="#V" n="2"/>hic sunc diuina essentia: et eius noti intuitiua. 
+      </p>
+            <p xml:id="FrMS88-f08000-d1e145">
+               <lb ed="#V" n="3"/>¶ Circa quem. dicit quidam reuerendus doctor. quod 
+      impos<lb ed="#V" n="4" break="no"/>sibile est videre essentiam: quin videatur persona. Ratio sua est 
+      <lb ed="#V" n="5"/>hec. Quandocumque aliquod quod per comparationem seu respectum ad 
+      ali<lb ed="#V" n="6" break="no"/>quid est necessarium: et per respectum ad aliud est voluntarium: 
+      <lb ed="#V" n="7"/>queuis possit se suspendere in comperatione ad voluntarium 
+      <lb ed="#V" n="8"/>non tamen in comparatione ad illud ad quod est necessarium. sed 
+      diui<lb ed="#V" n="9" break="no"/>na essentia est speculum voluntarium ad ostendendum seipsam: 
+      <lb ed="#V" n="10"/>et omnia que sunt in ea. sed ex quo praesentauit se non potest non 
+      pre<lb ed="#V" n="11" break="no"/>sentare personas.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e167">
+      ¶ Sed ista ratio peccat 4r. Primo. quia 
+      <lb ed="#V" n="12"/>petit principium in maiori. Querimus enim si visa essemus 
+      necessa<lb ed="#V" n="13" break="no"/>rio videatur persona. et ipse accipit quod ipsa visa scilicet essentia 
+      diui<lb ed="#V" n="14" break="no"/>na est habitudo necessaria ad diuinas personas.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e177">
+      ¶ 2o assumit 
+      <lb ed="#V" n="15"/>falsum. quia licet productio per est operatio ad intra. tamen man 
+      <lb ed="#V" n="16"/>festatio quae persona manifestatur est operatio ad extra.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e184">
+      ¶ 3o 
+      di<lb ed="#V" n="17" break="no"/>rimit propositum. accipit enim in minori quod diuina essentia 
+      osten<lb ed="#V" n="18" break="no"/>dit se contingenter.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e191">
+      ¶ 4o concludit impossibile manifeste: quand 
+      <lb ed="#V" n="19"/>dicit quod repraesentatio personarum est necessaria si intelligatur forma 
+      <lb ed="#V" n="20"/>liter: tunc habitudo est necessaria: si intelligatur terminatiue. 
+      <lb ed="#V" n="21"/>ita omnis operatio nostra terminatur ad deum. et ita est 
+      habitu<lb ed="#V" n="22" break="no"/>do eterna et necessaria. Accipio ergo rationem suam. cum igitur eoe 
+      <lb ed="#V" n="23"/>necessario repraesentet essentia creaturam. quia est exemplar naturale creatui 
+      <lb ed="#V" n="24"/>rarum. quanta necessitate repraesentat tres personas: tanta necessari 
+      <lb ed="#V" n="25"/>tate repraesentat creaturas.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e209">
+      ¶ Dico ergo ad rationem quod non 
+      poni<lb ed="#V" n="26" break="no"/>mus contingentiam ex parte essentie: sed ex parte voluntatis concun 
+      <lb ed="#V" n="27"/>rentis. Unde ad minorem dico. quod vtraque repraesentatio est 
+      ne<lb ed="#V" n="28" break="no"/>cessario in se. sed tamen quia voluntas diuina concurrit ad vtrum 
+      <lb ed="#V" n="29"/>que. ideo potest reuelare vnum non reuelando aliud.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e220">
+      ¶ 2o po 
+      <lb ed="#V" n="30"/>nit exqem de vniversali et particulari. quia concurrente homine: animal 
+      neces<lb ed="#V" n="31" break="no"/>sario concurrit. et ita in proposito.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e227">
+      ¶ Similiter exquo represen 
+      <lb ed="#V" n="32"/>tat speculum: necessario repraesentat imaginem. Primum 
+      exem<lb ed="#V" n="33" break="no"/>plum non tenet. quia ratio hominis est limitata et determinata. sed 
+      <lb ed="#V" n="34"/>ratio animalis est indeterminata et communis. Sed econverso in 
+      proposi<lb ed="#V" n="35" break="no"/>to. quia essentia est communis: et persona est sicut quid determinatum 
+      <lb ed="#V" n="36"/>et ita non licet inferre negatiue. non videt personam. ergo non 
+      vi<lb ed="#V" n="37" break="no"/>det essentiam: nec affirmatiue videt essentiam. ergo personam. 
+      </p>
+            <p xml:id="FrMS88-f08000-d1e244">
+               <lb ed="#V" n="38"/>¶ 2m exementum etiam non valet. quia ita concludit de creatura seid 
+      <lb ed="#V" n="39"/>cut de persona. Deus enim poterit concurrere ad causandum 
+      <lb ed="#V" n="40"/>imutationem de speculo: et non ad causandum immutationem 
+      <lb ed="#V" n="41"/>de imagine etc.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e255">
+      ¶  2a ratio eius est hec. quandocumque aliquid 
+      <lb ed="#V" n="42"/>negatur ratione contingentie illa sublata non diaibet plus 
+      negari<lb ed="#V" n="43" break="no"/>sed diuina essentia presentata aufertur contingentia ista. quia 
+      <lb ed="#V" n="44"/>non potest non repraesentari persona.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e264">
+      ¶ Ista ratio petit principium sicut 
+      <lb ed="#V" n="45"/>prima in minori.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e269">
+      ¶ 2o ex illo medio non concluditur 
+      proposiot<lb ed="#V" n="46" break="no"/>situm. illa enim regula. omne quod est quando est etc. tenet in sensu 
+      con<lb ed="#V" n="47" break="no"/>positionis. stante enim sessione necessario sedet. sed in sensu 
+      du<lb ed="#V" n="48" break="no"/>rationis non est necessarium. non potest autem maior necessitas inferri 
+      <lb ed="#V" n="49"/>in conclusione quam accipiatur in praemissis. sed in illa praemissa non 
+      ad<lb ed="#V" n="50" break="no"/>cipitur necessitas nisi in sensu compositionis. quando videtur essentia et 
+      <lb ed="#V" n="51"/>persona non potest non videri.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e285">
+      ¶ 3o concludit propositum quod est 
+      <lb ed="#V" n="52"/>necessarium tantum in sensu compositionis: et est contingens in 
+      sensu<lb ed="#V" n="53" break="no"/>diuisionis: et ita poterit deus facere quod videatur essentia 
+      <lb ed="#V" n="54"/>non visa persona in sensu diuisionis.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e294">
+      ¶ 4o falsum assumit. 
+      <lb ed="#V" n="55"/>Nos enim accipimus vnam contingentiam de diuina essentia. et 
+      <lb ed="#V" n="56"/>aliam de persona. et ipse solum de persona procedit.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e302">
+      ¶ 3a ratio eius 
+      <lb ed="#V" n="57"/>est hec. aut essentia videtur vt existens: aut vt subsistens. quia perfe 
+      <lb ed="#V" n="58"/>ctior est visio rei. vt in supposito non in absoluto. ergo in 
+      re<lb ed="#V" n="59" break="no"/>latiuo. dicitur autem quod videtur essentia vt subsistens a se: et a se 
+      exi<lb ed="#V" n="60" break="no"/>stens.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e313">
+      ¶ Ista ratio militat contra sacramentum altaris. videntur enim 
+      ac<lb ed="#V" n="61" break="no"/>cidentia post transubstantiationem non in supposito. et tamen 
+      <lb ed="#V" n="62"/>eque perfecte est visio post separationem.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e320">
+      ¶ Item de miste 
+      <lb ed="#V" n="63"/>rio incarnationis. per te perfectior est visio: vt in 
+      supposi<lb ed="#V" n="64" break="no"/>to. Sed secundum Diony. 2. c. de di. no. Angeli perfecte vident 
+      <lb ed="#V" n="65"/>humanitatem christi. non tamen vt in supposito. et ita 
+      imperfe<lb ed="#V" n="66" break="no"/>cte cognouerunt humanitatem christi.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e331">
+      ¶ 3o contra misterium 
+      <!--294.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>trinitatis. quia Aug. docet. quod tanta est perfectio in vna per 
+      <lb ed="#V" n="68"/>sona: sicut in tribus simul. Eadem autem potentia non potest. esse 
+      <lb ed="#V" n="69"/>aliis perfectior: nisi ex perfectiori obiecto. et ita essentia 
+      diuina<lb ed="#V" n="70" break="no"/>est perfectior in tribus suppositis quam in vno. et obiectum 
+      <lb ed="#V" n="71"/>vt in persona est nobilius obiecto simpliciter sumpto. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f08000-d1e349">
+               <lb ed="#V" n="72"/>¶ 4o contra sacramentum vnitatis. ita est infinite perfectionis essentia: 
+      <lb ed="#V" n="73"/>quod nihil perfectionis potest sibi addi. et ita procedendo ad per 
+      <lb ed="#V" n="74"/>sonam maior perfectio non est. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e358">
+      ¶ 4a ratio huius est hec. 
+      <lb ed="#V" n="75"/>subiectum habens proprietates impossibile est videri nisi videre 
+      <lb ed="#V" n="76"/>do proprietates. essemus diuina est subiectum habens proprietates 
+      <lb ed="#V" n="77"/>relatiuas. ergo.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e368">
+      ¶ Ista ratio non valet. quia angelus de facto 
+      <lb ed="#V" n="78"/>non cognouit aptitudinem nature humane ad suppositum 
+      <lb ed="#V" n="79"/>diuinum: que est eius proprietas. quia potentia diffinitur per actum. per 
+      <lb ed="#V" n="80"/>se enim natuam est vnibilis supposito. sed humanitas mouet ad 
+      <lb ed="#V" n="81"/>cognitionem sui. dato quod non moueat vnio. quia sunt obstantia 
+      di<lb ed="#V" n="82" break="no"/>stincta. et deus potest concurrere ad motionem vnius et non 
+      <lb ed="#V" n="83"/>alterius.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e384">
+      ¶ Sed contra Aug . de tri. c. s. Si videtur pater: necessario videtur 
+      <lb ed="#V" n="84"/>filius. quia sunt vnum. Dico sicut dixi. quod hoc potest 
+      intelligi<lb ed="#V" n="85" break="no"/>de potentia absoluta vel ordinata. hoc intelligit de potentia 
+      ordina<lb ed="#V" n="86" break="no"/>ta: non absoluta.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e393">
+      ¶ Item de argumento relatiuorum dixi. quod 
+      <lb ed="#V" n="87"/>non concludit nisi de per se relatiuis. PDicietur autem et filius non habent 
+      <lb ed="#V" n="88"/>espectum ad spiritumsanctu.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e400">
+      ¶ Aliter soluiter ad dictum Aug. de 
+      <lb ed="#V" n="89"/>ducit sic nulla persona potest videri sine alia. quia vnum sunt. 
+      <lb ed="#V" n="90"/>reducatur ad formam: et sumatur aliqua vniuersalis. quandocumque aliqua 
+      <lb ed="#V" n="91"/>sic se habent: quod sunt vnum: viso vno videtur alterum. Sed persone 
+      di<lb ed="#V" n="92" break="no"/>uine sunt vnum in essentia. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e411">
+      ¶ Ad maiorem verum est in eo 
+      <lb ed="#V" n="93"/>quod sunt vnum. et ita concludatur. patre viso videtur essentia filii. 
+      <lb ed="#V" n="94"/>quia quandocumque sunt aliqua que non sunt idem in eo quod non sunt 
+      <lb ed="#V" n="95"/>idem: non potest concludi quod viso vno videatur aliud per 
+      mo<lb ed="#V" n="96" break="no"/>dum identitatis: sic est de personis. ergo etc. 
+      <lb ed="#V" n="97"/>punctus de diuina essentia. dixi. quod si 
+      <lb ed="#V" n="98"/>Secundus cut diuina essen praeuenit personas. ita 
+      <lb ed="#V" n="99"/>existentia. Dion. in c. de vnica et discreta theologia dicit. 
+      <lb ed="#V" n="100"/>ea quae partinent ad vnicam theologiam preueniunt ea que ad 
+      di<lb ed="#V" n="101" break="no"/>scretam etc.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e433">
+      ¶ Item Aug. prius facta est materia sicut sonus 
+      <lb ed="#V" n="102"/>praeuenit cantum. vnde ordine rationis diffinitiue est ista praeueni 
+      <lb ed="#V" n="103"/>entia. Primo. ego ostendo quod ipse concedit propositum: quia quando 
+      <lb ed="#V" n="104"/>cumque aliquid conuenit alicui per aliud: prius conuenit illi: ratione 
+      <lb ed="#V" n="105"/>cuius conuenit isti: sed diuine persone conuenit beatitudo per 
+      <lb ed="#V" n="106"/>diuinam essentiam. ergo prius conuemt essentie quam persone.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e447">
+      ¶ 2o 
+      conce<lb ed="#V" n="107" break="no"/>dit quoddam annexum. dicit enim quod non sunt idem conuertibiliter: ita 
+      <lb ed="#V" n="108"/>nec simil conuertibiliter. et per consequens si aufertur similtas. concluditur ordo 
+      <lb ed="#V" n="109"/>inter ista.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e456">
+      ¶ 3o. quod concedit aliquid magis quam intentum. quia 
+      diuina<lb ed="#V" n="110" break="no"/>essentia inuenitur primo in aliquo priori signo quam sit in personis. Tum 
+      conce<lb ed="#V" n="111" break="no"/>dis primum 2m et 3m. In primo igitur signo existit realiter ad se 
+      ante<lb ed="#V" n="112" break="no"/>quam in personis sit.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e465">
+      ¶ 4o concedit vnum absurdum. sicut enim est 
+      di<lb ed="#V" n="113" break="no"/>stictio maior: ita et ordo: sed maior est disto secundum omnes inter 
+      <lb ed="#V" n="114"/>essentialia et personalia quam inter essentialia. Sed tum ponis inter 
+      <lb ed="#V" n="115"/>essentialia ordinem. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e474">
+      ¶ Dicis quod pro inconuenienti habes 
+      <lb ed="#V" n="116"/>quod eo modo qua praecedit essentia praecedit et existentia.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e479">
+      ¶ Sed contra hoc. quia 
+      tu<lb ed="#V" n="117" break="no"/>ponis existentiam praecedere personam ordine diffinitionis. primo sic. ins 
+      <lb ed="#V" n="118"/>lud quod non est pro eo pro quo non est non potest beatificare. 
+      <lb ed="#V" n="119"/>Sed pater elicit actum intelligendi: et pro illo signo non 
+      ter<lb ed="#V" n="120" break="no"/>minatur.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e490">
+      ¶ Responsio. quod talia signa sunt permanentia non 
+      succes<lb ed="#V" n="121" break="no"/>siua. actus intelligendi angelum non terminatur ad eum pro 
+      il<lb ed="#V" n="122" break="no"/>lo signo perfectionis pro quo praecedit.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e498">
+      ¶ Item arguit quod 
+      <lb ed="#V" n="123"/>creatura creatur a tota trinitate. ergo terminatur ad totam 
+      tri<lb ed="#V" n="124" break="no"/>nitatem. hoc nihil est. quia visio causatur a trinitate: et tamen non 
+      ter<lb ed="#V" n="125" break="no"/>minatur ad ea.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e507">
+      ¶ Item in isto priori est essentia 
+      incomicabi<lb ed="#V" n="126" break="no"/>iter existens.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e512">
+      ¶ Illam nego. et dico quod eius existentia est 
+      com<lb ed="#V" n="127" break="no"/>municabilis sicut et essemus. Iterum arguit. quia tunc 
+      profice<lb ed="#V" n="128" break="no"/>ret in beatitudinine. illud iam improbatum est. non enim 
+      pro<lb ed="#V" n="129" break="no"/>ficit in obiecto meliori cognoscendo personam. 
+      <lb ed="#V" n="130"/>Terius punctus est de operatione beatifica. dixi 
+      <lb ed="#V" n="131"/>quod licet existens essentia in tribus personis 
+      <lb ed="#V" n="132"/>beatificet. non tamen vt in tribus existens. et hoc probaui. primo. quia 
+      <!--295.xml-->
+      <pb ed="#V" n="146-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>pater videns essentiam in seipso est beatus. In patre autem 
+      <lb ed="#V" n="2"/>est a se essentia. ergo beatificat in aliquo: vt a se.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e538">
+      ¶ Dicit 
+      <lb ed="#V" n="3"/>quod si accipio signum durationis muto medium. Si 
+      origi<lb ed="#V" n="4" break="no"/>nis. tunc facio fallaciam consequentis. Non enim sequitur. filius non 
+      <lb ed="#V" n="5"/>beatificatur a se. ergo non beatificatur.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e547">
+      ¶ Contra hoc 
+      ar<lb ed="#V" n="6" break="no"/>guo sic. diuina essentia vt a se beatificat patrem: quia a se 
+      <lb ed="#V" n="7"/>est beatus: et in illo signo a se non est beatus in tribus. 
+      <lb ed="#V" n="8"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e556">
+      ¶ 2a ratio. angelus beatificatur in essentia a se in 
+      pa<lb ed="#V" n="9" break="no"/>tre. ergo pro aliquo signo in persona patris beatificatur: non in 
+      <lb ed="#V" n="10"/>filio.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e564">
+      ¶ Sed contra hoc arguit socius. angelus non est a se. 
+      er<lb ed="#V" n="11" break="no"/>go non beatificatur a se.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e569">
+      ¶ Responsio quod illa signa sunt ex 
+      par<lb ed="#V" n="12" break="no"/>te obiecti.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e574">
+      ¶ 3a ratio. eadem est ratio in mouendo et in 
+      term<lb ed="#V" n="13" break="no"/>nando. sed pater primo causat. quia a se. ergo a simili 
+      termi<lb ed="#V" n="14" break="no"/>nat.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e581">
+      ¶ 4o illud non conuenit subreduplicitm: quo sublato 
+      <lb ed="#V" n="15"/>adhuc competeret. sed circumscripta trinitate personarum ad 
+      <lb ed="#V" n="16"/>huc beatificaret secundum illum: si per impossibile non esset nisi 
+      vni<lb ed="#V" n="17" break="no"/>persona propter plenitudinem perfectionis.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e590">
+      ¶ Arguit ille. spiritus 
+      <lb ed="#V" n="18"/>sanctus est a filio: et filius non a se. ergo non est ibi ordo 
+      ori<lb ed="#V" n="19" break="no"/>ginis.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e597">
+      ¶ Respontio vnum primum est inuenire in quolibet ordine. et 
+      <lb ed="#V" n="20"/>hic est in patre. quia est a se. Et hoc primum signum dictum est 
+      pri<lb ed="#V" n="21" break="no"/>mum a quo aliud. est ergo primitas originis in patre. sed 
+      <lb ed="#V" n="22"/>prius est in filio.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e607">
+      ¶ 2o arguit sic. prius ordine originis 
+      <lb ed="#V" n="23"/>est productio verbi quam creaturarum productio in esse 
+      cogni<lb ed="#V" n="24" break="no"/>to. et tamen non est ibi ordo originis.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e614">
+      ¶ Responsio quod est ibi ordo 
+      <lb ed="#V" n="25"/>signorum nature non originis. 
+      <lb ed="#V" n="26"/> punctus est de quaedam regula. dicebat enim 
+      <lb ed="#V" n="27"/>Quarti quod diuina essentia est quo. et persona est 
+      <lb ed="#V" n="28"/>quod. et per hoc volunt ostendere propositum. hoc est consequens quod 
+      re<lb ed="#V" n="29" break="no"/>duxi ad formam. antecedens est proposition particularis. et oportet 
+      sumi<lb ed="#V" n="30" break="no"/>iversalem affirmatiuam: quia es conclusio affirmatiua. Quandocumque aliqua sic 
+      <lb ed="#V" n="31"/>se habent quod vnum est quo: et aliud quod. a quocumque attingitur quo: at 
+      <lb ed="#V" n="32"/>tigitur quod.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e634">
+      ¶ Contra istam arguit per actum credendi: et per actum 
+      <lb ed="#V" n="33"/>videndi per cognitionem naturalem. Ideo addidit quinque conditiones 
+      <lb ed="#V" n="34"/>quando est notitia intuitiua etc. Omnibus concessis probaui oppositus 
+      <lb ed="#V" n="35"/>de creatura eminenter contenta in deo et non in proprio 
+      ge<lb ed="#V" n="36" break="no"/>nere. et arguo dupliciter. Primo sic. in quocumque est quo: ibi 
+      <lb ed="#V" n="37"/>est quod. sed diuina essentia est quo in beatitudine verbi. 
+      <lb ed="#V" n="38"/>et est in supposito spiritussancti cum istis quique conditionibus 
+      <lb ed="#V" n="39"/>et persone habent illas quinque conditiones. ergo etc. 2o in supposito 
+      <lb ed="#V" n="40"/>spussancti est principium quo productiuum verbi. in quocun 
+      <lb ed="#V" n="41"/>que autem est quo: illud est quod scilicet ice ergo erit quod. 
+      <lb ed="#V" n="42"/>punctus est de rationibus formalibus sic. 
+      <lb ed="#V" n="43"/>Quintus Tu remoues identitatem conuertibilem. est 
+      <lb ed="#V" n="44"/>go ponis contradictionem scilicet carentiam illius modi.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e663">
+      ¶ Responsio le 
+      <lb ed="#V" n="45"/>cus a contradictoriis: per te: tinet cum omni modo. idem et diuersum 
+      <lb ed="#V" n="46"/>sunt contramum immediata circa ens: sequitur ergo. illa sunt non 
+      <lb ed="#V" n="47"/>idem. ergo diuersa. Si ergo sunt idem non conuertibiliter tunc 
+      <lb ed="#V" n="48"/>detum opposita distinctione illi identitati.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e674">
+      ¶ Item arguit: si 
+      <lb ed="#V" n="49"/>detum: vel specie: vel numero: vel genere.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e679">
+      ¶ Dico quod Ari 
+      <lb ed="#V" n="50"/>sto. diuidit ens in praedicamenta. sed de transcendentibus non 
+      <lb ed="#V" n="51"/>intendit. vnde pater et filius non distintiua illis modis. sed 
+      nu<lb ed="#V" n="52" break="no"/>mero numerositate formali.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e689">
+      ¶ Sed isti dicunt quod non 
+      se<lb ed="#V" n="53" break="no"/>quitur. carent modo identitatis conuertibilis. ergo non 
+      <lb ed="#V" n="54"/>sunt idem omnibus modis: sicut essentia est idem sibiipsi: 
+      ta<lb ed="#V" n="55" break="no"/>men non identitate compositionis.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e698">
+      ¶ Contra per equipol 
+      <lb ed="#V" n="56"/>lentiam. Iterum per contradictionem. aliquo modo non idem: et omnib 
+      <lb ed="#V" n="57"/>idem sunt contradictoria: nec valet dictum. ex carentia enim 
+      ali<lb ed="#V" n="58" break="no"/>cuius secundum quid non sequitur carentia simpliciter: sicut non 
+      sequi<lb ed="#V" n="59" break="no"/>tur. non est homo niger. ergo non est homo simpliciter. Ident 
+      <lb ed="#V" n="60"/>tas autem compositionis est identitas secundum quid. sed identitas 
+      <lb ed="#V" n="61"/>conuertibilis est vera identitas. ergo carentia istius ident 
+      <lb ed="#V" n="62"/>tatis inducit simus non identitatem. 
+      <lb ed="#V" n="63"/>Sexxue punctus est de contradictione. Primo voluit 
+      <lb ed="#V" n="64"/>eam vitare propter detm in modo significandi¬ 
+      </p>
+            <p xml:id="FrMS88-f08000-d1e720">
+               <lb ed="#V" n="65"/>¶ Sciendum quod in propositione modificata sunt quatuor 
+      term<lb ed="#V" n="66" break="no"/>ni in tali modo positi. quando enim negaus ponitur ad subiectum: vel aa 
+      <!--295.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>predicatum: vel ad modum non est contradictio. Dicit ille quod est 
+      <lb ed="#V" n="68"/>fictio contradictionem incomplexam ponere.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e736">
+      ¶ Contra. in lib 
+      <lb ed="#V" n="69"/>praedicamentorum trac. Aristoteles. de terminis incomplexis: et ibi 
+      <lb ed="#V" n="70"/>ponit contradictionem istorum terminorum. quorum nulla est ortiae 
+      <lb ed="#V" n="71"/>sicut sedere non sedere contradicunt. Item in libro periarmeni 
+      <lb ed="#V" n="72"/>as non sunt contradictoria. que sunt de contradictoriis. sed de 
+      <lb ed="#V" n="73"/>modo. Item primo topicorum. quot modis dicitur vnum opposito 
+      <lb ed="#V" n="74"/>rum tot et reliquum. Contrarietas autem inuenitur comple 
+      <lb ed="#V" n="75"/>xa et incomplexa. ergo et hec.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e754">
+      ¶ Item omnes theologi dicunt 
+      <lb ed="#V" n="76"/>quod contradictio includitur in impotentia t fieri a deo. Item vbi est 
+      inue<lb ed="#V" n="77" break="no"/>nire priuationem: et contradictionem. quia per additionem se 
+      ha<lb ed="#V" n="78" break="no"/>bet. Item album et non album sunt opposita: et nullo modo 
+      <lb ed="#V" n="79"/>do nisi contradictorie. Item de tri. querit. Aug. si 
+      affi<lb ed="#V" n="80" break="no"/>matio et negatio sunt in eodem principio. 
+      <lb ed="#V" n="81"/>punctus est de syllto simpliciter. dixi quod 
+      <lb ed="#V" n="82"/>Septimus non tenet in terminis modificatis. quod 
+      <lb ed="#V" n="83"/>cunque enim vni et eidem sunt eadem etc. simpliciter verum est: sed 
+      <lb ed="#V" n="84"/>tame cum modo non oportet: sicut materia et forma sunt idem 
+      <lb ed="#V" n="85"/>composito in primo modo. non tamen inter se. 
+      <lb ed="#V" n="86"/>de per principio complexo. pono quatuor 
+      praeambu<lb ed="#V" n="87" break="no"/>Altimo la. Primum est. quod est vna propositio yposintia 
+      </p>
+            <p xml:id="FrMS88-f08000-d1e783">
+               <lb ed="#V" n="88"/>¶ 2m quod est propositione comnuma. et per hoc verbum est.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e789">
+      ¶ 3m est. quod 
+      <lb ed="#V" n="89"/>in prima propositione est priusn disiunctum de quolibet 
+      affir<lb ed="#V" n="90" break="no"/>matio vel negatio. 2a propositione est de copulato praedite idem 
+      <lb ed="#V" n="91"/>affirmare et negare.
+    </p>
+            <p xml:id="FrMS88-f08000-d1e798">
+      ¶ 4m est. quod prima est vniversalis 
+      affirma<lb ed="#V" n="92" break="no"/>tiua. 2a vniversalis negatiua. subiectum istius principii est ens. 
+      <lb ed="#V" n="93"/>preditum affirmatio vel negatio: quia dicitur de subiecto 
+      sub<lb ed="#V" n="94" break="no"/>disiunctione in prima. sub comnione in secunda subitelligitur autem 
+      <lb ed="#V" n="95"/>comnio de quolibet ente dicitur etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="145-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f07413"><!-- l2d2q1 -->
+            <head xml:id="FrMS88-f07413-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f07413-d1e111">
+               <lb ed="#V" n="78"/>¶ Distinctio. ii. Questio i. 
+      <lb ed="#V" n="79"/>De angelica itaquem natura etc. 
+      <lb ed="#V" n="80"/>distinctionem secundam que hic in 
+      <lb ed="#V" n="81"/>Irca cipit. Quero quatuor quaestio 
+      <lb ed="#V" n="82"/>nes. Prima est. Utrum euum sit mensura su 
+      co<lb ed="#V" n="83" break="no"/>cessiua vel permanens. et videtur quod sit perm a 
+      <lb ed="#V" n="84"/>nens. quia Diony. de di. no. dicit quod est modo 
+      <lb ed="#V" n="85"/>sura inuariabilis.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e131">
+      ¶ Sed contra. quod sit suc 
+      <lb ed="#V" n="86"/>cessiua patet. quia hieron. in epstula ad marcellam. Solus 
+      de<lb ed="#V" n="87" break="no"/>us non transit de praeterito in futurum. Omnis autem creatura 
+      no<lb ed="#V" n="88" break="no"/>uit presens tempus preteritum et futurum. 
+      <lb ed="#V" n="89"/>intelligendum quod quadruplex mensura 
+      inue<lb ed="#V" n="90" break="no"/>Hic est nitur. Una incommutabilium et necessario 
+      <lb ed="#V" n="91"/>rum omnino. Alia eorum quae sunt incommutabilia: sed non omnino 
+      ne<lb ed="#V" n="92" break="no"/>cessaria. Alia successiuorum. Alia raptim transeuntium. Et 
+      <lb ed="#V" n="93"/>secundum hoc sunt 4or mensure. Prima est eternitas. 2a euum. 2 
+      <lb ed="#V" n="94"/>tmpus. 4a instans. De 2a est quaestio praesens.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e153">
+      ¶ Unde vna opinio dicit 
+      <lb ed="#V" n="95"/>quod esse angeli quantum ad suum intrinsecum et extrinsecum est 
+      per<lb ed="#V" n="96" break="no"/>manens et non successiuum. Esse enim angeli est inuariabile 
+      </p>
+            <p xml:id="FrMS88-f07413-d1e160">
+               <lb ed="#V" n="97"/>¶ Alii dicunt oppositum quod esse angeli est totum successiuum pr 
+      <lb ed="#V" n="98"/>continuam inouationem. Et isti fundant se super dictum Augi 
+      <lb ed="#V" n="99"/>super gen. Ubi dicit: quod non dicitur proprie quod sunt facta. sed 
+      conti<lb ed="#V" n="100" break="no"/>nue siunt.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e172">
+      ¶ Alii dicunt quod intrinsece est permanens: sed 
+      extrin<lb ed="#V" n="101" break="no"/>sece et in esse duratiuo habet successione.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e177">
+      ¶ Sed contra primam. 
+      <lb ed="#V" n="102"/>quia Aug. ii. ciui. dei dicit. Quod omnes creature ex futuro in 
+      <lb ed="#V" n="103"/>pteritum transeunt. et ideo suo creatori coeterne esse non possunt. 
+      </p>
+            <p xml:id="FrMS88-f07413-d1e184">
+               <lb ed="#V" n="104"/>¶ Contra 2m. quia tunc esset angelus eque successiuus sicut 
+      <lb ed="#V" n="105"/>tempus et motus.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e191">
+      ¶ 3a opinio videtur implicare contradictionem 
+      <lb ed="#V" n="106"/>quia in omni successione videtur esse prius et posterius: ergo.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e196">
+      ¶ Tened 
+      <lb ed="#V" n="107"/>igitnr 4m opinio. quod intrinsece sunt permanentes quantum ad omnia 
+      <lb ed="#V" n="108"/>itrinseca: sed extrinsece sunt successiui.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e203">
+      ¶ hoc autem 
+      decla<lb ed="#V" n="109" break="no"/>ratur quadruplici ratione.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e209">
+      ¶ Prima ratio applicando ad 
+      op<lb ed="#V" n="110" break="no"/>relatiue. Impossibile enim est quod eiusdem ad seipsum sit relati 
+      <lb ed="#V" n="111"/>realis. Sed si secundum durationem angelus refertur ad seipsum 
+      <lb ed="#V" n="112"/>sub ratione prioris et posterioris. ergo oportet quod super alia et alia 
+      <lb ed="#V" n="113"/>parte durationis fundetur prioritas et posterioritas: quae sunt 
+      <lb ed="#V" n="114"/>respectus oposium. minor patet euidenter. Si enim angelus creet 
+      <lb ed="#V" n="115"/>et annihiletur: et interum reparetur: in creatione est ratio primi: 
+      <lb ed="#V" n="116"/>et in reparatione ratio 2. Igitur et alia pars durationis. Thratris enim 
+      <lb ed="#V" n="117"/>in quo fuit creatus coexistebat sibi realiter. et alius ange 
+      <lb ed="#V" n="118"/>lus postea non coexistit: et iterum postea coexistit.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e231">
+      ¶ 2a ratio 
+      <lb ed="#V" n="119"/>fundatur in natura contrariorum. Impossibile enim est quod duo contraria sint in eo 
+      <lb ed="#V" n="120"/>dem susceptiuo sine successione. Sed contraria insunt 
+      ange<lb ed="#V" n="121" break="no"/>lo. angeli enim omnes fuerunt creati in perfectionibus naturalibus in 
+      <lb ed="#V" n="122"/>iustitia naturali. Mon vero aliquo sunt iniusti iniustitia oppositiam 
+      <lb ed="#V" n="123"/>et habent habitus contrarios illis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e244">
+      ¶ Si dicas quod 
+      <lb ed="#V" n="124"/>successio est inter extrema contrarietatis. Dico quod substantia 
+      <lb ed="#V" n="125"/>non est successiua intrinsece: sex extrinsece. et hoc sufficit. 
+      </p>
+            <p xml:id="FrMS88-f07413-d1e251">
+               <lb ed="#V" n="126"/>¶ 3o ex parte priuatiue oppositorum. Impossibile enim est quod pri 
+      <lb ed="#V" n="127"/>uatiue opposita insint alicui sine successione. fuerunt autem 
+      <lb ed="#V" n="128"/>omnes angeli creati sine gratia: et postea cum gratia. et ista 
+      succes<lb ed="#V" n="129" break="no"/>sio non est ex parte extremorum. quia alterum est priuatiuum. ergo 
+      <lb ed="#V" n="130"/>ex nam fundamenti.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e264">
+      ¶ 4a ro per contradictoria. quia nunc 
+      exi<lb ed="#V" n="131" break="no"/>stit nunc: non existit. et alius angelus nunc sibi coexistit. 
+      <!--293.xml-->
+      <pb ed="#V" n="145-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>nunc non: idem manens. Concedo ergo conclusione.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e277">
+      ¶ Confirmatur du 
+      <lb ed="#V" n="2"/>plici regula. vna est. quod impossibile est transire de contradictorio 
+      <lb ed="#V" n="3"/>in contradictorium: quin fiat mutatio in altero extremorum. sed 
+      sem<lb ed="#V" n="4" break="no"/>per transit angelus. quia trmporus est in continuo fluxu et 
+      essentia<lb ed="#V" n="5" break="no"/>angeli coexistit isti instanti: postea alteri. non primo. quia rapti 
+      <lb ed="#V" n="6"/>transit. deus autem non sic coexistit. quia nullam relatione realem 
+      <lb ed="#V" n="7"/>habet ad creaturam.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e294">
+      ¶ 2a regula per primum principium complexum: 
+      extre<lb ed="#V" n="8" break="no"/>ma contradictionis verificantur de eodem angelo: et secundum idem 
+      <lb ed="#V" n="9"/>praeter tempus et euum.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e301">
+      ¶ Ideo dico et teneo quod in euo est 
+      suc<lb ed="#V" n="10" break="no"/>cessio.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e306">
+      ¶ Ad euidentiam dicti pono 4or conclusiones.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e309">
+      ¶ 
+      Prima<lb ed="#V" n="11" break="no"/>euum est entitas accidentalis et non substantialis. probatur. quia nullum 
+      <lb ed="#V" n="12"/>successiuum est de genere substantie. euum autem est successiuum. vt dictum 
+      <lb ed="#V" n="13"/>est. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e318">
+      ¶ 2a conclusio quod est abcidens respectiuum non absolutum. Omne 
+      <lb ed="#V" n="14"/>enim absolutum dicit aliquam perfetaes. Sed maioritas euin nullam 
+      <lb ed="#V" n="15"/>perfectionem importat. Angelus enim durans per instans ita per 
+      <lb ed="#V" n="16"/>fectus est sicut si per mille annos duraret. Iterum in ratione 
+      <lb ed="#V" n="17"/>formali cuiuslibet successiui includiter prius et posterius. 
+      <lb ed="#V" n="18"/>et dico de successione intrinseca. quae est respectiua: non de 
+      <lb ed="#V" n="19"/>successione denominatiua.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e334">
+      ¶ 3a conclusione. quod est respectus extrinse 
+      <lb ed="#V" n="20"/>cus adueniens non intrinsecus. quia successio non permanet 
+      ea<lb ed="#V" n="21" break="no"/>dem permanentibus extremis.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e342">
+      ¶ 4a conclusio est. quod est respectus in genere non 
+      <lb ed="#V" n="22"/>transcendens. Omnis enim respectus transcendens est idem cum suo 
+      funda<lb ed="#V" n="23" break="no"/>mento. iste autem differt realiter a fundamento. 
+      <lb ed="#V" n="24"/>Sed in quo sundatur ille respectus: dicunt 
+      ali<lb ed="#V" n="25" break="no"/>qui quod illud prius et posterius 
+      sumis<lb ed="#V" n="26" break="no"/>per comparationem ad tmpers.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e355">
+      ¶ Sed hoc nihil est: quia antequam tempus 
+      <lb ed="#V" n="27"/>esset angeli erant creati. et si omne tempus circumscriberetur adhuc 
+      <lb ed="#V" n="28"/>esset in eis successio.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e362">
+      ¶ Alii dicunt quod prius et posterius 
+      su<lb ed="#V" n="29" break="no"/>muntur per comparationem ad tempus in potentia.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e367">
+      ¶ Sed contra. relatio 
+      <lb ed="#V" n="30"/>actualis non potest inesse actualiter alicui ad terminum quo non 
+      <lb ed="#V" n="31"/>est. Sed tmpus non esset per te. ergo etc. Ulterius si esset respectus 
+      apti<lb ed="#V" n="32" break="no"/>tudinalis non esset per se. Inest autem per accidens. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e376">
+      ¶ Alii 
+      di<lb ed="#V" n="33" break="no"/>cunt quod per comparationem ad imaginatione. Sed contra. quia 
+      cir<lb ed="#V" n="34" break="no"/>cumscripta omni imaginatione adhuc essentia angeli crearetur. 
+      <lb ed="#V" n="35"/>vna post aliam.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e385">
+      ¶ Sciendum est ergo. quod sicut in relationibus 
+      <lb ed="#V" n="36"/>aliis dicitur deus talis extrinsece per relationem qui est in 
+      creatu<lb ed="#V" n="37" break="no"/>ris: sicut inequalis et non similis dicitur denominatione extrinseca. Eo. 
+      <lb ed="#V" n="38"/>dem modo nulla creatura potest esse cui non coexistat deus per 
+      <lb ed="#V" n="39"/>respectum realem existentie ad deum in creatura. Unde angelus habet 
+      <lb ed="#V" n="40"/>respectum realem coexistentie ad deum. et ita semper est in fluxu¬ 
+      </p>
+            <p xml:id="FrMS88-f07413-d1e399">
+               <lb ed="#V" n="41"/>¶ Sed quomodo: Sciendum quod creatura deo coexistit necessario 
+      quan<lb ed="#V" n="42" break="no"/>diu est non adequate. Tunc sic. quando sunt due coexistentie: 
+      <lb ed="#V" n="43"/>quarum vna magis distat ab aliquo coexistente quam alia: 
+      il<lb ed="#V" n="44" break="no"/>le non sunt eedem: sicut coexistentia quam nunc habet quo ad eter 
+      <lb ed="#V" n="45"/>nitatem magis distat ab eternitate quam alia praecedens. In 
+      infi<lb ed="#V" n="46" break="no"/>nitis enim ex parte qua sunt finita potest esse comparatio secundum ma 
+      <lb ed="#V" n="47"/>gis et minus. et ita non ex parte eternitatis: sed ex parte sui est 
+      <lb ed="#V" n="48"/>set excessus.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e419">
+      ¶ Sed hic sunt 4or difficultas prima est. si iste 
+      re<lb ed="#V" n="49" break="no"/>est idem cum conseruatione: Dico quod non. quia ostensum est prius 
+      <lb ed="#V" n="50"/>quod idem est conseruatio cum creatura realis. euum autem non. sed 
+      <lb ed="#V" n="51"/>fluitleadem nam permanente.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e428">
+      ¶ 2a difficultas quia omnis respectus 
+      crea<lb ed="#V" n="52" break="no"/>ture ad deum videtur intrinsecus adueniens. Dico quod hoc non oportet. 
+      <lb ed="#V" n="53"/>sed sunt aliqui raptim transeuntes: nec sunt omnes 
+      transcender<lb ed="#V" n="54" break="no"/>tes. sed aliqui in determinato genere.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e437">
+      ¶ 3a difficultas quomodo noua 
+      re<lb ed="#V" n="55" break="no"/>latio aduenit non adueniente nouo fundamento: nec 
+      ter<lb ed="#V" n="56" break="no"/>mino. Dico quod in extrinsecus aduenientibus non tenet 
+      re<lb ed="#V" n="57" break="no"/>gula: sicut in vbi.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e446">
+      ¶ 4a est. si partes istius euin sunt eiusdem 
+      <lb ed="#V" n="58"/>rationis: Dico quod omnes differunt specie. Simultas quidem est 
+      <lb ed="#V" n="59"/>in genere relationis. sicut similitudo in genere qualitatis. vnde 
+      <lb ed="#V" n="60"/>verum est quod quando aliqua sunt in eodem tempore. tunc habent quando 
+      eius<lb ed="#V" n="61" break="no"/>dem rationis. sed quando posterius est alterius speciei a primo: quia 
+      <lb ed="#V" n="62"/>habent relationem disquiperantie. Et ita dico de istis 
+      coexisten<lb ed="#V" n="63" break="no"/>tiis.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e462">
+      ¶ Sed quomodo manente fundamento et termino eiusdem 
+      <lb ed="#V" n="64"/>rationis variantur respectus:
+    </p>
+            <p xml:id="FrMS88-f07413-d1e468">
+      ¶ Dico quod in relatione 
+      extrin<lb ed="#V" n="65" break="no"/>secus adueniente potest ab extrinsecis causari talis relatio et non 
+      <lb ed="#V" n="66"/>a termino vel fundamento.
+    </p>
+            <p xml:id="FrMS88-f07413-d1e475">
+      ¶ Ad argumentum concedo 
+      <!--293.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>quod esse angelicum est inuariabile intrinsece: sed extrinse 
+      <lb ed="#V" n="68"/>ce est variatio: vt dictum est etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

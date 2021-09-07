@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f18579"><!-- l2d16q1 -->
+            <head xml:id="FrMS88-f18579-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f18579-d1e111">
+               <lb ed="#V" n="12"/>hic excussis etc. 
+      <lb ed="#V" n="13"/>CIrca distinctionem. 16. que hoc 
+      inci<lb ed="#V" n="14" break="no"/>pit. Quero vtrum in corpus 
+      <lb ed="#V" n="15"/>re hominis organizato sint plures forme subien 
+      <lb ed="#V" n="16"/>stantiales. Et videtur quod non per vnicam nim 
+      <lb ed="#V" n="17"/>omnia saluari possunt.
+    </p>
+            <p xml:id="FrMS88-f18579-d1e127">
+      ¶ Cotra. vbi est 
+      ethe<lb ed="#V" n="18" break="no"/>rogeneitas ibi est necessario distinctio 
+      speci<lb ed="#V" n="19" break="no"/>fica: quia rationalis anima ita est in homine 
+      <lb ed="#V" n="20"/>dubitatur de partibus praencipali 
+      bu<lb ed="#V" n="21" break="no"/>Hic primo hominis: sicut sunt caputos et spirit 
+      <lb ed="#V" n="22"/>vitales.
+    </p>
+            <p xml:id="FrMS88-f18579-d1e140">
+      ¶ Dicunt aliqui quod distinguuntur solum accidentibus: 
+      <lb ed="#V" n="23"/>et eorum est vna forma.
+    </p>
+            <p xml:id="FrMS88-f18579-d1e145">
+      ¶ Contra vnde inuestigatur 
+      distin<lb ed="#V" n="24" break="no"/>ctio formarum substantialium nisi ex distinctione qualitatum: quod 
+      <lb ed="#V" n="25"/>substantias rerum per se non attingimus: vnde nec 
+      de<lb ed="#V" n="26" break="no"/>homine: nec de asino habetur alia via ad probandum. Tunc 
+      <lb ed="#V" n="27"/>sic: quandocumque sunt aliqua composita habentia distincta accuiden 
+      <lb ed="#V" n="28"/>tia magis quam aliqua que conceduntur differentia specie: illa 
+      disti<lb ed="#V" n="29" break="no"/>guuntur specie: sic est in proposito: caro enim et os 
+      magi<lb ed="#V" n="30" break="no"/>habent qualitates distinctas quam duo ligna et multa alia. 
+      </p>
+            <p xml:id="FrMS88-f18579-d1e164">
+               <lb ed="#V" n="31"/>¶ Secunda difficultas est de membris aliis: sicut sunt ma 
+      <lb ed="#V" n="32"/>nus et pes.
+    </p>
+            <p xml:id="FrMS88-f18579-d1e171">
+      ¶ Dicunt aliqui quod accidentibus differunt.
+    </p>
+            <p xml:id="FrMS88-f18579-d1e174">
+      ¶ Sed 
+      <lb ed="#V" n="33"/>contra. per figuram philosophi maxime distinxerunt aliqua in speciem 
+      <lb ed="#V" n="34"/>sicut hominem et asinum: sed manus et nasus habent distinctas 
+      <lb ed="#V" n="35"/>figuras. et quod ex hoc arguatur differentia specifica probatur: virtus 
+      <lb ed="#V" n="36"/>enim eiusdem rationis potest attingere effectum eiusdem 
+      <lb ed="#V" n="37"/>rationis: virtus autem vegetatiua potest carnem reparare. non 
+      <lb ed="#V" n="38"/>autem manum: nec hoc est propter accidentia: quia consequuntur 
+      term<lb ed="#V" n="39" break="no"/>num generationis vbi ergo idem terminus generationis. et similia 
+      ac<lb ed="#V" n="40" break="no"/>cidentia possunt induci.
+    </p>
+            <p xml:id="FrMS88-f18579-d1e194">
+      ¶ Tertia difficultas est de 
+      orga<lb ed="#V" n="41" break="no"/>nis sensuum: probo etiam propositum de istis. homo non 
+      <lb ed="#V" n="42"/>est animal nisi secundum quod est sensibilis. non est autem sensibilis nisi 
+      <lb ed="#V" n="43"/>per organizationem coniuctam cum potentia organica. 
+      <lb ed="#V" n="44"/>Si autem illud est accidens: ergo per accidens est animal.
+    </p>
+            <p xml:id="FrMS88-f18579-d1e205">
+      ¶ 
+      Quar<lb ed="#V" n="45" break="no"/>ta difficultas est de humoribus. in mixtis ex 
+      predna<lb ed="#V" n="46" break="no"/>tione elementorum arguitur differentia specifica sicut in quolibet 
+      <lb ed="#V" n="47"/>homine divfunatur aliquod determinatum elementum.
+    </p>
+            <p xml:id="FrMS88-f18579-d1e214">
+      ¶ 
+      Di<lb ed="#V" n="48" break="no"/>co ergo quod omnes partes etherogenee differunt specie.
+    </p>
+            <p xml:id="FrMS88-f18579-d1e220">
+      ¶ Sed 
+      <lb ed="#V" n="49"/>contra. quia eadem matearm informabitur disparatis formis 
+      spe<lb ed="#V" n="50" break="no"/>cificis.
+    </p>
+            <p xml:id="FrMS88-f18579-d1e227">
+      ¶ Secundo sequitur quod in vno homine erunt multa 
+      in<lb ed="#V" n="51" break="no"/>diuidua sub genere substantie.
+    </p>
+            <p xml:id="FrMS88-f18579-d1e232">
+      ¶ Tertio quia cum materia et 
+      for<lb ed="#V" n="52" break="no"/>ma constituunt compositum: quot sunt forme tot erunt 
+      com<lb ed="#V" n="53" break="no"/>posita.
+    </p>
+            <p xml:id="FrMS88-f18579-d1e239">
+      ¶ Quarto. etiam tot supposita.
+    </p>
+            <p xml:id="FrMS88-f18579-d1e242">
+      ¶ Ad primum dico. 
+      <lb ed="#V" n="54"/>quod secundum eandem partem materiae non sunt forme desperate 
+      <lb ed="#V" n="55"/>sed secundum aliam et aliam partem.
+    </p>
+            <p xml:id="FrMS88-f18579-d1e249">
+      ¶ Ad aliud concedo. quod 
+      <lb ed="#V" n="56"/>ibi sunt plura indiuidua partialia: et vnum indiuinduum 
+      to<lb ed="#V" n="57" break="no"/>tale essentiale: sicut lignum in vna parte est ignitum. in alia autem 
+      <lb ed="#V" n="58"/>non materiae sunt forme disparate.
+    </p>
+            <p xml:id="FrMS88-f18579-d1e259">
+      ¶ Ad aliud dico quod non 
+      <lb ed="#V" n="59"/>qu: libet nam cum forma facit supposita: sicut corpus 
+      <lb ed="#V" n="60"/>mortuum hominis: quia natura illa est ordinata ad totum quod vel 
+      <lb ed="#V" n="61"/>terius non est suppositum.
+    </p>
+            <p xml:id="FrMS88-f18579-d1e268">
+      ¶ Ad 4m concedo partialiter: 
+      im<lb ed="#V" n="62" break="no"/>mo etiam in homogeneis sunt plura partialia.
+    </p>
+            <p xml:id="FrMS88-f18579-d1e273">
+      ¶ Sed haec 
+      <lb ed="#V" n="63"/>remanet dubium: si ex hoc destruitur continuitas corpori 
+      <lb ed="#V" n="64"/>humani. Dico quod si loquamur de corpore humano quam tum ad 
+      <lb ed="#V" n="65"/>tertiam entitatem resultantem: non est difficultas: quia ibi 
+      <!--318.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>non est quantitas sed formalitas. non est ibi continui 
+      <lb ed="#V" n="67"/>tas sed simultas vnde os et caro bene sunt simul: materi 
+      <lb ed="#V" n="68"/>tamen manens sub istis formis bene est continua.
+    </p>
+            <p xml:id="FrMS88-f18579-d1e293">
+      ¶ Sd 
+      <lb ed="#V" n="69"/>contra. anima in illo in quo coniunguntur forme non 
+      <lb ed="#V" n="70"/>potest esse eadem pars materie. Dico quod sicut albedo 
+      <lb ed="#V" n="71"/>et nigredo vbi se coniungunt non est linea sed vna 
+      su<lb ed="#V" n="72" break="no"/>perficies manet sub albedine et nigredine: ita manet etiam 
+      <lb ed="#V" n="73"/>vna materia sub vtraque forma.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

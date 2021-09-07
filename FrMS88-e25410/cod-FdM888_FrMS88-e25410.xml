@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e25410"><!-- l1d5q4 -->
+            <head xml:id="FrMS88-e25410-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-e25410-d1e111">
+      Questio. iiii. 
+      <lb ed="#V" n="103"/>proprietas filum generetur.
+    </p>
+            <p xml:id="FrMS88-e25410-d1e116">
+      ¶ Di 
+      <lb ed="#V" n="104"/>Tum co eodem modo duo. Primum 
+      <lb ed="#V" n="105"/>quod non generatur. quia generari est effectus 
+      forma<lb ed="#V" n="106" break="no"/>lis eius. ergo non denominat ipsum.
+    </p>
+            <p xml:id="FrMS88-e25410-d1e125">
+      ¶ Praeterea ali 
+      <lb ed="#V" n="107"/>quid prius esset genitum. quam filius: quia ipsa 
+      fi<lb ed="#V" n="108" break="no"/>liatio est prior filio.
+    </p>
+            <p xml:id="FrMS88-e25410-d1e132">
+      ¶ 2o dico quod essentia vt in filio non ge 
+      <lb ed="#V" n="109"/>neratur: quia vt in filio non diminuit. ergo potest inferri 
+      ab<lb ed="#V" n="110" break="no"/>solute.
+    </p>
+            <p xml:id="FrMS88-e25410-d1e140">
+      ¶ 2o sic. essentia vt in filio non est filius: sed 
+      so<lb ed="#V" n="111" break="no"/>lus filius generatur. ergo essentia vt in filio non gene 
+      <lb ed="#V" n="112"/>ratur. ergo etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

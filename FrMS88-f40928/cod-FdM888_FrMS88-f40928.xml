@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f40928"><!-- l4d1q3 -->
+            <head xml:id="FrMS88-f40928-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f40928-d1e111">
+               <lb ed="#V" n="6"/>TErtio queritur vtrum aliquis posset est 
+      <lb ed="#V" n="7"/>se in statu neutro in veteri 
+      te<lb ed="#V" n="8" break="no"/>stamento. qui non fuisset in gratia nec in culpa. 
+      <lb ed="#V" n="9"/>Et videtur quod non: quia in euanus babetur. Qui non 
+      <lb ed="#V" n="10"/>Ul est mecum. contra me est. Mat. 12.
+    </p>
+            <p xml:id="FrMS88-f40928-d1e124">
+      ¶ 
+      Con<lb ed="#V" n="11" break="no"/>tra. in euanus. Dixerunt discipuli: vidimus quendam 
+      eiicien<lb ed="#V" n="12" break="no"/>tem demonia quae non sequitur nos etc. Tuce contlusio. Inquantum ille 
+      <lb ed="#V" n="13"/>eiiciebat demonia erat contra demones: et per consequens non erat ini 
+      <lb ed="#V" n="14"/>micus christi. inquantum vero non sequebatur apitulos et christum et vitam 
+      <lb ed="#V" n="15"/>christi non erat amicus christi. et sic nec inimicus nec amicus. 
+      <lb ed="#V" n="16"/>istam quaestionem dicunt quidam quod etiam de 
+      poten<lb ed="#V" n="17" break="no"/>Circ a tia dei absoluta non potest poni quis in statu 
+      neu<lb ed="#V" n="18" break="no"/>tro propter extrema contradictionis. quia culpa est carentia 
+      <lb ed="#V" n="19"/>gratiae. Et confirmatur in priuatiue oppositis. subiectum aptum 
+      <lb ed="#V" n="20"/>natum oportet esse sub altero oppositorum. Sed culpa et 
+      gra<lb ed="#V" n="21" break="no"/>tia: quorum susceptiuum est anima: sunt priuatiue 
+      opposi<lb ed="#V" n="22" break="no"/>ta: ergo etc.
+    </p>
+            <p xml:id="FrMS88-f40928-d1e153">
+      ¶ Contra istam opinionem atrinct 4r
+    </p>
+            <p xml:id="FrMS88-f40928-d1e156">
+      ¶ Primo. quia 
+      <lb ed="#V" n="23"/>deus creauit primum angelum in puris naturalibus secundum 
+      quo<lb ed="#V" n="24" break="no"/>rundam doctrina. Sed talis non fuit creatus in gratia nes 
+      <lb ed="#V" n="25"/>in culpa: ergo etc.
+    </p>
+            <p xml:id="FrMS88-f40928-d1e166">
+      ¶ Secundo in statu inocentie deum 
+      dedi<lb ed="#V" n="26" break="no"/>homini gratiam. tamen si eam non dedisset non habuisset cul 
+      <lb ed="#V" n="27"/>pam. si non cecidisset.
+    </p>
+            <p xml:id="FrMS88-f40928-d1e173">
+      ¶ 3o. quia vir et mulier in puris natura 
+      <lb ed="#V" n="28"/>libus generassent fetum: et non in peccato originali. non 
+      <lb ed="#V" n="29"/>tamen necessario haberet gratiam: ergo etc.
+    </p>
+            <p xml:id="FrMS88-f40928-d1e180">
+      ¶ 4o. quia christus de 
+      <lb ed="#V" n="30"/>potentia absoluta posset esse natus sine gratia. si non fuisse 
+      <lb ed="#V" n="31"/>humana natura a verbo assumpta: nec tamen contraxisset 
+      mor<lb ed="#V" n="32" break="no"/>tale pecatum.
+    </p>
+            <p xml:id="FrMS88-f40928-d1e189">
+      ¶ Dico ergo quod de potentia dei absoluta potest 
+      <lb ed="#V" n="33"/>homo esse in statu neutro. Quod confirmat Aug. quia aliquis 
+      <lb ed="#V" n="34"/>rex potest habere inimicum aliquem delinquentem neutrum 
+      <lb ed="#V" n="35"/>remittendo culpam non acceptando eum ad gratiam.
+    </p>
+            <p xml:id="FrMS88-f40928-d1e198">
+      ¶ Sid 
+      <lb ed="#V" n="36"/>ontr hoc ariniti. 4r
+    </p>
+            <p xml:id="FrMS88-f40928-d1e203">
+      ¶ Primo quia impossibile est transire de 
+      contra<lb ed="#V" n="37" break="no"/>dictorio in contradictorium nulla facta mutatione in 
+      ali<lb ed="#V" n="38" break="no"/>quo extremorum. Sed ille primo non est gratus: postea fit 
+      <lb ed="#V" n="39"/>gratus.
+    </p>
+            <p xml:id="FrMS88-f40928-d1e213">
+      ¶ 2o quia anima non potest purgari a peccato nisi fiat 
+      <lb ed="#V" n="40"/>de immunda munda.
+    </p>
+            <p xml:id="FrMS88-f40928-d1e218">
+      ¶ Sed talis est in statu gratie: ergo etc.
+    </p>
+            <p xml:id="FrMS88-f40928-d1e221">
+      ¶ 3o 
+      <lb ed="#V" n="41"/>quia quando deus reconciliat aliquem videtur sibi dare gratiam. 
+      </p>
+            <p xml:id="FrMS88-f40928-d1e226">
+               <lb ed="#V" n="42"/>¶ 4o. quia voluntas diuina circa creaturam: vel habet actum 
+      <lb ed="#V" n="43"/>volendi: vel nolendi circa talem. Si volendi: ergo eum habet 
+      gra<lb ed="#V" n="44" break="no"/>tum. Si nolendi: ergo eum odit.
+    </p>
+            <p xml:id="FrMS88-f40928-d1e235">
+      ¶ Ad primum. dico quod 
+      trans<lb ed="#V" n="45" break="no"/>tus ille vel potest esse inter aliqua distantia rationis: et tun 
+      <lb ed="#V" n="46"/>oportet esse per mutationem realem: vel potest esse distantia 
+      <lb ed="#V" n="47"/>rationis: et tunc non oportet quod sit mutatio realis. sed sufficit quod 
+      <lb ed="#V" n="48"/>sit secundum rationem.
+    </p>
+            <p xml:id="FrMS88-f40928-d1e246">
+      ¶ Acceptatio autem ista passiua. qua ad 
+      <lb ed="#V" n="49"/>ceptatur aliquis de non accepto non est aliquid reale: sed 
+      <lb ed="#V" n="50"/>apponitur tantum respectus rationis. videlicet respectus ad 
+      <lb ed="#V" n="51"/>ceptationis. que ponitur tantum in ista re que alio modo 
+      <lb ed="#V" n="52"/>se habet.
+    </p>
+            <p xml:id="FrMS88-f40928-d1e258">
+      ¶ Ad secundum dicendum quod deus bene habet actum 
+      com<lb ed="#V" n="53" break="no"/>placentie in anima in puris naturalibus constituta. Sed 
+      il<lb ed="#V" n="54" break="no"/>le actus non est actus quo acceptat ad vita eternam 
+      l<lb ed="#V" n="55" break="no"/>bere.
+    </p>
+            <p xml:id="FrMS88-f40928-d1e267">
+      ¶ Ad tertium dicendum quod istud reconciliari potest 
+      <lb ed="#V" n="56"/>intelligi dupliciter. vel quod sit eius amicus: et non oportet tantum 
+      <lb ed="#V" n="57"/>hoc ponere in proposito. Alio modo quod non inimicus. 
+      <lb ed="#V" n="58"/>et ita potest esse reconciliatio siue gratia data.
+    </p>
+            <p xml:id="FrMS88-f40928-d1e276">
+      ¶ Ad 4m 
+      <lb ed="#V" n="59"/>dicendum quod deus habet actum volendi complacentie natura 
+      <lb ed="#V" n="60"/>lis sicut in aliis pulchris.
+    </p>
+            <p xml:id="FrMS88-f40928-d1e283">
+      ¶ Sed tantum remanet 
+      du<lb ed="#V" n="61" break="no"/>bium de priuatiue oppositis. quia videtur quod alterum 
+      necessa<lb ed="#V" n="62" break="no"/>rio insit susceptiuo.
+    </p>
+            <p xml:id="FrMS88-f40928-d1e290">
+      ¶ Dico quod culpa et gratia sunt im 
+      <lb ed="#V" n="63"/>mediata ad modum contrariorum. sed ibi est ratio reatus: 
+      ve<lb ed="#V" n="64" break="no"/>respectus rationis quia remanet transeunte actu peccati talis 
+      <lb ed="#V" n="65"/>respectus. potest autem deus facere subiectum sine contrarit 
+      <lb ed="#V" n="66"/>pppositis. vnde culpa non videtur addere nisi quendam 
+      <!--375.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>respectum obligationis ad penam eternam: vel 
+      respe<lb ed="#V" n="68" break="no"/>ctum offensionis ad voluntatem diuinam.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

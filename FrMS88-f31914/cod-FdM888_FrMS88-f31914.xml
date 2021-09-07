@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaesito 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaesito 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f31914"><!-- l3d12-16q2 -->
+            <head xml:id="FrMS88-f31914-Hd1e108">Quaesito 2</head>
+            <p xml:id="FrMS88-f31914-d1e111">
+               <lb ed="#V" n="18"/>¶ Questio. ii. 
+      <lb ed="#V" n="19"/>SEcundo quero Utrum lumen 
+      <lb ed="#V" n="20"/>creatum ad 
+      <lb ed="#V" n="21"/>operationem beatificam anime christi requiratur.
+    </p>
+            <p xml:id="FrMS88-f31914-d1e122">
+               <lb ed="#V" n="22"/>hic introducuntur quatuor 
+      <lb ed="#V" n="23"/>conclusiones 
+    </p>
+            <p xml:id="FrMS88-f31914-d1e129">
+               <lb ed="#V" n="24"/>¶ Prima est quo ad actum beatisicum lumen creatum non 
+      re<lb ed="#V" n="25" break="no"/>quiritur in potentia ad producendum: quia impossibile est quod habitus at. 
+      <lb ed="#V" n="26"/>tingat ad actum ad quem non attingit potentia. quia habitus non operatur 
+      <lb ed="#V" n="27"/>sine potentia: sed sicut dictum est potentia non attingit ad actum 
+      <lb ed="#V" n="28"/>beatificum per productionem. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f31914-d1e142">
+      ¶ 2a conclusio quod lumen crea 
+      <lb ed="#V" n="29"/>tum non requritur ad recipiendum: quia quando aliquid est alicui ratio 
+      re<lb ed="#V" n="30" break="no"/>cipiendi aliquid ipso non manente non manet illud. Sed ratio 
+      re<lb ed="#V" n="31" break="no"/>cipiendi potest manere verbo cui est ratio: ipso non manente. patet 
+      <lb ed="#V" n="32"/>quia cum superficies sit ratio recipiendi albedinem in corpore si amo 
+      <lb ed="#V" n="33"/>ueatur superficies a corpore et etiam albedo.
+    </p>
+            <p xml:id="FrMS88-f31914-d1e156">
+      ¶ Item si amouea 
+      <lb ed="#V" n="34"/>tur corpus potest superficies manere alba. si igitur lumen 
+      crea<lb ed="#V" n="35" break="no"/>tum requratur in potentia ad recipiendum actum beatificum non ma 
+      <lb ed="#V" n="36"/>nente lumine anima non esset beata: quod est falsum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f31914-d1e165">
+      ¶ Item 
+      <lb ed="#V" n="37"/>subtracta anima habitus remaneret beatus. quod est erroneum. 
+      <lb ed="#V" n="38"/>crgo non requritur lumen creatum ad recipiendum.
+    </p>
+            <p xml:id="FrMS88-f31914-d1e172">
+      ¶ 3a conclusio 
+      <lb ed="#V" n="39"/>est. quod lumen creatum non requritur tamquam rto cognoscendi ex parte 
+      <lb ed="#V" n="40"/>vbiecti. quia potentia intellectiua immediate respicit suum 
+      <lb ed="#V" n="41"/>obiectum. Sed in anima nostra est potentia intellectiua. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f31914-d1e181">
+      ¶ 4a conclus 
+      <lb ed="#V" n="42"/>est. quod lumen creatum non requritur tamquam ratio cognoscendi ex parte 
+      <lb ed="#V" n="43"/>potentie.
+    </p>
+            <p xml:id="FrMS88-f31914-d1e188">
+      ¶ Quia potentia nostra est sufficiens receptiuum primum 
+      <lb ed="#V" n="44"/>ictus primi et perfecti. valet. obiecti beatifici. igitur et actus 
+      secun<lb ed="#V" n="45" break="no"/>di etc.
+    </p>
+            <p xml:id="FrMS88-f31914-d1e195">
+      ¶ Contra. quia omnis habitus naturalis per te ponitur ad 
+      <lb ed="#V" n="46"/>producenus si deficiat potentia ab actualitate. Igitur et habitus 
+      <lb ed="#V" n="47"/>upernaturalis.
+    </p>
+            <p xml:id="FrMS88-f31914-d1e203">
+      ¶ Dico quod verum est si potentia respectu illius actus sit actia: 
+      <lb ed="#V" n="48"/>quod non est in proposito.
+    </p>
+            <p xml:id="FrMS88-f31914-d1e208">
+      ¶ Item virtutes et dona infunduntur prius 
+      <lb ed="#V" n="49"/>in baptismo: non tamen ad producendum: debent igitur poni ad 
+      re<lb ed="#V" n="50" break="no"/>cipiendum. et si non vt ratio recipiendi: tamen sicut aliquid necessario 
+      re<lb ed="#V" n="51" break="no"/>quisitum: et sicut priuium actui. vt diaphaneitas requiritur 
+      <lb ed="#V" n="52"/>in aere non vt lumen recipiat. Sed tamquam priuia dispositio. 
+      </p>
+            <p xml:id="FrMS88-f31914-d1e219">
+               <lb ed="#V" n="53"/>¶ Quod non oportet lumen creatum positionem necessario: quia actus non 
+      imme<lb ed="#V" n="54" break="no"/>diate recipitur in eo: quia esset beatum: vt dictum est: nec in 
+      poten<lb ed="#V" n="55" break="no"/>tia immediate. quia tunc habitus nihil faceret: nec 
+      immedia<lb ed="#V" n="56" break="no"/>te in vtroque. quia habitus non est capax beatitudinis 
+      </p>
+            <p xml:id="FrMS88-f31914-d1e230">
+               <lb ed="#V" n="57"/>¶ Sed dubium est si de facto dicitet poni.
+    </p>
+            <p xml:id="FrMS88-f31914-d1e235">
+      ¶ Dico quod de 
+      fa<lb ed="#V" n="58" break="no"/>cto lumen creatum ponitur. licet hoc non sit necessarium nec ad 
+      <lb ed="#V" n="59"/>hoc etiam eccletie determinatio cogit. sed solum cogit eo 
+      <lb ed="#V" n="60"/>clusia ad ponendum lumen increatum: quia dicebant errantes 
+      <lb ed="#V" n="61"/>quod anima non indiget lumie ad perfecte deo fruendum et 
+      intuen<lb ed="#V" n="62" break="no"/>dum.
+    </p>
+            <p xml:id="FrMS88-f31914-d1e248">
+      ¶ Item dubium est quare in aliis operationibus anime 
+      <lb ed="#V" n="63"/>ponimus habitus sicut in conceptione habitum 
+      scien<lb ed="#V" n="64" break="no"/>tie.
+    </p>
+            <p xml:id="FrMS88-f31914-d1e256">
+      ¶ Dico quod hoc est: quia potentia concurrit ad eliciendum 
+      <lb ed="#V" n="65"/>tales actus. vbi autem potentia nihil actiue facit. habitus 
+      <lb ed="#V" n="66"/>non est necessarius.
+    </p>
+            <p xml:id="FrMS88-f31914-d1e263">
+      ¶ Item est dubium. quia beatitudo secundum Arist. 
+      <!--352.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>est operatio secundum virtutem perfectam. sed beatitudo non est vir 
+      <lb ed="#V" n="68"/>sus cum sit actus. Igitur alium ab actu oportet ponere 
+      ha<lb ed="#V" n="69" break="no"/>ditum. hoc autem voco lumen.
+    </p>
+            <p xml:id="FrMS88-f31914-d1e276">
+      ¶ Dico quod Aristoteles. non acci 
+      <lb ed="#V" n="70"/>bit hic virtutem pro habitu: sed forte magis pro potentia. 
+      <lb ed="#V" n="71"/>vnde accipit hic operari pro operationem recipere. Sicut 
+      <lb ed="#V" n="72"/>dixit quod intelligere est pati. Sed aliquid potest esse perfectum 
+      <lb ed="#V" n="73"/>sine habitu. vnde deus est perfectissimus: et tamen nullum habet. 
+      <lb ed="#V" n="74"/>habitum perficientem aut sibi inherentem.
+    </p>
+            <p xml:id="FrMS88-f31914-d1e289">
+      ¶ Item est 
+      <lb ed="#V" n="75"/>dubium ad quid ponitur lumen creatum.
+    </p>
+            <p xml:id="FrMS88-f31914-d1e294">
+      ¶ Dico quod valet 
+      <lb ed="#V" n="76"/>ad ornatum anime et decorem ex ordinatione divina: vt in 
+      <lb ed="#V" n="77"/>periculis gratia et virtutes creantur: et sicut in ipsis 
+      or<lb ed="#V" n="78" break="no"/>dinatis caracter imprimitur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

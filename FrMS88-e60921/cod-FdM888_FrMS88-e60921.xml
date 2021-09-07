@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="83-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e60921"><!-- l1d26q1 -->
+            <head xml:id="FrMS88-e60921-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-e60921-d1e111">
+               <lb ed="#V" n="44"/>¶ Distinctio. xxvi. Questio i. 
+      <lb ed="#V" n="45"/>Nunc de proprietatibus personarum. etc.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e118">
+               <lb ed="#V" n="46"/>UTrum in diuinis sit aliquod 
+      suppo<lb ed="#V" n="47" break="no"/>Trum situm absolutum. Quod sic. 
+      Au<lb ed="#V" n="48" break="no"/>gu. primo de tri. dicit. quod tres perium sunt vnus 
+      crea<lb ed="#V" n="49" break="no"/>tor: sed creare est supositum. ergo sunt vnum suppositum. in 
+      <lb ed="#V" n="50"/>relatiuum. quia sunt tria. ergo absolutum.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e131">
+      ¶ contra. quia tomo 
+      <lb ed="#V" n="51"/>in divinis essent 4or supestium contra deterus est 
+      ecclesie<lb ed="#V" n="52" break="no"/>vnus doctor quod sic. quia illud cui conueniunt vel 
+      <lb ed="#V" n="53"/>hic Dicit attribuuntur omnes operationes essentiales 
+      <lb ed="#V" n="54"/>scilicet itelligere velle creare etc. illud est absolutum. sed suposton 
+      attri<lb ed="#V" n="55" break="no"/>buuntur. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e144">
+      ¶ Sed contra arguo. 4r. primo sic. Nullum absolutum in 
+      di<lb ed="#V" n="56" break="no"/>uinis est incommnicabile: sed omne suppositum ex ratione qua est suppositum est 
+      <lb ed="#V" n="57"/>incomunicabile. ergo nullum supositum est absolutum.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e152">
+      ¶ 2o sic. Nullum 
+      sup<lb ed="#V" n="58" break="no"/>potest esse quo alicui cum ipsum sit ex ratione sua vltimum quod. sed 
+      <lb ed="#V" n="59"/>omne quod est comunicabile potest esse quo. ergo nullum communicabile potest esse 
+      <lb ed="#V" n="60"/>supositum. constat autem quod istud supostum absolutum esset communicabile. ergo 
+      nul<lb ed="#V" n="61" break="no"/>lum supositum est absolutum.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e163">
+      ¶ 3o sic. In diuinis non sunt secundum 
+      <lb ed="#V" n="62"/>fidem nisi tria suppositum. cum ergo sint tria relatiua non erit aliquod 
+      <lb ed="#V" n="63"/>absolutum: nisi dicas quod coincidit in idem cum relatiuis: quod est 
+      <lb ed="#V" n="64"/>falsum. quia de absoluto et respectiuo dicuntur 
+      extrema<lb ed="#V" n="65" break="no"/>contradictionis: ergo non sunt ide.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e174">
+      ¶ 4o sic. Omne supsitum in natam in 
+      <!--168.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>tellectuali est peimum secundum Ric. sed illud supisitum esset in natum intel 
+      <lb ed="#V" n="67"/>lectuali: ergo esset persona: et sic in diuinis essent 4or persone. simili 
+      <lb ed="#V" n="68"/>tunc in diuinis esset vna perua absoluta: quod communiter non 
+      concedi<lb ed="#V" n="69" break="no"/>tur.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e190">
+      ¶ Ideo dico. quod in diuinis non est aliquod supositum absolutum. sicut 
+      <lb ed="#V" n="70"/>nec aliqua perim absoluta. quia vtrumque istorum tam supesitum quam 
+      persona<lb ed="#V" n="71" break="no"/>est incommunicabilis subsistentia: nullum autem absolutum 
+      <lb ed="#V" n="72"/>est incommunicabile. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e199">
+      ¶ Sed contra istud instatur 4r. 
+      Prim<lb ed="#V" n="73" break="no"/>sic. Nam philosophi non errauerunt circa diuinam vnitatem: sicut 
+      <lb ed="#V" n="74"/>circa personarum trinitatem: et cum ipsi posuerunt in diuinis 
+      <lb ed="#V" n="75"/>vnicum suppositum absolutum. cui omnes actus et operationes diuinas 
+      <lb ed="#V" n="76"/>attribuebant: ergo videtur quod ita sit.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e210">
+      ¶ 2o sic. Actus semper sunt 
+      <lb ed="#V" n="77"/>suppositorum: vt quod. sed actus essentiales non possunt esse 
+      ali<lb ed="#V" n="78" break="no"/>cuius: vt quod. nisi alicuius absoluti: quia omnis actus qui 
+      conue<lb ed="#V" n="79" break="no"/>nit pluribus conuenit eis per aliquod commune. nullus autem respe 
+      <lb ed="#V" n="80"/>ctus est communis perimum. ergo per aliquod absolutum.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e222">
+      ¶ 3o sic. Ratio subsister 
+      <lb ed="#V" n="81"/>tis est ratio perisu. sed diuina essentia in sua consideratione 
+      precisa<lb ed="#V" n="82" break="no"/>habet rationem subsistentis. ergo et habet rationem periue. et constat quod absolute. 
+      <lb ed="#V" n="83"/>ergo videtur quod vna persona absoluta sit communis aliis. sicut essentia dicitur esse 
+      <lb ed="#V" n="84"/>communis.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e233">
+      ¶ 4o sic. Omnis indiuidua substantia naturae rationalis est 
+      sup<lb ed="#V" n="85" break="no"/>positum vel perium secundum diffinitionem Doe. in libus de tri. sed essentia 
+      di<lb ed="#V" n="86" break="no"/>uina est indiuidua substantia in natura rationali. ergo est perium. constat autem 
+      <lb ed="#V" n="87"/>quod non respectiua. ergo absoltua.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e242">
+      ¶ Ad primum dico. quod licetur 
+      <lb ed="#V" n="88"/>philosophi per rationem naturalem potuerunt inuestigare vnitatem 
+      indi<lb ed="#V" n="89" break="no"/>uidui absoluti cui attribuerent actus et operationes: et ex 
+      <lb ed="#V" n="90"/>hoc potuerunt demonstrare entitatem suppositi et existentiam hoc 
+      <lb ed="#V" n="91"/>est quod oportet dare suppositum: non tamen vnum vel plura vel vt 
+      <lb ed="#V" n="92"/>suppositum absolutum vel relatiuum. Dico ergo quod in primo non 
+      erra<lb ed="#V" n="93" break="no"/>uerunt. immo ad hoc deducit demonstratio quod sit dare 
+      sup<lb ed="#V" n="94" break="no"/>positum. Si tamen dixissent quod illud erat absolutum errassent. 
+      si<lb ed="#V" n="95" break="no"/>militer si dixissent quod erat tantum vnum errassent.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e262">
+      ¶ Ex quo 
+      <lb ed="#V" n="96"/>colligitur quod ratio suppositi abstrahit ab absoluto et respectus 
+      ex<lb ed="#V" n="97" break="no"/>quo aliquae conclusiones et veritates possunt demonstrari de eo igno. 
+      <lb ed="#V" n="98"/>rando vel dubitando vtrum sit absolutum vel respectiuum 
+      </p>
+            <p xml:id="FrMS88-e60921-d1e271">
+               <lb ed="#V" n="99"/>¶ Ad 2m dico. quod creare et conseruare et alii actus et opera 
+      <lb ed="#V" n="100"/>tiones sunt diuinarum personarum et suppositorum. vt qua 
+      ve<lb ed="#V" n="101" break="no"/>quod. tamen possunt esse alicuius indiuidui absoluti vt quo: sicut 
+      <lb ed="#V" n="102"/>hic homo generat vt quod: sed humanitas est quo.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e282">
+      ¶ Ad 
+      <lb ed="#V" n="103"/>3m dico. quod non sufficit ad rationem perfectam suppositi sub 
+      <lb ed="#V" n="104"/>sistere nsi addatur subsistere incommunicabiliter. eo quod si communica 
+      <lb ed="#V" n="105"/>retur iam posset esse quo. hoc autem repugnat vltimo quod. quod 
+      <lb ed="#V" n="106"/>ipsum sit quo respectu alicuius.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e294">
+      ¶ Ad 4m dico. quod Ric. 
+      <lb ed="#V" n="107"/>corrigit diffinitionem Doetii ponens incommunicabile pro 
+      indiui<lb ed="#V" n="108" break="no"/>duo propter animam rationalem quae est indiuidua. et tamen non est persona. quia 
+      <lb ed="#V" n="109"/>ipsa est comunicabilis. et ideo tenenda est diffinitio 
+      Rich<lb ed="#V" n="110" break="no"/>est di. si suppositum diuinum possit dici 
+      abso<lb ed="#V" n="111" break="no"/>Sed hic lutum. probo euidenter quod sic. Omne quod 
+      predi<lb ed="#V" n="112" break="no"/>catur de aliqua natura in primo modo dicendi per se praedicatur 
+      neces<lb ed="#V" n="113" break="no"/>sario de supposito naturae. hoc patet ex regula vulgata: quando 
+      al<lb ed="#V" n="114" break="no"/>terum de altero praedicatur: vt de subiecto quicquid dicitur de praedicato 
+      <lb ed="#V" n="115"/>et de subiecto. constat autem quod natam praedicatur in primo modo dicendi per 
+      si<lb ed="#V" n="116" break="no"/>de supposito: hec enim est vera in primo modo: pater est deus: 
+      <lb ed="#V" n="117"/>ergo quicquid dicitur de natura in primo modo: dicitur et de supposito scilicet 
+      <lb ed="#V" n="118"/>de patre: sed ista est vera in primo modo: deus est ens 
+      <lb ed="#V" n="119"/>absolutum: ergo et ista est vera: pater est ens absolutum. 
+      </p>
+            <p xml:id="FrMS88-e60921-d1e325">
+               <lb ed="#V" n="120"/>¶ Praeterea. In recta linea sunt illa spiritus ens absolutum. 
+      Ar<lb ed="#V" n="121" break="no"/>guo tunc sic. Omnis spiritus est ens absolutum: pater 
+      <lb ed="#V" n="122"/>est spiritus: ergo pater est ens absolutum: nec valet fugere ad 
+      praedi<lb ed="#V" n="123" break="no"/>cationem identicam. quia quelibet praemissarum est quiditatiua. 
+      <lb ed="#V" n="124"/>spiritus est ens absolutum quiditatiue. pater est spiritus quiditatiue. 
+      <lb ed="#V" n="125"/>Uisum fuit mihi aliquando propter istas rationes quod hoc. pater est deus: 
+      <lb ed="#V" n="126"/>non esset vera in primo modo dicendi per se. Et hoc confirmatur sic. prim 
+      <lb ed="#V" n="127"/>auctoritate Augu. 7. de tri. quae dicit. quod non eo pater quo 
+      <lb ed="#V" n="128"/>deus. Tunc sic. Quandocunque aliquid dicitur de aliquo in primo 
+      <lb ed="#V" n="129"/>modo dicendi per se competit sibi cum reduplicatione substanti: 
+      <lb ed="#V" n="130"/>quia homo inquantum homo est animal: sed ista secundum Aug. et 
+      veri<lb ed="#V" n="131" break="no"/>tatem est falsa: pater inquantum pater est deus: quia tunc 
+      <!--169.xml-->
+      <pb ed="#V" n="83-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>omnis pater esset deus: ergo videtur quod pater non est deus in primo modo dicendu 
+      <lb ed="#V" n="2"/>per se.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e364">
+      ¶ 2o sic confirmatur. quia eidem inquantum idem non con 
+      <lb ed="#V" n="3"/>petunt contradictoria: vel saltem non competunt opposita in 
+      pri<lb ed="#V" n="4" break="no"/>mo modo per se: sed pater inquantum pater in primo modo est ad aliquid 
+      <lb ed="#V" n="5"/>ergo in primo modo non est ad se et absolutum.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e373">
+      ¶ his 
+      visi<lb ed="#V" n="6" break="no"/>trahatur ista regula ad oppositum. Quandocumque aliqua nam non suf 
+      <lb ed="#V" n="7"/>positatur in supposito proprie rationis formalis non 
+      dici<lb ed="#V" n="8" break="no"/>de illo in primo modo.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e382">
+      ¶ Exemplum. albedo suppositatur in 
+      sub<lb ed="#V" n="9" break="no"/>stantia. ideo non dicitur de substantia in primo modo: sed essentia diuina non 
+      sui<lb ed="#V" n="10" break="no"/>positatur in supposito proprio. ergo etc. Mi. patet. quia 
+      suppos<lb ed="#V" n="11" break="no"/>tatur per aliquid alterius generis scilicet relationis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e391">
+      ¶ 
+      Confiri<lb ed="#V" n="12" break="no"/>matur. quia quando aliqua relatio adueniens alicui absolutia constituit 
+      re<lb ed="#V" n="13" break="no"/>latiuum: illud cui aduenit scilicet absolutum non dicitur in primo modo 
+      <lb ed="#V" n="14"/>dicendi per se de isto constituto: sicut patet: quia similitudo 
+      adueni<lb ed="#V" n="15" break="no"/>ens qualitati constituit simile: et tamen ista non est vera in primo modo: 
+      <lb ed="#V" n="16"/>simile est equale. sic est hic. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e405">
+      ¶ Si dicatur quod hoc est veri 
+      <lb ed="#V" n="17"/>in creaturis propter distonem realem relationis aduenientis ab 
+      <lb ed="#V" n="18"/>eo cui aduenit relatio. non sic autem in diuinis propter 
+      summam<lb ed="#V" n="19" break="no"/>identitatem relationis et fundamenti. Si inquam sic dicatur 
+      <lb ed="#V" n="20"/>hoc non satisfacit: quia licet propter identitatem realem poterit 
+      praedica<lb ed="#V" n="21" break="no"/>ri identice vel realiter illud absolutum. non tamen formaliter de 
+      <lb ed="#V" n="22"/>constituto: tamen quia identitas realis non variat rationem forma 
+      <lb ed="#V" n="23"/>lem: ideo non plus propter eam verificatur praedicatio in primo 
+      <lb ed="#V" n="24"/>modo quam si illa non esset: quia praedicatio primi modi semper 
+      sequ<lb ed="#V" n="25" break="no"/>tur rationem formalem.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e427">
+      ¶ hoc tamen non dico nunc: sed dico quod 
+      <lb ed="#V" n="26"/>hec. pater est deus. est vera et formalis: sed tamen quod sit vera 
+      inl<lb ed="#V" n="27" break="no"/>primo mo dicendi per se: sicut ista: homo est animal: non intelligo: sicut 
+      <lb ed="#V" n="28"/>nec ista est in primo modo: deus est ens: sicut ista homo est animal: quia 
+      <lb ed="#V" n="29"/>ens non includitur: sicut pars essentialis in deo.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e438">
+      ¶ 2a di. si 
+      sui<lb ed="#V" n="30" break="no"/>positum diuinum debeat dici suppositum relatiuum. Uidetur quod 
+      <lb ed="#V" n="31"/>non. quia ratione essentie que est praencipalis et absoluta debet 
+      <lb ed="#V" n="32"/>ab ea denominari: et sic non diciet dici relatiuum. Dinco tamen quod propter 
+      <lb ed="#V" n="33"/>oppositam rationem dicbet dici respectiuum: quia quandocunque aliquid 
+      <lb ed="#V" n="34"/>componitur ex duobus semper compositum vel constitutum 
+      sequi<lb ed="#V" n="35" break="no"/>tur debiliorem seu infirmiore partem: persona diuina 
+      consti<lb ed="#V" n="36" break="no"/>tuitur ex essentia et relatione: ergo erit relatiua. Ma. patet. nam 
+      <lb ed="#V" n="37"/>homo dicitur corporeus propter partem minus praencipalem et non spiri 
+      <lb ed="#V" n="38"/>tualem: similiter compositum dicitur corruptibile propter 
+      co<lb ed="#V" n="39" break="no"/>ruptionem alterius partis. similiter album dicitur ens per accidens: 
+      <lb ed="#V" n="40"/>quia includit aliquod accidens: sic dico quod persona diabet dici 
+      rela<lb ed="#V" n="41" break="no"/>tiua.
+    </p>
+            <p xml:id="FrMS88-e60921-d1e467">
+      ¶ Ad argumentum patet. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

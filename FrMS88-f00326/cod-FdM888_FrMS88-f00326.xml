@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="134-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f00326"><!-- l1d46q1 -->
+            <head xml:id="FrMS88-f00326-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f00326-d1e111">
+               <lb ed="#V" n="86"/>¶ Distinctio. xlvi. Questio q. 
+      <lb ed="#V" n="87"/>hic oritur questio etc. 
+      <lb ed="#V" n="88"/>distinctionem. 4o. quero. Utrum 
+      <lb ed="#V" n="89"/>Irca voluntas diuina producat 
+      ob<lb ed="#V" n="90" break="no"/>iecta sua in esse volito. Quod non. quia in 
+      di<lb ed="#V" n="91" break="no"/>uinis non sunt nisi due production es ad intra 
+      <lb ed="#V" n="92"/>et solum duo producta secundum Aug. in. 5. de 
+      <lb ed="#V" n="93"/>tri. sed multa sunt volita in diuinis: ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f00326-d1e131">
+               <lb ed="#V" n="94"/>¶ Contra. voluntas est productiua verbi secundum hversal. de trini. et 
+      <lb ed="#V" n="95"/>illud non potest intellecti nisi in esse volito cum in esse simpliciter 
+      vo<lb ed="#V" n="96" break="no"/>luntas ad nullam naturalem productionem concurrat.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e140">
+      ¶ hic sunt 
+      <lb ed="#V" n="97"/>duo inquirenda. primum est de voluntate creata. 
+      secun<lb ed="#V" n="98" break="no"/>dum de voluntate diuina. 
+      <lb ed="#V" n="99"/>ad primum aliquo dicunt quod voluntas non 
+      <lb ed="#V" n="100"/>Quantum producit sua obstanti in esse volito. quia 
+      <lb ed="#V" n="101"/>actiones eius sunt immanentes et non transeuntes: et sic non agit 
+      <lb ed="#V" n="102"/>in obiectum.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e156">
+      ¶ Contra hoc introducuntur quatuor rationes ad per 
+      <lb ed="#V" n="103"/>tem affirmatiuam. Primo sic. quando aliquod obiectum habet aliquod esse 
+      <lb ed="#V" n="104"/>quod prius non habuit: necesse est vt per aliquod producens 
+      ta<lb ed="#V" n="105" break="no"/>le esse ei attribuatur: sed obiectum voluntatis nostre habet nune 
+      <lb ed="#V" n="106"/>esse volitum: quod prius non habebat: ergo etc.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e168">
+      ¶ 2o sic. quandocumque 
+      <lb ed="#V" n="107"/>est aliquod receptiuum: quod recipit aliquid quod prius non 
+      ha<lb ed="#V" n="108" break="no"/>buit: illud recipit ab aliqui ipsum transmutante: hoc patet. quia 
+      <lb ed="#V" n="109"/>susceptiuum recipiens aliquid quod prius non habuit mutatur 
+      <lb ed="#V" n="110"/>et omnis mutatio fit ab aliquo mutante: sed obiectum volunt 
+      <lb ed="#V" n="111"/>tatis recipit aliquid quod prius non habebat: non solum in animam 
+      <lb ed="#V" n="112"/>sed in se: quia in se est amatum et desideratum. non tantum vt in anima. 
+      <lb ed="#V" n="113"/>hoc patet. quia mutatio semper terminatur ad aliquid in 
+      ipso<lb ed="#V" n="114" break="no"/>mutato receptum: obiectu autem mutatur sicut patet. quia 
+      transi<lb ed="#V" n="115" break="no"/>de contradictorio in contradictorium. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e190">
+      ¶ 3o sic. impossibile est aliquam 
+      <lb ed="#V" n="116"/>formam quae prius non fuit in aliquo induci de nouo: nisi per aliquam 
+      <lb ed="#V" n="117"/>productionem: sed respectus voliti est quaedam forma scilicet quaedam 
+      re<lb ed="#V" n="118" break="no"/>latio. quia omne volitum est ab aliquo volitum. et est inducta de 
+      no<lb ed="#V" n="119" break="no"/>uo in obiectum. hoc patet. quia prius obiectum non erat volitum 
+      <lb ed="#V" n="120"/>ergo est productum.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e203">
+      ¶ Confirmatur. quia omnis impressio forme 
+      <lb ed="#V" n="121"/>praesupponit eam esse: sed hec forma quae est relatio quidam scilicet esse 
+      vo<lb ed="#V" n="122" break="no"/>litum: imprimiter in obiecto: ergo praesupponitur esse: sed non 
+      praesuppo<lb ed="#V" n="123" break="no"/>nitur nisi ab aliquo agente producto. ergo ipsum esse volitum est 
+      produ<lb ed="#V" n="124" break="no"/>ctum.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e214">
+      ¶ 4o sic. quandocunque ab aliqua causa causatur forma aliqua. ab 
+      <lb ed="#V" n="125"/>ea causatur effectus formalis eiusdem forme: sed volitio est causata 
+      <lb ed="#V" n="126"/>a voluntate: et esse volitum est effectus formalis volitionis 
+      <lb ed="#V" n="127"/>ergo esse volitum causabitur a voluntate sicut ipsamet forma.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e223">
+      ¶ 3 
+      <lb ed="#V" n="128"/>apparet mihi esse dicendum. quod voluntas obiectum suum producit in 
+      <lb ed="#V" n="129"/>esse volito.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e230">
+      ¶ Et hoc confirmo dupliciter. Primo. quia quod 
+      conue<lb ed="#V" n="130" break="no"/>nit alicui per accidens: non conuenit sibi a se. et per consequens ab alio 
+      <lb ed="#V" n="131"/>sed esse volitum conuenit alicui lapidi per accidens. ergo ab alio. 
+      <!--272.xml-->
+      <pb ed="#V" n="135-r"/>
+               <cb ed="#V" n="a"/>
+            </p>
+            <p xml:id="FrMS88-f00326-d1e244">
+               <lb ed="#V" n="1"/>¶ 2o. quia quod conuenit alicui et non a se. necessario conuenit sibi ab 
+      <lb ed="#V" n="2"/>alio: sed lapidi conuenit esse volitum: et non a se. ergo ab alio: sed 
+      i<lb ed="#V" n="3" break="no"/>ud est impossibile intelleci nisi per modum origis: quia esse ab alio nin 
+      <lb ed="#V" n="4"/>hil aliud dicit. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e255">
+      ¶ Sed contra hoc arguo. 4r. primo sic. Nam si ita 
+      <lb ed="#V" n="5"/>esset. sicut obiectum immutat potsentiom volitiuam: ita ipsamet potentia 
+      immu<lb ed="#V" n="6" break="no"/>taret obiectum.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e262">
+      ¶ Sed hoc est contra communiter dictum: quia scilicet obiectum in ta 
+      <lb ed="#V" n="7"/>libus est mouens immobile: ergo etc.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e267">
+      ¶ 2o quia tunc deus totiens ac 
+      <lb ed="#V" n="8"/>cipiet esse a voluntate nostra: quatiens diligetur ab ea.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e272">
+      ¶ Confit 
+      <lb ed="#V" n="9"/>matur. quia cum voluntas sit potentia reflexiua super actum suum. tunc 
+      ae<lb ed="#V" n="10" break="no"/>tus voluntatis produceret seipsum. quod videtur impossibile.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e279">
+      ¶ 3o sic. 
+      <lb ed="#V" n="11"/>vbicumque est aliqua productio. ibi est aliqua existentia: sed multa sunt 
+      vo<lb ed="#V" n="12" break="no"/>lita quae sunt in sola potentia. ergo in eis non est aliqua productio.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e287">
+      ¶ 4o 
+      <lb ed="#V" n="13"/>sic. quia impossibile est idem duabus productionibus totalibus produci 
+      <lb ed="#V" n="14"/>in eodem esse: sed obiectum voluntatis accipit esse volitum. per te. a 
+      <lb ed="#V" n="15"/>voluntate: et potest diligi a duobus: ergo accipit idem esse volitum 
+      <lb ed="#V" n="16"/>a duobus: quorum altero non existente: nihilominus haberet illud idem 
+      <lb ed="#V" n="17"/>esse. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e300">
+      ¶ Ad primum dico. quod obiectum mutatione reali 
+      immu<lb ed="#V" n="18" break="no"/>tat potentiam: et tunc in ea cat formam absolutam. Et loquen 
+      <lb ed="#V" n="19"/>do de huiusmodi inmmutatione: ipsum obiectum est mouens immobile. Td 
+      <lb ed="#V" n="20"/>quendo tamen de mutatione qua aliquid mutatur ad respectum rationis cum 
+      <lb ed="#V" n="21"/>iusmodi est esse volitum. non est inconueniens quod ipsum obiectum sic 
+      <lb ed="#V" n="22"/>muteter: immo est necessarium.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e313">
+      ¶ Ad 2m dico: quod sicut respecus 
+      <lb ed="#V" n="23"/>rationis mutantur circa diuina et multiplicantur et minorantur. 
+      <lb ed="#V" n="24"/>sic et esse: et illa quae suo modo dicunt illi respectus. Unde licet deus sit 
+      <lb ed="#V" n="25"/>immutabilis realiter. non tamen secundum rationem vt a nobis cognitus.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e322">
+      ¶ Ad  
+      <lb ed="#V" n="26"/>confirmationem. quia si actus reflexus. et actus rectus non sunt idem 
+      <lb ed="#V" n="27"/>omnino. tunc patet quid dicendum. Si autem sunt idem actus. tunc dico. quod 
+      <lb ed="#V" n="28"/>non est inconueniens quod idem actus producat seipsum in esse 
+      tali<lb ed="#V" n="29" break="no"/>ationis. cuiusmodi est esse volitum.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e333">
+      ¶ Ad 3m dico. quod produc 
+      <lb ed="#V" n="30"/>ad aliquod esse simpliciter bene supponit existentiam: sed productio quae est 
+      <lb ed="#V" n="31"/>solum ad ens secundum quid et rationis: non est necessare. Unde eque bene 
+      <lb ed="#V" n="32"/>entia in potentia possunt recipere tale esse: sicut existentia: sicut patet quod entia 
+      <lb ed="#V" n="33"/>in potentia intelliguntur.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e344">
+      ¶ Ad 4m dico. quod quantum ad esse simpliciter im 
+      <lb ed="#V" n="34"/>possibile est quod idem accipiat esse duabus productionibus 
+      totali<lb ed="#V" n="35" break="no"/>bus: sed quantum ad esse secundum quid non est inconueniens: sicut idem subiectum 
+      <lb ed="#V" n="36"/>plibus similitudinibus fit totaliter simile multis.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e354">
+      ¶ Sed hic occurunt 
+      <lb ed="#V" n="37"/>difficultates. Prima est. si omni potentie vitali haec conuenit scilicet producere obiectum in 
+      <lb ed="#V" n="38"/>tali esse secundum quid: Dico quod omni potentie vitali obiectiue: cuiusmodi 
+      <lb ed="#V" n="39"/>sunt sensitiua tam apprehensiua: quam appetitiua et intellectiua: 
+      <lb ed="#V" n="40"/>et sic de omnibus talibus conuenit producere suum obiectum in tali esse secund 
+      <lb ed="#V" n="41"/>quid. Auditiua enim producit obiectum suum in esse audito. et genera 
+      <lb ed="#V" n="42"/>tiua in esse generato. et sic ditu aliis: et hoc probari potest per easdem rationes 
+      <lb ed="#V" n="43"/>cnquas probatum est de voluntate.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e372">
+      ¶ 2a difficultas quia vietur quod illud esse 
+      vo<lb ed="#V" n="44" break="no"/>itum sit reale. Nam contradictoria realia saluari non possunt per ens 
+      <lb ed="#V" n="45"/>solum rationis. Mo obiectum transit de opposipus reali in oppositum 
+      rea<lb ed="#V" n="46" break="no"/>le. sicut. obiectum. quod prius non erat realiter volitum: nunc est realiter 
+      <lb ed="#V" n="47"/>volitum. ergo videtur quod sit reale esse volitum. Dico quod quando dicitur esse 
+      voli<lb ed="#V" n="48" break="no"/>tum realiter: ly realiter non determinat respectum in volito: sed 
+      <lb ed="#V" n="49"/>actum volendi. et sic est bene realis mutatio actuum 
+      <lb ed="#V" n="50"/>a quibus obiectum denominatur sic volitum. Et si dicatur quod aliquando ipsum 
+      <lb ed="#V" n="51"/>volitum non est realiter ipse actus volendi. potest dici quod realis 
+      contra<lb ed="#V" n="52" break="no"/>dictio circa actus volendi saluatur ex respectibus consequentibus 
+      <lb ed="#V" n="53"/>ipsos necessario.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e396">
+      ¶ 3a difficultas. quia videtur sufficere ad saluandum illud esse 
+      <lb ed="#V" n="54"/>solum extrinseca denominatio: sicut sufficit in deo ad hoc quod 
+      di<lb ed="#V" n="55" break="no"/>catur creator sola denominatione extrinseca. Si aliquis sic 
+      di<lb ed="#V" n="56" break="no"/>cat. soluat rationes prius positas: et tunc apparebit sufficiens 
+      <lb ed="#V" n="57"/>denominatio. aliter autem ni.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e407">
+      ¶ 4a difficultas vtrum illud esse volitum sit idem 
+      <lb ed="#V" n="58"/>quod actus volendi: Dico quod non. quia tunc omnis actus volendi esset 
+      <lb ed="#V" n="59"/>reflexiuus: quia actus volendi terminatur ad volitum. Si ergo 
+      vo<lb ed="#V" n="60" break="no"/>litum esset actus volendi: terminaretur semperi ad se: et sic fruens dieo 
+      <lb ed="#V" n="61"/>vt in actu: et non vt in se frueretur creatura: quod videtur 
+      inconue<lb ed="#V" n="62" break="no"/>niens. Sed quae est euidens necessaritas ad ponendum illud esse volitum 
+      <lb ed="#V" n="63"/>produci. Dicit quidam doctor quod in actubtifico maior necessaritas 
+      ap<lb ed="#V" n="64" break="no"/>paret. Et hoc probat sic. actu beatifico diligitur deus et 
+      creatu<lb ed="#V" n="65" break="no"/>ra: potest ergo deus faceme quod fruatur dieo et creatura simili: vel deo tantum: 
+      <lb ed="#V" n="66"/>vel prius deo. et postea creatura: semper manente eodem actu. 
+      <!--272.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>hic supponitur quod alias habet probari ponendo ergo quod diligatur 
+      <lb ed="#V" n="68"/>nunc deus et non creatura: postea creatura: hoc transitur decm 
+      <lb ed="#V" n="69"/>dictorio in contradictorium. ergo oportet quod aliqua mutatio sit facta: non 
+      <lb ed="#V" n="70"/>in obiecto: quia nullum absolutum acquiritur quod prius non 
+      <lb ed="#V" n="71"/>fuerit: nec in actu: quia idem manet: et si acquiratur aliquid: vel 
+      <lb ed="#V" n="72"/>erit absolutum. et hoc non. vel respectiuum: et hoc vel reale 
+      <lb ed="#V" n="73"/>vel rationis. Non reale. quia requireret terminum realem. ergo 
+      <lb ed="#V" n="74"/>rationis. Dico ergo quod beatus dicitur velle aliquid quod non prius 
+      <lb ed="#V" n="75"/>per hoc quod peractum illu cum voluntate dei concurrente producitur 
+      <lb ed="#V" n="76"/>vbiectum: quod non est in esse volito: et hoc sufficit. 
+      <lb ed="#V" n="77"/>ad 2m scilicet de voluntate dei dicunt 
+      aliqui<lb ed="#V" n="78" break="no"/>Quantum quod diuinam voluntatem producere ea quae vult 
+      <lb ed="#V" n="79"/>in esse volito est ficticium. quia cum diuina essentia sit per volita 
+      <lb ed="#V" n="80"/>ipsa esset per producta a primua patris.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e464">
+      ¶ Contra hoc. 4. rationes 
+      intro<lb ed="#V" n="81" break="no"/>ducuntur pro parte affirita. primo sic. ex actu praedestinationis ab 
+      <lb ed="#V" n="82"/>eterno aliquid erat praedestinatum: illud praedestiatum esse non erat 
+      <lb ed="#V" n="83"/>formum in deo: nec est esse simpliciter. vt patet. ergo esse secundum quid. hoc voco esse 
+      <lb ed="#V" n="84"/>volitum.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e475">
+      ¶ 2o sic. quando est transitus de contradictorio in contradictorium: 
+      <lb ed="#V" n="85"/>patet quod si muta: sed ab eterno deus potuit praedestiare quas non 
+      <lb ed="#V" n="86"/>vdestinauit: illa autem deterus quae se ad istos deterus non pot esse 
+      <lb ed="#V" n="87"/>ex parte dei. quia mutationem no recipis. nec aliquid continges 
+      cu<lb ed="#V" n="88" break="no"/>lus est illa determinato. ergo ex parte creature. non in esse 
+      sim<lb ed="#V" n="89" break="no"/>liciter: quia non erat. ergo in esse secundum quid.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e489">
+      ¶ 3o sic. quando deus 
+      crea<lb ed="#V" n="90" break="no"/>uit mundum: potuit non producere: et sic prius volebat: et 
+      <lb ed="#V" n="91"/>postea noluit: et sic est ibi transitus de actu volendi: ad 
+      <lb ed="#V" n="92"/>actum nolendi: ille transitus non est ex parte dei sed 
+      crea<lb ed="#V" n="93" break="no"/>ture: et hoc est in esse secundum quid. Eodem modo arguitur de anima 
+      anti<lb ed="#V" n="94" break="no"/>christi: quod illud quod vult facere in anima antichristi: 
+      <lb ed="#V" n="95"/>posset non facem: et sic non velle: ille transitus non est in deo: nec 
+      in<lb ed="#V" n="96" break="no"/>anima ipsua in esse simpliciter: quia non est. ergo necessare est dicere quod in esse secundum quid. 
+      </p>
+            <p xml:id="FrMS88-f00326-d1e507">
+               <lb ed="#V" n="97"/>¶ 4o. quia non minus est efficax voluntas divina respectu obiectorum suorum 
+      <lb ed="#V" n="98"/>quam voluntas nostra: sed voluntas nostra vt ostensum est prius: product obstantia 
+      <lb ed="#V" n="99"/>sua in esse volito: ergo multo magis voluntas divina in esse secundum 
+      <lb ed="#V" n="100"/>quid. Ideo quod voluntas divina producit obstantia sua in esse volito: 
+      <lb ed="#V" n="101"/>quia nescio intelligere quod aliquid velit nunc et postea non velit: quin 
+      <lb ed="#V" n="102"/>necessario obiectum prius volitum fiat non volitum: et per consequens 
+      <lb ed="#V" n="103"/>omneat esse secundum quid: quia quandocumque aliquod obiectum transit de non esse 
+      <lb ed="#V" n="104"/>in aliquo ad esse sibi oppositum: transit per aliquod ipsum producens 
+      in<lb ed="#V" n="105" break="no"/>tali esse: quia non habet a se. Sed omnia obstantia a deo volita 
+      transe<lb ed="#V" n="106" break="no"/>unt de non esse volito ad esse volitum: vt declaratur 
+      <lb ed="#V" n="107"/>de diuina essentia: que vt precedit actum volendin habet 
+      <lb ed="#V" n="108"/>esse volitum: et postea consequitur ipsum: et habet esse non 
+      <lb ed="#V" n="109"/>volitum.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e538">
+      ¶ Sed contra istud instatur. Primo. quia perfectiones 
+      <lb ed="#V" n="110"/>diuine scilicet intellectus et voluntas intelliguntur pullula 
+      <lb ed="#V" n="111"/>re a diuina essentia ordine naturalis intelligentie ipsas 
+      <lb ed="#V" n="112"/>precedente: et sic diuina essentia intelligitur transire de non 
+      <lb ed="#V" n="113"/>esse tali ad esse tale et non per aliquod producens: ergo eo 
+      <lb ed="#V" n="114"/>dem modo hic.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e551">
+      ¶ 2o sic. nulla actio immanens est alicuius. 
+      <lb ed="#V" n="115"/>termini productiua: cum per hoc distinguitur a transeunte. 
+      <lb ed="#V" n="116"/>sed actus voluntatis est immanens. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e558">
+      ¶ 3o sic. quia 
+      <lb ed="#V" n="117"/>voluntas diuina ad extra non est producens necessario: 
+      <lb ed="#V" n="118"/>cum ergo velit quiditates in esse suo quiditatiuo necessario: sequitur 
+      <lb ed="#V" n="119"/>quod necessario eas producit in esse volito.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e567">
+      ¶ 4o. quia deus vniversaliter se. 
+      <lb ed="#V" n="120"/>ergo se producit. hoc autem est falsum: quia tunc pater se 
+      produ<lb ed="#V" n="121" break="no"/>ceret. Similiter deus vult essentiam suam. ergo producit eam. 
+      </p>
+            <p xml:id="FrMS88-f00326-d1e575">
+               <lb ed="#V" n="122"/>¶ Ad primum dico. quod quando aliqua perfectio inest alicui 
+      intrin<lb ed="#V" n="123" break="no"/>sece: illa innest sibi tanquam passio. sine subiecto aliquo alio pro 
+      <lb ed="#V" n="124"/>ducto si subiectum sit improductum: modo iste perfectiones 
+      intrin<lb ed="#V" n="125" break="no"/>sece: et ab intrinseco conueniunt essentie improducte 
+      <lb ed="#V" n="126"/>Et sic non oportet quod sibi adueniant per aliquod extrinsecum 
+      <lb ed="#V" n="127"/>productiuum. non est sic. haec. quia esse volitum quod habuit 
+      mun<lb ed="#V" n="128" break="no"/>dus ab eterno et anima antipi: non inest sibi ab 
+      intrinse<lb ed="#V" n="129" break="no"/>co: sed ab extrinseco: et per consequens oportet quod ab alio: quod non 
+      <lb ed="#V" n="130"/>potest intelligi sine aliqua productione vel origine.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e597">
+      ¶ Vel 
+      <lb ed="#V" n="131"/>potest dici. quod signum qua essentia diuina praecedit: et signum quo 
+      <lb ed="#V" n="132"/>tales perfectiones sequuntur: sunt signa permanentia. et per 
+      <!--273.xml-->
+      <pb ed="#V" n="135-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>consequens ibi non intelligitur transitus nec aliquod 
+      producti<lb ed="#V" n="2" break="no"/>uum: sed signa in quibus est anima antichristi volita et nolita 
+      <lb ed="#V" n="3"/>sunt signa durationis successiua: et sic ibi intellctur transitus. 
+      <lb ed="#V" n="4"/>et per consequens aliquod productiuum.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e619">
+      ¶ Ad 2m. quod sole actiones 
+      im<lb ed="#V" n="5" break="no"/>manentes licet non sint productiue alicuius in esse reali: tamen sunt 
+      <lb ed="#V" n="6"/>productiue obiectorum in esse secundum quid. quia sunt operationes obiectiue. 
+      </p>
+            <p xml:id="FrMS88-f00326-d1e626">
+               <lb ed="#V" n="7"/>¶ Ad 3m quod non est necessitas productionis in esse simpliciter. 
+      <lb ed="#V" n="8"/>hoc enim deo repugnat: sed in esse secundum quid: non est aliquod 
+      incon<lb ed="#V" n="9" break="no"/>ueniens.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e635">
+      ¶ Ad 4m. quod non est inconueniens quod aliquid 
+      produ<lb ed="#V" n="10" break="no"/>cat se in esse secundum quid: sicut patet quod voluntas nostra producit se 
+      vo<lb ed="#V" n="11" break="no"/>lentem: multominus in esse diminuto et secundum quid. Similiter non est 
+      <lb ed="#V" n="12"/>inconueniens. quod praesupposito in essentia esse simpliciter: quod sibi 
+      <lb ed="#V" n="13"/>detur esse secundum quid. tamen esse simpliciter impossibile est: sed quod recipiat esse secundum 
+      <lb ed="#V" n="14"/>quid non est inconueniens.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e648">
+      ¶ Sed hoc sunt difficultae. Prima. vtrum 
+      <lb ed="#V" n="15"/>actus voluntatis diuine concurrat cum actu voluntatis nostre 
+      <lb ed="#V" n="16"/>ad producendum obstantia in esse volito. Et videtur quod sic. quia agens vniversali 
+      <lb ed="#V" n="17"/>ad productionem omnium concurrit: deus est huiusmodi. ego etc.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e658">
+      ¶ Contra. quia 
+      <lb ed="#V" n="18"/>cum voluntas diuina possit impedire effectum 2o causae. ex eo quod 
+      <lb ed="#V" n="19"/>concurrit ad causandum: tunc posito actu volendi: posset im 
+      pedi<lb ed="#V" n="20" break="no"/>re illam productionem: et sic esset actus volendi et nihil volitum. 
+      </p>
+            <p xml:id="FrMS88-f00326-d1e667">
+               <lb ed="#V" n="21"/>¶ hic potest dici quod actum volendi quantum ad absolutum potest de 
+      <lb ed="#V" n="22"/>separare a respectu: potest ergo esse actus volendi absque hoc quod 
+      ter<lb ed="#V" n="23" break="no"/>minetur ad tale obiectum: sed tamen actus volendi vt talis obiecti non 
+      <lb ed="#V" n="24"/>otest esse sine respectu ad tale obiectum.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e678">
+      ¶ Sed contra. quia in illo priori 
+      <lb ed="#V" n="25"/>quo voluntas habet actum erit voluntas volens. Tunc aut aliquid: 
+      <lb ed="#V" n="26"/>aut nihil. Dico quod erit volens sicut superficies est alba 
+      abso<lb ed="#V" n="27" break="no"/>lute. Quando autem dicis: aut aliquid: aut nihil. Dico quod nec 
+      ali<lb ed="#V" n="28" break="no"/>quid nec nihil. Potest tamen aliter dici. quod scilicet voluntas divina n concu 
+      <lb ed="#V" n="29"/>rit nisi ad actum simpliciter: sed ad productionem talem secundum quid non 
+      <lb ed="#V" n="30"/>concurrit: quia actus est sufficiens.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e694">
+      ¶ Alia difficultas quomodo actus bea 
+      <lb ed="#V" n="31"/>tificus potest producere obiectum causatum in esse volito: et non prius. 
+      <lb ed="#V" n="32"/>Dico quod illa est vna via satis euindens ad probandum 
+      vo<lb ed="#V" n="33" break="no"/>luntatem diuinam concurrem.
+    </p>
+            <p xml:id="FrMS88-f00326-d1e703">
+      ¶ Ad argumentum patet. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

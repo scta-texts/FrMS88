@@ -1,0 +1,1399 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="191-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f45827"><!-- l4d8q1 -->
+            <head xml:id="FrMS88-f45827-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f45827-d1e111">
+               <lb ed="#V" n="61"/>HIc incipit octaua distinctio: ad cuius 
+      <lb ed="#V" n="62"/>euidentiam quaero vnam 
+      <lb ed="#V" n="63"/>quaestionem. vtrum eucharistia sit nobilissimum 
+      <lb ed="#V" n="64"/>scramentorum. et Uidetur quod non. quia causa est nobilio sud 
+      <lb ed="#V" n="65"/>effectu: sed sacramentum ordinis est causa sacramenti eucha¬ 
+      <!--385.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66" break="no"/>ristie. quia nullus potest consecrare: nisi ordinatus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e131">
+      ¶ Co 
+      <lb ed="#V" n="67" break="no"/>tra. Dyonisius de ecclesiastica ierarchia. capir. 3. dicit quod 
+      <lb ed="#V" n="68"/>est perfectio perfectionum
+    </p>
+            <p xml:id="FrMS88-f45827-d1e138">
+               <lb ed="#V" n="69"/>In ista quaestione sunt duo articuli declarandi. ¶ Primus 
+      <lb ed="#V" n="70"/>articulus est quid est scitundum eucharistie. vbi est 
+      <lb ed="#V" n="71"/>sciendum secundum Gregori. in omelia pasce.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e147">
+      ¶ Aliud est quod 
+      <lb ed="#V" n="72"/>cernitur. aliud est quod creditur. Illa enim que in hoc sacramento 
+      cer<lb ed="#V" n="73" break="no"/>nuntur sunt species panis et vini. sed illa que creduntur sunt 
+      <lb ed="#V" n="74"/>quatuor in hostia et 4or in calice.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e157">
+      ¶ In hostia autem primo credi 
+      <lb ed="#V" n="75"/>tur corpus christi verum. quod est ibi ex vi verborum. quia faciunt 
+      <lb ed="#V" n="76"/>mentionem de ipso. hoc est corpus meum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e164">
+      ¶ 2o sanguis christi 
+      <lb ed="#V" n="77"/>ex immediata concomitantia. quia sanguis non est extra venas prius 
+      <lb ed="#V" n="78"/>resurrectionem.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e171">
+      ¶ 3o anima christi ex concomitantia mediata. quia 
+      <lb ed="#V" n="79"/>anima non informat corpus. nisi mediantibus dispositionibus 
+      ne<lb ed="#V" n="80" break="no"/>cessario requisitis corpori inter quas sanguinis christi est necessario 
+      <lb ed="#V" n="81"/>requisitus.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e180">
+      ¶ 4o est ibi divitas ex concomitantia remota: quia quae 
+      <lb ed="#V" n="82"/>lem ordinem habent illa in christo talem habent in sacramento. Sed 
+      ma<lb ed="#V" n="83" break="no"/>gis immediate inest sanguis corpori quam anima: et anima quam diuini 
+      <lb ed="#V" n="84"/>tas: ergo etc.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e189">
+      ¶ Ista eadem sunt et creduntur in calice: sed non 
+      <lb ed="#V" n="85"/>in eodem ordine. quia primo est sanguis ibi vi verborum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e194">
+      ¶ Secundo 
+      <lb ed="#V" n="86"/>corpus christi ex concomitantia immediata.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e200">
+      ¶ Tertio anima 
+      ratio<lb ed="#V" n="87" break="no"/>nalis ex concomitantia mediata.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e205">
+      ¶ Quarto divitas. Et hoc 
+      <lb ed="#V" n="88"/>patent: vt prius. Quod autem ita sit. probatur auctoritate 
+      am<lb ed="#V" n="89" break="no"/>brosii de sacramentis: quia omnia que fuerunt in vtero virginis sunt 
+      <lb ed="#V" n="90"/>in hoc sacramento: vt patet etiam per Anselmum in libro cur deus homo 
+      <lb ed="#V" n="91"/>vbi hoc ostendit prolixe. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e216">
+      ¶ Sed occurunt quatuor 
+      <lb ed="#V" n="92"/>difficultates.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e221">
+      ¶ Prima est si beatus petrus qui fuit in 
+      <lb ed="#V" n="93"/>stitutus sacerdos potuit conficere in triduo mortis christi. 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e226">
+               <lb ed="#V" n="94"/>¶ Dicitur quod sic. quia ibi erant omnia requisita.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e231">
+      ¶ Secunda 
+      difui<lb ed="#V" n="95" break="no"/>ficultas. si ista credita ibi fuissent:
+    </p>
+            <p xml:id="FrMS88-f45827-d1e237">
+      ¶ Dicitur quod non. sed 
+      <lb ed="#V" n="96"/>in hostia forent tantum corpus christi et diuinitas: quia non 
+      conco<lb ed="#V" n="97" break="no"/>mibatur corpus christi sanguis eius: nec anima.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e244">
+      ¶ Tertia 
+      <lb ed="#V" n="98"/>difficultas. si ista eadem fuissent in calice.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e249">
+      ¶ Dicitur quod 
+      <lb ed="#V" n="99"/>non fuisset ibi nisi sanguis. nam corpus christi separatum 
+      <lb ed="#V" n="100"/>erat ab eo. nec anima eadem ratione nec diuinitas. quia non fuit 
+      <lb ed="#V" n="101"/>vnita sanguini: sed corpori: quod patet: quia in triduo vere 
+      po<lb ed="#V" n="102" break="no"/>tuit per comunicationem ydiomatum dici dei filius sepultus: 
+      <lb ed="#V" n="103"/>sed si diuinitas fuisset vnita sanguini eodem modo 
+      re<lb ed="#V" n="104" break="no"/>mansisset in terra: et ita certe fuisset verum dicere in 
+      tri<lb ed="#V" n="105" break="no"/>duo: dei filius est in cruce. dei filius expansus est in 
+      ter<lb ed="#V" n="106" break="no"/>ra: quod non conceditur: nec tenetur a sanctis.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e269">
+      ¶ Quarta 
+      dif<lb ed="#V" n="107" break="no"/>ficultas. quare potius fuit in corpore: quam in sanguine.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e274">
+      ¶ 
+      Di<lb ed="#V" n="108" break="no"/>co quod sanguis non est praencipalis pars corporis. Corpus 
+      <lb ed="#V" n="109"/>autem pertinet ad integritatem naturae specifice. alias autem 
+      <lb ed="#V" n="110"/>partes que non pertinent ad integritatem naturae 
+      specifi<lb ed="#V" n="111" break="no"/>ce non oportet esse vnitas.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e285">
+      ¶ Sed interum occurrit 
+      difficul<lb ed="#V" n="112" break="no"/>tas. si corpus christi in cruce fuisset mutilatum. si tunc in 
+      <lb ed="#V" n="113"/>consecratione fuisset illud membrum abscisum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e293">
+      ¶ Di 
+      <lb ed="#V" n="114"/>citur quod si manus fuisset abscisa. fuisset mutilatum in 
+      ho<lb ed="#V" n="115" break="no"/>stia.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e300">
+      ¶ Secunda difficultas. si aliqua pars sanguinis 
+      re<lb ed="#V" n="116" break="no"/>mansisset in corpore. quare non fuisset sanguis per con 
+      <lb ed="#V" n="117"/>comitantiam in corpore:
+    </p>
+            <p xml:id="FrMS88-f45827-d1e307">
+      ¶ hic dicitur quod vnio 
+      ypo<lb ed="#V" n="118" break="no"/>statica est respectu priencipalium partium. Et ideo si ma 
+      <lb ed="#V" n="119"/>ior pars fuisset sanguinis in corpore principaliter fuisset vnio 
+      <lb ed="#V" n="120"/>ad eam.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e316">
+      ¶ Tertia difficultas. si in triduo fuisset calix 
+      <lb ed="#V" n="121"/>eleuatus deberet adorari adoratione latrie vel 
+      yvper<lb ed="#V" n="122" break="no"/>dulie.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e323">
+      ¶ Dicitur quod duelie.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e326">
+      ¶ Quarta difficultas. si post 
+      <lb ed="#V" n="123"/>resurrectionem aliquid de sanguine remansit in terra¬ 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e332">
+               <lb ed="#V" n="124"/>¶ Dicunt aliqui quod non. immo est periculosum dicere quod 
+      <lb ed="#V" n="125"/>remansit. et ita de reliquus que dicuntur esse de 
+      sangui<lb ed="#V" n="126" break="no"/>ne christi: non est tutum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e341">
+      ¶ Sed dico quod non est necessarium 
+      <lb ed="#V" n="127"/>de quacumque parte sanguinis quod ipsam resumpserit. sicut 
+      <lb ed="#V" n="128"/>nec lachrimas: quia non fuit necessarium tantum de 
+      sangui<lb ed="#V" n="129" break="no"/>ne in corpore glorioso. sicut in corpore mortali. quod in 
+      <lb ed="#V" n="130"/>diget ipso pro alimento corporis vnde potest dici quod non 
+      <lb ed="#V" n="131"/>totum resumpsit. 
+      <!--386.xml-->
+      <pb ed="#V" n="192-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>articulus est. quod est sacramentum 
+      euchari<lb ed="#V" n="2" break="no"/>Secundus stie. vbi sciendum est quod licet omnia sacramenta 
+      <lb ed="#V" n="3"/>sint magna. tamen alia continent aliquid limitatum valet. gratiam. sed 
+      <lb ed="#V" n="4"/>circa christi personam fuerunt 4or mirabilia sacramentia: accipien 
+      <lb ed="#V" n="5"/>do sacramentum large pro sacro secreto.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e372">
+      ¶ Primum est sacramentum 
+      <lb ed="#V" n="6"/>eterne generationis.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e377">
+      ¶ Secundum incarnationis in quo fuit 
+      communi<lb ed="#V" n="7" break="no"/>cata perfectio infinita naturae humane.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e382">
+      ¶ Tertium disunice 
+      re<lb ed="#V" n="8" break="no"/>surrectionis. quod est maius natiuitate. quia ibi iam erat de 
+      <lb ed="#V" n="9"/>et homo. nec fuit ibi nisi egressus de vtero virginis: sed in 
+      <lb ed="#V" n="10"/>triduo non fuit homo: et in resurrectione fuit comunicata 
+      di<lb ed="#V" n="11" break="no"/>uinitas humanitati.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e393">
+      ¶ Quartum est divinissime euchari 
+      <lb ed="#V" n="12"/>stie. in quo sacramento continnetur gratia infinita: quia tota diuinitas. 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e399">
+               <lb ed="#V" n="13"/>¶ Sed quo ordine est divinitas eorum:
+    </p>
+            <p xml:id="FrMS88-f45827-d1e404">
+      ¶ Dico quod eo 
+      or<lb ed="#V" n="14" break="no"/>dine quo supra sunt dicta. quia eterna genertoio principalissime 
+      <lb ed="#V" n="15"/>continet omnem perfectionem. post istam conceptio magis prin 
+      <lb ed="#V" n="16"/>cipaliter continnet illam. quia principalius quam resurrectio: quia in 
+      <lb ed="#V" n="17"/>incarnatione seu conceptione fuit vnita diuinitas 
+      huma<lb ed="#V" n="18" break="no"/>nitati. puta anime et corpori: sed in resurrectione solum hu 
+      <lb ed="#V" n="19"/>manitati. quia in triduo iam erat diuinitas vnita partibus: 
+      <lb ed="#V" n="20"/>puta anime et corpori. Et post istud est sacramentum eucharistie: quia 
+      <lb ed="#V" n="21"/>ibi non est vnio. ita intima sicut in incarnatione vel 
+      resur<lb ed="#V" n="22" break="no"/>rectione.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e426">
+      ¶ Sed hic occurrunt 4or dubia.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e429">
+      ¶ Primum. sed 
+      <lb ed="#V" n="23"/>angelus potest conficere istud sacramentua.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e434">
+      ¶ Dicitur quod non. quia 
+      apo<lb ed="#V" n="24" break="no"/>stolus dicit ad hebreos. habemus altare de quo 
+      ede<lb ed="#V" n="25" break="no"/>re non habent potestatem hi qui in tabernaculo deseruiunt. sed 
+      <lb ed="#V" n="26"/>isti deseruientes sunt angeli qui mittuntur in minsterium. 
+      <lb ed="#V" n="27"/>Dunt enim adminstratorii spiritus vt ibider dicitur.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e445">
+      ¶ Secundum 
+      du<lb ed="#V" n="28" break="no"/>bium. si anima separata: que vere habet caracterem. si assumat 
+      cor<lb ed="#V" n="29" break="no"/>pus in quo posset verba formare: possit conficere.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e453">
+      ¶ Dico 
+      <lb ed="#V" n="30"/>quod non. quia requritur in consecratione forma verborum naturaliter 
+      prola<lb ed="#V" n="31" break="no"/>torum innstamentis naturalibus. sed tale corpus sic assumptum non 
+      <lb ed="#V" n="32"/>profert talia verba. sed essent specie differentia ab aliis. sicut aqua 
+      <lb ed="#V" n="33"/>artificialis a naturali.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e464">
+      ¶ Tertium dubium. si sacerdos 
+      re<lb ed="#V" n="34" break="no"/>surgens potest conficere.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e469">
+      ¶ Dicitur quod sic. quia habet omnia requisita. 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e472">
+               <lb ed="#V" n="35"/>¶ Quartum dubium. si resurgeret homo in statu beato. 
+      <lb ed="#V" n="36"/>vtrum posset.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e479">
+      ¶ Dicitur quod non apparet quare non: et libentiue 
+      <lb ed="#V" n="37"/>audirem missam suam quam de alio. quanuis enim non sit sacramentum 
+      ni<lb ed="#V" n="38" break="no"/>si in via. tamen potest confici a non viatoribus.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e486">
+      ¶ Sed est 
+      ne<lb ed="#V" n="39" break="no"/>virtute istius vnionis comunicatio ydiomatum:
+    </p>
+            <p xml:id="FrMS88-f45827-d1e492">
+      ¶ Dico quod 
+      <lb ed="#V" n="40"/>non. quia species panis non assumitur ad vnitatem suppositi. si 
+      <lb ed="#V" n="41"/>cut in incarnatione. Istud autem sacramentum non assumiter yposta 
+      <lb ed="#V" n="42"/>tice a verbo. ideo quando sacerdos frangit hostiam. non frangit 
+      <lb ed="#V" n="43"/>deum nec potat deum. si autem esset ibi comunicatio 
+      ydioma<lb ed="#V" n="44" break="no"/>tum. bene posset dici quod frangeretur. sicut in cruce quod 
+      percu<lb ed="#V" n="45" break="no"/>tiebatur et sitiebat et in sepulcho ponebatur. 
+      <lb ed="#V" n="46"/>articulus est. que sunt illa que in sacramento 
+      <lb ed="#V" n="47"/>Tertius isto inueniuntur.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e512">
+      ¶ Dico quod in hoc sacrament 
+      <lb ed="#V" n="48"/>inuenitur aliquid quod est sacramentum et non res sacramenti: sicut illa que 
+      <lb ed="#V" n="49"/>videntur. Aliquod sacramentum et res scilicet veritas corporis christi et 
+      san<lb ed="#V" n="50" break="no"/>guinis: res quidem. quia virtute verborum sacramentialium causatur sacramentum 
+      <lb ed="#V" n="51"/>quod significat aliquid scilicet cibum et potum spiritualem. quo anima cibatur 
+      <lb ed="#V" n="52"/>ex hoc sacramento. Aliquid tamen res est et non sacramentum vt gratia. 
+      Ali<lb ed="#V" n="53" break="no"/>qua que neutrum. sicut illa que sunt ibi per concomitam 
+      <lb ed="#V" n="54"/>tiam.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e530">
+      ¶ Sed hic sunt 4or dubia.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e533">
+      ¶ Primum. si in hoc 
+      <lb ed="#V" n="55"/>acramento est aliquod preter animam et corpus.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e538">
+      ¶ Dico quod sic. quoniam 
+      <lb ed="#V" n="56"/>omnia accidentia corporis et anime christi sunt ibi per concomitantiam 
+      <lb ed="#V" n="57"/>quia corpus et animam concomitantur.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e545">
+      ¶ Secundum dubium si ratio ad 
+      <lb ed="#V" n="58"/>deum est ibi virtute verborum et per se passiones.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e551">
+      ¶ Dico quod 
+      <lb ed="#V" n="59"/>fic. quia que sunt idem realiter eadem virtute producuntur. sic est 
+      <lb ed="#V" n="60"/>de his in subiecto in quo sunt.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e558">
+      ¶ Tertium dubium si diuinitas 
+      <lb ed="#V" n="61"/>hristi est hoc aliter quam alibi vel vbicumque ex vi verborum per 
+      conco<lb ed="#V" n="62" break="no"/>mitantiam.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e565">
+      ¶ Dico quod sic. quia habet quedam modum spiritualem 
+      <lb ed="#V" n="63"/>tendi quem nusquam alibi. Alium enim modum habet in humanita. 
+      <lb ed="#V" n="64"/>te essendi. humanitas enim est ibi modo spirituali.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e572">
+      ¶ Sed quomodo est 
+      <lb ed="#V" n="65"/>ibi.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e577">
+      ¶ Dico quod denominatione extrinseca ex tempore. sicut 
+      ince<lb ed="#V" n="66" break="no"/>pit esse in mundo. eodem modo in creatione fuit vna ratio teria 
+      <!--386.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>ta ad ipsum que plus non erat. secundum se autem non est hoc aliter quam 
+      <lb ed="#V" n="68"/>prius.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e590">
+      ¶ 4m dubium. si tota trinitas est hic per concomitantianm 
+      <lb ed="#V" n="69"/>sicut filius.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e596">
+      ¶ Dico quod non. quia ista que per concomitantiam ydio 
+      <lb ed="#V" n="70"/>matum dicuntur non se extendunt nisi ad verbum quod est vnitum ypo 
+      <lb ed="#V" n="71"/>statice ad humanitatem. Unde non habet hoc esse aliter paternitas ex vi 
+      <lb ed="#V" n="72"/>verborum: quam alibi.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e605">
+      ¶ Sed ista praesentialitas terminatur ne ad 
+      <lb ed="#V" n="73"/>personam verbi:
+    </p>
+            <p xml:id="FrMS88-f45827-d1e610">
+      ¶ Dico quod omnis respectus qui terminatur ad 
+      <lb ed="#V" n="74"/>christum terminatur ad concomitantia ad suppositum verbi. Ista 
+      <lb ed="#V" n="75"/>autem vnio ad humanitatem terminatur christi. 
+      <lb ed="#V" n="76"/>articulus. est que requruntur ad 
+      integri<lb ed="#V" n="77" break="no"/>Quartus tatem huius sacrament.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e621">
+      ¶ hic est sciendum 
+      <lb ed="#V" n="78"/>quod sicut in aliis sacramentis. ita in hoc requiruntur 4or causae. valet 
+      <lb ed="#V" n="79"/>efficiens: qui est sacerdos ordinatus. Matuamlis panis 
+      tri<lb ed="#V" n="80" break="no"/>ticeus. forma verborum: que sunt quatuor super hostiam. hoc 
+      <lb ed="#V" n="81"/>est corpus meum. Et quinque super calicem. hic est calix 
+      san<lb ed="#V" n="82" break="no"/>guinis mei.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e634">
+      ¶ Causa finalis est intentio debita vt 
+      fa<lb ed="#V" n="83" break="no"/>ciat quod facit vniversalis ecclesia.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e639">
+      ¶ Circa causam autem efficientem 
+      <lb ed="#V" n="84"/>occurrunt dubia.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e645">
+      ¶ Primum si sacerdos hereticus posset 
+      <lb ed="#V" n="85"/>conficere.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e650">
+      ¶ Dicitur quod sic. quia secundum Aug. non est sacramentum 
+      perso<lb ed="#V" n="86" break="no"/>ne specialis. sed ecclesie.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e655">
+      ¶ Secundum dubium est de scismatico. 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e658">
+               <lb ed="#V" n="87"/>¶ Dicitur quod sic: quia greci vere conficiunt.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e663">
+      ¶ Tertium duis 
+      <lb ed="#V" n="88"/>de irregularibus.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e668">
+      ¶ Dicitur quod sic multo magis.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e672">
+      ¶ Quar 
+      <lb ed="#V" n="89"/>tum dubium de excomnnicatio.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e677">
+      ¶ Dicitur quod sic magis quam here 
+      <lb ed="#V" n="90"/>ticus.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e682">
+      ¶ Alia difficultas de degrato.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e685">
+      ¶ Dicunt iuriste quod non 
+      <lb ed="#V" n="91"/>potest conficere. quia in forma degradationis hoc 
+      exprie<lb ed="#V" n="92" break="no"/>mitur.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e692">
+      ¶ Sed contra sacramentum ordinis est initerabile: quod non 
+      <lb ed="#V" n="93"/>potest impediri sed si ita esset vt dicunt esset interabile. de 
+      ne<lb ed="#V" n="94" break="no"/>cessitate aut quia perdit caracterem: et sic non potest: aut non: 
+      <lb ed="#V" n="95"/>et tunc papa dimittendo sibi omnem culpam. posset eum licen 
+      <lb ed="#V" n="96"/>tiare quod interum ordinetur nulli dubium est quod si ita esset: non 
+      <lb ed="#V" n="97"/>esset sacerdos. sed si esset tunc potest cum habeat omnia que requiruntur 
+      <lb ed="#V" n="98"/>vel si non potest iterum ordinari: non habetur propositum nisi qui 
+      era<lb ed="#V" n="99" break="no"/>degradatus. quod non dici potest quia papa potest eum 
+      absolue<lb ed="#V" n="100" break="no"/>re ab omni irregularitate et degradatione et sic licentiare 
+      <lb ed="#V" n="101"/>ad ordinem sa cerdotis. vnde dico quod ista smnienia iuristarum est contra 
+      <lb ed="#V" n="102"/>principim heologie.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e716">
+      ¶ Circa causam autem materialem occu. quatuor du¬ 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e720">
+               <lb ed="#V" n="103"/>¶ Primum si potest confici in filigine.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e725">
+      ¶ Dico quod hoc peri 
+      <lb ed="#V" n="104"/>culosum esset. quia videtur a tritico specie differre.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e730">
+      ¶ Sed de 
+      spel<lb ed="#V" n="105" break="no"/>ta videtur aliquibus quod differunt specie: et tunc non potest.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e735">
+      ¶ Tertio de 
+      <lb ed="#V" n="106"/>ordeo et auena. patet quod non expraesse.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e740">
+      ¶ Sed quid de tritico quod 
+      <lb ed="#V" n="107"/>non facit spicam: sed frondes vt auena.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e745">
+      ¶ Cum igitur conui 
+      <lb ed="#V" n="108"/>ciamus et comiecturemus differentiam specificam ex actibus et 
+      ad<lb ed="#V" n="109" break="no"/>cidentibus videtur quod non esset vere triticum. sed hoc est dubium.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e753">
+      ¶ Sed 
+      <lb ed="#V" n="110"/>oc. du. si christus in agimis confecit. et videtur quod non secundum marcum: quia 
+      <lb ed="#V" n="111"/>erat pascha et agimata post biduum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e760">
+      ¶ Contra hoc arguitur 
+      <lb ed="#V" n="112"/>quadrupliciter.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e765">
+      ¶ Primo auctoritate math. 19. prima enim die 
+      agi<lb ed="#V" n="113" break="no"/>morum preceparat cum non esset frumentum in domibus. sed 
+      come<lb ed="#V" n="114" break="no"/>derent panes agimos cum lactucis agrestibus.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e772">
+      ¶ Secundo 
+      <lb ed="#V" n="115"/>quia exodi in 2o dicitur quod omnis anima quae comederit fermentum peribit de 
+      <lb ed="#V" n="116"/>hopulo suo.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e779">
+      ¶ Tertio quia christus in euangelio semper accipit 
+      <lb ed="#V" n="117"/>fermentum in malum siue sub mala significatione. Cauete 
+      inqui<lb ed="#V" n="118" break="no"/>a fermento phariseorum etc.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e786">
+      ¶ Quarto quia eodem modo 
+      apo<lb ed="#V" n="119" break="no"/>stolus semper accipit in mala significatione dicens. Modicum 
+      <lb ed="#V" n="120"/>fermentum totam massam corrumpit.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e794">
+      ¶ Ad auctorita 
+      <lb ed="#V" n="121"/>tem marci. dicitur quod prius praeparauerant per aliquos dies.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e799">
+      ¶ 
+      Cir<lb ed="#V" n="122" break="no"/>ca causam formalem queritur si hoc aduerbium enim est de 
+      for<lb ed="#V" n="123" break="no"/>ma.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e806">
+      ¶ Dicitur quod non: sed est connexio verborum praeteritorum ad 
+      <lb ed="#V" n="124"/>precedentia. peccaret tamen mortaliter obmittens dicere. quia 
+      <lb ed="#V" n="125"/>ontra statutum ecclesie facent: sed numquid esset consecratum. si 
+      ni<lb ed="#V" n="126" break="no"/>hil plus diceretur de aliis verbis praecedentibus omnia ista.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e815">
+      ¶ Di 
+      <lb ed="#V" n="127"/>cunt aliqui quod non. Et scotus videtur hoc dicere: quia talis est natura verborum 
+      <lb ed="#V" n="128"/>ibus conficimus. quod non dicuntur in natuam propria: sed in persona christi. sed 
+      <lb ed="#V" n="129"/>sic dicendo ex vi sermonis intelligitur proprium corpus loquenti. E 
+      <lb ed="#V" n="130"/>ideo fuerunt ab ecclesia verba statuta praecedentia. vt 
+      intelli<lb ed="#V" n="131" break="no"/>gatur christi persona non sacerdotis.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e828">
+      ¶ Alia di. ponatur quod 
+      <lb ed="#V" n="132"/>aliquis nesciat quando conficitur corpus. hoc est per que verba credit 
+      <!--387.xml-->
+      <pb ed="#V" n="192-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tamen quod hoc est vsque post eleuationem calicis: si talis intentio 
+      <lb ed="#V" n="2"/>sufficiat.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e844">
+      ¶ Dico quod intentio talis sufficeret: sed si haberet in 
+      <lb ed="#V" n="3"/>tentionem quod per omnia illa verba conficeret. vt si intendebat per 
+      il<lb ed="#V" n="4" break="no"/>la verba quod facit ecclesia. esto quod determinate nesciret que 
+      <lb ed="#V" n="5"/>essent ista. tunc conficit.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e854">
+      ¶ 4a di. si in consecratione sanguinis 
+      <lb ed="#V" n="6"/>hic est pronomen vel aduerbium.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e859">
+      ¶ Dicitur quod pronomen 
+      demonstra<lb ed="#V" n="7" break="no"/>tiuum. sicut enim in consecratione eucharistie est pronomen: ita 
+      <lb ed="#V" n="8"/>in consecratione calicis in proposito. Sed de residuo verbo 
+      <lb ed="#V" n="9"/>rum quae sunt in sanguine quaestio est.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e868">
+      ¶ Quidam dicunt quod non 
+      <lb ed="#V" n="10"/>sunt de forma. sed sco. dicit quod bonum est: quod submittat se 
+      <lb ed="#V" n="11"/>quis iudicio ecclesie vel intellectui: et non tenetur 
+      deteria<lb ed="#V" n="12" break="no"/>re vbi praecise sit forma verborum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e877">
+      ¶ Circa causam finalem. 
+      quaeri<lb ed="#V" n="13" break="no"/>tur vtrum hic requratur intentio actualis.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e882">
+      ¶ Dicunt aliquo 
+      <lb ed="#V" n="14"/>quod sic. quia est de integritate sacramenti.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e887">
+      ¶ Sed hoc est 
+      pun<lb ed="#V" n="15" break="no"/>culosum: quia secundum Aug. Non est in poestatenostra quibus visis 
+      <lb ed="#V" n="16"/>tangamur et fantasmatibus irruentibus intellectus non potest fixe 
+      <lb ed="#V" n="17"/>intelligere aliquid. Ideo dicunt alii quod sufficit intentio habi 
+      <lb ed="#V" n="18"/>lualis.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e899">
+      ¶ Sed nimis relaxant. siue hoc est nimis. quia 
+      il<lb ed="#V" n="19" break="no"/>lam habui in principio quando factus sum sacerdos et etiam dormin 
+      <lb ed="#V" n="20"/>lo: et ideo tunc valeret quod posset conficere.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e906">
+      ¶ Dicit igitur 
+      <lb ed="#V" n="21"/>Secundo quod sufficit intentio virtualis. Uocat autem intentionem 
+      <lb ed="#V" n="22"/>virtualem dispositionem que est in potentiis executiuis. tamquam 
+      <lb ed="#V" n="23"/>per actum voluntatis et manet in eis: per quam eius imperium 
+      <lb ed="#V" n="24"/>exequuntur. Unde sciendum quod voluntas causat aliquam 
+      di<lb ed="#V" n="25" break="no"/>positionem in membris: qua mediante semper exequitur potentia 
+      <lb ed="#V" n="26"/>motum suum. sicut ambulando ad aliquem locum tandiu 
+      du<lb ed="#V" n="27" break="no"/>tat ista dispositio quam exequetur voluntas in potentiis 
+      infe<lb ed="#V" n="28" break="no"/>rioribus quandiu impleatur imperium voluntatis. modo 
+      eun<lb ed="#V" n="29" break="no"/>do ad capellam induendo me non oportet quod actualiter 
+      cogiten<lb ed="#V" n="30" break="no"/>de hoc semper: sed sufficit quod maneat dispositio causata ab 
+      actua<lb ed="#V" n="31" break="no"/>li intentione voluntatis. Quod si dispositiones sunt consumpte 
+      <lb ed="#V" n="32"/>vbi intentio remouetur nihil fieret. sufficit igitur in actu 
+      con<lb ed="#V" n="33" break="no"/>secrandi intentio virtualis et non necessario requiritur 
+      <lb ed="#V" n="34"/>actualis. nec tamen sufficit habitualis. 
+      <lb ed="#V" n="35"/>articulus est quis instituit hoc sacramentum. hoc 
+      <lb ed="#V" n="36"/>Quintus habet certa veritas quod christus iuxta illud Tu 
+      <lb ed="#V" n="37"/>ce. 22. Ego dispono vobis: sicut disposuit mihi pater mes 
+      <lb ed="#V" n="38"/>regnum vt edatis et bibatis super mensam meam in regno 
+      <lb ed="#V" n="39"/>meo: intelligitur hic de regno ecclesie militantis.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e950">
+      ¶ Fuit 
+      <lb ed="#V" n="40"/>sunt christus ad instituendum hoc sacramentum motus 
+      quaedru<lb ed="#V" n="41" break="no"/>pli virtute inclinante.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e957">
+      ¶ Primo ex virtute latrie. quia in 
+      <lb ed="#V" n="42"/>veteri lege colebatur deus de sacrificiis. et ideo volunt 
+      nol<lb ed="#V" n="43" break="no"/>bis dare sacrificium dignissimum in lege euangelica: quae 
+      <lb ed="#V" n="44"/>est perfectior et nobliior quam creatura sensibilis. deus 
+      da<lb ed="#V" n="45" break="no"/>re volunt: quod fuit persona eius.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e968">
+      ¶ Secundo ex virtute 
+      iu<lb ed="#V" n="46" break="no"/>sticie. quia quando offenditur aliquis debet reddi equalens pro eo 
+      <lb ed="#V" n="47"/>ualenti: sed pro preccatio mortali infinitum precium: 
+      opor<lb ed="#V" n="48" break="no"/>tet dari. ideo vt haberemus tale munus quod equipolleret omni 
+      <lb ed="#V" n="49"/>debito. fuit institutum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e979">
+      ¶ Tertio ex virtute liberalitatis 
+      <lb ed="#V" n="50"/>magnificentia enim est circa magna. ideo maximum donum 
+      <lb ed="#V" n="51"/>pedit: quao summe est liberalis.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e987">
+      ¶ Quarto est caritate. 
+      si<lb ed="#V" n="52" break="no"/>gnum amicitie est in eadem ciuitate aliquis commorari. ma 
+      <lb ed="#V" n="53"/>lus est in eadem domo maximum vnus in alio.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e994">
+      ¶ Sed hoc 
+      <lb ed="#V" n="54"/>sunt 4or dubia.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e999">
+      ¶ primum si christus confecit eisdem verbis quibus nos 
+      <lb ed="#V" n="55"/>ficimus. Inno. de celebra. missarum. dicit quod non: sed per 
+      <lb ed="#V" n="56"/>bnendictionem praecedentem. protulit enim verba indicatiue. nos 
+      <lb ed="#V" n="57"/>autem recitatiue. Indicatiuum autem praesupponit illud quod 
+      indi<lb ed="#V" n="58" break="no"/>cat. Et ideo cum dixerit indicatiue. hoc est corpus meum 
+      <lb ed="#V" n="59"/>videtur quod antea iam confecisset. a nobis autem recitatiue 
+      di<lb ed="#V" n="60" break="no"/>suntur verba ideo non oportet quod aliquid prieo sit vel praesens sit ibi. 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e1015">
+               <lb ed="#V" n="61"/>¶ 2m du. que fuerunt ista verba per qua christus confecit. Dicitur quod 
+      <lb ed="#V" n="62"/>nos nescimus illa. sed tamen fuerunt aliqua.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1022">
+      ¶ 3m du. si illa 
+      bendi<lb ed="#V" n="63" break="no"/>ctio fuit signum vel verba videtur quod fuerunt verba quia dicere videtur in 
+      <lb ed="#V" n="64"/>cludere aliquod dictum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1029">
+      ¶ 4m du. si ita est quare non conficimus 
+      <lb ed="#V" n="65"/>sicut christus.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1035">
+      ¶ Respondeo quod illud sacramentum in alia habitudine 
+      era<lb ed="#V" n="66" break="no"/>ad christum et ad nos. vnde Iodannes non baptigauit christum in no¬ 
+      <!--387.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>mine patris et filii et spiritus sancti: sicut nos.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1046">
+      ¶ Sed numquid  
+      <lb ed="#V" n="68"/>sacramentum institutum a christo fuit eiusdem rationis cum sacramento quod confici 
+      <lb ed="#V" n="69"/>mus: videtur quod non: quia non est eadem forma verborum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1053">
+      ¶ Respondeo quod 
+      ali<lb ed="#V" n="70" break="no"/>qua sacramentia sunt: quorum esse est in vsu tantum. aliqui quorum esse in 
+      <lb ed="#V" n="71"/>permanentia est. in primis forma est de essentia sacramenti. sed in 
+      <lb ed="#V" n="72"/>pmanentibus illa forma est tantum pramuia. et sic est de isto sacramento 
+      <lb ed="#V" n="73"/>quia permanet: licet verba transeant.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1064">
+      ¶ Contra ista scilicet quod christus non 
+      <lb ed="#V" n="74"/>consecrauit per benedictionem praecedentem. sed per istorum verborum 
+      <lb ed="#V" n="75"/>prolationem quando confecit dicit Euse. inuisibilis sacerdos scilicet 
+      <lb ed="#V" n="76"/>hristus visibilia elta in substantiam corporis et sanguis sui: verbi 
+      sui<lb ed="#V" n="77" break="no"/>secreta potestate transmutat scilicet dum dixit. hoc est corpus meum: 
+      <lb ed="#V" n="78"/>et hoc est calix etc.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1077">
+      ¶ Item per eadem verba confecit sicut et nos 
+      <lb ed="#V" n="79"/>conficimus. quia dicit Ambro. de sacramentis. Et Cypria. 
+      mar<lb ed="#V" n="80" break="no"/>tir: quod eadem facimus: et non alia quam ea quae christus fecit. Et sic non 
+      <lb ed="#V" n="81"/>per alia verba conficimus quam per ea per que christus confecit. 
+      <lb ed="#V" n="82"/>ige articulus est quibus fuit institutum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1088">
+      ¶ Dici 
+      <lb ed="#V" n="83"/>Sextus tur quod 4or generibus personarum. Quia 
+      aliqui<lb ed="#V" n="84" break="no"/>bus adminstrandum. sicut sacerdotibus et dyaconibus. 
+      <lb ed="#V" n="85"/>Et intelligendum quod omnes ordines sunt ordinati ad mini 
+      <lb ed="#V" n="86"/>strandum hoc sacramentum et habent omnes habitudinem ad ipsum. cuius 
+      <lb ed="#V" n="87"/>prhomo est: quia cum in quolibet ordine imprimatur caracter non imprimiter 
+      <lb ed="#V" n="88"/>nisi inquantum habet respectum ad ipsum. vnde dyacono traditur 
+      li<lb ed="#V" n="89" break="no"/>ber ad praedicandum. et ibi non imprimitur. postea calix: et ibi fit 
+      <lb ed="#V" n="90"/>impraessio.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1109">
+      ¶ Aliquibus instituitur ad percipiendum: vt sunt fideles 
+      <lb ed="#V" n="91"/>perfecte etatis: quia semel in anno debent comunicare de iure 
+      extra<lb ed="#V" n="92" break="no"/>Dens vtriusque secxiectus. et si non peccarent mortaliter: nisi de licem 
+      <lb ed="#V" n="93"/>tia remanerent. Et dato quod iura non dicerent. hoc patet naturali ratio 
+      <lb ed="#V" n="94"/>ne: quod aliquibus iste cibus sit ad vsum applicandus.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1120">
+      ¶ Ali 
+      <lb ed="#V" n="95"/>quibus ad venerandum. et hoc omnibus fidelibus selitus ad minus in 
+      <lb ed="#V" n="96"/>eptiana aliquibus casibus excepti.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1127">
+      ¶ Aliis autem ad adoran 
+      <lb ed="#V" n="97"/>dum. sicut infirmis qui propter periculum non recipiunt illud: quibus dicendum 
+      <lb ed="#V" n="98"/>est verbum Aug. crede et manducasti.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1134">
+      ¶ Sed oc. di.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1137">
+      ¶ prima 
+      si<lb ed="#V" n="99" break="no"/>christus communicauit seipsum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1142">
+      ¶ Respondeo hoc nescitur: tamen potest dici quod sic cum 
+      <lb ed="#V" n="100"/>aliis: nec est haec inconueniens.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1148">
+      ¶ 2a si communicauit iudam. dicit 
+      <lb ed="#V" n="101"/>Dyoni. quod sic causito. 3o de eccleiastica Ierarchia.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1153">
+      ¶ 3a si pec 
+      <lb ed="#V" n="102"/>cauit mortaliter iudas recipiens sacramentum a christo.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1158">
+      ¶ Dicitur quod 
+      <lb ed="#V" n="103"/>sic: quia statim intrauit in eum sathanas.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1163">
+      ¶ Sed si christus dixisset 
+      <lb ed="#V" n="104"/>sibi. comede: non peccasset. immo meruisset impledo 
+      manda<lb ed="#V" n="105" break="no"/>tum. sed non fuit sibi praeceptum. sed permissum. ideo debuit se 
+      <lb ed="#V" n="106"/>separare.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1172">
+      ¶ Sed quare obtulit sibi christus cum sciret quod talis erat: 
+      <lb ed="#V" n="107"/>Dicitur ne proderet eum et diffamaret. Et ideo docuit nos quod non 
+      <lb ed="#V" n="108"/>est negandum occulti peccatoribus: quia melius videtur: quod dixit 
+      oc<lb ed="#V" n="109" break="no"/>culte. Positus est in ruinam et in resurrectionem multorum in 
+      <lb ed="#V" n="110"/>srael. Et paulus dicit quod aliis sumus odor mortis ad 
+      <lb ed="#V" n="111"/>mortem aliis odor vite etc.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1185">
+      ¶ Et ad hoc quis tam vdoneus: vnde 
+      <lb ed="#V" n="112"/>sicut maxime ydoneus ductor ad infernumest praedicator: quando 
+      <lb ed="#V" n="113"/>pplicitus non conuertitur propter eius praedicationem ita hoc sacramentum 
+      ali<lb ed="#V" n="114" break="no"/>quibus proficit ad vitam aliquibus ad dannationem. 
+      <lb ed="#V" n="115"/>articulus est. quibus fuit prohibitum. 
+      <lb ed="#V" n="116"/>Septimus
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1199">
+      ¶ Ubi sciendum est quod secundum dponisium 
+      <lb ed="#V" n="117"/>capis 3o de eccleiastica Ierarchia 4or generibus personarum 
+      fui<lb ed="#V" n="118" break="no"/>prohibitum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1206">
+      ¶ Primo cathecuminis. qui tantum sunt 
+      cathe<lb ed="#V" n="119" break="no"/>tizati et non baptizati. et ideo expellebantur de eccleaia quando 
+      <lb ed="#V" n="120"/>istud sacramentum debebat consecrari.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1213">
+      ¶ 2o energumins a potestate 
+      <lb ed="#V" n="121"/>qui acceperant vitam alteram: et non seruabant eam: qui etiam 
+      <lb ed="#V" n="122"/>xpellebantur.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1220">
+      ¶ 3o temptationibus vexatis.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1223">
+      ¶ 4o virtutibus 
+      <lb ed="#V" n="123"/>non perfectis.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1228">
+      ¶ Sed hic oc. 4or di.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1232">
+      ¶ Prima si consecrans 
+      <lb ed="#V" n="124"/>istud sacramentum in peccato mortali peccet mortaliter.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1237">
+      ¶ Dicitur 
+      <lb ed="#V" n="125"/>quod sic propter irreuerentiam quam facit sacramento.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1242">
+      ¶ 2a di. si peccet 
+      <lb ed="#V" n="126"/>mortaliter qui sumit sacramentum indigne.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1247">
+      ¶ Dico quod sic: quia 
+      iu<lb ed="#V" n="127" break="no"/>dicium sibi manducat et bibit non diiudicans corpus difuni. 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e1252">
+               <lb ed="#V" n="128"/>¶ Sed nunquid peccat duobus peccatis mortalibus qui 
+      <lb ed="#V" n="129"/>sic consecrat et sumit.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1259">
+      ¶ Dico quod sic differentibus specie.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1263">
+      ¶ Sed 
+      <lb ed="#V" n="130"/>de est maius:
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1268">
+      ¶ Dicitur quod sumere: quia consecratio ordinatur 
+      <lb ed="#V" n="131"/>id sumptionem. verumtamen respiciendo ad irreuerentiam sacrament 
+      <lb ed="#V" n="132"/>tunc consecrare maius peccatum est quam recipere. quia 
+      <!--388.xml-->
+      <pb ed="#V" n="193-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>solis sacerdotibus conuenit consecrare. aliis autem 
+      indiffe<lb ed="#V" n="2" break="no"/>renter percipere.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1286">
+      ¶ Sed quid de ministrante.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1289">
+      ¶ Di 
+      <lb ed="#V" n="3"/>citur quod si indigne ministrat peccat mortaliter. Et hoc 
+      <lb ed="#V" n="4"/>tantum videtur de illis qui immediate ministrant. alii forsitam 
+      <lb ed="#V" n="5"/>non peccant ita grauiter.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1298">
+      ¶ Sciendum tamen quod omnis 
+      admin<lb ed="#V" n="6" break="no"/>nistrans sacramentia diuina existens in peccato mortali: nisi 
+      <lb ed="#V" n="7"/>confiteatur: si assit possibilitas vel conteratur cum propo 
+      <lb ed="#V" n="8"/>sito consitendi peccat mortaliter.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1307">
+      ¶ Sed quaeritur quare 
+      eccle<lb ed="#V" n="9" break="no"/>sia non seruat illud a Dioo expraessum de expellendo ab ecclesia 
+      <lb ed="#V" n="10"/>et sacramento illa quatuor genera hominum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1315">
+      ¶ Dico quod in praemitiua 
+      <lb ed="#V" n="11"/>ecclatia: vbi pauci erant: poterant. sed in praesenti non possunt. 
+      <lb ed="#V" n="12"/>articulus est in quo loco fuit 
+      institu<lb ed="#V" n="13" break="no"/>Sctauus tum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1324">
+      ¶ Dicitur quod in hierusalem in quo etia loco 
+      <lb ed="#V" n="14"/>fuerunt instituta 4or sacramentia que ordinantur ad istud.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1329">
+      ¶ Pri 
+      <lb ed="#V" n="15"/>mum est sacramentum prinine Io. 2o. quorum remiseritis preccata 
+      remis<lb ed="#V" n="16" break="no"/>tuntur eis.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1336">
+      ¶ Secundum bap. Mat. vltimo Recumbentibus 
+      di<lb ed="#V" n="17" break="no"/>scinpulis. supple. in hierusalem etc. tunc dixit eis euntes etc. 
+      <lb ed="#V" n="18"/>baptim autes eos.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1343">
+      ¶ Tertium est sacramentum ordinis quando 
+      dixi<lb ed="#V" n="19" break="no"/>discipulis luce. 2 2o. Quotienscumque feceritis in mei etc. 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e1348">
+               <lb ed="#V" n="20"/>¶ Quartum fuit isto sacramentum eucharistie in cena. Mat. 2d 
+      <lb ed="#V" n="21"/>articulus est quo die fuit institutum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1356">
+      ¶ Din 
+      <lb ed="#V" n="22"/>Nonus quod feria quaenta: vbi aduertendum quod hec 
+      di<lb ed="#V" n="23" break="no"/>es fuit quadruplici mysterio consecrata quae mystice perti 
+      <lb ed="#V" n="24"/>nent ad hoc sacramentum sumentes.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1365">
+      ¶ Primo mysterio 
+      crea<lb ed="#V" n="25" break="no"/>tionis piscium in mari auium in aere ad designandum quod 
+      duo<lb ed="#V" n="26" break="no"/>genera hominum ad sumptionem huius sacramenti sunt 
+      <lb ed="#V" n="27"/>apta. valet. homines actui. qui in amaritudine 
+      peniten<lb ed="#V" n="28" break="no"/>tie commorantur. sicut pisces in mari: quia tales debent 
+      <lb ed="#V" n="29"/>esse qui fuerunt in peccatis.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1378">
+      ¶ Et secundo contemplati: 
+      <lb ed="#V" n="30"/>qui designantur per aues secundum Greg.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1383">
+      ¶ Secundo mysterio. 
+      <lb ed="#V" n="31"/>purissime oblationis. quia Aug. videtur dicere 4o de 
+      ci<lb ed="#V" n="32" break="no"/>uitate dei. quod beata virgo suum benedictum filium 
+      feria<lb ed="#V" n="33" break="no"/>6a obtulit. in templo: et hoc partinet bene ad istuod sacramentum: quia 
+      <lb ed="#V" n="34"/>qui sanctus est sanctificetur adhuc: quia hic offertur 
+      veru<lb ed="#V" n="35" break="no"/>dei filius: qui fuit filius virginis. imo omnia que in 
+      ipso<lb ed="#V" n="36" break="no"/>sunt fuerunt in vtero virginis.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1399">
+      ¶ 3o mysterio consecratio 
+      <lb ed="#V" n="37"/>nis corporis christi.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1404">
+      ¶ 4o mysterio ascensionis divfuni. ad 
+      desi<lb ed="#V" n="38" break="no"/>gnandum quod illi qui digne suscipiunt istud sacramentum rapiunt 
+      <lb ed="#V" n="39"/>in alto loco: sicut sacramentum rapitur mysterio consummato: ad 
+      <lb ed="#V" n="40"/>uertendum etiam quod iupiter a quae hoc dies habet denominationem est 
+      pla<lb ed="#V" n="41" break="no"/>neta beniuolus ad designandum christi ad nos 
+      beniuolen<lb ed="#V" n="42" break="no"/>tiam: et quod nullus sine beniuolentia ad proximum valet 
+      accede<lb ed="#V" n="43" break="no"/>re ad hoc sctissimum sacramentum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1421">
+      ¶ Sed du. est si corpus christi in 
+      <lb ed="#V" n="44"/>die inouis scii remansisset in mensa post consecrationem 
+      <lb ed="#V" n="45"/>vel fuisset in pixide reseruatum sensisset dolorem quem christus 
+      <lb ed="#V" n="46"/>passus fuisset.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1430">
+      ¶ Dicitur quod sic: quia habuisset omnem qualitatem 
+      <lb ed="#V" n="47"/>absolutam: vt vbi etiam fuisset flagellatus mortuus et se 
+      <lb ed="#V" n="48"/>pultus ac resurrexisset. 
+      <lb ed="#V" n="49"/>articulus est quae hora fuit institutum. 
+      <lb ed="#V" n="50"/>Secimus
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1441">
+      ¶ Dicitur quod hora completorii. vbi 
+      aduer<lb ed="#V" n="51" break="no"/>tendum quod hec hora fuit quadruplici mysterio decorata. 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e1446">
+               <lb ed="#V" n="52"/>¶ primo ex mysterio mundi creationis: quia videtur ex sacra 
+      scri<lb ed="#V" n="53" break="no"/>ptura: quod vespere fuit creatus mundus. vnde aug. notat hoc 
+      <lb ed="#V" n="54"/>4o de trinitate. fcuntum est vespere et mane dies vnus. Ex hoc 
+      <lb ed="#V" n="55"/>colligitur quod vespere fuit creatus mundus: quia vespere praeponitur et 
+      <lb ed="#V" n="56"/>s 
+      <lb ed="#V" n="57"/>postea mane sequitur
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1462">
+      ¶ 2o mysterio virginalisr salutationis: 
+      <lb ed="#V" n="58"/>quia ista hora: qua genus humanum de peradiso fuit expulsum per 
+      <lb ed="#V" n="59"/>inobedientiam suam eadem hora incarnationis mysterium fuit 
+      <lb ed="#V" n="60"/>consumatum vel saltem annunciatum: quia illa hora fuit virgo ab 
+      <lb ed="#V" n="61"/>angelo salutata.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1473">
+      ¶ 3o mysterio consecrationis.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1477">
+      ¶ 4o mpy 
+      <lb ed="#V" n="62"/>terio dinice sepulture: quia eadem hora quae fuit institutum ista 
+      <lb ed="#V" n="63"/>sacramentum fuit christus sepultus: vt dicit Aug. de tritate.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1484">
+      ¶ Ad  
+      <lb ed="#V" n="64"/>uertendum tamen quod deus fecut 3a miracula valde magna et 
+      summe<lb ed="#V" n="65" break="no"/>inter alia.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1491">
+      ¶ primum fuit creatio mundi ex nihilo.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1494">
+      ¶ 2m vnio 
+      <lb ed="#V" n="66"/>humane naturae ad verbum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1499">
+      ¶ 3m transubstantiatio: quae est in hoc sacramento 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e1502">
+               <lb ed="#V" n="67"/>¶ Sed hic oc. 4or di.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1508">
+      ¶ primua si christus dedit corpus suum consecratum 
+      <!--388.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="68"/>pus cenam vel ante. luce. 2o dicitur quod postquam cenauit.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1517">
+      ¶ 2a differentia est qua 
+      <lb ed="#V" n="69"/>re dsedit pus cenam. Dicit greg. vt arctius memorie ipsorum esset 
+      <lb ed="#V" n="70"/>ipaessum. ideo vltimum fuit.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1524">
+      ¶ 3a difficultas quare nos facimus aliter.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1527">
+      ¶ Dicon 
+      <lb ed="#V" n="71"/>Augstinus quod dictante spiritus scondo. hoc ordinatum est: vt cibus spiritualis prio 
+      <lb ed="#V" n="72"/>introeat in corpus hominis.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1534">
+      ¶ 4a difficultas si in alia hora potest 
+      <lb ed="#V" n="73"/>sumi scilicet a non ieiuno.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1539">
+      ¶ Dico quod sic in periculo mortis 
+      <lb ed="#V" n="74"/> articulus est qualiter et quibus circum. 
+      <lb ed="#V" n="75"/>Undecimus stantis fuit istitutum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1547">
+      ¶ Dicitur quod 
+      qua<lb ed="#V" n="76" break="no"/>druplici.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1552">
+      ¶ prima cum oculorum eleuatione.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1555">
+      ¶ 2a cum diuisione et 
+      <lb ed="#V" n="77"/>distributione.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1560">
+      ¶ 3a cum benedictione.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1563">
+      ¶ Et 4a cungratiarum actione 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e1566">
+               <lb ed="#V" n="78"/>¶ Et ex habet colligitur quod post bendictionem consecrauit: quia 
+      par<lb ed="#V" n="79" break="no"/>bendictione distribuit.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1574">
+      ¶ Sciendum tamen quod istud sacramentum ab 
+      <lb ed="#V" n="80"/>aliquibus percipitur sacramentialiter et spiritualiter: sicut a fidelibus quae sunt in 
+      <lb ed="#V" n="81"/>gratia et recipiunt istud sacramentum. Alii sacramentialiter et non spiritualiter: 
+      si<lb ed="#V" n="82" break="no"/>cut fideles in peccatio mortali. Alii spiritualiter et non sacramentaliter: si 
+      <lb ed="#V" n="83"/>cut habentes deuotionem ad istud sacramentum. tamen se subtrahuns 
+      <lb ed="#V" n="84"/>propter reuerentiam sacramenti et tales recipiunt spiritualiter iuxta verbum 
+      <lb ed="#V" n="85"/>Aug. Crede et manducasti. Alii nec spiritualiter nec sacramentaliter. 
+      <lb ed="#V" n="86"/>sicut infideles qui istum cibum ab aliis non discernunt. 
+      <lb ed="#V" n="87"/>articulus est quare fuit institutum 
+      <lb ed="#V" n="88"/>Duodecimus c dicitr uodrper 4or.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1596">
+      ¶ prim ad 
+      reli<lb ed="#V" n="89" break="no"/>quendum discipulis suis memoriam. hoc facite inquit in mean 
+      <lb ed="#V" n="90"/>commemorationem. 
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1603">
+      ¶ 2o ad ostendendam suam affectionem intimam 
+      <lb ed="#V" n="91"/>quae per verba exprimi non poterat.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1608">
+      ¶ 3o ad fidem catholicam exal 
+      <lb ed="#V" n="92"/>andam: et quanto enim fides est de difficilibus ad credendum tanto 
+      ali<lb ed="#V" n="93" break="no"/>as promeretur.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1615">
+      ¶ 4o vt foueretur vnio fidentum et ecclesie.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1618">
+      ¶ Sed 
+      <lb ed="#V" n="94"/>hoc. difficultas. si expedit separe celebrare.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1624">
+      ¶ Dicendum quod qui ex 
+      reue<lb ed="#V" n="95" break="no"/>rentia aliquando abstinent actus virtutis est. Et qui ex deuotione 
+      fre<lb ed="#V" n="96" break="no"/>quentaret: similiter.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1631">
+      ¶ Sed magitur dicit quod si quis percipiat ex 
+      frequen<lb ed="#V" n="97" break="no"/>tatione in se deuotionem augeri et meliorationem vite et 
+      pro<lb ed="#V" n="98" break="no"/>motionem virtutum vtile est: aliter non.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1638">
+      ¶ Sed non licet omnino se sub 
+      <lb ed="#V" n="99"/>trahere maxime sacerdotibus. non enim dicitet sacramentum esse 
+      ocio<lb ed="#V" n="100" break="no"/>sum ad illud ad quod est istitutum. valet ad partitastes. Et si alii 
+      te<lb ed="#V" n="101" break="no"/>nentur semel in anno comunicare. multo magis sacerdotes. 
+      <lb ed="#V" n="102"/>articulus est quibus figuris 
+      <lb ed="#V" n="103"/>Tertiusdecimus istud sacrament tuit sigura 
+      <lb ed="#V" n="104"/>tum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1654">
+      ¶ Dicitur quod quadruplici.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1657">
+      ¶ primo genesis. 4o in oblione mel 
+      <lb ed="#V" n="105"/>chisedech: quia alii offerentibus boues et animalia iste 
+      obtuli<lb ed="#V" n="106" break="no"/>panere et vinum qui christum optie designat: quia interpraetatur rex 
+      iu<lb ed="#V" n="107" break="no"/>stitie: nec inuenitur eius pater. nec mater: nec genealogia: nulla enim 
+      <lb ed="#V" n="108"/>mentio fit de ortu et obitu eius. Et hoc figurauit christum qui non 
+      <lb ed="#V" n="109"/>hunit principium neque finem: nec patrem in terris nec matrem in celis: 
+      <lb ed="#V" n="110"/>non quin melchisedech vere patrem haberet. licet aliqui singant quod ipse 
+      <lb ed="#V" n="111"/>fuit filius dei: quod non est verum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1675">
+      ¶ 2a figura est de materiana in 
+      de<lb ed="#V" n="112" break="no"/>serto: quod erat delectabile his qui digne sumebant: et ad 
+      <lb ed="#V" n="113"/>nauseam prouocabat indigne sumentes.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1683">
+      ¶ 3a figura est de 
+      <lb ed="#V" n="114"/>agno paschali. Exo. 1 2o quia illa hora quae immolabatur fuit hoc 
+      <lb ed="#V" n="115"/>sacramentum institutum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1690">
+      ¶ 4a figura de panibus propositionis. de quibus 
+      le<lb ed="#V" n="116" break="no"/>uitici per totum. quis non licebat conedere nisi solis sacerdoti 
+      <lb ed="#V" n="117"/>bus et purgatis a viciis carnalibus. vnde primo regum dicitur: si sint 
+      <lb ed="#V" n="118"/>mundi pueri a mulleribus etc. non hystoriam.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1699">
+      ¶ Adhuc est 
+      <lb ed="#V" n="119"/>alia figura de pane helye qui ambulauit in fortitudine cibi il 
+      <lb ed="#V" n="120"/>lius vsque ad modtem difi oreb. Et ideo dicitur istuod sacramentum viaticum: quia 
+      <lb ed="#V" n="121"/>in fortitudine cibi illius ambulatur vsque ad modtem supercelestem. 
+      <lb ed="#V" n="122"/>articulus est. quibus 
+      ora<lb ed="#V" n="123" break="no"/>Quartusdecimus culis in nouo testo fui 
+      <lb ed="#V" n="124"/>nominatum. vbi sciendum quod quadruplici nomine fuit nominatum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1715">
+      ¶ primao 
+      <lb ed="#V" n="125"/>nomine eucharie: et hoc modo vocat dio. de ecclariastica Ierarus 
+      <lb ed="#V" n="126"/>quod dicitur ab eu. quod est bonum et charis quod est gratia: quaesi bomoa gratia. 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e1722">
+               <lb ed="#V" n="127"/>¶ 2o sacramenta altaris: vt dicit pau. ad hebreos. habemus alta 
+      <lb ed="#V" n="128"/>re de qui edere non habent potestatem hi qui tabernaculo diseruiunt 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e1729">
+               <lb ed="#V" n="129"/>¶ 3o dicitur hostia: patet per Amb. de sacramentis quia offertur pro procatis 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e1735">
+               <lb ed="#V" n="130"/>¶ 4o dicitur sacramentu misse quod mittitur. mittitur enim in caelum a sacerdo 
+      <lb ed="#V" n="131"/>te: vt dicit gre. in omelu.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1742">
+      ¶ Sed oc. du. Si licet plures missas 
+      in<lb ed="#V" n="132" break="no"/>die celebrare.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1747">
+      ¶ Dicitur quod non communiter nisi in 4or casibus.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1750">
+      ¶ primo in 
+      <lb ed="#V" n="133"/>die natitatis dimfeni recipiendo tamen solum sanguinem in praecedenti¬ 
+      <!--389.xml-->
+      <pb ed="#V" n="193-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>bus.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1763">
+      ¶ 2o si accidit casus sacerdoti quod non possit missam 
+      <lb ed="#V" n="2"/>perficere totam alius potest inchoare missam adiplendo quod alius 
+      <lb ed="#V" n="3"/>ptermisit.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1770">
+      ¶ 3us casus si aliquis habet duas pochias.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1774">
+      ¶ 4a 
+      <lb ed="#V" n="4"/>casus consuetus propter reuerentiam magnorum aliquorum. vel de 
+      <lb ed="#V" n="5"/>functi alicuius in cuius exequiis missa consueuit dici. 
+      <lb ed="#V" n="6"/>articulus est. quibus priuileg 
+      <lb ed="#V" n="7"/>Quintusdecimus ins istod secrinet suit dota 
+      <lb ed="#V" n="8"/>tum. dicitur quod 4or.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1787">
+      ¶ primum est considerando eius figuram: quia dio. de angeli 
+      <lb ed="#V" n="9"/>ca ierai fac istam comperationem: quia omnia sacramentia sigenerant virtutem 
+      <lb ed="#V" n="10"/>istam quam istod sacramentum dat et gratiam spiritualem: quia hoc est nobis 
+      peda<lb ed="#V" n="11" break="no"/>gium cibationis in patria.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1796">
+      ¶ 2m est de eius natura. quia etaima permanentia 
+      <lb ed="#V" n="12"/>nobiliora sunt successiuis: quia omnia sacramentia sunt successiua 
+      prae<lb ed="#V" n="13" break="no"/>ter istuod. materiaet enim in sempiternum: quia corpus et sanguis christi emper 
+      <lb ed="#V" n="14"/>permanent. vnde dixit christus. Ego vobiscum sum vsque ad 
+      consuma<lb ed="#V" n="15" break="no"/>tionem sculuti. math. 2o. valet. permanet in hoc sacramento.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1807">
+      ¶ 3m est de eius 
+      <lb ed="#V" n="16"/>virtute: quia licet alia sint vera non sper tamen faciunt quod figurant dum tamen 
+      <lb ed="#V" n="17"/>intendat face quod fac ecclesia. sicut bapus quando recipitur a ponente 
+      <lb ed="#V" n="18"/>obicem. Istuod tamen semper efficit. dum tamen intendat facere quod facit eo 
+      <lb ed="#V" n="19"/>clesia.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1818">
+      ¶ 4m est de eius dignitate: quia aug. distinguit 
+      cor<lb ed="#V" n="20" break="no"/>pus christi in verum et misticum: et dicit quod verum est nobilius 
+      mysti<lb ed="#V" n="21" break="no"/>co: sed omnia alia sacramentia partinent ab corpus christi mysticum. Istud 
+      <lb ed="#V" n="22"/>autem solum est verum. ergo istud mystico est nobilius. 
+      <lb ed="#V" n="23"/>articulus est quibus dignita 
+      <lb ed="#V" n="24"/>Sextusdecimus tibus est adorandum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1831">
+      ¶ Dicitur quod 
+      <lb ed="#V" n="25"/>quatuor.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1837">
+      ¶ Primo solennitate divinarum personarum: quia sicut divine per 
+      <lb ed="#V" n="26"/>ione sunt inseparabiles. ita inseparabiliter operantur: sed christus 
+      confecu<lb ed="#V" n="27" break="no"/>istuod sacramentum virtute divina: quae est eadem in tribus personis. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e1844">
+               <lb ed="#V" n="28"/>¶ Secundo praesentia angelorum. hoc patet per greg. in omel. 
+      pascha<lb ed="#V" n="29" break="no"/>li. quod nullus fidelium dubitat: quod in illa hora quae sacerdos 
+      <lb ed="#V" n="30"/>profert verbum: apriantur celi: et ibi aslistant scienti angeli. Ideo dicitur quod 
+      <lb ed="#V" n="31"/>ormeo ante pater noster non habet amen: quia angeli dicunt illud: tum videtur quod hoc 
+      <lb ed="#V" n="32"/>sit propter connexionem verborum ad sequentia.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1857">
+      ¶ 3o est praesentia scautiarum 
+      <lb ed="#V" n="33"/>animarum: patet hoc per Ieronimum contra vigilantium: quia iste dicebat quod 
+      re<lb ed="#V" n="34" break="no"/>liquie sncorum non erant adorande. Cui dicit Ieronxus quod ymo: quia 
+      <lb ed="#V" n="35"/>sequuntur agnum quocumque ierit. ideo etc.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1866">
+      ¶ 4o praesentia corporum clati 
+      <lb ed="#V" n="36"/>ficatorum. patet sicut dictum est. Corpus christi est in calice per 
+      concomi<lb ed="#V" n="37" break="no"/>tantiam: quia coniuncta sunt. cum igitur anime sint praesentes: vt dictum est si 
+      <lb ed="#V" n="38"/>ossunt corpora coniuncta. sequitur quod sint ibi. Et hoc est bene possibile: quia 
+      <lb ed="#V" n="39"/>beata virgo et alii sancti sunt ibi. licet hoc expresse non 
+      ha<lb ed="#V" n="40" break="no"/>beatur i in scriptura.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1879">
+      ¶ Sed est ne intelligendum quod localiter 
+      <lb ed="#V" n="41"/>sint ibi praesentes: Utur quod hoc intelligant Ieronymus et 
+      Au<lb ed="#V" n="42" break="no"/>gusti. nec per hoc desistunt esse in celo: vt infra patebit 
+      <lb ed="#V" n="43"/>articulus est quibus 
+      mi<lb ed="#V" n="44" break="no"/>SDecimusseptimus racul fuit sublimatum 
+      <lb ed="#V" n="45"/>Et dicitur quod quatuor sunt miracula.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1892">
+      ¶ Primum est de substantiali 
+      conue<lb ed="#V" n="46" break="no"/>sione: quando corpus corruptibile transubstantiatur in corpus 
+      incor<lb ed="#V" n="47" break="no"/>ruptibile.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1900">
+      ¶ Secundum est de conuersione totali in praexistens 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e1903">
+               <lb ed="#V" n="48"/>¶ Tertium est de loci multiplicatione.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1908">
+      ¶ Quartum quodo 
+      <lb ed="#V" n="49"/>tantum corpus continnetur sub modica hostia. Et ista 
+      miracula<lb ed="#V" n="50" break="no"/>ne videantur impossibilia: probantur per dicam sncorum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1915">
+      ¶ Prima ratio potest 
+      su<lb ed="#V" n="51" break="no"/>mi ex dictis Ambrosii de sacramentis. Quia quanto 
+      extrema<lb ed="#V" n="52" break="no"/>magis: distant. tanto minus possunt vniri: sed maxima distantia est 
+      <lb ed="#V" n="53"/>inter nihil et ens: et maior quam inter corpus christi et panere: quia ergo 
+      <lb ed="#V" n="54"/>potest deus de nihilo aliquid facem per creationem. ergo de 
+      pan<lb ed="#V" n="55" break="no"/>corpus christi facere per consecratione.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1928">
+      ¶ Ad 2m respondet Augi 
+      <lb ed="#V" n="56"/>lib. confessionum. Quia oppositus modus est in isto cibo 
+      <lb ed="#V" n="57"/>et corporali: quia huiusmodi conuertitur cibatum in cibum. cibus autem corpora 
+      <lb ed="#V" n="58"/>lis conuertitur in cibatum. vnde dicit divine dum comedam enim tum non 
+      <lb ed="#V" n="59"/>conuerteris in me: sed ego conuertar in te et anima rationalis est 
+      <lb ed="#V" n="60"/>cibi corporalis terminus si ponatur vna sola forma in homine. 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e1941">
+               <lb ed="#V" n="61"/>¶ Ad 3m respondet hugo de scondo victore libro de sacramentis: et 
+      <lb ed="#V" n="62"/>ponit vnam rationem: quia quandocumque aliquis legislator statuit 
+      le<lb ed="#V" n="63" break="no"/>gem vnam. potest dispesare in lege: sed deus statuit vnam legere quod 
+      <lb ed="#V" n="64"/>singula corpora sint in singulis locis. ergo illam potest nullare 
+      <lb ed="#V" n="65"/>quando sibi placuerit vt sint plura corpora in vno loco: vel 
+      <lb ed="#V" n="66"/>vnum corpus in diuersis locis sicut dispensauit in lege 
+      <!--389.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>illa. quod iguis approximatus passo non ageret: sicut 
+      pa<lb ed="#V" n="68" break="no"/>tet in tribus pueris positis in igne: et quod sol staret in tem 
+      <lb ed="#V" n="69"/>pore Iosue.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1968">
+      ¶ Ad 4m respondet Aug. in libro de 
+      quanti<lb ed="#V" n="70" break="no"/>tate anime. vbi querit a discipulo si recordatur de distantia 
+      <lb ed="#V" n="71"/>vsque ad mediolanum. Et respondet quod sic. Postea dicit sib 
+      <lb ed="#V" n="72"/>non extra te. ergo in te. ergo maior recipitur in minori: 
+      <lb ed="#V" n="73"/>et hoc declarabitur inferius profundius. 
+      <lb ed="#V" n="74"/>earticulus est quibus difficultas 
+      <lb ed="#V" n="75"/>Decimusoctauus cultatibus fuit 
+      obscura<lb ed="#V" n="76" break="no"/>tum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1986">
+      ¶ Dicitur quod 4or.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1989">
+      ¶ Prima est de locali mutatione: quia 
+      co<lb ed="#V" n="77" break="no"/>pus christi accipit esse vbi non fuit: tamen tunc non dimittit locum in 
+      <lb ed="#V" n="78"/>cedentem.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e1996">
+      ¶ Ubi est intelligendum quod terminus a quae in nulla mud 
+      <lb ed="#V" n="79"/>tatione est per se aliquod positiuum et potest esse transitus in 
+      instan<lb ed="#V" n="80" break="no"/>ad ipsum: patet de veloci mutatione de celo vsque huc.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e2003">
+      ¶ Ad 
+      <lb ed="#V" n="81"/>hoc potest responderi si consideremus quod radius solis in instanti 
+      dis<lb ed="#V" n="82" break="no"/>funditur ab oriente in occidentem. hoc tamen est faciliter videre si 
+      <lb ed="#V" n="83"/>consideretur quod radius solis in instanti diffunditur a creatura indi 
+      <lb ed="#V" n="84"/>citur tamen istud transitione medii: vt infra patebit.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e2014">
+      ¶ 3a diffifit 
+      <lb ed="#V" n="85"/>vtrum sub qualibet fractura sit totum corpus christi.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e2020">
+      ¶ Respondeo si 
+      <lb ed="#V" n="86"/>pars corrispondet parti. tunc frangeretur ad fractionem panis: sed 
+      co<lb ed="#V" n="87" break="no"/>pus christi est totum simul in qualibet parte.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e2027">
+      ¶ 4a dii. de consumptione 
+      <lb ed="#V" n="88"/>quia dicunt heretici quod si christi corpus fuisset ita magnu: sicut 
+      <lb ed="#V" n="89"/>vnus mons debuit esse commestum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e2034">
+      ¶ Respondeo quod terminatur tantum 
+      <lb ed="#V" n="90"/>supra species: et quando est vltimata dispositio. Desmit ibi esse 
+      de<lb ed="#V" n="91" break="no"/>structio non est ibi corporis christi quia integrum perseuerat 
+      <lb ed="#V" n="92"/>et nullo modo consumitur. 
+      <lb ed="#V" n="93"/>articulus est: quibus erroribus 
+      <lb ed="#V" n="94"/>Decimusnonus fuit impugnatum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e2047">
+      ¶ Dicitur quod 
+      <lb ed="#V" n="95"/>tuor.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e2052">
+      ¶ Primus: fuit valdensium quae dicunt quod omnis fidelis potest 
+      <lb ed="#V" n="96"/>consecrare: et tantum bomoi hoc possunt et etiam mulieres: quaerunt enim quare mul 
+      <lb ed="#V" n="97"/>lieres debent excludi.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e2059">
+      ¶ Sed ex scriptura patet quod ostuntum 
+      sa<lb ed="#V" n="98" break="no"/>cerdotis in veteri lege non erat licitum mulleribus: 
+      neque<lb ed="#V" n="99" break="no"/>quibuscumque sed tantum sacerdotibus. ideo multomagis in noua. 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e2067">
+               <lb ed="#V" n="100"/>¶ Alius error fuit berengariorum quae dicunt quod erat tantum secundum 
+      <lb ed="#V" n="101"/>figuram et similitudinem: quod reprobatur in decreto: et hoc 
+      mo<lb ed="#V" n="102" break="no"/>do verum est.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e2076">
+      ¶ 3us error. fuit paneistarum: quae dicebant quod sicut 
+      <lb ed="#V" n="103"/>mediante anima rationali assumpsit dei filius humanam naturami 
+      <lb ed="#V" n="104"/>ita mediante corpore christi assumpsit panem. Iste error 
+      exclu<lb ed="#V" n="105" break="no"/>ditur: quia ita esset christus corruptibilis: nunc sicut fuit mortalis: 
+      <lb ed="#V" n="106"/>et sicut dicitur humanatus ita vere diceretur impancatus.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e2087">
+      ¶ Et contra istin 
+      <lb ed="#V" n="107"/>hugo fecit vnum libellum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e2092">
+      ¶ Quartus manicheorum: sicut 
+      <lb ed="#V" n="108"/>fuit pessimus ille error quae dicit quod non desinit ibi esse substanti 
+      <lb ed="#V" n="109"/>panis: sed in eodem loco manente pane est corpus christi.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e2099">
+      ¶ Con 
+      <lb ed="#V" n="110"/>tra hoc autem est sninia gregorii in omelu paschali. vnde istud excludit 
+      <lb ed="#V" n="111"/>transubstantiationem.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e2106">
+      ¶ Alii dicunt quod transubstantiatio fit accidentaliter insubiecto 
+      <lb ed="#V" n="112"/>i. in aere condensato et dicunt quod non sunt accidentia eodem numero: et 
+      <lb ed="#V" n="113"/>ita non migrant accidentia de subiecto in subiectum: nec manent eadem 
+      <lb ed="#V" n="114"/>articulus est. quibus dotibus fuit dotatum et 
+      <lb ed="#V" n="115"/>Ultimus quibus dominis. Et dicit dio. quod quatuor.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e2118">
+      ¶ Primo 
+      <lb ed="#V" n="116"/>per ipsum fit remissio peccatorum veialium: et etiam mortalium oblitorum: 
+      <lb ed="#V" n="117"/>quia continnet virtualiter contritionem in qua diilenter omnia peccata quaecumque.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e2125">
+      ¶ 2o 
+      <lb ed="#V" n="118"/>ptiet gratiam perfcorem: quia cetur a sacramentia continent gratiam litatam: hoc vero 
+      <lb ed="#V" n="119"/>sacramentum gratie plemnitudinem: quia ipsam divinitatem.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e2132">
+      ¶ 3o in ipso 
+      dimit<lb ed="#V" n="120" break="no"/>titur pecesa purgatoria. posset enim aliquis tantum celebratur vel per alii 
+      <lb ed="#V" n="121"/>celebrari facem quod totaliter pecea auferretur. Exitum in 4o dia. gre 
+      </p>
+            <p xml:id="FrMS88-f45827-d1e2139">
+               <lb ed="#V" n="122"/>¶ 4o quia per ipsum accumulantur primia. et promissiones mirabiles 
+      <lb ed="#V" n="123"/>facut christus Io. e. frequentantibus istuod sacamentum. vnde vide totum 
+      il<lb ed="#V" n="124" break="no"/>lud capitulum.
+    </p>
+            <p xml:id="FrMS88-f45827-d1e2148">
+      ¶ Ad argumentum in oppositum patet per iam dicta.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

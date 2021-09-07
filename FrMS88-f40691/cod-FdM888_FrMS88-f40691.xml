@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="186-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f40691"><!-- l4d1q2 -->
+            <head xml:id="FrMS88-f40691-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f40691-d1e111">
+      <!--374.xml-->
+               <cb ed="#V" n="b"/>
+               <lb ed="#V" n="63"/>SEcundo queritur. vtrum sacramentum 
+      <lb ed="#V" n="64"/>circumcisionis conferat gra 
+      <lb ed="#V" n="65" break="no"/>tiam. Quod non. quia glosa in epstula ad ro. dicit 
+      <lb ed="#V" n="66"/>quod non conferebat gratiam sed tantum amouebatur 
+      <lb ed="#V" n="67"/>culpam.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e129">
+      ¶ In contrarium est Auguus qui dicit. 
+      <lb ed="#V" n="68"/>Quod nunc facit baptismus circumcisio tunc faciebat. 
+      <lb ed="#V" n="69"/>istam quaestionem sunt due opiniones.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e136">
+      ¶ Una 
+      di<lb ed="#V" n="70" break="no"/>Circa cit quod solum abolebat culpam. Ratio est quia bapti 
+      <lb ed="#V" n="71"/>smus circumcisionem praecellit. Sed si circumcisio conferret 
+      gra<lb ed="#V" n="72" break="no"/>tiam: et amoueret culpam: non esset praecellentia baptismi: hoc autem 
+      <lb ed="#V" n="73"/>est falsum: quia vt dicit apistulus ad hebreos. Meliora sunt 
+      <lb ed="#V" n="74"/>spiritualia corporalibus. Sed baptismus est spiritualis. 
+      cir<lb ed="#V" n="75" break="no"/>cuncisio corporalis vel carnalis.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e152">
+      ¶ Alii dicunt oppositum quod 
+      <lb ed="#V" n="76"/>circumcisio aliquam gratiam conferebat: licet imperfectam. Erat 
+      <lb ed="#V" n="77"/>enim lapsus tunc originalis peccati cum igitur deus 
+      nunqua<lb ed="#V" n="78" break="no"/>defuerit humano generi congruum fuit pro omni statu esse 
+      re<lb ed="#V" n="79" break="no"/>medium aliquod contra originale peccatum. Sed tunc erat originis 
+      <lb ed="#V" n="80"/>nale peccatum ergo dcuit quod ibi esset remedium peruulis qui 
+      <lb ed="#V" n="81"/>non habebant fidem.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e169">
+      ¶ Et confirmatur duabus rationibus. 
+      Prima<lb ed="#V" n="82" break="no"/>est quia de potentia ordinata deus non ordinauit aliquem quin 
+      <lb ed="#V" n="83"/>sit in gratia: vel in culpa. sic quod omnis homo vel saluetur 
+      ve<lb ed="#V" n="84" break="no"/>damnetur.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e178">
+      ¶ 2o arguitur ex deductione dyonisii de 
+      diu<lb ed="#V" n="85" break="no"/>nis nominibus. capius 4o. Sicut inquit sol illuminat omnia 
+      cor<lb ed="#V" n="86" break="no"/>pora superiora et inferiora nisi habeat obstaculum. ita 
+      <lb ed="#V" n="87"/>deus. Sed per circumcisionem amouetur obstaculum 
+      <lb ed="#V" n="88"/>gratie: ergo deus gratiam infundebat 
+      <lb ed="#V" n="89"/>tamen praedictorum sunt quatuor 
+      in<lb ed="#V" n="90" break="no"/>Ad euidentiam telligenda. Primum. qua sunt 
+      <lb ed="#V" n="91"/>defectus circumcisionis a baptismate. Et sunt quatuor. 
+      </p>
+            <p xml:id="FrMS88-f40691-d1e196">
+               <lb ed="#V" n="92"/>¶ Primus quantum ad culpam. quia sacramentum baptismi omnem cum 
+      <lb ed="#V" n="93"/>param delet sacramentiali virtute: virtute autem circuncisionis non 
+      <lb ed="#V" n="94"/>habetur expresse quod purgaret omnem culpam.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e205">
+      ¶ Secundus est quod 
+      ba<lb ed="#V" n="95" break="no"/>ptismus absoluit a pena et a culpa: de circumcisione autem 
+      <lb ed="#V" n="96"/>non habetur expresse.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e212">
+      ¶ Tertius est quia baptismus culpam 
+      de<lb ed="#V" n="97" break="no"/>let et absoluit a pena damni et sensus. quia stati euolant 
+      <lb ed="#V" n="98"/>ad glartiam. Sed circumcisio non. nisi tantum penam sensus delebat. 
+      </p>
+            <p xml:id="FrMS88-f40691-d1e219">
+               <lb ed="#V" n="99"/>¶ Quartus quia baptismus gratiam completam confert. Sed 
+      <lb ed="#V" n="100"/>circumcisio diminutam. Ideo dicunt sancti quod solam culpam 
+      ex<lb ed="#V" n="101" break="no"/>pellebat. Secundo videndum est de statu circumcisionis: et 
+      fue<lb ed="#V" n="102" break="no"/>runt quatuor. Primus fuit quando fuit istituta scilicet tempore 
+      <lb ed="#V" n="103"/>abrahe.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e233">
+      ¶ Secundus quando fuit suspensa sicut tempore 
+      <lb ed="#V" n="104"/>quo fuerunt filii israel in deserto.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e238">
+      ¶ Tertius quando fuit 
+      re<lb ed="#V" n="105" break="no"/>nouata scilicet quando ingressi sunt terram promissionis.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e243">
+      ¶ 
+      Quar<lb ed="#V" n="106" break="no"/>tus quando fuit euacuata. Et secundum hoc sunt quatuor tempora 
+      <lb ed="#V" n="107"/>aduertenda.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e250">
+      ¶ Primum in quo fuit necessaria. quia sub praecepto 
+      <lb ed="#V" n="108"/>his qui erant de lege abrahe. quia omnis masculus cuius 
+      ca<lb ed="#V" n="109" break="no"/>ro praepucii circumcisa non fuerit peribit de populo suo: et 
+      du<lb ed="#V" n="110" break="no"/>rauit vsque ad christum.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e259">
+      ¶ 2m in quo erat vtilis sed non 
+      neces<lb ed="#V" n="111" break="no"/>saria. videlicet a tempore quo christus incepit predicare bapti 
+      <lb ed="#V" n="112"/>smum. quia tunc baptismus erat sufficiens remedium. circum 
+      <lb ed="#V" n="113"/>cisio autem bene vtilis: sed non necessaria tunc erat.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e268">
+      ¶ 3m in 
+      <lb ed="#V" n="114"/>quo non fuit vtilis nec necessaria. sicut quando christus dixit. 
+      <lb ed="#V" n="115"/>Consummatum est. quia tunc omnia legalia fuerunt abolita: nec 
+      ex<lb ed="#V" n="116" break="no"/>tunc habuerunt efficaciam nec necessitatem. sed tamen 
+      fue<lb ed="#V" n="117" break="no"/>runt permissa propter scandalum iudeorum vt synagoga cum ho 
+      <lb ed="#V" n="118"/>nore duceretur ad sepulchrum.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e282">
+      ¶ 4m tepus fuit post 
+      di<lb ed="#V" n="119" break="no"/>uulgationem euangelii vbi fuit mortifera. per sminam 
+      pri<lb ed="#V" n="120" break="no"/>mi concilii quod fuit celebratum actuum. 19. ideo dixit apo 
+      <lb ed="#V" n="121"/>stolus postea ad galathas quinto. Si crcumcidimini christus 
+      <lb ed="#V" n="122"/>vobis nihil prodest. ergo erat mortalis.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e293">
+      ¶ Quarto 
+      vi<lb ed="#V" n="123" break="no"/>dendum est qui cerimonie erant ibi: et dicitur quod quatuor. 
+      </p>
+            <p xml:id="FrMS88-f40691-d1e298">
+               <lb ed="#V" n="124"/>¶ Primo enim aliquod superfluum resecabatur. et 
+      significa<lb ed="#V" n="125" break="no"/>batur virtus castitatis et temperantie que carnis 
+      repri<lb ed="#V" n="126" break="no"/>mit passiones.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e307">
+      ¶ Secundo vulnus circulare fiebat: et 
+      si<lb ed="#V" n="127" break="no"/>gnificat actum contemplationis in quo finis reducitur ad 
+      <lb ed="#V" n="128"/>principium.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e314">
+      ¶ Tertio. quia in octauo die dabatur. et significat 
+      <!--375.xml-->
+      <pb ed="#V" n="186-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>octauam resurrectionis nostre in qua omnis superfluitas rese 
+      <lb ed="#V" n="2"/>cabitur a natura. Magister tamen dicit quod preueniebatur aliquando 
+      <lb ed="#V" n="3"/>dies propter periculum. Sed aliquo hic non tenent eum.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e330">
+      ¶ 
+      Quar<lb ed="#V" n="4" break="no"/>to. quia cum cultro lapideo fiebat: vt patet in Iosue conclusio et signi 
+      <lb ed="#V" n="5"/>ficabat christum cuius virtute peccatum delebatur.
+    </p>
+            <p xml:id="FrMS88-f40691-d1e338">
+      Ad argumentum patet
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

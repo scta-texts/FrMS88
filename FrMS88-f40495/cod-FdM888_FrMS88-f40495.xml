@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="186-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f40495"><!-- l4d1q1 -->
+            <head xml:id="FrMS88-f40495-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f40495-d1e111">
+      <!--374.xml-->
+               <pb ed="#V" n="186-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>¶ Illuminati docto. Fratris Francisci de 
+      <lb ed="#V" n="2"/>mayronis ordinis minorum prouincie 
+      san<lb ed="#V" n="3" break="no"/>cti Ludouici in quartum sententiarum 
+      vtilis<lb ed="#V" n="4" break="no"/>simum resolutissimum ordinatum 
+      comple<lb ed="#V" n="5" break="no"/>tumque scriptum feliciter inchoatur. 
+      <lb ed="#V" n="6"/>Umaritanus ille 
+      <lb ed="#V" n="7"/>diissimus. 
+    </p>
+            <p xml:id="FrMS88-f40495-d1e135">
+               <lb ed="#V" n="8"/>Ad 
+      euiden<lb ed="#V" n="9" break="no"/>tiam eorum que dicuntur 
+      <lb ed="#V" n="10"/>de sacramentis veteris 
+      <lb ed="#V" n="11"/>legis queruntur quatuor 
+      <lb ed="#V" n="12"/>quaestiones.
+    </p>
+            <p xml:id="FrMS88-f40495-d1e148">
+      ¶ Prima est. 
+      <lb ed="#V" n="13"/>Utrum sacramenta 
+      vete<lb ed="#V" n="14" break="no"/>ris legis sint totaliter 
+      <lb ed="#V" n="15"/>cuacuata quod non. 
+      Ma<lb ed="#V" n="16" break="no"/>the. quito. Nolite 
+      pu<lb ed="#V" n="17" break="no"/>tare: quoniam veni soluere 
+      <lb ed="#V" n="18"/>legem: aut prophetas 
+      </p>
+            <p xml:id="FrMS88-f40495-d1e164">
+               <lb ed="#V" n="19"/>¶ Contra. quia ad gala. 4o. In christo enim Iesu neque 
+      circum<lb ed="#V" n="20" break="no"/>cisio aliquid valet neque praepucium sed noua creatura 
+      <lb ed="#V" n="21"/>istam quaestionem intelligendum est quod in veteri 
+      lege<lb ed="#V" n="22" break="no"/>irca fuerunt quatuor genera sacramentorum.
+    </p>
+            <p xml:id="FrMS88-f40495-d1e176">
+      ¶ Quedam enim 
+      fue<lb ed="#V" n="23" break="no"/>runt moralia: que ordinabant hominem ad perfectum sta 
+      <lb ed="#V" n="24"/>tum: sicut praecepta decalogi.
+    </p>
+            <p xml:id="FrMS88-f40495-d1e183">
+      ¶ Quedam sacramentalia: que 
+      or<lb ed="#V" n="25" break="no"/>dinabant hominem ad cultum diuinum. sicut ritus sacerdo. 
+      <lb ed="#V" n="26"/>talis.
+    </p>
+            <p xml:id="FrMS88-f40495-d1e190">
+      ¶ Quedam cerimonialia. quae partinebant ad ritum 
+      hu<lb ed="#V" n="27" break="no"/>manum. Cerimonialia dicuntur illa qui secundum se non habent rationem 
+      <lb ed="#V" n="28"/>manifestam sue vtilitatis. vt non arabis in boue et asino. 
+      <lb ed="#V" n="29"/>Non indueris vestimento lineo lanaque contexto.
+    </p>
+            <p xml:id="FrMS88-f40495-d1e199">
+      ¶ Quedam 
+      <lb ed="#V" n="30"/>iudicialia: quae partinebant ad directionem populi. sicut illud. 
+      <lb ed="#V" n="31"/>Oculum pro oculo. dentem pro dente.
+    </p>
+            <p xml:id="FrMS88-f40495-d1e206">
+      ¶ Preter sciendum quod 
+      prima<lb ed="#V" n="32" break="no"/>acramentia non fuerunt euacuata que ad salutem hominum 
+      partine<lb ed="#V" n="33" break="no"/>bant quantum ad animam. Alia vero totaliter fuerunt euacuata. 
+      </p>
+            <p xml:id="FrMS88-f40495-d1e213">
+               <lb ed="#V" n="34"/>¶ Sed contra hoc arguiter 4r. Primo quia praecepta decalogi christus 
+      <lb ed="#V" n="35"/>reduxit ad duo. valet. diliges disecuntum deum tuum ex toto 
+      corde<lb ed="#V" n="36" break="no"/>tuo et ex tota anima tua et ex totis viribus tuis et proximum 
+      <lb ed="#V" n="37"/>tuum sicut teipsum. In his duobus mandatis tota lex pen 
+      <lb ed="#V" n="38"/>det et prophihope
+    </p>
+            <p xml:id="FrMS88-f40495-d1e227">
+      ¶ 2o quia sacerdotes nunc sicut et tunc oleo 
+      con<lb ed="#V" n="39" break="no"/>secrant.
+    </p>
+            <p xml:id="FrMS88-f40495-d1e232">
+      ¶ 3o de cerimonialibus videtur idem: quia conficimus 
+      <lb ed="#V" n="40"/>in agimo: et in calciamentis celebramus sicut et ipsi. 
+      </p>
+            <p xml:id="FrMS88-f40495-d1e237">
+               <lb ed="#V" n="41"/>¶ 4o de iudicialibus: quia sicut hodie tenet ecclesia in lege 
+      ve<lb ed="#V" n="42" break="no"/>teri bigamus non poterat esse sacerdos: nec homicida. 
+      </p>
+            <p xml:id="FrMS88-f40495-d1e244">
+               <lb ed="#V" n="43"/>¶ Ad primum dicendum quod licet christus precepta decalogi ad duo 
+      re<lb ed="#V" n="44" break="no"/>duxerit: non tamen alia euacuauit. quia comprehendit omnia que 
+      in<lb ed="#V" n="45" break="no"/>duabus tabulis ad deum et ad proximum pertinebant. propter hoc 
+      <lb ed="#V" n="46"/>dixit quod generaliter in his duobus consistit. sed specialiter sunt 
+      <lb ed="#V" n="47"/>plura: et ex his duobus cetera dependent.
+    </p>
+            <p xml:id="FrMS88-f40495-d1e257">
+      ¶ Ad 2m dico 
+      <lb ed="#V" n="48"/>quod sacramentia non remanent eiusdem speciei. aliter enim inungebantur 
+      <lb ed="#V" n="49"/>tunc. aliter nunc. quia in istis caracter imprimiter in illis autem 
+      <lb ed="#V" n="50"/>non.
+    </p>
+            <p xml:id="FrMS88-f40495-d1e266">
+      ¶ Ad 3m dico quod ecclesia nullam illarum 
+      cerimonia<lb ed="#V" n="51" break="no"/>rum habet inquantum sunt veteris testamenti et veteris legis. 
+      <lb ed="#V" n="52"/>non tamen est inconueniens quod similes accipiat propter aliquod signum. 
+      </p>
+            <p xml:id="FrMS88-f40495-d1e274">
+               <lb ed="#V" n="53"/>¶ Ad 4m dico quod inter iudicialia fuerunt aliqua 
+      rationa<lb ed="#V" n="54" break="no"/>ilia. ideo ecclesia potest accipere quedam non inquantum legalia. 
+      <lb ed="#V" n="55"/>ed quia sunt praecepta ecclene: quo circumscripto precepto 
+      <lb ed="#V" n="56"/>nullum ligarent precepta legis antique. nec ita equaliter 
+      <lb ed="#V" n="57"/>sunt euacuata illa iudicialia sicut sacramentalia et 
+      ceri<lb ed="#V" n="58" break="no"/>monialia. quia iudicialia habent plura admixta de 
+      morali<lb ed="#V" n="59" break="no"/>bus. ideo adhuc aliqua tenentur: illa autem que erant magis ce 
+      <lb ed="#V" n="60"/>rimonialia quam moralia. non tenentur vniversaliter verum tamen 
+      inquan<lb ed="#V" n="61" break="no"/>tum legalia sunt: sunt euacuata.
+    </p>
+            <p xml:id="FrMS88-f40495-d1e296">
+      ¶ Ad argumentum in princi 
+      <lb ed="#V" n="62"/>pio patet quomodo eumata sunt: et quomodo non.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="143-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f06328"><!-- l2d1q6 -->
+            <head xml:id="FrMS88-f06328-Hd1e108">Quaestio 6</head>
+            <p xml:id="FrMS88-f06328-d1e111">
+      Quaestio. vi 
+      <lb ed="#V" n="127"/>quaestio. Utrum terminus 
+      crea<lb ed="#V" n="128" break="no"/>Ecunda tionis sit essentia ve exi 
+      <lb ed="#V" n="129"/>tentia. Et videtur quod sit existentia. quia creatio est 
+      pro<lb ed="#V" n="130" break="no"/>cessus de non existere ad existere.
+    </p>
+            <p xml:id="FrMS88-f06328-d1e122">
+      ¶ Con 
+      <lb ed="#V" n="131"/>Alltra. quia ipsa creatura vel essentia creature 
+      <lb ed="#V" n="132"/>producitur per creationem. ergo est terminus eius. 
+      <!--290.xml-->
+      <pb ed="#V" n="144-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quatuor conclusiones. 
+      Prima<lb ed="#V" n="2" break="no"/>hic introducuntur est quod primus 
+      termin<lb ed="#V" n="3" break="no"/>formalis eius est essentia creature. qualem enim ordinem habent res 
+      <lb ed="#V" n="4"/>in essendo talem in producendo seruant. sed ostensum est quod 
+      essen<lb ed="#V" n="5" break="no"/>tia est prior natura ipsa existentia. ergo primo producitur. 2o. quia essemtus primo per 
+      <lb ed="#V" n="6"/>productionem doerducitur ad esse. ergo ad illam terminatur creatio. quia 
+      <lb ed="#V" n="7"/>ad illud terminatur. quod primo deducitur.
+    </p>
+            <p xml:id="FrMS88-f06328-d1e151">
+      ¶ 2a conclusio quod non terminatur 
+      <lb ed="#V" n="8"/>primo ad existentiam. probatur sic. quando aliquid continet aliud virtua 
+      <lb ed="#V" n="9"/>liter: illud non potest esse ratio conicandi et terminandi illi. sed bene 
+      <lb ed="#V" n="10"/>econtra. Sed essentia aliquo modo continet virtualiter existentiam. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f06328-d1e160">
+               <lb ed="#V" n="11"/>¶ 2o sic. illud non est primus terminus: quod non deducitur ad 
+      <lb ed="#V" n="12"/>esse: sed existentia non deducitur ad esse. sed est illud ad quod aliud 
+      <lb ed="#V" n="13"/>ducitur. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f06328-d1e170">
+      ¶ 3a conclusio quod priuatio esse essentie non est 
+      termi<lb ed="#V" n="14" break="no"/>nus a qu. quia quod est priuatum esse essentie est ens prohibitum.
+    </p>
+            <p xml:id="FrMS88-f06328-d1e175">
+      ¶ 2m 
+      <lb ed="#V" n="15"/>sic. illud qui aliquid non potest carere illud semper sibi conuenit. sed 
+      <lb ed="#V" n="16"/>sic est de essentia quia propositio in qua praedicatur esse esentie est per se non et 
+      <lb ed="#V" n="17"/>incommutabili secundum Aug. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f06328-d1e184">
+      ¶ 4a conclusio est. quod priuato existentie 
+      <lb ed="#V" n="18"/>est terminus a qua. quia de non esse existentie fit transitus ad esse existentie 
+      <lb ed="#V" n="19"/>sicut de oppositioe ad oppositum.
+    </p>
+            <p xml:id="FrMS88-f06328-d1e191">
+      ¶ Sed contra quadrupliciter. Primo 
+      contra<lb ed="#V" n="20" break="no"/>primam conclusione arguitur sic. quia essemus praexistit in esse quiditatio. 
+      er<lb ed="#V" n="21" break="no"/>go non potest esse terminus formalis.
+    </p>
+            <p xml:id="FrMS88-f06328-d1e198">
+      ¶ Contra 2am. illud est 
+      pri<lb ed="#V" n="22" break="no"/>mus terminus ad quod fit transitus. huiusmodi est existentia. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f06328-d1e203">
+      ¶ Con 
+      <lb ed="#V" n="23"/>tra 3am conclusiones. illud est terminus a qua. cuius positiuum est 
+      teru<lb ed="#V" n="24" break="no"/>ad quem sundt ostensum est quod essentia est primus teritus ad quem ergo eius 
+      <lb ed="#V" n="25"/>priuaos est terminus a qua.
+    </p>
+            <p xml:id="FrMS88-f06328-d1e213">
+      ¶ Contra 4am. quia terminus a quo 
+      <lb ed="#V" n="26"/>et ad quem opponuntur. sed esse nin opponitur essentie. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f06328-d1e218">
+      ¶ Ad  
+      <lb ed="#V" n="27"/>primam dico. quod essentia in esse quantitatiuo non praexistit: nec habet 
+      <lb ed="#V" n="28"/>aliquio modo realitatem.
+    </p>
+            <p xml:id="FrMS88-f06328-d1e225">
+      ¶ Ad aliud dico. quod numquam ad 
+      termi<lb ed="#V" n="29" break="no"/>num formalem: vt sic: est transitus in productione: sicut de luce 
+      <lb ed="#V" n="30"/>ad tenebram non terminatur ad quiditatem lucis: sed ad eius 
+      existen<lb ed="#V" n="31" break="no"/>tiam.
+    </p>
+            <p xml:id="FrMS88-f06328-d1e234">
+      ¶ Ad aliud priuati termini ad quem est terminus a 
+      <lb ed="#V" n="32"/>quo dico. quod priuatiua termini quantum ad existentiam est terminus 
+      a<lb ed="#V" n="33" break="no"/>quo. sed numquam in aliqua productione terminus a quae est priuatio quidi 
+      <lb ed="#V" n="34"/>tatis termini ad quem.
+    </p>
+            <p xml:id="FrMS88-f06328-d1e243">
+      ¶ Ad aliud per idem quantum ad quantita 
+      <lb ed="#V" n="35"/>tem non est oppositoe.
+    </p>
+            <p xml:id="FrMS88-f06328-d1e248">
+      ¶ Sed est difficultas cum creatio fit simplex 
+      <lb ed="#V" n="36"/>relatio quomodo dicitur hre terminum a quo: Dico quod non diciet quari proprie: sed 
+      <lb ed="#V" n="37"/>terminus ad quem sibi assignatur.
+    </p>
+            <p xml:id="FrMS88-f06328-d1e256">
+      ¶ 2a difficultas quomodo est terminus 
+      <lb ed="#V" n="38"/>a quo: et ad quem. dico quod n potest poni simpliciter. quia terminus 
+      <lb ed="#V" n="39"/>a quo non potest esse priuaus quiditatis. Sed quiditas est 
+      ter<lb ed="#V" n="40" break="no"/>minus ad quem: et quiditas vt non existens est tereutum a qui. etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

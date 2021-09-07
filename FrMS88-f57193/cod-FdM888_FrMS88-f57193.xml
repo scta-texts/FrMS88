@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f57193"><!-- l4d12q7 -->
+            <head xml:id="FrMS88-f57193-Hd1e108">Quaestio 7</head>
+            <p xml:id="FrMS88-f57193-d1e111">
+               <lb ed="#V" n="7"/>Quaeritur in quarto vtrum inherentia 
+      ac<lb ed="#V" n="8" break="no"/>cidentis differat ab 
+      acci<lb ed="#V" n="9" break="no"/>dente.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e120">
+      ¶ Et videtur quod non: quia diffinitur per 
+      <lb ed="#V" n="10"/>ipsam inherentiam.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e125">
+      ¶ Contra. quia 
+      separa<lb ed="#V" n="11" break="no"/>Atur ab 
+      accidente<lb ed="#V" n="12" break="no"/>videndum est quid sit inherentia. 
+      <lb ed="#V" n="13"/>Hic primo
+    </p>
+            <p xml:id="FrMS88-f57193-d1e134">
+      ¶ Et sic distinguitur communiter de actua 
+      <lb ed="#V" n="14"/>li et aptitudinali.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e140">
+      ¶ Ad cuius euidentiam pono quatuor 
+      <lb ed="#V" n="15"/>hambula.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e145">
+      ¶ Primum quod inherentia aptitudinalis dicit 
+      <lb ed="#V" n="16"/>respectum fundamentalem: quia omne inherere concipitur ad 
+      <lb ed="#V" n="17"/>aliud inherens. Et non formalem. probo: quia talis non potest est 
+      <lb ed="#V" n="18"/>se sine termino: vt fuit visum in primo. subiectum autem potest esse 
+      <lb ed="#V" n="19"/>non stante tali respectu.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e156">
+      ¶ 2m praemabulum. quod est respectus 
+      <lb ed="#V" n="20"/>ntrinsecus adueniens. probo. quia ille respectus qui est in 
+      <lb ed="#V" n="21"/>separabilis a fundamento est intrinsecus adueniens. 
+      ta<lb ed="#V" n="22" break="no"/>lis est iste: quia impossibile est accidens esse quin possit inhe 
+      <lb ed="#V" n="23"/>rere.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e167">
+      ¶ Tertium preambulum est. quod inherentia actualis 
+      <lb ed="#V" n="24"/>est respectus formalis: quia per accidens est in fundamento: 
+      <lb ed="#V" n="25"/>tum possit separari ab eo.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e174">
+      ¶ 4m praemabulum est. quod est respe 
+      <lb ed="#V" n="26"/>ctus extrinsecus adueniens: quia non inascitur posito 
+      ter<lb ed="#V" n="27" break="no"/>mino et fundamento. sicut patet in sacramento.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e181">
+      ¶ Sed occurrit 
+      <lb ed="#V" n="28"/>difficultas si aptitudinalis inhertenia dicitur vniuoce de. 5. 
+      pre<lb ed="#V" n="29" break="no"/>dicamentis.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e189">
+      ¶ Dico quod vniuocatio dicitur dupliciter vel in quid. 
+      <lb ed="#V" n="30"/>vel denominatiue. dicitur ergo quod per eandem rationem formalem 
+      <lb ed="#V" n="31"/>conuenit omnibus: sed non vniuocatione quiditatiua. quia prior est 
+      <lb ed="#V" n="32"/>sse accidentis quam in esse. Est ergo vniuocatio tanquam 
+      pas<lb ed="#V" n="33" break="no"/>lo.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e200">
+      ¶ 2a difficultas quia quandocunque aliqua passio inest aliquibus 
+      <lb ed="#V" n="34"/>pluribus inest eis per aliquod subiectum commune ipsis: sed 
+      inherem<lb ed="#V" n="35" break="no"/>tia est communis passio e5r predicamentis. igitur conueniunt in vna 
+      <lb ed="#V" n="36"/>ratione que praedicatur in quid de istis.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e209">
+      ¶ hic dico quod ista 
+      <lb ed="#V" n="37"/>regula vera est de passionibus limitatis et 
+      determina<lb ed="#V" n="38" break="no"/>ti generis. sed in transcendentibus non habet locum. sicut patet in vni 
+      <lb ed="#V" n="39"/>tate. vnde ipsa non est in aliquo praedicamento ita 
+      inheren<lb ed="#V" n="40" break="no"/>tia: sed circuit. 5. predicamenta.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e220">
+      ¶ 3a difficultas est de 
+      inheren<lb ed="#V" n="41" break="no"/>tia actuali que conuenit. 5. predicamentis. et est accidens. 
+      </p>
+            <p xml:id="FrMS88-f57193-d1e225">
+               <lb ed="#V" n="42"/>¶ Dico quod denominatiue aliquid vnius predicamenti potest est 
+      <lb ed="#V" n="43"/>se commune pluribus sicut relatio: et sic de inherentia 
+      actua<lb ed="#V" n="44" break="no"/>i.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e234">
+      ¶ 4a difficultas. quare similitudo non est respectus extrinse 
+      <lb ed="#V" n="45"/>cus adueniens sicut inherentia: quia dictum est quod duo alba 
+      <lb ed="#V" n="46"/>possunt simul esse sine similitudine per diuinam potentiam: et ita 
+      ac<lb ed="#V" n="47" break="no"/>idens potest fieri sine inherentia actuali non naturaliter: sed per 
+      <lb ed="#V" n="48"/>diuinam potentiam.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e246">
+      ¶ Dico quod similitudo semper consurgit nisi 
+      prohi<lb ed="#V" n="49" break="no"/>peantur extrema: sed ista inherentia nunquam consurgit nisi per 
+      <lb ed="#V" n="50"/>applicationem causae extrinstece non tantum prohibente sed cessante. 
+      <lb ed="#V" n="51"/>particula quaestionis de istis inherentiis 
+      <lb ed="#V" n="52"/>Secunda quomodo se habent.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e257">
+      ¶ hic est intelligendum quod 
+      <lb ed="#V" n="53"/>quidrupliciter comparari possunt: vel comparando inheretiam 
+      apti<lb ed="#V" n="54" break="no"/>tudinalem ad aliquod accidens absolutum: siue 
+      inherentiam<lb ed="#V" n="55" break="no"/>actualem ad aliquod accidens absolutum: vel inherentiam 
+      apti<lb ed="#V" n="56" break="no"/>tudinalem ad accidens respectiuum: siue inherentiam actualem 
+      <lb ed="#V" n="57"/>ad respectiuum.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e270">
+      ¶ Et secundum hec sunt quatuor conclusiones. 
+      </p>
+            <p xml:id="FrMS88-f57193-d1e273">
+               <lb ed="#V" n="58"/>¶ Prima est. quod comparando inherentiam aptitudinalem 
+      <lb ed="#V" n="59"/>ad accidens absolutum non differunt realiter sed formaliter. 
+      <lb ed="#V" n="60"/>quod formaliter patet: quia vnum est ad se reliquum ad aliud. nam 
+      al<lb ed="#V" n="61" break="no"/>bedo est ad se. inherentia autem quiditatiue est ad aliud: 
+      <lb ed="#V" n="62"/>quod non realiter patet: quia in essentialiter ordinatis et realiter 
+      di<lb ed="#V" n="63" break="no"/>stinctis deus potest vnum separare ab alio: sed ista non 
+      <lb ed="#V" n="64"/>possunt. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e291">
+      ¶ Et confirmatur. quia est per se passio acci 
+      <lb ed="#V" n="65"/>dentis absoluti aptitudinalis inherentia.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e296">
+      ¶ Secunda conclusio est 
+      <lb ed="#V" n="66"/>comparando inherentiam actualem ad accidens absolutum 
+      <!--411.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>quod differunt realiter: quia potest separari quod autem formaliter 
+      <lb ed="#V" n="68"/>patet per idem sicut prius.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e310">
+      ¶ 3a conclusio. quod comparando 
+      inhe<lb ed="#V" n="69" break="no"/>rentiam aptitudinalem ad respectiuam: nec realiter 
+      diffe<lb ed="#V" n="70" break="no"/>runt: quia tunc esset accidens eius et posset separari: nec forme 
+      <lb ed="#V" n="71"/>iter: quia non est dare aliquam aptitudinem respectu illius a quae 
+      <lb ed="#V" n="72"/>aliquid non potest separari. sic est de respectu.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e321">
+      ¶ 4a conclusio. quod 
+      in<lb ed="#V" n="73" break="no"/>herentia actualis quam habet accidens respectiuum ad 
+      absolu<lb ed="#V" n="74" break="no"/>tum non differunt realiter: quia sine eo non potest fieri. sed diffifuit 
+      <lb ed="#V" n="75"/>ferunt formaliter: quia distinctorum terminorum sunt diuersi 
+      <lb ed="#V" n="76"/>respectus formaliter. paternitas. enim dicitur ad patrem vt inhe 
+      <lb ed="#V" n="77"/>rentia refertur ad subiectum.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e334">
+      ¶ Sed occurrit difficultas quia 
+      inheren<lb ed="#V" n="78" break="no"/>tia est vniuoca omnibus. igitur eodem modo idem cum 
+      il<lb ed="#V" n="79" break="no"/>lis.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e341">
+      ¶ Dico quod non oportet. quia lux denominatiue dicitur de sole 
+      inse<lb ed="#V" n="80" break="no"/>parabiliter et de luna separabiliter.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e346">
+      ¶ 2a difficultas est de 
+      proces<lb ed="#V" n="81" break="no"/>su in infinitum: quia si albedo habet inherentiam illam illa 
+      inherenm<lb ed="#V" n="82" break="no"/>tia est in albedine. et ita in alia: et ita in inherentiis est 
+      pro<lb ed="#V" n="83" break="no"/>tessus in infinitum.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e355">
+      ¶ Dico quod inherentia non inheret per 
+      <lb ed="#V" n="84"/>inherentiam. sed secundum seipsam: licet realiter differat ab albe 
+      <lb ed="#V" n="85"/>dine: quia non potest deus facere inherentiam albedinis sine 
+      al<lb ed="#V" n="86" break="no"/>bedine: quia nec relationem sine fundamento. licet 
+      econtrario<lb ed="#V" n="87" break="no"/>possint fieri.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e367">
+      ¶ Tertia difficultas de respectiuis que formali 
+      <lb ed="#V" n="88"/>ter differunt respectu diuersorum terminorum: et ita videtur in 
+      <lb ed="#V" n="89"/>rationibus formalibus processus in infinitu.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e374">
+      ¶ Dico quod in 
+      <lb ed="#V" n="90"/>tertio est dare statum: quia non est ibi vlterius differentia 
+      for<lb ed="#V" n="91" break="no"/>malis.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e381">
+      ¶ Dico etiam quod ad aptitudininem non est aptitudo: 
+      <lb ed="#V" n="92"/>sed secundum se ipsum habet aptitudinem formaliter.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e386">
+      ¶ Sed 
+      <lb ed="#V" n="93"/>hic est difficultas que est prior habitudo relationis ad terminum 
+      <lb ed="#V" n="94"/>vel ad fundamentum.
+    </p>
+            <p xml:id="FrMS88-f57193-d1e393">
+      ¶ Dico quod posterior est 
+      habitu<lb ed="#V" n="95" break="no"/>do in fundamento: quia in secundo modo conuenit sibi: sed esse 
+      <lb ed="#V" n="96"/>ad aliud est in primo modo. vnde sicut albedo est ad se 
+      <lb ed="#V" n="97"/>in primo modo: ita paternitas ad aliud. istud probatur. quia 
+      <lb ed="#V" n="98"/>quandocunque aliquod commune diuiditur per aliqua diuidentia 
+      pro<lb ed="#V" n="99" break="no"/>quocumque instanti inest vna differentia vel aduenit pro eodem 
+      <lb ed="#V" n="100"/>instanti aduenit et alia: sed absolutum est prius in se quam in 
+      <lb ed="#V" n="101"/>alio. ergo respectiuum prius est ad aliud quam in alio
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

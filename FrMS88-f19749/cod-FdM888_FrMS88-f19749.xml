@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="159-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f19749"><!-- l2d22q1 -->
+            <head xml:id="FrMS88-f19749-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f19749-d1e111">
+               <lb ed="#V" n="119"/>hic videtur diligenter inuesti 
+      <lb ed="#V" n="120" break="no"/>gandum etc. 
+      <lb ed="#V" n="121"/>CIrca distinctionem. 22. Quero 
+      <lb ed="#V" n="122"/>vtrum ratio sbstantialis praehabeat esse 
+      <lb ed="#V" n="123"/>in materia. Et videtur quod sic. per Aug. 3o tri. qui po 
+      <lb ed="#V" n="124"/>nit formas latere.
+    </p>
+            <p xml:id="FrMS88-f19749-d1e127">
+      ¶ Contra per eundem 
+      <lb ed="#V" n="125"/>aliqui quod omnes sunt in 
+      latibul<lb ed="#V" n="126" break="no"/>T Dicu. et manifestantur per agens Alii 
+      <lb ed="#V" n="127"/>dicunt quod totaliter ab extrinseco.
+    </p>
+            <p xml:id="FrMS88-f19749-d1e136">
+      ¶ Alii quod partim vtroque 
+      mo<lb ed="#V" n="128" break="no"/>do.
+    </p>
+            <p xml:id="FrMS88-f19749-d1e141">
+      ¶ Alii quod de potentia possibili. Primum dictum est falsum 
+      <!--321.xml-->
+      <pb ed="#V" n="159-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quia tunc quodlicet esset in quolibet: et quodlibet esset quodlicet 2 
+      <lb ed="#V" n="2"/>opinionem anaxagore. praeo physico. Secundum modus quem 
+      <lb ed="#V" n="3"/>ponit Auicen. non est verus: si enim essent in 
+      intellectiua<lb ed="#V" n="4" break="no"/>formaliter essent anima. Anima etiam nec potest eas 
+      cau<lb ed="#V" n="5" break="no"/>sare. Nec tertius modus valet: si enim ille medietates 
+      <lb ed="#V" n="6"/>sunt eiusdem rationis: agens eadem ratione potest vtrumque 
+      pre<lb ed="#V" n="7" break="no"/>ducere: et ita vnam partem sicut aliam. Nec quartus 
+      mo<lb ed="#V" n="8" break="no"/>dus valet de illo esse potentia. si enim subiectiuum illud est 
+      ab<lb ed="#V" n="9" break="no"/>eterno: sic subiectiuum aliquid de materia transit in formam quod est 
+      <lb ed="#V" n="10"/>impossibile.
+    </p>
+            <p xml:id="FrMS88-f19749-d1e173">
+      ¶ Pono ergo 4or conclusiones. Prima conclusio est. quod 
+      <lb ed="#V" n="11"/>tota forma est ab extrinseco: quia eadem forma que est in 
+      <lb ed="#V" n="12"/>potentia materiae. tota autem est potentia subiectiua materiae: et tota causa 
+      <lb ed="#V" n="13"/>tur a materia subiectiue.
+    </p>
+            <p xml:id="FrMS88-f19749-d1e182">
+      ¶ Secunda conclusio quod tota ab extrinse 
+      <lb ed="#V" n="14"/>co: quia tota continetur ab agente virtualiter.
+    </p>
+            <p xml:id="FrMS88-f19749-d1e187">
+      ¶ Tertia conclusio. 
+      <lb ed="#V" n="15"/>quod non totaliter ab extrinseco: quia sufficent matam tantum.
+    </p>
+            <p xml:id="FrMS88-f19749-d1e192">
+      ¶ 
+      Quar<lb ed="#V" n="16" break="no"/>ta conclusio quod nec totaliter ab extrinseco generatur: ergo 
+      to<lb ed="#V" n="17" break="no"/>ta ab istis: et est partialiter ab vtroque: non quod habeat partem 
+      <lb ed="#V" n="18"/>et partem: sed quia iste causae partim concurrunt: ita quod quando agens 
+      <lb ed="#V" n="19"/>continet virtualiter sic causat. non quod prehabeat eam actua 
+      <lb ed="#V" n="20"/>liter nihil etiam maxime conuertitur in formam.
+    </p>
+            <p xml:id="FrMS88-f19749-d1e205">
+      ¶ Sed 
+      con<lb ed="#V" n="21" break="no"/>tra. ex hoc videtur quod de nihilo. Dico quod non: quia concurrit causa 
+      <lb ed="#V" n="22"/>materialis. que suo modo causat eam: sicut agens causat. non 
+      <lb ed="#V" n="23"/>quod aliquid transeat de matearm in formam: ita suo modo in 
+      pro<lb ed="#V" n="24" break="no"/>posito. anima autem fit de nihilo: quia a mam non dependet: de 
+      for<lb ed="#V" n="25" break="no"/>minis autem artificialibus videtur secundum hoc: quod sint naturales: quia di 
+      <lb ed="#V" n="26"/>pendent a materia: Dico quod non: quia forme naturales determinant 
+      <lb ed="#V" n="27"/>sibi ilicet biectum eiusdem generis. materia autem potest 
+      <lb ed="#V" n="28"/>esse sine omni forma artificiali. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

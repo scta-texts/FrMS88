@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="208-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f61151"><!-- l4d14q1 -->
+            <head xml:id="FrMS88-f61151-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f61151-d1e111">
+               <lb ed="#V" n="87"/>Post hec de penitentia. 
+      <lb ed="#V" n="88"/>HIc incipit di. 14a.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e118">
+      ¶ Circa 
+      quan<lb ed="#V" n="89" break="no"/> queruntur quatuor: 
+      quaestio<lb ed="#V" n="90" break="no"/>nes.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e125">
+      ¶ Primo vtrum prnia sit sacramentum noue 
+      le<lb ed="#V" n="91" break="no"/>gis.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e130">
+      ¶ Et videtur quod non quia de ipsa praenima facteo 
+      <lb ed="#V" n="92"/>est mentio in veteri lege. 3o regum. sur. si per 
+      <lb ed="#V" n="93"/>cauerit in te populus tuus et conuersus egerit prniam. Et 
+      <lb ed="#V" n="94"/>in ecclaeiastico. ante mortem confitere pecam tua.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e140">
+      ¶ Contri 
+      <lb ed="#V" n="95"/>Iacob. 5. confitemini alterutrum peccata vestra. 
+      <lb ed="#V" n="96"/>quatuor inquirenda.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e147">
+      ¶ primo quid est sacramentum pnum 
+      <lb ed="#V" n="97"/>Hic sunt vbi sciendum est quod Iero. in eptela ad 
+      dem<lb ed="#V" n="98" break="no"/>triadem virginem sic diffinit. prenima est 2a tabula post 
+      naufra<lb ed="#V" n="99" break="no"/>gium. nemo enim potest venire ad portum salutis nisi per 
+      <lb ed="#V" n="100"/>prninam. Ad perfectam autem pnimam concurrunt quatuor actus 
+      di<lb ed="#V" n="101" break="no"/>uersarum potentiarum.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e160">
+      ¶ Primus est actus intellectus vt quis 
+      rai<lb ed="#V" n="102" break="no"/>cogitet omnia pecca sua.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e165">
+      ¶ Secundus actus nolendi. quia oportet 
+      nole<lb ed="#V" n="103" break="no"/>peccatum.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e170">
+      ¶ Tertius est actus potentie executiue qui est actus 
+      pro<lb ed="#V" n="104" break="no"/>nunciandi peccata.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e175">
+      ¶ Quartus actus. est potentie ierarchice in 
+      <lb ed="#V" n="105"/>sacerdotibus caracter. Ex istis perficitur prnina quae est sacramentm 
+      </p>
+            <p xml:id="FrMS88-f61151-d1e181">
+               <lb ed="#V" n="106"/>¶ Sed contra primum: quia in absolutionibus de praeccatis publicis 
+      <lb ed="#V" n="107"/>aliquis potest facere se absoluin de eo peccato de quo nescit 
+      <lb ed="#V" n="108"/>ita videtur in confessione.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e190">
+      ¶ Contra 2m. quia displicentia est pas 
+      quae<lb ed="#V" n="109" break="no"/>non est in potestate nostra.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e195">
+      ¶ Contra 3m quia mutus non posset 
+      con<lb ed="#V" n="110" break="no"/>fiteri.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e200">
+      ¶ Contra 4m. quia dictum fuit quod caracter non erat po 
+      <lb ed="#V" n="111"/>actiua.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e205">
+      ¶ Ad primum. dico quod si ignorem quod sit prectum. tamen 
+      dub<lb ed="#V" n="112" break="no"/>to et facio illud: de hoc est confitendum: quia exposui me 
+      pec<lb ed="#V" n="113" break="no"/>cato.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e212">
+      ¶ Ad 2m. dico quod displicentia sensitiua non est in 
+      po<lb ed="#V" n="114" break="no"/>testate nostra sicut nec immutatio ad magnum gaudium: sed in 
+      <lb ed="#V" n="115"/>ratione actus nolendi est in potestate nostra.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e220">
+      ¶ Et similiter tristicia 
+      <lb ed="#V" n="116"/>consequens non est in appetitu sensitiuo. vnde cum gaudio secundum sen 
+      <lb ed="#V" n="117"/>sum potest ire ad confessionem.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e227">
+      ¶ Ad 3m. dico quod prolatio 
+      vo<lb ed="#V" n="118" break="no"/>calis non est de necessaritate. immo sufficeret etiam scribere ea. et 
+      <lb ed="#V" n="119"/>sufficiunt signa in muto.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e234">
+      ¶ Ad 4m. dico quod licet caracte 
+      <lb ed="#V" n="120"/>non sit forma actiua et non eliciat actum realem. tamen 
+      consequi<lb ed="#V" n="121" break="no"/>tur ipsum respectus rationis auteitatis qua potest hoc facere aucim 
+      <lb ed="#V" n="122"/>tate legislatoris.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e243">
+      ¶ Sed oc. di. quid facit sacerdos in 
+      com<lb ed="#V" n="123" break="no"/>fessione. Cum secundum Aug. super illo verbo. pras. cor contritum et 
+      <lb ed="#V" n="124"/>humiliatum etc. deus statim in contritione remittit peccatum. 
+      <lb ed="#V" n="125"/>vnde dicit Iero. quod sacerdos non absoluit: sed ostendit 
+      abso<lb ed="#V" n="126" break="no"/>lutum a deo. qui absoluit ex proposito confitendi. sine quo 
+      pro<lb ed="#V" n="127" break="no"/>posito non esset contritio.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e256">
+      ¶ 2a difficultas oritur ex ista. cum qulibet venia 
+      <lb ed="#V" n="128"/>contritus ad confessionem: nihil ibi videtur facem sacramentum.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e261">
+      ¶ hic dici 
+      <lb ed="#V" n="129"/>scundo. quod in omni sacramento sufficit non ponere obicem. ita quod si non 
+      <lb ed="#V" n="130"/>sit in actu contrario statim sacramentum habet efficaciam sicut in 
+      <lb ed="#V" n="131"/>bapius. tamen vbi non habet volitionem ponit obicem. 
+      <!--420.xml-->
+      <pb ed="#V" n="209-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Secundo inqurendum est quae integrant sacramentum 
+      confessio<lb ed="#V" n="2" break="no"/>nis: et sunt 4or causae.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e282">
+      ¶ prima est causa efficiens 
+      <lb ed="#V" n="3"/>quae est sacerdos ordinatus et nullus alius potest absoluem: nec 
+      con<lb ed="#V" n="4" break="no"/>fessionem audire: nec sacramentum minstrare: vt sacramentiale.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e289">
+      ¶ 2a est 
+      <lb ed="#V" n="5"/>causa materialis quae sunt precata confessa. probatur quia forma absolutionis 
+      tran<lb ed="#V" n="6" break="no"/>sit super ea.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e296">
+      ¶ 3a causa est formalis et est secundum aliquis. absoluo te: et 
+      <lb ed="#V" n="7"/>additur communiter a praeccatis tuis.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e301">
+      ¶ 4a est causa finalis. valet. quod 
+      inten<lb ed="#V" n="8" break="no"/>dit non recidiuare.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e306">
+      ¶ Et instatur contra ista.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e309">
+      ¶ contra primum. quia in tempore 
+      ne<lb ed="#V" n="9" break="no"/>cessitatis videtur quod aliquis possit confiteri layco.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e315">
+      ¶ contra 2m. quia peccaua 
+      <lb ed="#V" n="10"/>oblita videntur esse materia.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e320">
+      ¶ contra 3m. quia quidam habent ritum. absoluatu 
+      <lb ed="#V" n="11"/>te dienus pater deus filius dietus spirituo sanctus.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e325">
+      ¶ contra 4m. videtur quod sufficiat 
+      com<lb ed="#V" n="12" break="no"/>fessio: dato quod non recogitet de recidiuatione.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e330">
+      ¶ Respondeo ad primum 
+      <lb ed="#V" n="13"/>dicit sco. quod si aliquis crederet posse sacramentaliter layco vel non 
+      sa<lb ed="#V" n="14" break="no"/>cerdoti consiteri esset sibi in detritum cum isto sacramentum habeat dieter 
+      <lb ed="#V" n="15"/>minatum mistrum. tamen si pro humilitate hoc facit vt seipsum 
+      humili<lb ed="#V" n="16" break="no"/>et et pumiat bene facit. si tamen intenderet aliter peccaret mortaliter. 
+      </p>
+            <p xml:id="FrMS88-f61151-d1e341">
+               <lb ed="#V" n="17"/>¶ Ad 2m. dico quod omnia preccata tam oblita quam expresse confessa 
+      su<lb ed="#V" n="18" break="no"/>natura hus sacramenti: tamen specialiter confessa.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e348">
+      ¶ Ad 3m dicendum. quod sic fiebat in 
+      <lb ed="#V" n="19"/>prouicia prouicie: sed improbata fuit ista forma.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e354">
+      ¶ Sed tamen vide 
+      <lb ed="#V" n="20"/>retur quod sicut greci baptim autem sub hac forma baptimetur seruus christi 
+      <lb ed="#V" n="21"/>nicolaus ita videtur quod non esset inconueniens in confessione taliter absolue 
+      <lb ed="#V" n="22"/>quia tamen sacramentalia stut stricti iuris: ideo non debent immutari.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e363">
+      ¶ Ad  
+      <lb ed="#V" n="23"/>4m. dico quod sufficit quod non habeat actuale propositum 
+      recidiuan<lb ed="#V" n="24" break="no"/>di. Unde totalis intentio est recipere quod facit ecclesia. 
+      <lb ed="#V" n="25"/>videndum est a quo fuit institutum. Aliquo dicunt 
+      <lb ed="#V" n="26"/>Tertio quod non inuenitur in euanss.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e374">
+      ¶ Sed beatus Iaco. 
+      <lb ed="#V" n="27"/>bus ipsum instituit.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e379">
+      ¶ Sed hoc non tenetur: quia ipse non habuis 
+      <lb ed="#V" n="28"/>aueritatem instituendi sacramentia: vnde et beatus petrus non fuit capus 
+      <lb ed="#V" n="29"/>ecclesie: sed vicarius eius: cus non est leges condere: multo mod 
+      <lb ed="#V" n="30"/>nus inacobus quo hunit potestatem limitatam in sua dyocesi.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e388">
+      ¶ 
+      Assi<lb ed="#V" n="31" break="no"/>gnatur igitur locus vbi fuit institutum marci. 3o mathei. 1o. de 
+      <lb ed="#V" n="32"/>dit eis potestatem super omnia demonia id est super omnia peccaua. Alii 
+      di<lb ed="#V" n="33" break="no"/>cunt quod hoc fuit quando misit leprosos ad sacerdotes luce. 1 
+      <lb ed="#V" n="34"/>quibus dixit. Item ostendite vos sacerdotibus. vt daret 
+      intelli<lb ed="#V" n="35" break="no"/>gi quod quando deus absoluit aliquem a pecerea praeccati vult quod sacerdo 
+      <lb ed="#V" n="36"/>tibus confitendo ostendat se. Alii dicunt quod hoc fuit Math. 1c. quacum 
+      <lb ed="#V" n="37"/>que ligaueris super terram etc. sed hoc magis de iurisditione 
+      pu<lb ed="#V" n="38" break="no"/>blica intelligi videtur quam de foro confessionis.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e408">
+      ¶ Aliter dicit sco. quod 
+      <lb ed="#V" n="39"/>tunc quando christus apistulis dixit. accipite spircitum scuntum. quorum remiserit 
+      <lb ed="#V" n="40"/>pcca remittuntur eis etc. Io. xxincto. et tamen hoc non fit nisi in 
+      for<lb ed="#V" n="41" break="no"/>pniali: et ita videtur quod magis est ad propositum: quia alie 
+      auctor<lb ed="#V" n="42" break="no"/>tates inducte magis accipiuntur secundum sensum mysticum 
+      <lb ed="#V" n="43"/>videndum est quae sunt proprietates prinine.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e422">
+      ¶ Ubi 
+      <lb ed="#V" n="44"/>Quarto sciendum quod multe in se sunt circumstantie prinine 
+      <lb ed="#V" n="45"/>et sunt potissime 4or.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e429">
+      ¶ prima est quod dicibet esse confslinct pura. vnde qui venit 
+      <lb ed="#V" n="46"/>fictus peccat mortaliter.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e434">
+      ¶ 2a quod dicibet esse vera sine excusatione et 
+      <lb ed="#V" n="47"/>paliatione.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e439">
+      ¶ 3a clara et manifesta. quia peccata et circumstantias 
+      <lb ed="#V" n="48"/>diabet dicere.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e444">
+      ¶ 4a integra sine diminutione: quia inutilt esset si 
+      did<lb ed="#V" n="49" break="no"/>retur.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e449">
+      ¶ Sed instatur contra ista.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e453">
+      ¶ contra primum veniens fictus nunquid 
+      aliquo<lb ed="#V" n="50" break="no"/>recipit: quamuis non recipiat rem sacramento.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e458">
+      ¶ hoc dicunt aliqui quod in omni 
+      <lb ed="#V" n="51"/>bus sacramentis impriu dispositio quaedam ad gratiam si autem hoc non ponatur quod 
+      <lb ed="#V" n="52"/>verius est. tunc dico quod nihil recipit.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e465">
+      ¶ contra 2m. numquid licet se 
+      ex<lb ed="#V" n="53" break="no"/>cuiume.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e470">
+      ¶ Dico quod sic veraciter: quia sicut non licet dicere mius. ita nec 
+      <lb ed="#V" n="54"/>plus quam sit: sed veraciter quantum est. et quo.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e475">
+      ¶ contra 3m videtur. quia dicendo 
+      <lb ed="#V" n="55"/>circumstantias poterit confessio reuelari et peccatum alterius 
+      <lb ed="#V" n="56"/>vt si peccator consitens audierit confessionem.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e482">
+      ¶ Dico quod in talibus 
+      <lb ed="#V" n="57"/>verbis generalibus dicet fieri: vt non reuelet quod si absque reuelatio 
+      <lb ed="#V" n="58"/>ne alterius preccti non potest fieri: tunc in foro illo secreto potest 
+      reue<lb ed="#V" n="59" break="no"/>lare vel potest dicere. Et confessor audiens diabet vtrumque peccatum 
+      <lb ed="#V" n="60"/>confessum et reuelatum siue tam confitentis quam reuelatum per 
+      circun<lb ed="#V" n="61" break="no"/>stantias omnino celare.
+    </p>
+            <p xml:id="FrMS88-f61151-d1e496">
+      ¶ Sed de 4o ecclesia 
+      tolera<lb ed="#V" n="62" break="no"/>nunc quod confessio diuidatur siue dimidiatur. Unde prninari 
+      <lb ed="#V" n="63"/>diveni poposteo non audiunt nisi reseruata in foro prninali: quia aliam 
+      <lb ed="#V" n="64"/>lurisditionem non habent: vnde cum non sit culpa ex parte sui nes 
+      <lb ed="#V" n="65"/>consitens intendat diuidere siue dimindiare quantum est in se 
+      <lb ed="#V" n="66"/>non est illicitum sic dimidiare.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

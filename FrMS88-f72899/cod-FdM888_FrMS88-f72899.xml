@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f72899"><!-- l4d27q1 -->
+            <head xml:id="FrMS88-f72899-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f72899-d1e111">
+               <lb ed="#V" n="53"/>Post hoc aduertendum. 
+      <lb ed="#V" n="54"/>HIc incipit distinctio 27a. Circa quam 
+      quaeri<lb ed="#V" n="55" break="no"/>tur. vtrum matrimonium sit 
+      <lb ed="#V" n="56"/>dissolubile. Quod sic. quia moyses dedit libe 
+      <lb ed="#V" n="57"/>lum repudii: patet de vtero. 2 4o.
+    </p>
+            <p xml:id="FrMS88-f72899-d1e124">
+      ¶ Sed 
+      <lb ed="#V" n="58"/>contra. math. 19o. dicit christus. Quos 
+      <lb ed="#V" n="59"/>deus coniunxit homo non separet 
+      <lb ed="#V" n="60"/>quod matrimonium 4r sumitur. pro 
+      matri<lb ed="#V" n="61" break="no"/>hic sciendum monio pronunciato. initiato. 
+      <lb ed="#V" n="62"/>rato. et consumato.
+    </p>
+            <p xml:id="FrMS88-f72899-d1e137">
+      ¶ Primum est. quod est contractum per 
+      sponsa<lb ed="#V" n="63" break="no"/>lia. puta per verba de futuro et huiusmodi. Et istud est secundum quid 
+      <lb ed="#V" n="64"/>matrimonium. Initiatum est per verba de praesenti cum consensu: non 
+      <lb ed="#V" n="65"/>dum subsecuta copula carnali. Natum quando est confirmatum 
+      <!--446.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>per aliquem actum interuenientem absque carnali copula. 
+      </p>
+            <p xml:id="FrMS88-f72899-d1e153">
+               <lb ed="#V" n="67"/>¶ Quarto quando consumatur ratione copule carnalis.
+    </p>
+            <p xml:id="FrMS88-f72899-d1e159">
+      ¶ De 
+      <lb ed="#V" n="68"/>primo non est difficultas: quin sit dissolubile: sed de aliis 
+      tri<lb ed="#V" n="69" break="no"/>bus est dubium.
+    </p>
+            <p xml:id="FrMS88-f72899-d1e166">
+      ¶ Prima difficultas si quodcumque istorum dissolu 
+      po<lb ed="#V" n="70" break="no"/>test per consensum vnitiuum.
+    </p>
+            <p xml:id="FrMS88-f72899-d1e171">
+      ¶ Respondo hoc potest intelligi: vel 
+      <lb ed="#V" n="71"/>quantum ad thorum: et sic est solubile. 2m autem viculum non. quia 
+      quia<lb ed="#V" n="72" break="no"/>deus coniuxit etc.
+    </p>
+            <p xml:id="FrMS88-f72899-d1e178">
+      ¶ 2a difficultas si soluiter per ingressum 
+      reli<lb ed="#V" n="73" break="no"/>gionis.
+    </p>
+            <p xml:id="FrMS88-f72899-d1e183">
+      ¶ Dico quod vel est tantum initiatum: vel consumatum. primum 
+      <lb ed="#V" n="74"/>dissoluiter per professionem: non autem per solum ingressum quia 
+      <lb ed="#V" n="75"/>morte ciuili moritur. matrimoium autem habet suam perfectionem in sta 
+      <lb ed="#V" n="76"/>tu mundi.
+    </p>
+            <p xml:id="FrMS88-f72899-d1e192">
+      ¶ 3a di. si per mutilationem dissoluiter.
+    </p>
+            <p xml:id="FrMS88-f72899-d1e196">
+      ¶ hic dicitur 
+      <lb ed="#V" n="77"/>quod si sit mutilatio in partibus genitalibus: tunc dissoluitur: 
+      <lb ed="#V" n="78"/>in nondum sit consumatum. si sit consumatum. non potest dissolui de 
+      <lb ed="#V" n="79"/>initiato. aliqui dicunt quod non disoluiter. Sed scotus. dicit quod sic 
+      <lb ed="#V" n="80"/>quia tantum valet sicut si esset ciuiliter mortuus.
+    </p>
+            <p xml:id="FrMS88-f72899-d1e207">
+      ¶ 4a di. si per 
+      for<lb ed="#V" n="81" break="no"/>nicationem dissoluiter. christus videtur dicere quod sic.
+    </p>
+            <p xml:id="FrMS88-f72899-d1e212">
+      ¶ Dicitur quod 
+      intel<lb ed="#V" n="82" break="no"/>ligit quantum ad thorum et cohabitationem. non quantum ad 
+      vin<lb ed="#V" n="83" break="no"/>culum: sed numquid per mortem corporalem dissoluitur. 
+      Pau<lb ed="#V" n="84" break="no"/>lus prima ad corin. 3o. dicit expraesse quod sic.
+    </p>
+            <p xml:id="FrMS88-f72899-d1e221">
+      ¶ Sed si resurgat: 
+      </p>
+            <p xml:id="FrMS88-f72899-d1e224">
+               <lb ed="#V" n="85"/>¶ Dicitur quod non tenetur amplius sibi.
+    </p>
+            <p xml:id="FrMS88-f72899-d1e229">
+      ¶ Sed credendum est 
+      <lb ed="#V" n="86"/>quod ad meliores fruges reuocatus sit.
+    </p>
+            <p xml:id="FrMS88-f72899-d1e235">
+      ¶ Sed sacerdos 
+      <lb ed="#V" n="87"/>resurgens tenetur exequi et et facere ministerium 
+      sacer<lb ed="#V" n="88" break="no"/>dotu. et religiosus tenetur ad obseruantiam sicut prius. vir 
+      <lb ed="#V" n="89"/>culum enim matrimoniale fundatur super potestatem 
+      corpo<lb ed="#V" n="90" break="no"/>rum que dissoluiter. Uinculum autem sacerdoti quod 
+      funda<lb ed="#V" n="91" break="no"/>tur super caracterem: quia caracter indelebiliter manet 
+      <lb ed="#V" n="92"/>in anima: ideo sacerdos tenetur exequi officium suum. Tamem de isto.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

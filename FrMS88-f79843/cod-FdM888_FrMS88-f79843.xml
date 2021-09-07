@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f79843"><!-- l4d46q3 -->
+            <head xml:id="FrMS88-f79843-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f79843-d1e111">
+               <lb ed="#V" n="31"/>Tertio queritur vtrum anima sit forma 
+      cor<lb ed="#V" n="32" break="no"/>poris humani. Quod non quia sicut 
+      <lb ed="#V" n="33"/>lanima et caro vnus est homo. ita deus et homo vnus est 
+      <lb ed="#V" n="34"/>christus: sed humanitas non se habet in christo: sicut 
+      <lb ed="#V" n="35"/>materia respectu deitatis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e124">
+      ¶ Contra. ibidem dicitur 
+      ve<lb ed="#V" n="36" break="no"/>rus homo ex anima rationali et humana carne subsistens. 
+      <lb ed="#V" n="37"/>aliqui quod animam esse formam corporis est 
+      <lb ed="#V" n="38"/>Hic dicunt creditum et non demonstrabile.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e133">
+      ¶ Sed contra 
+      <lb ed="#V" n="39"/>pio. quia rationale ponitur in diffinitione hominis. illud autem quod ponitur 
+      <lb ed="#V" n="40"/>diffinitione alicuius est sibi intrinsecum et de quiditate eius.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e140">
+      ¶ 2o 
+      <lb ed="#V" n="41"/>quia alis sequeretur quod homo esset animal irrationale si non includitur ratio 
+      <lb ed="#V" n="42"/>nale in eo.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e148">
+      ¶ 3o quia homo est animal polliticum: quod non potest esse 
+      si<lb ed="#V" n="43" break="no"/>ne prudentia: quae est in anima intellectiua.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e153">
+      ¶ 4o similiter. quia homo est 
+      <lb ed="#V" n="44"/>partificabilis.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e158">
+      ¶ Sed inste rationes bene conuincunt quod homo est 
+      ratio<lb ed="#V" n="45" break="no"/>nalis. sed ex hoc non habetur quod anima sit eius forma: sed solum motor. 
+      </p>
+            <p xml:id="FrMS88-f79843-d1e163">
+               <lb ed="#V" n="46"/>¶ Sed contra hoc primo. quia secundum hoc homo diceretur rationalis: quia ipse 
+      mo<lb ed="#V" n="47" break="no"/>tor mouet ipsum ad actum: sed omnis motus est in mobili. ergo 
+      <lb ed="#V" n="48"/>actus ille rationabilitatis est in homine formaliter.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e172">
+      ¶ 2o quia homo 
+      <lb ed="#V" n="49"/>non est magis risibilis quam rationalis: sed est risibilis per hoc quod 
+      <lb ed="#V" n="50"/>est formaliter aptus ad ridendum. ergo etc. Similiter homo est prudens forma 
+      <lb ed="#V" n="51"/>liter et beatificabilis formaliter. ergo aliquid habet beatificabile formali 
+      <lb ed="#V" n="52"/>ter.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e183">
+      ¶ Sed contra praencipalius denominatur compositum a forma. et ita 
+      <lb ed="#V" n="53"/>homo magis diabet dici spiritus: cum igitur anima sit spiritus si est forma 
+      <lb ed="#V" n="54"/>corporis diceretur homo spiritus.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e191">
+      ¶ 2o nulla differentia constituit speciem 
+      <lb ed="#V" n="55"/>in genere opposito: sed ratioale est differentia in genere spiritualium. ergo in 
+      <lb ed="#V" n="56"/>genere corporalium in qui est homo non potest constituere specie.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e198">
+      ¶ 3 
+      <lb ed="#V" n="57"/>forma. suum esse comunicat materiae: sed anima rationalis in se est incorru 
+      <lb ed="#V" n="58"/>tibilis et immortalis: et istud non comnicat corpori. ergo non est 
+      for<lb ed="#V" n="59" break="no"/>eius.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e207">
+      ¶ 4o. quia quod conuenit toti per se conuenit parti per accidens. 
+      <lb ed="#V" n="60"/>sed homo est beatificabilis per se. ergo anima per accidens.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e212">
+      ¶ Respondeo. ad primum 
+      <lb ed="#V" n="61"/>dictum fuit quod quando est composiua ex duobus principiis semper denomina 
+      <lb ed="#V" n="62"/>tur a minus praencipali: sicut constitutum ex contingenti et necessario 
+      <lb ed="#V" n="63"/>dicitur continngens.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e221">
+      ¶ Ad 2m. dico quod immo est differentia corporalium: 
+      <lb ed="#V" n="64"/>ed dicitur spiritualis: quia est indiuisibilis et tota in qualibet partes 
+      <lb ed="#V" n="65"/>vnde nullam speciem spiritualium constituit: sed est reductiue de 
+      ge<lb ed="#V" n="66" break="no"/>nere corporis.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e230">
+      ¶ Ad 3m. dicendum quod si mateam nullum haberet esse de¬ 
+      <!--462.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>se: tunc concluderet ratio. et ideo quia materia habet de se esse distinctum 
+      <lb ed="#V" n="68"/>per formam sic comunicat sibi forma suum esse: quod faciunt vnum 
+      con<lb ed="#V" n="69" break="no"/>positum.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e244">
+      ¶ Ad 4m. non est vniversaliter verum: sicut risibilitas non 
+      con<lb ed="#V" n="70" break="no"/>uenit anime: nec materiae: sed constituto ex his.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e249">
+      ¶ Sed hic oc. 
+      di<lb ed="#V" n="71" break="no"/>sin anima fit medium in prima materia per accidentia sensibilia vel sit 
+      im<lb ed="#V" n="72" break="no"/>mediate a praema materia. et hoc non. quia non est alba: nequm nigra: 
+      <lb ed="#V" n="73"/>Nec in ipsa anima. Sed nec hoc similiter: quia non est alba: 
+      nequi<lb ed="#V" n="74" break="no"/>nigra. Aut in vtroque: sed nec hoc similiter potest dari: quia 
+      <lb ed="#V" n="75"/>tunc duo contraria essent similis. nam vtrumque esset album et nigrum. Nec 
+      <lb ed="#V" n="76"/>in 3a entitate: quia illam non ponis. Unde non video quomodo po 
+      <lb ed="#V" n="77"/>nentes vnam formam in homine possunt ad hoc respondere 
+      <lb ed="#V" n="78"/>est si possit propositum 
+      euiden<lb ed="#V" n="79" break="no"/>Nunc videndum ter deonstrari. et praeo videam 
+      <lb ed="#V" n="80"/>ex parte actus intelligendi: et arguo sic.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e273">
+      ¶ Nos experi 
+      <lb ed="#V" n="81"/>mur aliquam intellectionem: ergo intelligimus. Antecedens patet in 
+      <lb ed="#V" n="82"/>tuitiue sic. experior me videre solem. probomto consequentie. Istud 
+      <lb ed="#V" n="83"/>experiri: aut est actus sentiendi: et hoc non: quia per nullum 
+      <lb ed="#V" n="84"/>actum sentiendi potest hoc experiri cum sit res sensibilis. ergo 
+      <lb ed="#V" n="85"/>istud experiri est intelligere.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e286">
+      ¶ Secunda consequentia. Nos intel 
+      <lb ed="#V" n="86"/>ligimus. ergo intellectio est formaliter in nobis: quia 
+      im<lb ed="#V" n="87" break="no"/>tellectio est actus immanens.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e293">
+      ¶ Tertia consequentia. intellectio 
+      <lb ed="#V" n="88"/>est formaliter in nobis ergo potentia intellectiua: quia 
+      <lb ed="#V" n="89"/>actus intelligendi est formaliter perfectio intellectus 
+      pos<lb ed="#V" n="90" break="no"/>sibilis.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e302">
+      ¶ 4a consequentia. intellectus possibilis est in nobis. ergo et anima 
+      <lb ed="#V" n="91"/>Quicquid autem est in nobis: vel est mteam vel forma: vel 
+      com<lb ed="#V" n="92" break="no"/>positum. nullum istorum est nisi forma. ergo demonstratiue patet 
+      <lb ed="#V" n="93"/>quod anima intellectiua est forma corporis.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e312">
+      ¶ 2o deduco hoc in 
+      <lb ed="#V" n="94"/>actu volendi. Nos appetimus scientiam. ergo nos 
+      appeti<lb ed="#V" n="95" break="no"/>mus actu appetitus intellectus. Antecedens patet experimentaliter 
+      <lb ed="#V" n="96"/>consequens patet: quia appetitus ille non est sensitiuus: quia scientia non 
+      <lb ed="#V" n="97"/>est res sensibilis.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e323">
+      ¶ 2a consequentia. Nos appetimus 
+      appeti<lb ed="#V" n="98" break="no"/>tu intellectiuo. ergo ille est formaliter in nobis: quia actus 
+      <lb ed="#V" n="99"/>immanens est.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e330">
+      ¶ 3a consequentia. Actus appetitus est in no 
+      <lb ed="#V" n="100"/>bis. ergo appetitus intellectiuus.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e335">
+      ¶ 4a consequentia. 
+      Ap<lb ed="#V" n="101" break="no"/>petitus intellectiuus est in nobis. ergo et anima rationalis. 
+      </p>
+            <p xml:id="FrMS88-f79843-d1e340">
+               <lb ed="#V" n="102"/>¶ Confita: quia nos sumus dimuni actuum nostrorum. hoc autem non potest 
+      <lb ed="#V" n="103"/>esse per aliquid extrinsecum nec per aliquid intrinsecum nisi per animam 
+      <lb ed="#V" n="104"/>rationalem: quia bruta habent sensitiuam: et non habent divfenium supra 
+      <lb ed="#V" n="105"/>suos actus.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e351">
+      ¶ Sed hic sunt di.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e355">
+      ¶ prima est. quia bene habes ex 
+      <lb ed="#V" n="106"/>dictis quod est forus hominis sed non corporis. Dico quod quando due causae 
+      <lb ed="#V" n="107"/>concurrunt ad vnum effectum: prior est habitudo earum inter se. ergo 
+      <lb ed="#V" n="108"/>anima prius comparatur ad corpus: vt informans ipsum: quam vtrum 
+      <lb ed="#V" n="109"/>que ad constitutum.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e366">
+      ¶ 2a difficultas. si alia est habitudo anime ad 
+      cor<lb ed="#V" n="110" break="no"/>pus: et ad hominem.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e371">
+      ¶ Dico quod sic. quia respectu corporis habet ratio em 
+      <lb ed="#V" n="111"/>informantis et non respectu hominis: sed rationem constituentis essentialiter 
+      <lb ed="#V" n="112"/>et integrantis.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e378">
+      ¶ 3a difficultas cum anima immediate informat materiam 
+      <lb ed="#V" n="113"/>quomodo est forma corporis.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e383">
+      ¶ Dico quod hoc non possunt salua 
+      <lb ed="#V" n="114"/>re qui ponunt quod anima est immediate coniucta materiae prime: quia 
+      <lb ed="#V" n="115"/>impossibile est quod sit forma illius vt informans illud. sed si im 
+      <lb ed="#V" n="116"/>mediate vnitur prime materiae: tunc comparatur ad corpus: vi 
+      <lb ed="#V" n="117"/>ad posterius: et vt constituens ipsum. ergo non potest dici quod sit 
+      <lb ed="#V" n="118"/>forma corporis informans ipsum secundum illos.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e396">
+      ¶ Quarta 
+      <lb ed="#V" n="119"/>difficultas si idem est dictu. forma totius et partis.
+    </p>
+            <p xml:id="FrMS88-f79843-d1e402">
+      ¶ Dico quod 
+      <lb ed="#V" n="120"/>non. quia forma totius est tota entitas resultans. forma 
+      <lb ed="#V" n="121"/>partis est materiam informans.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

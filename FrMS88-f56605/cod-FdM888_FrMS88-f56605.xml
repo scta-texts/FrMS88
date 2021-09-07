@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="203-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f56605"><!-- l4d12q4 -->
+            <head xml:id="FrMS88-f56605-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f56605-d1e111">
+               <lb ed="#V" n="94"/>CIrca eandem distinctionem quaeruntur qua 
+      <lb ed="#V" n="95" break="no"/>tuor quaestiones.
+    </p>
+            <p xml:id="FrMS88-f56605-d1e118">
+      ¶ Prima. vtrum 
+      <lb ed="#V" n="96"/>omnia accidentia que sunt in hoc sacramento sint 
+      <lb ed="#V" n="97"/>separata a subiecto.
+    </p>
+            <p xml:id="FrMS88-f56605-d1e125">
+      ¶ Et videtur quod sic. quia 
+      vbi<lb ed="#V" n="98" break="no"/>cunque non est inuenire substantiam ibi non 
+      <lb ed="#V" n="99"/>est inuenire subiectum accidentium. sed hoc non 
+      <lb ed="#V" n="100"/>est substantia. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f56605-d1e134">
+      ¶ Contra. quia ordo est 
+      <lb ed="#V" n="101"/>inter accidentia adinuicem sicut inter 
+      ac<lb ed="#V" n="102" break="no"/>cidentia ad substantiam. ergo remanentibus accidentibus 
+      adin<lb ed="#V" n="103" break="no"/>uicem orius videtur quod aliqua accidentia non separentur.
+    </p>
+            <p xml:id="FrMS88-f56605-d1e144">
+               <lb ed="#V" n="104"/>hic inducuntur due opinionem Aliqui enim dicunt quod 
+      <lb ed="#V" n="105"/>omnia accidentia separata sunt a 
+      <lb ed="#V" n="106"/>subiecto. quia omnia accidentia que naturaliter informant compositum 
+      imme<lb ed="#V" n="107" break="no"/>diate insunt prime materiae.
+    </p>
+            <p xml:id="FrMS88-f56605-d1e155">
+      ¶ Aliquo dicunt quod omnia accidentia sunt 
+      <lb ed="#V" n="108"/>in subiecto principaliter: quia sunt in quantitate: et nulla formaem 
+      <lb ed="#V" n="109"/>in potentia aliorum. Ratio. quia quantitas immediate consequitur substantiam: 
+      <lb ed="#V" n="110"/>et alia accidentia mediate: et ideo separata quantitate omnia alia 
+      <lb ed="#V" n="111"/>separantur.
+    </p>
+            <p xml:id="FrMS88-f56605-d1e166">
+      ¶ Sed contra primam opoeionm est: quia esset idem de 
+      for<lb ed="#V" n="112" break="no"/>minis accidentalibus spiritualibus: et ita sapina et scientia perfice 
+      <lb ed="#V" n="113"/>rent primam materiam.
+    </p>
+            <p xml:id="FrMS88-f56605-d1e173">
+      ¶ Contra 2am. quia oppositus ordo et mo 
+      <lb ed="#V" n="114"/>dus est inter subiectum et accidens et inter materiam et formam: quia subiectum 
+      <lb ed="#V" n="115"/>non est propter accidens. et ideo praecedere daitet: sed quantitas non est no 
+      <lb ed="#V" n="116"/>bilior ceteris accidentibus. valet. qualitate que habet nobiliores 
+      <lb ed="#V" n="117"/>species: quia in genere qualitatis sunt accidentia spiritualia non 
+      au<lb ed="#V" n="118" break="no"/>tem in quantitate: et perfectiones similiter sunt in genere qualitatis  
+      <lb ed="#V" n="119"/>sed qualitas esset propter quantitatem si esset in ea.
+    </p>
+            <p xml:id="FrMS88-f56605-d1e189">
+      ¶ Intelligen 
+      <lb ed="#V" n="120"/>dum ergo quod in hoc sactro remanent 4or genera accidentium. valet. 
+      quan<lb ed="#V" n="121" break="no"/>titas superficies linea et tempus et locus: quia si genus quantitatis 
+      <lb ed="#V" n="122"/>sit absolutum potest separari: si respectiuum. tunc oportet dari 
+      imme<lb ed="#V" n="123" break="no"/>diatum subiectum quantitatis quod possit separari. Accidentia etiam 
+      <lb ed="#V" n="124"/>sunt haec de genere qualitatis. nulla autem accidentia sunt hoec de prima specie 
+      <lb ed="#V" n="125"/>quia non remanent. sed de 2a sicut frigiditas caliditas 
+      mol<lb ed="#V" n="126" break="no"/>lities durities. Et de tertia specie sicut albedo et nigredo 
+      <lb ed="#V" n="127"/>et dulcedo. Et de quarta specie sicut rotunditas et hmomni 
+      </p>
+            <p xml:id="FrMS88-f56605-d1e209">
+               <lb ed="#V" n="128"/>¶ De istis dicunt aliqui quod fundantur in quantitate. sed hoc non 
+      te<lb ed="#V" n="129" break="no"/>neo.
+    </p>
+            <p xml:id="FrMS88-f56605-d1e217">
+      ¶ Sed quid de 2a et 3a nunquid sunt in subiecto:
+    </p>
+            <p xml:id="FrMS88-f56605-d1e220">
+      ¶ Dico quod ni 
+      <lb ed="#V" n="130"/>sunt in subiecto sicut similitudo et equalitas.
+    </p>
+            <p xml:id="FrMS88-f56605-d1e225">
+      ¶ Ratio horum est que 
+      <lb ed="#V" n="131"/>fuit superius facta. quia relatio non potest esse sine subiecto: quia non 
+      <lb ed="#V" n="132"/>potest esse sine termino et fundamento. Alia sunt acciden 
+      <!--410.xml-->
+      <pb ed="#V" n="204-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tia extrinsecus aduenientia: quia ibi est actio qualitatum 
+      <lb ed="#V" n="2"/>et vbi et situs et huiusmodi. et ista sunt in subiecto: quia dicunt respe 
+      <lb ed="#V" n="3"/>ctus.
+    </p>
+            <p xml:id="FrMS88-f56605-d1e245">
+      ¶ Sed occurrit difficultas quia plura miracula non 
+      sun<lb ed="#V" n="4" break="no"/>ponenda vbi pauciora sufficiunt. sed si sola quantitas 
+      sepa<lb ed="#V" n="5" break="no"/>rata ponatur est vnum solum miraculum.
+    </p>
+            <p xml:id="FrMS88-f56605-d1e252">
+      ¶ Dico quod non 
+      vi<lb ed="#V" n="6" break="no"/>deo quod quantitas sit subiectum qualitatum cum sit ignobilior 
+      <lb ed="#V" n="7"/>ecundum genus suum. Et de hoc infertur.
+    </p>
+            <p xml:id="FrMS88-f56605-d1e259">
+      ¶ Secunda difficultas si potest 
+      <lb ed="#V" n="8"/>fieri albedo sine extensione.
+    </p>
+            <p xml:id="FrMS88-f56605-d1e265">
+      ¶ Dico quod sic. quia prius 
+      po<lb ed="#V" n="9" break="no"/>test separari a posteriori.
+    </p>
+            <p xml:id="FrMS88-f56605-d1e270">
+      ¶ Tertia difficul. si posse 
+      <lb ed="#V" n="10"/>fieri visio sine quantitate vel poni albedo in visu sine 
+      quanti<lb ed="#V" n="11" break="no"/>tate.
+    </p>
+            <p xml:id="FrMS88-f56605-d1e277">
+      ¶ Dico quod non. quia visio fit per triangulum. 
+      basi<lb ed="#V" n="12" break="no"/>autem non potest esse nisi super rem quantitatiuam et extensam. 
+      </p>
+            <p xml:id="FrMS88-f56605-d1e282">
+               <lb ed="#V" n="13"/>¶ 4a difficultas. si ista accidentia possunt frigefacere.
+    </p>
+            <p xml:id="FrMS88-f56605-d1e287">
+      ¶ Dico 
+      <lb ed="#V" n="14"/>quod non. quia actio philosophyca requirit situm in loco quae non esset 
+      <lb ed="#V" n="15"/>ibi: quia essent abstracta a loco si essent sine quantitate.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

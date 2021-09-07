@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="176-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f33409"><!-- l3d23-32q1 -->
+            <head xml:id="FrMS88-f33409-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f33409-d1e111">
+               <lb ed="#V" n="95"/>Cum vero supra habitum sit etc. 
+      <lb ed="#V" n="96"/>CIrca dist. 23. vsque ad dist. 33. Que 
+      <lb ed="#V" n="97" break="no"/>ritur vtrum in anima christi simul 
+      fu<lb ed="#V" n="98" break="no"/>runt omnes virtutes theologice. Et videtur 
+      <lb ed="#V" n="99"/>quod non. quia virtutes sunt hominis viatoris. 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e124">
+               <lb ed="#V" n="100"/>¶ Sed christus vere fuit comprehensor.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e129">
+      ¶ Con 
+      <lb ed="#V" n="101" break="no"/>tra. quia christus potuit mereri. Sed 
+      virtu<lb ed="#V" n="102" break="no"/>tes theologice sunt habitus per quis viatores merentur. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e136">
+               <lb ed="#V" n="103"/>hic sunt decem articuli per ordinem declarandi. 
+      <lb ed="#V" n="104"/>Quorum primus est quid est virtus theo 
+      <lb ed="#V" n="105"/>logica. Secundus quot sunt virtutes theologice. 
+      Ter<lb ed="#V" n="106" break="no"/>tius que sunt proprietates virtutum theologicarum. 
+      Quar<lb ed="#V" n="107" break="no"/>tus si virtutes theologice sunt connexe. Quintus si sunt 
+      es<lb ed="#V" n="108" break="no"/>sentialiter ordinate. Sextus est si fides est compossibili 
+      <lb ed="#V" n="109"/>noticie euidenti. Septimus est si fides est in 
+      intellectu<lb ed="#V" n="110" break="no"/>vel in voluntate. Octauus si spies differt a fide et chari 
+      <lb ed="#V" n="111"/>tate. Nonus si est idem habitus charitatis quo diligi 
+      <lb ed="#V" n="112"/>tur deus et proximus. Decimus si idem est actus 
+      cha<lb ed="#V" n="113" break="no"/>ritatis elicitus et imperatus.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e163">
+               <lb ed="#V" n="114"/>Ad primum dicunt aliqui quod virtus theologica 
+      <lb ed="#V" n="115"/>est cuius consideratio pertinet ad 
+      theo<lb ed="#V" n="116" break="no"/>logicum.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e172">
+      ¶ Sed contra. nam theologicus considerat de 
+      <lb ed="#V" n="117"/>iusticia legali. Sed iusticia legalis est virtus moralis 
+      <lb ed="#V" n="118"/>secundum philosophos: igitur non est theologica.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e179">
+      ¶ Item theologicus 
+      <lb ed="#V" n="119"/>considerat de misericordia: de virginitate: de castitate: 
+      <lb ed="#V" n="120"/>paupertate: et huiusmodi: de quibus etiam philosophi considerauerunt: 
+      <lb ed="#V" n="121"/>et tamen philosophi non fuerunt theologi. ergo nec virtutes theo 
+      <lb ed="#V" n="122"/>logice sunt quarum consideratio pertinet ad theologum 
+      <lb ed="#V" n="123"/>simpliciter. Sed inquantum theologus est. Est autem theo 
+      <lb ed="#V" n="124"/>logus cuius consideratio est de deo tamquam de obiecto. 
+      iccir<lb ed="#V" n="125" break="no"/>co virtutes theologice sunt que sunt de deo tamquam de 
+      <lb ed="#V" n="126"/>obiecto que scilicet deum respiciunt tamquam eorum obiectum 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e199">
+               <lb ed="#V" n="127"/>¶ Sed contra. quia fides non semper est de deo. sed aliquando 
+      <lb ed="#V" n="128"/>etiam de creaturis: oportet enim nos credere resurre 
+      <lb ed="#V" n="129"/>ctionem hominum et penam inferni.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e208">
+      ¶ Item secundo. quia spes 
+      <lb ed="#V" n="130"/>est respectu creabilium: habemus enim spiee de felicitate 
+      crea<lb ed="#V" n="131" break="no"/>ta igitur etc.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e215">
+      ¶ Item tertio. quia spies numquam est de dea 
+      <!--356.xml-->
+      <pb ed="#V" n="177-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>in se: quia est de futuro. Sed deus nunquam potest esse deus 
+      <lb ed="#V" n="2"/>futurus. igitur semper spies est respectu creature.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e229">
+      ¶ Item 
+      <lb ed="#V" n="3"/>quarto. quia charitas est dilectio etiam respectu 
+      proximi<lb ed="#V" n="4" break="no"/>igitur non semper respicit deum. igitur vel predicte non 
+      <lb ed="#V" n="5"/>sunt virtutes theologice: vel virtus theologica est 
+      ali<lb ed="#V" n="6" break="no"/>quid aliud quam dictum fit.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e240">
+      ¶ Ad primum dicendum. quod fides 
+      sem<lb ed="#V" n="7" break="no"/>per est de deo tanquam de obiecto proprio quod per se 
+      respi<lb ed="#V" n="8" break="no"/>cit: tamen etiam potest esse de creatura vt de obiecto secundario quod 
+      <lb ed="#V" n="9"/>respicit magis per accidens.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e249">
+      ¶ Ad 2m eodem modo quod 
+      <lb ed="#V" n="10"/>spes est de felicitate increata tanquam de obiecto primario 
+      <lb ed="#V" n="11"/>sed de creata felicitate: tanquam de obiecto secundario¬ 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e256">
+               <lb ed="#V" n="12"/>¶ Et eodem modo ad alia duo dicendum est.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e261">
+      ¶ Sed 
+      occur<lb ed="#V" n="13" break="no"/>runt hoc aliqua dubia. Primum est. quia secundum hoc theologia 
+      <lb ed="#V" n="14"/>vel habitus theologicus est virtus theologica: quia est 
+      <lb ed="#V" n="15"/>de deo vt de primario obiecto.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e270">
+      ¶ Dico quod duplex est theo 
+      <lb ed="#V" n="16"/>logia: vna que est habitus virtutum et donorum omnium 
+      <lb ed="#V" n="17"/>infusorum et credendorum: et sic theologia bene potest esse 
+      <lb ed="#V" n="18"/>virtus theologica. Alia est theologia quae est habitus 
+      de<lb ed="#V" n="19" break="no"/>ductiuus omnium conclusionum theologicarum ex primo habi 
+      <lb ed="#V" n="20"/>tu: et sic non est virtus theologica: quia non est principium merendi. 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e284">
+               <lb ed="#V" n="21"/>¶ Item 2m dubium est: quia metaie Aristoteles. est de deo: vt de 
+      <lb ed="#V" n="22"/>obiecto: igitur est virtus theologica.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e291">
+      ¶ Dicendum quod metaus 
+      <lb ed="#V" n="23"/>non est de deo sub ratione dei. sed sub ratione entis. Unde 
+      re<lb ed="#V" n="24" break="no"/>spicit ens vt obiectum primarium.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e298">
+      ¶ Item 3m dubium est. 
+      <lb ed="#V" n="25"/>quia videtur quod lumen glorie sit virtus theologica.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e303">
+      ¶ 
+      Di<lb ed="#V" n="26" break="no"/>co quod forte verum est large accipiendo virtutem theologicam: 
+      <lb ed="#V" n="27"/>ed deficit a ratione formali virtutis theologice quae debet 
+      <lb ed="#V" n="28"/>esse principium mereudi vel actus meritorii. Aumen 
+      au<lb ed="#V" n="29" break="no"/>tem non est huiusmodi: vt supra dictum est.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e314">
+               <lb ed="#V" n="30"/>Secundus articulus est quot sunt 
+      vir<lb ed="#V" n="31" break="no"/>tutes 
+      theologi<lb ed="#V" n="32" break="no"/>ce.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e323">
+      ¶ Dicendum secundum Apostolum prima ad Corum. 13. quod sunt tantum 
+      <lb ed="#V" n="33"/>tres: quia nunc autem manenti fides spies et charitas tria hec. 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e329">
+               <lb ed="#V" n="34"/>¶ Sed contra. quia obstantia habet deum pro obiecto. Sed omnis 
+      <lb ed="#V" n="35"/>talis virtus est theologica. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e336">
+      ¶ Item 2o. quia virtus 
+      <lb ed="#V" n="36"/>derdica est perfectissima virtutum. sed nulla virtus est 
+      perfe<lb ed="#V" n="37" break="no"/>ctior virtutibus theologicis. igitur plures sunt quam tres. 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e343">
+               <lb ed="#V" n="38"/>¶ Item 3o. quia latria respicit deum immellites Est enim 
+      cul<lb ed="#V" n="39" break="no"/>tus reuerentie soli deo exhibitus. sed latria non est 
+      aliquo<lb ed="#V" n="40" break="no"/>predictarum.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e352">
+      ¶ Item 4o. quia sapientia secundum Aug. suum actum 
+      <lb ed="#V" n="41"/>ummum exercet circa diuina contemplanda et 
+      meditan<lb ed="#V" n="42" break="no"/>da. Sed contemplatio deum immeit respicit.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e359">
+      ¶ Ad primum 
+      <lb ed="#V" n="43"/>dico quod obsteactia non est de deo sub ratione dei: sed eius actus est 
+      <lb ed="#V" n="44"/>circa praecepta diuina adimplenda: et etiam humana: vnde volun 
+      <lb ed="#V" n="45"/>tas per obstantiam fertur in deum. non immeitues: sed in executione 
+      primo<lb ed="#V" n="46" break="no"/>eptorum.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e370">
+      ¶ Ad 2m dico. quod virtus heroica non est 
+      aliqua<lb ed="#V" n="47" break="no"/>specialis virtus condiuisa aliis virtutibus: sed est 
+      gra<lb ed="#V" n="48" break="no"/>dus quidam excessiuus omnium virtutum sicut excessus 
+      ten<lb ed="#V" n="49" break="no"/>perantie: quia nihil sustinet passionis in illa materia: et 
+      exces<lb ed="#V" n="50" break="no"/>sus fortitudinis: quia nihil timet de morte: et sic de aliis. 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e382">
+               <lb ed="#V" n="51"/>¶ Ad 3m dico quod latria non est circa deum immelte. Sed 
+      cir<lb ed="#V" n="52" break="no"/>ca cultum sensibilium vt orationum oblationum 
+      sacrificio<lb ed="#V" n="53" break="no"/>rum et similium: virtus autem que immediatius deum in talibus 
+      <lb ed="#V" n="54"/>sacrificiis sine reuerentiis respicit: est charitas et non 
+      la<lb ed="#V" n="55" break="no"/>tria: vnde et philosophi virtutem moralem latriam posuerunt scilicet 
+      cul<lb ed="#V" n="56" break="no"/>tum reuerentie debite deo.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e398">
+      ¶ Ad 4m dico. quod sapientia cum 
+      <lb ed="#V" n="57"/>ius actus ex puris elicitur naturalibus: non est theologica sed 
+      <lb ed="#V" n="58"/>intellectualis: quam etiam philosophi posuerunt: illa vero 
+      sapien<lb ed="#V" n="59" break="no"/>tia de qua loquitur Augsias cuius actus elicitur a 
+      principio<lb ed="#V" n="60" break="no"/>supernaturali est virtus que est charitas
+    </p>
+            <p xml:id="FrMS88-f33409-d1e409">
+               <lb ed="#V" n="61"/>Tertius articulus quot et quales sunt 
+      pro<lb ed="#V" n="62" break="no"/>prietates virtutum 
+      <lb ed="#V" n="63"/>theologicam.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e418">
+      ¶ Dinco quod 4or sunt earum proprietates per quas etiam 
+      a<lb ed="#V" n="64" break="no"/>virtutibus moralibus distinguutur. Prima est quod sunt 
+      <lb ed="#V" n="65"/>supernaturaliter infuse non naturaliter acquisite: quia dona 
+      spiri<lb ed="#V" n="66" break="no"/>tus sancti sunt supernaturaliter infusa: nec possunt per naturam 
+      <!--356.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>acquiri. Secunda proprietas est. quod sunt in superiori portio 
+      <lb ed="#V" n="68"/>ne anime non in inferiori que non sunt due potentie anime: sed 
+      <lb ed="#V" n="69"/>duo eiusdem potentie officia secundum Aug. Nam sicut per 
+      vir<lb ed="#V" n="70" break="no"/>tutes morales homo inclinatur ad inferiora: ita per virtu 
+      <lb ed="#V" n="71"/>tes theologicas homo inclinatur ad superiora: ideo dicuntur 
+      <lb ed="#V" n="72"/>esse in portione anime superiori. Tertia est quod virtutes theo. 
+      <lb ed="#V" n="73"/>logice non sunt in mediecete duarum malitiarum: sicut 
+      virtu<lb ed="#V" n="74" break="no"/>tes morales: vt infra declarabitur: quia nullus potest nimis 
+      <lb ed="#V" n="75"/>deum diligere nec ei credere. nec in eum nimis sperare. 
+      <lb ed="#V" n="76"/>Quarta proprietas est quod idem est finis et obiectum 
+      vir<lb ed="#V" n="77" break="no"/>tutum theologicarum quod non potest esse in moralibus: quia 
+      <lb ed="#V" n="78"/>deus sicut est obiectum charitatis: ita est eius finis: sed 
+      ten<lb ed="#V" n="79" break="no"/>perantie obiectum est tactus vel meam veneriorum: sed eius 
+      <lb ed="#V" n="80"/>finis non est id ipsum: sed felicitas: deus autem est beatitu 
+      <lb ed="#V" n="81"/>do nostra: ideo et finis virtutum supernaturalium.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e464">
+      ¶ Sed 
+      con<lb ed="#V" n="82" break="no"/>tra istas proprietates instatur per ordinem.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e469">
+      ¶ Primo. quia 
+      <lb ed="#V" n="83"/>habitus generatur ex actibus. igitur ex actibus fidei spei 
+      <lb ed="#V" n="84"/>et charitatis: possunt idem habitus generari.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e477">
+      ¶ Item 2o. 
+      <lb ed="#V" n="85"/>quia per fidem aliquins inclinatur ad inferiora scilicet ad 
+      infer<lb ed="#V" n="86" break="no"/>num et eius penas credendas.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e484">
+      ¶ Item tertio. quia quis 
+      <lb ed="#V" n="87"/>potest nimis credere: et etiam minus: vt si quis crederet 
+      <lb ed="#V" n="88"/>quatuor personas in diuinis: vel tantum duas. igitur consi 
+      <lb ed="#V" n="89"/>stit in medio.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e493">
+      ¶ Item quarto. quia omnis habitus 
+      ordina<lb ed="#V" n="90" break="no"/>tur ad proprium actum: sicut ad finem. Sed actus 
+      chari<lb ed="#V" n="91" break="no"/>tatis non est idem cum obiecto. igitur nec obiectum 
+      chari<lb ed="#V" n="92" break="no"/>tatis est idem cum fine. qui est actus.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e502">
+      ¶ Ad primum 
+      di<lb ed="#V" n="93" break="no"/>co. quod fides que ex actibus est vel acquiritur non est 
+      in<lb ed="#V" n="94" break="no"/>fusa: nec per consequens est theologica. Sed est natura 
+      <lb ed="#V" n="95"/>is et acquisita.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e511">
+      ¶ Ad secundum dico quod fides quantum 
+      <lb ed="#V" n="96"/>ad obiectum primarium inclinatur ad superiora: et hoc 
+      <lb ed="#V" n="97"/>sufficit: quantum autem ad alia obiecta secundaria potest 
+      <lb ed="#V" n="98"/>inclinare ad inferiora.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e520">
+      ¶ Ad tertium dico. quod circa theo 
+      <lb ed="#V" n="99"/>logicas virtutes bene potest esse defectus: sed non respectu 
+      <lb ed="#V" n="100"/>medii: et hoc est quando creditur falsum. Sed non habet 
+      <lb ed="#V" n="101"/>idem obiectum maius et minus credere: quia ista non variant 
+      <lb ed="#V" n="102"/>credulitatem.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e532">
+      ¶ Ad 4m dico quod actus virtutis bene potest esse 
+      <lb ed="#V" n="103"/>finis quo: sed non potest esse finis cuius gratia aliquid fit: 
+      <lb ed="#V" n="104"/>sicut est obiectum in theologicis.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e539">
+               <lb ed="#V" n="105"/>Quartus articulus est: si virtutes theo 
+      <lb ed="#V" n="106"/>logice sunt 
+      conne<lb ed="#V" n="107" break="no"/>ce.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e548">
+      ¶ Dicunt communiter doctores quod non: licet virtutes mora 
+      <lb ed="#V" n="108"/>les sint connexe.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e553">
+      ¶ Prima ratio est: quia tres virtutes iste tam 
+      <lb ed="#V" n="109"/>lum infunduntur in baptismo: sed in nullo alio 
+      sacramen<lb ed="#V" n="110" break="no"/>to infunditur: nisi charitas: igitur non connectuntur necessario: quia 
+      <lb ed="#V" n="111"/>due prime remanent post baptismum. remota charitate. 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e562">
+               <lb ed="#V" n="112"/>¶ Item 2o. quia desperatio potest stare cum fide: aliquins enim 
+      <lb ed="#V" n="113"/>de salute desperans: potest habere habitum fidei et actum 
+      <lb ed="#V" n="114"/>etiam. Sed desperatio remouet spe. igitur fides et spes 
+      <lb ed="#V" n="115"/>non sunt connexe.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e573">
+      ¶ Item 3o. secundum Apitlum. in patria tantum 
+      re<lb ed="#V" n="116" break="no"/>manebit charitas. igitur charitas non exigit fideme et speciem. 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e579">
+               <lb ed="#V" n="117"/>¶ Sed dubium est quare virtutes morales dicuntur 
+      <lb ed="#V" n="118"/>connexe: et non theologice.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e586">
+      ¶ Dicunt quidam cum philosopho quod conclusione 
+      <lb ed="#V" n="119"/>ctuntur cum prudentia: que omnes virtutes dirigit. eo quod 
+      <lb ed="#V" n="120"/>ipsa est recta ratio agibilium.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e593">
+      ¶ Sed contra. primo sic. 
+      fi<lb ed="#V" n="121" break="no"/>des dirigit homines circa virtutes theologicas: quia sine 
+      fi<lb ed="#V" n="122" break="no"/>de et fidei directione impossibile est deo placere. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e600">
+               <lb ed="#V" n="123"/>¶ Item 2o. sicut prudentia est practica: ita fides respicit 
+      <lb ed="#V" n="124"/>et in opus transit: quia secundum Apostolum. Eides sine operibus 
+      <lb ed="#V" n="125"/>mortua est.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e609">
+      ¶ Item 3o. ille virtutes videntur magis 
+      con<lb ed="#V" n="126" break="no"/>nexe que habent idem obiectum quam que habent obstantia diuersa 
+      <lb ed="#V" n="127"/>et disperata. Sed virtutes theologice habent idem obiectum 
+      <lb ed="#V" n="128"/>ilicet deum.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e618">
+      ¶ Ex istis igitur 4o sequitur. quod sicut per 
+      compa<lb ed="#V" n="129" break="no"/>rationem ad prudentiam: propter dictas causas: 
+      virtu<lb ed="#V" n="130" break="no"/>tes morales sunt connexe: ita et theologice per 
+      compara<lb ed="#V" n="131" break="no"/>tionem ad fidem: que de necessitate requritur ad omnem 
+      vir<lb ed="#V" n="132" break="no"/>tutem theologicam. Sed quia teneo quod virtutes morales 
+      <!--357.xml-->
+      <pb ed="#V" n="177-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>non sint connexe per habitudinem ad prudentiam: sed 
+      pe<lb ed="#V" n="2" break="no"/>habitudinem ad iustitiam legalem: vt infra ostendam. 
+      Iccir<lb ed="#V" n="3" break="no"/>co non video quare virtutes theologice non connectuntur 
+      <lb ed="#V" n="4"/>sed alias de hoc videbitur.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e645">
+      ¶ Sed contra praedicta. quia 
+      chari<lb ed="#V" n="5" break="no"/>tas est forma omnium virtutum. ergo connexio virtutum attenditur per 
+      ha<lb ed="#V" n="6" break="no"/>bitudinem ad charitatem.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e652">
+      ¶ Dicendum quod charitas dicitur forme 
+      <lb ed="#V" n="7"/>virtutum solum quantum ad meatum: quia facit quod actus eliciti 
+      al<lb ed="#V" n="8" break="no"/>aliis virtutibus sint meritorii. sed habitus omnium alia 
+      <lb ed="#V" n="9"/>rum virtutum vere possunt manere sine charitate
+    </p>
+            <p xml:id="FrMS88-f33409-d1e661">
+               <lb ed="#V" n="10"/>Quintus articulus est. si virtutes theo 
+      <lb ed="#V" n="11" break="no"/>logice sunt 
+      essentiali<lb ed="#V" n="12" break="no"/>ter ordinate.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e670">
+      ¶ Dicunt aliqui quod sic secundum apluldum: nunc autem 
+      <lb ed="#V" n="13"/>manent fides spes et charitas.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e675">
+      ¶ Sed contra. quia aliquis 
+      po<lb ed="#V" n="14" break="no"/>test habere spiem de re opinata: sed opinio potest esse sine 
+      fi<lb ed="#V" n="15" break="no"/>de: igitur et spies.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e682">
+      ¶ Item 2o. quia actus charitatis precedit 
+      <lb ed="#V" n="16"/>actus aliarum vitutum. quia est actus voluntatis: qui est 
+      prior<lb ed="#V" n="17" break="no"/>inter actus aliarum potentiarum. ergo et habitus charitatis alios 
+      <lb ed="#V" n="18"/>habitus praecedit.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e692">
+      ¶ Item 3o. in christo fuit charitas: sed in eo non 
+      <lb ed="#V" n="19"/>fuerunt fides et spies igitur etc.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e697">
+      ¶ Item 4o. quia secundum Apsium. 
+      <lb ed="#V" n="20"/>Charitas nunquam excidit in patria: sed alie virtutes euacua 
+      <lb ed="#V" n="21"/>buntur et cessabunt. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e704">
+      ¶ Ideo dico quod virtutes theologi 
+      <lb ed="#V" n="22"/>ce de se et de natura sua non sunt habitus essentialiter ordinati. 
+      <lb ed="#V" n="23"/>et solum ex ordinatione diuina.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e711">
+      ¶ Sed hoc occurrunt duus 
+      <lb ed="#V" n="24"/>Primum si fides corrumpitur per peccatum.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e716">
+      ¶ Dicendum quod nullum 
+      <lb ed="#V" n="25"/>ctum corrumpit fidem: nisi solum heresis: quia sides non est in 
+      vo<lb ed="#V" n="26" break="no"/>luntate: sed in intellectu: sicut in subiecto: sed nihil sibi contrariatur 
+      <lb ed="#V" n="27"/>nisi heresis.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e725">
+      ¶ 2m dubium est si spies corrumpitur per 
+      pec<lb ed="#V" n="28" break="no"/>catum.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e731">
+      ¶ Dicendum quod non nisi per desperationem que est 
+      com<lb ed="#V" n="29" break="no"/>traria spei circa idem.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e736">
+      ¶ Item 3m dubium est: si charitas 
+      <lb ed="#V" n="30"/> 
+               <lb ed="#V" n="31"/>corrumpitur per peccatum.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e743">
+      ¶ Dico quod sic de facto: et hoc tantum 
+      <lb ed="#V" n="32"/>demeritorie.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e748">
+      ¶ Sed 4m dubium est quare charitas non 
+      <lb ed="#V" n="33"/>stat cum aliquo peccato mortali: alie autem virtutes theo 
+      <lb ed="#V" n="34"/>possunt stare.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e755">
+      ¶ Dicendum quod hoc non est ex natura 
+      habitu<lb ed="#V" n="35" break="no"/>charitatis vel actus. Sed solum demeritorie ex 
+      ordina<lb ed="#V" n="36" break="no"/>tione diuina: ita enim charitas de sua natura posset esse cum 
+      <lb ed="#V" n="37"/>peccato: sicut fides et spies: sed ideo demeritorie non stat 
+      <lb ed="#V" n="38"/>cum peccato ex ordinatione diuina: quia ipsa sola 
+      diuindi<lb ed="#V" n="39" break="no"/>inter filios regni et filios perditionis
+    </p>
+            <p xml:id="FrMS88-f33409-d1e768">
+               <lb ed="#V" n="40"/>Sextus articulus est si fides est 
+      compossi<lb ed="#V" n="41" break="no"/>bilis cum notitia 
+      euiden<lb ed="#V" n="42" break="no"/>ti.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e778">
+      ¶ Dicunt quidem quod non. quia notitia est euidens: sides autem 
+      <lb ed="#V" n="43"/>non est euidens: sed aliquid esse euidens et non euidens reut 
+      <lb ed="#V" n="44"/>eiusdem intellectus implicat contradictionem.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e785">
+      ¶ Sed contra 
+      quadru<lb ed="#V" n="45" break="no"/>pliciter: et primo. quia impossibile est quod in ratione formali alicuius 
+      <lb ed="#V" n="46"/>positiui includatur priuatio. Sed fides est habitus 
+      po<lb ed="#V" n="47" break="no"/>sitiuus. ergo illud quod est ineuidens: quod dicit priuationem non 
+      <lb ed="#V" n="48"/>est de sua ratione formali.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e796">
+      ¶ Item 2o quia si scientia et fides sunt 
+      <lb ed="#V" n="49"/>incompossibiles: quia scientia est euidens fides non: scientia et 
+      sapienti<lb ed="#V" n="50" break="no"/>sunt incompossibiles: quia sapinia est per altissimas causas: scientia 
+      au<lb ed="#V" n="51" break="no"/>tem non est per altissimas causas.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e805">
+      ¶ Item 3o. quia notitia 
+      <lb ed="#V" n="52"/>matutina et vesptina sunt simul compossibiles. Sed notitia 
+      <lb ed="#V" n="53"/>matutina est supernaturalis: quia est rerum in verbo: vesptina autem 
+      <lb ed="#V" n="54"/>non est supenaturalis: quia est rerum in proprio genere.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e814">
+      ¶ Item 4o quod 
+      <lb ed="#V" n="55"/>notitia intuitiua et abstratia sunt simul compossibiles de sole: 
+      <lb ed="#V" n="56"/>sed intuitiua est de sole praesente: abstractiua de sole 
+      absen<lb ed="#V" n="57" break="no"/>te: sicut quando ognoscitur eclyprsis solis.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e823">
+      ¶ Dicendum ergo quod eodem 
+      <lb ed="#V" n="58"/>modo scientia et sides sunt habitus compossibiles: quia fides est de 
+      <lb ed="#V" n="59"/>deo per auctoritatem: sed scientia per demonstrationem 
+      euiden<lb ed="#V" n="60" break="no"/>tem: sed quod idem obiectum sit cognitum per auctoritatem et 
+      sci<lb ed="#V" n="61" break="no"/>tum per demonstrationem non est contradictio. igitur etc 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e835">
+               <lb ed="#V" n="62"/>¶ Confirmatur. quia mos fuit philosophorum aliquos suos 
+      di<lb ed="#V" n="63" break="no"/>scipulos instruere per auctoritates et dicta aliorum ad 
+      quo<lb ed="#V" n="64" break="no"/>postmodum addiderunt rationes demonstratiuas. 
+      Nun<lb ed="#V" n="65" break="no"/>quid igitur per auctoritates voluerunt facere euidens quod doce 
+      <lb ed="#V" n="66"/>bant: nequaquam sed solum creditum: et postea illud 
+      credi<lb ed="#V" n="67" break="no"/>tum artius imprimerent per demonstrationem vel per rationem 
+      <!--357.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="68"/>demonstratiuam. Sed numquid demonstrationes quas ad:  
+      <lb ed="#V" n="69"/>duxerunt destruxerunt auctoritates et opiniones quas 
+      <lb ed="#V" n="70"/>discipuli habebant per auctoritatem: nequaquam: quia tun 
+      <lb ed="#V" n="71"/>frustra et in vacuum ad suum propositum illas adduxissent: sic est 
+      <lb ed="#V" n="72"/>sancti plestum in sacra scriptura auctoritatibus vsi sunt 
+      ma<lb ed="#V" n="73" break="no"/>gis eis innitentes: et aliquando rationibus ad euidentius 
+      per<lb ed="#V" n="74" break="no"/>suadendum: sed constat quod per rationes nolebant exclude 
+      <lb ed="#V" n="75"/>re fidem Christi quam facit auctoritas sacra. Igitur de 
+      fa<lb ed="#V" n="76" break="no"/>cto et non solum de possibili simul sunt fides et scientia 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e874">
+               <lb ed="#V" n="77"/>¶ Est igitur prima conclusio quod actus fidei est compossibi 
+      <lb ed="#V" n="78"/>lis actui scientie: quia formales ipsorum rationes sunt 
+      com<lb ed="#V" n="79" break="no"/>possibiles scilicet euidens certitudo et firma adhesio.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e883">
+      ¶ Sed 
+      <lb ed="#V" n="80"/>cunda conclusio quod habitus fidei est compossibilis ci 
+      <lb ed="#V" n="81"/>habitu scientie: quia non plus distinguitur habitus quam actus 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e890">
+               <lb ed="#V" n="82"/>¶ Tertia conclusio est. quod actus fidei est compossibilis 
+      <lb ed="#V" n="83"/>cum habitu scientie: quia actus habitus oppositi stare potest 
+      <lb ed="#V" n="84"/>cum habitu opposito sicut actus temperantie cum habi 
+      <lb ed="#V" n="85"/>tu intemperantie: quando scilicet aliquins de nouo sit de 
+      inten<lb ed="#V" n="86" break="no"/>perato temperatus: quia non statim recedunt habitus acqui 
+      <lb ed="#V" n="87"/>siti.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e906">
+      ¶ Sed contra predicta: quia opinio est incompossibilis 
+      <lb ed="#V" n="88"/>scientie: sed fides est quedam opinio. ergo incompossibilis 
+      <lb ed="#V" n="89"/>scientie.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e913">
+      ¶ Dicendum quod assumptum est falsum: quia de 
+      ali<lb ed="#V" n="90" break="no"/>quo potest haberi opinio per syllogismum probabilem: et 
+      <lb ed="#V" n="91"/>de eodem scientia per demonstrationem: sed vnum isto. 
+      <lb ed="#V" n="92"/>rum non destruit reliquum. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e923">
+      ¶ Sed contra. quia 
+      <lb ed="#V" n="93"/>videtur quod formido est de ratione formali opinionis. 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e928">
+               <lb ed="#V" n="94"/>¶ Dicendum quod non est de ratione formali opinionis 
+      ve<lb ed="#V" n="95" break="no"/>re: sed false solum: sicut nec suspitio
+    </p>
+            <p xml:id="FrMS88-f33409-d1e935">
+               <lb ed="#V" n="96"/>Septimus articulus si fides est in 
+      intel<lb ed="#V" n="97" break="no"/>lectu vel in volun
+      <lb ed="#V" n="98" break="no"/>tate tantum.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e944">
+      ¶ Dicunt aliqui quod est in voluntate: quia quando volo 
+      <lb ed="#V" n="99"/>credo: et quando nolo non credo: igitur actus credendi est a 
+      vo<lb ed="#V" n="100" break="no"/>luntate. Sed habitus est in illa potentia a qua elicitur actus. 
+      igi<lb ed="#V" n="101" break="no"/>tur etc.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e953">
+      ¶ Sed contra. quia velle est actus charitatis: sed 
+      sol<lb ed="#V" n="102" break="no"/>charitas inter virtutes theologicas ponitur in volunt 
+      <lb ed="#V" n="103"/>tate. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e960">
+      ¶ Item fides potest esse sine operibus: sed 
+      cha<lb ed="#V" n="104" break="no"/>ritas non: quia amor dei non est ociosus: operatur enim ma 
+      <lb ed="#V" n="105"/>genera si est: vt dicit Greg. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e968">
+      ¶ Item Aug. fidei succedit 
+      <lb ed="#V" n="106"/>contemplatio: sed contemplatio est in intellectu. ergo et fides. 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e973">
+               <lb ed="#V" n="107"/>¶ Item visio est tota merces fidei: sicut fruitio charita 
+      <lb ed="#V" n="108"/>tis. sed visio est in intellectu. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e980">
+      ¶ Ideo dicendum est. quod fi 
+      <lb ed="#V" n="109"/>des est perfectio intellectus.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e985">
+      ¶ Unde quatuor sunt ternarii quod 
+      <lb ed="#V" n="110"/>consequenter et ordinate se habent. primus ternarius est intellectus 
+      <lb ed="#V" n="111"/>memoria et voluntas: qui est potentias vel virium anime. 2m 
+      <lb ed="#V" n="112"/>est habituum vel virtutum: vt sunt fides spies et chari 
+      <lb ed="#V" n="113"/>tas. 3us est actuum hierarchicorum qui sunt illuminare 
+      <lb ed="#V" n="114"/>purgare et perficere. 4us dotum anime scilicet visio firma tentio 
+      <lb ed="#V" n="115"/>et fruitio. Unde in intellectu est habitus sidei in quo etiam 
+      <lb ed="#V" n="116"/>purgatio recipitur et visio ponitur et de aliis sic deinceps 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e1003">
+               <lb ed="#V" n="117"/>¶ Item notandum quod credere non est actum credendi 
+      causa<lb ed="#V" n="118" break="no"/>re. Sed credere est formaliter ipsius intellectus: est enim 
+      <lb ed="#V" n="119"/>credere in intellectu formaliter: sed a voluntate 
+      effectiue<lb ed="#V" n="120" break="no"/>non tamen elicitiue: sed imperatiue.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1014">
+      ¶ Item notandum quod 
+      crede<lb ed="#V" n="121" break="no"/>re est de re neutra: non enim posses mihi iniungere quod 
+      crede<lb ed="#V" n="122" break="no"/>rem quod sol esset quadratus: quia video contrarium. Nec quod 
+      <lb ed="#V" n="123"/>caelum sit minus terra. Sed possum credere quod Roma est 
+      <lb ed="#V" n="124"/>in Italia: quia ipsam esse citra montes vel vltra: non est 
+      <lb ed="#V" n="125"/>necessarium simpliciter: sed contingens. ergo etc
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1028">
+               <lb ed="#V" n="126"/>Octauus articulus est: si spes est 
+      distin<lb ed="#V" n="127" break="no"/>cta a fide et charita 
+      <lb ed="#V" n="128"/>te.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1037">
+      ¶ Dicit communis opinio quod sic: quia Apstulus dicit. Nunc 
+      ma<lb ed="#V" n="129" break="no"/>nent fides spies et charitas. tria hoc vbi enumerat 
+      virtu<lb ed="#V" n="130" break="no"/>tes theologicas.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1044">
+      ¶ Sed contra primo. quia memoria non est potentia di 
+      <lb ed="#V" n="131"/>stincta ab intellectu et voluntate: igitur nec spes qui 
+      po<lb ed="#V" n="132" break="no"/>nitur in memoria a fide et charitate.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1051">
+      ¶ Item secundo. quia 
+      <lb ed="#V" n="133"/>illuminare reducitur ad purgare et perficere: vnde vtrumque 
+      <!--358.xml-->
+      <pb ed="#V" n="178-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>presupponit illuminationem.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1064">
+      ¶ Item tertio tentio 
+      firma<lb ed="#V" n="2" break="no"/>nihil aliud est quam visio et fruitio.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1069">
+      ¶ Item 4o. quia anime tantum 
+      du<lb ed="#V" n="3" break="no"/>as habemus operationes scilicet velle et intelligere. igitur tantum 
+      <lb ed="#V" n="4"/>duos habitus virtutum secundum quos operamur: igitur omnis 
+      <lb ed="#V" n="5"/>alia virtus theologica reducitur ad fideme et charitatem quod 
+      <lb ed="#V" n="6"/>unt habitus praencipales virtutum ipsius anime.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1081">
+      ¶ Ideo consequentr 
+      <lb ed="#V" n="7"/>picit doctor quod spies dicit fidem et charitatem simul sumpta: 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e1086">
+               <lb ed="#V" n="8"/>¶ Sed contra. quia omne totum est maius sua parte: sed 
+      maior<lb ed="#V" n="9" break="no"/>horum est charitas secundum Apitoltum. igitur spies non est totum 
+      re<lb ed="#V" n="10" break="no"/>charitatis.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1095">
+      ¶ Item charitas in via est posterior omni 
+      <lb ed="#V" n="11"/>bus aliis: sed spies si differret a fide et charitate: esset 
+      po<lb ed="#V" n="12" break="no"/>sterior eis: quia omne totum praesupponit partes. igitur etc. 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e1102">
+               <lb ed="#V" n="13"/>¶ Dicunt alii igitur. quod spes est desiderium supernorum. 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e1107">
+               <lb ed="#V" n="14"/>¶ Sed contra. quia spes stare potest cum opposito desiderii 
+      su<lb ed="#V" n="15" break="no"/>pernorum: quia cum maximo desiderio et affectu etiam 
+      terre<lb ed="#V" n="16" break="no"/>norum.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1116">
+      ¶ Iccirco est dicendum quod doctor dicit quod spes est 
+      quae<lb ed="#V" n="17" break="no"/>dam species fidei: vnde fides se habet sicut genus et superius quod 
+      <lb ed="#V" n="18"/>dam respectus spei: et hoc declaratur: quia spes habet quatuor 
+      conditio<lb ed="#V" n="19" break="no"/>nes quibus differt a fide partialiter: sed non totaliter: sicut 
+      <lb ed="#V" n="20"/>nec species a genere. prima conditio quia spies est de futuris 
+      <lb ed="#V" n="21"/>tantum: sed fides etiam est de preteritis: licet sit etiam de futuris. 
+      <lb ed="#V" n="22"/>2a conditio quod spies est de particularibus: sed fides de 
+      vni<lb ed="#V" n="23" break="no"/>uersalibus. est enim spes respectu proprie salutis tantum. Sed 
+      <lb ed="#V" n="24"/>fides de multis aliis que etiam de sui ratione non pertinent 
+      <lb ed="#V" n="25"/>ad salutem propriam: sed etiam alterius. 3a conditio quod spes 
+      <lb ed="#V" n="26"/>se habet per modum concupiscentie: sed fides per modum 
+      <lb ed="#V" n="27"/>imicitie. 4a conditio et vltima quod spes proprie est de 
+      bo<lb ed="#V" n="28" break="no"/>nis: fides autem de bonis et malis.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1146">
+               <lb ed="#V" n="29"/>Nonus articulus si charitas qua 
+      diligi<lb ed="#V" n="30" break="no"/>mus deum et proximum est 
+      <lb ed="#V" n="31"/>idem habitus.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1155">
+      ¶ Una opinio dicit quod sunt duo habitus: 
+      <lb ed="#V" n="32"/>quia sunt duorum obiectorum: sed habitus distinguuntur ex obstantis si 
+      <lb ed="#V" n="33"/>cut actus. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1162">
+      ¶ Sed contra. quia eodem actu in patria videtur deus 
+      <lb ed="#V" n="34"/>et creatura. ergo et eodem habitu multo fortius potest diligi: 
+      <lb ed="#V" n="35"/>quia magis sunt incompossibiles actus quam habitus.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1169">
+      ¶ Item 2o. 
+      <lb ed="#V" n="36"/>quia deus eodem actu se fruitur et vtitur creatura. ergo eo 
+      <lb ed="#V" n="37"/>dem habitu potest diligi deus et proximus.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1176">
+      ¶ Item 3o. quia eo 
+      <lb ed="#V" n="38"/>dem actu diligitur finis et ea quae sunt ad finem. Sed per 
+      crea<lb ed="#V" n="39" break="no"/>turam reducuntur in deum et ordinantur sicut in finem. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f33409-d1e1183">
+               <lb ed="#V" n="40"/>¶ Ideo dico quod eodem habitu charitatis diligimus deum. 
+      <lb ed="#V" n="41"/>sicut obiectum primarium et creaturam: sicut obiectum secundarium: 
+      <lb ed="#V" n="42"/>verumtamen possumus deum isto habitu diligere: absque hoc 
+      <lb ed="#V" n="43"/>quod diligamus proximum: quia habitus charitatis habet ordinem 
+      <lb ed="#V" n="44"/>per se ad deum et primarie: ad proximum autem habet ordinem 
+      secunda<lb ed="#V" n="45" break="no"/>rie et quasi per accidens: sed isto habitu charitatis non 
+      pos<lb ed="#V" n="46" break="no"/>sumus diligere proximum quin diligamus deum quia in 
+      essen<lb ed="#V" n="47" break="no"/>tialiter ordinatis 2m praesupponit primum de necessitate: et illud 
+      <lb ed="#V" n="48"/>quod est per accidens praesupponit illud quod est per se.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1206">
+               <lb ed="#V" n="49"/>Decimus articulus si actus charitatis
+      <lb ed="#V" n="50"/>imperatus 
+      distin<lb ed="#V" n="51" break="no"/>guitur ab actu charitatis elicito.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1215">
+      ¶ Dicendum quod charitas 
+      <lb ed="#V" n="52"/>vel habitus charitatis habet duplicem actum: vnum elicitum: 
+      <lb ed="#V" n="53"/>qui dicitur velle: alium imperatum qui dicitur potentias moue 
+      <lb ed="#V" n="54"/>re vel membra. Actus autem charitatis elicitus est 
+      forma<lb ed="#V" n="55" break="no"/>liter in voluntate. Actus autem imparatus non est formaliter 
+      in<lb ed="#V" n="56" break="no"/>voluntate: sed in aliis potentiis a quibus elicitur.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1228">
+      ¶ Est 
+      <lb ed="#V" n="57"/>igitur vna opinio: quae dicit quod sunt vnus et idem actus: quia 
+      <lb ed="#V" n="58"/>actus imperatus secundum eos nihil aliud est quam actus elicitus conium 
+      <lb ed="#V" n="59"/>ctus potentie sensitiue vel alteri inferiori a voluntate.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1237">
+      ¶ Sed  
+      <lb ed="#V" n="60"/>contra. quia voluntas secundum Aristotes. disquentiatr corpi vel membris principatu 
+      <lb ed="#V" n="61"/>despotico: quia eius imperium exequitur velit nolit: sicut 
+      do<lb ed="#V" n="62" break="no"/>minus principatur seruo. Sed iste actus quo voluntas 
+      <lb ed="#V" n="63"/>imperat membris non est a voluntate elicitus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1248">
+      ¶ Item 
+      <lb ed="#V" n="64"/>2o. quia voluntas principatur: siue divunatur appetitui seusi 
+      <lb ed="#V" n="65"/>tiuo principatu pollitico: sicut principibus rex: quia 
+      quan<lb ed="#V" n="66" break="no"/>tumcunque voluntas imparet: appetitus allectus delecta¬ 
+      <!--358.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>tione nisi velit nihil faciet. Sed iste actus quo voluntas 
+      <lb ed="#V" n="68"/>sic imperat non est formaliter in voluntate. igitur non est 
+      a<lb ed="#V" n="69" break="no"/>poluntate elicitus. igitur erit alius ab actu elicito.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1268">
+      ¶ Sed  
+      <lb ed="#V" n="70"/>pubium est si voluntas est causa actus imperati.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1274">
+      ¶ Dico 
+      <lb ed="#V" n="71"/>quod sic: quia ad eius actum sequitur aliud. valet aliquis 
+      effe<lb ed="#V" n="72" break="no"/>ctus: vel actus potentie inferioris: vel motio in 
+      mem<lb ed="#V" n="73" break="no"/>pris.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1283">
+      ¶ Unde sciendum. quod voluntas est causa vniuersa. 
+      <lb ed="#V" n="74"/>lis actus immparati: et potentia eius est actus iste formaliter 
+      <lb ed="#V" n="75"/>vel membrum est causa particularis.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1290">
+      ¶ Sed tunc est dubium: 
+      <lb ed="#V" n="76"/>quia tunc videtur quod voluntas feratur in obiectum non 
+      pre<lb ed="#V" n="77" break="no"/>tognitum: quod est falsum: quia voluntas non fertur in 
+      obie<lb ed="#V" n="78" break="no"/>ctum nisi preuio actu intellectus.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1299">
+      ¶ Dicendum est quod 
+      ali<lb ed="#V" n="79" break="no"/>ud est voluntatem velle: aliud ipsam causare. Velle enim est 
+      <lb ed="#V" n="80"/>actus elicitus voluntatis: et tali actu elicito voluntas non 
+      <lb ed="#V" n="81"/>ertur in obiectum: nisi precognitum: sed voluntas actu 
+      in<lb ed="#V" n="82" break="no"/>berato: quia illo actu aliud extra se causat: potest ferri in obiectum 
+      <lb ed="#V" n="83"/>non praecognitum: quia nondum talis effectus est: et de hoc 
+      di<lb ed="#V" n="84" break="no"/>tum est supra.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1315">
+      ¶ Item dubium est si actus voluntatis imperatus ad  
+      <lb ed="#V" n="85"/>dit aliquid bonitatis moralis super actum vel ad actum 
+      eli<lb ed="#V" n="86" break="no"/>citum.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1322">
+      ¶ Dicendum quod non. quia nullus actus mere naturaliter 
+      elici<lb ed="#V" n="87" break="no"/>tus potest esse meritorius: quia talis actus non est liber: sed 
+      <lb ed="#V" n="88"/>ecessarius: sed omnis potentia inferior naturali necessitate exequitur 
+      <lb ed="#V" n="89"/>quicquid ei voluntas imparat. Igitur actus imparatus: cum sit 
+      <lb ed="#V" n="90"/>mere naturalis ex parte potentie exequentis nullam potest habere 
+      bo<lb ed="#V" n="91" break="no"/>nitatem vltra actum elicitum voluntatis.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1336">
+      ¶ Item confirmatur 2o. 
+      <lb ed="#V" n="92"/>quia christus discipulis suis dixit. Quod vidua plus meruit in 
+      <lb ed="#V" n="93"/>mittendo duo minuta: quam diuites qui multo plus mitte 
+      <lb ed="#V" n="94"/>bant: sed non potuit plus mereri nisi actu elicito interio 
+      <lb ed="#V" n="95"/>ri: quia alii exterius plus faciebant et exequebantur plures 
+      <lb ed="#V" n="96"/>actus imparatos quam vidua. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f33409-d1e1349">
+      ¶ Item dicitur de scond 
+      Mar<lb ed="#V" n="97" break="no"/>tino: et de multis aliis sanctis dici potest: Obeatum virum. 
+      <lb ed="#V" n="98"/>Ofelix anima quam et si gladius persecutoris non abstulit. 
+      <lb ed="#V" n="99"/>palmam tamen martyrii non amisit. igitur actus exterior nihil 
+      <lb ed="#V" n="100"/>nddit interiori quantum ad meritum. igitur etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

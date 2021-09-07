@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="204-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f57026"><!-- l4d12q6 -->
+            <head xml:id="FrMS88-f57026-Hd1e108">Quaestio 6</head>
+            <p xml:id="FrMS88-f57026-d1e111">
+               <lb ed="#V" n="90"/>QUeritur tertio vtrum accidentia plura 
+      <lb ed="#V" n="91"/>eiusdem rationis possint esse 
+      <lb ed="#V" n="92"/>in eodem subiecto.
+    </p>
+            <p xml:id="FrMS88-f57026-d1e120">
+      ¶ Et videtur quod non. quia 
+      <lb ed="#V" n="93"/>eadem ratione sicut de corporibus in eodem 
+      lo<lb ed="#V" n="94" break="no"/>co infinita possent esse.
+    </p>
+            <p xml:id="FrMS88-f57026-d1e127">
+      ¶ Contra per 
+      di<lb ed="#V" n="95" break="no"/>uinam potentiam duo corpora est possibile simul esse 
+      <lb ed="#V" n="96"/>in eodem loco. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f57026-d1e134">
+               <lb ed="#V" n="97"/>hic inducuntu quatuor conclusiones. ¶ Prima 
+      <lb ed="#V" n="98"/>quod plures forme 
+      substan<lb ed="#V" n="99" break="no"/>tiales immateriales spirituales non possunt esse in eodem subiecto: quando 
+      <lb ed="#V" n="100"/>sunt eiusdem rationis. quia tunc plures anime rationales possent esse 
+      <lb ed="#V" n="101"/>simul. Et tunc arguo. quanto perfectior est forma tanto ma 
+      <lb ed="#V" n="102"/>gis adequat appesintum materiae. Sed anima rationalis est perfecti 
+      <lb ed="#V" n="103"/>sima. ergo si aliqua forma satiat appetitum materie non po 
+      <lb ed="#V" n="104"/>test esse nisi vna. Sed in celo sequitur. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f57026-d1e155">
+      ¶ Item duo 
+      <lb ed="#V" n="105"/>homines non habent idem corpus numero.
+    </p>
+            <p xml:id="FrMS88-f57026-d1e160">
+      ¶ Secunda 
+      conclusio<lb ed="#V" n="106" break="no"/>quod due forme substantiales materiales non possunt esse simul in 
+      <lb ed="#V" n="107"/>eodem: quia tunc vna materia esset causa intrinseca duorum 
+      con<lb ed="#V" n="108" break="no"/>positorum. Et hinc est quod generatio non potest esse 
+      successi<lb ed="#V" n="109" break="no"/>ua. quia tunc essent ibi duo composita specifica: quia ibi esset materia 
+      <lb ed="#V" n="110"/>ignis. et forma ignis et mateara aque et forma aque. quodlibet 
+      <lb ed="#V" n="111"/>enim haberet rationem sue speciei.
+    </p>
+            <p xml:id="FrMS88-f57026-d1e176">
+      ¶ Tertia conclusio. quod 
+      duo<lb ed="#V" n="112" break="no"/>accidentia absoluta non possunt esse in eodem. quia illa quae sunt eius 
+      <lb ed="#V" n="113"/>dem rationis in absolutis sunt vnigenea et vnibilia: et possent 
+      <lb ed="#V" n="114"/>tendere in idem et in eandem formam vnitatis continuitatis in 
+      <lb ed="#V" n="115"/>tensiue.
+    </p>
+            <p xml:id="FrMS88-f57026-d1e187">
+      ¶ 4a conclusio quod forme respectiue eiusdem rationis 
+      pos<lb ed="#V" n="116" break="no"/>sunt simul esse in eodem subiecto. hoc autem ostenditur in 
+      <lb ed="#V" n="117"/>tertio libro.
+    </p>
+            <p xml:id="FrMS88-f57026-d1e194">
+      ¶ Sed instatur contra primam conclusiones. quia sicut 
+      duo<lb ed="#V" n="118" break="no"/>corpora possunt esse simul in eodem loco: sic due anime 
+      <lb ed="#V" n="119"/>in eodem corpore.
+    </p>
+            <p xml:id="FrMS88-f57026-d1e201">
+      ¶ Respondeo concedo quod sic: sicut in loco: non 
+      <lb ed="#V" n="120"/>sicut in perfectibili: quia effectus adequatus materiae est vnus homo 
+      </p>
+            <p xml:id="FrMS88-f57026-d1e207">
+               <lb ed="#V" n="121"/>¶ Contra secundam. forme non sunt incompossibiles nisi 
+      <lb ed="#V" n="122"/>quia habent repugnantiam.
+    </p>
+            <p xml:id="FrMS88-f57026-d1e214">
+      ¶ Dico quod ex hoc non prouenit: sed 
+      <lb ed="#V" n="123"/>quia potentia receptiua est adequata in qualibet parte illam 
+      <lb ed="#V" n="124"/>rum formarum.
+    </p>
+            <p xml:id="FrMS88-f57026-d1e221">
+      ¶ Contra 3am. sicut deum potest praeseruare et 
+      <lb ed="#V" n="125"/>reseruare ne corpora misceantur. ita videtur de formis eius 
+      <lb ed="#V" n="126"/>dem rationis.
+    </p>
+            <p xml:id="FrMS88-f57026-d1e228">
+      ¶ Dico quod forsan hoc est possibile. sed tamen vi 
+      <lb ed="#V" n="127"/>detur probabile quod semper in eandem formam cedant.
+    </p>
+            <p xml:id="FrMS88-f57026-d1e233">
+      ¶ Con<lb ed="#V" n="128" break="no"/>tra quartam. quia eque concludit ratio predicta et positio de 
+      re<lb ed="#V" n="129" break="no"/>spectiuis si potentia est suffici enter actuata per aliquod eiu 
+      <lb ed="#V" n="130"/>dem rationis. Si autem per vnam similitudinem actuetur. ad 
+      <lb ed="#V" n="131"/>quid aliud requritur:
+    </p>
+            <p xml:id="FrMS88-f57026-d1e244">
+      ¶ Confirmatur: quia subiectum habens formam 
+      <lb ed="#V" n="132"/>non haberet priuationem forme eiusdem rationis. quia ex ra¬ 
+      <!--411.xml-->
+      <pb ed="#V" n="204-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tionibus formalibus priuatio et id cuius est habent 
+      repu<lb ed="#V" n="2" break="no"/>gnantiam. et sic non dicuntur habere aliquam similitudinem. 
+      </p>
+            <p xml:id="FrMS88-f57026-d1e261">
+               <lb ed="#V" n="3"/>¶ Dico quod non est priuatum respectu naturae specifice: sed 
+      so<lb ed="#V" n="4" break="no"/>um per comparationem ad proprietatem indiuidualem sicut habent 
+      <lb ed="#V" n="5"/>aliquin vnum gradum charitatis et sic habent totam naturam specificam 
+      <lb ed="#V" n="6"/>charitatis. tamen sunt in potentia ad gradum indiuidualem charitatis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

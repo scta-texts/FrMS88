@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f75232"><!-- l4d39q1 -->
+            <head xml:id="FrMS88-f75232-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f75232-d1e111">
+               <lb ed="#V" n="71"/>Post hoc de disperi cultum etc. 
+      <lb ed="#V" n="72"/>Hic incipit distinctio 39a. Circa quam 
+      <lb ed="#V" n="73"/>queritur. vtrum 
+      infide<lb ed="#V" n="74" break="no"/>litas impediat matrimonium. Quod non patet 
+      <lb ed="#V" n="75"/>de hester que nupsit assuero.
+    </p>
+            <p xml:id="FrMS88-f75232-d1e124">
+      ¶ Contra 
+      <lb ed="#V" n="76"/>de habraam cum agar. 
+      </p>
+            <p xml:id="FrMS88-f75232-d1e129">
+               <lb ed="#V" n="77"/>¶quatuor. 
+      <lb ed="#V" n="78"/>hic distinguunt 
+      tempo<lb ed="#V" n="79" break="no"/>ra.
+    </p>
+            <p xml:id="FrMS88-f75232-d1e138">
+      ¶ Primum legis naturae et in illo licitum fuit quod fidetur 
+      contrahe<lb ed="#V" n="80" break="no"/>ret cum infideli: sicut ioseph fecit in egypto: nec 
+      repraehendi<lb ed="#V" n="81" break="no"/>habraam cum agar. quie absolute nupsit cum agar: sed fuit 
+      ipsa<lb ed="#V" n="82" break="no"/>expulsa ex instictu sue mentis: quia ille hysmael adorabat 
+      <lb ed="#V" n="83"/>vdola.
+    </p>
+            <p xml:id="FrMS88-f75232-d1e150">
+      ¶ 2m legis scripte in quo fuit simpliciter prohibitum. 
+      </p>
+            <p xml:id="FrMS88-f75232-d1e153">
+               <lb ed="#V" n="84"/>¶ Tpe legis euangelice eccleie primitiue idem sicut in 
+      lege<lb ed="#V" n="85" break="no"/>scripta: quia hoc est positiuum.
+    </p>
+            <p xml:id="FrMS88-f75232-d1e160">
+      ¶ quantum ad temptus ecclesie pro nunc non 
+      <lb ed="#V" n="86"/>est matrimoium.
+    </p>
+            <p xml:id="FrMS88-f75232-d1e165">
+      ¶ Sed hic oc. di. si matrimonium inter indeles sit 
+      <lb ed="#V" n="87"/>ratum.
+    </p>
+            <p xml:id="FrMS88-f75232-d1e170">
+      ¶ Dicit secundo quod est ltium non tamen ratum inter infideles: quia 
+      <lb ed="#V" n="88"/>potest dissolui. si alter conuertatur.
+    </p>
+            <p xml:id="FrMS88-f75232-d1e175">
+      ¶ 2a difficultas. si infidelis contrahem 
+      po<lb ed="#V" n="89" break="no"/>sit altero conuertente se ad fidem legis.
+    </p>
+            <p xml:id="FrMS88-f75232-d1e181">
+      ¶ Dico quod sic. quia 
+      ex<lb ed="#V" n="90" break="no"/>quo solutus est. Similiter potest fidelis contrahere si infidelis potest 
+      </p>
+            <p xml:id="FrMS88-f75232-d1e186">
+               <lb ed="#V" n="91"/>¶ Sed numquid licet cohabitare: In eccletia praemitiua propter specie 
+      <lb ed="#V" n="92"/>conuersionis fuit permissum. postea tempore constantini fuit 
+      institu<lb ed="#V" n="93" break="no"/>tum quod non habitaret conuersus cum infideli in iudaysmo 
+      <lb ed="#V" n="94"/>propter duritiam illorum: quia vero gentiles erant facilis conuersionis. 
+      <lb ed="#V" n="95"/>ideo concessum fuit quo ad ipsos cohabitare. si autem int 
+      <lb ed="#V" n="96"/>delter vult cohabitare fine blasphemia dei et iniuria 
+      crea<lb ed="#V" n="97" break="no"/>toris: tunc potest fieri: aliter non: sed bppositum esset.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e85349"><!-- l1d37q2 -->
+            <head xml:id="FrMS88-e85349-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-e85349-d1e111">
+      Quaestio ii 
+      <lb ed="#V" n="52"/>UTrum deus sit in omni tempore. 
+      <lb ed="#V" n="53"/>quod non. quia deus est 
+      <lb ed="#V" n="54"/>eternus sine tempore secundum Aug. 15. de 
+      <lb ed="#V" n="55"/>tri. et alibi.
+    </p>
+            <p xml:id="FrMS88-e85349-d1e122">
+      ¶ Contra. deus est praesens 
+      <lb ed="#V" n="56"/>omni tempore.
+    </p>
+            <p xml:id="FrMS88-e85349-d1e127">
+      ¶ Primo videndum est quid 
+      <lb ed="#V" n="57"/>sit esse in tempore. Et ad hoc introducuntur 4or conclusiones. 
+      </p>
+            <p xml:id="FrMS88-e85349-d1e132">
+               <lb ed="#V" n="58"/>¶ Prima est quod non est respectus rationis: quia deus 
+      reali<lb ed="#V" n="59" break="no"/>ter est in tempore.
+    </p>
+            <p xml:id="FrMS88-e85349-d1e140">
+      ¶ 2a quod non dicit priuationem. quia 
+      <lb ed="#V" n="60"/>tunc nihil esset in tempore. vel ipsa entia in 
+      po<lb ed="#V" n="61" break="no"/>tentia essent eodem modo in tempore.
+    </p>
+            <p xml:id="FrMS88-e85349-d1e147">
+      ¶ 3a quod 
+      <lb ed="#V" n="62"/>non dicit absolutum: sicut prius.
+    </p>
+            <p xml:id="FrMS88-e85349-d1e152">
+      ¶ 4a 
+      conclu<lb ed="#V" n="63" break="no"/>sio est. quod non est iste respectus: sicut prius in 
+      <lb ed="#V" n="64"/>deo.
+    </p>
+            <p xml:id="FrMS88-e85349-d1e159">
+      ¶ Ideo dico. quod non est in omni tempore 
+      <lb ed="#V" n="65"/>per presentialitatem cuiuslibet rei 
+      tempo<lb ed="#V" n="66" break="no"/>ralis ad ipsum. Et sic patet.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

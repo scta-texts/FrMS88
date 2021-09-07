@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaesito 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaesito 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f32806"><!-- l3d17-22q2 -->
+            <head xml:id="FrMS88-f32806-Hd1e108">Quaesito 2</head>
+            <p xml:id="FrMS88-f32806-d1e111">
+               <lb ed="#V" n="40"/>¶ Questio. ii. 
+      <lb ed="#V" n="41"/>SEcundo quero Utrum 
+      fue<lb ed="#V" n="42" break="no"/>rit 
+      necessa<lb ed="#V" n="43" break="no"/>rium. Senus humanum redimi per mor tem 
+      <lb ed="#V" n="44"/>christi. Et videtur quod non. quia sancti dicunt quod mul 
+      <lb ed="#V" n="45" break="no"/>ti alii modi possibiles fuerunt.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e127">
+      ¶ Contra. 
+      <lb ed="#V" n="46"/>Ansel. li. Cur deus homo. dicit quod sic. 
+    </p>
+            <p xml:id="FrMS88-f32806-d1e132">
+               <lb ed="#V" n="47"/>hic sancti et doctores communiter tenent quod aliquo 
+      mo<lb ed="#V" n="48" break="no"/>do necessarium fuit per mortem christi 
+      redi<lb ed="#V" n="49" break="no"/>migenus humanum: quod solet probari. 4r
+    </p>
+            <p xml:id="FrMS88-f32806-d1e141">
+      ¶ Primo 
+      enitu<lb ed="#V" n="50" break="no"/>hoc fuit necessarium in ratione sacrificii propinantis. quia nihil 
+      ha<lb ed="#V" n="51" break="no"/>demus commune deo nisi per exhibitionem honoris qui fit 
+      <lb ed="#V" n="52"/>per cultum latrie. quia aliter non potest deus per creatura 
+      pla<lb ed="#V" n="53" break="no"/>cari. Sed christi in cruce fuit oblatum maximum sacrificium: 
+      <lb ed="#V" n="54"/>quod pro divina offensa placanda exhiberi potuit. igitur etc. 
+      </p>
+            <p xml:id="FrMS88-f32806-d1e155">
+               <lb ed="#V" n="55"/>¶ Item 2o. in ratione praecii: quia oportet quod illud quod perditum est 
+      <lb ed="#V" n="56"/>precio equiualenti redimatur. Sed totum genus humanum 
+      <lb ed="#V" n="57"/>perditum erat per peccatum. et praecium equalens fuit mors 
+      <lb ed="#V" n="58"/>christi. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e166">
+      ¶ Item 3o. in ratione piaculi: quia vulnus 
+      in<lb ed="#V" n="59" break="no"/>flictum alicui conuenientius emendatur per vindictam 
+      quan<lb ed="#V" n="60" break="no"/>per misericordiam vel per patientiam. Sed ade 
+      piacu<lb ed="#V" n="61" break="no"/>lum quantum in se fuit: vulnus erat deo inflictum. Igitur ma 
+      <lb ed="#V" n="62"/>gis necessarium fuit per vindictam mortis christi expiari 
+      quan<lb ed="#V" n="63" break="no"/>misericordia indulgeri.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e179">
+      ¶ Item 4o. in ratione iudicii: quia 
+      <lb ed="#V" n="64"/>ui iniuste rapit alienum iuste etiam perdit proprium. Sed 
+      <lb ed="#V" n="65"/>diabolus iniuste divfenium hominis sibi vsurpauerat. Igitur 
+      <lb ed="#V" n="66"/>per victoriam mortis christi iusto iudicio priuatus est: de 
+      <!--354.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>quo inudicio dicitur in Idamne: nunc iudicium est mundi nun 
+      <lb ed="#V" n="68"/>princeps huius mundi eucietur foras.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e197">
+      ¶ Sed hic 
+      duo<lb ed="#V" n="69" break="no"/>dubia occurrunt.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e202">
+      ¶ Primum est de hoc quod minor 
+      pena<lb ed="#V" n="70" break="no"/>quam christus passus est pronostra redemptione suffecisset.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e207">
+      ¶ Di 
+      <lb ed="#V" n="71"/>co quod simpliciter et absolute est verum. quia christus erat divinum 
+      <lb ed="#V" n="72"/>suppositum. Sed tamen propter christi perfectionem debuit abunda 
+      <lb ed="#V" n="73"/>re propter charitatis feruorem et excessum quem habuit 
+      sa<lb ed="#V" n="74" break="no"/>tisfacere volens.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e219">
+      ¶ Item dubium que fuit iustitia 
+      pa<lb ed="#V" n="75" break="no"/>ti christum pro peccatio non suo.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e224">
+      ¶ Dicendum quod iuste punitur pars pro 
+      <lb ed="#V" n="76"/>toto vel pars pro parte sicut oculus pro manum vel econverso: et quod 
+      <lb ed="#V" n="77"/>christus fuit pars humane pollitie: ideo volunt per omnia fratribus 
+      <lb ed="#V" n="78"/>assimilari. ideo etc.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e233">
+      ¶ Item est dubium. si christus in 
+      mor<lb ed="#V" n="79" break="no"/>te sua plus meruit quam in primo instanti in quo meruit 
+      bea<lb ed="#V" n="80" break="no"/>titudinem suam.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e240">
+      ¶ Dico quod equaliter meruit hic et ibi non 
+      <lb ed="#V" n="81"/>attendendo ad eius patientiam: quia eadem potentia et 
+      eo<lb ed="#V" n="82" break="no"/>dem habitu charitatis que est potior virtus quam patientia 
+      <lb ed="#V" n="83"/>attendendo tamen patientiam in illatis sibi iniuriis plus in 
+      <lb ed="#V" n="84"/>morte meruit extensiue: quia ibi concurrebant actus plurium 
+      <lb ed="#V" n="85"/>virtutum.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e253">
+      ¶ Item est dubium: si equaliter pro omnibus 
+      me<lb ed="#V" n="86" break="no"/>ruit.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e258">
+      ¶ Dico quod non. quia praeuidit passionem suam plus vale 
+      <lb ed="#V" n="87"/>re vni quam alteri verumtamen quantum in se fuit sufficienter 
+      me<lb ed="#V" n="88" break="no"/>ruit pro omnibus sed efficaciter tantum pro bonis.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e266">
+      ¶ Item 
+      du<lb ed="#V" n="89" break="no"/>dium est. si omnes actus christi fuerunt meritorii.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e271">
+      ¶ Dico quod 
+      <lb ed="#V" n="90"/>sic. quia omnes actus fuerunt vel a charitate imparati vel 
+      eli<lb ed="#V" n="91" break="no"/>citi: sed non ex eo quod eliciti a supposito divino: sicut quidam 
+      <lb ed="#V" n="92"/>dicunt: quia hoc non obstante fuerunt vere humani et 
+      fini<lb ed="#V" n="93" break="no"/>ti. vnde sicut radius ex eo quod est a supposito solis non habet. 
+      <lb ed="#V" n="94"/>perfectionem sic nec ex hoc quod est a deo sine sole.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e284">
+      ¶ Iter 
+      <lb ed="#V" n="95"/>rum dubium est: si dolor qui fuit in morte christi fuit in 
+      par<lb ed="#V" n="96" break="no"/>e intellectiua vel sensitiua.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e291">
+      ¶ Dicunt quidam quod in parte 
+      <lb ed="#V" n="97"/>sensitiua tantum: quia secundum aliam partem pati non poterat et erat 
+      <lb ed="#V" n="98"/>viator.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e298">
+      ¶ Alii dicunt quod in parte intellectiua. quia 
+      dolor<lb ed="#V" n="99" break="no"/>est de rebus que nobis nolentibus accidunt. Sed christus 
+      <lb ed="#V" n="100"/>secundum voluntatem nolebat peccatum ade. igitur nolebat penan 
+      <lb ed="#V" n="101"/>consesentem.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e307">
+      ¶ Alii dicunt quod nullo modo potuit esse dolo: 
+      <lb ed="#V" n="102"/>in parte intellectiua: quia delectatio et tristitia sunt contraria. 
+      <lb ed="#V" n="103"/>Sed contraria etiam per divinam potentia non possunt 
+      po<lb ed="#V" n="104" break="no"/>ni in eodem. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e317">
+      ¶ Sed dicunt aliquin quod delectatio 
+      <lb ed="#V" n="105"/>et tristitia de eodem obiecto bene sunt contraria. non tamen de 
+      di<lb ed="#V" n="106" break="no"/>uersis obiectis vel disperatis.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e324">
+      ¶ Sed hoc nihil est. quia 
+      <lb ed="#V" n="107"/>si delectatio et tristitia repugnant formaliter identitas vel 
+      <lb ed="#V" n="108"/>diuersitas obiecti nihil facit vel mutat circa hoc
+    </p>
+            <p xml:id="FrMS88-f32806-d1e331">
+      ¶ Ideo 
+      <lb ed="#V" n="109"/>dicendum quod delectatio et tristitia circa idem non sunt 
+      <lb ed="#V" n="110"/>contraria si vnum causetur ab actu supernaturali: et aliud 
+      <lb ed="#V" n="111"/>ab actu naturali. Sed sic est in proposito delectatio enim 
+      <lb ed="#V" n="112"/>in anima christi causatur ab actu supernaturali scilibet 
+      <lb ed="#V" n="113"/>beatifico tristitia vero et dolor causatur in eodem actu 
+      <lb ed="#V" n="114"/>naturali.
+    </p>
+            <p xml:id="FrMS88-f32806-d1e347">
+      ¶ Sed ratio huius dicetur infra. sic enim 
+      con<lb ed="#V" n="115" break="no"/>possibiles sunt noticia matutina et vespertina de 
+      eo<lb ed="#V" n="116" break="no"/>dem obiecto.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

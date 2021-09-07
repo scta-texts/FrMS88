@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="227-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f77292"><!-- l4d43q7 -->
+            <head xml:id="FrMS88-f77292-Hd1e108">Quaestio 7</head>
+            <p xml:id="FrMS88-f77292-d1e111">
+               <lb ed="#V" n="61"/>
+               <sic>Tetio</sic> queritur. vtrum fuerit idem 
+      cor<lb ed="#V" n="62" break="no"/>pus numero quod resurrexit et quod 
+      <lb ed="#V" n="63"/>erat mortuum. Quod non. Animatum et 
+      inanima<lb ed="#V" n="64" break="no"/>tum non sunt idem genere. ergo nec 
+      inden<lb ed="#V" n="65" break="no"/>numero.
+    </p>
+            <p xml:id="FrMS88-f77292-d1e128">
+      ¶ Contra. eadem ratione 
+      sequere<lb ed="#V" n="66" break="no"/>tur quod matera differret genere. ergo etc. 
+      <!--456.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>aliqui quod quadrupliciter potest 
+      intelligi<lb ed="#V" n="68" break="no"/>hic dicum quod idem corpus numero resurgat sec 
+      <lb ed="#V" n="69"/>numerositate materie forme compositi suppositi.
+    </p>
+            <p xml:id="FrMS88-f77292-d1e144">
+      ¶ Di 
+      <lb ed="#V" n="70"/>cunt ergo quod primo modo fuit idem corpus et quarto modo: quia idem 
+      <lb ed="#V" n="71"/>suppotitum. in sepulchro enim erat vnitum verbo: non autem vni 
+      <lb ed="#V" n="72"/>tate forme: quia in sepulchro habuit formam cadaueris: 
+      <lb ed="#V" n="73"/>que est alia forma. et per consequens aliud compositum: quia alia 
+      for<lb ed="#V" n="74" break="no"/>ma.
+    </p>
+            <p xml:id="FrMS88-f77292-d1e157">
+      ¶ Ad auctoritatem dicunt quod est vnum vnitate materiae 
+      </p>
+            <p xml:id="FrMS88-f77292-d1e161">
+               <lb ed="#V" n="75"/>¶ Uidendum igitur primo si numerositas materiae sufficit. Et 
+      <lb ed="#V" n="76"/>ostendo quod non: quia quandocunque sunt aliqua idem numero in materia 
+      <lb ed="#V" n="77"/>tantum et non in forma illa sunt idem secundum quid: sicut ignis generans 
+      <lb ed="#V" n="78"/>pabtet eandem materiam cum aere: sed corpus christi per te est idem numere 
+      <lb ed="#V" n="79"/>ro secundum materiam tantum. ergo tantum secundum quid. tunc sic: quandocumque est aliquod 
+      <lb ed="#V" n="80"/>verum secundum quid: est falsum simpliciter: sed verum est quod resurrexit 
+      <lb ed="#V" n="81"/>secundum quid idem numero per te. et per consequens falsum est simpliciter 
+      di<lb ed="#V" n="82" break="no"/>cere quod idem corpus numero resurrexit: et sic articulus 
+      fi<lb ed="#V" n="83" break="no"/>dei est verus secundum quid et falsus simpliciter et eius oppositum 
+      <lb ed="#V" n="84"/>est verum simpliciter.
+    </p>
+            <p xml:id="FrMS88-f77292-d1e185">
+      ¶ 2o probo quod eodem modo in vtero 
+      virgi<lb ed="#V" n="85" break="no"/>nis remansit post mortem corporis christi: quia multum de materia 
+      <lb ed="#V" n="86"/>eius remansit in vtero virginis vt lac quo fuit alitus 
+      <lb ed="#V" n="87"/>hoc autem esset contra articulum fidei et contra doctores.
+    </p>
+            <p xml:id="FrMS88-f77292-d1e194">
+      ¶ 3o impossibile est 
+      <lb ed="#V" n="88"/>quod quando aliquid repugnat alicui per aliquod: per illud aliquid 
+      <lb ed="#V" n="89"/>non potest sibi conuenire: sicut non potest alicui conuenire mori per 
+      <lb ed="#V" n="90"/>animam rationalem: cum anima rationalis sit immortalis: sed materiae 
+      <lb ed="#V" n="91"/>repugnat corrumpi et generari. ergo nulli potest compete 
+      <lb ed="#V" n="92"/>re resurgere per ipsum.
+    </p>
+            <p xml:id="FrMS88-f77292-d1e207">
+      ¶ 4a ratio. quia multa fuerunt 
+      reso<lb ed="#V" n="93" break="no"/>luta de corpore christi in aere. igitur si idemptitas 
+      mate<lb ed="#V" n="94" break="no"/>rie sufficit. sequitur quod remansit idem in aere. 
+      <lb ed="#V" n="95"/>videndum est si sufficit identitas 
+      suppo<lb ed="#V" n="96" break="no"/>Secundo siti: quia si beata virgo fuisset assumpta: 
+      <lb ed="#V" n="97"/>mumquid propter hoc fuisset in sepulchro: certum est quod non: simili 
+      <lb ed="#V" n="98"/>eadem ratione anima remansisset in sepulchro. si propter identitatem 
+      <lb ed="#V" n="99"/>suppositi: quod attribuitur vni et alteri.
+    </p>
+            <p xml:id="FrMS88-f77292-d1e225">
+      ¶ Ulterius quando 
+      ali<lb ed="#V" n="100" break="no"/>quid attribuiter christo oportet per naturam quae est in eo: vt in 
+      suppo<lb ed="#V" n="101" break="no"/>sito: sed resurgere vel mori non conuenit sibi per aliquid quod 
+      <lb ed="#V" n="102"/>est: in eo: nec per materiam. nec per animam.
+    </p>
+            <p xml:id="FrMS88-f77292-d1e234">
+      ¶ Ideo dico quod corpus 
+      <lb ed="#V" n="103"/>christi fuit idem numero identitate forme qua est corpus et per 
+      <lb ed="#V" n="104"/>consequens idem compositum. Et huio sunt quatuor signa.
+    </p>
+            <p xml:id="FrMS88-f77292-d1e242">
+      ¶ Primum 
+      <lb ed="#V" n="105"/>in accidentibus absolutis: eedem enim cicatrices fuerunt 
+      <lb ed="#V" n="106"/>in corpore christi mortuo et viuo: si autem resolutio facta 
+      <lb ed="#V" n="107"/>esset ad primam materiam a quo fuissent inducte. Ex hoc 
+      ar<lb ed="#V" n="108" break="no"/>guitur sic. quando aliquod generans generat aliquod compositum non inten 
+      <lb ed="#V" n="109"/>dit inducere nisi que per se insunt: iste plage sunt accidenta 
+      <lb ed="#V" n="110"/>les. si enim ex nam generationis essent in quacunque materia 
+      indu<lb ed="#V" n="111" break="no"/>ceret eas. ex quo per se inducerentur. Aliquin dicunt quod non 
+      <lb ed="#V" n="112"/>sunt eedem numero et contra hoc vadit ista ratio: quia vbi agens eius 
+      <lb ed="#V" n="113"/>dem rationis et passum eiusdem rationis ibi sequitur effectus eius 
+      <lb ed="#V" n="114"/>dem rationis. igitur in alio inducerentur similia.
+    </p>
+            <p xml:id="FrMS88-f77292-d1e266">
+      ¶ 2m signum in 
+      <lb ed="#V" n="115"/>formis respectiuis. christus fuit in cruce mortuus et erat 
+      <lb ed="#V" n="116"/>crucifixus quis ergo illud aliud corpus crucifixit: Non 
+      <lb ed="#V" n="117"/>corpora supercelestia: quia tunc in omni tempore: nec inudei istud 
+      <lb ed="#V" n="118"/>tetigerunt. Si dicis quod fuit sequuta. Contra. ista erat di 
+      <lb ed="#V" n="119"/>sticta crucifixio numero a prima: quia aliud est compositum 
+      <lb ed="#V" n="120"/>eius et aliud prime: sed effectus nouus requrit causam nouam. 
+      </p>
+            <p xml:id="FrMS88-f77292-d1e282">
+               <lb ed="#V" n="121"/>¶ 3m signum est ex motu locali: quia quando inclinauit caput 
+      <lb ed="#V" n="122"/>positione quod anima fuit egressa: tunc si motus non distinctus 
+      ha<lb ed="#V" n="123" break="no"/>betur intentum: quia omnes motus terminantur ad mutatum esse. si in 
+      <lb ed="#V" n="124"/>medio illius inclinationis emisit animam et ad hoc mouebatur 
+      cor<lb ed="#V" n="125" break="no"/>pus: non potest esse idem motus in numero quando caput secundum 
+      mo<lb ed="#V" n="126" break="no"/>uebatur: quia duo capita distincta. primus motus fuit terminat 
+      <lb ed="#V" n="127"/>ad mutatum esse. secundus motus inchoatus ab indiuisibili: quae non 
+      <lb ed="#V" n="128"/>possunt esse simul: quia tunc eorum vltima essent simul. et si etiam 
+      succe<lb ed="#V" n="129" break="no"/>siua igitur ibi est dare continuum medium.
+    </p>
+            <p xml:id="FrMS88-f77292-d1e304">
+      ¶ 4m sigufictum. est per viam 
+      <lb ed="#V" n="130"/>motus alterationis. ignis potest deningrare vtrumque corpus vel 
+      <lb ed="#V" n="131"/>calefacem. ignis continuat intendendo suam actionem eodem igne 
+      <lb ed="#V" n="132"/>vniformiter permanente: sed si esset aliud subiectum non intenderet 
+      <!--457.xml-->
+      <pb ed="#V" n="227-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>actionem: quia calor primus corrumperetur et alius nouus inducere 
+      <lb ed="#V" n="2"/>tur: ita quod inciperet de nouo calefacere. Experimur autem quod 
+      con<lb ed="#V" n="3" break="no"/>tinue intenditur sine interpolatione.
+    </p>
+            <p xml:id="FrMS88-f77292-d1e326">
+      ¶ Sed contra ista arguitur 
+      <lb ed="#V" n="4"/>prima instantia est quando acetum generatur ex vino in dolio eius 
+      <lb ed="#V" n="5"/>dem figure cum acetum: sicut fuit vinum: vnde venit illa figura. 
+      </p>
+            <p xml:id="FrMS88-f77292-d1e333">
+               <lb ed="#V" n="6"/>¶ 2m exempositum. est in pomo sano et putrido: eadem cicatrix 
+      <lb ed="#V" n="7"/>vel scissura remanet.
+    </p>
+            <p xml:id="FrMS88-f77292-d1e341">
+      ¶ 3m exempsitum. panis et pasta specie dis 
+      <lb ed="#V" n="8"/>ferre videntur: si tamen fiat cicatrix vel impressio aliqua in pasta: 
+      pe<lb ed="#V" n="9" break="no"/>stea remanet in pane.
+    </p>
+            <p xml:id="FrMS88-f77292-d1e348">
+      ¶ 4m exempsitum. si lignum habet 
+      concauita<lb ed="#V" n="10" break="no"/>tem vel gibbositatem: vel scissuram quando est combustum eadem 
+      re<lb ed="#V" n="11" break="no"/>manent in carbone.
+    </p>
+            <p xml:id="FrMS88-f77292-d1e355">
+      ¶ hic dico quod istud est via ad probandum 
+      <lb ed="#V" n="12"/>in omnibus talibus esse subiectum commune talium accidentium et transeunte 
+      <lb ed="#V" n="13"/>forma specifica manent accidentia in eodem subiecto numero.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

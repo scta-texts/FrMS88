@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="22-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e15471"><!-- l1d3q1 -->
+            <head xml:id="FrMS88-e15471-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-e15471-d1e111">
+      Quaestio 1. 
+      <lb ed="#V" n="69"/>Apostolus naque etc. 
+      <lb ed="#V" n="70"/>distinctionem tertiam queritur. 
+      <lb ed="#V" n="71"/>Irca vtrum deus sit cognoscibilis 
+      <lb ed="#V" n="72"/>a creatura. Et videtur quod non. Id. 1. dicitur. deum 
+      ne<lb ed="#V" n="73" break="no"/>mo vidit vnquam. Omnis autem intellectualis 
+      noti<lb ed="#V" n="74" break="no"/>ltia dicitur visio secundum Augu. de trini. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e15471-d1e127">
+               <lb ed="#V" n="75"/>¶ Contra. christus loquens de notitia patris 
+      <lb ed="#V" n="76"/>dicit. Et vidistis eum Ioan. 4o 
+      <lb ed="#V" n="77"/>istam quaestionem praemissa vna distinctione Dam. in primo 
+      <lb ed="#V" n="78"/>Circa mninarum scilicet quod de deo cognoscere possumus. quia 
+      <lb ed="#V" n="79"/>est: et non quid est. ratio autem pretermissionis est pro eo quod 
+      nul<lb ed="#V" n="80" break="no"/>lus potest affirmare esse de aliquo nisi prius concipiat 
+      <lb ed="#V" n="81"/>illud. et iste conceptus est: quid est: cum presuppositionatur a. quia est. 
+      <lb ed="#V" n="82"/>Et pretermissa illa distinctione quam ponit Dion. de 
+      an<lb ed="#V" n="83" break="no"/>gelica ieiar. quod de deo possumus cognoscere quid non est 
+      <lb ed="#V" n="84"/>negatiue. et non quid est affirmatiue. et ratio praetermissionis est. 
+      <lb ed="#V" n="85"/>quia omnis conceptus negatiuus qui attribuitur alicui 
+      praesup<lb ed="#V" n="86" break="no"/>ponit affirmationem. alioquin non plus cognosceremus de 
+      <lb ed="#V" n="87"/>deo per eius infinitatem et immobilitatem quam de nihilo. Iste enim 
+      <lb ed="#V" n="88"/>due distinctiones intelliguntur de conceptu vltimato. diui 
+      <lb ed="#V" n="89"/>ne essentie. Istis autem pretermissis ponuntur quatuor 
+      di<lb ed="#V" n="90" break="no"/>stinctiones modernorum. Prima est quod deus non 
+      cogno<lb ed="#V" n="91" break="no"/>citur a nobis distincte: sed indistincte. 2a est quod 
+      cogno<lb ed="#V" n="92" break="no"/>scitur a nobis obscure et non clare. 3a quod cognoscitur 
+      <lb ed="#V" n="93"/>a nobis in conceptu communi et non proprio. 4a quod 
+      cognoso<lb ed="#V" n="94" break="no"/>tur a nobis in conceptu attributali et non quiditatiuo 
+      seu<lb ed="#V" n="95" break="no"/>speciali.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e175">
+      ¶ Prima non valet. quia quaecumque ratio formalis habens 
+      conce<lb ed="#V" n="96" break="no"/>ptum simpliciter simplicem necessario si cognoscitur distincte 
+      cogno<lb ed="#V" n="97" break="no"/>scitur. sed ratio deitatis habet conceptum simpliciter simplicem. ergo 
+      <lb ed="#V" n="98"/>non potest cognosci indistincte. sed si cognoscitur distincte 
+      co<lb ed="#V" n="99" break="no"/>gnoscitur.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e186">
+      ¶ Praeterea conceptus diffiniti est indistinctus. conceptus diffini 
+      <lb ed="#V" n="100"/>nis distinctus. habemus autem per teconceptum diffiniti. quia indistinctum. 
+      <lb ed="#V" n="101"/>ergo possumus habere conceptum diffinitionis. probatio consequentie. Omnis 
+      <lb ed="#V" n="102"/>cognoscens conceptum subiecti in propositione per se nota potest 
+      cognoscen<lb ed="#V" n="103" break="no"/>praedicatum: quia habens conceptum continentem formaliter alium: potest 
+      <lb ed="#V" n="104"/>daffere alium. sed conceptus diffiniti continet formaliter conceptum 
+      dif<lb ed="#V" n="105" break="no"/>finitionis.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e203">
+      ¶ Praeterea deus non est diffinibilis. quia sims simplicite. 
+      <lb ed="#V" n="106"/>ergo non est sic cognoscibilis.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e208">
+      ¶ Secunda etiam non valet. 
+      <lb ed="#V" n="107"/>nulla enim notitia scientifica dicitur obscura. sed euidens. 
+      <lb ed="#V" n="108"/>sed de deo habemus notitiam scientificam. quia de deo aliquid 
+      de<lb ed="#V" n="109" break="no"/>monstramus: et per consequens aliquam notitiam euidentem habemus 
+      <lb ed="#V" n="110"/>de aliqua propositione. et sic de termininis. quia termini incomplexi 
+      <lb ed="#V" n="111"/>vt patet de se non sunt notiores.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e221">
+      ¶ Praeterea. quandocumque euidenter 
+      co<lb ed="#V" n="112" break="no"/>gnoscimus aliquid inesse alicui: non habemus de eo solum 
+      noti<lb ed="#V" n="113" break="no"/>tiam obscuram: sed de dieo cognoscimus inesse perfectiones simpliciter. ergo 
+      <lb ed="#V" n="114"/>de deo non habemus praecise notitiam obscuram.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e230">
+      ¶ 3a non valet: quia 
+      dite<lb ed="#V" n="115" break="no"/>illo habemus conceptu proprium et certum: non solum communem: de quo habe 
+      <lb ed="#V" n="116"/>mus conceptus omnibus aliis ab eo repugnantes: sed multos 
+      <lb ed="#V" n="117"/>tales habemus de deo. quia quod est ens infinitum. prima causa et 
+      mul<lb ed="#V" n="118" break="no"/>tos tales. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e241">
+      ¶ 4a non valet. quia quandocumque intelleetus 
+      attri<lb ed="#V" n="119" break="no"/>buit aliquid alicui cognoscit illud cui attribuit. sed omnes 
+      con<lb ed="#V" n="120" break="no"/>ceptus attributales deo attribuimus. ergo cognoscimus 
+      <lb ed="#V" n="121"/>et pintelligimus deum.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e250">
+      ¶ Et praeterea cognoscens passionem vt 
+      <lb ed="#V" n="122"/>passio est cognitionem habet aliquam de subiecto vt subiectum est. 
+      <lb ed="#V" n="123"/>sunt quatuor ostendenda. primum est. Si sit aliqua 
+      ra<lb ed="#V" n="124" break="no"/>Hictio formalis in deo ad quam attingere possum 
+      <lb ed="#V" n="125"/>naturaliter. 2m est: que sunt illa quae sunt nobis de deo 
+      <lb ed="#V" n="126"/>cognoscibilia. 3m est. quae sunt incognoscibilia. 4m quomodo deue 
+      <lb ed="#V" n="127"/>nimus in notitiam diuinorum. Quantum ad prius dicunt aliquin 
+      <lb ed="#V" n="128"/>quod non. deus enim a nobis non est cognoscibilis quantum ad aliquio 
+      <lb ed="#V" n="129"/>quod sit formaliter in eo naturaliter. sed tantum vt relucet in 
+      crea<lb ed="#V" n="130" break="no"/>turis. in se autem sicut est subiectum supernaturale ita non potest cognosci 
+      <lb ed="#V" n="131"/>nisi supernaturaliter tantum.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e275">
+      ¶ Contra istud arguo. 4r. primo sic. 
+      <!--48.xml-->
+      <pb ed="#V" n="23-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quicumque intellectus cognoscit ex vno obiecto aliud necessario 
+      cogne<lb ed="#V" n="2" break="no"/>scit vtrumque. sed ex creatura cognoscimus deum sicut obiectum / ex 
+      <lb ed="#V" n="3"/>obiecto secundum te. ergo cognoscimus vtrumque. ergo cognoscimus aliquid quod 
+      <lb ed="#V" n="4"/>est formaliter in deo. 2o sic. Deus vt relucet in creatura 
+      <lb ed="#V" n="5"/>vel illa entitas ad quam terminatur intellectus noster est creata vel 
+      <lb ed="#V" n="6"/>increata. Si dicas quod est entitas creata. ergo tantum creatura 
+      <lb ed="#V" n="7"/>cognoscitur. Si increata habetur propositum.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e299">
+      ¶ Confirmatur. et 
+      onte<lb ed="#V" n="8" break="no"/>do illud non esse ens creatum: sed increatum. quia intellectus habens 
+      con<lb ed="#V" n="9" break="no"/>ceptum cui attribuit incompossibilia enti creato. non habet illum 
+      con<lb ed="#V" n="10" break="no"/>ceptum de ente creato. sed conceptui quem habemus de deo 
+      af<lb ed="#V" n="11" break="no"/>tribuimus multa repugnantia toti enti creato. quia 
+      infini<lb ed="#V" n="12" break="no"/>tatem et primitatem. ergo etc. 3o sic. Nulla propositio vera potest 
+      forma<lb ed="#V" n="13" break="no"/>ri de eo quod includit incompossibila contradictoria. sed si 
+      cogni<lb ed="#V" n="14" break="no"/>tio tantum terminatur ad creaturam. et omnis talis entitas 
+      term<lb ed="#V" n="15" break="no"/>naturas intellectum nostrm esset formaliter in creatura. omnes propositiones 
+      <lb ed="#V" n="16"/>in quibus ponuntur pro subiecto ens primum. ens necessarium. ens infinitum 
+      <lb ed="#V" n="17"/>erunt false et contradictionem includentes. Nam veritas propositionis in 
+      <lb ed="#V" n="18"/>supponit terminos. termini autem istarum propositionum habent inter 
+      <lb ed="#V" n="19"/>se repugnantiam. creatura enim omnis habet oppositas conditiones 
+      </p>
+            <p xml:id="FrMS88-e15471-d1e328">
+               <lb ed="#V" n="20"/>¶ Confirmat enim conclusione istarum rationum magitus. Primo sic. 
+      <lb ed="#V" n="21"/>Quandocumque sunt aliqui ordines essentialiter ordinati secundum magis 
+      <lb ed="#V" n="22"/>nobile et minus nobile ordo nobilior perfectius respicit 
+      pri<lb ed="#V" n="23" break="no"/>mum illius ordins quam ordo ignobilior. sed ordo attingentie et 
+      <lb ed="#V" n="24"/>ordo dependentie sunt taliter ordinati. quia ordo attingentie per 
+      <lb ed="#V" n="25"/>operationem est nobilior quam ordo dependentie. patet quia per 
+      attingen<lb ed="#V" n="26" break="no"/>tiam beatificamur: cum ergo ordo minus nobilis terminetur ad 
+      il<lb ed="#V" n="27" break="no"/>lud quod formaliter est in prim scilicet in deo et ordo magis nobilis 
+      <lb ed="#V" n="28"/>scilicet attingentie terminabitur ad deum immediate: vel ad aliquid 
+      <lb ed="#V" n="29"/>quod est formaliter in deo. 4o sic. Nullum obiectum potest esse obiectum 
+      <lb ed="#V" n="30"/>fruitionis ordinate nisi illud sit deus vel formaliter in dieo. 
+      <lb ed="#V" n="31"/>sed illo eodem quod intelligimus de deo ordinate fruimur. 
+      <lb ed="#V" n="32"/>ergo illud saltem formaliter est in deo. Nam magnum inconueniens 
+      <lb ed="#V" n="33"/>videtur esse quod nos ponamus nihil cognosci naturaliter in via: quo 
+      frui<lb ed="#V" n="34" break="no"/>possimus.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e363">
+      ¶ Ex istis apparet euidenter quod aliqualis 
+      distictio<lb ed="#V" n="35" break="no"/>ex natura rei est inter perfectiones diuias: et hic ostendo sic. Idem 
+      <lb ed="#V" n="36"/>non potest esse cognitum per naturam: et incognitum per naturam: sed aliquas 
+      <lb ed="#V" n="37"/>perfectiones diuinas per naturam cognoscimus: constat autem quod nin 
+      <lb ed="#V" n="38"/>omnes: ergo aliqua distinctio ex natuam rei est inter eas. 2o sic. Inte 
+      <lb ed="#V" n="39"/>lectus ex puris naturalibus saltem generaliter potest cognoscere 
+      depen<lb ed="#V" n="40" break="no"/>dentiam creature ad deum. sed omnis cognoscens relationem: 
+      cogni<lb ed="#V" n="41" break="no"/>scit terminum illius relationis. Tunc arguo. aut dependentia 
+      <lb ed="#V" n="42"/>illa cognita terminatur ad omnia: quae sunt in deo: et sic omnia erun 
+      <lb ed="#V" n="43"/>cognita: aut ad nihil: et tunc non dependebit a dideo. aut ad 
+      <lb ed="#V" n="44"/>aliquam perfectionem sic. et ad aliquam non. Tunc sic. Impossibile 
+      <lb ed="#V" n="45"/>est quod si aliqua sint omnibus modis idem: vnum illorum terminare 
+      rela<lb ed="#V" n="46" break="no"/>tionem aliquam: et reliquum non. ergo inter ista est 
+      ali<lb ed="#V" n="47" break="no"/>qua distinctio vel non identitas 
+      <lb ed="#V" n="48"/>42m quaesitum est sciendum quod cum diuina essentia non 
+      pos<lb ed="#V" n="49" break="no"/>Cire a sit a nobis cognosci sub ratione propria et quiditati 
+      <lb ed="#V" n="50"/>ua. concipimus tamen de deo perfectiones secundum quadruplicem 
+      diuisio<lb ed="#V" n="51" break="no"/>nem collocatas. primo quidem: quia non solum positiuas: sed etiam priuati 
+      <lb ed="#V" n="52"/>uas. sicut immortalitatem et similia. 2o non solum absolutas quae 
+      <lb ed="#V" n="53"/>lis est infinitas: sed etiam relatiuas qualis est causalitas. quae quidem 
+      <lb ed="#V" n="54"/>non est respectus formalis: sed fundamentalis. 3o non solum 
+      <lb ed="#V" n="55"/>primarias quales sunt intellectus et voluntas: sed etiam secundarias: vt 
+      <lb ed="#V" n="56"/>est intelligere et velle. 4o non solum communes sibi et creaturis: sed 
+      <lb ed="#V" n="57"/>cut sapia et bonitas: sed etiam proprias passiones. sicut 
+      etern<lb ed="#V" n="58" break="no"/>tas et necessaritas.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e418">
+      ¶ Sed tunc oritur difficultas quia cum omnia illa intellectus 
+      <lb ed="#V" n="59"/>alicui attribuat: oportet illud praeintelligere. cum intellectus numquam 
+      <lb ed="#V" n="60"/>attribuat aliquid alicui: quin illud prius cognoscat. Idci 
+      <lb ed="#V" n="61"/>co dico quod oportet habere prius aliquem conceptum quiditatiuum: cum omnia 
+      <lb ed="#V" n="62"/>ista attribuantur sibi. sicut fundamento. Ad intelligendum 
+      <lb ed="#V" n="63"/>tamen quem conceptum quiditatiuum de deo habemus est sciendum quod in 
+      <lb ed="#V" n="64"/>creaturis quatuor conceptus quiditatiuos habemus de re. 
+      Pri<lb ed="#V" n="65" break="no"/>mus est transcendentis. sicut conceptus entis. 2us est conceptus generi 
+      <lb ed="#V" n="66"/>generalissimi. 3o est conceptus generis subalterni. 4us est conceptus 
+      <!--48.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>speciei specialissime. Simili modo habemus de deo quatuor conceptus 
+      qui<lb ed="#V" n="68" break="no"/>ditatiuos. primo enim concipimus quod est ens. et iste conceptus se habet per 
+      <lb ed="#V" n="69"/>modum trascendentis. 2o concipimus quod est substantia. et iste se habet per 
+      <lb ed="#V" n="70"/>modum generis generalissimi. 3 quod est spiritus et iste se habet ad 
+      mo<lb ed="#V" n="71" break="no"/>dum generis subalterni. spiritus. enim est quid inferius ad substantiam. 4m 
+      conce<lb ed="#V" n="72" break="no"/>ptum. qui est specificus habere non possumus: quia ratio propria deitatis  
+      <lb ed="#V" n="73"/>a nobis non potest attingi. si enim specificas differentias creatura 
+      <lb ed="#V" n="74"/>rum non possumus cognoscere: multo minus rationem propriam 
+      <lb ed="#V" n="75"/>deitatis. Intelligendum tamen vlterius quod secundum istos quatuor 
+      con<lb ed="#V" n="76" break="no"/>ceptus quiditatiuos habitos de deo demonstramus de deo 4or 
+      <lb ed="#V" n="77"/>gna passionum. Per ens quod sit bonus. per substantiam quod sit 
+      subsi<lb ed="#V" n="78" break="no"/>stens vel pera. per spicitum quod sit incorporeus. per 4mr autem nullam 
+      possu<lb ed="#V" n="79" break="no"/>mus demonstrare cum fit ignotus.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e470">
+      ¶ Sed tent occurrunt duo du 
+      <lb ed="#V" n="80"/>bia. primum est cum infinitas et necessaritas sint passiones consequentes istum 
+      <lb ed="#V" n="81"/>4m conceptum scilicet specificum. quomodo de deo possumus 
+      cognoscen<lb ed="#V" n="82" break="no"/>ipsas cum istum conceptus non possimus habere. Dinco quod huiusmo passio 
+      <lb ed="#V" n="83"/>nes non sunt note propter quid: sed quia. et ita potest cognosci quod tale 
+      <lb ed="#V" n="84"/>subiectum subiicitur. quia talis passio praedicatur.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e484">
+      ¶ Sed tunc stat do 
+      <lb ed="#V" n="85"/>bium: quia viuina essentia secundum propriam rationem est subiectum earum. et per 
+      <lb ed="#V" n="86"/>consequens attribuens illas sibi cognoscit illud. cui attribuit 
+      <lb ed="#V" n="87"/>Posset dici ad hoc quod intellectus noster non intelligit ista subiecto in 
+      <lb ed="#V" n="88"/>esse per modum passionum: sed aduenire alicui communi per modum 
+      <lb ed="#V" n="89"/>differentiarum sicut si cognosceremus animal et non rationale. 
+      cognoscen<lb ed="#V" n="90" break="no"/>do risibile non cognosceremus nisi sicut quoddam determinans 
+      <lb ed="#V" n="91"/>animal. Eodem modo nihil praecognoscimus infinitati: quod sit eius 
+      <lb ed="#V" n="92"/>subiectum nisi arguitiue. de quo modo non loqu: sed tamntummod 
+      cogno<lb ed="#V" n="93" break="no"/>scimus ipsam infinitatem addi spiritui. et sic fit vnum. cui 
+      ce<lb ed="#V" n="94" break="no"/>tera attribuimus.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e508">
+      ¶ Ex istis omnibus potest euidenter patere 
+      <lb ed="#V" n="95"/>quem conceptum habemus de deo: et quis est perfectior conceptus. quia 
+      <lb ed="#V" n="96"/>spiritus infinitus vel ens infinitum sicut. supri dictum est.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e515">
+      ¶ 2m 
+      du<lb ed="#V" n="97" break="no"/>bium est. quia dictum est nunc quod istos conceptus quiditatiuos 
+      ha<lb ed="#V" n="98" break="no"/>bemus de deo. dictum autem fuit. supra quod nihil quiditatiuum 
+      cogno<lb ed="#V" n="99" break="no"/>sceremus de diuina essentia.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e524">
+      ¶ Dico sicut sepe dictum est. quod 
+      <lb ed="#V" n="100"/>accipio hoc quiditatiuum non proprie. sed reductiue eo modo 
+      <lb ed="#V" n="101"/>quo dicimus quod genus quiditatiue praedicatur de differentia: non 
+      pro<lb ed="#V" n="102" break="no"/>prie: sed per reductionem. Eo modo dicimus quod predicatur 
+      <lb ed="#V" n="103"/>ens et substantia et spiritus: et omnia superiora: et non aliter. 
+      <lb ed="#V" n="104"/>3m apparet quae sunt nobis incognoscibilia scilicet 
+      <lb ed="#V" n="105"/>Circa ratio deitatis propria et eius passiones. vt sunt eius: ilec 
+      <lb ed="#V" n="106"/>a posteriori. et quia eas cognoscimus saltem aliquas.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e542">
+      ¶ Sed es 
+      <lb ed="#V" n="107"/>sciem quod aliquo dicere voluerunt quod de deo possumus habere 
+      conce<lb ed="#V" n="108" break="no"/>ptum quiditatiuum proprie dictum. Nam conceptus quiditatiuus est 
+      pri<lb ed="#V" n="109" break="no"/>or aliis. conceptus autem posteriores praesupponunt priores. 
+      mul<lb ed="#V" n="110" break="no"/>tos autem posteriores habemus. ergo et priorem scilicet quiditatiuum. 
+      </p>
+            <p xml:id="FrMS88-e15471-d1e553">
+               <lb ed="#V" n="111"/>¶ Sed contra hoc arguitur tripliciter. per sic. De nullo simpliciter 
+      <lb ed="#V" n="112"/>simplici potest haberi nisi conceptus proprius et adequatus. sed 
+      <lb ed="#V" n="113"/>superius ostensum est. quod diuina essentia est simpliciter simpliciter 
+      <lb ed="#V" n="114"/>ergo non potest haberi nisi conceptus proprius. iste non habetur. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e565">
+      ¶ 2 
+      <lb ed="#V" n="115"/>sic de nullo primo diuerso potest haberi conceptus qui non sit 
+      inden<lb ed="#V" n="116" break="no"/>quod ipsum. sed essentia diuina est primo diuersa ab aliis 
+      <lb ed="#V" n="117"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e574">
+      ¶ 3o sic. Quod dicitur in quid de aliquo est prius 
+      ordi<lb ed="#V" n="118" break="no"/>ne essentiali illo. non enim possumus imaginari quod aliquid 
+      dica<lb ed="#V" n="119" break="no"/>tur in quid de aliquo vel quiditatiue quin sit pars eius 
+      essentia<lb ed="#V" n="120" break="no"/>lis. pars autem essentialis est prior toto essentialiter: sed nihil 
+      nec<lb ed="#V" n="121" break="no"/>aliqua ratio formalis est prior deitate. ergo sibi repugnat habere 
+      con<lb ed="#V" n="122" break="no"/>ceptum quiditatiuum alium a suo proprio adequit. ato.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e587">
+      ¶ Sed 
+      contra<lb ed="#V" n="123" break="no"/>cognoscens posteriorem conceptum essentialiter cognoscit prio 
+      <lb ed="#V" n="124"/>rem: ex quo cognoscit illum esse posteriorem: quia poste. 
+      <lb ed="#V" n="125"/>rius vt posterius non potest cognosci sine priori. sed 
+      mul<lb ed="#V" n="126" break="no"/>tos conceptus posteriores habemus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e598">
+      ¶ Responideo 
+      <lb ed="#V" n="127"/>et dico quod cognoscens posterius inquantum posterius 
+      <lb ed="#V" n="128"/>est bene cognoscit prius. sed nego. sic intelligendo: mui 
+      <lb ed="#V" n="129"/>norem. non enim est notus ordo rationum formalium ad diuina 
+      <lb ed="#V" n="130"/>essentiam naturaliter: nisi indistincte et confuse. 
+      <lb ed="#V" n="131"/>quartum sciendum est. quod Dion. docet quat. 
+      <lb ed="#V" n="132"/>Circa tuor vias deueniendi in cognitionem de 
+      <!--49.xml-->
+      <pb ed="#V" n="23-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>semper viam causalitatis effectiue. per viam finis. per viam eminentie: et 
+      <lb ed="#V" n="2"/>per viam remotionis.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e624">
+      ¶ Sed est sciendum quod 4or modis 
+      deueni<lb ed="#V" n="3" break="no"/>mus in cognitionem alicuius. aut immediate per seipsum. sicut 
+      <lb ed="#V" n="4"/>actum intelligendi experimur per seipsum nos cognoscem. aut per 
+      <lb ed="#V" n="5"/>specie propriam sicut quiditates rerum sensibilium. quarum species imprimuntur 
+      <lb ed="#V" n="6"/>in anima. vt docet Aug. 12. de tri. aut arguitiue per rationem 
+      cogno<lb ed="#V" n="7" break="no"/>scendi. sicut per speciem accidentium / argumentamur substantiam. Aut 
+      ar<lb ed="#V" n="8" break="no"/>guitiue per obiectum cognitum. sicut arguimus per actum intelligendi 
+      co<lb ed="#V" n="9" break="no"/>gnitum nobis inesse potentiam intellectiuam. per modo a nobis deus 
+      <lb ed="#V" n="10"/>pro statu isto non cognoscitur. quia ista vt. supra patuit est notitia 
+      <lb ed="#V" n="11"/>intuitiua. Nec 2o modo de commni lege. quia speciem nullam habemus 
+      <lb ed="#V" n="12"/>naturaliter nisi a sensibus causatam a sensibus autem non imprimiter nobis 
+      ali<lb ed="#V" n="13" break="no"/>qua species quae sic posset deum repraesentare. sed 3o modo quia per actum 
+      cogno<lb ed="#V" n="14" break="no"/>scendi arguimus potentiam. et per potentiam arguimus essentiam. et per istam 
+      <lb ed="#V" n="15"/>cognoscimus veram existentiam. et isto modo incipit et procedit illa 
+      <lb ed="#V" n="16"/>via tam efficientis quam finis secundum Dion. 4o modo est cognoscimus. 
+      <lb ed="#V" n="17"/>quia per quiditates vel species sensibiles cognoscimus substantiam 
+      corpora<lb ed="#V" n="18" break="no"/>lem et per istam spiritualem. et sic summam vel primam causam. Tenent ergo vie 
+      <lb ed="#V" n="19"/>Dion. per istos duos vltimos modos. quia quando aliquod causatum 
+      <lb ed="#V" n="20"/>cognoscimus quaerimus de causa efficiente et finali vsque ad primam in 
+      <lb ed="#V" n="21"/>vtroque genere. Similiter secundum viam eminentie quia videmus has res 
+      <lb ed="#V" n="22"/>deficientes: ideo arguimus aliquod indeficiens.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e670">
+      ¶ Ex ista 
+      sequi<lb ed="#V" n="23" break="no"/>tur via remotionis. quia prius efficiens et vltimus finis 
+      emi<lb ed="#V" n="24" break="no"/>nens est. Ideo ab eo remouemus omnes imperfectiones.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e678">
+      ¶ Sed 
+      <lb ed="#V" n="25"/>quis istorum modorum Dion. est prior simpliciter: dicit doctor quod via 
+      effi<lb ed="#V" n="26" break="no"/>cientie. quia enim videmus aliquid moueri et causari arguimus primum. et 
+      <lb ed="#V" n="27"/>in isto fundatur via finis. numquam enim finis cognosceretur 
+      ni<lb ed="#V" n="28" break="no"/>si per effectum efficientis. et in istis fundatur via eminentie: quia 
+      fi<lb ed="#V" n="29" break="no"/>nis necessario nobilior est his quae sunt ad finem: et sic arguimus 
+      <lb ed="#V" n="30"/>ipsum esse nobilissimum. Et exinde amouemus ab eo omnem 
+      <lb ed="#V" n="31"/>imperfectionem.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e696">
+      ¶ Sed hic occurrit difficultas. quia per istum 
+      mo<lb ed="#V" n="32" break="no"/>dum possumus arguere diuinam essentiam inferendo quod omnes 
+      con<lb ed="#V" n="33" break="no"/>ceptus quos de deo habemus alicui primo attribuimus tamquam 
+      <lb ed="#V" n="34"/>radicali fundamento. potest dici quod cognoscitur sub ratione 
+      <lb ed="#V" n="35"/>primi fundamenti coniugendo rationem praemitatis cum 
+      fundamen<lb ed="#V" n="36" break="no"/>to: et per istam circumloquimur divinam essentiam.
+    </p>
+            <p xml:id="FrMS88-e15471-d1e709">
+      ¶ Sed contra. quia eque 
+      ar<lb ed="#V" n="37" break="no"/>gumentamur rationem fundamentalitatis et praemitatis inesse 
+      <lb ed="#V" n="38"/>alicui. sicut de aliis rationibus formalibus attributalibus 
+      <lb ed="#V" n="39"/>Et sic semper attribuendo et arguitiue procedendo procedemus 
+      <lb ed="#V" n="40"/>in infinitum. Aut deueninemus ad illud quod in se est prius. et 
+      <lb ed="#V" n="41"/>illud est deitas. posset aliquis dicere quod rationem propriam diuine 
+      <lb ed="#V" n="42"/>essentie arguitiue possumus cognoscere: et etiam cuiuslibet 
+      <lb ed="#V" n="43"/>creature multo magis. Ad auctoritatem in principio 
+      di<lb ed="#V" n="44" break="no"/>co quod loquitur de notitia intuitiua. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

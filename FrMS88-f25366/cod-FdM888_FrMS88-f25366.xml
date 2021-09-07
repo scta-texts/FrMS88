@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f25366"><!-- l2d44q8 -->
+            <head xml:id="FrMS88-f25366-Hd1e108">Quaestio 8</head>
+            <p xml:id="FrMS88-f25366-d1e111">
+               <lb ed="#V" n="55"/>¶ Questio. iiii. 
+      <lb ed="#V" n="56"/>quaestio est: vtrum mundus possit 
+      perpe<lb ed="#V" n="57" break="no"/>Uarta tuari. Et videtur quod non: quia hoc est proprium 
+      <lb ed="#V" n="58"/>dei.
+    </p>
+            <p xml:id="FrMS88-f25366-d1e122">
+      ¶ Contra generatio praeterit et generatio aduenit 
+      <lb ed="#V" n="59"/>lterra autem in eternum stat. 
+      <lb ed="#V" n="60"/>opinio peripateticorum quod mundus fuit 
+      perpe<lb ed="#V" n="61" break="no"/>hic fuit tuus et sempiternus. Plato autem posuit econverso 
+      <lb ed="#V" n="62"/>Catholici autem ponunt quod nec fuit perpetuus nec erit 
+      sempiter<lb ed="#V" n="63" break="no"/>nus: tamen omnes tenent quod potest perpetuari a deo.
+    </p>
+            <p xml:id="FrMS88-f25366-d1e135">
+      ¶ Arguitur autem 
+      <lb ed="#V" n="64"/>eisdem rationibus: sicut superius: quia si thrmpus includit posteriorita 
+      <lb ed="#V" n="65"/>tem sibi repugnat esse ab eterno: motus autem successionem 
+      mu<lb ed="#V" n="66" break="no"/>tatum esse posterius moueri. Similiter de instanti. Iste rationes eque 
+      <lb ed="#V" n="67"/>concludunt in proposito: sicut repugnat posteriortati 
+      eter<lb ed="#V" n="68" break="no"/>nitas: ita prioritati perpetuitas: similiter in successione est 
+      da<lb ed="#V" n="69" break="no"/>re aliquid cui aliud succedit: et tale non potest esse ppecum. similiter pus 
+      mu<lb ed="#V" n="70" break="no"/>tatum esse potest esse motus. post perpetuum non potest esse motus: et ideo 
+      <lb ed="#V" n="71"/>quae necessitaretur in ista: et in ills. Dico ergo quod non conuicunt: quia non 
+      <lb ed="#V" n="72"/>est deducere ad vltimum posterius: licet quodlibet signa 
+      <lb ed="#V" n="73"/>tum non possit esse perpetuum: et sic processus est ab 
+      ali<lb ed="#V" n="74" break="no"/>quo signato in infinitum: nec hoc esset posterioritas dei: 
+      <lb ed="#V" n="75"/>quia eam habet simul etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

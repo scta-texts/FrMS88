@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="234-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f84138"><!-- l1d50q1 -->
+            <head xml:id="FrMS88-f84138-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f84138-d1e111">
+               <lb ed="#V" n="104" break="no"/>hic oritur questio etc. 
+      <lb ed="#V" n="105"/>Hic incipit distinctio 50a. Circa quam 
+      <lb ed="#V" n="106"/>quaeruntur 4or.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e120">
+      ¶ Prime 
+      <lb ed="#V" n="107"/>vtrum illi quae sunt in inferno magis vellent non 
+      <lb ed="#V" n="108"/>esse quam ee. Quod non. Aug. de ci. dei. 
+      deter<lb ed="#V" n="109" break="no"/>minat oppositum: quia tam naturale est esse cuilibs 
+      <lb ed="#V" n="110"/>creature quod nullus potest non velle esse 
+      </p>
+            <p xml:id="FrMS88-f84138-d1e131">
+               <lb ed="#V" n="111"/>¶ Contra. Tuc. 23o. vbi dicit christus quod peccatores dicentu 
+      <lb ed="#V" n="112"/>montibus cadite super nos etc. Etiam apoci. 2o. Tunc 
+      <lb ed="#V" n="113"/>desiderabunt mori: et fugiet mors ab eis 
+      <lb ed="#V" n="114"/>intelligendum quod ad aliquid volendum inclinamur 
+      <lb ed="#V" n="115"/>Hic cnt ex quadruplici causa.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e144">
+      ¶ per ex naturali inclinatione. 
+      <lb ed="#V" n="116"/>sicut Aug. dicit 3o de ci. dei. Omnes volunt esse felices.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e150">
+      ¶ 2 
+      <lb ed="#V" n="117"/>ex habitus perfectione: sicut intemperatus occurrente ob 
+      <lb ed="#V" n="118"/>iecto etc.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e157">
+      ¶ 3o ex passione. sicut icitatus passione 
+      conci<lb ed="#V" n="119" break="no"/>piscentie vel ire.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e162">
+      ¶ 4o ex dictamine recte rationis: vt quin 
+      <lb ed="#V" n="120"/>ratio dictat hoc esse faciendum.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e167">
+      ¶ Et secundum hec 
+      introducun<lb ed="#V" n="121" break="no"/>tur quatuor conclusiones.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e172">
+      ¶ Prima conclusio est. quod damnati non possun 
+      <lb ed="#V" n="122"/>appetere non esse secundum naturalem inclinationem. probatur: quod 
+      <lb ed="#V" n="123"/>appetitus non fertur naturaliter nisi ad aliquam perfectionem. 
+      <lb ed="#V" n="124"/>hoc patet in vtroque appetitu scilicet rationali et sensitiuo. Sed non 
+      <lb ed="#V" n="125"/>esse nulli est perfectio.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e183">
+      ¶ 2a conclusio quod possunt appetere non esse 
+      <lb ed="#V" n="126"/>ex vehementia passionis. patet: quia experimur quod ex 
+      iracun<lb ed="#V" n="127" break="no"/>dia aliquo se interficiunt: non curantes de alia vita: nec eam 
+      <lb ed="#V" n="128"/>sperantes.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e193">
+      ¶ Tertia conclusio. quod ex inclinatione 
+      natu<lb ed="#V" n="129" break="no"/>rali habitus aliquins potest appetere non esse: quia 
+      quando<lb ed="#V" n="130" break="no"/>cunque est aliquis actus intensus in obiecto: ex 
+      vehemen<lb ed="#V" n="131" break="no"/>tia passionis: potest ex talibus habitus generari. Sed ex 
+      <!--472.xml-->
+      <pb ed="#V" n="235-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>vehementia passionis potest esse actus iracundine talis 
+      <lb ed="#V" n="2"/>quod faciet appetere non esse etc.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e213">
+      ¶ 4a conclusio quod sequendo regu 
+      <lb ed="#V" n="3"/>lam recte rationis magis debent appetere non esse: quam sic 
+      <lb ed="#V" n="4"/>esse: probatur: quia philosophi dixerunt plus esse appetendam 
+      mor<lb ed="#V" n="5" break="no"/>tem quam facere aliquid turpe. nec nouerant immortalitatem 
+      <lb ed="#V" n="6"/>anime. Sed damnati semper operantur aliquid turpe: quia 
+      <lb ed="#V" n="7"/>sunt in continua blasphemia dei. Item Ansel. in libro 
+      <lb ed="#V" n="8"/>Cur deus homo. quilibet dabet plus velle annihilari quam 
+      fa<lb ed="#V" n="9" break="no"/>cere aliquod peccatum mortale.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e231">
+      ¶ Sed instatur contra ista.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e234">
+      ¶ contr 
+      <lb ed="#V" n="10"/>primam conclusionem. quandocumque enim aliqua priuatio inest alicui: ex se 
+      <lb ed="#V" n="11"/>et ex natua sua magis inclinatur ad illam quam ad positiuum 
+      op<lb ed="#V" n="12" break="no"/>positum: ad quod inclinatur per accidens. Sed ex se homo habet non 
+      <lb ed="#V" n="13"/>esse. ab alio autem conuenit ipsum esse. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e245">
+      ¶ Contra 2am. 
+      li<lb ed="#V" n="14" break="no"/>cet enim passio sit in appetitu sensitiuo cum concupiscentia et 
+      <lb ed="#V" n="15"/>ira: non videtur in appetitu intellectiuo esse.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e252">
+      ¶ Contra 3a 
+      <lb ed="#V" n="16"/>quia habitus non necessitat potentiam: sed solum modificat.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e258">
+      ¶ Co 
+      <lb ed="#V" n="17"/>tra 4am. Ubi est enim iustitia est actus recte rationis: sed isti 
+      <lb ed="#V" n="18"/>puniuntur iuste a deo. ergo hoc debent appetere: quod scilicet sic 
+      exi<lb ed="#V" n="19" break="no"/>stant.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e267">
+      ¶ Rspondeo ad primum. Uerum est si esset positiuum. in 
+      pri<lb ed="#V" n="20" break="no"/>uatiuis autem non oportet: sicut homini a natura inest carentia bea 
+      <lb ed="#V" n="21"/>¬titudininis et scientiae. et tamen appetit ista magis quam priuationes 
+      <lb ed="#V" n="22"/>eorum.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e276">
+      ¶ Ad 2m. oportet tenere quod passiones sint in separatis. 
+      <lb ed="#V" n="23"/>alioquin non saluarentur que dicuntur de eis: non tamen est ibi 
+      <lb ed="#V" n="24"/>ira tali modo: sicut in nobis: quia scilicet sit accensio sanguinis ci 
+      <lb ed="#V" n="25"/>ca cor: sed bene est ibi formale ipsius ire: puta 
+      appeti<lb ed="#V" n="26" break="no"/>tus vindicte. quamuis non materiale.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e287">
+      ¶ Ad tertium. Conce 
+      <lb ed="#V" n="27"/>do quod habitus non necessitat eos ad hoc. Sed inclinat 
+      <lb ed="#V" n="28"/>ad fugiendum tale esse.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e294">
+      ¶ Ad quartum. intelligendum quod 
+      <lb ed="#V" n="29"/>si illi vellent sic esse sicut sunt aspiciendo ad punitionem 
+      <lb ed="#V" n="30"/>iustam: tunc deberent appetere sic esse. Sed aspiciendo ad 
+      <lb ed="#V" n="31"/>malum peccati: quod est peius deberent appetere non esse 
+      </p>
+            <p xml:id="FrMS88-f84138-d1e303">
+               <lb ed="#V" n="32"/>¶ Sed hic occurrunt difficultates.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e309">
+      ¶ Prima 
+      difficul<lb ed="#V" n="33" break="no"/>tas est. quia Aug. de libero arbitrio. dicit quod nullus potest 
+      <lb ed="#V" n="34"/>recte appetere non esse: quia habito non esse nullus fit 
+      meli<lb ed="#V" n="35" break="no"/>or.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e318">
+      ¶ Dico quod ratio concludit in meliori: quia si accipiamus 
+      <lb ed="#V" n="36"/>deteriorem et minus deteriorem. ita secundum rectam rationem 
+      appe<lb ed="#V" n="37" break="no"/>tendum est minus malum quasi sit bonum respectu 
+      maio<lb ed="#V" n="38" break="no"/>ris mali: sed minus malum est non esse quam in blasphemia dei 
+      <lb ed="#V" n="39"/>esse: et ita appetit quod melius est non simpliciter. sed in 
+      compara<lb ed="#V" n="40" break="no"/>tione ad maius malum.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e331">
+      ¶ 2a difficultas. Aug. li. 14. 
+      ci<lb ed="#V" n="41" break="no"/>ui. dei. c. 2s. Ciuitas dei incipit ab amore dei vsque ad 
+      con<lb ed="#V" n="42" break="no"/>temptum sui. Ciuitas dyaboli econuerso. sed secundum te danati 
+      <lb ed="#V" n="43"/>minime se diligunt: quia appetunt non esse. ergo non videtur eos 
+      <lb ed="#V" n="44"/>bertinere ad edificantes ciuitatem dyaboli.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e342">
+      ¶ Dicitur quod 
+      <lb ed="#V" n="45"/>diligunt se: et fruuntur se inordinate: et quia non possunt 
+      inueni<lb ed="#V" n="46" break="no"/>re delectationem in se qua fruantur. ideo vellent magis non 
+      <lb ed="#V" n="47"/>esse quam sic esse. et hoc ex nimia de lectatione sui et 
+      affectio<lb ed="#V" n="48" break="no"/>ne commodi.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e353">
+      ¶ 3a difficultas ppsi diligunt quecumque diligunt 
+      affe<lb ed="#V" n="49" break="no"/>ctione commodi. et per consequens magis se.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e358">
+      ¶ Rspondeo non vi 
+      <lb ed="#V" n="50"/>deo hoc: quia nulla creatura est eis accommoda. et ideo non 
+      <lb ed="#V" n="51"/>apparet quod diligant dilectione commodi.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e366">
+      ¶ 4a difficultiacs. qua 
+      <lb ed="#V" n="52"/>dilectione se diligunt: amicitie: vel concupiscentie: non 
+      con<lb ed="#V" n="53" break="no"/>cupiscentie: quia nihil est eis accommodum: si amicitie 
+      ha<lb ed="#V" n="54" break="no"/>betur intentum: quia non appetunt non esse.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e375">
+      ¶ Dico quod 
+      neu<lb ed="#V" n="55" break="no"/>tro modo se diligunt secundum quod appetunt non esse. Unde cum 
+      <lb ed="#V" n="56"/>tali tristitia nulla potest esse composcibilis dilectio.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e382">
+      ¶ Sed 
+      <lb ed="#V" n="57"/>occurrunt difficultates.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e387">
+      ¶ Prima. quia tota ratio quare se 
+      <lb ed="#V" n="58"/>non diligunt. et volunt magis non esse quam sic esse. sumitur ex 
+      <lb ed="#V" n="59"/>peccato in quo sunt.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e394">
+      ¶ Sed ibi non est peccatum.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e397">
+      ¶ 
+      Re<lb ed="#V" n="60" break="no"/>pondeo. ibi non est demeritum. sed ibi est vere malus 
+      <lb ed="#V" n="61"/>actus et peccatum formaliter. et illud non est eis demeritum: 
+      <lb ed="#V" n="62"/>et est eis magna pena.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e407">
+      ¶ Secunda difficultas. si non 
+      ha<lb ed="#V" n="63" break="no"/>berent tale peccatum: et remaneret pena: si debereni 
+      <lb ed="#V" n="64"/>appetere sic esse:
+    </p>
+            <p xml:id="FrMS88-f84138-d1e414">
+      ¶ Dicitur quod sic: quia iuste sustinent illam 
+      <lb ed="#V" n="65"/>et non essent in malo culpe.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e419">
+      ¶ Tertia difficul. si pueri 
+      <lb ed="#V" n="66"/>in limbo: cum maxima pena puniantur deberent deside¬ 
+      <!--472.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>rare non esse.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e430">
+      ¶ Dico quod illi non habent actum malum: 
+      <lb ed="#V" n="68"/>nec blasphemant: sicut alii. et ideo quia illa pena non impel 
+      <lb ed="#V" n="69"/>lit ad blasphemiam: sicut aliorum tristitia. ideo etc.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e437">
+      ¶ 4a 
+      <lb ed="#V" n="70"/>ifficultas. si illi pueri sint in ira dei. et ex hoc videtur quod 
+      pos<lb ed="#V" n="71" break="no"/>sint appetere non esse:
+    </p>
+            <p xml:id="FrMS88-f84138-d1e444">
+      ¶ Dicitur quod non est ita: sic quod sit 
+      <lb ed="#V" n="72"/>ibi contumelia respectu dei.
+    </p>
+            <p xml:id="FrMS88-f84138-d1e450">
+      ¶ Sed est difficultas. Si 
+      causa<lb ed="#V" n="73" break="no"/>re ntia visionis dei est tanta pena. ergo angeli in sui 
+      crea<lb ed="#V" n="74" break="no"/>tione: et homines in presenti statu: sunt in maxima pena¬ 
+      </p>
+            <p xml:id="FrMS88-f84138-d1e457">
+               <lb ed="#V" n="75"/>¶ Dico quod non est pena: sed conditio pene. sed pro 
+      tempo<lb ed="#V" n="76" break="no"/>re quo exigit: et est quis dispositus ad hoc esset maxima 
+      pe<lb ed="#V" n="77" break="no"/>na. Unde non est pena nisi pro quanto est carentia bom de 
+      <lb ed="#V" n="78"/>biti inesse. Sed angelis pro primo instantis sue creationis: 
+      <lb ed="#V" n="79"/>et hominibus pro presenti statu: illud bonum non est debitum 
+      <lb ed="#V" n="80"/>inesse. ergo eius carentia pro tunc non est pena: sicut 
+      nec<lb ed="#V" n="81" break="no"/>fit iniuria: nec diciet esse pena paruulo filio regis: si infra 
+      an<lb ed="#V" n="82" break="no"/>nos non permittitur regnare. quanuis pro tempore sibi regnum 
+      de<lb ed="#V" n="83" break="no"/>beatur. Sed bene esset sibi pena. si quando peruenit ad perfe 
+      <lb ed="#V" n="84"/>ctam etatem non permitteretur regnare. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

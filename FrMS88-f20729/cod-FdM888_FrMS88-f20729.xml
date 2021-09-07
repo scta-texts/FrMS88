@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f20729"><!-- l2d27q1 -->
+            <head xml:id="FrMS88-f20729-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f20729-d1e111">
+               <lb ed="#V" n="29"/>hic videndum est etc. 
+      <lb ed="#V" n="30"/>CIrca distinctionem. 
+      <lb ed="#V" n="31"/>27. Quero vtrum gratia sit prefectio 
+      anime<lb ed="#V" n="32" break="no"/>rationalis vel alicuius potentie: quod autem sit est 
+      <lb ed="#V" n="33"/>sentia anime probatur: quia dicitur esse vestimentum in 
+      <lb ed="#V" n="34"/>apoca. Cotra augustinus de tri. eo est anima 
+      <lb ed="#V" n="35"/>ad imaginem quao particeps eius est: sed hoc est maxime per gratiam. 
+      <lb ed="#V" n="36"/>quod est perfectio anime: non 
+      <lb ed="#V" n="37"/>hic dicunt aliquin potente. Sicut enim vin 
+      <lb ed="#V" n="38"/>tutes dant primum esse morale: sic gratia primus esse spirituale: esse autem 
+      <lb ed="#V" n="39"/>actus est essentie.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e137">
+      ¶ Sed contra: quia gratia secundum doctores est 
+      ha<lb ed="#V" n="40" break="no"/>bitus et principium operandi. hoc autem non potest esse nisi in poten 
+      <lb ed="#V" n="41"/>tia operante.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e144">
+      ¶ Secundo. quia gratia est principium productiuum actus 
+      me<lb ed="#V" n="42" break="no"/>ritorii: sed omne tale vel est potentia vel habitus.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e149">
+      ¶ Tertio 
+      <lb ed="#V" n="43"/>omne subiectum est in potentia receptiua ad formam: sed si gratia 
+      <lb ed="#V" n="44"/>est in essentia: sequitur quod in aliqua potentia eius.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e157">
+      ¶ 
+      Quar<lb ed="#V" n="45" break="no"/>to. quia gratia est dispositio ad gloriam: gloria autem est forma 
+      <lb ed="#V" n="46"/>in potentia. ergo et gratia. Dico ergo quod estimmediate perfectio 
+      <lb ed="#V" n="47"/>potentie. probatur. Primo sic: quia iste perfectiones que 
+      da<lb ed="#V" n="48" break="no"/>tur anime ad agendum et patiendum in secundaria operatione 
+      <lb ed="#V" n="49"/>sunt perfectiones potentiarum. huiumodi autem est gratia. ergo.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e170">
+      ¶ Secundo. 
+      <lb ed="#V" n="50"/>ad actum meritorium causandum concurrit gratia: non sicut 
+      <lb ed="#V" n="51"/>species vel potentia. ergo sicut habitus.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e177">
+      ¶ Sed 
+      contra<lb ed="#V" n="52" break="no"/>nobilissimi perfectibilis est nobilissima perfectio. 
+      essentia<lb ed="#V" n="53" break="no"/>autem anime est nobilior potentiis. ergo gratia erit eius 
+      <lb ed="#V" n="54"/>perfectio.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e186">
+      ¶ Secundo. quia inter formam et subiectum est 
+      propor<lb ed="#V" n="55" break="no"/>tio. nobilissimum autem accidens est gratia.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e191">
+      ¶ Tertio potentia est 
+      <lb ed="#V" n="56"/>propter essentiam. ergo illa magis diligibilis.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e196">
+      ¶ 
+      Quar<lb ed="#V" n="57" break="no"/>to. quia fortitudo redundat in essentiam anime: ergo dispositio 
+      <lb ed="#V" n="58"/>ad illam erit in ea.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e204">
+      ¶ Ad primum dico. quod essentia anime non est subiectum 
+      <lb ed="#V" n="59"/>immediatum operationum: sed mediantibus qualitatibus.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e209">
+      ¶ Ad  
+      <lb ed="#V" n="60"/>aliud concedo proportiorem: et hoc est potentia non immediate anima¬ 
+      </p>
+            <p xml:id="FrMS88-f20729-d1e214">
+               <lb ed="#V" n="61"/>¶ Ad aliud concedo: quod essentia anime est magis diligibilis: 
+      <lb ed="#V" n="62"/>sicut suppositum hominis: quam gratia eius. vnde si casalitate ignis 
+      <!--323.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="63"/>calefacit: non magis calefacit quam ignis: sed immediatius. 
+      </p>
+            <p xml:id="FrMS88-f20729-d1e227">
+               <lb ed="#V" n="64"/>¶ Ad aliud dico quod redundat in essentiam: quia denominat 
+      <lb ed="#V" n="65"/>ipsam per potentiam.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e234">
+      ¶ Sed hic est difficultas. in 
+      qua<lb ed="#V" n="66" break="no"/>potentia ponitur. Dico quod in voluntate: quia est 
+      nobilissi<lb ed="#V" n="67" break="no"/>ma potentia. nullus etiam est gratus deo actus nisi act 
+      <lb ed="#V" n="68"/>voluntatis.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e243">
+      ¶ Secunda difficultas: si gratia est nobilissime 
+      <lb ed="#V" n="69"/>perfectio. Dicitur quod non in genere naturae: sicut anima et forsitam 
+      ali<lb ed="#V" n="70" break="no"/>que alie sunt perfectiores.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e251">
+      ¶ Tertia difficultas. Si est summe 
+      af<lb ed="#V" n="71" break="no"/>petibilis. Dicitur quod sic: magis omni alia perfectione: et deberet 
+      <lb ed="#V" n="72"/>preeligi anima rationali si posset praescindi quanuis in genere ent 
+      <lb ed="#V" n="73"/>tatis sit anima nobilior non tamen semper appetitus sequitur 
+      en<lb ed="#V" n="74" break="no"/>titatem.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e262">
+      ¶ Alia difficultas est: que necessaritas fuit 
+      ponen<lb ed="#V" n="75" break="no"/>di eam. in voluntate enim creature ad esse gratum non 
+      re<lb ed="#V" n="76" break="no"/>quiritur aliquid aliud nisi actus bonus qui transit.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e269">
+      ¶ Num. 
+      <lb ed="#V" n="77"/>quid autem diuina voluntas non est eque efsicax sicut 
+      volu<lb ed="#V" n="78" break="no"/>tas creata: hic dico quod de potentia absoluta dicitur nulla est 
+      <lb ed="#V" n="79"/>necessitas quin sine omni habitu absoluto: sicut ex bone 
+      <lb ed="#V" n="80"/>actu posset aliquem acceptare: sed hoc fide tenemus¬ 
+      </p>
+            <p xml:id="FrMS88-f20729-d1e280">
+               <lb ed="#V" n="81"/>¶ Sed hic est difficultas si deus posset aliquem acceptare 
+      <lb ed="#V" n="82"/>sine gratia.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e287">
+      ¶ Dico quod sic ad vitam eternam sine aliquo. ab 
+      <lb ed="#V" n="83"/>soluto.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e292">
+      ¶ Sed numquid posset aliquis odiri in gratia. Dico quod 
+      <lb ed="#V" n="84"/>sic: quia non cogitur ad diligendum aliquem: vel aliquid aliud 
+      <lb ed="#V" n="85"/>extra se: sed hoc est de potentia ordinata: quod requiritur 
+      </p>
+            <p xml:id="FrMS88-f20729-d1e300">
+               <lb ed="#V" n="86"/>¶ Alia diftiacul. quid est magis acceptum vel actus vel 
+      <lb ed="#V" n="87"/>habitus: per illam regulam: propter quod vnumquodque tale et 
+      <lb ed="#V" n="88"/>illud magis. videtur quod habitus: quia actus non accepta 
+      <lb ed="#V" n="89"/>tur nisi in habitudine ad habitum gratie quo elicitur.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e311">
+      ¶ Sed 
+      <lb ed="#V" n="90"/>quid est nobilius ens actus vel habitus: Dico quod actus: 
+      <lb ed="#V" n="91"/>quia propter ipsum est habitus.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e318">
+      ¶ Confirmatur. quia in actu 
+      consi<lb ed="#V" n="92" break="no"/>stit habitudo.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e323">
+      ¶ Sed nunquid effectus formalis gratie 
+      <lb ed="#V" n="93"/>differt a gratia. Dicit quidam doctor quod sic etiam in accidenti 
+      <lb ed="#V" n="94"/>bus: quia si albedo esset separata tota entitas albedinis 
+      <lb ed="#V" n="95"/>abstracta esset et entitas substanti. ergo aliquid superuenit in 
+      <lb ed="#V" n="96"/>albo. scilicet tertia entitas.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e334">
+      ¶ Sed contra arguitur: quia tunc 
+      <lb ed="#V" n="97"/>compositum de genere accidentis esset vnum formalitera 
+      <lb ed="#V" n="98"/>Iterum esse album esset nobilius quam esse hominem: quia 
+      con<lb ed="#V" n="99" break="no"/>positum est nobilius partibus suis: et ita esse hominem al 
+      <lb ed="#V" n="100"/>bum est nobilius homine.
+    </p>
+            <p xml:id="FrMS88-f20729-d1e345">
+      ¶ Quid ergo dicit album: 
+      <lb ed="#V" n="101"/>Dico quod non albedinem tantum et subiectum: sed sunt sibi 
+      <lb ed="#V" n="102"/>duo extrema et due relationes: sicut esse gratiam dicit 
+      <lb ed="#V" n="103"/>gratiam et habitudinem forme et receptionem 
+      subie<lb ed="#V" n="104" break="no"/>cti: quibus positis est esse album: et ita concedo quod esse 
+      <lb ed="#V" n="105"/>album includit absolutum et respectiuum: vnde talia non 
+      <lb ed="#V" n="106"/>sunt in genere.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

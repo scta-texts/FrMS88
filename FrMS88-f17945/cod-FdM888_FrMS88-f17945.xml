@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f17945"><!-- l2d14q10 -->
+            <head xml:id="FrMS88-f17945-Hd1e108">Quaestio 10</head>
+            <p xml:id="FrMS88-f17945-d1e111">
+               <lb ed="#V" n="82"/>¶ Questio. <sic>ix.</sic> 
+               <lb ed="#V" n="83"/>Secunda questio est: vtrum reuo 
+      <lb ed="#V" n="84" break="no"/>lutio celi dicat aliquid 
+      re<lb ed="#V" n="85" break="no"/>spectiuum vel absolutum: et videtur quod 
+      <lb ed="#V" n="86"/>non respectiuum: quia motus.
+    </p>
+            <p xml:id="FrMS88-f17945-d1e128">
+      ¶ Contra 
+      <lb ed="#V" n="87"/>ille motus est ad vbi. 
+      <lb ed="#V" n="88"/>aliqui quod motus localis est 
+      reali<lb ed="#V" n="89" break="no"/>hic dicun t tas absoluta: quia si esset respectiua 
+      <lb ed="#V" n="90"/>esset in puncto determinato.
+    </p>
+            <p xml:id="FrMS88-f17945-d1e139">
+      ¶ Contra. motus non est terio 
+      <lb ed="#V" n="91"/>absolutior: quia est eius.
+    </p>
+            <p xml:id="FrMS88-f17945-d1e144">
+      ¶ Secundo. quia ex se habet terminum 
+      <lb ed="#V" n="92"/>secundum quod huius est respectiuum.
+    </p>
+            <p xml:id="FrMS88-f17945-d1e150">
+      ¶ Tertio. quia in eius ratione 
+      <lb ed="#V" n="93"/>includitur prius et posterius.
+    </p>
+            <p xml:id="FrMS88-f17945-d1e155">
+      ¶ Quarto. quia nulla potentia 
+      exe<lb ed="#V" n="94" break="no"/>cutiua continet virtualiter formam absolutam.
+    </p>
+            <p xml:id="FrMS88-f17945-d1e160">
+      ¶ Dico igitur quod 
+      <lb ed="#V" n="95"/>est forma respectiua.
+    </p>
+            <p xml:id="FrMS88-f17945-d1e165">
+      ¶ Sed quis respectus: Dico quod 
+      <lb ed="#V" n="96"/>est respectus successiuus aliquorum sibiinuincem 
+      succe<lb ed="#V" n="97" break="no"/>dentium.
+    </p>
+            <p xml:id="FrMS88-f17945-d1e172">
+      ¶ Secunda difficultas. In quo fundatur 
+      il<lb ed="#V" n="98" break="no"/>la successio: Dico quod in vbi immediate: pars enim mo 
+      <lb ed="#V" n="99"/>bilis non est post partem: sed sunt simul: sed est 
+      succes<lb ed="#V" n="100" break="no"/>sio in partibus termini motus: sicut fundamentum 
+      diui<lb ed="#V" n="101" break="no"/>sionibus sunt partes que diuiduntur.
+    </p>
+            <p xml:id="FrMS88-f17945-d1e183">
+      ¶ Tertia 
+      difficul<lb ed="#V" n="102" break="no"/>tas. ad quid terminatur ille motus: Dico quod ad aliam 
+      <lb ed="#V" n="103"/>partem que acquiritur: ita quod fundatur in priori: et terminatur ad 
+      <lb ed="#V" n="104"/>posteriorem.
+    </p>
+            <p xml:id="FrMS88-f17945-d1e193">
+      ¶ Quarta difficultas. quod est eius 
+      oppo<lb ed="#V" n="105" break="no"/>situm: Dico quod simultas: quando enim partes termini inducuntur 
+      <lb ed="#V" n="106"/>simul est simplex mutatio: quando successiue autem tunc est mo 
+      <lb ed="#V" n="107"/>tus.
+    </p>
+            <p xml:id="FrMS88-f17945-d1e202">
+      ¶ Sed hic est difficultas: quia videtur quod respectus non 
+      <lb ed="#V" n="108"/>praecipitur sensu. Dico quod falsum est: immo distantia percipitur 
+      <lb ed="#V" n="109"/>ensu: tamen concedo quod motum non videtur.
+    </p>
+            <p xml:id="FrMS88-f17945-d1e209">
+      ¶ Secunda difficulta 
+      <lb ed="#V" n="110"/>si motus est successio vel successiuum. intelligimus autem 
+      <lb ed="#V" n="111"/>per successiuum illud quod acquritur et est hec forma non 
+      <lb ed="#V" n="112"/>motus.
+    </p>
+            <p xml:id="FrMS88-f17945-d1e218">
+      ¶ Sed quid est motus: dicitur quod non forma fluens: sed 
+      <lb ed="#V" n="113"/>fluxus forme qui non est nisi successio forme: sed tunc mo 
+      <lb ed="#V" n="114"/>tus est posterior termino: quia fundatur in partibus eius. 
+      Di<lb ed="#V" n="115" break="no"/>co quod sicut productio est posterior termino: ita in 
+      proposi<lb ed="#V" n="116" break="no"/>to. Dico tamen quod terminus motus est duplex. 
+      intrin<lb ed="#V" n="117" break="no"/>secus: et ille est prior: et extrinsecus: et ille est posterior. 
+      <lb ed="#V" n="118"/>som se 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

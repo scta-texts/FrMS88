@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f69401"><!-- l4d21q4 -->
+            <head xml:id="FrMS88-f69401-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f69401-d1e111">
+               <lb ed="#V" n="31"/>QUarto queritur. vtrum quodlibet secretum
+      <lb ed="#V" n="32"/> seruare sit de iure naturali.
+    </p>
+            <p xml:id="FrMS88-f69401-d1e118">
+      ¶ Quod 
+      <lb ed="#V" n="33"/>non. quia potest esse in praeudicium illi.
+    </p>
+            <p xml:id="FrMS88-f69401-d1e123">
+      ¶ Contra. 
+      <lb ed="#V" n="34"/>lde iure naturae est quod depositum est de bonis fortu 
+      <lb ed="#V" n="35"/>ne seruetur. ergo et depositum de bonis anime.
+    </p>
+            <p xml:id="FrMS88-f69401-d1e130">
+               <lb ed="#V" n="36"/>hic sciendum quod secretum potest haberi 
+      multi<lb ed="#V" n="37" break="no"/>pliciter: vel de se ipso: vel de 
+      <lb ed="#V" n="38"/>alio: ita quod solus vidit. Tertio modo si per commissionem vt 
+      <lb ed="#V" n="39"/>si sibi in secreto aliquid sit commissum. Quarto modo per iurit 
+      <lb ed="#V" n="40"/>ditionem. quasi extorquendo vt quando praecipitur a prelato 
+      <lb ed="#V" n="41"/>sub pena excommunicationis vel per obedientiam vt 
+      subdi<lb ed="#V" n="42" break="no"/>tus aliquod secretum sibi reuelet etc.
+    </p>
+            <p xml:id="FrMS88-f69401-d1e149">
+      ¶ Dico tunc. quod 
+      quodli<lb ed="#V" n="43" break="no"/>pet tale secretum est seruandum inure nature: quia cum bonum 
+      <lb ed="#V" n="44"/>ame sit maius quam bonum fortune naturaliter quis plus 
+      te<lb ed="#V" n="45" break="no"/>netur seruare depositum secreti quam bona fortune 
+      deposi<lb ed="#V" n="46" break="no"/>ta penes ipsum.
+    </p>
+            <p xml:id="FrMS88-f69401-d1e160">
+      ¶ Sed hic est dubium. si habet secretum de 
+      se<lb ed="#V" n="47" break="no"/>pso nunquid per obedientiam requisitus tenetur reuelare: 
+      </p>
+            <p xml:id="FrMS88-f69401-d1e165">
+               <lb ed="#V" n="48"/>¶ Aliquo dicunt quod non.
+    </p>
+            <p xml:id="FrMS88-f69401-d1e170">
+      ¶ Sed contra. sicut iuramentum est 
+      te<lb ed="#V" n="49" break="no"/>nendum in quocumque casu: quando non est contra charitatem. ita 
+      <lb ed="#V" n="50"/>obedientia. vt si praelatus praecipiat per obedientiam 
+      subdi<lb ed="#V" n="51" break="no"/>to: vt eum emendet: non vt puniat: ita quod ille benefaceret: 
+      <lb ed="#V" n="52"/>etiam non requisitus: si diceret prelato suo: nec videtur esse 
+      <lb ed="#V" n="53"/>contra charitatem si se in tali casu prodat.
+    </p>
+            <p xml:id="FrMS88-f69401-d1e183">
+      ¶ 2m du. de 
+      <lb ed="#V" n="54"/>secundo secreto: quod solus vidit de alio: si sit requisitus per obstantiam. 
+      </p>
+            <p xml:id="FrMS88-f69401-d1e188">
+               <lb ed="#V" n="55"/>¶ Dicitur quod sic eadem ratione: vt prelatus precaueat. quia hoc non 
+      <lb ed="#V" n="56"/>reuelat in proximi detrimentum: sed in eius presidium. 
+      </p>
+            <p xml:id="FrMS88-f69401-d1e196">
+               <lb ed="#V" n="57"/>¶ Sed quid de fidecommisso: si requisitus per obstantiam tenetur 
+      <lb ed="#V" n="58"/>reuelare.
+    </p>
+            <p xml:id="FrMS88-f69401-d1e203">
+      ¶ Respondeo qulibet tenetur seruare depositum nisi 
+      cede<lb ed="#V" n="59" break="no"/>ret ei in detrimentum. sicut exemplificatur de gladio 
+      fu<lb ed="#V" n="60" break="no"/>riosi: qui non sibi: sed alteri dabet reddi.
+    </p>
+            <p xml:id="FrMS88-f69401-d1e210">
+      ¶ Eodem modo de se 
+      <lb ed="#V" n="61"/>creto videtur esse tenendum vt praecaueatur sibi et ad vtilitatem: non 
+      <lb ed="#V" n="62"/>ad diffamationem eius: sic per hoc non violatur si secretum 
+      <lb ed="#V" n="63"/>accepit: quia bona intentio hoc excusat.
+    </p>
+            <p xml:id="FrMS88-f69401-d1e219">
+      ¶ Sed quid si 
+      sub<lb ed="#V" n="64" break="no"/>pena excommunicationis hoc exigatur.
+    </p>
+            <p xml:id="FrMS88-f69401-d1e224">
+      ¶ Dicendum est etiam 
+      <lb ed="#V" n="65"/>quod sic multo magis: non tamen secretum daciet trahere in 
+      publi<lb ed="#V" n="66" break="no"/>cum: et de hoc cauere dabtet.
+    </p>
+            <p xml:id="FrMS88-f69401-d1e231">
+      ¶ Sed nunquid ex secreto confes¬ 
+      <!--438.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>sionis praelatus potest ipsum retrahere a promotione.
+    </p>
+            <p xml:id="FrMS88-f69401-d1e241">
+      ¶ Di 
+      <lb ed="#V" n="68"/>co quod nullo modo nec ab officio ipsum amouere. immo esset 
+      <lb ed="#V" n="69"/>magnum sacrilegium: nisi hoc per aliam viam haberet. Nota de 
+      <lb ed="#V" n="70"/>hoc melius.
+    </p>
+            <p xml:id="FrMS88-f69401-d1e250">
+      ¶ Sed quid si secundum formam euangelii dicat quis: 
+      <lb ed="#V" n="71"/>caueas tibi. alioquin dicam tribus.
+    </p>
+            <p xml:id="FrMS88-f69401-d1e255">
+      ¶ Respondeo ste posset habere 
+      <lb ed="#V" n="72"/>taelum dei: sed non secundum scientiam. christus enim loquitur quantum ad illos 
+      <lb ed="#V" n="73"/>non vt retrahant aliquid de foro secreto ad forum publi 
+      <lb ed="#V" n="74"/>cum: sed stando in foro secreto. Et requisitus per 
+      obe<lb ed="#V" n="75" break="no"/>dientiam: dicibet reuelare: vt prosit ei. sed periculosum est 
+      <lb ed="#V" n="76"/>trahere ad forum publicum. ista dicta sint non de secreto 
+      <lb ed="#V" n="77"/>confessionis. quia illud nullo modo est violandum.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="130-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e97164"><!-- l1d43-44q8 -->
+            <head xml:id="FrMS88-e97164-Hd1e108">Quaestio 8</head>
+            <p xml:id="FrMS88-e97164-d1e111">
+      Questio. viii. 
+      <lb ed="#V" n="72"/>OCtauo queritur. vtrum deus possit 
+      sup<lb ed="#V" n="73" break="no"/>plere vicem cuiuscumque causa ecunde 
+      <lb ed="#V" n="74"/>efficientis. causando totaliter illum 
+      effectum<lb ed="#V" n="75" break="no"/>Quod non. quia deus actum mentiendi potest causare me 
+      <lb ed="#V" n="76"/>diante causa secunda. cum concurrat cum ipsa: et tamen 
+      imme<lb ed="#V" n="77" break="no"/>diate per se mentiri non potest. Unde Numeri. 23. non est 
+      <lb ed="#V" n="78"/>deus quasi homo vt mentiatur.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e129">
+      ¶ Contra. Iob. 42. Scio 
+      <lb ed="#V" n="79"/>consequene inquit Iob. quod omnia potes. ergo etc. 
+      <lb ed="#V" n="80"/>sminia omnium doctor quod 
+      quic<lb ed="#V" n="81" break="no"/>hic est communis quid potest dus facere me 
+      <lb ed="#V" n="82"/>diante causa secunda in genere causare efficientis. potest immediate per se 
+      <lb ed="#V" n="83"/>quia est causa prima et perfectissima.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e142">
+      ¶ Sed tamen ista regula de 
+      <lb ed="#V" n="84"/>claratur 4r. Primo sic. quicquid continet continens continet et 
+      com<lb ed="#V" n="85" break="no"/>tentum: sed deus continet virtualiter omnem causam secundam. ergo 
+      conti<lb ed="#V" n="86" break="no"/>net omnem effectum in ea contentum: sed omne continens aliquid 
+      vir<lb ed="#V" n="87" break="no"/>tualiter. potest illud causare. ergo deus potest illud causare.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e153">
+      ¶ 2o sic. 
+      <lb ed="#V" n="88"/>omne illud quod nullam imperfectionem dicit: potest deo attribui: 
+      <lb ed="#V" n="89"/>sed causalitas effectiua nullam imperfectionem dicit nec ponit in 
+      <lb ed="#V" n="90"/>creatura. ergo potest deo attribui.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e163">
+      ¶ 3o sic. Nam si deo 
+      re<lb ed="#V" n="91" break="no"/>pugnaret causalitas totalis respectu omnium effectuum. hoc 
+      <lb ed="#V" n="92"/>potissime esset in effectibus insimis. respectu quorum non 
+      <lb ed="#V" n="93"/>videtur esse magne nobilitatis causatio: et tamen hoc non 
+      obstan<lb ed="#V" n="94" break="no"/>te in entibus imperfectissimis: qualis est prima materia. deus est 
+      to<lb ed="#V" n="95" break="no"/>talis causa. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e176">
+      ¶ 4o sic. nam si totalis causatio alicuius 
+      <lb ed="#V" n="96"/>effectus esset imperfectionis. multo magis partialis 
+      cau<lb ed="#V" n="97" break="no"/>satio esset imperfectionis. quia respectu eiusdem totale est 
+      <lb ed="#V" n="98"/>melius quam partiale: cum ergo deus partialiter causet omnem 
+      <lb ed="#V" n="99"/>effectum vt patuit. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e187">
+      ¶ Sed contra hanc regulam instatur 4r. 
+      <lb ed="#V" n="100"/>Primo sic. quia similitudo dependet a termino essentialiter. 
+      <lb ed="#V" n="101"/>Constat autem quod illa dependentia non est ad causam intrinsecam. 
+      <lb ed="#V" n="102"/>ergo ad extrinsecam. non videtur autem nisi effectiua. et 
+      ta<lb ed="#V" n="103" break="no"/>men deus non potest facere respectum sine termino.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e198">
+      ¶ 2o sic. 
+      <lb ed="#V" n="104"/>nam deus actum liberum potest causare mediante voluntate: et tamen si 
+      <lb ed="#V" n="105"/>ne voluntate impossibile est. quia si eum sine voluntate causaret: iam 
+      <lb ed="#V" n="106"/>non esset liber.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e207">
+      ¶ 3o sic. quia mediante obiecto potest causare 
+      noti<lb ed="#V" n="107" break="no"/>tiam intuitiuam de obiecto. et tamen sine eo non potest. nam tunc 
+      <lb ed="#V" n="108"/>videretur quod non est. quod tamen est impossibile.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e214">
+      ¶ 4o sic. quia 
+      <lb ed="#V" n="109"/>mediante causa secunda deus potest facere quod effectus causare 
+      natura<lb ed="#V" n="110" break="no"/>lis sit effectus naturalis: et tamen sine causa secunda hoc non potest. 
+      </p>
+            <p xml:id="FrMS88-e97164-d1e222">
+               <lb ed="#V" n="111"/>¶ hec autem confirmantur quadruplici exemplo. Primo. quia 
+      <lb ed="#V" n="112"/>mediante sole causat radium ille autem respectus quo radius 
+      <lb ed="#V" n="113"/>dependet a sole est generari eius. si ergo regula est vera: sicut 
+      <lb ed="#V" n="114"/>habet generari mediante sole: ita sine sole.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e233">
+      ¶ 2o quia deus 
+      me<lb ed="#V" n="115" break="no"/>diante Adam fecit cavn filium suum. ergo sine Adam potuis 
+      <lb ed="#V" n="116"/>set fieri cavn filius. Tunc quaero cuius. non dei. nec Ade. 
+      <lb ed="#V" n="117"/>quia non erat nec Abel. ergo nullius. et per consequens non esset 
+      fi<lb ed="#V" n="118" break="no"/>lius. quia alicuius fuisset.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e244">
+      ¶ 3o. quia deus videtur median 
+      <lb ed="#V" n="119"/>te sole producere radium generatum. ergo si sine sole poterit. 
+      <lb ed="#V" n="120"/>tunc quaro a quo erit generatus. non a deo: quia deus nihil ge 
+      <lb ed="#V" n="121"/>nerat ad extra. nec ab aliquo alio. vt patet. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e253">
+      ¶ 4o quia 
+      <lb ed="#V" n="122"/>licet deus actum intelligendi possit causare sine quocumque alio: 
+      <lb ed="#V" n="123"/>non tamen verbum: et tamen mediante memoria eum potest causare. ergo etc. 
+      <lb ed="#V" n="124"/>Eodem modo arguitur de amore spirato sicut de verbo. 
+      </p>
+            <p xml:id="FrMS88-e97164-d1e262">
+               <lb ed="#V" n="125"/>¶ Ad primum dico. quod si dependentia illa qua dependet 
+      re<lb ed="#V" n="126" break="no"/>latio a termino est effectiua sic omnes rationes ille conuincunt. 
+      <lb ed="#V" n="127"/>supposito quod relatio sine termino esse non possit. nec etiam 
+      <lb ed="#V" n="128"/>intelligi: ideo regula ista vniversaliter solum est ponenda in 
+      absolu<lb ed="#V" n="129" break="no"/>tis et in relatiuis extrinsecis.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e275">
+      ¶ Ad 2m dico. quod actus non 
+      <lb ed="#V" n="130"/>est liber. nisi in habitudine ad potentiam liberam a qua 
+      eli<lb ed="#V" n="131" break="no"/>citur: et ideo est in actu libertas respectu voluntatis: et hoc 
+      <lb ed="#V" n="132"/>non est nisi ipsum esse causatum contingenter ab ea. et tunc 
+      re<lb ed="#V" n="133" break="no"/>gula non habet locum.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e287">
+      ¶ Ad 3m quod intuitiua notitia in 
+      <!--264.xml-->
+      <pb ed="#V" n="131-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>eludit aliquo modo habitudinem ad obiectum vt existens 
+      <lb ed="#V" n="2"/>est.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e300">
+      ¶ Ad 4m quod omnia illa sunt relatiua.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e303">
+      ¶ Ad rationem in 
+      <lb ed="#V" n="3"/>princinpio dicitur quod si causaret totaliter deus actum 
+      mentien<lb ed="#V" n="4" break="no"/>di. ipse non mentiretur: sed ille in quo esset simpliciter formaliter 
+      <lb ed="#V" n="5"/>iste actus: sicut si causaret actum intelligendi: ipse illo actu non 
+      <lb ed="#V" n="6"/>ntelligeretur. Eodem modo de omnibus rationibus dicendum esti 
+      <lb ed="#V" n="7"/>sicut de prima.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e316">
+      ¶ Sed tunc est dubium: quia omnes ille rationes 
+      <lb ed="#V" n="8"/>inducte ad probandum quod deus potest per se quicquid potest 
+      me<lb ed="#V" n="9" break="no"/>diante causa secuna: ita concludunt de relatiuis: sicut de 
+      absolu<lb ed="#V" n="10" break="no"/>tis. Patet de prima: quia ita includit virtualiter et continet 
+      re<lb ed="#V" n="11" break="no"/>lationem: sicut absolutum. Similiter secunda. quia posse producere 
+      <lb ed="#V" n="12"/>relationem nullam imperfectionem includit. Similiter 3a de 
+      <lb ed="#V" n="13"/>infinitate entium: posito quod aliqua relatio sit nobilius ens 
+      <lb ed="#V" n="14"/>quam aliquod absolutum. Similiter 4a de partiali causalitate. 
+      </p>
+            <p xml:id="FrMS88-e97164-d1e334">
+               <lb ed="#V" n="15"/>¶ his tamen non obstantibus dico et credo quod illa regula 
+      quae<lb ed="#V" n="16" break="no"/>est communiter a theologis concessa. est vera in absolutis: et 
+      <lb ed="#V" n="17"/>tamen non in relatiuis.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e343">
+      ¶ Quando dicitur quod rationes con 
+      <lb ed="#V" n="18"/>cludunt de relatiuis sicut de absolutis.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e349">
+      ¶ Dico quod non 
+      <lb ed="#V" n="19"/>propter illas rationes nec propter aliqua quae mihi occurrunt. 
+      <lb ed="#V" n="20"/>teneo de absolutis et no de relatiuis quod regula sit vera: 
+      <lb ed="#V" n="21"/>sed solum teneo quod de absolutis nulla euidens repugnan 
+      <lb ed="#V" n="22"/>tia apparet vel occurrit quare non. In relatiuis autem 
+      ap<lb ed="#V" n="23" break="no"/>paret impossibile propter rationes factas.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e362">
+      ¶ Ad rationes quae 
+      conclu<lb ed="#V" n="24" break="no"/>dunt pro relatiuis.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e367">
+      ¶ Ad primam dico. quod continet virtua. 
+      <lb ed="#V" n="25"/>liter relationem suo ordine et suo modo producibilitatis. non 
+      <lb ed="#V" n="26"/>ant illo modo quo sibi repugnat causari.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e374">
+      ¶ Ad 2m dico. quod 
+      causa<lb ed="#V" n="27" break="no"/>re relationem totaliter necessario includit terminare eam. et 
+      termi<lb ed="#V" n="28" break="no"/>nare illam est imperfectionis hinc est quod deus non potest eam 
+      causa<lb ed="#V" n="29" break="no"/>re totaliter quia hoc est imperfectionis. Similiter posset dici ad 
+      <lb ed="#V" n="30"/>alias rationes.
+    </p>
+            <p xml:id="FrMS88-e97164-d1e385">
+      ¶ Ad argumentum patet. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="223-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f74470"><!-- l4d36q1 -->
+            <head xml:id="FrMS88-f74470-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f74470-d1e111">
+               <lb ed="#V" n="116"/>Nunc autem de conditione etc. 
+      <lb ed="#V" n="117"/>Hic incipit distinctio. 36a. Circa 
+      <lb ed="#V" n="118"/>quam / queritur. vtrum 
+      <lb ed="#V" n="119"/>seruitus impediat matrimonium. Quod sic. 
+      <lb ed="#V" n="120"/>quia nullus potest dare alienum. sed seruus 
+      <lb ed="#V" n="121"/>non est dominus corporis sui. igitur non 
+      <lb ed="#V" n="122"/>potest ipsum submittere alterius potestati 
+      </p>
+            <p xml:id="FrMS88-f74470-d1e129">
+               <lb ed="#V" n="123"/>¶ Contra patet de facto. 
+      <lb ed="#V" n="124"/>quatuor conclusiones.
+    </p>
+            <p xml:id="FrMS88-f74470-d1e136">
+      ¶ Prima est. si liber sciat 
+      <lb ed="#V" n="125"/>Hic sunt alterum esse seruum et contrahat: quod non 
+      <lb ed="#V" n="126"/>impedit matrimonium.
+    </p>
+            <p xml:id="FrMS88-f74470-d1e143">
+      ¶ Secunda conclusio. quod quan 
+      <lb ed="#V" n="127"/>do ignorat. tunc nullum est matrimonium.
+    </p>
+            <p xml:id="FrMS88-f74470-d1e149">
+      ¶ Tertia 
+      <lb ed="#V" n="128"/>conclusio. quod si superueniat liberatio a seruitute: ita quod per do 
+      <lb ed="#V" n="129"/>minum efficiatur liber a seruitute ratificatur matrimonio¬ 
+      <!--450.xml-->
+      <pb ed="#V" n="224-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>nium.
+    </p>
+            <p xml:id="FrMS88-f74470-d1e165">
+      ¶ Quarta conclusio quod si superueniat copula carnalis 
+      quan<lb ed="#V" n="2" break="no"/>do sciunt seruitutem ratificatur matrimonium.
+    </p>
+            <p xml:id="FrMS88-f74470-d1e170">
+      ¶ Sed posset 
+      ne<lb ed="#V" n="3" break="no"/>seruus cum ancilla contra here:
+    </p>
+            <p xml:id="FrMS88-f74470-d1e175">
+      ¶ Dicitur quod sic estia inuito divcuno.
+    </p>
+            <p xml:id="FrMS88-f74470-d1e178">
+      ¶ Sed 
+      <lb ed="#V" n="4"/>potest ne aliquis vendi in seruum: de hoc est dubium.
+    </p>
+            <p xml:id="FrMS88-f74470-d1e183">
+      ¶ Sed quid si 
+      fe<lb ed="#V" n="5" break="no"/>tus generetur ab ancilla: est ne liber:
+    </p>
+            <p xml:id="FrMS88-f74470-d1e189">
+      ¶ Dicitur quod fetus sequitur 
+      con<lb ed="#V" n="6" break="no"/>ditionem matris. Aliqui dicunt quod diciet sequi matrem. Aliqui dicunt quod 
+      nun<lb ed="#V" n="7" break="no"/>quam aliquis nascitur seruus et hoc videtur rationabile.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

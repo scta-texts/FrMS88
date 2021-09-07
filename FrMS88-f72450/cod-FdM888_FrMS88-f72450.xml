@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f72450"><!-- l4d25q3 -->
+            <head xml:id="FrMS88-f72450-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f72450-d1e111">
+               <lb ed="#V" n="55"/>TErtio quaeritur vtrum quolibet episcopus possit 
+      ordina<lb ed="#V" n="56" break="no"/>re. Quod sic. quia qualiter hec potestatem.
+    </p>
+            <p xml:id="FrMS88-f72450-d1e118">
+      ¶ contra 
+      <lb ed="#V" n="57"/>quia interdum interueniunt 
+      impedimenta
+    </p>
+            <p xml:id="FrMS88-f72450-d1e123">
+               <lb ed="#V" n="58"/>Ista quaestio mota est propter. 5. difficultates. 
+      <lb ed="#V" n="59"/>que hoc ocurunt.
+    </p>
+            <p xml:id="FrMS88-f72450-d1e130">
+      ¶ 
+      Prima<lb ed="#V" n="60" break="no"/>est si epters fit haberticus. vtrum potest ordinare.
+    </p>
+            <p xml:id="FrMS88-f72450-d1e136">
+      ¶ Dico quod sic. si 
+      <lb ed="#V" n="61"/>cunt potest consecrare. quae tamen ab eo ordines scienter reciperet pec 
+      <lb ed="#V" n="62"/>cat mortaliter: et est irregularis. malitia tamen ministri non 
+      <lb ed="#V" n="63"/>impeditiquin sacramentum recipiant de fcoto.
+    </p>
+            <p xml:id="FrMS88-f72450-d1e145">
+      ¶ Sed numquid 
+      scisma<lb ed="#V" n="64" break="no"/>ticus:
+    </p>
+            <p xml:id="FrMS88-f72450-d1e150">
+      ¶ Dico quod sic eodem modo: si habeat intentionem faciem 
+      <lb ed="#V" n="65"/>di quod facit ecclearia.
+    </p>
+            <p xml:id="FrMS88-f72450-d1e155">
+      ¶ Sed numquid eprters excomnicatus: Dico 
+      <!--445.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>quod excomunicatio non impedit caracterem epritalem. sicut 
+      nes<lb ed="#V" n="67" break="no"/>caracterem sacerdotalem ad consecrandum. peccat tamen et effici 
+      <lb ed="#V" n="68"/>tur irregularis.
+    </p>
+            <p xml:id="FrMS88-f72450-d1e168">
+      ¶ Sed numquid eprters irregularis potest: 
+      </p>
+            <p xml:id="FrMS88-f72450-d1e171">
+               <lb ed="#V" n="69"/>¶ Dico quod sic.
+    </p>
+            <p xml:id="FrMS88-f72450-d1e177">
+      ¶ Sed numquid scismaticus et hereticus 
+      </p>
+            <p xml:id="FrMS88-f72450-d1e180">
+               <lb ed="#V" n="70"/>¶ Dico quod sic. vnde greci vere ordinant: alites non conficerent: 
+      <lb ed="#V" n="71"/>sed peccat et est irregularis. Similiter dicitur de suspieso.
+    </p>
+            <p xml:id="FrMS88-f72450-d1e187">
+      ¶ Sed 
+      <lb ed="#V" n="72"/>hic occurrit difficul. maior.
+    </p>
+            <p xml:id="FrMS88-f72450-d1e192">
+      ¶ Si eprters degradatus potest: 
+      </p>
+            <p xml:id="FrMS88-f72450-d1e195">
+               <lb ed="#V" n="73"/>¶ Dicunt aliqui quod non: quia iurisditio et caracter sibi 
+      au<lb ed="#V" n="74" break="no"/>feruntur.
+    </p>
+            <p xml:id="FrMS88-f72450-d1e202">
+      ¶ Sed contra hoc est: quia ordo episcopalis est 
+      <lb ed="#V" n="75"/>niterabilis: sicut cuiuslibet ordinis: tunc autem esset intera 
+      <lb ed="#V" n="76"/>bilis. verbi gratia. si in degradatione auferret sibi 
+      cara<lb ed="#V" n="77" break="no"/>cterem. ponatur quod papa postea absoluat eum a 
+      pena<lb ed="#V" n="78" break="no"/>per te non erit episcopus. Si igitur deberet fieri 
+      episco<lb ed="#V" n="79" break="no"/>pus. oportet quod interum ordinetur: et ita sacramentum ordinis 
+      inte<lb ed="#V" n="80" break="no"/>raretur: et fieret irreuerentia sacramento. et per consequens 
+      con<lb ed="#V" n="81" break="no"/>mitteretur sacrilegium.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

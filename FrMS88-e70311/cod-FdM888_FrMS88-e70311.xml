@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="95-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e70311"><!-- l1d30q1 -->
+            <head xml:id="FrMS88-e70311-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-e70311-d1e111">
+               <lb ed="#V" n="83"/>¶ Distinctio. xxx. Quaestio. 
+      <lb ed="#V" n="84"/>Sunt enim quaedam ex tempore de deo dicuntur. 
+      <lb ed="#V" n="85"/>distinctionem oniam. postquam 
+      vi<lb ed="#V" n="86" break="no"/>Irc. ea sum est de relationibus que sum 
+      <lb ed="#V" n="87"/>in creaturis. videndum est de relationibus 
+      <lb ed="#V" n="88"/>que sunt in deo. Et quantum ad hoc quaro. 
+      <lb ed="#V" n="89"/>primo. Utrum necessario sit ponere in deo 
+      re<lb ed="#V" n="90" break="no"/>lationes rationis ad creaturam que ex 
+      ten<lb ed="#V" n="91" break="no"/>pore denominent ipsum deum: quod sic. Nam Augu. dicit quod 
+      <lb ed="#V" n="92"/>necesse est ponere in deo respectu creature dominatio 
+      <lb ed="#V" n="93"/>nem. divuenatio autem est relatio rationis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e137">
+      ¶ Contra 
+      <lb ed="#V" n="94"/>Circumscripto omni actu intellectus non est relatio rationis. 
+      <lb ed="#V" n="95"/>4or praedicata quae 
+      dicun<lb ed="#V" n="96" break="no"/>hic introducutur tur de deo ex tempore. 
+      </p>
+            <p xml:id="FrMS88-e70311-d1e146">
+               <lb ed="#V" n="97"/>¶ Primum praedicatum est actionis. Deus enim dicitur agens 
+      <lb ed="#V" n="98"/>respcum creature. et non ab eterno dicebatur agens.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e153">
+      ¶ 2m 
+      <lb ed="#V" n="99"/>est similitudo. Ex tempore enim deum dicitur similis creature et creatura 
+      <lb ed="#V" n="100"/>sibi assimilatur.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e161">
+      ¶ 3m est inequalitas. Ex tempore enim deus dicitur 
+      <lb ed="#V" n="101"/>maior creatura et perfectior.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e166">
+      ¶ 4m est distinctio. quia 
+      <lb ed="#V" n="102"/>deus actualiter distinguitur a creatura. et dicitur distingui 
+      ex<lb ed="#V" n="103" break="no"/>tempore. Difficultas ergo istius quaestionis est. quomodo ista dicuntur 
+      <lb ed="#V" n="104"/>de deo ex tempore. et est quadruplex modus dicendi. Quidam 
+      <lb ed="#V" n="105"/>enim saluant per respectum rationis. non enim aduenit deo aliquiod 
+      <lb ed="#V" n="106"/>absolutum de nouo nec aliquis respectus realis vi 
+      <lb ed="#V" n="107"/>postea patebit. ergo oportet quod hic sit respectus et non realis. 
+      <lb ed="#V" n="108"/>sed rationis.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e184">
+      ¶ Contra. Illud non potest saluari precise per 
+      <lb ed="#V" n="109"/>actum rationis mere quod est circumscripto omni actu rationis: 
+      <lb ed="#V" n="110"/>sed circumscripto omni actu rationis dietus est realiter agens ex tempore. 
+      <lb ed="#V" n="111"/>deus est realiter similis creature. deus est melior creatura rea 
+      <lb ed="#V" n="112"/>liter et dinstinctus realiter. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e195">
+      ¶ Alii dicunt quod 
+      <lb ed="#V" n="113"/>oportet hoc saluari per respectum fabricatum ab 
+      intel<lb ed="#V" n="114" break="no"/>lectu diuino. non autem ab intellectu nostro.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e202">
+      ¶ Sed  
+      <lb ed="#V" n="115"/>contra. Quod est in re realiter non inest peractum 
+      ali<lb ed="#V" n="116" break="no"/>cuius rationis vel intellectus: quia reale non inest per 
+      il<lb ed="#V" n="117" break="no"/>lud quod rationis est: sed deus ita realiter agit: et ita 
+      <lb ed="#V" n="118"/>realiter habet omnia ista: sicut ego realiter sum homo. hoc 
+      <lb ed="#V" n="119"/>ergo non est per actum alicuius rationis.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e215">
+      ¶ Alii autem dicunt 
+      <lb ed="#V" n="120"/>quod creatio et omnia ista significant aliquid quod est in deo: sed 
+      <lb ed="#V" n="121"/>connotant aliquid quod est in creatura.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e223">
+      ¶ Sed contra. Nam 
+      <lb ed="#V" n="122"/>quicquid sit illud quod significant in deo quod sit in eo. illud  
+      <lb ed="#V" n="123"/>est eternum et non ex tempore. ista autem omnia scilicet creatio et talia 
+      <lb ed="#V" n="124"/>dicuntur de deo ex tempore. Ideo dicunt alii quod deus dicitur creare 
+      <lb ed="#V" n="125"/>distingui et assimilari. et omnia talia ex tempore. non propter 
+      ali<lb ed="#V" n="126" break="no"/>quid quod deo adueniat ex tempore. nisi quod deus ex tempore 
+      <lb ed="#V" n="127"/>terminat relationes que sunt in creatura. terminat enim 
+      <lb ed="#V" n="128"/>creationem passiuam: ideo dicitur creare. terminat 
+      assimi<lb ed="#V" n="129" break="no"/>lationem: ideo dicitur assimilare. et sic de omnibus aliis. 
+      </p>
+            <p xml:id="FrMS88-e70311-d1e243">
+               <lb ed="#V" n="130"/>¶ Sed contra hoc videtur adhuc stare difficultas Nam hoc quod 
+      <lb ed="#V" n="131"/>dico terminare relationem aliquam in creatura conuenit deo 
+      <!--193.xml-->
+      <pb ed="#V" n="95-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ex tempore. illud autem terminare non dicit aliquod 
+      abso<lb ed="#V" n="2" break="no"/>lutum. ergo respectum aliquem. tunc vel realem vel rationis et 
+      <lb ed="#V" n="3"/>tunc remanet difficultas sicut prius de aliis erat.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e263">
+      ¶ Dico er 
+      <lb ed="#V" n="4"/>go sicut videtur mens doctoris nostri. quod omnia ista saluantur per 
+      de<lb ed="#V" n="5" break="no"/>nominationem extrinsecam. Unde cum dico deus agit. non 
+      signi<lb ed="#V" n="6" break="no"/>ficat aliquid formaliter in deo: sed quod est formaliter in 
+      creatu<lb ed="#V" n="7" break="no"/>ra a quo deus denominatur de nouo. vtpote creator per 
+      <lb ed="#V" n="8"/>creationem. et sic de aliis.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e276">
+      ¶ Sciendum tamen ad huius quaestionis 
+      <lb ed="#V" n="9"/>euidentiam. quod aliquando agere et pati eodem nomine 
+      significan<lb ed="#V" n="10" break="no"/>sicut est in verbis communibus. vt osculor te et osculor a te. in 
+      <lb ed="#V" n="11"/>vna propositione osculor habet sensum actiui. in alia sensum 
+      pa<lb ed="#V" n="12" break="no"/>siui. Aliquando autem actiuum et passiuum significantur nominibus 
+      pro<lb ed="#V" n="13" break="no"/>priis scilicet vno proprio actiuo: sicut cum dico mouere. et alio 
+      <lb ed="#V" n="14"/>proprio passiuo: sicut cum dico moueri.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e292">
+      ¶ Aliquando autem 
+      <lb ed="#V" n="15"/>actiuum praecise sine passiuo significatur nomnbus oppositis 
+      <lb ed="#V" n="16"/>sicut cum dico amare et amari. quando enim diligo vel amo diui 
+      <lb ed="#V" n="17"/>nam essentiam idem actus omnino significatur per hoc quod 
+      di<lb ed="#V" n="18" break="no"/>co amo diuinam essentiam et diuina essentia amatur a me. 
+      <lb ed="#V" n="19"/>nihil enim significatur quod sit in deo formaliter: sed praecise illud quod 
+      <lb ed="#V" n="20"/>est in me formaliter scilicet actus amoris.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e308">
+      ¶ Aliquando autem eodem 
+      <lb ed="#V" n="21"/>modo accidit de passione: quod scilicet ipsa denominatur nomnibus 
+      op<lb ed="#V" n="22" break="no"/>positis. sicut dicendo deus creat et creatura creatur. 
+      causare<lb ed="#V" n="23" break="no"/>enim et causari significant idem omnino: sicut dicebatur de 
+      ama<lb ed="#V" n="24" break="no"/>re et amari: sed differentia est: quia amare et amari 
+      signifi<lb ed="#V" n="25" break="no"/>cant illud quod de se est actiuum. creare autem et creari 
+      signi<lb ed="#V" n="26" break="no"/>ficant illud quod est passiuum. Unde quando dicitur deus creat crea 
+      <lb ed="#V" n="27"/>turam. non datur intelligi aliquid quod sit in deo formaliter: sed 
+      <lb ed="#V" n="28"/>solum creatio passiua quae est in creatura quae deus dicitur creans 
+      <lb ed="#V" n="29"/>denominatione extrinseca. eodem modo dicitur cum dicitur creatura 
+      crea<lb ed="#V" n="30" break="no"/>tur a deo. et nihil aliud.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e333">
+      ¶ Sed contra. ista instatur 4r. Primo 
+      <lb ed="#V" n="31"/>sic. Omnis denominatio est ad placitum: sicut etiam nominatio sed 
+      <lb ed="#V" n="32"/>deus non est ad placitum creator ex parte: sed realiter et circum 
+      <lb ed="#V" n="33"/>scripta omni denominatione et omni intellectu. ergo videtur 
+      <lb ed="#V" n="34"/>quod illud non sufficiat.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e344">
+      ¶ 2o sic. Aliqua sunt que dicuntur 
+      <lb ed="#V" n="35"/>de deo virtualiter: quia sunt in eo virtualiter contenta: sicut cum 
+      <lb ed="#V" n="36"/>dicimus deus est lapis: aliqua sunt que de deo 
+      dicun<lb ed="#V" n="37" break="no"/>tur formaliter. ergo oportet quod in eo sint formaliter: sed esse crea 
+      <lb ed="#V" n="38"/>torem est hmodi. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e355">
+      ¶ 3o sic. In quocumque est agere 
+      <lb ed="#V" n="39"/>ipsum agit. si ergo creare: quod est agere dei: esset 
+      forma<lb ed="#V" n="40" break="no"/>liter in creatura. sequeretur quod creatura actione dei 
+      age<lb ed="#V" n="41" break="no"/>ret.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e364">
+      ¶ 4o sic. Aug. primo de trim. dicit quod deus faciat muta 
+      <lb ed="#V" n="42"/>bilia sine mutatione sui. difficile est videre. si autem de 
+      <lb ed="#V" n="43"/>nominatio sufficeret: hoc est valde facile.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e371">
+      ¶ Ad primum 
+      com<lb ed="#V" n="44" break="no"/>cedo quod nomina sunt ad placitum. nec etiam per denominari 
+      ex<lb ed="#V" n="45" break="no"/>trinsecum saluatur aliquid quod sit reale. Unde non curando 
+      <lb ed="#V" n="46"/>de vocabulo: sed de re significata per vocabulum. Di 
+      <lb ed="#V" n="47"/>co quod ipsa tota est in re. Unde significatum istius propositionis 
+      <lb ed="#V" n="48"/>deus creat: idem est cum significato istius. creatura 
+      crea<lb ed="#V" n="49" break="no"/>tur a deo. illud autem significatum est in creatura 
+      forma<lb ed="#V" n="50" break="no"/>liter: et ideo saluatur res per rem.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e389">
+      ¶ Ad 2m concedo quod 
+      de<lb ed="#V" n="51" break="no"/>est formaliter illud quod denominatur ista denominatione. quando autem 
+      <lb ed="#V" n="52"/>dicis. deus est formaliter creator. aut intelligis quod 
+      crea<lb ed="#V" n="53" break="no"/>tio sit formaliter in deo. et isto modo nego. quia deus non 
+      <lb ed="#V" n="54"/>est formaliter creator: quia creatio non est formaliter in eo 
+      <lb ed="#V" n="55"/>Si autem intelligas quod deus est formaliter creator. non 
+      <lb ed="#V" n="56"/>creatione que sit formaliter in eo: sed creatione que est 
+      <lb ed="#V" n="57"/>in creatura formaliter: tamen denominatione extrinseca 
+      for<lb ed="#V" n="58" break="no"/>maliter dicta de deo. concedo. et sic non habes 
+      proposi<lb ed="#V" n="59" break="no"/>tum.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e412">
+      ¶ Ad 3m dico quod: sicut in secundo ostendetur: creatio 
+      <lb ed="#V" n="60"/>actio est in creatura et non in deo formaliter. non tamen 
+      <lb ed="#V" n="61"/>ipsa creatura dicitur creatrix: quia creatio actio non est sub 
+      <lb ed="#V" n="62"/>nomine actionis apta denominare nisi extrinsece: sicut opus 
+      <lb ed="#V" n="63"/>dicitur humanum.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e423">
+      ¶ Ad 4m dico quod ponere quocumque modo. 
+      <lb ed="#V" n="64"/>siue modo predicto siue alio est difficile. tamen quia multa af 
+      <lb ed="#V" n="65"/>gumenta cogunt ad ponendum deum sine mutatione 
+      age<lb ed="#V" n="66" break="no"/>re. oportet modum saluandin hoc adducere qui est diffici 
+      <!--193.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>lis: sic quod nullum tale in creatura ponitur 
+      <lb ed="#V" n="68"/>oriuntur alique difficultates. Prima est de 
+      relati<lb ed="#V" n="69" break="no"/>Sed hic ue oppositis. quia secundum Augustins. nulla res 
+      <lb ed="#V" n="70"/>seipsam gignit vt sit. quia generare et generari sunt incompossibi 
+      <lb ed="#V" n="71"/>lia: sed non minus sunt incompossibilia creare et creari. ergo 
+      <lb ed="#V" n="72"/>non poterunt esse in creatura.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e449">
+      ¶ Dico quod verum est quod 
+      op<lb ed="#V" n="73" break="no"/>posite origines sunt incompossibiles: sicut generare et gnari: sed 
+      <lb ed="#V" n="74"/>creare et creari non sunt opposite origines: sed vna origo 
+      <lb ed="#V" n="75"/>vna autem origo: oppositis tamen nominbus significata: bene potest 
+      <lb ed="#V" n="76"/>esse in eodem.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e460">
+      ¶ 2a difficultas est de contrarie oppositis: quandocumque aliqua 
+      <lb ed="#V" n="77"/>cadunt sub oppositis differentis vel communibus illa sunt 
+      op<lb ed="#V" n="78" break="no"/>posita: sed creare et creari cadunt sub agere et pati. age 
+      <lb ed="#V" n="79"/>re autem et pati sunt opposita. ergo creare et creari.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e469">
+      ¶ 
+      Di<lb ed="#V" n="80" break="no"/>co quod quando res sunt opposite et res cadentes sub eis sunt 
+      <lb ed="#V" n="81"/>oppositene: sed si res non sunt opposite dato quod nomina videantur 
+      oppo<lb ed="#V" n="82" break="no"/>sita. similiter erit de cadentibus sub eis. Unde dico quod licet aliquando 
+      <lb ed="#V" n="83"/>res actionis et passionis sint opposite: tamen aliquando eadem 
+      res<lb ed="#V" n="84" break="no"/>erit que significatur vtroque nomine: isto modo est hic. quia ea 
+      <lb ed="#V" n="85"/>dem res est significata per creare: et creari: tamen nomina 
+      oppo<lb ed="#V" n="86" break="no"/>sitionem quandam habent.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e487">
+      ¶ 3a difficultas est quomodo deus potest 
+      exi<lb ed="#V" n="87" break="no"/>re de ocio in actum sine sui mutatione.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e493">
+      ¶ Dici potest quod deus 
+      <lb ed="#V" n="88"/>non transit de ocio in actum. hoc est quod acquirat aliquem 
+      <lb ed="#V" n="89"/>actum quem prius non habebat. quia omnem actum quem habet nunc 
+      <lb ed="#V" n="90"/>habuit ab eterno: sed dicitur tamen nunc creans et prius non. non propter 
+      <lb ed="#V" n="91"/>mutationem in seipso factam: sed propter nouitatem effectus quod 
+      <lb ed="#V" n="92"/>nunc est et prius non fuit: et ex hoc denominatur deus. 
+      </p>
+            <p xml:id="FrMS88-e70311-d1e506">
+               <lb ed="#V" n="93"/>¶ 4a difficultas est de contradictorie oppositis. Impossibile eni videtur est 
+      <lb ed="#V" n="94"/>se transitum de contradictorio in contradictorium nulla facta 
+      mu<lb ed="#V" n="95" break="no"/>tatione in illo quod transit. oportet enim quod tale subiectum 
+      tran<lb ed="#V" n="96" break="no"/>siens muteter aliqualiter in se. quia in quocumque est aliquid nunc aliter 
+      <lb ed="#V" n="97"/>quam prius: in illo est mutatio. in illo autem sic transeunte est 
+      <lb ed="#V" n="98"/>aliquid aliud aliter nunc quam prius. nam extrema contradictionis sunt 
+      <lb ed="#V" n="99"/>aliud et aliud. et ab vno extremorum recedit. et ad aliud 
+      ac<lb ed="#V" n="100" break="no"/>cedit: sed deus est nunc creator et ante non fuit ergo etc.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e526">
+      ¶ Dico quod 
+      <lb ed="#V" n="101"/>extrena illius contradictionis non sunt formaliter in deo: sed formaliter 
+      in<lb ed="#V" n="102" break="no"/>creatura: quia non sunt aliud deum creare et non creare quam 
+      crea<lb ed="#V" n="103" break="no"/>turam creari et non creari.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e535">
+      ¶ Sed hic est vnum dubium. Utru 
+      <lb ed="#V" n="104"/>deus in se referatur ad creaturam aliqua relatione rationis. Dico si 
+      <lb ed="#V" n="105"/>dixi quod ratio rationis non sufficit ad saluandum praedicata realia 
+      <lb ed="#V" n="106"/>quae dicuntur de deo ex tempore. tamen quantum ad dubiu in se non videtur 
+      incon<lb ed="#V" n="107" break="no"/>ueniens deum referri aliqua relatione rationis ad creaturam. relatio 
+      <lb ed="#V" n="108"/>enim rationis non ponit effectum suum formalem nisi circa illud in 
+      quo<lb ed="#V" n="109" break="no"/>est formaliter: sicut sibi conuenit esse in aliqui: sed referre est effectus relatio 
+      <lb ed="#V" n="110"/>nis. cum ergo suo modo essendi in ipsa sit in deo sicut patebit 
+      im<lb ed="#V" n="111" break="no"/>ferius: oportet dicere quod deus in se referatur per istam relationem rationis. 
+      <lb ed="#V" n="112"/>alioquin si aliquid creatum per istum respectum referretur. concipere 
+      <lb ed="#V" n="113"/>mus illud creatum esse creatorem. et sic didu aliis relationibus rationis. 
+      </p>
+            <p xml:id="FrMS88-e70311-d1e559">
+               <lb ed="#V" n="114"/>¶ Si dicas. tunc sequitur mutatio in deo qua transit de 
+      no<lb ed="#V" n="115" break="no"/>uo ad talem respectum.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e566">
+      ¶ Dico quod nulla est mutatio ad ens 
+      <lb ed="#V" n="116"/>rationis. et si ponatur. multi sunt quae habent pro nihilo dicere et 
+      con<lb ed="#V" n="117" break="no"/>cedere talem in dieo: sicut compositionem secundum rationem multi ponunt.
+    </p>
+            <p xml:id="FrMS88-e70311-d1e574">
+      ¶ Ad  
+      <lb ed="#V" n="118"/>argumentum in oppositum patet. quia divfenatio non est respectus rationis: sed significat 
+      <lb ed="#V" n="119"/>quod illud quod est in creatura sit deo subiectum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

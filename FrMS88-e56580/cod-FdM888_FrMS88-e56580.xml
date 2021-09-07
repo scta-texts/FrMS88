@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e56580"><!-- l1d21q1 -->
+            <head xml:id="FrMS88-e56580-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-e56580-d1e111">
+               <lb ed="#V" n="47"/>¶ Distinctio. xxi. Quaestio. i. 
+      <lb ed="#V" n="48"/>hic oritur quaest etc. 
+      <lb ed="#V" n="49"/>di. x2i. queritur. Utrum dictio 
+      <lb ed="#V" n="50"/>Irca exclusiua repugnet divinis 
+      <lb ed="#V" n="51"/>Quod non. secundum Aug. Solus pater est tantis 
+      <lb ed="#V" n="52"/>quanti sunt pater et filius. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e56580-d1e127">
+      ¶ Con 
+      <lb ed="#V" n="53"/>tra. Solitudo non ponitur in diuinis: 
+      <lb ed="#V" n="54"/>sed talis dictio hoc dicit. ergo etc. 
+      <lb ed="#V" n="55"/>vnum 
+      prae<lb ed="#V" n="56" break="no"/>hic introducit 
+      ambu<lb ed="#V" n="57" break="no"/>lum quod scilicet dictio exclusiua sumpta significati 
+      <lb ed="#V" n="58"/>ue non admittitur in diuinis. quia significa 
+      <lb ed="#V" n="59"/>solitudinem sicut cum dicitur deus est solus: pater est solus secundum hil. 
+      <lb ed="#V" n="60"/>Si accipiatur non significatiue: sed consignificatiue bene admititur in divinis 
+      <lb ed="#V" n="61"/>vt cum dicitur. solus spiritussanctus sufficeret ad beatitudininem 
+      no<lb ed="#V" n="62" break="no"/>stram vt scribit beatus Augi i. de tria.
+    </p>
+            <p xml:id="FrMS88-e56580-d1e151">
+      ¶ hoc praemisso 
+      pono<lb ed="#V" n="63" break="no"/>quatuor conclusiones. Prima est quod dictio exclusiua addita ex 
+      <lb ed="#V" n="64"/>parte subitanti respectu praedicati communis essentialis non 
+      determin<lb ed="#V" n="65" break="no"/>nat subiectum: sed facit propositionem falsam: sicut hic: solus pater est 
+      <!--157.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>deus: solus pater creat: quia denotatur quod nullus alius a patre 
+      <lb ed="#V" n="67"/>fit deus vel creet.
+    </p>
+            <p xml:id="FrMS88-e56580-d1e169">
+      ¶ 2a conclusio quod dictio exclusiua addita ex 
+      <lb ed="#V" n="68"/>parte subitenti respectu praedicati proprii et personalis subiectum 
+      deter<lb ed="#V" n="69" break="no"/>minat et dimittit propositionem veram: sicut haec: solus pater generat. sed 
+      <lb ed="#V" n="70"/>lus filius generatur: quia talia conueniunt alicui soli non alteri. 
+      </p>
+            <p xml:id="FrMS88-e56580-d1e179">
+               <lb ed="#V" n="71"/>¶ 3a conclusio est. quod dictio exclusiua addita praedicato essentiali 
+      <lb ed="#V" n="72"/>et communi determinat praedicatum respectu persone: et dimittit 
+      pro<lb ed="#V" n="73" break="no"/>positionem veram: sicut hic: pater est solus deus: quia in ratione 
+      pra<lb ed="#V" n="74" break="no"/>dicati deitatis nulla est pluralitas.
+    </p>
+            <p xml:id="FrMS88-e56580-d1e190">
+      ¶ 4a conclusio quod dictio 
+      ex<lb ed="#V" n="75" break="no"/>clusiua addita ex parte praedicati vel praedicato personali non 
+      <lb ed="#V" n="76"/>idetur admitti in divinis. sicut hic pater est generans solus. de virtute. 
+      <lb ed="#V" n="77"/>nim sermonis videtur importare quod ille qui generat est simpliciter solus. 
+      <lb ed="#V" n="78"/>Sed quia scriptura videtur tribuere solitudininem diuinis dicendo. 
+      <lb ed="#V" n="79"/>tu es deus solus. Ideo intelligendum quod dictio exclusiua non 
+      <lb ed="#V" n="80"/>tantum repugnat termino essentiali: sicut personali: eo quod 
+      perso<lb ed="#V" n="81" break="no"/>nalia sunt multa. essentialia autem no multiplicantur: et ideo 
+      <lb ed="#V" n="82"/>rationabilius est dicere deum solum quam patrem.
+    </p>
+            <p xml:id="FrMS88-e56580-d1e210">
+      ¶ Sed di. est 
+      <lb ed="#V" n="83"/>si determinatio facta per dictionem exclusiuam 
+      aduerbia<lb ed="#V" n="84" break="no"/>liter sumptam equaliter respiciat tres personas. Dico quod non: quia 
+      <lb ed="#V" n="85"/>icitur est tantum vel solum deus: et similiter spiritus sanctus est tantum vel 
+      <lb ed="#V" n="86"/>solum deus: sed ista est falsa: quod filius est tantum vel solum deus: 
+      <lb ed="#V" n="87"/>quia non solum deus est: sed etiam homo.
+    </p>
+            <p xml:id="FrMS88-e56580-d1e223">
+      ¶ Sed contra. Augu. Non eo 
+      <lb ed="#V" n="88"/>deus quo pater. ergo pater non est tantum deus: sed est aliquid quoe 
+      <lb ed="#V" n="89"/>non est deus scilicet illud quo pater est.
+    </p>
+            <p xml:id="FrMS88-e56580-d1e230">
+      ¶ Dico quod hac conclusio 
+      <lb ed="#V" n="90"/>ne concessa adhuc non vniformiter respicit personas: quia 
+      <lb ed="#V" n="91"/>distinctio inter illud quo quelibet persona est deus: et 
+      <lb ed="#V" n="92"/>illud quo quelibet persona est talis persona scilicet pater et filius 
+      <lb ed="#V" n="93"/>et spiritus sanctus: est in omni persona. et adhuc filius praeter totum 
+      <lb ed="#V" n="94"/>hoc est homo: quod non competit alicui alteri persone.
+    </p>
+            <p xml:id="FrMS88-e56580-d1e243">
+      ¶ 2a difficulta 
+      <lb ed="#V" n="95"/>si dictio exclusiua posita in proprio subiecto magis 
+      deter<lb ed="#V" n="96" break="no"/>minet personam respectu praedicati essentialis quam personalis. 
+      </p>
+            <p xml:id="FrMS88-e56580-d1e251">
+               <lb ed="#V" n="97"/>¶ Dico quod personalia conueniunt vni et soli quando sunt propria: sed 
+      <lb ed="#V" n="98"/>essentialia: licet conueniant vni: non tamen soli: sed omnibus.
+    </p>
+            <p xml:id="FrMS88-e56580-d1e258">
+      ¶ 3a 
+      difficti<lb ed="#V" n="99" break="no"/>Quare dictio exclusiua magis vitatur in praedicato 
+      persona<lb ed="#V" n="100" break="no"/>li respectu persone quam in praedicato essentiali.
+    </p>
+            <p xml:id="FrMS88-e56580-d1e265">
+      ¶ Dico quod 
+      hu<lb ed="#V" n="101" break="no"/>ius ratio est. quia solitudo addita essentie toleratur magis 
+      <lb ed="#V" n="102"/>quam addita persone: vt patuit superius: tamen de sermonibus 
+      <lb ed="#V" n="103"/>non est curandum quando res est manifesta: vt dicit Aug. de 
+      <lb ed="#V" n="104"/>quantitate anime.
+    </p>
+            <p xml:id="FrMS88-e56580-d1e276">
+      ¶ Ad argumentum in oppositum sec 
+      <lb ed="#V" n="105"/>ad auctoritatem quando negatur exclusiua tunc tenetur vel 
+      <lb ed="#V" n="106"/>accipitur significatiue. vt dictum est.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

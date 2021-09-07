@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f14366"><!-- l2d12q2 -->
+            <head xml:id="FrMS88-f14366-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f14366-d1e111">
+      Quaestio. ii. 
+      <lb ed="#V" n="103"/>quaestio est. Utrum deus possit 
+      fa<lb ed="#V" n="104" break="no"/>Ecunda csm maturam sine forma. Quod non. 
+      <lb ed="#V" n="105"/>quia sunt relatiua.
+    </p>
+            <p xml:id="FrMS88-f14366-d1e120">
+      ¶ Contra. quia differunt realiter. 
+      <lb ed="#V" n="106"/>aliqui quod non: propter 
+      conne<lb ed="#V" n="107" break="no"/>Dicunt xionem essentialem.
+    </p>
+            <p xml:id="FrMS88-f14366-d1e127">
+      ¶ Sed 
+      con<lb ed="#V" n="108" break="no"/>tra. quia sunt essentialiter ordinata et realiter distingtio. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f14366-d1e132">
+      ¶ 2o. 
+      <lb ed="#V" n="109"/>quia forma prius dependet a materia. et ab efficiente. et tamen sine 
+      <lb ed="#V" n="110"/>materia.
+    </p>
+            <p xml:id="FrMS88-f14366-d1e140">
+      ¶ 3o. quia deus voluntarie concurrere potest ad vnum et 
+      <lb ed="#V" n="111"/>non ad aliud.
+    </p>
+            <p xml:id="FrMS88-f14366-d1e145">
+      ¶ Dico igitur quod deus potest facere materiam sine 
+      <lb ed="#V" n="112"/>forma.
+    </p>
+            <p xml:id="FrMS88-f14366-d1e150">
+      ¶ Sed contra. quia esse est a forma. Responsio. verum est 
+      <lb ed="#V" n="113"/>specificum. tamen materia est de se aliquid.
+    </p>
+            <p xml:id="FrMS88-f14366-d1e155">
+      ¶ Sed hic est difficultas si 
+      <lb ed="#V" n="114"/>deus potest facere materiam sine quantitate:
+    </p>
+            <p xml:id="FrMS88-f14366-d1e160">
+      ¶ Dico quod si 
+      quanti<lb ed="#V" n="115" break="no"/>tas dicat formam absolutam. Concedo quod sic. si 
+      respectu<lb ed="#V" n="116" break="no"/>partium: non videtur quod possint esse sine aliquo ordine. Dico 
+      <lb ed="#V" n="117"/>tamen quod sic. et esset apta nata extendi. non tamen posset esse actu 
+      ex<lb ed="#V" n="118" break="no"/>tensa nisi ordo actualis esset.
+    </p>
+            <p xml:id="FrMS88-f14366-d1e171">
+      ¶ Dico etiam quod poterat 
+      infor<lb ed="#V" n="119" break="no"/>mari propria quantitate. quia eius quantitas distinguitur realiter a 
+      <lb ed="#V" n="120"/>quantitate forme. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="54-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e39335"><!-- l1q9q4 -->
+            <head xml:id="FrMS88-e39335-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-e39335-d1e111">
+      Questio. iiii. 
+      <lb ed="#V" n="128"/>UTrum deus producat res naturali 
+      ne<lb ed="#V" n="129" break="no"/>cessitate. Quod n. quia tem ab 
+      eter<lb ed="#V" n="130" break="no"/>no producent.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e120">
+      ¶ Contra. Dion. de diui. no. 
+      <lb ed="#V" n="131"/>c. 4. sicut sol non premissa deliberatione 
+      ra<lb ed="#V" n="132" break="no"/>dios diffundit: sic deus bonitatem suam 
+      <!--111.xml-->
+      <pb ed="#V" n="54-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>communicat.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e136">
+      ¶ hic est controuersia inter theologos et philosophos: 
+      <lb ed="#V" n="2"/>Primo ergo ponam rationes philosophorum probantium: quod deus 
+      na<lb ed="#V" n="3" break="no"/>turali necessitate omnia producit. 2o soluam. 3o ponam 
+      <lb ed="#V" n="4"/>rationes varias theologorum. 
+      <lb ed="#V" n="5"/>ratio philosophorum est ista. perfectissime causare dicitet 
+      attri<lb ed="#V" n="6" break="no"/>Prima bui perfectissima causalitas: et per consequens 
+      perfectis<lb ed="#V" n="7" break="no"/>mus modus causandi: sed necessaria causalitas et causare necessario 
+      spui<lb ed="#V" n="8" break="no"/>fectiora quam contingentia: quia necessarium nobilius est. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e154">
+      ¶ 2o 
+      <lb ed="#V" n="9"/>sic. omnis conditio perfectionem dicens compossibilem causalitati primi 
+      <lb ed="#V" n="10"/>efficientis est sibi attribuenda. sed necessaritas est huiusmodi: ponitur enim in 
+      <lb ed="#V" n="11"/>diuisione entis ad dextram: et est compossibilis causalitati primi 
+      en<lb ed="#V" n="12" break="no"/>tis: quia omnia ad dextram posita sunt copossibilia. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e166">
+      ¶ 3a ratio 
+      <lb ed="#V" n="13"/>est ista: in quocumque agente in quo idem est ese et age: si in eo 
+      <lb ed="#V" n="14"/>esse est necessarium et agem: sed in deo idem est esse et agem: constat 
+      <lb ed="#V" n="15"/>autem quod esse diuinum est necessarium. ergo et agem.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e175">
+      ¶ 4a ratio est. summo 
+      <lb ed="#V" n="16"/>enti necessario nihil potest per accidens competere. sed deus est huiusmodi 
+      <lb ed="#V" n="17"/>competeret autem sibi age per accidens si contingenter ageret: quia 
+      <lb ed="#V" n="18"/>illud quod contingenter agit: per accidens agit et non per se.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e184">
+      ¶ Ad 
+      <lb ed="#V" n="19"/>primum istorum dico. quod si talis conditio esset compossibilis debent sibi 
+      af<lb ed="#V" n="20" break="no"/>tribui: sed necessitas non est sibi compossibilis. Exemplum. omnis per 
+      <lb ed="#V" n="21"/>fectio dabet attribui christo: sed perfectior esset sibi humanitas 
+      <lb ed="#V" n="22"/>si esset natura spiritualis. ergo dabet sibi attribui: non valet propter 
+      incomposs<lb ed="#V" n="23" break="no"/>bilitatem.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e197">
+      ¶ Ad 2m dico. quod licet necessaritas sit compossibilis prime 
+      <lb ed="#V" n="24"/>causare quantum ad illud quod est: quia vt sic est necessaria. non tamen si 
+      conside<lb ed="#V" n="25" break="no"/>retur virtualiter: quia vt sic respicit contingentia: ideo necessitas vt 
+      <lb ed="#V" n="26"/>sic est sibi incompossibilis.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e206">
+      ¶ Ad 3m dico. quod actio quae est formaliter 
+      <lb ed="#V" n="27"/>in deo est necessaria: quia est deus. Si autem consideratur 
+      quan<lb ed="#V" n="28" break="no"/>tum ad illud quod respicit virtualiter: quia illud est contingens 
+      in<lb ed="#V" n="29" break="no"/>ossibile est quod actio sit nisi contingens.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e215">
+      ¶ Ad 4m dico. quod ad 
+      <lb ed="#V" n="30"/>cidere potest intelligi dupliciter: vel formaliter: et sic maior est 
+      ve<lb ed="#V" n="31" break="no"/>ra: quia summo enti etc. vel potest intelligi accidem denominat 
+      <lb ed="#V" n="32"/>ue scilicet extrinseca denominatione: et vt sic dico. quod maior est 
+      <lb ed="#V" n="33"/>falsa: et aliquid conuenit deo per accidens.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e227">
+      ¶ Sed rema. difficultas diti 
+      <lb ed="#V" n="34"/>enim agit ex plenitudine bonitatis. constat autem quod necessario 
+      <lb ed="#V" n="35"/>est bonus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e234">
+      ¶ 2o. per te. deus agit ex liberalitate et 
+      li<lb ed="#V" n="36" break="no"/>bere: sicut dictum est de plenitudine: sed est necessario liberalis 
+      <lb ed="#V" n="37"/>et liberaliter agit: aliter esset innuidus.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e241">
+      ¶ Ad primum dico quod 
+      <lb ed="#V" n="38"/>ex plenitudine perfectionis habet deus quod sit productiuus: 
+      ve<lb ed="#V" n="39" break="no"/>quod possit producere: sed quod producat non est necessarium: nec se 
+      <lb ed="#V" n="40"/>quitur necio plenitudinem perfectionis: quia si non actu 
+      produ<lb ed="#V" n="41" break="no"/>ceret adhuc esset productiuus.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e252">
+      ¶ Ad 2m dico. quod licet eodem 
+      <lb ed="#V" n="42"/>modo posset dici de liberalitate: sicut dictum est de 
+      plenitu<lb ed="#V" n="43" break="no"/>dine: tamen aliter potest dici quod liberalitas sua quantum ad 
+      neces<lb ed="#V" n="44" break="no"/>sariam productionem solum saluatur ad intra: vbi se comunicat per 
+      <lb ed="#V" n="45"/>amore.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e263">
+      ¶ Sed adhuc rema. difficultas. quia omni potentie passiue 
+      <lb ed="#V" n="46"/>videtur tanta necessitate corrspondem actiua quanta ipsa est 
+      pa<lb ed="#V" n="47" break="no"/>siua: sed creature sunt necessario producibiles. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e270">
+      ¶ Dico quod 
+      <lb ed="#V" n="48"/>ecessario ipsa potentia est productiua. non producens. Sed contra. frustra est 
+      <lb ed="#V" n="49"/>poteitio quae non reducitur ad actum.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e278">
+      ¶ Responde et dico. quod in deo est non 
+      <lb ed="#V" n="50"/>necessario potentia productiua: sed non sequitur quod esset frustra si non 
+      pro<lb ed="#V" n="51" break="no"/>ducent: quia sufsicit ad hoc quod n sit frustra quod posset reduci 
+      ad<lb ed="#V" n="52" break="no"/>actum: vel possit reduce: et maxime quando non est perfectio agenti. 
+      <lb ed="#V" n="53"/>2o videndum est de rationibus theologorum proban 
+      <lb ed="#V" n="54"/>Nunc tium partem oppositam. Et breuiter reducum 
+      <lb ed="#V" n="55"/>tur ad quatuor vias. Aliqui enim probant sic. omne agens 
+      <lb ed="#V" n="56"/>naturale et per naturam: agit propter perfectionem sui: sed deus non potest 
+      <lb ed="#V" n="57"/>agere propter perfectionem sui: quia ipse est perfectissimus: ergo si agit 
+      <lb ed="#V" n="58"/>propter perfectionem: agit propter perfectionem alterius: sed propter 
+      <lb ed="#V" n="59"/>aliud non potest necessario agere: ergo libere agit.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e302">
+      ¶ 2o sic 
+      <lb ed="#V" n="60"/>agens propter finem: et per consequens diligens finem: et alia propter finem non 
+      ne<lb ed="#V" n="61" break="no"/>cessario diligit esse que non habent necessariam 
+      connexio<lb ed="#V" n="62" break="no"/>nem ad finem: sed creature non habent necessariam connexionem ad 
+      fi<lb ed="#V" n="63" break="no"/>nem. ergo respectu illorum non se habet necessario.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e313">
+      ¶ Ad 
+      priman<lb ed="#V" n="64" break="no"/>istarum dico. quod deus propter infinitatem perfectionis sue necessario 
+      <lb ed="#V" n="65"/>agit: et non propter acquisitionem perfectionis alterius. Et primo 
+      <lb ed="#V" n="66"/>terea ratio concludent quod pater non naturaliter produceret filium: quia 
+      <!--111.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>nihil sibi aduenit.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e329">
+      ¶ 3a etiam ratio suppponit vnum quod oportet 
+      pro<lb ed="#V" n="68" break="no"/>bare scilicet quod creature non habent neciam connexionem ad 
+      <lb ed="#V" n="69"/>deum: quo negato nihil valet ratio.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e336">
+      ¶ Pono ergo rationes 
+      <lb ed="#V" n="70"/>Scoti: et arguo sic. Omne ens quod est summe necesse es 
+      <lb ed="#V" n="71"/>simpliciter potest esse omni alio non posito quod est minus necessare 
+      <lb ed="#V" n="72"/>esse. hoc probo dupliciter. Primo ex ratione magis et 
+      mi<lb ed="#V" n="73" break="no"/>nus impossibilis. 2o ex vero et falso. Primo sic. Nam si 
+      vni<lb ed="#V" n="74" break="no"/>impossibile habeat duas rationes impossibilitatis et aliud 
+      <lb ed="#V" n="75"/>vnam tantum: sublata vna ratione impossibilitatis ab vtroque 
+      <lb ed="#V" n="76"/>vnum remanebit possibile: quia non habebat nisi vna 
+      <lb ed="#V" n="77"/>rationem impossibilitatis: et illa intelligitur iam sublata. aliud 
+      <lb ed="#V" n="78"/>autem quia habebat duas et non est sublata nisi vna: intelligitur 
+      <lb ed="#V" n="79"/>impossibile propter aliam remanentem: si ergo ex minus 
+      impotens<lb ed="#V" n="80" break="no"/>sibili sequatur maius impossibile: poterit ex possibili 
+      sequi<lb ed="#V" n="81" break="no"/>impossibile: quod est manifeste falsum et contra totam logicam. Ex 
+      <lb ed="#V" n="82"/>hoc patet propositione. Illud est magis necesse esse: cuius 
+      oppo<lb ed="#V" n="83" break="no"/>situm est magis impossibile: et illud minus necesse esse: 
+      <lb ed="#V" n="84"/>cuius oppositum est minus impossibile: si ergo ex 
+      remo<lb ed="#V" n="85" break="no"/>tione minus necessarii sequitur remotio magis 
+      necessa<lb ed="#V" n="86" break="no"/>rii: ex possibili sequitur impossibile: quod est manifeste falsum 
+      </p>
+            <p xml:id="FrMS88-e39335-d1e375">
+               <lb ed="#V" n="87"/>¶ Secundo sic. si magis verum habeat duas rationes 
+      ve<lb ed="#V" n="88" break="no"/>ritatis: et minus vnam tantum. sublata vna ab vtroque 
+      <lb ed="#V" n="89"/>vnum remanebit falsum: et aliud verum. Si ergo 
+      ex<lb ed="#V" n="90" break="no"/>minus falso: sequitur magis falsum resoluendo erit 
+      da<lb ed="#V" n="91" break="no"/>re quod ex vero sequitur falsum: magis enim necesse est ma 
+      <lb ed="#V" n="92"/>gis verum: et minus necesse minus verum. Si ergo 
+      re<lb ed="#V" n="93" break="no"/>moto minus remouetur maius: sequitur ex vero falsum. 
+      <lb ed="#V" n="94"/>quod est inconueniens. Accipio ergo maiorem propositio 
+      <lb ed="#V" n="95"/>nem sic probatam: quando aliquid est summe necesse 
+      <lb ed="#V" n="96"/>esse: illud potest esse omni alio non posito: quod non est ita 
+      <lb ed="#V" n="97"/>necesse esse: sed si deus necessario produceret: ablato 
+      pro<lb ed="#V" n="98" break="no"/>ducto: quod est minus necesse esse ipsum non posset esse 
+      <lb ed="#V" n="99"/>ergo sequitur necessario quod deum est sic summe necesse 
+      <lb ed="#V" n="100"/>esse quod nihil aliud esset necessario extra se.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e409">
+      ¶ 
+      Confir<lb ed="#V" n="101" break="no"/>matur. quia si necessario produceret referretur relatione: 
+      <lb ed="#V" n="102"/>que ita est necesse esse: sicut deus: impossibile est autem 
+      <lb ed="#V" n="103"/>aliquam relationem simpliciter necessariam esse ad terminum 
+      <lb ed="#V" n="104"/>contingentem: creature autem contingentes sunt ergo non potest 
+      <lb ed="#V" n="105"/>referri necessario: nec per consequens necessario creature creantur. 
+      </p>
+            <p xml:id="FrMS88-e39335-d1e422">
+               <lb ed="#V" n="106"/>¶ Praeterea arguo supposito quod deus coagat cause 2o. Et 
+      pri<lb ed="#V" n="107" break="no"/>mo sic. quandocunque aliqua agentia ordinata sunt. si pi 
+      <lb ed="#V" n="108"/>mum mouet necessario. et secundum necessario mouebit maxime si 
+      <lb ed="#V" n="109"/>secundum non mouet: nisi quia motum: tanta enim 
+      necessita<lb ed="#V" n="110" break="no"/>te mouebit: quanta mouetur: cum ergo deus fit primum 
+      <lb ed="#V" n="111"/>agens: omnia in virtute sua continens: et concausans 
+      <lb ed="#V" n="112"/>omnes effectus: si ipse necessario agent: omnes cause necessario 
+      <lb ed="#V" n="113"/>agerent: et per consequens ommia erunt de equali 
+      necessi<lb ed="#V" n="114" break="no"/>tate.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e444">
+      ¶ Secundo sic. cum omnis causa secunda dependeat a prima et in esse 
+      <lb ed="#V" n="115"/>et in fieri: et per consequens in actione: si prima necessario causet 
+      <lb ed="#V" n="116"/>omnes necessario causabunt: et sic omnia de necessitate 
+      eue<lb ed="#V" n="117" break="no"/>nirent: quod est manifeste falsum.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e453">
+      ¶ Sed omnes inste rationes 
+      <lb ed="#V" n="118"/>supponunt vnum quod est dubium: quod scilicet negatur a 
+      mul<lb ed="#V" n="119" break="no"/>tis fidelibus: et tenentibus conclusionem scilicet quod deus 
+      concur<lb ed="#V" n="120" break="no"/>rat ad omnia. Dicunt enim aliqui quod deus dat vim causatiuam 
+      <lb ed="#V" n="121"/>aliis et conseruat: et non plus. Ideo probatur aliter. primo sic 
+      <lb ed="#V" n="122"/>deus continet virtualiter causas secundas: ergo et effectus ea 
+      <lb ed="#V" n="123"/>rum virtualiter et immediate continebit. Tunc arguo 
+      <lb ed="#V" n="124"/>sic. omne necessario agens continens virtualiter aliquem 
+      <lb ed="#V" n="125"/>effectum: sicut agens tale prius agit quam aliud ita 
+      effe<lb ed="#V" n="126" break="no"/>ctus citius ponetur per istud quam per aliud: sed deus est 
+      <lb ed="#V" n="127"/>agens de necessitate: et continet effectus omnium causam 
+      <lb ed="#V" n="128"/>secundarum: et prius causat ordine nature quam cause 
+      se<lb ed="#V" n="129" break="no"/>cunde: ergo necessario producet omnes effectus earum. 
+      </p>
+            <p xml:id="FrMS88-e39335-d1e482">
+               <lb ed="#V" n="130"/>¶ Secundo sic. causa agens de necessitate continens 
+      effectum<lb ed="#V" n="131" break="no"/>secundum omnem perfectionem effectus. necessario producet effectum 
+      <lb ed="#V" n="132"/>ita perfectum: sicut potest produci effectus: sed deus est 
+      <!--112.xml-->
+      <pb ed="#V" n="55-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>huiusmtdi ergo quicquid erit in vniuerso: erit perfectissimum.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e500">
+      ¶ 3o sic. 
+      <lb ed="#V" n="2"/>causa agens de necessitate non impedibilis producit omnia quae potest. 
+      <lb ed="#V" n="3"/>et sic cum deus omnes effectus possibiles contineat: erunt tot 
+      produ<lb ed="#V" n="4" break="no"/>cti: quot producibiles: similiter non dimitteret malum in 
+      vniuer<lb ed="#V" n="5" break="no"/>so: quia infinitum causabit bonum.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e512">
+      ¶ Nunc pono rationes alias quae 
+      <lb ed="#V" n="6"/>ossunt me mouere. suppono enim vnum quod fuit et est satis 
+      comni<lb ed="#V" n="7" break="no"/>conceptus philosophorum scilicet quod elementa non sunt disposita: sicut 
+      <lb ed="#V" n="8"/>patet vt apta nata sunt disponi: grauiora enim debent esse 
+      <lb ed="#V" n="9"/>deorsum. Aqua enim est grauius inter alia praeter terram: et 
+      <lb ed="#V" n="10"/>ita aquae deberet cooperire totam terram.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e525">
+      ¶ Ad quod dicunts 
+      <lb ed="#V" n="11"/>philosophi videntes hoc quod nam naturans sic prouidit pro salute 
+      aliqui<lb ed="#V" n="12" break="no"/>animalium: quae non possunt viuere in aliqua. hoc ergo supposito af 
+      <lb ed="#V" n="13"/>guitur sic. Omne agens de necessitate producit effectum secundum quo 
+      <lb ed="#V" n="14"/>effectus natus est produci vel agi secundum naturam suam propriam 
+      <lb ed="#V" n="15"/>sed secundum naturam propriam elementorum aqua debuisset 
+      coo<lb ed="#V" n="16" break="no"/>perire terram ex omni parte: ergo si deus naturaliter ageret: sic 
+      aquam<lb ed="#V" n="17" break="no"/>necessario produxisset. Maior patet: quia si ars nauifactiua 
+      <lb ed="#V" n="18"/>esset in lignis: sic faceret nauem.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e545">
+      ¶ 2o sic: quandocumque aliquod 
+      <lb ed="#V" n="19"/>agens praetermittit aliquid a suo effectu: quod sibi naturaliter aptum 
+      <lb ed="#V" n="20"/>natum est conuenire: illud non agit de necessitate. hoc patet: nam 
+      ta<lb ed="#V" n="21" break="no"/>le non praetermittit aliquid quod non est in potestate sua praeter 
+      <lb ed="#V" n="22"/>mittere: hoc autem non est in potestate sua praetermittere si 
+      <lb ed="#V" n="23"/>agat de necessitate. hoc probo necessario: quia non potest pro 
+      <lb ed="#V" n="24"/>ducere nisi secundum quod continet: non autem continet effectum nisi 
+      <lb ed="#V" n="25"/>secundum quod effectus naturaliter aptus natus est esse: ergo sic producit: 
+      <lb ed="#V" n="26"/>propter ergo meliorem finem nihil dimittit de eo quod aptum 
+      na<lb ed="#V" n="27" break="no"/>tum est naturaliter conuenire effectui: cum ergo aqua sit naturaliter apta 
+      na<lb ed="#V" n="28" break="no"/>ta cooperire terram vndique: necessario eam sic produxisset 
+      <lb ed="#V" n="29"/>non obstante salute animalium.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e571">
+      ¶ 3o sic. nullum violentum 
+      praea<lb ed="#V" n="30" break="no"/>esse perpetuum nisi a causa libere detinente: sed aer violenter 
+      <lb ed="#V" n="31"/>est immediate super terram: videtur ergo tractus a vacuo ne sit 
+      va<lb ed="#V" n="32" break="no"/>cuum: ergo necessario hoc erit ab aliquo agente libere 
+      <lb ed="#V" n="33"/>illud immediate super terram detinente: similiter violentum 
+      <lb ed="#V" n="34"/>est aquam esse extra suum proprium locum naturalem: cum ergo 
+      <lb ed="#V" n="35"/>videamus quod ita sit: erit ab aliqua causa libere detinente 
+      </p>
+            <p xml:id="FrMS88-e39335-d1e587">
+               <lb ed="#V" n="36"/>¶ 4o sic. one agens naturali necessitate semper agit idem in pas 
+      <lb ed="#V" n="37"/>so eodem modo disposito: sed omnes partes terre sunt eiusdem 
+      <lb ed="#V" n="38"/>rationis: et vniformiter respectu talis agentis 
+      disposi<lb ed="#V" n="39" break="no"/>te: et partes aque similiter: si ergo deus necessario agit 
+      de<lb ed="#V" n="40" break="no"/>buisset in omnibus partibus terre causare idem: et sicut discooperui 
+      <lb ed="#V" n="41"/>aliquas partes terre: ita omnes: similiter sicut aliquas partes 
+      <lb ed="#V" n="42"/>aque posuit non in terra sic omnes: similiter de aere hic couin 
+      <lb ed="#V" n="43"/>cit. Confirmatur ista ratio dupliciter. Primo ex motu terre: 
+      <lb ed="#V" n="44"/>eiusdem enim rationis est tota terra et vna gleba: ergo illud 
+      <lb ed="#V" n="45"/>quod conuenit vni glebe potest conuenire toti terre: sed 
+      vni<lb ed="#V" n="46" break="no"/>glebe conuenit interdum motus circularis: ergo toti 
+      ter<lb ed="#V" n="47" break="no"/>re poterit competere motus circularis: sed cuilibet 
+      poo<lb ed="#V" n="48" break="no"/>tentie passiue correspondet actiua potentia: isti poten 
+      <lb ed="#V" n="49"/>tie passiue non potest correspondere nisi actiua que est 
+      in<lb ed="#V" n="50" break="no"/>deo: ergo deus poterit terram circulariter mouere: sed 
+      <lb ed="#V" n="51"/>quicquid potest: per te: necessario agit: saltem aliquando: ergo aliquan 
+      <lb ed="#V" n="52"/>mouebitur tota terra circulariter.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e626">
+      ¶ 2o confirmatur ex 
+      <lb ed="#V" n="53"/>motu circulari celi. Et hoc multipliciter. primo sic. 
+      quan<lb ed="#V" n="54" break="no"/>documque aliqua forma est compossibilis alicui subiecto 
+      pro<lb ed="#V" n="55" break="no"/>vno instanti et erit pro toto tempore: ista patet. quia si est compossibi 
+      <lb ed="#V" n="56"/>lis pro vno instanti subiecto ipsa non repugnat subiecto: et sit 
+      <lb ed="#V" n="57"/>semper compossibilis: sed celo est compossibile vnum vbi 
+      pro<lb ed="#V" n="58" break="no"/>aliquo vno instanti. ergo non repugnat quantum est ex 
+      <lb ed="#V" n="59"/>nam celi: pro toto tempore: potest ergo caelum pro toto tem 
+      <lb ed="#V" n="60"/>pore stare cum isto vbi: sed potentie passiue 
+      correspon<lb ed="#V" n="61" break="no"/>det actiua: ergo oportet quod huic correspondeat in primo 
+      <lb ed="#V" n="62"/>agente necessario potentia qua celum poterit quiesceme: 
+      <lb ed="#V" n="63"/>sed si ita est cum necessario agat: per te: celum semper quie 
+      <lb ed="#V" n="64"/>scit.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e656">
+      ¶ Secundo sic. quandocumque aliqua sunt eiusdem rationis 
+      for<lb ed="#V" n="65" break="no"/>malis si vnum non repugnat alicui: nec reliquum: sed 
+      <lb ed="#V" n="66"/>motus celi circularis ad dextram et ad sinistram sunt eius¬ 
+      <!--112.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>dem rationis: motus autem celi est ad dextram: ergo si sibi non 
+      re<lb ed="#V" n="68" break="no"/>pugnat moueri ad finistram poterit ibidem moueri et 
+      <lb ed="#V" n="69"/>non nisi a deo: ergo deus poterit mouere ad sinistram 
+      <lb ed="#V" n="70"/>et si potest: ergo necessario mouebit: quia agit de 
+      necess<lb ed="#V" n="71" break="no"/>tate: et sic celum mouebitur oppositis motibus.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e678">
+      ¶ Sed 
+      <lb ed="#V" n="72"/>dices. non est eiusdem rationis: sed oppositus et 
+      incom<lb ed="#V" n="73" break="no"/>possibilis.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e685">
+      ¶ Contra. non potest dici quod sit alterius rationis 
+      <lb ed="#V" n="74"/>ratione termini: quia terminus acquisitus per vtrumque est 
+      <lb ed="#V" n="75"/>eiusdem rationis. Si autem dicas quod est incompossibilis 
+      <lb ed="#V" n="76"/>habetur propositum: quia agens continens in sua virtu 
+      <lb ed="#V" n="77"/>te duos effectus incompossibiles in eodem passo 
+      neu<lb ed="#V" n="78" break="no"/>trum poterit causare. si naturaliter agat: cum ergo deus: par tem 
+      <lb ed="#V" n="79"/>naturaliter agat: neutrum poterit causare: quod est 
+      <lb ed="#V" n="80"/>falsum.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e703">
+      ¶ 3o sic. quandocunque subiecta eiusdem rationis 
+      <lb ed="#V" n="81"/>sunt nata recipeie formas eiusdem rationis: ad quemcum 
+      <lb ed="#V" n="82"/>que gradum vnum illorum est natum et aliud: quia exquo tam 
+      <lb ed="#V" n="83"/>substantia quam forme sunt eiusdem rationis: non videtur causa oppositi. 
+      <lb ed="#V" n="84"/>sed duo orbes sunt homogenii et subiecta eiusdem rationis 
+      <lb ed="#V" n="85"/>ergo eque velociter mouebitur corpus inferioris orbis 
+      si<lb ed="#V" n="86" break="no"/>cut superioris: ergo aliqua causa actiua erit que hoc 
+      <lb ed="#V" n="87"/>poterit faceme: sed hec non est nisi prima. cum ergo de 
+      ne<lb ed="#V" n="88" break="no"/>cessitate agat producet vel causabit motum in inferio 
+      <lb ed="#V" n="89"/>ri orbe eque velocem. sicut est motus superioris orbis 
+      <lb ed="#V" n="90"/>et ita eque velociter mouebuntur. quod est falsum.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e727">
+      ¶ Si 
+      <lb ed="#V" n="91"/>dicatur quod corpora orbium non sunt eiusdem rationis 
+      </p>
+            <p xml:id="FrMS88-e39335-d1e732">
+               <lb ed="#V" n="92"/>¶ Tunc arguo sic. Omnes partes eiusdem orbis sunt 
+      <lb ed="#V" n="93"/>eiusdem rationis. hoc nullus dicitet negare: sed partes que 
+      <lb ed="#V" n="94"/>appropinquant ad polum tardius mouentur. ergo 
+      pos<lb ed="#V" n="95" break="no"/>sunt eque velociter moueri. et per consequens a deo. 
+      <lb ed="#V" n="96"/>et sic cum deus de necessitate agat mouebit eque velo 
+      <lb ed="#V" n="97"/>citer omnes partes eiusdem orbis: et sic partes minus 
+      <lb ed="#V" n="98"/>a polo distantes mouebuntur eque velociter cum 
+      ma<lb ed="#V" n="99" break="no"/>gis distantibus.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e753">
+      ¶ 4o sic. quandocumque aliqua loca sunt 
+      <lb ed="#V" n="100"/>eiusdem rationis: quicquid est natum quiesce in vno et in 
+      <lb ed="#V" n="101"/>alio: sed hemisperium superius et inferius sunt eiusdem ratio 
+      <lb ed="#V" n="102"/>nis. ergo stella quae quiescit in hemisprio superiori poterit 
+      quiescen<lb ed="#V" n="103" break="no"/>in inferiori. et sic erit dare potentiam potentem illud 
+      duce<lb ed="#V" n="104" break="no"/>ad actum. nunc illud non potest esse nisi deus. et per 
+      con<lb ed="#V" n="105" break="no"/>sequens deus de necessitate faciet. cuius oppositum est 
+      <lb ed="#V" n="106"/>manifestum.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e771">
+      ¶ Confirmantur inste rationes multpliciter.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e774">
+      ¶ Pri 
+      <lb ed="#V" n="107"/>mo sic. Accidentalis ordo non potest reduci in causam 
+      <lb ed="#V" n="108"/>naturaliter agentem. Uoco accidentalem ordinem qui est inter 
+      om<lb ed="#V" n="109" break="no"/>nia que possunt stantibus naturis eorum aliter 
+      ordi<lb ed="#V" n="110" break="no"/>nari: sed inter radios causatos a sole vnum in mane: et 
+      <lb ed="#V" n="111"/>alium in meridie: est accidentalis ordo. oportet ergo quod reducatur 
+      <lb ed="#V" n="112"/>in aliquam causam liberam quod hic sit in mane causatus et prior. 
+      <lb ed="#V" n="113"/>et alius in meridie et posterior.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e792">
+      ¶ Secundo sic. partes in 
+      <lb ed="#V" n="114"/>aliquo toto accidentaliter ordinate possunt alio modo 
+      ordi<lb ed="#V" n="115" break="no"/>nari: sed sol habet multas partes que quidem sunt eius 
+      <lb ed="#V" n="116"/>dem rationis et possunt aliter ordinari. non enim 
+      repu<lb ed="#V" n="117" break="no"/>gnat vni parti esse in situ alterius. quod ergo sint sic disposite et 
+      <lb ed="#V" n="118"/>ordinate cum essent aliter disponibiles et ordinabiles. oportet 
+      <lb ed="#V" n="119"/>in causam liberam reducere: quia si in causam naturalem: qua ratione 
+      <lb ed="#V" n="120"/>essent sic ordinate eadem ratione aliter.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e810">
+      ¶ Tertio sic. per 
+      ratio<lb ed="#V" n="121" break="no"/>nem Scoti. quando agens naturale non est terminatum ad vnum 
+      <lb ed="#V" n="122"/>eiusdem rationis: non determinatur ex se ad certum numerum. 
+      <lb ed="#V" n="123"/>cum ergo stelle sint eiusdem rationis. nec determinantur de 
+      <lb ed="#V" n="124"/>se ad certum numerum. infinitas autem eis non repugna 
+      <lb ed="#V" n="125"/>bit. et non possunt produci nisi a deo. ergo deus: cum naturali 
+      ne<lb ed="#V" n="126" break="no"/>cessitate producit. tot producet quot sunt producibiles 
+      <lb ed="#V" n="127"/>et sic produceret infinitas. quod est falsum.
+    </p>
+            <p xml:id="FrMS88-e39335-d1e828">
+      ¶ Si dicatur 
+      <lb ed="#V" n="128"/>quod non sunt stelle eiusdem rationis: saltem non potest 
+      neg<lb ed="#V" n="129" break="no"/>ri: quin partes solis sint eiusdem rationis. Et tunc arguo sic. 
+      <lb ed="#V" n="130"/>quandocumque natam non est determinata ad certum numerum 
+      <lb ed="#V" n="131"/>partium ex se si determinetur oportet quod hoc sit ab aliquo 
+      <lb ed="#V" n="132"/>agente libere: sed natuam solis est huiusmodi: quia non determinat fi 
+      <!--113.xml-->
+      <pb ed="#V" n="55-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>bi vnam partem vtpote vnius miliaris. nec per consequens 
+      ton<lb ed="#V" n="2" break="no"/>an plures possit in se habere. determinatur ergo ab aliquo 
+      li<lb ed="#V" n="3" break="no"/>bere agente. Similiter potest argui de animabus: quia deus 
+      <lb ed="#V" n="4"/>non est determinatus ad producendum vnam. ergo non 
+      deter<lb ed="#V" n="5" break="no"/>minat sibi certum numerum. et per consequens poterit et causabit infinitas. 
+      </p>
+            <p xml:id="FrMS88-e39335-d1e860">
+               <lb ed="#V" n="6"/>¶ Ad argu. factum in principio per dicta patet. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

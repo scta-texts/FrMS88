@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f19625"><!-- l2d21q1 -->
+            <head xml:id="FrMS88-f19625-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f19625-d1e111">
+               <lb ed="#V" n="81"/>Uidens igitur diabolus etc. 
+      <lb ed="#V" n="82"/>distinctionem. 21. Que 
+      <lb ed="#V" n="83"/>Irca ro vtrum in maam prima 
+      sini<lb ed="#V" n="84" break="no"/>rationes seminales. Et videtur quod sic: quia 
+      <lb ed="#V" n="85"/>Augu. ponit eas super gen. 
+      <lb ed="#V" n="86"/>aliqui quod non 
+      <lb ed="#V" n="87"/>hic dicunt est dare. E 
+      <lb ed="#V" n="88"/>contra. 3o de trini. Aug. positionit eas 
+      <lb ed="#V" n="89"/>hic tamen ponuntur 4or conclusiones.
+    </p>
+            <p xml:id="FrMS88-f19625-d1e133">
+      ¶ Prima 
+      <lb ed="#V" n="90"/>est. quod rationes seminales non sunt 
+      for<lb ed="#V" n="91" break="no"/>ame substantiales: quia ille sunt secundum Augu 
+      <lb ed="#V" n="92"/>stinum increate in ea a deo. non autem forma substantialis.
+    </p>
+            <p xml:id="FrMS88-f19625-d1e142">
+      ¶ Se 
+      <lb ed="#V" n="93"/>cunda conclusio. quod nec forme accidentales: quia etiam ille generan 
+      <lb ed="#V" n="94"/>tur et corrumpuntur.
+    </p>
+            <p xml:id="FrMS88-f19625-d1e149">
+      ¶ Tertia conclusio. quod nec relationes actua 
+      <lb ed="#V" n="95"/>les: quia tales non sunt ad formas in potentia.
+    </p>
+            <p xml:id="FrMS88-f19625-d1e155">
+      ¶ Quarta 
+      <lb ed="#V" n="96"/>conclusio quod nec priuationes: quia rationes seminales sunt per se 
+      <lb ed="#V" n="97"/>principia generationis secundum Augustinum.
+    </p>
+            <p xml:id="FrMS88-f19625-d1e162">
+      ¶ Scotus videtur dice 
+      <lb ed="#V" n="98"/>re quod dispositiones prim: sunt autem alique permanentes sicut quanti 
+      <lb ed="#V" n="99"/>tates.
+    </p>
+            <p xml:id="FrMS88-f19625-d1e169">
+      ¶ Alie transeuntes: et ille non sunt create cum materia. 
+      <lb ed="#V" n="100"/>ergo non sunt huiusmodi rationes.
+    </p>
+            <p xml:id="FrMS88-f19625-d1e174">
+      ¶ Dico igitur. quod sunt relationes 
+      fun<lb ed="#V" n="101" break="no"/>damentales potentie que sunt per se passiones. ponuntur enim in 
+      <lb ed="#V" n="102"/>materia: sicut principium forme: sed non nisi receptiue.
+    </p>
+            <p xml:id="FrMS88-f19625-d1e181">
+      ¶ Contra 
+      cor<lb ed="#V" n="103" break="no"/>pus secundum hoc habebit rationem seminalem respectu 
+      anime<lb ed="#V" n="104" break="no"/>sic de gratia: sic de incarnatione verbi: sic de beatitudine. 
+      </p>
+            <p xml:id="FrMS88-f19625-d1e188">
+               <lb ed="#V" n="105"/>¶ Ad primum dico. quod potentia receptiua equoce accipitur: vel quia 
+      <lb ed="#V" n="106"/>causat in genere causare materialis: vt dependet forma ab ea: vel quia 
+      <lb ed="#V" n="107"/>tantum ibi recipitur: sic autem non est de anima: quia a mteam non dependet. 
+      </p>
+            <p xml:id="FrMS88-f19625-d1e198">
+               <lb ed="#V" n="108"/>¶ Sed contra. gratia cum sit accidens: nonne dependet ab anima: 
+      <lb ed="#V" n="109"/>Dico quod ratio seminalis non est receptiua per coprationem ad 
+      <lb ed="#V" n="110"/>agens supernaturale: sed ratio hic magis diciet dici obiectalis respe 
+      <lb ed="#V" n="111"/>ctu talis agentis. huiusmodi est autem deus: eodem modo de incarnatio 
+      <lb ed="#V" n="112"/>ne et beatitudine.
+    </p>
+            <p xml:id="FrMS88-f19625-d1e211">
+      ¶ Sed habent ne accidentia rationes 
+      semina<lb ed="#V" n="113" break="no"/>les: Dico quod sic eadem ratione: et etiam pelationes: quia separi non possunt 
+      </p>
+            <p xml:id="FrMS88-f19625-d1e216">
+               <lb ed="#V" n="114"/>¶ Scientia autem et virtutes habent in intellectu et appetitu rationes 
+      se<lb ed="#V" n="115" break="no"/>minales. Unde ratio seminalis est ipse potentie causales: quas habet 
+      <lb ed="#V" n="116"/>mam in genere causare materialis: sed dicitur ratio causalis ex parte agentis: et ratio 
+      <lb ed="#V" n="117"/>primordialis inter agens et patiens. Ratio autem substantialis 
+      pe<lb ed="#V" n="118" break="no"/>comparationem ad agens primum.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

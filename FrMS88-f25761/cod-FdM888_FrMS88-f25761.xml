@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="167-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f25761"><!-- l3d1q2 -->
+            <head xml:id="FrMS88-f25761-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f25761-d1e111">
+               <lb ed="#V" n="122"/>¶ Questio. ii. 
+      <lb ed="#V" n="123"/>Utrum 
+      incal<lb ed="#V" n="124" break="no"/>Ecundo quero natio verbi 
+      <lb ed="#V" n="125"/>sit relatio. Et videtur quod non: quia nulla relatio dicit 
+      <lb ed="#V" n="126"/>perfectionem: sed incarnatio verbi est humans 
+      <lb ed="#V" n="127"/>nature summa perfectio. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e127">
+      ¶ Sed 
+      contra<lb ed="#V" n="128" break="no"/>quia generatio verbi est prestantior incarnatione: sed 
+      ver<lb ed="#V" n="129" break="no"/>bi generatio non dicit prefectionem. ergo nec incarnatio. 
+      <!--337.xml-->
+      <pb ed="#V" n="167-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>et per consequens est relatio et non absolutum. 
+      <lb ed="#V" n="2"/>quatuor conclusiones.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e145">
+      ¶ 
+      Pri<lb ed="#V" n="3" break="no"/>hic introducuntur nmae conclusio es quod 
+      incarna<lb ed="#V" n="4" break="no"/>tio verbi non est tantum entitas rationis: sed entitas realis: quia ad nuim 
+      <lb ed="#V" n="5"/>hil rationis tantum concurrit operatio trinitatis: sed ad 
+      incarna<lb ed="#V" n="6" break="no"/>tionem concurrit tota trinitas. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e156">
+      ¶ Item nihil dicitur realiter 
+      <lb ed="#V" n="7"/>tale per ens rationis tantum: sed verbum dicitur realiter incarnatum. ergo 
+      incar<lb ed="#V" n="8" break="no"/>natio est realis.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e164">
+      ¶ 2a conclusio est. quod incarnatio non est aliquid 
+      prae<lb ed="#V" n="9" break="no"/>uatiuum sed positiuum: quia per eam natura humana dicitur perfici et non 
+      pri<lb ed="#V" n="10" break="no"/>uari.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e171">
+      ¶ Item nihil quod ad naturam humanam partinet perderetur si 
+      <lb ed="#V" n="11"/>sibi ipsi dimitteretur. ergo incarnatio non est aliqua priuatio. 
+      </p>
+            <p xml:id="FrMS88-f25761-d1e176">
+               <lb ed="#V" n="12"/>¶ 3a conclusio est. quod incarnatio non est aliquid absolutum: sed 
+      re<lb ed="#V" n="13" break="no"/>pectiuum. quia discreta theologia non dicitur de 
+      omni<lb ed="#V" n="14" break="no"/>bus sed de persona solum. sed incarnatio dicitur de sola persona: 
+      <lb ed="#V" n="15"/>sed quod dicitur de omnibus personis est absolutum: et quod de vna sola 
+      <lb ed="#V" n="16"/>dicitur est respectiuum.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e189">
+      ¶ Item quia Aug. dicit. quae non de personis 
+      <lb ed="#V" n="17"/>non ad se: sed adiuicem vel ad aliquid tantum dicuntur: sed incarnatio 
+      <lb ed="#V" n="18"/>de vna tantum persona dicitur. ergo non ad se: et per consequens est respectiuum. 
+      </p>
+            <p xml:id="FrMS88-f25761-d1e196">
+               <lb ed="#V" n="19"/>¶ 4a conclusio quod incarnatio non est respectus intrinsecus 
+      adue<lb ed="#V" n="20" break="no"/>ueniens sed extrinsecus: quia non innascitur ex natura terminorum. sed 
+      <lb ed="#V" n="21"/>ab agente inducente eam.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e205">
+      ¶ Item. quia non est miraculum de 
+      <lb ed="#V" n="22"/>relatione intrinseca insurgente inter extrema quaecumque. Sed 
+      <lb ed="#V" n="23"/>de ista est miraculum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e213">
+      ¶ Sed contra praedictas conclusiones arguitur 
+      <lb ed="#V" n="24"/>per ordinem.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e218">
+      ¶ Contra primam: quia deus per creatuse refertur ad 
+      crea<lb ed="#V" n="25" break="no"/>turam: sed nulla eius relatio ad creaturam est realis. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f25761-d1e223">
+               <lb ed="#V" n="26"/>¶ Item secundo. quia per incarnationem natura humana supponitur in 
+      <lb ed="#V" n="27"/>alieno supposita: et priuatur proprio supposito vel propria 
+      <lb ed="#V" n="28"/>suppositatione: igitur incarnatio est priuatio.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e232">
+      ¶ Itemo quia bea 
+      <lb ed="#V" n="29"/>tus bernardus dicit quod illa vnio tenet arcem inter omnes 
+      <lb ed="#V" n="30"/>alias vniones: sed nihil respectiuum tenet arcem. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f25761-d1e239">
+               <lb ed="#V" n="31"/>¶ Item 4o. quia illa relatio est intrinseca: per quam extrema 
+      in<lb ed="#V" n="32" break="no"/>timantur: sed per hanc maxime intimantur extrema scilicet 
+      sup<lb ed="#V" n="33" break="no"/>positum verbi et humana natura. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e248">
+      ¶ Ad primum dicitur. quod deus 
+      di<lb ed="#V" n="34" break="no"/>citur incarnatus solum denominatione extrinseca: sicut dicitur 
+      <lb ed="#V" n="35"/>creator. licet in se realiter maxime habeat vim creatiuam et 
+      <lb ed="#V" n="36"/>terminatiuam istius bendicte incarnationis.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e258">
+      ¶ Ad 
+      se<lb ed="#V" n="37" break="no"/>cundum dicendum. quod respectus incarnationis non est priuatio 
+      <lb ed="#V" n="38"/>proprie suppositationis. sed priuatio ista est aliquid 
+      con<lb ed="#V" n="39" break="no"/>comitans respectum incarnationis.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e267">
+      ¶ Ad 3m dico. quod 
+      <lb ed="#V" n="40"/>arcem tenere potest intelligi dupliciter: vel eminentie vel 
+      digni<lb ed="#V" n="41" break="no"/>tatis: tenere vero arcem eminentie dicit perfectionem: et 
+      ta<lb ed="#V" n="42" break="no"/>le est absolutum: sed tenere arcem dignitatis: non semper dicit per 
+      <lb ed="#V" n="43"/>ectionem: sic vnio incarnationis tenet arcem dignitatis. 
+      </p>
+            <p xml:id="FrMS88-f25761-d1e278">
+               <lb ed="#V" n="44"/>¶ Ad 4m dico. quod intimatio non arguit respectum 
+      intrin<lb ed="#V" n="45" break="no"/>secum: quia anima maxime intimatur corpori: et tamen illa vnio non est 
+      <lb ed="#V" n="46"/>ntrinseca: quia extrema possunt sine illa maneme: vt patet.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e287">
+      ¶ Item 
+      <lb ed="#V" n="47"/>nota quod incarnatio nihil dicit quod sit de genere substantie: cum 
+      ni<lb ed="#V" n="48" break="no"/>bil aliud sit quam vnio quae per se tota est ad aliud.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e294">
+      ¶ Sed dubium. 
+      <lb ed="#V" n="49"/>est. si incarnatio sit aliquod transcendens. Dicitur quod non: sed aliquid  
+      <lb ed="#V" n="50"/>genere cum sit accidens: et nihil tale est transcendens nisi quando est idem 
+      <lb ed="#V" n="51"/>realiter cum fundamento: quod in proposito poni non potest: cum 
+      pos<lb ed="#V" n="52" break="no"/>int fundamenta istius relationis manere non manente 
+      relatio<lb ed="#V" n="53" break="no"/>ne.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e307">
+      ¶ Item dubium est. si est de genere actionis. Et dicitur quod non: quia in 
+      <lb ed="#V" n="54"/>carnatio est terminus actionis: sed ad actionem non est 
+      <lb ed="#V" n="55"/>actio.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e315">
+      ¶ Item non est de genere passionis. quia passio est idem 
+      <lb ed="#V" n="56"/>quod receptio. incarnatio non est ipsa receptio. sed ipsa 
+      re<lb ed="#V" n="57" break="no"/>cipitur.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e322">
+      ¶ Est igitur incarnatio de aliquo praesento: non proprie 
+      <lb ed="#V" n="58"/>et per se: sed per reductionem eius praedicationem non recipit: 
+      re<lb ed="#V" n="59" break="no"/>ducitur autem ad praesentum habitus: quia est respectus 
+      circun<lb ed="#V" n="60" break="no"/>tantis ei cui circumstat: sicut esse in loco ipsius angeli 
+      re<lb ed="#V" n="61" break="no"/>ducitur ad praesentum vbi: cuius tamen praesenti vbi angeli praedicatio 
+      <lb ed="#V" n="62"/>nem non recipit proprie.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e335">
+      ¶ Item est dubium. si incarnatio sit relatio 
+      <lb ed="#V" n="63"/>dependentie. Dico quod non. ratio est: quia positis causis totalibus 
+      <lb ed="#V" n="64"/>alicuius effectus non est aliqua causalitas vel dependentia 
+      causa<lb ed="#V" n="65" break="no"/>litatis ponenda in eo: sed suppositi humani: puta sorti 
+      <lb ed="#V" n="66"/>sunt quatuor cause quae sufficiunt a quibus suppositum depen¬ 
+      <!--337.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>det et non a pluribus scilicet voluntas diuina et finis primus: et 
+      <lb ed="#V" n="68"/>etiam causae intrinsece scilicet corpus et anima et non a pluribus 
+      depen<lb ed="#V" n="69" break="no"/>det supsitum christi in verbo. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e357">
+      ¶ Item 2o. nihil potest ab 
+      aliquo<lb ed="#V" n="70" break="no"/>dependere quo non existente: nihilominus esset: sed vnione ista 
+      <lb ed="#V" n="71"/>non existente nihil minus na esset suppositum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f25761-d1e364">
+      ¶ Item tertio 
+      <lb ed="#V" n="72"/>quia vnio accidentis ad subiectum est relatio dependentie: eo quod 
+      sub<lb ed="#V" n="73" break="no"/>lato subiecto per miraculum accuens conseruaretur a deo. 
+      <lb ed="#V" n="74"/>sed si nam christi dimitteretur a verbo sibiipsi relicta non per mui 
+      <lb ed="#V" n="75"/>raculum. sed naturaliter conseruaretur. ergo ista vnio non est 
+      <lb ed="#V" n="76"/>relatio dependentie humane nature: vel relatio 
+      causali<lb ed="#V" n="77" break="no"/>tatis dependentie. sed sustentificantis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

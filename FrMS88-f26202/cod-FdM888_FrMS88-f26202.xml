@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f26202"><!-- l3d1q4 -->
+            <head xml:id="FrMS88-f26202-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f26202-d1e111">
+               <lb ed="#V" n="3"/>¶ Questio. iiii. 
+      <lb ed="#V" n="4"/>QUarto quero Utrum 
+      incarna<lb ed="#V" n="5" break="no"/>tio verbi sit possibilis 
+      <lb ed="#V" n="6"/>Quod non arguitur: quia filius non potest quicquam facem nisi 
+      <lb ed="#V" n="7"/>quod viderit patrem facientem: vt dicitur in Iomnuane. 
+      <lb ed="#V" n="8"/>A Sed huius facti possibilitas non attribuitur patri¬ 
+      </p>
+            <p xml:id="FrMS88-f26202-d1e127">
+               <lb ed="#V" n="9"/>¶ Contra. quia scriptum est quod non est impleie apud deum omne 
+      <lb ed="#V" n="10"/>vbum: et loquitur angelus de incarnatione verbi. 
+      <lb ed="#V" n="11"/>possibilitas declaratur 4r. 
+      <lb ed="#V" n="12"/>Duiusmodi autem Primo illud 
+      suppo<lb ed="#V" n="13" break="no"/>situm quod omnem suppositationem virtualiter continet potest omnem 
+      <lb ed="#V" n="14"/>aliam naturam suppositare.
+    </p>
+            <p xml:id="FrMS88-f26202-d1e143">
+      ¶ Secundus modus est talis. 
+      <lb ed="#V" n="15"/>quando aliqua duo situt essentialiter ordinata deus potest influen ad 
+      <lb ed="#V" n="16"/>primum non influendo ad secundum: sed indiuiduum et suppositum 
+      <lb ed="#V" n="17"/>sunt essentialiter ordinata: quia indiuiduum praecedit suppositum. 
+      <lb ed="#V" n="18"/>est enim anima indiuiduum: non autem per se suppositum nisi in 
+      cor<lb ed="#V" n="19" break="no"/>bore. ergo deus potest suam influentiam suspender rtima proprii 
+      suppo<lb ed="#V" n="20" break="no"/>siti in natura humana.
+    </p>
+            <p xml:id="FrMS88-f26202-d1e159">
+      ¶ Tertius modus est talis: quia 
+      prae<lb ed="#V" n="21" break="no"/>dicamenta sunt impermixta secundum rem: verum tamen mutuo sibi 
+      comui<lb ed="#V" n="22" break="no"/>cant modos suos per potentiam diuinara: vt patet in sancramento alta 
+      <lb ed="#V" n="23"/>ris: vbi accidens separatum habet modum substantie: cuius est per se sta 
+      <lb ed="#V" n="24"/>re: sic et natura humana in christo habet modum accidentis: quia initit 
+      <lb ed="#V" n="25"/>supposito diuino: sicut accidens subiecto.
+    </p>
+            <p xml:id="FrMS88-f26202-d1e173">
+      ¶ Quartus 
+      mo<lb ed="#V" n="26" break="no"/>dus et talis: quia illa quae multum sunt similia vniri non possunt: quia vi 
+      <lb ed="#V" n="27"/>demus quod quanto aliqua sunt minus conformia: tunc magis 
+      <lb ed="#V" n="28"/>possunt vniri: vt substantia et accidens: mateam et forma: non autem duo in 
+      <lb ed="#V" n="29"/>diuidua propter conformitatem: sed natura humana: et diuinum 
+      sup<lb ed="#V" n="30" break="no"/>positum maxime sunt distincta et difformia. ergo per 
+      diuina<lb ed="#V" n="31" break="no"/>potentiam magis possunt vniri.
+    </p>
+            <p xml:id="FrMS88-f26202-d1e189">
+      ¶ Sed nullus istorum modorum 
+      <lb ed="#V" n="32"/>idetur sufficere. Iccirco contra primum arguo sic: quia diuina nam vel 
+      <lb ed="#V" n="33"/>essentia continet virtualiter omnem aliam naturam: et tamen non potest 
+      <lb ed="#V" n="34"/>assumere aliquam aliam naturam ad vnitatem sui. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f26202-d1e198">
+      ¶ 
+      Se<lb ed="#V" n="35" break="no"/>cundo. quia terminatur incarnatio ad proprietatem: sed 
+      sup<lb ed="#V" n="36" break="no"/>positum diuinum per proprietatem non habet infinitatem. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f26202-d1e205">
+      ¶ Item 
+      <lb ed="#V" n="37"/>contra secundum: quia nam et sua singularitas sunt essentialiter 
+      ordi<lb ed="#V" n="38" break="no"/>nata: quia natura ordine naturae praecedit suam singularitatem: igitur 
+      di<lb ed="#V" n="39" break="no"/>uinum suppositum potest assumere naturam sine singularitate: quod 
+      <lb ed="#V" n="40"/>falsum est.
+    </p>
+            <p xml:id="FrMS88-f26202-d1e216">
+      ¶ Item contra tertium: quia nunquam 
+      acci<lb ed="#V" n="41" break="no"/>dens separatum habet modum substantie: eo quod semper aptum 
+      na<lb ed="#V" n="42" break="no"/>tum est inherere: quanuis per se sit: quod numque competit substantie 
+      </p>
+            <p xml:id="FrMS88-f26202-d1e223">
+               <lb ed="#V" n="43"/>¶ Ubi notandum. quod quando aliquid competit alicui per 
+      acci<lb ed="#V" n="44" break="no"/>dens naturalis aptitudo ad aliud competit sibi per se. Si 
+      igi<lb ed="#V" n="45" break="no"/>tur nature humane competit vniri supposito verbi per 
+      <lb ed="#V" n="46"/>accidens: haberet naturalem aptitudinem ad vniendum 
+      al<lb ed="#V" n="47" break="no"/>teri: quod est falsum: ergo falsum est quod praesenta sibiinuicem commuicent 
+      <lb ed="#V" n="48"/>suos modos.
+    </p>
+            <p xml:id="FrMS88-f26202-d1e240">
+      ¶ Item contra quartum: quia secundum hoc lapis 
+      <lb ed="#V" n="49"/>et homo maxime possent facere vnum: quod tamen non 
+      <lb ed="#V" n="50"/>possunt nisi aggregatione: sicut aceruus.
+    </p>
+            <p xml:id="FrMS88-f26202-d1e247">
+      ¶ Ideo 
+      di<lb ed="#V" n="51" break="no"/>cit doctor suttilis quod possibilitas incarnationis ex alio 
+      <lb ed="#V" n="52"/>declaratur: est enim regula apud ipsum. quod omnino 
+      inde<lb ed="#V" n="53" break="no"/>pendens in aliquo ordine quando est primum potest 
+      termi<lb ed="#V" n="54" break="no"/>nare omne aliud dependens dependentia talis ordinis. sicut 
+      <lb ed="#V" n="55"/>partet in ordine causarum efficientium: quia prima causa efficiens 
+      <lb ed="#V" n="56"/>omnem dependentiam cause efficientis alterius potest 
+      ter<lb ed="#V" n="57" break="no"/>minare: sed suppositum verbi est primum independens 
+      <lb ed="#V" n="58"/>in ordine suppositorum: igitur potest terminare 
+      depen<lb ed="#V" n="59" break="no"/>dentiam cutuslibet alterius suppositi. Sed quia ista 
+      ra<lb ed="#V" n="60" break="no"/>tio presuppionit quod incarnatio est relatio dependentie: quod 
+      <lb ed="#V" n="61"/>supra est improbatum: iccirco aliter declaratur proposio 
+      <lb ed="#V" n="62"/>itum quadrupliciter.
+    </p>
+            <p xml:id="FrMS88-f26202-d1e276">
+      ¶ Et primo ex parte nature 
+      assu<lb ed="#V" n="63" break="no"/>mentis.
+    </p>
+            <p xml:id="FrMS88-f26202-d1e281">
+      ¶ Secundo ex parte naturae assumptibilis: quia 
+      natu<lb ed="#V" n="64" break="no"/>ra assumptibilis differt realiter a supposito: cum 
+      na<lb ed="#V" n="65" break="no"/>tura non sit suppositum: et est prior eo: et in essentialiter 
+      <lb ed="#V" n="66"/>ordinatis et realiter distinctis deus potest facere prius 
+      <!--338.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>fine posteriori: et sic naturam talem que non erit in proprio 
+      <lb ed="#V" n="68"/>supposito.
+    </p>
+            <p xml:id="FrMS88-f26202-d1e299">
+      ¶ Tertio. ex parte termini a quo: quod est 
+      <lb ed="#V" n="69"/>suppositum creatum a quo separatur natura assumpta: quia 
+      <lb ed="#V" n="70"/>non repugnat creature referri ad deum relatione sibi 
+      <lb ed="#V" n="71"/>naturaliter innata: sicut est creatio: igitur multo minus 
+      <lb ed="#V" n="72"/>illa quae est enim supernaturaliter infusa.
+    </p>
+            <p xml:id="FrMS88-f26202-d1e310">
+      ¶ Quarto ex 
+      par<lb ed="#V" n="73" break="no"/>te termini ad quem: que est proprietas verbi que non plus 
+      <lb ed="#V" n="74"/>excedit creaturam quam essentiam: et ideo ex suo excessu non 
+      <lb ed="#V" n="75"/>repugnat sibi sic terminare respecifica et a se. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

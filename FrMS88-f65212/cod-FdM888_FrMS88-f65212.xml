@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="213-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f65212"><!-- l4d17q4 -->
+            <head xml:id="FrMS88-f65212-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f65212-d1e111">
+               <lb ed="#V" n="100"/>QUarti quaestio. vtrum aliquins sacerdos 
+      <lb ed="#V" n="101"/>. possit absoluere de omni pecca 
+      <lb ed="#V" n="102"/>to mortali.
+    </p>
+            <p xml:id="FrMS88-f65212-d1e120">
+      ¶ Uidetur quod non: quia plus potest 
+      <lb ed="#V" n="103"/>superior quam inferior. ergo non quilibet potest 
+      <lb ed="#V" n="104"/>Sei in omnibus.
+    </p>
+            <p xml:id="FrMS88-f65212-d1e127">
+      ¶ Contra iure psolitico in 
+      ex<lb ed="#V" n="105" break="no"/>trema necessaritate: omnia corporalia sunt communia. igitur in necessaritate 
+      <lb ed="#V" n="106"/>extrema. et pariculo mortis omnia spiritualia debent esse communia. 
+      <lb ed="#V" n="107"/>veritas determinata. quod in articulo 
+      mor<lb ed="#V" n="108" break="no"/>hic est tis quantum ad culpam omnes sacerdotes 
+      <lb ed="#V" n="109"/>possunt: sicut iure politico omnia temporalia sunt commu 
+      <lb ed="#V" n="110"/>nia ita multo magis dabet esse in spiritualibus.
+    </p>
+            <p xml:id="FrMS88-f65212-d1e143">
+      ¶ Sed quid si per 
+      <lb ed="#V" n="111"/>scriptum quis consitetur:
+    </p>
+            <p xml:id="FrMS88-f65212-d1e149">
+      ¶ Dico quod potest sic. sicut mutus per 
+      si<lb ed="#V" n="112" break="no"/>gna.
+    </p>
+            <p xml:id="FrMS88-f65212-d1e154">
+      ¶ Sed quid per interpretem:
+    </p>
+            <p xml:id="FrMS88-f65212-d1e157">
+      ¶ Dicitur quod sic si 
+      sacer<lb ed="#V" n="113" break="no"/>dos non potest intelligere mutum. vel ignoraret linguam 
+      bar<lb ed="#V" n="114" break="no"/>bari consitentis. et alius sacerdos non possit haberi 
+      <lb ed="#V" n="115"/>de leui.
+    </p>
+            <p xml:id="FrMS88-f65212-d1e166">
+      ¶ Sed nunquid per internuncium:
+    </p>
+            <p xml:id="FrMS88-f65212-d1e169">
+      ¶ 
+      Dici<lb ed="#V" n="116" break="no"/>tur quod non: quia abisns diabet esse praesens illi quem absoluit.
+    </p>
+            <p xml:id="FrMS88-f65212-d1e174">
+      ¶ Sed 
+      <lb ed="#V" n="117"/>nunquid per interpolationem sicut illi qui faciunt 
+      confessio<lb ed="#V" n="118" break="no"/>nem durantem per quindenam:
+    </p>
+            <p xml:id="FrMS88-f65212-d1e182">
+      ¶ Dicitur quod sic. quia non 
+      <lb ed="#V" n="119"/>est inconueniens: nec propter hoc diuiditur. quia omnia 
+      <lb ed="#V" n="120"/>peccata sua dicit vni sacerdoti. et diceret omnia in vna 
+      <lb ed="#V" n="121"/>hora si posset.
+    </p>
+            <p xml:id="FrMS88-f65212-d1e191">
+      ¶ Sed nunquid potest sacerdos 
+      absol<lb ed="#V" n="122" break="no"/>uere aliquam mulicrem cum qua peccauit:
+    </p>
+            <p xml:id="FrMS88-f65212-d1e196">
+      ¶ Dicitur quod de hoc 
+      <lb ed="#V" n="123"/>non est dubium: quia habet claues ecclesie. tamen hoc non est 
+      ratio<lb ed="#V" n="124" break="no"/>nabile: nec vtile: sicut cum alio: quia non tantum virtus datur: nec per 
+      <lb ed="#V" n="125"/>consequens: tantum conteritur. Et vlterius posset faciliter occurrere 
+      <lb ed="#V" n="126"/>aliqua temptatio sacerdoti.
+    </p>
+            <p xml:id="FrMS88-f65212-d1e207">
+      ¶ Sed numquid tenetur 
+      mulier<lb ed="#V" n="127" break="no"/>illa dicere omnes circumstantias. Uitur quod non. quia circunstantie 
+      <lb ed="#V" n="128"/>non dicuntur nisi vt grauitas praecti ostendatur: et patefiat iudi 
+      <lb ed="#V" n="129"/>ci spirituali scilicet sacerdoti: et in isto casu sacerdos totum scit 
+      <lb ed="#V" n="130"/>igitur etc.
+    </p>
+            <p xml:id="FrMS88-f65212-d1e218">
+      ¶ Dicendum quod si peccatum sit recenter factum. nec 
+      ve<lb ed="#V" n="131" break="no"/>risimile est excedisse a memoria. non oportet. si autem sit 
+      anti<lb ed="#V" n="132" break="no"/>quum. oportet etiam si sit recenter factum dabtet dicere illas circumsta 
+      <!--429.xml-->
+      <pb ed="#V" n="213-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tias quae se tenent ex parte sui: sed forte latent sacerdotem. Sed 
+      <lb ed="#V" n="2"/>numquid potest fieri duobus sacerdotibus similis:
+    </p>
+            <p xml:id="FrMS88-f65212-d1e236">
+      ¶ Dicitur quod non. si 
+      <lb ed="#V" n="3"/>cut duobus iudicibus. tamen vnus prosset dirigere: et alius 
+      abso<lb ed="#V" n="4" break="no"/>uere.
+    </p>
+            <p xml:id="FrMS88-f65212-d1e244">
+      ¶ Tnde videtur quod possit. sicut aliquando in curia regia sunt 
+      <lb ed="#V" n="5"/>duo iudices in vna causa.
+    </p>
+            <p xml:id="FrMS88-f65212-d1e249">
+      ¶ Sed nunquid potest in 
+      <lb ed="#V" n="6"/>publico fieri confessio:
+    </p>
+            <p xml:id="FrMS88-f65212-d1e254">
+      ¶ Dico quod non: quia est contra naturam istius 
+      <lb ed="#V" n="7"/>sacramenti. tamen vbi iudex cognosceret vtile posset 
+      <lb ed="#V" n="8"/>fieri: sed tamen non confessio sacramentalis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

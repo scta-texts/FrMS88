@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="212-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f64222"><!-- l4d16q4 -->
+            <head xml:id="FrMS88-f64222-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f64222-d1e111">
+               <lb ed="#V" n="82"/>QUarta questio. vtrum mercatio fit 
+      <lb ed="#V" n="83"/>licita a iure divino.
+    </p>
+            <p xml:id="FrMS88-f64222-d1e118">
+      ¶ Arguitur 
+      <lb ed="#V" n="84"/>quod non. quia matheus non rediit ad 
+      mercan<lb ed="#V" n="85" break="no"/>dum: vt dicit Grego. quia sine peccato 
+      exer<lb ed="#V" n="86" break="no"/>Uceri non potest.
+    </p>
+            <p xml:id="FrMS88-f64222-d1e127">
+      ¶ Contra in euangelio 
+      lu<lb ed="#V" n="87" break="no"/>ce de negociatore loquitur christus. 
+      <lb ed="#V" n="88"/>hic introducuntur quatuor 
+      conclusio<lb ed="#V" n="89" break="no"/>nes.
+    </p>
+            <p xml:id="FrMS88-f64222-d1e136">
+      ¶ Prima est quod 
+      <lb ed="#V" n="90"/>mercatio est vite humane necessaria. hoc probat Aug. 
+      <lb ed="#V" n="91"/>quia homines communiter indigent rebus eiusdem rationis. sicut 
+      <lb ed="#V" n="92"/>sunt eiusdem speciei. regiones autem non omnes habent 
+      <lb ed="#V" n="93"/>res eiusdem rationis. sicut de lanis. Aliquae habent vinum. 
+      Ali<lb ed="#V" n="94" break="no"/>que ficus. ideo mercatio est necessaria: vt transferans 
+      <lb ed="#V" n="95"/>de vna ad aliam.
+    </p>
+            <p xml:id="FrMS88-f64222-d1e153">
+      ¶ Secunda conclusio. quod est de iure 
+      na<lb ed="#V" n="96" break="no"/>turali. quod probatur sic. quicquid est ad vitam humanam 
+      sup<lb ed="#V" n="97" break="no"/>portandam necessarium est de iure naturali. sed mercatio est 
+      <lb ed="#V" n="98"/>huiusmodi: vt patet in conclusione precedenti. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f64222-d1e162">
+      ¶ 
+      Ter<lb ed="#V" n="99" break="no"/>tia conclusio. quod de iure diuino est licita probatur: quia est licita 
+      <lb ed="#V" n="100"/>de iure naturali. nec inuenitur improbata iure diuino. 
+      </p>
+            <p xml:id="FrMS88-f64222-d1e169">
+               <lb ed="#V" n="101"/>¶ 4a conclusio. quod est de iure diuino. et cum hoc 
+      merito<lb ed="#V" n="102" break="no"/>ria. etiam pro vita eterna in aliquo casu. Probo. quandocumque 
+      <lb ed="#V" n="103"/>est aliquis actus virtutis moralis qui est formatus cari 
+      <lb ed="#V" n="104"/>tate. ille est caritatis imperatus: sed omnes actus eliciti vel 
+      <lb ed="#V" n="105"/>impati a caritate: sunt digni vita eterna. quicunque enim 
+      <lb ed="#V" n="106"/>pederit calicem aque frigide etc. Actus autem mercatorius 
+      <lb ed="#V" n="107"/>est actus iustitie commutatiue que est virtus moralis. 
+      </p>
+            <p xml:id="FrMS88-f64222-d1e187">
+               <lb ed="#V" n="108"/>¶ Sed queritur si mercator post tres septimanas dicbiet 
+      <lb ed="#V" n="109"/>accipere. xxx. et alius dicitet statim pecuniam pro. xx. vtrum 
+      <lb ed="#V" n="110"/>sit vsura:
+    </p>
+            <p xml:id="FrMS88-f64222-d1e196">
+      ¶ Dico quod si non plus vendatur quam vendi dibiet de 
+      <lb ed="#V" n="111"/>ommuni lege non est vsura ex parte vendentis. sed magis vi 
+      <lb ed="#V" n="112"/>detur quod sit ex parte emptoris. Et si aliquid solet valere. 
+      <lb ed="#V" n="113"/>xxx. libras. si vsura ibi ascendat: potest vendi 
+      ascenden<lb ed="#V" n="114" break="no"/>do ad terminum talem: et infra vel citra precium illud  
+      </p>
+            <p xml:id="FrMS88-f64222-d1e207">
+               <lb ed="#V" n="115"/>¶ Sed quid de arte campsoria:
+    </p>
+            <p xml:id="FrMS88-f64222-d1e213">
+      ¶ Dico quod sicut ars 
+      <lb ed="#V" n="116"/>mercationum licite facta est naturalis. sicut enim visum est 
+      mer<lb ed="#V" n="117" break="no"/>cationes sunt vtiles: quia aliqua habentur in vna regione 
+      <lb ed="#V" n="118"/>que non in alia. Ita pecunie commutationes siue 
+      causapsio<lb ed="#V" n="119" break="no"/>nes: quia vna moneta currit in vna regione: et non in 
+      <lb ed="#V" n="120"/>alia: vnde pro suo labore aliquid possunt lucrari licite. 
+      </p>
+            <p xml:id="FrMS88-f64222-d1e226">
+               <lb ed="#V" n="121"/>¶ Sed si quis iaceat rethe: et aliquis illud emat. si 
+      extra<lb ed="#V" n="122" break="no"/>hatur aurum quis dicibet illud habere.
+    </p>
+            <p xml:id="FrMS88-f64222-d1e233">
+      ¶ Respondeo illud enim occupanti 
+      con<lb ed="#V" n="123" break="no"/>ceditur. Alius enim emit illud quod habere intendebat: et non plus 
+      <lb ed="#V" n="124"/>sed non intendebat emere nisi hoc fuerit expressum 
+      dicen<lb ed="#V" n="125" break="no"/>do quicquid in rethe fuerit siue piscis siue aurum argen 
+      <lb ed="#V" n="126"/>tumque etc.
+    </p>
+            <p xml:id="FrMS88-f64222-d1e244">
+      ¶ Sed oc. difficultas quia videtur quod intentio dabet fieri ad illud 
+      <lb ed="#V" n="127"/>quod solent vendere piscatores. non solent autem vendere 
+      <lb ed="#V" n="128"/>aurum sed pisces. ideo eis diaibet remanere aurum.
+    </p>
+            <p xml:id="FrMS88-f64222-d1e251">
+      ¶ Respondeo. 
+      conce<lb ed="#V" n="129" break="no"/>datur nisi fuerit dicta. conditio apposita.
+    </p>
+            <p xml:id="FrMS88-f64222-d1e256">
+      ¶ Sed nunquid 
+      <lb ed="#V" n="130"/>licet vendere redditus ad vitam.
+    </p>
+            <p xml:id="FrMS88-f64222-d1e262">
+      ¶ hic dicitur quod non. quia incertum. 
+      </p>
+            <p xml:id="FrMS88-f64222-d1e265">
+               <lb ed="#V" n="131"/>¶ Sed dispositio non valet quia emptio et venditio 
+      be<lb ed="#V" n="132" break="no"/>ne possunt esse circa incertum sicut tractus vnius rethis: nec¬ 
+      <!--427.xml-->
+      <pb ed="#V" n="212-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>euidenter apparet contrarium quare non possit. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

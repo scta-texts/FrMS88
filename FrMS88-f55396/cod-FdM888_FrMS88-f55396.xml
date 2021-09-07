@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 19</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 19</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f55396"><!-- l4d11q19 -->
+            <head xml:id="FrMS88-f55396-Hd1e108">Quaestio 19</head>
+            <p xml:id="FrMS88-f55396-d1e111">
+               <lb ed="#V" n="4"/>QUeritur vtrum conuersio sit in 
+      prae<lb ed="#V" n="5" break="no"/>existens. 
+    </p>
+            <p xml:id="FrMS88-f55396-d1e118">
+               <lb ed="#V" n="6"/>Hic dico quod substantia panis conuertitur in 
+      <lb ed="#V" n="7"/>praexistens. et hoc est multum 
+      <lb ed="#V" n="8"/>difficile et tamen intelligibile.
+    </p>
+            <p xml:id="FrMS88-f55396-d1e127">
+      ¶ Unde declaratur 
+      <lb ed="#V" n="9"/>quadruplici exemplo.
+    </p>
+            <p xml:id="FrMS88-f55396-d1e132">
+      ¶ Primum est de essentia diuina: quae est 
+      for<lb ed="#V" n="10" break="no"/>malis terminus generationis in filio et prehabet esse in 
+      pa<lb ed="#V" n="11" break="no"/>tre.
+    </p>
+            <p xml:id="FrMS88-f55396-d1e140">
+      ¶ Secundum in generatione naturali. quia quando homo generatur non 
+      <lb ed="#V" n="12"/>accipit natura esse simpliciter. sed in hoc indiuiduo. et tamen est eius 
+      ter<lb ed="#V" n="13" break="no"/>minus formalis. sic in proposito corpus christi non accipit esse 
+      <lb ed="#V" n="14"/>simpliciter. sed esse sacramentale.
+    </p>
+            <p xml:id="FrMS88-f55396-d1e149">
+      ¶ 3m in augmento cus terminus 
+      for<lb ed="#V" n="15" break="no"/>malis est anima que praexistit.
+    </p>
+            <p xml:id="FrMS88-f55396-d1e154">
+      ¶ 4m quia actiones immanentes 
+      <lb ed="#V" n="16"/>terminantur ad esse cognitum quia res capit esse per intellectio 
+      <lb ed="#V" n="17"/>nem: quae tamen praehabet esse.
+    </p>
+            <p xml:id="FrMS88-f55396-d1e161">
+      ¶ Sed quomodo:
+    </p>
+            <p xml:id="FrMS88-f55396-d1e164">
+      ¶ Dico quod esse 
+      sacramentia<lb ed="#V" n="18" break="no"/>le quod est quidam ordo corporis christi ad substantiam panis et illam 
+      <lb ed="#V" n="19"/>habitudinem haberet vbicumque transubstantiaretur.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

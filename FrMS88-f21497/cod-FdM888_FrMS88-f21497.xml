@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f21497"><!-- l2d30q1 -->
+            <head xml:id="FrMS88-f21497-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f21497-d1e111">
+               <lb ed="#V" n="4"/>In superioribus insinuatum est etc. 
+      <lb ed="#V" n="5"/>distinctionem. 30. Quero vtrum 
+      <lb ed="#V" n="6"/>Irca gratia differat realiter a gloria. 
+      <lb ed="#V" n="7"/>Et videtur quod non. Io. primo. De 
+      plenitu<lb ed="#V" n="8" break="no"/>dine eius omnes accepimus nos gratiam pro 
+      <lb ed="#V" n="9"/>gratia.
+    </p>
+            <p xml:id="FrMS88-f21497-d1e127">
+      ¶ Contra. FCa et veritas per 
+      Ie<lb ed="#V" n="10" break="no"/>sum Christum facta est. ibidem 
+      <lb ed="#V" n="11"/>aliqui quod gloria non est nisi gratia 
+      con<lb ed="#V" n="12" break="no"/>hic dicunc sumata.
+    </p>
+            <p xml:id="FrMS88-f21497-d1e136">
+      ¶ Contra. perfectum et im 
+      <lb ed="#V" n="13"/>perfctum non diuersificant essentiam. ergo gloria et gratia sunt 
+      <lb ed="#V" n="14"/>eiusdem essentie: et ita quicquid conuenit vni per se: et altel 
+      <lb ed="#V" n="15"/>ri: sed gloria per se facit. quod homo sit beatus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f21497-d1e145">
+      ¶ 
+      Secun<lb ed="#V" n="16" break="no"/>do. quia beatitudo est actus. gratia autem est habitus: et ita 
+      <lb ed="#V" n="17"/>distinguuntur genere.
+    </p>
+            <p xml:id="FrMS88-f21497-d1e153">
+      ¶ Tertio. quia Ida. baptista habuit 
+      <lb ed="#V" n="18"/>gratiam et priuationem glorie. Impossibile autem est quod priuatio sit 
+      <lb ed="#V" n="19"/>cum forma eiusdem rationis.
+    </p>
+            <p xml:id="FrMS88-f21497-d1e160">
+      ¶ Quarto quia beatam virgo fuisset 
+      <lb ed="#V" n="20"/>minus dilecta hic in via quam multi angeli quia illi 
+      habui<lb ed="#V" n="21" break="no"/>sent gloriam: et ita gratiam perfectam. Dico ergo quod realiter differunt. 
+      <lb ed="#V" n="22"/>Sed sunt ne eiusdem rationis charitas vie et charitas 
+      pa<lb ed="#V" n="23" break="no"/>trie. hoc videtur sentire apstulus. Sed contra. charitas patrie est 
+      <lb ed="#V" n="24"/>sufficiens principium actus beatifici. Dicitur quod non est sufficiens 
+      <lb ed="#V" n="25"/>principium nisi concurrente obiecto. Dico tamen hoc quod due 
+      charita<lb ed="#V" n="26" break="no"/>tes diuersarum rationum sunt in patria. Ex parte enim 
+      intelle<lb ed="#V" n="27" break="no"/>ctus intelligo deum sub ratione infiniti: et ista manebit in 
+      <lb ed="#V" n="28"/>patria: sed in patria obiicietur sub ratione propria deitatis: 
+      <lb ed="#V" n="29"/>et sic distinctus conceptus formaliter et actus iste 
+      intelli<lb ed="#V" n="30" break="no"/>gendi est alterius rationis: et ita. videtur ex parte charitatis 
+      <lb ed="#V" n="31"/>quod oportet ponere distinctas rationes formales in obiecto
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

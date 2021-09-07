@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f74561"><!-- l4d37q1 -->
+            <head xml:id="FrMS88-f74561-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f74561-d1e111">
+               <lb ed="#V" n="8"/>Sunt igitur etc. 
+      <lb ed="#V" n="9"/>Hic incipit distinctio 37a. Circa quam 
+      <lb ed="#V" n="10"/>quaero vtrum ordo 
+      impe<lb ed="#V" n="11" break="no"/>diat matrimonium. Quod non. quia non impediebatur 
+      <lb ed="#V" n="12"/>i praemitiua eccletia.
+    </p>
+            <p xml:id="FrMS88-f74561-d1e124">
+      ¶ contrarium ponunt de fconodo. 
+      <lb ed="#V" n="13"/>videndum est. si ordo 
+      <lb ed="#V" n="14"/>Hic primo impediat nostrimo 
+      <lb ed="#V" n="15"/>nium. et distinguitur de ordine. quidam sunt non sacri et isti non 
+      <lb ed="#V" n="16"/>impediunt. alii sunt sacri. et isti impediunt: et hoc est de inure 
+      <lb ed="#V" n="17"/>positiuo. Eeconverso dicitur quod matrimonium non impediat de facto susce 
+      <lb ed="#V" n="18"/>ptionem ordinum: tamen prohibet ab executione ordins suscepti 
+      <lb ed="#V" n="19"/>et tenetur cum vxore reuerti.
+    </p>
+            <p xml:id="FrMS88-f74561-d1e142">
+      ¶ Sed hoc est du. cum eccleia non 
+      <lb ed="#V" n="20"/>possit immutare aliquid circa sacramentia quomodo potest facem quod ordo 
+      <lb ed="#V" n="21"/>impediat matrimoium. cum omnes essentiales causare requisite ibi 
+      inue<lb ed="#V" n="22" break="no"/>niantur. in aliis autem sacramentis positionitis causaris non potest facere hoc 
+      </p>
+            <p xml:id="FrMS88-f74561-d1e151">
+               <lb ed="#V" n="23"/>¶ hic dicitur quod circa essentialia: nihil potest ecclesia immutare. sed 
+      <lb ed="#V" n="24"/>solum aliquas personas illegitiat: quae postea non stut apte ad contrahem 
+      <lb ed="#V" n="25"/>dum. nec stante illa illegitiatione sunt ibi omnes causare.
+    </p>
+            <p xml:id="FrMS88-f74561-d1e161">
+      ¶ 2a difficultas 
+      <lb ed="#V" n="26"/>oritur ex responsione data quare non potest ecclesia ita bene dispesare 
+      <lb ed="#V" n="27"/>quod nullus celebret nisi infermentato vt omnis panis agimus sit 
+      <lb ed="#V" n="28"/>llegitimus ad consecrandum.
+    </p>
+            <p xml:id="FrMS88-f74561-d1e170">
+      ¶ hic dicitur quod iurisditio ecclesie ni 
+      <lb ed="#V" n="29"/>est iurisditio super res: sed super personas. materia autem eucharistie 
+      <lb ed="#V" n="30"/>et bapus scut res et non pere: et quia habet iurisditionem et iurisditionis 
+      <lb ed="#V" n="31"/>plenitatem super personas. ideo etc.
+    </p>
+            <p xml:id="FrMS88-f74561-d1e179">
+      ¶ Sed tunc est du. si n potest quis 
+      il<lb ed="#V" n="32" break="no"/>egitiari non obio matrimoo. quin possit recipere ordines quare potest 
+      <lb ed="#V" n="33"/>ecclentia illegitiare quod ordinatus nin potest accipere vxorem.
+    </p>
+            <p xml:id="FrMS88-f74561-d1e186">
+      ¶ Dicitur ab 
+      <lb ed="#V" n="34"/>aliquibus quod verum matrimoctium esset et staret quantum ad viculum: sed n est 
+      <lb ed="#V" n="35"/>ad thorum.
+    </p>
+            <p xml:id="FrMS88-f74561-d1e193">
+      ¶ Sed contra si haec esset verum. tunc non posset contrahere cum 
+      a<lb ed="#V" n="36" break="no"/>tera.
+    </p>
+            <p xml:id="FrMS88-f74561-d1e198">
+      ¶ Alii dicunt quod omnia determinata ab ecclesia sunt vltimate 
+      <lb ed="#V" n="37"/>luxta scripturam sacraam.
+    </p>
+            <p xml:id="FrMS88-f74561-d1e204">
+      ¶ Sed cum in statu matrimonii 
+      pos<lb ed="#V" n="38" break="no"/>sit seruari virginitas vt superius fuit ostensum: quare non 
+      po<lb ed="#V" n="39" break="no"/>test religiosus in matrimoo esse.
+    </p>
+            <p xml:id="FrMS88-f74561-d1e211">
+      ¶ Dicitur quod posset fieri nisi 
+      <lb ed="#V" n="40"/>per ecclesiam. contrarium esset ordinatum nam beata virgo 
+      <lb ed="#V" n="41"/>cum vero matrimoo seruabat perfectam virginitatem.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

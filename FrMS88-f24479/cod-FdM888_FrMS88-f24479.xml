@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f24479"><!-- l2d44q2 -->
+            <head xml:id="FrMS88-f24479-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f24479-d1e111">
+               <lb ed="#V" n="61"/>¶ Questio. ii. 
+      <lb ed="#V" n="62"/>SEcunda quaestio est: vtrum sit demonstrabile 
+      <lb ed="#V" n="63"/>non fuisse mundum ab eterno 
+      <lb ed="#V" n="64"/>Et videtur quod non: quia est articulus fidei.
+    </p>
+            <p xml:id="FrMS88-f24479-d1e122">
+      ¶ Contra 
+      <lb ed="#V" n="65"/>quia articulus fidei est quod vnus est deus: et tamen 
+      <lb ed="#V" n="66"/> demonsitrabile: vt primo patuit. 
+      <!--332.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>hoc arguitur 4r. Primo quia prima 
+      <lb ed="#V" n="68"/>c 
+      <lb ed="#V" n="69"/>ed conti contradictio est quod aliquis fuisset annus 
+      <lb ed="#V" n="70"/>qui non fuisset cognitus a deo: nam ante omnem annum 
+      nol<lb ed="#V" n="71" break="no"/>tum a deo: vel fuit alius vel non: si sic: ergo deus non 
+      no<lb ed="#V" n="72" break="no"/>uit illum. Si non. ergo ille fuit primus.
+    </p>
+            <p xml:id="FrMS88-f24479-d1e146">
+      ¶ 2o si mundus 
+      fuit<lb ed="#V" n="73" break="no"/>ab eterno: omnis mensis fuit posterior alio mense: et ille qruae 
+      <lb ed="#V" n="74"/>non esset posterior non esset ab eterno: sed primus a quo 
+      in<lb ed="#V" n="75" break="no"/>cipit tpius.
+    </p>
+            <p xml:id="FrMS88-f24479-d1e155">
+      ¶ 3o. quia ante omnem motum est motus. et talis 
+      <lb ed="#V" n="76"/>qui non est ante omnem motum non est motus. Eodem modo 
+      didiu<lb ed="#V" n="77" break="no"/>tempore.
+    </p>
+            <p xml:id="FrMS88-f24479-d1e163">
+      ¶ Soluit per negationem distributionis.
+    </p>
+            <p xml:id="FrMS88-f24479-d1e166">
+      ¶ Aliter 
+      <lb ed="#V" n="78"/>arguo. Primo. quia infinita essent partransita in actu: quia in 
+      <lb ed="#V" n="79"/>finiti homines: et generationes infinite transierunt.
+    </p>
+            <p xml:id="FrMS88-f24479-d1e173">
+      ¶ 2o. 
+      im<lb ed="#V" n="80" break="no"/>possibile est quod infinitum augeatur: si ita esset: quia quotidie 
+      <lb ed="#V" n="81"/>opponitur dies infinito tempori.
+    </p>
+            <p xml:id="FrMS88-f24479-d1e180">
+      ¶ 3o. si ab equalibus equalia 
+      de<lb ed="#V" n="82" break="no"/>mas etc. accipe menses februarii et inanuarii et difime tres 
+      <lb ed="#V" n="83"/>septimanas a februario: et a ianuario duas falsificabi 
+      <lb ed="#V" n="84"/>tur illud principium. Et consimiliter. omne totum est maius 
+      <lb ed="#V" n="85"/>sua parte: esset falsum: quia tunc tot essent anni quot essent men 
+      <lb ed="#V" n="86"/>ses.
+    </p>
+            <p xml:id="FrMS88-f24479-d1e193">
+      ¶ Ad primum dicitur quod verum est in infinito tempore: sed in 
+      fi<lb ed="#V" n="87" break="no"/>nito non est necessarium.
+    </p>
+            <p xml:id="FrMS88-f24479-d1e198">
+      ¶ Ad 2m dico. quod aliqua sunt 
+      <lb ed="#V" n="88"/>infinita ex vna parte et non ex alia. Ideo ex illa parte 
+      <lb ed="#V" n="89"/>qua sunt finita possent augeri.
+    </p>
+            <p xml:id="FrMS88-f24479-d1e206">
+      ¶ Ad aliud dico. quod illud 
+      <lb ed="#V" n="90"/>principium est verum in quantitatibus: quarum passio est 
+      <lb ed="#V" n="91"/>equalitas et inequalitas: et iste sunt finite. Eodem modo 
+      <lb ed="#V" n="92"/>de toto et parte.
+    </p>
+            <p xml:id="FrMS88-f24479-d1e215">
+      ¶ Aliter arguitur. nulli creabili 
+      repu<lb ed="#V" n="93" break="no"/>gnat esse ex tempore. eternitati repugnat esse ex tempore. ergo 
+      eterni<lb ed="#V" n="94" break="no"/>tas non est creabilis: si eternitas non est creabilis: ergo 
+      nul<lb ed="#V" n="95" break="no"/>la creatura potest esse ab eterno.
+    </p>
+            <p xml:id="FrMS88-f24479-d1e224">
+      ¶ 2o sic. eterno vt eternum 
+      <lb ed="#V" n="96"/>est repugnat esse in tempore: quia iste sunt due repugnantes: sed 
+      <lb ed="#V" n="97"/>nulli creabili repugnat esse ex tempore. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f24479-d1e231">
+      ¶ Sed 
+      quaen<lb ed="#V" n="98" break="no"/>tur. quomodo potest vitari infinitas animarum.
+    </p>
+            <p xml:id="FrMS88-f24479-d1e236">
+      ¶ Aliquin 
+      <lb ed="#V" n="99"/>dicunt. quod illa ratio est particularis: sed ista solutio non 
+      <lb ed="#V" n="100"/>valet: quia querimus: sicut philosophi posuerunt mundum esse 
+      <lb ed="#V" n="101"/>eternum. Utrum ita possit esse: posuerunt autem mundum 
+      <lb ed="#V" n="102"/>cum suis partibus integralibus eternum et cum 
+      generatio<lb ed="#V" n="103" break="no"/>ae. Diceretur ergo vno modo secundum viam aristo. et secundum aliquos quod 
+      <lb ed="#V" n="104"/>anima corrupitur corrupto corpore organico.
+    </p>
+            <p xml:id="FrMS88-f24479-d1e252">
+      ¶ Secundo per 
+      <lb ed="#V" n="105"/>viam platonis per circulationem animarum.
+    </p>
+            <p xml:id="FrMS88-f24479-d1e258">
+      ¶ Tertio. 
+      <lb ed="#V" n="106"/>per dictum Auerroys qui dixit quod vnus est intellectus 
+      <lb ed="#V" n="107"/>in omnibus.
+    </p>
+            <p xml:id="FrMS88-f24479-d1e265">
+      ¶ Quarto. secundum Auic. in accidentaliter 
+      ordi<lb ed="#V" n="108" break="no"/>natis non est inconueniens procedem in infinitum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f80888"><!-- l4d46q8 -->
+            <head xml:id="FrMS88-f80888-Hd1e108">Quaestio 8</head>
+            <p xml:id="FrMS88-f80888-d1e111">
+               <lb ed="#V" n="68"/>QUarto queritur. vtrum anima separata 
+      co<lb ed="#V" n="69" break="no"/>gnoscat se abstractiue. Quod non: 
+      <lb ed="#V" n="70"/>quia semper est sibi praesto et non abisiens secundum Aug. 
+      cogni<lb ed="#V" n="71" break="no"/>autem abstratia: non est de re praesente: vt praesens.
+    </p>
+            <p xml:id="FrMS88-f80888-d1e122">
+      ¶ 
+      contra<lb ed="#V" n="72" break="no"/>S quantumcumque sit aliquid praesens potest abstratiate cognosci. 
+      <lb ed="#V" n="73"/>aliqui quod iste due notiut scilicet intuitiua et ab 
+      <lb ed="#V" n="74"/>hic dicut stractiua de eodem non sunt compossibiles: sed 
+      <lb ed="#V" n="75"/>adueniente intuitiua notia alia euacuatur.
+    </p>
+            <p xml:id="FrMS88-f80888-d1e133">
+      ¶ contra. notia ma 
+      <lb ed="#V" n="76"/>tutina et vespertia sunt ibi compossibiles de eodem: et tamen vna est 
+      <lb ed="#V" n="77"/>altera perfcor.
+    </p>
+            <p xml:id="FrMS88-f80888-d1e140">
+      ¶ 2o. quia notia scientialis et sapentalis sunt sibi 
+      <lb ed="#V" n="78"/>complies de eodem. naturalis et supernaturalis de eodem obiecto. ergo 
+      <lb ed="#V" n="79"/>eadem ratione in propoto.
+    </p>
+            <p xml:id="FrMS88-f80888-d1e148">
+      ¶ Sed dicitur hoc quod arita procedunt de 
+      su<lb ed="#V" n="80" break="no"/>peonaturalibus: et tamen quaeritur de naturalibus.
+    </p>
+            <p xml:id="FrMS88-f80888-d1e153">
+      ¶ hic dico quod sunt naturales 
+      <lb ed="#V" n="81"/>cognitiones comparando ad recipiens: licet comparando ad  
+      <lb ed="#V" n="82"/>agens sint supernaturales.
+    </p>
+            <p xml:id="FrMS88-f80888-d1e160">
+      ¶ Dico ergo quod ni apparet impossibile quod anima 
+      <lb ed="#V" n="83"/>cognoscat se simils vtroque modo: quia cognita intuitiua derelin 
+      <lb ed="#V" n="84"/>quid in anima dispositionem ad abstractiuam comperatiuam et 
+      discur<lb ed="#V" n="85" break="no"/>siuam.
+    </p>
+            <p xml:id="FrMS88-f80888-d1e169">
+      ¶ Sed contra. intellectus procedit ab imperfcomo ad perfectum. ergo prius 
+      <lb ed="#V" n="86"/>est cognitio abstratia quam intuitum.
+    </p>
+            <p xml:id="FrMS88-f80888-d1e174">
+      ¶ Respondeo in intellectu coniuncto est 
+      <lb ed="#V" n="87"/>talis processus: sed in separatis est processus a perfectioribus ad 
+      <lb ed="#V" n="88"/>minus perfcam.
+    </p>
+            <p xml:id="FrMS88-f80888-d1e181">
+      ¶ hic oc. du. de iudicio: sed circa praecedentem 
+      <lb ed="#V" n="89"/>materiam est adhuc insistendum vt plenius euacuetur
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

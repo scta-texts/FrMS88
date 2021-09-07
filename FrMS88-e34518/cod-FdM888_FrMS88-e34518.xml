@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e34518"><!-- l1d8q4 -->
+            <head xml:id="FrMS88-e34518-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-e34518-d1e111">
+      Quaestio. iiii 
+      <lb ed="#V" n="23"/>perfectiones in deo 
+      distinguan<lb ed="#V" n="24" break="no"/>Tum tur secundum rationem ab anima fibrica 
+      <lb ed="#V" n="25"/>ltam. quod sic. quia secundum Dyo. sacra scriptura 
+      mul<lb ed="#V" n="26" break="no"/>Ui ta deo attribuit propter imperfectionem 
+      <lb ed="#V" n="27"/>U intellectus nostri.
+    </p>
+            <p xml:id="FrMS88-e34518-d1e124">
+      ¶ Contra. tale est 
+      fi<lb ed="#V" n="28" break="no"/>ctitium et nullum tale debet poni in deo. 
+      <lb ed="#V" n="29"/>communis opinio quod sic. quia intel 
+      <lb ed="#V" n="30"/>hic introducitur llectus nater vario modo operans 
+      <lb ed="#V" n="31"/>circa suum obiectum per conceptiones quas facit circa obiectum. potentia 
+      <lb ed="#V" n="32"/>distinctionem rationis fabricare.
+    </p>
+            <p xml:id="FrMS88-e34518-d1e137">
+      ¶ Sed contra hoc argumentum 4r 
+      <lb ed="#V" n="33"/>Primo sic. quando aliqua duo sunt penitus indistincta: si vnum 
+      <lb ed="#V" n="34"/>non distinguitur ratione nec reliquum: sed perfectiones diuine 
+      <lb ed="#V" n="35"/>sunt penitus eedem in se et in nobis scilicet in intellectu nostro ob 
+      <lb ed="#V" n="36"/>iectiue: sed vt in se ipsis non distinguuntur ratione. ergo nec in 
+      intel<lb ed="#V" n="37" break="no"/>lectu. Probatio minoris: quantum ad istam partem scilicet quod sunt eedem 
+      <lb ed="#V" n="38"/>in se et in nobis scilicet in intellectu: quia vel sunt idem totaliter: et sic 
+      <lb ed="#V" n="39"/>habetur propositum. vel non. et tunc non intelligimus eas.
+    </p>
+            <p xml:id="FrMS88-e34518-d1e155">
+      ¶ Si dicatur 
+      <lb ed="#V" n="40"/>quod possunt pro tanto distingui ratione in intellectu et non in se licet sini 
+      <lb ed="#V" n="41"/>eedem quia vt in intellectu sunt haberit quenmdam respectum rationis: 
+      <lb ed="#V" n="42"/>quia in mente sunt quem non habent in se: et propter hoc possunt distingui¬ 
+      </p>
+            <p xml:id="FrMS88-e34518-d1e165">
+               <lb ed="#V" n="43"/>¶ Contra. divina perfectio vt in se est: non habet talem respectum 
+      ratio<lb ed="#V" n="44" break="no"/>nis: sed divina perfectio quae in nobis est. est omnino diuia perfectio quae in 
+      <lb ed="#V" n="45"/>se est. ergo divina perfecus. quae in nobis est non habet illum respectum 
+      ratio<lb ed="#V" n="46" break="no"/>nis. Prima probatur. respectus est posterior fundamento. et per 
+      <lb ed="#V" n="47"/>consequens multomagis de illo respectu. intellectus ergo prius 
+      im<lb ed="#V" n="48" break="no"/>telligit diuinam perfectionem in se quam habeat talem respectum vel 
+      <lb ed="#V" n="49"/>quam fabricet: et in illo priori sunt in intellectu: et tamen 
+      indistin<lb ed="#V" n="50" break="no"/>cte.
+    </p>
+            <p xml:id="FrMS88-e34518-d1e185">
+      ¶ Secundo sic. nullus effectus formalis est vbi nonest 
+      <lb ed="#V" n="51"/>forma. respectus autem rationis dat referri et distingui: sed 
+      <lb ed="#V" n="52"/>respectus rationis non est in illis perfectionibus: quia si sic: esset 
+      rea<lb ed="#V" n="53" break="no"/>lis. ergo non dat distingui.
+    </p>
+            <p xml:id="FrMS88-e34518-d1e194">
+      ¶ 3o sic. omnis intellectus aliter intelligens 
+      <lb ed="#V" n="54"/>rem quam sit in se: est falsus: sed intelligens divinas perfectiones 
+      di<lb ed="#V" n="55" break="no"/>stingui ratione: intelligit eas aliter quam sint in se: quia intelligit eas 
+      <lb ed="#V" n="56"/>referri respectu rationis scilicet distinctione quae non est ibi.
+    </p>
+            <p xml:id="FrMS88-e34518-d1e203">
+      ¶ Dicitur 
+      <lb ed="#V" n="57"/>quod si intellectus intelligeret res in se et aliter intelligeret 
+      qua<lb ed="#V" n="58" break="no"/>in se essent. esset falsus: sed intellectus non intelligit eas vt in 
+      se<lb ed="#V" n="59" break="no"/>sunt: sed intelligit eas vt sunt in esse cognito. iccirco non 
+      <lb ed="#V" n="60"/>est falsus.
+    </p>
+            <p xml:id="FrMS88-e34518-d1e214">
+      ¶ Contra. quia intellectus intelligens aut est falsus: quid 
+      <lb ed="#V" n="61"/>intelligit rem aliter quam sit in se: et tunc habetur propositum. aut quia praecise 
+      <lb ed="#V" n="62"/>intelligit eam aliter quam sit in esse cognito. et sic sequitur quod 
+      nul<lb ed="#V" n="63" break="no"/>la cognitio esset falsa: quia omnia sibi conueniunt in esse 
+      cogni<lb ed="#V" n="64" break="no"/>to vel intellecto.
+    </p>
+            <p xml:id="FrMS88-e34518-d1e225">
+      ¶ 4o sic. quandocumque vnum contradictoriorum 
+      verifi<lb ed="#V" n="65" break="no"/>catur de aliquo. aliud tunc non potest verificari de eodem 
+      <lb ed="#V" n="66"/>sed istud est verum quod diuine perfectiones in se non distinguum 
+      <!--98.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>tur ratione. ergo per quamcumque potentiam ni poterit verificari quod 
+      <lb ed="#V" n="68"/>distinguantur ratione. Utur ergo imaginatio falsa. nec dicbet hoc 
+      at<lb ed="#V" n="69" break="no"/>tribui rationi nequam intellectui: quia contradictionem videtur 
+      inclui<lb ed="#V" n="70" break="no"/>dere: quia tamen communis opinio est in oppositum: ideo istud non 
+      assero<lb ed="#V" n="71" break="no"/>soluat rationes qui vult. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f81613"><!-- l4d47q4 -->
+            <head xml:id="FrMS88-f81613-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f81613-d1e111">
+               <lb ed="#V" n="5"/>QUarto queritur. vtrum anima 
+      po<lb ed="#V" n="6" break="no"/>sit alteri 
+      loqui<lb ed="#V" n="7" break="no"/>videndum est de locutio 
+      <lb ed="#V" n="8"/>hic primo ne sensibili per si sent 
+      <lb ed="#V" n="9"/>Se bilia.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e124">
+      ¶ Et introducuntur. 4a conclusiones.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e127">
+      ¶ prius conclusi 
+      <lb ed="#V" n="10"/>est quod vna anima coniuncta potest alteri anime coniuncte loqui: quia potest 
+      fa<lb ed="#V" n="11" break="no"/>cere signa sensibilia mediante corpore.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e134">
+      ¶ 2a conclusio quod anima conium 
+      <lb ed="#V" n="12"/>cta potest loqui cum separata. hoc patet: quia potest formare verba: et anima separ 
+      <lb ed="#V" n="13"/>ta illa intelligere.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e142">
+      ¶ 3a conclusio quod anima separata non potest loqui cum coniu 
+      <lb ed="#V" n="14"/>cta quia non potest formare sil sensibilia: quia nec angelus potest forma 
+      <lb ed="#V" n="15"/>absolutam causare: vt dicit Aug. super gen. ad litram.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e149">
+      ¶ 4a conclusi 
+      <lb ed="#V" n="16"/>quod nec anima separata cum aia anima separata pot loqui sensibiliter.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e154">
+      ¶ Sed 
+      <lb ed="#V" n="17"/>contra istas conclusiones instatur.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e159">
+      ¶ contra prim scilicet quod anima coniuncta non 
+      possi<lb ed="#V" n="18" break="no"/>sensibiliter loqui cum alia coniuncta numquam enim anima coniuncta percipit in 
+      <lb ed="#V" n="19"/>tuitie formationes vocum sensibilium.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e166">
+      ¶ hic dico quod 
+      vor<lb ed="#V" n="20" break="no"/>cauntur a potentia executia: quam voluntas mouet. anima autem non perci 
+      <lb ed="#V" n="21"/>pit hoc intuitie immeie: sed auditus intuitie percipit verba: intellectus 
+      <lb ed="#V" n="22"/>autem intuitie intelligit actum audiendi: et ex consequenti obiectum. ¶a contra 
+      <lb ed="#V" n="23"/>2am. quod anima coniuncta sensibiliter possit loqui cum separata: quia 
+      sens<lb ed="#V" n="24" break="no"/>bilis locutio corrspondet sensibili secundum auditionem.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e179">
+      ¶ Dico 
+      <lb ed="#V" n="25"/>quod intellectuali auditioni praestcorrspondere locutio sensibili¬ 
+      </p>
+            <p xml:id="FrMS88-f81613-d1e185">
+               <lb ed="#V" n="26"/>¶ contra 3am. quia scient apparent et loquuntur.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e190">
+      ¶ Dico quod virtute 
+      di<lb ed="#V" n="27" break="no"/>uina vel angelica formatur corpus fantasticum: et tunc non est 
+      <lb ed="#V" n="28"/>totaliter separata.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e197">
+      ¶ contra 4am. angelus loquitur angelo in corpore 
+      <lb ed="#V" n="29"/>assumpto. Respondeo quod non nego det huiusmodi: quia vt sic non est totalis separatio 
+      <lb ed="#V" n="30"/>videndum est de locutione intellectuali. Et in 
+      <lb ed="#V" n="31"/>Iterum ducuntur similiter. 4a conclusiones.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e206">
+      ¶ rim conclusio es quod ania coniu 
+      <lb ed="#V" n="32"/>cta in via non potest loqui anime coniuncte intellectualiter: quia intellectus possibilis 
+      <lb ed="#V" n="33"/>habet ordinem ad fantasmata: et ideo prius oportet fantasiari: sed actus 
+      <lb ed="#V" n="34"/>intellectuales non sunt fantasiabiles. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e215">
+      ¶ 2a conclusio quod nec 
+      si<lb ed="#V" n="35" break="no"/>parata potest intellectualiter loqui cum anima coniuncta quia anima coniuncta non primam 
+      <lb ed="#V" n="36"/>patelligere nisi mediam fantasise vt dictum est.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e222">
+      ¶ 3a conclusio quod anima coniuncta 
+      <lb ed="#V" n="37"/>pert intellectualiter loqui cum separata: quia anima separata immetu sine fat 
+      <lb ed="#V" n="38"/>tasmate potest recipere actum intelligendi: sed anima coniuncta potest 
+      causa<lb ed="#V" n="39" break="no"/>re actum: sicut alia obstantia possunt mouere.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e232">
+      ¶ 4a conclusio quod anima separata 
+      <lb ed="#V" n="40"/>potest loqui intellectualiter alii anime separate: quia medium fecunda est principium 
+      <lb ed="#V" n="41"/>actiuum et intellectus possibilis suffitatem approximatus alteri anime est 
+      <lb ed="#V" n="42"/>conueniens susceptiuum. Item medimi fecunda vtriusque est eiusdem 
+      <lb ed="#V" n="43"/>rationis: et passum eiusdem rationis.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e243">
+      ¶ Si dicas quod non 
+      <lb ed="#V" n="44"/>est sufficiens approxito non valet: quia multo minor appro 
+      <lb ed="#V" n="45"/>xito requritur inspiritibus quam in corporalibus.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e250">
+      ¶ Sed instatur contra istas 
+      <lb ed="#V" n="46"/>conclusiones.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e255">
+      ¶ contra primam quia in animabus coniunctis est etiam sufficiens 
+      produ<lb ed="#V" n="47" break="no"/>ctiuum: quia memoria fecunda: et conueniens susceptiuum: quia in 
+      <lb ed="#V" n="48"/>tellectus possibilis et debita approximatu.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e262">
+      ¶ Dico quod 
+      impedis<lb ed="#V" n="49" break="no"/>propter ordinem ad fantasmata.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e267">
+      ¶ Sed quomodo non experimur actum 
+      <lb ed="#V" n="50"/>quem causamus in angelo vel in anima separata cum ei intellectualiter 
+      <lb ed="#V" n="51"/>loquimur.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e275">
+      ¶ Respondeo. quia forte de fcondo non est de possibiliest potest.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e278">
+      ¶ Sed 
+      <lb ed="#V" n="52"/>ifficultas est cum anima videat intuitiue aliam: quare loquitur sibi. cum 
+      <lb ed="#V" n="53"/>videat totum: quod in ea est.
+    </p>
+            <p xml:id="FrMS88-f81613-d1e285">
+      ¶ hic posset dici quod in omnibus 
+      <lb ed="#V" n="54"/>sanctis omnes operationes et motus stut subiecte imperio voluntatis: et 
+      <lb ed="#V" n="55"/>ita vna alteram non moueret modo praedicto prohibente volunt. 
+      <lb ed="#V" n="56"/>te: et sic nihil cognoscerem de anima: nisi vellet mihi 
+      reuela<lb ed="#V" n="57" break="no"/>re: nisi dicatur quod in locutione dat cognitionem 
+      abstracti<lb ed="#V" n="58" break="no"/>uam cuius habebam intuitiuam.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

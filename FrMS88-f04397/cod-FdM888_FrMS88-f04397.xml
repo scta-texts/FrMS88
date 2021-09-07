@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f04397"><!-- l1d48q3 -->
+            <head xml:id="FrMS88-f04397-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f04397-d1e111">
+      Quaestio. iii. 
+      <lb ed="#V" n="33"/>practicum et speculatiuum 
+      <lb ed="#V" n="34"/>Trum sin diferentia esentiales scientaes 
+      <lb ed="#V" n="35"/>quod non. Et probatur quadru 
+      <lb ed="#V" n="36"/>Dico pliciter. Primo sic. Cuius 
+      ra<lb ed="#V" n="37" break="no"/>Set tus tio formalis consistit in habitudine: non 
+      <lb ed="#V" n="38"/>potest esse de essentia alicuius absoluti. sed ratio 
+      specu<lb ed="#V" n="39" break="no"/>latiui et practici consistit in habitudine: vt visum est 
+      su<lb ed="#V" n="40" break="no"/>perius. scientia autem est aliquid absolutum. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f04397-d1e131">
+               <lb ed="#V" n="41"/>¶ Confirmatur. quia numquam ex absoluto et respectiuo 
+      <lb ed="#V" n="42"/>fit aliquid per se vnum: quod directe sit in genere: sed 
+      <lb ed="#V" n="43"/>scientia est species generis qualitatis et absoluta 
+      ra<lb ed="#V" n="44" break="no"/>tio speculatiui et practici relatiua. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f04397-d1e142">
+      ¶ 
+      Secun<lb ed="#V" n="45" break="no"/>do sic. nullum posterius est de essentia prioris. hoc 
+      pa<lb ed="#V" n="46" break="no"/>tet. quia omnia constitutiua essentie alicuius sunt 
+      prio<lb ed="#V" n="47" break="no"/>ra ipso constituto: sed speculatiuum et practicum sunt 
+      <lb ed="#V" n="48"/>posteriora scientia cui conueniunt: quia omnis respe 
+      <lb ed="#V" n="49"/>ctus est posterior fundamento. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f04397-d1e155">
+      ¶ Tertio sic. 
+      <lb ed="#V" n="50"/>quandocumque aliquod commune diuiditur per plures 
+      difcfin<lb ed="#V" n="51" break="no"/>rentias diuersi diuisionibus: oportet quod alie alias 
+      sub<lb ed="#V" n="52" break="no"/>alternet: sed habitus cognitiuus diuiditur 
+      quiditati<lb ed="#V" n="53" break="no"/>ue per euidens et non euidens: diuiditur etiam per pra 
+      <lb ed="#V" n="54"/>cticum et speculatiuum. Si ergo vtraque est diuisio qui 
+      <lb ed="#V" n="55"/>ditatiua: vel practicum vel speculatiuum subalterna 
+      <lb ed="#V" n="56"/>bunt euidens et non euidens. vel econuerso. nec sic: 
+      nec<lb ed="#V" n="57" break="no"/>fic. ergo etc. Probo minorem. quia euidens et non eui 
+      <lb ed="#V" n="58"/>dens non possunt subalternari practico. quia multa 
+      <lb ed="#V" n="59"/>speculatiua sunt euidentiora multis practicis. Nec spe 
+      <lb ed="#V" n="60"/>culatiuo. quia multa practica sunt euidentiora 
+      mul<lb ed="#V" n="61" break="no"/>tis speculatiuis. Nec econuerso. quia euidentia sunt 
+      <lb ed="#V" n="62"/>practica et speculatiua: et non euidentia sunt practica 
+      <lb ed="#V" n="63"/>et speculatiua: patet ergo quod nec sic: nec sic. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f04397-d1e189">
+      ¶ 4 
+      <lb ed="#V" n="64"/>sic. quandocumque aliquod commune diuiditur per 
+      diffe<lb ed="#V" n="65" break="no"/>rentias quiditatiuas quicquid cadit sub altera 
+      perfe<lb ed="#V" n="66" break="no"/>ctiori: perfectius est quocumque cadente sub altera imperfe¬ 
+      <!--282.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>ctiori. Si ergo illa diuisio esset essentialis: vel omne 
+      <lb ed="#V" n="68"/>practicum esset nobilius speculatiuo: vel econuerso. 
+      <lb ed="#V" n="69"/>Nec sic nec sic. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f04397-d1e209">
+      ¶ Ideo dico propter istas rationes 
+      <lb ed="#V" n="70"/>quod practicum et speculatiuum non sunt differentie est 
+      <lb ed="#V" n="71"/>sentiales scientie. sed sunt respectus fundamentales vel 
+      <lb ed="#V" n="72"/>aptitudinales ipsius consequentes scientiam: sicut proprie passiones 
+      con<lb ed="#V" n="73" break="no"/>sequuntur substantia. ita quod ista est passio disiuncta scientie. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

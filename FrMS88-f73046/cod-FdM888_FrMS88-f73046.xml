@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="222-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f73046"><!-- l4d28q1 -->
+            <head xml:id="FrMS88-f73046-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f73046-d1e111">
+               <lb ed="#V" n="93"/>hic solet queri etc. 
+      <lb ed="#V" n="94"/>HIc incipit distinctio. 28. Circa quam 
+      quaeri<lb ed="#V" n="95" break="no"/>tur. vtrum 
+      matrimo<lb ed="#V" n="96" break="no"/>nium perficiatur solo consensu. Quod sic. quia 
+      <lb ed="#V" n="97"/>omnis obligatio. perficitur solo 
+      consen<lb ed="#V" n="98" break="no"/>su.
+    </p>
+            <p xml:id="FrMS88-f73046-d1e127">
+      ¶ Contra. nulla obligatio perficitur 
+      ni<lb ed="#V" n="99" break="no"/>si per expressionem exteriorem 
+    </p>
+            <p xml:id="FrMS88-f73046-d1e132">
+               <lb ed="#V" n="100"/>hic primo videndum est si sufficit consensus 
+      ta<lb ed="#V" n="101" break="no"/>citus.
+    </p>
+            <p xml:id="FrMS88-f73046-d1e139">
+      ¶ Dicitur quod non. nisi enim exprimatur per 
+      <lb ed="#V" n="102"/>aliqua signa non est sacramentum. ex solis actibus voluntatis. It 
+      <lb ed="#V" n="103"/>aliquo tamen casu: quando perentes contrahunt pro filiis qui sunt in potesta 
+      <lb ed="#V" n="104"/>te eorum sufficit secundum ius ciuile et secundum canones. et secundum 
+      aliqui<lb ed="#V" n="105" break="no"/>signa. tamen bonum est vt ipsimet exprimant per verba.
+    </p>
+            <p xml:id="FrMS88-f73046-d1e151">
+      ¶ 2 
+      <lb ed="#V" n="106"/>oportet videre si sufficit consensus pro futuro tempore.
+    </p>
+            <p xml:id="FrMS88-f73046-d1e156">
+      ¶ Dicitur quod 
+      <lb ed="#V" n="107"/>non. quia talis est consensus de praesenti. et per consequens si non actua 
+      <lb ed="#V" n="108"/>liter insit non est matrimonium. si tamen consensus non sit expressus 
+      <lb ed="#V" n="109"/>de futuro consecuta copula carnali in foro ecclentie 
+      compel<lb ed="#V" n="110" break="no"/>litur. non in foro dei.
+    </p>
+            <p xml:id="FrMS88-f73046-d1e167">
+      ¶ 3o. si conditione interposita.
+    </p>
+            <p xml:id="FrMS88-f73046-d1e170">
+      ¶ Dicitur 
+      <lb ed="#V" n="111"/>quod si sit conditio contra naturam matrimonii: sic dicendo. accipio 
+      te<lb ed="#V" n="112" break="no"/>cum ista conditione si exponas te ad fornicandum vel ste 
+      <lb ed="#V" n="113"/>rilitatem procures. non stat. Sed si conditiones non sint 
+      ta<lb ed="#V" n="114" break="no"/>les: tunc vel suut honeste vel non. si sint inhoneste sicut 
+      <lb ed="#V" n="115"/>de vsura. est verum matrimonium: quia talis conditio habetur 
+      pro<lb ed="#V" n="116" break="no"/>non apposita: sed si honesta vel est de praeterito: vel de 
+      fu<lb ed="#V" n="117" break="no"/>turo: vel de praesenti: et tunc tenet conditione seruata.
+    </p>
+            <p xml:id="FrMS88-f73046-d1e188">
+      ¶ 4 
+      <lb ed="#V" n="118"/>ifficultas. si est de consensu clam. Distinguo. aliqua dicitur quod non 
+      fa<lb ed="#V" n="119" break="no"/>cta pronunciatione trina. vel non coram ecclesia. vel sine 
+      te<lb ed="#V" n="120" break="no"/>stibus. Sed quid si sint soli ipsi duo: et postea contrahat cum 
+      <lb ed="#V" n="121"/>alia in facie ecclesie: quid faciet:
+    </p>
+            <p xml:id="FrMS88-f73046-d1e199">
+      ¶ Dico quod compellere 
+      <lb ed="#V" n="122"/>tur per ecclesiam esse cum secunda: cum qua tamen non est 
+      <lb ed="#V" n="123"/>matrimonium: quia solum est matrimonium cum prima¬ 
+      </p>
+            <p xml:id="FrMS88-f73046-d1e207">
+               <lb ed="#V" n="124"/>¶ Sed si non sit nisi inter suos: tunc non est matrimo 
+      <lb ed="#V" n="125"/>nium nisi cum prima.
+    </p>
+            <p xml:id="FrMS88-f73046-d1e214">
+      ¶ Sed quid. ergo est perplexus 
+      <lb ed="#V" n="126"/>quid agere debeat.
+    </p>
+            <p xml:id="FrMS88-f73046-d1e219">
+      ¶ Dicit scotus quod tenetur redire ad 
+      <lb ed="#V" n="127"/>primam et sustinere excommunicationem: et in hoc 
+      mo<lb ed="#V" n="128" break="no"/>retur. vnde apud deum non potest esse perplexus.
+    </p>
+            <p xml:id="FrMS88-f73046-d1e226">
+      ¶ Sed 
+      <lb ed="#V" n="129"/>quid si per internuncium.
+    </p>
+            <p xml:id="FrMS88-f73046-d1e231">
+      ¶ Dicitur quod tenet matrimou 
+      <lb ed="#V" n="130"/>si sit ei commissum.
+    </p>
+            <p xml:id="FrMS88-f73046-d1e236">
+      ¶ Sed quid si per lteras.
+    </p>
+            <p xml:id="FrMS88-f73046-d1e240">
+      ¶ Dico quod sic. 
+      <!--447.xml-->
+      <pb ed="#V" n="222-v"/>
+               <cb ed="#V" n="a"/>
+            </p>
+            <p xml:id="FrMS88-f73046-d1e249">
+               <lb ed="#V" n="1"/>¶ Sed quid si vterque consentiat et alter scribat consensum 
+      <lb ed="#V" n="2"/>suum et alter non scribat.
+    </p>
+            <p xml:id="FrMS88-f73046-d1e256">
+      ¶ Dicitur quod non sufficit 
+      ni<lb ed="#V" n="3" break="no"/>si cum expressione alicuius 
+      signi.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

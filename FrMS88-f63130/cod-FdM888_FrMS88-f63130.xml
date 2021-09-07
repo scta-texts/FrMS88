@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="211-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f63130"><!-- l4d16q1 -->
+            <head xml:id="FrMS88-f63130-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f63130-d1e111">
+               <lb ed="#V" n="16"/>In perfectione autem penitentie etc. 
+      <lb ed="#V" n="17"/>HIc incipit distinctio 16a ¶ Circa quam 
+      <lb ed="#V" n="18"/>quero quatuor.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e120">
+      ¶ 
+      Pri<lb ed="#V" n="19" break="no"/>mo vtrum resto sit actus virtutis peniten 
+      <lb ed="#V" n="20"/>tie.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e127">
+      ¶ Et videtur quod non quia actus iustitie 
+      distri<lb ed="#V" n="21" break="no"/>butiue non est actus commutatiue: sed 
+      resti<lb ed="#V" n="22" break="no"/>tutio pertinet ad commutatiuam. 
+      peniten<lb ed="#V" n="23" break="no"/>tia autem ad distributiuam: vt visum est igitur etc.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e136">
+      ¶ 
+      Con<lb ed="#V" n="24" break="no"/>tra. satisfactio est pars penitentie virtualis: sed 
+      resti<lb ed="#V" n="25" break="no"/>tutio est satisfactio. igitur etc. 
+      <lb ed="#V" n="26"/>quatuor inquirenda.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e146">
+      ¶ Primum. circa 
+      <lb ed="#V" n="27"/>hic sunt rerum diuisionem primariam.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e151">
+      ¶ Et 
+      inducun<lb ed="#V" n="28" break="no"/>tur quatuor conclusiones.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e156">
+      ¶ Prima est quod res non fuissent 
+      diui<lb ed="#V" n="29" break="no"/>se in statu innocentie. quia homo fuisset institutus distuns 
+      <lb ed="#V" n="30"/>omnium creaturarum corporalium: et ita quilibet fuisset disecens. 
+      <lb ed="#V" n="31"/>sicut fuit primus homo.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e165">
+      ¶ Secundum patet. quia rerum diuisio 
+      intro<lb ed="#V" n="32" break="no"/>ducta est propter peccatum. quia non quilibet plus 
+      accipe<lb ed="#V" n="33" break="no"/>ret quam fuisset necessarium. non sic autem tunc fuisset. sed 
+      quili<lb ed="#V" n="34" break="no"/>bet accepisset solum sibi necessaria.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e174">
+      ¶ Secunda conclusio 
+      veri<lb ed="#V" n="35" break="no"/>tas est: quod rerum diuisio fuit facta tempore nature lapse propter 
+      <lb ed="#V" n="36"/>cupiditatem sequentem ex qua plus capere quilibet 
+      vo<lb ed="#V" n="37" break="no"/>luit.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e183">
+      ¶ 3a veritas et conclusio quod diluuio facto fuerunt diuisa a 
+      <lb ed="#V" n="38"/>parentibus vsque ad tempus nemroth. ante quem non erat 
+      prin<lb ed="#V" n="39" break="no"/>ceps: sed quilibet parentes suis filiis diuidebant.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e191">
+      ¶ 4am 
+      <lb ed="#V" n="40"/>veritas et conclusio. quod a primis occupantibus. sicut 
+      fa<lb ed="#V" n="41" break="no"/>milie se dispergebant. quia que nullius sunt iuris 
+      occu<lb ed="#V" n="42" break="no"/>panti conceduntur iure naturali.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e200">
+      ¶ Sed occurrit dif. 
+      qua<lb ed="#V" n="43" break="no"/>re parentes non instituerunt politiam perfectiorem que est 
+      <lb ed="#V" n="44"/>in hoc. quod omnia essent communia: sicut plato ordinauit. sicut 
+      re<lb ed="#V" n="45" break="no"/>citat beatus clemens in epostila ad duodecim apitulos. quod 
+      <lb ed="#V" n="46"/>plato policiam dignissimam ordinauit.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e211">
+      ¶ hic dicitur quod 
+      <lb ed="#V" n="47"/>post lapsum temporis fuerunt homines ad auaritiam nimium 
+      <lb ed="#V" n="48"/>proni. et ad concupiscentiam. et ideo sicut erant imperfecti: 
+      <lb ed="#V" n="49"/>necesse fuit vt haberent politiam imperfectam. et ex imper 
+      <lb ed="#V" n="50"/>fectione autem fuit diuisio necessaria. non ergo inure 
+      natu<lb ed="#V" n="51" break="no"/>rali nature institute: sed post lapsum vt homines 
+      imperfe<lb ed="#V" n="52" break="no"/>cti haberent politiam conuenientem statui imperfectorum. 
+      <lb ed="#V" n="53"/>videndum de rerum ttanslatione: et sequitur 
+      <lb ed="#V" n="54"/>Secundo primum videlicet rerum diuisionem: quia 
+      varie<lb ed="#V" n="55" break="no"/>tas vite indiget variis rebus: et contingit quod vnus 
+      indi<lb ed="#V" n="56" break="no"/>get re alterius. et econtrario. et ideo oportuit innuenire vi 
+      <lb ed="#V" n="57"/>am.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e237">
+      ¶ Translationes autem debite sunt in quadruplici 
+      <lb ed="#V" n="58"/>genere.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e242">
+      ¶ Primo secundum liberam donationem: et est inure 
+      na<lb ed="#V" n="59" break="no"/>turali. sicut ex voluntate propria est disefuns rei. ita potest eam 
+      <lb ed="#V" n="60"/>voluntarie dare et cessare a divenio. vnde est commutatio 
+      <lb ed="#V" n="61"/>naturalis: quia vbi est actus rationis secundum virtutem est secundum 
+      regu<lb ed="#V" n="62" break="no"/>am naturalem rationis: sed talis actus est ipsius 
+      liberalita<lb ed="#V" n="63" break="no"/>tis.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e255">
+      ¶ 2o sic per commutationem naturalem: que est rei ad rem sine 
+      <lb ed="#V" n="64"/>nummismate. puta si iste daret sibi pamnum et ille daret sibi 
+      <lb ed="#V" n="65"/>equum: sicut dando illud quo non indiget: et econtrario: 
+      <!--424.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>sit autem ista commutatio secundum proportionem arismetricam: vt 
+      <lb ed="#V" n="67"/>quantum dat in valore tantum recipiat.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e272">
+      ¶ 3o modo per commu 
+      <lb ed="#V" n="68"/>tationem non naturalem: que fit mediante nummismate: 
+      <lb ed="#V" n="69"/>quia faciliter non poterat fieri commutatio rei ad rem: quia 
+      <lb ed="#V" n="70"/>vna plus valebat quam alia innuentum est nummisma 
+      medi<lb ed="#V" n="71" break="no"/>um talis commutationis.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e283">
+      ¶ Quarta. est legalis. et ista 
+      <lb ed="#V" n="72"/>dicitur per prescriptionem et vsucaptionem. prescripto autem est 
+      <lb ed="#V" n="73"/>de re immobili. que per moram. xxx. annorum 
+      transfer<lb ed="#V" n="74" break="no"/>tur in dominium possidentis. si nullus infra illud tempus 
+      re<lb ed="#V" n="75" break="no"/>clamet.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e294">
+      ¶ Sed occurrit difficultates circa primum modum. quia 
+      con<lb ed="#V" n="76" break="no"/>tra illud quod est rationis naturalis. ius ciuile non potest. sed ista 
+      <lb ed="#V" n="77"/>est naturalis sicut dictum est: et iura positiua irritant 
+      ali<lb ed="#V" n="78" break="no"/>quas donationes inter virum et vxorem.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e303">
+      ¶ hic videndum 
+      <lb ed="#V" n="79"/>est quod ius naturale aliqua praecipit: et contra hoc non potest inus 
+      ci<lb ed="#V" n="80" break="no"/>uile: nec contra hoc prohibet. Aliqua permittit sicut do 
+      <lb ed="#V" n="81"/>nari. et circa talia oportet artari.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e312">
+      ¶ Secunda difficultas est de 
+      commu<lb ed="#V" n="82" break="no"/>tatione naturali: quia res sunt impares in valore cum sint 
+      di<lb ed="#V" n="83" break="no"/>uersa specie: et vnus equus plus valet quam mille asini.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e319">
+      ¶ Dsintum 
+      <lb ed="#V" n="84"/>quod equalitas intenditur in habitudine ad vsum 
+      huma<lb ed="#V" n="85" break="no"/>num. quamuis enim mus vel formica: eo quod animata preualeant 
+      omni<lb ed="#V" n="86" break="no"/>bus rebus inaiatis. tamen in habitudine ad vrsum 
+      huma<lb ed="#V" n="87" break="no"/>num multa inanimata. puta lapides ex quibus fiunt 
+      sta<lb ed="#V" n="88" break="no"/>tue preualent.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e333">
+      ¶ 3a dii. de commutatione nummismatis. quia 
+      <lb ed="#V" n="89"/>idetur quod semper esset symonia que fuit in symone qui rem 
+      dignis<lb ed="#V" n="90" break="no"/>simam pro nummismate volunt comparare. Et hoc sit 
+      fre<lb ed="#V" n="91" break="no"/>quenter cum venditur homo qui est nobilior dono sis scilicet 
+      nam<lb ed="#V" n="92" break="no"/>donum s si scilcet quedam creatura est: et quedam qualitas in 
+      <lb ed="#V" n="93"/>formans animam. modo esse substantia: vt sic nobilius est 
+      <lb ed="#V" n="94"/>quocunque accidente in ipso: sed caritas quae est donum si scilicet est 
+      <lb ed="#V" n="95"/>huiusmo. Si igitur symodo commisit peccatum talem virtutem volens 
+      <lb ed="#V" n="96"/>pecunia comparare: videtur quod magis contrahat symoniam qui per 
+      <lb ed="#V" n="97"/>tunia emit hominem.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e355">
+      ¶ hic dicendum quod donum spiritus scti non 
+      <lb ed="#V" n="98"/>habet nobilitatem tantam. vt homo in se: sed in comparatione 
+      <lb ed="#V" n="99"/>ad obiectum. De hoc autem dicetur infra.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e362">
+      ¶ Quarta difficultas de 
+      <lb ed="#V" n="100"/>commutatione legali que non videtur esse licita de inure 
+      di<lb ed="#V" n="101" break="no"/>uino: quia quaecunque res esset prescripta si constaret occupan 
+      <lb ed="#V" n="102"/>ti ipsam esse alterius videtur debere eam sibi reddere: et 
+      <lb ed="#V" n="103"/>restituere. Et hoc dicunt aliquin esse consulendum in foro 
+      <lb ed="#V" n="104"/>onscientie.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e375">
+      ¶ Sed tamen hoc non teneo. immo dico quod verus rei 
+      <lb ed="#V" n="105"/>ponsequens efficitur. hoc probat scotus ostendens que fuit causa et 
+      <lb ed="#V" n="106"/>motiuum statuendi inus de prescriptione.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e382">
+      ¶ Prima 
+      causa<lb ed="#V" n="107" break="no"/>fuit ne rerum diffentia essent in incerto.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e387">
+      ¶ Et hoc esset 
+      detri<lb ed="#V" n="108" break="no"/>mentum rei publice: vt igitur quilibet haberet curam et 
+      <lb ed="#V" n="109"/>sollicitudinem de rebus suis: et etiam punirentur 
+      negli<lb ed="#V" n="110" break="no"/>gentes res suas possidere statuere. Sunt autem quatuor 
+      <lb ed="#V" n="111"/>rationes ad hoc.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e399">
+      ¶ Prima cuilibet principi licet statuere 
+      <lb ed="#V" n="112"/>ius in sua politia ad maiorem vtilitatem rei publice. 
+      quan<lb ed="#V" n="113" break="no"/>nis cedat in detrimentum singularis per. amabile enim est 
+      <lb ed="#V" n="114"/>ponum vniuscuiusque. amabilius autem et diuinius bonum 
+      <lb ed="#V" n="115"/>totius gentis. primo ethichorum. Item princeps potest 
+      puni<lb ed="#V" n="116" break="no"/>re quemcumque facientem aliquid in detrimentum rei publice 
+      <lb ed="#V" n="117"/>ed ille qui negligit rem propriam facit contra vtilitatem: et in 
+      <lb ed="#V" n="118"/>detrimentum rei publice.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e417">
+      ¶ Tertio. quia alius essent lites 
+      <lb ed="#V" n="119"/>mortales. quia veniret quilibet et diceret auus meus 
+      pos<lb ed="#V" n="120" break="no"/>sedit istud et huis.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e424">
+      ¶ Quarto. quia ad quietando 
+      consci<lb ed="#V" n="121" break="no"/>entias: quilibet enimesset inquietus: vtrum licite 
+      te<lb ed="#V" n="122" break="no"/>neret suas res: ex quo sunt vlui applicate per. xxx. 
+      an<lb ed="#V" n="123" break="no"/>nos non oportet conqueri: nec conscientiam habere. 
+      <lb ed="#V" n="124"/>idendum est de iniusta translatione: quia 
+      cir<lb ed="#V" n="125" break="no"/>Tertio ca istud contingit errare: et bene se 
+      habe<lb ed="#V" n="126" break="no"/>re. sicut igitur potest esse recta translatio: et inrecta.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e440">
+      ¶ Sed  
+      <lb ed="#V" n="127"/>4r iniusta translatio inuenitur.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e445">
+      ¶ Prima que fit per modum 
+      <lb ed="#V" n="128"/>violentie. alia que fit per modum ignorantie: vt in furto 
+      <lb ed="#V" n="129"/>alia per modum fraudulentie. sicut dans auricalcum proauro. 
+      <lb ed="#V" n="130"/>alia per modum translationis illegitime. sicut in vsura. omnes 
+      <lb ed="#V" n="131"/>iste sunt iniuste. satis patet: quia in qualibet occupatur non suum. 
+      <!--425.xml-->
+      <pb ed="#V" n="211-v"/>
+               <cb ed="#V" n="a"/>
+            </p>
+            <p xml:id="FrMS88-f63130-d1e463">
+               <lb ed="#V" n="1"/>¶ Sed de prima quaeritur. si licet ab inimicis rapore.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e469">
+      ¶ Respondeo vel hicet 
+      fa<lb ed="#V" n="2" break="no"/>cit aliquis recuperando quod est ablatum vel non. si non est 
+      abla<lb ed="#V" n="3" break="no"/>tum. certum est quod tenetur restituere. si sic. tunc non tenetur. si tamen 
+      <lb ed="#V" n="4"/>pro tanto accipiat: licet violentia sit peccatum. de rapina autem 
+      infide<lb ed="#V" n="5" break="no"/>lium: quorum bona sunt confiscata: non tenetur.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e480">
+      ¶ Tertia difficultas. s 
+      <lb ed="#V" n="6"/>furtum est maius peccatum quam rapina ceteris paribus. Dicitur quod 
+      <lb ed="#V" n="7"/>rapina est maior quia ad quadruplum obligatur de furto autem oo 
+      <lb ed="#V" n="8"/>culto non tenetur restituere nisi tantum. Et eodem modo est in omni 
+      <lb ed="#V" n="9"/>lege divina. quia quin furatur manifeste infert violentiam.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e491">
+      ¶ Sed quod 
+      <lb ed="#V" n="10"/>est maius peccatum furtum vel fraudulentia:
+    </p>
+            <p xml:id="FrMS88-f63130-d1e496">
+      ¶ Dicitur quod 
+      fraudu<lb ed="#V" n="11" break="no"/>lentia est maior: quia ibi est mendacium facti: et talis etiam rapit 
+      <lb ed="#V" n="12"/>aliena: sed furtum licet inter ista sit minus: tamen est maioris 
+      infa<lb ed="#V" n="13" break="no"/>mine. Alexam. rapiebat omnia et dicebatur imperator. pirata 
+      <lb ed="#V" n="14"/>rapiebat modica et dicebatur latro. idem Augn de 
+      virgini<lb ed="#V" n="15" break="no"/>tate.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e509">
+      ¶ Alia difficultas est de vsura. et videtur quod sit licita: quia volun 
+      <lb ed="#V" n="16"/>taria. igitur legitima. cum pactum sit res naturalis.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e514">
+      ¶ hic 
+      di<lb ed="#V" n="17" break="no"/>stinguitur de voluntario simpliciter. et secundum quid. quando enim aliquis 
+      vo<lb ed="#V" n="18" break="no"/>luntarie patitur: vel paciscitur tunc est licitum. sed hoc est volunt 
+      <lb ed="#V" n="19"/>tarium secundum quid: quando est aliquis: qui alio modo non potest 
+      habe<lb ed="#V" n="20" break="no"/>re: et in talibus tenetur aliquis ad restitutionem: quia tali 
+      mo<lb ed="#V" n="21" break="no"/>do est innuoluntarium: sicut cum quis proiicit merces in 
+      mari<lb ed="#V" n="22" break="no"/>videndum est de restione rerum. quod autem 
+      restitu<lb ed="#V" n="23" break="no"/>Quarto tio sit necessaria ad salutem: patet per 
+      auctori<lb ed="#V" n="24" break="no"/>tates sacre scripture. quia deus noluit reconciliari: israeli 
+      <lb ed="#V" n="25"/>donec fuit restitutum ablatum gabaionitis. Et de achan patet 
+      <lb ed="#V" n="26"/>in Iosue. Eodem modo patet de pharaone gene. 1 2o capitulo quando 
+      <lb ed="#V" n="27"/>tulit sarram vxorem abrahe. Et de abimelech. gene. 2o. 
+      </p>
+            <p xml:id="FrMS88-f63130-d1e541">
+               <lb ed="#V" n="28"/>¶ Sed videndum est. quis dicitet restituere. si ille quae abstulit 
+      ten<lb ed="#V" n="29" break="no"/>pore necessitatis extreme.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e548">
+      ¶ Dicitur ab aliquibus quod sic quando 
+      <lb ed="#V" n="30"/>venit ad pinguiorem fortunam. Scotus autem dicit opposi 
+      <lb ed="#V" n="31"/>tum distinguendo quia vel ille non erat in extrema 
+      necessita<lb ed="#V" n="32" break="no"/>te. et postea venit: et tunc tenetur. quia res quando ipsam accepit 
+      <lb ed="#V" n="33"/>non fuit sua effecta: et illa obligatio non fuit extincta: sed 
+      <lb ed="#V" n="34"/>sopita sed si erat in extrema necessitate quando accepit: quia 
+      <lb ed="#V" n="35"/>iure politico communia sunt omnia. et tunc vere est suum. ideo non 
+      tene<lb ed="#V" n="36" break="no"/>tur restituere. esto quod ad pinguiorem fortunam veniat: sed 
+      <lb ed="#V" n="37"/>si non erat: tunc rapuit alienum.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e568">
+      ¶ Sed quibus 
+      facienda<lb ed="#V" n="38" break="no"/>est:
+    </p>
+            <p xml:id="FrMS88-f63130-d1e573">
+      ¶ Dicitur quod illi a quo sublatum est. sed si multum distet: deu 
+      <lb ed="#V" n="39"/>pauperibus: pro salute illius. Sed si totaliter ignorat 
+      <lb ed="#V" n="40"/>persona illa cui res illa ablata est detur pauperibus. Sed 
+      <lb ed="#V" n="41"/>quando precipitur a confessore quod statim restituat:
+    </p>
+            <p xml:id="FrMS88-f63130-d1e582">
+      ¶ Dicitur quod 
+      <lb ed="#V" n="42"/>quandiu non restituit mortaliter peccat: quia preceptum de non 
+      <lb ed="#V" n="43"/>retinendo rem alienam obligat semper: et ad semper.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e589">
+      ¶ Sed de 
+      <lb ed="#V" n="44"/>quibus resto est facienda:
+    </p>
+            <p xml:id="FrMS88-f63130-d1e595">
+      ¶ Dicitur quod non solum de raptis: sed 
+      <lb ed="#V" n="45"/>etiam de furatis et tenetur ad interesse. sicut de pignoratione 
+      <lb ed="#V" n="46"/>rei habentis fructum. tenetur restituere fructum. de interesse 
+      <lb ed="#V" n="47"/>autem et omnibus dannis. si passus etiam iacturam per se propter illam. 
+      <lb ed="#V" n="48"/>Si per accidens autem no.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e606">
+      ¶ Sed hic est dubium. si plures 
+      <lb ed="#V" n="49"/>sunt in capiendo alienum participes.
+    </p>
+            <p xml:id="FrMS88-f63130-d1e611">
+      ¶ Dicitur quod omnes 
+      simul<lb ed="#V" n="50" break="no"/>tenentur. et etiam quilibet per se: sed vno soluente omnes libe 
+      <lb ed="#V" n="51"/>rantur. quod autem omnes teneantur insolidum patet per apluitum ad 
+      <lb ed="#V" n="52"/>ro. primo. Non solum inquit qui faciunt ea. digni sunt 
+      <lb ed="#V" n="53"/>morte. sed qui consentiunt facientibus.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

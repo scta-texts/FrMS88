@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 17</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 17</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="201-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f54793"><!-- l4d11q17 -->
+            <head xml:id="FrMS88-f54793-Hd1e108">Quaestio 17</head>
+            <p xml:id="FrMS88-f54793-d1e111">
+               <lb ed="#V" n="76"/>QUeritur vtrum formalis terminus 
+      <lb ed="#V" n="77"/>transubstantationis istius sit anima 
+      <lb ed="#V" n="78"/>rationalis christi.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e120">
+      ¶ Et videtur quod sic. quia 
+      nouis<lb ed="#V" n="79" break="no"/>simi sacramenti dicitet esse nouissimus terminus. sed 
+      <lb ed="#V" n="80"/>listud sacramentum est huiusmodi. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e127">
+      ¶ Contra. quia 
+      <lb ed="#V" n="81"/>sacramentum incarnationis fuit nouius isto: et tamen fuit ibi 
+      <lb ed="#V" n="82"/>post terminus ad animam. ergo in istud non erit primus 
+      <lb ed="#V" n="83"/>terminus anima rationalis. 
+      <lb ed="#V" n="84"/>quattuor praeambula. 
+      <lb ed="#V" n="85"/>hic premittuntu.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e140">
+      ¶ Primum est. quod 
+      pri<lb ed="#V" n="86" break="no"/>mus terminus et totalis est christi caro. per quam intelligitur 
+      <lb ed="#V" n="87"/>compositum. quod est corpus christi. quia istud ex vi verborum est 
+      pre<lb ed="#V" n="88" break="no"/>cise in hoc sacramento.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e150">
+      ¶ Secundum est quod terminus 
+      forma<lb ed="#V" n="89" break="no"/>lis est forma ex qua componitur corpus christi. quia 
+      quando<lb ed="#V" n="90" break="no"/>cunque est aliquid terminus totalis alicuius forma illa per 
+      <lb ed="#V" n="91"/>quam constituitur in tali esse. est formalis terminus primus. 
+      </p>
+            <p xml:id="FrMS88-f54793-d1e159">
+               <lb ed="#V" n="92"/>¶ Tertium est. quod nec totalis terminus nec formalis est 
+      <lb ed="#V" n="93"/>anima rationalis. quia quodlibet talium est hic ex vi verbo. 
+      <lb ed="#V" n="94"/>cum. sed anima non directe est hoc ex vi verborum.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e168">
+      ¶ 4m. quod nec 
+      <lb ed="#V" n="95"/>quantitas est terminus formalis vel totalis: quia non directe 
+      <lb ed="#V" n="96"/>est hic ex vi verborum.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e175">
+      ¶ Secundum hoc ergo sunt haec 4or conclusiones. 
+      </p>
+            <p xml:id="FrMS88-f54793-d1e178">
+               <lb ed="#V" n="97"/>¶ Prima est. quod anima rationalis non potest esse primus 
+      termi<lb ed="#V" n="98" break="no"/>nus formalis istius transubstatiationis.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e185">
+      ¶ hoc autem probo 4r 
+      </p>
+            <p xml:id="FrMS88-f54793-d1e189">
+               <lb ed="#V" n="99"/>¶ Prima ratio fundatur in natura transubstantiationis. quia omnia que 
+      <lb ed="#V" n="100"/>sunt de essentia corporis christi: pro carne sumendo. sunt in 
+      <lb ed="#V" n="101"/>sactro ex vi verborum: sed anima rationalis non est ibi ex vi 
+      ver<lb ed="#V" n="102" break="no"/>borum. ergo non est de essentia corporis christi.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e200">
+      ¶ Maior patet. quia 
+      <lb ed="#V" n="103"/>illa quae sunt in hoc sacratmento ex vi verborum. sunt priora alia 
+      <lb ed="#V" n="104"/>posteriora. sed que sunt de essentia sunt priora omnibus 
+      <lb ed="#V" n="105"/>aliis. Item quandocumque aliquod compositum constituitur essentialiter ex 
+      <lb ed="#V" n="106"/>principiis vbicumque est per se constitutum: ibi possunt esse per 
+      ac<lb ed="#V" n="107" break="no"/>cidens constituentia. sed anima rationalis non est ex vi verbo 
+      <lb ed="#V" n="108"/>cum in hoc sacramento: vt omnes concedunt. ergo non est de essen 
+      <lb ed="#V" n="109"/>tia corporis christi. et per consequens non est ibi constitutiua ipsius 
+      <lb ed="#V" n="110"/>compositi. et per consequens non est terminus formalis ipsius 
+      <lb ed="#V" n="111"/>compositi: quod est ibi ex vi verborum.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e222">
+      ¶ Si respondeatur quod 
+      ani<lb ed="#V" n="112" break="no"/>ma est hic. prout corpori dat esse corporeum: non esse 
+      ra<lb ed="#V" n="113" break="no"/>tionale.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e229">
+      ¶ Contra. anima si constituat corpus christi secundum 
+      to<lb ed="#V" n="114" break="no"/>tam essentiam constituit. ergo ex vi verborum est secundum essentiam 
+      <lb ed="#V" n="115"/>in hoc sacramento.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e236">
+      ¶ Secunda ratio fundatur in nam 
+      causa<lb ed="#V" n="116" break="no"/>litatis. Omnis causa formalis est de essentia sui effectus. 
+      <lb ed="#V" n="117"/>si enim accipimus in genere substantie causam formalem. certum 
+      <lb ed="#V" n="118"/>est quod non est causa materiae nec forma materie: nec sui met: sed 
+      <lb ed="#V" n="119"/>tantum compositi: quia est eius effectus. Eodem modo 
+      dedu<lb ed="#V" n="120" break="no"/>citur de accidentibus. Sed anima rationalis non est 
+      essentia<lb ed="#V" n="121" break="no"/>corporis vel carnis christi. probatio. quia rationale est 
+      poste<lb ed="#V" n="122" break="no"/>rius corporeo in illo ordine.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e254">
+      ¶ Nogice etiam patet in 
+      differen<lb ed="#V" n="123" break="no"/>tiis substantialibus subalternatim positis. vbi posteri 
+      <lb ed="#V" n="124"/>pr forma est perfectior. sic de anima rationali. vnde si esset 
+      <lb ed="#V" n="125"/>de quiditate corpore: tunc sequeretur quod esset causa 
+      om<lb ed="#V" n="126" break="no"/>nis corporis.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e266">
+      ¶ Item omnis perfectio alicuius est posteri 
+      <lb ed="#V" n="127"/>pr illo quod perficit: sed anima est perfectio corporis 
+      philosophci<lb ed="#V" n="128" break="no"/>organici. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e273">
+      ¶ 3a ratio sumitur ex natura perfectionis. impossibile 
+      <lb ed="#V" n="129"/>est quod magis perfectum sit de essentia minus perfecti. hoc patet. 
+      <lb ed="#V" n="130"/>quia quod est de essentia alicuius includiter totaliter in illo in 
+      <lb ed="#V" n="131"/>quo est. maior habetur. sed anima rationalis est perfectior. 
+      <lb ed="#V" n="132"/>carne christi. quia in essentialiter ordinatis posterius eiusdem 
+      <!--406.xml-->
+      <pb ed="#V" n="202-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>rationis est perfectius. sed postrema perfectio est anima 
+      ra<lb ed="#V" n="2" break="no"/>tionalis. ergo anima non est de essentia corporis vel 
+      car<lb ed="#V" n="3" break="no"/>nis. sed forma que dat formale esse carneum est de essen 
+      <lb ed="#V" n="4"/>tia carnis constitute. ergo anima non potest esse forma qua 
+      <lb ed="#V" n="5"/>constituitur caro.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e302">
+      ¶ Quarta ratio sumitur ex natura oppo 
+      <lb ed="#V" n="6"/>sitionis.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e307">
+      ¶ Dicum aliqui quod anima aliquo modo est prior 
+      cor<lb ed="#V" n="7" break="no"/>pore vt constituitut: sed vt dat esse reale est posterior. Si 
+      <lb ed="#V" n="8"/>militer dicunt vt dat esse corporeum est hic in sacramento 
+      <lb ed="#V" n="9"/>ex vi verborum. sed vt dat esse hominem: est ibi ex 
+      concomi<lb ed="#V" n="10" break="no"/>tantia tantum. Eodem modo dicunt quod vt immersa organd 
+      <lb ed="#V" n="11"/>dat esse organicum: vt abstracta ab organo dat esse 
+      intel<lb ed="#V" n="12" break="no"/>lectiuum. Et primo modo est hic ex vi verborum. secundo modo 
+      <lb ed="#V" n="13"/>non.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e325">
+      ¶ Et tunc argumentus. impossibile est quod idem inquantum 
+      <lb ed="#V" n="14"/>idem et secundum idem et omnibus modis idem sit prius et po 
+      <lb ed="#V" n="15"/>sterius se ipso. ordine essentiali. licet ordine accidentali 
+      <lb ed="#V" n="16"/>possit. sed anima est prior constituto: vt constituit ipsum 
+      ordi<lb ed="#V" n="17" break="no"/>ne essentiali. et est perfectior vt dat esse rationale. ergo eadem 
+      <lb ed="#V" n="18"/>anima secundum idem erit prior et posterior.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e338">
+      ¶ Item idem secundum idem 
+      <lb ed="#V" n="19"/>non est prius et posterius: sed anima secundum totam suam essen 
+      <lb ed="#V" n="20"/>tiam est constitutiua corporis. et secundum illud idem constituit 
+      <lb ed="#V" n="21"/>hominem. nec secundum aliud. quia tunc haberet propositum. 
+      er<lb ed="#V" n="22" break="no"/>go etc.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e350">
+      ¶ Secundo ex natura contrarietatis. Quia secundum idem non 
+      <lb ed="#V" n="23"/>insunt contraria. sed ita inessent. probo. quia dicis quod intrinsece est 
+      <lb ed="#V" n="24"/>hic ex vi verborum vt constitutiua corporis: extrinsece vt 
+      com<lb ed="#V" n="25" break="no"/>stitutiua hominis: et ita secundum idem erit intrinsece et extrinsece 
+      <lb ed="#V" n="26"/>ad corpus partinens.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e361">
+      ¶ 3o ex priuatiuis. quia impossibile est quod 
+      ea<lb ed="#V" n="27" break="no"/>dem ntam sit immersa organo. et non immersa. sed essentia anime: vt 
+      <lb ed="#V" n="28"/>constituens corpus est immersa organo: vt dicunt: et vt 
+      rationa<lb ed="#V" n="29" break="no"/>lis non immersa.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e370">
+      ¶ Nec valet si diceretur quod vt sic dat esse 
+      <lb ed="#V" n="30"/>corpus: et sub alia ratione est rationale. Quia hic est tantum respectum. 
+      <lb ed="#V" n="31"/>de quo nihil ad propositum.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e377">
+      ¶ 4a anima rationalis est formalis ter 
+      <lb ed="#V" n="32"/>minus per te. sic ergo est impossibile quod eadem anima ipsa non sit 
+      <lb ed="#V" n="33"/>terminus. si disto quam das dicendo quod vt sic: vel vt sic. si illa 
+      <lb ed="#V" n="34"/>inquam differentia fit per essentialia: habter intentum. si per accidentalia: nihi 
+      <lb ed="#V" n="35"/>ad propositum. quia terminus transubstantiationis est substantia.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e388">
+      ¶ co conclusi 
+      <lb ed="#V" n="36"/>quod terminus formalis non potest esse quantitas. etiam in triduo. 
+      <lb ed="#V" n="37"/>quia impossibile est quod transubstantiatio sit nisi ad substantiam: sed tunc 
+      fui<lb ed="#V" n="38" break="no"/>set vera transubstantiatio.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e397">
+      ¶ Item verum corpus christi non constat ex 
+      <lb ed="#V" n="39"/>quantitate et materia. Cum tale constitutum non sit ens perfectum¬ 
+      </p>
+            <p xml:id="FrMS88-f54793-d1e403">
+               <lb ed="#V" n="40"/>¶ 3a conclusio quod terminus formalis in triduo non fuit forma 
+      ca<lb ed="#V" n="41" break="no"/>daueris. hoc enim est irrationabile omnino. et arguitur sic. cuius. 
+      <lb ed="#V" n="42"/>cumque sacramenti instituti a christo est aliqua materia a christo 
+      determina<lb ed="#V" n="43" break="no"/>ta vltra quam nihil fieret: sed determinata materia in hoc sa 
+      <lb ed="#V" n="44"/>cramento est corpus christi. ergo nullam efficaciam habet nisi 
+      re<lb ed="#V" n="45" break="no"/>corporis. nullam ergo super formam cadaueris.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e419">
+      ¶ Item 
+      <lb ed="#V" n="46"/>tunc esset aliud sacramenta. quia illa forma fuisset alterius ratio 
+      <lb ed="#V" n="47"/>nis incompossibilis anime christi.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e426">
+      ¶ Quarta conclusio est. quod 
+      termi<lb ed="#V" n="48" break="no"/>nus formalis est aliqua forma naturalis corporalis 
+      corru<lb ed="#V" n="49" break="no"/>ptibilis per naturam. probatio per syllectum diuisiuum. corpus 
+      <lb ed="#V" n="50"/>christi est hic ex vi verborum. aut ergo istud corpus est mateara prima: 
+      <lb ed="#V" n="51"/>vel sola anima: vel anima rationalis cum materia: vel aliquod 
+      resul<lb ed="#V" n="52" break="no"/>tans ex istis. primum non potest dici. quia tunc esset hic nisi materia: 
+      <lb ed="#V" n="53"/>nec aliquid aliorum ex vi verborum. Nec 2m. quia anima non 
+      <lb ed="#V" n="54"/>est hic nisi ex concomitantia. Nec constitutum ex anima et materia 
+      <lb ed="#V" n="55"/>quia tunc quodlibet esset hic ex vi verborum: quod negas. nec 
+      va<lb ed="#V" n="56" break="no"/>let simultas que est aliquod accidens.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e448">
+      ¶ Si dicas quod sit 
+      <lb ed="#V" n="57"/>entitas tertia mateam et forma. hanc tum negas.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e453">
+      ¶ Item cum 
+      <lb ed="#V" n="58"/>anima sit propter compositum terminus formalis erit 
+      <lb ed="#V" n="59"/>nobilior quam anima: quod est falsum.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e460">
+      ¶ Dico ergo quod 
+      opore<lb ed="#V" n="60" break="no"/>ibi dare formam corporalem corruptibilem naturaliter quae est 
+      ter<lb ed="#V" n="61" break="no"/>minus formalis istius: et ita fuisset ibi in triduo. hec 
+      au<lb ed="#V" n="62" break="no"/>tem est sententia Augu. in libro retractationum.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e470">
+      ¶ Sed 
+      <lb ed="#V" n="63"/>contra quadrupliciter.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e475">
+      ¶ Primo. quia generatio hominis 
+      termi<lb ed="#V" n="64" break="no"/>natur ad animam vltimate. et sic erit nobilior generatio 
+      tran<lb ed="#V" n="65" break="no"/>substantiatione. quod non videtur verum.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e482">
+      ¶ Secundo. quia 
+      <lb ed="#V" n="66"/>si corpus constat ex pluribus quam ex mateam et quantitate. sicut tu¬ 
+      <!--406.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>ponis qui addis istam formam corruptibilem. tunc non erit 
+      <lb ed="#V" n="68"/>simpliciter vnum compositum: sed plura.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e495">
+      ¶ 3o. quia duo erunt ibi 
+      <lb ed="#V" n="69"/>composita. vnum ex vi verborum: et aliud ex 
+      concomitan<lb ed="#V" n="70" break="no"/>tia.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e502">
+      ¶ 4o. quia quod aduenit ex concomitantia completo aliquo 
+      <lb ed="#V" n="71"/>est accidens: sed anima aduenit enti in actu completo secundum ista 
+      <lb ed="#V" n="72"/>dicta: ergo etc.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e509">
+      ¶ Ad primum dico quod transubsteantiatio est 
+      no<lb ed="#V" n="73" break="no"/>bilior ex modo terminandi: verbi gratia. Actus reuelatio 
+      <lb ed="#V" n="74"/>nis Pauli fuit terminatus ad diuinam essentiam: que es 
+      <lb ed="#V" n="75"/>nobilior quam proprietas ad quam terminatur vnio ad 
+      ver<lb ed="#V" n="76" break="no"/>bum: que tamen multo excellentior est. licet tamen ex modo 
+      termi<lb ed="#V" n="77" break="no"/>nandi sortiatur dignitatem maiorem. sic est hic.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e523">
+      ¶ Ad 
+      al<lb ed="#V" n="78" break="no"/>ud dico quod non faciunt nisi vnum compositum licet sint 
+      mul<lb ed="#V" n="79" break="no"/>te compositiones. sicut album et frigidum sunt vnum 
+      qua<lb ed="#V" n="80" break="no"/>le. est igitur vnum compositum aliquo modo.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e532">
+      ¶ Ad aliud 
+      <lb ed="#V" n="81"/>concedo quod post esse vltimatum. Quicquid aduenit est acci 
+      <lb ed="#V" n="82"/>dens. sed non est completum esse nisi adueniente 
+      vltima<lb ed="#V" n="83" break="no"/>forma.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e541">
+      ¶ Contra. vnius rei vnicum est esse.
+    </p>
+            <p xml:id="FrMS88-f54793-d1e544">
+      ¶ Dico quod 
+      <lb ed="#V" n="84"/>vnum est totale esse. sicut sit vna essentia totalis. et 
+      mul<lb ed="#V" n="85" break="no"/>te partiales essentie: sicut materia et forma sunt 
+      partia<lb ed="#V" n="86" break="no"/>les essentie vnius totalis essentie.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

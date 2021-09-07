@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="157-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f18275"><!-- l2d15q1 -->
+            <head xml:id="FrMS88-f18275-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f18275-d1e111">
+               <lb ed="#V" n="48"/>Dixit etiam deus producant aquae etc. 
+      <lb ed="#V" n="49"/>CIrca distinctionem. 19. que hoc 
+      <lb ed="#V" n="50"/>incipit. Quero vtrum in 
+      <lb ed="#V" n="51"/>corporibus mixtis sint 4or elem 
+      en<lb ed="#V" n="52" break="no"/>ta actualiter. Et videtur quod sic 
+      Au<lb ed="#V" n="53" break="no"/>iustinus tertio de trinitate dicit 
+      <lb ed="#V" n="54"/>actualiter in quadam textur a 
+      ele<lb ed="#V" n="55" break="no"/>menta creata sunt.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e131">
+      ¶ Sed 
+      contra<lb ed="#V" n="56" break="no"/>bidem in elementis omnia creata sunt 
+      <lb ed="#V" n="57"/>in potentia. 
+      <lb ed="#V" n="58"/>opinio auitle. quod 
+      for<lb ed="#V" n="59" break="no"/>hic fullme iste sunt 
+      perfe<lb ed="#V" n="60" break="no"/>cte in mixto: qualitates autem eorum remisse.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e144">
+      ¶ Alia fuit 
+      <lb ed="#V" n="61"/>opinio commentatoris quod elementa sunt in mixto 
+      quan<lb ed="#V" n="62" break="no"/>tum ad formas substantiales fractas et remissas.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e151">
+      ¶ Con 
+      <lb ed="#V" n="63"/>tra primam arguitur: nam elementa quantum ad 
+      natu<lb ed="#V" n="64" break="no"/>ra in suam habent qualitates in suis perfectionibus. 
+      </p>
+            <p xml:id="FrMS88-f18275-d1e159">
+               <lb ed="#V" n="65"/>¶ Secundo quia in quolibet elemento essent due contrarie 
+      <!--317.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>qualitates nulla enim qualitas remittitur nisi per 
+      in<lb ed="#V" n="67" break="no"/>ductionem gradus incompossibilis.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e172">
+      ¶ Contra 
+      secun<lb ed="#V" n="68" break="no"/>dam opinionem arguitur: quia aristo. ponit quod forma ge 
+      <lb ed="#V" n="69"/>neratur in instanti. Similiter ponit quod habent contra 
+      <lb ed="#V" n="70"/>rietatem talem: quia sunt compossibiles in eodem 
+      su<lb ed="#V" n="71" break="no"/>sceptiuo.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e183">
+      ¶ Et ideo dico quod non sunt in mixto 
+      actuali<lb ed="#V" n="72" break="no"/>ter.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e188">
+      ¶ Et primo. quia nulla necessitas est hoc ponendi: 
+      <lb ed="#V" n="73"/>quia nec per transmutationem: nec per operationem 
+      ali<lb ed="#V" n="74" break="no"/>quam: quia operationes formarum accidentalium 
+      va<lb ed="#V" n="75" break="no"/>riantur sine variatione substantie.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e197">
+      ¶ Secundo. 
+      impossi<lb ed="#V" n="76" break="no"/>bile est duo corpora esse in eodem loco: si ergo quelibet 
+      <lb ed="#V" n="77"/>pars mixti est mixta: et sunt corpora diuersa. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e204">
+      ¶ Ter 
+      <lb ed="#V" n="78"/>tio. forme elementorum sunt incompossibiles. Ex hoc 
+      <lb ed="#V" n="79"/>enim forma aque corrumpit formam ignis: quia sunt 
+      <lb ed="#V" n="80"/>incompossibiles.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e214">
+      ¶ Sed si dicas quod remittuntur: non 
+      <lb ed="#V" n="81"/>valet quia ex rationibus formalibus repugnant.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e219">
+      ¶ Quar 
+      <lb ed="#V" n="82"/>to sic. impossibile est quod idem indiuinduum sit simul in 
+      <lb ed="#V" n="83"/>diuersis speciebus de genere substantie. Sed hoc 
+      se<lb ed="#V" n="84" break="no"/>queretur in proposito: quecumque enim distinguuntur 
+      spe<lb ed="#V" n="85" break="no"/>cie distinguuntur numero.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e230">
+      ¶ Si dicas quod verum est 
+      <lb ed="#V" n="86"/>quando sunt perfecte. Contra. vbicumque est inuenire per 
+      <lb ed="#V" n="87"/>fectam rationem speciei ibi: etiam etc. sed vbicumque est 
+      <lb ed="#V" n="88"/>inuenire formam elementi in quocunque gradu sit: ibi 
+      sal<lb ed="#V" n="89" break="no"/>uatur ratio specifica illius.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e241">
+      ¶ Pono igitur quatuor 
+      <lb ed="#V" n="90"/>conclusiones.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e246">
+      ¶ Prima conclusio est: quod elementa non 
+      <lb ed="#V" n="91"/>sunt in mixto actualiter: sed potentialiter. probatur: 
+      <lb ed="#V" n="92"/>quia si actualiter essent haberent proprias elemento. 
+      <lb ed="#V" n="93"/>rum actiones et simplicium. possunt tamen de 
+      poten<lb ed="#V" n="94" break="no"/>tia illius materie deduci.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e257">
+      ¶ Secunda conclusio. quod non 
+      <lb ed="#V" n="95"/>sunt idem formaliter sed virtualiter: non enim 
+      dicun<lb ed="#V" n="96" break="no"/>tur in primo modo dicendi per se: sed virtualiter 
+      tan<lb ed="#V" n="97" break="no"/>tum: quia aliquo modo continet illa.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e267">
+      ¶ Tertia 
+      conclu<lb ed="#V" n="98" break="no"/>sio. quod non sunt ibi essentialiter: quia tota essentia 
+      mi<lb ed="#V" n="99" break="no"/>cti constat ex materia et forma sunt tamen ibi per pro 
+      <lb ed="#V" n="100"/>prietates: quia experimur eas ibi esse.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e276">
+      ¶ Quarta 
+      con<lb ed="#V" n="101" break="no"/>clusio. quod sint idem: sicut in medio non participante 
+      na<lb ed="#V" n="102" break="no"/>turam extremorum: sed habente conuenientiam cum 
+      <lb ed="#V" n="103"/>vnoquoque: sicut rubedo que est forma simplex.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e285">
+      ¶ Sed 
+      <lb ed="#V" n="104"/>contra primam conclusionem: quia eadem ratione quod 
+      <lb ed="#V" n="105"/>libet elementum est mixtum: quia in potentia eius sunt 
+      <lb ed="#V" n="106"/>elementa.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e294">
+      ¶ Contra secundam: quia secundum hoc sol esset 
+      <lb ed="#V" n="107"/>mixtus ex elementis: quia continet virtualiter.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e299">
+      ¶ Con 
+      <lb ed="#V" n="108"/>tra tertiam: secundum hoc homo habens aliquas proprie 
+      <lb ed="#V" n="109"/>tates solis esset secundum hoc mixtus vel compositus 
+      <lb ed="#V" n="110"/>ex sole. vlterius ignis esset mixtus saltem ex duobus 
+      ele<lb ed="#V" n="111" break="no"/>mentis.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e310">
+      ¶ Contra quartam: quiam secundum hoc equus qui 
+      <lb ed="#V" n="112"/>est medius inter hominem et asinum esset mixtus ex 
+      <lb ed="#V" n="113"/>eis.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e318">
+      ¶ Iste rationes petunt quid requiratur ad mixtum. 
+      <lb ed="#V" n="114"/>Dico igitur quod ideo fit mixtum quia ex natura 
+      elemen<lb ed="#V" n="115" break="no"/>torum productum: quia materia primo fuit posita sub 
+      <lb ed="#V" n="116"/>elementis: deinde die quinta produxit mixta de 
+      elemen<lb ed="#V" n="117" break="no"/>tis: quia materia tota erat occupata illis: quia 
+      igitu<lb ed="#V" n="118" break="no"/>primo erat materia sub forma elementorum secundum 
+      na<lb ed="#V" n="119" break="no"/>turam illorum. ideo etc.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e334">
+      ¶ Sed hoc est difficultas: quia 
+      <lb ed="#V" n="120"/>mixtio est miscibilium alteratorum vnio: ergo non est 
+      <lb ed="#V" n="121"/>ibi corruptio. Dico quod non est solum alteratorum: sed 
+      <lb ed="#V" n="122"/>etiam corruptorum.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e343">
+      ¶ Secunda difficultas: quia 
+      il<lb ed="#V" n="123" break="no"/>lud quod generatur ex elementis ex eisdem constitui 
+      <lb ed="#V" n="124"/>tur in esse. Uerum est si generatur ex eis: sicut ex mate 
+      <lb ed="#V" n="125"/>ria permanente. hoc autem fit ex eis tanquam ex mate 
+      <lb ed="#V" n="126"/>ria transeunte.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e354">
+      ¶ Tertia difficultas est: mixtum 
+      resol<lb ed="#V" n="127" break="no"/>uitur in elementa: ergo constituitur ex eis. hic dicitur quod 
+      <lb ed="#V" n="128"/>resolutio est aliquando in parte sicut compositum in materiam 
+      <lb ed="#V" n="129"/>et formam vel sicut forma in materiam: et sic resoluiter mix 
+      <lb ed="#V" n="130"/>tum.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e365">
+      ¶ Quarta difficultas est: quia dicitur communi 
+      <lb ed="#V" n="131"/>ter: quod quatuor sunt elementa in homine. Dico quod verum 
+      <!--318.xml-->
+      <pb ed="#V" n="158-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>est materialiter tantum: quia ex materia quatuor 
+      ele<lb ed="#V" n="2" break="no"/>mentorum.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e381">
+      ¶ Sed generatur ne mixtum ex 
+      elemen<lb ed="#V" n="3" break="no"/>tis: Dicit scotus quod non: sed aliquando ex mixto mix 
+      <lb ed="#V" n="4"/>tum: aliquando ex vno elemento.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e389">
+      ¶ Sed numquid 
+      qua<lb ed="#V" n="5" break="no"/>tuor elementa generant mixtum: Dicitur quod non: quia 
+      <lb ed="#V" n="6"/>in instanti generationis sunt corrupta: sed generatu 
+      <lb ed="#V" n="7"/>mixtum virtute corporum supercelestium.
+    </p>
+            <p xml:id="FrMS88-f18275-d1e398">
+      ¶ Alia 
+      di<lb ed="#V" n="8" break="no"/>ficultas: si semper elementum resoluatur in quatuor 
+      <lb ed="#V" n="9"/>elementa. Dicitur quod aliquando in duo: aliquando in 
+      <lb ed="#V" n="10"/>mixta: nec fit resolutio virtute elementorum: quia non 
+      <lb ed="#V" n="11"/>sunt quando sit resolutio.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

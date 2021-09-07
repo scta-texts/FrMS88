@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="144-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f07109"><!-- l2d1q11 -->
+            <head xml:id="FrMS88-f07109-Hd1e108">Quaestio 11</head>
+            <p xml:id="FrMS88-f07109-d1e111">
+      Quaestio. xi 
+      <lb ed="#V" n="113"/>Tertia quaestio est. Utrum creatura distet 
+      <lb ed="#V" n="114"/>a nihilo in infinitum. Et videtur quod 
+      <lb ed="#V" n="115"/>sic. quia alterum extremorum est infinitum scilicet nihi 
+      <lb ed="#V" n="116"/>leitas. ergo etc. Contra. quia alter terminus 
+      <lb ed="#V" n="117"/>est finitus. si ergo distantia est per 
+      extre<lb ed="#V" n="118" break="no"/>ma sequitur quod non sit infinita. 
+      <lb ed="#V" n="119"/>aliqui quod sic. quia quando aliqua duo habent 
+      <lb ed="#V" n="120"/>hic dixerunt propinquitatem oportet habere 
+      confor<lb ed="#V" n="121" break="no"/>mitatem: vt que magis conformia sunt magis sint 
+      propin<lb ed="#V" n="122" break="no"/>qua: sed inter ens et nihil nulla est conformitas. ergo nul 
+      <lb ed="#V" n="123"/>la propinquitas. Sed contra hoc arguitur quadrupliciter.
+    </p>
+            <p xml:id="FrMS88-f07109-d1e137">
+      ¶ Primo 
+      <lb ed="#V" n="124"/>sic. Nulla creatura tantum distat a nihilo. sicut deus. sed deum 
+      <lb ed="#V" n="125"/>non distat nisi per infinitum. ergo creatura minus.
+    </p>
+            <p xml:id="FrMS88-f07109-d1e144">
+      ¶ 2o sic. 
+      pro<lb ed="#V" n="126" break="no"/>portionalis effectus non est inter infinitas distantias. Sed 
+      <lb ed="#V" n="127"/>Aug. dicit. quod plus distat angelus a nihilo: quam primus mate 
+      <lb ed="#V" n="128"/>ria.
+    </p>
+            <p xml:id="FrMS88-f07109-d1e153">
+      ¶ 3o sic. tantum distat aliquid ab aliquo quot modis 
+      du<lb ed="#V" n="129" break="no"/>citur ad illud: siue in quantitate intensiua: siue extensiua. 
+      <lb ed="#V" n="130"/>Sed ablatis infinitis gradibus creatura deducitur ad ni 
+      <lb ed="#V" n="131"/>hil. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f07109-d1e163">
+      ¶ 4o tantum distat aliquid ab aliquo quot 
+      gra<lb ed="#V" n="132" break="no"/>dibus excedit illud. sed nulla creatura habet infinitos gra¬ 
+      <!--292.xml-->
+      <pb ed="#V" n="145-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>dus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f07109-d1e176">
+      ¶ Ideo dicit Scodo quod inter immedit oppositia non 
+      <lb ed="#V" n="2"/>potest esse distantia nisi quanta est in extremo positiuo si alte 
+      <lb ed="#V" n="3"/>rum non sit positiuum.
+    </p>
+            <p xml:id="FrMS88-f07109-d1e183">
+      ¶ Sed contra. deus et creatura conuenium 
+      <lb ed="#V" n="4"/>in ente. creatura autem et nihil conueniunt in nullo. ergo si deus 
+      <lb ed="#V" n="5"/>et creatura distent in infinitum. sequitur quod creatura in 
+      infinitu<lb ed="#V" n="6" break="no"/>distet a nihilo.
+    </p>
+            <p xml:id="FrMS88-f07109-d1e192">
+      ¶ 2o sic. ad coniungendum ens et nihil requritur 
+      <lb ed="#V" n="7"/>virtus infinita. ergo inter ipsa est distantia infinita.
+    </p>
+            <p xml:id="FrMS88-f07109-d1e197">
+      ¶ 3o sic. 
+      inf<lb ed="#V" n="8" break="no"/>nitis gradibus ad infinitum succedentibus creatura non 
+      de<lb ed="#V" n="9" break="no"/>ducitur in nihilum: sicut quando intelligo intellectum angeli. 2us actu 
+      <lb ed="#V" n="10"/>est ignobilior primo actu: quo intelligo primum. et sic procedit in 
+      in<lb ed="#V" n="11" break="no"/>finitum. et ita non venitur ad nihil.
+    </p>
+            <p xml:id="FrMS88-f07109-d1e208">
+      ¶ 4o sic. infiniti gradum 
+      <lb ed="#V" n="12"/>sunt quibus in ascendendo nunquam inferius veniet ad nobilita 
+      <lb ed="#V" n="13"/>tem superioris. sicut in ascendendo in actibus intelligendi: sicut actus 
+      <lb ed="#V" n="14"/>primus: quo intelligitur albedo: deide per reflexionem 
+      intelli<lb ed="#V" n="15" break="no"/>gatur alius: et sic in infinitum. numquam peruemetur ad nobilitatem 
+      <lb ed="#V" n="16"/>positione.
+    </p>
+            <p xml:id="FrMS88-f07109-d1e222">
+      ¶ Ad primum dico. quod distantia potest intelligi: vel 
+      positi<lb ed="#V" n="17" break="no"/>ua. vel priuatiua. maior autem est distantia priuationis ad 
+      <lb ed="#V" n="18"/>formam: quam inter formas disparatas.
+    </p>
+            <p xml:id="FrMS88-f07109-d1e229">
+      ¶ Concedo ergo. quod ma 
+      <lb ed="#V" n="19"/>ior est conuenientia inter creaturam et deum: quam creature ad ni 
+      <lb ed="#V" n="20"/>hil: loquendo de conuenientia positiua. quia in ratione entis 
+      con<lb ed="#V" n="21" break="no"/>ueniunt. non tamen distantia maior est inter ea. si accipiatur secundum 
+      <lb ed="#V" n="22"/>positiuum quantitatis virtutis.
+    </p>
+            <p xml:id="FrMS88-f07109-d1e240">
+      ¶ Ad aliud dico. quod 
+      ascen<lb ed="#V" n="23" break="no"/>sus graduum potest intelligi vel secundum gradus equalis 
+      quan<lb ed="#V" n="24" break="no"/>titatis. et sic essent infiniti si poneretur. sed si equalis pro 
+      <lb ed="#V" n="25"/>portionis: ex hoc non arguitur infinitas quantitatis. Ta 
+      <lb ed="#V" n="26"/>lis autem est in actibus intelligendi. quia non tantum excedit vnus 
+      <lb ed="#V" n="27"/>alium. sicut alter aliquem alterum.
+    </p>
+            <p xml:id="FrMS88-f07109-d1e253">
+      ¶ Sed potest poni 
+      distan<lb ed="#V" n="28" break="no"/>tia inter ens et nihil: Dico quod non. quia sunt immediata sequi 
+      <lb ed="#V" n="29"/>potest accipi secundum quantitatem positiui. et ita angelus plus 
+      di<lb ed="#V" n="30" break="no"/>stat a nihilo. quam prius materia etc. 
+      
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f06121"><!-- l2d1q5 -->
+            <head xml:id="FrMS88-f06121-Hd1e108">Quaestio 5</head>
+            <p xml:id="FrMS88-f06121-d1e111">
+      Quaestio. v. 
+      <lb ed="#V" n="62"/>distinction primam iterum quaro quatuor quaestio 
+      <lb ed="#V" n="63"/>Irca nes. quarum prima est. Utrum creas ordine 
+      <lb ed="#V" n="64"/>naturae praecedat creaturam: vel econverso. Et videtur quod 
+      crea<lb ed="#V" n="65" break="no"/>tio fit prior. quia creato est via ad creaturam. et 
+      <lb ed="#V" n="66"/>omnis via est prior suo termino.
+    </p>
+            <p xml:id="FrMS88-f06121-d1e124">
+      ¶ Contra. quia 
+      <!--289.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>terminus creationis est prior ea. quia ab eo dependet. sed essentia 
+      <lb ed="#V" n="68"/>creature est terminus creationis. ergo praecedit creationem. 
+      <lb ed="#V" n="69"/>quatuor conclusiones negatiuas. 
+      Pri<lb ed="#V" n="70" break="no"/>hic premitto ma est. quod inter illa non est aliquis 
+      <lb ed="#V" n="71"/>ordo durationis. quia in quocumque peiodo vnum inuenitur cum alio. 
+      </p>
+            <p xml:id="FrMS88-f06121-d1e142">
+               <lb ed="#V" n="72"/>¶ 2a conclusio quod non habent perfectionis ordinem. quia in ordine perfectionis 
+      <lb ed="#V" n="73"/>oportet vtrumque extremum dicere perfectionem. Sed creas cum sit 
+      <lb ed="#V" n="74"/>relatio non dicit perfectionem. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f06121-d1e151">
+      ¶ 3a conclusio est. quod inter illa non est 
+      or<lb ed="#V" n="75" break="no"/>do causalitatis. quia talia distinguitur realiter quae distinctio non est inter 
+      <lb ed="#V" n="76"/>creationem et creaturam. vt visum fuit.
+    </p>
+            <p xml:id="FrMS88-f06121-d1e159">
+      ¶ 4a conclusio quod nec ordo 
+      <lb ed="#V" n="77"/>origis. quia talia dist inguuntur realiter: inter quae est origo. vt patet per 
+      <lb ed="#V" n="78"/>Aug. per de tria.
+    </p>
+            <p xml:id="FrMS88-f06121-d1e166">
+      ¶ Pono igitur duas conclusiones affirmatiuas. 
+      <lb ed="#V" n="79"/>Prima. quod inter relationem et fundamentum est ordo naturae. sicut inter 
+      <lb ed="#V" n="80"/>respectua est similitas naturae. creaus autem est ratio. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f06121-d1e173">
+      ¶ 2a conclusio quod 
+      abso<lb ed="#V" n="81" break="no"/>lutum creature praecedit creationem: vt docet Aug. 5. de 
+      tri<lb ed="#V" n="82" break="no"/>dicens quod omne quod est ad aliud prius est ad se. sed illud prius non 
+      <lb ed="#V" n="83"/>est nisi absolutum creature.
+    </p>
+            <p xml:id="FrMS88-f06121-d1e182">
+      ¶ 2o. quia omne fundamentum est 
+      <lb ed="#V" n="84"/>prius relatione natura: sed creatura est fundatum creationis. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f06121-d1e187">
+               <lb ed="#V" n="85"/>¶ Sed contra in illo priori qui creatura praecedit creationem 
+      crea<lb ed="#V" n="86" break="no"/>turam erit necessare esse. quia idependens.
+    </p>
+            <p xml:id="FrMS88-f06121-d1e194">
+      ¶ 2o. quia nihil accipit 
+      <lb ed="#V" n="87"/>ese per illud quod est eo posterius: sed creatura accipit esse per 
+      <lb ed="#V" n="88"/>creationem. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f06121-d1e202">
+      ¶ 3o creator et creatura sunt simils natura: sicut 
+      <lb ed="#V" n="89"/>relatiua. Si ergo creatura est prior creatione. est etiam prior crea 
+      <lb ed="#V" n="90"/>tore. quia prior creatione. qua est creator. Item nulla producuos 
+      ter<lb ed="#V" n="91" break="no"/>minatur ad illud quod iam habet esse. sed sic est in creatione secundum iam 
+      <lb ed="#V" n="92"/>dicta. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f06121-d1e213">
+      ¶ Ad primam instantiam dico. quod illud quod non 
+      de<lb ed="#V" n="93" break="no"/>pendet ab aliquo pro illo signo: pro quo aptum est dependere est 
+      <lb ed="#V" n="94"/>ecessare esse. sic deus est omnino independens. quia in nullo signo 
+      <lb ed="#V" n="95"/>pependet creatura autem dependet in 2o signo. licet non in primo. 
+      </p>
+            <p xml:id="FrMS88-f06121-d1e222">
+               <lb ed="#V" n="96"/>¶ Ad 2m dico. quod accipere esse per hoc potest dupliciter esse: vel sicut per 
+      <lb ed="#V" n="97"/>principium productiuum. et tunc vera est illa propositio. sed voluntas 
+      diuina<lb ed="#V" n="98" break="no"/>est huiusmodi principium: et non creatio ipsa.
+    </p>
+            <p xml:id="FrMS88-f06121-d1e231">
+      ¶ Alio modo sicut per causam 
+      for<lb ed="#V" n="99" break="no"/>malem: et tunc non oportet: sicut albedo non est prior homine 
+      <lb ed="#V" n="100"/>et sit prior homine albo. Creatio autem est formaliter accepta 
+      <lb ed="#V" n="101"/>est creature. et ita licet creatura vt sic sit posterior 
+      crea<lb ed="#V" n="102" break="no"/>tione. tamen sumendo eius absolutum creatio non est 
+      prior<lb ed="#V" n="103" break="no"/>creatura.
+    </p>
+            <p xml:id="FrMS88-f06121-d1e244">
+      ¶ Ad aliud dico. quod creator et creatura vt 
+      re<lb ed="#V" n="104" break="no"/>atiua sunt simul natura. Concedo ergo quod prior est 
+      creatu<lb ed="#V" n="105" break="no"/>ra quam creator. vt creator denominatur denominatione 
+      extrinste<lb ed="#V" n="106" break="no"/>sed ratione principii productiui est posterior.
+    </p>
+            <p xml:id="FrMS88-f06121-d1e253">
+      ¶ Ad aliud 
+      contra<lb ed="#V" n="107" break="no"/>maiorem est instanus de anima rationali et in augmento dico tamen 
+      <lb ed="#V" n="108"/>quod quiditas creature vt sic non est preexistens.
+    </p>
+            <p xml:id="FrMS88-f06121-d1e261">
+      ¶ Sed hoc est. 
+      <lb ed="#V" n="109"/>di. si absolutum creature precedit ordine naturae existem et 
+      crea<lb ed="#V" n="110" break="no"/>ri: Dico quod sic. quia talia sibi semper attribuuntur per accidens 
+      <lb ed="#V" n="111"/>cilibet tam existentia quam creao. quia per accidens quiditas existit. 
+      </p>
+            <p xml:id="FrMS88-f06121-d1e270">
+               <lb ed="#V" n="112"/>¶ 2a difficultas. si eodem ordine conueniunt creature 
+      existen<lb ed="#V" n="113" break="no"/>tia et creatio. dico quod simul sunt ista existentia et creatus. et idem 
+      <lb ed="#V" n="114"/>dico de aliis productionibus.
+    </p>
+            <p xml:id="FrMS88-f06121-d1e279">
+      ¶ 3a difficultas. quia videtur quod existentia 
+      prae<lb ed="#V" n="115" break="no"/>cedat. quia omne fundamentum relationis existit prius relatione 
+      <lb ed="#V" n="116"/>sed essentia creature est fundamentum illius relationis. ergo 
+      pre<lb ed="#V" n="117" break="no"/>existit. Dico quod quando est eadem existentia fundamenti et 
+      ratio<lb ed="#V" n="118" break="no"/>nis non oportet. similiter essentia creature fundat istam relationem 
+      <lb ed="#V" n="119"/>non vt existens est. sed vt essentia est.
+    </p>
+            <p xml:id="FrMS88-f06121-d1e292">
+      ¶ 4a difficultas quia omne quod est 
+      <lb ed="#V" n="120"/>ad aliud prius est ad se secundum aug. potest dici quod prius 
+      coue<lb ed="#V" n="121" break="no"/>nit existentia creature quam relationi. licet sit eadem existentia. et si 
+      acci<lb ed="#V" n="122" break="no"/>pinatur esse essentialiter vt patet.
+    </p>
+            <p xml:id="FrMS88-f06121-d1e301">
+      ¶ Sed est dubium si sit 
+      ten<lb ed="#V" n="123" break="no"/>dentia in creaturam. Responideo quod non oportet dicere quod sit idem 
+      <lb ed="#V" n="124"/>diuino creature. quia nulla tunc esset quaestio. vnde non apparet quo 
+      <lb ed="#V" n="125"/>modo possit saluari dictum illorum qui dicunt quod est via naturae 
+      <lb ed="#V" n="126"/>precedens creaturam. etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

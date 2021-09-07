@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f25006"><!-- l2d44q6 -->
+            <head xml:id="FrMS88-f25006-Hd1e108">Quaestio 6</head>
+            <p xml:id="FrMS88-f25006-d1e111">
+               <lb ed="#V" n="84"/>¶ Questio. ii 
+      <lb ed="#V" n="85"/>SEcunda quaestio est: vtrum mundo quantum 
+      <lb ed="#V" n="86"/>est de se repugnet quod sit 
+      pro<lb ed="#V" n="87" break="no"/>ducibilis a deo ab eterno. Et videtur quod sic: 
+      <lb ed="#V" n="88"/>quia infinitas repugnat creature.
+    </p>
+            <p xml:id="FrMS88-f25006-d1e124">
+      ¶ Contra 
+      <lb ed="#V" n="89"/>u quia non apparet contradictio. 
+      <lb ed="#V" n="90"/>quatuor rationes 
+      <lb ed="#V" n="91"/>hic introducuntur ab aliquibus.
+    </p>
+            <p xml:id="FrMS88-f25006-d1e133">
+      ¶ Pri 
+      <lb ed="#V" n="92"/>ma est: quia non erit ibi aliquid immediate productum 
+      <lb ed="#V" n="93"/>a deo: quia propagatio eterna: in illa autem multitudine non 
+      <lb ed="#V" n="94"/>est dare aliquid n propagatum: et per consequens deus non creauit 
+      <lb ed="#V" n="95"/>mundum.
+    </p>
+            <p xml:id="FrMS88-f25006-d1e144">
+      ¶ Siecundo sic. deus produxit mundum supernaturaliter: 
+      <lb ed="#V" n="96"/>sed non est dare indiuiduum productum super naturaliter: si mundus 
+      <lb ed="#V" n="97"/>sit eternus.
+    </p>
+            <p xml:id="FrMS88-f25006-d1e152">
+      ¶ Tertio. sol praecedit generationem meam 
+      tem<lb ed="#V" n="98" break="no"/>pore: et sic cuiuslibet alterius: igitur generationes 
+      om<lb ed="#V" n="99" break="no"/>nium non fuerunt ita antique sicut sol.
+    </p>
+            <p xml:id="FrMS88-f25006-d1e159">
+      ¶ Quarto sic: 
+      <lb ed="#V" n="100"/>intelectu mouens est in quolibet instanti tota et praecedit 
+      ordi<lb ed="#V" n="101" break="no"/>ne durationis hanc diem: et per consequens omnes alios dies.
+    </p>
+            <p xml:id="FrMS88-f25006-d1e166">
+      ¶ Ad  
+      <lb ed="#V" n="102"/>primam rationem conceditur quod nullum est inuenire immediate pro 
+      <lb ed="#V" n="103"/>ductum a deo: quia si aliquis fuisset immediate a deo ille 
+      ince<lb ed="#V" n="104" break="no"/>disset generationem: creauit igitur caelum et terram. et homines 
+      <lb ed="#V" n="105"/>et non mediantibus causis secundis creauit omnia. Eodem modo 
+      <lb ed="#V" n="106"/>diceretur quod illa non producuntur supernaturaliter.
+    </p>
+            <p xml:id="FrMS88-f25006-d1e179">
+      ¶ Ad aliud 
+      <lb ed="#V" n="107"/>non est dare hominem quin eum alius praecessit: sed 
+      distri<lb ed="#V" n="108" break="no"/>butio non valet: quia includit incompossibilia: vnde quacumque 
+      <lb ed="#V" n="109"/>generatione signata sol est prior: sed indefinite non eodem 
+      <lb ed="#V" n="110"/>modo intellectus praecedit hanc diem non omnes.
+    </p>
+            <p xml:id="FrMS88-f25006-d1e190">
+      ¶ Arguitur igitur ad 
+      <lb ed="#V" n="111"/>oppositum. Et primo sic: regula eterna est quod mundus est 
+      produ<lb ed="#V" n="112" break="no"/>cibilis: si ergo regula est vera. ergo ab eterno vera: a 
+      volunta<lb ed="#V" n="113" break="no"/>te enim diuina non est: quin mundus sit producibilis 
+      <lb ed="#V" n="114"/>quia per quiditatem inest. ergo sicut pro nunc est producibilis: et 
+      pro<lb ed="#V" n="115" break="no"/>eterno.
+    </p>
+            <p xml:id="FrMS88-f25006-d1e203">
+      ¶ 2o. quod conuenit alicui necessario non conuenit 
+      <lb ed="#V" n="116"/>sibi pro aliquo nunc determinato: sed pro omni.
+    </p>
+            <p xml:id="FrMS88-f25006-d1e209">
+      ¶ Tertio 
+      <lb ed="#V" n="117"/>sic: quia quantitas mundi ab eterno et nunc est eiusdem 
+      ratio<lb ed="#V" n="118" break="no"/>nis et eiusdem praesenti: et per consequens eandem passionem habebit. 
+      </p>
+            <p xml:id="FrMS88-f25006-d1e216">
+               <lb ed="#V" n="119"/>¶ 4o. quia ens prohibitum pro aliquo nunc semper est ens 
+      <lb ed="#V" n="120"/>prohibitum: et tantum valet pro eterno sicut ab eterno. 
+      </p>
+            <p xml:id="FrMS88-f25006-d1e223">
+               <lb ed="#V" n="121"/>¶ Sed inste rationes eque demonstrant quod eternitas 
+      crea<lb ed="#V" n="122" break="no"/>bilis sit creabilis ex tempore: quod est impossibile. 
+      </p>
+            <p xml:id="FrMS88-f25006-d1e230">
+               <lb ed="#V" n="123"/>¶ Sed hoc est difficultas de verbo Aug. Si ignis fuisset 
+      ab<lb ed="#V" n="124" break="no"/>eterno: vel eternus splendor eius fuisset eternus.
+    </p>
+            <p xml:id="FrMS88-f25006-d1e237">
+      ¶ 
+      Di<lb ed="#V" n="125" break="no"/>cit scotus quod loquitur de productione: prout abstrahit 
+      <lb ed="#V" n="126"/>a factione. Idem dicit de vestigio pedis.
+    </p>
+            <p xml:id="FrMS88-f25006-d1e244">
+      ¶ hic 
+      dice<lb ed="#V" n="127" break="no"/>retur quod arguit ex suppositione alicuius impossibilis. Sed 
+      <lb ed="#V" n="128"/>si mundus fuisset ab eterno esset ne continuus 
+      diui<lb ed="#V" n="129" break="no"/>sum totaliter si diuisisset: Dico quod ponens mundum 
+      <lb ed="#V" n="130"/>ab eterno habet dicere quod pars istius motus non potuit esse 
+      <lb ed="#V" n="131"/>ab eterno: sed sumendo indiuiduum vagum motus esset 
+      <lb ed="#V" n="132"/>ab eterno: et ita de diuisione continui.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

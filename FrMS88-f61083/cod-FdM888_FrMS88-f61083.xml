@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f61083"><!-- l4d13q8 -->
+            <head xml:id="FrMS88-f61083-Hd1e108">Quaestio 8</head>
+            <p xml:id="FrMS88-f61083-d1e111">
+               <lb ed="#V" n="70"/>QUarto queritur vtrum partes in 
+      ho<lb ed="#V" n="71" break="no"/> stia sint realiter distincte. 
+      </p>
+            <p xml:id="FrMS88-f61083-d1e118">
+               <lb ed="#V" n="72"/>¶ Et videtur quod sic. hoc patet: quia vna corrupta al 
+      <lb ed="#V" n="73"/>tera remanet: sed quod sint ibi actu patet. quia 
+      <lb ed="#V" n="74"/>vna terminat productionem: et alia mouer 
+      <lb ed="#V" n="75"/>aliam.
+    </p>
+            <p xml:id="FrMS88-f61083-d1e129">
+      ¶ Ex hoc patet quod sunt in actu.
+    </p>
+            <p xml:id="FrMS88-f61083-d1e132">
+      ¶ Sed quomodo sun 
+      <lb ed="#V" n="76"/>ibi in potentia secundum philosophos:
+    </p>
+            <p xml:id="FrMS88-f61083-d1e138">
+      ¶ Dico quod potentia potest 
+      intel<lb ed="#V" n="77" break="no"/>ligi quaedrupliciter. Uno modo prout distinguitur contra actum 
+      operan<lb ed="#V" n="78" break="no"/>di: sicut intellectus possibilis dicitur esse in potentia.
+    </p>
+            <p xml:id="FrMS88-f61083-d1e145">
+      ¶ Secundo modo 
+      <lb ed="#V" n="79"/>prout diuiditur contra actum perficiendi. sicut materia perficitur et 
+      <lb ed="#V" n="80"/>non perficit.
+    </p>
+            <p xml:id="FrMS88-f61083-d1e152">
+      ¶ 3o. prout diditur contra actum existendi. sicut 
+      mun<lb ed="#V" n="81" break="no"/>dus antequam fieret.
+    </p>
+            <p xml:id="FrMS88-f61083-d1e157">
+      ¶ 4o. prout diuiditur contra actum 
+      subsi<lb ed="#V" n="82" break="no"/>stendi in tertio modo dicendi per se. et sic partes continui dicuntur es 
+      <lb ed="#V" n="83"/>in potentia: quia totum continuum est vnum subsistens.
+    </p>
+            <p xml:id="FrMS88-f61083-d1e164">
+      ¶ Di 
+      <lb ed="#V" n="84"/>co igitur quod infinite partes sunt actu in continuo: in actu 
+      <lb ed="#V" n="85"/>dico existendi quia producte sunt: sed non subsistunt. hec 
+      <lb ed="#V" n="86"/>de eucharistia dicta sufficiant. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

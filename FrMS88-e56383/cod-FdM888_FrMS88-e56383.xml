@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="77-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e56383"><!-- l1d20q3 -->
+            <head xml:id="FrMS88-e56383-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-e56383-d1e111">
+      Quaestio. iii. 
+      <lb ed="#V" n="118"/>persone sint in seinuicem. Quod 
+      <lb ed="#V" n="119"/>Tum non. Quia filius exiuit a patre 
+      <lb ed="#V" n="120"/>in Io.
+    </p>
+            <p xml:id="FrMS88-e56383-d1e120">
+      ¶ Contra. Ego in patre: et pater in me est. 
+      <lb ed="#V" n="121"/>hic introducuntur auntuo. 
+      <lb ed="#V" n="122"/>
+      nega<lb ed="#V" n="123" break="no"/>tiue conclusiones. Prima quod ista circumincessio non est 
+      <lb ed="#V" n="124"/>formaliter propter diuine essentie vnitatem. ita quod vna 
+      perso<lb ed="#V" n="125" break="no"/>na sit in alia per essentiam que est in illa que est pars eius 
+      <lb ed="#V" n="126"/>sicut auis est in laqueo per pedem. et ratio huius 
+      conclusio<lb ed="#V" n="127" break="no"/>nis est. quia in patre est totus filius: et totus in verbo pater. 
+      <lb ed="#V" n="128"/>vt dicit Ambrosius in hymno: et propter hoc si per essentiam 
+      <lb ed="#V" n="129"/>vna persona est in alia vniformiter esset persona in 
+      par<lb ed="#V" n="130" break="no"/>sona: sicut essentia in persona: et sic esset formaliter: quod 
+      <lb ed="#V" n="131"/>est falsum.
+    </p>
+            <p xml:id="FrMS88-e56383-d1e146">
+      ¶ 2a conclusio est. quod illa scircumincessio non est 
+      for<lb ed="#V" n="132" break="no"/>maliter per personarum diuinarum identitatem: quia non habent idem 
+      <!--157.xml-->
+      <pb ed="#V" n="77-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tatem nisi in essentia: et tamen sunt in se innuicem setotis.
+    </p>
+            <p xml:id="FrMS88-e56383-d1e159">
+      ¶ Praeterea 
+      <lb ed="#V" n="2"/>inter essentialia non ponitur circumincessio: et tamen ponuntur esse 
+      <lb ed="#V" n="3"/>idem.
+    </p>
+            <p xml:id="FrMS88-e56383-d1e167">
+      ¶ 3a conclusio quod non est formaliter propter diuinarum personarum in 
+      <lb ed="#V" n="4"/>timitatem: quia magis intima sunt essentialia sibinuincem 
+      <lb ed="#V" n="5"/>quam persone. vt videtur. et tamen circumincessio non ponitur in eis.
+    </p>
+            <p xml:id="FrMS88-e56383-d1e174">
+      ¶ Praeterea. 
+      <lb ed="#V" n="6"/>Deus est in omnibus creaturis et econverso. et tamen non ponitur in eis 
+      cir<lb ed="#V" n="7" break="no"/>cumincessio.
+    </p>
+            <p xml:id="FrMS88-e56383-d1e181">
+      ¶ 4a conclusio est. quod ista circumincessio non est 
+      forma<lb ed="#V" n="8" break="no"/>liter per diuinarum personarum mutuam originem: quia dato quod spiritu 
+      <lb ed="#V" n="9"/>sanctus non procederet a filio adhuc non minus esset circumin 
+      <lb ed="#V" n="10"/>cessio in filio: sic nunc est: et tamen non esset origo.
+    </p>
+            <p xml:id="FrMS88-e56383-d1e190">
+      ¶ Praeterea. Ad hoc 
+      <lb ed="#V" n="11"/>quod aliquid sit in alio. oportet quod sit predistinctus ab eo: quia 
+      <lb ed="#V" n="12"/>idem in seipso esse non potest ergo esse isto modo in alio 
+      praesuppo<lb ed="#V" n="13" break="no"/>nit distinctionem fit per origines. ergo etc. 
+      <lb ed="#V" n="14"/>et praemissis ponitur conclusio affirmatiua. quo scilicet vna 
+      persona<lb ed="#V" n="15" break="no"/>Istis est in alia per circumincessionem sic subsistens 
+      in<lb ed="#V" n="16" break="no"/>subsistente realiter distincto per mutuam praesentialitatis  
+      <lb ed="#V" n="17"/>assistentiam: sicut sibinuincem in trinitate.
+    </p>
+            <p xml:id="FrMS88-e56383-d1e208">
+      ¶ Sed hic 
+      <lb ed="#V" n="18"/>sunt quatuor di. Prima si talis modus essendi in repert 
+      <lb ed="#V" n="19"/>tur in creaturis. Dico quod non totaliter: tamen modus quo 
+      <lb ed="#V" n="20"/>tres potentie anime sunt in se innuincem et in vna essentia 
+      ra<lb ed="#V" n="21" break="no"/>dicaliter videtur multum conformis isti modo essendi in. Et istum 
+      <lb ed="#V" n="22"/>modum applicat Aug. ad propositum. 5. de tri. ci i. ibi tamen 
+      <lb ed="#V" n="23"/>non sunt plura subsistentia ideo exitum deficit. Exitum magis acco 
+      <lb ed="#V" n="24"/>modum est modus essendi in duorum corporum in eodem loco 
+      <lb ed="#V" n="25"/>si non distinguerentur essentialiter.
+    </p>
+            <p xml:id="FrMS88-e56383-d1e228">
+      ¶ 2a di. si ad istum modum 
+      <lb ed="#V" n="26"/>requritur consubstantialitas.
+    </p>
+            <p xml:id="FrMS88-e56383-d1e234">
+      ¶ Dico quod dato quod consubstantialitas 
+      requi<lb ed="#V" n="27" break="no"/>ratur. non tamen illa circumincessio est ipsa consubstantialitas: sed 
+      sus<lb ed="#V" n="28" break="no"/>distincte habitudines. tamen bene potest vna ex alia daterduci.
+    </p>
+            <p xml:id="FrMS88-e56383-d1e241">
+      ¶ 3 
+      <lb ed="#V" n="29"/>dist. est. quia videtur quod pater sit in se: quia pater est in filio: filius est in 
+      <lb ed="#V" n="30"/>daere: ergo pater est in se: quia quicquid est in contento est in continente 
+      </p>
+            <p xml:id="FrMS88-e56383-d1e248">
+               <lb ed="#V" n="31"/>¶ Dico quod illa regula communiter accepta non tenet in 
+      relationi<lb ed="#V" n="32" break="no"/>bus equiperantie: quia licet plato sit similis sorti: sortes est similis 
+      <lb ed="#V" n="33"/>platoni: non tamen plato sibi: illa autem inexistentia est relatio 
+      equi<lb ed="#V" n="34" break="no"/>perantie. tamen in relationibus disquperantie sicut in causa et 
+      causa<lb ed="#V" n="35" break="no"/>to patre et filio sequi videtur
+    </p>
+            <p xml:id="FrMS88-e56383-d1e261">
+      ¶ 4a di. si illa relatio communis est posterior 
+      <lb ed="#V" n="36"/>imilitudine et equelitate et identitate.
+    </p>
+            <p xml:id="FrMS88-e56383-d1e266">
+      ¶ Dico quod illa relatio est 
+      <lb ed="#V" n="37"/>communis: et consequitur origines distinguentes. videtur tamen aliis 
+      relatio<lb ed="#V" n="38" break="no"/>nibus communibus posterior. quia alie communes fundantur in 
+      extre<lb ed="#V" n="39" break="no"/>mis vt sunt vnum: sed ista fundatur in extremis: vt sunt 
+      <lb ed="#V" n="40"/>distincta. illa autem qua sunt vnita precedunt ista que 
+      <lb ed="#V" n="41"/>sunt distincta.
+    </p>
+            <p xml:id="FrMS88-e56383-d1e279">
+      ¶ Sed est ne realis vel rationis:
+    </p>
+            <p xml:id="FrMS88-e56383-d1e283">
+      ¶ Dico quod 
+      <lb ed="#V" n="42"/>est realis sicut alie relationes communes scilice. imilitudo et equalitas: et a 
+      <lb ed="#V" n="43"/>idem probatur.
+    </p>
+            <p xml:id="FrMS88-e56383-d1e290">
+      ¶ Dico ergo quod persona non est in persona formaliter. 
+      <lb ed="#V" n="44"/>quia sic filius esset formaliter pater nec virtualiter: nec eminenter 
+      <lb ed="#V" n="45"/>quia tunc vna esset perfectior alia. est ergo inexistenter: 
+      <lb ed="#V" n="46"/>sicut subsistens in subsistente.
+    </p>
+            <p xml:id="FrMS88-e56383-d1e299">
+      ¶ Ad argumentum in oppositum patet 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

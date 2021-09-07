@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f78897"><!-- l4d45q3 -->
+            <head xml:id="FrMS88-f78897-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f78897-d1e111">
+               <lb ed="#V" n="25"/>TErtio quaeritur. vtrum homo resurgat idem numero 
+      <lb ed="#V" n="26"/>quod non Iob. 7.non reuntetur oculus 
+      <lb ed="#V" n="27"/>meus vt videat etc.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e120">
+      ¶ Contra ibidem dicitur 
+      <lb ed="#V" n="28"/>quem visurus sum ego etc. 
+      <lb ed="#V" n="29"/>quatuor 
+      con<lb ed="#V" n="30" break="no"/>hic inducuntur cusiones 
+      </p>
+            <p xml:id="FrMS88-f78897-d1e129">
+               <lb ed="#V" n="31"/>¶ prima est ista: quod homo viuit per totam vitam idem numero simpliciter. 
+      pro<lb ed="#V" n="32" break="no"/>batur: quia in hoc differt permanens et successiuum: quia permanens idem 
+      <lb ed="#V" n="33"/>numero perseuerat: sed homo est huiusmodi. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e138">
+      ¶ 2a conclusio quod non idem numero 
+      to<lb ed="#V" n="34" break="no"/>taliter et equaliter. ista probatur per augmentum: et decrementum. 
+      quandiu<lb ed="#V" n="35" break="no"/>enim est in augmento non fit sine aggeneratione extrinsece naturae 
+      <lb ed="#V" n="36"/>et alimentum conuertitur in substantiam eius et aliquas partes habet quas non 
+      <lb ed="#V" n="37"/>habuit prius. mateam enim alimenti vnitur materiae aliti. materia autem quantum 
+      <lb ed="#V" n="38"/>ad intrinsecas partes intrat essentiam compositi.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e152">
+      ¶ Similiter in 
+      <lb ed="#V" n="39"/>decremento: quod fit continue in augmento quia semper deperditur aliqua 
+      <lb ed="#V" n="40"/>pars naturae et illa non manet.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e159">
+      ¶ 3a conclusio quod non idem totaliter: quia 
+      <lb ed="#V" n="41"/>non cum tota materia quam habuit. Alioquin esset maximus gigas 
+      <lb ed="#V" n="42"/>si totum alimentum conuersum rediret.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e166">
+      ¶ Sed instatur contra istas 
+      <lb ed="#V" n="43"/>onclusiones.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e171">
+      ¶ contra primam. Amota parte totius amouetur totum sicut etiam de 
+      <lb ed="#V" n="44"/>differentia patet in diffinitione. quia si diffiniteo constat ex multis differentiis: 
+      amen<lb ed="#V" n="45" break="no"/>ta vna mouetur totum: sed iste partes sunt de integritate ho 
+      <lb ed="#V" n="46"/>minis parte. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e180">
+      ¶ 2o sic. Tu dicis quod secundum partem non est 
+      <lb ed="#V" n="47"/>idem quod prius igitur secundum quid materiaet idem.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e185">
+      ¶ contra 3am. ponatur quod homo 
+      <lb ed="#V" n="48"/>nutriatur de carnibus hominum toto tempore vite sue. Aug. 
+      de<lb ed="#V" n="49" break="no"/>terminat quod resurgeret cum illo cuius fuerunt et a quonsumuntur 
+      </p>
+            <p xml:id="FrMS88-f78897-d1e193">
+               <lb ed="#V" n="50"/>¶ 4o quia. matusalem vixit multis annis per augmentum et de 
+      <lb ed="#V" n="51"/>crementum videtur quod perdidit omnes partes priores. mirabile. enim esset 
+      <lb ed="#V" n="52"/>quod remanerent aliqua: et quanto plus quis viuit tanto plures 
+      <lb ed="#V" n="53"/>adimuntur.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e204">
+      ¶ Respondeo ad primum dico quod quaedam sunt partes essentiales 
+      <lb ed="#V" n="54"/>et etherogenee: tali parte amota destruitur totum sicut amota 
+      <lb ed="#V" n="55"/>anima vel corpore. sed in homogeneis eiusdem rationis non est sic. et 
+      <lb ed="#V" n="56"/>ita dico quod amotis talibus remanentibus similibus: tinet illud: quia 
+      <lb ed="#V" n="57"/>in qualibet remanet ratio formalis naturae specifice.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e215">
+      ¶ Ad  
+      <lb ed="#V" n="58"/>2m dico quod conclusio alicui secundum partem integralem: potest conuenire 
+      sim<lb ed="#V" n="59" break="no"/>pliciter sicut si tectum domus fiat nouum domus non dicitur esse alia. 
+      </p>
+            <p xml:id="FrMS88-f78897-d1e222">
+               <lb ed="#V" n="60"/>¶ Ad 3m difficile videtur quod totum nouum corpus oportet fieri: sed 
+      <lb ed="#V" n="61"/>idemptitas est quo ad animam.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e229">
+      ¶ Ad 4m: dico lex ciuilis dicit 
+      <lb ed="#V" n="62"/>quod si de naui amouerentur duo postes et addantur alii duo et 
+      <lb ed="#V" n="63"/>sic successiue per additionem omnes primi amoueantur quod 
+      cen<lb ed="#V" n="64" break="no"/>setur eadem nauis. Ita dico in proposito quod possunt consumi omnes 
+      <lb ed="#V" n="65"/>partes: et tunc non haberent vnitatem nisi sicut ista nauis 
+      </p>
+            <p xml:id="FrMS88-f78897-d1e240">
+               <lb ed="#V" n="66"/>¶ Sed hic oc. difficultas. prim est quae erunt ille partes quae resurgent vel prio 
+      <!--460.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>res vel posteriores.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e252">
+      ¶ Dicit secundo quod priores. quia principaliter 
+      <lb ed="#V" n="68"/>a natuam intente.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e257">
+      ¶ 2a di. quia videtur melius quod partes medii 
+      ten<lb ed="#V" n="69" break="no"/>poris resurgant: quia in tempore qui quis meretur tales partes 
+      deser<lb ed="#V" n="70" break="no"/>uiunt. potest dici quod deus principaliter respicit ad illud quod 
+      natura<lb ed="#V" n="71" break="no"/>intendebat.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e266">
+      ¶ 3a difficultas quia melius videtur de illis quae sunt in 
+      mor<lb ed="#V" n="72" break="no"/>te cum corpore. quia ad hoc reliquie sanctorum venerantur quia 
+      re<lb ed="#V" n="73" break="no"/>surgent. ergo iste potius quam partes priores quae non sunt in 
+      se<lb ed="#V" n="74" break="no"/>bulchro.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e275">
+      ¶ Respondeo nescio quid deus faciet. Uitur etiam quod: quia anima 
+      <lb ed="#V" n="75"/>appetit totum quod omnes partes debeant resurgem.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e280">
+      ¶ Dic tamen quod 
+      <lb ed="#V" n="76"/>sufficit corpus proportionatum sibi: nec requiruntur omnes per 
+      <lb ed="#V" n="77"/>tes praehabite.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e287">
+      ¶ Sed in qua etate. Dicitur quod in mensuram 
+      pleni<lb ed="#V" n="78" break="no"/>tudinis etatis christi scilicet ad triginta tres annos et tres menses 
+      <lb ed="#V" n="79"/>vel. 33. annorum secundum Ieroium.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e295">
+      ¶ 5a di. si omnes resurgent equales 
+      </p>
+            <p xml:id="FrMS88-f78897-d1e298">
+               <lb ed="#V" n="80"/>¶ Dicitur quod vnus maior et alter minor: tamen si aliquins 
+      fue<lb ed="#V" n="81" break="no"/>rit nimis peruus vel nimis magnus reducetur ad debitam 
+      <lb ed="#V" n="82"/>formam in quantitate.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e307">
+      ¶ Alia di. de qualitatibus.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e310">
+      ¶ Dicitur quod secundum 
+      <lb ed="#V" n="83"/>diunsas complexiones vnus albus et alius niger semota tamen omni de 
+      <lb ed="#V" n="84"/>formitate.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e317">
+      ¶ Alia di. de cicatricibus. Dicit aug. quod ille quas 
+      <lb ed="#V" n="85"/>scti passi sunt pro christo remanebunt. alie autem ni: nulla tamen 
+      cica<lb ed="#V" n="86" break="no"/>rix remanens praestabit electis deformaem: immo erunt ad geriam 
+      </p>
+            <p xml:id="FrMS88-f78897-d1e324">
+               <lb ed="#V" n="87"/>¶ De hora dicitur ab aliquibus quod media nocte.
+    </p>
+            <p xml:id="FrMS88-f78897-d1e330">
+      ¶ Sed quae die. 
+      <lb ed="#V" n="88"/>Dicunt aliqui quod die diunico: sed de hoc non habetur expraesse in scriptura.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

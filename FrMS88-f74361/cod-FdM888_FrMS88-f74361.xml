@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f74361"><!-- l4d35q1 -->
+            <head xml:id="FrMS88-f74361-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f74361-d1e111">
+               <lb ed="#V" n="85"/>Hic etiam est notandum etc. 
+      <lb ed="#V" n="86"/>Hic incipit distinctio 35. Circa quam 
+      <lb ed="#V" n="87"/>queritur. vtrum diuortium 
+      <lb ed="#V" n="88"/>sit illicitum. Quod non. quia fuit concessum in veteri 
+      <lb ed="#V" n="89"/>lege vt patet. ergo non est illicitum.
+    </p>
+            <p xml:id="FrMS88-f74361-d1e124">
+      ¶ contra. quia christus 
+      <lb ed="#V" n="90"/>prohibuit: vt patet math. 19o. dicens. quos 
+      <lb ed="#V" n="91"/>deus coniunxit homo non separet. 
+      <lb ed="#V" n="92"/>veritas vna: quod fuit permissum in veteri testamento. in 
+      <lb ed="#V" n="93"/>hic est nouo autem prohibitu. vnde apostolus prima corin. 7o. pre 
+      <lb ed="#V" n="94"/>cipio. non ego: sed dominus vxorem a viro non discedere.
+    </p>
+            <p xml:id="FrMS88-f74361-d1e137">
+      ¶ Sed 
+      <lb ed="#V" n="95"/>dubium est vtrum fuerit licitum: quia permissum. Aliquo dicunt quod sic. 
+      <lb ed="#V" n="96"/>Alii dicunt rationabilius quod non est ita dispensabile sicut biga 
+      <lb ed="#V" n="97"/>mia.
+    </p>
+            <p xml:id="FrMS88-f74361-d1e146">
+      ¶ Unde contra primas regulas actuum moralium videtur 
+      <lb ed="#V" n="98"/>esse quod est bonum prolis: sed tamen ad vitandum maius malum hoc 
+      <lb ed="#V" n="99"/>permissum fuit et mortaliter peccabant.
+    </p>
+            <p xml:id="FrMS88-f74361-d1e154">
+      ¶ Notandum autem quod 
+      di<lb ed="#V" n="100" break="no"/>uortium potest 4r intelligi. primo quantum ad vinculum. et sic non potest 
+      <lb ed="#V" n="101"/>fieri. si matrimonium fuit legitimum.
+    </p>
+            <p xml:id="FrMS88-f74361-d1e161">
+      ¶ 2o quantum ad thorum et sic 
+      <lb ed="#V" n="102"/>potest fieri in casu.
+    </p>
+            <p xml:id="FrMS88-f74361-d1e166">
+      ¶ 3o sumitur quantum ad effectum scilicet quantum 
+      <lb ed="#V" n="103"/>ad prolem genitam. quamuis enim non fuerit matrimonium legitimum: quia 
+      <lb ed="#V" n="104"/>tamen est ab ecclesia dimissum et toleratur et non illegitimatur pro 
+      <lb ed="#V" n="105"/>les.
+    </p>
+            <p xml:id="FrMS88-f74361-d1e175">
+      ¶ 4o quantum ad cohabitationem: sicut si incurratur lepra 
+      <lb ed="#V" n="106"/>videtur rationabiliter quod possit separari: licet decretalis consulat con 
+      <lb ed="#V" n="107"/>trarium. vnde christus solam causam fornicationis exemit. fecit in 
+      <lb ed="#V" n="108"/>quit eam mechari mathei. 3o.
+    </p>
+            <p xml:id="FrMS88-f74361-d1e184">
+      ¶ hic oc. difficultas vtrum tempore 
+      <lb ed="#V" n="109"/>menstrui vir possit petere debitum.
+    </p>
+            <p xml:id="FrMS88-f74361-d1e189">
+      ¶ Dicitur quod peccat pe 
+      <lb ed="#V" n="110"/>tendo vel reddendo propter bonum prolis ne nascantur 
+      modo<lb ed="#V" n="111" break="no"/>stra.
+    </p>
+            <p xml:id="FrMS88-f74361-d1e197">
+      ¶ Sed de lepra ecclesia determinauit quod tenetur 
+      <lb ed="#V" n="112"/>reddere debitum. melius. enim est quod proles leprosa generetur 
+      <lb ed="#V" n="113"/>quam nulla.
+    </p>
+            <p xml:id="FrMS88-f74361-d1e204">
+      ¶ Sed si votis emissis generetur proles.
+    </p>
+            <p xml:id="FrMS88-f74361-d1e207">
+      ¶ Dicitur quod 
+      <lb ed="#V" n="114"/>legitima est vere proles. et hoc quia semper manet matrimo 
+      <lb ed="#V" n="115"/>nium et vinculum legitimum inter eos. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

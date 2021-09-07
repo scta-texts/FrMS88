@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="31-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e22140"><!-- l1d4q5 -->
+            <head xml:id="FrMS88-e22140-Hd1e108">Quaestio 5</head>
+            <p xml:id="FrMS88-e22140-d1e111">
+      Quaestio 
+      <lb ed="#V" n="49"/>generatio vniuoca sit in divinis 
+      <lb ed="#V" n="50"/>Tum Quod non. in generatione vniuoca 
+      <lb ed="#V" n="51"/>producens et productum sunt equalis perfectionis: sed 
+      <lb ed="#V" n="52"/>der non est in proposito. quia pater est maior filio: licet 
+      <lb ed="#V" n="53"/>filius non fit minor patre. secundum hylarium 
+      </p>
+            <p xml:id="FrMS88-e22140-d1e124">
+               <lb ed="#V" n="54"/>¶ Contra. idem hyla. 7. de tri. dicit. de generatione diuina. 
+      <lb ed="#V" n="55"/>habere hoc solum sacramentum natiuitatis: vt nomen et naturam retine 
+      <lb ed="#V" n="56"/>at: quod est proprium vniuocationi.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e133">
+      ¶ Circa istam quaestionem prio 
+      <lb ed="#V" n="57"/>videndum est. quid sit vniuoca productio. 2o si est in diuinis. 
+      <lb ed="#V" n="58"/>ad primum dicunt aliqui. quod vniuoca 
+      productio<lb ed="#V" n="59" break="no"/>Quantu est quando producens et productum indistincte 
+      <lb ed="#V" n="60"/>conueniunt in vna ratione formali. quia vniuoca sunt: 
+      quo<lb ed="#V" n="61" break="no"/>rum nomen est commune: et ratio substantie est eadem.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e146">
+      ¶ Contra. deus et 
+      <lb ed="#V" n="62"/>creatura conueniunt in aliqua formali ratione. vt. supra in pro 
+      <lb ed="#V" n="63"/>logo fuit declaratum. constat autem quod deus respectu alici 
+      <lb ed="#V" n="64"/>lus creature non est causa vniuoca.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e156">
+      ¶ Praeterea caelum et sol et 
+      cor<lb ed="#V" n="65" break="no"/>pora superiora conueniunt non solum in vna ratione formali 
+      <lb ed="#V" n="66"/>licet entis. sed in vna ratione generis. quia generis substantie sunt. et tamen hoc 
+      <!--65.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>non obstante dicuntur causare equoce inferiorum. Ideo dicunt alii 
+      <lb ed="#V" n="68"/>quod generatio vniuoca est vbi principium et terminus sunt vnius rationis 
+      <lb ed="#V" n="69"/>specifice. sicut productio caloris ab igne est vniuoca: et 
+      <lb ed="#V" n="70"/>non productio caloris a sole vel a motu.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e176">
+      ¶ Contra hoc 
+      <lb ed="#V" n="71"/>arguo quadrupliciter. Primo sic. omnes concedunt generationem vni 
+      <lb ed="#V" n="72"/>uocaum esse in diuinis. et tamen non omnes ponunt principium et terminum 
+      <lb ed="#V" n="73"/>esse eiusdem rationis formalis. Nam multi ponunt relationem esse 
+      <lb ed="#V" n="74"/>principium. et essentiam terminum. 2o sic. secundum omnes: generatio hominis est 
+      <lb ed="#V" n="75"/>vniuoca. et tamen principium et terminus non videntur esse eiusdem rationis 
+      <lb ed="#V" n="76"/>formalis. Nam principium in generatione videtur esse vis quaedam: siue virtus 
+      <lb ed="#V" n="77"/>in semine: terminus autem est ipsa anima. 3o sic. nam in aliis 
+      <lb ed="#V" n="78"/>ab homine potentia generatiua ponitur principium formale in generatioe. 
+      <lb ed="#V" n="79"/>constat autem quod ipsa in multis non est terminus formalis: sicut 
+      <lb ed="#V" n="80"/>asino: immo impa sensitiua non vegetatiua. 4o sic. 
+      vbicun<lb ed="#V" n="81" break="no"/>que est terminus et principium eiusdem rationis. non potest esse vel oriri 
+      re<lb ed="#V" n="82" break="no"/>latio nisi eiusdem rationis. si ergo principium et terminus sunt omnino 
+      eius<lb ed="#V" n="83" break="no"/>dem rationis: non poterit inter ea oriri relatio disquiparantie 
+      <lb ed="#V" n="84"/>cuiusmodi est generatio actiua et passiua.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e209">
+      ¶ Probo autem quod 
+      <lb ed="#V" n="85"/>latio disquiparantie non possit esse inter illa extrema quae sunt 
+      <lb ed="#V" n="86"/>eiusdem ronis omnino. inter extrema quae sunt vnum: vt sic: non 
+      <lb ed="#V" n="87"/>potest esse difformitas. extrema autem eiusdem rationis: vt sic. fum 
+      <lb ed="#V" n="88"/>dantur super vnum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e220">
+      ¶ Item omnis relatio quae est inter 
+      extrema<lb ed="#V" n="89" break="no"/>eiusdem rationis. vt sic. fundatur super vnum. sed super vnum. vt sic. 
+      <lb ed="#V" n="90"/>nulla potest esse difformitas. ergo relinquitur quod nec relatio 
+      disqui<lb ed="#V" n="91" break="no"/>parantie. cuiusmodi sunt generatio actiua et passiua.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e229">
+      ¶ 
+      Di<lb ed="#V" n="92" break="no"/>co tamen cum scoto. quod tunc est generatio vniuoca quando generans et 
+      <lb ed="#V" n="93"/>generatum habent eandem naturam specificam. dato quod principium productiuum 
+      <lb ed="#V" n="94"/>differat in ratione formali a termino producto. sicut patet in 
+      <lb ed="#V" n="95"/>beata virgine.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e240">
+      ¶ Sed tamen hoc est sciendum. quod aliqua generatio est 
+      <lb ed="#V" n="96"/>vniuoca quae habet principium formale: quod est eiusde rationis cum 
+      termi<lb ed="#V" n="97" break="no"/>no. sicut in productione caloris ab igne. Alia est: vbi solum habet. 
+      <lb ed="#V" n="98"/>eandem naturam specificam. Prima est maior. quia quicquid habet secunda 
+      <lb ed="#V" n="99"/>habet prima. non tamen econverso.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e252">
+      ¶ Confirmatur. quia quandocumque est vniuoca 
+      <lb ed="#V" n="100"/>tio inter illa quae principaliter respicit generatio. ibi est verior 
+      <lb ed="#V" n="101"/>vniuocatio in generatione quam vbi non. sed generatio 
+      principa<lb ed="#V" n="102" break="no"/>lius respicit fundamentum et terminum. ergo ibi erit 
+      maior<lb ed="#V" n="103" break="no"/>vniuocatio.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e263">
+      ¶ Secundo est sciendum quod posset esse dubium: dictum 
+      <lb ed="#V" n="104"/>est enim quod vbi est principium eiusdem rationis et terminus: non potest esse 
+      <lb ed="#V" n="105"/>relatio disquiperantie. ¶¶ Sed contra. quia calor ignis est eiusdem 
+      <lb ed="#V" n="106"/>rationis cum calore aque. vnus tamen est producens et alius 
+      produ<lb ed="#V" n="107" break="no"/>ctus.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e274">
+      ¶ Ideo notandum quod in quacumque natura est relatio producetis et 
+      <lb ed="#V" n="108"/>producti. in illa oportet distinguere rationem productiui et 
+      produ<lb ed="#V" n="109" break="no"/>cibilis. hoc autem declaro sic. non magis distinguitur ratio 
+      <lb ed="#V" n="110"/>actiui et passiui quam ratio productiui et producibilis. sed quando 
+      ali<lb ed="#V" n="111" break="no"/>qua res est actiua et passiua. ratio actiuitatis distinguitur 
+      <lb ed="#V" n="112"/>a ratione passiuitatis. ergo eodem modo ratio productiui distinguitur 
+      <lb ed="#V" n="113"/>a ratione producibilis.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e290">
+      ¶ Confirmatur. quandocumque due rationes sio 
+      <lb ed="#V" n="114"/>se habent quod vna ex ratione sua formali repugnat alicui: cui 
+      <lb ed="#V" n="115"/>alia no repugnat: ille rationes distinguuntur ex natura rei: sed 
+      <lb ed="#V" n="116"/>producibilitas repugnat deo. productiuitas autem non. ergo etc. 
+      <lb ed="#V" n="117"/>secundum scilicet vtrum in diuinis sit genera 
+      <lb ed="#V" n="118"/>Nunc circa tio vniuoca est insistendum.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e303">
+      ¶ Dicitur 
+      <lb ed="#V" n="119"/>communiter ab omnibus quod sic: et hoc videtur h vla. ex intentione 
+      osten<lb ed="#V" n="120" break="no"/>dere. 5. li. de tri.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e310">
+      ¶ Confirmatur autem quattuor rationibus. 
+      <lb ed="#V" n="121"/>Primo sic. vbicumque enim producens et productum habent naturam 
+      ean<lb ed="#V" n="122" break="no"/>dem specificam vel quasi specificam. productio inter illa est 
+      <lb ed="#V" n="123"/>vniuoca. Et hoc patet superius ex dictis de 
+      vniuocatio<lb ed="#V" n="124" break="no"/>ne productionis. sed ita est in divinis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e322">
+      ¶ 2o sic. 
+      vbi<lb ed="#V" n="125" break="no"/>cumque principium productiuum et formalis terminus sunt eiusdem 
+      <lb ed="#V" n="126"/>rationis. ibi est productio vniuoca: ita est in diuinis. Nam 
+      <lb ed="#V" n="127"/>essentia quae ponitur formalis terminus posita est superius 
+      <lb ed="#V" n="128"/>esse principium productiuum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e333">
+      ¶ 3o sic. vbicumque est 
+      produ<lb ed="#V" n="129" break="no"/>ctio equoca. semper productum est imperfectius 
+      producene<lb ed="#V" n="130" break="no"/>te. nam causa equiuoca totalis semper est nobilior et 
+      perfe<lb ed="#V" n="131" break="no"/>ctior suo effectu: sed producens in diuinis non est per 
+      <lb ed="#V" n="132"/>fectius: nec productu est imperfectius: ergo etc.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e344">
+      ¶ 4o sic. 
+      <!--66.xml-->
+      <pb ed="#V" n="32-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>Omnis causa precise equiuoca est defectuose fecunditatis. 
+      <lb ed="#V" n="2"/>quia non potest equalis perfectionis sibi productum generare: vel 
+      <lb ed="#V" n="3"/>causare: sed certum est quod in diuinis nullus defectus fecundi 
+      <lb ed="#V" n="4"/>tatis est. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e362">
+      ¶ Sed instatur quadrupliciter. Primo sic 
+      <lb ed="#V" n="5"/>inter vniuoca vt vniuoca sunt necessario est distinctio 
+      <lb ed="#V" n="6"/>sed inter patrem et filium: vt vniuoca sunt: non potest esse 
+      disti<lb ed="#V" n="7" break="no"/>ctio: quia vt vniuoca sunt: sunt vnus deus sine distinctio 
+      <lb ed="#V" n="8"/>ne.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e373">
+      ¶ 2o sic. que sunt vltimate vniuoca non sunt 
+      forma<lb ed="#V" n="9" break="no"/>liter et quiditatiue distincta. hoc patet in sorte et platone. quod 
+      <lb ed="#V" n="10"/>formaliter et quiditatiue non distinguuntur. sed pater et filius 
+      for<lb ed="#V" n="11" break="no"/>maliter et quidditatiue distinguuntur: ergo inter eos non est 
+      <lb ed="#V" n="12"/>summa vniuocatio.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e384">
+      ¶ Tertio sic. Nullum vniuocum 
+      <lb ed="#V" n="13"/>vt vniuocum potest plura producere pluribus 
+      produ<lb ed="#V" n="14" break="no"/>ctionibus alterius et alterius rationis: hoc patet. quia sunt eius 
+      <lb ed="#V" n="15"/>dem rationis: et per consequens non erit inter ea relatio disquiparem 
+      <lb ed="#V" n="16"/>tie: sed pater generat et spirat. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e396">
+      ¶ 4o sic. impossibile 
+      <lb ed="#V" n="17"/>est quod per distincta principia formaliter aliquod agens 
+      vni<lb ed="#V" n="18" break="no"/>uoce producat plura. quia ex quo illa non sunt vniuoca 
+      <lb ed="#V" n="19"/>inter se. nec in 3o sed per aliud et aliud principium produ 
+      <lb ed="#V" n="20"/>citur filius et spiritussanctus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e407">
+      ¶ Ad primum dico 
+      <lb ed="#V" n="21"/>quod oportet vniuoca distingui: non tamen inquantum vniuoca sunt 
+      <lb ed="#V" n="22"/>quia sortes et plato distinguuntur: non inquantum homines 
+      <lb ed="#V" n="23"/>sic dico in proposito. quod pater et filius distinguuntur per 
+      re<lb ed="#V" n="24" break="no"/>lationes. non tamen inquantum vniuoca.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e418">
+      ¶ Ad 2m dico quod si 
+      <lb ed="#V" n="25"/>ponerentur indiuidua distingui formaliter: faciliter 
+      eua<lb ed="#V" n="26" break="no"/>derem. Sed hoc iam non dico. vt enim mihi apparet. 
+      perso<lb ed="#V" n="27" break="no"/>ne diuine magis formaliter distinguuntur quam duo 
+      indi<lb ed="#V" n="28" break="no"/>uidua eiusdem speciei.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e429">
+      ¶ Ad argumentum dico quod 
+      ma<lb ed="#V" n="29" break="no"/>ior et minor vniuocatio non attenditur penes maiorem 
+      <lb ed="#V" n="30"/>vel minorem distinctionem vniuocatorum: sed penes ma 
+      <lb ed="#V" n="31"/>iorem vel minorem distinctionem siue identitatem naturae: in 
+      <lb ed="#V" n="32"/>qua conueniunt vel vniuocantur: et quia est in diuinis ma 
+      <lb ed="#V" n="33"/>xima vnitas nature. quia scilicet numeralis: hinc est quod 
+      maxi<lb ed="#V" n="34" break="no"/>ma vniuocatio inter omnes vniuocationes est ista vniuo 
+      <lb ed="#V" n="35"/>catio.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e447">
+      ¶ Ad tertium dico: concedendo quod vniuocum vt 
+      <lb ed="#V" n="36"/>sic non potest plura producere pluribus productionibus 
+      <lb ed="#V" n="37"/>et alterius rationis. sed quando productiua principia 
+      <lb ed="#V" n="38"/>particularia variantur stante vniuoco vniversali. cuius natura 
+      commun<lb ed="#V" n="39" break="no"/>catur. tunc non est verum. quia ratione principiorum par 
+      <lb ed="#V" n="40"/>ticularium variatorum: poterunt variari 
+      productio<lb ed="#V" n="41" break="no"/>nes. hic modus non inuenitur in creaturis: forte de hoc 
+      <lb ed="#V" n="42"/>dicam in materia de process. spiritussancti. In diuinis autem 
+      inue<lb ed="#V" n="43" break="no"/>nitur: quia eadem natura communicatur. et eadem natura est concurrens partia 
+      <lb ed="#V" n="44"/>liter: vt causa vniuersalis: particularia autem variantur scilicet 
+      intelle<lb ed="#V" n="45" break="no"/>ctus et voluntas: ratione cuius varietatis: sequitur 
+      va<lb ed="#V" n="46" break="no"/>rietas productionum. Ad 4m dico. quod si illa duo principia 
+      <lb ed="#V" n="47"/>vniversale et particulare eidem supposito conuenirent tunc vniuoce 
+      <lb ed="#V" n="48"/>producerent. sicut si sol haberet vim solis et hominis 
+      vniuo<lb ed="#V" n="49" break="no"/>ce produceret hominem: in creaturis autem non 
+      innueni<lb ed="#V" n="50" break="no"/>tur cursus causarum vniversalis et particularis in eodem 
+      suppo<lb ed="#V" n="51" break="no"/>sito: sed in eodem supposito patris est vtrumque principium 
+      <lb ed="#V" n="52"/>productiuum scilicet essentia et intellectus 
+      <lb ed="#V" n="53"/>adhuc remanet difficultas: quia non videtur 
+      <lb ed="#V" n="54"/>Sed hic intelligibile quod summa vniuocatio sit ibi 
+      <lb ed="#V" n="55"/>vbi principium et terminus sunt alterius rationis: sicut est in 
+      pro<lb ed="#V" n="56" break="no"/>posito: quia memoria est principium et essentia terminus. 
+      Di<lb ed="#V" n="57" break="no"/>co quod ad vniuoncationem perfectam sufficit in principio prin 
+      <lb ed="#V" n="58"/>cipali conuenientia cum termino: sicut est hoc: quia essentia est 
+      prin<lb ed="#V" n="59" break="no"/>principale: et ipsa est omnino eadem cum termino: quae etiam est 
+      essen<lb ed="#V" n="60" break="no"/>tia precise.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e504">
+      ¶ Contra. primo. quia tunc non erit tanta vuiuocatio 
+      <lb ed="#V" n="61"/>sicut in creaturis. quia totale principium caloris est calor.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e510">
+      ¶ 2o 
+      <lb ed="#V" n="62"/>quia in creaturis videtur quod a particulari causa sumatur 
+      vniuo<lb ed="#V" n="63" break="no"/>catio. cum ergo hoc hic non sit: non est vniuocatio.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e517">
+      ¶ Ad  
+      <lb ed="#V" n="64"/>primum dico quod falsum supponit scilicet quod principium totale in 
+      <lb ed="#V" n="65"/>creaturis sit eiusdem rationis cum termino non enim aliqua causa parti 
+      <lb ed="#V" n="66"/>cularis et creata est que sit tota causa sui effectus: quin ibi 
+      <!--66.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>concurrat saltem deus.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e533">
+      ¶ Ad 2m dico quod si causa vniversalis assimila 
+      <lb ed="#V" n="68"/>ret sibi effectum. esset maior vniuocatio quam quod particularis 
+      <lb ed="#V" n="69"/>assimilet sibi et non vniuersalis. ex defectu enim fecuditatis est in 
+      <lb ed="#V" n="70"/>creaturis: quod causa vniversalis non sibi assimilet productum. sed in 
+      diui<lb ed="#V" n="71" break="no"/>nis est ex plenitudine perfectionis. et ideo est maior 
+      vniuo<lb ed="#V" n="72" break="no"/>catio. Nam si sol et asinus producerent solem: maior vniuo 
+      <lb ed="#V" n="73"/>catio esset quam quando producunt asinum.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e549">
+      ¶ Sed dices. quod in 
+      crea<lb ed="#V" n="74" break="no"/>turis inuenitur vel potest inueniri maior vniuocatio. Primo 
+      <lb ed="#V" n="75"/>quia lumen lune a lumine solis causatum est totaliter: et est eiusdem 
+      <lb ed="#V" n="76"/>rationis. ergo etc. 2o quia si voluntas diuina causaret aliam volun 
+      <lb ed="#V" n="77"/>tatem: cum voluntas sit totalis causa effectuum ad extra tunc esset 
+      <lb ed="#V" n="78"/>maior vniuocatio. quia esset identitas rationis formalis in 
+      to<lb ed="#V" n="79" break="no"/>tali principio productiuo: et in termino formali.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e565">
+      ¶ Ad primum 
+      di<lb ed="#V" n="80" break="no"/>co sicut dixi. quod nec lumen a lumine: nec aliquod creatum ab 
+      <lb ed="#V" n="81"/>aliquo creato causatur totaliter: quin necessario ibi 
+      concur<lb ed="#V" n="82" break="no"/>rat saltem voluntas diuina.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e574">
+      ¶ Ad 2m dico quod si voluntas 
+      <lb ed="#V" n="83"/>esset accidens separabile: tunc esset difficile: tamen dico quod 
+      vo<lb ed="#V" n="84" break="no"/>luntas est per se passio angeli vel anime rationalis. et vniversaliter omnis 
+      natura<lb ed="#V" n="85" break="no"/>spiritualis. nulla autem per se passio potest esse terminus primus 
+      <lb ed="#V" n="86"/>alicuius factionis. sed subiectum. Unde dico quod creatio illa 
+      pri<lb ed="#V" n="87" break="no"/>mo terminatur ad essentiam angeli vel anime.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e588">
+      ¶ 2a difficultas potest es 
+      <lb ed="#V" n="88"/>se de ista vniuocatione. Nam si sit perfecta conditio causalitatis  
+      <lb ed="#V" n="89"/>quod vniuoce producat: tunc causa magis vniuoce producens esset 
+      <lb ed="#V" n="90"/>magis perfecta: cuius contrarium nos videmus in creaturis: 
+      <lb ed="#V" n="91"/>immo semper oppositum.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e599">
+      ¶ Dico quod perfectissima causalitas non 
+      <lb ed="#V" n="92"/>est perfectissima productio. sicut nec perfectissimus homo est: per 
+      <lb ed="#V" n="93"/>fectissima substantia. licet autem causalitas sit perfectissima sine vniue 
+      <lb ed="#V" n="94"/>catione: non tamen productio. Et ratio potest esse: quia causalitas perfectior 
+      <lb ed="#V" n="95"/>idetur praecise ipsum causans vel producens respicere. productio autem 
+      <lb ed="#V" n="96"/>tam principium quam terminum. Ideo cum imperfectione termini stabit 
+      perfe<lb ed="#V" n="97" break="no"/>ctissima causalitas. non tamen stabit perfectissima productio. sicut 
+      <lb ed="#V" n="98"/>in diuinis.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e617">
+      ¶ 3a difficultas est quia non videtur quod ista productio sit 
+      vni<lb ed="#V" n="99" break="no"/>uoca: quia natura ratione cuius deberet esse vniuoca: non videtur 
+      di<lb ed="#V" n="100" break="no"/>ci vniuoce de generante et generato: quia sic esset species: sed solum 
+      <lb ed="#V" n="101"/>identice dicitur et non formaliter.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e626">
+      ¶ Dico quod natuam diuina dicitur 
+      vniuo<lb ed="#V" n="102" break="no"/>ce de generante et generato: et cum hoc etiam dicitur identice: et propter istam 
+      <lb ed="#V" n="103"/>identicam praedicationem forte amouetur ab ea quod ipsa non sit 
+      <lb ed="#V" n="104"/>species.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e635">
+      ¶ 4a difficultas. est si deus generat deum vniuoce. vtrum 
+      aliu<lb ed="#V" n="105" break="no"/>deum vel se. ista enim sunt immediate contraria scilicet se vel alium. ergo 
+      ve<lb ed="#V" n="106" break="no"/>se deum vel alium deum: non se deum. quia nihil seipsum generat. nec 
+      <lb ed="#V" n="107"/>alium deum. quia tunc essent duo dii.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e644">
+      ¶ Dico quod locus a contrariis 
+      <lb ed="#V" n="108"/>tenet simpliciter. et ideo concedo quod si genuit: genuit se vel alium 
+      </p>
+            <p xml:id="FrMS88-e22140-d1e650">
+               <lb ed="#V" n="109"/>¶ Sed dico tamen quod locus a contrariis non. tenet si sumatur non 
+      sim<lb ed="#V" n="110" break="no"/>pliciter: sed cum determinato praedicato.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e657">
+      ¶ Exiptum. homo 
+      pro<lb ed="#V" n="111" break="no"/>ducit: sequitur vel quod se: vel aliud. Sed sic dicendo homo 
+      produ<lb ed="#V" n="112" break="no"/>cit. non sequitur vel se hominem. vel alium hominem: quia potest producere 
+      <lb ed="#V" n="113"/>aliquid aliud ab homine. Eodem modo in proposito. deus 
+      pro<lb ed="#V" n="114" break="no"/>ducit. ergo se vel alium.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e668">
+      ¶ Sed contra videtur quod locus teneat cum 
+      <lb ed="#V" n="115"/>constantia subiecti.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e673">
+      ¶ Exemplum. homo producit hominem. vnde sequitur 
+      <lb ed="#V" n="116"/>aut se vel alium. in proposito autem additur. constantia subiecti. quia 
+      <lb ed="#V" n="117"/>dico quod deus producit deum.
+    </p>
+            <p xml:id="FrMS88-e22140-d1e680">
+      ¶ Dico secundum Aug. concedendo 
+      <lb ed="#V" n="118"/>prnsentiam. quod genuit se deum et alium deum. Genuit quidem 
+      <lb ed="#V" n="119"/>se deum: hoc est indistinctum in deitate ab illo. sed 
+      distin<lb ed="#V" n="120" break="no"/>ctum in persona. Genuitlent alium scilicet in persona. qui etiam est 
+      <lb ed="#V" n="121"/>deus. hoc et videtur sufficere quantum ad rem. licet forte in 
+      nol<lb ed="#V" n="122" break="no"/>mine sit difficultas
+    </p>
+            <p xml:id="FrMS88-e22140-d1e693">
+      ¶ Ad auctoritatem in principio dico. quod hilarius 
+      <lb ed="#V" n="123"/>et Augu. accipiunt maioritatem in diuinis solum 
+      pro<lb ed="#V" n="124" break="no"/>principalitate.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

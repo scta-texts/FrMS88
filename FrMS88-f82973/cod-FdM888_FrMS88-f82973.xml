@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f82973"><!-- l4d48q4 -->
+            <head xml:id="FrMS88-f82973-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f82973-d1e111">
+               <lb ed="#V" n="6"/>QUarto queritur. vtrum mundus sit 
+      <lb ed="#V" n="7"/>pariturus per ignem.
+    </p>
+            <p xml:id="FrMS88-f82973-d1e118">
+               <lb ed="#V" n="8"/>hic est veritas determinata: quod mun 
+      <lb ed="#V" n="9" break="no"/>dus debet iudicari per ignem: sicut se 
+      <lb ed="#V" n="10"/>mel fuit per aquam: tunc autem non fuerunt omnia 
+      con<lb ed="#V" n="11" break="no"/>sumpta: quia non pisces: sed illo igne omnia consumentur non attin 
+      <lb ed="#V" n="12"/>get autem nisi ad tria elementa. Comburet enim totum aerem 
+      cali<lb ed="#V" n="13" break="no"/>ginosum: in quo fuerunt facta peccata: vsque quo aquae 
+      di<lb ed="#V" n="14" break="no"/>luuii ascenderunt: et totam superficiem terre: similiter mare quantum ad 
+      <lb ed="#V" n="15"/>aliquas partes. Sed videtur consonum verbo scripture: quod totus mum 
+      <lb ed="#V" n="16"/>dus debeat comburi: dicitur enim in euangelio. caelum et terra transi 
+      <lb ed="#V" n="17"/>dunt etc. Et in apoc. Uidi caelum nouum et terram nouam. primum 
+      <lb ed="#V" n="18"/>enim caelum iam non est nisi sanctialiter exponerent auctor 
+      <lb ed="#V" n="19"/>tates. ita videtur Aug. dicere. 2o. de ciui. dei. exponit quod 
+      quan<lb ed="#V" n="20" break="no"/>ad qualitatem: quam nunc habent transibunt. non autem quantum ad 
+      <lb ed="#V" n="21"/>substantiam. immo per essentiam sine fine subsistent. Illud quod 
+      <lb ed="#V" n="22"/>scribitur. 2a. petri. 3o. Celi quae nunc sunt et terra eodem verbo 
+      <lb ed="#V" n="23"/>repositi sunt igni reseruati in diem iudicii. Et infra. Ad  
+      <lb ed="#V" n="24"/>ueniet dies divuni sicut fur in quo celi magno impetu transi 
+      <lb ed="#V" n="25"/>bunt. Elementa enim ignis calore soluentur et terra et ea quae in 
+      <lb ed="#V" n="26"/>ea sunt omnia opera exurentur. Et infra. per quem celi ardentes 
+      <lb ed="#V" n="27"/>soluentur et elementa ignis ardore tabescent. Nouos enim 
+      <lb ed="#V" n="28"/>celos. et terram nouam et promissa illius expectantes. hoc 
+      to<lb ed="#V" n="29" break="no"/>tum exponunt de celo aereo.
+    </p>
+            <p xml:id="FrMS88-f82973-d1e168">
+      ¶ Ad istud dicit Aug. quod 
+      <lb ed="#V" n="30"/>est figura: non veritas. Ad auctorium. Ida in apocl. dicitur quod 
+      <lb ed="#V" n="31"/>erit nouum secundum qualitatem: non secundum essentiam. Et rationem reddit 
+      <lb ed="#V" n="32"/>Augus. quia sicut dicitur in gen. Uidit deus ea que fecerat et 
+      <lb ed="#V" n="33"/>erant valde bona. ideo non est conueniens quod quantum ad 
+      <lb ed="#V" n="34"/>substantiam comburantur et consumantur.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

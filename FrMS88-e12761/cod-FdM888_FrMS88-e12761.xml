@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e12761"><!-- l1d2q7 -->
+            <head xml:id="FrMS88-e12761-Hd1e108">Quaestio 7</head>
+            <p xml:id="FrMS88-e12761-d1e111">
+      Quaestio. vii. 
+      <lb ed="#V" n="11"/>infinitas sit de ratione 
+      forma<lb ed="#V" n="12" break="no"/>Tum lin deitatis. 
+      <lb ed="#V" n="13"/>ostendam quod in deo non est 
+      <lb ed="#V" n="14"/>hic primo nisi vna infinitas. et ex 
+      <lb ed="#V" n="15"/>all hoc ostendam quod infinitas non est de ratione 
+      forma<lb ed="#V" n="16" break="no"/>li perfectionum simpliciter. Primum probo quadrupliciter.
+    </p>
+            <p xml:id="FrMS88-e12761-d1e127">
+      ¶ Primo 
+      <lb ed="#V" n="17"/>fic. Quandocumque aliquid repugnat aliquibus per aliquam rationem 
+      for<lb ed="#V" n="18" break="no"/>malem: magis repugnat illi rationi: sed quod sint plura entia 
+      <lb ed="#V" n="19"/>infinita in vniuerso repugnat. et non nisi per rationem infinitatis: 
+      <lb ed="#V" n="20"/>quia quod sint plura entia no repugnat. ergo ipsi infinitati ma 
+      <lb ed="#V" n="21"/>gis repugnat pluralitas. impossibile est ergo ponere multas 
+      <lb ed="#V" n="22"/>ifinitates in vniuerso siue in deo.
+    </p>
+            <p xml:id="FrMS88-e12761-d1e143">
+      ¶ Confirmatur. quia tantum 
+      <lb ed="#V" n="23"/>repugnat infinitas formaliter infinitati formaliter: quantum 
+      infini<lb ed="#V" n="24" break="no"/>tas realiter infinitati realiter: sed plures infinitates realiter non 
+      <lb ed="#V" n="25"/>possunt esse in deo. ergo nec plures infinitates formaliter.
+    </p>
+            <p xml:id="FrMS88-e12761-d1e152">
+      ¶ Con 
+      <lb ed="#V" n="26"/>firmatur 2o. quia Anu. negauit plures deos. quia deus est 
+      <lb ed="#V" n="27"/>illud quo maius excogitari non potest: sed si essent plures 
+      <lb ed="#V" n="28"/>infinitates formaliter: essent plura talia quibus aliquod maius 
+      <lb ed="#V" n="29"/>excogitari non posset. multiplicata autem diffinitione multipli 
+      <lb ed="#V" n="30"/>catur diffinitum. ergo essent plures dii.
+    </p>
+            <p xml:id="FrMS88-e12761-d1e166">
+      ¶ 2o arguo sic. si 
+      essens<lb ed="#V" n="31" break="no"/>plures infinitates vel essent eiusdem rationis vel alterius. non 
+      <lb ed="#V" n="32"/>eiusdem. quia nullum tale multiplicatur in diuinis. Nam tunc non 
+      <lb ed="#V" n="33"/>sset certus numerus talium. sicut ostendetur de pluralitate 
+      fi<lb ed="#V" n="34" break="no"/>liationis in diuinis. Et ostensum est in quaestione de vnitate dei. 
+      <lb ed="#V" n="35"/>non ergo sunt vnius rationis. Si alterius rationis. ergo necessario haberent 
+      or<lb ed="#V" n="36" break="no"/>dinem. vbi autem est ordo ibi necessario est inequalitas. ergo infinitates 
+      es<lb ed="#V" n="37" break="no"/>sent inequales: quod est impossibile: quodscilicet vna illarum aliam excedat. 
+      <lb ed="#V" n="38"/>ergo etc. Nam vbi est aliquid minus ibi necessario est aliquid 
+      imperfe<lb ed="#V" n="39" break="no"/>ctum: et sic inter infinitum esset aliquid imperfectum. 3o sic. in essentialiter 
+      or<lb ed="#V" n="40" break="no"/>dinatis multiplicato priori multiplicatur posterius: sed 
+      infi<lb ed="#V" n="41" break="no"/>nitas et existentia essentialiter ordinantur: et infinitas est prior 
+      exi<lb ed="#V" n="42" break="no"/>stentia essentialiter. ergo multiplicata infinitate multiplicatur existen 
+      <lb ed="#V" n="43"/>tia. et sic erunt multe existentie in diuinis. quod est selundum. 4o que 
+      <lb ed="#V" n="44"/>cumque sunt idem in posteriori essentialiter sunt idem in priori 
+      essen<lb ed="#V" n="45" break="no"/>tialiter. omnia autem quae sunt in diuinis sunt realia eadem reali 
+      <lb ed="#V" n="46"/>tate: que est posterior infinitate. ergo erunt infinita eadem 
+      infi<lb ed="#V" n="47" break="no"/>nitate. Probo autem illud scilicet quod realitas sit posterior 
+      infini<lb ed="#V" n="48" break="no"/>tate. nam de creatura in potentia finitas potest 
+      demonstra<lb ed="#V" n="49" break="no"/>ri. realitas non. ergo finitas et infinitas dicuntur per se de eo 
+      <lb ed="#V" n="50"/>cuius sunt: sed omne praedicatum per se est prius no per se. 
+      <lb ed="#V" n="51"/>conclusione sic probata sequitur 2a scilicet quod infinitas 
+      <lb ed="#V" n="52"/>Ex ista non sit de ratione deitatis: nec alicuius perfe 
+      <lb ed="#V" n="53"/>ctionis. de ratione dico formali. et probo quadrupliciter.
+    </p>
+            <p xml:id="FrMS88-e12761-d1e218">
+      ¶ Pri 
+      <lb ed="#V" n="54"/>mo sic. nullum posterius dicitur in quid de priori: vt ostensum est. ratio 
+      <lb ed="#V" n="55"/>infiniti est posterior diuina essentia. ergo etc. Minor patet. quia 
+      <lb ed="#V" n="56"/>modus semper est posterior eo cuius est modus. infinitas 
+      <lb ed="#V" n="57"/>autem est modus deitatis.
+    </p>
+            <p xml:id="FrMS88-e12761-d1e229">
+      ¶ 2o sic. Quecumque sunt eiusdem 
+      <lb ed="#V" n="58"/>rationis formalis quicquid dicitur in quid de vno et de alio: sed inter 
+      <lb ed="#V" n="59"/>lectus noster et diuinus sunt eiusdem rationis formalis: vt 
+      pa<lb ed="#V" n="60" break="no"/>tebit. ergo si infinitas dicitur formaliter de intellectu diuino: 
+      sequi<lb ed="#V" n="61" break="no"/>tur quod dicetur de intellectu nostro.
+    </p>
+            <p xml:id="FrMS88-e12761-d1e240">
+      ¶ 3o sic. Illud quod de se non 
+      <lb ed="#V" n="62"/>dicit aliquam rationem formalem non dicitur in quid de aliquo: sed 
+      infi<lb ed="#V" n="63" break="no"/>nitas non dicit aliquam rationem formalem de se. ergo de nullo dicitur 
+      <lb ed="#V" n="64"/>quiditatiue. et per consequens non est eadem formaliter alicui rationi 
+      <lb ed="#V" n="65"/>formali.
+    </p>
+            <p xml:id="FrMS88-e12761-d1e251">
+      ¶ 4o. quia viderentur frustra poni ibi tot 
+      infini<lb ed="#V" n="66" break="no"/>tates quot sunt ibi infinita attributa. cum totum possit 
+      <!--40.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>saluari per vnam. Si autem essent idem formaliter multiplica 
+      <lb ed="#V" n="68"/>tis perfectionibus multiplicaretur infinitas. Ideo dico quod non 
+      <lb ed="#V" n="69"/>est nisi vna infinitas: sicut nec vna deitas. Sed difficultas 
+      <lb ed="#V" n="70"/>est quo possunt esse perfectiones infinite nisi quaelibet habeat infinitatem 
+      <lb ed="#V" n="71"/>propriam. non enim vetur quomodo.
+    </p>
+            <p xml:id="FrMS88-e12761-d1e271">
+      ¶ Responideo quod sicut per vnam rationem deita 
+      <lb ed="#V" n="72"/>tis omnia dicuntur divina et essentialia: ita omnes perfectiones diuine 
+      <lb ed="#V" n="73"/>dicuntur infinite per eandem infinitatem ipsius deitatis: sicut omnia acciden 
+      <lb ed="#V" n="74"/>tia dicuntur quanta vnica quantitate. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

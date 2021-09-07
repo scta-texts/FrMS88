@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f56004"><!-- l4d12q2 -->
+            <head xml:id="FrMS88-f56004-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f56004-d1e111">
+               <lb ed="#V" n="50"/>QUeritur vtrum deus possit facere 
+      <lb ed="#V" n="51"/>accidens respectiuum si
+      <lb ed="#V" n="52"/>
+               <!-- line coord error --> 
+               <lb ed="#V" n="53" break="no"/>ne subiecto.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e124">
+      ¶ Et videtur quod sic. quia 
+      mi<lb ed="#V" n="54" break="no"/>nor est eius entitas quam forme absolute. 
+      <lb ed="#V" n="55"/>
+               <!-- line coord error -->
+            </p>
+            <p xml:id="FrMS88-f56004-d1e133">
+      ¶ Contra. forma respectiua est 
+      imperfe<lb ed="#V" n="56" break="no"/>ctissima. ergo maxime dependet
+    </p>
+            <p xml:id="FrMS88-f56004-d1e138">
+               <lb ed="#V" n="57"/>Hic dicunt aliqui quod deus potest facere: quia 
+      <lb ed="#V" n="58"/>cum fundamentum talium sit 
+      cau<lb ed="#V" n="59" break="no"/>sa extrinseca deus potest supplere vicem eius et causa 
+      <lb ed="#V" n="60" break="no"/>litatem illius.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e150">
+      ¶ Contra hoc arguunt aliqui. primo me 
+      <lb ed="#V" n="61"/>thaphisice. quia nulla propositio per se nota potest 
+      falsifica<lb ed="#V" n="62" break="no"/>ri: quia ipsa est eterna: sed ista. omne totum est maius 
+      sua<lb ed="#V" n="63" break="no"/>parte est huiusmodi. et ista fundatur in respectibus qui si sepa 
+      <lb ed="#V" n="64"/>rentur non erit vera.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e161">
+      ¶ Secundo. quia ista conclusio est 
+      demon<lb ed="#V" n="65" break="no"/>strata. triangulus habet tres angulos equales duobus 
+      re<lb ed="#V" n="66" break="no"/>ctis. sed si respectus potest separari erit falsa probatio: quia 
+      <lb ed="#V" n="67"/>equalitas est quidam respectus. separetur igitur. tunc non 
+      <!--408.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="68"/>erit equalis.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e177">
+      ¶ Item arismetrice. Principium est per se 
+      no<lb ed="#V" n="69" break="no"/>tum. si ab equalibus equalia demas que remanent sunt 
+      <lb ed="#V" n="70"/>equalia. sed si separes equalitatem ab istis: que est quidam 
+      <lb ed="#V" n="71"/>respectus: non erunt equalia.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e186">
+      ¶ Item in deductione 
+      pla<lb ed="#V" n="72" break="no"/>tertia pars numeri senarii est par: sed dualitas est 
+      ter<lb ed="#V" n="73" break="no"/>tia pars numeri senarii. ergo est par igitur si remoueat 
+      pa<lb ed="#V" n="74" break="no"/>ritas: tunc non erit par: nequem impar. sed inste rationes 
+      mi<lb ed="#V" n="75" break="no"/>nus concludunt: quia contra illam regulam in realiter 
+      distin<lb ed="#V" n="76" break="no"/>ctis et ordinatis secundum prius et posterius deus potest 
+      sepa<lb ed="#V" n="77" break="no"/>rare vnum ab altero.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e202">
+      ¶ Detur itaque quod in istis 
+      demonstra<lb ed="#V" n="78" break="no"/>tionibus assumatur equalitas fundamentalis: et sic de aliis 
+      <lb ed="#V" n="79"/>motibus in tribus praedicamentis. Et sic sunt hic 
+      quatu<lb ed="#V" n="80" break="no"/>or conclusiones.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e211">
+      ¶ Prima est. quod deus potest facere 
+      mo<lb ed="#V" n="81" break="no"/>tum sine mobili in genere substantie: quia motus vel est 
+      <lb ed="#V" n="82"/>forma fluens velfluxus forme: si detur primum per 
+      quan<lb ed="#V" n="83" break="no"/>cunque potentiam potest separari subiectum primum: et potest se 
+      <lb ed="#V" n="84"/>paratum esse accidens illius subiecti: sed anima bruti 
+      separa<lb ed="#V" n="85" break="no"/>a bruto. ergo et actus intelligendi et videndi separatur: quia se 
+      <lb ed="#V" n="86"/>parato subiecto separatur et accidens quod est in illo. cum 
+      igi<lb ed="#V" n="87" break="no"/>tur fluxus sit accidens forme: et cum forma substantialis 
+      <lb ed="#V" n="88"/>possit separari vt visum est: sequitur quod et accidens eius 
+      <lb ed="#V" n="89"/>Si detur 2m de fluxu. tunc sic. quodcunque potest separare 
+      <lb ed="#V" n="90"/>formam: et eius fluxum: cum sint idem realiter per se: sed 
+      <lb ed="#V" n="91"/>deus potest separare formam quae subest fluxui. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f56004-d1e238">
+               <lb ed="#V" n="92"/>¶ Secunda conclusio. quod idem est de mobilibus in gene 
+      <lb ed="#V" n="93"/>re quantitatis: patet in sacramento altaris vbi quantitas secundum 
+      om<lb ed="#V" n="94" break="no"/>nes est separata a subiecto: et tamen ibi videmus augmen 
+      <lb ed="#V" n="95"/>tum quod terminatur ad quantitatem. si autem terminus non est 
+      <lb ed="#V" n="96"/>in subiecto: nec motus secundum eum.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e251">
+      ¶ Tertia conclusio. idem 
+      <lb ed="#V" n="97"/>est in motu alterationis. potest enim successiue producere 
+      ca<lb ed="#V" n="98" break="no"/>lorem quandocunque potest separare formam in esse et in fieri. sed 
+      <lb ed="#V" n="99"/>in esse potest. ergo et in fieri: sed hoc est successiue et in 
+      flu<lb ed="#V" n="100" break="no"/>xu etiam successiue fieri.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e262">
+      ¶ Quarta conclusio est negatiua de 
+      mo<lb ed="#V" n="101" break="no"/>bili ad vbi. quandocunque est aliqua forma. quam deus non po 
+      <lb ed="#V" n="102"/>test separare a subiecto: neque eius motum: sed vbi est 
+      for<lb ed="#V" n="103" break="no"/>ma respectiua: et per consequens non potest separari a subiecto vt 
+      di<lb ed="#V" n="104" break="no"/>ctum est.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e273">
+      ¶ Contra istas conclusiones instatur.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e276">
+      ¶ Contra 
+      pri<lb ed="#V" n="105" break="no"/>mam. quia tunc esset generatio sine subiecto. et per consequens esset 
+      <lb ed="#V" n="106"/>creatio et non generatio.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e283">
+      ¶ Contra secundam. quia vbi est 
+      au<lb ed="#V" n="107" break="no"/>gmentatio ibi est partium aggregatio. et ita partes 
+      produ<lb ed="#V" n="108" break="no"/>cuntur et aggregantur: sed partium productio 
+      presuppo<lb ed="#V" n="109" break="no"/>nit motum. et sic erit in subiecto.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e293">
+      ¶ Contra tertiam. quia 
+      altera<lb ed="#V" n="110" break="no"/>tio est alteritas. ista autem non est nisi ex parte subiecti. 
+      <lb ed="#V" n="111"/>igitur impossibile est ipsum excludere.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e300">
+      ¶ Contra quartam 
+      <lb ed="#V" n="112"/>quia sol mouetur localiter: sed deus si anihilaret 
+      substan<lb ed="#V" n="113" break="no"/>tiam solis: continuabitur motus solis in quantitate: et ita 
+      <lb ed="#V" n="114"/>motus qui erat substantie huius non est eius causo.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e309">
+      ¶ Respondeo ad pri 
+      <lb ed="#V" n="115"/>mum. aliqui concedunt quod forma ignis generatur 
+      successi<lb ed="#V" n="116" break="no"/>ue: et ita erit quidam motus. licet sit a deo vel deus 
+      sup<lb ed="#V" n="117" break="no"/>pleat vicem mac.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e318">
+      ¶ Ad secundum. de augmento. dico quod per 
+      <lb ed="#V" n="118"/>appositionem partium de genere quantitatis est 
+      augmen<lb ed="#V" n="119" break="no"/>tum.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e325">
+      ¶ Ad tertium. si sumatur pro termino subiecti. sic 
+      <lb ed="#V" n="120"/>non potest. si profluxu forme sic potest.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e330">
+      ¶ Ad quartum. di 
+      <lb ed="#V" n="121"/>cuoo quod secundum hoc quantitas moueretur. sed substantia non erat prim 
+      <lb ed="#V" n="122"/>subiectum. sed mediante quantitate.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e338">
+      ¶ Sed occurrit difficultas si 
+      <lb ed="#V" n="123"/>mutatio potest esse sine subiecto.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e343">
+      ¶ Dico quod non. quia 
+      diffiniti<lb ed="#V" n="124" break="no"/>per subiectum aliter se habere.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e348">
+      ¶ Sed quid de 
+      motu<lb ed="#V" n="125" break="no"/>Eadem ratio videtur.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e353">
+      ¶ Dico quod motus non est forma nisi 
+      <lb ed="#V" n="126"/>fluxus: aut materialiter est mutatio.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e358">
+      ¶ Contra. quia motus 
+      <lb ed="#V" n="127"/>vbi est respectus.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e363">
+      ¶ Dico quam a proprio fundamento non 
+      <lb ed="#V" n="128"/>separatur sed subiectum eius in quo sunt partes 
+      for<lb ed="#V" n="129" break="no"/>me.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e371">
+      ¶ Tertia difficultas motus diffinitur. quod est actus mobus 
+      <lb ed="#V" n="130"/>lis.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e376">
+      ¶ Dico quod non est diffinitio quiditatiua. sed est per 
+      <lb ed="#V" n="131"/>additamentum. Item non videtur hic esse actus in 
+      poten<lb ed="#V" n="132" break="no"/>tia.
+    </p>
+            <p xml:id="FrMS88-f56004-d1e383">
+      ¶ Dico quod immo quando separatur aliqua pars habetur iam 
+      <lb ed="#V" n="133"/>in actu et aliqua restat in potentia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

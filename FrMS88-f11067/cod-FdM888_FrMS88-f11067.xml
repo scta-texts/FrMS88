@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f11067"><!-- l2d4-5q2 -->
+            <head xml:id="FrMS88-f11067-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f11067-d1e111">
+      Questio. ii. 
+      <lb ed="#V" n="20"/>Secunda quaestio est. Utrum angeli peccare 
+      <lb ed="#V" n="21"/>potuerunt in primo instanti sue 
+      crea<lb ed="#V" n="22" break="no"/>tionis. Et videtur quod non per illud Egechielis. 
+      Tu<lb ed="#V" n="23" break="no"/>signaculum similitudinis. etc.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e122">
+      ¶ Contra. 
+      <lb ed="#V" n="24"/>Idouam. sego. ille homicida erat ab initio. 
+      <lb ed="#V" n="25"/>sciendum quod de facto non peccauit in primo 
+      instan<lb ed="#V" n="26" break="no"/>Hic tnt ti. et ita intelligit Aug. angelus ab initio 
+      <lb ed="#V" n="27"/>non peccauit. fuit enim in veritate: sed in ea non stetit.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e133">
+      ¶ De 
+      <lb ed="#V" n="28"/>possibili autem sunt quatuor modi dicendi. Unus modus est: quod non 
+      <lb ed="#V" n="29"/>potuit mereri nec onium in primo instanti: quia tunc non potuit 
+      deli<lb ed="#V" n="30" break="no"/>berare. Alii dicunt quod potuit demereri: et non mereri. quia 
+      <lb ed="#V" n="31"/>plura requiruntur ad merendum: quam ad demerendum.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e144">
+      ¶ Alii 
+      di<lb ed="#V" n="32" break="no"/>cunt quod vtrumque potuit. quia potentiam habuit volitiuam. quae in 
+      <lb ed="#V" n="33"/>instanti potuit elicere actum volendi et nolendi.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e152">
+      ¶ hic autem 
+      <lb ed="#V" n="34"/>est. 3. modus. nec alii habent rationem sufficientem. vnde in hum 
+      <lb ed="#V" n="35"/>no intellectu qui intelligit cum fantasmate et tempore requritur 
+      deli<lb ed="#V" n="36" break="no"/>beratio. talis autem non est in angelico intellectu. quia in 
+      instan<lb ed="#V" n="37" break="no"/>ti intelligitur.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e163">
+      ¶ Similiter si deus crearet vnum actum in angelo 
+      <lb ed="#V" n="38"/>non esset meritorius.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e168">
+      ¶ Similiter tota consideratio circumstantia 
+      <lb ed="#V" n="39"/>rum est in angelo in instanti.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e173">
+      ¶ Dico igitur cum 3a via. et hoc 
+      4<lb ed="#V" n="40" break="no"/>confirmatur.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e178">
+      ¶ Primo sic. quandocumque est aliqua potentia quae potest elice 
+      <lb ed="#V" n="41"/>re actum in instanti stantibus omnibus illis quae requiruntur ad eum 
+      <lb ed="#V" n="42"/>potest in ipsum sic autem in proposito. obiectum et potentia fuerunt ibi. sed 
+      <lb ed="#V" n="43"/>essentia sua et voluntas. Et cognuit essentiam suam in instanti. 
+      Pri<lb ed="#V" n="44" break="no"/>mo ergo potuit ea frui vel non frui.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e189">
+      ¶ 2o sic: in illo instanti 
+      <lb ed="#V" n="45"/>potuit peccare. quia in eo est quicquid requritur ad hoc et ita 
+      po<lb ed="#V" n="46" break="no"/>tuit in illo instant.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e197">
+      ¶ 3o quia similiter nos peccauimus in 
+      in<lb ed="#V" n="47" break="no"/>stanti.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e202">
+      ¶ 4o. quia non est dare moram illam. Queritur enim si in 
+      <lb ed="#V" n="48"/>mediate illius temporis potuit peccare. certum est quod sic. et sic 
+      <lb ed="#V" n="49"/>in infinitum. si sic. non videtur quin possit in instanti peccare.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e209">
+      ¶ Sed 
+      <lb ed="#V" n="50"/>per illud obiicitur. Et primo ex parte sui impossibile est quod aliquis sit ma 
+      <lb ed="#V" n="51"/>lus naturaliter. sicut esset si peccasset in per instanti. quia totum quod 
+      <lb ed="#V" n="52"/>conuenit rei in primo instanti est a generante vel creante.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e218">
+      ¶ hic 
+      <lb ed="#V" n="53"/>dico quod non fuit naturaliter malus: sicut nec nunc est naturaliter malus. sed 
+      <lb ed="#V" n="54"/>moraliter. Similiter in instanti quo generatur aer illuminatur et sol illuminat 
+      </p>
+            <p xml:id="FrMS88-f11067-d1e225">
+               <lb ed="#V" n="55"/>¶ 2o quia per speciem intellexit et prius speculatiue quam practi 
+      <lb ed="#V" n="56"/>ce. Dico quod in eodem instanti cognoscit principim et conclusiones sicut po 
+      <lb ed="#V" n="57"/>nimus.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e234">
+      ¶ 3o aritu per dictum Ans. de casu dyaboli. non potuit 
+      <lb ed="#V" n="58"/>esse ab angelo: sed a deo. alias tamen habuit eum volens. et sic 
+      <lb ed="#V" n="59"/>aliquis actus praecessit.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e242">
+      ¶ Dico quod habet hunc casum a volunta 
+      <lb ed="#V" n="60"/>te. vt a causa. sed n vt voluntas volens vel nolens. sed vt praexistens 
+      <lb ed="#V" n="61"/>non volens.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e249">
+      ¶ 4a instantia. si peccauit in illo instanti. 
+      potu<lb ed="#V" n="62" break="no"/>it non peccare. patet quod non ex quo peccauit. nec in eodem instanti 
+      <lb ed="#V" n="63"/>quia simul esset peccare. et non peccare. ergo ante huit potestatem pee 
+      <lb ed="#V" n="64"/>caunadi quam peccauerit.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e258">
+      ¶ 2o idem aritu d det nobis. dicit enim 
+      Sco<lb ed="#V" n="65" break="no"/>quod semper oportet intelligere potentiam praecedere identam contradictionis in signo 
+      <lb ed="#V" n="66"/>naturae non temporis. Quando enim quis mouet aliquem contingenter non prius 
+      <lb ed="#V" n="67"/>mouet contingenter quam est in potentia. sed quando est in actu mouet.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e267">
+      ¶ Sed 
+      <!--301.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="68"/>hoc remanet dubium. videtur enim ibi esse mutatio a bono in malum. 
+      <lb ed="#V" n="69"/>et quomodo in eodem innstanti potest haec fieri. Dicit Secundo quod non oportet hoc 
+      <lb ed="#V" n="70"/>ponere mutationem. numquam enim fuit sine culpa. sed in primo signo 
+      <lb ed="#V" n="71"/>naturae fuit sine culpa. et in alio sub culpa.
+    </p>
+            <p xml:id="FrMS88-f11067-d1e283">
+      ¶ 2a difficultas quomodo qstr 
+      <lb ed="#V" n="72"/>tus create naturae potest agem in instanti. si enim tanta virtus in 
+      tan<lb ed="#V" n="73" break="no"/>to tempore. etc. ista regula supponit continuitatem: sed de 
+      <lb ed="#V" n="74"/>hoc magis patebit infra. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

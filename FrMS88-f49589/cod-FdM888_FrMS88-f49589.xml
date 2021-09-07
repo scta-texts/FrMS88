@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="195-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f49589"><!-- l4d10q3 -->
+            <head xml:id="FrMS88-f49589-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f49589-d1e111">
+               <lb ed="#V" n="108"/>TErtio quaeritur vtrum corpus christi descendatur 
+      <lb ed="#V" n="109"/>in instanti ad locum consecrationis.
+      </p>
+            <p xml:id="FrMS88-f49589-d1e118">
+               <lb ed="#V" n="110"/>¶ Et videtur quod non. quia motus non fit in instanti. 
+      </p>
+            <p xml:id="FrMS88-f49589-d1e123">
+               <lb ed="#V" n="111"/>¶ Contra actus transubstantiationis fit in instanti 
+      <lb ed="#V" n="112"/>sed in illo actu descendit corpus christi ergo etc. 
+      <lb ed="#V" n="113"/>veritas determinata: quia in instanti 
+      pos<lb ed="#V" n="114" break="no"/>hic est prolationem verborum est ibi corpus christi sicut 
+      <lb ed="#V" n="115"/>ad consensum virginis fuit in eius vtero in instanti.
+    </p>
+            <p xml:id="FrMS88-f49589-d1e136">
+      ¶ Ubi 
+      <lb ed="#V" n="116"/>sciendum est quod quatuor sunt causantia tarditatem in 
+      mo<lb ed="#V" n="117" break="no"/>tu. Nam tarditas aliquando prouenit ex motoris 
+      insufficien<lb ed="#V" n="118" break="no"/>tia. aliquando autem ex mobilis resistentia. Aliquando ex 
+      me<lb ed="#V" n="119" break="no"/>dii rescindentia. Aliquando ex magna distantia.
+    </p>
+            <p xml:id="FrMS88-f49589-d1e148">
+      ¶ Primum 
+      <lb ed="#V" n="120"/>patet. quia quando agens est debile minus velociter mo 
+      <lb ed="#V" n="121"/>uetur.
+    </p>
+            <p xml:id="FrMS88-f49589-d1e155">
+      ¶ Secundum patet. quando mobile est inclinatum ad talem motu 
+      <lb ed="#V" n="122"/>sicut lapis velocius mouetur. vel potest moueri deorsum 
+      <lb ed="#V" n="123"/>quam sursum et sic maior est mora quando fit contra inclinationem 
+      <lb ed="#V" n="124"/>naturae.
+    </p>
+            <p xml:id="FrMS88-f49589-d1e164">
+      ¶ Tertium patet. quia lapis velocius descenderet per 
+      <lb ed="#V" n="125"/>aerem quam per quam.
+    </p>
+            <p xml:id="FrMS88-f49589-d1e169">
+      ¶ Quartum patet. quia citius descenderet me 
+      <lb ed="#V" n="126"/>la per vnam leucam in mari quam per mille in aere.
+    </p>
+            <p xml:id="FrMS88-f49589-d1e174">
+      ¶ Ad  
+      <lb ed="#V" n="127"/>propositum hic non potest esse defectus ex parte agentis. cum 
+      <lb ed="#V" n="128"/>sit infinite virtutis: nec ex parte patientis: si esset 
+      gra<lb ed="#V" n="129" break="no"/>ue. tunc aptum natum est cadere. Sed hoc non est ad proposi 
+      <lb ed="#V" n="130"/>tum: quia corpus christi est in loco modo angelico. et hideo 
+      <lb ed="#V" n="131"/>sicut angelus potest esse in diuersis locis. quia igitur hoc non est 
+      <lb ed="#V" n="132"/>contra inclinationem suam. potest quocumque moueri. nec propter 
+      terti<lb ed="#V" n="133" break="no"/>um oportet negare. quia aerem non diuidit. sicut nec caelum.
+    </p>
+            <p xml:id="FrMS88-f49589-d1e192">
+      ¶ Sed 
+      <!--394.xml-->
+      <pb ed="#V" n="196-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>ex distantia videtur difficultas: tamen non impedit. quia quandocunque 
+      <lb ed="#V" n="2"/>est aliquod agens quod potest duas formas eiusdem rationis in 
+      ali<lb ed="#V" n="3" break="no"/>quo receptiuo inducere eadem ratione: et innumerabiles. 
+      <lb ed="#V" n="4"/>sed deus in eodem vno instanti. quo facit eum in vno loco 
+      <lb ed="#V" n="5"/>potest et in alio. igitur in eodem instanti quo potest facere ipsum in 
+      <lb ed="#V" n="6"/>primo vbi. et in alio.
+    </p>
+            <p xml:id="FrMS88-f49589-d1e215">
+      ¶ hec ratio concludit. supposituso quod deus 
+      <lb ed="#V" n="7"/>possit facere vnum corpus in diuersis locis. de quo inferii 
+      <lb ed="#V" n="8"/>dicetur.
+    </p>
+            <p xml:id="FrMS88-f49589-d1e222">
+      ¶ Contra. vbicumque est simultas nulla est mutatio 
+      <lb ed="#V" n="9"/>vel transitus. sed hic est simultas. quia simul est in celo et 
+      <lb ed="#V" n="10"/>hic. Item transitus non potest fieri in instanti. sed hic est 
+      transi<lb ed="#V" n="11" break="no"/>tus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f49589-d1e231">
+      ¶ hic dico quod imaginari oportet. quod non sunt 
+      simu<lb ed="#V" n="12" break="no"/>in tempore si debeat esse mutatio: nec est mutatio sicut partis 
+      <lb ed="#V" n="13"/>poris ad partem. sed est successio sicut mutati esse ad locum 
+      <lb ed="#V" n="14"/>et temporis ad instans.
+    </p>
+            <p xml:id="FrMS88-f49589-d1e240">
+      ¶ Sed si transeat in instanti erit ne 
+      siml<lb ed="#V" n="15" break="no"/>in toto medio et in alio termino: Dico quod in instanti. quod 
+      <lb ed="#V" n="16"/>sequitur respectus in quo fuit in primo loco incipit habe 
+      <lb ed="#V" n="17"/>re esse in eodem loco.
+    </p>
+            <p xml:id="FrMS88-f49589-d1e249">
+      ¶ Sed si sacerdos confecisset in 
+      die<lb ed="#V" n="18" break="no"/>ascensionis in eodem instanti quomodo debuit esse in eodem 
+      lo<lb ed="#V" n="19" break="no"/>co:
+    </p>
+            <p xml:id="FrMS88-f49589-d1e256">
+      ¶ Dico quod quia hic non est ordo durationis. ideo non 
+      <lb ed="#V" n="20"/>prius descendisset de celo ad altare: quam econverso. quia in eodem 
+      in<lb ed="#V" n="21" break="no"/>stanti fuisset in vtroque istorum locorum a toto medio 
+      trans<lb ed="#V" n="22" break="no"/>ferendo se in instanti sequenti ad vtrumque vbi.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

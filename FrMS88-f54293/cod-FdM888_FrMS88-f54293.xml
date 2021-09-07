@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 15</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 15</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f54293"><!-- l4d11q15 -->
+            <head xml:id="FrMS88-f54293-Hd1e108">Quaestio 15</head>
+            <p xml:id="FrMS88-f54293-d1e111">
+               <lb ed="#V" n="52"/>QUeritur vtrum virtute creata ali 
+      <lb ed="#V" n="53"/>quid possit conuerti in 
+      ali<lb ed="#V" n="54" break="no"/>ud.
+    </p>
+            <p xml:id="FrMS88-f54293-d1e120">
+      ¶ Et videtur quod non. quia idem est 
+      conuer<lb ed="#V" n="55" break="no"/>sio et transubstantiatio. sed transubstantiari 
+      <lb ed="#V" n="56"/>innon potest aliquid in aliud virtute 
+      crea<lb ed="#V" n="57" break="no"/>ta: vt probatum est: ergo nec conuerti.
+    </p>
+            <p xml:id="FrMS88-f54293-d1e129">
+      ¶ Contra. quia 
+      <lb ed="#V" n="58"/>hoc videmus de facto. 
+      <lb ed="#V" n="59"/>quatuor conclusiones.
+    </p>
+            <p xml:id="FrMS88-f54293-d1e136">
+      ¶ Prima est quod 
+      <lb ed="#V" n="60"/>Hic sunt virtus creata non potest conuertere vnam 
+      <lb ed="#V" n="61"/>creaturam in aliam totaliter. quia materiam primam totaliter non 
+      <lb ed="#V" n="62"/>continet. Item de simplicibus et incorruptibilibus 
+      pa<lb ed="#V" n="63" break="no"/>et. quia non continentur virtualiter in aliqua natura 
+      crea<lb ed="#V" n="64" break="no"/>ta.
+    </p>
+            <p xml:id="FrMS88-f54293-d1e150">
+      ¶ Secunda conclusio. quod potest partialiter. hoc patet 
+      <lb ed="#V" n="65"/>in mixtorum generatione et in nutritione animalium. vbi 
+      <lb ed="#V" n="66"/>cibus conuertitur in cibatum manente eadem materia. 
+      <!--404.xml-->
+      <cb ed="#V" n="b"/>
+            </p>
+            <p xml:id="FrMS88-f54293-d1e161">
+               <lb ed="#V" n="67"/>¶ Tertia conclusio. quod agens naturale potest conuertere 
+      <lb ed="#V" n="68"/>substantiam panis in corpus mediate. quia potest substantiam 
+      <lb ed="#V" n="69"/>panis conuertere in sanguinem et humorem et sanguinem 
+      <lb ed="#V" n="70"/>in corpus. ergo substantiam panis in corpus.
+    </p>
+            <p xml:id="FrMS88-f54293-d1e172">
+      ¶ Quatur 
+      <lb ed="#V" n="71"/>ta conclusio. quod non potest hoc immediate. quia vbi sunt forme 
+      <lb ed="#V" n="72"/>essentialiter ordinate non potest procedi ad posterius: nisi 
+      <lb ed="#V" n="73"/>mediante priori. sic fit de pane: quia primo est humor: 
+      de<lb ed="#V" n="74" break="no"/>inde sanguis.
+    </p>
+            <p xml:id="FrMS88-f54293-d1e183">
+      ¶ Contra primam conclusionem. quia natura 
+      <lb ed="#V" n="75"/>potest totum compositum generare et corrumpere.
+    </p>
+            <p xml:id="FrMS88-f54293-d1e188">
+      ¶ Dico quod 
+      <lb ed="#V" n="76"/>accipiendo compositum: non pro tertia entitate resultante: 
+      <lb ed="#V" n="77"/>sed pro totali termino. videlicet pro composito in se: et sic est 
+      <lb ed="#V" n="78"/>veru. sed non est sic conuersio totius in totum quod quodlibet 
+      <lb ed="#V" n="79"/>eius conuertatur et generetur. quia hoc est impossibile per 
+      na<lb ed="#V" n="80" break="no"/>turam.
+    </p>
+            <p xml:id="FrMS88-f54293-d1e201">
+      ¶ Contra secundam. quia ille potest transmutare to 
+      <lb ed="#V" n="81"/>tum in totum: qui potest totam formam in totum conuertere 
+      <lb ed="#V" n="82"/>Agens naturale est huiusmodi. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f54293-d1e209">
+      ¶ Dico quod ibi est 
+      <lb ed="#V" n="83"/>desinitio forme prioris: sed istud non desinit in 
+      habitu<lb ed="#V" n="84" break="no"/>dine ad illud. sed incipit illud. et ex consequenti sequitur 
+      cor<lb ed="#V" n="85" break="no"/>ruptio alterius non intenta nisi per accidens ad generationem 
+      <lb ed="#V" n="86"/>prioris.
+    </p>
+            <p xml:id="FrMS88-f54293-d1e220">
+      ¶ Sed occurrit difficultas. Quia transubsteantiatio 
+      <lb ed="#V" n="87"/>nihil aliud videtur secundum predicta quam successio vel 
+      habitu<lb ed="#V" n="88" break="no"/>do corporis christi ad panere ex quo nec generatur: nec 
+      cor<lb ed="#V" n="89" break="no"/>rumpitur.
+    </p>
+            <p xml:id="FrMS88-f54293-d1e229">
+      ¶ Scotus autem videtur dicere quod est 
+      succes<lb ed="#V" n="90" break="no"/>sio tantum.
+    </p>
+            <p xml:id="FrMS88-f54293-d1e234">
+      ¶ Alia difficultas esset si ista successio est 
+      si<lb ed="#V" n="91" break="no"/>tualis vel localis.
+    </p>
+            <p xml:id="FrMS88-f54293-d1e239">
+      ¶ Et videtur quod non. quia posset esse hic 
+      <lb ed="#V" n="92"/>corpus christi sine transubstantiatione.
+    </p>
+            <p xml:id="FrMS88-f54293-d1e244">
+      ¶ Item quando 
+      ali<lb ed="#V" n="93" break="no"/>quid succedit alteri secundum locum vel tempus: no ex hoc dici 
+      <lb ed="#V" n="94"/>tur transubstantiatio secundum esse. patet. quia esse corporis christi non est 
+      <lb ed="#V" n="95"/>esse panis: nec secundum esse. est igitur successio talis ordo 
+      quo<lb ed="#V" n="96" break="no"/>deus ordinauit: quod hoc defnente i est pane: accipiat hic esse 
+      <lb ed="#V" n="97"/>corpus christi: vt sit habitudo ad aliud esse non hic esse.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="44-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e31974"><!-- l1d8q2 -->
+            <head xml:id="FrMS88-e31974-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-e31974-d1e111">
+      Quaestio. <sic>iii</sic> 
+               <lb ed="#V" n="25"/>UTrum In diuinis sit aliqua non 
+      identi<lb ed="#V" n="26" break="no"/>tas ante omnem distinctionem: 
+      <lb ed="#V" n="27"/>Quod sic. quia sicut omnis negus resoluiter in 
+      affirma<lb ed="#V" n="28" break="no"/>tionem: ita distincio in non identitatem.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e125">
+      ¶ Contra. 
+      <lb ed="#V" n="29"/>d Negentio non praesupponit affirmationem oppositiam 
+      <lb ed="#V" n="30"/>quod ante distinctionem omnem nulla non 
+      <lb ed="#V" n="31"/>hic dicitur identitas dibet poni in divinis: nec est 
+      <lb ed="#V" n="32"/>intelligibile quod non identitas sit sine aliqua distinctione: si enim 
+      <lb ed="#V" n="33"/>sunt non idem necessario sunt distincta: reducuntur enim ad 
+      extre<lb ed="#V" n="34" break="no"/>ma contradictionis.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e141">
+      ¶ Contra istam opionem ostendo quod ante omnem 
+      <lb ed="#V" n="35"/>distinctionem sit aliqua non identitas: et arguo 4r. Primo secundum 
+      <lb ed="#V" n="36"/>Augse. sic. Omne quod est ad aliud necessario prius est ad se: sed omne 
+      <lb ed="#V" n="37"/>quod distinguitur ab alio per distinctionem necessario est ad aliud: 
+      <lb ed="#V" n="38"/>quia per distinctionem sicut per respectum refertur. ergo necessario prius ad 
+      <lb ed="#V" n="39"/>se: tunc accipio illud prius: in qua homo prius est ad se quam sit ad 
+      <lb ed="#V" n="40"/>afinum per distinctionem: in illo priori aut est idem asino: et tunc 
+      <lb ed="#V" n="41"/>postea non posset aduenire distinctio: aut est non idem: cum 
+      <lb ed="#V" n="42"/>ergo in illo priori non sit distinctio non identitas praecedit 
+      distin<lb ed="#V" n="43" break="no"/>ctionem. 2o sic: quandocumque sunt aliqua opposita circa idem illud 
+      <lb ed="#V" n="44"/>quod non potest separari ab illo inest prius. Nam priora generatione 
+      <lb ed="#V" n="45"/>sunt posteriora resolutione: sed contrarie opposita et contradictorie 
+      <lb ed="#V" n="46"/>opposita circa illud in quo sunt sic se habent quod contrarie 
+      opposi<lb ed="#V" n="47" break="no"/>ta possunt separari: non autem contradictorie opposium: ergo contradictorie 
+      op<lb ed="#V" n="48" break="no"/>posita sunt priora. probatio minoris. Nam deus potest 
+      face<lb ed="#V" n="49" break="no"/>re subiectum sine contrariis immediatis: quia sunt realiter distincta ab 
+      <lb ed="#V" n="50"/>eo et posteriora: non potest autem facem subiectum sine contradictorie 
+      <lb ed="#V" n="51"/>oppositis quin sit album vel non album: ergo illa sunt priora. tunc 
+      <lb ed="#V" n="52"/>vltra. identitas et non identitas sunt contradictoria: et identitas 
+      <lb ed="#V" n="53"/>et diuersitas sunt contraria: ergo ante diuersitatem et distinctionem 
+      <lb ed="#V" n="54"/>necessario erit non identitas. 3o sic. quandocumque alique oppositiones 
+      <lb ed="#V" n="55"/>sunt essentialiter ordinate: talem ordinem retinent in subiecto 
+      qua<lb ed="#V" n="56" break="no"/>lem habent inter se: sed contrarietas et contradictio: ita sunt ordinata 
+      im<lb ed="#V" n="57" break="no"/>ter se: quod contradictio est prior natura ipsa contrarietate: hoc patet. quia nulla 
+      <lb ed="#V" n="58"/>contrietas potest esse sine contradictione: contradictio autem potest bene esse 
+      <lb ed="#V" n="59"/>sine contrarietate. ergo prior erit oppositio contradictionis in subiecto quam contra 
+      <lb ed="#V" n="60"/>rietatis. 4o sic. Omnis passio praedicata de subiecto in 2o modo primo 
+      <lb ed="#V" n="61"/>us inest subiecto quam differentiae divisiue illius substanti: sed idem et non idem: si 
+      <lb ed="#V" n="62"/>cut affirmodo et negatio sunt passiones entis: et idem et 
+      diuer<lb ed="#V" n="63" break="no"/>sum sunt differentiae diuisiue: ergo prius illa quam ista.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e206">
+      ¶ Ad 
+      euinden<lb ed="#V" n="64" break="no"/>tiam istius conclusionis quam argumentum facta concludunt: est sciendum quod in 
+      <lb ed="#V" n="65"/>quiditatibus creaturarum est inuenire 4or signa naturae: quae possunt 
+      ar<lb ed="#V" n="66" break="no"/>plicari ad omne ens. Accipiamus ergo quiditates albedinis et 
+      <!--91.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>nigredinis. in eis est reperire 4or signa naturae. primum est in eis 
+      <lb ed="#V" n="68"/>in qui conueniunt eis illa quae sunt de per modo dicendi per se. constat 
+      <lb ed="#V" n="69"/>autem quod talia praedicamenta praeueniunt illa quae non sunt 
+      quidita<lb ed="#V" n="70" break="no"/>tiua. 2m signum naturae est in qui conueniunt eis praedicamenta 
+      ne<lb ed="#V" n="71" break="no"/>gatiua: et negationes in eorum rationibus formalibus 
+      funda<lb ed="#V" n="72" break="no"/>te: quod autem illa de primo modo adueniant prius et in primo signo: patet. quia 
+      <lb ed="#V" n="73"/>omnis negi est posterior affirmatioe in qua fundatur. In 
+      <lb ed="#V" n="74"/>isto enim signo incipit verificari prius principium complexum. De vno 
+      <lb ed="#V" n="75"/>quoque affirmatio vel negius vera. In primo quidem signo albedo. 
+      <lb ed="#V" n="76"/>nec est quanta: nec non quanta: sed albedo tamtum: quia 
+      nulla<lb ed="#V" n="77" break="no"/>negatio conuenit ei quiditatie: et ideo non est quanta: nec non 
+      quan<lb ed="#V" n="78" break="no"/>ta. In 2o autem signo necessario vel affirmatio vel negatio 
+      in<lb ed="#V" n="79" break="no"/>est. Et patet quod negentio est vera in negando scilicet praedicationem aliorum 
+      <lb ed="#V" n="80"/>consequentium albedine quantum ad primum signum scilicet ista nestioa. albedo non 
+      <lb ed="#V" n="81"/>est quanta. vt est in prer signo: non tamen est vera simpliciter: sed tantum 
+      pro<lb ed="#V" n="82" break="no"/>primo signo: quod autem talis negatio sit prior sua 
+      affirma<lb ed="#V" n="83" break="no"/>tione et posterior quiditate: probatur sic. Omne quod 
+      demon<lb ed="#V" n="84" break="no"/>stratur de aliquo est eo posterius: de quo demonstratur: 
+      <lb ed="#V" n="85"/>quia est in 2o modo: sed hec negatiua: albedo non est 
+      quan<lb ed="#V" n="86" break="no"/>ta in primo signo demonstratur de albedine: ergo albedo 
+      <lb ed="#V" n="87"/>prior est negatione. quod autem fit prior tali affirmatione 
+      si<lb ed="#V" n="88" break="no"/>di opposita: patet. quia magis immediate sequitur negatio 
+      pro<lb ed="#V" n="89" break="no"/>peor signo: pro quo talia praedicamenta non conueniunt quam 
+      affir<lb ed="#V" n="90" break="no"/>matio eorundem pro signo: pro qui conueniunt. huiusmodi autem est talis 
+      <lb ed="#V" n="91"/>negato. et isto modo prius est homo non risibilis: quam risibilis 
+      <lb ed="#V" n="92"/>et non albus quam albus.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e277">
+      ¶ Si dicatur quod prius homo videtur esse risi 
+      <lb ed="#V" n="93"/>bilis quam non asinus: et tamen primum praedicatum est affirmatiuum de 
+      <lb ed="#V" n="94"/>2o modo: et 2m negatiuum.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e284">
+      ¶ Dico quod si intelligatur per non 
+      asi<lb ed="#V" n="95" break="no"/>num: idem quod distinctum: sic dico quod hoc praedicatum esse 
+      distin<lb ed="#V" n="96" break="no"/>ctum posterius inest quam risibile: quia vnum inest per accidens et aliud 
+      <lb ed="#V" n="97"/>per se. Si autem intelligas per istam negationem: homo non est 
+      asi<lb ed="#V" n="98" break="no"/>nus: solummodo negionem identitatis asini ad hominem vel econverso. 
+      <lb ed="#V" n="99"/>Dico quod illa negatiua est prior quacunque affirmatiua 
+      <lb ed="#V" n="100"/>de 2o modo. 3m signum naturae est in quo conueniunt eis passio 
+      <lb ed="#V" n="101"/>nes per se positiue: quia quandocumque aliqua passio posita conse 
+      <lb ed="#V" n="102"/>quitur ipsum subiectum pro aliquo signo posteriori illud subiectus 
+      <lb ed="#V" n="103"/>praeintellecitur in signo priori fuisse sub negatione illius. Nam 
+      <lb ed="#V" n="104"/>si non: tunc sub affirmatione. et sic sibi infuisset primo modo: 
+      cu<lb ed="#V" n="105" break="no"/>ius oppositum supponitur: supponitur enim quod pa in 2o signo 
+      ad<lb ed="#V" n="106" break="no"/>ueniat sicut omnia praedicata affirmatiua: vel saltem in 3o signo 
+      <lb ed="#V" n="107"/>pon praecessionem prerdicamentorum negatiuorum. 4m signum est in 
+      <lb ed="#V" n="108"/>qua sibi conueniunt ea quae per accidens insunt: sicut patet de 
+      mul<lb ed="#V" n="109" break="no"/>tis modis intrinsecis: qui per demonstrationem de quiditate non possunt 
+      <lb ed="#V" n="110"/>concludi: sicut quod albedo existat: et quod albedo fit haec et quod 
+      al<lb ed="#V" n="111" break="no"/>bedo sit intensa: et de multi aliis: probatur quod ista sibi insunt 
+      <lb ed="#V" n="112"/>post omnia praedicata: quia quaecumque insunt alicui subiecto per se et 
+      ne<lb ed="#V" n="113" break="no"/>cessario sibi prius conueniunt quam quae per accidens insunt: sed illa 
+      <lb ed="#V" n="114"/>de tribus signis praecedentibus conueniut subiecto per se et necessario. 
+      il<lb ed="#V" n="115" break="no"/>la autem de 4o signo per accidens et contingenter: ergo necessario 
+      <lb ed="#V" n="116"/>conueniunt eis posterius etiam in posteriori signo quam alia 
+      praedi<lb ed="#V" n="117" break="no"/>cta.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e336">
+      ¶ Istis praemissis ad propositum applicando patet: quod 
+      albe<lb ed="#V" n="118" break="no"/>do et nigrede in primo signo: nec sunt idem: nec non idem: quia 
+      <lb ed="#V" n="119"/>identitas non conuenit sibi: nec non identitas pro primo signo: sed 
+      <lb ed="#V" n="120"/>tantum albedo et nigredo sunt: sicut equinitas est tantum equini 
+      <lb ed="#V" n="121"/>tas. In 2o signo autem albedo et nigredo sunt non 
+      idem<lb ed="#V" n="122" break="no"/>Nam ex ratione formali vnius demonstratur quod non sit alterum. 
+      <lb ed="#V" n="123"/>In 3o autem signo albedo et nigredo sunt distincta: quia 
+      <lb ed="#V" n="124"/>distinctio est passio per se positiua: accipiendo 
+      distin<lb ed="#V" n="125" break="no"/>ctionem in communi: quia distinctio realis est per accidens inter ea. 
+      <lb ed="#V" n="126"/>quod autem non identitas sit prior distinctione sufficienter 
+      <lb ed="#V" n="127"/>probatum est contra opinione. primam. In 4o autem signo insunt sibi 
+      <lb ed="#V" n="128"/>existentia et inherentia et talia. Uerum est quod quodlibet istorum 
+      <lb ed="#V" n="129"/>signorum diuisibile est. Nam in primo signo aliqua sunt priora aliis. 
+      <lb ed="#V" n="130"/>In negatiuis etiam de 2o signo forte ita est: et in illis 
+      af<lb ed="#V" n="131" break="no"/>firmatiuis etiam de 3o signo. In illis autem de 4o signo non 
+      <lb ed="#V" n="132"/>est dubium. Nam prius albedo existit quam inhereat etc. 
+      <!--92.xml-->
+      <pb ed="#V" n="45-r"/>
+               <cb ed="#V" n="a"/>
+            </p>
+            <p xml:id="FrMS88-e31974-d1e378">
+               <lb ed="#V" n="1"/>¶ Sed contra ista instatur 4r. Primo sic. Quandocumque aliquid 
+      di<lb ed="#V" n="2" break="no"/>stincte diuiditur: quicquid cadit sub illo cadit sub altero 
+      di<lb ed="#V" n="3" break="no"/>uidentium: hoc patet. quia numerus diuiditur per par et impar: si 
+      <lb ed="#V" n="4"/>cut per differentias distinctas. Ideo quicquid cadit sub numero necessario 
+      <lb ed="#V" n="5"/>cadit sub pari vel impari: sed ens diuiditur per idem et 
+      diuer<lb ed="#V" n="6" break="no"/>sum: sicut per distincta: ergo omne ens necessario est idem vel 
+      di<lb ed="#V" n="7" break="no"/>uersum.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e396">
+      ¶ 2o sic. Posito vno contrariorum immediatorum cum 
+      constan<lb ed="#V" n="8" break="no"/>tia subiecti necessario: aliud remouetur: sed idem et diuersum vndni 
+      <lb ed="#V" n="9"/>contraria immediata circa quodcumque ens: ergo si aliquod ens non 
+      <lb ed="#V" n="10"/>sit idem necessario: per locum a contrariis immediatis erit diuersum. 
+      </p>
+            <p xml:id="FrMS88-e31974-d1e405">
+               <lb ed="#V" n="11"/>¶ 3o sic. Sicut se habent idem et diuersum essentialiter circa est 
+      <lb ed="#V" n="12"/>sentias ita idem et diuersum formaliter circa formalitates. 
+      <lb ed="#V" n="13"/>sed sequitur. non sunt idem essentialiter: ergo sunt distincta 
+      essentia<lb ed="#V" n="14" break="no"/>liter: ergo eodem modo sequitur non sunt idem formaliter: ergo sunt 
+      <lb ed="#V" n="15"/>distincta formaliter: quod est propositum.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e419">
+      ¶ 4o sic. quandocumque 
+      <lb ed="#V" n="16"/>aliquod predicatum dicitur de aliquo subiecto simpliciter accepto 
+      eo<lb ed="#V" n="17" break="no"/>dem modo dicetur de eo cum determinatione accepta non 
+      di<lb ed="#V" n="18" break="no"/>minuente: sed ly formaliter non est deterus diminuens. Cum 
+      erge<lb ed="#V" n="19" break="no"/>dicatur quod omne ens vel est idem vel diuersum: sequitur quod omne ens 
+      <lb ed="#V" n="20"/>vel est formaliter idem: vel diuersum formaliter: eodem modo sequitur 
+      <lb ed="#V" n="21"/>hoc non est idem: ergo diuersum: sequitur. hoc non est formaliter idem: egr 
+      <lb ed="#V" n="22"/>distinctum formaliter. propter eande rationem.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e437">
+      ¶ Ad primum concedo ma 
+      <lb ed="#V" n="23"/>iorem: quod necessario omne quod cadit sub ente vel est idem: vel 
+      diuer<lb ed="#V" n="24" break="no"/>sum: et ideo talia que dicuntur non idem formaliter dico: quod cadunt 
+      <lb ed="#V" n="25"/>sub membro altero scilicet sub identitate: verum est enim quod sunt ide 
+      <lb ed="#V" n="26"/>simpliciter: licet non pro primo signo: et bene stat quod sunt non idem pro 
+      ali<lb ed="#V" n="27" break="no"/>quo signo: et tamen simpliciter idem.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e450">
+      ¶ Dico ergo quod intellectus et volun 
+      <lb ed="#V" n="28"/>tas in deo sunt vna res: et idem simpliciter loquendo: non autem 
+      <lb ed="#V" n="29"/>diuersa.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e457">
+      ¶ Ad 2m dico. quod si diceretur de istis: de quibus est 
+      <lb ed="#V" n="30"/>sermo: quod essent non idem simpliciter: bene sequeretur per locum a contrariis 
+      im<lb ed="#V" n="31" break="no"/>mediatis: quod essent distincta simpliciter: sed non conceditur prima 
+      <lb ed="#V" n="32"/>ilicet quod non sunt idem simpliciter. Si vero dicas quod non sunt 
+      idem<lb ed="#V" n="33" break="no"/>formaliter: ergo sunt distincta. Dico quod addito tali modo non 
+      <lb ed="#V" n="34"/>sequitur per locum a contrariis immediatis: quia talis modus distruit 
+      <lb ed="#V" n="35"/>contrarietatem. Ideo dico. quod sicut iste non sunt contrarie. homo est 
+      quidi<lb ed="#V" n="36" break="no"/>tatiue sanus: et homo est quiditatiue eger: sed iste sunt contrarie: homo 
+      <lb ed="#V" n="37"/>est eger: homo est sanus: sic nec hic: ista sunt idem formaliter. 
+      <lb ed="#V" n="38"/>ista non sunt idem formaliter: ita quod addito modo non tenet: sed 
+      sim<lb ed="#V" n="39" break="no"/>pliciter loquendo tenet.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e481">
+      ¶ Ad 3m dico quod homo et asinus non sunt 
+      <lb ed="#V" n="40"/>idem essentialiter: nec sunt distincta essentialiter: quia neutrum ho 
+      <lb ed="#V" n="41"/>rum est de eorum essemus.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e488">
+      ¶ Sed contra hoc accipiamus 
+      distinctio<lb ed="#V" n="42" break="no"/>nem essentialem pro illa distinctione quae fundatur in essentiis: 
+      <lb ed="#V" n="43"/>et ita dicam de distinctis formaliter.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e496">
+      ¶ Dico quod licet consequentia illa 
+      <lb ed="#V" n="44"/>posset tenere in creatis: vbi sunt quattuor signa. de quibus 
+      <lb ed="#V" n="45"/>superius est aliqualiter tactum: tamen in divinis non: quia non sunt ibi nisi 
+      <lb ed="#V" n="46"/>duo.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e505">
+      ¶ Ad cuius euidentiam est sciendum. quod sicut dicebatur 
+      <lb ed="#V" n="47"/>superius de illis quattuor signis qua conueniunt albedini et 
+      ni<lb ed="#V" n="48" break="no"/>gredini scilicet quod in primo signo albedo et nigredo sunt tantum ipse: i 
+      <lb ed="#V" n="49"/>2o possunt intelligi no idem. in 3o intelliguntur distincta. in 4 
+      <lb ed="#V" n="50"/>adueniunt eis aliqua per accidens: sicut est imaginandum in diuinis 
+      <lb ed="#V" n="51"/>de intellectu et voluntate: et etiam de aliis attributis quantum ad 
+      <lb ed="#V" n="52"/>primum signum: et quantum ad 2m: sed quia habent aliquid quod videtur 
+      repu<lb ed="#V" n="53" break="no"/>gnare distinctioni quae sibi deberet competere pro 3o signo scilicet in 
+      <lb ed="#V" n="54"/>finitas quae excludit omnem distinctionem. et etiam repugnat eis 
+      <lb ed="#V" n="55"/>aduenire aliqua per accidens. hoc est quod licet simili modo procedatur quantum ad 
+      <lb ed="#V" n="56"/>primum signum et 2m: non tamen quantum ad 3m et 4or que eis non competunt 
+      <lb ed="#V" n="57"/>Primum ergo eis conuenit vt natura eorum et quidditas salueter: et 2o 
+      <lb ed="#V" n="58"/>vt saluetur in eis veritas primi principii complexi. Cum ergo 
+      prio<lb ed="#V" n="59" break="no"/>ri non repugnet intelligi sine posteriori: et 2m signum in quo 
+      <lb ed="#V" n="60"/>sunt non idem fit prius 3o in quo deberent esse distincta: 
+      nul<lb ed="#V" n="61" break="no"/>la repugnantia videtur subtiliter intelligenti. quod dicantur aliqualiter 
+      ni<lb ed="#V" n="62" break="no"/>idem: et tamen non sunt distincta: nec repugnat vniversaliter non 
+      iden<lb ed="#V" n="63" break="no"/>titati esse sine distinctione propter prioritatem.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e544">
+      ¶ Ex hoc patet ad 
+      ar<lb ed="#V" n="64" break="no"/>gumentum. In creaturis enim inueniuntur non solum duo 
+      prima<lb ed="#V" n="65" break="no"/>signa: sed etiam 3m et 4m. eo quod nihil in eis est quod repugnet 
+      di<lb ed="#V" n="66" break="no"/>stinctioni: et his qua conueniunt per accidens: et propter hoc babetm: sunt non 
+      <!--92.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>idem: ergo distinguuntur: sed in divinis: quia non est ibi 3m signum: pro 
+      quo<lb ed="#V" n="68" break="no"/>eis deberet inesse distinctio nec etiam 4m: pro quo deberent in esse 
+      <lb ed="#V" n="69"/>insunt per accidens: non tenet.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e564">
+      ¶ Ad 4m dico quod precia differetio 
+      dimi<lb ed="#V" n="70" break="no"/>nuens vel distrahens non destruit propositionem: sed etiam differentio 
+      praescin<lb ed="#V" n="71" break="no"/>dens: multe enim propositiones sunt simpliciter vere: quae tamen false: sunt ad 
+      <lb ed="#V" n="72"/>dita praecisione tali. Ista enim est simpliciter vera. homo aut est sanus 
+      <lb ed="#V" n="73"/>aut eger: et tamen ista est falsa: homo quidditatiue est sanus vel 
+      <lb ed="#V" n="74"/>eger. praecius enim addita fundamento sic praescindit 
+      fundamen<lb ed="#V" n="75" break="no"/>tum quod abstrahit ab omni passione et contrarietate: nec aliquod 
+      <lb ed="#V" n="76"/>est predicatum de 2o modo quod possit ipsum attingere sub ta 
+      <lb ed="#V" n="77"/>li precisione.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e584">
+      ¶ Sed quomodo in affirmationem resoluiter 
+      nega<lb ed="#V" n="78" break="no"/>tio:
+    </p>
+            <p xml:id="FrMS88-e31974-d1e589">
+      ¶ Dico quod licet non sit ibi distinctio realis scilicet qua est relates 
+      <lb ed="#V" n="79"/>realis: tamen bene est ibi distinctio fundamentalis inter 
+      illa<lb ed="#V" n="80" break="no"/>attributa: sic quod voluntas non est formaliter intellectus et 
+      fun<lb ed="#V" n="81" break="no"/>damentaliter distinguuntur: nec ratio quiditatiua voluntatis est 
+      <lb ed="#V" n="82"/>ratio quidditatiua intellectus.
+    </p>
+            <p xml:id="FrMS88-e31974-d1e601">
+      ¶ Ad argumentum 
+      pa<lb ed="#V" n="83" break="no"/>tet. ergo etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

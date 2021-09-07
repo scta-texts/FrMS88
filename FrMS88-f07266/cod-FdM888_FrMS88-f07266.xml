@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f07266"><!-- l2d1q12 -->
+            <head xml:id="FrMS88-f07266-Hd1e108">Quaestio 12</head>
+            <p xml:id="FrMS88-f07266-d1e111">
+      Questio. xii.
+      <lb ed="#V" n="31"/>QUarta quaestio est. Utrum omnis creatura 
+      quan<lb ed="#V" n="32" break="no"/>tum est de se sit de nihilo. et vi 
+      <lb ed="#V" n="33"/>detur quod sic. ysa. Ecce vos ex nihilo estis 
+      </p>
+            <p xml:id="FrMS88-f07266-d1e120">
+               <lb ed="#V" n="34"/>¶ Contra. ratio nihileitatis non est bona. ergo etc 
+      <lb ed="#V" n="35"/>aliqui quod creatura 
+      <lb ed="#V" n="36"/>hic dicunt quantum est de se 
+      qi<lb ed="#V" n="37" break="no"/>nihil. sed per comparationem ad deum est aliquid. Alii dicunt 
+      <lb ed="#V" n="38"/>econverso.
+    </p>
+            <p xml:id="FrMS88-f07266-d1e133">
+      ¶ Sed contra quod conuenit alicui secundum quiditatem cuicumque 
+      <lb ed="#V" n="39"/>comparetur est illud. et ita si esset nihil cuicumque 
+      compara<lb ed="#V" n="40" break="no"/>ta esset nihil.
+    </p>
+            <p xml:id="FrMS88-f07266-d1e140">
+      ¶ Sed sciendum quod de se nihil potest intel 
+      <lb ed="#V" n="41"/>ligi tripliciter. Primo in primo modo. et hoc non potest esse. quia 
+      si<lb ed="#V" n="42" break="no"/>non ens esset de quiditate eius non posset fieri ens. Similitir 
+      <lb ed="#V" n="43"/>priuatiuum non est de quiditate positiui. Si intelligatur in 
+      <lb ed="#V" n="44"/>2o modo: hoc non stat. quia quod conuenit alicui in 2o modo est de 
+      <lb ed="#V" n="45"/>mostrabile de ipso. Et ita necessario sibi conuenit. et ita 
+      <lb ed="#V" n="46"/>creatura haberet necessario non esse. nec per accidens. quia 
+      <lb ed="#V" n="47"/>quandocumque inducitur vnum priuatiue oppositorum 
+      destruitu<lb ed="#V" n="48" break="no"/>aliud: et ita posset fieri quod non esset de nihilo.
+    </p>
+            <p xml:id="FrMS88-f07266-d1e161">
+      ¶ Sed nun 
+      <lb ed="#V" n="49"/>quid per accidens cum determinatione: Dico quod sic. sic 
+      intelligen<lb ed="#V" n="50" break="no"/>do quod non habet esse de se nisi accipiat ab alio.
+    </p>
+            <p xml:id="FrMS88-f07266-d1e168">
+      ¶ Sed contra 4r 
+      <lb ed="#V" n="51"/>Primo sic. illud quod conuenit alicui non ab alio: sed a se con 
+      <lb ed="#V" n="52"/>uenit sibi per se: sed creatura habet a se non esse. quia non a deo. 
+      er<lb ed="#V" n="53" break="no"/>go etc.
+    </p>
+            <p xml:id="FrMS88-f07266-d1e177">
+      ¶ 2o sic. illud conuenit alicui per se quod secundum inclinatio 
+      <lb ed="#V" n="54"/>nem naturalem sibi conuenit. sed ita est de creatura. quia si dimittati 
+      <lb ed="#V" n="55"/>sibi cadit in non ens: sicut graue quando dimittitur cadit deo 
+      <lb ed="#V" n="56"/>sum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f07266-d1e186">
+      ¶ 3o sic. quod conuenit alicui ab eterno: conuenit sec 
+      <lb ed="#V" n="57"/>bi per se. Sed creature conuenit ab eterno non esse. ergo per se. 
+      </p>
+            <p xml:id="FrMS88-f07266-d1e191">
+               <lb ed="#V" n="58"/>¶ 4o id quod conuenit alicui necessario: conuenit sibi per se 
+      <lb ed="#V" n="59"/>sed non esse conuenit creature necessario. quia non contingenter 
+      <lb ed="#V" n="60"/>quod enim conuenit alicui contingenter: conuenit sibi ab aliquo prin 
+      <lb ed="#V" n="61"/>contingenti. deus autem per voluntatem suam non produxit res 
+      <lb ed="#V" n="62"/>in non esse.
+    </p>
+            <p xml:id="FrMS88-f07266-d1e204">
+      ¶ Ad primum dico. quod inste regule note non videntur 
+      <lb ed="#V" n="63"/>tenere in priuatiuis: vera est ergo maior. si illud sit 
+      pe<lb ed="#V" n="64" break="no"/>sitiuum. sed vbi est priuatiuum non videtur vera. et ita est in propo 
+      <lb ed="#V" n="65"/>sito.
+    </p>
+            <p xml:id="FrMS88-f07266-d1e214">
+      ¶ Ad 2m dico. quod non habet ad annihilationem 
+      inclina<lb ed="#V" n="66" break="no"/>tionem naturalem. sicut graue quod habet principium sui motus positiuum. 
+      <!--292.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>sed creatura non habet principium sue non entitatis positiuum. 
+      <lb ed="#V" n="68"/>sed defectiuum vel priuatiuum.
+    </p>
+            <p xml:id="FrMS88-f07266-d1e227">
+      ¶ Ad aliud dico quod 
+      positi<lb ed="#V" n="69" break="no"/>uum quod conuenit ab eterno: conuenit per se. in priuatiuis non tenet. 
+      </p>
+            <p xml:id="FrMS88-f07266-d1e232">
+               <lb ed="#V" n="70"/>¶ Ad aliud videtur per hoc probari: quod mudus fuerit ab 
+      eter<lb ed="#V" n="71" break="no"/>no. quia priuauo quae per accidens inest pro eo tempore pro quo per accidens 
+      <lb ed="#V" n="72"/>inest: potest non inesse. si non ergo necessario ab eterno fuit sub non est 
+      <lb ed="#V" n="73"/>se: per quod ergo principium contingens amouebatur: Si autem contigenter non 
+      <lb ed="#V" n="74"/>fuit ab eterno. ergo potuit eam deus expellere ab 
+      eterno<lb ed="#V" n="75" break="no"/>Sed dices quod pro eo signo pro quo aptum natum est non ines 
+      <lb ed="#V" n="76"/>non inesset. sicut homo non est risibile pro primo signo. quia pro illo 
+      si<lb ed="#V" n="77" break="no"/>gnto non est aptum natum inesse. sed pro alio signo etc.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

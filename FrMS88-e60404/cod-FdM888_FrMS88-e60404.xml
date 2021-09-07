@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e60404"><!-- l1d24-25q3 -->
+            <head xml:id="FrMS88-e60404-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-e60404-d1e111">
+      Questio. <sic>ii.</sic> 
+               <lb ed="#V" n="9"/>UTrum Unitas intranea numero. Quod
+      <lb ed="#V" n="10"/>sic. quia principium est intraneum 
+      principia<lb ed="#V" n="11" break="no"/>to.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e123">
+      ¶ Contra. quia priuatua no est intranea positiuo. 
+      <lb ed="#V" n="12"/>hic dico a conclusiones. Prima est. quod 
+      vni<lb ed="#V" n="13" break="no"/>tas non est de essentia 
+      nume<lb ed="#V" n="14" break="no"/>ri.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e132">
+      ¶ hanc autem conclusiones probo. 4r
+    </p>
+            <p xml:id="FrMS88-e60404-d1e135">
+      ¶ Primo sic. Sicut se habet 
+      <lb ed="#V" n="15"/>punctus ad lineam. istans ad tempus. mutatum esse ad motum: sic 
+      <lb ed="#V" n="16"/>vnitas ad numerum: sed punctus non est de essentia linee: 
+      <lb ed="#V" n="17"/>nec instans de essentia temporis: nec mutatum esse de 
+      essentia<lb ed="#V" n="18" break="no"/>motus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e147">
+      ¶  2o sic. Quando aliquid diuiditur per duas differentias 
+      <lb ed="#V" n="19"/>vna illarum non est de essentia alterius: sed ens 
+      diuinditur<lb ed="#V" n="20" break="no"/>per vnum et multa. ergo vnitas non erit de essentia 
+      multitu<lb ed="#V" n="21" break="no"/>dinis. sed numerus videtur esse quaedam multitudo. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e156">
+      ¶ 3o sic. 
+      Op<lb ed="#V" n="22" break="no"/>posita quocumque genere oppositionis non includunt seinuincem in 
+      <lb ed="#V" n="23"/>suis essentiis: licet aliquando vnum per aliud diffiniatur: sed 
+      tan<lb ed="#V" n="24" break="no"/>quam per additamentum: sed vnum et multa sunt opposita: 
+      erge<lb ed="#V" n="25" break="no"/>vnitas non est de essentia numeri.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e167">
+      ¶ 4o sic. Impossibile est quod 
+      <lb ed="#V" n="26"/>ratio priuatiua sit de quiditate cuiuscumque positiui: et 
+      maxime<lb ed="#V" n="27" break="no"/>sibi oppositi: sed vnitas: vt patet ex supradictis: est ratio 
+      pri<lb ed="#V" n="28" break="no"/>uatiua: multitudo autem quid positiuum: ergo vnum essentialiter non 
+      <lb ed="#V" n="29"/>includit aliud.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e178">
+      ¶ 2a conclusio est. quod vnitas non est pars integralis 
+      <lb ed="#V" n="30"/>numeri: et hoc probo sic. Omnis pars integralis videtur esse de est 
+      <lb ed="#V" n="31"/>sentia sui totius: sed ostensum est. quod vnitas non est de essentia 
+      nu<lb ed="#V" n="32" break="no"/>meri: ergo nec pars integralis.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e187">
+      ¶ 2o sic. Nullum priuatiuum videtur 
+      <lb ed="#V" n="33"/>posse esse pars integralis alicuius positiui: quia cum omnis 
+      de<lb ed="#V" n="34" break="no"/>nominatio fiant a parte imperfectiori: tunc totum illud esset 
+      negati<lb ed="#V" n="35" break="no"/>uum vel priuatiuum: sed vnitas est ratio priuatiua. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e196">
+      ¶ 3 
+      <lb ed="#V" n="36"/>ontruso est. quod vnitas non est fundamentale principium numeri: et hoc patet 
+      <lb ed="#V" n="37"/>sic. Nullum positiuum potest fundari in priuatiuo: quia tunc esse 
+      <lb ed="#V" n="38"/>imperfectius priuatiuo. sed nunierus est quid positiuum. vni 
+      <lb ed="#V" n="39"/>tas autem priuatiua. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e208">
+      ¶ 2o sic. Quandocumque aliqua sunt 
+      forma<lb ed="#V" n="40" break="no"/>liter incompossibilia vnum non potest in altero fundari: sed 
+      <lb ed="#V" n="41"/>vnum et multa sunt duo incompossibilia: sicut inter se ex 
+      oppo<lb ed="#V" n="42" break="no"/>sito condiuisa: ergo numerus vel multitudo non fundatur in 
+      <lb ed="#V" n="43"/>vno.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e219">
+      ¶ 4a conclusio est. quod vnitas non est formale constitutiuum numeri: 
+      <lb ed="#V" n="44"/>quia non videtur intelligibile quod formale constitutiuum alicuius 
+      po<lb ed="#V" n="45" break="no"/>sitiui sit priuatiuum aliquod.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e226">
+      ¶ Praeterea vnitas esset de essentia nu 
+      <lb ed="#V" n="46"/>meri: quod est falsum.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e231">
+      ¶ Contra primam conclusione arguo sic. 
+      Il<lb ed="#V" n="47" break="no"/>lud est de essentia alicuius sine quo illud non potest 
+      intelli<lb ed="#V" n="48" break="no"/>gi: sed nummerus non potest intelligi sine vnitate. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e60404-d1e238">
+               <lb ed="#V" n="49"/>¶ Contra 2am. quia illud est pars integralis alicuius: in quod 
+      il<lb ed="#V" n="50" break="no"/>lud resoluiter: sed numerus resoluiter in vnitates. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e60404-d1e245">
+               <lb ed="#V" n="51"/>¶ Contra 3am. Omnis numerus radicatur super aliquam rationem 
+      <lb ed="#V" n="52"/>formalem: sed omnis ratio formalis quae est in rerum nuam necio est vna. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e60404-d1e253">
+               <lb ed="#V" n="53"/>¶ Contra 4am. quia illud formaliter constituit aliquid per quod illud 
+      <lb ed="#V" n="54"/>diffinitur: sed per vnum numerus diffinitur. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e260">
+      ¶ Ad primum 
+      di<lb ed="#V" n="55" break="no"/>cuno quod qui bene vult intelligcre numerum imaginatur ipsum esse 
+      al<lb ed="#V" n="56" break="no"/>stractu ab vnitate. vnde quaternitas non diaitet imaginari: ac 
+      si<lb ed="#V" n="57" break="no"/>essent 4or vnitates: sed est vna forma simplex vnitates non 
+      <lb ed="#V" n="58"/>includens essentialiter: sex enim sunt solum semel sex.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e271">
+      ¶ Ad 
+      <lb ed="#V" n="59"/>2m dico. quod numerus sicut aliqua forma simplex formatur ipsum 
+      <lb ed="#V" n="60"/>accipiendo non potest resolui: immo sicut triangulus vno 
+      <lb ed="#V" n="61"/>destructo angulo destruitur totaliter et non resoluiter: sit 
+      quo<lb ed="#V" n="62" break="no"/>narius vno destructo totaliter destruitur et non resoluitur. 
+      </p>
+            <p xml:id="FrMS88-e60404-d1e282">
+               <lb ed="#V" n="63"/>¶ Ad 3m dico. quod vnum bene est principium numeri: sed hoc est vni 
+      <lb ed="#V" n="64"/>non vnitas: sed denominatum ab vnitate: et in illo fundatur ratio 
+      <lb ed="#V" n="65"/>numeri: sicut virtus moralis est in prudente non in prudentiam 
+      <lb ed="#V" n="66"/>ita quod est principium fundamentale ipsius numeri: et sic sicut re¬ 
+      <!--167.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>latio resoluiter in fundamentum: sic numerus resoluiter in vnum. 
+      </p>
+            <p xml:id="FrMS88-e60404-d1e300">
+               <lb ed="#V" n="68"/>¶ Ad 4m dico. quod quando numerus diffinitur per vnum illa non est 
+      di<lb ed="#V" n="69" break="no"/>finitio essentialis et quiditatiua: sed magis quaedam 
+      descriptio<lb ed="#V" n="70" break="no"/>circumlocutiua. sicut quotidie dantur diffinitiones multe per cit 
+      <lb ed="#V" n="71"/>cumlocutiones quae non sunt quiditatiue.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e311">
+      ¶ hic tamen occurrunt 
+      <lb ed="#V" n="72"/>difficultates. Prima quomodo vnitas vel vnum est principium numeri. Dico sicut 
+      <lb ed="#V" n="73"/>dixi. quod vnitas in abstracto nullo modo est principium numeri. sed vnum: 
+      <lb ed="#V" n="74"/>sicut dicimus quod fundamentum est principium respectus fundati in eo. 
+      </p>
+            <p xml:id="FrMS88-e60404-d1e321">
+               <lb ed="#V" n="75"/>¶ 2a di. quomodo numerus mensuratur per vnum. Dico quod omnis 
+      re<lb ed="#V" n="76" break="no"/>spectus mensuratur per suum fundamentum et terminum me 
+      <lb ed="#V" n="77"/>suratio autem numeri fit per illa quae sunt causa multitudis et 
+      funda<lb ed="#V" n="78" break="no"/>mentum. non autem per illud in quo conueniunt numerata scilicet non per naturam 
+      <lb ed="#V" n="79"/>sed per heceitates.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e334">
+      ¶ 3a di. si per destructionem alicuius vnitat 
+      <lb ed="#V" n="80"/>vel productionem nouus numerus causetur vel destruatur.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e339">
+      ¶ 
+      Di<lb ed="#V" n="81" break="no"/>co quod posito numero denario vnitate ablata totus numerus de 
+      <lb ed="#V" n="82"/>narius destruitur. sed tamen remanet nouenarius et alii priores. 
+      </p>
+            <p xml:id="FrMS88-e60404-d1e346">
+               <lb ed="#V" n="83"/>¶ Sed tunc est dubium si nouenarius et alii priores erant simul cum 
+      <lb ed="#V" n="84"/>denario. Dico quod binarius et ternarius et sic de aliis vsque 
+      <lb ed="#V" n="85"/>ad. x. omnes stut in eisdem vnis ilicur. enim essentialiter ordinati. ideo posito 
+      <lb ed="#V" n="86"/>vnario omnes priores ponuntur. hoc autem non communiter inuenitur quod speciei 
+      <lb ed="#V" n="87"/>multe eiusdem generis propiqui sint similis. sed tamen in respectibus bene 
+      <lb ed="#V" n="88"/>potest inueniri.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e362">
+      ¶ Sed adhuc est dubium vtrum plures numeri 
+      eius<lb ed="#V" n="89" break="no"/>dem rationis sint in eisdem vnis. Dico quod in quocumque ternario 
+      <lb ed="#V" n="90"/>sunt tres dualitates secundum quod qualibet vnitas potest alteri connume 
+      <lb ed="#V" n="91"/>rari. et ex hoc conuicitur satis euidenter quod est forma respecti 
+      <lb ed="#V" n="92"/>ua saltem apud aliquos qui dicunt hoc esse impossibile in formis alb 
+      <lb ed="#V" n="93"/>solutis.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e375">
+      ¶  2oa pars tertii dubii est vtrum per productionem 
+      noue<lb ed="#V" n="94" break="no"/>vnitatis causaretur nouus nus. Dico quod numeri 
+      comparanm<lb ed="#V" n="95" break="no"/>tur formis specificis vel differentiis quae sunt essentialiter ordinate. 
+      <lb ed="#V" n="96"/>et ideo vna adueniente mutatur species. Eodem modo de 
+      nu<lb ed="#V" n="97" break="no"/>mero. et ideo addita vnitate vnitati vel numero semper 
+      <lb ed="#V" n="98"/>causatur nouus numerus: et ex hoc satis euidenter conuicitur quod 
+      <lb ed="#V" n="99"/>est forma respectua. quia forma abia in quantacumque distantia non pt 
+      <lb ed="#V" n="100"/>causari ab agente limitato. sed a quocumque agente quantumcunque 
+      <lb ed="#V" n="101"/>modice virtutis causeetur aliquod vnum: in quacumque distantia sit 
+      ali<lb ed="#V" n="102" break="no"/>quid aliud conueniens in aliqua ratione deterus numeri cum illo 
+      produ<lb ed="#V" n="103" break="no"/>cto: causatur nouus numerus.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e400">
+      ¶ Sed constituitur ne ille nouus 
+      <lb ed="#V" n="104"/>numerus per vltimam vnitatem formaliter: Dico quod non. quia 
+      <lb ed="#V" n="105"/>vnitates sunt eiusdem rationis. et sic numeri constituti formaliter per 
+      <lb ed="#V" n="106"/>eas essent eiusdem rationis.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e409">
+      ¶ Praeterea non est maior ratio quod vltim 
+      <lb ed="#V" n="107"/>constituat quam alie. Ideo dico. quod praexigitur appositio 
+      nouen<lb ed="#V" n="108" break="no"/>vnitatis ad hoc quod sit nonuus numerus: quia vnitates precedentes 
+      <lb ed="#V" n="109"/>non sunt sufficiens principium numeri illius vel subiecni de nouo 
+      adue<lb ed="#V" n="110" break="no"/>nientis ex appositione noue vnitatis.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e420">
+      ¶ Sed tunc occurrit diffifult 
+      <lb ed="#V" n="111"/>Utrum species numeri causaentur ex distantia: ab vnitate primo numero 
+      af<lb ed="#V" n="112" break="no"/>posita.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e427">
+      ¶ Dico quod bene fit variatio numeri ex distantia. non tamen quod 
+      <lb ed="#V" n="113"/>dstinguit sit illud in quo specifice numeri differunt. sed exigitur.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e432">
+      ¶ 4 
+      <lb ed="#V" n="114"/>di. vtrum dato quod vnitas non sit de essentis numeri: vtrum numerum 
+      <lb ed="#V" n="115"/>prior sit de essemus posterioris: vt binarius de essentia 
+      terna<lb ed="#V" n="116" break="no"/>rii. Dico quod non: quia species quae sunt de eiusdem generis numquam vna 
+      <lb ed="#V" n="117"/>est de essentia alterius.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e443">
+      ¶ Praeterea. Quando aliquid includit essentialiter 
+      ali<lb ed="#V" n="118" break="no"/>ud potest passio inclusi demonstrari de includente: sicut passio 
+      <lb ed="#V" n="119"/>animalis de homine: cum ergo passio numeri binarii sit peritas si 
+      bea<lb ed="#V" n="120" break="no"/>narius includeretur in ternario paritas posset demonstrari 
+      <lb ed="#V" n="121"/>de ternario. Dico ergo quod prior numerus non est de 
+      essen<lb ed="#V" n="122" break="no"/>tia posterioris: sed tamen verum est quod sunt essentialiter ordinati 
+      <lb ed="#V" n="123"/>et necessario habent esse in eisdem subiectis: quia posterior 
+      <lb ed="#V" n="124"/>non potest esse quin sit in illo subiecto: in quo est prior. licet non 
+      pre<lb ed="#V" n="125" break="no"/>cise in illo.
+    </p>
+            <p xml:id="FrMS88-e60404-d1e464">
+      ¶ Ad argumentum patet.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f44314"><!-- l4d6q3 -->
+            <head xml:id="FrMS88-f44314-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f44314-d1e111">
+               <lb ed="#V" n="33"/>TErtio queritur vtrum aliquod accidens 
+      <lb ed="#V" n="34"/>spirituale potest esse in aliqua siboo 
+      <lb ed="#V" n="35"/>corporali. Et videtur quod sic: quia aliter non causaretur 
+      <lb ed="#V" n="36"/>faliquid spirituale.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e122">
+      ¶ Contra quia tale accidens non 
+      <lb ed="#V" n="37"/>videtur esse proportionatum rei corporali. 
+    </p>
+            <p xml:id="FrMS88-f44314-d1e127">
+               <lb ed="#V" n="38"/>In ista quaestione sunt 4or conclusiones. ¶ Prima est quod nullum 
+      <lb ed="#V" n="39"/>accidens spirituale in permanentibus. potest esse 
+      <lb ed="#V" n="40"/>in subiecto corporali.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e136">
+      ¶ hoc probatur quadrupliciter.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e140">
+      ¶ Primo 
+      <lb ed="#V" n="41"/>a duabus causis totalibus in eodem ordine vel genere 
+      causa<lb ed="#V" n="42" break="no"/>nihil dependet. sed si aliquod accidens spirituale est in aliquo 
+      <lb ed="#V" n="43"/>subiecto corporali. sequeretur hoc.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e149">
+      ¶ Probo. quia sicut anima 
+      <lb ed="#V" n="44"/>rationalis est tota in qualibet parte corporis: ita tale acci 
+      <lb ed="#V" n="45"/>dens. sed esse sic in subiecto est esse dependens ab eo in 
+      <lb ed="#V" n="46"/>genere cause materialis. et ita materialiter dependet a qualibet parte 
+      <lb ed="#V" n="47"/>et causaliter.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e160">
+      ¶ Secundo quia impossibile est: quod aliquid dependea 
+      <lb ed="#V" n="48"/>ab aliqua potentia qua non existente nihil minus esset. sic 
+      <lb ed="#V" n="49"/>esset hic. quia in qualibet parte esset totum et corrupta 
+      <lb ed="#V" n="50"/>vna parte remaneret totum in alia parte et tamen ab illa de 
+      <lb ed="#V" n="51"/>pendebat equaliter.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e171">
+      ¶ Tertio quandocumque aliquod subiectum 
+      <lb ed="#V" n="52"/>corrupitur et accidens eius corrumpitur. sed si esset 
+      ac<lb ed="#V" n="53" break="no"/>cidens spirituale in tali subiecto non corrumperetur: quia 
+      cor<lb ed="#V" n="54" break="no"/>rupta vna parte totaliter erit in alia.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e180">
+      ¶ Quarto quia acci 
+      <lb ed="#V" n="55"/>dens migraret de subiecto in subiectum aduenientibus 
+      parti<lb ed="#V" n="56" break="no"/>bus aliis et inciperet dependere ab aliquo a quo prius 
+      <lb ed="#V" n="57"/>non dependebat: que omnia sunt impossibilia. ergo impossibile est 
+      <lb ed="#V" n="58"/>quod accidens spirituale cum supponatur esse spirituale: sit in 
+      <lb ed="#V" n="59"/>materia corporali.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e193">
+      ¶ Secunda conclusio quod ita est impossibile in 
+      <lb ed="#V" n="60"/>sieri: quia quandocumque alique due forme sunt incompossibiles 
+      <lb ed="#V" n="61"/>et motus ad eas: sed ostensum est quod in esse est 
+      impossibi<lb ed="#V" n="62" break="no"/>le igitur et in fieri.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e203">
+      ¶ Secundo quia quecumque ex suis rationibus 
+      <lb ed="#V" n="63"/>formalibus sunt incompossibilia pro omni tempore: et pro 
+      om<lb ed="#V" n="64" break="no"/>ni loco sunt incompossibilia.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e210">
+      ¶ Tertio quia impossibile est 
+      <lb ed="#V" n="65"/>aliquem effectum a duabus causis totalibus 
+      depen<lb ed="#V" n="66" break="no"/>dere.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e217">
+      ¶ Tertia conclusio quod nulla forma materialis substantialis po¬ 
+      <!--382.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>test esse immediate in qualibet parte materiae tota per eadem 
+      <lb ed="#V" n="68"/>probatur media: quia talis dependeret tota a qualet 
+      par<lb ed="#V" n="69" break="no"/>te materiae. et altera non existente nihil minus esset.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e230">
+      ¶ Quar 
+      <lb ed="#V" n="70"/>ta conclusio quod forma immaterialis: potest esse in subiecnto mate 
+      <lb ed="#V" n="71"/>riali. quia non dependet ab eo et manet et mingrare potest 
+      </p>
+            <p xml:id="FrMS88-f44314-d1e237">
+               <lb ed="#V" n="72"/>¶ Sed contra. quia videtur secundum hoc: quod omne accidens 
+      in<lb ed="#V" n="73" break="no"/>corpore sit extensum: cum relatio totius non diuidatur 
+      <lb ed="#V" n="74"/>nec duplicetur.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e246">
+      ¶ Item vox habet vim spiritualem 
+      sensi<lb ed="#V" n="75" break="no"/>bilem per quam dat intelligere conceptum aliquem. 
+      <lb ed="#V" n="76"/>igitur virtus spiritualis videtur posse in aliquo subiecto 
+      cor<lb ed="#V" n="77" break="no"/>porali esse.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e256">
+      ¶ Respondeo ad primum.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e259">
+      ¶ Dico quod non est si 
+      <lb ed="#V" n="78"/>in respectiuis qui possunt fundari immediate supra 
+      to<lb ed="#V" n="79" break="no"/>tum: licet sint indiuisibiles.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e266">
+      ¶ De secundo. exemplum est 
+      <lb ed="#V" n="80"/>valde rude. si enim esset ibi virtus aliqua ita bene daret in 
+      <lb ed="#V" n="81"/>telligere sarraceno sicut alteri.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e273">
+      ¶ Sed occurrit dubium s 
+      <lb ed="#V" n="82"/>accidens corporale potest esse in subiecto spirituali.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e278">
+      ¶ U 
+      <lb ed="#V" n="83"/>detur quod sic de motu angeli.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e283">
+      ¶ Sed dico quod non. sed 
+      il<lb ed="#V" n="84" break="no"/>le actus est spiritualis et non diuisibilis.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e289">
+      ¶ Sed dubium 
+      <lb ed="#V" n="85"/>est si ex dictis potest ostendi: quod anima sensitiua sit 
+      exten<lb ed="#V" n="86" break="no"/>sa.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e296">
+      ¶ Et quod sic. cum a qualibet parte corporis 
+      depen<lb ed="#V" n="87" break="no"/>deat. et alis corrupta parte a qua per se dependeret non 
+      <lb ed="#V" n="88"/>corrumperetur.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e303">
+      ¶ Tertium dubium est. si anima 
+      ho<lb ed="#V" n="89" break="no"/>minis sit extensa secundum dicta.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e308">
+      ¶ Aliquin dicunt quod non cum 
+      <lb ed="#V" n="90"/>separabilis sit.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e313">
+      ¶ Sed contra. quia animalitas secundum 
+      ra<lb ed="#V" n="91" break="no"/>tionem eandem dicitur de homine et asino. et ita 
+      sen<lb ed="#V" n="92" break="no"/>sibile eiusdem rationis. sensibile autem possibile 
+      diui<lb ed="#V" n="93" break="no"/>di et non possibile diuidi: non sunt eiusdem rationis.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e322">
+      ¶ Sed 
+      <lb ed="#V" n="94"/>nunquid ex hoc demonstratur quod anima est immortalis 
+      <lb ed="#V" n="95"/>quia tota est in qualibet parte materie sue. si enim de 
+      <lb ed="#V" n="96"/>penderet a materia dependeret a qualibet parte eius 
+      <lb ed="#V" n="97"/>tota. si vero non dependeret. igitur separabilis. quia 
+      nul<lb ed="#V" n="98" break="no"/>la forma corrumpitur: nisi quia subiectum cessat 
+      causa<lb ed="#V" n="99" break="no"/>re ipsam. ergo si non causat eam remanet cessante illo. 
+      </p>
+            <p xml:id="FrMS88-f44314-d1e339">
+               <lb ed="#V" n="100"/>¶ Sed hic est aliud dubium: quia secundum aliquos homo 
+      com<lb ed="#V" n="101" break="no"/>ponitur ex anima et materia prima immediate.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e346">
+      ¶ Sed ali 
+      <lb ed="#V" n="102"/>bedo non est immediate in materia prima. ergo est 
+      imme<lb ed="#V" n="103" break="no"/>diate in anima quod est absurdum dicere.
+    </p>
+            <p xml:id="FrMS88-f44314-d1e353">
+      ¶ Si dico 
+      <lb ed="#V" n="104"/>tur quod in vtraque sequetur inconueniens maius: quod anima 
+      <lb ed="#V" n="105"/>est extensa vel materia: vel si non sic est tertia entitas: 
+      <lb ed="#V" n="106"/>quam non dant vel videtur quod detur alia forma substantialis 
+      <lb ed="#V" n="107"/>cui immediate insint ista accidentia corporalia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

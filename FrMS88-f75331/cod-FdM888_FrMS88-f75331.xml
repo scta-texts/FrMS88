@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="224-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f75331"><!-- l4d40q1 -->
+            <head xml:id="FrMS88-f75331-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f75331-d1e111">
+               <lb ed="#V" n="98"/>Nunc superest etc. 
+      <lb ed="#V" n="99"/>Hic incipit distinctio 40a. Circa quae 
+      <lb ed="#V" n="100"/>queritur. vtrum 
+      con<lb ed="#V" n="101" break="no"/>sanguinitas impediat matrimonium. 
+      <lb ed="#V" n="102"/>Quod non. quia habraam accepit sororem.
+    </p>
+            <p xml:id="FrMS88-f75331-d1e124">
+      ¶ Ee 
+      <lb ed="#V" n="103"/>tra leuitici. 19o. omnis homo ad prox 
+      <lb ed="#V" n="104"/>mam sanguinis sui non accedet. 
+      <lb ed="#V" n="105"/>4or tempora: sicut prius. In 
+      <lb ed="#V" n="106"/>hic distinguuntu tpore legis naturae 
+      consan<lb ed="#V" n="107" break="no"/>guinitas nullo modo impediuit in linea laterali: sed in 
+      re<lb ed="#V" n="108" break="no"/>cta. sicut Adam non potuit contrahere cum filia sed cavn cum sorore 
+      <lb ed="#V" n="109"/>In processu temporis fuit prohibitum. quando tempore legi scripte prohibea 
+      <lb ed="#V" n="110"/>tur gradus directus sicut prius et etiam gradus consanguinitatis 
+      <lb ed="#V" n="111"/>lateralis in primo gradu sed in 2o gradum non fuit prohibitum. 
+      </p>
+            <p xml:id="FrMS88-f75331-d1e146">
+               <lb ed="#V" n="112"/>¶ Tpore praemitiue ecclentie sicut tempore legis scripte. quia alii 
+      gra<lb ed="#V" n="113" break="no"/>dus prohibentur iure positiuo quod nondum erat conditum. 
+      Po<lb ed="#V" n="114" break="no"/>stea tempore isto fuit magis artatum per ecclesiam. 
+      <lb ed="#V" n="115"/>4or inquirenda ad videndum quid 
+      <lb ed="#V" n="116"/>Sunt autemi est consanguinitas.
+    </p>
+            <p xml:id="FrMS88-f75331-d1e159">
+      ¶ Prio intaque 
+      <lb ed="#V" n="117"/>videndum est quid est stipes. est autem fons a quo 
+      deriuan<lb ed="#V" n="118" break="no"/>omnes vnius gneris. sicut adam est omnium origo. et sumitur 
+      po<lb ed="#V" n="119" break="no"/>stea genus linee recte a stipite in infinitum. inea 
+      tran<lb ed="#V" n="120" break="no"/>suersalis. sicut duo fratres: duo filii duorum frum. et 
+      ge<lb ed="#V" n="121" break="no"/>neraliter quando ambe persone descendunt ab eodem. sed neuter 
+      <lb ed="#V" n="122"/>ab alia. Gradus autem est distantia vniuscuiusque secundum 
+      propor<lb ed="#V" n="123" break="no"/>tionem a stipite secundum consanguinitatem. Sunt autem quatuor 
+      <lb ed="#V" n="124"/>hic regule.
+    </p>
+            <p xml:id="FrMS88-f75331-d1e180">
+      ¶ Prima regula est. quod tanta est distantia in 
+      li<lb ed="#V" n="125" break="no"/>nea collaterali secundum gradum quanta in perpendiculari. ita 
+      <lb ed="#V" n="126"/>quod quanto gradus remotior distat a stipite et a quolibus 
+      <lb ed="#V" n="127"/>per aliam lineam descendentem. Quandocumque enim est 
+      <lb ed="#V" n="128"/>progressus ad vnum primum persone que sunt in linea 
+      tran<lb ed="#V" n="129" break="no"/>luersali non habent propinquitatem inter se nisi quia a stipite 
+      </p>
+            <p xml:id="FrMS88-f75331-d1e193">
+               <lb ed="#V" n="130"/>¶ Secunda regula. est quod quando aliquin distant inequaliter a sti¬ 
+      <!--452.xml-->
+      <pb ed="#V" n="225-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>vite distantia est sumenda ab illo qui magis distat: sicut quando 
+      <lb ed="#V" n="2"/>pronepos a fraue. sicut pater a pronepote.
+    </p>
+            <p xml:id="FrMS88-f75331-d1e209">
+      ¶ 3a regula. quando fit 
+      com<lb ed="#V" n="3" break="no"/>paratio aliquorum in linea perpendiculari. et aliquorum in 
+      li<lb ed="#V" n="4" break="no"/>nea transuersali: maior est germanitas eorum qui in linea per 
+      <lb ed="#V" n="5"/>pendiculari quantumcumque. procedat et hec tota ratio. quod spiritus 
+      san<lb ed="#V" n="6" break="no"/>ctus procedat a patre et filio.
+    </p>
+            <p xml:id="FrMS88-f75331-d1e220">
+      ¶ 4a regula est quod aliter sen 
+      <lb ed="#V" n="7"/>uatur distinctio graduum secundum ius canonicum et ciuile. 
+      sido<lb ed="#V" n="8" break="no"/>rus secundum ius ciuile dicit quod duo fratres faciunt duos gradus: 
+      <lb ed="#V" n="9"/>et sic procedendo. Canoniste dicunt melius. nam secundum eos 
+      pri<lb ed="#V" n="10" break="no"/>mus gradus in linea transuersali est inter fratres. secundus 
+      <lb ed="#V" n="11"/>inter consanguineos germanos. tertius inter 
+      consangui<lb ed="#V" n="12" break="no"/>neos secundos et sic vltra.
+    </p>
+            <p xml:id="FrMS88-f75331-d1e236">
+      ¶ Istis praemissis videndum est 
+      <lb ed="#V" n="13"/>quomodo impeditur matrimonium.
+    </p>
+            <p xml:id="FrMS88-f75331-d1e241">
+      ¶ hic dicit secundo. quod antiquitus 
+      <lb ed="#V" n="14"/>obseruabatur vsque ad septimum gradum. postea ordinauit 
+      <lb ed="#V" n="15"/>ecclesia vsque ad 4m inclusine.
+    </p>
+            <p xml:id="FrMS88-f75331-d1e249">
+      ¶ Sed hic oc. quatuor difficultas 
+      </p>
+            <p xml:id="FrMS88-f75331-d1e252">
+               <lb ed="#V" n="16"/>¶ Prima difficultas si potest esse tanta distantia in perpendiculari 
+      <lb ed="#V" n="17"/>linea quod admittatur matrimonium.
+    </p>
+            <p xml:id="FrMS88-f75331-d1e259">
+      ¶ Dicitur quod non: Ideo 
+      adam<lb ed="#V" n="18" break="no"/>non posset nubere cum aliqua muliere.
+    </p>
+            <p xml:id="FrMS88-f75331-d1e264">
+      ¶ 2a difficultas. si aliquin 
+      <lb ed="#V" n="19"/>contraxerunt irregularitatem cum cognatione tali modo legali. 
+      </p>
+            <p xml:id="FrMS88-f75331-d1e269">
+               <lb ed="#V" n="20"/>¶ Dicit secundo quod non fuit illegitimum factum in statu legali 
+      <lb ed="#V" n="21"/>ideo tenent.
+    </p>
+            <p xml:id="FrMS88-f75331-d1e276">
+      ¶ 3a difficultas. si illi qui ante concilium illud contraxerant 
+      <lb ed="#V" n="22"/>in gradu prohibito. si postea fuit rarificatum.
+    </p>
+            <p xml:id="FrMS88-f75331-d1e282">
+      ¶ Dicit 
+      sco<lb ed="#V" n="23" break="no"/>quod quia illegitime persone erant. ideo oportet reuocare 
+      consen<lb ed="#V" n="24" break="no"/>sum.
+    </p>
+            <p xml:id="FrMS88-f75331-d1e289">
+      ¶ 4a difficultas si vnus in quarto gradu. et alius in qui 
+      <lb ed="#V" n="25"/>to.
+    </p>
+            <p xml:id="FrMS88-f75331-d1e294">
+      ¶ Aliqui dicunt quod non ditet contrahere. sed si fecerunt non dirimitur. 
+      </p>
+            <p xml:id="FrMS88-f75331-d1e297">
+               <lb ed="#V" n="26"/>¶ Sed hoc no videtur: quia distantia sumenda est a magis distante. et 
+      <lb ed="#V" n="27"/>ideo legitime potest fieri.
+    </p>
+            <p xml:id="FrMS88-f75331-d1e304">
+      ¶ Quinta difficultas est: quia secundum aliquos 
+      <lb ed="#V" n="28"/>potest contrahere cum liberis. vnus est inuuenis et alter antiquus 
+      <lb ed="#V" n="29"/>qui facit. 5. generationes. si enim iste distat per. 5. gradus a 
+      <lb ed="#V" n="30"/>tipite tantum ab eo. si ergo ista regula est vera videtur quod possit.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

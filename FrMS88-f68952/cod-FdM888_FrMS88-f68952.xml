@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f68952"><!-- l4d21q2 -->
+            <head xml:id="FrMS88-f68952-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f68952-d1e111">
+               <lb ed="#V" n="29"/>SEcundo queritur vtrum preccata venialia 
+      <lb ed="#V" n="30"/>que commiserunt damnati 
+      pu<lb ed="#V" n="31" break="no"/>niantur in inferno eternaliter.
+    </p>
+            <p xml:id="FrMS88-f68952-d1e120">
+      ¶ Quod sic. quia omnis 
+      <lb ed="#V" n="32"/>pena inferni videtur eterna. cum ibi nulla sit 
+      reden<lb ed="#V" n="33" break="no"/>ptio in Iob.
+    </p>
+            <p xml:id="FrMS88-f68952-d1e127">
+      ¶ contra. quia exqui culpa est venialis 
+      <lb ed="#V" n="34"/>pena diciet esse venialis hoc autem non esset si in eternum duraret. 
+      <lb ed="#V" n="35"/>aliqui quod peccatum veniale non punitur 
+      <lb ed="#V" n="36"/>Hic dicun in inferno: quia pena infernalis solum 
+      <lb ed="#V" n="37"/>debetur peccatio mortali.
+    </p>
+            <p xml:id="FrMS88-f68952-d1e138">
+      ¶ Sed contra. quia non plus habent de priuile 
+      <lb ed="#V" n="38"/>gio illi quae sunt in inferno quam illi quae sunt in purgatorio: et tamen 
+      <lb ed="#V" n="39"/>illi puniuntur pro peccatis venialibus.
+    </p>
+            <p xml:id="FrMS88-f68952-d1e146">
+      ¶ Alii dicunt quod 
+      <lb ed="#V" n="40"/>peccatis venialibus debetur pena eterna per se. quia omnis 
+      inor<lb ed="#V" n="41" break="no"/>dinatio contra deum quantum est de se digna est pena eterna. sed per 
+      <lb ed="#V" n="42"/>accidens: quia coniungitur gratie: efficitur temporalis. et ideo si quis sine gratia 
+      <lb ed="#V" n="43"/>moriatur. pro illis punitur eternaliter.
+    </p>
+            <p xml:id="FrMS88-f68952-d1e157">
+      ¶ Sed contra. si per se debetur 
+      <lb ed="#V" n="44"/>eis pena eterna. ergo existens in gratia per se est obligatus ad 
+      <lb ed="#V" n="45"/>penam eternaura: quod est inconueniens.
+    </p>
+            <p xml:id="FrMS88-f68952-d1e164">
+      ¶ Alii autem dicunt quod 
+      <lb ed="#V" n="46"/>peccatum veniale per se habet penam temporalem. per accidens autem vt 
+      <lb ed="#V" n="47"/>coniugitur cum mortali debetur sibi pena eterna.
+    </p>
+            <p xml:id="FrMS88-f68952-d1e171">
+      ¶ Sed contra. 
+      <lb ed="#V" n="48"/>arguit Scotus. deus semper citra condignum punit. sicut 
+      vltra<lb ed="#V" n="49" break="no"/>condignum remunerat.
+    </p>
+            <p xml:id="FrMS88-f68952-d1e178">
+      ¶ Alii dicunt quod omnia peccata simul 
+      <lb ed="#V" n="50"/>ponderantur: et datur eis vna pena simpliciter.
+    </p>
+            <p xml:id="FrMS88-f68952-d1e183">
+      ¶ Contra. aut 
+      <lb ed="#V" n="51"/>per additionem venialis habent intensiorem penam: et si illa sit 
+      eter<lb ed="#V" n="52" break="no"/>na sequitur quod punitur pro veniali eternaliter: et incidit cum pri 
+      <lb ed="#V" n="53"/>mis: si non habet intensiorem penam. ergo non omnia ponderantura 
+      <lb ed="#V" n="54"/>nec puniuntur venialia cum tanta pena puniuntur sine eis sicut 
+      <lb ed="#V" n="55"/>cum eis: et tunc habent maius priuilegium quam illi de purgato 
+      <lb ed="#V" n="56"/>rio quae sunt in gratia dei.
+    </p>
+            <p xml:id="FrMS88-f68952-d1e200">
+      ¶ Ideo dicit Scuo. quod aliqua 
+      pena<lb ed="#V" n="57" break="no"/>eis debetur. sed non eterna. sed cum fuerit quis sufficienter 
+      <lb ed="#V" n="58"/>punitus in inferno pro venialibus cessabit illa pena. 
+      </p>
+            <p xml:id="FrMS88-f68952-d1e207">
+               <lb ed="#V" n="59"/>¶ Sed contra. vt supra est argutum. quia in inferno nulla est 
+      re<lb ed="#V" n="60" break="no"/>demptio.
+    </p>
+            <p xml:id="FrMS88-f68952-d1e214">
+      ¶ 2o. quia ex quo in vltimo termino est: non est 
+      <lb ed="#V" n="61"/>ialiquo motu amplius augmenti vel decrementi.
+    </p>
+            <p xml:id="FrMS88-f68952-d1e219">
+      ¶ 3o 
+      <lb ed="#V" n="62"/>quia dicitur quod maior erit eorum pena post iudicium. et secundum hoc 
+      <lb ed="#V" n="63"/>eset minor.
+    </p>
+            <p xml:id="FrMS88-f68952-d1e226">
+      ¶ 4a. quia pono quod aliquis de mille peccatis est 
+      <lb ed="#V" n="64"/>confessus: et pena eterna est mutata in penam temporalem: si mo 
+      <lb ed="#V" n="65"/>riatur in aliquo proeccatio mortali non punitur pena eterna 
+      pro<lb ed="#V" n="66" break="no"/>primis.
+    </p>
+            <p xml:id="FrMS88-f68952-d1e235">
+      ¶ Respondeo ad prium dicitur quod quantum ad hoc in quo consistit damna¬ 
+      <!--437.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>tio: vere nulla est remissio. et hoc est propter peccatum mortale. 
+      </p>
+            <p xml:id="FrMS88-f68952-d1e245">
+               <lb ed="#V" n="68"/>¶ Ad 2m dico quod non sunt in vltimo terio quantum ad omnia: sed 
+      quan<lb ed="#V" n="69" break="no"/>ad substantiam danni: quia ex tunc non possunt mereri.
+    </p>
+            <p xml:id="FrMS88-f68952-d1e252">
+      ¶ Ad 3m. 
+      di<lb ed="#V" n="70" break="no"/>corquod maiori pena punitur: quia in corpore et anima. vnde 
+      impa<lb ed="#V" n="71" break="no"/>ritas intelligitur de illis in quibus punitio consistit 
+      differen<lb ed="#V" n="72" break="no"/>ter.
+    </p>
+            <p xml:id="FrMS88-f68952-d1e261">
+      ¶ Ad vltimum dicendum. quod idem iudicium videmus de 
+      <lb ed="#V" n="73"/>mortalibus confessis. immo istud confirmat propositum. quia non 
+      <lb ed="#V" n="74"/>plus exigit deus nisi ad quod aliquins obligatur.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

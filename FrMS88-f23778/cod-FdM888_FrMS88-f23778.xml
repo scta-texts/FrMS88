@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="164-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f23778"><!-- l2d43q2 -->
+            <head xml:id="FrMS88-f23778-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f23778-d1e111">
+               <lb ed="#V" n="105"/>¶ Questio. ii. 
+      <lb ed="#V" n="106"/>SEcunda questio est: vtrum pecca 
+      <lb ed="#V" n="107" break="no"/>tum in spiritum sanctum: 
+      <lb ed="#V" n="108"/>sit peccatum ex certa malitia.
+    </p>
+            <p xml:id="FrMS88-f23778-d1e122">
+               <lb ed="#V" n="109"/>Dicunt aliqui quod sic: quia 
+      quod<lb ed="#V" n="110" break="no"/>dam est pecca 
+      <lb ed="#V" n="111"/>tum ex impotitia: quoddam ex ignorantia. et quoddam ex certa 
+      <lb ed="#V" n="112"/>malitia. Primum dicitur esse peccatum contra patrem: cui 
+      attrin<lb ed="#V" n="113" break="no"/>buitur potentia. Secundum contra filium cui attribuitur sapien 
+      <lb ed="#V" n="114"/>tia. Tertium contra spiritum sanctum: cui clementia 
+      seu<lb ed="#V" n="115" break="no"/>bonitas attribuitur.
+    </p>
+            <p xml:id="FrMS88-f23778-d1e140">
+      ¶ Sed contra. quia in omni genere 
+      pecca<lb ed="#V" n="116" break="no"/>ti possunt reperiri ista tria: quia circa idem genus peccati aliquis 
+      <lb ed="#V" n="117"/>peccat ex fragilitate. alius quia ignorat esse peccatum. alius 
+      <lb ed="#V" n="118"/>ex malitia naturae.
+    </p>
+            <p xml:id="FrMS88-f23778-d1e149">
+      ¶ Secundo. quia peccatum in spiritum sanctum disi 
+      <lb ed="#V" n="119"/>esse circa finem: sed circa fine potest quis peccare ex impotsitia vel 
+      <lb ed="#V" n="120"/>ignorantia.
+    </p>
+            <p xml:id="FrMS88-f23778-d1e157">
+      ¶ Ideo dicunt alii quod peccatum in spiritum sanctum est 
+      <lb ed="#V" n="121"/>desperatio quae maxime obuiat bonitati diuine quae 
+      appro<lb ed="#V" n="122" break="no"/>priatur spiritui sancto.
+    </p>
+            <p xml:id="FrMS88-f23778-d1e164">
+      ¶ Sed contra. spies est in memoria quae 
+      at<lb ed="#V" n="123" break="no"/>tribuitur patri: sed fides in intellectu quae attribuitur filio: 
+      chari<lb ed="#V" n="124" break="no"/>tas in voluntate quae attribuitur spiritui sancto.
+    </p>
+            <p xml:id="FrMS88-f23778-d1e171">
+      ¶ Secundo. qua 
+      <lb ed="#V" n="125"/>to vitium est maius tanto est contra maiorem virtutem. Sed 
+      ma<lb ed="#V" n="126" break="no"/>ior virtus non est spes sed charitas: ergo nec maius est 
+      <lb ed="#V" n="127"/>vitium: sed aliud.
+    </p>
+            <p xml:id="FrMS88-f23778-d1e180">
+      ¶ Ideo dicunt alii. quod peccatum in spiritum 
+      <lb ed="#V" n="128"/>sanctum est obstinatio: quia opponitur benignitati quae 
+      ap<lb ed="#V" n="129" break="no"/>propriatur is scilicet
+    </p>
+            <p xml:id="FrMS88-f23778-d1e187">
+      ¶ Sed contra. quia obstinatio vel accipitur pro 
+      <lb ed="#V" n="130"/>actu: et sic est pena peccati vel pro malo habitu: et tunc 
+      <lb ed="#V" n="131"/>non est peccatum: quia gratia potest stare cum habitu vicioso. 
+      <!--331.xml-->
+      <pb ed="#V" n="164-v"/>
+               <cb ed="#V" n="a"/>
+            </p>
+            <p xml:id="FrMS88-f23778-d1e200">
+               <lb ed="#V" n="1"/>¶ Ideo dicunt alii quod peccatum in scilicet. est im pugnatio veritatis 
+      agni<lb ed="#V" n="2" break="no"/>te.
+    </p>
+            <p xml:id="FrMS88-f23778-d1e208">
+      ¶ Sed contra. quia tunc omne mendacium: et omnis deceptio 
+      <lb ed="#V" n="3"/>esset peccatum in spiritum scuntum: quod non videtur.
+    </p>
+            <p xml:id="FrMS88-f23778-d1e213">
+      ¶ Ideo dicunt alii quod 
+      <lb ed="#V" n="4"/>inuidentia fraterne dilectionis est pecatum in i scilicet quia opponitur 
+      <lb ed="#V" n="5"/>charitati.
+    </p>
+            <p xml:id="FrMS88-f23778-d1e220">
+      ¶ Sed contra. quia inuidentia est vnum peccatum capita 
+      <lb ed="#V" n="6"/>le. peccata autem capitalia: vt sic formaliter distinguuntur: non 
+      <lb ed="#V" n="7"/>educuntur in aliquam trium personarum. Est ergo pecatum in spiritum scundum 
+      <lb ed="#V" n="8"/>sinalis impnia: quia per christum in euangelio: pecatum in spiritum sancum 
+      <lb ed="#V" n="9"/>est irremissibile: omnia autem alia preccatam a finali impnia sunt 
+      re<lb ed="#V" n="10" break="no"/>missibilia: et possunt remitti. Sed finalis impnia nequaquam. 
+      </p>
+            <p xml:id="FrMS88-f23778-d1e233">
+               <lb ed="#V" n="11"/>¶ Sed contra: quia secundum sanctos doctores omne peccatum est 
+      remis<lb ed="#V" n="12" break="no"/>sibile. Dicendum quod etiam omnia peccata sunt remissibilia isto modo 
+      <lb ed="#V" n="13"/>ego si peccatum in spiritum scuntum diciturut ab aliis secundum verbum christi in 
+      re<lb ed="#V" n="14" break="no"/>missione: nullo modo est remissibile de nam sua.
+    </p>
+            <p xml:id="FrMS88-f23778-d1e244">
+      ¶ Secundo: quia 
+      <lb ed="#V" n="15"/>finalis impnia nulli persone appropriatur. Dico quod immo 
+      <lb ed="#V" n="16"/>pui sancto: inquantum obuiat charitati spiritus sancti: quae 
+      para<lb ed="#V" n="17" break="no"/>ta est influere ad contritionem de peccatis.
+    </p>
+            <p xml:id="FrMS88-f23778-d1e253">
+      ¶ Tertio. quia 
+      <lb ed="#V" n="18"/>scti etiam plura peccata attribuunt i scilicet vt dictum est. Dico quod 
+      <lb ed="#V" n="19"/>verum est accipiendo large peccatum in spiritum sanctum: non 
+      <lb ed="#V" n="20"/>proprie: sicut videtur loqui in euangelio de peccato in 
+      <lb ed="#V" n="21"/>spiritum sanctum: quod tantum est irremissibile. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

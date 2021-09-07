@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="197-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f50863"><!-- l4d11q1 -->
+            <head xml:id="FrMS88-f50863-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f50863-d1e111">
+               <lb ed="#V" n="95"/>Si autem queritur 
+      <lb ed="#V" n="96"/>HIc incipit vndecina distinctio. 
+      <lb ed="#V" n="97"/>Circa quam quero 
+      qua<lb ed="#V" n="98" break="no"/>tuor quaestiones.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e122">
+      ¶ Prima est: vtrum 
+      idem<lb ed="#V" n="99" break="no"/>corpus possit simul esse in diuersis locus 
+      </p>
+            <p xml:id="FrMS88-f50863-d1e127">
+               <lb ed="#V" n="100"/>¶ Et videtur quod non. quia dicit Augi quod donec fer 
+      <lb ed="#V" n="101"/>niatur seculum sursum est disfuns. ergo non 
+      <lb ed="#V" n="102"/>descendit realiter. et remanebit ibi. quare non videtur nisi 
+      <lb ed="#V" n="103"/>quia idem corpus non potest esse localiter in diuersis locis. 
+      </p>
+            <p xml:id="FrMS88-f50863-d1e138">
+               <lb ed="#V" n="104"/>¶ Contra. hugo de sacramentis dicit quod deus potest hoc dispesare. 
+      <lb ed="#V" n="105"/>videndum est: si per diuinam possit 
+      di<lb ed="#V" n="106" break="no"/>hic primo spensari potentiam vel fieri.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e148">
+      ¶ Ubi est 
+      <lb ed="#V" n="107"/>sciendum quod corpus christi esse in loco est habere respectum 
+      <lb ed="#V" n="108"/>ad locum qui est vbi. hoc est igitur idem habere idem corpus 
+      <lb ed="#V" n="109"/>simul duo vbi et simul esse duobus locis. hoc viso 
+      di<lb ed="#V" n="110" break="no"/>cunt aliqui quod non potest esse nec in diuersis locis. Sed hoc 
+      <lb ed="#V" n="111"/>est croneum. patet de eucharistia. simililiter christus apparuit 
+      pe<lb ed="#V" n="112" break="no"/>tro: quando sibi dixit petrus: diviune quo vadis. et tamen tunc 
+      <lb ed="#V" n="113"/>erat in celo. Eodem modo beatus ambrosius fuit in 
+      <lb ed="#V" n="114"/>traslatione beati martini: igitur secundum doctrinam sactorum 
+      <lb ed="#V" n="115"/>ita est.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e170">
+      ¶ Dicunt tamen aliquin quod potest idem corpus esse in 
+      di<lb ed="#V" n="116" break="no"/>uersis locis. sed non localiter.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e175">
+      ¶ Contra. 4r
+    </p>
+            <p xml:id="FrMS88-f50863-d1e178">
+      ¶ Primo quia 
+      <lb ed="#V" n="117"/>idem corpus est in diuersis locis est habere plures 
+      re<lb ed="#V" n="118" break="no"/>spectus ad diuersa vbi. sed hoc non est impossibile. quia 
+      <lb ed="#V" n="119"/>non repugnat quod eadem albedo habeat diuersas 
+      simili<lb ed="#V" n="120" break="no"/>tudines ad diuersas albedines. que sunt respectus in 
+      <lb ed="#V" n="121"/>trinsecus aduenientes. igitur in proposito multomi 
+      <lb ed="#V" n="122"/>nus repugnabit de relationibus extrinsecis que minus 
+      <lb ed="#V" n="123"/>sequuntur conditiones subiecti.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e196">
+      ¶ Item in essentialiter 
+      ordina<lb ed="#V" n="124" break="no"/>tis ad multiplicationem prioris non sequitur multiplicatio 
+      <lb ed="#V" n="125"/>posterioris. nec admititur. immo multo magis admittii 
+      <lb ed="#V" n="126"/>multiplicatio posteriorum. quam priorum. sicut patet de 
+      for<lb ed="#V" n="127" break="no"/>minis substantialibus et accidentalibus. sed respectus 
+      extrinse<lb ed="#V" n="128" break="no"/>cus aduenientes sunt posteriores respectibus intrinse 
+      <lb ed="#V" n="129"/>cis aduenientibus: sed vbi est respectus intrinsecus. 
+      er<lb ed="#V" n="130" break="no"/>go etc.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e214">
+      ¶ 3o. quia idem accidens non potest esse in diuersis 
+      <lb ed="#V" n="131"/>subiectis. et econtra potest fieri. hoc certe est. quia subiectum est causa acciden¬ 
+      <!--397.xml-->
+      <pb ed="#V" n="197-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tis: et eadem causa potest in multos effectus. sed qua idem effect 
+      <lb ed="#V" n="2"/>non potest habere plures causas totales. ideo idem accidens non potest esset 
+      <lb ed="#V" n="3"/>diuersis substantis. sed locus non habet aliquam causalitatem super loca 
+      <lb ed="#V" n="4"/>tum. sed econverso. quia locatum facit distare latera continentis. igitur 
+      <lb ed="#V" n="5"/>nulla repugnantia videtur esse ibi.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e237">
+      ¶ 4o sic. forma quae non 
+      depen<lb ed="#V" n="6" break="no"/>det a materia: eo ipso videtur esse in qualibet parte substanti. sed ita parum 
+      depen<lb ed="#V" n="7" break="no"/>det locatum a loco sicut talis forma a subiecto. igitur sicut anima 
+      <lb ed="#V" n="8"/>potest esse in diuersis corporis partibus. ita etc.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e246">
+      ¶ Iste autem 
+      ratio<lb ed="#V" n="9" break="no"/>nes demonstrant simpliciter: sed aliqualiter declarant propositum. 
+      </p>
+            <p xml:id="FrMS88-f50863-d1e251">
+               <lb ed="#V" n="10"/>¶ Sed contra hoc ariter. 4r
+    </p>
+            <p xml:id="FrMS88-f50863-d1e256">
+      ¶ Primo sic quia sicut aliquod 
+      indi<lb ed="#V" n="11" break="no"/>uiduum in aliquo genere collocatur sic corpus per quantitatem 
+      deter<lb ed="#V" n="12" break="no"/>minat sibi locum vnum. sed indiuiduum vnum non potest esse in 
+      di<lb ed="#V" n="13" break="no"/>uersis generibus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e265">
+      ¶ 2o. quandocumque sunt duo et vnum est adequa 
+      <lb ed="#V" n="14"/>tum alteri. non potest illud excedem. sed locus adequat sibi 
+      corpu<lb ed="#V" n="15" break="no"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e272">
+      ¶ 3o idem a se separari non potest. sed ita est in proposito 
+      fi<lb ed="#V" n="16" break="no"/>idem corpus esset in diuersis locis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e278">
+      ¶ 4o. quia non 
+      <lb ed="#V" n="17"/>potest idem simul esse in diuersis temporibus. ergo nec in diuersis 
+      <lb ed="#V" n="18"/>locis.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e285">
+      ¶ Ad primum dico quod arinctum a simili non currit sper quatum 
+      <lb ed="#V" n="19"/>or pedibus et ideo claudicat. vnde maior in proposito 
+      <lb ed="#V" n="20"/>est falsa: quia indiuiduum non potest transire de genere in genus. 
+      <lb ed="#V" n="21"/>corpus autem transit de loco ad locum.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e294">
+      ¶ Ad 2m concedo 
+      ma<lb ed="#V" n="22" break="no"/>iorem. quod quae sunt adequata vnum non excedit reliquum. si sint 
+      <lb ed="#V" n="23"/>totaliter adequata. sed corpus cuilibet loco non est totaliter ade 
+      <lb ed="#V" n="24"/>quatum sicut in eodem subiecto eadem quantitas est adequata 
+      mul<lb ed="#V" n="25" break="no"/>tis accidentibus. est igitur excessus tantum secundum quantitatem discretam 
+      <lb ed="#V" n="26"/>non continuam. que est loci ad locatum.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e307">
+      ¶ Ad 3m dico quod non 
+      <lb ed="#V" n="27"/>separatur a se: quia idem remanet in eodem loco. vnde est in 
+      alio<lb ed="#V" n="28" break="no"/>loco et non separatur a primo.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e314">
+      ¶ Ad aliud dico quod ratio temporis est 
+      <lb ed="#V" n="29"/>successiua. et ideo simul non potest esse aliquins in 
+      diuer<lb ed="#V" n="30" break="no"/>sis temperibus. sed locus est permanens.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e321">
+      ¶ Sed occurrit 
+      du<lb ed="#V" n="31" break="no"/>bium. quia iste rationes videdentur concludere quod naturaliter ista possint 
+      <lb ed="#V" n="32"/>fieri. quia respectus intrinseci sunt plures in eodem per naturam 
+      </p>
+            <p xml:id="FrMS88-f50863-d1e329">
+               <lb ed="#V" n="33"/>¶ Dico quod rationes non demonstrant. quod in habitudine ad 
+      quod<lb ed="#V" n="34" break="no"/>cumque agens possit fieri. sed hoc non repugnat per rationes 
+      for<lb ed="#V" n="35" break="no"/>males. et ita declarant potestatem aliquam.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e338">
+      ¶ Secundum dubium 
+      <lb ed="#V" n="36"/>quia mouens transferens se a priori loco non per se aufert se 
+      ali<lb ed="#V" n="37" break="no"/>sto. sed per accidens. si igitur non est repugnantia formali: 
+      <lb ed="#V" n="38"/>poterit transire corpus: nullum aliud expellendo.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e347">
+      ¶ Di 
+      <lb ed="#V" n="39"/>co quod repugnantia dicitur in habitudine ad agens philosophycum 
+      </p>
+            <p xml:id="FrMS88-f50863-d1e352">
+               <lb ed="#V" n="40"/>¶ 3m dubium. quandocumque sunt aliqua simul localiter. quicquid est 
+      <lb ed="#V" n="41"/>simul localiter cum vno et cum reliquo. igitur si aliquis sit in 
+      <lb ed="#V" n="42"/>aere et aqua. tunc superficies aeris et aque erunt simul. 
+      </p>
+            <p xml:id="FrMS88-f50863-d1e361">
+               <lb ed="#V" n="43"/>¶ Dico quod assumpta est falsa. quando aliquid est illimitatum 
+      <lb ed="#V" n="44"/>non oportet ex tali indiferentia quod illa inter se sic sint sibi coniucta 
+      <lb ed="#V" n="45"/>sic est hic quod idem corpus est illimitatum ad diuersa loca 
+      <lb ed="#V" n="46"/>sicut species ad diuersa indiuindua.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e372">
+      ¶ 4m dubium. quod ista 
+      <lb ed="#V" n="47"/>regula quod quecumque vni et eidem sunt eadem. videtur tenere in 
+      lo<lb ed="#V" n="48" break="no"/>cis. sicut in ordine formali. quecumque vni et eidem sunt 
+      ea<lb ed="#V" n="49" break="no"/>dem: intra se sunt eadem. propter idemptitatem medii ad 
+      extre<lb ed="#V" n="50" break="no"/>ma.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e384">
+      ¶ Dico quod connexio medii in habitudine ad 
+      intrin<lb ed="#V" n="51" break="no"/>seca euidens est. si autem attendatur quantum ad extrinseca non 
+      ti<lb ed="#V" n="52" break="no"/>sicut si diceretur duo accidentia sunt in eodem subiecto. igitur vnum 
+      <lb ed="#V" n="53"/>in alio. non sequitur.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e393">
+      ¶ Illa autem habitudo loci ad 
+      loca<lb ed="#V" n="54" break="no"/>tum magis est extrinseca. et ideo non sequitur sicut si 
+      di<lb ed="#V" n="55" break="no"/>ceretur. sunt praesentia diuersis locis ergo adiuincem.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e400">
+               <lb ed="#V" n="56"/>Secundo videndum est quomodo hoc possit fieri. ¶ Di 
+      <lb ed="#V" n="57" break="no"/>co quod sicut due similitudines sunt in 
+      ea<lb ed="#V" n="58" break="no"/>dem albedine in habitudine ad diuersa. ita idem corpus 
+      <lb ed="#V" n="59"/>potest habere duas habitudines ad duo loca.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e411">
+      ¶ Ad cum 
+      <lb ed="#V" n="60"/>ius intelligentiam sunt intelligende quatuor regule quas po 
+      <lb ed="#V" n="61"/>nit scotus.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e418">
+      ¶ Prima est. quod quandocumque aliquod corpus 
+      ponit<lb ed="#V" n="62" break="no"/>in diuersis locis: quecumque accidentia insunt sibi que praece 
+      <lb ed="#V" n="63"/>dunt vbi. sibi insunt vbicunque ponatur. quia variato vbi 
+      <lb ed="#V" n="64"/>sta non variantur. Impossibile est autem quod in eodem subiecto 
+      simu<lb ed="#V" n="65" break="no"/>sint priuatiue opposita: quod tamen sequeretur. si illa duo in vno 
+      <lb ed="#V" n="66"/>loco vel locato haberent esse. et non in alio.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e431">
+      ¶ Secunda regu¬ 
+      <!--397.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>la est. quod quicunque forme posteriores ipso vbi insunt sibi 
+      <lb ed="#V" n="68"/>in vno loco: non conueniunt sibi in alio. sicut dextrum et 
+      <lb ed="#V" n="69"/>finistrum consequitur ipsum vbi.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e445">
+      ¶ hoc probo. quia licet impossibile sit 
+      <lb ed="#V" n="70"/>eidem inesse priuatiue opposita tamen secundum aliud et aliud possunt 
+      <lb ed="#V" n="71"/>sibi inesse. quia igitur illa forma respectiua est posterior 
+      ip<lb ed="#V" n="72" break="no"/>so vbi et per ipsum est in locato. ideo si varietur vbi 
+      conue<lb ed="#V" n="73" break="no"/>niet sibi oppositum secundum vnum et priuatio secundum aliud.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e456">
+      ¶ Tertia 
+      <lb ed="#V" n="74"/>regula est. Quandocumque aliquod corpus est in diuersis locis: 
+      <lb ed="#V" n="75"/>sic est aptum natum immutari in quolibet loco. sicut si esset 
+      <lb ed="#V" n="76"/>in vno tantum a quocumque agente imprimatur sibi aliquod 
+      abso<lb ed="#V" n="77" break="no"/>lutum.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e467">
+      ¶ 4a regula. Quandocumque aliquod corpus est in 
+      diuer<lb ed="#V" n="78" break="no"/>sis locis. sic est aptum natum agere in quolibet sicut in vno 
+      <lb ed="#V" n="79"/>sicut calefacere et huiusmodi: quia principium productiuum est prius 
+      ipso<lb ed="#V" n="80" break="no"/>vbi: licet actio sit posterior.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e476">
+      ¶ Tunc induco instantias. 
+      <lb ed="#V" n="81"/>Idem ad se non potest referri. sed si vnum est in diuersis 
+      lo<lb ed="#V" n="82" break="no"/>cis hoc sequitur: quia sursum et deorsum sunt 
+      correlati<lb ed="#V" n="83" break="no"/>ua: idem autem erit superius et inferius et a dextris et a 
+      fini<lb ed="#V" n="84" break="no"/>stris.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e487">
+      ¶ Secundo ex contrarietate. Impossibile est enim duo contraria 
+      si<lb ed="#V" n="85" break="no"/>mul esse: sed ita est hic: puta esse propinquum et remotum sunt 
+      <lb ed="#V" n="86"/>ontraria quae non possunt eidem inesse.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e494">
+      ¶ 3o idem mouebitur motibus 
+      <lb ed="#V" n="87"/>diuersis et contrariis. ex quo habet vbi sursum et deorsum.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e500">
+      ¶ 4 
+      <lb ed="#V" n="88"/>quia motus et quies sunt priuatiue opposita. sed ista 
+      po<lb ed="#V" n="89" break="no"/>terunt inesse eidem si in aliquo loco possit aliquid quiescere 
+      <lb ed="#V" n="90"/>et in alio moueri.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e509">
+      ¶ 3o ex contradictione. Idem non 
+      moue<lb ed="#V" n="91" break="no"/>bitur ad seipsum. sed hoc est hic. quia si sum Rome et hic: 
+      <lb ed="#V" n="92"/>possum de Roma venire huc.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e516">
+      ¶ Ad prmum concedo 
+      <lb ed="#V" n="93"/>maiorem et nego minorem. quia sursum et deorsum 
+      fundan<lb ed="#V" n="94" break="no"/>tur in vbi. ita quod habitudo sursum ad deorsum 
+      funda<lb ed="#V" n="95" break="no"/>tur in duabus vbi. Isto modo aliquis potest esse melior se 
+      <lb ed="#V" n="96"/>ipso vt inquantum aliquis habet dona gratuita est ipso melior: 
+      <lb ed="#V" n="97"/>vt habet dona naturalia.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e529">
+      ¶ Ad 2m concedo quod contraria secundum idem non 
+      <lb ed="#V" n="98"/>insunt. sed secundum aliud. quia in duobus vbi fundantur. sicut 
+      <lb ed="#V" n="99"/>similitudo et dissimilitudo simul insunt.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e536">
+      ¶ Ad tertium quod 
+      <lb ed="#V" n="100"/>secundum vnum vbi potest moueri secundum aliud quiescere: et dico tunc 
+      <lb ed="#V" n="101"/>quod simpliciter non habet carentiam in aliquo istorum vbi. quando est 
+      <lb ed="#V" n="102"/>in diuersis locis. sed vt in tali vbi caret. sicut homo in 
+      <lb ed="#V" n="103"/>primo signo non est risibilis. Exemplum alquae habens 
+      <lb ed="#V" n="104"/>frigiditatem mouetur ab igne secundum frigiditatem manens 
+      <lb ed="#V" n="105"/>in mobilis secundum humiditatem. et ita est in proposito secundum 
+      di<lb ed="#V" n="106" break="no"/>uersa vbi.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e554">
+      ¶ Ad quartum dico quod contradictio saluatur secundum 
+      di<lb ed="#V" n="107" break="no"/>uersa vbi. quando enim venis de Roma acquiris vbi mediam 
+      <lb ed="#V" n="108"/>sed quando venis ad vltimum perdis vbi posterius: et 
+      rema<lb ed="#V" n="109" break="no"/>nebit prius vbi. et est tantum motus deperditiuus. non autem 
+      <lb ed="#V" n="110"/>acquisitiuus.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e566">
+      ¶ Sed occurit difficultas quia eadem aqua in 
+      va<lb ed="#V" n="111" break="no"/>se calefiet hic et rome erit frigida.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e571">
+      ¶ Dico quod non 
+      sequi<lb ed="#V" n="112" break="no"/>tur. quia sicut corpus christi quamcunque formam habuit in 
+      <lb ed="#V" n="113"/>cruce et in pixide habuisset ex consequenti. ita hic. vnde dico 
+      <lb ed="#V" n="114"/>quod rome esset calida. nec propter imaginationem quae 
+      tra<lb ed="#V" n="115" break="no"/>hit nos ad oppositum dabet ratio negari.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e582">
+      ¶ 2a difficultas de 
+      nutri<lb ed="#V" n="116" break="no"/>mento. quia hoc dabitur sibi comedere rome autem famescet: 
+      </p>
+            <p xml:id="FrMS88-f50863-d1e587">
+               <lb ed="#V" n="117"/>¶ Respondeo si immissio corporalis ipsius cibi est posterior. 
+      <lb ed="#V" n="118"/>vbi bene hic intrabit cibus: sed rome non habebo in 
+      ve<lb ed="#V" n="119" break="no"/>tre. sed hic tantum: sed satiatio que est effectus absolutus 
+      <lb ed="#V" n="120"/>inerit vtrobique. sicut in cruce habebat ferrum in late 
+      <lb ed="#V" n="121"/>re non autem in pixide. sed tamen ferrum inferens afflictionem 
+      eandem<lb ed="#V" n="122" break="no"/>inflixisset in pixide. licet non fuisset inflicta in pixide. quia 
+      <lb ed="#V" n="123"/>dolor est forma abia.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e605">
+      ¶ 3a difficultas quia in vno loco 
+      come<lb ed="#V" n="124" break="no"/>det bonum cibum. et in alio malum: et ita esset sanum et egrum. 
+      </p>
+            <p xml:id="FrMS88-f50863-d1e610">
+               <lb ed="#V" n="125"/>¶ Dico quod ita facient sicut si istos cibos duos 
+      come<lb ed="#V" n="126" break="no"/>deret et sumeret in eodem loco. si autem. cibus intoxicatus 
+      <lb ed="#V" n="127"/>et malus superuinceret faceret egrotare. si cibus sanus 
+      <lb ed="#V" n="128"/>superuinceret immutaret ad sanitatem. et ita in diuersi 
+      <lb ed="#V" n="129"/>locis erit.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e624">
+      ¶ 4a difficultas quia in vno loco erit bene munitus 
+      <lb ed="#V" n="130"/>et in alio loco inerminis et interficeretur.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e629">
+      ¶ Dico quod si 
+      <lb ed="#V" n="131"/>moriatur in vno: et in alio erit mortuus. si christus in cruce 
+      <lb ed="#V" n="132"/>ex vulneribus inflictis fuit mortuus. ita etiam fuisset in pixi 
+      <!--398.xml-->
+      <pb ed="#V" n="198-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>de. quia actio et passio sunt posteriora vbi corpus quod 
+      pa<lb ed="#V" n="2" break="no"/>titur bene patitur: vt hic: sed non vt ibi.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e647">
+      ¶ Sed quaeritur de diuisione 
+      <lb ed="#V" n="3"/>corporis.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e652">
+      ¶ Dico quod continuitas est forma praecedens vbi si 
+      di<lb ed="#V" n="4" break="no"/>uidatur in vno: et in alio diuiditur. inquantum diuisio tollit 
+      conti<lb ed="#V" n="5" break="no"/>nuitatem.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e659">
+      ¶ Alia difficultas de figura tenente quaedratum in vno 
+      lo<lb ed="#V" n="6" break="no"/>co vnus vult eam facere rotumdam. alius quidratam in alio. 
+      </p>
+            <p xml:id="FrMS88-f50863-d1e664">
+               <lb ed="#V" n="7"/>¶ Dico quod oportet quod alter superuincat. et ita alter non potes. 
+      <lb ed="#V" n="8"/>rit dare figuram rotundam. si supeuincens inducet quadratam 
+      </p>
+            <p xml:id="FrMS88-f50863-d1e672">
+               <lb ed="#V" n="9"/>¶ Alia di. quia vna sintilla cum sit similis in diuersis locis. 
+      con<lb ed="#V" n="10" break="no"/>buret simul totum mundum.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e679">
+      ¶ Dico quod habebit terminum 
+      ade<lb ed="#V" n="11" break="no"/>quatum. vbi inueniet passum magis dispositum: et alibi 
+      <lb ed="#V" n="12"/>nihil ageret.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e686">
+      ¶ Sed ponatur quod habeat passiua equaliter 
+      dispo<lb ed="#V" n="13" break="no"/>sita in que ageret.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e691">
+      ¶ Responideo si sintilla esset in centro quo 
+      <lb ed="#V" n="14"/>moueretur:
+    </p>
+            <p xml:id="FrMS88-f50863-d1e696">
+      ¶ Dico quod non moueretur. quia a nulla parte 
+      tra<lb ed="#V" n="15" break="no"/>heretur propter indifrentiam.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e701">
+      ¶ Similiter dico quod talis ignis nihil 
+      <lb ed="#V" n="16"/>ageret vel combureret.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e707">
+      ¶ 4a di. quia eadem mataera simul habebit 
+      <lb ed="#V" n="17"/>multas formas specificas. pono enim eundem panere in 
+      mul<lb ed="#V" n="18" break="no"/>tis hominibus: et virtus cuiuslibet transmutabit illum in se.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e714">
+      ¶ Dico 
+      <lb ed="#V" n="19"/>quod habens fortiorem stom conuerteret in se et alibi nihil.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e719">
+      ¶ Sed 
+      <lb ed="#V" n="20"/>n equaliter fortem omnes habeant:
+    </p>
+            <p xml:id="FrMS88-f50863-d1e724">
+      ¶ Dicendum. sicut de sintilla. quod 
+      <lb ed="#V" n="21"/>nihil facient.
+    </p>
+            <p xml:id="FrMS88-f50863-d1e729">
+      ¶ Alia di. quod vnus homo poterit facem vnum 
+      ex<lb ed="#V" n="22" break="no"/>ercitum de vno homine. qui si haberet ensem non posset ipsum extra 
+      <lb ed="#V" n="23"/>bere. quia tunc agens naturale traheret corpus ad diuersa loca 
+      <lb ed="#V" n="24"/>imo dico quod non posset se mouere. sed deus posset eos mo 
+      <lb ed="#V" n="25"/>uere. sed ipsi no possent facere effectum aliquem corporalem 
+      <lb ed="#V" n="26"/>vnde ductio membrorum eis est impossibilis. deus autem posset face 
+      <lb ed="#V" n="27"/>re istam corpoream: et omnia alia de potentia absoluta. quia nullam 
+      <lb ed="#V" n="28"/>contradictionem implicare videretur.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

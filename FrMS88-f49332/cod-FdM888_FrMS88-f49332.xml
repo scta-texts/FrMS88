@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f49332"><!-- l4d10q2 -->
+            <head xml:id="FrMS88-f49332-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f49332-d1e111">
+               <lb ed="#V" n="33"/>SEcunda quaestio est. Utrum in sacramento 
+      cor<lb ed="#V" n="34" break="no"/>pus christi habeat sic perfecta 
+      <lb ed="#V" n="35"/>quantitatem sicut in celo. et videtur quod non. quia eius 
+      quanti<lb ed="#V" n="36" break="no"/>tas est maior quam hostia.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e122">
+      ¶ Contra. quia 
+      tot<lb ed="#V" n="37" break="no"/>quantitas corporis christi est ibi per 
+      concomitan<lb ed="#V" n="38" break="no"/>tiam sicut totum corpus ex vi verborum 
+      <lb ed="#V" n="39"/>veritas determinata et certa: quod corpus christi 
+      <lb ed="#V" n="40"/>Hic est in hostia est ita magnum sicut in celo. Sed 
+      <lb ed="#V" n="41"/>de modo est variatio modus assignatur communiter. quod in 
+      na<lb ed="#V" n="42" break="no"/>turalibus substantia est in loco per quantitatem. ita sequitur 
+      mo<lb ed="#V" n="43" break="no"/>dum quantitatis: sed in sacramento corpus christi non est in loco me 
+      <lb ed="#V" n="44"/>diante quantitate. sed econverso. et ideo hec quantitas sequitur leges substantie: 
+      <lb ed="#V" n="45"/>et non est modo dimensiuo.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e144">
+      ¶ Contra hoc aritu. 4r
+    </p>
+            <p xml:id="FrMS88-f49332-d1e147">
+      ¶ Primo. 
+      <lb ed="#V" n="46"/>quia si christus ordinauit formam verborum per quam quantitas sit ib 
+      <lb ed="#V" n="47"/>per concomitantiam. ita si dixisset istam. hec est quantitas mea 
+      <lb ed="#V" n="48"/>tunc concomitanter esset ibi substantia. et tamen ita posset hic esse 
+      <lb ed="#V" n="49"/>tunc corpus christi. sicut nunc est.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e159">
+      ¶ Secundo. quia sicut 
+      conuer<lb ed="#V" n="50" break="no"/>tit substantiam. ita posset quantitatem: quia virtualiter vtranquaem 
+      <lb ed="#V" n="51"/>continet: et tunc adhuc esset ibi corpus christi 
+      concomitan<lb ed="#V" n="52" break="no"/>ter in hostia.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e168">
+      ¶ Tertio. quia ex sua ratione formali 
+      repu<lb ed="#V" n="53" break="no"/>gnat hoc quantitati. non esse dimensiue in loco. igitur per substantiam 
+      <lb ed="#V" n="54"/>non potest esse aliter.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e175">
+      ¶ Si autem neges hoc. igitur potest deus 
+      <lb ed="#V" n="55"/>facere quantitatem maiorem sub minori. quia de ratione sua non 
+      <lb ed="#V" n="56"/>habet esse in loco dimensiue.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e182">
+      ¶ Quarto. quia supponimus 
+      <lb ed="#V" n="57"/>quod est substantia et quantitas ibi: sed querimus modum.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e187">
+      ¶ hic 
+      <lb ed="#V" n="58"/>igitur inducuntur quatuor conclusiones. ad declarandum propositum. 
+      </p>
+            <p xml:id="FrMS88-f49332-d1e192">
+               <lb ed="#V" n="59"/>¶ Prima est. quod ordo partium in toto est de ratione quantitatis  
+      <lb ed="#V" n="60"/>continue. quia non potest ymaginari continuum non recipiendo 
+      or<lb ed="#V" n="61" break="no"/>dinem partium. et per consequens est de ratione eius.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e202">
+      ¶ Secunda conclusio est 
+      <lb ed="#V" n="62"/>quod ordo partium in loco est de genere situs non quantitatis 
+      con<lb ed="#V" n="63" break="no"/>tinue. quin iaceo vel sedeo non mutatur ordo partium in to 
+      <lb ed="#V" n="64"/>to: sed variatur et habitudo ad locum manente eadem 
+      quantita<lb ed="#V" n="65" break="no"/>te specie et numero. Iste ordo igitur non est eiusdem 
+      predica<lb ed="#V" n="66" break="no"/>menti cum alio.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e215">
+      ¶ Tertia conclusio quod isti ordines differunt 
+      rea<lb ed="#V" n="67" break="no"/>liter. quia sunt in diuersis prerdicamentis. tum est quia vnus re¬ 
+      <!--393.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="68"/>manet alio corrupto.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e226">
+      ¶ Quarta conclusio quod prius ordine naturae 
+      <lb ed="#V" n="69"/>est ordo partium in toto quam ordo partium in loco. quia non 
+      <lb ed="#V" n="70"/>ossunt ordinari in loco: nisi sint ordinate in toto. sed econversoptest. 
+      </p>
+            <p xml:id="FrMS88-f49332-d1e233">
+               <lb ed="#V" n="71"/>¶ Ad propositum regula ista fuit declarata in principio quod in 
+      <lb ed="#V" n="72"/>essentialiter ordinatis et realiter distinctis. potest fieri prius 
+      <lb ed="#V" n="73"/>fine posteriori: sed isti ordines sunt essentialiter ordinati 
+      <lb ed="#V" n="74"/>et realiter distincti. ergo deus potest facere primum. valet. 
+      or<lb ed="#V" n="75" break="no"/>dinem partium in toto sine ordine partium in loco. Et 
+      confiri<lb ed="#V" n="76" break="no"/>matur quia esse magnum. et magnum locum occupare non sunt 
+      <lb ed="#V" n="77"/>idem sed aliorum praedicamentorum. vnde tunc partes non habent 
+      <lb ed="#V" n="78"/>locum: nec magnum: nec paruum: et ita in corpore christi seruat 
+      <lb ed="#V" n="79"/>deus ordinem partium in toto sine ordine partium in loco. 
+      <lb ed="#V" n="80"/>quia est posterior.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e257">
+      ¶ Contra istud artis quadrupliciter.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e260">
+      ¶ Primo 
+      <lb ed="#V" n="81"/>quia impossibile est quod corpus christi sit in hostia si non habet realem 
+      <lb ed="#V" n="82"/>praesentiam ad hostiam. et per consequens partes eius ad partes 
+      illi<lb ed="#V" n="83" break="no"/>us. et ita habetur vterque respectus.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e270">
+      ¶ 2o impossibile est yma 
+      <lb ed="#V" n="84"/>ginari continuitatem sine extensione. sed vbi 
+      continuatio<lb ed="#V" n="85" break="no"/>ibi extensio. et ita ordo partium in loco.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e277">
+      ¶ Tertio. quia 
+      nul<lb ed="#V" n="86" break="no"/>lus potest concipere continuum sine distantia partium reali. 
+      </p>
+            <p xml:id="FrMS88-f49332-d1e282">
+               <lb ed="#V" n="87"/>¶ Quarto. quia totum corpus christi est in qualibet parte 
+      <lb ed="#V" n="88"/>hostie ita pes cum manu quod non videtur intelligi nisi conglema 
+      <lb ed="#V" n="89"/>tione.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e291">
+      ¶ Ad primum. concedo quod partes habent corrspondentiam illam 
+      <lb ed="#V" n="90"/>non quod vna pars corrspondeat alteri. et altera non. igitur omnes 
+      <lb ed="#V" n="91"/>partes in qualibet parte. et neutrum est determinata ali 
+      <lb ed="#V" n="92"/>cui loco vel vbi.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e300">
+      ¶ Ad aliud de extensione extra. si 
+      in<lb ed="#V" n="93" break="no"/>telligis extensionem continuitatis conceditur. quia hoc est 
+      par<lb ed="#V" n="94" break="no"/>tem esse coniuctam parti. non extra per se esse partem localiter.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e307">
+      ¶ Ad  
+      <lb ed="#V" n="95"/>aliud dico quod distant partes extrinseca distantia: sed 
+      in<lb ed="#V" n="96" break="no"/>trinseca distantia non valet. ordinis partium in toto.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e315">
+      ¶ Sed oc 
+      <lb ed="#V" n="97"/>currit difficultas. Si corpus christi potest esse in puncto.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e320">
+      ¶ Dico quod 
+      <lb ed="#V" n="98"/>non. quia nec aliqua pars substantie corrspondebat puncto.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e325">
+      ¶ Secunda 
+      <lb ed="#V" n="99"/>difficultas si deus potest esse in superficie.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e330">
+      ¶ Dico quod non. quia 
+      nec<lb ed="#V" n="100" break="no"/>pars substantie correspondet sibi sub tota quantitate.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e335">
+      ¶ Tertia 
+      <lb ed="#V" n="101"/>difficultas si deus potest facere quod totus mundus esset in fora 
+      <lb ed="#V" n="102"/>mine acus. ex quo ordo partium ab ordine loci potest 
+      re<lb ed="#V" n="103" break="no"/>moueri.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e344">
+      ¶ Dico quod sic. quia hostia est diuisibilis in 
+      infi<lb ed="#V" n="104" break="no"/>nitum: nec est deuenire ad minimum. et ita semper corpus christi est 
+      <lb ed="#V" n="105"/>sub quacumque parte quantumcumque modica.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e352">
+      ¶ Sed quid 
+      <lb ed="#V" n="106"/>de facto de celo empireo: quod non est in loco.
+    </p>
+            <p xml:id="FrMS88-f49332-d1e357">
+      ¶ Dico 
+      <lb ed="#V" n="107"/>quod habet ordinem partium in loco aliquo modo.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

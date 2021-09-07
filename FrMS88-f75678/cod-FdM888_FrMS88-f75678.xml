@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f75678"><!-- l4d42q1 -->
+            <head xml:id="FrMS88-f75678-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f75678-d1e111">
+               <lb ed="#V" n="69"/>Et parentalium graduum etc. 
+      <lb ed="#V" n="70"/>Hic incipt distinctio 42a. Circa quam 
+      quae<lb ed="#V" n="71" break="no"/>ritur. vtrum spiritualis 
+      co<lb ed="#V" n="72" break="no"/>gnatio impediat matrimonium. Quod non. quia 
+      <lb ed="#V" n="73"/>non fit mentio in scriptura.
+    </p>
+            <p xml:id="FrMS88-f75678-d1e124">
+      ¶ Contra. de 
+      fcon<lb ed="#V" n="74" break="no"/>intelligendum quod contrahitur ex 
+      <lb ed="#V" n="75"/>hic est connexione sacramentrum ecletie. 
+      </p>
+            <p xml:id="FrMS88-f75678-d1e131">
+               <lb ed="#V" n="76"/>¶ primo in habitudine patris ad filium. omnis enim qui ministrat 
+      <lb ed="#V" n="77"/>sacramentum comparatur in ratione patris ad generantis respectu eius qui 
+      re<lb ed="#V" n="78" break="no"/>cipit sacramentum: nec potest contrahere cum eo et similiter ex parte matris quae 
+      <lb ed="#V" n="79"/>tenet in fontibus puerum non potest similiter.
+    </p>
+            <p xml:id="FrMS88-f75678-d1e142">
+      ¶ 3o. sicut inter frens 
+      <lb ed="#V" n="80"/>et sorores: sicut inter compatrem et commatrem.
+    </p>
+            <p xml:id="FrMS88-f75678-d1e148">
+      ¶ Sed hic oc. 
+      <lb ed="#V" n="81"/>ificultas. si in talibus actibus communicant vir et vxor suas passiones: 
+      <lb ed="#V" n="82"/>sicut et actiones.
+    </p>
+            <p xml:id="FrMS88-f75678-d1e155">
+      ¶ 2a difficultas. si ista cognatio procedit: sicut 
+      <lb ed="#V" n="83"/>affinitas.
+    </p>
+            <p xml:id="FrMS88-f75678-d1e160">
+      ¶ Dico quod ad patrem et filios et ad compatrem et 
+      <lb ed="#V" n="84"/>ad commatrem.
+    </p>
+            <p xml:id="FrMS88-f75678-d1e165">
+      ¶ Sed quid de adoptione in filium. quando efficitur 
+      fi<lb ed="#V" n="85" break="no"/>lius legalis.
+    </p>
+            <p xml:id="FrMS88-f75678-d1e170">
+      ¶ Dico quod ille qui adoptatur per ecclesiam non 
+      priaes<lb ed="#V" n="86" break="no"/>pntrahere.
+    </p>
+            <p xml:id="FrMS88-f75678-d1e175">
+      ¶ Sed quid vtrum in sancramento baptismi tantum 
+      spiritua<lb ed="#V" n="87" break="no"/>lis cognatio contrahitur:
+    </p>
+            <p xml:id="FrMS88-f75678-d1e181">
+      ¶ Dicitur quod non solum in bapitum: sed etiam 
+      <lb ed="#V" n="88"/>in confirmatione contrahunt cognationem spiritualem.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

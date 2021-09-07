@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f05597"><!-- l2d1q2 -->
+            <head xml:id="FrMS88-f05597-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f05597-d1e111">
+      Quaestio. ii. 
+      <lb ed="#V" n="40"/>queritur. Utrum deus possit 
+      <lb ed="#V" n="41"/>Ecundo aliquid de nouo producere 
+      <lb ed="#V" n="42"/>sine mutatione. videtur quod non. quia Aug. in primo 
+      <lb ed="#V" n="43"/>li. de tri. dicit quod deum facere mutabilia sine 
+      <lb ed="#V" n="44"/>mutatione sui intelligere plene difficile est. 
+      </p>
+            <p xml:id="FrMS88-f05597-d1e124">
+               <lb ed="#V" n="45"/>¶ Contra. 4o de tri. dicit. quod oportet deum intelligere 
+      mu<lb ed="#V" n="46" break="no"/>tabilia facere sine sui mutatione. 
+      <lb ed="#V" n="47"/>pono quatuor conclusiones. Prima est ista. quod impossibile est 
+      transi<lb ed="#V" n="48" break="no"/>Hi re de contradictorio in contradictorium sine mutatione 
+      fa<lb ed="#V" n="49" break="no"/>cta in aliquo extremorum. Eidem enim inquantum idem non possunt 
+      appli<lb ed="#V" n="50" break="no"/>cari extrema contradictionis. Si ergo prius conueniebat fieri vnum 
+      <lb ed="#V" n="51"/>extremum contradictionis. et modo aliud ibi necessario est aliqua alietas. 
+      </p>
+            <p xml:id="FrMS88-f05597-d1e142">
+               <lb ed="#V" n="52"/>¶ 2a conclusio est. quod impossibile est quod aliquid transeat de contradictorio 
+      in<lb ed="#V" n="53" break="no"/>contradictorium nisi muteter in se. quia aliter se habet nunc quam prius. et per 
+      <lb ed="#V" n="54"/>consequens mutatur.
+    </p>
+            <p xml:id="FrMS88-f05597-d1e151">
+      ¶ 3a conclusio est. quod per mutationem factam in alterqo 
+      <lb ed="#V" n="55"/>extremorum non potest aliquid mutari de contradictorio in 
+      contradicto<lb ed="#V" n="56" break="no"/>rium. quia impossibile est quod sit effectus formaliter in aliquo quin sit ibi 
+      <lb ed="#V" n="57"/>forma: sed mutari est effectus mutationis. si ergo aliter se habet nunc 
+      <lb ed="#V" n="58"/>quam prius: necessario est in eo mutatio.
+    </p>
+            <p xml:id="FrMS88-f05597-d1e163">
+      ¶ 4a conclusio est. quod aliquid potest 
+      <lb ed="#V" n="59"/>attribui alicui nunc: quod non prius sine sui mutatione. sicut 
+      <lb ed="#V" n="60"/>deus modo creat: et prius non: sine sui mutatione. ergo.
+    </p>
+            <p xml:id="FrMS88-f05597-d1e170">
+      ¶ Con 
+      <lb ed="#V" n="61"/>tra istas conclusiones instatur. Et prima contra primaim. quia ostensum est in primo 
+      li<lb ed="#V" n="62" break="no"/>quod deus potest aliquid velle quod prius non volunt: vult enim 
+      futu<lb ed="#V" n="63" break="no"/>ra contingenter: et tamen non mutatur. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f05597-d1e179">
+      ¶ Contra 2am. deus 
+      tran<lb ed="#V" n="64" break="no"/>sit de contradictorio in contradictorium quando aliquid creat. et tamen in se 
+      nonti<lb ed="#V" n="65" break="no"/>mutatur. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f05597-d1e186">
+      ¶ Contra 3am. sol transit de non esse visum ad esse 
+      <lb ed="#V" n="66"/>visum. et ita per mutatiscem quae est in me transit. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f05597-d1e191">
+      ¶ Contra 
+      <!--288.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>4am. quia videtur ess contraria aliis duabus.
+    </p>
+            <p xml:id="FrMS88-f05597-d1e200">
+      ¶ Ad primum dico. quod non fit 
+      <lb ed="#V" n="68"/>mutas ex parte dei: sed ex parte obiecti in esse volito sine mutatio 
+      <lb ed="#V" n="69"/>ne dei.
+    </p>
+            <p xml:id="FrMS88-f05597-d1e208">
+      ¶ Ad aliud dico quod deus non transit de. etc. Si enim 
+      <lb ed="#V" n="70"/>creare esset formaliter in deo et postea non creare: necessario 
+      mu<lb ed="#V" n="71" break="no"/>taretur tunc. sed non est ita: ideo in se non transit.
+    </p>
+            <p xml:id="FrMS88-f05597-d1e215">
+      ¶ Ad 3m dicuntur 
+      <lb ed="#V" n="72"/>aliqui quod videns producit rem in esse viso et rationabiliter.
+    </p>
+            <p xml:id="FrMS88-f05597-d1e220">
+      ¶ Dico 
+      <lb ed="#V" n="73"/>ergo quod inste transitus non est forma in sole denominatione 
+      intrin<lb ed="#V" n="74" break="no"/>seca. sed denominatione extrinseca a visione mea dicitur transire 
+      </p>
+            <p xml:id="FrMS88-f05597-d1e227">
+               <lb ed="#V" n="75"/>¶ Ad 4m. aliud est dici de deo extremum contradite: et aliud est 
+      <lb ed="#V" n="76"/>esse in deo. vnde nouum non est in deo. sed de nouo extrinsece denonime 
+      </p>
+            <p xml:id="FrMS88-f05597-d1e234">
+               <lb ed="#V" n="77"/>¶ Sed quid de arito in oposium: Dinco quod difficultas x hoc proueniebatur 
+      <lb ed="#V" n="78"/>philosophis. quia dicebant omne agens form referri ad passum: sed n oportet 
+      <lb ed="#V" n="79"/>dicetur deum referri aliqua relatione reali et formali ad 
+      creatu<lb ed="#V" n="80" break="no"/>ram.
+    </p>
+            <p xml:id="FrMS88-f05597-d1e245">
+      ¶ 2a difficultas saltem deus exiuit de ocio ad operationem. Dico 
+      <lb ed="#V" n="81"/>quod si actio esset inneo formaliter tunc mutaretur. nunc autem dicitur de 
+      <lb ed="#V" n="82"/>eo denominatione extrinseca. illa enim opeato non est in deo 
+      for<lb ed="#V" n="83" break="no"/>maliter.
+    </p>
+            <p xml:id="FrMS88-f05597-d1e255">
+      ¶ 3a difficultas est. si agens aliud quodcumque mutatur quando agit. 
+      <lb ed="#V" n="84"/>Dico quod sic. omne aliud a deo quando incipit agere tunc necessario mu 
+      <lb ed="#V" n="85"/>tatur: et intellectur: quando agens philosophicum repatitur: non intelligendo quod 
+      il<lb ed="#V" n="86" break="no"/>lud agens philosophicum recipiat formam absolutam. sed respecti 
+      <lb ed="#V" n="87"/>uam actionem requrit: quae causatur a termino et fundamento. 
+      </p>
+            <p xml:id="FrMS88-f05597-d1e266">
+               <lb ed="#V" n="88"/>¶ 4a difficultas. si ex dictis sequitur actionem esse in agente.
+    </p>
+            <p xml:id="FrMS88-f05597-d1e271">
+      ¶ Di 
+      <lb ed="#V" n="89"/>co quod hoc videntur philosophi intendere. quia aliter non sequeretur argumentum eorum 
+      <lb ed="#V" n="90"/>de exitu ab ocio in operationem nisi poneretur actio in 
+      <lb ed="#V" n="91"/>agente. aliter enim non posset concludi mutationem 
+      <lb ed="#V" n="92"/>esse in deo. ergo etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

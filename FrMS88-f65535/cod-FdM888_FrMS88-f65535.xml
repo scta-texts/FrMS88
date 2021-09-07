@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f65535"><!-- l4d18q2 -->
+            <head xml:id="FrMS88-f65535-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f65535-d1e111">
+               <lb ed="#V" n="56"/>SEcunda quaestio est. vtrum claues 
+      eccle<lb ed="#V" n="57" break="no"/>sie sint due. quod non. sed 
+      vna<lb ed="#V" n="58" break="no"/>quia Idam in apoclus. in singulari sumit eam. est 
+      <lb ed="#V" n="59"/>habet. inquit clauem dauid. Contra. in plurali dicit 
+      <lb ed="#V" n="60"/>Al christus. tibi dabo claues regni ce. math. 1 2o 
+      <lb ed="#V" n="61"/>dicunt hoc quod est vna scilicet caracter.
+    </p>
+            <p xml:id="FrMS88-f65535-d1e127">
+      ¶ Sed 
+      con<lb ed="#V" n="62" break="no"/>Uliquin muniter dicitur oppositum. quod sunt due.
+    </p>
+            <p xml:id="FrMS88-f65535-d1e132">
+      ¶ Aliquoi 
+      <lb ed="#V" n="63"/>dicunt quod potestas in foro contentioso est vna. et alia in 
+      <lb ed="#V" n="64"/>foro secreto.
+    </p>
+            <p xml:id="FrMS88-f65535-d1e139">
+      ¶ Contra. claues ecclesie sunt connexe: sed 
+      <lb ed="#V" n="65"/>iste non sunt connexe: vt visum est. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f65535-d1e145">
+      ¶ Alii dicunt 
+      <!--429.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>quod potestas caracteris: et iurisditionis.
+    </p>
+            <p xml:id="FrMS88-f65535-d1e154">
+      ¶ Sed contra. quia non 
+      <lb ed="#V" n="67"/>sunt due potestates necessario connexe.
+    </p>
+            <p xml:id="FrMS88-f65535-d1e159">
+      ¶ Alii dicunt quod scientia 
+      <lb ed="#V" n="68"/>et potestas.
+    </p>
+            <p xml:id="FrMS88-f65535-d1e164">
+      ¶ Sed contra. clauem scientie. ita habet laycus 
+      </p>
+            <p xml:id="FrMS88-f65535-d1e167">
+               <lb ed="#V" n="69"/>¶ Dicitur ergo secundum scotum quod sunt due potestates. vna 
+      <lb ed="#V" n="70"/>potestas cognoscendin de causa: et alia iudicandi. iste sunt 
+      <lb ed="#V" n="71"/>due potestates.
+    </p>
+            <p xml:id="FrMS88-f65535-d1e176">
+      ¶ Sed melius videtur distingui. sicut christus 
+      <lb ed="#V" n="72"/>distinxit. quod sunt duo actus. vnus actus posse soluere 
+      <lb ed="#V" n="73"/>alius posse ligare. Quecumque solueris et ligaueris etc. 
+      </p>
+            <p xml:id="FrMS88-f65535-d1e184">
+               <lb ed="#V" n="74"/>¶ Et secundum hoc sunt due claues in qualibet 
+      iurisditio<lb ed="#V" n="75" break="no"/>ne. et temporali. et spirituali.
+    </p>
+            <p xml:id="FrMS88-f65535-d1e191">
+      ¶ Sed hic occurrunt dubia 
+      </p>
+            <p xml:id="FrMS88-f65535-d1e194">
+               <lb ed="#V" n="76"/>¶ Primo si iste: sint claues distincte.
+    </p>
+            <p xml:id="FrMS88-f65535-d1e199">
+      ¶ Dicitur quod sic 
+      <lb ed="#V" n="77"/>quia aliquis habet potestatem soluendi. non tamen ligan 
+      <lb ed="#V" n="78"/>di: sicut aliquis potest absoluere a culpa: et non obligare 
+      <lb ed="#V" n="79"/>ad culpam.
+    </p>
+            <p xml:id="FrMS88-f65535-d1e208">
+      ¶ Secunda dubitatio. si datur in ordine 
+      sacer<lb ed="#V" n="80" break="no"/>dotali in distinctis signis a potestate caracteris. Dici 
+      <lb ed="#V" n="81"/>tur quod datur potestas conficiendi scilicet quando datur calix. tunc scilicet 
+      <lb ed="#V" n="82"/>confertur potestas consecrandi: et imprimiter caracter: 
+      <lb ed="#V" n="83"/>sed quando imponitur manus: et dicitur accipite spiritum sanctum etc 
+      <lb ed="#V" n="84"/>tunc datur potestas absoluendi in foro penitentiali. 
+      </p>
+            <p xml:id="FrMS88-f65535-d1e221">
+               <lb ed="#V" n="85"/>¶ Tertia dubitatio. si episcopus dando pacem sibi: 
+      <lb ed="#V" n="86"/>et dicat sine impositione manuum. Quorum remiseri 
+      <lb ed="#V" n="87"/>tis peccata etc. Utrum conferat has claues.
+    </p>
+            <p xml:id="FrMS88-f65535-d1e231">
+      ¶ Dicitur 
+      <lb ed="#V" n="88"/>quod si dantur in distinctis signis: tunc non potest.
+    </p>
+            <p xml:id="FrMS88-f65535-d1e236">
+      ¶ Quarta 
+      <lb ed="#V" n="89"/>pubitatio quare potest magis impediri aliquis ab ab 
+      <lb ed="#V" n="90"/>solutione quam a consecratione cum acceparit potestatem 
+      iu<lb ed="#V" n="91" break="no"/>risditionis. sicut caracteris. Dico quod in consecrando non 
+      <lb ed="#V" n="92"/>concurrit nisi deus principaliter et sacerdos ministeria 
+      <lb ed="#V" n="93"/>liter: sed in absolutione legislator causat vt causa vni 
+      <lb ed="#V" n="94"/>uersalis: et in consecratione non sic.
+    </p>
+            <p xml:id="FrMS88-f65535-d1e252">
+      ¶ Sed dubitatio est 
+      <lb ed="#V" n="95"/>quia eadem claue aperitur et soluitur aliquid in 
+      corpo<lb ed="#V" n="96" break="no"/>ralibus. ergo videtur etiam vna clauis sufficiens 
+      in<lb ed="#V" n="97" break="no"/>spiritualibus dicitur quod due possunt dici propter diuersa officia: et 
+      <lb ed="#V" n="98"/>quia ille auctoritates sunt separabiles ab inuicem. ideo 
+      <lb ed="#V" n="99"/>arguunt quod non sunt idem seu vna.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="79-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e58313"><!-- l1d23q3 -->
+            <head xml:id="FrMS88-e58313-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-e58313-d1e111">
+      Questio. iii 
+      <lb ed="#V" n="96"/>UTrum persona dicatur vniuo ce de 
+      tri<lb ed="#V" n="97" break="no"/>bus supposiu divinis. Et videur 
+      <lb ed="#V" n="98"/>quod non. Nam nullum vniversale est in divinis secundum Aug. 
+      <lb ed="#V" n="99"/>de trit. persona autem est vniversalis si dicatur vniuoce 
+      <lb ed="#V" n="100"/>l ergo etc.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e124">
+      ¶ Contra. tres sunt persone. ergo 
+      persona<lb ed="#V" n="101" break="no"/>est communis secundum Aug. 5. de tri.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e129">
+      ¶ hic sunt duo facienda. 
+      Pri<lb ed="#V" n="102" break="no"/>mum est si persona dicatur vniuoce de tribus suppositis divinis 
+      <lb ed="#V" n="103"/>et 2o si dicatur vniuoce de suppositis diuinis et creatis. 
+      <lb ed="#V" n="104"/>ad primum dico quod sic. et hoc per 4or regulas. 
+      Pri<lb ed="#V" n="105" break="no"/>Quantu ma est ista. Quandocumque aliquod praedicatum dicitur de 
+      <lb ed="#V" n="106"/>aliquibus secundum idem nomen et secundum eandem rationem diffinitiuam dicitur 
+      vni<lb ed="#V" n="107" break="no"/>uoce de illis: sed ita est hoc nam pater est persona: et filius persona. ergo 
+      <lb ed="#V" n="108"/>idem nomen. Similiter pater est intellectualis naturae incommunicabilis sub 
+      <lb ed="#V" n="109"/>sistentia et eodem modo filius. hoc autem secundum Rich. est diffinitio et rati 
+      <lb ed="#V" n="110"/>persone. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e151">
+      ¶ 2a reglatsia est hec. Quando intellectus est 
+      cer<lb ed="#V" n="111" break="no"/>tus de vno conceptu et dubius de duobus ille est vniuocus 
+      <lb ed="#V" n="112"/>illis: hoc patet. sed aliquis posset esse certus quod aliqua persona esset 
+      <lb ed="#V" n="113"/>incarnata: et dubitare vtrum pater vel filius. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e161">
+      ¶ 3a est 
+      <lb ed="#V" n="114"/>ista. Quando aliquid conuenit alicui inquantum tale hoc est secundum vnan 
+      <lb ed="#V" n="115"/>rationem. et quicquid conuenit vni secundum illam rationem conuenit alteri secundum 
+      ean<lb ed="#V" n="116" break="no"/>dem ins ratio est eis communis et vniuoca: sed quicquid conuenit patri secundum 
+      <lb ed="#V" n="117"/>quod est persona conuenit filio secundum quod est persona. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e172">
+      ¶ 4a est ista. 
+      <lb ed="#V" n="118"/>Quecumque numerantur secundum aliquod nomen conueniunt formaliter 
+      <lb ed="#V" n="119"/>in ratione illius nomins secundum quam numerantur. hec est 
+      regula<lb ed="#V" n="120" break="no"/>Aug. 9 de trini. et ostendit istam regulam esse per 
+      exempla<lb ed="#V" n="121" break="no"/>manifesta. prima de lauro et mirto que non dicuntur duo 
+      <lb ed="#V" n="122"/>inquantum laurus et mirtus. non enim sunt duo lauri: et sic 
+      <lb ed="#V" n="123"/>de aliis. sed praecise inquantum arbores. Simimiliter 
+      exemplifi<lb ed="#V" n="124" break="no"/>cat de Abraham ysaac et Iacob. non enim dicuntur tre 
+      <lb ed="#V" n="125"/>abrahe: nec tres ysaac: nec tres inacob: sed tres homines 
+      <lb ed="#V" n="126"/>hec ergo regula patet. sed pater et filius et spiritus sanctus dicuntur tres 
+      <lb ed="#V" n="127"/>psone: et tamen non tres patres nec tres filii. ergo persona quae est 
+      <lb ed="#V" n="128"/>terminatiua istius termini numeralis conuenit eis vniuo 
+      <lb ed="#V" n="129"/>ce.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e201">
+      ¶ Sed contra istam conclusionem instatur 4r. Primo sic. 
+      <lb ed="#V" n="130"/>Quicquid comnicatur in diuinis est perfectio simpliciter: sed per 
+      <lb ed="#V" n="131"/>te: persona in diuinis comnicatur: quia est communis pluribus: ergo erit 
+      <lb ed="#V" n="132"/>perfectio simpliciter: quod est ssund.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e210">
+      ¶ 2o sic. Quecumque sunt eius¬ 
+      <!--162.xml-->
+      <pb ed="#V" n="80-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>dem rationis non multiplicantur in diuinis: sed sunt de se heo 
+      <lb ed="#V" n="2"/>sed persona est eiusdem rationis: ergo de se est hec: et per consequens non 
+      mul<lb ed="#V" n="3" break="no"/>tiplicatur.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e226">
+      ¶ 3o sic. Nullum incomunicabile potest esse commune 
+      vniuo<lb ed="#V" n="4" break="no"/>cum. ratio persone est ratio incommunicabilis: sicut patet ex sua diffinitione. 
+      er<lb ed="#V" n="5" break="no"/>go etc.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e233">
+      ¶ 4o sic. Nam omne commune vniuocum praedicabile in quid oportet 
+      <lb ed="#V" n="6"/>quod sit vel genus vel species: sed hoc est impossibile in divinis. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e58313-d1e239">
+               <lb ed="#V" n="7"/>¶ Ad primum dico quod omne comnicabile vel commune in vnitate nume 
+      <lb ed="#V" n="8"/>rali est perfectio simpliciter: sed tamen quod est commune vel communicabile non 
+      <lb ed="#V" n="9"/>in vnitate numerali: sed in vnitate communis: vt vniversalis rationis: non 
+      <lb ed="#V" n="10"/>oportet quod sit perfectio simpliciter: sicut patet de similitudine et equelitate. 
+      er<lb ed="#V" n="11" break="no"/>go etc.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e252">
+      ¶ Ad 2m dico quod illa quae sunt eiusdem rationis in 
+      diui<lb ed="#V" n="12" break="no"/>nis non possunt multiplicari in diuinis. Primo. quia si sic ex 
+      se<lb ed="#V" n="13" break="no"/>non determinarent sibi certum numererum: nec etiam ex aliquo 
+      prior<lb ed="#V" n="14" break="no"/>sed tamen bene possunt multiplicari secundario scilicet aliis 
+      praesupposi<lb ed="#V" n="15" break="no"/>tis que sunt alterius rationis: sicut sunt similitudo et 
+      cete<lb ed="#V" n="16" break="no"/>re relationes communes quae praesupponunt relationes originis. Ita 
+      di<lb ed="#V" n="17" break="no"/>ci potest de persona: licet enim persona sit eiusdem rationis: tamen purificatur 
+      <lb ed="#V" n="18"/>secundum alia que sunt alterius irationis: vtpote secundum constitutiua per 
+      <lb ed="#V" n="19"/>sonarum que sunt relationes originis.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e272">
+      ¶ Ad 3m dico quod ratio 
+      <lb ed="#V" n="20"/>incomicabilitatis est communicabilis denominatiue: non tamen quid 
+      <lb ed="#V" n="21"/>tatiue: accipiendo tamen rationem determinatam quam denominas 
+      <lb ed="#V" n="22"/>quod licet illorum est incommunicabile: tamen illa negatio potest esse communis: sicut 
+      <lb ed="#V" n="23"/>omnia indiuidua habent eandem rationem indiuiduationis.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e283">
+      ¶ Ad 4m 
+      <lb ed="#V" n="24"/>dico quod non omne praedicabile est aliquod istorum. nam ens praedicatur 
+      <lb ed="#V" n="25"/>vniuoce: et tamen nullum illorum praedicabilium est. Eodem modo 
+      di<lb ed="#V" n="26" break="no"/>co de omnibus transcendentibus cuiusmodi sunt omnia vniversaliter dcam 
+      <lb ed="#V" n="27"/>de deo.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e294">
+      ¶ Sed circa ista adhuc sunt alique difficultates. Prima 
+      <lb ed="#V" n="28"/>est. Utrum a principiis constitutiuis possit aliquod commune 
+      abstra<lb ed="#V" n="29" break="no"/>hi.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e301">
+      ¶ Dico quod sic. Nam ista constitutiua sunt tres relationes 
+      <lb ed="#V" n="30"/>ergo ratio relationis in eis numeratur. et per consequens est eis communis vni 
+      <lb ed="#V" n="31"/>uoce.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e309">
+      ¶ Et confirmatur quia eadem ratio diffinitiua relationis 
+      con<lb ed="#V" n="32" break="no"/>uenit paternitati inquantum relatio est: que etiam conuenit filiation 
+      <lb ed="#V" n="33"/>inquantum relatio est scilicet esse ad aliud. ergo relatio est eis communis.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e316">
+      ¶ Sid 
+      <lb ed="#V" n="34"/>dicatur quod vltima constitutiua sunt primo diuersa. primo autem diuersa in 
+      <lb ed="#V" n="35"/>nullo conueniunt. Potest dici quod in creaturis licet vltime differentiae sint 
+      <lb ed="#V" n="36"/>primo diuerse: tamen eis quasi denonatiue conuenit secundum vnam rationem 
+      <lb ed="#V" n="37"/>ratio prime diuersitatis: quod non est aliud nisi non habere quidi 
+      <lb ed="#V" n="38"/>tatiue aliquid commune: sed tantum aliquid consequens quiditatem: ita potest dici in 
+      <lb ed="#V" n="39"/>proposito quod ratio relationis: licet dicatur secundum vnam rationem de 
+      constituti<lb ed="#V" n="40" break="no"/>uis personarum: non tamen dicitur in quid eo modo quo genus 
+      dici<lb ed="#V" n="41" break="no"/>tur in quid de specie. quia tunc essent composite vel saltem 
+      resolu<lb ed="#V" n="42" break="no"/>biles: dicitur tamen de eis eo modo quo genus de differentiis dicitur: 
+      si<lb ed="#V" n="43" break="no"/>cut dictum est superius quod ens dicitur de praedicatis quae conueniunt 
+      <lb ed="#V" n="44"/>deo et creature.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e342">
+      ¶ 2a di. Utrum diuinis attributis sit 
+      ali<lb ed="#V" n="45" break="no"/>quod commune vniuocum.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e347">
+      ¶ Dico quod sic. quia omnibus conuenit vnum no 
+      <lb ed="#V" n="46"/>men et vna ratio diffinitiua eiusdem quod dico perfectio simpliciter: 
+      <lb ed="#V" n="47"/>quia sapientia et iustitia queliet est perfectio simpliciter. nam qualibus 
+      <lb ed="#V" n="48"/>est melior ipsa quam non ipsa.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e356">
+      ¶ Si dicatur quod in diuina 
+      attri<lb ed="#V" n="49" break="no"/>puta sunt simpliciter simplicia. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e361">
+      ¶ Dico quod numquam a 
+      sim<lb ed="#V" n="50" break="no"/>pliciter simplicibus potest abstrahi aliquis conceptus quiditatiu 
+      <lb ed="#V" n="51"/>sed tamen bene potest abstrahi conceptus transcedens quae dicitur de eis 
+      <lb ed="#V" n="52"/>ad modum differentiae subalternantis de subalternata: talis est 
+      <lb ed="#V" n="53"/>perfectio simpliciter: cuius nomen dicit secundam intentionem.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e373">
+      ¶ 3 
+      <lb ed="#V" n="54"/>fficultas. Utrum in diuinis vdeis sit aliquid commune vniuocum.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e378">
+      ¶ Di 
+      <lb ed="#V" n="55"/>co quod sic si ponantur in deo formaliter: quia nomen ydee est eis 
+      <lb ed="#V" n="56"/>ommune: et qualitercumque diffiniatur ydea diffinitio ydee est eis communis. 
+      </p>
+            <p xml:id="FrMS88-e58313-d1e385">
+               <lb ed="#V" n="57"/>¶ Et confirmatur. quia si non conueniunt in aliquo vniuoco tun 
+      <lb ed="#V" n="58"/>sunt per diuerse: et sic conueniunt in ratione prime diuersitatis. 
+      <lb ed="#V" n="59"/>Si dicas quod per istum modum non inuenitur aliquid per diuersum 
+      <lb ed="#V" n="60"/>aut simpliciter simplex: quia omnia talia conueniunt in ratione 
+      diffini<lb ed="#V" n="61" break="no"/>tiua primo diuersorum et simpliciter simplicium.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e398">
+      ¶ Dico quod 
+      l<lb ed="#V" n="62" break="no"/>non fit innuenire aliquod tale quin conueniat cum aliquo in 
+      al<lb ed="#V" n="63" break="no"/>quo praedicato denominatiue tamen quiditatiue in sua vltima 
+      praeci<lb ed="#V" n="64" break="no"/>none nihil includunt: tamen denominatiue includunt multa 
+      <lb ed="#V" n="65"/>que inueniuntur in resolutione et ad que est status: et hoc 
+      <lb ed="#V" n="66"/>sufficit ad saluandum primo diuersa et simplicitur simplicia. 
+      <!--162.xml-->
+      <cb ed="#V" n="b"/>
+            </p>
+            <p xml:id="FrMS88-e58313-d1e416">
+               <lb ed="#V" n="67"/>¶ 4a di. Si diuina essentia dicitur vniuoce de tribus personis 
+      </p>
+            <p xml:id="FrMS88-e58313-d1e421">
+               <lb ed="#V" n="68"/>¶ Dico quod si accipiatur ratio praecise vniuoci quae data est scilicet 
+      cu<lb ed="#V" n="69" break="no"/>ius est idem nomen et eadem ratio: cum idem nomen sit diuine 
+      essen<lb ed="#V" n="70" break="no"/>tie dicte de tribus personis: et eadem ratio videtur posse 
+      di<lb ed="#V" n="71" break="no"/>ci vniuoce de eis: quia tamen vniuocum communiter accipitur secundum quod 
+      <lb ed="#V" n="72"/>idem nomen dicitur de diuersis numero: et essentia diuina nuner 
+      <lb ed="#V" n="73"/>ro non distinguitur: ideo non ponitur communiter vniuocum. Unde 
+      or<lb ed="#V" n="74" break="no"/>dicere quod ratio essentie: et etiam ipsa essentia non tantum est communis secundum ratio 
+      <lb ed="#V" n="75"/>nem formalem: sicut est persona: sed etiam secundum vnitatem numeralem: quae 
+      <lb ed="#V" n="76"/>tamen non conuenit persone quae distinguitur numero in patre et filio. 
+      <lb ed="#V" n="77"/>ad secundam partem est videndum. vtrum per 
+      <lb ed="#V" n="78"/>Quantum sona diuina dicatur vniuoce de tribus 
+      <lb ed="#V" n="79"/>personis diuinis et personis creatis.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e451">
+      ¶ Dico quod sic. Et iad 
+      <lb ed="#V" n="80"/>hoc probandum valent regule quas adduxi pro prima conclusione 
+      in<lb ed="#V" n="81" break="no"/>principio quaestionis. Primo quod persona secundum idem nomen et secundum eandem 
+      ratio<lb ed="#V" n="82" break="no"/>nem praedicatur de persona creata et increata.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e460">
+      ¶ 2o quia aliquis potentia 
+      <lb ed="#V" n="83"/>esse certus quod in passione christi aliqua persona patiebatur. 
+      dubi<lb ed="#V" n="84" break="no"/>tando etiam vtrum persona creata vel increata: sicut aliquis 
+      infi<lb ed="#V" n="85" break="no"/>delis.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e469">
+      ¶ 3o quia quicquid conuenit persone diuine inquantum 
+      perso<lb ed="#V" n="86" break="no"/>na est conuenit create persone: patet discurrendo per omnia.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e474">
+      ¶ 4 
+      <lb ed="#V" n="87"/>quia divina persona et persona creata sunt due persone: sicut duo 
+      <lb ed="#V" n="88"/>homines sunt sortes et plato. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e481">
+      ¶ Sed contra hoc instat 
+      <lb ed="#V" n="89"/>4r Primo sic. Ab affirmatiua et negatiua non potest 
+      abstra<lb ed="#V" n="90" break="no"/>hi aliquis conceptus communis quia tunc a contradictoriis abstrahi 
+      pos<lb ed="#V" n="91" break="no"/>set aliquis conceptus: sed persona diuina est affirmatiua: quia 
+      <lb ed="#V" n="92"/>constituitur per aliquid positiuum: persona autem creata est 
+      nega<lb ed="#V" n="93" break="no"/>tiua: quia constituitur per negationem. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e494">
+      ¶ 2o sic. 
+      Per<lb ed="#V" n="94" break="no"/>sona absoluta et relatiua non videntur esse eiusdem rationis 
+      <lb ed="#V" n="95"/>nam absolutum et relatiuum distinguuntur et differunt quiditati 
+      <lb ed="#V" n="96"/>ue: sed persona diuina est relatiua: persona autem creata ab 
+      <lb ed="#V" n="97"/>soluta ergo etc.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e506">
+      ¶ 3o sic. Sicut suppositum est incomunicabi 
+      <lb ed="#V" n="98"/>le similiter et persona. ergo persona non poterit esse communis.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e511">
+      ¶ 4o quia 
+      indi<lb ed="#V" n="99" break="no"/>uiduum ponitur in diffinitione persone: et tamen dicitur die vno solo. 
+      </p>
+            <p xml:id="FrMS88-e58313-d1e516">
+               <lb ed="#V" n="100"/>¶ Ad ista.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e521">
+      ¶ Ad primum dico quod persona potest considerari 
+      in<lb ed="#V" n="101" break="no"/>quantum persona: et vt supponit pro se vel non inquantum 
+      pe<lb ed="#V" n="102" break="no"/>sona: sed vt talis persona: et supponit tunc pro substrato 
+      </p>
+            <p xml:id="FrMS88-e58313-d1e528">
+               <lb ed="#V" n="103"/>¶ Dico tunc quod persona inquantum persona: ita est negatiua in 
+      <lb ed="#V" n="104"/>diuinis: sicut in creaturis. quicquid enim negationis inuenies 
+      <lb ed="#V" n="105"/>diffinitione persone create inquantum persona: inuenies in diffinitione 
+      <lb ed="#V" n="106"/>persone diuine inquantum persona scilicet incomuicabilitas et omnia 
+      talia<lb ed="#V" n="107" break="no"/>Si autem accipiatur persoua vt supponit pro substrato et pro 
+      <lb ed="#V" n="108"/>prima intentione: tunc non oportet quod sit eiusdem rationis: sicut pater in 
+      diui<lb ed="#V" n="109" break="no"/>nis: et hic homo in creaturis. pater enim in diuinis est illud pro 
+      <lb ed="#V" n="110"/>quo supponit persona in diuinis: similiter hic homo est illud pro 
+      es<lb ed="#V" n="111" break="no"/>supponit persona in creaturis. Exictum genus generalissimum secundum 
+      <lb ed="#V" n="112"/>quod accipitur formaliter pro ista intentione secunda est eiusdem rationis: 
+      <lb ed="#V" n="113"/>tamen prout supponit pro prima intentione: quia potest supponere 
+      <lb ed="#V" n="114"/>pro substantia et quantitate et habitu. patet quod ni.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e557">
+      ¶ Ad 2m dico quod 
+      <lb ed="#V" n="115"/>similiter. Ratio enim persone vt persona est abstrahit ab absoluto et 
+      <lb ed="#V" n="116"/>relatiuo: sicut ratio entis: et ideo potest dici vniuoce de eo 
+      <lb ed="#V" n="117"/>quod est absolutum et relatiuum.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e567">
+      ¶ Si autem accipiatur 
+      <lb ed="#V" n="118"/>persona non vt persona: sed pro substrato: sic dico quod licet accidat 
+      <lb ed="#V" n="119"/>persone inquantum persona est: tamen vt persona supponit pro 
+      <lb ed="#V" n="120"/>abstractis non est eiusdem rationis. Exemum. genus inquantum ge 
+      <lb ed="#V" n="121"/>nus est: abstrahit a substantia et accidente: et ideo vnius rationis 
+      <lb ed="#V" n="122"/>est. vt supponit tamen pro primis intentionibus non.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e580">
+      ¶ Ad 3m 
+      <lb ed="#V" n="123"/>dico sicut dictum fuit superius et nunc. ratio enim formalis 
+      perso<lb ed="#V" n="124" break="no"/>ne est incommunicabilis: vt ipsa supponit pro substrato. vt autem 
+      <lb ed="#V" n="125"/>supponit pro se sibi non repugnat communicabilitas: sicut 
+      <lb ed="#V" n="126"/>patet de indiuiduo per omnia.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e591">
+      ¶ Ad 4m dico similiter quod quantumcum. 
+      <lb ed="#V" n="127"/>que indiuinduum dicatur de vno solo vt supponit pro prima 
+      <lb ed="#V" n="128"/>intentione: quia sortes non dicitur nisi de vno solo: tamen ratio 
+      <lb ed="#V" n="129"/>indiuidui: vt sic communior est et ad plura se extendit quam spe 
+      <lb ed="#V" n="130"/>cies. ergo non valet.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e602">
+      ¶ Si dicas quomo ratio persone vel 
+      indiui<lb ed="#V" n="131" break="no"/>dui potest esse communis quantumcumque diuersis.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e607">
+      ¶ Dico quod non est 
+      incom<lb ed="#V" n="132" break="no"/>ueniens quod quantumcumque diuersis aliqua ratio negaus sit communis: sicut 
+      <!--163.xml-->
+      <pb ed="#V" n="80-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>patet. de simplicitate.
+    </p>
+            <p xml:id="FrMS88-e58313-d1e620">
+      ¶ Ad argumentum patet. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="182-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f37999"><!-- l3d37-40q2 -->
+            <head xml:id="FrMS88-f37999-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f37999-d1e111">
+               <lb ed="#V" n="99"/>Questio. ii. 
+      <lb ed="#V" n="100"/>Ecundo quero vtrum 
+      virtu<lb ed="#V" n="101" break="no"/>tes morales 
+      <lb ed="#V" n="102"/>consistant in medio reali. Et hoc 
+      queri<lb ed="#V" n="103" break="no"/>tur pro iustitia
+    </p>
+            <p xml:id="FrMS88-f37999-d1e124">
+               <lb ed="#V" n="104"/>Dicendum ergo quod duplex est iustitia scilicetur 
+      <lb ed="#V" n="105"/>distributiua et commutatiua. 
+      Iu<lb ed="#V" n="106" break="no"/>stitia distributiua consistit in medio rationis. quia 
+      <lb ed="#V" n="107"/>non tantum debet distribui de honore vni militi qui 
+      <lb ed="#V" n="108"/>militauit vno anno: sicut alteri qui vigiti annis 
+      se<lb ed="#V" n="109" break="no"/>strenue habuit: nec simplici principi sicut regi. ergo 
+      <lb ed="#V" n="110"/>debet honor distribui secundum proportionem meriti: sed 
+      <lb ed="#V" n="111"/>omnis proportio que non est medium reale equalitatis: est 
+      <lb ed="#V" n="112"/>medium rationis. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f37999-d1e146">
+      ¶ De iustitia vero commutatiua 
+      <lb ed="#V" n="113"/>distinguitur: quia quidam est de lege talionis: vel de contra 
+      <lb ed="#V" n="114"/>passo de quibus ad presens non intelligitur: quia cuilibet 
+      <lb ed="#V" n="115"/>potest esse iniusta: non enim est iustum quod si manus pro ma 
+      <lb ed="#V" n="116"/>nu ponatur inter simplices homines quod debeat poni 
+      in<lb ed="#V" n="117" break="no"/>ter rusticum et regere: quia rex ex eo quod est persona communis non 
+      <lb ed="#V" n="118"/>debet manu sua pro manu rustici priuari. nec 
+      rusti<lb ed="#V" n="119" break="no"/>cus pro manu regis debet priuari tantum manu sua 
+      <lb ed="#V" n="120"/>sed occidi.
+    </p>
+            <p xml:id="FrMS88-f37999-d1e166">
+      ¶ De contrapasso autem patet: quia ioculato 
+      <lb ed="#V" n="121"/>ex intentione sua non cantat vt sibi cantetur. sed vt 
+      pa<lb ed="#V" n="122" break="no"/>cantum suum acquirat sibi aliud quam cantum.
+    </p>
+            <p xml:id="FrMS88-f37999-d1e174">
+      ¶ Est 
+      <lb ed="#V" n="123"/>igitur questio de iustitia commutatiua proprie dicta: 
+      <lb ed="#V" n="124"/>per quam iustitiam res in rem commutatur: si talis 
+      iu<lb ed="#V" n="125" break="no"/>stitia consistit in medio reali.
+    </p>
+            <p xml:id="FrMS88-f37999-d1e183">
+      ¶ Dicitur communiter quod sic 
+      <lb ed="#V" n="126"/>quia iustum est quod tantum praecium rei commutate accipiatur. tam 
+      <lb ed="#V" n="127"/>a virtuoso quam a non virtuoso et a rege tantum quantum a 
+      ru<lb ed="#V" n="128" break="no"/>stico. ergo iustitia commutatiua non respicit 
+      propor<lb ed="#V" n="129" break="no"/>tionem quo ad nos: sicut alie virtutes. igitur non 
+      ha<lb ed="#V" n="130" break="no"/>bet medium rationis: sed reale.
+    </p>
+            <p xml:id="FrMS88-f37999-d1e196">
+      ¶ Sed contra. 
+      <lb ed="#V" n="131"/>quia si iustitia habeat medium reale. tunc cessabit 
+      <lb ed="#V" n="132"/>omnis commutatio et omnis mercatio iusta nec in perpe 
+      <!--367.xml-->
+      <pb ed="#V" n="182-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tuum poterit vnus equum emi iuste vel comparari. quia secundum 
+      <lb ed="#V" n="2"/>medium rei totum aurum de mundo non valet vnum equum: si cut 
+      <lb ed="#V" n="3"/>tota lana de mundo non valet vnam ouem nec omnes pani 
+      va<lb ed="#V" n="4" break="no"/>lent vnum panem. igitur frustra portabunt pannos et lanas 
+      <lb ed="#V" n="5"/>homines ad alienas partes pro alimentis emendis vel pro vi 
+      <lb ed="#V" n="6"/>no: quia cum toto labore suo et cum toto auro solum vnum 
+      bo<lb ed="#V" n="7" break="no"/>uem secundum medium rei: non poterunt comparare.
+    </p>
+            <p xml:id="FrMS88-f37999-d1e225">
+      ¶ Et si dicas quod 
+      <lb ed="#V" n="8"/>ista siunt secundum iustitiam in habitudine ad necessitatem 
+      <lb ed="#V" n="9"/>humanam habeo propositum.
+    </p>
+            <p xml:id="FrMS88-f37999-d1e232">
+      ¶ Ideo dico quod iusti 
+      <lb ed="#V" n="10"/>tia commutatiua consistit in medio rationis: sicut et 
+      <lb ed="#V" n="11"/>alie virtutes etc.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

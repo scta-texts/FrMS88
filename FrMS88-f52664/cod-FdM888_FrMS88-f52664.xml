@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 9</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 9</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="199-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f52664"><!-- l4d11q9 -->
+            <head xml:id="FrMS88-f52664-Hd1e108">Quaestio 9</head>
+            <p xml:id="FrMS88-f52664-d1e111">
+               <lb ed="#V" n="107"/>CIrca eandem distin. quaro quatuor quaestiones 
+    </p>
+            <p xml:id="FrMS88-f52664-d1e116">
+               <lb ed="#V" n="108"/>¶ Primo vtrum sacramentum 
+      eucha<lb ed="#V" n="109" break="no"/>ristie potuerit institui in veteri testamen 
+      <lb ed="#V" n="110"/>to.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e125">
+      ¶ Et videtur quod non. quia sacramentum 
+      in<lb ed="#V" n="111" break="no"/>carnationis et eucharistie sunt essentialis 
+      <lb ed="#V" n="112"/>ordinata. quia prius est esse quam consecrari. sed sacramenta 
+      <lb ed="#V" n="113"/>incarnationis fuit origo noui testamenti. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e134">
+      ¶ 
+      Con<lb ed="#V" n="114" break="no"/>tra. quia tanta fuit eius potentia absoluta in veteri testo 
+      <lb ed="#V" n="115"/>ad transubstantiandum sicut modo.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e142">
+               <lb ed="#V" n="116"/>hic est sciendum quod christus habuit quatuor esse. 
+    </p>
+            <p xml:id="FrMS88-f52664-d1e147">
+               <lb ed="#V" n="117"/>¶ Primum est supernaturale: et hoc fuit 
+      ab<lb ed="#V" n="118" break="no"/>eterno.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e154">
+      ¶ Secundum naturale quo fuit homo.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e157">
+      ¶ 3m sacramentiale 
+      <lb ed="#V" n="119"/>quo est in hostia.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e162">
+      ¶ 4m spirituale sicut in illis qui susci 
+      <lb ed="#V" n="120"/>piunt spiritualiter.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e167">
+      ¶ De primo et vltimo non est difficultas sed de 
+      <lb ed="#V" n="121"/>duobus mediis scilicet de esse naturali et sacramentiali. et secundum hoc sunt 
+      qua<lb ed="#V" n="122" break="no"/>tuor conclusiones.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e175">
+      ¶ Prima est quod de facto christus huit 
+      <lb ed="#V" n="123"/>prius esse naturale: quam sacramentale. hoc patet: quia prius 
+      fuin<lb ed="#V" n="124" break="no"/>natus de virgine maria et postea in cena consecraui 
+      </p>
+            <p xml:id="FrMS88-f52664-d1e182">
+               <lb ed="#V" n="125"/>¶ Secunda conclusio quod de potentia absoluta prius potuit habere 
+      <lb ed="#V" n="126"/>esse sacramentale quam naturale. quia deus in veteri testamento ita bene 
+      <lb ed="#V" n="127"/>continebat virtualiter substantiam panis et corporis christi sicut 
+      <lb ed="#V" n="128"/>in nouo. Item potest corpus christi de nihilo creare et substantiam 
+      <lb ed="#V" n="129"/>panis in ipsum conuertere.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e195">
+      ¶ Tertia conclusio quod de feco primo 
+      <lb ed="#V" n="130"/>us cessabit corpus christi sub sacramento esse quam desinet habere es 
+      <lb ed="#V" n="131"/>naturale cum sint sacramentia imperfecta: sed nunquam desinet esse in 
+      <lb ed="#V" n="132"/>esse naturali.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e204">
+      ¶ 4a conclusio quod de possibili prius posset desine 
+      <!--401.xml-->
+      <pb ed="#V" n="199-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>re esse in esse naturali quam sacramentiali. sicut enim prius potuit produci 
+      in<lb ed="#V" n="2" break="no"/>esse sacramentali quam naturali. ita posset remanere in illo esse 
+      remo<lb ed="#V" n="3" break="no"/>to esse naturali.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e220">
+      ¶ 2o quandocumque aliqua forme secundum prius et posterius 
+      <lb ed="#V" n="4"/>dependent ab aliquo agente deus posset influere ad priorem: 
+      <lb ed="#V" n="5"/>et non ad posteriorem: sed esse praesens in celo et sacramento scut due praesentia 
+      <lb ed="#V" n="6"/>litates alterius rationis. ergo prius desinet esse in esse naturali quam sacramenti 
+      <lb ed="#V" n="7"/>li.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e231">
+      ¶ Contra primam conclusione arguitur sic. quia esse christi naturale 
+      inclu<lb ed="#V" n="8" break="no"/>ditur in sacramentiali ergo non possunt condiuidi.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e237">
+      ¶ Contra 2am. quia naturale 
+      <lb ed="#V" n="9"/>esse christi est esse simpliciter: esse sacramentale est esse hic. sed quod habet esse hic 
+      <lb ed="#V" n="10"/>prius habuit esse simpliciter.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e244">
+      ¶ Contra 3am. nihil desinit nisi 
+      <lb ed="#V" n="11"/>idat aliquod absolutum. sed quando cessabunt sacramentia nihil 
+      abso<lb ed="#V" n="12" break="no"/>lutum perdet corpus christi. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e251">
+      ¶ Coutra 4m sic. quod definit 
+      <lb ed="#V" n="13"/>esse in esse naturali anihilatur: sed si corpus christi anihilatur non est in 
+      <lb ed="#V" n="14"/>sacramento: quia nihil est vllo modo: et nulli inest. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e258">
+      ¶ Ad  
+      <lb ed="#V" n="15"/>primum. dico quod esse christi naturale. vel potest dicere absolutum sue 
+      enti<lb ed="#V" n="16" break="no"/>tatis: et sic includitur in sacramentiali. vel potest dicere modum 
+      na<lb ed="#V" n="17" break="no"/>est quem habet in loco naturali. et sic vnum non includit aliud: sed 
+      <lb ed="#V" n="18"/>aliquem dicit respectum.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e269">
+      ¶ Ad aliud dico quod christus non 
+      ami<lb ed="#V" n="19" break="no"/>teret esse simpliciter. sed isto scilicet praesentialitatem corporis christi ad 
+      <lb ed="#V" n="20"/>pecies.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e276">
+      ¶ Ad aliud dico quod si diesinerunt esse simpliciter. tunc anihi 
+      <lb ed="#V" n="21"/>laretur. sed non erit sic.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e282">
+      ¶ Sed occurrit difficultas Quomodo 
+      produce<lb ed="#V" n="22" break="no"/>retur facta tali ypothesi.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e287">
+      ¶ Dico quod si aaron consecrasset 
+      <lb ed="#V" n="23"/>tunc incepit esse. non per generationem nec per creationem proprie: 
+      <lb ed="#V" n="24"/>pert est factio de nihilo. sed per factionem suo modo sicut enim 
+      <lb ed="#V" n="25"/>de costa viri fuit facta mulier. ita deus conuertisset substantiam 
+      <lb ed="#V" n="26"/>panis in substantiam corporis christi.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e298">
+      ¶ 2a difficultas. si fuisset eiusdem 
+      <lb ed="#V" n="27"/>rationis.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e303">
+      ¶ Dico quod sic substantialiter. quia per eadem verba potuit face 
+      <lb ed="#V" n="28"/>re et super eandem materiam: et fuisset eadem caro et anima.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e308">
+      ¶ 3a di. 
+      <lb ed="#V" n="29"/>quia tunc fuisset facta conuersio in non praexistens: igitur videtur quod non 
+      <lb ed="#V" n="30"/>sit eiusdem rationis.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e315">
+      ¶ Dinco quod praexistentia non variat rationem 
+      <lb ed="#V" n="31"/>formalem. sed sufficit quod sit idem terminus sicut in generatio 
+      <lb ed="#V" n="32"/>ne vnius indiuindui generatur natura simpliciter. generato alio 
+      ge<lb ed="#V" n="33" break="no"/>neratur eadem natura quae aliquo modo non praexistebat.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e325">
+      ¶ 4a di. quis 
+      <lb ed="#V" n="34"/>modus magis potest capi vel intelligi.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e330">
+      ¶ Dico quod diffici 
+      <lb ed="#V" n="35"/>lius est videre quomodo transubstantatur aliquid in praexistens nihil 
+      ac<lb ed="#V" n="36" break="no"/>quirendo. et ista difficultas fuisset tunc euacuata. ideo difficilius 
+      <lb ed="#V" n="37"/>est nunc quam tunc.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e339">
+      ¶ 5a difficultas. si fuissent aliqua ibi ex 
+      concomi<lb ed="#V" n="38" break="no"/>tantia. sicut nunc.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e344">
+      ¶ Dico quod non ex concomitantia: sed ex 
+      <lb ed="#V" n="39"/>vi verborum ex hoc enim est nunc ibi anima. quia naturaliter concomitatur 
+      <lb ed="#V" n="40"/>corpus christi. sed nihil habuisset esse ibi concomitans. et ideo 
+      <lb ed="#V" n="41"/>suissent verba efficacia ad omnia ibidem immediate 
+      causan<lb ed="#V" n="42" break="no"/>da.
+    </p>
+            <p xml:id="FrMS88-f52664-d1e355">
+      ¶ Ad aritum. dico quod non est ordo essentialis ex nam 
+      rei<lb ed="#V" n="43" break="no"/>sed ex voluntaria ordinatione diuina
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

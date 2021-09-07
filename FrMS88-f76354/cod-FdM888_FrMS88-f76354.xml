@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f76354"><!-- l4d43q3 -->
+            <head xml:id="FrMS88-f76354-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f76354-d1e111">
+               <lb ed="#V" n="16"/>Tertio queritur. vtrum christus resurrexerit 
+      <lb ed="#V" n="17"/>tertia die. Quod non. quia vna 
+      sabba<lb ed="#V" n="18" break="no"/>torum.
+    </p>
+            <p xml:id="FrMS88-f76354-d1e120">
+      ¶ Contra. quia ipse predixit marci. 5. et 
+      <lb ed="#V" n="19"/>lo. 3a die resurget. 
+      <lb ed="#V" n="20"/>quatu 
+      <lb ed="#V" n="21"/>hic introducuntur oram 
+      <lb ed="#V" n="22"/>nes.
+    </p>
+            <p xml:id="FrMS88-f76354-d1e131">
+      ¶ Prima conclusio quod accipiendo diem naturalem. christus resurrexum 
+      <lb ed="#V" n="23"/>die secunda et non 3a et hoc sumendo diem naturalem pro toto 
+      circu<lb ed="#V" n="24" break="no"/>lo firmamenti sicut philosophi sumunt. hoc probatur: quia fuit 
+      mor<lb ed="#V" n="25" break="no"/>tuus hora nona: et ab illa hora vsque ad nonam horam 
+      alte<lb ed="#V" n="26" break="no"/>rius diei fuit vna dies naturalis. ab illa vsque ad horam resurre 
+      <lb ed="#V" n="27"/>ctionis non fuit vna dies integra.
+    </p>
+            <p xml:id="FrMS88-f76354-d1e144">
+      ¶ 2a conclusio quod accipiendo 
+      dien<lb ed="#V" n="28" break="no"/>artificialem pro cursu vel latione solis super terram christus 
+      resur<lb ed="#V" n="29" break="no"/>rexit 3a die probatur hoc. quia quod fit in parte diei. fit in die: sicut dicitur 
+      <lb ed="#V" n="30"/>gen. pri. prima die creauit luceme: non quod tota die creauit: quia 
+      crea<lb ed="#V" n="31" break="no"/>ta fuit in instanti. modo secundum veritatem christus mortuus fuit 
+      di<lb ed="#V" n="32" break="no"/>veneris hora nona: sepultus ex tunc. et tota die sabbati 
+      <lb ed="#V" n="33"/>et die disunica diluculo surrexit. et sic patet quod 3a die surrexit. 
+      </p>
+            <p xml:id="FrMS88-f76354-d1e161">
+               <lb ed="#V" n="34"/>¶ 3a conclusio quod christus fuit tribus diebus in sepulchro: quia in 
+      pa<lb ed="#V" n="35" break="no"/>te cuiuslibet diei fuit ibi.
+    </p>
+            <p xml:id="FrMS88-f76354-d1e168">
+      ¶ 4a conclusio quod non tribus noctibus. 
+      <lb ed="#V" n="36"/>fuit enim tantum in sepulchro in nocte sequente parasceue. et in 
+      <lb ed="#V" n="37"/>sequenti tantum. vnde non fuit in sepulchro in parte trium 
+      nocti<lb ed="#V" n="38" break="no"/>um. sicut in parte trium dierum.
+    </p>
+            <p xml:id="FrMS88-f76354-d1e177">
+      ¶ Sed contra. math. 12o. dicitur. sicut 
+      <lb ed="#V" n="39"/>fuit ionas in ventre ceti tribus diebus et tribus 
+      nocti<lb ed="#V" n="40" break="no"/>bus etc.
+    </p>
+            <p xml:id="FrMS88-f76354-d1e184">
+      ¶ hoc soluitur grammatice per synodocem 
+      qua<lb ed="#V" n="41" break="no"/>figura vtitur sacra scriptura frequenter: quia quod conuenit secundum 
+      <lb ed="#V" n="42"/>partem attribuiter toti: sicut gene. 4o. da mihi animas 
+      cete<lb ed="#V" n="43" break="no"/>ra tolle tibi. Et infra. 4o. capus. septuaginta anime ingresse 
+      <lb ed="#V" n="44"/>sunt in egyptum. Et accipitur hic pars pro toto id est ania pro 
+      <lb ed="#V" n="45"/>homine. cuius partes essentiales sunt anima et corpus. ita 
+      di<lb ed="#V" n="46" break="no"/>cunt esse in proposito.
+    </p>
+            <p xml:id="FrMS88-f76354-d1e200">
+      ¶ Sed hoc bene valet pro diebus 
+      <lb ed="#V" n="47"/>et noctibus nisi dicatur quod dies et nox faciunt vnum integrum 
+      <lb ed="#V" n="48"/>diem. tunc dicetur quod christus fuit in sepulchro in partibus tantum 
+      <lb ed="#V" n="49"/>integralium non accipiendo noctem prout distinguitur contra diem. 
+      <lb ed="#V" n="50"/>Cogice soluiter: quia quot modis dicitur vnum oppositorum tot 
+      <lb ed="#V" n="51"/>modis dicitur reliquum. sicut ergo dies quedam est naturalis quaedanm 
+      <lb ed="#V" n="52"/>artificialis. ita nox.
+    </p>
+            <p xml:id="FrMS88-f76354-d1e216">
+      ¶ Sed tunc est dubium de nocte nisi 
+      <lb ed="#V" n="53"/>accipiatur secundum mensuram diei.
+    </p>
+            <p xml:id="FrMS88-f76354-d1e222">
+      ¶ Pilosopris soluit: quia regulari 
+      <lb ed="#V" n="54"/>ter est quod quando aliquid mouetur ad generationem. tunc dici 
+      <lb ed="#V" n="55"/>mus quod illud generatur. quamuis generatio fiat in instanti. 
+      <lb ed="#V" n="56"/>similiter dicimus quod quando aliquid disponitur ad mortem. tunc moritur: 
+      <lb ed="#V" n="57"/>et tamen separatio illa fit in instanti et talis in toto tempore prime 
+      <lb ed="#V" n="58"/>viuebat. ita dicitur quod christus tribus diebus et noctibus 
+      labo<lb ed="#V" n="59" break="no"/>rauit in extremis: quia tota nocte qua fuit captus 
+      nimi<lb ed="#V" n="60" break="no"/>um vexatus flagellatus et denominari poterat a termino 
+      <lb ed="#V" n="61"/>mortis.
+    </p>
+            <p xml:id="FrMS88-f76354-d1e242">
+      ¶ Alio modo theologice dicunt quod quia naues 
+      <lb ed="#V" n="62"/>consueuerunt de mane exire. ideo circa horam nonam fuit Iod 
+      <lb ed="#V" n="63"/>nas proiectus in mari et tertia die piscis euomuit eum. et 
+      <lb ed="#V" n="64"/>tunc referatur snieintia ad sicut: quia sicut ionas fuit sic christus fuit 
+      </p>
+            <p xml:id="FrMS88-f76354-d1e251">
+               <lb ed="#V" n="65"/>¶ Sed hic est dubium quomodo intelligitur in corde terre in 
+      se<lb ed="#V" n="66" break="no"/>pulchro vel in libo. Uitr quod melius in limbo: quia plus fuit in 
+      <!--454.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>inferno quam in sepulchro. in inferno enim fuit. quandium corpus 
+      <lb ed="#V" n="68"/>mortuum in cruce pependit et in sepulchro. et quandiu in 
+      infer<lb ed="#V" n="69" break="no"/>no fuit. tandiu corpus mortuum inacuit in sepulchro: et 
+      quandiu<lb ed="#V" n="70" break="no"/>obsequie scilicet lauando et vngendo et inuoluendo in linthea 
+      <lb ed="#V" n="71"/>minibus sibi fcam fuerunt et quandiu iacuit in sepulchro.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

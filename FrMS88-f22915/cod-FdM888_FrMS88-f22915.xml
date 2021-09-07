@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="163-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f22915"><!-- l2d35-42q2 -->
+            <head xml:id="FrMS88-f22915-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f22915-d1e111">
+               <lb ed="#V" n="92"/>¶ Questio. ii. 
+      <lb ed="#V" n="93"/>SEcunda quaestio est: vtrum causalitas 
+      <lb ed="#V" n="94"/>finis sit vera causalitas. 
+      <lb ed="#V" n="95"/>Et videtur quod non: quia causalitas metaphysicas. 
+      <lb ed="#V" n="96"/>
+            </p>
+            <p xml:id="FrMS88-f22915-d1e124">
+      ¶ Contra. quia finis est causa causarum. 
+      <lb ed="#V" n="97"/>quatuor conclusio. 
+      <lb ed="#V" n="98"/>hic introducuntur nes.
+    </p>
+            <p xml:id="FrMS88-f22915-d1e131">
+      ¶ Prima. quod 
+      <lb ed="#V" n="99"/>causa finalis est prima causa: probatur. causalitas causare 
+      ef<lb ed="#V" n="100" break="no"/>ficientis praecedit causalitatem materie et forme: et 
+      causali<lb ed="#V" n="101" break="no"/>tas materiae causalitatem forme. forma enim est posterior materia: ergo et 
+      <lb ed="#V" n="102"/>eius causalitas. Unde ante formam causat immediate materia. vtrum 
+      <lb ed="#V" n="103"/>que precedit efficiens: prius enim conuenit rei esse quam inesse. 
+      <lb ed="#V" n="104"/>Sed forma accipit esse per causam efficientem: ergo 
+      pri<lb ed="#V" n="105" break="no"/>us est causare efficiens respectu forme: quam forme 
+      respe<lb ed="#V" n="106" break="no"/>ctu compositi cui inest. Item meam nihil causat nisi: quia 
+      reo<lb ed="#V" n="107" break="no"/>pi: sed prius habet esse forma ab agente quam ipsam recipiat. 
+      <lb ed="#V" n="108"/>Ultra finis praecedit efficiens: causa. enim efficiens non causat nisi 
+      <lb ed="#V" n="109"/>mota a fine: ergo prior est intentione inter omnes.
+    </p>
+            <p xml:id="FrMS88-f22915-d1e157">
+      ¶ Secunda 
+      <lb ed="#V" n="110"/>ontuo quod causalitas finis est necessaria: magis enim est 
+      neces<lb ed="#V" n="111" break="no"/>saria causalitas que per se inest: quam qua per accidens: sic autem 
+      <lb ed="#V" n="112"/>est de fine. hec enim est per accidens. homo creatur: quia est 
+      contin<lb ed="#V" n="113" break="no"/>gens. Ista autem est per se. creatura habet ordinem ad deum: quia ex 
+      <lb ed="#V" n="114"/>ratione eius formali est ad deum ex ordine essentie. vnde 
+      <lb ed="#V" n="115"/>aucumque cognosceret quiditatem dei et creature cognosceret 
+      <lb ed="#V" n="116"/>quod creatura est ad deum: et propter deum: sicut medicina propter 
+      san<lb ed="#V" n="117" break="no"/>tatem: et haec tendentia est causalitas finis.
+    </p>
+            <p xml:id="FrMS88-f22915-d1e178">
+      ¶ Tertia conclusio quod 
+      cau<lb ed="#V" n="118" break="no"/>salitas finis est necessaria causalitas: quia ex rationibus rerum 
+      <lb ed="#V" n="119"/>demonstratur ordo earum: et hoc est causalitas finis.
+    </p>
+            <p xml:id="FrMS88-f22915-d1e185">
+      ¶ 4a 
+      <lb ed="#V" n="120"/>oinuo quod hoc est causalitas praecipua: quia prima.
+    </p>
+            <p xml:id="FrMS88-f22915-d1e190">
+      ¶ Sed contra primam 
+      <lb ed="#V" n="121"/>contranem instatur: quia aliquis effectus fuisset ante mundum: 
+      <lb ed="#V" n="122"/>quia ante causalitatem efficientem fuit deus finis ergo aliquis 
+      <lb ed="#V" n="123"/>effectus.
+    </p>
+            <p xml:id="FrMS88-f22915-d1e199">
+      ¶ Contra secundam conclusionem: quia quae necessaria 
+      <lb ed="#V" n="124"/>sunt eque conueniunt in potentia sicut in actu: et ita illa 
+      causa<lb ed="#V" n="125" break="no"/>litas erit in potentia obiectiua.
+    </p>
+            <p xml:id="FrMS88-f22915-d1e206">
+      ¶ Contra tertiam: quia tunc 
+      <lb ed="#V" n="126"/>causalitas esset eterna.
+    </p>
+            <p xml:id="FrMS88-f22915-d1e211">
+      ¶ Contra quartam: quia causalitas 
+      effi<lb ed="#V" n="127" break="no"/>cientis semper ponit effectum in actu: non autem finis.
+    </p>
+            <p xml:id="FrMS88-f22915-d1e217">
+      ¶ Ad primo 
+      <lb ed="#V" n="128"/>dico. quod sicut causa vniuersalior prius ordine nature causat et 
+      <lb ed="#V" n="129"/>influit quam causa secunda. sic dico. quod ordine naturae prius 
+      mun<lb ed="#V" n="130" break="no"/>dus est propter deum quam factus: licet in eodem instanti temporis. 
+      </p>
+            <p xml:id="FrMS88-f22915-d1e226">
+               <lb ed="#V" n="131"/>¶ Ad 2 concedit quidam doctor quod quiditates in potentia 
+      <!--329.xml-->
+      <pb ed="#V" n="163-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>obiectiua habent ordinem essentie: quia sicut ista erat vera 
+      <lb ed="#V" n="2"/>homo non est asinus: ita ista: homo est melior asino. ab 
+      eter<lb ed="#V" n="3" break="no"/>no: et ita videtur talis causalitas finalis non in solo actu: sed etiam in 
+      <lb ed="#V" n="4"/>potentia.
+    </p>
+            <p xml:id="FrMS88-f22915-d1e246">
+      ¶ Ad 3m dico. quod proprie necessarium est eternum 
+      <lb ed="#V" n="5"/>est autem necessaria causalitas non pro intrinseco modo: sed 
+      ne<lb ed="#V" n="6" break="no"/>cessitate incommutabilitatis sicut secundum Aug. homo est animal. est 
+      <lb ed="#V" n="7"/>incommutabilis.
+    </p>
+            <p xml:id="FrMS88-f22915-d1e255">
+      ¶ Ad aliud dico. quod supereminenter vel 
+      <lb ed="#V" n="8"/>virtualiter quiditas hominis continet actualitatem: ita causa 
+      <lb ed="#V" n="9"/>finalis causam efficientem.
+    </p>
+            <p xml:id="FrMS88-f22915-d1e262">
+      ¶ Sed hoc est difficultas. si effectus 
+      <lb ed="#V" n="10"/>cause finalis habet respectum realem ad finem: et certum est quod 
+      <lb ed="#V" n="11"/>effectiuitas dicit dependentiam: et ideo dico quod realis 
+      de<lb ed="#V" n="12" break="no"/>pendentia est.
+    </p>
+            <p xml:id="FrMS88-f22915-d1e271">
+      ¶ Sed contra. medicina est propter 
+      sani<lb ed="#V" n="13" break="no"/>tatem que non est.
+    </p>
+            <p xml:id="FrMS88-f22915-d1e277">
+      ¶ hic dico quod relatio effectus est 
+      re<lb ed="#V" n="14" break="no"/>latio fundamentalis. quia per se inest: non actualis: et talis be 
+      <lb ed="#V" n="15"/>ne est ad aliquid quod non est in actu: sed sufficit eius esse qui 
+      <lb ed="#V" n="16"/>ditatiuum.
+    </p>
+            <p xml:id="FrMS88-f22915-d1e286">
+      ¶ Secunda difficultas quia impossibile est quod aliqua causa 
+      <lb ed="#V" n="17"/>causet quando non est.
+    </p>
+            <p xml:id="FrMS88-f22915-d1e291">
+      ¶ hic dico quod illud quod non est non 
+      <lb ed="#V" n="18"/>potest producere: tamen causare potest in potentia obiecti 
+      <lb ed="#V" n="19"/>ua: productio enim conuenit per accidens producto et 
+      pro<lb ed="#V" n="20" break="no"/>ducenti: et ideo non nisi in actu: sed ordo finis est 
+      essentia<lb ed="#V" n="21" break="no"/>lis ad illud quod causat.
+    </p>
+            <p xml:id="FrMS88-f22915-d1e302">
+      ¶ Tertia difficultas. quomodo potest est 
+      <lb ed="#V" n="22"/>se causa posterior effectu: sicut sanitas medicina. Dice 
+      <lb ed="#V" n="23"/>quod secundum quiditatem sanitas prior est medicina secundum esse 
+      <lb ed="#V" n="24"/>quiditatiuum secundum quod causat. per accidens autem est posterior 
+      </p>
+            <p xml:id="FrMS88-f22915-d1e311">
+               <lb ed="#V" n="25"/>¶ Quarta difficultas si deus redigeret omnia in nihil si 
+      re<lb ed="#V" n="26" break="no"/>maneret ordo talis. Dico quod sic: sicut ordo predicaus 
+      re<lb ed="#V" n="27" break="no"/>manet. Dico igitur quod causalitas finis et efficientis 
+      ve<lb ed="#V" n="28" break="no"/>re differunt sicut causalitas per se et per accidens. Nota 
+      <lb ed="#V" n="29"/>etiam quod illud quod est finis inquantum causat actum volend 
+      <lb ed="#V" n="30"/>habet rationem cause efficientis realis: sed postea quando actus si 
+      <lb ed="#V" n="31"/>cut deliberatio ordinatur in sanitatem: tunc illud habet 
+      <lb ed="#V" n="32"/>rationem finis: vnde hec semper est causalitas finis 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

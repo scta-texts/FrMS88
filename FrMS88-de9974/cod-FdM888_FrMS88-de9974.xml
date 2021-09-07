@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-de9974"><!-- l1d1q8 -->
+            <head xml:id="FrMS88-de9974-Hd1e108">Quaestio 8</head>
+            <p xml:id="FrMS88-de9974-d1e111">
+      ¶ Quaestio. viii 
+      <lb ed="#V" n="53"/>ri Utrum voluntas possit ab 
+      <lb ed="#V" n="54"/>Ueruur aliqua causa necessitari. 
+      <lb ed="#V" n="55"/>voluntas potest quadrupliciter 
+      <lb ed="#V" n="56"/>Dico quod considerar scilicet vt passiua. vt 
+      <lb ed="#V" n="57"/>Si receptiua. vt actiua. vt productiua. si volunt 
+      <lb ed="#V" n="58"/>tas accipiatur primis duobus modis. sic dico quod voluntas 
+      <lb ed="#V" n="59"/>potest necessitari. quia pati non est precise in potestate patienti. Sed 
+      <lb ed="#V" n="60"/>autem voluntas accipiatur duobus modis vltimis. sic dico 
+      <lb ed="#V" n="61"/>quod non potest: quia sic semper ipsa. vt causa actiua concurrit: 
+      causali<lb ed="#V" n="62" break="no"/>tas autem sua naturalis est contingens: ideo ab aliquo non potest 
+      <lb ed="#V" n="63"/>necessitari. Nullum enim actiuum potest necessitari ad agendum 
+      <lb ed="#V" n="64"/>nisi suo modo naturali.
+    </p>
+            <p xml:id="FrMS88-de9974-d1e140">
+      ¶ Sed hic est vna magna difficulta 
+      <lb ed="#V" n="65"/>accipitur enim talis regula. Quandocumque aliqua entitas 
+      posi<lb ed="#V" n="66" break="no"/>tiua in aliquo gradu aufert aliquid de facilitate potentie 
+      <!--32.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>si magis et magis aucta fuerit facit maiorem difficulta 
+      <lb ed="#V" n="68"/>tem. etenim tantum poterit intendi quod auferet totam facilita 
+      <lb ed="#V" n="69"/>tem. et ponet necessitatem. Ista regula patet in ponderibus 
+      <lb ed="#V" n="70"/>et in multis aliis. sed delectatio de aliquo bono quando est 
+      <lb ed="#V" n="71"/>magna. facit quod non potest voluntas ita faciliter resilire: et 
+      <lb ed="#V" n="72"/>ita facit difficultate ad resiliendum. et maior maiorem. ergo si 
+      im<lb ed="#V" n="73" break="no"/>tendatur in infinitum non poterit refilire. Eodem modo arguitur 
+      <lb ed="#V" n="74"/>de habitu qui in aliquo gradum appositus diminuit 
+      facili<lb ed="#V" n="75" break="no"/>tatem potentie. tantum poterit augeri quod totaliter 
+      necessita<lb ed="#V" n="76" break="no"/>bit. Eodem modo de repraesentatiuo. sed magis principalius ditu 
+      <lb ed="#V" n="77"/>obiecto quanto ipsum est perfectius.
+    </p>
+            <p xml:id="FrMS88-de9974-d1e175">
+      ¶ Ad istud respondeo. Primo 
+      <lb ed="#V" n="78"/>do vnam regulam. Quandocumque est aliqua potentia immaterialis et in 
+      <lb ed="#V" n="79"/>fatigabilis: quicquid sibi est difficile: est sibi impossibile. Ex quo 
+      <lb ed="#V" n="80"/>patet ista regula in potentia Angeli mouente caelum: si enim esset 
+      <lb ed="#V" n="81"/>sibi in aliquo difficile. tunc virtus illa esset fatigabilis. 
+      <lb ed="#V" n="82"/>Nam difficultas inducit fatigationem: que autem non est fat 
+      <lb ed="#V" n="83"/>gabilis nihil est sibi difficile. quin sit sibi impossibile. volun 
+      <lb ed="#V" n="84"/>tas autem est potentia immaterialis et infatigabilis: et ideo quicquid est 
+      <lb ed="#V" n="85"/>sibi difficile: est sibi impossibile.
+    </p>
+            <p xml:id="FrMS88-de9974-d1e195">
+      ¶ Sed tunc quaeritur vnde 
+      pro<lb ed="#V" n="86" break="no"/>uenit difficultas in nobis. Dinco quod difficultas prouenit in nobis ex 
+      <lb ed="#V" n="87"/>coniuctione voluntatis cum appetitu sensitiuo. Nam habitus in 
+      <lb ed="#V" n="88"/>appetitu sensitiuo existens inclinatur ad talia 
+      delectabi<lb ed="#V" n="89" break="no"/>lia et ideo qui habent habitum de difficili resiliunt propter orgatum. 
+      </p>
+            <p xml:id="FrMS88-de9974-d1e207">
+               <lb ed="#V" n="90"/>¶ Sed dices: ad quid habitus ponitur in voluntate. Rsponsio 
+      <lb ed="#V" n="91"/>deo. quod quia voluntas est coniucta appetitui sensitiuo 
+      sem<lb ed="#V" n="92" break="no"/>per ad generationem habitus in voluntate. sequitur genera 
+      <lb ed="#V" n="93"/>tio habitus proportionalis in appetitu sensitiuo.
+    </p>
+            <p xml:id="FrMS88-de9974-d1e218">
+      ¶ Sed 
+      <lb ed="#V" n="94"/>hoc est difficultas quia habitus videtur dari potentie volitiue ad aliquid 
+      <lb ed="#V" n="95"/>delectabiliter operandum: ac prompte secundum illum habitum: et 
+      <lb ed="#V" n="96"/>si non: da mihi causam quare ponitur habitus in voluntate.
+    </p>
+            <p xml:id="FrMS88-de9974-d1e227">
+      ¶ Ad  
+      <lb ed="#V" n="97"/>hoc dico quod propter quattuor datur habitus. Primum est propter 
+      <lb ed="#V" n="98"/>perfectionem actus. 2m est propter delectationem. Nam perte 
+      <lb ed="#V" n="99"/>ctiorem actum sequitur maior dlectatio. Ista duo 
+      inueniun<lb ed="#V" n="100" break="no"/>tur in potentiis separatis. sed alia duo quae sunt operari 
+      faci<lb ed="#V" n="101" break="no"/>liter et velociter siue prompte: facit habitus in potentiis 
+      <lb ed="#V" n="102"/>organicis coniuctis. in potetiis autem separatis nihil est 
+      dis<lb ed="#V" n="103" break="no"/>ficile vel tardum: sed operantur in instanti.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

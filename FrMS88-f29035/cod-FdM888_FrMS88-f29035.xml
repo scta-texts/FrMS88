@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="171-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f29035"><!-- l3d2q2 -->
+            <head xml:id="FrMS88-f29035-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f29035-d1e111">
+      <!--345.xml-->
+               <pb ed="#V" n="171-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>¶ Questio. ii. 
+      <lb ed="#V" n="2"/>Utrum 
+      bea<lb ed="#V" n="3" break="no"/>Ecundo quero ta vigo 
+      mo<lb ed="#V" n="4" break="no"/>ria fuerit concepta in peccato originali: quod 
+      <lb ed="#V" n="5"/>sic ait psal. In iniquitatibus meis 
+      conce<lb ed="#V" n="6" break="no"/>ptus sum: et loquitur propheta de propagatis ab adam: sed beata 
+      <lb ed="#V" n="7"/>vgo fuit ab adam non solum quantum ad corpulentam substantiam. 
+      <lb ed="#V" n="8"/>sed etiam rationem seminalem.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e137">
+      ¶ Contra. quia in psal. dicitur. Non 
+      <lb ed="#V" n="9"/>dabis sanctum tuum videre corruptionem. de christo hoc 
+      <lb ed="#V" n="10"/>dicitur: sed caro christi fuit caro virginis. ergo etc. 
+      <lb ed="#V" n="11"/>duodecim articuli secundum ordinem 
+      declaran<lb ed="#V" n="12" break="no"/>hic sunt di.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e148">
+      ¶ Primus quod deus potuit matrem 
+      <lb ed="#V" n="13"/>suam praeseruare: ne scilicet contraheret peccatum originale.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e153">
+      ¶ Secundus. 
+      <lb ed="#V" n="14"/>quod hoc ipsum decuit.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e159">
+      ¶ Tertius quod de facto ipsam ab ori 
+      <lb ed="#V" n="15"/>ginali praeseruauit.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e164">
+      ¶ Quartus. quod hoc non obstante potest 
+      <lb ed="#V" n="16"/>dici quod beata virgo propter dictum sencodorum peccatum originale 
+      contra<lb ed="#V" n="17" break="no"/>xit aliquo modo.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e171">
+      ¶ Quintus. quod vere fuit redempta. 
+      </p>
+            <p xml:id="FrMS88-f29035-d1e174">
+               <lb ed="#V" n="18"/>¶ Sextus. quod vere fuit a preccato originati purgata.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e179">
+      ¶ Se 
+      <lb ed="#V" n="19"/>ptimus. quod fuit vere sctificata.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e184">
+      ¶ Octauus. quod habuit 
+      <lb ed="#V" n="20"/>aliquam penam precti originalis.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e190">
+      ¶ Nonus. quod licet peccatum ori 
+      <lb ed="#V" n="21"/>ginale non habuerit: tamen suum priuilegium fuit citra 
+      priuile<lb ed="#V" n="22" break="no"/>gium christi.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e197">
+      ¶ Decimus. quod beatam virginem fuisse sine preccato 
+      ori<lb ed="#V" n="23" break="no"/>ginali conceptam non est contra auetes sacrescripture.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e202">
+      ¶ Unde 
+      <lb ed="#V" n="24"/>cimus. quod nec contra determinationem sancte matris ecclesie. 
+      </p>
+            <p xml:id="FrMS88-f29035-d1e207">
+               <lb ed="#V" n="25"/>¶ Duodecimus. quod non est contra dicta sanctorum. 
+      <lb ed="#V" n="26"/>primus articulus. quod deus potuit bea 
+      <lb ed="#V" n="27"/>Est igitur tam virginem praeseruare ne contraheret 
+      <lb ed="#V" n="28"/>peccatum originale: et hoc declaratur: primo in naturalibus sic: 
+      quan<lb ed="#V" n="29" break="no"/>to aliquod agens est perfectius tanto citius potest suum effectum 
+      <lb ed="#V" n="30"/>inducere in passum: deus autem est agens perfectissimum: sed 
+      <lb ed="#V" n="31"/>gens naturale effectum suum inducit in instanti: patet de luce 
+      so<lb ed="#V" n="32" break="no"/>is.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e227">
+      ¶ Secundo in moralibus: quando aliqua potentia potest in 
+      <lb ed="#V" n="33"/>duos effectus siue in suas operationes oppositas: si in 
+      <lb ed="#V" n="34"/>primo innstanti potest in illam ad quam minus inclinatur: tunc 
+      <lb ed="#V" n="35"/>multo magis vel fortius in illam ad quam magis 
+      incli<lb ed="#V" n="36" break="no"/>natur sed potentia volitiua potest in dilectionem et odium: 
+      <lb ed="#V" n="37"/>et deus maxime inclinatur ad diligendum: sed in primo instan 
+      <lb ed="#V" n="38"/>ti potuit virginem odire. igitur et diligere.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e243">
+      ¶ Tertio. in 
+      po<lb ed="#V" n="39" break="no"/>liticis: quia legis lator qui potest legeme condere potest eam cui 
+      <lb ed="#V" n="40"/>pult etiam dimittere vel ipsam destruere. Sed deus istituit 
+      <lb ed="#V" n="41"/>quod omnes nascentes ab adam contrahant illud peccatum originale: 
+      <lb ed="#V" n="42"/>ergo potest hoc respectu matris destruere.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e255">
+      ¶ Item 4o in 
+      <lb ed="#V" n="43"/>theologicis: quia deus instituit circumcisionem faciendam: et 
+      <lb ed="#V" n="44"/>abrae indixit: et postea eam sub moyse in deserto suspen 
+      <lb ed="#V" n="45"/>dit. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e264">
+      ¶ Sed modus istius possibilita: is declaratur per 
+      <lb ed="#V" n="46"/>simile de irregularitate: vnde peccatum originale est quedam 
+      <lb ed="#V" n="47"/>irregularitas: ne quis habens ipsum ascendat vel promoueatur 
+      <lb ed="#V" n="48"/>ad ordinem angelorum: vnde sicut papa: qui est summus 
+      prin<lb ed="#V" n="49" break="no"/>ceps in hierarchia ecclaeiastica: istituit quod quantumcunque 
+      <lb ed="#V" n="50"/>nobilissimis ortus natalibus corruptam in coniugem 
+      acce<lb ed="#V" n="51" break="no"/>berit: contrahat notam irregularitatis. ne ad sacros 
+      ordi<lb ed="#V" n="52" break="no"/>nes promoueatur: ita deus summus hierarchia in celesti hic 
+      <lb ed="#V" n="53"/>rarchia instituit: vt quicumque nasceretur de adam per 
+      semi<lb ed="#V" n="54" break="no"/>nis propagationem contrahat illud peccatum originale: quo fit 
+      ir<lb ed="#V" n="55" break="no"/>regularis et illegitimus ad assumptionem ordins angelorum. 
+      </p>
+            <p xml:id="FrMS88-f29035-d1e288">
+               <lb ed="#V" n="56"/>¶ Sed quatuor modis potest hanc legeme inst tutam quantum ad 
+      <lb ed="#V" n="57"/>aliquid reuocare. Primo si legem talem destrueret omnino. 
+      <lb ed="#V" n="58"/>Secundo. si eam suspenderet. Tertio. si cum aliquo 
+      dispensa<lb ed="#V" n="59" break="no"/>ret. Quarto. si priuilegium daret.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e299">
+      ¶ Sic deus dictis 4or 
+      <lb ed="#V" n="60"/>modis potest reuocare quantum ad virginem legem quam 
+      <lb ed="#V" n="61"/>instituit scilicet ne virgo contraheret originale peccatum. 
+      <lb ed="#V" n="62"/>est. quod decuit quod 
+      <lb ed="#V" n="63"/>Secundus articulus christus natrem suam 
+      <lb ed="#V" n="64"/>ne peccatum originale contraheret praeseruaret: quia agens beniuo 
+      <lb ed="#V" n="65"/>lum circa effectum sibi gratum nihil omitrit de 
+      contingen<lb ed="#V" n="66" break="no"/>tibus: sed deus est agens maxime beniuolum: et puritas 
+      <!--345.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>virginis matris sue fuit sibi maxime grata: ergo deu 
+      <lb ed="#V" n="68"/>cuit quod nihil omitteret de contingentibus: quin ipsam ab 
+      ori<lb ed="#V" n="69" break="no"/>ginali praeseruaret.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e328">
+      ¶ Item dicit Ansel. de conceptu 
+      virgi<lb ed="#V" n="70" break="no"/>nali: decuit vt mater disfuni ea puritate niteret: qua sub deo 
+      <lb ed="#V" n="71"/>nequit maior intelligi: sed si non fuisset praeseruata: sed 
+      con<lb ed="#V" n="72" break="no"/>traxisset originale peccatum: maior sub deo puritas 
+      fuis<lb ed="#V" n="73" break="no"/>set. valet. puritas puri angeli in gratia: et puritas primi hominis 
+      <lb ed="#V" n="74"/>Ade et Eue in originali iustitia: et etiam christi ante vnionem 
+      <lb ed="#V" n="75"/>ad verbum: quia ante vnionem ad verbum fuit sub deo et non 
+      <lb ed="#V" n="76"/>deus.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e346">
+      ¶ Confirmatur per legere que dicit lex quando ipsa a 
+      le<lb ed="#V" n="77" break="no"/>gislatore perficitur illud plenissime interpraetandum est. Sed 
+      <lb ed="#V" n="78"/>purgatio a legislatore perficitur. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e354">
+      ¶ Item Aug. 
+      lo<lb ed="#V" n="79" break="no"/>quens de assumptione virginis dicit quod non decuit quod christus 
+      <lb ed="#V" n="80"/>corpus beatem virginis subiecisset incinerationi vel corru 
+      <lb ed="#V" n="81"/>ptioni. Sed maior est anime corruptio quam corporis. ergo christus 
+      <lb ed="#V" n="82"/>multo magis non permisit quod anima virginis subiaceret 
+      ma<lb ed="#V" n="83" break="no"/>tule preccati originalis.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e367">
+      ¶ Item si christus matrem suam 
+      permisis<lb ed="#V" n="84" break="no"/>set incurrere peccatum originale peius sibi fecisset quam si eam 
+      <lb ed="#V" n="85"/>perpetuo pena sensus puniuisset: vnde beata virgo in 
+      pu<lb ed="#V" n="86" break="no"/>ris naturalibus constituta prius penam eternam elegisset quam peccatum 
+      <lb ed="#V" n="87"/>priginale: probatio: quia magis quis dabet fugere odium dei 
+      quan<lb ed="#V" n="88" break="no"/>denam eternara: sed peccatum originale est deo odiosum ma 
+      <lb ed="#V" n="89"/>gis quam peccatum actuale. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e383">
+      ¶ Item magis decet virginem 
+      <lb ed="#V" n="90"/>mane incorruptam quam recuperare integritatem: quia solum 
+      pri<lb ed="#V" n="91" break="no"/>min habuerunt aureolam.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e390">
+      ¶ Sed omnes scti resurgunt cum 
+      in<lb ed="#V" n="92" break="no"/>tegritate carnis: quia deus non potest facere quod corruptus 
+      <lb ed="#V" n="93"/>non fuerit corruptus. ergo magis decuit virginem manere 
+      <lb ed="#V" n="94"/>in integritate incorruptionis quam recuperari a culpa. 
+      <lb ed="#V" n="95"/>quod de facto deus 
+      ma<lb ed="#V" n="96" break="no"/>Tertius articulus trem virginem ab origi 
+      <lb ed="#V" n="97"/>nali praeseruauit: quia agens beniuolum etc. sicut prius. ergo 
+      <lb ed="#V" n="98"/>vel deus de facto praeseruauit: vel aliquid quod decens fuit 
+      <lb ed="#V" n="99"/>ptermisit de facto quod non suppleret.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e410">
+      ¶ Item Augu. sic 
+      <lb ed="#V" n="100"/>inquit. Cum enim de peccatis agitur de maria nolo face 
+      men<lb ed="#V" n="101" break="no"/>tionem propter christi reuerentiam.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e417">
+      ¶ Sed aliquin hoc 
+      expo<lb ed="#V" n="102" break="no"/>nunt de preccatio veniali. Contra. maior irreuerentia est christi 
+      <lb ed="#V" n="103"/>patre matrem suam peccatum originale quam veniale: ergo magis 
+      <lb ed="#V" n="104"/>est de originali autetas exponenda: et hoc patet per dictum Ido. 
+      <lb ed="#V" n="105"/>quod ibidem subdit Augu. si dixerimus: quia peccatum non 
+      ha<lb ed="#V" n="106" break="no"/>pemus etc. Quod non potest intelligi nisi de peccato origina 
+      <lb ed="#V" n="107"/>li: quia ipsa mater dei veniale nunquam habuit. et dicere potuit 
+      <lb ed="#V" n="108"/>quod peccatum veniale non habuit.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e436">
+      ¶ Item hoc 
+      idem<lb ed="#V" n="109" break="no"/>dfirmatur per legem. querit lex an princeps subiiciatur 
+      legi<lb ed="#V" n="110" break="no"/>quam condidit: et respondet quod non: sed augusta legi subiicitur. Sed 
+      <lb ed="#V" n="111"/>vult tamen quod ex priuilegio non subiiciatur legi: et tamen ista lex est 
+      <lb ed="#V" n="112"/>de dictamine iustitie iuste legis naturalis: que lex est 
+      philosopho<lb ed="#V" n="113" break="no"/>rum: qui secundum rationem processerunt.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e449">
+      ¶ Sed christus lege naturalem 
+      <lb ed="#V" n="114"/>iustitie non minus seruauit erga matrem suam: quam Augu 
+      <lb ed="#V" n="115"/>stus erga matrem vel vxorem. igitur beata virgo de iure munici 
+      <lb ed="#V" n="116"/>pali non fuit subdita legi communi: christus autem legem 
+      condi<lb ed="#V" n="117" break="no"/>dit de contractione peccati originalis. ergo etc. 
+      <lb ed="#V" n="118"/>quod non obstante quod 
+      <lb ed="#V" n="119"/>Duartus articulus betam virgo fuerit 
+      pr<lb ed="#V" n="120" break="no"/>seruata a preccato originali: veruntamen propter dicta 
+      san<lb ed="#V" n="121" break="no"/>ctorum possumus dicere quod originale aliquando contraxit: quia quando 
+      ali<lb ed="#V" n="122" break="no"/>uit de se: et quantum est de se habet defectum: quantumcumque 
+      <lb ed="#V" n="123"/>per virtutem extrinsecam eripiatur: tamen potest dici istud istum 
+      <lb ed="#V" n="124"/>defectum habere.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e475">
+      ¶ Istud probatur quadrupliciter ex testimonio 
+      <lb ed="#V" n="125"/>scripture. primo per illud Isa. Ecce vos omnes ex nihilo estis  
+      <lb ed="#V" n="126"/>et opus vestrum ex eo quod non est: sed nulla creatura nec 
+      <lb ed="#V" n="127"/>tiam illa que primo fuit creata fuit simpliciter ex nihilo: 
+      <lb ed="#V" n="128"/>nec modo aliquid creatum est simpliciter nihil. est igitur 
+      <lb ed="#V" n="129"/>intelligendum quod creatura quantum est de se esset nihil: 
+      <lb ed="#V" n="130"/>et opus eius omnino deficeret nisi a deo sustentaretur. 
+      </p>
+            <p xml:id="FrMS88-f29035-d1e491">
+               <lb ed="#V" n="131"/>¶ Item praos omnes declinauerunt simul inutiles facti 
+      <lb ed="#V" n="132"/>sunt etc. non est vsque ad vnum. sed plures ex scripture 
+      <!--346.xml-->
+      <pb ed="#V" n="172-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>testimonio boni erant: et erunt igitur. per prophetam 
+      di<lb ed="#V" n="2" break="no"/>cere vult spiritus sanctus quod quantum est ex se proni erant 
+      <lb ed="#V" n="3"/>ad malum nisi a deo praeseruarentur.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e511">
+      ¶ Item praeos etc. 
+      ho<lb ed="#V" n="4" break="no"/>mo mendax. sed martyres fuerunt homines: et tamen non 
+      fue<lb ed="#V" n="5" break="no"/>runt mendaces secundum Aug. sed martyres quantum ex se 
+      fuis<lb ed="#V" n="6" break="no"/>fuerunt mendaces: sic et beata virgo quantum ex se et erat 
+      <lb ed="#V" n="7"/>fuit et fuisset peccatrix nisi a peccato praeseruata fuisset 
+      </p>
+            <p xml:id="FrMS88-f29035-d1e522">
+               <lb ed="#V" n="8"/>¶ Item Iob. 4. Ecce qui seruiunt ei non sunt stabiles 
+      <lb ed="#V" n="9"/>quantum ad bonos angelos secundum Gregorium: et in 
+      ange<lb ed="#V" n="10" break="no"/>lis suis reperit prauitatem. quanti ad malos: sed boni de 
+      <lb ed="#V" n="11"/>facto steterunt immobiliter in bono: et sic fuerunt dei gratia 
+      <lb ed="#V" n="12"/>confirmati: igitur instabiles fuerunt de se: sic beata virgo 
+      <lb ed="#V" n="13"/>quantum fuit de se peccatum originale habuit: licet ne habere t 
+      <lb ed="#V" n="14"/>deo preuenta fuerit: igitur potest dici quod de se: modo predi 
+      <lb ed="#V" n="15"/>cto et prolato ex scriptura contraxit originale.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e543">
+      ¶ Sed 
+      com<lb ed="#V" n="16" break="no"/>tra. Aug. de fide ad petrum: et est indecretis firmissimo 
+      <lb ed="#V" n="17"/>tene et nullatenus dubites omnes qui ex seminis propaga 
+      <lb ed="#V" n="18"/>tione generantur in peccato originali nasci.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e552">
+      ¶ Dicendum 
+      <lb ed="#V" n="19"/>quod hoc verum est quantum est ex se: quod confirmatur per illud 
+      <lb ed="#V" n="20"/>quod ibi dicitur firmissime tene etc. Omnes qui ab Adam sunt in 
+      <lb ed="#V" n="21"/>die iudicii in corpore et anima resurrecturos. Sed beatam virge 
+      <lb ed="#V" n="22"/>in corpore non resurget: quia iam est: vt tenet sancta mater 
+      <lb ed="#V" n="23"/>ecclesia: in corpore et anima assumpta. igitur concedis quod de 
+      fa<lb ed="#V" n="24" break="no"/>cto beata virgo originale non contraxit sed contraxisset quantum est 
+      <lb ed="#V" n="25"/>vel fuit de se: et ex se: vel ergo dices ipsam in corpore 
+      as<lb ed="#V" n="26" break="no"/>sumptam non fuisse: vel bis resurgere: quod tamen indecens 
+      <lb ed="#V" n="27"/>esset: vt iterum moriatur.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e574">
+      ¶ Item confirmatur hoc per legem: 
+      le<lb ed="#V" n="28" break="no"/>enim querit et princeps. que sit lex melior que vnquam 
+      fui<lb ed="#V" n="29" break="no"/>facta. Respondet legis consultus quod illa que dicit sic. legere in 
+      <lb ed="#V" n="30"/>quit scire non est verba legis dicere: sed intentionem 
+      le<lb ed="#V" n="31" break="no"/>gis latoris habere et diligenter inquirere. Sed deus 
+      in<lb ed="#V" n="32" break="no"/>istitutor legis: vt probatur pie et rationabiliter matrem 
+      <lb ed="#V" n="33"/>suam ab hoc inure esse exemptam volunt: igitur magis haec 
+      <lb ed="#V" n="34"/>est intelligendum quam verba legis et codicis. 
+      <lb ed="#V" n="35"/>quod hoc non obstante 
+      <lb ed="#V" n="36"/>Quintus articulus mater dei fuit vere 
+      <lb ed="#V" n="37"/>redempta: quia si pater et matr sunt serui alicuius diueni: et fetus 
+      <lb ed="#V" n="38"/>seruus est eiusdem divcuni. Sed talis fetus potest antequam nasca 
+      <lb ed="#V" n="39"/>tur a dimfeno suo per aliquem redimi: ergo postquam natus 
+      fue<lb ed="#V" n="40" break="no"/>rit erit liber: sed multo notabilius ante redimitur quam 
+      <lb ed="#V" n="41"/>postquam seruitutem contraxit.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e607">
+      ¶ Confirmatur. quia medicus 
+      priamo<lb ed="#V" n="42" break="no"/>seruans aliquem ab infirmitate multo melius et nobi 
+      <lb ed="#V" n="43"/>lius: et perfectius dicitur curare quam ille qui curat infirmitat 
+      <lb ed="#V" n="44"/>iam habitam.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e616">
+      ¶ Item glo. super illo verbo. Omors 
+      eno<lb ed="#V" n="45" break="no"/>mors tua morsus tuus ero inferne: dicit sic. de morte 
+      <lb ed="#V" n="46"/>redimenda sed non potuit dici de morte prima: vel 
+      intel<lb ed="#V" n="47" break="no"/>ligi: quia de ista eum non eripuit vel non redemint. hoc igitur 
+      <lb ed="#V" n="48"/>intelligitur de morte secunda inferni: sed ipse nunquam 
+      fue<lb ed="#V" n="49" break="no"/>rat in inferno: ergo aliquis potest redimin de hoc quod nunquam 
+      <lb ed="#V" n="50"/>habuit: dum tamen quantum ex se est illud haberet.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e632">
+      ¶ Item praes. 
+      <lb ed="#V" n="51"/>veruntamen deus redimet animam meam de manu inferi¬ 
+      </p>
+            <p xml:id="FrMS88-f29035-d1e638">
+               <lb ed="#V" n="52"/>¶ Dicendum quod multi dicerent quod manus inferi potest accipi 
+      <lb ed="#V" n="53"/>pro lymbo patrum in quo fuit dauid: ideo dicitur alibi. 
+      Eru<lb ed="#V" n="54" break="no"/>sti animam meam de inferno inferiori: sed infernus inferior. 
+      <lb ed="#V" n="55"/>est damnatio quam tamen nunquam exportus fuerat dauid. igitur etc 
+      </p>
+            <p xml:id="FrMS88-f29035-d1e649">
+               <lb ed="#V" n="56"/>¶ Item psalmista. saluasti me a descendentibus in lacum. 
+      <lb ed="#V" n="57"/>Sed lacus intelligitur pro dannatis. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e656">
+      ¶ Item 
+      corn<lb ed="#V" n="58" break="no"/>pe fratrem tuum et libera animam eius de inferno 
+      nouissi<lb ed="#V" n="59" break="no"/>mo.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e663">
+      ¶ Item Apstlus ad Galis. 3o. Christus redemit 
+      nol<lb ed="#V" n="60" break="no"/>de maledicto legis: sed nunquam fuit illis maledictio 
+      le<lb ed="#V" n="61" break="no"/>gis quibus loquebatur de facto: sed essent quantum est ex 
+      <lb ed="#V" n="62"/>eis. Sic et beata virgo maria potuit et dici debuit fuisse 
+      <lb ed="#V" n="63"/>redempta: licet peccatum originale non contraxerit de facto: sed 
+      <lb ed="#V" n="64"/>solum quantum est ex se.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e676">
+      ¶ Sed contra ista instatur: quia non 
+      <lb ed="#V" n="65"/>est idem priuilegiatum et praecio redemptum.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e681">
+      ¶ Dicendum quod ymo: 
+      <lb ed="#V" n="66"/>vnde dicit hieronymus quod Abraam fuerit redemptus 
+      <!--346.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>de hur chaldeorum in quo Aram frater suus fuit 
+      combu<lb ed="#V" n="68" break="no"/>stus: sed non redemptus fuit nisi quia priuilegiatus ne 
+      incen<lb ed="#V" n="69" break="no"/>deretur quod vere fuit in ignem proiectus: igitur idem est priuile 
+      <lb ed="#V" n="70"/>giari et redimi: fuit enim solus praeseruatus ab 
+      incendio<lb ed="#V" n="71" break="no"/>ignis: sicut fuerunt tres pueri in medio fornacis 
+      colli<lb ed="#V" n="72" break="no"/>gati. Sic beatam maria virgo fuit per priuilegium ab origina 
+      <lb ed="#V" n="73"/>li praeseruata: et nihilominus vero ab originali redempta. 
+      <lb ed="#V" n="74"/>ge est quod hoc etiam non 
+      obstan<lb ed="#V" n="75" break="no"/>Sextus articulus te fuit vere purgata 
+      <lb ed="#V" n="76"/>quia Tuce 2o dicitur quod postquam impleti sunt dies purgatio 
+      <lb ed="#V" n="77"/>nis: sed secundum legere nullam immunditiam habebat a qua 
+      pos<lb ed="#V" n="78" break="no"/>set vel debuisset purgari. Sed solum habuisset nisi de spi 
+      <lb ed="#V" n="79"/>ritu scondo concepisset: quia non suscepto semine concepit: et 
+      ni<lb ed="#V" n="80" break="no"/>hilominus dicitur purgari etc.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e721">
+      ¶ Item Malachie. 3. dicitur quod 
+      <lb ed="#V" n="81"/>purgabit filios leui: quod dicitur de die iudicii: in quo omnia 
+      <lb ed="#V" n="82"/>erunt per ignem purgata.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e728">
+      ¶ Item vide Diony. ¶. 7. et grod capium 
+      <lb ed="#V" n="83"/>de angelica hierarchia: vbi dicitur quod angeli superiores dicum 
+      <lb ed="#V" n="84"/>tur purgare inferiores: qui tamen nullam habent maculam a 
+      qua<lb ed="#V" n="85" break="no"/>purgentur: igitur non obstante quod beata virgo maria non 
+      con<lb ed="#V" n="86" break="no"/>traxit originale: tamen vere purgata fuit. 
+      <lb ed="#V" n="87"/>est quod hoc non 
+      ob<lb ed="#V" n="88" break="no"/>Septimus articulus stante: vere sunt 
+      se<lb ed="#V" n="89" break="no"/>ficata: quia deus vere scificatur. Matth. 1. scinficetur 
+      nomen<lb ed="#V" n="90" break="no"/>tuum. Item iustus in iustitia sua scinficatur. Item Io. Quem pater 
+      <lb ed="#V" n="91"/>sctificauit misit in mundum. Item angeli sanctificantur: vnde 
+      <lb ed="#V" n="92"/>Isaie. ego mandaui scificatis meis. igitur sanctificatio non 
+      <lb ed="#V" n="93"/>presupponit maculam: igitur non obstante: quod beata virgo 
+      <lb ed="#V" n="94"/>originale non contraxit: tamen vere sanctificata fuit: qui erat 
+      <lb ed="#V" n="95"/>septimus articulus pertractandus. 
+      <lb ed="#V" n="96"/>quod beata virgo 
+      ali<lb ed="#V" n="97" break="no"/>Octauus articulus quam penam petiori 
+      <lb ed="#V" n="98"/>ginalis vere habuit: quia in sacra scriptura scimus filios 
+      <lb ed="#V" n="99"/>pro peccatis parentum punitos: et penam sustinuisse peo 
+      <lb ed="#V" n="100"/>cati: vnde dicitur. Ego deus visitans iniquitatem patrum in filios 
+      <lb ed="#V" n="101"/>in tertiam et quartam generationem.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e772">
+      ¶ Item beatus Idam. baptista 
+      <lb ed="#V" n="102"/>fuit scificatus: et tamen multas penas sustinuit: qui tamen leui 
+      <lb ed="#V" n="103"/>ter non peccauit.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e779">
+      ¶ Item christus vere penas habuit. Sed 
+      for<lb ed="#V" n="104" break="no"/>te dices quod fuerunt voluntarie assumpte.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e784">
+      ¶ Sed cum hoc 
+      <lb ed="#V" n="105"/>etiam fuerunt quantum ad humanitatem sibi inflicte.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e789">
+      ¶ Ubi 
+      <lb ed="#V" n="106"/>notandum quod sunt multe cause quibus deus inflixit 
+      hominibu<lb ed="#V" n="107" break="no"/>penas. Primo ad ostendendum magnalia dei. vt ceco non 
+      <lb ed="#V" n="108"/>to qui nec ipse peccauit nec parentes eius: vt cecus 
+      na<lb ed="#V" n="109" break="no"/>sceretur.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e801">
+      ¶ Item 2o ad exercendum actum virtutis: vt paulo 
+      <lb ed="#V" n="110"/>stimulus carnis: et Iob sessionem in sterqulinio.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e806">
+      ¶ Item 
+      <lb ed="#V" n="111"/>3o. ad ostendendum exempla scientatis: vt Io. bap. et beate ma 
+      <lb ed="#V" n="112"/>rie.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e813">
+      ¶ Item 4o. ad perficiendum opera perfectionis: et sic christus 
+      <lb ed="#V" n="113"/>habuit penam inflictam humanitati. Uerumtamen beata virgoe 
+      <lb ed="#V" n="114"/>non habuit concupiscentiam vel passionem concupiscentie et 
+      fo<lb ed="#V" n="115" break="no"/>mitis que est proprie pena peccati originalis 
+      <lb ed="#V" n="116"/>quod priuilegium beatem virgi¬ 
+      <lb ed="#V" n="117"/> 
+               <lb ed="#V" n="118"/>christi: quia christus non indiguit aliquo priuilegio: vt praeseruaret 
+      <lb ed="#V" n="119"/>ab originali: quia ex se originale non contraxisset sicut beatam 
+      vir<lb ed="#V" n="120" break="no"/>go. quia non fuit ab adam secundum rationem seminalem: sed secundum 
+      <lb ed="#V" n="121"/>corpulentam substantiam ex purissimis sanguinibus virginis: et 
+      <lb ed="#V" n="122"/>ideo lex illius irregularitatis: et illius generationis ad 
+      sacro<lb ed="#V" n="123" break="no"/>ordines angelorum non erat contra eum.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e839">
+      ¶ Item excessit christus 
+      <lb ed="#V" n="124"/>virginem quantum ad istam benedictam assumptionem ad 
+      suppo<lb ed="#V" n="125" break="no"/>situm verbi diuini.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e846">
+      ¶ Item ab instanti sue conceptionis 
+      fui<lb ed="#V" n="126" break="no"/>btus et gulerificatus in anima.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e851">
+      ¶ Item notandum quod dicitur a salua 
+      <lb ed="#V" n="127"/>tore de Io. bap. et est ad propositum nostrm. valet. inter 
+      natos<lb ed="#V" n="128" break="no"/>mulierum non surrexit maior Io. bap. sed secundum omnes sctos 
+      <lb ed="#V" n="129"/>btam virgo fuit maior. Igitur ipsa non surrexit a peccatio 
+      or<lb ed="#V" n="130" break="no"/>ginali: quia nullus resurgit qui non cecidit. Et si dicatur quod 
+      <lb ed="#V" n="131"/>hic non accipitur resurgem pro mundatione a preccato 
+      origina<lb ed="#V" n="132" break="no"/>li post casum: sed accipitur pro nasci vel natiuitate. Tunc 
+      <!--347.xml-->
+      <pb ed="#V" n="172-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>verbum christi non videtur habere veritatem: quia Iesus christus 
+      <lb ed="#V" n="2"/>natus fuit de muliere: et tamen fuit maior Ioam. bapo quod non 
+      <lb ed="#V" n="3"/>esset si contraxisset: et a peccato surrexisset 
+      <lb ed="#V" n="4"/>quod mater divuni fuit prie 
+      <lb ed="#V" n="5"/>Decimus articulus seruata ne contraberet 
+      <lb ed="#V" n="6"/>originale: et tamen hoc non est contra autetes sacre 
+      scripture<lb ed="#V" n="7" break="no"/>Prima enim auctas que videtur obuiare est apstuli Pauli. 
+      <lb ed="#V" n="8"/>omnes inquit peccauerunt in Adam et egent gratia dei.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e891">
+      ¶ Di 
+      <lb ed="#V" n="9"/>co quod verum est de lege communi: vel quantum est ex hominibus: quia 
+      si<lb ed="#V" n="10" break="no"/>hoc non sufcuic cit: auctas est contra christum: quia ipse secundum quod 
+      ho<lb ed="#V" n="11" break="no"/>mo de numero omnium est.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e900">
+      ¶ Item Apls per vnum hominem 
+      <lb ed="#V" n="12"/>peccatum intrauit in omnes.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e905">
+      ¶ Item deus conclusit omnia 
+      sub<lb ed="#V" n="13" break="no"/>peccato. Item in Adam omnes moriuntur. Dicendum sicut 
+      <lb ed="#V" n="14"/>prius.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e912">
+      ¶ Ubi notandum est. quod regula est: quod priuilegiati 
+      <lb ed="#V" n="15"/>non cadunt sub edicto legis vel lege communi. Probo per 
+      sa<lb ed="#V" n="16" break="no"/>tram scripturam. omnibus ad vitam similis introitus et exitus: 
+      <lb ed="#V" n="17"/>ed Enoch et Elyas non similiter exierunt: quia non per mortem 
+      <lb ed="#V" n="18"/>sed per translationem. Item vnus est interitus hominum et 
+      iu<lb ed="#V" n="19" break="no"/>mentorum: et equa vtriusque conditio et nihil habet amplius 
+      iu<lb ed="#V" n="20" break="no"/>mento homo: ergo oportet intelligere verbum legislatoris.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e928">
+      ¶ Est 
+      <lb ed="#V" n="21"/>igitur duplex ius. ius praencipale: et ius municipale: et per 
+      <lb ed="#V" n="22"/>istam distinctionem solui possunt omnes autetes dicte et dicende. 
+      <lb ed="#V" n="23"/>est quod virginem 
+      <lb ed="#V" n="24"/>Andecimus articulus fuisse prieuentam 
+      <lb ed="#V" n="25"/>non est contra determinationem sancte matris ecclesie: quia 
+      <lb ed="#V" n="26"/>licet ecclesia romana de hoc non solenniget: tamen solennizare 
+      <lb ed="#V" n="27"/>pmittit et sustinet. quod autem sustinet approbat vel saltem 
+      <lb ed="#V" n="28"/>sue determinationi non obuiat: quia vel ecclesia aliter fa 
+      <lb ed="#V" n="29"/>teret etc. Nec obstat quod sustinet prostibula mulierum: quia hoc 
+      <lb ed="#V" n="30"/>est a lege diuina prohibitum et sufficienter cautum ne fiat 
+      </p>
+            <p xml:id="FrMS88-f29035-d1e952">
+               <lb ed="#V" n="31"/>¶ Notandum autem quod conceptio potest accipi 4r. Primo 
+      <lb ed="#V" n="32"/>pro seminis susceptione. Secundo pro corporis 
+      formatio<lb ed="#V" n="33" break="no"/>ne. Tertio pro anime infusione. Quarto pro fetus in 
+      vte<lb ed="#V" n="34" break="no"/>ro conseruatione. De primo Teuitici. mulier si suscepto 
+      semi<lb ed="#V" n="35" break="no"/>ne etc. De 2o Iob. quare conceptus in vtero non statim 
+      <lb ed="#V" n="36"/>perii. De 3o psalmista. Ecce in iniquitatibus conceptus sum. 
+      <lb ed="#V" n="37"/>De 4o hiere. dicebat. vterus matris mee mihi fuisse 
+      <lb ed="#V" n="38"/>conceptus eternus. Meata igitur virgo maria non fuit 
+      <lb ed="#V" n="39"/>sanctificata nec preuenta in prima nec in secunda conceptio 
+      <lb ed="#V" n="40"/>ne: quia nondum erat: sed in tertia et quarta: vnde in prima 
+      <lb ed="#V" n="41"/>et secunda non fuit peccatum formaliter: sed causaliter: vnde nisi 
+      <lb ed="#V" n="42"/>preuenta fuisset illud contraxisset: vnde in tertia 
+      conceptio<lb ed="#V" n="43" break="no"/>ne quando debebat peccatum inesse formaliter fuit sancti 
+      <lb ed="#V" n="44"/>ficata: et per sanctificationem preuenta ne peccatum originis 
+      <lb ed="#V" n="45"/>nale contraheret. Unde habendo respectum ad signum 
+      anime<lb ed="#V" n="46" break="no"/>infusionis in corpore de conceptione festiuitas potest 
+      cele<lb ed="#V" n="47" break="no"/>brari: non propter susceptionem seminis: vel formationem 
+      <lb ed="#V" n="48"/>corporis: cum nondum esset: sed quia dies infusionis 
+      anime<lb ed="#V" n="49" break="no"/>ignoratur propter diuersos opinantes. Iccirco eius 
+      festi<lb ed="#V" n="50" break="no"/>nitas celebratur pro signo: et die prime conceptionis vel se 
+      <lb ed="#V" n="51"/>cunde: licet aliquin asserant quod hoc fieri potest per respectum 
+      <lb ed="#V" n="52"/>ad sequentia facta in beata virgine: sicut etiam vene 
+      <lb ed="#V" n="53"/>rantur ossa sanctorum propter solam relationem ad eorum 
+      <lb ed="#V" n="54"/>merita vel ad eorum animam: licet in ossibus nihil sit 
+      san<lb ed="#V" n="55" break="no"/>ctitatis fo maliter: sic nec in materia corporis virginis 
+      <lb ed="#V" n="56"/>in vtero matris existentis 
+      <lb ed="#V" n="57"/>est quod virgi 
+      <lb ed="#V" n="58"/>Duodecimus articulus nem 
+      fuis<lb ed="#V" n="59" break="no"/>preuentam non est contra dicta sanctorum.
+    </p>
+            <p xml:id="FrMS88-f29035-d1e1018">
+      ¶ Contra hoc 
+      <lb ed="#V" n="60"/>autem videntur esse specialiter dicta sancti Teonis 
+      pa<lb ed="#V" n="61" break="no"/>pe. Ansel. et beati Augustini: quere alibi: et responde 
+      <lb ed="#V" n="62"/>quod verum dicunt de communi lege: non de lege munici 
+      <lb ed="#V" n="63"/>pali: sicut sunt declarate auctoritates sacre scripture 
+      <lb ed="#V" n="64"/>Vel distingue de quadruplici conceptione: sicut dictum 
+      <lb ed="#V" n="65"/>est immediate in articulo vndecimo: accipiunt enim 
+      con<lb ed="#V" n="66" break="no"/>ceptionem primo modo et secundo: et sic dicunt ipsam 
+      <!--347.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>in originali conceptam: sed non est nisi causaliter tantum: 
+      <lb ed="#V" n="68"/>non autem formaliter: vt dictum est supra.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

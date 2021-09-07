@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f79778"><!-- l4d46q2 -->
+            <head xml:id="FrMS88-f79778-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f79778-d1e111">
+               <lb ed="#V" n="14"/>SEcundo queritur. vtrum circulatio 
+      <lb ed="#V" n="15"/>animarum sit possibilis.
+    </p>
+            <p xml:id="FrMS88-f79778-d1e118">
+               <lb ed="#V" n="16"/>Hic fuit opinio plato. quod in omnibus est 
+      <lb ed="#V" n="17"/>circulatio prius. 3o. milia 
+      an<lb ed="#V" n="18" break="no"/>norum.
+    </p>
+            <p xml:id="FrMS88-f79778-d1e127">
+      ¶ Ubi enim redeunt eedem causae numero et 
+      ef<lb ed="#V" n="19" break="no"/>fectus iidem numero: sed corpora celestia reuertentur tunc ad 
+      eun<lb ed="#V" n="20" break="no"/>dem punctum et ipsa sunt causare istorum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f79778-d1e134">
+      ¶ contra. hoc fuit aritum: quod 
+      <lb ed="#V" n="21"/>deus non potest reparare omnia quantum ad circumstantias quae sunt in eis 
+      <lb ed="#V" n="22"/>et ari est ex haec contraistam opionem: quia iste mundus qui non durat nisi 
+      <lb ed="#V" n="23"/>per illud tempus est finitus ex vtraque parte: sed idem et terminus. 3. 
+      <lb ed="#V" n="24"/>milium annorum. quod fuit praecedens. Idem autem homo bis sumptus 
+      <lb ed="#V" n="25"/>non est maior quam semel sumptus.
+    </p>
+            <p xml:id="FrMS88-f79778-d1e148">
+      ¶ Ulterius si sint due 
+      cir<lb ed="#V" n="26" break="no"/>culationes aliquid est in vna quod non est in alia.
+    </p>
+            <p xml:id="FrMS88-f79778-d1e153">
+      ¶ Ad 
+      ar<lb ed="#V" n="27" break="no"/>eorum ipsi non intendebant quod prima cum concurrat cum causa particulari 
+      <lb ed="#V" n="28"/>conformiter ad omnes effectus.
+    </p>
+            <p xml:id="FrMS88-f79778-d1e160">
+      ¶ Sed quid de circulatione 
+      <lb ed="#V" n="29"/>animarum.
+    </p>
+            <p xml:id="FrMS88-f79778-d1e165">
+      ¶ hoc satis est improbatum: quia cuiuslibet 
+      indiuidui<lb ed="#V" n="30" break="no"/>est mteam indeterminata. ergo et vna singularis forma.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

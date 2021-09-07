@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-de8382"><!-- l1d1q3 -->
+            <head xml:id="FrMS88-de8382-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-de8382-d1e111">
+      ¶ Ad ratione dico que accipit fruiume large. Quaestio. iii 
+      <lb ed="#V" n="9"/>vtrum actus fruendi et 
+      vtendi<lb ed="#V" n="10" break="no"/>Ueritu sint essentialiter distincti. quod nin 
+      <lb ed="#V" n="11"/>quad philemonem: ita fruits ego te fruar in diuno. 
+      <lb ed="#V" n="12"/>l¶ In contrarium est Aug. de doctria christiana. vbi 
+      <lb ed="#V" n="13"/>distixit actum fruendi contra actum vtedi per 
+      op<lb ed="#V" n="14" break="no"/>positas diffinitiones siue differentias scilicet sui gratia et alterius gratia 
+      <lb ed="#V" n="15"/>istam quaestionem dicunt aliqui quod sunt distincti. quod probant 
+      <lb ed="#V" n="16"/>Cire. et sic. Illi actus sunt distincti quorum vnus se habet circa 
+      <lb ed="#V" n="17"/>finem: et alter circa ea que sunt ad fine: sed isti sunt huiusmodi. proba. 
+      <lb ed="#V" n="18"/>tio. quia fruitio est circa finem. vsus circa ea quae sunt ad finem 
+      </p>
+            <p xml:id="FrMS88-de8382-d1e135">
+               <lb ed="#V" n="19"/>¶ Sed contra istud arguo quadrupliciter. Primo sic. Deus non habet nisi 
+      <lb ed="#V" n="20"/>vnum actum volendi. et tamen fruiter aliquibus: et vtitur aliis. ergo non 
+      ne<lb ed="#V" n="21" break="no"/>cessario sunt distincti.
+    </p>
+            <p xml:id="FrMS88-de8382-d1e144">
+      ¶ 2o sic. Meati eodem actu vident deum 
+      <lb ed="#V" n="22"/>et creaturam. ergo eodem actu possunt diligere: sed non inordinate. 
+      <lb ed="#V" n="23"/>ergo ordinate. Omnis autem actus circa deum ordinatus est fruitio 
+      <lb ed="#V" n="24"/>circa creaturas est vsus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-de8382-d1e153">
+      ¶ 3o sic. Quecumque 
+      absolu<lb ed="#V" n="25" break="no"/>te distincta realiter per potentiam divinam possunt abiuiceme separari: sed actus 
+      <lb ed="#V" n="26"/>vtendi et fruendi sunt inseparabiles. ergo non realiter distinguunter: sed 
+      sper<lb ed="#V" n="27" break="no"/>vnus actus.
+    </p>
+            <p xml:id="FrMS88-de8382-d1e163">
+      ¶ 4o sic. et difficilius. Quandocumque aliquis diligit 
+      ali<lb ed="#V" n="28" break="no"/>ad propter aliud impossibile est quod non diligat illud aliud: immo magis: quia 
+      <lb ed="#V" n="29"/>propter quod vnumquodque tale: sed vsus est dilectio propter aliud. ergo diligit 
+      <lb ed="#V" n="30"/>illud.
+    </p>
+            <p xml:id="FrMS88-de8382-d1e172">
+      ¶ Confirmatur: quia intellectus non potest intelligere 
+      ali<lb ed="#V" n="31" break="no"/>quid propter aliud nisi intelligendo illud aliud. ergo a simili 
+      <lb ed="#V" n="32"/>voluntas non potest diligere aliquid propter aliud nisi diligat 
+      <lb ed="#V" n="33"/>illud: sed dilectio illius est fruitio. ergo etc. 
+      <lb ed="#V" n="34"/>quod separari non possunt. licet enim possim 
+      dili<lb ed="#V" n="35" break="no"/>Dico ergo gere aliquid propter se non diligendo 
+      ali<lb ed="#V" n="36" break="no"/>quid propter aliud: tamen impossibile videtur quod diligam aliquid propter aliud quod est 
+      vti<lb ed="#V" n="37" break="no"/>non diligendo illud: quod est frui.
+    </p>
+            <p xml:id="FrMS88-de8382-d1e190">
+      ¶ Ideo dico quod bene contingit 
+      ali<lb ed="#V" n="38" break="no"/>quando actum fruendi esse sine actu vtendi: vt quando ordinate diligo 
+      <lb ed="#V" n="39"/>deum. Aliquando autem actus vtendi sine fruitione. sicut quando diligo 
+      <lb ed="#V" n="40"/>creaturam vnam propter aliam. tunc enim non est fruitio: quia ipsa solum ef 
+      <lb ed="#V" n="41"/>circa deum. Aliquin autem idem est actus vtendi et fruendi: sicut quando 
+      dili<lb ed="#V" n="42" break="no"/>go creaturam propter deum.
+    </p>
+            <p xml:id="FrMS88-de8382-d1e203">
+      ¶ Aliquando potest esse quod nec est actus 
+      vtendi<lb ed="#V" n="43" break="no"/>nec fruendi actualis: licet sit habitualis: sicut quando diligo crea 
+      <lb ed="#V" n="44"/>turam nihil cogitando de deo actualiter nec referendo: et iste 
+      <lb ed="#V" n="45"/>est actus neutur. hoc est: quod nequm est vsus neque fruitio.
+    </p>
+            <p xml:id="FrMS88-de8382-d1e212">
+      ¶ Sed hic est 
+      <lb ed="#V" n="46"/>vna difficultas quia idem actus nin videtur posse habere duo per se obiecta eque prima 
+      <lb ed="#V" n="47"/>portet ergo dare vnum quod sit obiectum vt finis: et si sit in moralibus finis 
+      <lb ed="#V" n="48"/>non erit circumstantia: sed obiectum praencipale.
+    </p>
+            <p xml:id="FrMS88-de8382-d1e221">
+      ¶ 2o quia omnis actus spe 
+      <lb ed="#V" n="49"/>cificatur a suo per obiecto. cum ergo deus fit prius obiectum istius actus: erit 
+      <lb ed="#V" n="50"/>actus fruendi et non vtendi. Si autem tum dicas quod aliud a deo sit 
+      <lb ed="#V" n="51"/>primum obiectum. Contra. quia tunc prius fertur in illud quod est ad finem quam ad 
+      <lb ed="#V" n="52"/>ipsum finem: quod est inconueniens: quia ipse finis videtur diligi magis 
+      <lb ed="#V" n="53"/>Si dicatur quod illud est primum quod recfertur. contra. quia tunc magis 
+      <lb ed="#V" n="54"/>diligeret. Dico ergo ad illud quod dicebatur in argumentus. quod finis est 
+      <lb ed="#V" n="55"/>obiectum in moralibus: non tamen sub ratione finis: quia sub ratione 
+      fi<lb ed="#V" n="56" break="no"/>nis est circumstantia in moralibus.
+    </p>
+            <p xml:id="FrMS88-de8382-d1e242">
+      ¶ Sed quomodo distinguitur: et 
+      <lb ed="#V" n="57"/>quod est obiectum primum:
+    </p>
+            <p xml:id="FrMS88-de8382-d1e247">
+      ¶ Dico ad primum quod vnicus actus vt 
+      intelligi<lb ed="#V" n="58" break="no"/>tur transire super obiectum primarium scilicet deum dicitur fruitio: vt autem actus 
+      <lb ed="#V" n="59"/>itelligitur transire super obiectum secundarium dicitur vsus.
+    </p>
+            <p xml:id="FrMS88-de8382-d1e254">
+      ¶ 
+      Di<lb ed="#V" n="60" break="no"/>co autem ad aliud quod deus est obiectum primarium.
+    </p>
+            <p xml:id="FrMS88-de8382-d1e259">
+      ¶ Ad rationem 
+      <lb ed="#V" n="61"/>in oppositum dico quod accipit fruitionem large. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

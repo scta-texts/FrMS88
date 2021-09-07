@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f41444"><!-- l4d2-3q1 -->
+            <head xml:id="FrMS88-f41444-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f41444-d1e111">
+               <lb ed="#V" n="37"/>Circa distinctionem secundam et tertiam. 
+      <lb ed="#V" n="38"/>quero quatuor questiones: 
+    </p>
+            <p xml:id="FrMS88-f41444-d1e118">
+               <lb ed="#V" n="39"/>¶ Prima est. Utrum sacramenta noue 
+      le<lb ed="#V" n="40" break="no"/>Uue legis sint immediate instituta a christo 
+      <lb ed="#V" n="41"/>Et videtur quod non. quia in euangelio non habetur vbi 
+      fue<lb ed="#V" n="42" break="no"/>rint ab ipso instituta. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e129">
+      ¶ Contra quia Ioanis 
+      pri<lb ed="#V" n="43" break="no"/>mo. Gratia et veritas per Iesum Christum facta est si 
+      <lb ed="#V" n="44"/>cut lex per Moysen data est 
+      <lb ed="#V" n="45"/>videndum est de sacramentis quot sunt. 
+      <lb ed="#V" n="46"/>Hic primo Et certum est quod sepatem.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e140">
+      ¶ Primum 
+      <lb ed="#V" n="47"/>est baptismus. ad spiritualem ordinans regenerationem.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e146">
+      ¶ 2m 
+      <lb ed="#V" n="48"/>confirmationis ad spiritus sancti confirmationem.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e151">
+      ¶ 
+      Ter<lb ed="#V" n="49" break="no"/>tium eucharistie.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e156">
+      ¶ Quartum penitentie.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e159">
+      ¶ Quintum 
+      <lb ed="#V" n="50"/>extreme vnctionis.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e164">
+      ¶ Sextum ordinis.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e167">
+      ¶ Septimum 
+      <lb ed="#V" n="51"/>matrimonii.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e173">
+      ¶ Queritur per que fuit necessitas.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e176">
+      ¶ Di 
+      <lb ed="#V" n="52"/>citur quod necessarium fuit ad vnitatem et veram conformitatem 
+      <lb ed="#V" n="53"/>religionis christiane: vt per aliquod signum sensibile 
+      conueni<lb ed="#V" n="54" break="no"/>rent inter se et distinguerentur ab infidelibus.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e185">
+      ¶ 2o que 
+      fuit<lb ed="#V" n="55" break="no"/>vtilitas.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e190">
+      ¶ Dicitur quod in merito maxime virtutis et nobi 
+      <lb ed="#V" n="56"/>lissime scilicet latrie que ordinat hominem praecipue inter alias ad 
+      <lb ed="#V" n="57"/>deum.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e197">
+      ¶ Actus autem sacramentialis sunt actus virtutis istius et 
+      <lb ed="#V" n="58"/>munitio contra hostis insultus.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e202">
+      ¶ Tertio que congruitas. 
+      </p>
+            <p xml:id="FrMS88-f41444-d1e206">
+               <lb ed="#V" n="59"/>¶ Dicitur quod lex euangelica precellit aliam. ideo sicut in 
+      <lb ed="#V" n="60"/>veteri testo fuerunt sacramenta congruum fuit quod etiam in 
+      no<lb ed="#V" n="61" break="no"/>uo.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e215">
+      ¶ 4o que oportunitas.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e218">
+      ¶ Dicitur quod ars immitatur 
+      na<lb ed="#V" n="62" break="no"/>turam inquantum potest. In natura autem est prius generatio deinde 
+      <lb ed="#V" n="63"/>csolidatio siue corroboratio et perditi reparatio. 
+      Dein<lb ed="#V" n="64" break="no"/>de constitutio in aliquo gradum necessario. vel doeductio ad 
+      ali<lb ed="#V" n="65" break="no"/>quem gradum necessarium. ita est in spirituali vita bapti 
+      <!--376.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>smus dat esse simpliciter. confirmatio consolidat. eucharistia 
+      <lb ed="#V" n="67"/>restaurat. penitentia lapsum releuat. extrema vnctio 
+      prae<lb ed="#V" n="68" break="no"/>munit contra inimicos. matrimonium professores huius legis 
+      <lb ed="#V" n="69"/>multiplicat.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e242">
+      ¶ Sed oritur dubium de cathecismo: si est sa 
+      <lb ed="#V" n="70"/>cramentum.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e247">
+      ¶ Dicitur quod non. sed ibi infertur quedam 
+      di<lb ed="#V" n="71" break="no"/>spositio ad susceptionem baptismi. Exorcismus etiam non est 
+      <lb ed="#V" n="72"/>sacramentum: sed habet aliquam vim expellendi demones 
+      <lb ed="#V" n="73"/>particula. Utrum ista sint a christo 
+      nstitu<lb ed="#V" n="74" break="no"/>Secunda ta.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e258">
+      ¶ Dicitur quod sic. Sacramentia habent enim 
+      <lb ed="#V" n="75"/>vim collatiuam gratie quam nullus potest dare nisi perso 
+      <lb ed="#V" n="76"/>na diuina.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e266">
+      ¶ Secundo ex ipsorum immutatione. quia 
+      papa<lb ed="#V" n="77" break="no"/>tantam habet potestatem: quantam habuit Petrus: et 
+      <lb ed="#V" n="78"/>tamen remouere aliquod sacramentum non potest: 
+      er<lb ed="#V" n="79" break="no"/>go etc.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e275">
+      ¶ Tertio quia totum concilium non potest 
+      institue<lb ed="#V" n="80" break="no"/>re aliquod sacramentum.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e280">
+      ¶ Quarto. quia non potest 
+      dispe<lb ed="#V" n="81" break="no"/>sare simpliciter quantum ad substantiam sacramenti¬ 
+      </p>
+            <p xml:id="FrMS88-f41444-d1e285">
+               <lb ed="#V" n="82"/>¶ Sed queritur in quo loco habentur quod fuerunt a christo 
+      <lb ed="#V" n="83"/>istituta sacramenta.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e292">
+      ¶ Dicitur quod de baptismo habet 
+      <lb ed="#V" n="84"/>Math. vltimo. Ite baptizate etc.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e297">
+      ¶ De confirmatione 
+      <lb ed="#V" n="85"/>Mathe. 19o. quando imponebat manus super pueros. in 
+      pri<lb ed="#V" n="86" break="no"/>mitiua ecclesia apostoli per impositionem manuum 
+      confir<lb ed="#V" n="87" break="no"/>mabant: vt dicitur in actibus.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e307">
+      ¶ Sacramentum 
+      eucha<lb ed="#V" n="88" break="no"/>ristie. Math. 2o. hoc est corpus meum.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e312">
+      ¶ Penine Iodam. 19. 
+      <lb ed="#V" n="89"/>Quorum remiseritis peccata etc.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e317">
+      ¶ Extreme 
+      vnctio<lb ed="#V" n="90" break="no"/>nis. Marci. 5. Ungebant multos egros oleo.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e322">
+      ¶ 
+      Ordi<lb ed="#V" n="91" break="no"/>nis Tuce 2 2o. hoc facite in meam commemorationem. In hoc 
+      <lb ed="#V" n="92"/>enim verbo dedit eis potestam conficiendi corpus suum 
+      <lb ed="#V" n="93"/>et instituit sacerdotes.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e331">
+      ¶ De sacramento matrimonii. 
+      <lb ed="#V" n="94"/>prout est noui testamenti. Mathe. 19o. vbi dicit quod non. 
+      <lb ed="#V" n="95"/>licet dimittere vxorem quacumque ex causa.
+    </p>
+            <p xml:id="FrMS88-f41444-d1e338">
+      ¶ Sed a quo est 
+      <lb ed="#V" n="96"/>ficaciam habuit:
+    </p>
+            <p xml:id="FrMS88-f41444-d1e344">
+      ¶ Dicitur quod a voluntate diuina vt af 
+      <lb ed="#V" n="97"/>ceptante: a passione Christi: vt a causa meritoria. 
+      Al<lb ed="#V" n="98" break="no"/>incarnatione tamen habent omnia radicalem a volun 
+      <lb ed="#V" n="99"/>tate diuina primo: quia per voluntatem suam determinat 
+      <lb ed="#V" n="100"/>ad dandum talem virtutem sacramentis
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="25-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e17413"><!-- l1d3q6 -->
+            <head xml:id="FrMS88-e17413-Hd1e108">Quaestio 6</head>
+            <p xml:id="FrMS88-e17413-d1e111">
+      Quaestio. vi. 
+      <lb ed="#V" n="11"/>lux creata sit intellectui no 
+      <lb ed="#V" n="12"/>Tum stro ratio cognoscendi: quod non 
+      <lb ed="#V" n="13"/>Augu. de trini. conspicimus veritates in 
+      <lb ed="#V" n="14"/>luce incommutabili.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e122">
+      ¶ Sed contra. idem August. 
+      <lb ed="#V" n="15"/>Per lucem sui generis cognoscuntur res. 
+      <lb ed="#V" n="16"/>quod esse rationem cognoscendi potest 
+      intelligi<lb ed="#V" n="17" break="no"/>hic sciedu multpliciter. Primo sicut prinipum actiuum dicitur 
+      <lb ed="#V" n="18"/>esse ratio cognoscendi: vel vt passiuum: vel vt determinans: vel vt 
+      <lb ed="#V" n="19"/>repraesentans: quodcumque istorum dicitur lux et ratio cognoscendi. Nam 
+      intelle<lb ed="#V" n="20" break="no"/>ctus agens dicitur ratio cognoscendi et lux. quia actiue principiat 
+      <lb ed="#V" n="21"/>cognitionem. intellectus autem possibilis: quia eam recipit. species quia 
+      re<lb ed="#V" n="22" break="no"/>praesentat. habitus autem quia determinat. magis aut intelligitur et 
+      <lb ed="#V" n="23"/>dicitur lux de intellectu agente quam de aliquo istorum.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e144">
+      ¶ Sed ad vi 
+      <lb ed="#V" n="24"/>dendum quare lux magis appropriatur sibi oportet videre quare po 
+      <lb ed="#V" n="25"/>nitur in anima.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e151">
+      ¶ Et circa hoc occurrit 4or modus dicendi. 
+      Pri<lb ed="#V" n="26" break="no"/>mus est quod necessaritas ponendi intellectum agentem fuit propter 
+      quidita<lb ed="#V" n="27" break="no"/>tem in fantasia relucentem abstrahendam a condionnibus materialibus 
+      <lb ed="#V" n="28"/>quae impediunt eius intelligibilitatem. Unde dicunt aliqui quod si quidita 
+      <lb ed="#V" n="29"/>tes essent abstracte: sicut ponit plato: non indigeremus intellectu 
+      <lb ed="#V" n="30"/>agente. 2us modus dicendi est quod necessaritas ponendi istum intellectum 
+      <lb ed="#V" n="31"/>est vt sequestraret quiditatem a condionibus materialibus quibus est 
+      coniun<lb ed="#V" n="32" break="no"/>cta impedientibus eius intelligibilitatem: et hoc fact: nihil in 
+      fantas<lb ed="#V" n="33" break="no"/>matibus imprimendo: sed solum sequestrando hoc ab hoc propter enim 
+      im<lb ed="#V" n="34" break="no"/>mersionem cum matea mouem non possunt intellectum. intellectus autem 
+      <lb ed="#V" n="35"/>agens sequestrat eam a conditone naturali. 3us modus. quod ponitur 
+      <lb ed="#V" n="36"/>talis intellectus ad vigorandum fantasmata. ipsa enim non sunt 
+      <lb ed="#V" n="37"/>sufficientia sua virtute ad mouendum intellectum possibilem nisi ver 
+      <lb ed="#V" n="38"/>tute intellectus agentis. 4us modus est. quod ponitur ad 
+      assisten<lb ed="#V" n="39" break="no"/>dum ipsis fantasmatibus. et per solam eius assistentiam moueni 
+      <lb ed="#V" n="40"/>itellectum possibilem: sicut color ad assistentiam lucis mouet 
+      <lb ed="#V" n="41"/>visum.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e189">
+      ¶ Isti modi non apparent mihi sufficientes. Ideo 
+      ar<lb ed="#V" n="42" break="no"/>guo contra eos. Et primo contra primum. Nam omnis quiditas est sufficienter ab 
+      <lb ed="#V" n="43"/>stracta a condeitinonibus materialibus sine vlteriori abstractione. natura 
+      <lb ed="#V" n="44"/>quaecumque quiditas praescindit ab heceitate: et est prior naturalitur 
+      il<lb ed="#V" n="45" break="no"/>la. pro illo ergo priori pro qua naturaliter praecedit ipsam heceitatem potest 
+      <lb ed="#V" n="46"/>mouem intellectum.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e202">
+      ¶ Confirmatur in exitio nam non magis 
+      requi<lb ed="#V" n="47" break="no"/>ritur abstractio ad mouendum intellectum quam in actione alia: que 
+      <lb ed="#V" n="48"/>ita attribuitur quiditati quod non condonni indiuiduali: sed propter primo 
+      <lb ed="#V" n="49"/>cessionem naturae respectu proprietatis dicimus quod natura caliditati 
+      <lb ed="#V" n="50"/>in igne causat aliam caualiditatem: et non heceitas. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e213">
+      ¶ 
+      Confin<lb ed="#V" n="51" break="no"/>matur 2o quia: per te: philosophi non posuissent intellectum agentem si inue 
+      <lb ed="#V" n="52"/>nissent. quiditates sufficientur abstractas ex se. cum ergo ita sit 
+      <lb ed="#V" n="53"/>non erit necessarium positionem intellectum agentem.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e222">
+      ¶ Contra 
+      2mar<lb ed="#V" n="54" break="no"/>guo sic. nullum non agens naturale potest aliqua actione inducere aliquam 
+      <lb ed="#V" n="55"/>priuationem nisi introducat aliquam formam positiuam. Ista 
+      vi<lb ed="#V" n="56" break="no"/>detur de se nota. nam actio realis requirit terminum realem. 
+      pri<lb ed="#V" n="57" break="no"/>uatio autem non est quid reale. 2o patet. quia agens corrumpit 
+      for<lb ed="#V" n="58" break="no"/>mam per accidens. omne autem per accidens reducitur ad aliquid per se. ergo sed 
+      <lb ed="#V" n="59"/>corrumpit necessario aliquid positiuum producit. cum ergo sequestra 
+      <lb ed="#V" n="60"/>tio sit solum priuatio coniuctionis: non solum erit necessare 
+      ponen<lb ed="#V" n="61" break="no"/>itellectum agentem propter hoc: sed propter aliquid aliud positiuum 
+      </p>
+            <p xml:id="FrMS88-e17413-d1e242">
+               <lb ed="#V" n="62"/>¶ Contra 3m. Omnis effectus causatus in fantasmate est 
+      eque<lb ed="#V" n="63" break="no"/>materialis et corruptibilis: sicut fantasma: sed tu ponis 
+      intel<lb ed="#V" n="64" break="no"/>lectum agentem necessarium propter material tatem fantasmatis: vt 
+      cau<lb ed="#V" n="65" break="no"/>set in eo istum effectum quo vigoretur. ergo non plus erunt vigorata 
+      <lb ed="#V" n="66"/>quam ante propter materialitatem equalem illius effectus cum fantasmate. 
+      <!--53.xml-->
+      <cb ed="#V" n="b"/>
+            </p>
+            <p xml:id="FrMS88-e17413-d1e260">
+               <lb ed="#V" n="67"/>¶ Contra 4m. quia illa assistentia non est nisi respectus: et per consequens 
+      <lb ed="#V" n="68"/>non erit principium actionis.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e268">
+      ¶ Et praeterea ad quid necessario ponitur 
+      <lb ed="#V" n="69"/>assistentia illius quod nunquam causat: sicut est intellectus agens: 
+      </p>
+            <p xml:id="FrMS88-e17413-d1e273">
+               <lb ed="#V" n="70"/>¶ Ideo alii videntes quod nulla istarum causarum est sufficiens: et 
+      <lb ed="#V" n="71"/>maxime: quia non vident quod in anima separata aliquam istarum actionum 
+      <lb ed="#V" n="72"/>haberet intellectus agens: nec dicbiet poni frustra in anima separata: 
+      di<lb ed="#V" n="73" break="no"/>cunt quod sicut videmus quod lux corporalis habet duos effectus scilicet 
+      il<lb ed="#V" n="74" break="no"/>lustrare obiectum et oclusum. sic intellectus agens illustrat 
+      fantas<lb ed="#V" n="75" break="no"/>mata et intellectum possibilem: sed in anima separata non habet effectum 
+      <lb ed="#V" n="76"/>primum: sed praecise 2m.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e291">
+      ¶ Nec ista causa etiam valet Primo non propter 
+      fan<lb ed="#V" n="77" break="no"/>rasmatum illustrationem: quia intellectus agens est lux spualis. 
+      <lb ed="#V" n="78"/>fantasmata autem alicus spualis non sunt capacia. Vel sic. 
+      <lb ed="#V" n="79"/>Intellectus agens est lux spiritualis: fantasma est quodam 
+      corpora<lb ed="#V" n="80" break="no"/>le. corporale autem alicuius spiritualis non est capax. Nec propter 
+      intel<lb ed="#V" n="81" break="no"/>lectum possibilem: quia non est potentia ceca sed est quidam lux in genere suo. 
+      <lb ed="#V" n="82"/>mihi dicendum quod ponitur ad 
+      con<lb ed="#V" n="83" break="no"/>Ideo appareti causandum multa que causantur 
+      <lb ed="#V" n="84"/>in intellectu possibili.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e311">
+      ¶ Ideo sciendum quod intellectus agens continet 
+      <lb ed="#V" n="85"/>in se quatuor effectus essentialiter ordinatos. primo enim concausat cum 
+      <lb ed="#V" n="86"/>fantasmate speciem intelligibilem in intellectu possibili: quam non potest 
+      <lb ed="#V" n="87"/>fantasma solum causare. quia omnis causa equoca totalis est 
+      nobi<lb ed="#V" n="88" break="no"/>lior suo effectu: sed constat quod fantasma respectus speciei est aliqua caus 
+      <lb ed="#V" n="89"/>equoca. ergo si esset totalis causa: esset nobilior: quod sim est. 
+      Con<lb ed="#V" n="90" break="no"/>currit igitur intellectus agens: sicut causa vniuersalis. 2us effectus est 
+      <lb ed="#V" n="91"/>ipse actus intelligendi quem causat cum specie intelligibili: species 
+      <lb ed="#V" n="92"/>enim intelligibilis non potest esse causa totalis: quia est equoca: 
+      <lb ed="#V" n="93"/>et sic esset nobilior: quod est silumn. Concurrit ergo intellectus agens 
+      <lb ed="#V" n="94"/>sicut causa vniuersalis: species vero sicut particularis. a 3us effectus est 
+      <lb ed="#V" n="95"/>dispositio ad habitum quam concaunt: non tamen cum actu: quia actus 
+      imma<lb ed="#V" n="96" break="no"/>nentes sunt fines. ideo non sunt productiui. concanat autem cum specie 
+      <lb ed="#V" n="97"/>quae non potest esse causa totalis propter rationem iam sepere dictam. 4us 
+      effe<lb ed="#V" n="98" break="no"/>ctus est habitus: quem etiam cat cum specie propter idem quod prius: sicut dictum 
+      <lb ed="#V" n="99"/>est de intellectu agente in causalitate effectiua: eodem modo 
+      ditu<lb ed="#V" n="100" break="no"/>intellectu posi in causalitate receptiua: quia eodem ordine 
+      re<lb ed="#V" n="101" break="no"/>cipit praedcam omnia: sicut causa totalis in suo ordine.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e350">
+      ¶ Sed contra hoc 
+      <lb ed="#V" n="102"/>4r. primo sic. Omne agens est praestantius patiente: sed poio que intel 
+      <lb ed="#V" n="103"/>ligit est praestantissima. ergo ipsa est actiua. 2o sic. Actio 
+      im<lb ed="#V" n="104" break="no"/>manens est in agente: sed intellectio est actio immanens. et est 
+      <lb ed="#V" n="105"/>in intellectu possibili. ergo erit actiua. 3o sic. Actio vitalis non 
+      <lb ed="#V" n="106"/>videtur esse nisi ab agente vitali: sed intellectio est actio vi 
+      <lb ed="#V" n="107"/>talis. ergo non potest esse a specie: quia non est agens vitale. 4o sic 
+      <lb ed="#V" n="108"/>Actus voluntatis est actus elicitus: et est formaliter in volun 
+      <lb ed="#V" n="109"/>tate: sed actus intelligendi formaliter est in intellectu possibili. 
+      ergo<lb ed="#V" n="110" break="no"/>est effectiue ab intellectu possibili.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e372">
+      ¶ Ad primum dicit doctor quod 
+      <lb ed="#V" n="111"/>omne agens secundum quod tale bene est nobilius passo: sed simpliciter 
+      <lb ed="#V" n="112"/>non videtur ista propositio vniversaliter esse vera intelligendo de termino 
+      produ<lb ed="#V" n="113" break="no"/>cto: nec etiam de passiuo: quia sol est causa hominis et agens respectu hominis 
+      <lb ed="#V" n="114"/>et tamen homo est simpliciter nobilior. dicit ergo quod agens secundum rationem 
+      <lb ed="#V" n="115"/>formalem productiuam est nobilius termino formali 
+      produ<lb ed="#V" n="116" break="no"/>cto.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e389">
+      ¶ Sed tunc stat difficultas. si intellectus possibilis est po 
+      <lb ed="#V" n="117"/>passiua: tunc sequitur quod omnis potentia actiua est nobilior potentia 
+      in<lb ed="#V" n="118" break="no"/>tellectiua. Et hoc probo sic. quandocumque aliquod commune 
+      diuidi<lb ed="#V" n="119" break="no"/>per differentias oppositas: quicquid cadit sub vno membro nobus 
+      <lb ed="#V" n="120"/>liori est nobilius quocumque cadente sub ignobiliori: sed causa 
+      di<lb ed="#V" n="121" break="no"/>uiditur per actiuam et passiuam. ergo omne quod cadit sub actiuo est 
+      <lb ed="#V" n="122"/>nobilius quicumque cadente sub passiuo. cum ergo intellectus possibilis 
+      <lb ed="#V" n="123"/>cadat sub passiuo necessario erit ignobilior quocunque 
+      ca<lb ed="#V" n="124" break="no"/>dente sub actiuo.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e409">
+      ¶ Dico quod si diuisio principii per act 
+      <lb ed="#V" n="125"/>uum et passiuum esset quiditatiua nescirem bene saluare quin 
+      <lb ed="#V" n="126"/>omne actiuum esset nobilius potentia intellectiua.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e416">
+      ¶ Sed dice 
+      <lb ed="#V" n="127"/>quod non est diuisio quiditatiua. sunt enim multe positione passiue 
+      <lb ed="#V" n="128"/>nobiliores potentiis actiuis multis. forte enim nobilius 
+      <lb ed="#V" n="129"/>est intellectionem recipere quam causare calorem. et multa alia. non 
+      <lb ed="#V" n="130"/>ergo est diuisio quiditatiua.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e427">
+      ¶ Ad 2m dico quod 
+      intelle<lb ed="#V" n="131" break="no"/>ctio dicitur actio immanens: quia non terminatur ad 
+      termi<lb ed="#V" n="132" break="no"/>num productum per eam in esse simpliciter: licet in esse secundum quid. non dicitur 
+      <!--54.xml-->
+      <pb ed="#V" n="26-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>nutem immanens: quia sit in agente. quia omnis actio est in agente. 
+      </p>
+            <p xml:id="FrMS88-e17413-d1e443">
+               <lb ed="#V" n="2"/>¶ Ad 3m dico quod actio vitalis sufficit quod sit a principio vitali 
+      <lb ed="#V" n="3"/>ncipaliter vel totaliter quantumcumque aliud concurrit tamquam minus 
+      <lb ed="#V" n="4"/>pncipale: ita est hoc: quia intellectus agens quod est principium vitale 
+      prin<lb ed="#V" n="5" break="no"/>cipaliter concurrit: aliud autem non scilicet species.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e454">
+      ¶ Ad 4m dico quod in 
+      <lb ed="#V" n="6"/>telligere est elicitum ab intellectu possibili: tamen elice conuenit tam 
+      acti<lb ed="#V" n="7" break="no"/>uo quam passiuo. actiue autem elicitur ab agente: sed passiue 
+      a<lb ed="#V" n="8" break="no"/>possibili elicitur: et ideo solum est vis in vocabulo.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e464">
+      ¶ Sed hic est 
+      <lb ed="#V" n="9"/>difficultas quid scilicet fit intelligere. Et dicunt aliqui quod intelligere est agen¬ 
+      </p>
+            <p xml:id="FrMS88-e17413-d1e469">
+               <lb ed="#V" n="10"/>¶ Sed contra. si intelligene sit ageme intellectionem: tunc obiectum 
+      intel<lb ed="#V" n="11" break="no"/>ligeret: quod est falsum: quia aliquando est lapis.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e476">
+      ¶ Alii dicunu 
+      <lb ed="#V" n="12"/>quod intellige est pati. sed illud non potest esse verum: quia formaliter in 
+      <lb ed="#V" n="13"/>elligeme est in deo et vere: et tamen in deo non est pati. nec vere 
+      <lb ed="#V" n="14"/>lec formaliter.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e485">
+      ¶ Dico igitur quod intelligere non est aliud nisi 
+      <lb ed="#V" n="15"/>in se habere formaliter actum intelligendi. et illud commune est deo es 
+      <lb ed="#V" n="16"/>creature: et abstrahit ab actiuo et passiuo.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e492">
+      ¶ Dico et 
+      <lb ed="#V" n="17"/>go resumendo quod intellectus agens est ratio intelligendi intellectui 
+      <lb ed="#V" n="18"/>nostro: sicut principium actiuum. et est lux et ponitur propter fantasmata. sed 
+      <lb ed="#V" n="19"/>ad concaundum cum eis species intelligibiles: fantasmata autem non 
+      <lb ed="#V" n="20"/>sufficiunt per se ad causandum aliquid in intellectu possibili. requritur etiam propter 
+      <lb ed="#V" n="21"/>intellectum possibilem admouendum ipsum eo quod ipse non sit natus 
+      mo<lb ed="#V" n="22" break="no"/>ueri a re corporali totoluiter: sicut deducit Augus. super gen. 
+      <lb ed="#V" n="23"/>ad listeram.
+    </p>
+            <p xml:id="FrMS88-e17413-d1e510">
+      ¶ Ad auctoritatem dico quod intelligitur quod lux 
+      <lb ed="#V" n="24"/>requiritur in ratione regulantis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

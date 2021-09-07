@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="7-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-de4563"><!-- l1prolq12 -->
+            <head xml:id="FrMS88-de4563-Hd1e108">Quaestio 12</head>
+            <p xml:id="FrMS88-de4563-d1e111">
+               <lb ed="#V" n="126"/>
+               <!-- extra line -->Quaestio. 12 
+      <lb ed="#V" n="127"/>UTrum ens analogice dicatur de 
+      il<lb ed="#V" n="128" break="no"/>lis de quibus dicitur. 
+      <lb ed="#V" n="129"/>sunt quatuor modi 
+      dicendi<lb ed="#V" n="130" break="no"/>Dico quod Quidam dicunt quod vniuoce 
+      <lb ed="#V" n="131"/>Ed dicitur: quia secundum vnam rationem. Alii dicunt quod equoce 
+      <lb ed="#V" n="132"/>quia secundum diuersas rationes. Alii dicunt quod analogice. quia per 
+      pria<lb ed="#V" n="133" break="no"/>us de vno: et per posterius de aliis.
+    </p>
+            <p xml:id="FrMS88-de4563-d1e133">
+      ¶ Alii dicunt. quod am¬ 
+      <!--18.xml-->
+      <pb ed="#V" n="8-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>bigue. Distinguunt autem de analogo: quia quoddam est quod 
+      <lb ed="#V" n="2"/>secundum rationem vnam dicitur de duobus: perfectius tamen de vno quod 
+      <lb ed="#V" n="3"/>de reliquo. At aliud analogum est quod dicitur de vno 
+      pro<lb ed="#V" n="4" break="no"/>prime: et de aliis per attributionem ad illud. Et istud reducitur 
+      <lb ed="#V" n="5"/>ad equocum.
+    </p>
+            <p xml:id="FrMS88-de4563-d1e153">
+      ¶ Istis autem praemissis dicitur quod omnis terminus: vel 
+      <lb ed="#V" n="6"/>est equiuocus vel vniuocus: quia quando aliquorum dantur 
+      difclti<lb ed="#V" n="7" break="no"/>nes per contraria immediata: ipsa sunt conria immediata: sed homo sunt 
+      <lb ed="#V" n="8"/>equocum et vniuocum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-de4563-d1e162">
+      ¶ Sed hoc est difficultas vna. si ens 
+      di<lb ed="#V" n="9" break="no"/>catur equaliter de suins inferioribus vel inequaliter.
+    </p>
+            <p xml:id="FrMS88-de4563-d1e168">
+      ¶ Ad istud 
+      <lb ed="#V" n="10"/>respondetur per 4or conclusiones. Prima est quod ens non predicatur secundum 
+      <lb ed="#V" n="11"/>maius et minus. 2a quod non predicatur secundum prius et poste. 
+      <lb ed="#V" n="12"/>rius. 3a quod non praedicatur inequaliter. 4a quod non predicatur 
+      <lb ed="#V" n="13"/>dissimiliter. Omnes iste conclusiones vna ratione probantur: quia quando est 
+      ali<lb ed="#V" n="14" break="no"/>qua praedicatio essentialis non potest variari per posterius 
+      <lb ed="#V" n="15"/>sed quantitas virtutis secundum quam attenditur magis et minus 
+      <lb ed="#V" n="16"/>prius et posterius: equale et inequale: simile et dissimle. heo 
+      <lb ed="#V" n="17"/>omnia sunt posteriora ente: et etiam illis de quibus praedicatur 
+      <lb ed="#V" n="18"/>ens. ergo non variant praedicationem entis que est essentialis. 
+      <lb ed="#V" n="19"/>Quando igitur aliquid dicitur perfectius ens: illud est per aliquid posten 
+      <lb ed="#V" n="20"/>us ente: et per consequens in illo priori in quo fit praedicatio entis 
+      <lb ed="#V" n="21"/>ipsa erit vniformis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

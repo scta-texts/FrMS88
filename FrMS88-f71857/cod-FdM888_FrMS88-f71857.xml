@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f71857"><!-- l4d23q4 -->
+            <head xml:id="FrMS88-f71857-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f71857-d1e111">
+               <lb ed="#V" n="18"/>QUarto queritur vtrum giegia commitatur in hoc 
+      <lb ed="#V" n="19"/>sacramento: quae consistit in vendendo spiritua 
+      <lb ed="#V" n="20" break="no"/>lia.
+    </p>
+            <p xml:id="FrMS88-f71857-d1e120">
+      ¶ Et dicitur giegia a giegi viruo prophilosophe dei: die 
+      <lb ed="#V" n="21"/>quo habetur 4o regum. 3o. et. ¶o et de hystoria 
+      <lb ed="#V" n="22"/>Sil Dicendum quod sic. quia sicut giegi vendidit donum spiritus 
+      <lb ed="#V" n="23"/>scti naamam syro. sic et iste.
+    </p>
+            <p xml:id="FrMS88-f71857-d1e129">
+      ¶ Quid. igitur vel emere spiritua 
+      <lb ed="#V" n="24"/>lia vel vendere peccatum maius: giegia vel symonia:
+    </p>
+            <p xml:id="FrMS88-f71857-d1e134">
+      ¶ hic 
+      <lb ed="#V" n="25"/>sciendum. quod secundum superius dicta aliqua virtutes sunt ad actum 
+      inten<lb ed="#V" n="26" break="no"/>dendum sicut fortitudo. aliqua ad remittendum: sicut temporantia. 
+      <lb ed="#V" n="27"/>alique partinent ad vtrumque: sicut iusticia. aliqua ad 
+      regulan<lb ed="#V" n="28" break="no"/>dum sicut prudentia. Quando igitur virtus datur ad 
+      intendendum<lb ed="#V" n="29" break="no"/>defectus est maius vitium quam superabundantia. opposito modo: 
+      <lb ed="#V" n="30"/>quando virtus datur ad remittendum. vtus autem quae aliquis vult habere 
+      <lb ed="#V" n="31"/>bona spiritualia est media inter illa: inter scilicet giegiam et symoniam 
+      <lb ed="#V" n="32"/>ille autem qui est symoniacus magis vult habere: quia etiam modo 
+      inde<lb ed="#V" n="33" break="no"/>bito: sed giegicus magis vult carere. quia modo idebito 
+      <lb ed="#V" n="34"/>vult ipsis carere vendendo ea: et sic est in defectu virtus autem 
+      <lb ed="#V" n="35"/>media datur ad actum intendendum: quia homines non sunt multum 
+      <lb ed="#V" n="36"/>prni ad spiritualia. igitur qui est in defectu plus peccat: et ita 
+      <lb ed="#V" n="37"/>btus pettus plus peccasset vendendo quam symodo emendo.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

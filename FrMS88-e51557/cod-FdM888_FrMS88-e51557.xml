@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="70-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e51557"><!-- l1d17q3 -->
+            <head xml:id="FrMS88-e51557-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-e51557-d1e111">
+      Questio. iii 
+      <lb ed="#V" n="121"/>UTrum charitas acquisita in nobis 
+      <lb ed="#V" n="122"/>sit principium productiuum 
+      <lb ed="#V" n="123"/>alicuius actus meritorii: et videtur quod non. 
+      <lb ed="#V" n="124"/>Apostolus primo ad Corin. 13o. dicit quod ni 
+      <lb ed="#V" n="125" break="no"/>hil prodest sine charitate infusa.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e124">
+      ¶ Contra 
+      <lb ed="#V" n="126"/>actus charitatis acquisite laudantur in scriptura se 
+      <lb ed="#V" n="127"/>cundi Machabi. tredecimo. 
+      <lb ed="#V" n="128"/>introducuntur quatuor 
+      <lb ed="#V" n="129"/>Circa istam quotionem preambula. Deide ad 
+      <lb ed="#V" n="130"/>quaestionem.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e137">
+      ¶ Primum preambulum est istud quod in 
+      ani<lb ed="#V" n="131" break="no"/>ma nostra est necessarium ponere charitatem acquisi 
+      <lb ed="#V" n="132"/>tam. Et hoc probo sic. Nam in omni potentia operatiua ex 
+      <!--144.xml-->
+      <pb ed="#V" n="71-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>actibus perfectis circa aliquod obiectum potest generari habitus 
+      confor<lb ed="#V" n="2" break="no"/>minis illis actibus et operationibus quas habet vel habere potest circa 
+      <lb ed="#V" n="3"/>illud obiectus. Sed potentia nostra volitiua ex puris naturalibus potest habere 
+      <lb ed="#V" n="4"/>actum dilectionis circa deum saltem posito quocumque sine cha 
+      <lb ed="#V" n="5"/>ritate infusa. ergo ex ipsis actibus frequentatis poterit habens 
+      <lb ed="#V" n="6"/>generari: sicut ex actibus frequentatis iustitie. Illum autem 
+      ha<lb ed="#V" n="7" break="no"/>bitum aggeneratum voco charitatem acquisitam non infusam. 
+      </p>
+            <p xml:id="FrMS88-e51557-d1e166">
+               <lb ed="#V" n="8"/>¶ Confirmatur dupliciter. Primo. quia sides ponitur 2r. Quedam 
+      <lb ed="#V" n="9"/>infusa et quedam acquisita. Et respectu eorundem credibilium 
+      <lb ed="#V" n="10"/>scilicet respectu trinitatis et aliorum supenaturalium.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e176">
+      ¶ Secundo. natura 
+      <lb ed="#V" n="11"/>per vnicum peccatum mortale tota charitas infusa corrum 
+      <lb ed="#V" n="12"/>pitur: homo tamen remanet inclinatus ad actum diligendi deum 
+      <lb ed="#V" n="13"/>faciliter. talis facilitas non potest esse ab aliquo habitu 
+      i<lb ed="#V" n="14" break="no"/>fuso. ergo relinquitur quod sit ab aliquo acquisito. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e51557-d1e187">
+               <lb ed="#V" n="15"/>¶ Secundum praeambulum est quod ista charitas non est eiusdem 
+      <lb ed="#V" n="16"/>rationis cum illa charitate infusa.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e194">
+      ¶ Et probo sic. Quandocumque 
+      <lb ed="#V" n="17"/>aliqua sunt eiusdem rationis. si vnum est producibile per naturam et 
+      <lb ed="#V" n="18"/>reliquum. hoc probatur. quia respectu producibilium eiusdem 
+      <lb ed="#V" n="19"/>rationis sufficiunt principia eiusdem rationis. cum ergo charitas 
+      <lb ed="#V" n="20"/>acquisita possit per naturam induci: relinquitur quod charitas 
+      <lb ed="#V" n="21"/>infusa possit per naturam induci: si ponatur eiusdem rationis cum 
+      <lb ed="#V" n="22"/>ea. quod falsum est.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e210">
+      ¶ Tertium preambulum est quod actus 
+      <lb ed="#V" n="23"/>charitatis acquisite est moralis. et magis meritorius et 
+      <lb ed="#V" n="24"/>laudabilis quam omnes actus aliarum virtutum moralium. sicut 
+      iu<lb ed="#V" n="25" break="no"/>stitie castitatis: et sic de aliis. hoc enim probo sic. Actus. 
+      <lb ed="#V" n="26"/>moralis qui est circa summum obiectum et optimum bonum. videtur 
+      <lb ed="#V" n="27"/>esse magis laudabilis quam actus qui sunt circa bona 
+      di<lb ed="#V" n="28" break="no"/>minuta. hoc patet. quia inter actus aliarum virtutum ille est 
+      <lb ed="#V" n="29"/>magis laudabilis et meritorius moraliter qui est 
+      cir<lb ed="#V" n="30" break="no"/>ca melius obiectum: sicut patet de actu iustitie. Constat 
+      <lb ed="#V" n="31"/>autem quod actus charitatis acquisite est circa optimum et sum 
+      <lb ed="#V" n="32"/>mum bonum: quia circa deum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e234">
+      ¶ Quartum preambulum 
+      <lb ed="#V" n="33"/>est quod actus charitatis acquisite non est secundum se meritorius 
+      <lb ed="#V" n="34"/>vt scilicet acceptetur pro vita eterna. quia cum in puris naturalibus 
+      <lb ed="#V" n="35"/>tharitas acquisita maneat corrupto omni dono 
+      supenan<lb ed="#V" n="36" break="no"/>li. sequeretur quod ex puris naturalibus possemus mereri 
+      vi<lb ed="#V" n="37" break="no"/>tam eternam. quod est erroneum. sicut patuit in prima quaestione 
+      <lb ed="#V" n="38"/>contra Delagium.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e250">
+      ¶ his premissis circa punctum quaestionis sunt 
+      <lb ed="#V" n="39"/>quatuor modi dicendi. Primus est quod talis habitus non 
+      <lb ed="#V" n="40"/>ponitur nisi ad vigorandum potentiam. vt scilicet per ipsum 
+      po<lb ed="#V" n="41" break="no"/>tentia fiat actiuior ad actum perfectiorem eliciendum. Nam 
+      <lb ed="#V" n="42"/>secundum istos dispositio se tenens ex parte principii actiui non 
+      con<lb ed="#V" n="43" break="no"/>currit ad actum causandum: sed solum ad habilitandum 
+      <lb ed="#V" n="44"/>potentiam: sicut ponunt exemplum de acutie in ferro quae non 
+      <lb ed="#V" n="45"/>ponitur ad causandum: quia non est forma actiua: sed ad 
+      ha<lb ed="#V" n="46" break="no"/>bilitandum: sic dicunt in proposito.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e271">
+      ¶ Secundus 
+      mo<lb ed="#V" n="47" break="no"/>dus dicendi est. quod talis habitus non datur nisi ad 
+      deter<lb ed="#V" n="48" break="no"/>minandum potentiam respectu talis actus: quia potentia de 
+      <lb ed="#V" n="49"/>se est indeterminata ad actum perfectum et imperfectum. 
+      habi<lb ed="#V" n="50" break="no"/>tus autem determinat potentia ad actum perfectum.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e282">
+      ¶ Ter 
+      <lb ed="#V" n="51"/>tius modus dicendi est. quod non datur nisi ad modificandum 
+      <lb ed="#V" n="52"/>actum. quia tota substantia actus est a potentia: sed modus 
+      illi<lb ed="#V" n="53" break="no"/>us actus secundum quem ille actus dicitur bonus moraliter vel 
+      ma<lb ed="#V" n="54" break="no"/>lus. est ab habitu semper sequente rectam rationem.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e293">
+      ¶ Quartus 
+      mo<lb ed="#V" n="55" break="no"/>dus dicendi est. quod habitus datur ad intensionem actus. Ima 
+      <lb ed="#V" n="56"/>ginatur enim quod ab vno est substantia actus scilicet a potentia. et 
+      <lb ed="#V" n="57"/>ab alio intensio illius actus scilicet ab habitu.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e302">
+      ¶ Sed nulla ista 
+      <lb ed="#V" n="58"/>rum opionum potest stare vt videtur
+    </p>
+            <p xml:id="FrMS88-e51557-d1e307">
+      ¶ Prima non. Nam vigo 
+      <lb ed="#V" n="59"/>ratio solum ponitur in potentiis fatigabilibus et organicis 
+      <lb ed="#V" n="60"/>que non distincte operantur sicut sunt potentie sensitiue. sed 
+      <lb ed="#V" n="61"/>voluntas non est potentia fatigabilis nec de difficili operatiua. 
+      <lb ed="#V" n="62"/>ergo non ponitur habitus in ea ad vigorandum.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e318">
+      ¶ Praeterea de omni 
+      po<lb ed="#V" n="63" break="no"/>tentia actiua vigor potest demonstrari qui est vis 
+      acti<lb ed="#V" n="64" break="no"/>ua de ea demonstrabilis. ex eo quod est potentia actiua 
+      vi<lb ed="#V" n="65" break="no"/>gor ille. ergo vigor qui ponitur esse in habitu non potest esse 
+      <lb ed="#V" n="66"/>ille vigor qui est demonstrabilis. quia ille est per se 
+      <!--144.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>potentie actiuem. Oportet ergo quod iste vigor sit aliquod accidens 
+      <lb ed="#V" n="68"/>adueniens potentie causatus ab habitu vel actu. vel a 
+      <lb ed="#V" n="69"/>quocumque alio. et tunc idem dubium stat quod prius erat de 
+      <lb ed="#V" n="70"/>habitu. Utrum concurrat cum potentia ad vigorandum vel 
+      <lb ed="#V" n="71"/>ad determinandum etc. Et erit processus in infinitum.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e345">
+      ¶ Se 
+      <lb ed="#V" n="72"/>cunda opinio etiam stare non potest. Nam determinatio 
+      quan<lb ed="#V" n="73" break="no"/>tu ponis non potest habere bonum intellectum. Cam enim 
+      parti<lb ed="#V" n="74" break="no"/>cularis determinat vniversalem: et tamen propter hoc pon aufertur causali 
+      <lb ed="#V" n="75"/>tas ab ea vel excluditur. ergo nec hic.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e356">
+      ¶ Praeterea. quandocumque per 
+      ali<lb ed="#V" n="76" break="no"/>quam formam videmus alicui inesse potentiam ad operan 
+      <lb ed="#V" n="77"/>dum. cui tamen prius non inerat ante illam formam: nisi 
+      il<lb ed="#V" n="78" break="no"/>li forme aliunde repugnet. non videtur quin possit sibi attribui 
+      <lb ed="#V" n="79"/>vis actiua. ita est hic. ergo etc.Praeterea. quando dicis de inclinatione 
+      <lb ed="#V" n="80"/>aut intelligis per eam quandam pronitatem ad operandum. et si 
+      <lb ed="#V" n="81"/>sic non oportet ponere habitum: quia potentia quantum est ex 
+      se<lb ed="#V" n="82" break="no"/>semper est prona. ergo oportet ponere quod propter aliquid aliud habitus 
+      <lb ed="#V" n="83"/>ponatur quam propter hoc
+    </p>
+            <p xml:id="FrMS88-e51557-d1e376">
+      ¶ Tertia opinione non valet: quia a quicunque 
+      <lb ed="#V" n="84"/>causatur subiectum ab eodem causatur et passio consequens 
+      <lb ed="#V" n="85"/>illud subiectum. et econuerso. sed bonitas moris vel ma 
+      <lb ed="#V" n="86"/>litia est passio actus moralis. ergo etc. Praetrea actus chari 
+      <lb ed="#V" n="87"/>tatis non potest esse malus. Praeterea. idem actus posset esse 
+      <lb ed="#V" n="88"/>posmious sine charitate.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e389">
+      ¶ Quarta etiam via non valet: 
+      <lb ed="#V" n="89"/>quia a quocunque producitur forma: ab eo forma in 
+      cer<lb ed="#V" n="90" break="no"/>to gradu producitur: si sit apta nata esse in gradu: sed 
+      <lb ed="#V" n="91"/>ex hoc quod in certo gradum est: necessario est intensa vel 
+      re<lb ed="#V" n="92" break="no"/>missa. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e400">
+      ¶ Exunte de albedine. 
+      <lb ed="#V" n="93"/>quod non apparent nisi duo modi 
+      ponere<lb ed="#V" n="94" break="no"/>Ideo Dico di istum habitum. quo scilicet ponitur in 
+      ratio<lb ed="#V" n="95" break="no"/>ne principii concurrentis cum potentia. Vel in ratione principii 
+      <lb ed="#V" n="96"/>concurrentis cum ea inquantum receptiua est. Vel in ratio 
+      <lb ed="#V" n="97"/>ne principii concurrentis cum ea inquantum actiua est. 
+      </p>
+            <p xml:id="FrMS88-e51557-d1e413">
+               <lb ed="#V" n="98"/>¶ Dicunt enim aliqui quod habitus concurrit cum 
+      po<lb ed="#V" n="99" break="no"/>tentia inquantum receptiua est. et sic passiue.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e421">
+      ¶ Alii 
+      di<lb ed="#V" n="100" break="no"/>cunt quod concurrit cum potentia inquantum actiua est. et ideo 
+      con<lb ed="#V" n="101" break="no"/>currit actiue.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e428">
+      ¶ Uidendum est ergo quis istorum modorum sit 
+      <lb ed="#V" n="102"/>rationabilior.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e433">
+      ¶ Quantum ad primum scilicet de passiuo est 
+      <lb ed="#V" n="103"/>intelligendum. quod quatuor genera dispositionum ponum 
+      <lb ed="#V" n="104"/>tur ex parte principii passiui.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e440">
+      ¶ Quedam enim sunt 
+      <lb ed="#V" n="105"/>dispositiones transeuntes: sicut in inductione forme 
+      <lb ed="#V" n="106"/>substantialis requiruntur alique dispositiones in ma 
+      <lb ed="#V" n="107"/>eria: que forma inducta transeunt: sicut alterationes 
+      <lb ed="#V" n="108"/>et multa talia que adueniente forma substantiali rece 
+      <lb ed="#V" n="109"/>dunt.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e453">
+      ¶ Alique autem sunt dispositiones 
+      permanen<lb ed="#V" n="110" break="no"/>tes: sicut respectu forme aeris in materia requiritur raritas 
+      <lb ed="#V" n="111"/>que etiam cum forma aeris permanet. Quedam autem 
+      <lb ed="#V" n="112"/>sunt que permanent: et vltra hoc sunt receptiue imme 
+      <lb ed="#V" n="113"/>diate ipsius forme: sicut quantitas in corpore 
+      respe<lb ed="#V" n="114" break="no"/>ctu coloris: que permanet cum colore: et ipsum 
+      im<lb ed="#V" n="115" break="no"/>mediate recipit.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e469">
+      ¶ Alie autem sunt que necessario 
+      requi<lb ed="#V" n="116" break="no"/>runtur: quia forma in determinato subiecto non potest 
+      reci<lb ed="#V" n="117" break="no"/>di nisi sint dispositiones tales simul in tali subiecto 
+      deter<lb ed="#V" n="118" break="no"/>minato: sicut dyaffanitas in aere respectu lucis: que non 
+      reci<lb ed="#V" n="119" break="no"/>pitur nisi cum illa dyaffanitate. et hoc est: quia aer simul cum dpatur 
+      <lb ed="#V" n="120"/>fanitate sunt vnum principium receptiuum.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e483">
+      ¶ Discurrendo per 
+      <lb ed="#V" n="121"/>singulas predictas dispositiones et applicando ad 
+      ha<lb ed="#V" n="122" break="no"/>ditum.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e490">
+      ¶ Primo de prima patet. quia nullus ponit 
+      habi<lb ed="#V" n="123" break="no"/>tum talem dispositionem esse. oportet ergo quod si ponatur 
+      <lb ed="#V" n="124"/>quod altero trium modorum ponatur. Oostendo ergo primo quod non 
+      <lb ed="#V" n="125"/>eo modo concurrit vt dispositio: sicut quantitas 
+      respe<lb ed="#V" n="126" break="no"/>ctu coloris scilicet quod immediate receptiuum. Primo sic. 
+      Quan<lb ed="#V" n="127" break="no"/>docunque aliquid est dispositio ad aliquam formam vt 
+      <lb ed="#V" n="128"/>immediate receptiuum. illa forma non potest recipi 
+      in<lb ed="#V" n="129" break="no"/>ubiecto vltimato nisi illo mediante. Sed actus 
+      reci<lb ed="#V" n="130" break="no"/>ditur in potentia nullo habitu existente: quia actus 
+      pre<lb ed="#V" n="131" break="no"/>cedit habitum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e512">
+      ¶ Secundo sic. quia omnis talis dispositio 
+      <lb ed="#V" n="132"/>que immediate recipit formam: prius denominatur a forma¬ 
+      <!--145.xml-->
+      <pb ed="#V" n="71-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>charitas ergo prius denominatur a forma scilicet ab actu: et sic 
+      cha<lb ed="#V" n="2" break="no"/>ritas prius esset amanas quam voluntas.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e528">
+      ¶ 3o sic. quandocumque aliqua 
+      <lb ed="#V" n="3"/>talis dispositio a subiecto separatur non repugnet forme in eo rece 
+      <lb ed="#V" n="4"/>parte similis separi. sicut patet de superficie et colore. Si ergo charitas 
+      <lb ed="#V" n="5"/>seperetur. ipsa esset amanas et volens etc.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e537">
+      ¶ Si autem ponatur quod potentia 
+      <lb ed="#V" n="6"/>solum sit sicut aliquid quod necessario coexigitur ex parte receptiui: si 
+      <lb ed="#V" n="7"/>cut raritas respectu forme aeris. tunc sequitur quod habitus sit 
+      se<lb ed="#V" n="8" break="no"/>lum causa sine qua non. quod negatur ab eis et ab omnibus. Probo 
+      consequen<lb ed="#V" n="9" break="no"/>tiam. quia dato quod sit causa per quam hoc probo impossibile esse sic: quia illud non 
+      <lb ed="#V" n="10"/>potest esse causa per quam in genere causare materialis: quae non causat vt totaliter 
+      <lb ed="#V" n="11"/>nec vt partialiter in illo genere: sed raritas respectu forme aerl 
+      <lb ed="#V" n="12"/>nec habitus respectu actus est causa materialis. nec totalis 
+      nec<lb ed="#V" n="13" break="no"/>partialis. non totalis. quia causalitas causare materialis est recipere. Constat 
+      <lb ed="#V" n="14"/>autem quod habitus nec totaliter nec partialiter actum recipit. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e51557-d1e559">
+               <lb ed="#V" n="15"/>¶ Si autem ponatur quod isto modo concurrit: sicut dyafanitas in 
+      ae<lb ed="#V" n="16" break="no"/>re respectu lucis.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e567">
+      ¶ Contra hoc arguo sic. quia aut lux 
+      reci<lb ed="#V" n="17" break="no"/>pitur in aere mediante dyafanitate. vel econverso. Aut totaliester 
+      <lb ed="#V" n="18"/>vtroque. aut partialiter in vno. et partialiter in alio. Si primo modo 
+      di<lb ed="#V" n="19" break="no"/>catur. tunc redit primus modus improbatus. quod scilicet actus non potest 
+      re<lb ed="#V" n="20" break="no"/>cipi in potentia nisi mediante habitu eodem modo mediationis. Similiter 
+      <lb ed="#V" n="21"/>nec econverso.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e580">
+      ¶ Si autem ponatur 2o modo quod in vtroque totaliter 
+      re<lb ed="#V" n="22" break="no"/>cipiatur. hoc est impossibile: quia tunc eiusdem effectus essent due causae 
+      to<lb ed="#V" n="23" break="no"/>tales. et in eodem genere causae. Nam recipere est causalitas causare 
+      materiali<lb ed="#V" n="24" break="no"/>Nec etiam 3o modo potest intelligi scilicet quod partialiter in vno et partialiter in 
+      <lb ed="#V" n="25"/>alio. Nam actus non est forma diuisibilis per istum modum. quod 
+      pos<lb ed="#V" n="26" break="no"/>set poni partim in vna re et partim in alia.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e593">
+      ¶ Praeterea. nulla videtur di 
+      <lb ed="#V" n="27"/>uisibilitas in actu. nisi vel in partes essentiales vel in 
+      gra<lb ed="#V" n="28" break="no"/>dus. Si fiat diuisibilitas in partes essentiales. tunc vel genus 
+      <lb ed="#V" n="29"/>erit in potentia. et differentia in habitu vel econverso quocumque posito 
+      manife<lb ed="#V" n="30" break="no"/>stum est inconueniens. Si autem fiat diuisio in gradus. cum in 
+      <lb ed="#V" n="31"/>quocumque gradum salueter ratio forme. et poinitur gradus in 
+      ha<lb ed="#V" n="32" break="no"/>bitu. tunc forma ponetur in habitu et tunc erit volens et amans: si 
+      <lb ed="#V" n="33"/>cut contra primum modium argutum est.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e611">
+      ¶ Si ponatur concurrere ex 
+      per<lb ed="#V" n="34" break="no"/>te principii productiui et actiui isti habitus. tunc est dubium. vtrum 
+      <lb ed="#V" n="35"/>sit in voluntate agente et intellectu agente. vel in voluntate et 
+      <lb ed="#V" n="36"/>intellectu possibili. Primo modo non est verisimle scilicet in voluntate et in 
+      <lb ed="#V" n="37"/>tellectu agente: quia non possunt habitum recipere nisi patiantur. 
+      intel<lb ed="#V" n="38" break="no"/>lectus autem agens et voluntas agens: vt sic: non sunt passiua 
+      </p>
+            <p xml:id="FrMS88-e51557-d1e624">
+               <lb ed="#V" n="39"/>¶ Si autem dicatur quod habitus ponitur in intellectu possibili et 
+      volun<lb ed="#V" n="40" break="no"/>tate possibili. isto modo non potest concurrere cum illo in quo est ad 
+      <lb ed="#V" n="41"/>agendum. quia intellectus possibilis et voluntas possibilis nihil 
+      <lb ed="#V" n="42"/>causant. Posset ergo poni in intellectu possibili et in voluntate possibili. 
+      <lb ed="#V" n="43"/>et tamen quod concurrat cum intellectu agente et voluntate agente. 
+      <lb ed="#V" n="44"/>ad causandum actiue et ad producendum actiue ipsum actum 
+      <lb ed="#V" n="45"/>Exemplum. appetitus enim sensitiuus concurrit cum volun 
+      <lb ed="#V" n="46"/>tate ad motum corporis: et tamen non est in voluntate: sed secundum 
+      mul<lb ed="#V" n="47" break="no"/>tos est in corpore moto. sic potest habitus concurrere cum volunta 
+      <lb ed="#V" n="48"/>te agente. quamuis non sit in ea. Patet ergo quod dubia est vtraque via 
+      <lb ed="#V" n="49"/>siue ponatur concurrere vt actiuum: siue vt passiuum.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e650">
+      ¶ Sed 
+      <lb ed="#V" n="50"/>quae est in via rationabilior: Dico quod mihi apparet quod 
+      rationabi<lb ed="#V" n="51" break="no"/>lius est ponere. quod concurrat vt principium actiuu. quam vt passiuum. 
+      <lb ed="#V" n="52"/>Et hanc persuadeo sic. quandocumque est aliqua natura que potest in duas 
+      <lb ed="#V" n="53"/>operationes. in quarum vna abundat et in alia deficit: si 
+      adiu<lb ed="#V" n="54" break="no"/>torium detur illi naturae. rationabilius est quod detur sibi ex ea per 
+      <lb ed="#V" n="55"/>te qua deficit quam ex ea qua abundat: sed natura in 
+      pro<lb ed="#V" n="56" break="no"/>ducendo deficit et in recipiendo abundat. ergo si habitus de 
+      <lb ed="#V" n="57"/>tur ei in adiutorium. potius debet sibi dari ex parte quae 
+      <lb ed="#V" n="58"/>deficit scilicet ex ea parte qua producit quam ex ea qua 
+      abun<lb ed="#V" n="59" break="no"/>dat scilicet ex ea parte qua est receptiua. Maior istius per 
+      <lb ed="#V" n="60"/>suasionis videtur latis probabilis.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e677">
+      ¶ Primo quia natu 
+      <lb ed="#V" n="61"/>ra non deficit in necessariis. ergo si sibi non daretur: iam 
+      <lb ed="#V" n="62"/>videretur deficere in necessariis.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e684">
+      ¶ Secundo quia natu 
+      <lb ed="#V" n="63"/>ra nihil facit frustra. frustra autem faceret si daret ad  
+      <lb ed="#V" n="64"/>iutorium ex ea parte qua abundat: quia sine illo adiuto 
+      <lb ed="#V" n="65"/>rio facere potest illud quod potest facere cum illo. ergo erit 
+      <lb ed="#V" n="66"/>frustra.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e695">
+      ¶ Tertio. quia vnumquodque sic agitur secundum naturam: sicut 
+      <!--145.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>ageretur si fieret secundum artem: sed artifex potius auxiliare 
+      <lb ed="#V" n="68"/>tur vbi magis deficeret quam vbi superabundaret. 
+      erge<lb ed="#V" n="69" break="no"/>eodem modo faceret natura.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e708">
+      ¶ Quarto quia processus 
+      <lb ed="#V" n="70"/>naturae est ordinatus secundum rationem: sed ratio dictat. quod ibi debet 
+      <lb ed="#V" n="71"/>magis poni adiutorium vbi est maior defectus. quam 
+      vb<lb ed="#V" n="72" break="no"/>est superabundantia. ergo eodem modo faciet 
+      natu<lb ed="#V" n="73" break="no"/>ra. Minor etiam persuadetur per. 4. exempla. Primum est. 
+      <lb ed="#V" n="74"/>quod natura est potens ad recipiendum. et deficiens ad 
+      producen<lb ed="#V" n="75" break="no"/>dum. per hoc patet quod optime corpus disponitur ad recipi 
+      <lb ed="#V" n="76"/>endum animam: et tamen non potest producere eam. Secundum est de 
+      cor<lb ed="#V" n="77" break="no"/>pore bruti. Similiter tertio nos sumus receptiui diuinarum 
+      <lb ed="#V" n="78"/>reuelationum. et intellectus est capax earum: nec tamen 
+      po<lb ed="#V" n="79" break="no"/>test eas producere. Similiter quarto voluntas et omnes 
+      inspira<lb ed="#V" n="80" break="no"/>tiones et charitatem et talia potest recipere. et tamen non potest 
+      <lb ed="#V" n="81"/>producere. Patet ergo vniversaliter quod nam magis deficit in 
+      producen<lb ed="#V" n="82" break="no"/>do quam in recipiendo. ergo cum habitus detur nature 
+      <lb ed="#V" n="83"/>in adiutorium. magis dabitur ex ea parte qua est acti 
+      <lb ed="#V" n="84"/>ua: quia in illa deficit: quam ex ea quae est passiua: quia ibi non de 
+      <lb ed="#V" n="85"/>ficit.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e745">
+      ¶ Ista opinio confirmatur per. 4. proprietates quae 
+      con<lb ed="#V" n="86" break="no"/>sueuerunt attribui habitui. Prima est quod habitus est 
+      <lb ed="#V" n="87"/>illud quo velociter operamur. homines enim 
+      habi<lb ed="#V" n="88" break="no"/>tuati dicuntur prompti. 2a. quia per habitum faciliter 
+      <lb ed="#V" n="89"/>operamur. Nam virtuosus cum difficultate non 
+      opera<lb ed="#V" n="90" break="no"/>tur. 3a. quia per ipsum operamur delectabiliter. quia 
+      habi<lb ed="#V" n="91" break="no"/>tuatus circa opera sua non tristatur. 4a. quia per ipsum 
+      opera<lb ed="#V" n="92" break="no"/>mur efficaciter et firmiter: quia actus fortiores sunt et 
+      i<lb ed="#V" n="93" break="no"/>tensiores in habentibus habitum. Discurrendo ergo per singulas 
+      <lb ed="#V" n="94"/>patet quod magis competunt habitui inquantum est actiuus 
+      quan<lb ed="#V" n="95" break="no"/>inquantum se tenet ex parte principii passiui.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e769">
+      ¶ De 
+      prima<lb ed="#V" n="96" break="no"/>patet scilicet de velocitate. Sed tamen aliquo dicunt quod hoc potest esse 
+      <lb ed="#V" n="97"/>ex parte principii passiui: sicut ipsi exemplificant de motu 
+      <lb ed="#V" n="98"/>grauis sursum et leuis deorsum. Sed hoc nihil est. natura 
+      <lb ed="#V" n="99"/>ratio quare graue non velociter mouetur sursum et leue 
+      <lb ed="#V" n="100"/>deorsum. est propter inclinationem oppositam et contrariam: quia 
+      gra<lb ed="#V" n="101" break="no"/>ue inclinatur deorsum et leue sursum. voluntas autem 
+      <lb ed="#V" n="102"/>nullam habet contrarietatem respectu alicuius actus: et ideo quantum 
+      <lb ed="#V" n="103"/>est ex se velociter operatur. quia nullam habet contrarietatem. si ergo 
+      <lb ed="#V" n="104"/>facit velociter operari: hoc erit. quia ad eliciendum operatio 
+      <lb ed="#V" n="105"/>nem datur sibi coadiutorium: quando in ea aggeneratur ipse 
+      <lb ed="#V" n="106"/>habitus.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e796">
+      ¶ De secunda scilicet de facilitate patet quia difficultas non 
+      <lb ed="#V" n="107"/>prouenit nisi ex aliqua inclinatione ad oppositum. Ipsa 
+      <lb ed="#V" n="108"/>autem voluntas non inclinatur ad aliquid contrarium actui. faci 
+      <lb ed="#V" n="109"/>litatur autem ex collatione adiutorii.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e805">
+      ¶ De tertia scilicet de 
+      de<lb ed="#V" n="110" break="no"/>lectatione eodem modo.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e810">
+      ¶ De quarta etiam patet clarius scilicet de 
+      effi<lb ed="#V" n="111" break="no"/>cacia et firmitate. Nam intensio alicuius actus et 
+      firmi<lb ed="#V" n="112" break="no"/>tas actus non prouenit ex principio passiuo: quia sicut 
+      su<lb ed="#V" n="113" break="no"/>perius est ostensum. illud quod imprimiter in 
+      suscepti<lb ed="#V" n="114" break="no"/>uo corporeo numquam ratione susceptiui corrumpitur: sed solum 
+      <lb ed="#V" n="115"/>videtur vel propter inductionem contrarii si habet contrarium. vel propter 
+      <lb ed="#V" n="116"/>subtractionem actionis. Similiter secundum Augusti. habitus 
+      <lb ed="#V" n="117"/>est quo possumus in actum exire: quando volumus: sed pati: 
+      <lb ed="#V" n="118"/>non est in potestate nostra. ergo oportet quod hoc proueniat ex eo 
+      <lb ed="#V" n="119"/>quod habitus se tenet ex parte principii actiui.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e832">
+      ¶ Contra 
+      <lb ed="#V" n="120"/>istam positionem instatur 4r. Primo sic. Omne principium 
+      <lb ed="#V" n="121"/>productiuum actus vel operationis est potentia: sed habitus per 
+      <lb ed="#V" n="122"/>te: est huiusmodi: siue sit totale siue partiale. ergo etc. et per 
+      <lb ed="#V" n="123"/>consequens tot erunt potentie quot habitus.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e843">
+      ¶ 2o sic. 
+      impossi<lb ed="#V" n="124" break="no"/>bile est in causis et caulatis esse circulum: sed actus sunt 
+      <lb ed="#V" n="125"/>causa habitus: quia habitus generatur ex actibus. ergo habitus 
+      <lb ed="#V" n="126"/>non potest esse causa actus. et maxime in equiuocis.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e852">
+      ¶ 3o sic. 
+      <lb ed="#V" n="127"/>impossibile est esse circulum in essentialiter ordinatis: sed actus 
+      <lb ed="#V" n="128"/>ordine essentiali precedit habitum: quia ex eo generatur. 
+      <lb ed="#V" n="129"/>ergo habitus non causa est actus: quia tunc esset ordine essentiali 
+      pri<lb ed="#V" n="130" break="no"/>or.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e864">
+      ¶ 4o quandocumque alique cause equiuoce concurrunt ad eum 
+      <lb ed="#V" n="131"/>dem effectum causandum: non potest tantum extendi virtus vni 
+      <lb ed="#V" n="132"/>quod sine altera possit in effectum: sed non habituati cum 
+      <!--146.xml-->
+      <pb ed="#V" n="72-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>maiori conatum aliquando eliciunt intensiorem actum. vel saltem eone 
+      <lb ed="#V" n="2"/>intensum: sicut habituati. ergo videtur quod iste due causae. scilicet habitus et potentia 
+      <lb ed="#V" n="3"/>non concurrant in genere principii actiui. quia constat quod sunt 
+      equo<lb ed="#V" n="4" break="no"/>ce.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e886">
+      ¶ Ad primum dico. quod non omne productiuum actus est potentia: sicut 
+      <lb ed="#V" n="5"/>obiectum quantumcumque sit et ponatur productiuum actus: non tamen est potenti 
+      <lb ed="#V" n="6"/>vitalis. Similiter nec species intelligibilis tamen si vis vocare 
+      po<lb ed="#V" n="7" break="no"/>tentiam. non est cura.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e895">
+      ¶ Ad 2m dico. quod difficile est videre. 
+      <lb ed="#V" n="8"/>posito quod actus praecedentes sint eiusdem rationis cum 
+      sequenti<lb ed="#V" n="9" break="no"/>bus. quod actus praecedentes causaent habitum: et sequentes causaentur ab 
+      <lb ed="#V" n="10"/>habitu. Nam in variatione alterius causae videtur effectus variari. 
+      <lb ed="#V" n="11"/>Uitur etiam multum mirabile ponere quod actus praecedentes respcum 
+      <lb ed="#V" n="12"/>eiusdem obiecti sint differentes specie ab actibus sequentibus habitum 
+      <lb ed="#V" n="13"/>qui est respectu eiusdem obiecti.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e911">
+      ¶ Dico ergo quod actus praecedentes 
+      <lb ed="#V" n="14"/>non sunt causa habitus: sed actus et habitus sunt sicut duo effectus 
+      <lb ed="#V" n="15"/>essentialiter ordinati: ita quod potentia et obiectum primo causant actum. 
+      <lb ed="#V" n="16"/>vel actum primo. secundo habitum.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e920">
+      ¶ Ad auctoritates que videntur 
+      so<lb ed="#V" n="17" break="no"/>nare quod habitus generatur ex actibus.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e925">
+      ¶ Dico quod ly ex: diciet 
+      <lb ed="#V" n="18"/>exponi per prius: sicut dicimus quod ex aurora fit dies. ita ex 
+      <lb ed="#V" n="19"/>actibus fit habitus id est post actus fit habitus. actus enim 
+      <lb ed="#V" n="20"/>sunt actiones immanentes. et ideo non habent producere: sed 
+      <lb ed="#V" n="21"/>sunt fines. et per consequens non possunt causare habitum. nec 
+      ali<lb ed="#V" n="22" break="no"/>quid aliud.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e939">
+      ¶ Ad 3m de ordine essentiali dico. quod si actus 
+      <lb ed="#V" n="23"/>praecedentes et sequentes essent alterius rationis. pateret 
+      solu<lb ed="#V" n="24" break="no"/>tio sed posito quod sint eiusdem rationis apparet difficitas. Ideo 
+      <lb ed="#V" n="25"/>dico quod actus sequentes habitum non sunt essentiali ordine poste 
+      <lb ed="#V" n="26"/>riores habitu: licet habitus sit eorum causa. Et hoc ideo est. quia habitus non 
+      <lb ed="#V" n="27"/>est per se necessaria causa eorum. eo quod possunt eque causari 
+      <lb ed="#V" n="28"/>sine habitu: sicut cum habitu: quia a potentia cum 
+      ma<lb ed="#V" n="29" break="no"/>iori conatu: effectus ergo bene est posterior 
+      essentiali<lb ed="#V" n="30" break="no"/>ter causa per se et necessaria: sed non causa per 
+      acciden<lb ed="#V" n="31" break="no"/>sicut quod causatur homo ab hoc homine. non est per se: id 
+      <lb ed="#V" n="32"/>non est eo posterior.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e963">
+      ¶ Si dicatur quod homo et homo sunt 
+      <lb ed="#V" n="33"/>eiusdem speciei: et ideo vnus respectu alterius est 
+      cau<lb ed="#V" n="34" break="no"/>sa vniuoca: et ideo non est mirum si vnus non est 
+      pri<lb ed="#V" n="35" break="no"/>or ordine essentiali altero habitus autem est alterius 
+      <lb ed="#V" n="36"/>speciei. et est causa equiuoca.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e974">
+      ¶ Dico ergo quod non 
+      so<lb ed="#V" n="37" break="no"/>lum in vniuocis. verum etiam in equiuocis reperitur 
+      <lb ed="#V" n="38"/>quod causa per accidens non est prior ordine essentiali suo 
+      <lb ed="#V" n="39"/>effectu. Exemplum. in disposito ad sanitatem. si 
+      detur<lb ed="#V" n="40" break="no"/>medicina. eadem sanitas inducitur ab arte que fuisset 
+      im<lb ed="#V" n="41" break="no"/>ducta a natura et eiusdem speciei. Constat autem quod tam 
+      na<lb ed="#V" n="42" break="no"/>tura quam ars sunt causae equoce. hoc non obstante sanitas 
+      im<lb ed="#V" n="43" break="no"/>ducta ab ambabus non est posterior medicina. quia posset 
+      <lb ed="#V" n="44"/>totaliter a nam induci et sine arte. et per consequens accidentalis 
+      <lb ed="#V" n="45"/>ordo est sanitatis. vt effectus ad medicinam vt ad 
+      causam<lb ed="#V" n="46" break="no"/>que tamen est equoca. Eodem modo dico in proposito. 
+      da<lb ed="#V" n="47" break="no"/>to quod habitus sit causa actus et equiuoca. non tamen est 
+      essentia<lb ed="#V" n="48" break="no"/>liter prior: sed solum per accidens.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e1003">
+      ¶ Ad quartum dico. quod si 
+      po<lb ed="#V" n="49" break="no"/>neretur quod actus praecedentes et sequentes essent alterius speciei 
+      <lb ed="#V" n="50"/>pateret solutio: tamen tenendo aliam viam dico. quod si cause 
+      diuer<lb ed="#V" n="51" break="no"/>se. concurrunt habentes diuersos modos causandi. tunc 
+      <lb ed="#V" n="52"/>apparet bene probabile quod effectus specie debebant 
+      distin<lb ed="#V" n="53" break="no"/>gu. ergo. si concurrat ad vnum effectum vna causa. et ad alium 
+      due<lb ed="#V" n="54" break="no"/>que habeant modum eundem. non oportet quod effectus 
+      differan<lb ed="#V" n="55" break="no"/>specie. Ita dico in proposito quod habitus datur in adiutorium 
+      <lb ed="#V" n="56"/>potentie. Et ideo in eundem modum causandi incidit cum 
+      <lb ed="#V" n="57"/>potentia. et per consequens posset tantum potentia extendere conatum suum 
+      <lb ed="#V" n="58"/>quod eque perfectum actum posset causare per se precise: sicut cum 
+      ha<lb ed="#V" n="59" break="no"/>bitu: ideo non sequitur.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e1029">
+      ¶ Sed hoc occurrunt aliquae diffiat 
+      <lb ed="#V" n="60"/>Prima. quare actus non potest causare aliquid.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e1034">
+      ¶ Dico quod 
+      <lb ed="#V" n="61"/>quia sunt fines negatur ab eis causalitas que specialibus 
+      <lb ed="#V" n="62"/>entibus conuenit. tamen causalitas obiectiua que nulli 
+      nega<lb ed="#V" n="63" break="no"/>tur potest eis conuenire.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e1044">
+      ¶ 2a difficultas est que istarum causarum est 
+      prin<lb ed="#V" n="64" break="no"/>tipalior respectu actus. vel potentia vel habitus.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e1049">
+      ¶ Di 
+      <lb ed="#V" n="65"/>co quod potentia. Tu quia est causa prima et vniuersalis. habitus autem parti 
+      <lb ed="#V" n="66"/>cularis. Tum etiam quia habitus non necessitat posetiom ad ope¬ 
+      <!--146.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>radum. potentia autem habitum sic.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e1062">
+      ¶ 3a difficultas quomodo a volun 
+      <lb ed="#V" n="68"/>tate causato actu. potest causari habitus. cum ipsa libere 
+      cau<lb ed="#V" n="69" break="no"/>set omnia. cum habitus videatur necessario causari. necessitas 
+      <lb ed="#V" n="70"/>autem repugnat libertati: quia libertas videtur respiceme 
+      com<lb ed="#V" n="71" break="no"/>tingens.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e1073">
+      ¶ Dico quod voluntas quicquid causat libere causat: 
+      <lb ed="#V" n="72"/>non tamen contingenter. Unde dico quod solus actus qui causatur 
+      <lb ed="#V" n="73"/>prior habitu contingenter causatur et libere. alia libere: sed 
+      <lb ed="#V" n="74"/>non contingenter.
+    </p>
+            <p xml:id="FrMS88-e51557-d1e1082">
+      ¶ Ad auctoritatem in prinncipio 
+      <lb ed="#V" n="75"/>dico. quod Apstilus intendit praecise loqui de merito pro vita 
+      eterna<lb ed="#V" n="76" break="no"/>acccepto. et isto modo secundum leges ordinatas non sufficit potenti 
+      <lb ed="#V" n="77"/>sine habitu charitatis: et ita intendit. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

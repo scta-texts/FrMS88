@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="26-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e17823"><!-- l1d3q7 -->
+            <head xml:id="FrMS88-e17823-Hd1e108">Quaestio 7</head>
+            <p xml:id="FrMS88-e17823-d1e111">
+      Quaestio vii 
+      <lb ed="#V" n="25"/>UTrum actus cognoscendi causeretur totaliter a potentia
+      <lb ed="#V" n="26" break="no"/>intellectiua: vietur quod sic. Ddemo 
+      <lb ed="#V" n="27"/>ria fecunda est parens notit genite secundum Aug. 
+      <lb ed="#V" n="28"/>sed memoria fecunda praecise est potentia 
+      intelle<lb ed="#V" n="29" break="no"/>ctiua. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e124">
+      ¶ Sed contra. quia idem Aug. 4o. 
+      <lb ed="#V" n="30"/>de tri. dicit quod ex cognoscente et cognito paritur notia.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e129">
+               <lb ed="#V" n="31"/>hic introducuntur 4or conclusiones. Prima est 
+      <lb ed="#V" n="32"/>quod poentia itellectiua non 
+      <lb ed="#V" n="33"/>est totalis causa actus intelligendi.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e138">
+      ¶ Et hanc probo 4r. primo sic. 
+      <lb ed="#V" n="34"/>Posito sufficienti actiuo et passiuo debite approximatur 
+      <lb ed="#V" n="35"/>et non impeditis potest sequi effectus et necessario sequitur si sint agentiam 
+      <lb ed="#V" n="36"/>aturalia quaecumque alio circumscripto: quia ab alio non videtur effectus 
+      <lb ed="#V" n="37"/>depende: sed intellectus per te est totale principium actiuum. constat autem 
+      <lb ed="#V" n="38"/>quod est sufficiens passiuum. et sunt debite approximata et 
+      <lb ed="#V" n="39"/>non impedita. ergo obiecto non praesente nec in se nec in specie posset 
+      <lb ed="#V" n="40"/>actus intelligendi sufficientur causari: cuius oposium experimur.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e157">
+      ¶ 2o sic. 
+      <lb ed="#V" n="41"/>nulla causa finita continet infinitos effectus et specie distinctos 
+      <lb ed="#V" n="42"/>totaliter. nam cum continnem plures sit maioris perfectionis quam 
+      contin<lb ed="#V" n="43" break="no"/>nem pauciores: continer infinitos effectus esset infinite perfectionis. 
+      <lb ed="#V" n="44"/>vbi enim pluralitas arguit maiorem perfectionem et infinitas 
+      infi<lb ed="#V" n="45" break="no"/>nitam. intellectus autem posset intelligere obiecta infinita specie distincta si 
+      <lb ed="#V" n="46"/>essent. ergo esset virtut infinite.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e173">
+      ¶ Sed ista ratio ita concludit de 
+      par<lb ed="#V" n="47" break="no"/>tiali causa: sicut de totali: ideo isti argumentu non initor.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e178">
+      ¶ 3o sic. quandocum 
+      <lb ed="#V" n="48"/>que est aliquod medium sufficiens ad probandum aliquam veritatem vbi 
+      <lb ed="#V" n="49"/>cumque inuenitur illud medium poterit eadem veritas probari: 
+      <lb ed="#V" n="50"/>sed medium sufficiens ad probandum quod aliquid sit causa est quod 
+      ipso<lb ed="#V" n="51" break="no"/>praesente sit effectus. et eo non praesente non sit. ergo sic in proposito. cum 
+      <lb ed="#V" n="52"/>praesente obiecto fiat actus intelligendi et eo non praesente non fit: sequitur quod 
+      <lb ed="#V" n="53"/>necessario obiectum se habeat in aliquo genere causare respectu actus in intellectu: et 
+      <lb ed="#V" n="54"/>non nisi in genere causae efficientis. probo autem minorem: quia 
+      maior<lb ed="#V" n="55" break="no"/>est nota: quomodo possum probare quod sol sit causa radii vel ignis 
+      <lb ed="#V" n="56"/>causa caloris: cum non videa causalitates eorum nisi quod eis positi 
+      <lb ed="#V" n="57"/>ponuntur tales effectus: et eis non positis. non. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e202">
+      ¶ Sed 
+      <lb ed="#V" n="58"/>quia forte ad istas rationes posset dici quod licet obiectum non sit 
+      cau<lb ed="#V" n="59" break="no"/>sa effectiua: tamen necessario requritur: sicut causa sine qua non.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e209">
+      ¶ Ideo 4o 
+      ar<lb ed="#V" n="60" break="no"/>guo ad principalem conclusione. et vltra hoc est contra hoc: quia illud non dicitur 
+      <lb ed="#V" n="61"/>poni quo posito soluiter omnis ratio probans omnem causationem 
+      natura<lb ed="#V" n="62" break="no"/>lem: sed posito hoc de causa sine quae non soluiter omnis talis ratio. ergo 
+      <lb ed="#V" n="63"/>etc. Probo minorem. nam si dicas quod ignis causat ignem: 
+      <lb ed="#V" n="64"/>ego nego. et quando dicis ad praesentiam ignis fit ignis. verum est 
+      <lb ed="#V" n="65"/>dicam ego quod est causa sine qua non. Maior de se nota est. 
+      <lb ed="#V" n="66"/>Nam si negaretur tolleretur omnis via inuestigandi causalitatem natura¬ 
+      <!--54.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>lem.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e233">
+      ¶ Secunda conclusio est. quod iste actus non causatur totaliter ab obiecto 
+      <lb ed="#V" n="68"/>hoc probo 4r. Primo sic. Nulla causa totalis equiuoca potest 
+      <lb ed="#V" n="69"/>esse imperfectior suo causato. hoc patet. quia ea negata non 
+      possu<lb ed="#V" n="70" break="no"/>mus aliquam perfectionem probatur vel nobilitate vel perfectionem causae 
+      <lb ed="#V" n="71"/>opter effectiuam causalitatem: sed obiectum aliquando est imperfectius 
+      quan<lb ed="#V" n="72" break="no"/>actus cognoscendi. probo. contingit enim aliquando nons intelligere 
+      <lb ed="#V" n="73"/>iccidens sensibile. actus autem intelligendi est accidens spirituale: 
+      <lb ed="#V" n="74"/>ed nullum ens sensibile est eque perfectum: sicut accidens 
+      spi<lb ed="#V" n="75" break="no"/>rituale. ergo aliquando actus excedit obiectum in nobilitate. 2o sic. 
+      <lb ed="#V" n="76"/>ille actus qui non est nisi receptiue in intellectu non est actus 
+      <lb ed="#V" n="77"/>peratus: sed actus intelligendi est actus imperatus. Maior 
+      pa<lb ed="#V" n="78" break="no"/>tet. quia non est in potestate patientis pati. minor etiam patet. ergo actus 
+      <lb ed="#V" n="79"/>peratus est ab intellectu. Nec valet fugeme ad praesentiam obiecti 
+      <lb ed="#V" n="80"/>quam voluntas imparat potentie inferiori. vtpote fantasie: et sic 
+      <lb ed="#V" n="81"/>solum actus intelligedi eo mediante est in libertate 
+      volun<lb ed="#V" n="82" break="no"/>tatis: quia licet hoc esset verum pro statu isto. non tamen valet in 
+      intelle<lb ed="#V" n="83" break="no"/>ctu separato. 3o fic. quandocumque actiuum naturale eiusdem rationis 
+      ap<lb ed="#V" n="84" break="no"/>plicatur passiuo eiusdem rationis: semper causatur effectus eiusdem 
+      <lb ed="#V" n="85"/>rationis: sed obiectum est actiuum eiusdem rationis: et intellectus 
+      passi<lb ed="#V" n="86" break="no"/>uum eiusdem rationis. ergo obiectum non poterit causare nisi effectum 
+      <lb ed="#V" n="87"/>eiusdem rationis: et sic cum obiectum causet de se actum 
+      affirmati<lb ed="#V" n="88" break="no"/>uum alicuius complexionis numquam poterit causare negatiuum. Con 
+      <lb ed="#V" n="89"/>stat autem quod actus negatiuus est actus intelligendi et respectu eiusdem 
+      <lb ed="#V" n="90"/>obiecti. ergo obiectum non erit totalis causa omnis actus. 4o sic. Obiectum 
+      <lb ed="#V" n="91"/>non est natum de se conceptum aliquem causare nisi secundum quod in 
+      <lb ed="#V" n="92"/>se est. cum ergo aliquando habeatur conceptus falsus: ille non poterit 
+      <lb ed="#V" n="93"/>ab aliqui causari obiecto totaliter: sed aliunde quam ab obiecto proue 
+      <lb ed="#V" n="94"/>nit quod nunc istum nunc illum habemus.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e295">
+      ¶ 3a conclusio est. quod ista 
+      duo<lb ed="#V" n="95" break="no"/>scilicet intellectus et obiectum concurrunt ad actum causandum: sicut 
+      due<lb ed="#V" n="96" break="no"/>causae partiales. hec conclusio patet ex praecedentibus. Nam ostensum est quod 
+      <lb ed="#V" n="97"/>vtrumque eorum concurrit et neutrum eorum sufficit. ergo vtrumque 
+      <lb ed="#V" n="98"/>partialiter concurrit. Item actus vitalis non procedit totaliter a 
+      no<lb ed="#V" n="99" break="no"/>vitali. actus intelligendi est hmodoi. ergo potentia vitalis concurrit scilicet 
+      <lb ed="#V" n="100"/>intellectus: et etiam actus specificatur ab obiecto. ergo et causatur. quia 
+      <lb ed="#V" n="101"/>ex quo habet esse specificatum habet et esse. ergo cum neutrum 
+      suffi<lb ed="#V" n="102" break="no"/>ciat vtrumque causat.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e315">
+      ¶ 4a conclusio est. quod inter istas duas 
+      cau<lb ed="#V" n="103" break="no"/>sas principalior est intellectus: quia semper vbi causa vniuersalior et minus 
+      <lb ed="#V" n="104"/>ieis concurrunt causa vniuersalior est principalior. hoc patet quia deus est 
+      <lb ed="#V" n="105"/>iuersalissima causa: et ideo principalissima: sed intellectus est causa vniuersalis. 
+      <lb ed="#V" n="106"/>obiectum est causa particularis. nam determinatum obiectum in specie causat 
+      <lb ed="#V" n="107"/>actum determinatum in specie. intellectus autem ad omnes actus omnium spe 
+      <lb ed="#V" n="108"/>cierum concurrit: et omnes concaust: ergo intellectus est causa vniversalis et obiectum 
+      <lb ed="#V" n="109"/>est causa particularis. et per consequens principalior causa est intellectus. 2m 
+      <lb ed="#V" n="110"/>fic. Quandocumque due causare equoce concurrunt ad vnum effectum 
+      <lb ed="#V" n="111"/>princimnpalior semper nobilior est effcum: sed aliquando contingit quod 
+      <lb ed="#V" n="112"/>obiectum non sit nobilius actu intelligendi. et constat quod sunt causare 
+      equi<lb ed="#V" n="113" break="no"/>uoce. ergo intellectus est principalior. minor patet. ex supraedictis 
+      <lb ed="#V" n="114"/>Set probo maiorem. quia quicquid est perfectius a. est perfectius omni 
+      <lb ed="#V" n="115"/>perfectiori a. si ergo actus intelligendi est perfectior quam sit 
+      <lb ed="#V" n="116"/>causa praencipalior: cum causa principalior sit perfectior 
+      reliqua<lb ed="#V" n="117" break="no"/>effectus erit perfectior ambabus: quod est silitum.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e350">
+      ¶ 3o 
+      quemcum<lb ed="#V" n="118" break="no"/>que ordinem habent aliqua in essendo eundem ordinem 
+      re<lb ed="#V" n="119" break="no"/>tinent in causando: sed intellectus in essendo est principalior 
+      <lb ed="#V" n="120"/>quam obiectum. ergo in causando erit principalior 
+      causa<lb ed="#V" n="121" break="no"/>istas conclusiones instatur 4r. Primo sic. 
+      quic<lb ed="#V" n="122" break="no"/>Sed contra quid perfectionis attribuiter 
+      inferiori<lb ed="#V" n="123" break="no"/>pus et imperfectis non dicbet negari a superiori et perfecto: sed 
+      <lb ed="#V" n="124"/>totalis actiuitas suorum actuum qua est perfectionis attribuiter 
+      <lb ed="#V" n="125"/>insimis formis scilicet formis elatorum. ergo et intellectui 
+      attri<lb ed="#V" n="126" break="no"/>buetur.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e372">
+      ¶ 2o sic. vbicumque est idem medium ibi eadem conclusio vide 
+      <lb ed="#V" n="127"/>tur posse inferri. sed per idem medium probatum est obiectum 
+      <lb ed="#V" n="128"/>posse agem et ignem. per idem autem medium probatur ignem esse totalem 
+      <lb ed="#V" n="129"/>causam ergo eadem conclusio ifertur de obiecto.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e381">
+      ¶ 3o sic. vbi concurrunt 
+      <lb ed="#V" n="130"/>due causae vna vniversalis et alia particularis: particularis 
+      reci<lb ed="#V" n="131" break="no"/>pit vim causatiuam ab vniversali: sed obiectum nullam vim causatiuam 
+      reci<lb ed="#V" n="132" break="no"/>pit a potentia. ergo etc. maior patet. in omnibus: nisi tu velis introdu¬ 
+      <!--55.xml-->
+      <pb ed="#V" n="26-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>cere in obiecto singularem modum et anormalum et fictitium. 
+      </p>
+            <p xml:id="FrMS88-e17823-d1e399">
+               <lb ed="#V" n="2"/>¶ 4o sic. Cam vniversalis per te semper est nobilior particulari. sol est 
+      <lb ed="#V" n="3"/>causa vniversalis hominis: et homo particularis. ergo sol erit nobilior homine: 
+      <lb ed="#V" n="4"/>quod est falsum. vel saltem reglaria illa non est vera.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e409">
+      ¶ Ad ista. 
+      </p>
+            <p xml:id="FrMS88-e17823-d1e412">
+               <lb ed="#V" n="5"/>¶ Ad primum dico negando quod inferiora sint totalis causa suoru 
+      <lb ed="#V" n="6"/>effectuum. In omni enim creatione inferiorum semper concurrunt superio 
+      <lb ed="#V" n="7"/>res causae: et si de aliis sit dubium: de deo tamen nulli theologo est 
+      <lb ed="#V" n="8"/>dubium.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e423">
+      ¶ Vel aliter potest dici quod operationes agentium inferiorum sunt 
+      <lb ed="#V" n="9"/>isime. operationes autem intellectus sunt nobilissime. ideo non sequitur 
+      <lb ed="#V" n="10"/>ibi non requritur alia causa. ergo nec hic: sed quia iste facultatem 
+      intel<lb ed="#V" n="11" break="no"/>lectus excedunt: ideo aliquid aliud requritur.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e432">
+      ¶ Sed contra. quia substanti 
+      <lb ed="#V" n="12"/>perfectior est quicumque accidente: sed ignis ignem causat qui est substantia: i 
+      <lb ed="#V" n="13"/>tellectus vero actum qui est accidens. ergo aliquis effectus inferioris 
+      ordi<lb ed="#V" n="14" break="no"/>nis excedit effcntum intellectus. Vel oportet tenem primam viam dictam 
+      <lb ed="#V" n="15"/>inssoluendo scilicet quod nec ignis nec aliqua inferior causa est totalis 
+      <lb ed="#V" n="16"/>causa. Vel dicere quod ideo actus intellectus exigit aliam causam ab intellectu: 
+      <lb ed="#V" n="17"/>quia actus intellectus se extendit ad omne ens: et si essent infinita entia 
+      <lb ed="#V" n="18"/>specie distincta intellectus posset habere actum circa omnia: et actus circa 
+      <lb ed="#V" n="19"/>illa essent distincti specie: quia ergo intellectus non est ex se certus et 
+      de<lb ed="#V" n="20" break="no"/>terminatus ad certam operationem determinate speciei. hinc est quod 
+      <lb ed="#V" n="21"/>foexigit alias concusas. entia autem inferiora sunt 
+      determina<lb ed="#V" n="22" break="no"/>ta ad certas operationes et determinate speciei. Ideo n est sic necessare 
+      <lb ed="#V" n="23"/>quod requrant aliam concausam.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e461">
+      ¶ Sed dices. quare non poterit intel 
+      <lb ed="#V" n="24"/>lectus in aliquam operationem totaliter saltem vnam sine alia concausa: sicut 
+      <lb ed="#V" n="25"/>alia inferiora.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e468">
+      ¶ Ad istud licet posset dari prima respono: tamen dico 
+      <lb ed="#V" n="26"/>quod intellectui posset assignari aliqua operatio ad quam aliqua alia 
+      <lb ed="#V" n="27"/>causa non concurrat: vel non concurrat vniformitur: sicut in aliis: sicut 
+      <lb ed="#V" n="28"/>in actu intellectus suipsius.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e478">
+      ¶ Ad 2m dico quod per idem medium 
+      <lb ed="#V" n="29"/>nunquam probatur quod ignis sit totalis causa: sicut nec hic: sed ab 
+      <lb ed="#V" n="30"/>alio assumpto: quia ignis est perfecte contentiuus alicuius effcus: 
+      <lb ed="#V" n="31"/>quia nobilior. hoc autem deficit in obiecto: quia aliquando est ignobilius: 
+      </p>
+            <p xml:id="FrMS88-e17823-d1e487">
+               <lb ed="#V" n="32"/>¶ Ad 3m dico quod multa exempla introducuntur. primo de duo 
+      <lb ed="#V" n="33"/>bus trahentibus nauem: hoc deficit: quia vnum potest tantum intendi quod 
+      to<lb ed="#V" n="34" break="no"/>tum causaret. Aliud est de patre et matre respectu prolis: sed 
+      defi<lb ed="#V" n="35" break="no"/>cit quia sunt eiusdem rationis. Aliud ponitur de homine et sole: sed 
+      <lb ed="#V" n="36"/>hoc deficit. quia hic est influxus vnius causare in aliam. in proposituoanti 
+      <lb ed="#V" n="37"/>non. Aliud ponitur de medicina et natura respcum sanitatis: sed 
+      <lb ed="#V" n="38"/>illud deficit: quia virtus naturae tantum posset intendi. quod totam sanita 
+      <lb ed="#V" n="39"/>tem induceret. Aliud ponitur de graui impulso ab aliquo 
+      extrin<lb ed="#V" n="40" break="no"/>seco deorsum: sed deficit propter idem.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e509">
+      ¶ Ideo dico quod non est 
+      mi<lb ed="#V" n="41" break="no"/>rum si in productione cui non inuenitur similis in natuam inueniatur 
+      <lb ed="#V" n="42"/>modus causationis cui non inuenitur similis in natura. Et si similis 
+      <lb ed="#V" n="43"/>productio vel effcuns inueniatur inueniam tibi concursum similem 
+      <lb ed="#V" n="44"/>duarum causarum. hic autem est productio obiectiua. alibi non. hic est 
+      <lb ed="#V" n="45"/>effectus ab intellectu productus vt rationes conuicunt: et tamen ab 
+      <lb ed="#V" n="46"/>alio specificatur scilicet ab obiecto. ergo videtur quod non est mirum si 
+      <lb ed="#V" n="47"/>talis concursus dissimilis detur.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e527">
+      ¶ Si dicas innueniam omnia 
+      <lb ed="#V" n="48"/>similia in sensu et voluntate: et productiones obiectiuas et 
+      effe<lb ed="#V" n="49" break="no"/>ctus productos et specificos.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e534">
+      ¶ Dico quod eodem modo: sicut 
+      <lb ed="#V" n="50"/>teneo hic teneo ibi: quod a potentia et obiecto actus causetur. 
+      </p>
+            <p xml:id="FrMS88-e17823-d1e539">
+               <lb ed="#V" n="51"/>¶ Ad 4m dico quod si homo per animam rationalem generaret: curreret 
+      <lb ed="#V" n="52"/>argumentum. Sed dico quod sol est principalior et perfectior causa omni priio 
+      <lb ed="#V" n="53"/>quo homo product hominem: et omne illud est corruptibile: et 
+      for<lb ed="#V" n="54" break="no"/>te soli spiritus transsusi in semine sunt causa. 
+      <lb ed="#V" n="55"/>difficultates. prima est quia 
+      intel<lb ed="#V" n="56" break="no"/>Sed occurrunt lectus agens est nobilior 
+      to<lb ed="#V" n="57" break="no"/>to effcum producto: sicut probatum est superius. ergo continet omnes 
+      effe<lb ed="#V" n="58" break="no"/>ctus illos eminenter: sed actus intelligendi vadunt in infinitum. ergo 
+      <lb ed="#V" n="59"/>continet infinita.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e562">
+      ¶ Rsonsio dico quod tales effectus habent talem 
+      pro<lb ed="#V" n="60" break="no"/>bortionem de qua dictum est superius di. 2a. et ideo sicut ibi patuit: 
+      <lb ed="#V" n="61"/>pato quod tales intenderentur in infinitum adhuc illud continens non 
+      <lb ed="#V" n="62"/>esset perfectionis infinite.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e571">
+      ¶ Similiter quando vna natura specifica ex 
+      ratio<lb ed="#V" n="63" break="no"/>ne sua formali aliam excedit si illa alia cresceret in 
+      infini<lb ed="#V" n="64" break="no"/>pum modo semper staret intra rationem sue speciei: semper alia eam 
+      exce<lb ed="#V" n="65" break="no"/>deret: stans etiam finita: sic est in proposito.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e580">
+      ¶ 2a difficultas est de 
+      <lb ed="#V" n="66"/>affirmatione et negatione: quomodo obiectum ista potest causare. Dico 
+      <!--55.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>quod obiectum continet ista duo virtualiter. verum est tamen quod ita quantum 
+      <lb ed="#V" n="68"/>est ex se determinatur ad vnum scilicet ad illud quod verum est quod num 
+      <lb ed="#V" n="69"/>quam nisi ab alio moueretur: causaret nisi illud. quid autem est quod 
+      <lb ed="#V" n="70"/>dat obiecto vt causet actum qui est falsus. Dico quod illud est 
+      potenie<lb ed="#V" n="71" break="no"/>volitiua: quia vel mouet obiectum vel saltem causat in 
+      intelle<lb ed="#V" n="72" break="no"/>ctu possibili dispositionem ad hoc
+    </p>
+            <p xml:id="FrMS88-e17823-d1e602">
+      ¶ 3a difficultas est qualiter lapis posset 
+      af<lb ed="#V" n="73" break="no"/>firmare et negare et sillogizare. Dico quod nullum istorum 
+      <lb ed="#V" n="74"/>facit obiectus: nec negat. nec affirmat. nec sillogizat. quia omnia 
+      <lb ed="#V" n="75"/>ista sunt quaedam operationes intellectiue. obiectum autem non intelligit. 
+      <lb ed="#V" n="76"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e613">
+      ¶ Sed quid: Dico quod obiectum bene causat istos actus: sed 
+      causa<lb ed="#V" n="77" break="no"/>re affirmationem non est affirmare: sed recipere actum 
+      affir<lb ed="#V" n="78" break="no"/>mandi est potius affirmare.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e620">
+      ¶ 4a difficultas quomodo obiectum potest 
+      cau<lb ed="#V" n="79" break="no"/>sare actum intelligendi: quia actus intelligendi causatur per dicere. obiecto 
+      <lb ed="#V" n="80"/>autem non conuenit dicere. Dico quod aliquando obiectum et intellectus sunt 
+      <lb ed="#V" n="81"/>distincta realiter. Et tunc dico quod relationes distinctas realiter 
+      <lb ed="#V" n="82"/>fundant.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e632">
+      ¶ Sed tunc actus intelligendi praecise non dicitur: sed etiam 
+      <lb ed="#V" n="83"/>generatur. dicitur autem a potentia: quia dicere non est nisi naturae intellectiue. sed 
+      <lb ed="#V" n="84"/>generatur ab obiecto eo modo quo aliquod aliud accidens dicitur a causa sua ge 
+      <lb ed="#V" n="85"/>nerari. et eodem modo in actu intelligendi sunt due relationes 
+      fun<lb ed="#V" n="86" break="no"/>date respcum terminorum diuersorum a quibus causatur: vna dicitur 
+      dictio<lb ed="#V" n="87" break="no"/>respcum positione dicentis. Alia dicitur genero respcum obiecti gignentis. 
+      <lb ed="#V" n="88"/>Et sic patet ad illud.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e648">
+      ¶ Sed tunc remanet alia difficultas de 
+      ob<lb ed="#V" n="89" break="no"/>iectis non actiuis sicut de quantitate et relatione et proprietate 
+      indi<lb ed="#V" n="90" break="no"/>uiduali: quae non videntur forme actiue. Similiter de materia: a qua videtur 
+      <lb ed="#V" n="91"/>amoueri omnis actiuitas.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e657">
+      ¶ Dicunt aliqui quod ab istis non 
+      ne<lb ed="#V" n="92" break="no"/>gatur actiuitas talis scilicet immutandi intellectum scilicet causalitas obiectiuam 
+      <lb ed="#V" n="93"/>sed actiuitas realis quae aliquid realiter alteratur et realiter 
+      abii<lb ed="#V" n="94" break="no"/>citur: talis causalitas bene remouetur a talibus.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e666">
+      ¶ Sed contra. quia 
+      il<lb ed="#V" n="95" break="no"/>lud diciet magis dici actiuum respecum alterius quod est 
+      producti<lb ed="#V" n="96" break="no"/>uum nobilioris forme: et perfectiori: sed calor dicitur actiuus: quia 
+      <lb ed="#V" n="97"/>causat calorem qui est imperfectior ipso intelligere. ergo ina multo magis 
+      <lb ed="#V" n="98"/>dicentur actiua qui causant intellectionem.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e677">
+      ¶ Potest ergo dici de 
+      relatio<lb ed="#V" n="99" break="no"/>ne quod eius cogno causatur ab extremis. cogno autem indiuidualis 
+      pro<lb ed="#V" n="100" break="no"/>petatis a natura. et quantitatis a substantia et materiae a forma: sed quia ista 
+      <lb ed="#V" n="101"/>duo possunt a praedcis separari: hic est quod remanet difficultas 
+      <lb ed="#V" n="102"/>de quantitate separata et materia: sed de hoc alias.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e688">
+      ¶ Sed adhuc 
+      <lb ed="#V" n="103"/>remanet difficultas magna. de voluntate vtrum sit 
+      pro<lb ed="#V" n="104" break="no"/>ductiua intellectionis per modum obiecti naturalis. Si dicatur 
+      <lb ed="#V" n="105"/>quod habet duplicem vim productiuam. vnam per modum obiecti. et 
+      il<lb ed="#V" n="106" break="no"/>la est naturalis. aliam per modum positione et illa est libera. Tunc 
+      re<lb ed="#V" n="107" break="no"/>manet difficultas quia si omnis productio obiectiua non est libera. 
+      <lb ed="#V" n="108"/>sed naturalis: tunc productio spriectius scilicet que est obiectiua erit 
+      <lb ed="#V" n="109"/>naturalis.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e707">
+      ¶ Dico ergo altero duorum modorum: vel quod intellectio 
+      <lb ed="#V" n="110"/>voluntatis non causatur a voluntate: sed a nam anime in qua est voluntas. 
+      <lb ed="#V" n="111"/>Vel dicerem quod voluntas causat libem verbum suum: et hoc non est 
+      incon<lb ed="#V" n="112" break="no"/>ueniens: quia actus imperatus est vere verbum: et tamen liberum est: quia a potentia 
+      <lb ed="#V" n="113"/>uibstantia impratum.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e718">
+      ¶ Alia difficultas est de substantia angeli: quia secundum Augun 
+      nul<lb ed="#V" n="114" break="no"/>lam formam absolutam potest producere. ergo nec intellectionem.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e723">
+      ¶ 
+      Di<lb ed="#V" n="115" break="no"/>co quod in productionibus obiectiuis non negat Aug. vi 
+      produ<lb ed="#V" n="116" break="no"/>ctiuam esse substantie angeli: et sic essenia angeli potest aliquam formam 
+      <lb ed="#V" n="117"/>absolutam producere scilicet obiectiue: sed in aliis 
+      productio<lb ed="#V" n="118" break="no"/>nibus et formis negat.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e734">
+      ¶ Sed contra per te: qualem ordinem 
+      ha<lb ed="#V" n="119" break="no"/>bent aliqua in essendo talem habent in causando: sed essentia 
+      anime<lb ed="#V" n="120" break="no"/>est nobilior potentia. ergo principalior causa erit essentia quae causat per 
+      mo<lb ed="#V" n="121" break="no"/>dum obiecti quam poteno.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e743">
+      ¶ Dico ergo quod non semper est vera proposition 
+      <lb ed="#V" n="122"/>assumpta scilicet maior.
+    </p>
+            <p xml:id="FrMS88-e17823-d1e748">
+      ¶ Ad auctem in principio dico quod 
+      memo<lb ed="#V" n="123" break="no"/>ria fecunda includit potentiam intellectiuam cum obiecto apud 
+      <lb ed="#V" n="124"/>ipsam: sicut secundum Aug. intelligentia includit ipsam potentiam 
+      intelle<lb ed="#V" n="125" break="no"/>ctiuam eandem cum actu intelligendi. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

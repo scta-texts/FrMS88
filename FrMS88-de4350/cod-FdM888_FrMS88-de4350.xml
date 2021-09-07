@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-de4350"><!-- l1prolq11 -->
+            <head xml:id="FrMS88-de4350-Hd1e108">Quaestio 11</head>
+            <p xml:id="FrMS88-de4350-d1e111">
+      Quaestio. xi. 
+      <lb ed="#V" n="47"/>ratio entis fit ratio generis. Quod ficut 
+      <lb ed="#V" n="48"/>Tum quia secundum Docu duo 
+      praedicamen<lb ed="#V" n="49" break="no"/>ta manent in diuinis scilicet substantia et relatio: ergo a simili 
+      <lb ed="#V" n="50"/> poterit ratio entis esse genus et sic cum praedicetur vt 
+      <lb ed="#V" n="51"/>i ad se erit predicatio substantie.
+    </p>
+            <p xml:id="FrMS88-de4350-d1e124">
+      ¶ Contra 
+      <lb ed="#V" n="52"/>Aug.e. dicit. quod deus non est in genere. ergo etc. 
+      <lb ed="#V" n="53"/>istam quaestionem sunt due veritates declarande. 
+      Prima<lb ed="#V" n="54" break="no"/>Circa est quod ens non est genus. Ad hoc autem 
+      indu<lb ed="#V" n="55" break="no"/>cuntur multe rationes. Prima est illimitatio: sed ista non valet 
+      <lb ed="#V" n="56"/>quia si essent infinita vel infinite species animalis: adhuc animal es 
+      <lb ed="#V" n="57"/>set genus. Si dicas: quod intelligis illimitationem: quia ad ratio 
+      <lb ed="#V" n="58"/>nem generis requritur quod non praedicetur in quid de differentia: sed ens dicitur in quod 
+      <lb ed="#V" n="59"/>de omnibus. hoc non valet. quia ostensum est superius esse falsum. Ideo ad 
+      <lb ed="#V" n="60"/>ducitur alia ratio. quia distinguitur vel diuiditur per modos 
+      intrin<lb ed="#V" n="61" break="no"/>secos scilicet per finitum et infinitum. Sed istud non impedit: quia talia 
+      <lb ed="#V" n="62"/>non impediunt praedicationem quiditatiuam. Dico igitur quod tota 
+      re<lb ed="#V" n="63" break="no"/>latio quare ens non est genus est. quia non praedicatur in quid: sicut 
+      <lb ed="#V" n="64"/>pars essentialis. Illud igitur quod primo respicit ratio generis: est 
+      praedi<lb ed="#V" n="65" break="no"/>catio per modum partis essentialis: sed istud non est in ente. 
+      er<lb ed="#V" n="66" break="no"/>go ens non est genus. Ma. fuit promum superius. 
+      <!--17.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>veritas declaranda est. quod deus non est in genere 
+      <lb ed="#V" n="68"/>Secunda quod declaratur ab aliquibus sic. quia nullum 
+      infi<lb ed="#V" n="69" break="no"/>nitum potest esse in genere. Ab aliis autem quia actus purus non potest esse 
+      <lb ed="#V" n="70"/>in genere. Et ab aliis. quia deus esset compositus. Sed prima ratio non 
+      con<lb ed="#V" n="71" break="no"/>cludit. quia non saluat quin paternitas poterit esse in genere: quia 
+      ip<lb ed="#V" n="72" break="no"/>sa non est formaliter infinita. Nec 2a valet. quia prius 
+      repugna<lb ed="#V" n="73" break="no"/>quiditati esse in genere vel conuenit: antequam intelligatur esse actus vel 
+      <lb ed="#V" n="74"/>ositio. Nec 3a valet. quia non oportet quod sit compositum illud quod est in 
+      <lb ed="#V" n="75"/>genere: sed sufficit quod habeat plures rationes formales: licet non 
+      <lb ed="#V" n="76"/>componantur.
+    </p>
+            <p xml:id="FrMS88-de4350-d1e185">
+      ¶ Dico ergo quod deus non est in genere: quia omne illud 
+      <lb ed="#V" n="77"/>quod est in genere includit genus tamquam partem essentialem: sed dieo 
+      <lb ed="#V" n="78"/>repugnat includere aliquid superius tamquam partem essentialem: quia 
+      <lb ed="#V" n="79"/>est simpliciter simplex. et per consequens irresolubilis. ergo etc 
+      <lb ed="#V" n="80"/>sunt quatuor difficultates. Prima est. cum ens 
+      predi<lb ed="#V" n="81" break="no"/>Sed hic cetur vt superius: cuius proprietatem ma 
+      <lb ed="#V" n="82"/>gis habet: vel generis: vel speciei.
+    </p>
+            <p xml:id="FrMS88-de4350-d1e201">
+      ¶ Dico ad hoc quod magis 
+      assi<lb ed="#V" n="83" break="no"/>milatur speciei. Et ratio est ista: quia genus praedicatur in quid de eo 
+      <lb ed="#V" n="84"/>quod addit species supra genus: sic intelligendo quod praedicatur de 
+      <lb ed="#V" n="85"/>specie quae habet vnam rationem formalem constitutam ex genere et ex 
+      addi<lb ed="#V" n="86" break="no"/>to quod est differentia siue ratio formalis. Species autem non sic. 
+      <lb ed="#V" n="87"/>Non enim indiuiduum addit ad substantiam vel speciem: nisi proprie 
+      <lb ed="#V" n="88"/>tatem indiuidualem. Similiter nec illud de qui praedicatur in quid 
+      <lb ed="#V" n="89"/>ens addit tunc ad ens nisi proprietatem indiuidualem: quod 
+      <lb ed="#V" n="90"/>ens non predicatur in quid proprie: nisi de hoc ente: quod non 
+      <lb ed="#V" n="91"/>addit rationem formalem ad ens.
+    </p>
+            <p xml:id="FrMS88-de4350-d1e224">
+      ¶ Secunda difficultas vtrum ens 
+      <lb ed="#V" n="92"/>in quolibet habeat suum indiuiduum.
+    </p>
+            <p xml:id="FrMS88-de4350-d1e229">
+      ¶ Dico quod sic. Et non 
+      <lb ed="#V" n="93"/>solum ens: sed etiam omnia transcendentia scilicet vnum. verum 
+      bo<lb ed="#V" n="94" break="no"/>num. Et hoc probatur sic. Quecumque habent distinctas ratio 
+      <lb ed="#V" n="95"/>nes formales ex se: vbicunque inueniuntur ille rationes 
+      <lb ed="#V" n="96"/>formales: eodem modo distinguuntur: et in inferioribus 
+      simi<lb ed="#V" n="97" break="no"/>liter eodem modo distinguuntur: sed transcendentia sunt huiusmodi. ergo sicut 
+      <lb ed="#V" n="98"/>in abstracto distinguuntur: ita in quolibet indiuiduo 
+      disti<lb ed="#V" n="99" break="no"/>guuntur. Nam quaecunque in superioribus secundum rationes 
+      forma<lb ed="#V" n="100" break="no"/>les distinguuntur: et in inferioribus similiter distinguuntur. 
+      </p>
+            <p xml:id="FrMS88-de4350-d1e249">
+               <lb ed="#V" n="101"/>¶ Tertia difficultas vtrum ens dicatur immediate de suis inferie 
+      <lb ed="#V" n="102"/>ribus. Respondeo. et ad hoc dico quod sic. quia inferius ad ens non videtur 
+      <lb ed="#V" n="103"/>addere ad ens. nisi modum intrinsecum: sed prior est 
+      com<lb ed="#V" n="104" break="no"/>paratio rationis formalis ad modum suum intrinsecum: 
+      <lb ed="#V" n="105"/>quam ad quamcumque rationem formalem aliam. Ma. patet. quia hecetur 
+      <lb ed="#V" n="106"/>tas nihil videtur esse nisi modus intrinsecus illius cuius est 
+      <lb ed="#V" n="107"/>heceitas: vel illius quod dicitur esse hoc.
+    </p>
+            <p xml:id="FrMS88-de4350-d1e267">
+      ¶ 4a difficultas. Utrum 
+      tale<lb ed="#V" n="108" break="no"/>indiuiduum entis sit in aliquo praedicamento. Dico quod non 
+      <lb ed="#V" n="109"/>quia omne quod est in genere: genus dicitur in primo modo dicendi per se de illo. 
+      <lb ed="#V" n="110"/>Si ergo hoc ens esset ingenere. cum ens et hoc ens sint eiusdem 
+      <lb ed="#V" n="111"/>rationis formalis: ergo diceretur in quid per se de illo. hoc autem 
+      <lb ed="#V" n="112"/>est falsum. ergo etc. Et probo: quia quin aliqua sunt eiusdem rationis 
+      <lb ed="#V" n="113"/>formalis: quicquid dicitur per se primo modo de vno et de reliquo. sed ens 
+      <lb ed="#V" n="114"/>et hoc ens sunt eiusdem rationis formalis. ergo si genus 
+      dicere<lb ed="#V" n="115" break="no"/>tur in quid in primo modo de hoc ente: et similiter de ente. hoc autem 
+      <lb ed="#V" n="116"/>est falsum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-de4350-d1e289">
+      ¶ Sed hoc est vnum dubium. Utrum omnia que 
+      <lb ed="#V" n="117"/>sunt in linea praedicamentali habeant et propria indiuidua. Di 
+      <lb ed="#V" n="118"/>co quod sic. Et hoc probatur per istam eandem rationem per quam probatum 
+      <lb ed="#V" n="119"/>est de ente scilicet quocunque distinguuntur. etc.
+    </p>
+            <p xml:id="FrMS88-de4350-d1e298">
+      ¶ Et ex hoc appare 
+      <lb ed="#V" n="120"/>vnum dictum logicorum: quod vnumquodque quando praedicatur de 
+      <lb ed="#V" n="121"/>suo indiuiduo: magis habet rationem speciei quam generis.
+    </p>
+            <p xml:id="FrMS88-de4350-d1e306">
+      ¶ Ad  
+      <lb ed="#V" n="122"/>illud quod in principio inductum fuit ad oppositum dico quod nunquam 
+      <lb ed="#V" n="123"/>Doe. dixit. quod in deo sunt duoil genera vel predicamenta: 
+      <lb ed="#V" n="124"/>sed solum quod sunt duo modi predicandi: et non duo 
+      prae<lb ed="#V" n="125" break="no"/>dicamenta. ergo etc
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

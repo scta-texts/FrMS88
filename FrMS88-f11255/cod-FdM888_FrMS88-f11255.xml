@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f11255"><!-- l2d4-5q3 -->
+            <head xml:id="FrMS88-f11255-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f11255-d1e111">
+      Questio. iii. 
+      <lb ed="#V" n="75"/>TErtia quaestio est. Utrum angeli potuerunt 
+      <lb ed="#V" n="76"/>appetere equaelitatem dei. Uidetur 
+      <lb ed="#V" n="77"/>quod sic. Isy. super illo verbo apostoli. Qui 
+      extolli<lb ed="#V" n="78" break="no"/>supra omne quod est deus.
+    </p>
+            <p xml:id="FrMS88-f11255-d1e122">
+      ¶ Contra illud est 
+      <lb ed="#V" n="79"/>Ai impossibile. 
+      <lb ed="#V" n="80"/>aliqui quod non potuit. primo quia electio non 
+      <lb ed="#V" n="81"/>hic dicunt est de ipossibibus. licet appetitus sit huius 
+      <lb ed="#V" n="82"/>sed pecatum in est electione.
+    </p>
+            <p xml:id="FrMS88-f11255-d1e133">
+      ¶ 2o quia peccasset preccatio ignorantie: et 
+      <lb ed="#V" n="83"/>errasset prius ante culpam. Error autem non praecedit culpam. 
+      </p>
+            <p xml:id="FrMS88-f11255-d1e138">
+               <lb ed="#V" n="84"/>¶ 3o. quia contradictio includitur quod aliquid sit equale dieo. et per consequens n 
+      <lb ed="#V" n="85"/>est appetibile.
+    </p>
+            <p xml:id="FrMS88-f11255-d1e146">
+      ¶ 4o. quia tunc appetisset non entitatem suam. Dicnt 
+      <lb ed="#V" n="86"/>Secundo quod iste rationes non valent. appetitus enim potest esse impossibilum. 
+      <lb ed="#V" n="87"/>volitione circa praectica potest aliquis velle quod esset deus.
+    </p>
+            <p xml:id="FrMS88-f11255-d1e153">
+      ¶ Nec 
+      <lb ed="#V" n="88"/>2m valet. quia non credebat hoc esse possibile. sed tamen illud impossibile pos 
+      <lb ed="#V" n="89"/>set appetem: sicut ego quod sim immortalis.
+    </p>
+            <p xml:id="FrMS88-f11255-d1e160">
+      ¶ Nec 3m. quia di 
+      <lb ed="#V" n="90"/>uina qualitas est terminus non includens contradictionem in se. 
+      li<lb ed="#V" n="91" break="no"/>sit sibi incompossibile.
+    </p>
+            <p xml:id="FrMS88-f11255-d1e167">
+      ¶ Nec 4m. quia expositiue fuit ostensun 
+      <lb ed="#V" n="92"/>quod miseri appetunt non esse. appetitus enim illicitus potest esse impossibil 
+      <lb ed="#V" n="93"/>um. vnde quia equalitas est quodam appetibile et concupiscitate. ide 
+      <lb ed="#V" n="94"/>otest appeti: et appetitu concupiscene. damnati etiam odiunt deum 
+      <lb ed="#V" n="95"/>et appetunt ipsum non esse.
+    </p>
+            <p xml:id="FrMS88-f11255-d1e178">
+      ¶ 4o. quia totum est volibile quod est in 
+      <lb ed="#V" n="96"/>telligibile. Intellectus autem potest intelligere equalitatem 
+      diu<lb ed="#V" n="97" break="no"/>natura. et comparare eam alicui. et per consequens appetitu illicito potest 
+      vo<lb ed="#V" n="98" break="no"/>luntas appetere.
+    </p>
+            <p xml:id="FrMS88-f11255-d1e187">
+      ¶ Sed nunquid possum appetere esse 
+      an<lb ed="#V" n="99" break="no"/>gelus:
+    </p>
+            <p xml:id="FrMS88-f11255-d1e193">
+      ¶ Dico quod sic actu elicito: et non esse omnino. licet non 
+      <lb ed="#V" n="100"/>appetitu naturali. ergo etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

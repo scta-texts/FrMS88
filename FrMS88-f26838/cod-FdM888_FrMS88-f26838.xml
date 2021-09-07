@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f26838"><!-- l3d1q7 -->
+            <head xml:id="FrMS88-f26838-Hd1e108">Quaestio 7</head>
+            <p xml:id="FrMS88-f26838-d1e111">
+               <lb ed="#V" n="83"/>¶ Questio. vii. 
+      <lb ed="#V" n="84"/>SEptimo quero Utrum 
+      incar<lb ed="#V" n="85" break="no"/>natio etiam 
+      <lb ed="#V" n="86"/>in diuinis sit summa vnitas vel vnio. 
+      <lb ed="#V" n="87"/>quod in diuinis 
+      <lb ed="#V" n="88"/>Notandum est sunt quatuor: 
+      <lb ed="#V" n="89"/>vniones.
+    </p>
+            <p xml:id="FrMS88-f26838-d1e129">
+      ¶ Prima est attributorum inter se.
+    </p>
+            <p xml:id="FrMS88-f26838-d1e132">
+      ¶ Secunda 
+      <lb ed="#V" n="90"/>pprietatum in diuina essentia.
+    </p>
+            <p xml:id="FrMS88-f26838-d1e137">
+      ¶ Tertia duarum 
+      persona<lb ed="#V" n="91" break="no"/>rum ad producendum tertiam.
+    </p>
+            <p xml:id="FrMS88-f26838-d1e143">
+      ¶ Quarta personarum inter se. 
+      <lb ed="#V" n="92"/>Incarnatio autem praesupponit istas vniones: sed omnes vnio 
+      <lb ed="#V" n="93"/>nes creatas praecedit: vt dicunt sancti.
+    </p>
+            <p xml:id="FrMS88-f26838-d1e150">
+      ¶ Sed contra videtur 
+      <lb ed="#V" n="94"/>enim quod materia et forma faciant vnum per se: incarnatio vero 
+      <lb ed="#V" n="95"/>non est per se vnio. Dico quod ex ista vnione nihil tertium 
+      re<lb ed="#V" n="96" break="no"/>sultat: sicut ex vnione materiae et forma. ideo illa est magis essential 
+      <lb ed="#V" n="97"/>sed ista est magis intima propter infinitatem alterius extreni: sicut 
+      <lb ed="#V" n="98"/>ssentialiter est vnio inter pradicatum et subiectum: sed ista 
+      <lb ed="#V" n="99"/>est intimior propter causam iam dictam.
+    </p>
+            <p xml:id="FrMS88-f26838-d1e166">
+      ¶ Item licet vnio poten 
+      <lb ed="#V" n="100"/>tie ad obiectum beatificum sit perfectior eo quod est per actum 
+      <lb ed="#V" n="101"/>perfectissimum: verum tamen ista excedit illam ex modo 
+      <lb ed="#V" n="102"/>vnionis quae est substentificatio nature in supposito verbi. 
+      </p>
+            <p xml:id="FrMS88-f26838-d1e175">
+               <lb ed="#V" n="103"/>¶ Item notandum: quod licet actus beatificus sit perfectior: eo 
+      <lb ed="#V" n="104"/>quod est aliquod absolutum quam ista vnio: nin tamen vnio potentie ad actum 
+      <lb ed="#V" n="105"/>vnde magis quisque debent appetem esse sanctus quam verbo 
+      <lb ed="#V" n="106"/>vnitus: quia forte hoc appetere esset peccatum: vnde doctor 
+      <lb ed="#V" n="107"/>suttilis videtur velle quod lucifer peccauit appetendo eque 
+      <lb ed="#V" n="108"/>itatem dei: non secundum nam: quia sciebat hoc non posse 
+      adi<lb ed="#V" n="109" break="no"/>disci: sed secundum suppositationem: vnde appetiit secundum eum 
+      <lb ed="#V" n="110"/>suppositari in aliquo supposito diuino. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

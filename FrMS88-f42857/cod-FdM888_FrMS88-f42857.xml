@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f42857"><!-- l4d4-5q2 -->
+            <head xml:id="FrMS88-f42857-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f42857-d1e111">
+               <lb ed="#V" n="15"/>SEcundo queritur vtrum adulti 
+      ba<lb ed="#V" n="16" break="no"/>ptizati equaliter 
+      recipiamtef<lb ed="#V" n="17" break="no"/>fectum baptismi. Et videtur quod sic. quia vnitas 
+      <lb ed="#V" n="18"/>est in hoc sacramento iuxta id ephese. 4. vnus de 
+      <lb ed="#V" n="19"/>llus vna sides vnum baptisma.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e124">
+      ¶ Contra. 
+      <lb ed="#V" n="20"/>quia secundum quod maiorem conscientiam habet accedens plus 
+      <lb ed="#V" n="21"/>proficit sibi secundum beatum Petrum. 
+      <lb ed="#V" n="22"/>hanc questionem sciendum quod in hoc sacramen 
+      <lb ed="#V" n="23"/>Cire a to sunt quatuor.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e135">
+      ¶ Primum generale signum. 
+      </p>
+            <p xml:id="FrMS88-f42857-d1e138">
+               <lb ed="#V" n="24"/>¶ Secundum impressio caracteris.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e144">
+      ¶ Tertium infusio 
+      <lb ed="#V" n="25"/>sidei.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e149">
+      ¶ Quartum collatio gratie:
+    </p>
+            <p xml:id="FrMS88-f42857-d1e152">
+      ¶ Primum est 
+      sacra<lb ed="#V" n="26" break="no"/>mentum et non res.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e157">
+      ¶ Secundum est sacramentum et 
+      res<lb ed="#V" n="27" break="no"/>sacramenti. quia sacramenta prius fidem significant et res 
+      <lb ed="#V" n="28"/>per comparationem ad signa exteriora.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e164">
+      ¶ Tertium est 
+      fi<lb ed="#V" n="29" break="no"/>des sacramenti respectu gratie. et res respectu precedeme 
+      <lb ed="#V" n="30"/>tium. gratia autem sic est res sacramenti quod non est 
+      sacra<lb ed="#V" n="31" break="no"/>mentum. et dabet sumi res in proposito. vt quando dicitur res 
+      <lb ed="#V" n="32"/>intelligitur gratia.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e175">
+      ¶ Unde sciendum est quod aliquin 
+      reci<lb ed="#V" n="33" break="no"/>piunt sacramentum et rem sacramenti. sicut paruuli legitime 
+      bapti<lb ed="#V" n="34" break="no"/>ati. vel adulti qui cum contritione veniunt ad baptismum. 
+      </p>
+            <p xml:id="FrMS88-f42857-d1e183">
+               <lb ed="#V" n="35"/>¶ Alii tantum sacramentum. sicut iudei propter 
+      com<lb ed="#V" n="36" break="no"/>modum temporale. qui tamen sunt baptimati.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e190">
+      ¶ Alii quidam 
+      <lb ed="#V" n="37"/>non sacramentum. sed rem sacramenti sicut venientes ad 
+      <lb ed="#V" n="38"/>sacunmenum cum contritione. et sit ibi defectus ex ignorantia 
+      <lb ed="#V" n="39"/>vel in forma. vel in aliquo alio.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e199">
+      ¶ Alii nec 
+      sacramen<lb ed="#V" n="40" break="no"/>tum nec rem sacramenti si fictus accedat et fiat error in forma. 
+      <lb ed="#V" n="41"/>ad questionem quod imparitas po 
+      <lb ed="#V" n="42"/>Tunc dicitu test attendi quantum ad quatuor. 
+      <lb ed="#V" n="43"/>Vel quantum ad causam primam. que est diuina voluntas. 
+      <lb ed="#V" n="44"/>Vel quantum ad secundam scilicet sacramentum. Vel quo ad 
+      cau<lb ed="#V" n="45" break="no"/>sam meritoriam intrinsecam. que est propria voluntas: 
+      <lb ed="#V" n="46"/>vel quo ad extrinsecam et hec est voluntas christi prout 
+      or<lb ed="#V" n="47" break="no"/>dinauit passionem suam pro saluandis.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e219">
+      ¶ Quoetum ad 
+      pri<lb ed="#V" n="48" break="no"/>mum dicunt aliqui quod equaliter omnes recipiunt effectum. 
+      <lb ed="#V" n="49"/>Diuina enim voluntas vult omnes saluos fieri.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e226">
+      ¶ Sed 
+      <lb ed="#V" n="50"/>hoc non videtur verum: quia dictum fuit. quod sine causa 
+      ordina<lb ed="#V" n="51" break="no"/>uit vnum ad maiorem glo: iam quam alium: et hoc ponere 
+      <lb ed="#V" n="52"/>est velle quod minor gratia daretur vni quam alteri secundum ordinem 
+      <lb ed="#V" n="53"/>quo ipsos ab eterno acceptauit.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e237">
+      ¶ Ointum ad secundum 
+      <lb ed="#V" n="54"/>est omnimoda equalitas.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e243">
+      ¶ Oitum ad tertium qui plus 
+      <lb ed="#V" n="55"/>de deuotione habet et magis dispositus accedit plus 
+      reci<lb ed="#V" n="56" break="no"/>pit de effectu sacramenti.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e250">
+      ¶ Qtum ad causam extrinsecam 
+      <lb ed="#V" n="57"/>cum Christus obtulerit secundum ordinem quo fuerunt 
+      pre<lb ed="#V" n="58" break="no"/>destinati videtur quod non recipiunt equaliter effectum: 
+      er<lb ed="#V" n="59" break="no"/>go etc.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e259">
+      ¶ Sed occurrit dubium. si adultus carens 
+      ra<lb ed="#V" n="60" break="no"/>tione deberet baptimari.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e264">
+      ¶ Dicitur quod si nunquam vsus 
+      fue<lb ed="#V" n="61" break="no"/>rit ratione tunc sicut paruulus est baptim andus.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e269">
+      ¶ Si 
+      <lb ed="#V" n="62"/>aliquando vsus est. distinguitur. quia si potest perpendi quod 
+      <lb ed="#V" n="63"/>aliquando petierit baptismum baptim andus est.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e276">
+      ¶ Si 
+      <lb ed="#V" n="64"/>contrarium scilicet quod noluerit non debet. Si neutro modo 
+      <lb ed="#V" n="65"/>potest. tamen si eius voluntas sit ad oppositum: non 
+      va<lb ed="#V" n="66" break="no"/>let.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e286">
+      ¶ Sed quid de eo qui compellitur.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e289">
+      ¶ Certum est quod 
+      <!--379.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>non recipit rem sacramenti.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e298">
+      ¶ Si autem non sit 
+      simpli<lb ed="#V" n="68" break="no"/>titer voluntarium. sed secundum quid. sicut proiiciens merces 
+      <lb ed="#V" n="69"/>in mari propter periculum mortis: tunc recipit 
+      sacramen<lb ed="#V" n="70" break="no"/>tum: sed non rem sacramenti.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e307">
+      ¶ Si autem sit volunta 
+      <lb ed="#V" n="71"/>rium et recalcitret. nihil fit.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e312">
+      ¶ Si ex terrore. tunc 
+      reci<lb ed="#V" n="72" break="no"/>pit. quia simpliciter voluntarium.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e317">
+      ¶ Sed occurrit dubium 
+      <lb ed="#V" n="73"/>Si aliquis consentiat in ablutionem: et non in eo quod faci 
+      <lb ed="#V" n="74"/>sacramentum. Utrum sit baptimatus:
+    </p>
+            <p xml:id="FrMS88-f42857-d1e325">
+      ¶ Dicitur quod tale 
+      sim<lb ed="#V" n="75" break="no"/>pliciter est inuoluntarium et nihil fit. tamen compellendus est 
+      <lb ed="#V" n="76"/>ad fidem tenendam secundum exteriora.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e332">
+      ¶ Sed quid de poner 
+      <lb ed="#V" n="77"/>te obicem. Dicitur quod si intendit facere quod ecclesia facit vt 
+      <lb ed="#V" n="78"/>recipere: tenet. Si no. nihil facit.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e339">
+      ¶ Sed occurrit dubium 
+      <lb ed="#V" n="79"/>de pueris iudeorum. vtrum sint auferendi a parentibus et 
+      <lb ed="#V" n="80"/>baptim andi.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e346">
+      ¶ Scotus dicit quod sic: a principibus: et legisla 
+      <lb ed="#V" n="81"/>toribus: quia legislatores possunt aliquid ordinare ad salutem 
+      <lb ed="#V" n="82"/>cuiuscumque subditi. velit. nolit. Ita etiam potest princeps 
+      eccle<lb ed="#V" n="83" break="no"/>sie. verbi gratia. Si res publica indigeret bellatoribus 
+      <lb ed="#V" n="84"/>et iudei filios suos taliter inficerent quod essent inepti ad bel 
+      <lb ed="#V" n="85"/>landum. tunc princeps posset eos auferre a parentibus. et 
+      <lb ed="#V" n="86"/>ipsis inuitis posset eos facere nutriri et instrui ad 
+      bel<lb ed="#V" n="87" break="no"/>landum. ita videtur in proposito.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e364">
+      ¶ Alii dicunt quod non dicitet 
+      <lb ed="#V" n="88"/>fieri. quia ecclesia tenet oppositum.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e369">
+      ¶ Sed hoc nihil est: quia 
+      <lb ed="#V" n="89"/>continue possunt noua institui pro salute commni.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e375">
+      ¶ Alii 
+      <lb ed="#V" n="90"/>dicunt quod non dacet fieri propter prophetias. Relique isra 
+      <lb ed="#V" n="91"/>el salue fient. ysaime decimo.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e382">
+      ¶ Sed hoc posset 
+      intelli<lb ed="#V" n="92" break="no"/>gi vel de fidelibus. vel possent seruari in aliqua insula¬ 
+      </p>
+            <p xml:id="FrMS88-f42857-d1e387">
+               <lb ed="#V" n="93"/>¶ Sed occurrit casus talis. vna christiana balne abat se 
+      <lb ed="#V" n="94"/>cum quaedam iudea. absente iudea christiana baptim auit 
+      fili<lb ed="#V" n="95" break="no"/>um eius. quid dicendum est de puero:
+    </p>
+            <p xml:id="FrMS88-f42857-d1e396">
+      ¶ Dico quod vere 
+      <lb ed="#V" n="96"/>baptimatus est.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e401">
+      ¶ Sed quid si innuita iudea ipsa et 
+      recla<lb ed="#V" n="97" break="no"/>mante christiana baptimaret alium filium eius:
+    </p>
+            <p xml:id="FrMS88-f42857-d1e406">
+      ¶ Dicene 
+      <lb ed="#V" n="98"/>dum quod reclamatio aliena nihil facit et non impedit in 
+      <lb ed="#V" n="99"/>alieno facto.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e414">
+      ¶ Sed quid de iudeis adultis vtrum sint 
+      <lb ed="#V" n="100"/>compellendi ad baptismum.
+    </p>
+            <p xml:id="FrMS88-f42857-d1e419">
+      ¶ hic dicit Scotus quod omnes 
+      <lb ed="#V" n="101"/>deberent compelli ad fidere: et melius est compelli ad 
+      be<lb ed="#V" n="102" break="no"/>ne agendum quam male agere. sicut ipsi agunt etc.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="143-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f05774"><!-- l2d1q3 -->
+            <head xml:id="FrMS88-f05774-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f05774-d1e111">
+      Quaestio. iii. 
+      <lb ed="#V" n="93"/>3o. Utrum creatio actiua 
+      <lb ed="#V" n="94"/>Ueritur et passiua differant realiter. 
+      <lb ed="#V" n="95"/>Et videtur quod sic. quia in diuinis generare: et generari diffifuit 
+      <lb ed="#V" n="96"/>ferunt realiter.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e122">
+      ¶ Contra. nulla ratio ad 
+      crea<lb ed="#V" n="97" break="no"/>turam est res ex parte dei: ergo videtur quod eadem 
+      <lb ed="#V" n="98"/>est res que dicitur creatio actio et passio. 
+      <lb ed="#V" n="99"/>quatuor conclusiones. Prima est quod creare in dieo 
+      <lb ed="#V" n="100"/>Hic pono non est aliquid absolutus. quia omne tale in deo 
+      <lb ed="#V" n="101"/>est eternum et necessarium. Sed creare non est eternum nec necessarium. 
+      <lb ed="#V" n="102"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e138">
+      ¶ 2a conclusio est. quod creature non est in deo realiter. quia tunc 
+      <lb ed="#V" n="103"/>destructo creare: destrueretur deus.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e143">
+      ¶ 3a conclusio quod creare non est 
+      <lb ed="#V" n="104"/>in deo aliquid respectiuum. quia tunc referretur deus relatione reali 
+      <lb ed="#V" n="105"/>ad creaturam. quod est falsum.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e151">
+      ¶ 4a conclusio est. quod creare non est in deo 
+      <lb ed="#V" n="106"/>formaliter. quia quicquid in deo est vel est absolutum vel est 
+      respe<lb ed="#V" n="107" break="no"/>ttiuum. sed ostensum est quod non absolutum nec respectiuum rei vel 
+      <lb ed="#V" n="108"/>rationis. ergo non potest esse in deo.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e160">
+      ¶ Sed contra istas conclusiones instatur 
+      qua<lb ed="#V" n="109" break="no"/>drupliciter. Primo contra primam sic. deus per illud dicitur creare: quod teriat 
+      <lb ed="#V" n="110"/>dependentiam ipsius creature. Sed hoc est per eius absolutum. ergo.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e167">
+      ¶ Con 
+      <lb ed="#V" n="111"/>tra 2am. deus est realiter creator. ergo creare est in ipso realiter. 
+      </p>
+            <p xml:id="FrMS88-f05774-d1e172">
+               <lb ed="#V" n="112"/>¶ Contra 3am. quia n potest intellect nisi ad aliud.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e177">
+      ¶ Contra 4m 
+      <lb ed="#V" n="113"/>quia sicut generare est in deo. ita in deo videtur esse forma creare.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e182">
+      ¶ Ad  
+      <lb ed="#V" n="114"/>primum. non sequitur quod si per absolutum teriat creationem: quod creaus sit in 
+      <lb ed="#V" n="115"/>eo formaliter.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e190">
+      ¶ Ad aliud quod ex relatione reali alterius deus dicitur 
+      <lb ed="#V" n="116"/>creare denominatione extrinseca.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e195">
+      ¶ Ad 3m concedo. quod dicitur ad 
+      <lb ed="#V" n="117"/>aliud per relatione quam terminat. Et per idem ad 4m dicitur 
+      <lb ed="#V" n="118"/>est ergo illa creatio actiua. Quo ad hoc 
+      declaran<lb ed="#V" n="119" break="no"/>Quid dum inducuntur quatuor conclusiones.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e204">
+      ¶ Prima est. qui 
+      <lb ed="#V" n="120"/>creatio actiua non opponitur passiue. quia impossibile est 
+      op<lb ed="#V" n="121" break="no"/>prigines esse in aliquo eodem. quia tunc sequeretur quod idem 
+      produce<lb ed="#V" n="122" break="no"/>let se.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e213">
+      ¶ 2a conclusio quod non differunt realiter. quia creare et creari non 
+      <lb ed="#V" n="123"/>inueniuntur nisi vbi est vna simplex realitas.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e218">
+      ¶ 3a conclusio quod n 
+      <lb ed="#V" n="124"/>distinguitur forma. quia creare et creari sunt eiusdem 
+      fundamen<lb ed="#V" n="125" break="no"/>ti: et eiusdem termini.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e225">
+      ¶ 4a conclusio quod differeuntnt secundum rationem: quia 
+      intel<lb ed="#V" n="126" break="no"/>lectus concipit illam rem actiue et passiue.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e231">
+      ¶ Sed hoc sunt 
+      aliqua<lb ed="#V" n="127" break="no"/>ifficultas prima. quia effectus formalis est in deo ipsius 
+      creatio<lb ed="#V" n="128" break="no"/>nis. quia deus formaliter creat.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e238">
+      ¶ hic dico quod creare non est 
+      <lb ed="#V" n="129"/>effectus formalis creationis. sed ipsum creari. vnde deum 
+      <lb ed="#V" n="130"/>denominatur extrinsece creans. quia creatura formaliter creatur 
+      </p>
+            <p xml:id="FrMS88-f05774-d1e245">
+               <lb ed="#V" n="131"/>¶ 2a difficultas quia videtur quod in diuinis sic diceretur quod generare et generari 
+      <lb ed="#V" n="132"/>sunt idem sicut creare et creari.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e252">
+      ¶ Dico quod si apparent quod 
+      <!--289.xml-->
+      <pb ed="#V" n="143-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>patri repugnaret referri ad filium: tunc eodem diceretur ges 
+      <lb ed="#V" n="2"/>nerare quo filius generari: nunc autem realiter potest pater ad filium referri. 
+      </p>
+            <p xml:id="FrMS88-f05774-d1e265">
+               <lb ed="#V" n="3"/>¶ 3a difficultas est quod idem dicentur quando sol producit. quod vna productione 
+      <lb ed="#V" n="4"/>poducit: et eadem res producitur per vnum respectum.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e272">
+      ¶ Dico quod en 
+      <lb ed="#V" n="5"/>habemus necessaritatem quin sol referatur et formaliter et realiter ad 
+      crea<lb ed="#V" n="6" break="no"/>turam.
+    </p>
+            <p xml:id="FrMS88-f05774-d1e280">
+      ¶ 4a difficultas per extrema contradictionis. quia deo repugnat 
+      <lb ed="#V" n="7"/>creari et non creare. Dico quod vtrumque repugnat dieo forma 
+      <lb ed="#V" n="8"/>liter: sed extrinsece potest denominari ab eo. et dico quod ab eadem 
+      re<lb ed="#V" n="9" break="no"/>denominatur. sed ts in illa re dicitur deus creans et creatura creari. 
+      er<lb ed="#V" n="10" break="no"/>go etc. Et ieo creare non est in deo formaliter. quia etiam 
+      denomina<lb ed="#V" n="11" break="no"/>tetur ab eo intrinsece etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

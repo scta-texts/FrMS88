@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f09077"><!-- l2d2q7 -->
+            <head xml:id="FrMS88-f09077-Hd1e108">Quaestio 7</head>
+            <p xml:id="FrMS88-f09077-d1e111">
+      Questio. vii. 
+      <lb ed="#V" n="83"/>SEcunda quaestio est. Utrum plures 
+      ange<lb ed="#V" n="84" break="no"/>li possint esse in eodem loco. 
+      <lb ed="#V" n="85"/>Dcitur quod sic. quia legio demonum simil erat in eodem 
+      <lb ed="#V" n="86"/>corpore. vt habtr in euanguos.
+    </p>
+            <p xml:id="FrMS88-f09077-d1e122">
+      ¶ Contra. in apocu. 
+      scri<lb ed="#V" n="87" break="no"/>bitur quod in templo dei habebunt loca detua. 
+      <lb ed="#V" n="88"/>aliqui quod non quia vnus illaberetur 
+      al<lb ed="#V" n="89" break="no"/>hic dicun teri. quod est impossibile in creaturis. 
+      </p>
+            <p xml:id="FrMS88-f09077-d1e131">
+               <lb ed="#V" n="90"/>¶ Alii dicunt quod non propter vniformitatem essendi. quamuis enim 
+      <lb ed="#V" n="91"/>corpus esse possit cum specie propter difformitatem. tamen non corpus 
+      <lb ed="#V" n="92"/>cum corpore: nec spiritus cum spiritu esse potest.
+    </p>
+            <p xml:id="FrMS88-f09077-d1e140">
+      ¶ Alii dicunt quod hoc 
+      <lb ed="#V" n="93"/>est. quia angelus magis actuat locum quam corpus. Si ergo 
+      duo<lb ed="#V" n="94" break="no"/>corpora non sunt similis. sequitur quod nec duo spiritus.
+    </p>
+            <p xml:id="FrMS88-f09077-d1e148">
+      ¶ Alii 
+      di<lb ed="#V" n="95" break="no"/>cunt quod eadem ratione sequeretur quod infiniti possent esse simul. 
+      </p>
+            <p xml:id="FrMS88-f09077-d1e153">
+               <lb ed="#V" n="96"/>¶ Contra primam opinio. quia eadem ratione sequeretur quod non posset 
+      <lb ed="#V" n="97"/>angelus esse in corpore. quia influit in ipso.
+    </p>
+            <p xml:id="FrMS88-f09077-d1e160">
+      ¶ Contra 2am. quia 
+      <lb ed="#V" n="98"/>eundem modum essendi habent omnia accidentia que sunt in vno sub 
+      <lb ed="#V" n="99"/>iecto in quo sunt similis.
+    </p>
+            <p xml:id="FrMS88-f09077-d1e167">
+      ¶ Contra 3am. quia locus proprie non 
+      <lb ed="#V" n="100"/>actuatur per logium.
+    </p>
+            <p xml:id="FrMS88-f09077-d1e172">
+      ¶ Contra 4am. quia non habetur pro inconuenienti¬ 
+      </p>
+            <p xml:id="FrMS88-f09077-d1e175">
+               <lb ed="#V" n="101"/>¶ Dico ergo. quod non video quin possint esse similis nisi forte propter 
+      or<lb ed="#V" n="102" break="no"/>dinem vniuersi.
+    </p>
+            <p xml:id="FrMS88-f09077-d1e183">
+      ¶ Sed est difficultas. si ex habet quod plures angeli possunt 
+      <lb ed="#V" n="103"/>esse in eodem loco. probaretur quod vnus possit esse in pluribus lo 
+      <lb ed="#V" n="104"/>cis.
+    </p>
+            <p xml:id="FrMS88-f09077-d1e190">
+      ¶ Dicitur autem quod non.
+    </p>
+            <p xml:id="FrMS88-f09077-d1e193">
+      ¶ Alia difficultas est. si ex hoc quod 
+      <lb ed="#V" n="105"/>ponuntur simul vnus videt quod videt alter. Dico quod non 
+      <lb ed="#V" n="106"/>virtute simultatis. quia ex hoc non variatur perfectio 
+      in<lb ed="#V" n="107" break="no"/>tellectus ex qua prouenit quod vnus intelligat aliquid 
+      per<lb ed="#V" n="108" break="no"/>fectius quam alius etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

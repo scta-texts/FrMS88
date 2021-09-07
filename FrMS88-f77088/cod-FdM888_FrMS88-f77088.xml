@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="226-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f77088"><!-- l4d43q6 -->
+            <head xml:id="FrMS88-f77088-Hd1e108">Quaestio 6</head>
+            <p xml:id="FrMS88-f77088-d1e111">
+               <lb ed="#V" n="120"/>Secundo queritur. vtrum corpus christi: 
+      <lb ed="#V" n="121"/>quod fuit in sepulchro resum 
+      <lb ed="#V" n="122"/>rexerit a mortuis: quod non. Quia Io. 2o. ipse de 
+      <lb ed="#V" n="123"/>templo corporis sui loquens. dixit. soluite 
+      <lb ed="#V" n="124"/>5 templum hoc etc. sed tale non videtur idem esse. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f77088-d1e124">
+               <lb ed="#V" n="125"/>¶ Contra. christus dicit nisi granum frumenti cadens in 
+      ter<lb ed="#V" n="126" break="no"/>ram mortuum fuerit ipsum etc. et refert totum ad idem 
+      <lb ed="#V" n="127"/>granum et secundum Aug. seipsum dicebat granum. 
+      <lb ed="#V" n="128"/>videndum est. si illud corpus quod 
+      ina<lb ed="#V" n="129" break="no"/>Hic primo cuit in sepulchro resurrexit. et ostem 
+      <lb ed="#V" n="130"/>do. per quatuor auctoritates quod sic.
+    </p>
+            <p xml:id="FrMS88-f77088-d1e140">
+      ¶ Primo auctori 
+      <lb ed="#V" n="131"/>tate angeli apparentis quando dixit mulieribus surrexit 
+      <lb ed="#V" n="132"/>non est hic venite et videte locum vbi positus erat. istud  
+      <!--456.xml-->
+      <pb ed="#V" n="227-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>non potest referri ad praecedens nisi idem corpus fuisset ibi quod 
+      su<lb ed="#V" n="2" break="no"/>rexit.
+    </p>
+            <p xml:id="FrMS88-f77088-d1e158">
+      ¶ 2a auctoritate petri apostoli. in actibus. Quem 
+      <lb ed="#V" n="3"/>deponentes de ligno posuerunt in sepulchro. hunc de 
+      <lb ed="#V" n="4"/>suscitauit a mortuis: ista ratio non potest fieri nisi ad idem etc. 
+      </p>
+            <p xml:id="FrMS88-f77088-d1e166">
+               <lb ed="#V" n="5"/>¶ 3o auctoritate Aug. in sermone paschali. Corpus 
+      <lb ed="#V" n="6"/>inqut ex anime quod erat in sepulchro tepentibus venis subi 
+      <lb ed="#V" n="7"/>to viguisse.
+    </p>
+            <p xml:id="FrMS88-f77088-d1e175">
+      ¶ 4o auctoritate Ambro. idem corpus quod 
+      <lb ed="#V" n="8"/>traxit de vtero virginis fuit in sepulchro. Istud etiam pro 
+      <lb ed="#V" n="9"/>batur ratione. priuatiue opposita. habent fieri circa idem 
+      subie<lb ed="#V" n="10" break="no"/>ctum numero: sed resurrectio et mors sunt priuatiue 
+      op<lb ed="#V" n="11" break="no"/>posita. ergo fuerunt circa idem corpus numero: tunc onte 
+      <lb ed="#V" n="12"/>do quod numquam hoc fuisset si corpus fuisset informatum 
+      for<lb ed="#V" n="13" break="no"/>ma cadaueris. hoc probo. primo. impossibile est quod illud 
+      resur<lb ed="#V" n="14" break="no"/>gat cui ex sua ratione formali repugnat vita: sed illud 
+      con<lb ed="#V" n="15" break="no"/>positum quod tu ponis est huiusmodi. ergo etc. probatio minoris. Quando 
+      <lb ed="#V" n="16"/>cumque est aliqua forma cui incompossibilis est omnis anima illi qst 
+      <lb ed="#V" n="17"/>incompossibilis omnis vita sic est de ista forma cadaueris quia 
+      <lb ed="#V" n="18"/>par te adueniente anima recedit illa.
+    </p>
+            <p xml:id="FrMS88-f77088-d1e201">
+      ¶ 2a ratio impossibile est quod 
+      il<lb ed="#V" n="19" break="no"/>lud quod per resurrectionem destruitur resurgat: sed per resurre 
+      <lb ed="#V" n="20"/>ctionem illud compositum ex materia prima et forma cadaueris 
+      <lb ed="#V" n="21"/>destruitur. ergo illud non resurgit. Nam per te sicut per generatio 
+      <lb ed="#V" n="22"/>nem ignis corrumpitur forma ligni: sic per aduentum anime 
+      rationa<lb ed="#V" n="23" break="no"/>lis in resurrectione corrumpitur forma cadaueris quam 
+      cor<lb ed="#V" n="24" break="no"/>pus habuit in sepulchro.
+    </p>
+            <p xml:id="FrMS88-f77088-d1e217">
+      ¶ 3o sic. vbicumque est effectus 
+      <lb ed="#V" n="25"/>formalis alicuius forme. ibi est forma illa. quomodo a destru 
+      <lb ed="#V" n="26"/>ctione consequentis: vbi non potest esse forma nec eius effectus. 
+      effe<lb ed="#V" n="27" break="no"/>ctus formalis resurrectionis est resurgere. resurrectio 
+      <lb ed="#V" n="28"/>autem non potest esse in isto corpore quod ponis. Quia quandocumque 
+      <lb ed="#V" n="29"/>aliqua sic se habent quod vno existente alterum est destructum: 
+      im<lb ed="#V" n="30" break="no"/>possibile est quod sit cum illo: sed in illo instanti quo christus 
+      re<lb ed="#V" n="31" break="no"/>surrexit vixit et in illo instanti fuit forma cadaueris 
+      ad<lb ed="#V" n="32" break="no"/>nihilata. ergo resurrectio in tali corpore fundari non potest. 
+      </p>
+            <p xml:id="FrMS88-f77088-d1e237">
+               <lb ed="#V" n="33"/>¶ 4o sic. non potest dari quin resurgat vel anima vel materia: vel 
+      <lb ed="#V" n="34"/>compositum ex anima et corpore vel compositum cadaueris. non 
+      <lb ed="#V" n="35"/>primum: quia illud non resurgit quod non fuit mortuum: sed 
+      anima<lb ed="#V" n="36" break="no"/>non fuit mortua. ergo etc. nec materia prima: quia mori non potest. 
+      ve<lb ed="#V" n="37" break="no"/>ergo corpus christi. et hoc non: quia de cuius essentia est vita: 
+      <lb ed="#V" n="38"/>impossibile est quod resurgat quia tale mori non potest resurgere autem 
+      <lb ed="#V" n="39"/>est transire de non vita ad vitam sed de essentia corporis christi 
+      <lb ed="#V" n="40"/>vt est compositum est anima rationalis. ergo etc. nec etiam compositum 
+      <lb ed="#V" n="41"/>cadaueris vt visum est.
+    </p>
+            <p xml:id="FrMS88-f77088-d1e259">
+      ¶ Sed dicunt aduersarii quod 
+      cor<lb ed="#V" n="42" break="no"/>pus cadaueris resurrexit ratione materiae: quia materia illius 
+      tran<lb ed="#V" n="43" break="no"/>sit ad animam rationalem.
+    </p>
+            <p xml:id="FrMS88-f77088-d1e267">
+      ¶ Contra. quia secundum hoc omnia animalia que 
+      <lb ed="#V" n="44"/>comedimus resurgerent. si enim aliquod corpus moriatur 
+      <lb ed="#V" n="45"/>vita minus nobili et transit ad nobiliorem. nobilissimum 
+      <lb ed="#V" n="46"/>resurgit. modo materia brutorum postea informatur anima rationali 
+      <lb ed="#V" n="47"/>cum igitur illa interum reuiuiscat vita intellectuali. 
+      sequi<lb ed="#V" n="48" break="no"/>tur quod si propter materiam fit resurrectio quod resurgunt animalia. Item 
+      <lb ed="#V" n="49"/>si vnus ho nutritur de alio sicut factum fuit in 
+      obsidio<lb ed="#V" n="50" break="no"/>ne ierusalem tempore Titi et Uespasiani: tunc materia vnius 
+      <lb ed="#V" n="51"/>transit ad vitam alterius: et ita resurgit. Item 
+      resurre<lb ed="#V" n="52" break="no"/>ctio est via ad esse. si ergo aliquod corpus resurgat ex 
+      <lb ed="#V" n="53"/>hoc quod corpus corrupitur et mateam eius transit ad aliud. 
+      <lb ed="#V" n="54"/>igitur ignis qui corrumpitur resurget: quia materia eius transit ad 
+      ali<lb ed="#V" n="55" break="no"/>ud. Confirmatur: quia tu dicis quod resurgit per materiam. 
+      </p>
+            <p xml:id="FrMS88-f77088-d1e296">
+               <lb ed="#V" n="56"/>¶ Contra. impossibile est quod vllus resurgat pro instanti 
+      pro<lb ed="#V" n="57" break="no"/>quo non est: sed in instanti quo resurrexit corpus christi non 
+      <lb ed="#V" n="58"/>fuit forma cadaueris. igitur per nullum principium eius 
+      <lb ed="#V" n="59"/>sibi conuenire potest. oportet igitur quod illud idem corpus quod fuit 
+      <lb ed="#V" n="60"/>vita priuatum postea reuertatur ad vitam.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

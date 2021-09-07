@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f23141"><!-- l2d35-42q3 -->
+            <head xml:id="FrMS88-f23141-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f23141-d1e111">
+               <lb ed="#V" n="33"/>¶ Questio. iii
+      <lb ed="#V" n="34"/>TErtia questio est: vtrum omnes partes 
+      <lb ed="#V" n="35"/>continui sint diuisibiles. Et vi
+      <lb ed="#V" n="36" break="no"/>detur quod sic: quia omnes habent medium sue 
+      quan<lb ed="#V" n="37" break="no"/>titatis.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e124">
+      ¶ Contra. infinitum non habet me 
+      <lb ed="#V" n="38"/>Sldium. quia iam non esset infinitum. 
+      <lb ed="#V" n="39"/>quidam quod omnes partes 
+      continu<lb ed="#V" n="40" break="no"/>hic dicunt sunt diuisibiles: quia iunt eiusdem 
+      ra<lb ed="#V" n="41" break="no"/>tionis.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e135">
+      ¶ Sed contra illud arguitur quadrupliciter. et 
+      <lb ed="#V" n="42"/>primo sic. omnes partes continui aut sunt diuisibiles in 
+      eas<lb ed="#V" n="43" break="no"/>dem partes: et hoc non: quia totum et partes idem sunt. ergo 
+      <lb ed="#V" n="44"/>alias partes vlteriores. Sed impossibile est esse alias 
+      par<lb ed="#V" n="45" break="no"/>tes ab omnibus partibus continui: quia ille partes non 
+      esseni<lb ed="#V" n="46" break="no"/>partes continui. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e148">
+      ¶ Secundo sic. ille partes qui 
+      <lb ed="#V" n="47"/>sunt distincte ab omnibus partibus continui non sunt 
+      par<lb ed="#V" n="48" break="no"/>tes continui: sed si omnes partes continui essent diuisibiles in 
+      ali<lb ed="#V" n="49" break="no"/>as partes: ille essent distincte ab omnibus partibus 
+      continu<lb ed="#V" n="50" break="no"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e160">
+      ¶ Tertio sic. in continnuo sunt infinite partes: et 
+      vl<lb ed="#V" n="51" break="no"/>tra infinitum non est dare aliquid: sed si omnes partes continui est 
+      <lb ed="#V" n="52"/>sent diuisibiles in alias: vltra infinitum esset aliquid. 
+      </p>
+            <p xml:id="FrMS88-f23141-d1e167">
+               <lb ed="#V" n="53"/>¶ Quarto sic. infinitum est: cuius quantitatem accipientibus 
+      <lb ed="#V" n="54"/>semper est aliquid extra accipere: ergo quando dico: omnes. illud si 
+      <lb ed="#V" n="55"/>gnum non distribuit adequate pro omnibus: quia tunc non essent 
+      ali<lb ed="#V" n="56" break="no"/>que extra. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e178">
+      ¶ Dico igitur quod hec propositio est falsa 
+      <lb ed="#V" n="57"/>propter impossibilitatem subiecti: quia hoc signum: omnis 
+      infi<lb ed="#V" n="58" break="no"/>nito repugnat.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e185">
+      ¶ Confirmatur. quia secundum philosophum ante omne muta 
+      <lb ed="#V" n="59"/>tum esse est mutatum esse: si distruit multitudinem finitam: 
+      <lb ed="#V" n="60"/>habeo intentum. Si infinitam. ergo ante motum infinitum et 
+      eter<lb ed="#V" n="61" break="no"/>num fuit motus: et eodem modo: si ante omnem hominem fuis 
+      <lb ed="#V" n="62"/>homo.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e196">
+      ¶ Pono ergo quatuor conclusiones.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e199">
+      ¶ Prima conclusio est 
+      <lb ed="#V" n="63"/>quod non est dare in infinitis equale vel inequale: vt talia 
+      <lb ed="#V" n="64"/>sunt. probatur hoc vbi enim vnum excedit reliquum altern 
+      <lb ed="#V" n="65"/>est finitum. Ulterius. equale et inequale sunt circa idem: 
+      <lb ed="#V" n="66"/>ergo si equalitas non est in infinitis. sequitur quod nec inequa¬ 
+      <!--329.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>litas.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e218">
+      ¶ Item. equalia sunt quorum extrema se non 
+      exce<lb ed="#V" n="68" break="no"/>dunt: sed in infinitis non sunt extrema: ergo nec 
+      equali<lb ed="#V" n="69" break="no"/>tas.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e225">
+      ¶ Secunda conclusio est. quod totum / et pars non sunt 
+      ci<lb ed="#V" n="70" break="no"/>ca infinitum: quia quibuscunque repugnat passio 
+      demon<lb ed="#V" n="71" break="no"/>strabilis de subiecto: et illud subiectum: sed infinito 
+      repu<lb ed="#V" n="72" break="no"/>gnat equale et inequale: que sunt passiones 
+      demonstrabi<lb ed="#V" n="73" break="no"/>les de toto et parte: quia hec est demonstrabilis vel per se 
+      <lb ed="#V" n="74"/>nota. omne totum est maius sua parte. et ita inequale.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e238">
+      ¶ 
+      Ter<lb ed="#V" n="75" break="no"/>tia conclusio est. quod vniversale vniuersaliter sumptum repugnat 
+      infi<lb ed="#V" n="76" break="no"/>nito: cuicumque enim repugnat totum et quolibet pars 
+      subie<lb ed="#V" n="77" break="no"/>ctiua: sed infinito repugnat totum: cuius pars subiectiua 
+      <lb ed="#V" n="78"/>est totum vniuersale: ergo cui repugnat totum ei repugnas 
+      <lb ed="#V" n="79"/>vniuersale vniuersaliter sumptum.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e251">
+      ¶ Quarta 
+      conclusio<lb ed="#V" n="80" break="no"/>que sequitur ex his. quod illa propositio non est vera que 
+      di<lb ed="#V" n="81" break="no"/>cit omnes partes continui esse diuisibiles: sicut nec ista est 
+      <lb ed="#V" n="82"/>dicit. omnis homo irrationalis est animal.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e260">
+      ¶ Sed contra. 
+      <lb ed="#V" n="83"/>sumantur iste propositiones contradictorie. omnis pars 
+      con<lb ed="#V" n="84" break="no"/>tinui est diuisibilis. aliqua pars continui non est 
+      diuisibi<lb ed="#V" n="85" break="no"/>lis. particularis est falsa: ergo altera est vera.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e269">
+      ¶ Se 
+      <lb ed="#V" n="86"/>cundo per equipollentiam. non omnis pars continui est 
+      diu<lb ed="#V" n="87" break="no"/>sibilis: quedam pars continui non est diuisibilis.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e277">
+      ¶ Tertio 
+      <lb ed="#V" n="88"/>quelibet vera propositio habet aliquam contradictoriam 
+      <lb ed="#V" n="89"/>hec est vera. quedam pars continui est diuisibilis: et non 
+      <lb ed="#V" n="90"/>potest dari contradictoria nisi ista: nulla pars continui est 
+      di<lb ed="#V" n="91" break="no"/>uisibilis. vel accipias econtrario.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e288">
+      ¶ Quarto per locum 
+      <lb ed="#V" n="92"/>a toto in quantitate: hec pars est diuisibilis: et hec et illa: et 
+      <lb ed="#V" n="93"/>sic de aliis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e295">
+      ¶ Ad primum dico. quod non sunt contradi 
+      <lb ed="#V" n="94"/>ctoria: quia vna vnius est contradictoria: propositio autem 
+      cui<lb ed="#V" n="95" break="no"/>subiectum includit contradictoria vel incompossibilia non est 
+      <lb ed="#V" n="96"/>vna: et circa tale non potest esse contradictio: quia est 
+      regula<lb ed="#V" n="97" break="no"/>per se nota que in falso fundari non potest.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e306">
+      ¶ Ad 
+      seci<lb ed="#V" n="98" break="no"/>dum dico. quod quando dicitur non omnis et quidam non 
+      <lb ed="#V" n="99"/>equipollent: dico quod verum est quando propositio est vna.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e313">
+      ¶ Ad 
+      <lb ed="#V" n="100"/>3m quando dicitur que est contradictoria illius. Dico quod eius 
+      contradi<lb ed="#V" n="101" break="no"/>ctoria est ista. Non quedam pars continui est diuisibilis 
+      </p>
+            <p xml:id="FrMS88-f23141-d1e320">
+               <lb ed="#V" n="102"/>¶ Ad aliud dico sicut dixi quod non tenet equipollentia in ta 
+      <lb ed="#V" n="103"/>libus: ita nec illatio: quia suppositio non est vna.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e328">
+      ¶ Sed 
+      <lb ed="#V" n="104"/>adhuc est dubium de chimera. Dicitur quod est ens prohibitum: 
+      <lb ed="#V" n="105"/>et est vera propositio. De illa. Dico quod illa veritas est ratio 
+      <lb ed="#V" n="106"/>nis tantum. Nulla autem incommutabilis propositio potest 
+      fun<lb ed="#V" n="107" break="no"/>dari in talibus quae includunt incompossibilia.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e339">
+      ¶ Alia difficulta 
+      <lb ed="#V" n="108"/>hec est vera. omnis homo est animal. ista etiam capit illos qu 
+      <lb ed="#V" n="109"/>sunt in potentia: et illos qui sunt in actu: et talis 
+      multi<lb ed="#V" n="110" break="no"/>tudo est infinita. Dico quod distribuit pro multitudine 
+      ab<lb ed="#V" n="111" break="no"/>strahente a finito et infinito.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e350">
+      ¶ Contra. quod abstrahit a 
+      <lb ed="#V" n="112"/>duobus potest stare cum vtroque.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e355">
+      ¶ Dico quod aliquid conu 
+      <lb ed="#V" n="113"/>nit superioribus quod conuenit et inferioribus: non tamen vt in 
+      su<lb ed="#V" n="114" break="no"/>perioribus: sic in proposito de multitudine non potest 
+      distri<lb ed="#V" n="115" break="no"/>bui quando sumitur infinitas.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e364">
+      ¶ Alia difficultas quia secundum hoc 
+      <lb ed="#V" n="116"/>tu dirimis omnem disputationem: quia omnis syllogismus 
+      assu<lb ed="#V" n="117" break="no"/>mit aliquam vniversalem.
+    </p>
+            <p xml:id="FrMS88-f23141-d1e371">
+      ¶ Rspondeo si dicerem: omnis sortes currit: 
+      <lb ed="#V" n="118"/>proposition nulla esset: quomodo tunc arguam contra istum qui 
+      di<lb ed="#V" n="119" break="no"/>cit. Dico igitur quod per aliam viam vel diuidendo vel per 
+      <lb ed="#V" n="120"/>syllogismum expositorium. Sicut enim non tolliter via disputam 
+      <lb ed="#V" n="121"/>di de hoc homine: quia non potest dici: omnis hic homo: vnde dicam 
+      <lb ed="#V" n="122"/>hoc infinita multitudo non habet terminum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

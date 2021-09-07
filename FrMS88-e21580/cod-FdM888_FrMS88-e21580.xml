@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="30-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e21580"><!-- l1d4q4 -->
+            <head xml:id="FrMS88-e21580-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-e21580-d1e111">
+      Quaestio. iiie 
+      <lb ed="#V" n="127"/>essentia diuina fit terminus 
+      <lb ed="#V" n="128"/>Tum formalis generationis diuine. 
+      <lb ed="#V" n="129"/>Et videtur quod non: quia dicit Aug. x. de tri. quicquio 
+      <lb ed="#V" n="130"/>t habet filius habet a patre proprietatem autem habet. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-e21580-d1e122">
+               <lb ed="#V" n="131"/>¶ Contra. idem 3o de trinia. sicut essentiam 
+      pre<lb ed="#V" n="132" break="no"/>stat filio generatio. ita etc.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e129">
+      ¶ Circa istam quaestionem primo videre 
+      <!--64.xml-->
+      <pb ed="#V" n="31-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>dum est de supposito. Utrum sit ibi terminus quo. Se 
+      <lb ed="#V" n="2"/>cundo circa quesitum. 
+      <lb ed="#V" n="3"/>primum insistendo probatur 4r. quod in diuinis 
+      fit<lb ed="#V" n="4" break="no"/>Circ. et terminus formalis quo ipsius generationis: quod est 
+      <lb ed="#V" n="5"/>suppositum in quaestione. primo sic. Omnis relatio habet proprium 
+      ter<lb ed="#V" n="6" break="no"/>minum: cum eius quidditas ad aliud sit: et hoc aliud sit 
+      ter<lb ed="#V" n="7" break="no"/>minus eius: sed generatio diuina est relatio. ergo necessario habet 
+      <lb ed="#V" n="8"/>terminum.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e155">
+      ¶ 2o sic. Omnis relatio necessario exigit extrema: 
+      <lb ed="#V" n="9"/>quia est habitudo inter extrema: sed alterum extremorum est 
+      <lb ed="#V" n="10"/>terminus. ergo generatio necessario habet terminum.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e163">
+      ¶ 3o sic. 
+      <lb ed="#V" n="11"/>Illud quod non habet terminum necessario est ad se: quia 
+      term<lb ed="#V" n="12" break="no"/>nus est ad quem est relatio. sed generatio non est ad se. ergo 
+      <lb ed="#V" n="13"/>necessario habet terminum.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e172">
+      ¶ 4o sic. Nihil habetur formaliter per 
+      <lb ed="#V" n="14"/>generationem nisi illud ad quod aliquo modo generatio 
+      termi<lb ed="#V" n="15" break="no"/>natur. sed filius habet multa per generationem: ergo ad ea 
+      genera<lb ed="#V" n="16" break="no"/>tio aliquo modo terminatur.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e181">
+      ¶ Et Praeterea productio est semper 
+      <lb ed="#V" n="17"/>necessario respectu alicuius: et illud necessario est 
+      termi<lb ed="#V" n="18" break="no"/>nus.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e188">
+      ¶ Sed dices. tum semper probas quod generatio et relatio 
+      <lb ed="#V" n="19"/>habet terminum quod: sed non terminum quo: modo ab omnibus 
+      conce<lb ed="#V" n="20" break="no"/>ditur: quod generatio habet filium pro termino quod. proba mihi quod 
+      <lb ed="#V" n="21"/>aliquid sit quo et non quod. sicut querit quaestio. hoc probo 
+      du<lb ed="#V" n="22" break="no"/>pliciter. Primo sic. nulla relatio potest esse prior suo primo 
+      ter<lb ed="#V" n="23" break="no"/>mino. quia si sic. in illo priori esset sine termino. sed totum super 
+      <lb ed="#V" n="24"/>positum filii est posterius generatione actiua. ergo non potest est 
+      <lb ed="#V" n="25"/>se eius primus terminus. Minor probatur. quia quandocumque aliqua 
+      <lb ed="#V" n="26"/>sunt simils natura: quicquid est posterius nam vno et reliquo: sed genera 
+      <lb ed="#V" n="27"/>tio actiua et passiua sunt simils natura: quia sunt correlatiua. sed 
+      <lb ed="#V" n="28"/>filius est posterius nam generatione passiua. quia constituitur ex 
+      <lb ed="#V" n="29"/>ea. ergo / et generatione actiua que est similtuanura cum passiua 
+      <lb ed="#V" n="30"/>generatione.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e217">
+      ¶ 2o sic. Omnis habitudo est posterior suis ex 
+      <lb ed="#V" n="31"/>tremis. sed filius est posterior passiua generatione. et per consequens 
+      <lb ed="#V" n="32"/>actiua. ergo non est terminus primus generationis actiue.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e224">
+      ¶ Iste 
+      <lb ed="#V" n="33"/>rationes confirmantur sic. quod est prius natura patre: et filio quia quod est 
+      <lb ed="#V" n="34"/>prius natura priori vel saltem eo quod est similis cum illo. est prius 
+      <lb ed="#V" n="35"/>ntura posteriori: vel eo quod est similis cum eo. generatio autem actiua 
+      <lb ed="#V" n="36"/>est prior natuam patre: quia ipsum constituit. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e236">
+      ¶ Ideo videtur 
+      <lb ed="#V" n="37"/>mihi necessarium ponere formalem terminum ipsius ge 
+      <lb ed="#V" n="38"/>nerationis priorem ipsa generatione: que est prior 
+      quo<lb ed="#V" n="39" break="no"/>dammodo ipso totali termino quod scilicet filio.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e245">
+      ¶ Quomodo 
+      <lb ed="#V" n="40"/>autem totalis terminus capiat esse dicetur postea. 
+      <lb ed="#V" n="41"/>2m de quesito scilicet vtrum essentia sit formalis 
+      <lb ed="#V" n="42"/>Cire a terminus. Circa hoc sunt quatuor opiniones. 
+      <lb ed="#V" n="43"/>Prima est quod relatio est terminus formalis. quia illud est 
+      for<lb ed="#V" n="44" break="no"/>malis terminus: quod solum accipit esse: sola autem relatio ad 
+      <lb ed="#V" n="45"/>cipit simpliciter esse.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e261">
+      ¶ 2a opio est: quod potentia intellectiua est 
+      <lb ed="#V" n="46"/>formalis terminus: quia quandocumque in aliqua productione 
+      vniuo<lb ed="#V" n="47" break="no"/>ca concurrunt causa vniversalis et particularis: causa particularis est 
+      <lb ed="#V" n="48"/>eiusdem rationis cum termino formali. potentia intellectiua 
+      <lb ed="#V" n="49"/>est causa particularis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e272">
+      ¶ 3a opio est. quod solus actus 
+      <lb ed="#V" n="50"/>intelligendi: quia in productione intellectiua semper 
+      pri<lb ed="#V" n="51" break="no"/>mus terminus est notitia genita: siue actus 
+      intelligen<lb ed="#V" n="52" break="no"/>di: sed generatio in diuinis est productio intellectiua: ergo 
+      <lb ed="#V" n="53"/>primus terminus est notitia genita. alia autem essentia 
+      <lb ed="#V" n="54"/>lia erunt per concomitantiam.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e285">
+      ¶ 4a opio est quod memoria 
+      fe<lb ed="#V" n="55" break="no"/>cunda. quia illud est terminus formalis in summa vniuoca 
+      <lb ed="#V" n="56"/>productione quod est principium. sed principium in ista productio 
+      <lb ed="#V" n="57"/>ne est memoria fecunda: ergo terminus formalis erit 
+      essen<lb ed="#V" n="58" break="no"/>tia et intellectus quae faciunt memoriam.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e296">
+      ¶ Sed nullam istarum 
+      <lb ed="#V" n="59"/>opionum intelligo. Primam non. quia productio denominatur a 
+      te<lb ed="#V" n="60" break="no"/>mino: generatio autem secundum hyla. est in naturam: et ideo dicitur generatio 
+      na<lb ed="#V" n="61" break="no"/>turalis vel naturae: diceretur aut adaliquatio et non generatio si est 
+      <lb ed="#V" n="62"/>set ad relationem.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e308">
+      ¶ Contra secundam: quia nulla passio potest esse 
+      <lb ed="#V" n="63"/>principium communicandi substantiam: sed intellectus est quasi passio 
+      di<lb ed="#V" n="64" break="no"/>uine essentie: quia 2a eius perfectio. ergo intellectus non erit 
+      <lb ed="#V" n="65"/>illud quo natura communicatur: sed oportebit dare essentiam ipsam vi 
+      <lb ed="#V" n="66"/>terminum.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e319">
+      ¶ Contra tertiam. quia actus secundus non potest esse ratio¬ 
+      <!--64.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>comunicandi actum primum sed intelligentia siue notitia est actus se 
+      <lb ed="#V" n="68"/>cundus respectu essentie vel intellectus: igitur non erit ratio quae 
+      <lb ed="#V" n="69"/>essentia vel intellectus diuinus comuicatur.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e332">
+      ¶ Contra quartam. quia 
+      <lb ed="#V" n="70"/>vnius productionis est per se vnus terminus formalis: primus: 
+      <lb ed="#V" n="71"/>memoria autem ista sic sumpta non est vna formaliter. ergo vt 
+      <lb ed="#V" n="72"/>complectitur essentiam vt obiectum: et intellectum vt potentiam non erit 
+      <lb ed="#V" n="73"/>terminus.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e343">
+      ¶ Ad rationes factas pro istis opionibus.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e346">
+      ¶ Ad  
+      <lb ed="#V" n="74"/>primam pro prima dico quod nihil habet filius nisi natum secundum hyla. de 
+      <lb ed="#V" n="75"/>tri. et ideo habet essentiam per natiuitatem: et sic licet ipsa simpliciter non 
+      <lb ed="#V" n="76"/>accipiat esse: tamen in hoc accipit esse.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e355">
+      ¶ Ad secundam pro 2 
+      <lb ed="#V" n="77"/>dico: quod hic est vera vniuocatio. quia vniuocatio sumitur a 
+      <lb ed="#V" n="78"/>natura: in qua producens et productum sunt filia: et subsistunt: et 
+      <lb ed="#V" n="79"/>quia natura est vna: ideo est vniuocatio non sumitur autem vniuoca. 
+      <lb ed="#V" n="80"/>tio a passione eius que est intellectus.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e367">
+      ¶ Ad tertiam pro tertia 
+      <lb ed="#V" n="81"/>dicendum quod licet actus intelligendi: vbi est acquisitus: sicut in non 
+      <lb ed="#V" n="82"/>bis potest esse notitia genita. tamen alibi vbi non acquiritur scilicet in 
+      di<lb ed="#V" n="83" break="no"/>uinis non est notitia genita.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e376">
+      ¶ Ad quartam pro quarta 
+      <lb ed="#V" n="84"/>opione dico quod ad summam vniuocationem numquam oportet omnes 
+      <lb ed="#V" n="85"/>causas esse eiusdem rationis cum termino.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e383">
+      ¶ Et ideo dico: dato quod 
+      <lb ed="#V" n="86"/>intellectus sit partiale principium non impeditur summa vniuocatio 
+      <lb ed="#V" n="87"/>ri  quod essentia diuina est terminus 
+      for<lb ed="#V" n="88" break="no"/>Dico igii malis generationis diuine. Et hoc 
+      pro<lb ed="#V" n="89" break="no"/>bo quadrupliciter. Primo sic quandocumque enim producitur suppositum 
+      <lb ed="#V" n="90"/>de genere substantie: ibi substantia est terminus formalis: sed suppositum 
+      <lb ed="#V" n="91"/>diuinum est de genere substantie. vel se habet ad modum generis substantie. 
+      <lb ed="#V" n="92"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e401">
+      ¶ 2o sic. quemcumque ordinem habent aliqua in esse eundem 
+      <lb ed="#V" n="93"/>habent in produci. sed inter ea quae sunt in supposito ordine 
+      es<lb ed="#V" n="94" break="no"/>sendi prius est in essentia. ergo et in produci primus terminus 
+      <lb ed="#V" n="95"/>formalis erit essentia.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e410">
+      ¶ 3o sic. illud est primus terminis 
+      <lb ed="#V" n="96"/>generationis actiue. in quo primo fundatur generatio passiua: sed genera 
+      <lb ed="#V" n="97"/>tio passiua primo fundatur in essentia diuina. ergo ipsa erit prim 
+      <lb ed="#V" n="98"/>terminus quo generationis actiue.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e419">
+      ¶ 4o sic. qualem ordinem habent 
+      ali<lb ed="#V" n="99" break="no"/>qua in forma separata: talem habent in supposito illius forme: sed 
+      <lb ed="#V" n="100"/>in essentia: vt intelligitur non vt in supposito ipsa est 
+      prima<lb ed="#V" n="101" break="no"/>quia radicaliter continet omnes alias perfectiones. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e429">
+      ¶ hoc eti 
+      <lb ed="#V" n="102"/>confirmo quadruplici auctoritate. Prima est Io. x. Quod de 
+      <lb ed="#V" n="103"/>dit mihi pater maius omnibus est: quod exponens Aug. dicit quod 
+      sal<lb ed="#V" n="104" break="no"/>uator intellexit de diuina essentia recte rationem trahens 
+      <lb ed="#V" n="105"/>ad propositum.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e440">
+      ¶ 2a auctoritas est hyla. de tri. quod pater 
+      nul<lb ed="#V" n="106" break="no"/>lo modo esset nisi quod in se est natum et substantie. in filio genuisset. 
+      </p>
+            <p xml:id="FrMS88-e21580-d1e445">
+               <lb ed="#V" n="107"/>¶ 3a est eiusdem 3o. de tri. pater essentiam suam prestat filio 
+      si<lb ed="#V" n="108" break="no"/>ne suo detrimento aliquo.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e452">
+      ¶ 4a est eiusdem ibidem quod dei 
+      <lb ed="#V" n="109"/>filius non est de nihilo productus: sed natiuitatis sue 
+      <lb ed="#V" n="110"/>viuentem accepit substantiam vel naturam. Propter ista dico quod 
+      <lb ed="#V" n="111"/>diuina essentia est formalis terminus: alia autem 
+      concom<lb ed="#V" n="112" break="no"/>tantur ipsam essentiam diuinam.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e463">
+      ¶ Sed contra istam conclusionem 
+      in<lb ed="#V" n="113" break="no"/>statur quadrupliciter. Primo sic. omnis terminus generationis vel 
+      <lb ed="#V" n="114"/>productionis accipit esse per eam. Nam productio nihil aliud 
+      <lb ed="#V" n="115"/>est quam termini ad esse deductio sed essentia diuina non 
+      <lb ed="#V" n="116"/>capit esse per generationem. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e474">
+      ¶ 2o. sic. nullus 
+      termi<lb ed="#V" n="117" break="no"/>nus formalis est prior sua productione. cum per ipsam 
+      edu<lb ed="#V" n="118" break="no"/>catur ad esse: sed essenus diuina precedit omnem 
+      produ<lb ed="#V" n="119" break="no"/>ctionem diuinam: vt habetur a Dion. in c. de vnica et 
+      discre<lb ed="#V" n="120" break="no"/>ta theologia.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e486">
+      ¶ 3o sic. quandocumque aliquid ex aliquo 
+      gene<lb ed="#V" n="121" break="no"/>ratur: illud quod est commune vtrique termino non est terminus 
+      <lb ed="#V" n="122"/>generationis: sed potius videtur esse obiectum: vt patet in 
+      <lb ed="#V" n="123"/>ductiue: sed filius generatur de essentia que est communis vtrique 
+      <lb ed="#V" n="124"/>termino. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e497">
+      ¶ 4o sic. quandocumque aliquod suppo 
+      <lb ed="#V" n="125"/>situm generatur: formale constitutiuum suppositi videtur 
+      <lb ed="#V" n="126"/>esse terminus formalis generationis: cum idem sit essen 
+      <lb ed="#V" n="127"/>di et producendi ordo. sed essentia non est formale 
+      constituti<lb ed="#V" n="128" break="no"/>uum filii. sed relatio: ergo etc.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e508">
+      ¶ Ad primum dico quod aliquando 
+      termi<lb ed="#V" n="129" break="no"/>nus formalis accipit esse simpliciter scilicet quando non prius fuit. aliquin 
+      <lb ed="#V" n="130"/>autem solum secundum quid: vtpote in supposito: vt per 
+      resurrectio<lb ed="#V" n="131" break="no"/>nem anima non accipit esse simpliciter: sed in composito. Sic dico 
+      <lb ed="#V" n="132"/>de diuina essentia in proposito.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e519">
+      ¶ Ad secundum dico quod sem¬ 
+      <!--65.xml-->
+      <pb ed="#V" n="31-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>per terminus formalis in deo et in creaturis est prior ip 
+      <lb ed="#V" n="2"/>sa productione: quia productio est respectus qui necessario 
+      presup<lb ed="#V" n="3" break="no"/>ponit extrema: quorum vnum est terminus formalis. non 
+      <lb ed="#V" n="4"/>est ergo inconueniens quod ipsa productio sit posterior 
+      termi<lb ed="#V" n="5" break="no"/>no.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e539">
+      ¶ Probo autem quod necessario terminus praecedat 
+      ip<lb ed="#V" n="6" break="no"/>sam productionem actiuam: quia quicquid est prius eo quod est simul 
+      <lb ed="#V" n="7"/>cum a. est prius ipso a. sed terminus est prior 
+      productio<lb ed="#V" n="8" break="no"/>ne passiua: quia est eius fundamentum que est similis nam cum acti 
+      <lb ed="#V" n="9"/>ua. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e550">
+      ¶ Ad tertium dico quod quando aliquid gignitur ex 
+      <lb ed="#V" n="10"/>aliquo sicut ex materia transeunte. verum est quod accipitur 
+      <lb ed="#V" n="11"/>sed quando gignitur ex alio: sicut ex eo quod est formale principium 
+      <lb ed="#V" n="12"/>et vniuocum non oportet: et ita est hic. quia gignitur ex natura. 
+      </p>
+            <p xml:id="FrMS88-e21580-d1e560">
+               <lb ed="#V" n="13"/>¶ Ad 4m dico quod numquam constitutiuum indiuidui scilicet 
+      hecei<lb ed="#V" n="14" break="no"/>tas est formalis terminus: sed natura: vel constitutiuum eius 
+      <lb ed="#V" n="15"/>vt forma. In proposito autem locum forme tenet essentia 
+      <lb ed="#V" n="16"/>locum autem proprietatis indiuidualis tenet relatio.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e571">
+      ¶ Sed 
+      <lb ed="#V" n="17"/>adhuc remanet difficultas. quia generatio videtur esse progre 
+      <lb ed="#V" n="18"/>sus ad esse simpliciter. sicut alteratio videtur esse progressus 
+      <lb ed="#V" n="19"/>ad esse secundum quid. non videtur ergo bene intelligibile quo 
+      <lb ed="#V" n="20"/>essentia que non accipit esse possit generationem 
+      termi<lb ed="#V" n="21" break="no"/>nare.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e584">
+      ¶ Dico quod verum est quod generatio est progressus 
+      <lb ed="#V" n="22"/>ad esse simpliciter: non tamen cuiuscumque termini. Unde dico quod 
+      <lb ed="#V" n="23"/>filius simpliciter accipit esse: essentia autem que est formalis 
+      <lb ed="#V" n="24"/>terminus non accipit esse nisi in supposito.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e593">
+      ¶ Contra. 
+      <lb ed="#V" n="25"/>quia ideo videtur suppositum accipere esse quia terminus 
+      for<lb ed="#V" n="26" break="no"/>malis accipit esse: nam terminus formalis videtur ratio essen 
+      <lb ed="#V" n="27"/>di ipsi supposito. Si igitur terminus totalis accipit esse: 
+      <lb ed="#V" n="28"/>multo magis terminus formalis.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e604">
+      ¶ Dico quod licet in 
+      con<lb ed="#V" n="29" break="no"/>positis vbi formale principium est corruptibile totum 
+      <lb ed="#V" n="30"/>compositum accipiat esse per hoc quod eius formale 
+      prin<lb ed="#V" n="31" break="no"/>accipit esse: et sic de factione: tamen in incorruptibilibus vel in 
+      il<lb ed="#V" n="32" break="no"/>lis in quibus formale principium est incorruptibile. totum est opposiuo 
+      </p>
+            <p xml:id="FrMS88-e21580-d1e615">
+               <lb ed="#V" n="33"/>¶ Exitum in morte hominis corrumpitur composintis formali principio 
+      rema<lb ed="#V" n="34" break="no"/>nente incorrupto scilicet anima quae incorruptibilis est. quod autem 
+      forma<lb ed="#V" n="35" break="no"/>le primum possit pexistere 4 ostendo: primo sic. nam in generatione vniuo 
+      <lb ed="#V" n="36"/>ca creaturarum eadem ntam in specie praexistens in generante est 
+      ter<lb ed="#V" n="37" break="no"/>minus formalis in genito: heceitas autem in diuina 
+      essentia<lb ed="#V" n="38" break="no"/>tantum est illimitata sicut natura specifica in creaturis.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e632">
+      ¶ 2o si 
+      <lb ed="#V" n="39"/>in augmentatione vnigenia: sicut est augmentatio 
+      charita<lb ed="#V" n="40" break="no"/>tis tota ratio formalis cuiuslibet gradus praexistebat in 
+      prima<lb ed="#V" n="41" break="no"/>et tamen hoc non obiie vere quilibet producitur simpliciter.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e641">
+      ¶ 3o sic. nara in 
+      <lb ed="#V" n="42"/>hominis generatione prius anima creatur quam corpoi infundatur. cum 
+      pri<lb ed="#V" n="43" break="no"/>sit esse quam inesse: et tamen non est terminus formalis generationis 
+      <lb ed="#V" n="44"/>humbium nisi inquantum inest. sic enim hominem constituit in est specifico. 
+      </p>
+            <p xml:id="FrMS88-e21580-d1e650">
+               <lb ed="#V" n="45"/>¶ 4o sic: nam in hominis augmentatione est vera generatio. et tamen 
+      ter<lb ed="#V" n="46" break="no"/>minus formalis generationis non potest poni nisi anima. 
+      potissi<lb ed="#V" n="47" break="no"/>me secundum illos qui ponunt vnicam formam.
+    </p>
+            <p xml:id="FrMS88-e21580-d1e659">
+      ¶ Ad aucto 
+      <lb ed="#V" n="48" break="no"/>ritatem positam in principio quaestionis patet. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

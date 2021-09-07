@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="208-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f60747"><!-- l4d13q7 -->
+            <head xml:id="FrMS88-f60747-Hd1e108">Quaestio 7</head>
+            <p xml:id="FrMS88-f60747-d1e111">
+               <lb ed="#V" n="105"/>TErtio queritur vtrum sit dare 
+      mi<lb ed="#V" n="106" break="no"/> nmam partem hostie 
+      conse<lb ed="#V" n="107" break="no"/>crate.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e120">
+      ¶ Et videtur quod non. quia nullum quantum 
+      <lb ed="#V" n="108"/>est minimum: sed vlterius diuisibile. 
+      </p>
+            <p xml:id="FrMS88-f60747-d1e125">
+               <lb ed="#V" n="109"/>¶ Contra. quia punctus est in genere 
+      <lb ed="#V" n="110"/>quantitatis: et tamen est minimum. 
+      <lb ed="#V" n="111"/>videndum est si est dare minimam 
+      <lb ed="#V" n="112"/>Hic primo carnem vel paner.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e136">
+      ¶ Et dicitur quod sic de 
+      <lb ed="#V" n="113"/>quantitate naturali et sensibili: quia omnium naam constantium est 
+      cer<lb ed="#V" n="114" break="no"/>tus terminus sui crementi et decrementi secundo de anima. 
+      </p>
+            <p xml:id="FrMS88-f60747-d1e144">
+               <lb ed="#V" n="115"/>¶ Contra illud arguitur quadrupliciter.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e149">
+      ¶ Primo. quia omne totum 
+      <lb ed="#V" n="116"/>maius est sua parte. sed omnis quantitas est quoddam totum. 
+      er<lb ed="#V" n="117" break="no"/>go maior sua parte. et per consequens non est minima probsatio 
+      mino<lb ed="#V" n="118" break="no"/>ris. totum et pars sunt partes quantitatis si illud minimum 
+      <lb ed="#V" n="119"/>est: totum habetur propositum. si pars et non totum. igitur erit 
+      <lb ed="#V" n="120"/>indiuisibilis sicut puncti non habent partes.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e162">
+      ¶ Secundo sic. 
+      <lb ed="#V" n="121"/>accipio quadratum et dyametrum. costa constet ex. xii. 
+      mi<lb ed="#V" n="122" break="no"/>nimis. tunc probatur quod dyametrum est 
+      commensurabili<lb ed="#V" n="123" break="no"/>coste: quia a quolibet minimo ad quodlibet aliud potest 
+      ha<lb ed="#V" n="124" break="no"/>beri linea visualis: et ille intersecant se in puncto et in 
+      <lb ed="#V" n="125"/>pyametro: vel igitur est adequata totam dyameter vel 
+      <lb ed="#V" n="126"/>non: si sit tunc est commensurabilis. si non tunc inter pun 
+      <lb ed="#V" n="127"/>ctum et punctum erit dare medium.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e180">
+      ¶ Tertio modo 
+      <lb ed="#V" n="128"/>arguitur de circulo. si circulus sit infra circulum: tunc 
+      <lb ed="#V" n="129"/>a quolibet puncto poterit trahi linea visualis. et sic 
+      <lb ed="#V" n="130"/>maior circulus est equalis minimo circulo.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e189">
+      ¶ Istas 
+      <lb ed="#V" n="131"/>puas rationes nota in secundo scoti.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e194">
+      ¶ Quarto 
+      Au<lb ed="#V" n="132" break="no"/>gu. super gen. ad lsteram probat quod corpus naturale est di¬ 
+      <!--419.xml-->
+      <pb ed="#V" n="208-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>uisibile sic omne quod habet medietatem sui est diuisibile: sed 
+      <lb ed="#V" n="2"/>omne corpus habet mediam partem sui. ergo omne corpus est 
+      <lb ed="#V" n="3"/>diuisibile: quia illud medium sui. est corpus.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e213">
+      ¶ Confirma 
+      <lb ed="#V" n="4"/>tur. quandocumque aliqua sunt eiusdem rationis: quecumque passio 
+      <lb ed="#V" n="5"/>conuenit vni: et alteri: sed in homogeneis totum et pars 
+      <lb ed="#V" n="6"/>sunt eiusdem rationis et totum per se est diuisibile. ergo et 
+      <lb ed="#V" n="7"/>pars. Ideo dico quod non est dare minimam naturalem quantita. 
+      <lb ed="#V" n="8"/>tem.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e226">
+      ¶ Alii dicunt quod bene verum est quod quantum naturale est 
+      di<lb ed="#V" n="9" break="no"/>uisibile sub ratione qua quantum: sed bene est deuenire ad 
+      ta<lb ed="#V" n="10" break="no"/>lem quantitatem vltra quam non saluatur species panis 
+      ve<lb ed="#V" n="11" break="no"/>forma.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e235">
+      ¶ Contra istud arguiter 4r.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e238">
+      ¶ Primo sic. 
+      Quando<lb ed="#V" n="12" break="no"/>cumque aliquod corpus corrumpitur: impossibile quod corrumpatur 
+      <lb ed="#V" n="13"/>nisi quia agens inducit formam incopossibilem. corrumpitur 
+      <lb ed="#V" n="14"/>ergo forma panis: diuidatur illud in quod resoluiter. si autem 
+      <lb ed="#V" n="15"/>non corrumpatur manet eadem forma: vel igitur erit 
+      proces<lb ed="#V" n="16" break="no"/>sus in infinitum in formis panis specificis vel erit 
+      de<lb ed="#V" n="17" break="no"/>uenire ad aliquod quod non corrumpitur per diuisionem.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e254">
+      ¶ 
+      Se<lb ed="#V" n="18" break="no"/>cundo. quia deus potest suspendere omnem dispositionem ad 
+      <lb ed="#V" n="19"/>ad corruptionem. et ita per diuisionem non necessario 
+      cor<lb ed="#V" n="20" break="no"/>rumpetur.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e263">
+      ¶ Tertio sic. sicut meam extensa exigit 
+      for<lb ed="#V" n="21" break="no"/>mam extensam in quocumque continuo. ita cuilibet parti materiae 
+      <lb ed="#V" n="22"/>corrspondet aliqua forma: igitur quantum est ex parte forme 
+      <lb ed="#V" n="23"/>non repugnat sibi in quacunque parte materiae esse minima 
+      <lb ed="#V" n="24"/>minime.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e275">
+      ¶ 4o. quia pars materiae et totum eius est eiusdem 
+      ratio<lb ed="#V" n="25" break="no"/>nis. igitur sibi non repugnat. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e280">
+      ¶ Item dicunt 
+      <lb ed="#V" n="26"/>alii quod resoluiter in continens: quia non potest plus durare in ratio 
+      <lb ed="#V" n="27"/>ne materiae vel forme.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e287">
+      ¶ Contra. deus potest suspendere 
+      <lb ed="#V" n="28"/>virtutem continentis aeris velalterius medii continenm 
+      <lb ed="#V" n="29"/>tis: et tunc tale minimum non resolueretur.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e294">
+      ¶ Secundo. 
+      <lb ed="#V" n="30"/>si in vacuo fieret non haberet locum quod dicitur de 
+      con<lb ed="#V" n="31" break="no"/>tinente.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e301">
+      ¶ Tertio. si in celo fieret non esset ibi continens 
+      <lb ed="#V" n="32"/>tale corruptiuum.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e306">
+      ¶ Quarto. quia deus potest 
+      diuide<lb ed="#V" n="33" break="no"/>re solem. nec apparet in quo resolueretur.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e312">
+      ¶ Dico ergo 
+      <lb ed="#V" n="34"/>primo quod per naturam est dare minimam carnem et quodlibet 
+      <lb ed="#V" n="35"/>corpus philosophycum minimum.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e319">
+      ¶ Secundum est quod si detur tale 
+      <lb ed="#V" n="36"/>naturaliter resolueretur incontinens si diuidatur: quia modice vit 
+      <lb ed="#V" n="37"/>tutis est et non potest resistere corrumpenti.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e326">
+      ¶ Tertium 
+      <lb ed="#V" n="38"/>dictum quod quantum ad diuinam potentiam non est dare mi 
+      <lb ed="#V" n="39"/>nimum sicut nec maximum. quia potest facere alium 
+      mul<lb ed="#V" n="40" break="no"/>dum et aliud mare in infinitum et omnia in simul 
+      coniung<lb ed="#V" n="41" break="no"/>re.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e337">
+      ¶ Quartum. quod non resolueretur in continens quando dei 
+      <lb ed="#V" n="42"/>virtute directe diuideretur.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e342">
+      ¶ Sed tunc est dare minimam 
+      <lb ed="#V" n="43"/>partem hostie.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e347">
+      ¶ hic est sciendum quod quatuor sunt genera 
+      <lb ed="#V" n="44"/>minimorum. Quedam secundum sensum. alia secundum operaonem. alia 
+      <lb ed="#V" n="45"/>secundum naturam. alia secundum quantitatem.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e355">
+      ¶ Primo modo dicuntur 
+      <lb ed="#V" n="46"/>minima secundum sensum. que si vlterius diuidantur non possunt 
+      <lb ed="#V" n="47"/>percipi sensu.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e362">
+      ¶ 2o sunt que si diuidantur non possunt in 
+      pro<lb ed="#V" n="48" break="no"/>priam operationem realem: sicut si sint illa diuideretur. vndi 
+      <lb ed="#V" n="49"/>videmus quod non descendit propter nimiam leuitatem.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e369">
+      ¶ 3o 
+      <lb ed="#V" n="50"/>quia non possunt subsistere in nam si diuidantur: cum hoc etiam non 
+      <lb ed="#V" n="51"/>possunt percipi: nec operari: et omnia ista mima sunt quanta vel 
+      <lb ed="#V" n="52"/>mathec.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e378">
+      ¶ 4o sicut punctus: et ista predicta mima omnia 
+      <lb ed="#V" n="53"/>sunt subordinata: quia comparando ipsa illa que sunt 
+      mi<lb ed="#V" n="54" break="no"/>nima secundum sensum sunt ceteris minora: probatur: quia 
+      maior<lb ed="#V" n="55" break="no"/>virtus requritur ad mutandum realiter quam intentionaliter 
+      <lb ed="#V" n="56"/>quia maior est contrarietas in mutatione rei.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e389">
+      ¶ De mimo 
+      <lb ed="#V" n="57"/>etiam secundum naturam patet: quia minimum est. quia maior virtus requritur 
+      <lb ed="#V" n="58"/>ad operandum quam ad subsistendum.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e396">
+      ¶ De 4o autem non est 
+      <lb ed="#V" n="59"/>dubium.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e402">
+      ¶ Ad propositum in hostia: patet quod est deuenire ad prima 
+      <lb ed="#V" n="60"/>tria: sed numquam diuidendo est deuenire ad minimum secundum 
+      <lb ed="#V" n="61"/>quantitatem quacumque virtute. Si igitur species diuidatur. vsque 
+      <lb ed="#V" n="62"/>ad minimum. primo modo. valet. secundum sensum non manet corps 
+      <lb ed="#V" n="63"/>christi. sed quando venitur ad minimum secundum naturam non remanent 
+      <lb ed="#V" n="64"/>consecratio.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e415">
+      ¶ De puncto autem dictum fuit supra.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e418">
+      ¶ Sed 
+      <lb ed="#V" n="65"/>nunquid potest angelus diuidere sine resolutione. Uut qrad 
+      <lb ed="#V" n="66"/>sic. quia cognoscit intuitiue omne partes. et potest. mouere 
+      <!--419.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>quamlibet.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e431">
+      ¶ Sed si species diuidat numquam erit resolutioo. quia 
+      acci<lb ed="#V" n="68" break="no"/>dens non potest resolui in substantiam.
+    </p>
+            <p xml:id="FrMS88-f60747-d1e436">
+      ¶ Sed de facto fit ista 
+      <lb ed="#V" n="69"/>resolutio isto modo quo dictum est vt percipiatur miraculum
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 11</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 11</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="184-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f40102"><!-- l3d37-40q11 -->
+            <head xml:id="FrMS88-f40102-Hd1e108">Quaestio 11</head>
+            <p xml:id="FrMS88-f40102-d1e111">
+               <lb ed="#V" n="123"/>¶ Questio. xi. 
+      <lb ed="#V" n="124"/>UNdecimo quero. Utrum tempe 
+      <lb ed="#V" n="125" break="no"/>rantia sit 
+      nobilissima<lb ed="#V" n="126" break="no"/>virtutum. 
+      <lb ed="#V" n="127"/>dicunt quod non: quia est circa 
+      <lb ed="#V" n="128"/>Quidam passiones tactus: quod 
+      <lb ed="#V" n="129"/>est obiectum ignobile.
+    </p>
+            <p xml:id="FrMS88-f40102-d1e129">
+      ¶ Sed hoc non obstante 
+      po<lb ed="#V" n="130" break="no"/>test habere excellentiam ex alio. valet. ex difficultate ex parte 
+      <lb ed="#V" n="131"/>potentie: vel aliquando ex parte circumstantie: et 
+      aliqui<lb ed="#V" n="132" break="no"/>etiam ex parte obiecti.
+    </p>
+            <p xml:id="FrMS88-f40102-d1e138">
+      ¶ Unde nontandum quod primum 
+      <!--372.xml-->
+      <pb ed="#V" n="185-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>circa temperantiam est perseuerantia. 2m continentia. 3m 
+      <lb ed="#V" n="2"/>temperantia. 4m virtus heroyca: perseuerans enim 
+      per<lb ed="#V" n="3" break="no"/>gnat cum passionibus: et nec vincit: nec vincitur: et ideo 
+      <lb ed="#V" n="4"/>nec est virtuosus simpliciter nec secundum quid. Continens 
+      <lb ed="#V" n="5"/>autempugnat cum passionibus: sed cum difficultate 
+      <lb ed="#V" n="6"/>vincit. ideo imperfectus est et non virtuosus 
+      simpli<lb ed="#V" n="7" break="no"/>citer: sed secundum quid.
+    </p>
+            <p xml:id="FrMS88-f40102-d1e162">
+      ¶ Temperatus autem faciliter 
+      <lb ed="#V" n="8"/>passiones vincit: ideo est virtuosus.
+    </p>
+            <p xml:id="FrMS88-f40102-d1e168">
+      ¶ heroyxcus 
+      au<lb ed="#V" n="9" break="no"/>tem nihil patitur nec sentit aliquid passionis: ideo est 
+      <lb ed="#V" n="10"/>in summo gradum virtutis temperantie.
+    </p>
+            <p xml:id="FrMS88-f40102-d1e175">
+      ¶ Eodem 
+      mo<lb ed="#V" n="11" break="no"/>do sunt econuerso quattuor vitia predictis 
+      correspon<lb ed="#V" n="12" break="no"/>dentia scilicet imperseuerantia: incontinentia: 
+      intemperan<lb ed="#V" n="13" break="no"/>tia: et bestialitas: que est maius vitium: imperseueran 
+      <lb ed="#V" n="14"/>tia autem minus: imperseuerans enim non pugnat. 
+      <lb ed="#V" n="15"/>sed ita est debilis quod occurrente passione statim vinci 
+      <lb ed="#V" n="16"/>tur. Incontinens autem cum passione pugnat: sed 
+      a<lb ed="#V" n="17" break="no"/>passione vincitur. intemperatus autem non expectat 
+      <lb ed="#V" n="18"/>passionem: sed preuenit eam: ideo peior est 
+      incontinen<lb ed="#V" n="19" break="no"/>te: bestialis vero vel brutalis et qui opponitur heroyco 
+      <lb ed="#V" n="20"/>vltra modum humanum excedit iura nature violans 
+      <lb ed="#V" n="21"/>et infra limites nature non se tenens sicut comedens 
+      <lb ed="#V" n="22"/>pueros vel similia faciens.
+    </p>
+            <p xml:id="FrMS88-f40102-d1e204">
+      ¶ Sed dubium est 
+      quo<lb ed="#V" n="23" break="no"/>modo intelligitur: quod omnis malus est ignorans.
+    </p>
+            <p xml:id="FrMS88-f40102-d1e209">
+      ¶ Di 
+      <lb ed="#V" n="24"/>cunt aliqui quod incontinens argumentum in quattuor 
+      <lb ed="#V" n="25"/>terminis facit: arguens sic: omne bonum est faciendum 
+      <lb ed="#V" n="26"/>sed istud delectabile est bonum. igitur faciendum: sed 
+      <lb ed="#V" n="27"/>decipitur: quia prima propositio vniversalis debet intelligi de 
+      <lb ed="#V" n="28"/>bono honesto: sed de hoc alibi tractabimus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="209-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f62125"><!-- l4d15q1 -->
+            <head xml:id="FrMS88-f62125-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-f62125-d1e111">
+               <lb ed="#V" n="113"/>Et sicut praedictis auctoritatibus. 
+      <lb ed="#V" n="114"/>HIc incipit dist. xva in qua quaeruntur 
+      qua<lb ed="#V" n="115" break="no"/>tuor. quaestiones
+    </p>
+            <p xml:id="FrMS88-f62125-d1e120">
+      ¶ Prima vtrum. 
+      <lb ed="#V" n="116"/>satisfactio pro peccato mortali sit 
+      possi<lb ed="#V" n="117" break="no"/>bilis homin viatori.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e127">
+      ¶ Et videtur quod non. quia 
+      <lb ed="#V" n="118"/>Ansel. in libro cur deus homo. determinat 
+      <lb ed="#V" n="119"/>quod purus viator hoc non potest.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e134">
+      ¶ Contra 
+      <lb ed="#V" n="120"/>quia christus fuit viator et satisfecit pro omnibus peccatis. 
+      <lb ed="#V" n="121"/>est primo quid est 
+      satisfa<lb ed="#V" n="122" break="no"/>hic videndum ctio.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e144">
+      ¶ Et diffinitur sic 
+      ab<lb ed="#V" n="123" break="no"/>Ansel. in supradicto libro. satisfactio est redditio 
+      ordi<lb ed="#V" n="124" break="no"/>nata equiualentis alis indebiti. hic ponuntur quatuo: 
+      <lb ed="#V" n="125"/>conditiones.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e153">
+      ¶ Prima est quod est redditio. quia qui dat non 
+      <lb ed="#V" n="126"/>satisfacit.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e158">
+      ¶ Secunda ordinata: quia si modo indebito esset 
+      po<lb ed="#V" n="127" break="no"/>tius actus offensionis quam placationis.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e163">
+      ¶ 3a equalentis. 
+      <lb ed="#V" n="128"/>quia si minus valeret non esset satisfactio. sed minus factio¬ 
+      </p>
+            <p xml:id="FrMS88-f62125-d1e168">
+               <lb ed="#V" n="129"/>¶ 4a. alites indebti: quia si alis esse debitum per hoc si satisfaceret 
+      <lb ed="#V" n="130"/>exquo iam sibi debetur.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e175">
+      ¶ contra hoc instatur 4r.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e179">
+      ¶ primo quia quando aliquis 
+      offen<lb ed="#V" n="131" break="no"/>dit alium iniuria positiua: si reddatur sibi equalens dupli¬ 
+      <!--422.xml-->
+      <pb ed="#V" n="210-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>eatur sibi malum: et cumulabitur offensa.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e192">
+      ¶ 2o quando aliquis pe 
+      <lb ed="#V" n="2"/>cat contra deum non videtur sibi posse equalens dare.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e197">
+      ¶ Item 
+      offensa<lb ed="#V" n="3" break="no"/>princinpis maior est offensa inferioris.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e202">
+      ¶ Item quia in exodo dicitur quod 
+      <lb ed="#V" n="4"/>qui furatus fuerit vnam ouem reddat4s.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e207">
+      ¶ Rondead primum equalens 
+      <lb ed="#V" n="5"/>pr quod quantum abstulit tantum reddere diaitet. vnde si est immuria 
+      posi<lb ed="#V" n="6" break="no"/>tiua. dicibet reddere sicut potest.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e214">
+      ¶ Ad secundum. sicut deus de honorat 
+      <lb ed="#V" n="7"/>in praeccatio: oportet quod honor sit tantus proportionaliter recompensatus. 
+      </p>
+            <p xml:id="FrMS88-f62125-d1e220">
+               <lb ed="#V" n="8"/>¶ Ad 3m oportet quod ista redditio fiat secundum iustitiam distributiuam 
+      <lb ed="#V" n="9"/>quae respicit equalitatem proportionis: et secundum dignitatem persone in 
+      <lb ed="#V" n="10"/>quam peccauit mensure debitum.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e229">
+      ¶ Ad 4m dico. quia vnum 
+      <lb ed="#V" n="11"/>erat ibi pro satisfactione et aliud pro punitione. pro primo 
+      <lb ed="#V" n="12"/>suffecisset dare equalens sed pro iniuria fiebat aliud. 
+      <lb ed="#V" n="13"/>videndum est de praencipali quaesito. valet. si 
+      pura<lb ed="#V" n="14" break="no"/>a 
+      <lb ed="#V" n="15"/>Secundo creatura potest satiffacere.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e242">
+      ¶ Et per patet quod de 
+      <lb ed="#V" n="16"/>potentia ordinata nullus pure viator potest satisfacere. vnde Aug. 
+      <lb ed="#V" n="17"/>dicem. conuenientius non potuit fieri redemptio nostra. Et leo 
+      papa<lb ed="#V" n="18" break="no"/>et alii scint haec dicunt.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e251">
+      ¶ Sed quid de potentia absoluta. dicitur communiter quod est 
+      <lb ed="#V" n="19"/>impossibile ex dictis Ansel. vbi supra. Et hoc ipse ostendit 4r 
+      <lb ed="#V" n="20"/>in illo libus primo sic. quanto maior est ille qui offenditur tanto 
+      maior<lb ed="#V" n="21" break="no"/>est offensa. sed dignitas divina excedit omnem aliam in infinitum 
+      <lb ed="#V" n="22"/>gitur culpa talis est infinita si ex proportione dignitatis ad  
+      <lb ed="#V" n="23"/>dignitatem sumatur proportio in culpa nulla creaur potest 
+      satisfa<lb ed="#V" n="24" break="no"/>cere: quia non potest habere bomoium infinitum.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e267">
+      ¶ 2o sic. diecus est promptior. 
+      <lb ed="#V" n="25"/>ad minserentium quam ad punientum. sed deus pro primo peccatio iuste damnauit 
+      <lb ed="#V" n="26"/>totum genus humanum: sed numquam dat malum pene iuste: nisi secundum 
+      <lb ed="#V" n="27"/>malum culpe: sed peciea fuit infinita. igitur et malum culpe fuit in 
+      <lb ed="#V" n="28"/>finitum.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e278">
+      ¶ 3o illud malum quod praepotenderat bonum totius vniuersi 
+      <lb ed="#V" n="29"/>non est faciendum pro conseruatione totius vniuersi: sed tale est peccatum 
+      <lb ed="#V" n="30"/>ergo maius malum peccatum quam bonum totius vniuersi.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e286">
+      ¶ 4o sic. in 
+      <lb ed="#V" n="31"/>diffinitione satisfactionis dictum est quod est redditio alius 
+      inde<lb ed="#V" n="32" break="no"/>biti sed quicquid boni facit creatura non est nisi redditio 
+      de<lb ed="#V" n="33" break="no"/>diti. et per consequens nulla satisfactio.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e295">
+      ¶ Iste rationes possunt 
+      reduci<lb ed="#V" n="34" break="no"/>id oppositum. primo sic. sicut actus mali sumunt gradum 
+      <lb ed="#V" n="35"/>mnalitie ex obiectis. ita actus boni. quanto igitur melior est 
+      <lb ed="#V" n="36"/>qui praecipit. tanto melius est sibi obedire. sed deus in infinitum ex 
+      <lb ed="#V" n="37"/>cedit omnem creaturam igitur bonum infinitum est obedire deo. et 
+      <lb ed="#V" n="38"/>per consequens sufficit contra illud malum.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e308">
+      ¶ 2o sic. sicut malum culpe prim 
+      <lb ed="#V" n="39"/>mi parentis ex contumacia fuit magnum in demerendo. ita 
+      <lb ed="#V" n="40"/>obstectia fuisset magna in merendo. Et ideo eadem ratione sufficiens 
+      <lb ed="#V" n="41"/>in redemptionem omnium: sicut peccatum fuit sufficiens in perditio 
+      <lb ed="#V" n="42"/>nem. Tertia ratio reducitur in oppositum sic. Ita a bono non 
+      <lb ed="#V" n="43"/>dabet quis desistere. puta a diligendo deum pro toto vniuerso: sei 
+      <lb ed="#V" n="44"/>cut nec malum facere. igitur sicut ex hoc arguebatur malum 
+      <lb ed="#V" n="45"/>infinitum: ita bonum infinitum.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e326">
+      ¶ Quarto sic. verum est quod dieus 
+      <lb ed="#V" n="46"/>potuisset nos obligare ad omnia bona que potuissemus 
+      <lb ed="#V" n="47"/>facere: sed tamen ex sua benignitate aliqua dedit sub 
+      praece<lb ed="#V" n="48" break="no"/>pto et aliqua non: sed dimisit voluntati nostre: et de illis 
+      po<lb ed="#V" n="49" break="no"/>tuisset fieri satisfactio.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e337">
+      ¶ Dicit igitur scotus quod inste rationes 
+      <lb ed="#V" n="50"/>non conuincunt.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e342">
+      ¶ Et confirmatur per Aug. 3o de tria.e vbi dicit 
+      <lb ed="#V" n="51"/>quod plures alii modi fuerunt possibiles redimendi. et loquiur 
+      <lb ed="#V" n="52"/>de potentia absoluta. et hoc verum est.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e350">
+      ¶ Sed occurrunt difficultas 
+      <lb ed="#V" n="53"/>prima est. si aliquis potest satisfacere de peccatis suins in hac 
+      <lb ed="#V" n="54"/>vita. et hec satisfactio attenditur quo ad penam non 
+      <lb ed="#V" n="55"/>quo ad culpam: quia illa statim dimittitur.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e359">
+      ¶ Respondeo hic 
+      <lb ed="#V" n="56"/>est attendendum ad grauitatem culparum: quia tot possunt esse: et ita 
+      <lb ed="#V" n="57"/>graues culpe quod non posset: et ita pauce quod posset.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e366">
+      ¶ Se 
+      <lb ed="#V" n="58"/>cunda difficultas si aliquis potest satisfacere de vno peccato et 
+      <lb ed="#V" n="59"/>non alio.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e373">
+      ¶ Dicitur quod sic perfecte de vno: et non de alio: quia 
+      <lb ed="#V" n="60"/>penitentia distincta imposita est pro quolibet.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e378">
+      ¶ Tertia 
+      <lb ed="#V" n="61"/>ifficultas si pro peccatio alterius potest quis satisfacere.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e383">
+      ¶ Respondeo duplex qut 
+      <lb ed="#V" n="62"/>satisfactio vna personalis. alia realis. dico quod satisfactio 
+      <lb ed="#V" n="63"/>ne reali potest quis satisfacere pro alio: vt si debeo. x. libras 
+      <lb ed="#V" n="64"/>alicui. et tum pro me soluas: satiffactum est. sed pro personali 
+      <lb ed="#V" n="65"/>non potest: vt si quis sit sententiatus ad mutilationem membri Alii 
+      <lb ed="#V" n="66"/>us non satisfaceret pro eo: secundum iura. sic in foro pranine 
+      ali<lb ed="#V" n="67" break="no"/>quis est penitentiatus ad ineiunandum et tamen alius non potest ie¬ 
+      <!--422.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="68"/>iunare pro eo.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e406">
+      ¶ Quarta si existens in preccatio mortali potest 
+      sa<lb ed="#V" n="69" break="no"/>tiffacere.
+    </p>
+            <p xml:id="FrMS88-f62125-d1e411">
+      ¶ Dicunt aliqui quod non: quia non placent dieo opera eius. 
+      </p>
+            <p xml:id="FrMS88-f62125-d1e414">
+               <lb ed="#V" n="70"/>¶ Sed scotus dicit oppositum. quia si pro. x peccatis sit 
+      peni<lb ed="#V" n="71" break="no"/>tentia imposita potest pro pena satisfacere et facere opera sa 
+      <lb ed="#V" n="72"/>tisfactoria: quia opera satiffactionis ex sui natam non sunt 
+      gra<lb ed="#V" n="73" break="no"/>ta sicut si aliquis sit condennatus a principe ad aliquid 
+      <lb ed="#V" n="74"/>si soluat non oportet propter hoc quod sit in gratia sua. vnde 
+      <lb ed="#V" n="75"/>alia pars est nimium dura. vide hic primo
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

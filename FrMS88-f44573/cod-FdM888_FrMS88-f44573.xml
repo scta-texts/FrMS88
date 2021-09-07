@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="190-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f44573"><!-- l4d6q4 -->
+            <head xml:id="FrMS88-f44573-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f44573-d1e111">
+               <lb ed="#V" n="108"/>QUarto queritur vtrum in sacramento 
+      ba<lb ed="#V" n="109" break="no"/>ptimi sit aliqua virtus super 
+      <lb ed="#V" n="110"/>naturaliter infusa. Et videtur quod sic secundum Aug. 
+      <lb ed="#V" n="111"/>Accedit verbum ad elementum et fit 
+      sa<lb ed="#V" n="112" break="no"/>i cramentum.
+    </p>
+            <p xml:id="FrMS88-f44573-d1e124">
+      ¶ Contra. quia per iam dicta 
+      <lb ed="#V" n="113"/>nullum accidens supernaturale potest esse in aliquo corporali
+      <lb ed="#V" n="114"/>In ista quaestione ponuntur quatuor conclusiones. Prima est quod 
+      nu<lb ed="#V" n="115" break="no"/>la virtus potest esse in prolatione verborum. quod 
+      <lb ed="#V" n="116"/>probatur: quia prolatio verborum est eorum productio inesse 
+      sen<lb ed="#V" n="117" break="no"/>sibili. Productio autem dicit respectum: sed nullum 
+      abso<lb ed="#V" n="118" break="no"/>lutum potest fundari in aliquo respectu. ergo etc. 
+      Con<lb ed="#V" n="119" break="no"/>firmatur. quia nulla ratio est principium productiuum absoluti. sed 
+      <lb ed="#V" n="120"/>si fundaret virtutem talem: posset esse principium productiuum: 
+      <lb ed="#V" n="121"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-f44573-d1e146">
+      ¶ Secunda conclusio quod non potest esse in sono. quia 
+      <lb ed="#V" n="122"/>vox est qualitas in aere. sed qualitates prime speciei nodo sunt 
+      <lb ed="#V" n="123"/>nate inesse illis de 3a specie: illa autem virtus est de prima spe 
+      <lb ed="#V" n="124"/>cie secundum ponentes eam. quia ad dispositionem partinet non ad 
+      ha<lb ed="#V" n="125" break="no"/>bitum.
+    </p>
+            <p xml:id="FrMS88-f44573-d1e157">
+      ¶ Item sonus est res corporalis. et vlterius omne accidens 
+      <lb ed="#V" n="126"/>est propter subiectum et est imperfectius eo: sed hec virtus est 
+      nobi<lb ed="#V" n="127" break="no"/>lior subiecto.
+    </p>
+            <p xml:id="FrMS88-f44573-d1e165">
+      ¶ Item tunc talis virtus esset in aere: quia sonus 
+      <lb ed="#V" n="128"/>est in aere.
+    </p>
+            <p xml:id="FrMS88-f44573-d1e170">
+      ¶ Tertia conclusio: quia tunc fieret mentio de 
+      <lb ed="#V" n="129"/>aere in sancramento baptir: quia aliquid faceret.
+    </p>
+            <p xml:id="FrMS88-f44573-d1e175">
+      ¶ Quarta conclusio est: 
+      <lb ed="#V" n="130"/>et patet: quia virtus praencipalius est in forma: quam in materia. sed in 
+      ver<lb ed="#V" n="131" break="no"/>bis non est talis virtus vt ostensum est ergo etc.
+    </p>
+            <p xml:id="FrMS88-f44573-d1e182">
+      ¶ Dico ergo quod 
+      <lb ed="#V" n="132"/>talem virtutem non est ponere.
+    </p>
+            <p xml:id="FrMS88-f44573-d1e187">
+      ¶ Sed contra. omnes scti po¬ 
+      <!--383.xml-->
+      <pb ed="#V" n="190-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>nunt istam virtutem.
+    </p>
+            <p xml:id="FrMS88-f44573-d1e198">
+      ¶ hic dicitur quod intelligitur eo modo qui in 
+      <lb ed="#V" n="2"/>ierarchicis actibus. sicut christus dedit apitulis virtutem et potestatem 
+      <lb ed="#V" n="3"/>super omnia demonia.
+    </p>
+            <p xml:id="FrMS88-f44573-d1e206">
+      ¶ fuit ne virtus ista aliqua qualitas 
+      al<lb ed="#V" n="4" break="no"/>soluta: Non capit intellectus hoc: sed dedit eis virtutem: quia eis 
+      <lb ed="#V" n="5"/>imponentibus manus deus immediate sanaret. non omnes 
+      an<lb ed="#V" n="6" break="no"/>geli possent luciferum expellere: sed deus immediate facit 
+      <lb ed="#V" n="7"/>Et illa virtus non est nisi voluntas christi. Item ordo virtutum 
+      ce<lb ed="#V" n="8" break="no"/>estium et angelorum qui facit mirabilia: secundum Aug. dic quod 
+      nul<lb ed="#V" n="9" break="no"/>lam formam producunt. ideo disponit aliquid et deus 
+      <lb ed="#V" n="10"/>facit. Item in polliticis quid confert. pripiu. quando con 
+      <lb ed="#V" n="11"/>fert auctoritatem. Illa auctoritas est huius forma que 
+      <lb ed="#V" n="12"/>non est forma absoluta: sed respectiua tantum.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

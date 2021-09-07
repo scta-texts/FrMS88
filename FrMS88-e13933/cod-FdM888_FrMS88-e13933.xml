@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 10</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 10</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="20-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e13933"><!-- l1d2q10 -->
+            <head xml:id="FrMS88-e13933-Hd1e108">Quaestio 10</head>
+            <p xml:id="FrMS88-e13933-d1e111">
+      Questio. x. 
+      <lb ed="#V" n="31"/>trinitas personarum sit 
+      demonstra<lb ed="#V" n="32" break="no"/>Tum bilis propter quid. quod sic. quia Ric. de 
+      <lb ed="#V" n="33"/>tri. circa principium dicit quod ad hoc inducuntur non solum 
+      <lb ed="#V" n="34"/>rationes probabiles: sed necessarie.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e122">
+      ¶ 
+      Con<lb ed="#V" n="35" break="no"/>l tra Diony. in ca. de vnica et discreta 
+      theo<lb ed="#V" n="36" break="no"/>logia. dicit quod emanationes diuinarum personarum nec 
+      dice<lb ed="#V" n="37" break="no"/>re nec cogitare est possibile. nec per consequens demonstrabile.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e131">
+      ¶ Circa 
+      <lb ed="#V" n="38"/>istam quaestionem occurrit quadruplex modus inquirendi propositum. 
+      <lb ed="#V" n="39"/>Primus est quantum ad intellectum glorificatu. 2us quantu ad in 
+      <lb ed="#V" n="40"/>tellectum non glorificatum. sed supenaturaliter eleuatum: sicut positum 
+      <lb ed="#V" n="41"/>est in quaestione de cognitione notitie abstractiue. 3us quanti 
+      <lb ed="#V" n="42"/>ad intellectum separatum in puris naturalibus constitutum. 4us 
+      quan<lb ed="#V" n="43" break="no"/>tum ad intellectum coniunctum supenaturaliter non eleuatum. 
+      <lb ed="#V" n="44"/>ad primum dico quatuor conclusiones. Prima est quod 
+      <lb ed="#V" n="45"/>Quatum de facto intuitiue cognoscenti diuinam 
+      <lb ed="#V" n="46"/>essentiam est per se nota trinitas personarum: sed quod est per se 
+      no<lb ed="#V" n="47" break="no"/>tum alicui non est demonstrabile. ergo tali cognosceti non est 
+      <lb ed="#V" n="48"/>trinitas demonstrabilis. Maior probatur. quia intuitiue 
+      co<lb ed="#V" n="49" break="no"/>gnoscenti aliquod obiectum sunt per se non illa quae per accidens insunt 
+      <lb ed="#V" n="50"/>illi obiecto etiam separabiliter. ergo multo magis quae insunt 
+      inseparabi<lb ed="#V" n="51" break="no"/>liter sed trinitas inseparabiliter inest diuine essentie. ergo etc 
+      <lb ed="#V" n="52"/>Minor assumpta apparet. quia quod est per se notum habet euidentiam 
+      <lb ed="#V" n="53"/>a se: quod non est per se notum non habet euidentiam a se: sed ab alio: 
+      <lb ed="#V" n="54"/>impossibile autem est quod idem habeat euidentiam a se et non a se: ab alio 
+      <lb ed="#V" n="55"/>et non ab alio.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e173">
+      ¶ 2a conclusio quod si per impossibile ostenderetur alicui 
+      diuina<lb ed="#V" n="56" break="no"/>essentia intuitiue et non tria suppositum: si communicabilitas non osten 
+      <lb ed="#V" n="57"/>deretur illi intuitiue posset tali intellectui demonstrari quod 
+      di<lb ed="#V" n="58" break="no"/>uina essentia est comunicabilis. Et hoc probatur sic. Omnis per se 
+      <lb ed="#V" n="59"/>passio non nota de subiecto euidenter cognito: potest tali 
+      intel<lb ed="#V" n="60" break="no"/>lectui de isto subiecto demonstrari: sed communicabilitas est 
+      <lb ed="#V" n="61"/>passio diuine essentie: et non cognoscitur a tali intellectu. 
+      er<lb ed="#V" n="62" break="no"/>go etc. naturalis enim aptitudo est.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e192">
+      ¶ 3a conclusio est quod nulla relatio 
+      <lb ed="#V" n="63"/>num vel diuinarum personarum posset de diuina essentia tali in 
+      <lb ed="#V" n="64"/>tellectui de isto subiecto demonstrari. Et hoc probo sic. Omnis 
+      per<lb ed="#V" n="65" break="no"/>se passio demonstrabilis de subiecto concomitatur ipsum 
+      sub<lb ed="#V" n="66" break="no"/>iectum vbicumque reperiatur: quia per se inest ei. divina autem essentia¬ 
+      <!--43.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>inuenitur in vna persona sine relatione alterius persone constituti 
+      <lb ed="#V" n="68"/>ua.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e212">
+      ¶ Et praeterea nullum inferius vel proprium de commni vel de 
+      su<lb ed="#V" n="69" break="no"/>periori potest demonstrari: cum sint inadequata. illa autem quorum 
+      <lb ed="#V" n="70"/>vnum de alio demonstratur sunt adequata: sed divina essentia est 
+      <lb ed="#V" n="71"/>superius ad relationem: et relatio quasi inferius. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e221">
+      ¶ 4a conclusi 
+      <lb ed="#V" n="72"/>quod trinitas formaliter et actualiter numquam potest demonstrari: quia 
+      <lb ed="#V" n="73"/>constat ex relationibus ex quibus demonstrari non 
+      <lb ed="#V" n="74"/>contingit.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e230">
+      ¶ Contra. quicquid in diuinis est aptum esse: totum inest 
+      <lb ed="#V" n="75"/>de facto cum non sit ibi potentia distans ab actu. Si ergo de 
+      diuina<lb ed="#V" n="76" break="no"/>nam demonstratur quod est communicabilis tribus suppositis 
+      infer<lb ed="#V" n="77" break="no"/>tur quod de facto sit comuicata.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e239">
+      ¶ Ideo dico quod due vltime 
+      conclus<lb ed="#V" n="78" break="no"/>nes non sunt omnino certe. Nam si homo esset pure necessare esse: 
+      qui<lb ed="#V" n="79" break="no"/>cunque demonstraret hominem esse risibilem: demonstraret er 
+      <lb ed="#V" n="80"/>esse actu ridentem. Ex consequenti tamen dicere possum quod iste 
+      due<lb ed="#V" n="81" break="no"/>nes verificantur quantum ad primam demonstrationem: licet 
+      <lb ed="#V" n="82"/>per aliam posset demonstrari quelibet illarum. 
+      <lb ed="#V" n="83"/>ad 2m intellectum dico 4or conclusiones. Pri 
+      <lb ed="#V" n="84"/>Quantum ma est quod habens notitiam abstractiuam 
+      <lb ed="#V" n="85"/>de divina essentia sub ratione sua propria: potest demonstrare quod 
+      <lb ed="#V" n="86"/>ipsa est comunicabilis tribus suppositis. hoc probo sic. Omnis 
+      <lb ed="#V" n="87"/>intellectus habens speciem alicuius obiecti eius quiditatem specificam repre 
+      <lb ed="#V" n="88"/>sentantem: potest demonstrare per se passionem eius: talis est 
+      comuni<lb ed="#V" n="89" break="no"/>cabilitas. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e268">
+      ¶ Si dicas. maior est vera si subiectum est dis 
+      <lb ed="#V" n="90"/>finibile. essentia autem non est huiusmodi: quia est simpliciter simiu.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e274">
+      ¶ Ad 
+      <lb ed="#V" n="91"/>hoc dico quod conclusio est dubia: vel potest dici quod quando cognoscitur 
+      <lb ed="#V" n="92"/>aliquid quod mediat inter subiectum et passionem non est 
+      inconueni<lb ed="#V" n="93" break="no"/>ens: infinitas autem mediat inter essentiam diuinam et trinita. 
+      <lb ed="#V" n="94"/>tem: et ideo per infinitatem posset demonstrari quod diuina esset 
+      <lb ed="#V" n="95"/>tia sit communicabilis tribus personis.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e287">
+      ¶ 2a conclusio. quod talis intellectus 
+      <lb ed="#V" n="96"/>potest demonstrare: licet non prima demonstratione: quod est actu comunica 
+      <lb ed="#V" n="97"/>ta: quia quicumque intellectus cognoscit aptitudinem in aliquo ob 
+      <lb ed="#V" n="98"/>iecto summe necessario cognoscere potest actum ad quem est 
+      illa<lb ed="#V" n="99" break="no"/>aptitudo. deus autem est summe necessarius: et id cognoscens 
+      <lb ed="#V" n="100"/>communicabilitatem diuine essentie potest demonstrare vlterius quod 
+      <lb ed="#V" n="101"/>psa sit actu connicata: sicut si homo esset necesse esse cognito 
+      <lb ed="#V" n="102"/>quod esset risibilis posset cognosci quod actu rideret.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e305">
+      ¶ 3a conclusio est. 
+      <lb ed="#V" n="103"/>quod proprietas cuiuslibet persone est demonstrabilis de 
+      diui<lb ed="#V" n="104" break="no"/>na essentia. Nam de quocumque summe necessario potest demonstrari 
+      <lb ed="#V" n="105"/>aptitudo naturalis ad aliquid existendum in eo: de eo potest 
+      <lb ed="#V" n="106"/>demonstrari actus illius aptitudinis: sed comnicabilitas 
+      <lb ed="#V" n="107"/>potest demonstrari. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e318">
+      ¶ 4a conclusio est. quod tota trinitas potest de 
+      <lb ed="#V" n="108"/>monstrari cum ipsa constet ex relationibus que vt dictum est 
+      <lb ed="#V" n="109"/>possunt demonstrari.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e325">
+      ¶ Contra. medium commune nunquam 
+      demon<lb ed="#V" n="110" break="no"/>strat aliquid sine quo repeariri potest subiectum. diuina autem essen 
+      <lb ed="#V" n="111"/>tia: vt patuit reperiri potest sine singulis relationibus. et ind 
+      <lb ed="#V" n="112"/>falsa esset conclusi demonstrata.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e334">
+      ¶ Dico ad hoc quod nunquam 
+      inueni<lb ed="#V" n="113" break="no"/>tur essentia sine quacumque relatione: nec econverso. tamen essentia que est 
+      <lb ed="#V" n="114"/>in patre habet filiationem: licet vt in patre reduplicatiue: non 
+      ha<lb ed="#V" n="115" break="no"/>beat filiationem: sicut licet homo semper sit risibilis. non tamen 
+      <lb ed="#V" n="116"/>in primo signo est risibilis vel quiditatiue. Et sic dico de 
+      di<lb ed="#V" n="117" break="no"/>uinal essentia quod vbique habet relationem simpliciter. 
+      <lb ed="#V" n="118"/>ad 3m intellectum dicuntaliqui quod non est 
+      <lb ed="#V" n="119"/>Quantum demonstrabilis ex puris naturalibus 
+      <lb ed="#V" n="120"/>tali intellectui: quia obiectum supernaturale et transcendens omnia creata 
+      <lb ed="#V" n="121"/>est trinitas personarum: sicut hylaus docet de trini. diffuse. 
+      </p>
+            <p xml:id="FrMS88-e13933-d1e357">
+               <lb ed="#V" n="122"/>¶ Sed contra. suppono quod intellectus talis intelligat omnia 
+      <lb ed="#V" n="123"/>que sunt in creatura formaliter que sunt limitata. cum 
+      er<lb ed="#V" n="124" break="no"/>go in creatura reluceat vestigium trinitatis ex ipso 
+      po<lb ed="#V" n="125" break="no"/>terit cognoscere trinitatem: sicut docet Augustinus. super gen. 
+      <lb ed="#V" n="126"/>ad litteram. Si autem dicatur quod est maior dissimilitudo 
+      <lb ed="#V" n="127"/>quam conformitas habetur propositum: quia sicut respectus 
+      simili<lb ed="#V" n="128" break="no"/>tudinis non cognoscitur nec concipitur sine termino: ita 
+      <lb ed="#V" n="129"/>nec respectus dissimilitudinis.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e377">
+      ¶ 2o quia productio amori: 
+      <lb ed="#V" n="130"/>spirati in nobis habet conformitatem quae est formaliter in nobis 
+      <lb ed="#V" n="131"/>ad productionem spiritus scilicet Cum ergo conformitas sit quid limitatum 
+      <lb ed="#V" n="132"/>et posset cognosci. ergo et terminus.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e386">
+      ¶ 3o eodem modo pro¬ 
+      <!--44.xml-->
+      <pb ed="#V" n="21-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>batur de conformitate verbi nostri ad verbum diuinum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e397">
+      ¶ 4a 
+      <lb ed="#V" n="2"/>quia anima nostra facta est ad imaginem trinitatis. sicut dicit Augsi 
+      <lb ed="#V" n="3"/>v. et. o. de tri. Intellectus autem talis cognoscit animam nostram. 
+      <lb ed="#V" n="4"/>non solum illud quod est in anima: sed inquantum ad imaginem trinita 
+      <lb ed="#V" n="5"/>tis: cum talis respectus sit limitatus. ergo cognoscit ipsam 
+      tru<lb ed="#V" n="6" break="no"/>nitatem arguitiue. Posset ergo dici quod demonstratiue propter istas 
+      <lb ed="#V" n="7"/>rationes quae facte sunt talis intellectus non cognosceret trinita 
+      <lb ed="#V" n="8"/>tem. Nam hoc non concludunt sed magis oppositum. omnes enim fundam 
+      <lb ed="#V" n="9"/>tur in vna radice scilicet quod cognoscens relationem aliquam necessario 
+      <lb ed="#V" n="10"/>prius nam vel simul cognoscit terminum.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e419">
+      ¶ Tunc posset ar 
+      <lb ed="#V" n="11"/>gui. Omnis intellectus cognoscens relationem aliquam 
+      necessa<lb ed="#V" n="12" break="no"/>rio vel prius nam vel simul cognoscit terminum: quia si 
+      po<lb ed="#V" n="13" break="no"/>sterius in illo priori esset cognita relatio sine termino: sed per 
+      te<lb ed="#V" n="14" break="no"/>talis intellectus cognoscit relationem quae est ad terminum. ergo prio 
+      <lb ed="#V" n="15"/>us: vel simul cognoscit terminum.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e432">
+      ¶ Tunc arguo 
+      vltra<lb ed="#V" n="16" break="no"/>Omnis cognoscens demonstratiue aliquid per aliud prius 
+      cogno<lb ed="#V" n="17" break="no"/>scit illud aliud: sed intellectus talis no prius cognoscit relatui 
+      <lb ed="#V" n="18"/>nem quam trinitatem. ergo per relationem non cognoscit demonstratiue 
+      tri<lb ed="#V" n="19" break="no"/>nitatem.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e444">
+      ¶ Sed quid: cognosceret ne intellectus aliquo modo 
+      <lb ed="#V" n="20"/>sub ratione specifica trinitatem:
+    </p>
+            <p xml:id="FrMS88-e13933-d1e449">
+      ¶ Dico quod supposito 
+      <lb ed="#V" n="21"/>quod illas relationes cognoscent nescirem euadere quin 
+      cogno<lb ed="#V" n="22" break="no"/>sceret necessario trinitatem.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e456">
+      ¶ Dico ergo quod auctoritates  
+      <lb ed="#V" n="23"/>sanctorum: maxime Dionysii videntur esse ad hoc quod ex 
+      <lb ed="#V" n="24"/>puris naturalibus trinitas non possit cognosci. Ideo 
+      contra<lb ed="#V" n="25" break="no"/>nem istam quantum ad istum intellectum non assero. 
+      <lb ed="#V" n="26"/>ad 4m dicunt omnes theologi quod ista 
+      <lb ed="#V" n="27"/>Quantum bata trinitas non est nobis 
+      demonstrabi<lb ed="#V" n="28" break="no"/>lis. quia intellectus non cognoscens distincte et quiditatiue rati 
+      <lb ed="#V" n="29"/>nem aliquam specificam non potest demonstratiue cognoscere pars 
+      <lb ed="#V" n="30"/>quid passionem propriam illius quiditatis et rationis: et talis est 
+      <lb ed="#V" n="31"/>intellectus noster in via. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e478">
+      ¶ Sed contra. quia plato posuit 
+      <lb ed="#V" n="32"/>deum et natum de deo. vt recitat Aug. de ci. 2o porphyrius 
+      <lb ed="#V" n="33"/>posuit patrem et filium. et horum medium. vt habetur ibidem.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e485">
+      ¶ 3o arum. 
+      <lb ed="#V" n="34"/>primo ce. et mum. in numero ternario exhibuit seipsum magnifica 
+      <lb ed="#V" n="35"/>re vnum deum.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e492">
+      ¶ 4o alius philosophus dicit monas gignit mone 
+      <lb ed="#V" n="36"/>dem. et in se ipso reflectit suum amorem vel ardorem.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e498">
+      ¶ 
+      Di<lb ed="#V" n="37" break="no"/>co quod multa probabilia et probabiliter annunciata dixerunt: et 
+      <lb ed="#V" n="38"/>popter nos multa per reuelationem humerunt: vt recitat Augu. 
+      </p>
+            <p xml:id="FrMS88-e13933-d1e505">
+               <lb ed="#V" n="39"/>¶ Sed hic sunt due didifficts. prima cum intellectus noster possit 
+      cogno<lb ed="#V" n="40" break="no"/>scere respctum creaturarum ad deum. omnis autem creatura habet 
+      <lb ed="#V" n="41"/>respctum posterioritatis o ad illum. ergo illam relationem c poste 
+      <lb ed="#V" n="42"/>rioritatis cognoscendo terminum cognosceret.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e516">
+      ¶ 2a quia 
+      <lb ed="#V" n="43"/>omnis cognoscens quiditatem aliquam potest cognoscere 
+      apti<lb ed="#V" n="44" break="no"/>tudinem illius quiditatis quae est propria passio eius in secundo modo 
+      di<lb ed="#V" n="45" break="no"/>cendi per se. Ex hoc enim quod habet talem quiditatem habet talem aptitudinem 
+      <lb ed="#V" n="46"/>sed intellectus noster cognoscit talem quiditatem quae est formaliter in 
+      <lb ed="#V" n="47"/>deo scilicet intellectum et voluntatem. ergo cognoscere poterit 
+      ta<lb ed="#V" n="48" break="no"/>les aptitudines intellectus et voluntatis: sed tales sunt 
+      <lb ed="#V" n="49"/>productiuitas et huiusmodi. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e534">
+      ¶ Ad primam dico quod posito quod 
+      <lb ed="#V" n="50"/>cognosceremus tales respectus bene sequeretur talis 
+      <lb ed="#V" n="51"/>conclusio. Sed dico quod tales respectus sunt nobis peni 
+      <lb ed="#V" n="52"/>tus et totaliter ignoti.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e543">
+      ¶ Ad aliud dico quod bene 
+      proba<lb ed="#V" n="53" break="no"/>tur quod intellectus est plurificabilis pluribus 
+      supposi<lb ed="#V" n="54" break="no"/>tis et communicabilis. sed quod idem numeraliter sit comunicabilis et 
+      <lb ed="#V" n="55"/>comunicatiuus: non probatur.
+    </p>
+            <p xml:id="FrMS88-e13933-d1e552">
+      ¶ Ad auctoritates dico quod ille 
+      <lb ed="#V" n="56"/>rationes sunt necessarie supposita fide. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

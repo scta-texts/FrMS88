@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="163-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f23420"><!-- l2d35-42q4 -->
+            <head xml:id="FrMS88-f23420-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f23420-d1e111">
+               <lb ed="#V" n="123"/>¶ Questio. iiii 
+      <lb ed="#V" n="124"/>quaestio est: vtrum continuum sit: 
+      di<lb ed="#V" n="125" break="no"/>Uarta uisibile in infinitum. Et videtur 
+      <lb ed="#V" n="126"/>quod non: quia constaret ex infinitis.
+    </p>
+            <p xml:id="FrMS88-f23420-d1e122">
+      ¶ Contra 
+      <lb ed="#V" n="127"/>in numeris est processus in infinitum: et 
+      causa<lb ed="#V" n="128" break="no"/>Atur ex diuisione continui 
+      <lb ed="#V" n="129"/>opinio platonis quod linea componitur ex 
+      <lb ed="#V" n="130"/>hic sucpunctis: et superficies ex lineis: et corpus 
+      <lb ed="#V" n="131"/>ex superficiebus: puncta enim ingrediuntur diffinitione 
+      <lb ed="#V" n="132"/>linee.
+    </p>
+            <p xml:id="FrMS88-f23420-d1e138">
+      ¶ Contra illud arguitur geometrice de diame¬ 
+      <!--330.xml-->
+      <pb ed="#V" n="164-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>tro et costa in quadrato quod erit equalis diametro costa 
+      <lb ed="#V" n="2"/>ponatur enim costa quae habeat. xii. puncta: et ita alia. a 
+      quoli<lb ed="#V" n="3" break="no"/>bet illorum punctorum potest trahi linea ad aliud aliorum. iste 
+      <lb ed="#V" n="4"/>xii. linee transeunt per diametrum in puncto: quia in latitudine 
+      <lb ed="#V" n="5"/>diameter est indiuisibilis: si tangit in puncto: ergo 
+      diame<lb ed="#V" n="6" break="no"/>ter non constat nisi ex. xii. punctis: intersecant enim in duobus vel 
+      <lb ed="#V" n="7"/>in medio ille. xii. linee contingunt. xii. si vero in medio: 
+      ergo<lb ed="#V" n="8" break="no"/>duplum est diametrum.
+    </p>
+            <p xml:id="FrMS88-f23420-d1e164">
+      ¶ Secundo probo quod diameter circuli 
+      <lb ed="#V" n="9"/>erit eque magnus sicut circulus. a quolibet puncto 
+      dia<lb ed="#V" n="10" break="no"/>metri etc. vel mediate vel immediate intersecat: linea enim 
+      <lb ed="#V" n="11"/>vel attingit in minus quam in punceo. quod non potest esse: si maius 
+      <lb ed="#V" n="12"/>non potest esse nisi in duplo.
+    </p>
+            <p xml:id="FrMS88-f23420-d1e176">
+      ¶ Tertio sic: describantur duo 
+      <lb ed="#V" n="13"/>circuli infra se: omnes linee ducte a centro vsque ad circumferem 
+      <lb ed="#V" n="14"/>tiam sunt equales: ponatur quod circulus exterior habeat. xx. 
+      <lb ed="#V" n="15"/>puncta: trahantur linee ad centrum. intersecant inferiorem in 
+      pun<lb ed="#V" n="16" break="no"/>cto: et quod possunt protrahi patet: aut ille linee concurrent: sic 
+      <lb ed="#V" n="17"/>quod vna erit coniuncta alteri in medio circuli: si distans 
+      <lb ed="#V" n="18"/>ergo inferior circulus erit maior exteriori: si immediate sicut 
+      <lb ed="#V" n="19"/>in superiori habtur intentum. Si dicatur quod concurrant in vno puncto: 
+      <lb ed="#V" n="20"/>tunc in duplo erit exterior maior: quia duo puncta respondent 
+      <lb ed="#V" n="21"/>vni puncto.
+    </p>
+            <p xml:id="FrMS88-f23420-d1e198">
+      ¶ 4o sic. describatur vnus circulus immelice 
+      pos<lb ed="#V" n="22" break="no"/>alium et contingat ipsum: et sit vnus maior: aut vnus punctus 
+      <lb ed="#V" n="23"/>continget vnu: si quilibet contingit alium: habetur propositum: si punctus 
+      mi<lb ed="#V" n="24" break="no"/>noris contingit duo. iste erit in duplo minor. Unde si volua 
+      <lb ed="#V" n="25"/>tur rota exterior: et sit vna immobilis infra eam: linea 
+      tran<lb ed="#V" n="26" break="no"/>siens si continget vnum punctum rote interioris quando continget 
+      pum<lb ed="#V" n="27" break="no"/>ctum rote exterioris: ergo etc.
+    </p>
+            <p xml:id="FrMS88-f23420-d1e214">
+      ¶ Contra 2m. quod superficies non 
+      <lb ed="#V" n="28"/>componitur ex lineis: si circulus coniungatur circulo. 
+      vlte<lb ed="#V" n="29" break="no"/>rius: vel habebit superficiem vel punctum. si habet punctum: vlterius 
+      <lb ed="#V" n="30"/>describas quadratum: eodem modo de circulo.
+    </p>
+            <p xml:id="FrMS88-f23420-d1e223">
+      ¶ Contra 3m 
+      <lb ed="#V" n="31"/>quod corpus non componatur ex superficiebus. Spera est 
+      cor<lb ed="#V" n="32" break="no"/>pus: sed medium extensum. latera incuruantur.
+    </p>
+            <p xml:id="FrMS88-f23420-d1e230">
+      ¶ Iterum 
+      <lb ed="#V" n="33"/>in corpore sperico et piramidali.
+    </p>
+            <p xml:id="FrMS88-f23420-d1e235">
+      ¶ fuit ergo opinio contraria: 
+      <lb ed="#V" n="34"/>ratio sua est insta: omne simplex attingit aliud 2m se totum: et 
+      <lb ed="#V" n="35"/>nullam extensionem faciunt.
+    </p>
+            <p xml:id="FrMS88-f23420-d1e243">
+      ¶ Alia ratio sua solubilis est: que 
+      <lb ed="#V" n="36"/>dicit quod linea noueme punctorum scindatur per medium oportet 
+      pum<lb ed="#V" n="37" break="no"/>ctum diuidi.
+    </p>
+            <p xml:id="FrMS88-f23420-d1e250">
+      ¶ Responidet Aug. super gene. quod quaelibet pars 
+      cor<lb ed="#V" n="38" break="no"/>poris est corpus: et corpus est diuisibile. in homogeneis 
+      <lb ed="#V" n="39"/>enim est eiusdem rationis totum / et pars.
+    </p>
+            <p xml:id="FrMS88-f23420-d1e257">
+      ¶ Contra. inter primum 
+      <lb ed="#V" n="40"/>dunctum et quemlibet alium in linea cognitum a deo est dare 
+      <lb ed="#V" n="41"/>medium vel non: si sic: non cognoscit deus illum: si non. habetr in 
+      <lb ed="#V" n="42"/>tentum. Ulterius. vltra omnem numerum cognitum a deo est da 
+      <lb ed="#V" n="43"/>re numerum. Una solutio dicit quod omnis accipitur collectiue in 
+      <lb ed="#V" n="44"/>vna. et distributiue in alia.
+    </p>
+            <p xml:id="FrMS88-f23420-d1e270">
+      ¶ Sed hoc non videtur: quia in 
+      re<lb ed="#V" n="45" break="no"/>sumitur distributiue. Nec valet alia solutio de 
+      supposi<lb ed="#V" n="46" break="no"/>tione simplici et confusa: quia vtrobique accipitur 
+      suppo<lb ed="#V" n="47" break="no"/>sitio simplex: non est ergo alia solutio nisi quod hoc signum: 
+      <lb ed="#V" n="48"/>omnis. non potest talibus addi.
+    </p>
+            <p xml:id="FrMS88-f23420-d1e281">
+      ¶ Ideo dico quod motus 
+      <lb ed="#V" n="49"/>non est compositus ex mutatis esse ergo etc.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="64-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-e46499"><!-- l1d13q1 -->
+            <head xml:id="FrMS88-e46499-Hd1e108">Quaestio 1</head>
+            <p xml:id="FrMS88-e46499-d1e111">
+               <lb ed="#V" n="36"/>¶ Distinctio. xiii. Questio. i 
+      <lb ed="#V" n="37"/>Host hoc considerandum est etc. 
+      <lb ed="#V" n="38"/>distinctionem tredecimam que 
+      <lb ed="#V" n="39"/>Irca ritur. Utrum in diuinis sit ordo 
+      <lb ed="#V" n="40"/>nature quod non. Pyla. 7. de tri. In diuinis 
+      <lb ed="#V" n="41"/>non est nisi vna nam in generante et genito: 
+      <lb ed="#V" n="42"/>sed non potest esse ordo naturae sine 
+      distinctio<lb ed="#V" n="43" break="no"/>ne nature.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e131">
+      ¶ Sed contra. Dyon. ponit 
+      <lb ed="#V" n="44"/>plura naturalia ergo ordinata.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e136">
+      ¶ hic sunt duo 
+      facienda<lb ed="#V" n="45" break="no"/>primum est declarare quid sit ordo naturae. 2o si sit in diuinis. 
+      <lb ed="#V" n="46"/>ad primum praetermissis multis descrit 
+      <lb ed="#V" n="47"/>Quantum tionibus quae non videntur vtiles. 
+      Di<lb ed="#V" n="48" break="no"/>co secundum frem Ido quod ordo naturae est ille qui consequitur 
+      extrema<lb ed="#V" n="49" break="no"/>ex rationibus suis formalibus. Et hoc declaro 4o secundum 4or 
+      ordi<lb ed="#V" n="50" break="no"/>nes qui inueniuntur. quibus non competit ista diffinitio. Primus est 
+      <lb ed="#V" n="51"/>ordo durationis. 2us est ordo origis. 3us est ordo perfectionis 
+      <lb ed="#V" n="52"/>et eminentie. 4us est ordo situationis vel loci. Nullus isto 
+      <lb ed="#V" n="53"/>rum sequitur extrema ex suis rationibus formalibus. Probo 
+      <lb ed="#V" n="54"/>primo de ordine durationis. Nam in his quae se habent secundum 
+      or<lb ed="#V" n="55" break="no"/>dinem durationis non repugnat priori esse posterius ratione 
+      <lb ed="#V" n="56"/>illius ordinis: sed si repugnat: hoc est ratione alterius adiuncti. 
+      <lb ed="#V" n="57"/>Et tota ratio est: quia non est ordo essentialis: ideo per accidens 
+      or<lb ed="#V" n="58" break="no"/>dinatur. Nec etiam 2uo consequitur extrema scilicet ordo originis. 
+      <lb ed="#V" n="59"/>nam iste ordo qui inuenitur in his que sunt eiusdem rationis 
+      <lb ed="#V" n="60"/>formalis. non potest esse talis quod consequatur rationes formales. 
+      <lb ed="#V" n="61"/>Ordo enim qui consequitur rationes formales semper est inter 
+      il<lb ed="#V" n="62" break="no"/>la que sunt formaliter distincta. huius ratio potest esse ista: 
+      or<lb ed="#V" n="63" break="no"/>do consequens rationes formales: sicut et omnis ordo: includit relatio 
+      <lb ed="#V" n="64"/>nes diuersarum rationum. Sed relationes diuersarum rationum non 
+      <lb ed="#V" n="65"/>possunt esse inter ea quae sunt eiusdem rationis vt eiusdem rationis. 
+      <!--130.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="66"/>ergo etc. quod autem ordo originis possit esse inter eam quae sunt 
+      <lb ed="#V" n="67"/>eiusdem rationis: videlicet inter hominem et hominem patet. Nec etiam 3us 
+      con<lb ed="#V" n="68" break="no"/>sequitur extrema scilicet ordo eminentie vel perfectionis. nam 
+      infra<lb ed="#V" n="69" break="no"/>eandem naturam inuenitur talis ordo scilicet in calore habente gradus 
+      di<lb ed="#V" n="70" break="no"/>uersos maiores et minores. Similiter etiam patet quod non sequitur rationes 
+      <lb ed="#V" n="71"/>formales in his que sunt specie diuersa. non enim vna ratio 
+      for<lb ed="#V" n="72" break="no"/>malis melior est altera vel perfectior nisi propter quantitatem 
+      <lb ed="#V" n="73"/>virtutis que est modus intrinsecus rationis formalis. vnde 
+      <lb ed="#V" n="74"/>abstracta ratione formali a modo intrinseco scilicet a finito vel 
+      <lb ed="#V" n="75"/>infinito. ipsa cuicumque comparata nec est perfectior nec imperfectior. 
+      <lb ed="#V" n="76"/>et ex hoc patet: quod ei non competit diffinitio data ordini naturae. Nec 
+      <lb ed="#V" n="77"/>etiam quartus consequitur extrema scilicet ordo situationis. non enim repugat 
+      <lb ed="#V" n="78"/>soli quod sit inferior luna quantumcumque sit superior dte facto. Et 
+      hu<lb ed="#V" n="79" break="no"/>ius ratio est. quia ordinem illum non habent a se: sed magis per accidens 
+      <lb ed="#V" n="80"/>patet ergo quod in solo ordine naturae est hoc quod scilicet consequitur rationes 
+      for<lb ed="#V" n="81" break="no"/>males suorum extremorum: et ideo potest vocari proprie ordo difuini 
+      <lb ed="#V" n="82"/>nis. vnde quicumque cognosceret diffinitiones taliter ordinatorum 
+      po<lb ed="#V" n="83" break="no"/>set per tales diffinitiones illum ordinem naturae demonstrare: quia 
+      ti<lb ed="#V" n="84" break="no"/>rationes formales multorum scire non possumus: hinc est quod 
+      <lb ed="#V" n="85"/>per regulam datam a fare Io. eum in multis inuestigamus: quae est 
+      ta<lb ed="#V" n="86" break="no"/>lis. quod quandocumque aliqua sic se habent quod vnum potest esse sine altero et 
+      <lb ed="#V" n="87"/>non econverso talia habent ordinem naturae: ita quod separabile est prius. et 
+      re<lb ed="#V" n="88" break="no"/>liquum non separabile scilicet posterius.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e238">
+      ¶ Sed contra istam rationem instau 
+      <lb ed="#V" n="89"/>4r. Primo quia ordine naturae genus praecedit specie. non tamen potest 
+      ge<lb ed="#V" n="90" break="no"/>nus esse sine specie. similiter praecedit differentiam: tamen impossibile est quod genus 
+      in<lb ed="#V" n="91" break="no"/>ueniatur sine differentia.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e248">
+      ¶ 2o quia ordine naturae natura specifica est 
+      prior<lb ed="#V" n="92" break="no"/>heceitate vel proprietate indiuiduali: et tamen non potest separari 
+      <lb ed="#V" n="93"/>a proprietatibus indiuidualibus.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e255">
+      ¶ 3o subiectum ordine naturae est prius 
+      <lb ed="#V" n="94"/>passione: et tamen subiectus non potest ab ipsa passione separari: quia tunc 
+      <lb ed="#V" n="95"/>contra demonstrationis esset contingens.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e262">
+      ¶ 4o sic. quia creatura est 
+      <lb ed="#V" n="96"/>prior natura relatione sui ad deum. et tamen creatura non potest ab ea se 
+      <lb ed="#V" n="97"/>parari.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e269">
+      ¶ Ad ista dico quod illa regula tanet.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e272">
+      ¶ Ad primum 
+      dice<lb ed="#V" n="98" break="no"/>quod natura specifica a quacumque differentia indiuiduali: et genus a 
+      quae<lb ed="#V" n="99" break="no"/>cumque differentia specifica possunt separari. nam animal separatur a rationali 
+      <lb ed="#V" n="100"/>quia est cum irrationali. sic natura separatur ab illa heceitate: quia est 
+      <lb ed="#V" n="101"/>sub alia. non tamen oportet quod seperetur ab omni. Et per idem ad 2m.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e283">
+      ¶ Ad  
+      <lb ed="#V" n="102"/>3m dico de subiecto et passione quod non repugnat subiecto ex ratione 
+      <lb ed="#V" n="103"/>formali esse sine passione: sed solum accidit hoc propter 
+      identita<lb ed="#V" n="104" break="no"/>tem realem.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e293">
+      ¶ Ad 4m patet per idem. Ideo enim creature repugnat 
+      <lb ed="#V" n="105"/>separari a relatione: quia est sibi realiter idem: non tamen hoc ex ratione 
+      <lb ed="#V" n="106"/>formali quiditatiua.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e300">
+      ¶ Confirmo ergo regulam datam scilicet de diffiut 
+      <lb ed="#V" n="107"/>finitione ordinis naturae: quia si repugnaret priori esse fine poste 
+      <lb ed="#V" n="108"/>riori: tunc non esset prius: quia in illo priori non est suum poste. 
+      <lb ed="#V" n="109"/>rius. ergo sibi non repugnat.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e309">
+      ¶ Sed hic sunt duo dubia. 
+      <lb ed="#V" n="110"/>Primum est de ordine generationis. Priora enim generatione consueue 
+      <lb ed="#V" n="111"/>runt dici posteriora perfectione.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e316">
+      ¶ 2m est de ordine 
+      exe<lb ed="#V" n="112" break="no"/>cutionis: que enim sunt priora intentione sunt posteriora 
+      exe<lb ed="#V" n="113" break="no"/>cutione.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e323">
+      ¶ Dico quod priora generatione sic accipiendo generationem 
+      <lb ed="#V" n="114"/>sunt priora secundum naturam. non enim repugnat priori ordine 
+      generatio<lb ed="#V" n="115" break="no"/>nis esse fine posteriori. et sic per consequens diffinitionem habent 
+      ordi<lb ed="#V" n="116" break="no"/>natorum secundum naturam. Sed de ordine executionis potest dici. 
+      <lb ed="#V" n="117"/>quod priora intentione sunt priora secundum naturam: quia sanitas que 
+      <lb ed="#V" n="118"/>est prior intentione et posterior executione: potest esse 
+      <lb ed="#V" n="119"/>sine aliis ad que vt sic comparatur. 
+      <lb ed="#V" n="120"/>praencipaliter est videndum de quasito. 
+      <lb ed="#V" n="121"/>Nunc secundo Utrum in diuinis sit humodi ordo scice 
+      <lb ed="#V" n="122"/>naturae. Et primo videndum est si est. 2o inter qua est talis ordo. 
+      </p>
+            <p xml:id="FrMS88-e46499-d1e345">
+               <lb ed="#V" n="123"/>¶ Quantum ad primus dicunt aliqui quod ordo naturae non est in 
+      diui<lb ed="#V" n="124" break="no"/>nis: quia in sic ordinatis priori non repugnat esse sine po 
+      <lb ed="#V" n="125"/>steriori. In diuinis autem omnia sunt necessaria et 
+      inseparabi<lb ed="#V" n="126" break="no"/>lia. et per consequens vnum non est prius na reliqui. Et propterea talis 
+      <lb ed="#V" n="127"/>ordo semper videtur includere dependentiam.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e359">
+      ¶ Sed contra. 
+      <lb ed="#V" n="128"/>istud instatur 4r. Primo sic. ex comparatione relationis ad 
+      fun<lb ed="#V" n="129" break="no"/>damentum. et hoc sic. fundamentum est prius ordine naturae sua 
+      re<lb ed="#V" n="130" break="no"/>latione: sed in diuinis sunt relationes et fundamentum ex 
+      <lb ed="#V" n="131"/>nura rei. ergo prius natura
+    </p>
+            <p xml:id="FrMS88-e46499-d1e370">
+      ¶ 2o sic. Omne subiectum est prius nara passionem: 
+      <!--131.xml-->
+      <pb ed="#V" n="64-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>sed in diuinis est subiectum et proprie passiones. ergo ibi est aliquid prius 
+      <lb ed="#V" n="2"/>natura et posterius.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e383">
+      ¶ 3o ex comperatione relationis ad terminum sic. 
+      <lb ed="#V" n="3"/>diffinito est naturaliter prior diffinito. et per consequens omne diffiniens prius natuam est 
+      <lb ed="#V" n="4"/>diffinito quia vel diffinitio est quiditatiua. et tunc datur per genus et 
+      diffiflt<lb ed="#V" n="5" break="no"/>ferentias: de quibus constat quod sunt priora diffinito. vel datur per 
+      <lb ed="#V" n="6"/>additamentum: quod est prius etiam nam diffinito: sed relationes 
+      dif<lb ed="#V" n="7" break="no"/>finiuntur per terminum. In diuinis autem est relatio habens terminum 
+      <lb ed="#V" n="8"/>ergo est ibi ordo naturae: quia ibi est terminus prior natura relatione. 
+      </p>
+            <p xml:id="FrMS88-e46499-d1e399">
+               <lb ed="#V" n="9"/>¶ 4o sic. ex via demonstrationis. In omni demonstratione 
+      primo<lb ed="#V" n="10" break="no"/>misse sunt nam prius conclusione: sed in diuinis sunt vere demon 
+      <lb ed="#V" n="11"/>strationes potissime: et propter quid. ergo ibi est aliquid quod est prius 
+      <lb ed="#V" n="12"/>natura. et per consequens aliquid posterius: sed vbi prius et posterius 
+      natura<lb ed="#V" n="13" break="no"/>ibi est ordo naturae. ergo etc. Ideo mihi videtur dicendum quod in 
+      di<lb ed="#V" n="14" break="no"/>uinis sit ordo naturae. Et mihi videtur quod sit de intentione fratris 
+      <lb ed="#V" n="15"/>do. verum tamen discordia est inter eius sequaces.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e417">
+      ¶ 
+      Aliqui<lb ed="#V" n="16" break="no"/>nim dicere videntur quod in diuinis non sit ordo naturae ad intra. 
+      <lb ed="#V" n="17"/>Alii autem dicunt quod sic. Si autem videmus dicta sua videtur quod 
+      ex<lb ed="#V" n="18" break="no"/>sse affirmatiuam partem sonent. nam dicit in primo suo. di. 2. quod 
+      <lb ed="#V" n="19"/>n vno signo naturae comprehenduntur multa signa originis: 
+      <lb ed="#V" n="20"/>sicut in fecunditate intellectus: in quo signo naturae complectum 
+      <lb ed="#V" n="21"/>tur signum generationis actiue: et signum generationis passiue: et in 
+      si<lb ed="#V" n="22" break="no"/>gno fecunditatis volitiue comprehenduntur duo signa 
+      ori<lb ed="#V" n="23" break="no"/>ginis scilicet spiratio actiua et passiua. quicumque autem ponit signum 
+      <lb ed="#V" n="24"/>naturae prius. et signum naturae posterius: necessario potesit ordinem naturae. 
+      <lb ed="#V" n="25"/>Similiter in secundo suo. quaestione prima. ponit vnum signum naturae in quo 
+      <lb ed="#V" n="26"/>deus intelligit omnia ad intra. vel que sunt intra scilicet essentiam et 
+      <lb ed="#V" n="27"/>essentialia: personas et personalia. et aliud signum in quo 
+      intel<lb ed="#V" n="28" break="no"/>ligit omnia que sunt extra scilicet in creaturis: et talia. patet ergo ex 
+      <lb ed="#V" n="29"/>dictis suis quod ponit ordinem nature ad intra.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e450">
+      ¶ 
+      Intelli<lb ed="#V" n="30" break="no"/>gendum tamen est sane quod ordo naturae potest intelligi dupliciter. aut 
+      pro<lb ed="#V" n="31" break="no"/>ordine naturae qui est inter naturam et naturam. et talis nullo modo po 
+      <lb ed="#V" n="32"/>nendus est in diuinis: eo quod non sit ibi nisi vnica natura. Alio 
+      <lb ed="#V" n="33"/>modo potest intelligi pro ordine qui est inter naturales perfectiones. 
+      <lb ed="#V" n="34"/>et talis ordo nature est ibi: sicut ponitur ibi ordo essen 
+      <lb ed="#V" n="35"/>tialis: non inter essentiam et inter essentiam: quia vnica est: sed 
+      <lb ed="#V" n="36"/>inter essentiales perfectiones. et talem ordinem: sicut apparet 
+      <lb ed="#V" n="37"/>mihi: habent ponere omnes qui ponunt diuinas perfectiones que 
+      <lb ed="#V" n="38"/>sunt naturales perfectiones distingui in deo. omnia enim 
+      distin<lb ed="#V" n="39" break="no"/>cta vel necessario aliquem ordinem habent. vel sunt confusa. quod est 
+      <lb ed="#V" n="40"/>inconueniens in deo. Nomno potest autem poni inter perfectiones 
+      ta<lb ed="#V" n="41" break="no"/>les ordo originis: quia inter quecumque est ordo originis 
+      <lb ed="#V" n="42"/>vnum est a se et a quo aliud. et aliud est ab alio: et sic 
+      <lb ed="#V" n="43"/>originaliter vnum est ab alio. et per consequens distinctio realis 
+      <lb ed="#V" n="44"/>debet ergo poni ordo nature.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e486">
+      ¶ Intelligendum tamen est quod 
+      <lb ed="#V" n="45"/>dupliciter potest intelligi ordo naturae. Uno modo secundum 
+      natu<lb ed="#V" n="46" break="no"/>ralem intelligentiam. quandoscilicet vnum est natum concipi prius. et 
+      re<lb ed="#V" n="47" break="no"/>liquum posterius. Aliter autem potest intelligi secundum existentiam 
+      <lb ed="#V" n="48"/>rei scilicet ex natura rei: quando scilicet in re ipsa absolute ponitur talis 
+      or<lb ed="#V" n="49" break="no"/>do sine habitudine ad intellectum. et si iste secundus modus 
+      <lb ed="#V" n="50"/>non concediter saltem primus non diciet negari.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e502">
+      ¶ Probo autem 
+      <lb ed="#V" n="51"/>quod in diuinis est ordo naturae qualitercumque acceptus. Et 
+      prima<lb ed="#V" n="52" break="no"/>ic. quandocumque aliquin ordines adinuincem comparantur 
+      lil<lb ed="#V" n="53" break="no"/>le qui inter sua extrema ponit distinctionem minorem. 
+      <lb ed="#V" n="54"/>est magis ad diuina adminttendus: et qui maiorem minus. 
+      <lb ed="#V" n="55"/>sed ordo originis semper arguit distinctionem realem 
+      <lb ed="#V" n="56"/>inter extrema. patet primo de tria. Nihil se gignit. Ordo autem 
+      <lb ed="#V" n="57"/>nature non arguit semper distinctionem realem. vt patet in 
+      <lb ed="#V" n="58"/>passione et subiecto. et multis aliis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e522">
+      ¶ 2o sic. secundum 
+      <lb ed="#V" n="59"/>Dyon. de vnica et discreta theologia secundum translationem 
+      <lb ed="#V" n="60"/>do. saraceni. post illa que pertinent ad vnicam theo 
+      <lb ed="#V" n="61"/>logiam scilicet essentialia sunt illa que pertinent ad discretam 
+      <lb ed="#V" n="62"/>ilicet personalia.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e533">
+      ¶ 3o sic. quia in eodem capitulo secundum editionem 
+      <lb ed="#V" n="63"/>vercelensis. dicit quod in diuinis ad vmiuocationes naturaliter 
+      <lb ed="#V" n="64"/>preueniunt distinctiones et per eas non dissoluuntur. 
+      </p>
+            <p xml:id="FrMS88-e46499-d1e540">
+               <lb ed="#V" n="65"/>¶ 4o quia quandocumque aliquis ordo consequitur aliqua secundum suas 
+      <lb ed="#V" n="66"/>rationes formales. vbicumque illa inueniuntur secundum illas ratio¬ 
+      <!--131.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>nes erit talis ordo: sed multa sunt in creaturis quae consequi 
+      <lb ed="#V" n="68"/>tur ordo ex suis rationibus formalibus: et talia sunt secundum 
+      eas<lb ed="#V" n="69" break="no"/>dem rationes formales in deo. ergo necessario inter illa: vt in 
+      <lb ed="#V" n="70"/>deo sunt erit et talis ordo. Minor patet de intelligere et vel 
+      <lb ed="#V" n="71"/>le et intellectu et voluntate et multis talibus. ordo ergo 
+      <lb ed="#V" n="72"/>naturae necessario erit in deo.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e564">
+      ¶ Sed contra. hoc arguitur 4r. 
+      Pri<lb ed="#V" n="73" break="no"/>mo sic per vnum sophisma. omne relatiuum est simils nam cum 
+      rela<lb ed="#V" n="74" break="no"/>tiuo vel correlatiuo suo: sed omne prius natura refertur ad 
+      po<lb ed="#V" n="75" break="no"/>sterius natura. ergo prius nam erit similu ntura cum posteriori natura 
+      </p>
+            <p xml:id="FrMS88-e46499-d1e574">
+               <lb ed="#V" n="76"/>¶ 2o sic. quandocumque est ordo perfectionum in aliquo perfectibi 
+      <lb ed="#V" n="77"/>li: si prius aduenit vna perfectio ipsi perfectibili quam 
+      reliqua<lb ed="#V" n="78" break="no"/>psum est in potentia ad reliquam: sed omne tale est imperfectum 
+      <lb ed="#V" n="79"/>ergo diuina essentia erit imperfecta.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e585">
+      ¶ 3o sic. Impossibile est 
+      <lb ed="#V" n="80"/>ponere priuationem alicuius perfectionis in aliquo cum 
+      poten<lb ed="#V" n="81" break="no"/>tia ad illam perfectionem sine imperfectione: sed si essentia 
+      pri<lb ed="#V" n="82" break="no"/>us recipiat vnam perfectionem quam aliam erit priuata et in 
+      poten<lb ed="#V" n="83" break="no"/>tia. ergo et imperfecta.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e596">
+      ¶ 4o sic. omne quod transit de contradictorio in 
+      <lb ed="#V" n="84"/>contradictorium mutatur: sed si hoc ponatur erit transitus talis in 
+      es<lb ed="#V" n="85" break="no"/>sentia diuina.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e603">
+      ¶ Ulterius duo signa naturae correspondent 
+      <lb ed="#V" n="86"/>vni signo eternitatis: sed in signis naturae sunt contradictoria. 
+      <lb ed="#V" n="87"/>ergo in eternitate. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e610">
+      ¶ Ad primum dico quod relatiuum aliquando 
+      <lb ed="#V" n="88"/>supponit pro fundamento. aliquando pro fundamento cum relatione 
+      <lb ed="#V" n="89"/>Quando ergo dicimus prius nam praecedit posterius: nam non 
+      intelligi<lb ed="#V" n="90" break="no"/>mus de relatione addita: sed de absoluto: quod est 
+      funda<lb ed="#V" n="91" break="no"/>mentum. quando autem dicimus quod relatiua sunt simul natura. tunc 
+      re<lb ed="#V" n="92" break="no"/>latiuum supponit pro relatione praecise. Exemplum. Absolutum 
+      <lb ed="#V" n="93"/>tellectionis precedit absolutum volitionis: sed tamen intellectio 
+      <lb ed="#V" n="94"/>cum relatione prioritatis est simils cum relatione posterioritatis 
+      voli<lb ed="#V" n="95" break="no"/>tionis.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e630">
+      ¶ Ad 2m dico quod illud est in potentia: quod non est 
+      ac<lb ed="#V" n="96" break="no"/>tuatum vltimata actualitate. Essentia autem diuina est vel 
+      <lb ed="#V" n="97"/>timate actuata: et sic non potest esse in potentia nisi forte 
+      lo<lb ed="#V" n="98" break="no"/>gicali: quia sibi talis perfectio non repugnat.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e640">
+      ¶ Ad 3m 
+      di<lb ed="#V" n="99" break="no"/>co quod concesso quod pro aliquo signo essentia diuina habe 
+      <lb ed="#V" n="100"/>ret carentiam alicuius perfectionis: hoc est non haberet 
+      <lb ed="#V" n="101"/>tamen non sequitur quod haberet priuationem. Et ratio est: quia priuatio 
+      di<lb ed="#V" n="102" break="no"/>cit carentiam in apto nato pro tempore pro quo est aptum natum 
+      <lb ed="#V" n="103"/>esse. Sic autem non est hic: quia essentia non est apta nata habere: 
+      <lb ed="#V" n="104"/>nec nunc nec vnquam pro illo signo pro quo non habet non est 
+      ier<lb ed="#V" n="105" break="no"/>go dare aliquod signum in quo essentia diuina careat 
+      ali<lb ed="#V" n="106" break="no"/>qua perfectione: pro quo signo: vel in quo essentia sit 
+      apta<lb ed="#V" n="107" break="no"/>nata habere illam perfectionem. et illa perfectio sit apta nata haberi. 
+      </p>
+            <p xml:id="FrMS88-e46499-d1e662">
+               <lb ed="#V" n="108"/>¶ Ad 4m dico quod passio negatiua prius inest quam 
+      affir<lb ed="#V" n="109" break="no"/>matiua. Et ratio separe est dicta et sepe dicenda: quia 
+      indifferen<lb ed="#V" n="110" break="no"/>tia ad contradictoria est prior essentialiter indiferentia ad contraria. habet 
+      <lb ed="#V" n="111"/>ergo essentia intellectum et voluntatem: sed non habet prius 
+      volun<lb ed="#V" n="112" break="no"/>tatem in tali signo: vtpote quiditatiue quam habeat eam 
+      denominati<lb ed="#V" n="113" break="no"/>ue. Sed tamen sic habere affirmationem et negationem non arguite 
+      <lb ed="#V" n="114"/>transitum vel mutationem. quia vbi transitus est vel mutatio. 
+      <lb ed="#V" n="115"/>vnum extremorum mutationis accedit: et aliud recedit: sicut 
+      <lb ed="#V" n="116"/>nunc mensurans transit. non sic est hic. Contraria enim illa semper 
+      <lb ed="#V" n="117"/>stant. semper enim cum ista. homo non est risibilis quiditatiue: stat ista. 
+      <lb ed="#V" n="118"/>homo est risibilis denominatiue. Eodem modo in proposito. et sic non 
+      <lb ed="#V" n="119"/>est mutatio.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e691">
+      ¶ Sed ad illud quando dicitur quod sunt contradictoria. 
+      Di<lb ed="#V" n="120" break="no"/>co quod illud est falsum. non enim sunt illa contradictoria solum propter 
+      <lb ed="#V" n="121"/>diuersitatem signorum. Et ideo dico quod sicut mateam ex se non 
+      for<lb ed="#V" n="122" break="no"/>mata: et ab alio formata non includit contradictionem. Sic 
+      di<lb ed="#V" n="123" break="no"/>co in proposito. non esse hoc in primo signo naturae vel 
+      quiditati<lb ed="#V" n="124" break="no"/>ue: et esse hoc simpliciter: non sunt contradictoria.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e704">
+      ¶ Sed propter illud 
+      di<lb ed="#V" n="125" break="no"/>ctum de contradictoriis restant duo dubia. Primum est: quia 
+      extre<lb ed="#V" n="126" break="no"/>ma contradictionis videntur poni in rerum natura. Et probo quod hoc 
+      opor<lb ed="#V" n="127" break="no"/>teat ponere: quia quandocumque sunt aliqua duo que ex suis 
+      rationi<lb ed="#V" n="128" break="no"/>bus formalibus contradicunt et repugnant: vbicumque ponuntur et 
+      <lb ed="#V" n="129"/>ad quaecumque extrema applicentur semper remanet contradictoria 
+      <lb ed="#V" n="130"/>et repugnantia: sed album et non album ex suis rationibus 
+      for<lb ed="#V" n="131" break="no"/>malibus contradicunt et sunt in rerum natura: ergo etc.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e722">
+      ¶ 2o probo hoc 
+      <lb ed="#V" n="132"/>idem. Nono magis habent oppositionem contraria quam contradictoria. 
+      <!--132.xml-->
+      <pb ed="#V" n="65-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>sed contrarietas remanet quantumcumque applicentur diuersis 
+      Al<lb ed="#V" n="2" break="no"/>bum enim et nigrum quantumcumque applicentur diuersis semper 
+      <lb ed="#V" n="3"/>remanent contraria. ergo album et non album ad quecumque applicentur 
+      <lb ed="#V" n="4"/>emper contradicunt. Ex hoc probo quod contradictoria sunt vera similis 
+      <lb ed="#V" n="5"/>Et hoc fic. Quandocumque sunt aliqua extrema ex quibus consurgit 
+      <lb ed="#V" n="6"/>respectus intrinsecus adueniens. positis extremis ponitur 
+      ha<lb ed="#V" n="7" break="no"/>bitudo: sed oppositio est respectus intrinsecus adueniens: sicut disto 
+      <lb ed="#V" n="8"/>vel diuersitas. ergo aliis positis quibus applicantur 
+      extrema<lb ed="#V" n="9" break="no"/>necessario habitudo consequitur contradictorie oppositionis. tunc 
+      euiden<lb ed="#V" n="10" break="no"/>ter sequitur quod contradictoria erunt similis vera. nam propositio 
+      affir<lb ed="#V" n="11" break="no"/>matiua fundatur in vno extremo scilicet in esse album: et ita est 
+      <lb ed="#V" n="12"/>ista vera. Album est. sicut si nihil esset quod non esset album. 
+      posi<lb ed="#V" n="13" break="no"/>to vno albo: negatiua autem fundatur super reliquo 
+      extre<lb ed="#V" n="14" break="no"/>mo scilicet in non albo. et posito vno non albo ista est vera. non 
+      <lb ed="#V" n="15"/>album est. sicut si nihil esset album. ergo ille due: quae vere sunt 
+      <lb ed="#V" n="16"/>contradictoria similis sunt vere. album est. non album est. ergo contradictoria 
+      <lb ed="#V" n="17"/>in rerum natura.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e770">
+      ¶ Ad ista.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e774">
+      ¶ Ad primum concedo quod extrema 
+      contradi<lb ed="#V" n="18" break="no"/>ctionis sunt vere in rerum natura. nec aliquis potest hoc negare: 
+      <lb ed="#V" n="19"/>sicut et contraria sunt vere in rerum natura: sed contradict oria non sunt 
+      <lb ed="#V" n="20"/>simul in rerum nam respectu eiusdem subiecti: sicut nec sunt 
+      <lb ed="#V" n="21"/>contraria in eodem subiecto.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e785">
+      ¶ Ad 2m concedo quod tam contraria 
+      quan<lb ed="#V" n="22" break="no"/>contradictoria sunt in rerum natura. Et tunc ad illam 
+      deductio<lb ed="#V" n="23" break="no"/>nem quod contradictoria essent simul vera.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e792">
+      ¶ Responsio et dico quod 
+      <lb ed="#V" n="24"/>alique propositiones sunt quae sunt de contrariis extremis: et tamen non 
+      <lb ed="#V" n="25"/>sunt contrarie: quia non sunt de contrario modo: et de talibus nec 
+      ma<lb ed="#V" n="26" break="no"/>gnum nec modicum est inconueniens quod sint simul vere. Ita 
+      <lb ed="#V" n="27"/>dico de propositionibus quae sunt de extremis contradictoriis: 
+      <lb ed="#V" n="28"/>que tamen modo contradictorio non sunt. et tales propositiones 
+      <lb ed="#V" n="29"/>non sunt contradictorie: licet sint de extremis contradictoriis 
+      <lb ed="#V" n="30"/>oper defectum modi. Modus autem tam contrariarum propositionum quam 
+      <lb ed="#V" n="31"/>contradictoriarum est: quod sint respectu eiusdem subiecti vel de eo 
+      <lb ed="#V" n="32"/>dem subiecto. Nunc autem non est sic in proposito. et ideo propositiones 
+      <lb ed="#V" n="33"/>formate de illis extremis quae vere sunt contradictoria: quia 
+      de<lb ed="#V" n="34" break="no"/>ficit identitas subiecti: non sunt contradictorie: Omnes enim 
+      conditio<lb ed="#V" n="35" break="no"/>nes que ponuntur in diffinitione contradictionis 
+      requi<lb ed="#V" n="36" break="no"/>runtur ad hoc quod propositiones sint vere contradictorie: 
+      <lb ed="#V" n="37"/>sed quantum ad extrema affirmatio et negatio et non 
+      <lb ed="#V" n="38"/>plus: omnes alie per se pertinent ad modum. 
+      <lb ed="#V" n="39"/>videndum est que sunt in diuinis quae habent 
+      <lb ed="#V" n="40"/>Secundo ordinem nature. et hic sunt 4 videnda. 
+      <lb ed="#V" n="41"/>Primum est de ordine inter absoluta. 2m de ordine inter 
+      <lb ed="#V" n="42"/>proprietates relatiuas. 3m de ordine inter personas. 4m 
+      <lb ed="#V" n="43"/>inter respectus generaliter.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e838">
+      ¶ Quantum ad primum dico quod 
+      <lb ed="#V" n="44"/>quantum ad absoluta sunt necessario ponenda quituor signa. In 
+      <lb ed="#V" n="45"/>primo sunt perfectiones quiditatiue. In secundo sunt modi 
+      in<lb ed="#V" n="46" break="no"/>trinseci. In 3o perfectiones attributales ad intra. In 4o 
+      per<lb ed="#V" n="47" break="no"/>fectiones attributales ad extra.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e849">
+      ¶ De primo est 
+      intelli<lb ed="#V" n="48" break="no"/>gendum quod quiditatiuas perfectiones voco que vel 
+      dire<lb ed="#V" n="49" break="no"/>cte sunt de primo modo: sicut deitas. vel reducibiles ad 
+      <lb ed="#V" n="50"/>primum: sicut spiritus: substantia: et ens. que reducuntur 
+      <lb ed="#V" n="51"/>ad primum modum: sicut praedicatio generis de differentia. 
+      <lb ed="#V" n="52"/>et ista omnia sunt priora: quia sicut primus modus omnes 
+      pre<lb ed="#V" n="53" break="no"/>cedit: ita illa de primo modo vt sic accepta videntur esse 
+      <lb ed="#V" n="54"/>priora omnibus aliis: quae sunt de secundo modo: vel quocun 
+      <lb ed="#V" n="55"/>que dicantur.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e869">
+      ¶ De secundo signo sunt modi intrinseci qui 
+      <lb ed="#V" n="56"/>exprimuntur per infinitatem: necessitatem: existentiam: 
+      rea<lb ed="#V" n="57" break="no"/>litatem: et huiusmodi. quod autem sint priora attributis patet: quia 
+      li<lb ed="#V" n="58" break="no"/>cet non sint omnino idem cum ratione formali deitatis. non tamen 
+      di<lb ed="#V" n="59" break="no"/>stinguuntur formaliter a ratione deitatis: et ideo prius 
+      adueni<lb ed="#V" n="60" break="no"/>unt diuine essentie quam intelligantur aduenire attributa que 
+      <lb ed="#V" n="61"/>distinguuntur formaliter a diuina essentia et quiditatiue 
+      </p>
+            <p xml:id="FrMS88-e46499-d1e886">
+               <lb ed="#V" n="62"/>¶ De 3o signo sunt attributa ad intra que accipiuntur 
+      <lb ed="#V" n="63"/>per comparationem ad diuinam essentiam: cuiusmodi sunt: 
+      <lb ed="#V" n="64"/>intellectus et voluntas. sapientia et charitas.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e895">
+      ¶ In 4o autem 
+      <lb ed="#V" n="65"/>signo sunt attributa quae accipiuntur in ordine ad extra: si 
+      <lb ed="#V" n="66"/>cut iustitia. misericordia et talia: que non sunt respectu¬ 
+      <!--132.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>dei: sed respectu aliorum. quod autem illa praecedant ista patet. 
+      Quando<lb ed="#V" n="68" break="no"/>cunque alique potentie respiciunt aliqua obiecta 
+      ordina<lb ed="#V" n="69" break="no"/>ta secundum prius et posterius: et eo ordine respiciunt illa 
+      ob<lb ed="#V" n="70" break="no"/>iecta quo illa inter se sunt ordinata. perfectiones illarum 
+      <lb ed="#V" n="71"/>potentiarum quae sunt respectu obiecti primi: sunt priores 
+      perfe<lb ed="#V" n="72" break="no"/>ctiones illis perfectionibus aliarum potentiarum quae sunt 
+      ob<lb ed="#V" n="73" break="no"/>iecti secundaru: sed sapientia et charitas sunt perfectiones 
+      <lb ed="#V" n="74"/>itellectus et voluntatis. inquantum respiciunt obiectum primum scilicet 
+      <lb ed="#V" n="75"/>rationem deitatis. scientia et iustitia et misericordia inquantum 
+      <lb ed="#V" n="76"/>respiciunt creaturas. ergo prima sunt priora ex natua rei 
+      secun<lb ed="#V" n="77" break="no"/>dis.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e930">
+      ¶ Sed contra ista arguo. 4r. Primo sic. impossibile est 
+      re<lb ed="#V" n="78" break="no"/>lationem inesse. vel dici de aliquo nisi prius inexistente 
+      fun<lb ed="#V" n="79" break="no"/>damento: sed fundamentum equalitatis et inequalitatis est 
+      <lb ed="#V" n="80"/>quantitas virtutis. In primo autem signo non intelligitur in 
+      di<lb ed="#V" n="81" break="no"/>uina essentia illa quantitas virtutis. ergo nec inequalitas nec 
+      eque<lb ed="#V" n="82" break="no"/>litas. et per consequens erit dare aliquod signum in quo diuina 
+      es<lb ed="#V" n="83" break="no"/>sentia non erit perfectior creatura: quia pro illo signo superius 
+      <lb ed="#V" n="84"/>dicto non habet quantitatem virtutis.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e948">
+      ¶ 2o sic. qualem ordinem 
+      ha<lb ed="#V" n="85" break="no"/>bent aliqua in essendo talem habent in producendo: sed in 
+      <lb ed="#V" n="86"/>essendo essentia et quiditas praecedunt quiditatiue infinitatem. ergo et 
+      <lb ed="#V" n="87"/>in producendo prius conicat quiditas. et sic pro aliquo 
+      signo<lb ed="#V" n="88" break="no"/>et non genuit filium sibi equalem: quia pro aliquo priori primo fuit 
+      fi<lb ed="#V" n="89" break="no"/>lio conicata essentia quam infinitas. et pro illo priori non erat 
+      equa<lb ed="#V" n="90" break="no"/>lis patri. quia prius communicatur quiditas quam attributum vel perfectio 2a. 
+      <lb ed="#V" n="91"/>et tunc in illo signo non fuit filius equalis.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e966">
+      ¶ 3o eodem modo 
+      ar<lb ed="#V" n="92" break="no"/>guendo. sequitur quod non genuit sibi filium similem: quia prius comunica 
+      <lb ed="#V" n="93"/>tur quiditas quam attributum vel perfectio 2a. et tunc in illo signo 
+      <lb ed="#V" n="94"/>non fuit filius similis.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e975">
+      ¶ 4o. nam inconueniens videtur dare signum 
+      <lb ed="#V" n="95"/>aliquod in quo deus non sit misericors et iustus. quod tamen sequitur 
+      <lb ed="#V" n="96"/>ponendo ordinem supradictum.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e983">
+      ¶ Ad ista respondeo per 
+      ordi<lb ed="#V" n="97" break="no"/>nem.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e988">
+      ¶ Ad primum eque concludere in creaturis vbi certum 
+      <lb ed="#V" n="98"/>est quod quiditas aliqua praecedit ordine name quantitatem. 
+      Ani<lb ed="#V" n="99" break="no"/>ma enim praecedit suam quantitatem: et sic sequitur quod in illo 
+      si<lb ed="#V" n="100" break="no"/>gnto non erit anima perfectior corpore et non est inconueniens illud 
+      <lb ed="#V" n="101"/>quod sit dare signu in quo nec fit perfectior nec imperfectior: 
+      <lb ed="#V" n="102"/>quia quiditatiue nec perfectior est nec imperfectior: 
+      si<lb ed="#V" n="103" break="no"/>cut nec equinitas in per signo est vna vel plures. nec actu 
+      <lb ed="#V" n="104"/>nec potentia. Non enim est magis dicere nisi quod anima vel 
+      <lb ed="#V" n="105"/>quinitas quaeditatiue non includit ista. Eodem modo dico in 
+      pro<lb ed="#V" n="106" break="no"/>posito quod est dare signum in quo est essentia nec perfectior. 
+      <lb ed="#V" n="107"/>nec imperfectior creatura: quia quiditatiue nec perfectior nec 
+      <lb ed="#V" n="108"/>mperfectior: nec deus in quiditate vltimate absoluta est 
+      <lb ed="#V" n="109"/>melior vel peior creatura: quia vt sic non comparatur ad 
+      ex<lb ed="#V" n="110" break="no"/>tra. talia autem praedicata sunt comparatiua sui ad extra¬ 
+      </p>
+            <p xml:id="FrMS88-e46499-d1e1019">
+               <lb ed="#V" n="111"/>¶ Ad 2m et 3m dico simils quod identitas equalitas et similitudo 
+      <lb ed="#V" n="112"/>ecessario habent ordinem secundum fundamenta. nam identitas fundatur in 
+      <lb ed="#V" n="113"/>essentia. equalitas in quantitate. similitudo in qualitate. Sicut 
+      <lb ed="#V" n="114"/>ergo essentia omnia illa praeceditsci i. qualitatem et quantitatem. sic 
+      <lb ed="#V" n="115"/>videter consequenter quod identitas praecedat omnes illas relationes alias: 
+      <lb ed="#V" n="116"/>sicut ergo prius communicatur filio essentia: ita et identitas. et 2o 
+      equali<lb ed="#V" n="117" break="no"/>tas: quia post essentiam communicatur quantitas. et sic de similitudine. non 
+      <lb ed="#V" n="118"/>est ergo inconueniens dare signum: in quo sit idem. et tamen non 
+      <lb ed="#V" n="119"/>equalis nec similis nec dissimilis. Eodem modo dico ad tertium. 
+      </p>
+            <p xml:id="FrMS88-e46499-d1e1041">
+               <lb ed="#V" n="120"/>¶ Ad 4m dico quod non esse misericordere: pium: iustum. 
+      simpli<lb ed="#V" n="121" break="no"/>citer est imperfectionis: sed esse simpliciter talis: non tamen quidita 
+      <lb ed="#V" n="122"/>tiue. non est imperfectionis. Et ideo dico quod nullum 
+      inconue<lb ed="#V" n="123" break="no"/>niens videtur esse dicere quod deus pro aliquo signo nullum istorum 
+      <lb ed="#V" n="124"/>sit: nec iustus: nec misericors: nec etiam prius: quia non 
+      quidita<lb ed="#V" n="125" break="no"/>tiue: immo imperfectionis esset in deo. Exemplum. impossibile est 
+      <lb ed="#V" n="126"/>hominem esse nisi sit sanus vel eger: sed tamen impossibile est quod homo 
+      <lb ed="#V" n="127"/>quiditatiue includat istas qualitates scilicet sanitatem et 
+      egritu<lb ed="#V" n="128" break="no"/>dinem. De isto dictum est superius.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1063">
+      ¶ Sed hic sunt multe 
+      <lb ed="#V" n="129"/>ndhuc difficultates. Prima est ista. deus enim est secundum Ans. quo 
+      ma<lb ed="#V" n="130" break="no"/>ius cogitari non potest: sed hoc non posset esse sine 
+      infinita<lb ed="#V" n="131" break="no"/>te. Tunc sic. pro quocumque signo est diffinitio: et diffinitum: 
+      <lb ed="#V" n="132"/>sed pro quocumque signo est hec diffinitio: est infinitas. ergo etc. 
+      <!--133.xml-->
+      <pb ed="#V" n="65-v"/>
+               <cb ed="#V" n="a"/>
+            </p>
+            <p xml:id="FrMS88-e46499-d1e1081">
+               <lb ed="#V" n="1"/>¶ 2a est ista. perfectio simpliciter est quae in quocumque est melius 
+      <lb ed="#V" n="2"/>ipsum quam non ipsum: sed: per te: omnes negationes omnium 
+      perfe<lb ed="#V" n="3" break="no"/>ctionum attributalium primo insunt. ergo perfectiones attributales 
+      <lb ed="#V" n="4"/>non sunt perfectiones simpliciter. eo quod eorum opposita insunt. 
+      </p>
+            <p xml:id="FrMS88-e46499-d1e1093">
+               <lb ed="#V" n="5"/>¶ 3a est ista. eque perfecta est diuina essentia: sicut perse 
+      <lb ed="#V" n="6"/>na: sed persona non esset perfecta nisi haberet omnes illas perfe 
+      <lb ed="#V" n="7"/>ctiones. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1102">
+      ¶ Confirmatur. quia persona habet illa in primo signo: 
+      <lb ed="#V" n="8"/>quia attributa praecedunt in essentia ante relationem. ergo prius sunt 
+      <lb ed="#V" n="9"/>in persona. vult ergo dicere quod sicut iste perfectiones in 
+      essentia<lb ed="#V" n="10" break="no"/>praecedunt relationes: ita in persona. et per consequens persona habebit illas 
+      <lb ed="#V" n="11"/>in primo signo.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1113">
+      ¶ 4a est ista. melius est habere formaliter omnes 
+      perfe<lb ed="#V" n="12" break="no"/>ctiones simpliciter quam solum radicaliter: sed in primo signo 
+      persona<lb ed="#V" n="13" break="no"/>vel essentia habet eas solum radicaliter. ergo non habet eas modo perfe 
+      <lb ed="#V" n="14"/>ctissimo. et per consequens non est simpliciter perfecta.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1122">
+      ¶ Ad primum istorum 
+      <lb ed="#V" n="15"/>dico quod descriptiones differunt a diffinitionibus: quia diffinitio 
+      <lb ed="#V" n="16"/>datur per priora scilicet diffinitio formalis et quiditatiua. 
+      Descri<lb ed="#V" n="17" break="no"/>ptio autem datur per prius et posterius. vt homo est animal risibile. 
+      <lb ed="#V" n="18"/>Deus autem non est diffinibilis per priora: et ideo Ans. 
+      vo<lb ed="#V" n="19" break="no"/>lens modo quo poterat notificare. diffiniuit vel descripsit 
+      <lb ed="#V" n="20"/>per eius passionem. Concedo ergo quod deus est quo maius 
+      ni<lb ed="#V" n="21" break="no"/>hil cogitari potest: sed non pro quocumque signo quia tunc esset 
+      <lb ed="#V" n="22"/>maius quiditatiue. quod non est verum. quia maioritas sibi 
+      conue<lb ed="#V" n="23" break="no"/>nit praecise in comparatione ad extra. que comparatio ad ex 
+      <lb ed="#V" n="24"/>tra non inest sibi quiditatiue. non enim ex hoc quod maior est. deus 
+      <lb ed="#V" n="25"/>est. sed potius econuerso.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1148">
+      ¶ Ad 2m dico quod perfectio 
+      sim<lb ed="#V" n="26" break="no"/>pliciter est melior sua opposita vel sibi incompossibili pro 
+      <lb ed="#V" n="27"/>illo signo pro quo nata est in esse: sed non pro omni signo: quia 
+      <lb ed="#V" n="28"/>non est melior quiditatiue: quia illud destrueretur circa quod 
+      es<lb ed="#V" n="29" break="no"/>set quiditatiue. ergo quiditatiue non est melior.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1159">
+      ¶ Ad 3m dico 
+      <lb ed="#V" n="30"/>quod diuina essentia eque perfecta est: sicut aliquid potest esse 
+      <lb ed="#V" n="31"/>perfectum. et sic est habens omnes perfectiones simpliciter. et hoc 
+      pro<lb ed="#V" n="32" break="no"/>illo signo pro quo potest sibi competere gradus perfectionis 
+      <lb ed="#V" n="33"/>Et ratio est. quia eadem est infinitas essentie et aliorum omnium. et 
+      <lb ed="#V" n="34"/>ideo pro quocumque signo est infinita: ita est perfecta: sicut 
+      <lb ed="#V" n="35"/>omnes perfectiones simul propter identitatem infinitatis.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1176">
+      ¶ Et quando 
+      <lb ed="#V" n="36"/>dicitur quod persona habet omnes perfectiones attributales quiditatiue 
+      </p>
+            <p xml:id="FrMS88-e46499-d1e1181">
+               <lb ed="#V" n="37"/>¶ Dico quod hoc est negandum: quia persona precise constituitur ex 
+      <lb ed="#V" n="38"/>essentia et relatione: et sic passiones essentie: licet praecedant 
+      com<lb ed="#V" n="39" break="no"/>stitutiuum persone: tamen eodem modo insunt persone 
+      <lb ed="#V" n="40"/>diuine quo essentie scilicet in secundo modo: sicut patet in creatu 
+      <lb ed="#V" n="41"/>ris.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1194">
+      ¶ Ad 4m dico quod essentia in primo signo bene conti 
+      <lb ed="#V" n="42"/>net radicaliter. et concedo quod habere formaliter est 
+      nobili<lb ed="#V" n="43" break="no"/>or modus habendi simpliciter quam radicaliter: sed tamen non 
+      <lb ed="#V" n="44"/>ro omni signo scilicet quiditatiue: quod sibi repugnat.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1203">
+      ¶ Sed  
+      <lb ed="#V" n="45"/>hic sunt aliqua dubia. Primum est quod cum sint assignata 
+      <lb ed="#V" n="46"/>aliqua signa. Primum est perfectionibus quiditatiuis. 2m 
+      <lb ed="#V" n="47"/>modis. 3m attributis ad intra. 4m attributis ad extra¬ 
+      </p>
+            <p xml:id="FrMS88-e46499-d1e1212">
+               <lb ed="#V" n="48"/>¶ Dubium est. Utrum illa que in eodem signo sunt 
+      ha<lb ed="#V" n="49" break="no"/>beant ordinem.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1219">
+      ¶ Dico quod in quolibet signo sunt multa 
+      <lb ed="#V" n="50"/>signa nature. Nam in primo signo ratio diuinitatis est 
+      pri<lb ed="#V" n="51" break="no"/>ma. ratio spiritus secunda. ratio substantie 3a. ratio entis 4ra. vel econverso de istis 
+      <lb ed="#V" n="52"/>tribus posterioribus. sicut inferius apparebit.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1229">
+      ¶ In se 
+      <lb ed="#V" n="53"/>cundo autem signo correspondente modis est ordo modorum. 
+      <lb ed="#V" n="54"/>nam infinitas videtur esse prior existentia et necessitate: quia 
+      si<lb ed="#V" n="55" break="no"/>per impossibile diuina essentia non existeret adhuc ex 
+      ra<lb ed="#V" n="56" break="no"/>tione eius quiditatiue demonstraretur infinitas de eius 
+      qui<lb ed="#V" n="57" break="no"/>ditate: sicut per rationem formalem creature: dato quod non 
+      exi<lb ed="#V" n="58" break="no"/>steret: posset demonstrari finitas. Et sic patet quomodo est ordo 
+      <lb ed="#V" n="59"/>nature in secundo signo correspondente modis intrinsecis. 
+      <lb ed="#V" n="60"/>de quibus alias.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1249">
+      ¶ In 3o autem signo sunt primo perfectiones 
+      <lb ed="#V" n="61"/>se habentes per modum potentiarum vt intellectus et 
+      volun<lb ed="#V" n="62" break="no"/>tas.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1256">
+      ¶ In 2o signo perfectiones se habentes per 
+      modi<lb ed="#V" n="63" break="no"/>habituum vt sapientia et charitas. In 3o perfectiones se 
+      ha<lb ed="#V" n="64" break="no"/>bentes per modum actuum vt intelligere et velle.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1263">
+      ¶ Sed  
+      <lb ed="#V" n="65"/>nunquid est hic status: ita quod sit primus ordo:
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1268">
+      ¶ Dico quod 
+      <lb ed="#V" n="66"/>non: sicut patet in 3o signo scilicet de intelligere et velle que neces¬ 
+      <!--133.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>sario sunt ordinata.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1279">
+      ¶ In 4o autem signo est etiam ordoscilsed 
+      <lb ed="#V" n="68"/>inter attributa que accipiuntur per comparationem ad extra: si 
+      <lb ed="#V" n="69"/>cut forte inter diuinam scientiam et pertinentia ad intellectum 
+      <lb ed="#V" n="70"/>est aliquis ordo et inter ea quae partinent ad voluntatem.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1289">
+      ¶ Sed 
+      <lb ed="#V" n="71"/>hic remanet dubium 2m de his que sunt in primo 
+      signo<lb ed="#V" n="72" break="no"/>Utrum magis vniversalia sint priora. vel econuerso. Si enim po 
+      <lb ed="#V" n="73"/>nantur communiora priora. tunc sequitur quod deitas non esset 
+      prima<lb ed="#V" n="74" break="no"/>ratio formalis. Si autem dicatur quod ratio deitatis est prior. istud 
+      <lb ed="#V" n="75"/>non apparet verum. quia vniversalia videntur priora. nura ab eis non 
+      con<lb ed="#V" n="76" break="no"/>uertitur consequentia. et per consequens priora sunt.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1305">
+      ¶ Uiter mihi dicendum 
+      <lb ed="#V" n="77"/>quod ratio deitatis sit simpliciter prima. Et hoc propter vnam 
+      regula<lb ed="#V" n="78" break="no"/>fratris Io scilicet quod oppositus modus procedendi est in nam 
+      crea<lb ed="#V" n="79" break="no"/>ta. vel nam naturata. et nam creante vel naturante. In 
+      crea<lb ed="#V" n="80" break="no"/>tis enim communiter est processus ab imperfecto ad perfectius: quia 
+      <lb ed="#V" n="81"/>agens naturale non potest statim inducere illud quod perfectum est. 
+      <lb ed="#V" n="82"/>Econuerso autem in diuinis est. propter perfectionem deitatis 
+      prio<lb ed="#V" n="83" break="no"/>ra sunt perfectiora. Ticet ergo vniversalia sint priora in creaturis 
+      pro<lb ed="#V" n="84" break="no"/>pter dictam causam: tamen in diuinis est oppositum propter oppositan 
+      <lb ed="#V" n="85"/>causam: communiora sunt posteriora. et minus communia sunt priora. 
+      <lb ed="#V" n="86"/>quia perfectiora.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1329">
+      ¶ Sed si dicatur sic: insurgit vna magna 
+      du<lb ed="#V" n="87" break="no"/>bitatio de illo ordine scilicet substantie spiritus et entis in deo: quia omnis 
+      <lb ed="#V" n="88"/>ordo qui consequitur rationes formales aliquorum vbicumque 
+      po<lb ed="#V" n="89" break="no"/>nantur rationes ille formales: semper ponitur ibi talis ordo 
+      <lb ed="#V" n="90"/>si ergo ordo quem habent ista in deo: sit ex rationibus formalibus: 
+      <lb ed="#V" n="91"/>in creaturis tenebunt illum ordinem cum habeant easdem 
+      ratio<lb ed="#V" n="92" break="no"/>nes formales.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1345">
+      ¶ Confirmatur per illam propositionem vulgatam: qualem 
+      <lb ed="#V" n="93"/>ordine habent aliqua vbi distinguuntur secundum rem. talem habent vbi 
+      di<lb ed="#V" n="94" break="no"/>stinguuntur secundum rationem: sed in creaturis habent illum ordinem quod 
+      <lb ed="#V" n="95"/>communiora sunt priora. ergo eodem modo in deo.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1354">
+      ¶ hoc difficile est 
+      <lb ed="#V" n="96"/>oportet enim alteram duarum viarum tenere. vel dicere ordinem 
+      sim<lb ed="#V" n="97" break="no"/>pliciter eundem non ese in deo et in creaturis. quod non bene 
+      intell<lb ed="#V" n="98" break="no"/>gibile est: quia ordo consequens rationes formales est demonstrabi 
+      <lb ed="#V" n="99"/>lis de eis: sed quandocumque aliqua sunt eiusdem rationis formalis. 
+      <lb ed="#V" n="100"/>quicquid est demonstrabile de vno: et de reliquo. Vel oportet 
+      di<lb ed="#V" n="101" break="no"/>cere quod sola deitas est prior. Alia autem superiora tenent 
+      ordin<lb ed="#V" n="102" break="no"/>nem in deo: quem habent in creaturis.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1372">
+      ¶ Si dicas. ratio 
+      ge<lb ed="#V" n="103" break="no"/>neris et quasi generis est prior ratione speciei specialissime. vel quasi 
+      <lb ed="#V" n="104"/>speciei specialissime: oportet negare in deo: quia ratio deitatis propter sui 
+      <lb ed="#V" n="105"/>dignitatem est simpliciter prior omni alia qualitercumque se sic habente. 
+      </p>
+            <p xml:id="FrMS88-e46499-d1e1382">
+               <lb ed="#V" n="106"/>¶ Aliud dubium. si in primo signo essentia non est spiritus nec substantia 
+      <lb ed="#V" n="107"/>nec ens. quid erit:
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1389">
+      ¶ Dico quod non est inconueniens a. esse 
+      sim<lb ed="#V" n="108" break="no"/>pliciter b. et tamen a. non esse quiditatiue. b.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1394">
+      ¶ Dico ergo quod essemus 
+      <lb ed="#V" n="109"/>simpliciter est spiritus substantia. et ens. Sed pro primo signo dico 
+      <lb ed="#V" n="110"/>quod neutrum eorum est: quia non quiditatiue. identice et realiter est 
+      <lb ed="#V" n="111"/>quodlibet illorum: et ideo essentia extra ista nunquam inuenitur 
+      sim<lb ed="#V" n="112" break="no"/>pliciter. tamen cum determinatione sic.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1405">
+      ¶ Aliud dubium quia 
+      <lb ed="#V" n="113"/>videtur simpliciter quod essentia diuina mutetur de non esse 
+      ta<lb ed="#V" n="114" break="no"/>li ad esse tale.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1412">
+      ¶ Dico quod mutatio nunquam est nisi 
+      quan<lb ed="#V" n="115" break="no"/>do ordine durationis non esse precedit esse: et in ordine 
+      <lb ed="#V" n="116"/>successiuo. huiusmodi autem est permanens. 
+      <lb ed="#V" n="117"/>ad 2m est videndum. Utrum inter 
+      rela<lb ed="#V" n="118" break="no"/>Quantum tiones diuinas sit ordo nature. Et 
+      <lb ed="#V" n="119"/>dico hic quod sic. quia quatuor signa nature ponuntur inter eas. 
+      <lb ed="#V" n="120"/>Primum signum est in quo ponuntur relationes 
+      fundamenta<lb ed="#V" n="121" break="no"/>les. et ille relationes sunt omnino prime: licet non sint reales 
+      <lb ed="#V" n="122"/>nisi secundum quid scilicet a fundamento. quod autem ille sint prime patet. quia 
+      <lb ed="#V" n="123"/>precedunt relationes originis. nam in illo priori quo 
+      perfectio<lb ed="#V" n="124" break="no"/>nes praecedunt origines. intelliguntur perfectiones diuine et 
+      <lb ed="#V" n="125"/>distincte et ordinate. ista autem distinctio et ille ordo non 
+      <lb ed="#V" n="126"/>sunt nisi relationes fundamentales. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1441">
+      ¶ In secum 
+      <lb ed="#V" n="127"/>do signo ponuntur relationes originis partinentes ad fecum 
+      <lb ed="#V" n="128"/>ditatem intellectiuam que sunt generto actiua et passiua 
+      pro<lb ed="#V" n="129" break="no"/>prietates scilicet patris et filii. Iste autem praecedunt illas tertii si 
+      <lb ed="#V" n="130"/>geni scilicet partinentes ad fecunditatem volitiuam. Et hoc patet: quia 
+      <lb ed="#V" n="131"/>qualem ordinem habent extrema: talem habent relationes 
+      <lb ed="#V" n="132"/>in ipsis existentes: sed intellectus est fundamentum relationum 
+      <!--134.xml-->
+      <pb ed="#V" n="66-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>secundi signi. voluntas autem illarum tertii signi. 
+      Intelle<lb ed="#V" n="2" break="no"/>ctus autem praecedit ordine naturae voluntatem. ergo et relationes respi 
+      <lb ed="#V" n="3"/>cientes intellectum prioritate nature praecedunt relationes respi 
+      <lb ed="#V" n="4"/>cientes voluntatem.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1473">
+      ¶ In 3o signo ponuntur relationes 
+      fecun<lb ed="#V" n="5" break="no"/>ditatis volitiue scilicet spiratio actiua et passiua. Iste autem 
+      prae<lb ed="#V" n="6" break="no"/>cedunt relationes commnes: quia iste: saltem altera: est constitut 
+      <lb ed="#V" n="7"/>ua per se. relationes autem communes praesupponunt personas. et sic 
+      se<lb ed="#V" n="8" break="no"/>quutur illas.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1484">
+      ¶ In 4o autem signo ponuntur ipse relationes 
+      <lb ed="#V" n="9"/>communes que sunt inter personas diuinas scilicet similitudo 
+      equali<lb ed="#V" n="10" break="no"/>tas et identitas et talia.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1491">
+      ¶ Sed contra. istud instatur 4r. 
+      Pri<lb ed="#V" n="11" break="no"/>mo sic. quicquid est in patre est prius quam aliquid quod sit in 
+      fi<lb ed="#V" n="12" break="no"/>lio: sed in patre est spiratio actiua. et in filio genertio passiua. 
+      <lb ed="#V" n="13"/>ergo spiratio actiua erit prior generatione passiua. cuius oppositus 
+      <lb ed="#V" n="14"/>dicis.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1502">
+      ¶ 2o sic. vbicumque est hoc ab hoc ibi est ordo originis 
+      <lb ed="#V" n="15"/>sed quod filius spiret habet a patre. ergo posterius origine habet 
+      spira<lb ed="#V" n="16" break="no"/>tionem actiuam quam pater. et si sic. relationes fecunditatis 
+      intelle<lb ed="#V" n="17" break="no"/>ctiue non praecedunt illas fecunditatis volitiue.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1511">
+      ¶ 3o sic. nam 
+      <lb ed="#V" n="18"/>pro quocumque signo pater et filius comparantur: sunt idem in 
+      per<lb ed="#V" n="19" break="no"/>fectionibus et habent infinitatem: sed perfectiones essentie et 
+      infi<lb ed="#V" n="20" break="no"/>nitas sunt fundamenta relationu communium. ergo habent relationes 
+      <lb ed="#V" n="21"/>ommunes pro illo signo quo intelliguntur constituti scilicet pater et 
+      fi<lb ed="#V" n="22" break="no"/>lius per relationes fecunditatis intellectiue antequam adueniant 
+      <lb ed="#V" n="23"/>relationes fecunditatis volitiue: cuius oppositum dicebatur. 
+      </p>
+            <p xml:id="FrMS88-e46499-d1e1527">
+               <lb ed="#V" n="24"/>¶ Quarto sic. qualem ordinem habent fundamenta talem 
+      <lb ed="#V" n="25"/>ordinem habent relationes in eis fundate: sed essentia et 
+      <lb ed="#V" n="26"/>infinitas que sunt fundamenta identitatis et equalitatis 
+      pre<lb ed="#V" n="27" break="no"/>cedunt intellectum et voluntatem que sunt fundamenta 
+      relatio<lb ed="#V" n="28" break="no"/>num originis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1541">
+      ¶ Ad primum istorum dico quod pater ordine 
+      <lb ed="#V" n="29"/>naturae posterius spirat quam sit filius. hoc est prius natuam filius est 
+      <lb ed="#V" n="30"/>quam pater spirat.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1548">
+      ¶ Et ad hoc intel ingendum. est notandum quod 
+      <lb ed="#V" n="31"/>pater et filius comparantur adiuicem secundum duplex signum. 
+      ve<lb ed="#V" n="32" break="no"/>secundum vnum quo comparantur inesse. vel secundum aliud quo 
+      compa<lb ed="#V" n="33" break="no"/>rantur in operari.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1557">
+      ¶ Conformiter autem accipiendo ista 
+      signa<lb ed="#V" n="34" break="no"/>nihil est in filio prius eo quod est in patre. nam quicquid 
+      parti<lb ed="#V" n="35" break="no"/>net ad esse patris est prius origine eo quod partinet ad esse filii 
+      <lb ed="#V" n="36"/>et nihil quod est in filio est prius aliquo quod sit in patre quod 
+      per<lb ed="#V" n="37" break="no"/>tineat ad esse patris. Similiter in operari. Nihil enim est in filio 
+      <lb ed="#V" n="38"/>ptinens ad operari quod sit prius eo quod est in patre: etiam partinens 
+      <lb ed="#V" n="39"/>ad operari. tamen difformiter comparando oppositum est. nam si 
+      <lb ed="#V" n="40"/>comparemus illud quod partinet ad esse in filio ad illud quod 
+      <lb ed="#V" n="41"/>tinet ad operari in patre: necessario illud quod est in filio perti 
+      <lb ed="#V" n="42"/>nens ad esse: prius est eo quod est in patre partinens ad operari: et 
+      <lb ed="#V" n="43"/>ideo generari quod partinet ad esse filii est prius spirare quod 
+      <lb ed="#V" n="44"/>partinet ad operari patris.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1583">
+      ¶ Ad 2m dico quod pater prius 
+      or<lb ed="#V" n="45" break="no"/>gine spirat quam sit filius: et tamen stat cum hoc quod ordine 
+      na<lb ed="#V" n="46" break="no"/>ture filius sit filius prius quam pater spiret: sicut pater 
+      pri<lb ed="#V" n="47" break="no"/>us origine creat quam filius sit: et tamen filius prius nura est quam pater 
+      <lb ed="#V" n="48"/>creat. Et ratio est. quia esse prius origine est esse a se. In hoc 
+      <lb ed="#V" n="49"/>autem quod est esse a se sunt multa ordine nature ordina 
+      <lb ed="#V" n="50"/>ta ad illa que possunt conuenire. et sic esse ab alio. Eodem mo 
+      <lb ed="#V" n="51"/>do ad 3m et ad 4m potest dici. Vel potest dici ad 4m quod 
+      rela<lb ed="#V" n="52" break="no"/>tiones communes non solum exigunt fundamenta: sed etiam 
+      extre<lb ed="#V" n="53" break="no"/>ma. non possunt autem relationes communes extrema constituere 
+      <lb ed="#V" n="54"/>relationes autem originis sic. ideo etc 
+      <lb ed="#V" n="55"/>ad 3m videndum est si inter personas 
+      diui<lb ed="#V" n="56" break="no"/>Quantum nas sit aliquis ordo nature. et dicitur communi 
+      <lb ed="#V" n="57"/>ter quod inter personas diuinas non est aliquis ordo nisi originis 
+      <lb ed="#V" n="58"/>nis: quia correlatiua sunt simul natura. persone autem adiuicem sunt 
+      <lb ed="#V" n="59"/>correlatiua. ergo etc.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1618">
+      ¶ Contra istud arguo sic. qualis est 
+      or<lb ed="#V" n="60" break="no"/>do inter constitutiua aliquorum talis videtur esse inter constituta: sed 
+      <lb ed="#V" n="61"/>ordine naturae generto actiua et generatio passiua praecedunt 
+      spiratio<lb ed="#V" n="62" break="no"/>nem actiuam et passiuam. generatio autem actiua est constitutiua patris. 
+      <lb ed="#V" n="63"/>et passiua constitutiua filii. spiratio autem passiua 
+      constituti<lb ed="#V" n="64" break="no"/>ua spiritussancti ergo constituta talem ordinem habebunt quod pater et 
+      <lb ed="#V" n="65"/>filius ordine naturae praecedent spiritum sanctum. et non solum 
+      ori<lb ed="#V" n="66" break="no"/>ginis. Maior videtur manifesta. Minorem ergo probo 4ar scilicet quo 
+      <!--134.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>generatio actiua. et per consequens passiua praecedant ordine naturae 
+      spi<lb ed="#V" n="68" break="no"/>rationem actiuam et passiuam.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1644">
+      ¶ Et primo sic. Omnis proprie 
+      <lb ed="#V" n="69"/>tas quae aduenit supposito praeconstituto intelligitur posterior. 
+      <lb ed="#V" n="70"/>ipso. et per consequens proprietate ipsum constituente: sed spiratio acti 
+      <lb ed="#V" n="71"/>ua aduenit patri et filio praeconstitutis. ergo est posterior illis. 
+      <lb ed="#V" n="72"/>et per consequens paternitate et filiatione constitutiuis eorum.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1656">
+      ¶ 2o 
+      <lb ed="#V" n="73"/>sic. quicquid est prius priore. est prius posteriore: sed generato actiua 
+      <lb ed="#V" n="74"/>est prior patre: sicut constitutiuum prius est constituto. ergo et 
+      pa<lb ed="#V" n="75" break="no"/>ternitas erit prior spiratione qua est posterior. vel similis cum 
+      <lb ed="#V" n="76"/>patre. et sic de filio.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1667">
+      ¶ 3o sic. quandocunque aliqua sic sunt 
+      ordi<lb ed="#V" n="77" break="no"/>nata quod vnum est in vno signo naturae: et aliud in alio: talia 
+      <lb ed="#V" n="78"/>habent ordinem nature. et per consequens quicquid est in primo signo est 
+      <lb ed="#V" n="79"/>prius natura quolibet quod est in secundo: sed fecunditati 
+      intelle<lb ed="#V" n="80" break="no"/>ctiue potest corrspondere primum signum: et volitiue 2m. ergo cum generatio tanm 
+      <lb ed="#V" n="81"/>actiua quam passiua habeant esse pro primo signo fecuditatis in 
+      <lb ed="#V" n="82"/>tellectiue: necessario praecedent tam spirationem actiuam 
+      quan<lb ed="#V" n="83" break="no"/>passiuam: que habent esse pro 2o signo scilicet volitiue fecunditatis. 
+      </p>
+            <p xml:id="FrMS88-e46499-d1e1685">
+               <lb ed="#V" n="84"/>¶ 4o sic. quandocumque aliqua sunt simul. quicquid est simul nam 
+      cin<lb ed="#V" n="85" break="no"/>vno. simul est natuam cum alio. si ergo genero actiua et spiratio acti 
+      <lb ed="#V" n="86"/>ua sunt simul natura. et generatio actiua et generatio passiua sunt 
+      <lb ed="#V" n="87"/>etiam simul natura. ergo omnes origines personarum erunt simul. et sic non 
+      <lb ed="#V" n="88"/>erit ordo fecunditatum intellectiue et volitiue. quod est 
+      incon<lb ed="#V" n="89" break="no"/>ueniens.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1701">
+      ¶ Nunc confirmo conclusione praiencipalem sic. Quandocum 
+      <lb ed="#V" n="90"/>que aliquid est prius natura aliquo: est prius nam omni eo quod est similis nam cum 
+      <lb ed="#V" n="91"/>illo: sed generato actiua et passiua est prius natura spiratione acti 
+      <lb ed="#V" n="92"/>ua. spiratio autem actiua est similies nam cum spiratione passiua: 
+      <lb ed="#V" n="93"/>quia correlatiua. ergo generatio actiua et passiua est prius natura 
+      spi<lb ed="#V" n="94" break="no"/>ratione actiua et passiua.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1714">
+      ¶ Praeterea. silius prius est filius quam 
+      spi<lb ed="#V" n="95" break="no"/>rator. et hoc ordine nature: sed prout est spirator: est 
+      simul<lb ed="#V" n="96" break="no"/>natura cum spiritu sancto spirato. ergo prius ordine nature filius 
+      prae<lb ed="#V" n="97" break="no"/>cedit spiritum sanctu.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1723">
+      ¶ Confirmatur. quia in signo fecundita 
+      <lb ed="#V" n="98"/>tis intellectiue intelligi potest pater et filius in esse constituti et 
+      <lb ed="#V" n="99"/>non spiritusancus: in 2o signo scilicet fecunditatis volitiue spiritus 
+      <lb ed="#V" n="100"/>san. ergo sicut signum praecedit signum: ita illa quae sunt in vno signo 
+      <lb ed="#V" n="101"/>praecedunt illa quae sunt in alio signo.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1735">
+      ¶ Dico ergo quod pater et filius 
+      <lb ed="#V" n="102"/>ordine naturae praecedunt spiritum san. nam pater et filius possunt concipi 
+      quan<lb ed="#V" n="103" break="no"/>ad illud quod quiditatiue includunt sine spiritu sancto. ergo 
+      pri<lb ed="#V" n="104" break="no"/>us natura sunt eo. et hoc propter ordinem fecunditatum. 
+      <lb ed="#V" n="105"/>ad 4m videndum est. Utrum inter 
+      operatio<lb ed="#V" n="106" break="no"/>Quantum nes diuinas sit aliquis ordo nature. 
+      </p>
+            <p xml:id="FrMS88-e46499-d1e1748">
+               <lb ed="#V" n="107"/>¶ Dico quod est dare 4or signa secundum quae operationes diuine 
+      or<lb ed="#V" n="108" break="no"/>dinantur. in primo signo sunt operationes immanentes ad intra. In 
+      <lb ed="#V" n="109"/>2o operationes transeuntes ad intra. In 3o operationes immanentes ad 
+      <lb ed="#V" n="110"/>extra. In 4o operationes transeuntes ad extra. Operationes autem 
+      <lb ed="#V" n="111"/>imanentes adintra sunt intelligere et velle: et iste totaliter io 
+      <lb ed="#V" n="112"/>cedunt. quia sunt perfectiones simpliciter et communes tribus. Operatio 
+      <lb ed="#V" n="113"/>nes autem transeuntes ad intra sunt dicere et spirare. Operatio 
+      <lb ed="#V" n="114"/>nes immanentes ad extra sunt creaturas intelligere et eas 
+      <lb ed="#V" n="115"/>diligere. Operationes autem transeuntes ad extra sunt 
+      crea<lb ed="#V" n="116" break="no"/>re et conseruare.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1772">
+      ¶ Sed contra istum ordinem instatur 4r. Primo sic 
+      <lb ed="#V" n="117"/>Agere praesupponit esse et non solum agere: sed etiam operari: sed 
+      <lb ed="#V" n="118"/>intelligere et velle sunt quaedam operationes. per generationem autem 
+      <lb ed="#V" n="119"/>pater constituitur in esse. ergo generto et actio ad intra transiens 
+      <lb ed="#V" n="120"/>procedit actionem immanentem ad intra.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1783">
+      ¶ 2o in signo primo quo 
+      <lb ed="#V" n="121"/>pater praecedit filium intelligit creaturas: et in 2o signo quo 
+      <lb ed="#V" n="122"/>pater et filius praecedunt spiritum sanctum diligunt creaturas. 
+      <lb ed="#V" n="123"/>ergo operatio immanens ad extra precedit operationem 
+      tran<lb ed="#V" n="124" break="no"/>seuntem ad intra.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1794">
+      ¶ 3o quia scientia cum fit perfectio simpliciter: 
+      <lb ed="#V" n="125"/>videtur praecedere productionem ad intra: que non est 
+      perfectior<lb ed="#V" n="126" break="no"/>scientia autem respicit extrinseca.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1801">
+      ¶ 4o sic. in illo enim priori 
+      <lb ed="#V" n="127"/>pater et filius erunt inscientes.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1807">
+      ¶ Ad ista.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1810">
+      ¶ Ad primum dico 
+      <lb ed="#V" n="128"/>quod agere non praesupponit esse principii quod: sicut fuit superi 
+      <lb ed="#V" n="129"/>us sepre dictum et declaratum: sed solum praesupponit esse prin 
+      <lb ed="#V" n="130"/>cipii quo. et istud est essentia vel memoria vel voluntas 
+      <lb ed="#V" n="131"/>fecumda proprie loquendo.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1821">
+      ¶ Ad 2m dico quod accipiendo 
+      <lb ed="#V" n="132"/>prius origine vt dicit generaliter esse a se. pater in illo priori 
+      <!--135.xml-->
+      <pb ed="#V" n="66-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>quo praecedit filium intelligit et diligit creaturam et distinctam 
+      <lb ed="#V" n="2"/>habet de ea scientiam: sed tamen prius natum filius est quam ista habeat pater: 
+      <lb ed="#V" n="3"/>licet habeat ista a se prius ordine originis quae diuiditur in 
+      <lb ed="#V" n="4"/>duo signa: et licet quicquid est in istis duobus signis 
+      na<lb ed="#V" n="5" break="no"/>ture ex parte patris fit prius origine: tamen illud quod est in 
+      fi<lb ed="#V" n="6" break="no"/>lio correspondens primo signo nature in patre. prius 
+      <lb ed="#V" n="7"/>natura est eo quod est in patre in secundo signo nature. Ista 
+      <lb ed="#V" n="8"/>signa nature accipiuntur ab esse et operari: sicut sepe 
+      di<lb ed="#V" n="9" break="no"/>ctum est.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1852">
+      ¶ Ad 3m dico quod illud quod dicit scientia 
+      forma<lb ed="#V" n="10" break="no"/>iter scilicet terminationem ad creaturam non est perfectio simpliciter 
+      <lb ed="#V" n="11"/>sed solum dicit vnum respectum fundamentalem vel 
+      forma<lb ed="#V" n="12" break="no"/>lem rationis. vt postea declarabitur.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1861">
+      ¶ Ad 4m dico quod 
+      nul<lb ed="#V" n="13" break="no"/>lus dicitur inscius nisi carens scientia pro illo signo pro 
+      <lb ed="#V" n="14"/>quo natus est habere. sic non est hic.
+    </p>
+            <p xml:id="FrMS88-e46499-d1e1868">
+      ¶ Ad argumentum patet 
+      <lb ed="#V" n="15"/>Et sic equaliter responsum est ad quaestionem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

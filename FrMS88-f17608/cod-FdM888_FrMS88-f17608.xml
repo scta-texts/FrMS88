@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 9</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 9</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="156-v"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f17608"><!-- l2d14q9 -->
+            <head xml:id="FrMS88-f17608-Hd1e108">Quaestio 9</head>
+            <p xml:id="FrMS88-f17608-d1e111">
+               <lb ed="#V" n="114"/>CIrca vltimam partem istius 
+      distin<lb ed="#V" n="115" break="no"/>ctionis. 14. Quero interum 
+      <lb ed="#V" n="116"/>4o questiones. Prima questio est: 
+      <lb ed="#V" n="117"/>vtrum celum sit in loco. Et videtur quod sic: 
+      <lb ed="#V" n="118"/>quia secundum Augustinum de ci. dei. Sola 
+      <lb ed="#V" n="119"/>bona alicubi esse possunt. mala autem 
+      <lb ed="#V" n="120"/>nusquam celum autem non est malum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e129">
+               <lb ed="#V" n="121"/>Contra. 2. ci. dei. Inaniter cogitant 
+      ho<lb ed="#V" n="122" break="no"/>mines de loco extra mundum: quia nullus est. 
+      <lb ed="#V" n="123"/>Primo quid sit locus 
+      <lb ed="#V" n="124"/>hic videndum est. Augustinus. xi. de 
+      <lb ed="#V" n="125"/>ciuitate dei. tractat duas quaestiones: vna est de loco 
+      extra<lb ed="#V" n="126" break="no"/>mundum: et queritur quare deus posuit hic mundum et non 
+      <lb ed="#V" n="127"/>bi. non apparet ratio. Augu. dicit quod aliqua certa ratione 
+      <lb ed="#V" n="128"/>sibi cognita: et nota hic posuit et non ibi. Secundo dicit quod 
+      <lb ed="#V" n="129"/>aliquin antiqui dixerunt quod ante mundum infinita tempora 
+      <lb ed="#V" n="130"/>uerunt: et querebant quare deus non creauit mundum 
+      <lb ed="#V" n="131"/>in illis. dicit similiter. inaniter etc. Uideamus ergo 
+      pri<lb ed="#V" n="132" break="no"/>mo quid sit locus.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e158">
+      ¶ Aliquin dicunt quod est superficies 
+      <!--316.xml-->
+      <pb ed="#V" n="157-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>corporis continentis: quia est de genere continuorum. nulli autem 
+      <lb ed="#V" n="2"/>potest appropriari nisi superficiei.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e171">
+      ¶ Aliqui dicunt quod non quia 
+      <lb ed="#V" n="3"/>superficies variatur: loco non variato: dicunt igitur quod non est 
+      ni<lb ed="#V" n="4" break="no"/>si spacium occupatum: locus enim commensuratur locato: spa 
+      <lb ed="#V" n="5"/>tium autem secundum omnem dimensionem sibi commensuratur non 
+      superfi<lb ed="#V" n="6" break="no"/>cies.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e183">
+      ¶ Alii dicunt quod est vacuum: nec est aliquid positiuum 
+      <lb ed="#V" n="7"/>ed priuatiuum. quia priuatiuum implet locum. Nam illud quod 
+      imple<lb ed="#V" n="8" break="no"/>tur erat vacuum.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e190">
+      ¶ Quartus modum dicendi est: quod non est nis 
+      <lb ed="#V" n="9"/>virtus et habitudo ad polos mundi immobiles.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e195">
+      ¶ Contra primum 
+      <lb ed="#V" n="10"/>arguitur: quia remanente naue in eodem loco defluit aqua: 
+      nec<lb ed="#V" n="11" break="no"/>corpus locatum mouetur localiter.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e202">
+      ¶ Contra 2m. si tale 
+      spa<lb ed="#V" n="12" break="no"/>cium esset separatum bene esset possibile: sed tale infinitum positiuum 
+      <lb ed="#V" n="13"/>non ponitur secundum fidem: nec quantitas separata: quia est ordo 
+      par<lb ed="#V" n="14" break="no"/>tium.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e211">
+      ¶ Contra 3m: quia motus localis esset ad nihil: nec vi 
+      <lb ed="#V" n="15"/>detur esse pura priuatio.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e216">
+      ¶ Contra 4m: quia secundum fideme caelum est 
+      <lb ed="#V" n="16"/>annihilabile: si enim poli essent annihilatiadhuc alia rema 
+      <lb ed="#V" n="17"/>nerent in loco. Ideo dico quod locus formaliter est respectus 
+      <lb ed="#V" n="18"/>cuiuscumque locati ad prium mouens immobile: cui 
+      attribui<lb ed="#V" n="19" break="no"/>mus duo praedicata scilicet quod est vbique et semper illud non est 
+      per<lb ed="#V" n="20" break="no"/>respectum quem habet ad locum nec ad temporus. Sed per hoc quod 
+      <lb ed="#V" n="21"/>omnis creatura habet respectum praesentialitatis ad primum: et alium 
+      re<lb ed="#V" n="22" break="no"/>spectum praesentialitatis secundum periodum.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e235">
+      ¶ Sed contra: quia 
+      re<lb ed="#V" n="23" break="no"/>lationes creature sunt idem fundamento: locus 
+      autem<lb ed="#V" n="24" break="no"/>corpori non: quia non remanet in eodem loco.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e242">
+      ¶ Secundo. quia 
+      re<lb ed="#V" n="25" break="no"/>ationes homo sunt intrinsecus aduenientes ad deum. 
+      </p>
+            <p xml:id="FrMS88-f17608-d1e247">
+               <lb ed="#V" n="26"/>¶ Tertio. quia vbi differunt specie quod non esset: quia sunt termini 
+      <lb ed="#V" n="27"/>eiusdem rationis.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e254">
+      ¶ Item quocumque vadas respectu dei 
+      <lb ed="#V" n="28"/>est eadem priencipalitas.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e259">
+      ¶ Ad primum dicendum quod omnis respectus 
+      <lb ed="#V" n="29"/>talis est: sicut passio in qua imprimiter gratia.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e264">
+      ¶ Ad 2m 
+      ne<lb ed="#V" n="30" break="no"/>gandum est quod assumitur.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e270">
+      ¶ Ad 3m. in respectibus 
+      intrin<lb ed="#V" n="31" break="no"/>secus aduenientibus non tenet vbi agens concurrit potens 
+      <lb ed="#V" n="32"/>causare distincta.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e277">
+      ¶ Ad aliud. omnis creatura non est 
+      vnifor<lb ed="#V" n="33" break="no"/>miter praesens deo.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e282">
+      ¶ Dico ergo quod si deus faceret infinitos 
+      <lb ed="#V" n="34"/>mnundos esset vbique: et ita est infinitus localiter potentialiter: 
+      <lb ed="#V" n="35"/>quilibet autem istorum mundorum haberet aliam 
+      praesentialita<lb ed="#V" n="36" break="no"/>tem ad deum: et sic tunc esset in actu. 
+      <lb ed="#V" n="37"/>particula. videndum est: qualiter locus est im 
+      <lb ed="#V" n="38"/>Secunda mobilis. non potest poni quod propter superficiem. 
+      <lb ed="#V" n="39"/>Ideo dicunt aliqui quod secundum immobilitatem illius spacii quod 
+      <lb ed="#V" n="40"/>est immobile.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e300">
+      ¶ Alii autem quod secundum immobilitatem vacui quod 
+      <lb ed="#V" n="41"/>moueri non potest.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e305">
+      ¶ Alii dicunt quod per comperationem ad 
+      po<lb ed="#V" n="42" break="no"/>los mundi.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e310">
+      ¶ Alii dicunt quod per comperationem ad centrum quod 
+      <lb ed="#V" n="43"/>est simpliciter immobile.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e316">
+      ¶ Sed contra primum arguiter: illud enim 
+      spa<lb ed="#V" n="44" break="no"/>tium est mobile: quia partes eius sunt homogenee: ideo ad 
+      <lb ed="#V" n="45"/>qudcumque natum est vnum et reliquum.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e323">
+      ¶ Contra 2m: illa enim 
+      <lb ed="#V" n="46"/>est immobilitas de qua non querimus.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e328">
+      ¶ Contra 3m: bene 
+      <lb ed="#V" n="47"/>staret secundum philosophos: sed secundum rei veritatem non potest stare: quia 
+      <lb ed="#V" n="48"/>me stante hic: potest deus potest totam terram reuolue 
+      <lb ed="#V" n="49"/>re. Si intelligis centrum illud accidens: illud mouebit 
+      <lb ed="#V" n="50"/>moto subito. Si punctum: illud est imaginatum. Polis 
+      <lb ed="#V" n="51"/>enim non repugnat moueri aliis remanentibus in loco. 
+      <lb ed="#V" n="52"/>Ideo dicit Scotus quod est secundum equalentiam ad motum 
+      <lb ed="#V" n="53"/>ocalem.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e346">
+      ¶ Sed contra. quando sit questio de relatione 
+      vltima<lb ed="#V" n="54" break="no"/>resolutio non stat ad respectum: sed ad aliquid absolutum: 
+      <lb ed="#V" n="55"/>equalentia autem est quaedam relatio: ergo oportet illam in aliam 
+      <lb ed="#V" n="56"/>resoluere: vnde venit illa immobilitas.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e355">
+      ¶ Secundo. quia 
+      ne<lb ed="#V" n="57" break="no"/>gatio resoluiter in affirmationem priorem: quare autem 
+      equi<lb ed="#V" n="58" break="no"/>ualet: quia immobile: non autem econverso.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e362">
+      ¶ Tertio. quid facit nos 
+      <lb ed="#V" n="59"/>scire istud: quare enim dicitur illud equalens motui locali. 
+      Di<lb ed="#V" n="60" break="no"/>citur immobile: quia tantum valet ac si esset immobile: ita dicerem 
+      <lb ed="#V" n="61"/>quare istud est factum: quia tantum valet: sicut si esset factum. 
+      </p>
+            <p xml:id="FrMS88-f17608-d1e372">
+               <lb ed="#V" n="62"/>¶ Quarto. quia remanet tota difficultas: vnde prouenit 
+      <lb ed="#V" n="63"/>illa equalentia: non possum igitur videre nisi immobilitatem. 
+      <lb ed="#V" n="64"/>primi mouentis: quia omnis creatura est mobilis. 
+      <lb ed="#V" n="65"/>particula. quid est terminus motus localis. 
+      <lb ed="#V" n="66"/>Tertia Aliqui dicunt quod locus.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e385">
+      ¶ Contra. terminus 
+      <!--316.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>motus est in mobili: sed superficies corporis continentis 
+      <lb ed="#V" n="68"/>non est in mobili.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e396">
+      ¶ Alii dicunt quod forma absoluta. Con 
+      <lb ed="#V" n="69"/>tra. esse in loco non est nisi habitudo.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e401">
+      ¶ Alii dicunt 
+      or<lb ed="#V" n="70" break="no"/>prnsequetialitas ad polos mundi.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e406">
+      ¶ Contra hoc: quia potest esse 
+      <lb ed="#V" n="71"/>ponsequens possibilis sine motu sui: sicut si deus faceret polos 
+      deseen<lb ed="#V" n="72" break="no"/>dere.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e413">
+      ¶ Dico igitur quod terminus est primum mouens. 
+      <lb ed="#V" n="73"/>particula est de quesito: vtrum scilibet 
+      ce<lb ed="#V" n="74" break="no"/>Quaria lum est in loco.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e421">
+      ¶ Quidam dicunt quod sic 
+      <lb ed="#V" n="75"/>per suas partes.
+    </p>
+            <p xml:id="FrMS88-f17608-d1e426">
+      ¶ Dico quod materialiter non est in loco: sed 
+      for<lb ed="#V" n="76" break="no"/>maliter: quia totum vniuersum habet respectum praesentialitatis ad  
+      <lb ed="#V" n="77"/>deum: igitur imaginatiuum videtur quod si deus crearet alii 
+      <lb ed="#V" n="78"/>mundum posset eum coniugere isti: alio adiuncto est 
+      di<lb ed="#V" n="79" break="no"/>stantia: et posset eum mouere in infinitum: nec acquireret 
+      <lb ed="#V" n="80"/>respectum nisi ad deum: quia nihil aliud potest dari: 
+      nec<lb ed="#V" n="81" break="no"/>vacuum: nec spacium positiuum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="13-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-de8541"><!-- l1d1q4 -->
+            <head xml:id="FrMS88-de8541-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-de8541-d1e111">
+      Quaestio. iiii. 
+      <lb ed="#V" n="62"/>vtrum obiectum fruitionis habet 
+      plu<lb ed="#V" n="63" break="no"/>Ueritur res rationes visibilitatis. quod 
+      <lb ed="#V" n="64"/>non Aug. omnem nostram scientiam vno intuitu habebi 
+      <lb ed="#V" n="65"/>quimus.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e122">
+      ¶ Contra. Diony. de di. no. per ca. Di 
+      <lb ed="#V" n="66"/>scit quod essentialia praecedunt notionalia.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e127">
+      ¶ Cir¬ 
+      <!--28.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>ca istam quaestionem primo inuestigabo de obiecto per 
+      compara<lb ed="#V" n="68" break="no"/>tionem ad extrinseca. 2o per comparationem ad intrinseca. 
+      <lb ed="#V" n="69"/>ad primum fuit opinio vnius doctor. quod 
+      <lb ed="#V" n="70"/>Quantum quicuque videt diuinam essentiam et 
+      creatu<lb ed="#V" n="71" break="no"/>ras omnes videt. Et probatur sic. quandocumque est aliquod obiectum necessario 
+      <lb ed="#V" n="72"/>repraesentans aliqua videns illud obiectum necessario videt illa. licet 
+      <lb ed="#V" n="73"/>enim possit videre vel non videre primum obiectus: tamen posita visio 
+      <lb ed="#V" n="74"/>ne circa primum obiectum necessario fertur visio circa repre 
+      <lb ed="#V" n="75"/>sentata per primum. sed essentia diuina necessario repraesentat quicquid 
+      <lb ed="#V" n="76"/>repraesentat. ergo videns eam videt omnia repraesentata per eam.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e156">
+      ¶ Cotra. 
+      <lb ed="#V" n="77"/>istam opinionem arguo. 4r. Primo quia perirent reuelationes nec 
+      <lb ed="#V" n="78"/>deus posset alicui scom aliquod nouum reuelare: quia exquo esset 
+      <lb ed="#V" n="79"/>beatus omnia videret que deus videt videndo essentiam. et sic 
+      <lb ed="#V" n="80"/>numquam deus posset aliquid reuelare.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e168">
+      ¶ 2o ista potentia auferret 
+      <lb ed="#V" n="81"/>illuminationes angelorum.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e173">
+      ¶ 3o scorum differentiam in videndo 
+      plu<lb ed="#V" n="82" break="no"/>ra. quod est inconueniens.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e178">
+      ¶ 4o priuilegium christi.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e181">
+      ¶ Ideo communiter 
+      <lb ed="#V" n="83"/>tenetur oppositum.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e186">
+      ¶ Sed de mo est difficultas. et est via 4 
+      <lb ed="#V" n="84"/>ad saluandum modum. Prima via est quod nulla mutatione 
+      fa<lb ed="#V" n="85" break="no"/>cta circa actum potest deus reuelare cognitionem eius quan 
+      <lb ed="#V" n="86"/>prius non habuit.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e195">
+      ¶ Sed contra. quia impossibile est transire de 
+      contradicto<lb ed="#V" n="87" break="no"/>rio in contradictorium nulla mutatione facta in altero 
+      extre<lb ed="#V" n="88" break="no"/>morum: sed hic est transitus: quia prius non nouit illud quod postea 
+      <lb ed="#V" n="89"/>nouit. ergo oportet quod in deo sit mutatio vel in vidente. 2o 
+      extre<lb ed="#V" n="90" break="no"/>trema contradictionis non possunt dici de eodem secundum idem: sed de isto 
+      <lb ed="#V" n="91"/>actu dicuntur contradictoria secundum idem: quia cognoscere obiectum et non 
+      <lb ed="#V" n="92"/>cognoscere illud. ergo.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e212">
+      ¶ Ideo dicunt alii quod hoc fit per aliim 
+      <lb ed="#V" n="93"/>actum.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e217">
+      ¶ Contra. Aug.n de notitia matutina et 
+      vesperti<lb ed="#V" n="94" break="no"/>na dicit quod eodem actu cognoscitur verbum et cognita in verbo. 
+      </p>
+            <p xml:id="FrMS88-de8541-d1e222">
+               <lb ed="#V" n="95"/>¶ Ideo est 3us modus quia per gradum additum actui 
+      beatifi<lb ed="#V" n="96" break="no"/>co.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e229">
+      ¶ Contra. quia augmentatio fit per gradus eiusdem rationis 
+      <lb ed="#V" n="97"/>et per consequens obiectum si non cognoscitur per vnum gradum. nec per 
+      <lb ed="#V" n="98"/>alium. licet enim addito. 2o gradu actus fiat intensior. et per consequens quod 
+      pri<lb ed="#V" n="99" break="no"/>us cogscebatur nunc perfectius cognoscitur: tamen quod prius per priorem 
+      <lb ed="#V" n="100"/>gradum non fuit cognitum nec cognoscetur nunc per gradum 
+      <lb ed="#V" n="101"/>aduenientem. 2o quia tunc deus non posset reuelare aliquam 
+      ve<lb ed="#V" n="102" break="no"/>ritatem nisi augmentaret beatitudininem. et per consequens nec posset 
+      <lb ed="#V" n="103"/>lino vnam veritatem petro non reuelatam reuelare. nisi bea 
+      <lb ed="#V" n="104"/>¬titudo lini esset intensior beatitudine petri: que omnia videns 
+      <lb ed="#V" n="105"/>tur inconuenientia.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e251">
+      ¶ Ideo dicunt alii 4o modo quod primus actus 
+      <lb ed="#V" n="106"/>destruitur et causatur nouus.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e256">
+      ¶ Contra hoc. quia iste actus 
+      no<lb ed="#V" n="107" break="no"/>uus autem est eiusdem rationis cum primo. aut nm. Et si sic. ergo non 
+      cogno<lb ed="#V" n="108" break="no"/>scimus aliquid aliud plus quam prius. Si autem dicas quod alterius. 
+      tom<lb ed="#V" n="109" break="no"/>deus non posset aliquid de nouo reuelare nisi diminueret 
+      ve<lb ed="#V" n="110" break="no"/>augmentaret beatitudininem: quia species diuerse necessario habent se 
+      <lb ed="#V" n="111"/>secundum ordinem excedentis et excessi.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e270">
+      ¶ Ideo dicit Iouamnes quod fit 
+      <lb ed="#V" n="112"/>per respectus nouos non necessarios ad 2a obiecta. Nam actus habet 
+      <lb ed="#V" n="113"/>ecessariam et essentialem dependentiam ad prius obiectum. ad alia autem 
+      <lb ed="#V" n="114"/>obiecta scilicet secundaria non. quia potest esse actus sine tali respectu. 
+      Di<lb ed="#V" n="115" break="no"/>cit ergo quod per aduentum noui respectus ad obiectum secundarium intelligitur 
+      <lb ed="#V" n="116"/>illud obiectum quod prius non intelligebatur. et hoc per priorem actum 
+      <lb ed="#V" n="117"/>cui aduenit respectus.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e286">
+      ¶ Sed hic sunt aliquo difficultates 
+      <lb ed="#V" n="118"/>Prima est de illo respectu quia aut est intrinsecus adueniens. et hoc sin 
+      <lb ed="#V" n="119"/>quia talis oritur ex nam extremorum. Aut est extrinsecus 
+      adue<lb ed="#V" n="120" break="no"/>niens. et hoc non. quia tunc quaero ad quod genus reducitur.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e295">
+      ¶ Dicitur ab 
+      <lb ed="#V" n="121"/>aliquibus quod est intrinsecus aduemes. nec sequitur inconueniens: quia 
+      <lb ed="#V" n="122"/>deus causaret extrema sine relatione: vt duo alba sine similitudi 
+      <lb ed="#V" n="123"/>ne: quamuis hoc non posset naturaliter fieri. Ita in proposito. Sed 
+      <lb ed="#V" n="124"/>tunc oportet dicere quod visa diuina essentia necessario videntur omnia. 
+      <lb ed="#V" n="125"/>et quod est miraculum quod non videantur omnia: que dicta 
+      vide<lb ed="#V" n="126" break="no"/>rentur nimis extranea.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e311">
+      ¶ Ideo potest dici quod non est intrinse 
+      <lb ed="#V" n="127"/>cus: sed extrinsecus adueniens.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e316">
+      ¶ Et quando dicitur. ad quod 
+      ge<lb ed="#V" n="128" break="no"/>nus reducitur: potest dici quod multi sunt respectus extrinseci 
+      <lb ed="#V" n="129"/>in transcendentibus quae non sunt proprie in aliquo genere 
+      <lb ed="#V" n="130"/>videndum est quantum ad intrinseca. Et primo 
+      quanti<lb ed="#V" n="131" break="no"/>Secundo ad attributa. et hoc doctor ipse pertransit 
+      </p>
+            <p xml:id="FrMS88-de8541-d1e327">
+               <lb ed="#V" n="132"/>¶ Opinio autem communis est quod non. secundum autem principim istius doctor suppo¬ 
+      <!--29.xml-->
+      <pb ed="#V" n="13-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>sita aliqua distinctione que inferius declarabitur inter attributa 
+      <lb ed="#V" n="2"/>diuina: dicendum esset quod sic. quia quando aliquis actus habet duo obstantia: vnum 
+      <lb ed="#V" n="3"/>primarium et aliud secundarium: potest ferri in primarium absque hoc quod 
+      <lb ed="#V" n="4"/>in secundarium feratur. hoc patet alibi: sed essentia est obiectum primarium: 
+      <lb ed="#V" n="5"/>attributa vero sunt obstantia secundaria. ergo vnus actus poterit ferri in 
+      <lb ed="#V" n="6"/>essentiam absque hoc quod feratur in attributa.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e352">
+      ¶ 2o sic. quando 
+      aliquo<lb ed="#V" n="7" break="no"/>se habent: sic adinuicem: sicut quiditas et passio vel praeditum de 
+      <lb ed="#V" n="8"/>secundo modo actus intelligendi potest saltem per potentiam 
+      diu<lb ed="#V" n="9" break="no"/>nam ferri in quiditatem dato quod non feratur in alia: sed 
+      essentia<lb ed="#V" n="10" break="no"/>diuia est sicut quiditas attributa: sicut praedicata de 2o modo 
+      <lb ed="#V" n="11"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e365">
+      ¶ Tenendo ergo principim istius doctor posset dici quod sic. licet 
+      ip<lb ed="#V" n="12" break="no"/>se non asserat. Et hec opinio videtur concordare cum opinione 
+      <lb ed="#V" n="13"/>doctorum antiquorum: qui ponebant infinitas perfectiones 
+      <lb ed="#V" n="14"/>in deo: et vna poterat cognosci alia non cognita. 
+      <lb ed="#V" n="15"/>videndum est de essentia et personis. Et ad hoc 
+      <lb ed="#V" n="16"/>Se
+    </p>
+            <p xml:id="FrMS88-de8541-d1e378">
+      ¶ 8 dicitur quod non. quia visio est existentis vt existens est. 
+      <lb ed="#V" n="17"/>sed essentia diuina existit in tribus personis. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-de8541-d1e383">
+               <lb ed="#V" n="18"/>¶ Confirmatur. quia quando aliquid est formaliter quo: illud in 
+      quo<lb ed="#V" n="19" break="no"/>est formaliter illud quo est necessario quod. sed diuina 
+      ef<lb ed="#V" n="20" break="no"/>sentia est formaliter in personis: et est quo respectu actus. 
+      <lb ed="#V" n="21"/>ergo et persone erunt quod. sed illud quod est quod. est hoc quod 
+      <lb ed="#V" n="22"/>idetur ergo etc.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e396">
+      ¶ Sed contra arguitur 4r. Primo sic. quandocumque 
+      <lb ed="#V" n="23"/>aliquid est quo respectu operationis: illud in quo est: 
+      nece<lb ed="#V" n="24" break="no"/>sario est quod. sed infinitas fuit intellecta a philosophis. que est 
+      <lb ed="#V" n="25"/>formaliter in personis. ergo persone fuerunt quod. et sic 
+      intelle<lb ed="#V" n="26" break="no"/>xerunt tres personas. quod est ficitum. Aliter arguo: simplices 
+      <lb ed="#V" n="27"/>crediderunt ab antiquo diuinitatem que est formaliter 
+      <lb ed="#V" n="28"/>in tribus personis. et tres personas non intellexerunt. Tertio 
+      <lb ed="#V" n="29"/>arguo de actu charitatis qui fuit in multis. ad quos 
+      <lb ed="#V" n="30"/>non peruenit articulus trinitatis. sicut in veteri testo. 
+      ter<lb ed="#V" n="31" break="no"/>minabatur autem ad diuinitatem. ergo ad personas. ergo in 
+      <lb ed="#V" n="32"/>tellexerunt tres personas. quod falsum est. Similiter 4o. arguitur 
+      <lb ed="#V" n="33"/>de multis hereticis qui non crediderunt tres personas: et 
+      <lb ed="#V" n="34"/>tamen actu amicitie acquisite dilexerunt deum. sequitur ergo 
+      <lb ed="#V" n="35"/>quod dilexerunt tres personas non. Ideo dico quod ista 
+      regula<lb ed="#V" n="36" break="no"/>de quo et quod numquam diaet intelligi vniversaliter vera. saltem in actio 
+      <lb ed="#V" n="37"/>nibus immanentibus. Ex hoc arguitur sic. quando est talis act 
+      <lb ed="#V" n="38"/>qui potest terminari ad aliquid quod est formaliter in aliquo 
+      <lb ed="#V" n="39"/>absque eo quod terminetur ad ipsum: in quo est formaliter 
+      <lb ed="#V" n="40"/>illud potest terminare: vt quod: et vt quo: absque eo quod illud in 
+      <lb ed="#V" n="41"/>quo est. terminet vt quod. sed visio et multe operationes 
+      im<lb ed="#V" n="42" break="no"/>manentes sunt huiusmodi. ergo potest videri essentia: absquem hoc 
+      <lb ed="#V" n="43"/>quod videantur persone: non obstante quod essentia sit in personis 
+      <lb ed="#V" n="44"/>formaliter. Confirmatur quia vnio naturarum in christo: secundum Dion. 
+      <lb ed="#V" n="45"/>fuit ignorata a summo seraphin. et tamen diuinitatem christi 
+      <lb ed="#V" n="46"/>videbat: et humanitatem videre non potuit. 
+      <lb ed="#V" n="47"/>difficultas est de personis. vtrum possit vi 
+      <lb ed="#V" n="48"/>Tertia deri vna persona alia non visa. Et 
+      diciturcommuni<lb ed="#V" n="49" break="no"/>ter quod non. quia relatiua stut similis natura id est naturali 
+      intelligen<lb ed="#V" n="50" break="no"/>tia. cum ergo persone relatiue sint: vna non poterit videri 
+      <lb ed="#V" n="51"/>sine alia.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e461">
+      ¶ Contra. dato quod ista ratio concludat de patre: 
+      re<lb ed="#V" n="52" break="no"/>spectu filii. non tamen concludit de patre: nec filio 
+      re<lb ed="#V" n="53" break="no"/>spectu spiritussancti: quia quandocumque in rationibus 
+      formali<lb ed="#V" n="54" break="no"/>bus constitutiuis aliquorum non includitur relatio ad terminum 
+      <lb ed="#V" n="55"/>a. non est contradictio illa videre sine a ex ratione simultatis 
+      re<lb ed="#V" n="56" break="no"/>latiuorum. hoc patet. quamquam enim album sit simile alteri albo: tamen quia 
+      <lb ed="#V" n="57"/>imilitudo non constituit album in esse albi. poterit intelleci vnum al 
+      <lb ed="#V" n="58"/>bum sine alio. sed pater et filius non constituuntur ex relatione ad 
+      spitun<lb ed="#V" n="59" break="no"/>scuntum: ergo poterunt videri non viso spirituscomo. ergo etc. Secundo arguo 
+      <lb ed="#V" n="60"/>de patre et filio: quia non requritur quod eo modo quo vnum 
+      cogno<lb ed="#V" n="61" break="no"/>sco: et aliud cognoscam. dato enim quod intuitiue viderem 
+      depen<lb ed="#V" n="62" break="no"/>dentiam creature ad deum: non propter hoc intuitiue viderem 
+      <lb ed="#V" n="63"/>deum. Eodem modo: dato quod intuitiue viderem patrem: non vi 
+      <lb ed="#V" n="64"/>deo necessitatem quod intuitiue videam filium. Declaratum autem 
+      <lb ed="#V" n="65"/>est superius quod intellectus separatus potest videre relationem 
+      <lb ed="#V" n="66"/>creature ad deum sine deo. sed deum arguitiue tantum. 
+      <!--29.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/> difficultas est de vdeis. Dico quod sic. quia certum est 
+      <lb ed="#V" n="68"/>Quari.  quod essentia potest videri sine creaturis: sed 
+      <lb ed="#V" n="69"/>vdee non sunt sine creaturis. ergo essentia sine vdeis potest 
+      <lb ed="#V" n="70"/>ideri. Minor patet: quia yvdea est exemplar et ymago 
+      creatu<lb ed="#V" n="71" break="no"/>rarum. hoc autem dicit respectum. 2o quando sunt aliqua duo 
+      ordi<lb ed="#V" n="72" break="no"/>nata respectu alicuius tertii. si 3m potest cognosci sine 
+      si<lb ed="#V" n="73" break="no"/>bi immediato: ergo et sine mediato. sed immediatius se habent 
+      <lb ed="#V" n="74"/>attributa ad essentiam diuinam quam vdee. essentia autem potest 
+      <lb ed="#V" n="75"/>cognosci sine attributis. ergo sine vdeis.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e521">
+      ¶ Sed hic est vna 
+      <lb ed="#V" n="76"/>difficultas si essentia cognita non cognoscantur vdee. sed postea 
+      <lb ed="#V" n="77"/>si cognoscuntur. quomodo cognoscuntur: oportet dicere secundum vnam viam 
+      <lb ed="#V" n="78"/>que superius posita est. quod si postea cognoscantur quod per 
+      re<lb ed="#V" n="79" break="no"/>pectum superuenientem cognoscantur. 2a difficultas est de vdeis et 
+      <lb ed="#V" n="80"/>creaturis similis. quia vdee aut ponuntur ipsemet deus. et tunc 
+      <lb ed="#V" n="81"/>impossibile est quod cognita diuina essentia ipse non cognoscam 
+      <lb ed="#V" n="82"/>tur. Si autem dicas quod sunt creature cognite: cum non habeans 
+      <lb ed="#V" n="83"/>esse nisi diminutum. tunc respectus non habebit nisi esse 
+      diminu<lb ed="#V" n="84" break="no"/>tum. et tunc non poterit dici de nouo aduenire: nisi 
+      ali<lb ed="#V" n="85" break="no"/>quod ens simpliciter accipiat esse. quod tamen non videtur. Vel oportet 
+      di<lb ed="#V" n="86" break="no"/>cere quod ens diminutum precise sine alio accipit esse. Vel 
+      <lb ed="#V" n="87"/>quod vdee sunt formaliter in deo. sed non formaliter deus. 
+      <lb ed="#V" n="88"/>Et de hoc alias. Est autem hic vna difficultas. vtrum essen 
+      <lb ed="#V" n="89"/>tia diuina sit obiectum beatificum. vt in tribus. Ad hoc 
+      di<lb ed="#V" n="90" break="no"/>co quod de facto nulli dubium esse dictet: quia res quae nos beatos 
+      <lb ed="#V" n="91"/>faciunt sunt patre et filius et spiritusctus.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e558">
+      ¶ Sed dubium est. 
+      <lb ed="#V" n="92"/>vtrum essentie ex se repugnet beatificare. nisi vt in tribus. 
+      <lb ed="#V" n="93"/>Et ad hoc dicitur quod non: et rationem tangit Ionuanes. quia pater 
+      <lb ed="#V" n="94"/>in illo priori originis quo praecedit filium: aut est beatus. 
+      <lb ed="#V" n="95"/>et tunc habetur propositum. cum essentia vt sic non intelligatur in 
+      tri<lb ed="#V" n="96" break="no"/>bus personis. Si autem dicas quod non est beatus. ergo non a se. 
+      <lb ed="#V" n="97"/>sed a persona producta habet suam beatitudinem.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e574">
+      ¶ Ad istud 
+      <lb ed="#V" n="98"/>dupliciter dicitur. primo quod non sunt signa originis. concedunt tamen illi 
+      <lb ed="#V" n="99"/>primum 2m et 3m. sed hoc tantum valet: quantum ad argumentum primum quantum 
+      <lb ed="#V" n="100"/>prius. Reduco enim sic. Aut in illo priori est beatus: aut 
+      <lb ed="#V" n="101"/>non. si sic. ergo sicut prius etc. Alio modo soluiter sic. concedendo 
+      <lb ed="#V" n="102"/>signum a quo. non tantum in quo.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e587">
+      ¶ Sed contra. verum est enim quod hoc 
+      <lb ed="#V" n="103"/>signum originis in quo ponimus patrem esse est oditatiue a 
+      <lb ed="#V" n="104"/>quo. tamen necessario et ex consequenti erit in aliquo. Et hoc prob 
+      <lb ed="#V" n="105"/>quia signum originis est ratio originis: ergo necessario est in 
+      ali<lb ed="#V" n="106" break="no"/>qua persona. Et tunc arguo in illo priori. aut est beatus: et 
+      <lb ed="#V" n="107"/>tunc habetur propositum. aut non. et tunc per aliud. et sic non a se. Ex 
+      <lb ed="#V" n="108"/>hoc dico quod essentia diuina sub ratione sua absoluta est 
+      <lb ed="#V" n="109"/>obiectum beatificum: et non inquantum in tribus reduplica 
+      <lb ed="#V" n="110"/>tiue accipiendo. quamuis semper sit in tribus.
+    </p>
+            <p xml:id="FrMS88-de8541-d1e607">
+      ¶ Ad rationem 
+      <lb ed="#V" n="111"/>principalem potest dici quod Aug. intelligit vno 
+      intuitu<lb ed="#V" n="112" break="no"/>hoc est vno actu etc.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

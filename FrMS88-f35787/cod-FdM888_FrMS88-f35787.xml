@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="179-v"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f35787"><!-- l3d33-36q2 -->
+            <head xml:id="FrMS88-f35787-Hd1e108">Quaestio 2</head>
+            <p xml:id="FrMS88-f35787-d1e111">
+      Quaestio. ii. 
+      <lb ed="#V" n="59"/>SEcundo quero. Utrum virtutes 
+      mo<lb ed="#V" n="60" break="no"/>rales sint connexe videtur quod 
+      <lb ed="#V" n="61"/>non: quia non sunt omnes in deo: quia ibi non est 
+      tem<lb ed="#V" n="62" break="no"/>perantia.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e122">
+      ¶ Contra. quia doctores sancti et 
+      <lb ed="#V" n="63"/>gll magister hic dicunt quod sic. ergo etc 
+      <lb ed="#V" n="64"/>tredecim articuli declarandi.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e129">
+      ¶ 
+      Pri<lb ed="#V" n="65" break="no"/>hic sunc mus est: quid est virtus moralis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e134">
+      ¶ Sed 
+      <lb ed="#V" n="66"/>cundus quot sunt.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e140">
+      ¶ Tertius in quo sunt sicut in sub¬ 
+      <!--361.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>iecto.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e149">
+      ¶ Quartus si sint circa passiones.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e152">
+      ¶ Quintus 
+      <lb ed="#V" n="68"/>si sunt circa operationes.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e157">
+      ¶ Sextus si sint in deo.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e160">
+      ¶ 
+      Se<lb ed="#V" n="69" break="no"/>ptimus si sint in angelis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e165">
+      ¶ Octauus si fuerunt in 
+      ani<lb ed="#V" n="70" break="no"/>ma christi.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e171">
+      ¶ Nonus si sint in brutis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e174">
+      ¶ Decimus per quem 
+      <lb ed="#V" n="71"/>modum generantur.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e179">
+      ¶ Undecimus de ipsarum corruptio 
+      <lb ed="#V" n="72"/>ne.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e184">
+      ¶ Duodecimus de ipsarum compossibilitate.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e187">
+      ¶ De 
+      <lb ed="#V" n="73"/>cimus tertius de ipsarum connexione. 
+      <lb ed="#V" n="74"/>primus articulus: quid est virtus modo 
+      <lb ed="#V" n="75"/>E¶st igitu ralis. Et dicitur quod est habitus electiuus 
+      <lb ed="#V" n="76"/>in medio consistens duarum malitiarum. declaratur autem ista 
+      dififi<lb ed="#V" n="77" break="no"/>finitio Aristoteles. et etiam membra posita in diffinitione: virtus enim mo 
+      <lb ed="#V" n="78"/>ralis est habitus ad differentiam dispositionis quae non est virtus: quia est de 
+      <lb ed="#V" n="79"/>facili mobilis et imperfecta: dicitur electiuus ad differentiam virtu 
+      <lb ed="#V" n="80"/>tum intellectualium: quae non sunt electiue a voce immeie: vel in 
+      <lb ed="#V" n="81"/>medio consistens dicitur ad differentiam virtutum theologcicam quae non sun 
+      <lb ed="#V" n="82"/>in medio: quia nemo potest nimis diligere deum: vt supra dictum 
+      <lb ed="#V" n="83"/>est: dicitur autem duarum malitiarum: ad differentiam aliquorum viciori 
+      <lb ed="#V" n="84"/>quae consistunt in medi virtuti et vicii: vt prodigalitas quae consistit in 
+      <lb ed="#V" n="85"/>medi liberalitatis et alterius vicii oppositum. quia nullum 
+      superflu<lb ed="#V" n="86" break="no"/>um etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e220">
+      ¶ Sed contra dictam diffinitionem arguitur 4r.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e224">
+      ¶ Primo 
+      <lb ed="#V" n="87"/>quia prudentia est virtus intellectualis: sed ponitur inter card 
+      <lb ed="#V" n="88"/>nales: quare est habitus electiuus.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e231">
+      ¶ 2o quia perseuerantia consi 
+      <lb ed="#V" n="89"/>stit in medi: sed non est virtus moralis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e236">
+      ¶ 3o. quia continentia 
+      <lb ed="#V" n="90"/>est in medi consistens: et tamen non est virtus moralis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e241">
+      ¶ 4o quia 
+      <lb ed="#V" n="91"/>amicitia est in medio duarum malitiarum: et tamen non ponitur 
+      vir<lb ed="#V" n="92" break="no"/>tus moralis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e248">
+      ¶ Ad primum de prudentia dico quod dicuntur 
+      vir<lb ed="#V" n="93" break="no"/>tutes cardinales: quasi praiencipales: nec omnes sunt morales 
+      <lb ed="#V" n="94"/>sed tantum tres: prudentia enim non est virtus moralis: 
+      <lb ed="#V" n="95"/>sed tantum intellectualis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e257">
+      ¶ Ad 2m dico quod perseuerantia non est 
+      <lb ed="#V" n="96"/>vtus. sed dispositio ad virtutem: quia nec vincit nec vincitur: ad 
+      <lb ed="#V" n="97"/>virtutem autem partinet cum facilitate vicere.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e265">
+      ¶ Eodem modo dicendum 
+      <lb ed="#V" n="98"/>est ad 3m de continentia: quia non est proprie virtus: sed 
+      dispos<lb ed="#V" n="99" break="no"/>tio ad virtutem: quia continens non faciliter vicit passiones.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e272">
+      ¶ Ad 
+      <lb ed="#V" n="100"/>4m dicendum quod amicitia forte est virtus moralis: sed quomodo hoc 
+      <lb ed="#V" n="101"/>sit: postea dicetur.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e279">
+      ¶ Notandum quod virtus moralis 
+      difi<lb ed="#V" n="102" break="no"/>habitus electiuus: quia est de his que sunt ad 
+      finem<lb ed="#V" n="103" break="no"/>quot sunt 
+      virtu<lb ed="#V" n="104" break="no"/>Secundus articulus tes morales 
+      </p>
+            <p xml:id="FrMS88-f35787-d1e288">
+               <lb ed="#V" n="105"/>¶ Dicendum quod sunt quatuor diligenda ex charitate quae habent 
+      ratio<lb ed="#V" n="106" break="no"/>nem diligibilis in se valet. deus. anima nostra. proximus noster. et 
+      cor<lb ed="#V" n="107" break="no"/>pus nostrm: circa quae nos bene debemus habere. Sed virtus 
+      <lb ed="#V" n="108"/>moralis est per quam circa illa nos bene habemus: per virtute 
+      <lb ed="#V" n="109"/>namque latrie nos bene habemus ad deum: secundum fortitudinem 
+      <lb ed="#V" n="110"/>ad animam nostram. Nam fortitudo docet quod magis est susti 
+      <lb ed="#V" n="111"/>nenda separatio anime a corpore quam quod anima a peccato 
+      inqui<lb ed="#V" n="112" break="no"/>netur: per temperantiam autem ad corpus proprium: et per iusti 
+      <lb ed="#V" n="113"/>tiam ad proximum: et sic sunt quatuor virtutes morales: 
+      <lb ed="#V" n="114"/>latria: fortitudo: temperantia: et iustitia.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e312">
+      ¶ Sed contra. quia libe 
+      <lb ed="#V" n="115"/>ralitas est virtus moralis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e317">
+      ¶ Item magnificentia circa 
+      <lb ed="#V" n="116"/>magnos sumptus.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e323">
+      ¶ Item magnanimitas inter 
+      auda<lb ed="#V" n="117" break="no"/>ciam et pusillanimitatem.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e328">
+      ¶ Item eutrapelia est medium 
+      cir<lb ed="#V" n="118" break="no"/>ca solatium vite humane.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e333">
+      ¶ Dicendum quod iste virtutes 
+      redu<lb ed="#V" n="119" break="no"/>cuntur ad alias: sicut minus praencipales ad magis 
+      prin<lb ed="#V" n="120" break="no"/>cipales: et sic de omnibus aliis virtutibus moralibus.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e340">
+      ¶ Item 
+      <lb ed="#V" n="121"/>notandum quod verecundia et timor: et similia aliquando sunt a 
+      na<lb ed="#V" n="122" break="no"/>tura: et tunc dicuntur passiones laudabiles: et non sunt vit 
+      <lb ed="#V" n="123"/>tutes. Aliquando etiam ex actibus generantur: sicut quando quis 
+      ve<lb ed="#V" n="124" break="no"/>recundatur de turpibus: et tunc non solum est passio sed vit 
+      <lb ed="#V" n="125"/>tus moralis reducta ad aliquam principalium. 
+      <lb ed="#V" n="126"/>in quo sunt virtutes 
+      <lb ed="#V" n="127"/> 
+               <lb ed="#V" n="128"/>iecto: dicunt quidam quod sunt in appetitu sensitiuo. quia 
+      <lb ed="#V" n="129"/>sunt circa passiones appetitus sensitiui.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e362">
+      ¶ Sed 
+      con<lb ed="#V" n="130" break="no"/>tra. quia iustitia est in deo et in angelis et in animabus se 
+      <lb ed="#V" n="131"/>paratis: quia est perfectior simpliciter: sed iustitia est virtus 
+      <lb ed="#V" n="132"/>moralis praencipalis. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e371">
+      ¶ Ideo dicunt alii quod iu¬ 
+      <!--362.xml-->
+      <pb ed="#V" n="180-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>stitia est in voluntate: et due alie scilicet fortitudo et temperantia 
+      <lb ed="#V" n="2"/>sunt in appetitu sensitiuo.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e385">
+      ¶ Sed contra nullus actus est 
+      <lb ed="#V" n="3"/>meritorius nisi sit a voluntate elicitus vel imperatus: sed 
+      <lb ed="#V" n="4"/>omnis actus cuiuscumque virtutis moralis potest esse 
+      meritori<lb ed="#V" n="5" break="no"/>as. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e394">
+      ¶ Secundo. quia per actus voluntatis frequenter 
+      eli<lb ed="#V" n="6" break="no"/>citos circa castitatem generatur habitus castitatis. sed habitus 
+      <lb ed="#V" n="7"/>generatus ex actibus voluntatis est in voluntate. ergo talis 
+      ca<lb ed="#V" n="8" break="no"/>stitas est in voluntate.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e403">
+      ¶ Ideo dicendum quod virtutes morales non 
+      <lb ed="#V" n="9"/>sunt in appetitu sensitiuo.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e408">
+      ¶ Sed tunc est dubitatio in 
+      <lb ed="#V" n="10"/>qua portione anime sunt vel in superiori vel in inferiori.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e413">
+      ¶ Dicendum 
+      <lb ed="#V" n="11"/>quod in inferiori nisi quando per eas homo inclinatur ad vltimum finem: 
+      <lb ed="#V" n="12"/>sed homo per virtutes morales ad inferiora communiter inclinatur et 
+      <lb ed="#V" n="13"/>ad illa quae sunt ad finem: et illa magis respicit portio 
+      anime<lb ed="#V" n="14" break="no"/>inferior.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e424">
+      ¶ Et notandum quod sicut ex actibus voluntatis 
+      gene<lb ed="#V" n="15" break="no"/>ratur habitus. ita ex actibus appetitu sensitiui circa 
+      passio<lb ed="#V" n="16" break="no"/>nes tactus generatur habitus: qui est in appetitu 
+      sensiti<lb ed="#V" n="17" break="no"/>uo. Sed talis habitus non habet proprie rationem virtutis mo 
+      <lb ed="#V" n="18"/>ralis: sicut patet in furiosis in quibus solum remanet 
+      imagina<lb ed="#V" n="19" break="no"/>tio: et tamen inclinari videntur ad aliqus actus virtuosos: ideo proprie virtu 
+      <lb ed="#V" n="20"/>tes sunt in appetitu intellectiuo subiectiue: quia nihil quod 
+      <lb ed="#V" n="21"/>non est formaliter in ratione potest habere rationem virtutis. 
+      <lb ed="#V" n="22"/>est. si virtutes 
+      mora<lb ed="#V" n="23" break="no"/>Quartus articulus les sunt circa 
+      passio<lb ed="#V" n="24" break="no"/>nes dicendum quod sic. quia circa illa est medicina circa que est 
+      <lb ed="#V" n="25"/>egritudo: sed egritudo nostra est circa passiones: et virtu 
+      <lb ed="#V" n="26"/>tes sunt medicina egritudinis siue rebellionis: sunt autem 
+      <lb ed="#V" n="27"/>ituor passiones appetitus sensitiui scilicet delectatio: tristi 
+      <lb ed="#V" n="28"/>tia: timor: et audacia: prime due sunt magis praencipales 
+      </p>
+            <p xml:id="FrMS88-f35787-d1e458">
+               <lb ed="#V" n="29"/>¶ Sed vbi sunt iste passiones: dicendum quod in duabus 
+      viri<lb ed="#V" n="30" break="no"/>bus appetitus sensitiui: sicut in subiecto: prime due sunt 
+      <lb ed="#V" n="31"/>in concupiscibili. Alie vero due sunt in irascibili.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e467">
+      ¶ Sed 
+      <lb ed="#V" n="32"/>est dubium: si sint habitus vel operationes. Dicunt quidam quod 
+      <lb ed="#V" n="33"/>sunt operationes virium appetitus sensitiui scilicet irascibilis 
+      <lb ed="#V" n="34"/>et concupiscibilis. dicendum tamen quod non sunt operationes: sed sunt 
+      <lb ed="#V" n="35"/>passiones consequentes operationes.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e478">
+      ¶ Sed est dubium: quid est 
+      <lb ed="#V" n="36"/>earum obiectum.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e483">
+      ¶ Dicendum quod idem est obiectum passionum et 
+      vi<lb ed="#V" n="37" break="no"/>rium: seu potentiarum scilicet bonum sensibile habens rationem 
+      de<lb ed="#V" n="38" break="no"/>lectabilis vel difficilis: vel ardui.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e490">
+      ¶ Sed tunc est 
+      du<lb ed="#V" n="39" break="no"/>bium: ad quid dantur virtutes morales.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e495">
+      ¶ Dicendum quod non 
+      <lb ed="#V" n="40"/>ad intendendum actum concupiscilis et irascibilis. Sed  
+      <lb ed="#V" n="41"/>ad remittendum: ne effrenate ferantur in suum obiectum.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e503">
+      ¶ Item 
+      <lb ed="#V" n="42"/>est dubium: si passiones sunt obiecta virtutum.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e508">
+      ¶ Dicendum quod 
+      <lb ed="#V" n="43"/>virtutes non sunt circa passiones: sicut circa sua obiecta: 
+      <lb ed="#V" n="44"/>sed dicuntur esse circa passiones: quia ipsas habent moderare. 
+      <lb ed="#V" n="45"/>est: si virtutes sunt 
+      <lb ed="#V" n="46"/>Quintus articulus circa operationes: di 
+      <lb ed="#V" n="47"/>co quod sic.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e521">
+      ¶ Sed est notandum quod quelibet virtus habet duas 
+      <lb ed="#V" n="48"/>operationes: vnam elicitam respectu obiecti proprii: quam 
+      operatio<lb ed="#V" n="49" break="no"/>nem in se recipit formaliter: aliam imparatam respectu membrorum 
+      <lb ed="#V" n="50"/>vt exequantur mperium. Et de ista operatione quaritur si virtutes  
+      <lb ed="#V" n="51"/>sunt circa operatione: et planum est quod sic: habent enim operationem membris 
+      <lb ed="#V" n="52"/>imperando: et eis quae voluntatis subiacent imperio: et licet 
+      virtu<lb ed="#V" n="53" break="no"/>tes respecu primarum operationum sint causa particularis concurrens cum obiecto 
+      <lb ed="#V" n="54"/>et potentia: tamen respectum secundarium operationum sunt causa vniversalis concun 
+      <lb ed="#V" n="55"/>rens cum membro exequente et obiecto mouente. 
+      <lb ed="#V" n="56"/>est: si virtutes morales 
+      <lb ed="#V" n="57"/>Sextus articulus formaliter sint in deo. Dicitur 
+      <lb ed="#V" n="58"/>communiter quod non: quia includunt imperfectionem: eo quod sunt circa 
+      <lb ed="#V" n="59"/>passiones: sed nihil includens imperfectionem est ponendum 
+      <lb ed="#V" n="60"/>in deo. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e552">
+      ¶ Sed contra. quia divina scriptura deum commendatur 
+      <lb ed="#V" n="61"/>de virtutibus moralibus: vt iustus es diviune: et deus fortis. 
+      </p>
+            <p xml:id="FrMS88-f35787-d1e557">
+               <lb ed="#V" n="62"/>¶ hic introducuntur quatuor conclusiones.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e562">
+      ¶ Prima quod iustitia 
+      <lb ed="#V" n="63"/>est in deo formaliter: quia in quocumque iusto legislatore est 
+      <lb ed="#V" n="64"/>iustitia legalis: sed deus est iustus legissator: praes. etenim 
+      ben<lb ed="#V" n="65" break="no"/>dictionem dabit legislator ibunt de virtute in virtutem: iustitia 
+      <lb ed="#V" n="66"/>enim in deo est remuneratium virtuose operantis et punitiua 
+      <!--362.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>delinquentis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e581">
+      ¶ Secunda conclusio quod in deo est minma formaliter: quia deus 
+      <lb ed="#V" n="68"/>penes se habet indulgentiam qua citra condignum punit.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e586">
+      ¶ 3a conclusio quo 
+      <lb ed="#V" n="69"/>in deo non est virtus fortitudinis: quia ds non est mortalis 
+      <lb ed="#V" n="70"/>nec mortis pauidus.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e593">
+      ¶ Quarta conclusio quod in deo non est virtus 
+      <lb ed="#V" n="71"/>temperantie: quia in eo non sunt passiones tactus quas habet 
+      re<lb ed="#V" n="72" break="no"/>frenare: vel etiam delectationes inordinate.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e600">
+      ¶ Sed contra 
+      praedi<lb ed="#V" n="73" break="no"/>ctas conclusiones per ordinem instatur.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e605">
+      ¶ Primo. quia iustitia est 
+      <lb ed="#V" n="74"/>circa passiones et tristitias irascibilis. Sed in deo non 
+      <lb ed="#V" n="75"/>sunt tales passiones. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e612">
+      ¶ Secundo. quia mima est passio 
+      <lb ed="#V" n="76"/>laudabilis: sed in deo nulla ponitur passio vel habitus. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f35787-d1e618">
+               <lb ed="#V" n="77"/>¶ 3o quia quando sunt alique due virtutes: quarum vna est 
+      infe<lb ed="#V" n="78" break="no"/>rior et alia superior. tunc si in deo ponitur inferior: multo ma 
+      <lb ed="#V" n="79"/>gis superior dabet poni. Sed fortitudo est superior mina: quia est 
+      <lb ed="#V" n="80"/>circa magis arduum. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e629">
+      ¶ Item quarto. quia patientia est 
+      <lb ed="#V" n="81"/>circa malas et tristes passiones: sicut temperantia sed 
+      <lb ed="#V" n="82"/>patientia est in deo. ergo et temperantia.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e636">
+      ¶ Ad primum dicendum. quod deus 
+      <lb ed="#V" n="83"/>habet virtutem irascibilem quantum ad positiuum perfectionis quod 
+      di<lb ed="#V" n="84" break="no"/>cit: sed non habet passionem consequentem actum.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e643">
+      ¶ Ad 2m dicendum. quod 
+      <lb ed="#V" n="85"/>mina est virtus et est in deo non secundum quod dicit habitum: sed secundum 
+      <lb ed="#V" n="86"/>quod est perfectio.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e650">
+      ¶ Ad 3m dico quod fortitudo per se non est 
+      <lb ed="#V" n="87"/>virtus superior mina: sed per accidens tantum in compesitione ad nos 
+      <lb ed="#V" n="88"/>quia tale obiectum respicit quod nobis magis est arduum: non autem 
+      <lb ed="#V" n="89"/>simpliciter: sed obiectum mine.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e659">
+      ¶ Ad 4m dico quod in deo est patien 
+      <lb ed="#V" n="90"/>tia non formaliter: sed denominatiue tantum denominatione 
+      extrin<lb ed="#V" n="91" break="no"/>seca.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e667">
+      ¶ Sed circa praedicta oriuntur aliqua dubia.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e670">
+      ¶ 
+      Pri<lb ed="#V" n="92" break="no"/>mum dubium si deus est liberalis. dicendum quod quia liberalitas 
+      <lb ed="#V" n="93"/>non solum est circa pecunias: sed etiam circa quaecumque dona. Ideo 
+      <lb ed="#V" n="94"/>est in dveo liberalitas ad extra. Nam non esset liberalis quod 
+      <lb ed="#V" n="95"/>pecuniam daret et non libere vel sine causa: sed deus nobis 
+      conce<lb ed="#V" n="96" break="no"/>dit quacumque dona nobis competemus.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e683">
+      ¶ Secundum dubium est: si 
+      <lb ed="#V" n="97"/>in deo sit magnificentia: dicendum quod non per comparationem ad 
+      <lb ed="#V" n="98"/>extra: sed ad intra tantum: quia creatura magnorum donorum non 
+      <lb ed="#V" n="99"/>est capax.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e692">
+      ¶ Sed contra videtur. quia est capax donorum gratie et 
+      glo<lb ed="#V" n="100" break="no"/>rie quae sunt maxima dona: vnde secundum hoc posset dici quod in deo 
+      <lb ed="#V" n="101"/>esset libalitas respectu creature quantum ad dona fortune et naturae. 
+      <lb ed="#V" n="102"/>Sed magnificentia quantum ad dona gratie et glorie.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e701">
+      ¶ 
+      Ter<lb ed="#V" n="103" break="no"/>tium dubium. si deus est magnanimus: dico quod sic: quia in 
+      scri<lb ed="#V" n="104" break="no"/>pturis praecipit se honorari quantum potest et diligi: et hoc dignum est. 
+      <lb ed="#V" n="105"/>si virtutes mora 
+      <lb ed="#V" n="106"/>Septimus articulus les sunt in 
+      ange<lb ed="#V" n="107" break="no"/>lis. Dicitur communiter quod non: quia nec virtutum passiones.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e714">
+      ¶ hic 
+      <lb ed="#V" n="108"/>introducuntur quatuor conclusiones. Prima quod in angelis est 
+      for<lb ed="#V" n="109" break="no"/>maliter iustitia: tum quia sunt ministri iustitie legalis: tum quia 
+      <lb ed="#V" n="110"/>poni distribuunt bene operantibus dispendia meritorum: 
+      <lb ed="#V" n="111"/>peccatoribus autem mali penam viciorum.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e726">
+      ¶ Secunda conclusio quod in 
+      an<lb ed="#V" n="112" break="no"/>gelis est minma: quia gaudium est eis super vno peccatore prnimam 
+      <lb ed="#V" n="113"/>agente: et sic de aliis conclusionibus supra positis de deo. Tum quia 
+      <lb ed="#V" n="114"/>non habent timorem mortis. Tum quia non habent passiones tactus 
+      <lb ed="#V" n="115"/>vel gustus.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e737">
+      ¶ Sed contra predicta per ordinem. primo quia non est 
+      po<lb ed="#V" n="116" break="no"/>nendus habitus vbi naturalis rectitudo sufficit: sed in 
+      an<lb ed="#V" n="117" break="no"/>gelis sufficit naturalis rectitudo ad exequendum quamcumque 
+      opera<lb ed="#V" n="118" break="no"/>tionem. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e746">
+      ¶ Item secundo. quia midlma includit cordis minse 
+      <lb ed="#V" n="119"/>riam: sed in angelis nulla est miseria.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e751">
+      ¶ Item tertio. quia an 
+      <lb ed="#V" n="120"/>geli in comparatione ad potentiam diuinam sunt annihilabiles. ergo 
+      <lb ed="#V" n="121"/>dossunt peccare circa fugam huiusmodi. et per consequens meritum acquirere 
+      <lb ed="#V" n="122"/>virtutis impauide persistendo.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e760">
+      ¶ Item quarto. quia dictum fuit 
+      <lb ed="#V" n="123"/>supra in 2o secundum doctorem: quod peccatum primi angeli fuit 
+      lu<lb ed="#V" n="124" break="no"/>curia spiritualis: sed ista est intemperantia. igitur etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e767">
+      ¶ Ad  
+      <lb ed="#V" n="125"/>primum dicendum. quod naturalis rectitudo non sufficit: quin sit 
+      natura<lb ed="#V" n="126" break="no"/>magis perfecta cum virtute: vnde virtutes sunt ad 
+      ma<lb ed="#V" n="127" break="no"/>orem perfectionem nature.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e777">
+      ¶ Ad 2m dico quod mina que 
+      <lb ed="#V" n="128"/>est passio laudabilis includit miseriam cordis: non autem 
+      <lb ed="#V" n="129"/>mina pro condonatione accepta: et sic est virtus non 
+      pri<lb ed="#V" n="130" break="no"/>mo modo.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e786">
+      ¶ Ad 3m dicendum. quod non sunt annihilabiles 
+      ni<lb ed="#V" n="131" break="no"/>si in comparatione ad deum.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e791">
+      ¶ Sed si deus ordinaret 
+      <lb ed="#V" n="132"/>quod quicunque angelus moueretur ab alio ipso facto esset 
+      <!--363.xml-->
+      <pb ed="#V" n="180-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>annihilatus: tunc posset venire lucifer ad angelos 
+      infe<lb ed="#V" n="2" break="no"/>rioris ordinis quos naturaliter posset mouere et dicere si 
+      <lb ed="#V" n="3"/>bi nisi consentiatis mecum ego mouebo vos et eritis nihil 
+      <lb ed="#V" n="4"/>dico quod tunc angelus deberet sibi resistere: et tunc vere 
+      <lb ed="#V" n="5"/>haberet virtutem fortitudinis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e813">
+      ¶ Ad 4m dico. quod 
+      luxu<lb ed="#V" n="6" break="no"/>ria et temperantia sunt proprie circa concupiscentias et 
+      passio<lb ed="#V" n="7" break="no"/>nes sensuum et non intellectus. Sed contra. quia dictum fuit in 2o 
+      li<lb ed="#V" n="8" break="no"/>quod angeli et anime differunt specie. veruntamen voluntas et 
+      in<lb ed="#V" n="9" break="no"/>tellectiua potentia in eis sunt eiusdem rationis: sed 
+      appeti<lb ed="#V" n="10" break="no"/>tus eiusdem rationis habent passiones eiusdem rationis. igi 
+      <lb ed="#V" n="11"/>tur potentie angeli sunt apte nate recipere formas eiusdem 
+      <lb ed="#V" n="12"/>rationis. Sed virtutes morales sunt in appetitu hominis 
+      in<lb ed="#V" n="13" break="no"/>tellectiuo. ergo possunt esse in appetitu intellectiuo angeli¬ 
+      </p>
+            <p xml:id="FrMS88-f35787-d1e833">
+               <lb ed="#V" n="14"/>¶ Ideo dicendum quod habitus eiusdem rationis omnes posset 
+      <lb ed="#V" n="15"/>deus causare in angelo: et postea posset homini eundem 
+      <lb ed="#V" n="16"/>actum imprimere et esset virtuosus secundum istum habitum. 
+      <lb ed="#V" n="17"/>si virtutes morales 
+      <lb ed="#V" n="18"/>Octauus articulus fuerunt in anima christi. 
+      </p>
+            <p xml:id="FrMS88-f35787-d1e846">
+               <lb ed="#V" n="19"/>¶ Dicitur communiter quod sic. quia anima christi fuit perfectissima: sed non 
+      <lb ed="#V" n="20"/>fuisset si virtus aliqua sibi defuisset. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e854">
+      ¶ Sed contra 
+      <lb ed="#V" n="21"/>quidrupliciter. primo quia in primo instanti. omnes virtutes fuerunt 
+      infu<lb ed="#V" n="22" break="no"/>se anime christi: sed infuse non sunt eiusdem rationis cum acquisitis. 
+      <lb ed="#V" n="23"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e863">
+      ¶ Item 2o quia si anima christi non habuit virtutes morales 
+      <lb ed="#V" n="24"/>aliquando fuit imperfecta scilicet antequam ipsas habuit.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e868">
+      ¶ Item 3o quia 
+      <lb ed="#V" n="25"/>in anima christi non fuerunt passiones irascibilis. ergo 
+      nes<lb ed="#V" n="26" break="no"/>iustitia: nec fortitudo.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e875">
+      ¶ Item 4o quia in christo non fuerunt 
+      <lb ed="#V" n="27"/>passiones concupiscibilis. igitur nec temperantia.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e880">
+      ¶ Ad  
+      <lb ed="#V" n="28"/>primum dico. quod in christo fu. runt duo genera virtutum infusarum 
+      <lb ed="#V" n="29"/>in primo instanti. valet. virtutes infuse que acquiri non 
+      pos<lb ed="#V" n="30" break="no"/>sunt: et virtutes que alias acquri possent: et que nate sunt 
+      <lb ed="#V" n="31"/>acquiri: licet christus ipsas non acquisiuerit: que vtrequem in 
+      pri<lb ed="#V" n="32" break="no"/>instanti creationis anime christi fuerunt sibi infuse.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e893">
+      ¶ Et patet 
+      <lb ed="#V" n="33"/>ad secundum: quia eius anima nunquam aliqua perfectione virtutum 
+      <lb ed="#V" n="34"/>caruit: sed in corpore continue profecit secundum quod corpus 
+      fui<lb ed="#V" n="35" break="no"/>magis aptum natum ad virtutem. et secundum quantitatem 
+      aug<lb ed="#V" n="36" break="no"/>menti deus continue virtutes natas acquiri 
+      infunde<lb ed="#V" n="37" break="no"/>bat: secundum quod corpus christi capax erat. quantum vero ad  
+      <lb ed="#V" n="38"/>pabitus anime in primo instanti fuit virtutibus 
+      per<lb ed="#V" n="39" break="no"/>fectus.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e912">
+      ¶ Ad tertium dicendum quod christus vere 
+      ha<lb ed="#V" n="40" break="no"/>puit vim irascibilem et actum consequentem et 
+      passio<lb ed="#V" n="41" break="no"/>nem: non tamen inordinatam sed iustam.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e919">
+      ¶ Eodem  
+      <lb ed="#V" n="42"/>modo de concupiscibili est dicendum. fuit enim christus 
+      <lb ed="#V" n="43"/>vere mobilis a passione concupiscibilis et irascibilis: 
+      <lb ed="#V" n="44"/>sed ipsas moderauit per virtutem.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e928">
+      ¶ Sed dubium 
+      <lb ed="#V" n="45"/>est: si christus fuit liberalis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e933">
+      ¶ Dicendum quod 
+      liberalita<lb ed="#V" n="46" break="no"/>tem habuit quantum ad actum elicitum: non 
+      impera<lb ed="#V" n="47" break="no"/>tum: vel quantum ad actum primum: non 2m: quia facul 
+      <lb ed="#V" n="48"/>tates non habuit.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e942">
+      ¶ Item dubium est. si christus 
+      fu<lb ed="#V" n="49" break="no"/>it magnamimus.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e947">
+      ¶ Dicendum quod secundum humanitatem. 
+      <lb ed="#V" n="50"/>honorari volunt: et hoc est humilitatis vnde noluit ese 
+      <lb ed="#V" n="51"/>ex. volebat tamen honorem sibi debitum exhiberi: et 
+      <lb ed="#V" n="52"/>hoc est esse magnanimum. vnde vos inquit vocatis 
+      <lb ed="#V" n="53"/>ne magister et domine et bene dicitis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e959">
+      ¶ Item est 
+      du<lb ed="#V" n="54" break="no"/>bium. si anima separata portat secum virtutes.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e964">
+      ¶ Di 
+      <lb ed="#V" n="55"/>co quod sicut. illas scilicet que in appetitu intellectiuo sunt 
+      sub<lb ed="#V" n="56" break="no"/>iectiue: non autem illas que sunt in sensitiuo. 
+      <lb ed="#V" n="57"/>articulus. si virtutes morales sunt in 
+      <lb ed="#V" n="58"/>onus brutis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e975">
+      ¶ Dico quod non. quia virtus 
+      mora<lb ed="#V" n="59" break="no"/>lis est perfectio hominis inquantum homo: sed brutum 
+      <lb ed="#V" n="60"/>nihil participat rationis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e982">
+      ¶ Ad cuius 
+      euinden<lb ed="#V" n="61" break="no"/>tiam sciendum est quod rationale dicitur quatuor modis. 
+      <lb ed="#V" n="62"/>Uno modo quiditatiue vel secundum quiditatem: et sic 
+      so<lb ed="#V" n="63" break="no"/>la potentia intellectiua est rationalis: et non volitiua. 
+      <lb ed="#V" n="64"/>Secundo modo dicitur rationale per essentiam: et sic 
+      om<lb ed="#V" n="65" break="no"/>nes intellectiue potentie sunt rationales tam memo 
+      <lb ed="#V" n="66"/>ria quam voluntas et intellectus. Tertio modo rationale di¬ 
+      <!--363.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>citur per participationem: et sic omne regulabile 
+      aratio<lb ed="#V" n="68" break="no"/>ne dicitur rationale: sicut appetitus sensitiuus in 
+      homi<lb ed="#V" n="69" break="no"/>ne. Quarto modo dicitur rationale per coniuctionem: quia 
+      <lb ed="#V" n="70"/>est rationi coniuctum in supposito: sicut potentia vege 
+      <lb ed="#V" n="71"/>tatiua in homine virtutes vero proprie dicuntur: que 
+      <lb ed="#V" n="72"/>pertinent primo et secundo modo ad rationem. Tertio etiam 
+      <lb ed="#V" n="73"/>modo dicte aliquo modo sunt regulabiles a ratione 
+      <lb ed="#V" n="74"/>sed non sunt in brutis: sed solum quarto modo.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1019">
+      ¶ Sed 
+      <lb ed="#V" n="75"/>contra: quia aliqua auies ex assuefactione laudat deum: 
+      <lb ed="#V" n="76"/>alia autem deum blasphemat: sed talia sunt actus virtutum. 
+      <lb ed="#V" n="77"/>ergo etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1028">
+      ¶ Item 2o quia in nobis et in brutis sunt poten 
+      <lb ed="#V" n="78"/>tie eiusdem rationis. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1034">
+      ¶ Item 3o quia liberalitas at 
+      <lb ed="#V" n="79"/>tribuitur leoni et castitas turtur.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1039">
+      ¶ Ad primum dico. quod in 
+      <lb ed="#V" n="80"/>potentia expressiua potest aliquis generari habitus 
+      <lb ed="#V" n="81"/>sed iste habitus non est virtuosus: quia non est in 
+      au<lb ed="#V" n="82" break="no"/>regulabilis a ratione: sicut in nobis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1048">
+      ¶ Ad secundum eo 
+      <lb ed="#V" n="83"/>dem modo.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1053">
+      ¶ Ad tertium dicendum quod leo est liberalis 
+      <lb ed="#V" n="84"/>ex instinctu nature: non autem ex virtute.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1058">
+      ¶ Idcirco 
+      <lb ed="#V" n="85"/>notandum quod in nobis sunt quatuor genera 
+      potentia<lb ed="#V" n="86" break="no"/>rum: quedam enim sunt mere naturales vt grauitas 
+      <lb ed="#V" n="87"/>ad motum deorsum et albedo ad visum immutandum 
+      <lb ed="#V" n="88"/>et calor ad immutandum tactum: et in illis nulla est 
+      assue<lb ed="#V" n="89" break="no"/>factio. Unde Aristo. dicit quod quedam sunt potentie vi 
+      <lb ed="#V" n="90"/>tales vt vegetatiua generatiua nutritiua et 
+      augmen<lb ed="#V" n="91" break="no"/>tatiua: nec in illis est assuefactio: quedam sunt 
+      poten<lb ed="#V" n="92" break="no"/>tie animales: sed istarum quedam sunt exteriores vt vi 
+      <lb ed="#V" n="93"/>dere audire. etc. Unde Aristo. dicit quod sensus non 
+      de<lb ed="#V" n="94" break="no"/>eruit nobis eo quod audiamus et videamus multotiens 
+      <lb ed="#V" n="95"/>Ideo nec in istis est assuefactio.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1084">
+      ¶ Alie autem sunt 
+      poten<lb ed="#V" n="96" break="no"/>tie animales interiores vt imaginatio fantasia: et in 
+      <lb ed="#V" n="97"/>istis est assuefactio in tantum quod aliquando redundat 
+      habi<lb ed="#V" n="98" break="no"/>tus in membra exteriora: vt patet in cytharedo: cuius 
+      ma<lb ed="#V" n="99" break="no"/>nus mouetur dato quod actu non imaginetur de citarim antdo. 
+      <lb ed="#V" n="100"/>Quedam autem alie potentie sunt rationales: et iste etiam 
+      <lb ed="#V" n="101"/>possunt assuefieri: et ideo in istis et in tertiis potentiis 
+      <lb ed="#V" n="102"/>habitus existentes habent rationem virtutis. in aliis 
+      au<lb ed="#V" n="103" break="no"/>tem non possunt habitus generari. 
+      <lb ed="#V" n="104"/>articulus est de virtutum moralium gene 
+      <lb ed="#V" n="105"/>Decimus ratione. Quomodo scilicet virtutes 
+      mora<lb ed="#V" n="106" break="no"/>les generantur.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1111">
+      ¶ Ubi introducuntur quatuor conclusiones. 
+      </p>
+            <p xml:id="FrMS88-f35787-d1e1114">
+               <lb ed="#V" n="107"/>¶ Prima conclusio est. quod habitus virtutum ex actibus generantur 
+      <lb ed="#V" n="108"/>quia experimur in nobis habitum et inclinationem ad 
+      tem<lb ed="#V" n="109" break="no"/>verantiam: quando circa passiones tactus vel gustus frequen 
+      <lb ed="#V" n="110"/>ter nos temperamus.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1125">
+      ¶ Secunda conclusio est: quod 
+      habi<lb ed="#V" n="111" break="no"/>tus virtutum generant actus: quia homo per habitum quem 
+      <lb ed="#V" n="112"/>habet se experitur ad actum amplius inclinari.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1132">
+      ¶ Ter 
+      <lb ed="#V" n="113"/>tia conclusio est: quod actus posteriores sunt perfectiores 
+      <lb ed="#V" n="114"/>quia quanto causa est perfectior tanto et effectus: sed 
+      <lb ed="#V" n="115"/>potentia cum habitu est ad causandum actum perfect 
+      <lb ed="#V" n="116"/>or quam sine habitu. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1143">
+      ¶ Quarta conclusio. quod actus 
+      <lb ed="#V" n="117"/>bores possunt esse perfectiores posterioribus: quia 
+      poten<lb ed="#V" n="118" break="no"/>tia sine habitu potest in actum eiusdem rationis: sed potentia 
+      <lb ed="#V" n="119"/>cum maiori conatu intensiorem actum causat et poterit 
+      cona<lb ed="#V" n="120" break="no"/>tus potentie gradum causalitatis habitus excedere. 
+      er<lb ed="#V" n="121" break="no"/>go etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1156">
+      ¶ Ad predictorum autem declarationem notandum 
+      <lb ed="#V" n="122"/>est. quod quatuor sunt signa ex quibus argumentamur 
+      <lb ed="#V" n="123"/>habitus virtutis in nobis: quia habitus non possunt ostem 
+      <lb ed="#V" n="124"/>di nisi ex actibus.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1166">
+      ¶ Primum igitur signum est propte 
+      ope<lb ed="#V" n="125" break="no"/>rari. Secundum faciliter. Tertium delectabiliter. 
+      Quar<lb ed="#V" n="126" break="no"/>tum perfecte: sicut actus vel opus exigit: quia videmus quod 
+      <lb ed="#V" n="127"/>numquam habituatus artifex in arte sua deficit. 
+      <lb ed="#V" n="128"/>articulus est de virtutum 
+      cor<lb ed="#V" n="129" break="no"/>Andecimus ruptione: qualiter scilicet vertutes 
+      mo<lb ed="#V" n="130" break="no"/>rales corrumpantur.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1182">
+      ¶ Ubi est notandum quod habitus 
+      <lb ed="#V" n="131"/>possunt corrumpi 4r. Uno modo per habitus 
+      oppo<lb ed="#V" n="132" break="no"/>sitos aggeneratos vt temperantia per intemperantiam 
+      <!--364.xml-->
+      <pb ed="#V" n="181-r"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>sicut patet de illo qui prius sobrius existens postea se inebriat 
+      <lb ed="#V" n="2"/>frequenter: et sic fit ebriosus.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1200">
+      ¶ 2o per actus contrarios vel ac 
+      <lb ed="#V" n="3"/>tuum contrariorum frequentationem: licet non ex illis actibus statim 
+      <lb ed="#V" n="4"/>aggeneretur habitus contrarius. sicut sepre fugiens de bello 
+      <lb ed="#V" n="5"/>amittit fortitudinem: licet non fiat pusillanimis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1209">
+      ¶ 3o per 
+      <lb ed="#V" n="6"/>actuum cessationem: sicut iuriste amittunt habitum inuris 
+      <lb ed="#V" n="7"/>quando cessant ab officio legendi et conferendi.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1216">
+      ¶ 4o ex subiectu 
+      <lb ed="#V" n="8"/>indispositione: sicut patet in freneticis et mentecaptis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1221">
+      ¶ Sd 
+      <lb ed="#V" n="9"/>contra instatur per ordinem: quia dilectio vltimi finis est quidam 
+      habi<lb ed="#V" n="10" break="no"/>tus que est amicitia: sed iste habitus non habet contrarium quia 
+      nul<lb ed="#V" n="11" break="no"/>lus potest naturaliter odire vltimum finem.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1231">
+      ¶ Item secundo. quia 
+      <lb ed="#V" n="12"/>actus habitus contrarii compossibilis est cum habitu contrario: sicut 
+      mul<lb ed="#V" n="13" break="no"/>ti actus intemperantie cum temperantia vel econverso. hatet de 
+      no<lb ed="#V" n="14" break="no"/>uiter conuerso de incontinentia ad castitatem.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1240">
+      ¶ Item 3o. quia 
+      <lb ed="#V" n="15"/>forma quae est permanens non corrumpitur nisi per suum contrarium. sed 
+      ha<lb ed="#V" n="16" break="no"/>bitus est permanens et cessatio actuum non contrariatur habitui 
+      <lb ed="#V" n="17"/>gitur etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1249">
+      ¶ Item 4o. quia voluntas cum sit potentia spiritualis: non 
+      <lb ed="#V" n="18"/>potest indisponi: eo quod est potentia infatigabilis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1254">
+      ¶ Ad prim 
+      <lb ed="#V" n="19"/>mum dico: quod non potest bene videri quod amicitia sit habitus 
+      <lb ed="#V" n="20"/>corruptibilis nisi dicatur quod vltimus finis naturaliter possit 
+      odi<lb ed="#V" n="21" break="no"/>ri.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1263">
+      ¶ Ad secundum dico. quod difficile est videre quomodo per actus 
+      <lb ed="#V" n="22"/>cnrios corrumpatur habitus oppositus: potest tamen dic 
+      <lb ed="#V" n="23"/>quod ideo est: quia actus relinquit in potentia dispositionem 
+      incom<lb ed="#V" n="24" break="no"/>possibilem alicui gradui prioris habitus: et per consequens totalies 
+      <lb ed="#V" n="25"/>corrumpetur habitus. Sed forte diceret aliquis quod hoc 
+      <lb ed="#V" n="26"/>esset vltimate per habitum contrarium.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1276">
+      ¶ Ad 3m dicendumi quod 
+      nul<lb ed="#V" n="27" break="no"/>lus habitus existens in appetitu intellectiuo corrumpitur 
+      <lb ed="#V" n="28"/>per actuum cessationem: sed solum in appetitu sensitiuo propter 
+      <lb ed="#V" n="29"/>alterationes: et transmutationes circa potentias sensit 
+      <lb ed="#V" n="30"/>uas et vires et membra exteriora.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1288">
+      ¶ Ad 4m dico eodem 
+      <lb ed="#V" n="31"/>modo.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1293">
+      ¶ Sed dubium est. si virtutes intellectuales possunt 
+      <lb ed="#V" n="32"/>corrumpi.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1298">
+      ¶ Dico quod non cum sint in subiecto in 
+      corruptibili<lb ed="#V" n="33" break="no"/>et contrarium non habeant. Sed opinio et fides possunt corrum 
+      <lb ed="#V" n="34"/>bi. Opinio quidem: si falsa sit. per opinionem veram: 
+      <lb ed="#V" n="35"/>ides vero solum per infidelitatem. 
+      <lb ed="#V" n="36"/>articulus est de virtutum 
+      mo<lb ed="#V" n="37" break="no"/>Duodecimus ralium compossibilate silsint 
+      con<lb ed="#V" n="38" break="no"/>possibiles.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1314">
+      ¶ Et dicendum quod sic. quia bonum non contrariatur 
+      bo<lb ed="#V" n="39" break="no"/>no. sed virtus est quoddam bonum moris. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1319">
+      ¶ Sed contra 4r 
+      <lb ed="#V" n="40"/>Primo de iustitia et mina: quia earum rationes formales sunt 
+      <lb ed="#V" n="41"/>incompossibiles: quia iustitia est qua quis puntur secundum 
+      quan<lb ed="#V" n="42" break="no"/>titatem delicti et mensuram: ideo lex moysi dicitur lex 
+      iu<lb ed="#V" n="43" break="no"/>stitie. Misericordia vero qua quis non punitur secundum 
+      quan<lb ed="#V" n="44" break="no"/>titatem et mensuram delicti. sed citra. iccirca lex christi dici 
+      <lb ed="#V" n="45"/>tur lex misericordine. vnde dicitur. vade et amplius noli pecca. 
+      <lb ed="#V" n="46"/>re.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1337">
+      ¶ Item secundo de liberalitate et paupertate: quia libera 
+      <lb ed="#V" n="47"/>lis exigit suppetentiam facultatum: pauper vero priuat se 
+      <lb ed="#V" n="48"/>facultate exequendi actum liberalitatis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1345">
+      ¶ Item. 3o de 
+      <lb ed="#V" n="49"/>magnanimitate et humilitate: quia magnanimus 
+      appe<lb ed="#V" n="50" break="no"/>tit honorem sicut oportet: humilis vero vult honore 
+      care<lb ed="#V" n="51" break="no"/>re.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1354">
+      ¶ Item 4o de temperantia et abstinentia: quia 
+      tempera<lb ed="#V" n="52" break="no"/>tus exercet actum: sicut oportet et quando oportet. abstinens autem 
+      min<lb ed="#V" n="53" break="no"/>quam debet vel omnino nihil.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1361">
+      ¶ Ad primum dicitur quod 
+      diffici<lb ed="#V" n="54" break="no"/>le est videre quomodo dicte virtutes sunt compossibiles nisi 
+      for<lb ed="#V" n="55" break="no"/>te diceretur quod iustitia in gradu remisso et mina in 
+      gra<lb ed="#V" n="56" break="no"/>du intenso sint compossibiles sicut forte caliditas et 
+      <lb ed="#V" n="57"/>frigiditas et albedo et nigredo.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1372">
+      ¶ Sed hoc nihil est: quia 
+      <lb ed="#V" n="58"/>habitus quilibet virtuosus in gradu intensissimo 
+      ma<lb ed="#V" n="59" break="no"/>gis habet rationem virtutis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1379">
+      ¶ Ideo dicendum quod virtutes habent 
+      <lb ed="#V" n="60"/>obiecta disperata. vnde ille virtutes qui idem obiectus 
+      respici<lb ed="#V" n="61" break="no"/>ciunt sub alia et alia ratione respiciunt illud: vnde iusti 
+      <lb ed="#V" n="62"/>tia respicit obiectum secundum se: et sic fertur in ipsum. miena 
+      <lb ed="#V" n="63"/>autem idem respicit. sed non secundum se: sed in habitudine ad 
+      <lb ed="#V" n="64"/>benignitatem condonantem.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1392">
+      ¶ Ad secundum dicendum quod pau 
+      <lb ed="#V" n="65"/>per est liberalis quantum ad actum primum et elicitum: non 
+      <lb ed="#V" n="66"/>quetum ad actum secundum et imperatum.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1400">
+      ¶ In primo vero 
+      <!--364.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>actu consistit tota libertas et bonitas et perfectio 
+      vir<lb ed="#V" n="68" break="no"/>tutis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1411">
+      ¶ Ad tertium sicut ad primum. hoc addito quod 
+      hu<lb ed="#V" n="69" break="no"/>milis inquantum huiusmodi. nullum vult honorem a se: sed simpliciter 
+      <lb ed="#V" n="70"/>vult honorari. si dignus est: ideo est magnanimus 
+      </p>
+            <p xml:id="FrMS88-f35787-d1e1418">
+               <lb ed="#V" n="71"/>¶ Ad quartum eodem modo.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1423">
+      ¶ Sed hic occurrunt 
+      <lb ed="#V" n="72"/>pubia. Primum quare bonum non est contrarium 
+      bo<lb ed="#V" n="73" break="no"/>no: sicut malum malo.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1430">
+      ¶ Dicendum quod bonum contingit fieri 
+      <lb ed="#V" n="74"/>vnoo: malum vero contingit fieri multipliciter: sicut patet 
+      <lb ed="#V" n="75"/>in artibus. bonum enim non potest fieri bene nisi tantum vno 
+      <lb ed="#V" n="76"/>modo. sed multis modis potest male fieri.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1439">
+      ¶ Secundum 
+      dubi<lb ed="#V" n="77" break="no"/>um. si malum est magis oppositum malo quam bono.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1445">
+      ¶ Dicendum 
+      <lb ed="#V" n="78"/>quod oppositio potest accipi dupliciter: vel in genere naturae: et si c 
+      <lb ed="#V" n="79"/>malum magis malo opponitur quam bono: quia eiusdem 
+      na<lb ed="#V" n="80" break="no"/>ture sunt vel in genere moris: et sic magis opponitur ma 
+      <lb ed="#V" n="81"/>lum bono quam malo: quia sunt contraria moris.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1456">
+      ¶ Item 
+      <lb ed="#V" n="82"/>queritur quare plures sunt homines mali quam boni.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1461">
+      ¶ Di 
+      <lb ed="#V" n="83"/>cendumquod ideo est: quia bouum contingit facere vnoo et 
+      re<lb ed="#V" n="84" break="no"/>cte agere. sed errare contingit multipliciter.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1468">
+      ¶ Item quare 
+      <lb ed="#V" n="85"/>facilius est hominibus facere malum quam bonum.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1473">
+      ¶ Dicendum 
+      <lb ed="#V" n="86"/>quod duplex est causa. vna. secundum Aristo. quia difficile est inueni 
+      <lb ed="#V" n="87"/>re medium virtutis: sicut centrum celi. Et si queras hoc 
+      <lb ed="#V" n="88"/>ab hominibus: vix aliquis tibi assignabit nisi per 
+      artem<lb ed="#V" n="89" break="no"/>extrema autem virtutis plura sunt.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1484">
+      ¶ Secunda causa est 
+      <lb ed="#V" n="90"/>ex parte voluntatis: que si esset separata eque facilite 
+      <lb ed="#V" n="91"/>posset eligere bonum sicut et malum et econverso.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1492">
+      ¶ Sed quia 
+      <lb ed="#V" n="92"/>coniuncta est cum corpore: ideo eam ad suos actus in 
+      <lb ed="#V" n="93"/>clinat et ad motus. et sic homo propter corpus et sensus pronus 
+      <lb ed="#V" n="94"/>est ad malum et ad ista terrena et sensibilia. 
+      <lb ed="#V" n="95"/>articulus est de virtutum con 
+      </p>
+            <p xml:id="FrMS88-f35787-d1e1503">
+               <lb ed="#V" n="96"/>¶ redecimus nexion scilicet vtrum virtutes mora 
+      <lb ed="#V" n="97"/>les sint connexe. Et dicunt quidam quod non: quia quis potest 
+      <lb ed="#V" n="98"/>habere vnam et habet sine alia vt fortitudinem sine 
+      tempe<lb ed="#V" n="99" break="no"/>perantia et econverso.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1514">
+      ¶ Sed contra. nullus potest esse simul et 
+      <lb ed="#V" n="100"/>semel laudabilis et vituperabilis. sed habens solum 
+      <lb ed="#V" n="101"/>vnum vitium est vituperabilis. Igitur pro nulla alia 
+      <lb ed="#V" n="102"/>virtute est laudabilis.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1523">
+      ¶ Item secundo. quia nullus potest 
+      si<lb ed="#V" n="103" break="no"/>mul diligi et odiri moraliter: sed per vnum solum vitium quis 
+      <lb ed="#V" n="104"/>redditur odibilis. Igitur per nullam virtutem solam potest 
+      <lb ed="#V" n="105"/>diligi.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1532">
+      ¶ Item tertio secundum Aug. et Aristo. bonum 
+      con<lb ed="#V" n="106" break="no"/>stat ex integra causa: sicut sonus cytare: ex omnibus 
+      chor<lb ed="#V" n="107" break="no"/>dis: quia si vna sola chorda delirat: tota melodia de 
+      <lb ed="#V" n="108"/>struiter: sic etiam est in naturalibus. homo enim non est per 
+      <lb ed="#V" n="109"/>fecte pulcher: si deficit sibi aliquod membrum vt si es 
+      <lb ed="#V" n="110"/>set lippus vel simus: sic etiam in artificialibus: quia 
+      <lb ed="#V" n="111"/>domus ad sui pulchritudinem requirit partium 
+      inte<lb ed="#V" n="112" break="no"/>gritatem seu partium integram dispositionem. Igitur 
+      <lb ed="#V" n="113"/>sic etiam erit in moralibus quod nullus erit perfectus in vit 
+      <lb ed="#V" n="114"/>tute nisi omnes habeat virtutes.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1554">
+      ¶ Item 4o. quia Iacobus 
+      <lb ed="#V" n="115"/>in canonica sua dicit. Qui peccauerit in vno factus 
+      <lb ed="#V" n="116"/>est omnium reus. igitur defectus vnius virtutis omnes virtu 
+      <lb ed="#V" n="117"/>tes abicit.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1564">
+      ¶ Ideo alii dicunt quod virtutes morales sunt 
+      <lb ed="#V" n="118"/>connexe. sed hoc est per habitudinem ad charitatem. 
+      <lb ed="#V" n="119"/>quia charitas est forma virtutum.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1571">
+      ¶ Sed contra. virtutes ille quae 
+      <lb ed="#V" n="120"/>ossunt acquiri ex puris naturalibus non necessario connectuntur 
+      <lb ed="#V" n="121"/>in charitate: que est virtus supernaturalis: sed virtutes mora 
+      <lb ed="#V" n="122"/>les acquiruntur ex puris naturalibus. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1580">
+      ¶ Item secundo. quia 
+      <lb ed="#V" n="123"/>post. io annos homo virtuosus potest amittere charitatem: 
+      <lb ed="#V" n="124"/>sed non amittit ex hoc virtutes morales: cum sint ha 
+      <lb ed="#V" n="125"/>bitus de natura sua permansiui.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1589">
+      ¶ Ideo dicunt alii quod virtutes  
+      <lb ed="#V" n="126"/>sunt connexe per habitudinem ad prudentiam secundum 
+      <lb ed="#V" n="127"/>Aristo. quia per prudentiam homo dirigitur circa omnia 
+      ag<lb ed="#V" n="128" break="no"/>bilia. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1598">
+      ¶ Sed contra. quia prudentia habet distinctas spe 
+      <lb ed="#V" n="129"/>cies: sicut et distincta obiecta circa que ipsa dirigitur: sed 
+      <lb ed="#V" n="130"/>potest dirigere circa vnum et non circa aliud. ergo etc. 
+      </p>
+            <p xml:id="FrMS88-f35787-d1e1605">
+               <lb ed="#V" n="131"/>¶ Item 2o. quia prudentia potest cessare a directione et recta 
+      <lb ed="#V" n="132"/>operatione circa sua obiecta. Igitur in prudentia virtutes non 
+      <!--365.xml-->
+      <pb ed="#V" n="181-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>sunt connexe.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1622">
+      ¶ Ideo dicendum quod virtutes morales sunt connex 
+      <lb ed="#V" n="2"/>in habitudine ad iustitiam legalem: quia per iustitiam legalem homo 
+      <lb ed="#V" n="3"/>bene se habet ad totam legere iustam. et per consequens habet actus imparatos omni 
+      <lb ed="#V" n="4"/>um virtutum.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1631">
+      ¶ Sed dubium est. quare aliquis homo non ita bene se habet per 
+      <lb ed="#V" n="5"/>prudentiam ad actus omnium virtutum sicut per iustitiam.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1636">
+      ¶ Dicendum 
+      <lb ed="#V" n="6"/>quod hoc inoeo est: quia habens prudentiam potest velle non recte operari: et 
+      <lb ed="#V" n="7"/>cessare a directione quod non rectam rationem cognoscat: nec 
+      <lb ed="#V" n="8"/>operationem rectam. sed quae habet iustitiam legalem non potest legeme non 
+      diligi<lb ed="#V" n="9" break="no"/>quia hoc est legeme diligere iustitiam legalem habere.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1647">
+      ¶ Sed contra. quia 
+      <lb ed="#V" n="10"/>Sed iam distributio decalogi etc 
+      <lb ed="#V" n="11"/>multi homines fortes sunt intemparati et econverso. multi temporati 
+      pa<lb ed="#V" n="12" break="no"/>uidi. ergo virtutes in iustitia non necessario connectuntur.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1656">
+      ¶ Dicendum quod 
+      <lb ed="#V" n="13"/>nullus dicitur perfecte virtuosus: nisi respectu vltimi finis: sicut 
+      for<lb ed="#V" n="14" break="no"/>tis dicitur virtuosus. propter bonum / reipublice. Si autem est fortis pars 
+      <lb ed="#V" n="15"/>inanem gloriam non est virtuosus: qui igitur est pauidus propter bonum 
+      <lb ed="#V" n="16"/>rei publice et intemperatus: quia esse intemperatum estcontra bonum reim 
+      <lb ed="#V" n="17"/>publice.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1669">
+      ¶ Sed contra. quia sicut prudentia habet partes plures: ita 
+      <lb ed="#V" n="18"/>et lex. igitur aliquis bene potest se habere ad vnam legere et non ad 
+      alia<lb ed="#V" n="19" break="no"/>sicut prudens ad vnam prudentiam non necessario habet aliam.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1677">
+      ¶ Di 
+      <lb ed="#V" n="20"/>cendum quod qui habet iustitiam legalem diligit necessario totam legen 
+      <lb ed="#V" n="21"/>et per consequens bene se habet ad totam legem iustam. 
+      <lb ed="#V" n="22"/>qui vero habet vnam prudentiam non necessario habet aliam.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1686">
+      ¶ Sed contra. quia 
+      plu<lb ed="#V" n="23" break="no"/>res sunt legales iustitie scilicet diuina et humana.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1691">
+      ¶ Dicendum 
+      <lb ed="#V" n="24"/>quod propositio intelligitur de lege naturali morali: quia vniversalis est.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1696">
+      ¶ Sed 
+      <lb ed="#V" n="25"/>occurrit dubium magnum: quia maior pars hominum est vitiosa et 
+      <lb ed="#V" n="26"/>pauci homines sunt virtuosi: cum esse virtuosum sit hum 
+      <lb ed="#V" n="27"/>ne speciei perfectio absurdum videtur et ridiculum: quod 
+      <lb ed="#V" n="28"/>sit aliqua species in natura que pro maiori parte careat sua 
+      <lb ed="#V" n="29"/>debita perfectione.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1709">
+      ¶ hic dupliciter est dicendum: vel quod 
+      <lb ed="#V" n="30"/>humana species expectat alium statum in quo perficia 
+      <lb ed="#V" n="31"/>tur.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1716">
+      ¶ Vel quod maior pars hominum siue multitudo sit 
+      vir<lb ed="#V" n="32" break="no"/>tuosa: vnde non propter quemcunque actum contrarium virtuti 
+      tolli<lb ed="#V" n="33" break="no"/>virtus vel habitus virtut.
+    </p>
+            <p xml:id="FrMS88-f35787-d1e1724">
+      ¶ Sed quando quis enormiter 
+      <lb ed="#V" n="34"/>secundum mores delinquit: vel nimis in viciis se nutrit. sicut 
+      <lb ed="#V" n="35"/>dicimus suo modo quod peccatum mortale tollit gratiam 
+      <lb ed="#V" n="36"/>et per consequens totum bonum spirituale. sed sicut 
+      <lb ed="#V" n="37"/>gratia stat cum peccato veniali: ita cum leuibus vicii: 
+      <lb ed="#V" n="38"/>stat etiam virtus: non autem cum enormibus.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

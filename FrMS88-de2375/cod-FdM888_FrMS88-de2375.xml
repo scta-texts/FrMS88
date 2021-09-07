@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-de2375"><!-- l1prolq5 -->
+            <head xml:id="FrMS88-de2375-Hd1e108">Quaestio 5</head>
+            <p xml:id="FrMS88-de2375-d1e111">
+      Quaestio. v. 
+      <lb ed="#V" n="33"/>UTrum repugnet divine perfectioni vna 
+      <lb ed="#V" n="34"/>ratio formalis dicta in quid de deo 
+      <lb ed="#V" n="35"/>et creatura. Quod. non. quia secundum Dion. deus est super 
+      <lb ed="#V" n="36"/>omnia eminenter.
+    </p>
+            <p xml:id="FrMS88-de2375-d1e122">
+      ¶ Contra. per eminentiam deus 
+      <lb ed="#V" n="37"/>nimus in cognitionem dei sibi attribuendo omnem <!-- drops to next line --> perfectionem. ergo etc.
+    </p>
+            <p xml:id="FrMS88-de2375-d1e129">
+               <lb ed="#V" n="38"/>Circa istam quaestionem sunt. 4. difficultas lo¬ 
+      <lb ed="#V" n="39"/>gicales. Prima est: quia videtur secundum hoc quod ens esset 
+      ge<lb ed="#V" n="40" break="no"/>nus: quia esset in pluribus. et praedicaretur in quid.
+    </p>
+            <p xml:id="FrMS88-de2375-d1e138">
+      ¶ 2o. quia deo 
+      re<lb ed="#V" n="41" break="no"/>pugnat habere rationem partis secundum Dion. ergo et rationem subicibilis. 
+      </p>
+            <p xml:id="FrMS88-de2375-d1e144">
+               <lb ed="#V" n="42"/>¶ 3o. quia tunc videretur quod aliqua ratio formalis esset prior deita. 
+      <lb ed="#V" n="43"/>te.
+    </p>
+            <p xml:id="FrMS88-de2375-d1e151">
+      ¶ 4o. quia prius est a quae non conuertitur subsistendi consequentia in 
+      <lb ed="#V" n="44"/>essentialiter ordinatis ordine naturae: posita autem vniuocatione 
+      <lb ed="#V" n="45"/>entis: tunc non conuertitur consequentia ab ente simpliciter ad ens divinum 
+      <lb ed="#V" n="46"/>et sicut diuinitas non est prima. Confirmatur. quia tunc ens videre 
+      <lb ed="#V" n="47"/>tur simplicibus deo: et sic esset extra intellectum aliquid simplicius 
+      <lb ed="#V" n="48"/>deo.
+    </p>
+            <p xml:id="FrMS88-de2375-d1e164">
+      ¶ Ad primum dicitur quod ens contrahitur per modos intrinsecos: ideo 
+      <lb ed="#V" n="49"/>non est genus. Potest aliter dici et melius. supponendo aliqua quae in 
+      <lb ed="#V" n="50"/>ferius declarabuntur valet. quod ens non praedicatur in quid directem 
+      <lb ed="#V" n="51"/>nec sicut pars essentialis: ita quod praedicatio entis magis 
+      re<lb ed="#V" n="52" break="no"/>ducitur ad illam quae praedicatur genus de differentia: quam ad illam qua praedicatur 
+      <lb ed="#V" n="53"/>genus de specie. hoc supposito quod inferius declarabo. patet 
+      <lb ed="#V" n="54"/>quid dicendum sit ad difficultates. Ad primam patet. quod si ens esset 
+      ge<lb ed="#V" n="55" break="no"/>nus: esset pars essentialis. hoc autem sibi non conuenit.
+    </p>
+            <p xml:id="FrMS88-de2375-d1e182">
+      ¶ Ad 2m 
+      <lb ed="#V" n="56"/>dico. quod in transcendentibus non est pars subiectiua proprie.
+    </p>
+            <p xml:id="FrMS88-de2375-d1e187">
+      ¶ Ad 2m 
+      <lb ed="#V" n="57"/>dico. quod deitas est omnino prior illo: quia ens non prerdicatur in quid. 
+      <lb ed="#V" n="58"/>nec est pars essentialis.
+    </p>
+            <p xml:id="FrMS88-de2375-d1e194">
+      ¶ Ad 4m dico. quod reglatia non est vera in 
+      <lb ed="#V" n="59"/>consequentibus: quo non sunt de quiditate: sicut perfectius lapide est consequens 
+      iste<lb ed="#V" n="60" break="no"/>modo ad esse hominis. et tamen prius intellectur esse homo: quia esse perfectior 
+      la<lb ed="#V" n="61" break="no"/>pide. Et iterum dicitur quod non in quocumque signo est deitas est entitas. 
+      <lb ed="#V" n="62"/>quia non pro illo sinirigo pro qua divina essentia intellectur radix omnium 
+      perfectio<lb ed="#V" n="63" break="no"/>num diuinarum: consequens autem quod est prius natura consequitur pro omni 
+      signo<lb ed="#V" n="64" break="no"/>mouentur difficultas naturales. prima est: quia videtur tolle 
+      <lb ed="#V" n="65"/>Secundo re creationem. quia illud quod praexistit non 
+      <lb ed="#V" n="66"/>potest creari: sed ratio entis est huiusmod. ergo etc. Eodem modo ponitur quod 
+      <!--12.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>non potest annihilari. et tamen totum quod ponitur in creatura 
+      anni<lb ed="#V" n="68" break="no"/>hilatur.
+    </p>
+            <p xml:id="FrMS88-de2375-d1e224">
+      ¶ Ad ista dico. quod quicquid est in creatura creatur et 
+      an<lb ed="#V" n="69" break="no"/>nihilatur. hoc est idem numero. sed non oportet quod annihiletur quicquid est 
+      <lb ed="#V" n="70"/>eiusdem rationis formalis cum illo. Exitnu. de creatura 
+      specif<lb ed="#V" n="71" break="no"/>ca quae aliquam vnitatem habet in duobus: quorum vnum potest annihilari 
+      al<lb ed="#V" n="72" break="no"/>tero toto remanente. Sic potest esse multo fortius de istis 
+      tran<lb ed="#V" n="73" break="no"/>scendentibus. Ulterius posset dici quod quiditas non producitur de 
+      ni<lb ed="#V" n="74" break="no"/>hilo. nec annihilatur: sed vt sic abstrahit ab omnibus istis. 
+      <lb ed="#V" n="75"/>3o mouentur difficultas methatie. quia omne quod est: vel est 
+      <lb ed="#V" n="76"/>Nunc dependens: vel independens. Si igitur ratio entis est 
+      <lb ed="#V" n="77"/>dependens: non erit in deo. si independens non erit in 
+      creatu<lb ed="#V" n="78" break="no"/>ra.
+    </p>
+            <p xml:id="FrMS88-de2375-d1e248">
+      ¶ Responde et dico. quod ratio formalis entis nec est dependens: 
+      <lb ed="#V" n="79"/>nec independens: sicut ratio formalur substantie: necest corporea: nec incorprea 
+      <lb ed="#V" n="80"/>sed vt in spiritu est incorporea: vt in homine corporea. Eodem modo ratio 
+      en<lb ed="#V" n="81" break="no"/>tis in deo est independens. et in creatura est dependens. licet 
+      <lb ed="#V" n="82"/>secundum se sit nec hoc nec illud: sed abstrahit ab vtroque. 
+      <lb ed="#V" n="83"/>introducuntur difficultas theologice. primo sic. 
+      <lb ed="#V" n="84"/>Quarto creator siue deus distat in infinitum a 
+      crea<lb ed="#V" n="85" break="no"/>tura. ergo non possunt in aliqua vna ratione conuenire.
+    </p>
+            <p xml:id="FrMS88-de2375-d1e266">
+      ¶ Secundo sic. 
+      <lb ed="#V" n="86"/>quicquid est de se formaliter hoc non potest esse commune multis: sed omne quod 
+      <lb ed="#V" n="87"/>est in deo est de se formaliter hoc: ergo etc.
+    </p>
+            <p xml:id="FrMS88-de2375-d1e273">
+      ¶ Item 3o a simpliciter 
+      sim<lb ed="#V" n="88" break="no"/>plicibus non potest abstrahi vnus conceptus communis: nec a primo 
+      diuer<lb ed="#V" n="89" break="no"/>sis: sed deus et creatura sunt huiusmoi: ergo etc.
+    </p>
+            <p xml:id="FrMS88-de2375-d1e280">
+      ¶ 4o sic. ab 
+      extre<lb ed="#V" n="90" break="no"/>minis contradictionis non potest abstrahi vnus conceptus communis: sed deus 
+      <lb ed="#V" n="91"/>et creatura sunt huiusmodi. ergo. etc. Mi. probatur. quia ens a se: et non 
+      <lb ed="#V" n="92"/>a se ab alio et non ab alio: ergo etc.
+    </p>
+            <p xml:id="FrMS88-de2375-d1e289">
+      ¶ Ad ista. ad primum dico 
+      <lb ed="#V" n="93"/>quod distantia: non accipitur nisi pro quantitate virtutis. 
+      <lb ed="#V" n="94"/>Unde infinita distantia bene arguit excessum in 
+      virtu<lb ed="#V" n="95" break="no"/>te. sed non difformitatem in ratione quiditatiua.
+    </p>
+            <p xml:id="FrMS88-de2375-d1e299">
+      ¶ Ad  
+      <lb ed="#V" n="96"/>aliud dico. quod in deo sunt quaedam rationes commnicabiles: et in 
+      <lb ed="#V" n="97"/>nulla illarum est de se hec: et huiusmodi est ens. Quedam autem 
+      <lb ed="#V" n="98"/>sunt incommunicabiles: sicut infinitas: et ista forte est de se 
+      <lb ed="#V" n="99"/>hec.
+    </p>
+            <p xml:id="FrMS88-de2375-d1e310">
+      ¶ Ad aliud dico. quod si ens esset pars essentialis et 
+      quidi<lb ed="#V" n="100" break="no"/>tatiua. argumentum esset difficile.
+    </p>
+            <p xml:id="FrMS88-de2375-d1e315">
+      ¶ Sed dico. vt postea 
+      <lb ed="#V" n="101"/>declarabitur: quod ens non est pars essentialis: nec quiditatiua. E 
+      <lb ed="#V" n="102"/>idet contra me argumentum non valet.
+    </p>
+            <p xml:id="FrMS88-de2375-d1e322">
+      ¶ Ad aliud dico. quod licet deus quantum 
+      <lb ed="#V" n="103"/>ad rationem deitatis forte sit pe diuersus a creatuta: forte 
+      <lb ed="#V" n="104"/>tamen quantum ad omnes perfectiones simpliciter: quae sunt in deo: 
+      <lb ed="#V" n="105"/>non est a creatura primo diuersus. Ad aliud dico. quod ab 
+      extre<lb ed="#V" n="106" break="no"/>mis contradictionis posse abstrahi aliquid: potest accipi duplici 
+      <lb ed="#V" n="107"/>citer. Vel secundum se et formaliter: et sic nihil potest abstrahi. vel 
+      <lb ed="#V" n="108"/>fundamntaliter: et sic bene potest abstrahi. Momo deus et 
+      crea<lb ed="#V" n="109" break="no"/>tura fundamentaliter sunt contradictoria et non formaliter: sicut 
+      al<lb ed="#V" n="110" break="no"/>bedo et nigredo. et omnia opposita. Ad rationem in oppositum 
+      <lb ed="#V" n="111"/>dico. quod deus eminenter est omnis creatura: et perfectiori modo 
+      <lb ed="#V" n="112"/>quam sit in seipsa secundum rationem specificam. quia omnis talis continetur 
+      <lb ed="#V" n="113"/>eminentius in deo quam in seipsa. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

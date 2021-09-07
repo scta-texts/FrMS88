@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="-r"/>
+            <cb ed="#V" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f84788"><!-- l1d50q3 -->
+            <head xml:id="FrMS88-f84788-Hd1e108">Quaestio 3</head>
+            <p xml:id="FrMS88-f84788-d1e111">
+               <lb ed="#V" n="30"/>TErtio queritur vtrum illi qui sunt in 
+      infer<lb ed="#V" n="31" break="no"/>no iuste puniantur. Quod sic. quia secundum 
+      <lb ed="#V" n="32"/>prophetam. iustus est disuns et iustitiam 
+      dile<lb ed="#V" n="33" break="no"/>xit. et apoc. vltimo. ecce venio cito: et infram 
+      <lb ed="#V" n="34"/>reddere vnicuique secundum opera sua. ex hoc vi 
+      <lb ed="#V" n="35"/>detur esse iustitia.
+    </p>
+            <p xml:id="FrMS88-f84788-d1e127">
+      ¶ Contra. misereris omnium deus 
+      <lb ed="#V" n="36"/>et nihil odisti eorum que fecisti etc 
+      <lb ed="#V" n="37"/>iudicium dei quadruplici 
+      <lb ed="#V" n="38"/>hic iustificatur ter.
+    </p>
+            <p xml:id="FrMS88-f84788-d1e136">
+      ¶ Primo. quam maior 
+      <lb ed="#V" n="39"/>est ille cui offensa irrogatur: tanto maior est culpa: sed 
+      <lb ed="#V" n="40"/>deus excedit omnem creaturam in infinitum. ergo etc.
+    </p>
+            <p xml:id="FrMS88-f84788-d1e143">
+      ¶ 
+      Se<lb ed="#V" n="41" break="no"/>cunda via. quilibet dabet puniri secundum mensuram voluntatis sue 
+      <lb ed="#V" n="42"/>in peccando. deus autem videt quod timore dei non abstinet 
+      <lb ed="#V" n="43"/>a peccati: sed ex se perpetuo peccaret. et ideo dicit Greg. 
+      <lb ed="#V" n="44"/>4o dyalo. ad iustum dei inudicium pertinet vt nunquam careant 
+      <lb ed="#V" n="45"/>supplicio: qui nunquam voluerunt carere pecitio.
+    </p>
+            <p xml:id="FrMS88-f84788-d1e157">
+      ¶ 3a ratio. Augi 
+      <lb ed="#V" n="46"/>quia persona habet eternitatem: ideo pena est eterna.
+    </p>
+            <p xml:id="FrMS88-f84788-d1e162">
+      ¶ 4a ratio. 
+      <lb ed="#V" n="47"/>quia nunquam reconciliabuntur. ideo iuste remanebunt in statu 
+      <lb ed="#V" n="48"/>suo. non enim relinquitur hostia pro peccatore mortuo in 
+      pec<lb ed="#V" n="49" break="no"/>cato scilicet delendo: mortuo inquam in pecaitio mortali.
+    </p>
+            <p xml:id="FrMS88-f84788-d1e171">
+      ¶ 
+      Uidea<lb ed="#V" n="50" break="no"/>mus ergo mensuram delicti intensiue: et peccatum infinitum: non ex 
+      <lb ed="#V" n="51"/>tensiue: quia finem habuit. ditet ergo pena intensiue infligi per vnam 
+      <lb ed="#V" n="52"/>diem non extensiue perpetuo.
+    </p>
+            <p xml:id="FrMS88-f84788-d1e180">
+      ¶ 2o pena danni tantum malun 
+      <lb ed="#V" n="53"/>est quantum bonum est felicitas. si ergo deus dat bonis tam 
+      <lb ed="#V" n="54"/>tum felicitatis pro meritis videtur sufficere carentia illius 
+      <lb ed="#V" n="55"/>pro demeritis peccatis. vnde deus nimium videtur durus in 
+      pu<lb ed="#V" n="56" break="no"/>niendo.
+    </p>
+            <p xml:id="FrMS88-f84788-d1e191">
+      ¶ 3o quod blasphemia videtur maxima pena. sed pro vna 
+      <lb ed="#V" n="57"/>blasphemia semper puniatur in blasphemando.
+    </p>
+            <p xml:id="FrMS88-f84788-d1e196">
+      ¶ 
+      For<lb ed="#V" n="58" break="no"/>te potest dici quod damnati magis volunt esse quod non esse: ideo 
+      <lb ed="#V" n="59"/>curialitatem facit deus dimittendo eos sic esse.
+    </p>
+            <p xml:id="FrMS88-f84788-d1e204">
+      ¶ Sed 
+      <lb ed="#V" n="60"/>responsio melior est vt dicamus cum apitulo. O altitudo 
+      diui<lb ed="#V" n="61" break="no"/>tiarum sa. et sci. dei etc. et cum propheta. iudicia tua 
+      abis<lb ed="#V" n="62" break="no"/>sus multa.
+    </p>
+            <p xml:id="FrMS88-f84788-d1e213">
+      ¶ Intelligendum tamen quod respectu 
+      aliquo<lb ed="#V" n="63" break="no"/>rum videtur esse pura minsericordia: sicut in paruulis qui 
+      pro<lb ed="#V" n="64" break="no"/>priis actibus nihil meruerunt et saluantur. respectu 
+      ali<lb ed="#V" n="65" break="no"/>quorum pura iustitia: sicut in pueris damnatis pro originali 
+      <lb ed="#V" n="66"/>peccato. Iustia et misericordia simul in aliis: quia electos 
+      <!--473.xml-->
+      <cb ed="#V" n="b"/>
+               <lb ed="#V" n="67"/>remunerat vltra condignum et reprobos citra condignum: et 
+      <lb ed="#V" n="68"/>sic vtrobique superexaltabitur misericordia in iudicio.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2021-09-06">September 06, 2021</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2021-09-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#V" n="221-r"/>
+            <cb ed="#V" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="FrMS88-f72175"><!-- l4d24q4 -->
+            <head xml:id="FrMS88-f72175-Hd1e108">Quaestio 4</head>
+            <p xml:id="FrMS88-f72175-d1e111">
+               <lb ed="#V" n="115"/>QUarto queritur. vtrum in istis 
+      ordi<lb ed="#V" n="116" break="no"/>nibus sit habitudo vel ordo 
+      <lb ed="#V" n="117"/>essentialis. Quod sic. quia in ordinibus angelo 
+      <lb ed="#V" n="118"/>rum quibus isti conformantur est ordo 
+      essen<lb ed="#V" n="119" break="no"/>Sltialis.
+    </p>
+            <p xml:id="FrMS88-f72175-d1e124">
+      ¶ Contra. quia in sacramentis non est ordo 
+      <lb ed="#V" n="120"/>essentialis. Et vlterius aliqui ordinantur per saltus.
+    </p>
+            <p xml:id="FrMS88-f72175-d1e129">
+               <lb ed="#V" n="121"/>hic introducuntur 4or conclusiones. siue 
+      veri<lb ed="#V" n="122" break="no"/>tates.
+    </p>
+            <p xml:id="FrMS88-f72175-d1e136">
+      ¶ primo veritas est. 
+      <lb ed="#V" n="123"/>quod inter aliqua est ordo essentialis. sicut inter bapium et alia: sed inter 
+      <lb ed="#V" n="124"/>alia non est potest enim aliquis promoueri ad ordines non confirmatus. 
+      </p>
+            <p xml:id="FrMS88-f72175-d1e144">
+               <lb ed="#V" n="125"/>¶ 2a veritas. quod nec inter inferiores ordines ad sacerdotium 
+      <lb ed="#V" n="126"/>potest enim aliquis ordinari in sacerdotem nullo alio ordine 
+      susce<lb ed="#V" n="127" break="no"/>pto: sicut christus ordinauit apitulos.
+    </p>
+            <p xml:id="FrMS88-f72175-d1e153">
+      ¶ sed est ne ordo inter sacerdo 
+      <lb ed="#V" n="128"/>tium et epratum:
+    </p>
+            <p xml:id="FrMS88-f72175-d1e158">
+      ¶ Dico quod eligi potest eprsts: sed n potest habere potestatem 
+      com<lb ed="#V" n="129" break="no"/>ferendi ordines aumquam sit sacerdos.
+    </p>
+            <p xml:id="FrMS88-f72175-d1e163">
+      ¶ 3a veritas est. quod est 
+      aliquo<lb ed="#V" n="130" break="no"/>ordo inter aliquas dignitates et inter aliquas nm aliquis enim laycus 
+      <lb ed="#V" n="131"/>potest eligi in paptam: quia auemitas est non ordo. Archieprsus autem inclu¬ 
+      <!--445.xml-->
+      <pb ed="#V" n="221-v"/>
+               <cb ed="#V" n="a"/>
+               <lb ed="#V" n="1"/>dit eprsem. Similiter sacramentia non habent ordinem ad dignitatem nisi 
+      <lb ed="#V" n="2"/>bapus: quia ille qui baptizatus non est: non partinet ad 
+      ecclesiam<lb ed="#V" n="3" break="no"/>militantem: et sic dignitatem in ea habere non potest.
+    </p>
+            <p xml:id="FrMS88-f72175-d1e183">
+      ¶ Sed hic oc. 
+      <lb ed="#V" n="4"/>du. si aliquis ordinetur per saltus.
+    </p>
+            <p xml:id="FrMS88-f72175-d1e188">
+      ¶ Dicitur quod talis est irregulari 
+      <lb ed="#V" n="5"/>et secundum statutum ecclesie diciet suscipere ordinem praetermissum etc.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
