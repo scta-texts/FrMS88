@@ -1,139 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaesito 4</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaesito 4</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-f32354"><!-- l3d12-16q4 -->
-            <head xml:id="FrMS88-f32354-Hd1e108">Quaesito 4</head>
-            <p xml:id="FrMS88-f32354-d1e111">
-      ¶ Questo. iiii
-      <lb ed="#V" n="27"/>QUarto quero Utrum anima christui 
-      <lb ed="#V" n="28"/>cognoscat omnia 
-      <lb ed="#V" n="29"/>que cognoscit verbum et hoc notitia 
-      ve<lb ed="#V" n="30" break="no"/>pertina que est naturalis. 
-      <lb ed="#V" n="31"/>hic introducuntur quatuor 
-      <lb ed="#V" n="32"/>conclusio<lb ed="#V" n="33" break="no"/>nes.
-    </p>
-            <p xml:id="FrMS88-f32354-d1e129">
-      ¶ Prima est. quod anima christi non cognoscit omnia intuitiue: 
-      <lb ed="#V" n="34"/>quia quod non est non cognoscitur intuitiue. Sed anima christi 
-      mul<lb ed="#V" n="35" break="no"/>ta cognoscit que non sunt: sicut sunt futura. igitur non intui 
-      <lb ed="#V" n="36"/>tiue.
-    </p>
-            <p xml:id="FrMS88-f32354-d1e138">
-      ¶ Secunda conclusio est. quod christi anima non cognoscit omnia 
-      abstra<lb ed="#V" n="37" break="no"/>ctiue quia immoderata esset multitudo actuum christi anime. Sed 
-      <lb ed="#V" n="38"/>nihil in anima christi est immoderatum ponendum. igitur etc.
-    </p>
-            <p xml:id="FrMS88-f32354-d1e145">
-      ¶ conconclusi 
-      <lb ed="#V" n="39"/>quod anima christi notitia vesptina: que est rerum in proprio genere: 
-      co<lb ed="#V" n="40" break="no"/>gnoscit omnia arguitiue: quia cognito vno perfecte 
-      cognosc<lb ed="#V" n="41" break="no"/>tur eius connexio ad omnia. sed omnia que sunt habent connexione 
-      <lb ed="#V" n="42"/>alicuius ordinis et perfectionis adinuicem igitur ex ipsa 
-      con<lb ed="#V" n="43" break="no"/>nexione potest argui cognitio omnium.
-    </p>
-            <p xml:id="FrMS88-f32354-d1e159">
-      ¶ 4a conclusio. quod 
-      anima<lb ed="#V" n="44" break="no"/>christi cognoscit omnia terminatiue: quia cognitis extremis 
-      co<lb ed="#V" n="45" break="no"/>gnoscitur ratio inter extrema terminatiue: quia actus 
-      intelligen<lb ed="#V" n="46" break="no"/>di terminatur bene ad relationem licet non ab ipsa moueatur 
-      <lb ed="#V" n="47"/>Sed quaelibet res habet regulam ad omnia: et ratio: licet a posterior 
-      <lb ed="#V" n="48"/>ducit in cognitionem termini. igitur cognito vno 
-      cogno<lb ed="#V" n="49" break="no"/>scuntur omnia terminatiue.
-    </p>
-            <p xml:id="FrMS88-f32354-d1e175">
-      ¶ Sed contra primam conclusione insta 
-      <lb ed="#V" n="50"/>tur. quia oculus meus videndo solem videt totum solem. 
-      igiu<lb ed="#V" n="51" break="no"/>anima christi intelligenus omnia cognoscit omnia.
-    </p>
-            <p xml:id="FrMS88-f32354-d1e182">
-      ¶ Contra 2am: quia 
-      con<lb ed="#V" n="52" break="no"/>possibilitas specierum in intellectu non maior est quam actuum. 
-      <lb ed="#V" n="53"/>Igitur cum anima christi abstractiue cognoscat species multum 
-      <lb ed="#V" n="54"/>vniversales: per illas poterit omnia cognoscere.
-    </p>
-            <p xml:id="FrMS88-f32354-d1e191">
-      ¶ Ad primum dice 
-      <lb ed="#V" n="55"/>quod illa potentia videt totum: quia est sui actus cum obiecto 
-      producti<lb ed="#V" n="56" break="no"/>ua.
-    </p>
-            <p xml:id="FrMS88-f32354-d1e198">
-      ¶ Ad 2m dico quod cum actus specificantur per obstantia praesentata. 
-      <lb ed="#V" n="57"/>ideo si obiecta plura et actus plures scilicet vbi non est subordin 
-      <lb ed="#V" n="58"/>tio obiectorum.
-    </p>
-            <p xml:id="FrMS88-f32354-d1e205">
-      ¶ Sed est dubium: quia secundum prius dicta: videtur quod 
-      <lb ed="#V" n="59"/>anima christi seipsa cognita intuitiue omnia cognoscat: et per consequens 
-      <lb ed="#V" n="60"/>diuinam essentiam et trinitatem personarum: quia potentia 
-      intui<lb ed="#V" n="61" break="no"/>tiue cognoscens quiditatem alicuius rei cognoscit illa que 
-      il<lb ed="#V" n="62" break="no"/>li rei insunt per accidens: et multo magis que insunt per se 
-      <lb ed="#V" n="63"/>sicut videns solem videt vbi est sol. Igitur anima christi videt 
-      vn<lb ed="#V" n="64" break="no"/>bilitatem sui ad verbum. et per consequens vnionem. Sed cognita 
-      <lb ed="#V" n="65"/>persona verbi cognoscitur essentia diuina quam essentialiter 
-      in<lb ed="#V" n="66" break="no"/>cludit: et per consequens naturalis aptitudo diuine essentie que est 
-      <!--353.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>demonstrabilis de ipsa: sicut quod sit comunicabilis tribus. Sed 
-      <lb ed="#V" n="68"/>istam aptitudinem naturalem anima christi cognoscit. igitur tres per 
-      <lb ed="#V" n="69"/>sonas quibus comicatur.
-    </p>
-            <p xml:id="FrMS88-f32354-d1e237">
-      ¶ Item naturalis aptitudo diuine essen 
-      <lb ed="#V" n="70"/>tie est idearum futura contingentia. igitur anima christi intuitiue 
-      co<lb ed="#V" n="71" break="no"/>gnoscit futura contingentia etc.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaesito 4</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaesito 4</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="175-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-f32354"><!-- l3d12-16q4 -->
+        <head xml:id="FrMS88-f32354-Hd1e108">Quaesito 4</head>
+        <p xml:id="FrMS88-f32354-d1e111">
+          ¶ Questo. iiii
+          <lb ed="#V" n="27"/>QUarto quero Utrum anima christui 
+          <lb ed="#V" n="28"/>cognoscat omnia 
+          <lb ed="#V" n="29"/>que cognoscit verbum et hoc notitia 
+          ve<lb ed="#V" n="30" break="no"/>pertina que est naturalis. 
+          <lb ed="#V" n="31"/>hic introducuntur quatuor 
+          <lb ed="#V" n="32"/>conclusio<lb ed="#V" n="33" break="no"/>nes.
+        </p>
+        <p xml:id="FrMS88-f32354-d1e129">
+          ¶ Prima est. quod anima christi non cognoscit omnia intuitiue: 
+          <lb ed="#V" n="34"/>quia quod non est non cognoscitur intuitiue. Sed anima christi 
+          mul<lb ed="#V" n="35" break="no"/>ta cognoscit que non sunt: sicut sunt futura. igitur non intui 
+          <lb ed="#V" n="36"/>tiue.
+        </p>
+        <p xml:id="FrMS88-f32354-d1e138">
+          ¶ Secunda conclusio est. quod christi anima non cognoscit omnia 
+          abstra<lb ed="#V" n="37" break="no"/>ctiue quia immoderata esset multitudo actuum christi anime. Sed 
+          <lb ed="#V" n="38"/>nihil in anima christi est immoderatum ponendum. igitur etc.
+        </p>
+        <p xml:id="FrMS88-f32354-d1e145">
+          ¶ conconclusi 
+          <lb ed="#V" n="39"/>quod anima christi notitia vesptina: que est rerum in proprio genere: 
+          co<lb ed="#V" n="40" break="no"/>gnoscit omnia arguitiue: quia cognito vno perfecte 
+          cognosc<lb ed="#V" n="41" break="no"/>tur eius connexio ad omnia. sed omnia que sunt habent connexione 
+          <lb ed="#V" n="42"/>alicuius ordinis et perfectionis adinuicem igitur ex ipsa 
+          con<lb ed="#V" n="43" break="no"/>nexione potest argui cognitio omnium.
+        </p>
+        <p xml:id="FrMS88-f32354-d1e159">
+          ¶ 4a conclusio. quod 
+          anima<lb ed="#V" n="44" break="no"/>christi cognoscit omnia terminatiue: quia cognitis extremis 
+          co<lb ed="#V" n="45" break="no"/>gnoscitur ratio inter extrema terminatiue: quia actus 
+          intelligen<lb ed="#V" n="46" break="no"/>di terminatur bene ad relationem licet non ab ipsa moueatur 
+          <lb ed="#V" n="47"/>Sed quaelibet res habet regulam ad omnia: et ratio: licet a posterior 
+          <lb ed="#V" n="48"/>ducit in cognitionem termini. igitur cognito vno 
+          cogno<lb ed="#V" n="49" break="no"/>scuntur omnia terminatiue.
+        </p>
+        <p xml:id="FrMS88-f32354-d1e175">
+          ¶ Sed contra primam conclusione insta 
+          <lb ed="#V" n="50"/>tur. quia oculus meus videndo solem videt totum solem. 
+          igiu<lb ed="#V" n="51" break="no"/>anima christi intelligenus omnia cognoscit omnia.
+        </p>
+        <p xml:id="FrMS88-f32354-d1e182">
+          ¶ Contra 2am: quia 
+          con<lb ed="#V" n="52" break="no"/>possibilitas specierum in intellectu non maior est quam actuum. 
+          <lb ed="#V" n="53"/>Igitur cum anima christi abstractiue cognoscat species multum 
+          <lb ed="#V" n="54"/>vniversales: per illas poterit omnia cognoscere.
+        </p>
+        <p xml:id="FrMS88-f32354-d1e191">
+          ¶ Ad primum dice 
+          <lb ed="#V" n="55"/>quod illa potentia videt totum: quia est sui actus cum obiecto 
+          producti<lb ed="#V" n="56" break="no"/>ua.
+        </p>
+        <p xml:id="FrMS88-f32354-d1e198">
+          ¶ Ad 2m dico quod cum actus specificantur per obstantia praesentata. 
+          <lb ed="#V" n="57"/>ideo si obiecta plura et actus plures scilicet vbi non est subordin 
+          <lb ed="#V" n="58"/>tio obiectorum.
+        </p>
+        <p xml:id="FrMS88-f32354-d1e205">
+          ¶ Sed est dubium: quia secundum prius dicta: videtur quod 
+          <lb ed="#V" n="59"/>anima christi seipsa cognita intuitiue omnia cognoscat: et per consequens 
+          <lb ed="#V" n="60"/>diuinam essentiam et trinitatem personarum: quia potentia 
+          intui<lb ed="#V" n="61" break="no"/>tiue cognoscens quiditatem alicuius rei cognoscit illa que 
+          il<lb ed="#V" n="62" break="no"/>li rei insunt per accidens: et multo magis que insunt per se 
+          <lb ed="#V" n="63"/>sicut videns solem videt vbi est sol. Igitur anima christi videt 
+          vn<lb ed="#V" n="64" break="no"/>bilitatem sui ad verbum. et per consequens vnionem. Sed cognita 
+          <lb ed="#V" n="65"/>persona verbi cognoscitur essentia diuina quam essentialiter 
+          in<lb ed="#V" n="66" break="no"/>cludit: et per consequens naturalis aptitudo diuine essentie que est 
+          <!--353.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>demonstrabilis de ipsa: sicut quod sit comunicabilis tribus. Sed 
+          <lb ed="#V" n="68"/>istam aptitudinem naturalem anima christi cognoscit. igitur tres per 
+          <lb ed="#V" n="69"/>sonas quibus comicatur.
+        </p>
+        <p xml:id="FrMS88-f32354-d1e237">
+          ¶ Item naturalis aptitudo diuine essen<lb ed="#V" n="70" break="no"/>tie 
+          est idearum futura contingentia. igitur anima christi intuitiue 
+          co<lb ed="#V" n="71" break="no"/>gnoscit futura contingentia etc.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

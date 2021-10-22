@@ -1,151 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-f73324"><!-- l4d30q1 -->
-            <head xml:id="FrMS88-f73324-Hd1e108">Quaestio 1</head>
-            <p xml:id="FrMS88-f73324-d1e111">
-               <lb ed="#V" n="41"/>Et solum coactio etc. 
-      <lb ed="#V" n="42"/>HIc incipit distinctio 30a. Ubi quaeruntur 
-      <lb ed="#V" n="43"/>duo.
-    </p>
-            <p xml:id="FrMS88-f73324-d1e120">
-      ¶ primo vtrum error 
-      i<lb ed="#V" n="44" break="no"/>pediat matrimoium. Quod non. quia deus ratificat ali 
-      <lb ed="#V" n="45"/>qua talia. sicut matrimoium iacob. et lye vbi 
-      <lb ed="#V" n="46"/>fuit error.
-    </p>
-            <p xml:id="FrMS88-f73324-d1e129">
-      ¶ Contra. Aug. Inuisa 
-      dili<lb ed="#V" n="47" break="no"/>gimus: incognita nequaquam actus ergo voluntatis non 
-      <lb ed="#V" n="48"/>fertur super incognita. et per consequens talis error impedit matrimoium. 
-      <lb ed="#V" n="49"/>intelligendum quod 4r error inuenitur scilicet error 
-      par<lb ed="#V" n="50" break="no"/>Hic cit sone. condionis fortune qualitatis. verbi gratia 
-      pe<lb ed="#V" n="51" break="no"/>si credit contrahere cum guilielmo et contrahit cum petro. 2o quando 
-      cre<lb ed="#V" n="52" break="no"/>dit esse liberum et non est. 3o quando credit contrahere cum diuite et non 
-      <lb ed="#V" n="53"/>est. 4o quando credit contrahere cum pulchra bene morigerata et non 
-      <lb ed="#V" n="54"/>est.
-    </p>
-            <p xml:id="FrMS88-f73324-d1e149">
-      ¶ Dicitur quod duo primi casus dirimunt matrimoium: si enim 
-      perso<lb ed="#V" n="55" break="no"/>na est serua et credit eam liberam dirimititur. sed si credit eam 
-      <lb ed="#V" n="56"/>seruam. et esset libera non dirimitur. ratio huius est: quia talis contracti 
-      <lb ed="#V" n="57"/>iudicatur voluntarius quia in tali contractu dabet esse mutua donatio 
-      <lb ed="#V" n="58"/>corporum simpliciter. seruus autem non habet corpus dare: quia est in potestate 
-      <lb ed="#V" n="59"/>disuni. ideo ipsum alteri dare non potest. et talis intendebat 
-      contrahe<lb ed="#V" n="60" break="no"/>re cum aliquo cuius corpus esset in potestate eius. sicut ipsa libere da 
-      <lb ed="#V" n="61"/>bat sibi suum. similiter: quia bonum fortune est accidens matrimonio 
-      <lb ed="#V" n="62"/>et qualitas. ideo non dirimit matrimoium.
-    </p>
-            <p xml:id="FrMS88-f73324-d1e170">
-      ¶ Sed hoc est difficultas quam 
-      co<lb ed="#V" n="63" break="no"/>gnitionem habemus de persona: intellectus enim non cognoscit 
-      sin<lb ed="#V" n="64" break="no"/>gularia: nec supposita nec sensus venit ad cognitionem 
-      <!--447.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="65"/>psone: vt persona est. ostensum enim fuit in prime smintiarum. quod nec 
-      sen<lb ed="#V" n="66" break="no"/>sus: nec intellectus potest deuenire in cognitionem distinctorum 
-      <lb ed="#V" n="67"/>pecie: nisi propter diuersa accidentia.
-    </p>
-            <p xml:id="FrMS88-f73324-d1e188">
-      ¶ 2a difficultas de condeictione seruili. quae 
-      <lb ed="#V" n="68"/>re non potest. cum seruitus fit de iure naturali. Rex etiam potest aliquem 
-      <lb ed="#V" n="69"/>incarcerare: et submittere seruituti: et tamen hoc non impedit. 
-      </p>
-            <p xml:id="FrMS88-f73324-d1e195">
-               <lb ed="#V" n="70"/>¶ 3a di. si putaretur. immo diceretur: hic est rex francorum: 
-      po<lb ed="#V" n="71" break="no"/>stea inueniretur quod non: nec fuit sibi expressum nec notifica 
-      <lb ed="#V" n="72"/>tum.
-    </p>
-            <p xml:id="FrMS88-f73324-d1e204">
-      ¶ 4a difficultas de qualitate. quia non cognoscimus singlatare simpliciter 
-      <lb ed="#V" n="73"/>nisi per sensum. sensus etiam non discernit nisi qualitates: et illa quae 
-      <lb ed="#V" n="74"/>sunt obstantia sensus. si igitur error illorum non dirimit. ex quae 
-      noti<lb ed="#V" n="75" break="no"/>cia habetur non est facile.
-    </p>
-            <p xml:id="FrMS88-f73324-d1e213">
-      ¶ Respondeo ad primum. dico quod ratione 
-      par<lb ed="#V" n="76" break="no"/>ticularis non cognoscimus: sed tamen particularia accidentia 
-      distin<lb ed="#V" n="77" break="no"/>ctarum specierum: puta per colorem tmpus locum etc. sufficit ad hoc 
-      </p>
-            <p xml:id="FrMS88-f73324-d1e220">
-               <lb ed="#V" n="78"/>¶ Ad 2m. si seruilitas est illicita iure naturali: tunc non 
-      vetur<lb ed="#V" n="79" break="no"/>get instantia: si licita tunc licitum est quod illa fecit cum illo non 
-      <lb ed="#V" n="80"/>cum alio.
-    </p>
-            <p xml:id="FrMS88-f73324-d1e230">
-      ¶ Ad 3m nihil dicitur de fortuna: quomodo igitur fit si 
-      no<lb ed="#V" n="81" break="no"/>ta fortuna sufficit. igitur error eius impedit. verum est quod esse 
-      <lb ed="#V" n="82"/>filium regis vel rege non sunt omnino conditiones partinentes  
-      <lb ed="#V" n="83"/>ad fortunam: sed videntur esse magis dotes concernetes 
-      perso<lb ed="#V" n="84" break="no"/>nam quam bona fortune.
-    </p>
-            <p xml:id="FrMS88-f73324-d1e241">
-      ¶ Ad aliud si esset error in omnibus 
-      <lb ed="#V" n="85"/>non sufficeret: sed sufficiunt aliqua sufficientes notificationes 
-      </p>
-            <p xml:id="FrMS88-f73324-d1e246">
-               <lb ed="#V" n="86"/>¶ Sed quid de iacob. qui non consentiebat in lyam.
-    </p>
-            <p xml:id="FrMS88-f73324-d1e251">
-      ¶ Dicitur 
-      <lb ed="#V" n="87"/>quod non fuit tunc matrimonium: excusatur tamen ab omni 
-      pecca<lb ed="#V" n="88" break="no"/>to: quia ignorantia innuincibilis fuit: sed lya peccauit 
-      mor<lb ed="#V" n="89" break="no"/>taliter. sido. tamen dicit in hoc de summo bono quod non fuit 
-      <lb ed="#V" n="90"/>deccatum mortale. hoc in veteri testo: sed consensus 
-      po<lb ed="#V" n="91" break="no"/>stea ratificauit matrimonium iacob et lye.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="222-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-f73324"><!-- l4d30q1 -->
+        <head xml:id="FrMS88-f73324-Hd1e108">Quaestio 1</head>
+        <p xml:id="FrMS88-f73324-d1e111">
+          <lb ed="#V" n="41"/>Et solum coactio etc. 
+          <lb ed="#V" n="42"/>HIc incipit distinctio 30a. Ubi quaeruntur 
+          <lb ed="#V" n="43"/>duo.
+        </p>
+        <p xml:id="FrMS88-f73324-d1e120">
+          ¶ primo vtrum error 
+          i<lb ed="#V" n="44" break="no"/>pediat matrimoium. Quod non. quia deus ratificat ali 
+          <lb ed="#V" n="45"/>qua talia. sicut matrimoium iacob. et lye vbi 
+          <lb ed="#V" n="46"/>fuit error.
+        </p>
+        <p xml:id="FrMS88-f73324-d1e129">
+          ¶ Contra. Aug. Inuisa 
+          dili<lb ed="#V" n="47" break="no"/>gimus: incognita nequaquam actus ergo voluntatis non 
+          <lb ed="#V" n="48"/>fertur super incognita. et per consequens talis error impedit matrimoium. 
+          <lb ed="#V" n="49"/>intelligendum quod 4r error inuenitur scilicet error 
+          par<lb ed="#V" n="50" break="no"/>Hic cit sone. condionis fortune qualitatis. verbi gratia 
+          pe<lb ed="#V" n="51" break="no"/>si credit contrahere cum guilielmo et contrahit cum petro. 2o quando 
+          cre<lb ed="#V" n="52" break="no"/>dit esse liberum et non est. 3o quando credit contrahere cum diuite et non 
+          <lb ed="#V" n="53"/>est. 4o quando credit contrahere cum pulchra bene morigerata et non 
+          <lb ed="#V" n="54"/>est.
+        </p>
+        <p xml:id="FrMS88-f73324-d1e149">
+          ¶ Dicitur quod duo primi casus dirimunt matrimoium: si enim 
+          perso<lb ed="#V" n="55" break="no"/>na est serua et credit eam liberam dirimititur. sed si credit eam 
+          <lb ed="#V" n="56"/>seruam. et esset libera non dirimitur. ratio huius est: quia talis contracti 
+          <lb ed="#V" n="57"/>iudicatur voluntarius quia in tali contractu dabet esse mutua donatio 
+          <lb ed="#V" n="58"/>corporum simpliciter. seruus autem non habet corpus dare: quia est in potestate 
+          <lb ed="#V" n="59"/>disuni. ideo ipsum alteri dare non potest. et talis intendebat 
+          contrahe<lb ed="#V" n="60" break="no"/>re cum aliquo cuius corpus esset in potestate eius. sicut ipsa libere da 
+          <lb ed="#V" n="61"/>bat sibi suum. similiter: quia bonum fortune est accidens matrimonio 
+          <lb ed="#V" n="62"/>et qualitas. ideo non dirimit matrimoium.
+        </p>
+        <p xml:id="FrMS88-f73324-d1e170">
+          ¶ Sed hoc est difficultas quam 
+          co<lb ed="#V" n="63" break="no"/>gnitionem habemus de persona: intellectus enim non cognoscit 
+          sin<lb ed="#V" n="64" break="no"/>gularia: nec supposita nec sensus venit ad cognitionem 
+          <!--447.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="65"/>psone: vt persona est. ostensum enim fuit in prime smintiarum. quod nec 
+          sen<lb ed="#V" n="66" break="no"/>sus: nec intellectus potest deuenire in cognitionem distinctorum 
+          <lb ed="#V" n="67"/>pecie: nisi propter diuersa accidentia.
+        </p>
+        <p xml:id="FrMS88-f73324-d1e188">
+          ¶ 2a difficultas de condeictione seruili. quae 
+          <lb ed="#V" n="68"/>re non potest. cum seruitus fit de iure naturali. Rex etiam potest aliquem 
+          <lb ed="#V" n="69"/>incarcerare: et submittere seruituti: et tamen hoc non impedit. 
+        </p>
+        <p xml:id="FrMS88-f73324-d1e195">
+          <lb ed="#V" n="70"/>¶ 3a di. si putaretur. immo diceretur: hic est rex francorum: 
+          po<lb ed="#V" n="71" break="no"/>stea inueniretur quod non: nec fuit sibi expressum nec notifica 
+          <lb ed="#V" n="72"/>tum.
+        </p>
+        <p xml:id="FrMS88-f73324-d1e204">
+          ¶ 4a difficultas de qualitate. quia non cognoscimus singlatare simpliciter 
+          <lb ed="#V" n="73"/>nisi per sensum. sensus etiam non discernit nisi qualitates: et illa quae 
+          <lb ed="#V" n="74"/>sunt obstantia sensus. si igitur error illorum non dirimit. ex quae 
+          noti<lb ed="#V" n="75" break="no"/>cia habetur non est facile.
+        </p>
+        <p xml:id="FrMS88-f73324-d1e213">
+          ¶ Respondeo ad primum. dico quod ratione 
+          par<lb ed="#V" n="76" break="no"/>ticularis non cognoscimus: sed tamen particularia accidentia 
+          distin<lb ed="#V" n="77" break="no"/>ctarum specierum: puta per colorem tmpus locum etc. sufficit ad hoc 
+        </p>
+        <p xml:id="FrMS88-f73324-d1e220">
+          <lb ed="#V" n="78"/>¶ Ad 2m. si seruilitas est illicita iure naturali: tunc non 
+          vetur<lb ed="#V" n="79" break="no"/>get instantia: si licita tunc licitum est quod illa fecit cum illo non 
+          <lb ed="#V" n="80"/>cum alio.
+        </p>
+        <p xml:id="FrMS88-f73324-d1e230">
+          ¶ Ad 3m nihil dicitur de fortuna: quomodo igitur fit si 
+          no<lb ed="#V" n="81" break="no"/>ta fortuna sufficit. igitur error eius impedit. verum est quod esse 
+          <lb ed="#V" n="82"/>filium regis vel rege non sunt omnino conditiones partinentes  
+          <lb ed="#V" n="83"/>ad fortunam: sed videntur esse magis dotes concernetes 
+          perso<lb ed="#V" n="84" break="no"/>nam quam bona fortune.
+        </p>
+        <p xml:id="FrMS88-f73324-d1e241">
+          ¶ Ad aliud si esset error in omnibus 
+          <lb ed="#V" n="85"/>non sufficeret: sed sufficiunt aliqua sufficientes notificationes 
+        </p>
+        <p xml:id="FrMS88-f73324-d1e246">
+          <lb ed="#V" n="86"/>¶ Sed quid de iacob. qui non consentiebat in lyam.
+        </p>
+        <p xml:id="FrMS88-f73324-d1e251">
+          ¶ Dicitur 
+          <lb ed="#V" n="87"/>quod non fuit tunc matrimonium: excusatur tamen ab omni 
+          pecca<lb ed="#V" n="88" break="no"/>to: quia ignorantia innuincibilis fuit: sed lya peccauit 
+          mor<lb ed="#V" n="89" break="no"/>taliter. sido. tamen dicit in hoc de summo bono quod non fuit 
+          <lb ed="#V" n="90"/>deccatum mortale. hoc in veteri testo: sed consensus 
+          po<lb ed="#V" n="91" break="no"/>stea ratificauit matrimonium iacob et lye.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

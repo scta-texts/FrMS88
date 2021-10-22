@@ -1,154 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 3</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 3</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-f23937"><!-- l2d43q3 -->
-            <head xml:id="FrMS88-f23937-Hd1e108">Quaestio 3</head>
-            <p xml:id="FrMS88-f23937-d1e111">
-      Quaestio. iii. 
-      <lb ed="#V" n="22"/>quaestio est: vtrum peccatum sit formali 
-      <lb ed="#V" n="23"/>Ertia ter nihil. Et videtur quod non: quia et per 
-      <lb ed="#V" n="24"/>ipsum facta sunt. Io. primo. Sed peccatum est de 
-      <lb ed="#V" n="25"/>numero omnium. ergo etc. Sed contra. Auge. pecatum 
-      <lb ed="#V" n="26"/>Sl nihil est: et homines nihil siunt cum peccant. 
-      <lb ed="#V" n="27"/>Hictagore fuit quod peccatum est aliquod 
-      posi<lb ed="#V" n="28" break="no"/>Opinio tiuum: et id. irco posuit vnum deum bonorum: 
-      <lb ed="#V" n="29"/>a quo sunt omnia bona. et alium malorum: a quo sunt omnia ma 
-      <lb ed="#V" n="30"/>la.
-    </p>
-            <p xml:id="FrMS88-f23937-d1e133">
-      ¶ Sed contra: quia ens et bonum conuertuntur. ergo si peccatum dicit 
-      <lb ed="#V" n="31"/>aliquid positiuum illud erit bonum. cuius contrarium dicebat. 
-      </p>
-            <p xml:id="FrMS88-f23937-d1e138">
-               <lb ed="#V" n="32"/>¶ Ideo dicunt alii quam peccatum nihil aliud est nisi priuatio 
-      <lb ed="#V" n="33"/>formaliter: vnde dicit priuationem formaliter alicuius circumstantie 
-      <lb ed="#V" n="34"/>debite inesse.
-    </p>
-            <p xml:id="FrMS88-f23937-d1e147">
-      ¶ Sed contra 4r. primo sic: quia pecatum distinguitur in 
-      pecca<lb ed="#V" n="35" break="no"/>tum omissionis et commissionis. Sed per istam opinionem. iste diifuit 
-      <lb ed="#V" n="36"/>ferentie essent frustra: quia non omne peccatum est omissio. Item quia 
-      <lb ed="#V" n="37"/>odire deum ex ratione formali obiecti est sine circumstantia bona: 
-      <lb ed="#V" n="38"/>ergo talis actus nulla circumstantia est priuatus.
-    </p>
-            <p xml:id="FrMS88-f23937-d1e159">
-      ¶ 3o. quia ratio 
-      conuer<lb ed="#V" n="39" break="no"/>sionis et auersionis non sunt vna ratio sed due: vna quae 
-      negli<lb ed="#V" n="40" break="no"/>gitur deus: et alia quae diligitur creatura nimis et inordinate: sed 
-      <lb ed="#V" n="41"/>in omni peccato est ratio auersionis a deo et conuersionis ad  
-      <lb ed="#V" n="42"/>creaturam modo inordinato. ergo etc.
-    </p>
-            <p xml:id="FrMS88-f23937-d1e170">
-      ¶ 4o duplex est malum: 
-      <lb ed="#V" n="43"/>vedam ex genere: quodam ex circumstantia: sed peccatum ex genere 
-      <lb ed="#V" n="44"/>non potest esse formaliter priuatio. ergo etc.
-    </p>
-            <p xml:id="FrMS88-f23937-d1e177">
-      ¶ Ideo dico. quod pecatum est 
-      <lb ed="#V" n="45"/>espectus quaedam positiuus deordinatus ad sine vltimum: sicut actus 
-      <lb ed="#V" n="46"/>meritorius est quaedam respectus positiuus debite ordinatus ad vltimum 
-      <lb ed="#V" n="47"/>finem.
-    </p>
-            <p xml:id="FrMS88-f23937-d1e186">
-      ¶ Sed contra 4r. Primo sic: quia secundum hoc esset absolutum ali 
-      <lb ed="#V" n="48"/>quid non respectus tantum: quia actus volendi est aliquid absolutum. 
-      <lb ed="#V" n="49"/>Dico quod materiale peccati est absoltum scilicet actus. Sed ratio forma 
-      <lb ed="#V" n="50"/>lis peccati est deordinatio actus: et est respectus quaedam positiuus. 
-      </p>
-            <p xml:id="FrMS88-f23937-d1e195">
-               <lb ed="#V" n="51"/>¶ Secundo. quia secundum hoc pecatum non esset malum aliquod sed bonitum: 
-      <lb ed="#V" n="52"/>quia relatio est ens: ens autem et bonum conuertuntur. Dico quod 
-      <lb ed="#V" n="53"/>respectus in sua precisione abstrahit ab ente et bono. 
-      </p>
-            <p xml:id="FrMS88-f23937-d1e204">
-               <lb ed="#V" n="54"/>¶ Tertio. quia deformitas est formalis ratio peccti: sed 
-      defor<lb ed="#V" n="55" break="no"/>nitas non est nisi quaedam priuatio. Dico quod in omni peccato ex 
-      <lb ed="#V" n="56"/>genere est deformitas talis que est dissimilitudo realis ad vi 
-      <lb ed="#V" n="57"/>immum finem.
-    </p>
-            <p xml:id="FrMS88-f23937-d1e216">
-      ¶ Quarto. quia secundum hoc diceret perfectionem 
-      <lb ed="#V" n="58"/>simpliciter. Dico quod non oportet: quia relatio non dicit perfectionem. 
-      </p>
-            <p xml:id="FrMS88-f23937-d1e221">
-               <lb ed="#V" n="59"/>¶ Sed dubium est. si illa deordinatio peccati est transcem 
-      <lb ed="#V" n="60"/>dens vel in genere. Dico quod deordinatio per se peccati est 
-      <lb ed="#V" n="61"/>transcendens: sicut odire et blasphemare deum: Sed 
-      deor<lb ed="#V" n="62" break="no"/>linatio peccati per accidens est in genere.
-    </p>
-            <p xml:id="FrMS88-f23937-d1e232">
-      ¶ Secundum dubium est: 
-      <lb ed="#V" n="63"/>si est respectus intrinsecus vel extrinsecus adueniens. 
-      <lb ed="#V" n="64"/>Dico quod quando est peccatum ex genere deordinatio est respectus 
-      in<lb ed="#V" n="65" break="no"/>trinsecus adueniens: quando autem est ex circumstantiattunc est 
-      <lb ed="#V" n="66"/>extrinsecus.
-    </p>
-            <p xml:id="FrMS88-f23937-d1e243">
-      ¶ 3m dubium: si formale peccati sit relatio realis 
-      <!--331.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>vel ratio nis tantum. Dico quod in his peccatis quae prohibita sunt: 
-      <lb ed="#V" n="68"/>quia mala: vt fornicatio: et huiusmodi est respectus realis: sedi in 
-      <lb ed="#V" n="69"/>his quae mala sunt: quia prohibita: est respectus rationis tantum. 
-      </p>
-            <p xml:id="FrMS88-f23937-d1e256">
-               <lb ed="#V" n="70"/>¶ Quartum dubium quod est illius respectus fundamentum 
-      <lb ed="#V" n="71"/>et terminus. Dico quod fundamentum illius respectus de 
-      <lb ed="#V" n="72"/>ordinationis est actus malus non habitus: quia stare potest 
-      <lb ed="#V" n="73"/>cum gratia: terminus autem est vltimus finis. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="164-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-f23937"><!-- l2d43q3 -->
+        <head xml:id="FrMS88-f23937-Hd1e108">Quaestio 3</head>
+        <p xml:id="FrMS88-f23937-d1e111">
+          Quaestio. iii. 
+          <lb ed="#V" n="22"/>quaestio est: vtrum peccatum sit formali 
+          <lb ed="#V" n="23"/>Ertia ter nihil. Et videtur quod non: quia et per 
+          <lb ed="#V" n="24"/>ipsum facta sunt. Io. primo. Sed peccatum est de 
+          <lb ed="#V" n="25"/>numero omnium. ergo etc. Sed contra. Auge. pecatum 
+          <lb ed="#V" n="26"/>Sl nihil est: et homines nihil siunt cum peccant. 
+          <lb ed="#V" n="27"/>Hictagore fuit quod peccatum est aliquod 
+          posi<lb ed="#V" n="28" break="no"/>Opinio tiuum: et id. irco posuit vnum deum bonorum: 
+          <lb ed="#V" n="29"/>a quo sunt omnia bona. et alium malorum: a quo sunt omnia ma 
+          <lb ed="#V" n="30"/>la.
+        </p>
+        <p xml:id="FrMS88-f23937-d1e133">
+          ¶ Sed contra: quia ens et bonum conuertuntur. ergo si peccatum dicit 
+          <lb ed="#V" n="31"/>aliquid positiuum illud erit bonum. cuius contrarium dicebat. 
+        </p>
+        <p xml:id="FrMS88-f23937-d1e138">
+          <lb ed="#V" n="32"/>¶ Ideo dicunt alii quam peccatum nihil aliud est nisi priuatio 
+          <lb ed="#V" n="33"/>formaliter: vnde dicit priuationem formaliter alicuius circumstantie 
+          <lb ed="#V" n="34"/>debite inesse.
+        </p>
+        <p xml:id="FrMS88-f23937-d1e147">
+          ¶ Sed contra 4r. primo sic: quia pecatum distinguitur in 
+          pecca<lb ed="#V" n="35" break="no"/>tum omissionis et commissionis. Sed per istam opinionem. iste diifuit 
+          <lb ed="#V" n="36"/>ferentie essent frustra: quia non omne peccatum est omissio. Item quia 
+          <lb ed="#V" n="37"/>odire deum ex ratione formali obiecti est sine circumstantia bona: 
+          <lb ed="#V" n="38"/>ergo talis actus nulla circumstantia est priuatus.
+        </p>
+        <p xml:id="FrMS88-f23937-d1e159">
+          ¶ 3o. quia ratio 
+          conuer<lb ed="#V" n="39" break="no"/>sionis et auersionis non sunt vna ratio sed due: vna quae 
+          negli<lb ed="#V" n="40" break="no"/>gitur deus: et alia quae diligitur creatura nimis et inordinate: sed 
+          <lb ed="#V" n="41"/>in omni peccato est ratio auersionis a deo et conuersionis ad  
+          <lb ed="#V" n="42"/>creaturam modo inordinato. ergo etc.
+        </p>
+        <p xml:id="FrMS88-f23937-d1e170">
+          ¶ 4o duplex est malum: 
+          <lb ed="#V" n="43"/>vedam ex genere: quodam ex circumstantia: sed peccatum ex genere 
+          <lb ed="#V" n="44"/>non potest esse formaliter priuatio. ergo etc.
+        </p>
+        <p xml:id="FrMS88-f23937-d1e177">
+          ¶ Ideo dico. quod pecatum est 
+          <lb ed="#V" n="45"/>espectus quaedam positiuus deordinatus ad sine vltimum: sicut actus 
+          <lb ed="#V" n="46"/>meritorius est quaedam respectus positiuus debite ordinatus ad vltimum 
+          <lb ed="#V" n="47"/>finem.
+        </p>
+        <p xml:id="FrMS88-f23937-d1e186">
+          ¶ Sed contra 4r. Primo sic: quia secundum hoc esset absolutum ali 
+          <lb ed="#V" n="48"/>quid non respectus tantum: quia actus volendi est aliquid absolutum. 
+          <lb ed="#V" n="49"/>Dico quod materiale peccati est absoltum scilicet actus. Sed ratio forma 
+          <lb ed="#V" n="50"/>lis peccati est deordinatio actus: et est respectus quaedam positiuus. 
+        </p>
+        <p xml:id="FrMS88-f23937-d1e195">
+          <lb ed="#V" n="51"/>¶ Secundo. quia secundum hoc pecatum non esset malum aliquod sed bonitum: 
+          <lb ed="#V" n="52"/>quia relatio est ens: ens autem et bonum conuertuntur. Dico quod 
+          <lb ed="#V" n="53"/>respectus in sua precisione abstrahit ab ente et bono. 
+        </p>
+        <p xml:id="FrMS88-f23937-d1e204">
+          <lb ed="#V" n="54"/>¶ Tertio. quia deformitas est formalis ratio peccti: sed 
+          defor<lb ed="#V" n="55" break="no"/>nitas non est nisi quaedam priuatio. Dico quod in omni peccato ex 
+          <lb ed="#V" n="56"/>genere est deformitas talis que est dissimilitudo realis ad vi 
+          <lb ed="#V" n="57"/>immum finem.
+        </p>
+        <p xml:id="FrMS88-f23937-d1e216">
+          ¶ Quarto. quia secundum hoc diceret perfectionem 
+          <lb ed="#V" n="58"/>simpliciter. Dico quod non oportet: quia relatio non dicit perfectionem. 
+        </p>
+        <p xml:id="FrMS88-f23937-d1e221">
+          <lb ed="#V" n="59"/>¶ Sed dubium est. si illa deordinatio peccati est transcem 
+          <lb ed="#V" n="60"/>dens vel in genere. Dico quod deordinatio per se peccati est 
+          <lb ed="#V" n="61"/>transcendens: sicut odire et blasphemare deum: Sed 
+          deor<lb ed="#V" n="62" break="no"/>linatio peccati per accidens est in genere.
+        </p>
+        <p xml:id="FrMS88-f23937-d1e232">
+          ¶ Secundum dubium est: 
+          <lb ed="#V" n="63"/>si est respectus intrinsecus vel extrinsecus adueniens. 
+          <lb ed="#V" n="64"/>Dico quod quando est peccatum ex genere deordinatio est respectus 
+          in<lb ed="#V" n="65" break="no"/>trinsecus adueniens: quando autem est ex circumstantiattunc est 
+          <lb ed="#V" n="66"/>extrinsecus.
+        </p>
+        <p xml:id="FrMS88-f23937-d1e243">
+          ¶ 3m dubium: si formale peccati sit relatio realis 
+          <!--331.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>vel ratio nis tantum. Dico quod in his peccatis quae prohibita sunt: 
+          <lb ed="#V" n="68"/>quia mala: vt fornicatio: et huiusmodi est respectus realis: sedi in 
+          <lb ed="#V" n="69"/>his quae mala sunt: quia prohibita: est respectus rationis tantum. 
+        </p>
+        <p xml:id="FrMS88-f23937-d1e256">
+          <lb ed="#V" n="70"/>¶ Quartum dubium quod est illius respectus fundamentum 
+          <lb ed="#V" n="71"/>et terminus. Dico quod fundamentum illius respectus de 
+          <lb ed="#V" n="72"/>ordinationis est actus malus non habitus: quia stare potest 
+          <lb ed="#V" n="73"/>cum gratia: terminus autem est vltimus finis. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
