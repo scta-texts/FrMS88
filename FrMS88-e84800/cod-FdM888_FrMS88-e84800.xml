@@ -1,375 +1,377 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="114-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e84800"><!-- l1d37q1 -->
-            <head xml:id="FrMS88-e84800-Hd1e108">Quaestio 1</head>
-            <p xml:id="FrMS88-e84800-d1e111">
-               <lb ed="#V" n="119"/>¶ Distinctio. xxxvii. Quaestio i. 
-      <lb ed="#V" n="120"/>Et quoniam demonstratum est 
-      <lb ed="#V" n="121"/>ex parte quomodo omnia etc. 
-      <lb ed="#V" n="122"/>distinctionem. 37. Quero du 
-      <lb ed="#V" n="123"/>Irca as quaestiones. Prima est. Utrum 
-      <lb ed="#V" n="124"/>deus sit vbique. Quod non. quia in ysa. dicit. 
-      <lb ed="#V" n="125"/>Celum mihi sedes est.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e129">
-      ¶ Contra. Celum et 
-      <lb ed="#V" n="126"/>terram ego impleo. ergo etc. 
-      <lb ed="#V" n="127"/>videndum est. quid 
-      <lb ed="#V" n="128"/>Hic primo est deum esse vbique 
-      <lb ed="#V" n="129"/>vel alicubi. Et quantum ad hoc introducuntur 4or conclusiones 
-      <lb ed="#V" n="130"/>negatiue. Prima quod deum esse vbique: non est aliquid fabrica¬ 
-      <!--231.xml-->
-      <pb ed="#V" n="114-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>tum ab intellectu: vel ens in anima. Et hoc probo sic. 
-      Nul<lb ed="#V" n="2" break="no"/>lum ens rationis est ratio essendi realiter aliquid: sed deus est 
-      <lb ed="#V" n="3"/>realiter vbique: ergo non est per respectum rationis.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e155">
-      ¶ 2o sic. quia 
-      <lb ed="#V" n="4"/>illud quod erat ante operationem intellectus non est per eam: sed 
-      <lb ed="#V" n="5"/>deus ante operationem intellectus erat vbique. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e162">
-      ¶ 2a conclusio. quod non 
-      <lb ed="#V" n="6"/>dicit aliquid priuatiuum. vt scilicet per abnegationem omnis loci 
-      dica<lb ed="#V" n="7" break="no"/>tur esse vbique. vel per abnegationem omnis distantie a 
-      quoli<lb ed="#V" n="8" break="no"/>pet loco. vt dicit quidam doctor modernus scilicet P. aureoli. 
-      <lb ed="#V" n="9"/>Dicit enim deum esse vbique non per respectum praesentialitatis ad  
-      <lb ed="#V" n="10"/>vniuersum. sicut omnis creatura dicitur alicubi per respectum 
-      <lb ed="#V" n="11"/>vbietatis ad aliquam partem vniuersi.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e179">
-      ¶ Contra hoc arguo. 
-      <lb ed="#V" n="12"/>Quecumque habent rationem formalem essendi vbique: sunt formaliter 
-      <lb ed="#V" n="13"/>vniformiter vbique: sed indistantia eiusdem rationis quae est in 
-      <lb ed="#V" n="14"/>deo. est in nihilo. quia negatio distantie eiusdem positionis est in 
-      <lb ed="#V" n="15"/>vtroque: ergo ita erit nihil vbique sicut deus.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e190">
-      ¶ Praeterea. vniversale ita est 
-      <lb ed="#V" n="16"/>indistans a quolibet loco sicut deus: et tamen non est inta 
-      vbi<lb ed="#V" n="17" break="no"/>que.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e197">
-      ¶ Praeterea entia in potentia obiectiua non distant a loco: et tamen non 
-      <lb ed="#V" n="18"/>dicuntur esse vbique. Praeterea. omnis ratio negatiua resoluiter in 
-      affirma<lb ed="#V" n="19" break="no"/>tiuam: sed ista indistantia est ratio negatiua: ergo oportet quod resoluatur 
-      <lb ed="#V" n="20"/>in aliquam affirmatiuam: que est ista: deus est alicubi. Sicut 
-      <lb ed="#V" n="21"/>enim creatura est alicubi. eo quod distantia negatur ab ea: sic 
-      <lb ed="#V" n="22"/>deus cum ab eo negetur distantia.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e210">
-      ¶ 3a conclusio quod deum esse 
-      <lb ed="#V" n="23"/>vbique non dicit aliquid absolutum: sed rationem respectiuam. hoc 
-      pro<lb ed="#V" n="24" break="no"/>batur primo quia illud quod in sua ratione formali est ad aliud: non 
-      <lb ed="#V" n="25"/>est absolutum: sed respectiuum: huiusmodi est esse vbique.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e219">
-      ¶  2o quia 
-      <lb ed="#V" n="26"/>esse vbique est praedicatum deo conueniens ex tempore. ergo 
-      re<lb ed="#V" n="27" break="no"/>spectiuum.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e226">
-      ¶ 4a conclusio quod non dicit aliquid formaliter in deo. 
-      <lb ed="#V" n="28"/>Probatur. quia non est eternum deum esse vbique: sed esse quod est 
-      <lb ed="#V" n="29"/>formaliter in deo est eternum. Similiter probatum est. quod dicit 
-      ali<lb ed="#V" n="30" break="no"/>quid respectiuum: sed deus non habet relationem formalem 
-      rea<lb ed="#V" n="31" break="no"/>lem ad extra.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e238">
-      ¶ Ideo dico conclusionem affirmatiuam scilicet quod deum  
-      <lb ed="#V" n="32"/>esse vbique. dicit respectum praesentialitatis qui est in 
-      creatu<lb ed="#V" n="33" break="no"/>ra ad deum: et ideo sicut deus dicitur agens realiter: et creans 
-      <lb ed="#V" n="34"/>respectu qui est formaliter in creatura. Sic dicitur esse vbique 
-      <lb ed="#V" n="35"/>respectu isto praesentialitatis. qui est in creatura.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e249">
-      ¶ Sed hic 
-      <lb ed="#V" n="36"/>sunt difficultates alique. Prima est. Utrum ille respectus sit 
-      re<lb ed="#V" n="37" break="no"/>spectus dependentie ad ipsum deum. Dico quod non. Nam alia 
-      <lb ed="#V" n="38"/>inquisitio est. Utrum deus sit causa rerum. Et alia. Utrum sit praesens 
-      <lb ed="#V" n="39"/>omnibus rebus. Probo. potest enim aliquis esse certus: quod deus 
-      <lb ed="#V" n="40"/>est causa rerum. et dubitare vtrum sit vbique.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e262">
-      ¶ Dico ergo quod sicut 
-      <lb ed="#V" n="41"/>imaginamur quod anima est tota in toto: et tota in qualibet 
-      <lb ed="#V" n="42"/>parte. Ita suo modo imaginamur quod deus sit praesens 
-      om<lb ed="#V" n="43" break="no"/>ni loco praesentia quae est in creatura.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e271">
-      ¶ 2a difficultas vtrum inste respe 
-      <lb ed="#V" n="44"/>ctus sit transcendens. Uidetur aliquibus quod omnis respectus 
-      <lb ed="#V" n="45"/>creature ad deum sit transcendens. eo quod talis respectus est 
-      <lb ed="#V" n="46"/>idem realiter suo fundamento. Sed de hoc alias: forte 
-      <lb ed="#V" n="47"/>non est verum: vt patebit alias. 
-      <lb ed="#V" n="48"/>quid fit deum esse vbique. oportet 
-      <lb ed="#V" n="49"/>Nunc supposito inquirere. Utrum hoc sit verum. 
-      </p>
-            <p xml:id="FrMS88-e84800-d1e287">
-               <lb ed="#V" n="50"/>¶ Et quantum ad hoc oportet dicere quod sic. habemus enim 
-      deter<lb ed="#V" n="51" break="no"/>minatam veritatem per scripturam. Si ascendero ad caelum tum 
-      il<lb ed="#V" n="52" break="no"/>lic es. si descendero ad infernum ades etc. Dubium ergo haec totum 
-      <lb ed="#V" n="53"/>est. quomodo illud potest probari vel persuaderi. Et quantum ad hoc 
-      ad<lb ed="#V" n="54" break="no"/>ducuntur a diuersis diuerse vie. Prima est via immensitatis. 
-      <lb ed="#V" n="55"/>Nam dicunt aliqui. quod sicut deus est intesiue infinitus: ita 
-      extensi<lb ed="#V" n="56" break="no"/>ue. non quod habeat partem extra partem. sed quod potest 
-      coexiste<lb ed="#V" n="57" break="no"/>re infinitis locis. Et hoc declarant primo. quia substantia spiritualis 
-      quan<lb ed="#V" n="58" break="no"/>to est perfectior. tanto potest maiori loco coexistere: et 
-      maio<lb ed="#V" n="59" break="no"/>rem locum sibi determinare: sed deus est infinite 
-      perfectio<lb ed="#V" n="60" break="no"/>nis. ergo infinito loco potest coexistere.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e313">
-      ¶ Confirmatur. quia sicut 
-      <lb ed="#V" n="61"/>diuina eternitas est infinita intensiue: ita extensiue. vt necessario omni 
-      <lb ed="#V" n="62"/>tempori coexistat.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e321">
-      ¶ Sed ista via non valet: quia ex credito 
-      pro<lb ed="#V" n="63" break="no"/>cedit. Nam hoc creditum est: quod angelus perfectior maiori 
-      <lb ed="#V" n="64"/>loco potest coexistere. Ideo arguo aliter sic secundum illam viam. 
-      <lb ed="#V" n="65"/>Omnis limmitatio dicit imperfectionem: sicut finitas: sed si deum 
-      <lb ed="#V" n="66"/>esset alicubi et non vbique: esset localiter limitatus sicut crea¬ 
-      <!--231.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>tura: sicut si posset esse quandoque et quandoque non: esset limitatus secundum 
-      <lb ed="#V" n="68"/>durationem. 
-    </p>
-            <p xml:id="FrMS88-e84800-d1e341">
-      ¶ 2o sic. deus est quo maius nihil cogitari 
-      <lb ed="#V" n="69"/>potest. si autem esset determinatus ad aliquam partem 
-      vniuer<lb ed="#V" n="70" break="no"/>si: tunc non esset localiter quo maius nihil cogitari posset: 
-      <lb ed="#V" n="71"/>cum possemus aliquid cogitare quod esset in toto vniuerso. 
-      <lb ed="#V" n="72"/>Sed si iste vie vel rationes valerent. probarent forte quod 
-      neces<lb ed="#V" n="73" break="no"/>sario deus esset in infinitis locis: et quod esset in maiori quam in 
-      to<lb ed="#V" n="74" break="no"/>to vniuerso: et per consequens quod essent infinita loca: et etiam maiora 
-      <lb ed="#V" n="75"/>vniuerso: que omnia videntur inconuenientia. Potest ergo dici: quod licet 
-      <lb ed="#V" n="76"/>deus habeat infinitatem intensiuam: non tamen habet infinitatem vel 
-      <lb ed="#V" n="77"/>magnitudinem extensiuam: quam imaginantur praedicte ratio 
-      <lb ed="#V" n="78"/>nes: ideo non concludunt.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e365">
-      ¶ 2a via aliquorum est via causalitatis. 
-      <lb ed="#V" n="79"/>Nam oportet agens esse praesens patienti et approximatum: sed 
-      <lb ed="#V" n="80"/>deus agit vbique. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e372">
-      ¶ Sed ista ratio non demonstrat: quia 
-      for<lb ed="#V" n="81" break="no"/>te hoc est creditum scilicet quod deus immediate in actione agentis  
-      <lb ed="#V" n="82"/>naturalis agat: immo aliquibus non videtur
-    </p>
-            <p xml:id="FrMS88-e84800-d1e379">
-      ¶ 2o quia non oportet agens 
-      prae<lb ed="#V" n="83" break="no"/>sens esse localiter patienti. tum quia quanto agens est fortius: 
-      tan<lb ed="#V" n="84" break="no"/>to agit in magis distans. tum est quia videmus agentia 
-      secun<lb ed="#V" n="85" break="no"/>daria agere: vbi non sunt praesentia: sicut sol in visceribus 
-      ter<lb ed="#V" n="86" break="no"/>re. 3o dato quod hoc esset verum de agentibus naturalibus. hoc ideo 
-      <lb ed="#V" n="87"/>est. quia agunt per contactum. et ideo approximationem requirunt: 
-      <lb ed="#V" n="88"/>deus autem per talem contactum non agit. Dico ergo quod ratio non con 
-      <lb ed="#V" n="89"/>uincit. quia agentia naturalia videntur posse agere vbi non sunt 
-      <lb ed="#V" n="90"/>praesentia.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e399">
-      ¶ Si dicas quod agunt in medio.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e403">
-      ¶ Contra. certum est 
-      <lb ed="#V" n="91"/>quod sol illa actione qua agit in visceribus terre. non agit in 
-      <lb ed="#V" n="92"/>medio. Similiter illud videtur falsum quod semper agat in medium. Nam 
-      <lb ed="#V" n="93"/>angelus loquens alteri: nihil videtur causare in medio. nec eius 
-      <lb ed="#V" n="94"/>dem rationis cum termino nec alterius. ideo videtur quod solus 
-      conta<lb ed="#V" n="95" break="no"/>ctus virtualis sufficiat.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e416">
-      ¶ Praeterea non videtur ratio sufficiens ad 
-      de<lb ed="#V" n="96" break="no"/>clarandum propositum: quoniam si deus esset determinate in 
-      <lb ed="#V" n="97"/>celo. simpliciter posset influere in inferioribus: sicut sol 
-      po<lb ed="#V" n="98" break="no"/>situs in suo circulo.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e425">
-      ¶ Intelligendum tamen quod deum esse 
-      <lb ed="#V" n="99"/>vbique potest poni dupliciter. Aut quod sit in vno loco vniuersi 
-      de<lb ed="#V" n="100" break="no"/>terminato et inde influat omnibus sicut sol. Et videtur 
-      aliqui<lb ed="#V" n="101" break="no"/>bus quod necessario prius agit in medio. postea in vltimo: 
-      <lb ed="#V" n="102"/>sicut agens philosophicum: quia eius virtus est alicubi sita: et ideo sic 
-      <lb ed="#V" n="103"/>naturaliter influint. Istud tamen non habet apparentiam: quia 
-      <lb ed="#V" n="104"/>non ageret per influxum corporalem: sed per voluntatem 
-      tan<lb ed="#V" n="105" break="no"/>tum: et ideo sicut voluntas attingit extrema per suum 
-      vel<lb ed="#V" n="106" break="no"/>le sine mediis: ita potentia. Alio modo quod deus sit 
-      abstra<lb ed="#V" n="107" break="no"/>ctus ab omni loco vt vere sit nusquam: et per consequens non 
-      vbi<lb ed="#V" n="108" break="no"/>que: et tunc videtur aliquibus quod agit per indistantiam: quia quod 
-      nus<lb ed="#V" n="109" break="no"/>que est a nullo distat cum distantia praesupponat vbi: et talis 
-      <lb ed="#V" n="110"/>actio declarat ipsum vbique esse per indistantiam. Istud tamen non 
-      vi<lb ed="#V" n="111" break="no"/>detur esse verum: quia ex consequente non potest inferri quod repugnat 
-      <lb ed="#V" n="112"/>antecedenti: sed ex non esse alicubi infertur indistantia et ex 
-      <lb ed="#V" n="113"/>hac esse vbique: et tamen esse vbique et non esse alicubi 
-      con<lb ed="#V" n="114" break="no"/>tradicunt.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e462">
-      ¶ Tertia via aliquorum ad probandum istam 
-      <lb ed="#V" n="115"/>conclusionem est immutabilitas: quia si non esset vbique videtur 
-      <lb ed="#V" n="116"/>quod posset moueri de loco ad locum transferendo se de vna 
-      <lb ed="#V" n="117"/>parte mundi ad aliam: et sic esset localiter mutatus. quod 
-      au<lb ed="#V" n="118" break="no"/>tem posset esse in alio loco sicut in isto. probatur: quia 
-      quan<lb ed="#V" n="119" break="no"/>do mundum creauit potuit sibi determinare partem 
-      <lb ed="#V" n="120"/>quam volunt: quia non sibi magis repugnat vna quam alia. 
-      <lb ed="#V" n="121"/>ergo eodem modo potest nunc in omne illud quod sibi non 
-      re<lb ed="#V" n="122" break="no"/>pugnat.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e482">
-      ¶ Preterea. si esset determinatus ad aliquem 
-      <lb ed="#V" n="123"/>locum quod non posset in alio praesentialiter esse videretur 
-      inclu<lb ed="#V" n="124" break="no"/>sus et importare imperfectionem cum tamen hoc ex libertate 
-      <lb ed="#V" n="125"/>et dignitate angelica ab angelis negetur. ab angelo enim 
-      <lb ed="#V" n="126"/>negatur ex sui dignitate: qui tamen magis 
-      determina<lb ed="#V" n="127" break="no"/>tus est ad locum quam deus.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e495">
-      ¶ Sed nec ista via conuincit. 
-      <lb ed="#V" n="128"/>diceretur enim quod deus nusquam esset proprie: sed 
-      transferi<lb ed="#V" n="129" break="no"/>biliter esset vbi esset: ita quod non mutaretur propter hoc 
-      <lb ed="#V" n="130"/>dato etiam quod esset proprie adhuc non sequitur quod deus 
-      mu<lb ed="#V" n="131" break="no"/>taretur. nam respectus locati ad locum est vbi: et illum 
-      <lb ed="#V" n="132"/>non habet deus: sed locus habet respectum ad locatum 
-      <!--232.xml-->
-      <pb ed="#V" n="115-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>presentialitatis. diceretur ergo deus de 
-      lo<lb ed="#V" n="2" break="no"/>co ad locum transferri per nouum respectum 
-      prae<lb ed="#V" n="3" break="no"/>sentialitatis in hoc loco ad deum quo prius non 
-      <lb ed="#V" n="4"/>erat: et ab illo denominaretur deus esse in 
-      ali<lb ed="#V" n="5" break="no"/>quo in quo prius non erat: sicut dictum est 
-      <lb ed="#V" n="6"/>superius de creatione noua que est in 
-      crea<lb ed="#V" n="7" break="no"/>tura: et sine aliquo nouo in deo. Dicitur tamen 
-      <lb ed="#V" n="8"/>quod si ponatur deus simpliciter sic abstractus: 
-      <lb ed="#V" n="9"/>vt nusquam dicatur esse in loco. ista ratio non 
-      con<lb ed="#V" n="10" break="no"/>uincit: quia ibi non est localis mutatio vbi est 
-      <lb ed="#V" n="11"/>omnimoda a loco abstractio: sed si ponatur in 
-      <lb ed="#V" n="12"/>celo deus determinate: sicut simplices 
-      ima<lb ed="#V" n="13" break="no"/>ginantur. tunc apparenter procedit ratio non 
-      ta<lb ed="#V" n="14" break="no"/>men conuincit: quia si deus de non creatore fit 
-      <lb ed="#V" n="15"/>creator. de non domino fit dominus per solum 
-      <lb ed="#V" n="16"/>nouum respectum creature ad ipsum: ita 
-      pos<lb ed="#V" n="17" break="no"/>set fieri de non presente alicui presens per 
-      so<lb ed="#V" n="18" break="no"/>lum respectum presentialitatis creature ad 
-      <lb ed="#V" n="19"/>deum: quem creature imprimeret: sicut 
-      mo<lb ed="#V" n="20" break="no"/>uens imprimit ipsum vbi mobili.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e559">
-      ¶ Sed 
-      num<lb ed="#V" n="21" break="no"/>quid per istum modum posset per diuinam 
-      <lb ed="#V" n="22"/>potentiam vnum corpus transferri de vno 
-      <lb ed="#V" n="23"/>loco ad alium locum per solam mutationem 
-      <lb ed="#V" n="24"/>loci:
-    </p>
-            <p xml:id="FrMS88-e84800-d1e570">
-      ¶ Dicitur quod sic si deum posset facere vnam 
-      <lb ed="#V" n="25"/>relationem sine opposita relatione: et tunc 
-      <lb ed="#V" n="26"/>non erit corpus motum nec mutatum.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e577">
-      ¶ 
-      Quar<lb ed="#V" n="27" break="no"/>ta via est coexistentia. vbi dicit vnus doctor quod 
-      <lb ed="#V" n="28"/>omnis creatura habet necessariam praesentia 
-      <lb ed="#V" n="29"/>litatem ad deum sicut coexistentiam 
-      duratio<lb ed="#V" n="30" break="no"/>nis: et ideo cum deus sit alicubi est per 
-      respe<lb ed="#V" n="31" break="no"/>ctum presentialitatis creature ad ipsum. et 
-      <lb ed="#V" n="32"/>cum omnis creatura sit enim necessario praesens erit 
-      <lb ed="#V" n="33"/>vbique necessario.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e595">
-      ¶ Sed quia necessitas istius 
-      <lb ed="#V" n="34"/>respectus non est nota: ideo confirmatur 4r. primo 
-      <lb ed="#V" n="35"/>sic. si deus crearet stellam celo destructo. 
-      pos<lb ed="#V" n="36" break="no"/>set eam mouere circulariter: sed non nisi 
-      acqui<lb ed="#V" n="37" break="no"/>reret aliquem respectum: sed non nisi 
-      respe<lb ed="#V" n="38" break="no"/>ctum presentialitatis ad ipsum. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e608">
-      ¶ 2o 
-      <lb ed="#V" n="39"/>sic. quia si deus totum vniuersum destrueret. ex 
-      <lb ed="#V" n="40"/>ceptis polis: eos posset coniungere. et sic 
-      perpen<lb ed="#V" n="41" break="no"/>diculariter mouere: sed non nisi per respectum 
-      <lb ed="#V" n="42"/>praesentialitatis ad primum. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e619">
-      ¶ 3o sic 
-      <lb ed="#V" n="43"/>quia deus omnia simul potest mouere: et non nisi per 
-      <lb ed="#V" n="44"/>respectum aliquem. non ad seinuicem. ergo ad 
-      <lb ed="#V" n="45"/>deum.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e629">
-      ¶ 4o sic. quia omnia que mouentur respectum habent 
-      <lb ed="#V" n="46"/>ad aliquod immobile: sed illud non potest esse 
-      ni<lb ed="#V" n="47" break="no"/>si deus. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e636">
-      ¶ Dico quod declarata loci 
-      im<lb ed="#V" n="48" break="no"/>mobilitate: que est difficilior passus de 
-      to<lb ed="#V" n="49" break="no"/>ta philosophia: propositum apparet. Sed hoc dicetur in 
-      <lb ed="#V" n="50"/>secundo.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e645">
-      ¶ Dico ergo quod deus est vbique.
-    </p>
-            <p xml:id="FrMS88-e84800-d1e648">
-      ¶ Ad  
-      <lb ed="#V" n="51"/>argumentum patet per iam dicta. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="114-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e84800"><!-- l1d37q1 -->
+        <head xml:id="FrMS88-e84800-Hd1e108">Quaestio 1</head>
+        <p xml:id="FrMS88-e84800-d1e111">
+          <lb ed="#V" n="119"/>¶ Distinctio. xxxvii. Quaestio i. 
+          <lb ed="#V" n="120"/>Et quoniam demonstratum est 
+          <lb ed="#V" n="121"/>ex parte quomodo omnia etc. 
+          <lb ed="#V" n="122"/>distinctionem. 37. Quero du 
+          <lb ed="#V" n="123"/>Irca as quaestiones. Prima est. Utrum 
+          <lb ed="#V" n="124"/>deus sit vbique. Quod non. quia in ysa. dicit. 
+          <lb ed="#V" n="125"/>Celum mihi sedes est.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e129">
+          ¶ Contra. Celum et 
+          <lb ed="#V" n="126"/>terram ego impleo. ergo etc. 
+          <lb ed="#V" n="127"/>videndum est. quid 
+          <lb ed="#V" n="128"/>Hic primo est deum esse vbique 
+          <lb ed="#V" n="129"/>vel alicubi. Et quantum ad hoc introducuntur 4or conclusiones 
+          <lb ed="#V" n="130"/>negatiue. Prima quod deum esse vbique: non est aliquid fabrica¬ 
+          <!--231.xml-->
+          <pb ed="#V" n="114-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>tum ab intellectu: vel ens in anima. Et hoc probo sic. 
+          Nul<lb ed="#V" n="2" break="no"/>lum ens rationis est ratio essendi realiter aliquid: sed deus est 
+          <lb ed="#V" n="3"/>realiter vbique: ergo non est per respectum rationis.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e155">
+          ¶ 2o sic. quia 
+          <lb ed="#V" n="4"/>illud quod erat ante operationem intellectus non est per eam: sed 
+          <lb ed="#V" n="5"/>deus ante operationem intellectus erat vbique. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e162">
+          ¶ 2a conclusio. quod non 
+          <lb ed="#V" n="6"/>dicit aliquid priuatiuum. vt scilicet per abnegationem omnis loci 
+          dica<lb ed="#V" n="7" break="no"/>tur esse vbique. vel per abnegationem omnis distantie a 
+          quoli<lb ed="#V" n="8" break="no"/>pet loco. vt dicit quidam doctor modernus scilicet P. aureoli. 
+          <lb ed="#V" n="9"/>Dicit enim deum esse vbique non per respectum praesentialitatis ad  
+          <lb ed="#V" n="10"/>vniuersum. sicut omnis creatura dicitur alicubi per respectum 
+          <lb ed="#V" n="11"/>vbietatis ad aliquam partem vniuersi.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e179">
+          ¶ Contra hoc arguo. 
+          <lb ed="#V" n="12"/>Quecumque habent rationem formalem essendi vbique: sunt formaliter 
+          <lb ed="#V" n="13"/>vniformiter vbique: sed indistantia eiusdem rationis quae est in 
+          <lb ed="#V" n="14"/>deo. est in nihilo. quia negatio distantie eiusdem positionis est in 
+          <lb ed="#V" n="15"/>vtroque: ergo ita erit nihil vbique sicut deus.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e190">
+          ¶ Praeterea. vniversale ita est 
+          <lb ed="#V" n="16"/>indistans a quolibet loco sicut deus: et tamen non est inta 
+          vbi<lb ed="#V" n="17" break="no"/>que.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e197">
+          ¶ Praeterea entia in potentia obiectiua non distant a loco: et tamen non 
+          <lb ed="#V" n="18"/>dicuntur esse vbique. Praeterea. omnis ratio negatiua resoluiter in 
+          affirma<lb ed="#V" n="19" break="no"/>tiuam: sed ista indistantia est ratio negatiua: ergo oportet quod resoluatur 
+          <lb ed="#V" n="20"/>in aliquam affirmatiuam: que est ista: deus est alicubi. Sicut 
+          <lb ed="#V" n="21"/>enim creatura est alicubi. eo quod distantia negatur ab ea: sic 
+          <lb ed="#V" n="22"/>deus cum ab eo negetur distantia.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e210">
+          ¶ 3a conclusio quod deum esse 
+          <lb ed="#V" n="23"/>vbique non dicit aliquid absolutum: sed rationem respectiuam. hoc 
+          pro<lb ed="#V" n="24" break="no"/>batur primo quia illud quod in sua ratione formali est ad aliud: non 
+          <lb ed="#V" n="25"/>est absolutum: sed respectiuum: huiusmodi est esse vbique.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e219">
+          ¶  2o quia 
+          <lb ed="#V" n="26"/>esse vbique est praedicatum deo conueniens ex tempore. ergo 
+          re<lb ed="#V" n="27" break="no"/>spectiuum.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e226">
+          ¶ 4a conclusio quod non dicit aliquid formaliter in deo. 
+          <lb ed="#V" n="28"/>Probatur. quia non est eternum deum esse vbique: sed esse quod est 
+          <lb ed="#V" n="29"/>formaliter in deo est eternum. Similiter probatum est. quod dicit 
+          ali<lb ed="#V" n="30" break="no"/>quid respectiuum: sed deus non habet relationem formalem 
+          rea<lb ed="#V" n="31" break="no"/>lem ad extra.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e238">
+          ¶ Ideo dico conclusionem affirmatiuam scilicet quod deum  
+          <lb ed="#V" n="32"/>esse vbique. dicit respectum praesentialitatis qui est in 
+          creatu<lb ed="#V" n="33" break="no"/>ra ad deum: et ideo sicut deus dicitur agens realiter: et creans 
+          <lb ed="#V" n="34"/>respectu qui est formaliter in creatura. Sic dicitur esse vbique 
+          <lb ed="#V" n="35"/>respectu isto praesentialitatis. qui est in creatura.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e249">
+          ¶ Sed hic 
+          <lb ed="#V" n="36"/>sunt difficultates alique. Prima est. Utrum ille respectus sit 
+          re<lb ed="#V" n="37" break="no"/>spectus dependentie ad ipsum deum. Dico quod non. Nam alia 
+          <lb ed="#V" n="38"/>inquisitio est. Utrum deus sit causa rerum. Et alia. Utrum sit praesens 
+          <lb ed="#V" n="39"/>omnibus rebus. Probo. potest enim aliquis esse certus: quod deus 
+          <lb ed="#V" n="40"/>est causa rerum. et dubitare vtrum sit vbique.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e262">
+          ¶ Dico ergo quod sicut 
+          <lb ed="#V" n="41"/>imaginamur quod anima est tota in toto: et tota in qualibet 
+          <lb ed="#V" n="42"/>parte. Ita suo modo imaginamur quod deus sit praesens 
+          om<lb ed="#V" n="43" break="no"/>ni loco praesentia quae est in creatura.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e271">
+          ¶ 2a difficultas vtrum inste respe 
+          <lb ed="#V" n="44"/>ctus sit transcendens. Uidetur aliquibus quod omnis respectus 
+          <lb ed="#V" n="45"/>creature ad deum sit transcendens. eo quod talis respectus est 
+          <lb ed="#V" n="46"/>idem realiter suo fundamento. Sed de hoc alias: forte 
+          <lb ed="#V" n="47"/>non est verum: vt patebit alias. 
+          <lb ed="#V" n="48"/>quid fit deum esse vbique. oportet 
+          <lb ed="#V" n="49"/>Nunc supposito inquirere. Utrum hoc sit verum. 
+        </p>
+        <p xml:id="FrMS88-e84800-d1e287">
+          <lb ed="#V" n="50"/>¶ Et quantum ad hoc oportet dicere quod sic. habemus enim 
+          deter<lb ed="#V" n="51" break="no"/>minatam veritatem per scripturam. Si ascendero ad caelum tum 
+          il<lb ed="#V" n="52" break="no"/>lic es. si descendero ad infernum ades etc. Dubium ergo haec totum 
+          <lb ed="#V" n="53"/>est. quomodo illud potest probari vel persuaderi. Et quantum ad hoc 
+          ad<lb ed="#V" n="54" break="no"/>ducuntur a diuersis diuerse vie. Prima est via immensitatis. 
+          <lb ed="#V" n="55"/>Nam dicunt aliqui. quod sicut deus est intesiue infinitus: ita 
+          extensi<lb ed="#V" n="56" break="no"/>ue. non quod habeat partem extra partem. sed quod potest 
+          coexiste<lb ed="#V" n="57" break="no"/>re infinitis locis. Et hoc declarant primo. quia substantia spiritualis 
+          quan<lb ed="#V" n="58" break="no"/>to est perfectior. tanto potest maiori loco coexistere: et 
+          maio<lb ed="#V" n="59" break="no"/>rem locum sibi determinare: sed deus est infinite 
+          perfectio<lb ed="#V" n="60" break="no"/>nis. ergo infinito loco potest coexistere.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e313">
+          ¶ Confirmatur. quia sicut 
+          <lb ed="#V" n="61"/>diuina eternitas est infinita intensiue: ita extensiue. vt necessario omni 
+          <lb ed="#V" n="62"/>tempori coexistat.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e321">
+          ¶ Sed ista via non valet: quia ex credito 
+          pro<lb ed="#V" n="63" break="no"/>cedit. Nam hoc creditum est: quod angelus perfectior maiori 
+          <lb ed="#V" n="64"/>loco potest coexistere. Ideo arguo aliter sic secundum illam viam. 
+          <lb ed="#V" n="65"/>Omnis limmitatio dicit imperfectionem: sicut finitas: sed si deum 
+          <lb ed="#V" n="66"/>esset alicubi et non vbique: esset localiter limitatus sicut crea¬ 
+          <!--231.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>tura: sicut si posset esse quandoque et quandoque non: esset limitatus secundum 
+          <lb ed="#V" n="68"/>durationem. 
+        </p>
+        <p xml:id="FrMS88-e84800-d1e341">
+          ¶ 2o sic. deus est quo maius nihil cogitari 
+          <lb ed="#V" n="69"/>potest. si autem esset determinatus ad aliquam partem 
+          vniuer<lb ed="#V" n="70" break="no"/>si: tunc non esset localiter quo maius nihil cogitari posset: 
+          <lb ed="#V" n="71"/>cum possemus aliquid cogitare quod esset in toto vniuerso. 
+          <lb ed="#V" n="72"/>Sed si iste vie vel rationes valerent. probarent forte quod 
+          neces<lb ed="#V" n="73" break="no"/>sario deus esset in infinitis locis: et quod esset in maiori quam in 
+          to<lb ed="#V" n="74" break="no"/>to vniuerso: et per consequens quod essent infinita loca: et etiam maiora 
+          <lb ed="#V" n="75"/>vniuerso: que omnia videntur inconuenientia. Potest ergo dici: quod licet 
+          <lb ed="#V" n="76"/>deus habeat infinitatem intensiuam: non tamen habet infinitatem vel 
+          <lb ed="#V" n="77"/>magnitudinem extensiuam: quam imaginantur praedicte ratio 
+          <lb ed="#V" n="78"/>nes: ideo non concludunt.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e365">
+          ¶ 2a via aliquorum est via causalitatis. 
+          <lb ed="#V" n="79"/>Nam oportet agens esse praesens patienti et approximatum: sed 
+          <lb ed="#V" n="80"/>deus agit vbique. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e372">
+          ¶ Sed ista ratio non demonstrat: quia 
+          for<lb ed="#V" n="81" break="no"/>te hoc est creditum scilicet quod deus immediate in actione agentis  
+          <lb ed="#V" n="82"/>naturalis agat: immo aliquibus non videtur
+        </p>
+        <p xml:id="FrMS88-e84800-d1e379">
+          ¶ 2o quia non oportet agens 
+          prae<lb ed="#V" n="83" break="no"/>sens esse localiter patienti. tum quia quanto agens est fortius: 
+          tan<lb ed="#V" n="84" break="no"/>to agit in magis distans. tum est quia videmus agentia 
+          secun<lb ed="#V" n="85" break="no"/>daria agere: vbi non sunt praesentia: sicut sol in visceribus 
+          ter<lb ed="#V" n="86" break="no"/>re.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e383">3o dato quod hoc esset verum de agentibus naturalibus. hoc ideo 
+          <lb ed="#V" n="87"/>est. quia agunt per contactum. et ideo approximationem requirunt: 
+          <lb ed="#V" n="88"/>deus autem per talem contactum non agit. Dico ergo quod ratio non con 
+          <lb ed="#V" n="89"/>uincit. quia agentia naturalia videntur posse agere vbi non sunt 
+          <lb ed="#V" n="90"/>praesentia.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e399">
+          ¶ Si dicas quod agunt in medio.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e403">
+          ¶ Contra. certum est 
+          <lb ed="#V" n="91"/>quod sol illa actione qua agit in visceribus terre. non agit in 
+          <lb ed="#V" n="92"/>medio. Similiter illud videtur falsum quod semper agat in medium. Nam 
+          <lb ed="#V" n="93"/>angelus loquens alteri: nihil videtur causare in medio. nec eius 
+          <lb ed="#V" n="94"/>dem rationis cum termino nec alterius. ideo videtur quod solus 
+          conta<lb ed="#V" n="95" break="no"/>ctus virtualis sufficiat.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e416">
+          ¶ Praeterea non videtur ratio sufficiens ad 
+          de<lb ed="#V" n="96" break="no"/>clarandum propositum: quoniam si deus esset determinate in 
+          <lb ed="#V" n="97"/>celo. simpliciter posset influere in inferioribus: sicut sol 
+          po<lb ed="#V" n="98" break="no"/>situs in suo circulo.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e425">
+          ¶ Intelligendum tamen quod deum esse 
+          <lb ed="#V" n="99"/>vbique potest poni dupliciter. Aut quod sit in vno loco vniuersi 
+          de<lb ed="#V" n="100" break="no"/>terminato et inde influat omnibus sicut sol. Et videtur 
+          aliqui<lb ed="#V" n="101" break="no"/>bus quod necessario prius agit in medio. postea in vltimo: 
+          <lb ed="#V" n="102"/>sicut agens philosophicum: quia eius virtus est alicubi sita: et ideo sic 
+          <lb ed="#V" n="103"/>naturaliter influint. Istud tamen non habet apparentiam: quia 
+          <lb ed="#V" n="104"/>non ageret per influxum corporalem: sed per voluntatem 
+          tan<lb ed="#V" n="105" break="no"/>tum: et ideo sicut voluntas attingit extrema per suum 
+          vel<lb ed="#V" n="106" break="no"/>le sine mediis: ita potentia. Alio modo quod deus sit 
+          abstra<lb ed="#V" n="107" break="no"/>ctus ab omni loco vt vere sit nusquam: et per consequens non 
+          vbi<lb ed="#V" n="108" break="no"/>que: et tunc videtur aliquibus quod agit per indistantiam: quia quod 
+          nus<lb ed="#V" n="109" break="no"/>que est a nullo distat cum distantia praesupponat vbi: et talis 
+          <lb ed="#V" n="110"/>actio declarat ipsum vbique esse per indistantiam. Istud tamen non 
+          vi<lb ed="#V" n="111" break="no"/>detur esse verum: quia ex consequente non potest inferri quod repugnat 
+          <lb ed="#V" n="112"/>antecedenti: sed ex non esse alicubi infertur indistantia et ex 
+          <lb ed="#V" n="113"/>hac esse vbique: et tamen esse vbique et non esse alicubi 
+          con<lb ed="#V" n="114" break="no"/>tradicunt.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e462">
+          ¶ Tertia via aliquorum ad probandum istam 
+          <lb ed="#V" n="115"/>conclusionem est immutabilitas: quia si non esset vbique videtur 
+          <lb ed="#V" n="116"/>quod posset moueri de loco ad locum transferendo se de vna 
+          <lb ed="#V" n="117"/>parte mundi ad aliam: et sic esset localiter mutatus. quod 
+          au<lb ed="#V" n="118" break="no"/>tem posset esse in alio loco sicut in isto. probatur: quia 
+          quan<lb ed="#V" n="119" break="no"/>do mundum creauit potuit sibi determinare partem 
+          <lb ed="#V" n="120"/>quam volunt: quia non sibi magis repugnat vna quam alia. 
+          <lb ed="#V" n="121"/>ergo eodem modo potest nunc in omne illud quod sibi non 
+          re<lb ed="#V" n="122" break="no"/>pugnat.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e482">
+          ¶ Preterea. si esset determinatus ad aliquem 
+          <lb ed="#V" n="123"/>locum quod non posset in alio praesentialiter esse videretur 
+          inclu<lb ed="#V" n="124" break="no"/>sus et importare imperfectionem cum tamen hoc ex libertate 
+          <lb ed="#V" n="125"/>et dignitate angelica ab angelis negetur. ab angelo enim 
+          <lb ed="#V" n="126"/>negatur ex sui dignitate: qui tamen magis 
+          determina<lb ed="#V" n="127" break="no"/>tus est ad locum quam deus.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e495">
+          ¶ Sed nec ista via conuincit. 
+          <lb ed="#V" n="128"/>diceretur enim quod deus nusquam esset proprie: sed 
+          transferi<lb ed="#V" n="129" break="no"/>biliter esset vbi esset: ita quod non mutaretur propter hoc 
+          <lb ed="#V" n="130"/>dato etiam quod esset proprie adhuc non sequitur quod deus 
+          mu<lb ed="#V" n="131" break="no"/>taretur. nam respectus locati ad locum est vbi: et illum 
+          <lb ed="#V" n="132"/>non habet deus: sed locus habet respectum ad locatum 
+          <!--232.xml-->
+          <pb ed="#V" n="115-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>presentialitatis. diceretur ergo deus de 
+          lo<lb ed="#V" n="2" break="no"/>co ad locum transferri per nouum respectum 
+          prae<lb ed="#V" n="3" break="no"/>sentialitatis in hoc loco ad deum quo prius non 
+          <lb ed="#V" n="4"/>erat: et ab illo denominaretur deus esse in 
+          ali<lb ed="#V" n="5" break="no"/>quo in quo prius non erat: sicut dictum est 
+          <lb ed="#V" n="6"/>superius de creatione noua que est in 
+          crea<lb ed="#V" n="7" break="no"/>tura: et sine aliquo nouo in deo. Dicitur tamen 
+          <lb ed="#V" n="8"/>quod si ponatur deus simpliciter sic abstractus: 
+          <lb ed="#V" n="9"/>vt nusquam dicatur esse in loco. ista ratio non 
+          con<lb ed="#V" n="10" break="no"/>uincit: quia ibi non est localis mutatio vbi est 
+          <lb ed="#V" n="11"/>omnimoda a loco abstractio: sed si ponatur in 
+          <lb ed="#V" n="12"/>celo deus determinate: sicut simplices 
+          ima<lb ed="#V" n="13" break="no"/>ginantur. tunc apparenter procedit ratio non 
+          ta<lb ed="#V" n="14" break="no"/>men conuincit: quia si deus de non creatore fit 
+          <lb ed="#V" n="15"/>creator. de non domino fit dominus per solum 
+          <lb ed="#V" n="16"/>nouum respectum creature ad ipsum: ita 
+          pos<lb ed="#V" n="17" break="no"/>set fieri de non presente alicui presens per 
+          so<lb ed="#V" n="18" break="no"/>lum respectum presentialitatis creature ad 
+          <lb ed="#V" n="19"/>deum: quem creature imprimeret: sicut 
+          mo<lb ed="#V" n="20" break="no"/>uens imprimit ipsum vbi mobili.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e559">
+          ¶ Sed 
+          num<lb ed="#V" n="21" break="no"/>quid per istum modum posset per diuinam 
+          <lb ed="#V" n="22"/>potentiam vnum corpus transferri de vno 
+          <lb ed="#V" n="23"/>loco ad alium locum per solam mutationem 
+          <lb ed="#V" n="24"/>loci:
+        </p>
+        <p xml:id="FrMS88-e84800-d1e570">
+          ¶ Dicitur quod sic si deum posset facere vnam 
+          <lb ed="#V" n="25"/>relationem sine opposita relatione: et tunc 
+          <lb ed="#V" n="26"/>non erit corpus motum nec mutatum.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e577">
+          ¶ 
+          Quar<lb ed="#V" n="27" break="no"/>ta via est coexistentia. vbi dicit vnus doctor quod 
+          <lb ed="#V" n="28"/>omnis creatura habet necessariam praesentia 
+          <lb ed="#V" n="29"/>litatem ad deum sicut coexistentiam 
+          duratio<lb ed="#V" n="30" break="no"/>nis: et ideo cum deus sit alicubi est per 
+          respe<lb ed="#V" n="31" break="no"/>ctum presentialitatis creature ad ipsum. et 
+          <lb ed="#V" n="32"/>cum omnis creatura sit enim necessario praesens erit 
+          <lb ed="#V" n="33"/>vbique necessario.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e595">
+          ¶ Sed quia necessitas istius 
+          <lb ed="#V" n="34"/>respectus non est nota: ideo confirmatur 4r. primo 
+          <lb ed="#V" n="35"/>sic. si deus crearet stellam celo destructo. 
+          pos<lb ed="#V" n="36" break="no"/>set eam mouere circulariter: sed non nisi 
+          acqui<lb ed="#V" n="37" break="no"/>reret aliquem respectum: sed non nisi 
+          respe<lb ed="#V" n="38" break="no"/>ctum presentialitatis ad ipsum. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e608">
+          ¶ 2o 
+          <lb ed="#V" n="39"/>sic. quia si deus totum vniuersum destrueret. ex 
+          <lb ed="#V" n="40"/>ceptis polis: eos posset coniungere. et sic 
+          perpen<lb ed="#V" n="41" break="no"/>diculariter mouere: sed non nisi per respectum 
+          <lb ed="#V" n="42"/>praesentialitatis ad primum. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e619">
+          ¶ 3o sic 
+          <lb ed="#V" n="43"/>quia deus omnia simul potest mouere: et non nisi per 
+          <lb ed="#V" n="44"/>respectum aliquem. non ad seinuicem. ergo ad 
+          <lb ed="#V" n="45"/>deum.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e629">
+          ¶ 4o sic. quia omnia que mouentur respectum habent 
+          <lb ed="#V" n="46"/>ad aliquod immobile: sed illud non potest esse 
+          ni<lb ed="#V" n="47" break="no"/>si deus. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e636">
+          ¶ Dico quod declarata loci 
+          im<lb ed="#V" n="48" break="no"/>mobilitate: que est difficilior passus de 
+          to<lb ed="#V" n="49" break="no"/>ta philosophia: propositum apparet. Sed hoc dicetur in 
+          <lb ed="#V" n="50"/>secundo.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e645">
+          ¶ Dico ergo quod deus est vbique.
+        </p>
+        <p xml:id="FrMS88-e84800-d1e648">
+          ¶ Ad  
+          <lb ed="#V" n="51"/>argumentum patet per iam dicta. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
