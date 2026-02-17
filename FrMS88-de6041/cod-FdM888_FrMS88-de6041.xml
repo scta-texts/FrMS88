@@ -1,252 +1,252 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 17</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 17</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#V" n="10-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-de6041"><!-- l1prolq17 -->
-            <head xml:id="FrMS88-de6041-Hd1e108">Quaestio 17</head>
-            <p xml:id="FrMS88-de6041-d1e111">
-      Quaestio xvii 
-      <lb ed="#V" n="4"/>UTrum homin viatori poterit comunicari 
-      <lb ed="#V" n="5"/>notitia intuitiua de divina 
-      essen<lb ed="#V" n="6" break="no"/>tia. Uter quod non. quia dicitur moysi. non videbit 
-      <lb ed="#V" n="7"/>me homo et viuet.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e122">
-      ¶ Contra. Iacob vidit do 
-      <lb ed="#V" n="8"/>l minum facie ad faciem.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e127">
-      ¶ Circa istam. q. opotet primo 
-      <lb ed="#V" n="9"/>videre quid est notitia intuitiua.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e132">
-      ¶ Deide ad questionem 
-      <lb ed="#V" n="10"/>ad primum dicitur quod noticia intuitiua est quae est de 
-      <lb ed="#V" n="11"/>Quantu re per se ipsam.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e140">
-      ¶ Abstractiua quae est de re per 
-      <lb ed="#V" n="12"/>repraesentatiuum.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e145">
-      ¶ Sed contra istud primo argumentum sic. Quando aliqua due 
-      noti<lb ed="#V" n="13" break="no"/>cie sic se habent quod differunt specie impossibile est quod differentia constitutiua vni 
-      <lb ed="#V" n="14"/>us conueniat alteri. sed vt praedctum est abstractiue conuenit 
-      ter<lb ed="#V" n="15" break="no"/>minari ad rem non in altero: sed in se ipsa ergo per hoc non distinguitur 
-      <lb ed="#V" n="16"/>intuitiua tanquam per sibi proprium ab abstractiua.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e156">
-      ¶ Dicitur ad hoc 
-      <lb ed="#V" n="17"/>quod licet in hoc conuemant scilicet in terminando: quia vtraque terminatur 
-      <lb ed="#V" n="18"/>ad rem in se tamen differunt sic. quia abstractiua terminatur ad rem quod 
-      <lb ed="#V" n="19"/>res non causat eam nec mouet: sed repraesentatiuum. intuitiua aut 
-      <lb ed="#V" n="20"/>terminatur ad rem in se et causatur a re in se ipsa.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e167">
-      ¶ Contra istud 
-      <lb ed="#V" n="21"/>instatur quadrupliciter. Primo de anima quae se ipsam intelligit et 
-      abstra<lb ed="#V" n="22" break="no"/>ctiue: et tamen non per aliquod repraesentatiuum: sed per suam essentiam. 
-      </p>
-            <p xml:id="FrMS88-de6041-d1e174">
-               <lb ed="#V" n="23"/>¶ 2o sic. quando sunt aliqua obiecta quibus repugnat mouem vel 
-      causa<lb ed="#V" n="24" break="no"/>re: noticia respectu illorum ita terminatur ad ea: quod tamen non causatur ab 
-      <lb ed="#V" n="25"/>eis. Sed multa sunt obstantia intelligibilia intuitiue quibus 
-      repu<lb ed="#V" n="26" break="no"/>gnat causare: sicut relationes. mateama prima et multa alia.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e185">
-      ¶ 3o sic. 
-      quic<lb ed="#V" n="27" break="no"/>quid potest deus mediante causa 2a potest immediate: sed mediante causa 
-      <lb ed="#V" n="28"/>et scilicet obiecto potest causare noticiam intuitiuam in genere causare efficienti. 
-      <lb ed="#V" n="29"/>ergo et sine obiecto. Et sic non causabitur ab obiecto: et tamen terminabitur 
-      <lb ed="#V" n="30"/>ad obiectum.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e197">
-      ¶ 4o sic. certum est quod deus videt essentiam suam: et in 
-      <lb ed="#V" n="31"/>ea creaturas non in se: sed in repraesentatiuo. ergo non intuitiue. 
-      <lb ed="#V" n="32"/>Similiter vident beati divinam essentiam: non tamen ipsa mouet quia 
-      diuina<lb ed="#V" n="33" break="no"/>essentia non est principium productiuum ad extra. ergo non mouet ad 
-      co<lb ed="#V" n="34" break="no"/>gnitionem sui: et tamen intuitie videtur.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e208">
-      ¶ Ad ista dico.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e211">
-      ¶ Ad prim 
-      <lb ed="#V" n="35"/>quod anima non cognoscit se ipsam nec intuitiue: nec abstracti 
-      <lb ed="#V" n="36"/>ne: sed arguitie ex obiecto intuitiue cognito scilicet actu intelligendi.¬ 
-      </p>
-            <p xml:id="FrMS88-de6041-d1e218">
-               <lb ed="#V" n="37"/>¶ Ad 2m dico quod intuitiua est illa que causatur a re per se 
-      ip<lb ed="#V" n="38" break="no"/>sam vel est talis qualem causaret ipsa res si haberet vim causatiuam 
-      <lb ed="#V" n="39"/>et posset eam causare.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e227">
-      ¶ Ad 3m concedo maiorem. et concedo quod 
-      <lb ed="#V" n="40"/>deus potest supplem vicem causantis. non autem terminantis. quia iste 
-      <lb ed="#V" n="41"/>actus requrit existentiam terminantis. Vel potest dici: sicut dictum est 
-      <lb ed="#V" n="42"/>ad 2m scilicet quod si deus suppleat vicem causantis: tamen talem causat qualem 
-      <lb ed="#V" n="43"/>res esset apta nata causare.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e238">
-      ¶ Ad 4m dico quod sicut superius 
-      dixi<lb ed="#V" n="44" break="no"/>quod quocumque noticia specificatur a suo primo obiecto: et quia notia dei 
-      <lb ed="#V" n="45"/>respectu essentie sue est intuitiua. hinc est quod respectu aliorum 
-      <lb ed="#V" n="46"/>obiectorum dicitur esse intuitiua: ita quod cum creature sunt obiecta 
-      secunda<lb ed="#V" n="47" break="no"/>tia adhuc est noticia intuitiua. sic est de deo. Similiter etiam ad 
-      <lb ed="#V" n="48"/>illud de beatis.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e252">
-      ¶ Intelligendum tamen quod noticia intuitiua 
-      con<lb ed="#V" n="49" break="no"/>cernit quatuor extrema contradictionis. a quibus abstrahit notia 
-      <lb ed="#V" n="50"/>abstractiua. Primum est actualis existentia: quia si 
-      cogno<lb ed="#V" n="51" break="no"/>catur non vt actualiter existens: sed tantum quiditas tunc 
-      cogno<lb ed="#V" n="52" break="no"/>scitur abstractiue tantum et non intuitiue. nam abstractiua 
-      <lb ed="#V" n="53"/>concernit tantum quiditatem.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e265">
-      ¶ Secundum est quod intuitiua 
-      concer<lb ed="#V" n="54" break="no"/>nit praesentiam de commni lege. licet enim forte deus posset facere obiectum 
-      <lb ed="#V" n="55"/>non praesens: tamen de commni lege: ita est.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e272">
-      ¶ 3m est causatio quia 
-      <lb ed="#V" n="56"/>de commni lege causatur a re ad quam terminatur.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e277">
-      ¶ Ad 4m 
-      <lb ed="#V" n="57"/>est motio quia de lege communi oportet quod obiectum moueat. 
-      <lb ed="#V" n="58"/>ad 2m oportet diuersimode dicere secundum quod 
-      diuer<lb ed="#V" n="59" break="no"/>Quat simode dicitur de felicitate.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e286">
-      ¶ Sunt autem 4or 
-      <lb ed="#V" n="60"/>opiones de felicitate. Quidam enim ponunt eam esse actum 
-      in<lb ed="#V" n="61" break="no"/>tellectus: et sic dicentes habent dicere ad quaestionem quod non: quia 
-      im<lb ed="#V" n="62" break="no"/>ossibile est posionere illud quod est essentialiter beatitudo in anima quin 
-      <lb ed="#V" n="63"/>psa sit beata: sed visio diuine essentie est secundum istos essentialiter 
-      <lb ed="#V" n="64"/>partitudo. ergo formaliter ipsa est beata. supponatur autem quod 
-      ma<lb ed="#V" n="65" break="no"/>neat viator.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e302">
-      ¶ Alii autem sunt qui ponunt quod felicitas 
-      pre<lb ed="#V" n="66" break="no"/>cise consistit in actu voluntatis. Et isti habent dicere quod sic. cuius 
-      <!--22.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>ratio est. quia quando sunt duo actus essentialiter ordinati et realiter 
-      <lb ed="#V" n="68"/>distincti prior potest poni fine posteriori: sed actus 
-      intuiti<lb ed="#V" n="69" break="no"/>uus se tenens ex parte intellectus est prior essentialiter actu 
-      vo<lb ed="#V" n="70" break="no"/>luntatis. ergo poterit communicari sine alio: sed omne illud quod 
-      <lb ed="#V" n="71"/>comunicatur viatori sine beatitudine non ponit viatorem extra viam. 
-      <lb ed="#V" n="72"/>ergo. etc.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e325">
-      ¶ Alii sunt quae dicunt quod beatitudo integratur ex 
-      istil<lb ed="#V" n="73" break="no"/>duobus actibus scilicet actu intellectus et voluntatis: nec in aliquo 
-      eo<lb ed="#V" n="74" break="no"/>rum praecise consistit. Isti possunt dicere quod sic. cuius ratio est: quia totum 
-      <lb ed="#V" n="75"/>non ponitur praecise depta quacunque parte eius integrali: sed per te 
-      <lb ed="#V" n="76"/>partitudo integratur ex istis duobus actibus. ergo non posito 
-      <lb ed="#V" n="77"/>actu voluntatis. posito tamen actu intellectus non poneretur 
-      beati<lb ed="#V" n="78" break="no"/>tudo. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e341">
-      ¶ Alii autem sunt qua dicunt quod beatitudo est 
-      <lb ed="#V" n="79"/>quoddam genus ad actum intellectus et voluntatis. et quod isti 
-      <lb ed="#V" n="80"/>duo actus sunt sicut due species beatitudinis. et isti habent 
-      di<lb ed="#V" n="81" break="no"/>cere cum primis quod non: quia posita specie necessario ponitur genus. 
-      <lb ed="#V" n="82"/>ergo posito actu intellectus necessario ponitur beatitudo. 
-      eati<lb ed="#V" n="83" break="no"/>tudo autem repugnat viatori manenti viatori. ergo etc. 
-      <lb ed="#V" n="84"/>ponuntur 4or diffiacul. Prima est. Si 
-      in<lb ed="#V" n="85" break="no"/>Sed hic tuitiua et abstractiua differatint specie. Dico 
-      <lb ed="#V" n="86"/>quod sic. et probo. quia quando aliqua causa vniversalis product duos effectus 
-      essen<lb ed="#V" n="87" break="no"/>tialiter ordinatos per duas causas particulares: variata causa parti 
-      <lb ed="#V" n="88"/>culari variatur effectus: sed intellectus est causa vniversalis 
-      producti<lb ed="#V" n="89" break="no"/>ua vtriusque noticie. product autem intuitiuam concurrente re ipsa. 
-      <lb ed="#V" n="90"/>abstractiuam autem concurrente repraesentatiuo. ergo abstractia et in 
-      <lb ed="#V" n="91"/>tuitiua differunt specie.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e372">
-      ¶ 2a difficitas. Utrum sint differentiae essentiales 
-      <lb ed="#V" n="92"/>noticie in communi. Dico quod non. quia quando sunt due differentiae essentiales 
-      <lb ed="#V" n="93"/>por se diuise quicquid cadit sub vna differentiarum illarum est nobilius 
-      <lb ed="#V" n="94"/>omni eo quod cadit sub differentia alia ignobiliori: sed non omne quod 
-      <lb ed="#V" n="95"/>cadit sub intuitiua est nobilius quocumque cadente sub 
-      <lb ed="#V" n="96"/>abstractiua. nec econverso. Et patet quia abstractiua dei est 
-      nol<lb ed="#V" n="97" break="no"/>bilior intuitiua albedis. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e388">
-      ¶ 3a difficultas. Utrum 
-      <lb ed="#V" n="98"/>sint compossibiles in eodem de eodem obiecto. dico quod sic. hoc 
-      <lb ed="#V" n="99"/>probo. quia de eisdem habent angeli cognitionem in verbo et in 
-      <lb ed="#V" n="100"/>genere proprio. cognitio autem futuri in verbo est intuitiua. in 
-      <lb ed="#V" n="101"/>genere autem proprio est abstractiua. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e399">
-      ¶ 4a 
-      difficul<lb ed="#V" n="102" break="no"/>tas. Utrum eadem noticia possit esse intuitiua et 
-      abstra<lb ed="#V" n="103" break="no"/>ctiua. Posset dici quod sic per respectum ad diuersa obstantia nui 
-      <lb ed="#V" n="104"/>si aliud impediret: sed probo quod non. quia si aliqua esset 
-      ta<lb ed="#V" n="105" break="no"/>is videretur illa que est in deo: et etiam in beatis respectu 
-      <lb ed="#V" n="106"/>non existenti. Sed probo quod ista solum sit intuitiua. nulla enim 
-      <lb ed="#V" n="107"/>cognitio est abstractiua per quam cognoscitur de aliquo 
-      ali<lb ed="#V" n="108" break="no"/>quod accidens per accidens: sed deus et beati cognoscunt 
-      acciden<lb ed="#V" n="109" break="no"/>tia per accides que insunt illis que cognoscunt. igitur ista 
-      <lb ed="#V" n="110"/>non est abstractiua: sed intuitiua.
-    </p>
-            <p xml:id="FrMS88-de6041-d1e421">
-      ¶ Ad rationem dicitur quod 
-      in<lb ed="#V" n="111" break="no"/>telligitur ex puris naturalibus. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 17</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 17</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="10-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-de6041"><!-- l1prolq17 -->
+        <head xml:id="FrMS88-de6041-Hd1e108">Quaestio 17</head>
+        <p xml:id="FrMS88-de6041-d1e111">
+          Quaestio xvii 
+          <lb ed="#V" n="4"/>UTrum homin viatori poterit comunicari 
+          <lb ed="#V" n="5"/>notitia intuitiua de divina 
+          essen<lb ed="#V" n="6" break="no"/>tia. Uter quod non. quia dicitur moysi. non videbit 
+          <lb ed="#V" n="7"/>me homo et viuet.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e122">
+          ¶ Contra. Iacob vidit do 
+          <lb ed="#V" n="8"/>l minum facie ad faciem.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e127">
+          ¶ Circa istam. q. opotet primo 
+          <lb ed="#V" n="9"/>videre quid est notitia intuitiua.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e132">
+          ¶ Deide ad questionem 
+          <lb ed="#V" n="10"/>ad primum dicitur quod noticia intuitiua est quae est de 
+          <lb ed="#V" n="11"/>Quantu re per se ipsam.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e140">
+          ¶ Abstractiua quae est de re per 
+          <lb ed="#V" n="12"/>repraesentatiuum.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e145">
+          ¶ Sed contra istud primo argumentum sic. Quando aliqua due 
+          noti<lb ed="#V" n="13" break="no"/>cie sic se habent quod differunt specie impossibile est quod differentia constitutiua vni 
+          <lb ed="#V" n="14"/>us conueniat alteri. sed vt praedctum est abstractiue conuenit 
+          ter<lb ed="#V" n="15" break="no"/>minari ad rem non in altero: sed in se ipsa ergo per hoc non distinguitur 
+          <lb ed="#V" n="16"/>intuitiua tanquam per sibi proprium ab abstractiua.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e156">
+          ¶ Dicitur ad hoc 
+          <lb ed="#V" n="17"/>quod licet in hoc conuemant scilicet in terminando: quia vtraque terminatur 
+          <lb ed="#V" n="18"/>ad rem in se tamen differunt sic. quia abstractiua terminatur ad rem quod 
+          <lb ed="#V" n="19"/>res non causat eam nec mouet: sed repraesentatiuum. intuitiua aut 
+          <lb ed="#V" n="20"/>terminatur ad rem in se et causatur a re in se ipsa.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e167">
+          ¶ Contra istud 
+          <lb ed="#V" n="21"/>instatur quadrupliciter. Primo de anima quae se ipsam intelligit et 
+          abstra<lb ed="#V" n="22" break="no"/>ctiue: et tamen non per aliquod repraesentatiuum: sed per suam essentiam. 
+        </p>
+        <p xml:id="FrMS88-de6041-d1e174">
+          <lb ed="#V" n="23"/>¶ 2o sic. quando sunt aliqua obiecta quibus repugnat mouem vel 
+          causa<lb ed="#V" n="24" break="no"/>re: noticia respectu illorum ita terminatur ad ea: quod tamen non causatur ab 
+          <lb ed="#V" n="25"/>eis. Sed multa sunt obstantia intelligibilia intuitiue quibus 
+          repu<lb ed="#V" n="26" break="no"/>gnat causare: sicut relationes. mateama prima et multa alia.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e185">
+          ¶ 3o sic. 
+          quic<lb ed="#V" n="27" break="no"/>quid potest deus mediante causa 2a potest immediate: sed mediante causa 
+          <lb ed="#V" n="28"/>et scilicet obiecto potest causare noticiam intuitiuam in genere causare efficienti. 
+          <lb ed="#V" n="29"/>ergo et sine obiecto. Et sic non causabitur ab obiecto: et tamen terminabitur 
+          <lb ed="#V" n="30"/>ad obiectum.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e197">
+          ¶ 4o sic. certum est quod deus videt essentiam suam: et in 
+          <lb ed="#V" n="31"/>ea creaturas non in se: sed in repraesentatiuo. ergo non intuitiue. 
+          <lb ed="#V" n="32"/>Similiter vident beati divinam essentiam: non tamen ipsa mouet quia 
+          diuina<lb ed="#V" n="33" break="no"/>essentia non est principium productiuum ad extra. ergo non mouet ad 
+          co<lb ed="#V" n="34" break="no"/>gnitionem sui: et tamen intuitie videtur.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e208">
+          ¶ Ad ista dico.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e211">
+          ¶ Ad prim 
+          <lb ed="#V" n="35"/>quod anima non cognoscit se ipsam nec intuitiue: nec abstracti 
+          <lb ed="#V" n="36"/>ne: sed arguitie ex obiecto intuitiue cognito scilicet actu intelligendi.¬ 
+        </p>
+        <p xml:id="FrMS88-de6041-d1e218">
+          <lb ed="#V" n="37"/>¶ Ad 2m dico quod intuitiua est illa que causatur a re per se 
+          ip<lb ed="#V" n="38" break="no"/>sam vel est talis qualem causaret ipsa res si haberet vim causatiuam 
+          <lb ed="#V" n="39"/>et posset eam causare.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e227">
+          ¶ Ad 3m concedo maiorem. et concedo quod 
+          <lb ed="#V" n="40"/>deus potest supplem vicem causantis. non autem terminantis. quia iste 
+          <lb ed="#V" n="41"/>actus requrit existentiam terminantis. Vel potest dici: sicut dictum est 
+          <lb ed="#V" n="42"/>ad 2m scilicet quod si deus suppleat vicem causantis: tamen talem causat qualem 
+          <lb ed="#V" n="43"/>res esset apta nata causare.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e238">
+          ¶ Ad 4m dico quod sicut superius 
+          dixi<lb ed="#V" n="44" break="no"/>quod quocumque noticia specificatur a suo primo obiecto: et quia notia dei 
+          <lb ed="#V" n="45"/>respectu essentie sue est intuitiua. hinc est quod respectu aliorum 
+          <lb ed="#V" n="46"/>obiectorum dicitur esse intuitiua: ita quod cum creature sunt obiecta 
+          secunda<lb ed="#V" n="47" break="no"/>tia adhuc est noticia intuitiua. sic est de deo. Similiter etiam ad 
+          <lb ed="#V" n="48"/>illud de beatis.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e252">
+          ¶ Intelligendum tamen quod noticia intuitiua 
+          con<lb ed="#V" n="49" break="no"/>cernit quatuor extrema contradictionis. a quibus abstrahit notia 
+          <lb ed="#V" n="50"/>abstractiua. Primum est actualis existentia: quia si 
+          cogno<lb ed="#V" n="51" break="no"/>catur non vt actualiter existens: sed tantum quiditas tunc 
+          cogno<lb ed="#V" n="52" break="no"/>scitur abstractiue tantum et non intuitiue. nam abstractiua 
+          <lb ed="#V" n="53"/>concernit tantum quiditatem.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e265">
+          ¶ Secundum est quod intuitiua 
+          concer<lb ed="#V" n="54" break="no"/>nit praesentiam de commni lege. licet enim forte deus posset facere obiectum 
+          <lb ed="#V" n="55"/>non praesens: tamen de commni lege: ita est.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e272">
+          ¶ 3m est causatio quia 
+          <lb ed="#V" n="56"/>de commni lege causatur a re ad quam terminatur.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e277">
+          ¶ Ad 4m 
+          <lb ed="#V" n="57"/>est motio quia de lege communi oportet quod obiectum moueat. 
+          <lb ed="#V" n="58"/>ad 2m oportet diuersimode dicere secundum quod 
+          diuer<lb ed="#V" n="59" break="no"/>Quat simode dicitur de felicitate.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e286">
+          ¶ Sunt autem 4or 
+          <lb ed="#V" n="60"/>opiones de felicitate. Quidam enim ponunt eam esse actum 
+          in<lb ed="#V" n="61" break="no"/>tellectus: et sic dicentes habent dicere ad quaestionem quod non: quia 
+          im<lb ed="#V" n="62" break="no"/>ossibile est posionere illud quod est essentialiter beatitudo in anima quin 
+          <lb ed="#V" n="63"/>psa sit beata: sed visio diuine essentie est secundum istos essentialiter 
+          <lb ed="#V" n="64"/>partitudo. ergo formaliter ipsa est beata. supponatur autem quod 
+          ma<lb ed="#V" n="65" break="no"/>neat viator.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e302">
+          ¶ Alii autem sunt qui ponunt quod felicitas 
+          pre<lb ed="#V" n="66" break="no"/>cise consistit in actu voluntatis. Et isti habent dicere quod sic. cuius 
+          <!--22.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>ratio est. quia quando sunt duo actus essentialiter ordinati et realiter 
+          <lb ed="#V" n="68"/>distincti prior potest poni fine posteriori: sed actus 
+          intuiti<lb ed="#V" n="69" break="no"/>uus se tenens ex parte intellectus est prior essentialiter actu 
+          vo<lb ed="#V" n="70" break="no"/>luntatis. ergo poterit communicari sine alio: sed omne illud quod 
+          <lb ed="#V" n="71"/>comunicatur viatori sine beatitudine non ponit viatorem extra viam. 
+          <lb ed="#V" n="72"/>ergo. etc.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e325">
+          ¶ Alii sunt quae dicunt quod beatitudo integratur ex 
+          istil<lb ed="#V" n="73" break="no"/>duobus actibus scilicet actu intellectus et voluntatis: nec in aliquo 
+          eo<lb ed="#V" n="74" break="no"/>rum praecise consistit. Isti possunt dicere quod sic. cuius ratio est: quia totum 
+          <lb ed="#V" n="75"/>non ponitur praecise depta quacunque parte eius integrali: sed per te 
+          <lb ed="#V" n="76"/>partitudo integratur ex istis duobus actibus. ergo non posito 
+          <lb ed="#V" n="77"/>actu voluntatis. posito tamen actu intellectus non poneretur 
+          beati<lb ed="#V" n="78" break="no"/>tudo. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e341">
+          ¶ Alii autem sunt qua dicunt quod beatitudo est 
+          <lb ed="#V" n="79"/>quoddam genus ad actum intellectus et voluntatis. et quod isti 
+          <lb ed="#V" n="80"/>duo actus sunt sicut due species beatitudinis. et isti habent 
+          di<lb ed="#V" n="81" break="no"/>cere cum primis quod non: quia posita specie necessario ponitur genus. 
+          <lb ed="#V" n="82"/>ergo posito actu intellectus necessario ponitur beatitudo. 
+          eati<lb ed="#V" n="83" break="no"/>tudo autem repugnat viatori manenti viatori. ergo etc. 
+          <lb ed="#V" n="84"/>ponuntur 4or diffiacul. Prima est. Si 
+          in<lb ed="#V" n="85" break="no"/>Sed hic tuitiua et abstractiua differatint specie. Dico 
+          <lb ed="#V" n="86"/>quod sic. et probo. quia quando aliqua causa vniversalis product duos effectus 
+          essen<lb ed="#V" n="87" break="no"/>tialiter ordinatos per duas causas particulares: variata causa parti 
+          <lb ed="#V" n="88"/>culari variatur effectus: sed intellectus est causa vniversalis 
+          producti<lb ed="#V" n="89" break="no"/>ua vtriusque noticie. product autem intuitiuam concurrente re ipsa. 
+          <lb ed="#V" n="90"/>abstractiuam autem concurrente repraesentatiuo. ergo abstractia et in 
+          <lb ed="#V" n="91"/>tuitiua differunt specie.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e372">
+          ¶ 2a difficitas. Utrum sint differentiae essentiales 
+          <lb ed="#V" n="92"/>noticie in communi. Dico quod non. quia quando sunt due differentiae essentiales 
+          <lb ed="#V" n="93"/>por se diuise quicquid cadit sub vna differentiarum illarum est nobilius 
+          <lb ed="#V" n="94"/>omni eo quod cadit sub differentia alia ignobiliori: sed non omne quod 
+          <lb ed="#V" n="95"/>cadit sub intuitiua est nobilius quocumque cadente sub 
+          <lb ed="#V" n="96"/>abstractiua. nec econverso. Et patet quia abstractiua dei est 
+          nol<lb ed="#V" n="97" break="no"/>bilior intuitiua albedis. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e388">
+          ¶ 3a difficultas. Utrum 
+          <lb ed="#V" n="98"/>sint compossibiles in eodem de eodem obiecto. dico quod sic. hoc 
+          <lb ed="#V" n="99"/>probo. quia de eisdem habent angeli cognitionem in verbo et in 
+          <lb ed="#V" n="100"/>genere proprio. cognitio autem futuri in verbo est intuitiua. in 
+          <lb ed="#V" n="101"/>genere autem proprio est abstractiua. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e399">
+          ¶ 4a 
+          difficul<lb ed="#V" n="102" break="no"/>tas. Utrum eadem noticia possit esse intuitiua et 
+          abstra<lb ed="#V" n="103" break="no"/>ctiua. Posset dici quod sic per respectum ad diuersa obstantia nui 
+          <lb ed="#V" n="104"/>si aliud impediret: sed probo quod non. quia si aliqua esset 
+          ta<lb ed="#V" n="105" break="no"/>is videretur illa que est in deo: et etiam in beatis respectu 
+          <lb ed="#V" n="106"/>non existenti. Sed probo quod ista solum sit intuitiua. nulla enim 
+          <lb ed="#V" n="107"/>cognitio est abstractiua per quam cognoscitur de aliquo 
+          ali<lb ed="#V" n="108" break="no"/>quod accidens per accidens: sed deus et beati cognoscunt 
+          acciden<lb ed="#V" n="109" break="no"/>tia per accides que insunt illis que cognoscunt. igitur ista 
+          <lb ed="#V" n="110"/>non est abstractiua: sed intuitiua.
+        </p>
+        <p xml:id="FrMS88-de6041-d1e421">
+          ¶ Ad rationem dicitur quod 
+          in<lb ed="#V" n="111" break="no"/>telligitur ex puris naturalibus. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

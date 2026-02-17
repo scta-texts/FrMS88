@@ -1,360 +1,360 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="28-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e19916"><!-- l1d4q1 -->
-            <head xml:id="FrMS88-e19916-Hd1e108">Quaestio 1</head>
-            <p xml:id="FrMS88-e19916-d1e111">
-               <lb ed="#V" n="87"/>¶ Distinctio. iiii. Quaestio. 
-      <lb ed="#V" n="88"/>hic oritur questio etc. 
-      <lb ed="#V" n="89"/>distinctionem quartam: quaero primo: vtrum in 
-      <lb ed="#V" n="90"/>Irec. et divinis sit generatio. Quod non: quia idem 
-      <lb ed="#V" n="91"/>non potest gignere seipsum: sed pater et filius sunt 
-      <lb ed="#V" n="92"/>vnum. Ego inquit et pater vnum sumus. Io. io. et 
-      <lb ed="#V" n="93"/>hi tres vnum sunt.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e129">
-      ¶ Contra. Isa. 53. Sniento 
-      <lb ed="#V" n="94"/>nem eius quis enarrabit.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e134">
-      ¶ Circa istam 
-      quaestio<lb ed="#V" n="95" break="no"/>nem est videndum primo quid est generatio. 2o vtrum sit generatio in divinis 
-      <lb ed="#V" n="96"/>ad primum dicunt aliqui quod generatio formaliter et per 
-      <lb ed="#V" n="97"/>Quantum se est mutatio. sic enim alteratio est 
-      mul<lb ed="#V" n="98" break="no"/>tatio de qualitate in qualitatem: ita generatio est mutatio de substanti 
-      <lb ed="#V" n="99"/>in substantiam: ad minus in creaturis.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e147">
-      ¶ Sed contra hoc arguo 4r pri 
-      <lb ed="#V" n="100"/>sic. Snmentio est formaliter productio: sed mutatio non est 
-      forma<lb ed="#V" n="101" break="no"/>iter productio. Ma. patet. Mi. probatur. quia si productio et 
-      muta<lb ed="#V" n="102" break="no"/>tio essent idem: vel mutatio esset formaliter productio: tunc quod 
-      <lb ed="#V" n="103"/>quid mutaretur formaliter produceretur: ergo cum ipsa materia continnue 
-      <lb ed="#V" n="104"/>mutaretur: tunc continue produceretur: quod est sltum: quia ipsa est 
-      im<lb ed="#V" n="105" break="no"/>generabilis et incorruptibilis.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e164">
-      ¶ Confirmatur. quia si 
-      muta<lb ed="#V" n="106" break="no"/>tio esset formaliter productio: tunc in cuiuscumque potestate esset 
-      <lb ed="#V" n="107"/>mutatio esset et productio: sed mutatio materiae est in potestate 
-      <lb ed="#V" n="108"/>agentis naturalis. ergo et productio materiae est in potestate agentis naturaliter 
-      <lb ed="#V" n="109"/>quod est falsum.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e175">
-      ¶ 2o sic. mutari est aliter se habere nunc 
-      quan<lb ed="#V" n="110" break="no"/>prius: sed generatio non est hmodi. quia illud quod generatur prius 
-      <lb ed="#V" n="111"/>non existebat: et per consequens aliter se non habebat: aliter enim se 
-      <lb ed="#V" n="112"/>habere praesupponit esse: quod non competit generato.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e184">
-      ¶ 3o sic. 
-      Inr<lb ed="#V" n="113" break="no"/>generatione lucis lux non mutatur. sed aer: et tamen lux generatur 
-      <lb ed="#V" n="114"/>et non aer. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e191">
-      ¶ 4o sic. Illud quod nullam includit 
-      im<lb ed="#V" n="115" break="no"/>perfectionem necessario distinguitur ab eo quod includit 
-      imperfe<lb ed="#V" n="116" break="no"/>ctionem: sed generatio non includit imperfectionem: quia ipsa 
-      attri<lb ed="#V" n="117" break="no"/>buiter enti perfectissimo: mutatio autem includit. Nam ipsa 
-      re<lb ed="#V" n="118" break="no"/>pugnat enti perfectissimo: potentialitatem enim includit 
-      quo<lb ed="#V" n="119" break="no"/>deo repugnat omnino.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e204">
-      ¶ Ideo dicunt alii quod generatio est actio 
-      <lb ed="#V" n="120"/>de genere actionis. quia omnis actio transiens et terminata ad 
-      <lb ed="#V" n="121"/>aliquid productum videtur actio de genere actionis. generatio est huiusmodi. es 
-      <lb ed="#V" n="122"/>go etc.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e213">
-      ¶ Sed contra hoc arguo. 4r. primo sic. nunquam inuenitur actio 
-      <lb ed="#V" n="123"/>sine passione. quia passio est illatio actionis: cum igitur in 
-      di<lb ed="#V" n="124" break="no"/>uinis non inueniatur passio ad intra: nee per consequens erit actio 
-      <lb ed="#V" n="125"/>ad intra.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e223">
-      ¶ 2o sic. si generare esset agere: tunc sol generans 
-      <lb ed="#V" n="126"/>lucem ageret in eam: quod falsum est: quia gignens luceme non agit 
-      <lb ed="#V" n="127"/>in lucem: sed solum in aerem.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e230">
-      ¶ 3o sic. Si generare esset age: et 
-      <lb ed="#V" n="128"/>generari esset pati. tunc aqua quando pateretur ab igne generaretur. 
-      </p>
-            <p xml:id="FrMS88-e19916-d1e235">
-               <lb ed="#V" n="129"/>¶ 4o sic. Ad diuersos terminos necessario sunt 
-      diuer<lb ed="#V" n="130" break="no"/>si respecuns: sed actionis terminus est passum: generationis 
-      <lb ed="#V" n="131"/>autem est actum vel productum: cum ergo isti sint diuersi termi¬ 
-      <!--60.xml-->
-      <pb ed="#V" n="29-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>ni: necessario respectus generationis et actonis erit alius et alius. 
-      </p>
-            <p xml:id="FrMS88-e19916-d1e253">
-               <lb ed="#V" n="2"/>¶ Confirmatur. quia respectus agentis ad passum est respectus 
-      <lb ed="#V" n="3"/>transmutantis ad transmutatum: respectus generantis ad 
-      ge<lb ed="#V" n="4" break="no"/>nitum non est respectus transmutantis ad transmutatum. 
-      <lb ed="#V" n="5"/>quia potest esse sine transmutatione: sicut in diuinis. 
-      <lb ed="#V" n="6"/>quod non solum formaliter. sed etiam realiter. 
-      <lb ed="#V" n="7"/>Ideo Dico ista duo scilicet genertio et actio: vbi 
-      inueni<lb ed="#V" n="8" break="no"/>untur: distinguntur. generatio enim est respectus intrinsecus 
-      adue<lb ed="#V" n="9" break="no"/>niens terminatus ad productum: generans enim et generatum producens 
-      <lb ed="#V" n="10"/>et productum ab innuiceme distinguuntur.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e275">
-      ¶ Sciendum tamen ad 
-      de<lb ed="#V" n="11" break="no"/>cla rationem propositi quod 4or sunt rationes formales incipientes 
-      <lb ed="#V" n="12"/>a generatione ab ipsa abstrahentes: inter quas est insima ipsa 
-      genera<lb ed="#V" n="13" break="no"/>tio et prima in ipso ordine.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e284">
-      ¶ 2a est. productio: omnis enim generatio 
-      <lb ed="#V" n="14"/>productio quaedam est: sed non econverso. nam multa producuntur quae non 
-      ge<lb ed="#V" n="15" break="no"/>nerantur. vnde spirituisancto conuenit productio: sed tamen sibi 
-      repu<lb ed="#V" n="16" break="no"/>gnat generatio. Similiter creature a deo producuntur: sed tamen non 
-      ge<lb ed="#V" n="17" break="no"/>nerantur.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e296">
-      ¶ 3a ratio est: origo quae abstrahit a generatione et 
-      produ<lb ed="#V" n="18" break="no"/>ctione. Nam omne quod producitur originatur: non tamen econverso. Nam materia ditur 
-      <lb ed="#V" n="19"/>quodammo originare formam. non tamen producere. vnde forma 
-      <lb ed="#V" n="20"/>originatur a materia: non tamen producitur. Similiter passio dicitur originari 
-      <lb ed="#V" n="21"/>a subiecto. et tamen non producitur. Similiter compositum dicitur originari a per 
-      <lb ed="#V" n="22"/>tibus: non tamen producitur.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e309">
-      ¶ 4a est: quae abstrahit a 3m: et illa dicitur 
-      <lb ed="#V" n="23"/>pullulatio: quia omne quod ab aliquo originatur pullulat ab eo 
-      <lb ed="#V" n="24"/>vt patet inductiue: nion tamen econverso. attributa enim et relationes dicuntur 
-      pul<lb ed="#V" n="25" break="no"/>lulare ab essentia diuina. non tamen originari. nam origo est 
-      no<lb ed="#V" n="26" break="no"/>men distinctionis realis. Nam dion. de vnica et discreta 
-      theo<lb ed="#V" n="27" break="no"/>logia dicit personas esse pullulationes essentie diuine: 
-      pul<lb ed="#V" n="28" break="no"/>lulare enim dicitur quando aliquid est in aliquo quasi fundamentaliter et 
-      ra<lb ed="#V" n="29" break="no"/>dicaliter ab eo.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e327">
-      ¶ Item intelligendum quod sunt 4or rationes forma 
-      <lb ed="#V" n="30"/>les a quibus abstrahit generatio. iter quas ipsa generatio est suprima: in 
-      <lb ed="#V" n="31"/>sima est dictio a qua abstrahit immediate natiuitas: quia omne 
-      <lb ed="#V" n="32"/>quod dicitur id est per modum intellectus producitur: nascitur. non tamen omne quod 
-      na<lb ed="#V" n="33" break="no"/>scitur dicitur. quia in omnibus animalibus e natiuitas. sicut paternitas et 
-      mater<lb ed="#V" n="34" break="no"/>nitas. Unde exodi. 33. non coques hedum in lacte matris 
-      <lb ed="#V" n="35"/>sue: non tamen animalia dicuntur.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e343">
-      ¶ 3a est germinatio. quae non solum 
-      animali<lb ed="#V" n="36" break="no"/>bus: sed etiam omnibus viuentibus competit: et ideo sicut viuum abstrahis 
-      <lb ed="#V" n="37"/>ab animali. ita germinatio abstrahit a natiuitate. 
-      arbo<lb ed="#V" n="38" break="no"/>res enim dicuntur germinare: non tamen dicuntur nasci.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e352">
-      ¶ 4a est. generatio quae 
-      <lb ed="#V" n="39"/>abstrahit a germinatione. omnis enim germinatio est generatio. sicut 
-      <lb ed="#V" n="40"/>patet inductiue. non tamen econverso. quia ignis generatur ab igne. inter que 
-      <lb ed="#V" n="41"/>tamen non est germinatio. Omne ergo quod germinat generatur. non tamen econverso 
-      </p>
-            <p xml:id="FrMS88-e19916-d1e361">
-               <lb ed="#V" n="42"/>¶ Sed dices. quomodo in divinis possunt esse tot superiora et inferio 
-      <lb ed="#V" n="43"/>ra. cum omnia quae sunt in deo sint simpliciter simplicia.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e369">
-      ¶ Dico 
-      si<lb ed="#V" n="44" break="no"/>cut superius dictum est de ente quod hec se non habent sicut superiora 
-      <lb ed="#V" n="45"/>et inferiora: quorum vnum est de quidditate alterius: quia talia 
-      <lb ed="#V" n="46"/>feriora non sunt simpliciter simplicia. sed ista comparantur: sicut differentiae 
-      <lb ed="#V" n="47"/>subalternatim posite: sicut dicimus quod rationale est inferius 
-      <lb ed="#V" n="48"/>ad sensibile. et illud non impedit simplicitatem.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e382">
-      ¶ Ex dcinas 
-      <lb ed="#V" n="49"/>autem eliciuntur 4or conclusiones: ex quibus manifestantur illationes 
-      pos<lb ed="#V" n="50" break="no"/>sibiles fieri in istis.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e389">
-      ¶ Prima est. quod aliqua repugnant filio in 
-      <lb ed="#V" n="51"/>quantum est verbum quae non repugnant sibi inquantum est natus: sicut 
-      <lb ed="#V" n="52"/>natiuitas quae abstrahit a dictione.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e396">
-      ¶ 2a quod aliqua repugnan 
-      <lb ed="#V" n="53"/>sibi inquantum est natus: quae non repugnant sibi inquantum e genit 
-      <lb ed="#V" n="54"/>sicut generatio quae abstrahit a natiuitate.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e403">
-      ¶ 3a quod aliqua 
-      repu<lb ed="#V" n="55" break="no"/>gnant sibi inquantum est genitus: quae non repugnant sibi inquantum 
-      <lb ed="#V" n="56"/>est productus. sicut productio abstrahit a generatione.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e410">
-      ¶ 4a quod 
-      <lb ed="#V" n="57"/>aliqui sibi repugnant inquantum est productus quae non repugnant 
-      si<lb ed="#V" n="58" break="no"/>bi inquantum est originatus. Ista omnia patent ex vna reatia scilicet quod omni 
-      <lb ed="#V" n="59"/>inferiori repugnat aliquid quod non suo superiori: et hoc est ratione 
-      <lb ed="#V" n="60"/>additi: quod scilicet inferius addit ad superius. Ex istis potest 
-      inuestiga<lb ed="#V" n="61" break="no"/>ri distinctio formalis verbi. nati geniti et 
-      producti<lb ed="#V" n="62" break="no"/>ecundam partem quaestionis dicunt aliqui quod in 
-      divinit<lb ed="#V" n="63" break="no"/>Circa non est generatio eiusdem rationis: quae in creaturis: lie 
-      <lb ed="#V" n="64"/>aliqua generatio ibi fide teneatur: quia omnis genertio multas impr 
-      <lb ed="#V" n="65"/>fectiones includit in creato.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e433">
-      ¶ Sed contra istud arguo. quia 
-      <lb ed="#V" n="66"/>sicut generatio in creaturis est productio diffinitiue: sic in divinis. 
-      <!--60.xml-->
-      <cb ed="#V" n="b"/>
-            </p>
-            <p xml:id="FrMS88-e19916-d1e442">
-               <lb ed="#V" n="67"/>¶ Item secundo quicquid competit generationi diuine inquantum generati 
-      <lb ed="#V" n="68"/>est: conuenit generationi create inquantum generatio est et econverso. et sicut 
-      <lb ed="#V" n="69"/>dico de conuenientia. ita dico de repugnantia. Si autem 
-      <lb ed="#V" n="70"/>detur aliquid conuenire vni quod non alteri hoc secundum omnes. 
-      <lb ed="#V" n="71"/>erit non inquantum generatio in communi: sed inquantum hec vel 
-      ta<lb ed="#V" n="72" break="no"/>lis generatio.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e458">
-      ¶ Ideo dico quod vera est generatio in diuinis. 
-      <lb ed="#V" n="73"/>quod probo auctoritate et ratione: auctoritate sic: in praes. 
-      <lb ed="#V" n="74"/>Tecum principium. et post. ante luciferum genuit.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e465">
-      ¶ Ratione 
-      <lb ed="#V" n="75"/>sic. Ubi est potentia eiusdem rationis: potest esse actus eiusdem 
-      <lb ed="#V" n="76"/>rationis: sed memoria fecunda: cum dicat 
-      perfectio<lb ed="#V" n="77" break="no"/>nem simpliciter est ibi eiusdem rationis: sed ipsa secundum Augu. 
-      <lb ed="#V" n="78"/>est potentia verbi generatiua. xi. de tri. ergo videtur cum 
-      <lb ed="#V" n="79"/>ibi non sit potentia sine actu: quod ibi generatio erit.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e478">
-      ¶ Sed 
-      <lb ed="#V" n="80"/>ontra predicta instatur quadrupliciter. primo sic. 
-      Ubicum<lb ed="#V" n="81" break="no"/>que generatio est ibi est productio huius ab hoc. Tunc sic. magis 
-      <lb ed="#V" n="82"/>est necesse esse a se: quam necesse esse ab alio. Si igitur filius sit 
-      <lb ed="#V" n="83"/>ab alio: erit necessare esse ab alio: et sic minus necesse esse quam pater: 
-      <lb ed="#V" n="84"/>quod est inconueniens: ergo et illud ex quo sequitur scilicet quod sit ab alio. 
-      </p>
-            <p xml:id="FrMS88-e19916-d1e491">
-               <lb ed="#V" n="85"/>¶ 2o sic. quod accipit esse ab alio non habet esse a se: sed 
-      fi<lb ed="#V" n="86" break="no"/>lius habet esse a generante: ergo non habet esse de se.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e499">
-      ¶ Tunc 
-      vltra<lb ed="#V" n="87" break="no"/>quod non habet esse de se. habet de se non esse. ergo transit de non esse ad 
-      <lb ed="#V" n="88"/>esse: quod est inconueniens.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e506">
-      ¶ 3o sic. si filius est generatus vel 
-      produ<lb ed="#V" n="89" break="no"/>ctus: ergo est generabilis vel producibilis.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e511">
-      ¶ Tunc sic. Omne 
-      pro<lb ed="#V" n="90" break="no"/>ducibile est in potentia obiectiua: sed nihil est in divinis: quod sit in 
-      <lb ed="#V" n="91"/>potentia obieantiua. ergo nihil est in diuinis quod est generabile. 
-      Minor<lb ed="#V" n="92" break="no"/>patet: quia nihil est in diuinis quin sit purus actus.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e520">
-      ¶ 4a sic 
-      <lb ed="#V" n="93"/>quod accipit esse ab alio dependet ab ipso: sed 
-      dependen<lb ed="#V" n="94" break="no"/>tia non est in diuinis. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e527">
-      ¶ Ad ista.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e530">
-      ¶ Ad principium 
-      di<lb ed="#V" n="95" break="no"/>co quod si illud quod accipit esse necesse ab alio est aliud 
-      al<lb ed="#V" n="96" break="no"/>illo: propositio accepta habet veritatem: sed vbi est comunicatio eiusdem 
-      <lb ed="#V" n="97"/>entitatis et dans et accipiens sunt necesse esse: et non sunt 
-      <lb ed="#V" n="98"/>aliud et aliud: non habet veritatem: ita est in proposito: quia enim 
-      <lb ed="#V" n="99"/>vnica necessitas est patris et filii. ideo vna persona non est 
-      <lb ed="#V" n="100"/>magis necessaria quam alia: sed eque necessare esse est in vtroque. 
-      </p>
-            <p xml:id="FrMS88-e19916-d1e547">
-               <lb ed="#V" n="101"/>¶ Ad 2m dico quod aliud est de se non habere esse: et aliud 
-      a<lb ed="#V" n="102" break="no"/>se non habere esse. Creature quidem non habent de se esse: et ideo potest 
-      <lb ed="#V" n="103"/>concedi quod de se habent non esse non sic est de verbo. natura licet non 
-      <lb ed="#V" n="104"/>habeat a se esse: tamen de se non competit ei non esse: quia ex 
-      natura<lb ed="#V" n="105" break="no"/>sua habet esse: licet eam accipiat ab alio.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e560">
-      ¶ Ad 3m dico quod 
-      pos<lb ed="#V" n="106" break="no"/>sibile vno modo accipitur vt distinguitur contra necessarium. Et 
-      <lb ed="#V" n="107"/>isto modo dico quod nec filius nec aliquid quod est in diuinis 
-      <lb ed="#V" n="108"/>est possibile. Alio modo accipitur vt distinguitur contra impossibile. Et 
-      <lb ed="#V" n="109"/>isto modo non solum filius: sed omnia quae sunt in divinis sunt possibilia: 
-      <lb ed="#V" n="110"/>et isto modo videtur posse concedi quod productiuum est possibile 
-      </p>
-            <p xml:id="FrMS88-e19916-d1e573">
-               <lb ed="#V" n="111"/>¶ Ad 4m dico quod sicut origo declarat distinctionem 
-      rea<lb ed="#V" n="112" break="no"/>lem: sic dependentia diuersitatem essentialem: vbi ergo 
-      nul<lb ed="#V" n="113" break="no"/>la est distinctio nec essentialis: nec virtualis: ibi nec 
-      de<lb ed="#V" n="114" break="no"/>pendentia: ita est in proposito.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e584">
-      ¶ Sed hoc remanet difficultas. quia 
-      il<lb ed="#V" n="115" break="no"/>lud quod de se nihil habet: nec aliquam perfectionem habet. nisi ab 
-      <lb ed="#V" n="116"/>alio sibi comicetur de se videtur esse imperfectum: sed verbum 
-      <lb ed="#V" n="117"/>diuinum est huiusmodi. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e593">
-      ¶ Dico quod habens naturam quae de se est 
-      per<lb ed="#V" n="118" break="no"/>fectibilis tale est imperfectum: nura autem que comnicatur filio non 
-      <lb ed="#V" n="119"/>est perfectibilis: sed de se est summe perfecta: et ideo 
-      fi<lb ed="#V" n="120" break="no"/>lius summe est perfectus.
-    </p>
-            <p xml:id="FrMS88-e19916-d1e602">
-      ¶ Ad argumentum patet. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="28-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e19916"><!-- l1d4q1 -->
+        <head xml:id="FrMS88-e19916-Hd1e108">Quaestio 1</head>
+        <p xml:id="FrMS88-e19916-d1e111">
+          <lb ed="#V" n="87"/>¶ Distinctio. iiii. Quaestio. 
+          <lb ed="#V" n="88"/>hic oritur questio etc. 
+          <lb ed="#V" n="89"/>distinctionem quartam: quaero primo: vtrum in 
+          <lb ed="#V" n="90"/>Irec. et divinis sit generatio. Quod non: quia idem 
+          <lb ed="#V" n="91"/>non potest gignere seipsum: sed pater et filius sunt 
+          <lb ed="#V" n="92"/>vnum. Ego inquit et pater vnum sumus. Io. io. et 
+          <lb ed="#V" n="93"/>hi tres vnum sunt.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e129">
+          ¶ Contra. Isa. 53. Sniento 
+          <lb ed="#V" n="94"/>nem eius quis enarrabit.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e134">
+          ¶ Circa istam 
+          quaestio<lb ed="#V" n="95" break="no"/>nem est videndum primo quid est generatio. 2o vtrum sit generatio in divinis 
+          <lb ed="#V" n="96"/>ad primum dicunt aliqui quod generatio formaliter et per 
+          <lb ed="#V" n="97"/>Quantum se est mutatio. sic enim alteratio est 
+          mul<lb ed="#V" n="98" break="no"/>tatio de qualitate in qualitatem: ita generatio est mutatio de substanti 
+          <lb ed="#V" n="99"/>in substantiam: ad minus in creaturis.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e147">
+          ¶ Sed contra hoc arguo 4r pri 
+          <lb ed="#V" n="100"/>sic. Snmentio est formaliter productio: sed mutatio non est 
+          forma<lb ed="#V" n="101" break="no"/>iter productio. Ma. patet. Mi. probatur. quia si productio et 
+          muta<lb ed="#V" n="102" break="no"/>tio essent idem: vel mutatio esset formaliter productio: tunc quod 
+          <lb ed="#V" n="103"/>quid mutaretur formaliter produceretur: ergo cum ipsa materia continnue 
+          <lb ed="#V" n="104"/>mutaretur: tunc continue produceretur: quod est sltum: quia ipsa est 
+          im<lb ed="#V" n="105" break="no"/>generabilis et incorruptibilis.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e164">
+          ¶ Confirmatur. quia si 
+          muta<lb ed="#V" n="106" break="no"/>tio esset formaliter productio: tunc in cuiuscumque potestate esset 
+          <lb ed="#V" n="107"/>mutatio esset et productio: sed mutatio materiae est in potestate 
+          <lb ed="#V" n="108"/>agentis naturalis. ergo et productio materiae est in potestate agentis naturaliter 
+          <lb ed="#V" n="109"/>quod est falsum.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e175">
+          ¶ 2o sic. mutari est aliter se habere nunc 
+          quan<lb ed="#V" n="110" break="no"/>prius: sed generatio non est hmodi. quia illud quod generatur prius 
+          <lb ed="#V" n="111"/>non existebat: et per consequens aliter se non habebat: aliter enim se 
+          <lb ed="#V" n="112"/>habere praesupponit esse: quod non competit generato.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e184">
+          ¶ 3o sic. 
+          Inr<lb ed="#V" n="113" break="no"/>generatione lucis lux non mutatur. sed aer: et tamen lux generatur 
+          <lb ed="#V" n="114"/>et non aer. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e191">
+          ¶ 4o sic. Illud quod nullam includit 
+          im<lb ed="#V" n="115" break="no"/>perfectionem necessario distinguitur ab eo quod includit 
+          imperfe<lb ed="#V" n="116" break="no"/>ctionem: sed generatio non includit imperfectionem: quia ipsa 
+          attri<lb ed="#V" n="117" break="no"/>buiter enti perfectissimo: mutatio autem includit. Nam ipsa 
+          re<lb ed="#V" n="118" break="no"/>pugnat enti perfectissimo: potentialitatem enim includit 
+          quo<lb ed="#V" n="119" break="no"/>deo repugnat omnino.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e204">
+          ¶ Ideo dicunt alii quod generatio est actio 
+          <lb ed="#V" n="120"/>de genere actionis. quia omnis actio transiens et terminata ad 
+          <lb ed="#V" n="121"/>aliquid productum videtur actio de genere actionis. generatio est huiusmodi. es 
+          <lb ed="#V" n="122"/>go etc.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e213">
+          ¶ Sed contra hoc arguo. 4r. primo sic. nunquam inuenitur actio 
+          <lb ed="#V" n="123"/>sine passione. quia passio est illatio actionis: cum igitur in 
+          di<lb ed="#V" n="124" break="no"/>uinis non inueniatur passio ad intra: nee per consequens erit actio 
+          <lb ed="#V" n="125"/>ad intra.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e223">
+          ¶ 2o sic. si generare esset agere: tunc sol generans 
+          <lb ed="#V" n="126"/>lucem ageret in eam: quod falsum est: quia gignens luceme non agit 
+          <lb ed="#V" n="127"/>in lucem: sed solum in aerem.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e230">
+          ¶ 3o sic. Si generare esset age: et 
+          <lb ed="#V" n="128"/>generari esset pati. tunc aqua quando pateretur ab igne generaretur. 
+        </p>
+        <p xml:id="FrMS88-e19916-d1e235">
+          <lb ed="#V" n="129"/>¶ 4o sic. Ad diuersos terminos necessario sunt 
+          diuer<lb ed="#V" n="130" break="no"/>si respecuns: sed actionis terminus est passum: generationis 
+          <lb ed="#V" n="131"/>autem est actum vel productum: cum ergo isti sint diuersi termi¬ 
+          <!--60.xml-->
+          <pb ed="#V" n="29-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ni: necessario respectus generationis et actonis erit alius et alius. 
+        </p>
+        <p xml:id="FrMS88-e19916-d1e253">
+          <lb ed="#V" n="2"/>¶ Confirmatur. quia respectus agentis ad passum est respectus 
+          <lb ed="#V" n="3"/>transmutantis ad transmutatum: respectus generantis ad 
+          ge<lb ed="#V" n="4" break="no"/>nitum non est respectus transmutantis ad transmutatum. 
+          <lb ed="#V" n="5"/>quia potest esse sine transmutatione: sicut in diuinis. 
+          <lb ed="#V" n="6"/>quod non solum formaliter. sed etiam realiter. 
+          <lb ed="#V" n="7"/>Ideo Dico ista duo scilicet genertio et actio: vbi 
+          inueni<lb ed="#V" n="8" break="no"/>untur: distinguntur. generatio enim est respectus intrinsecus 
+          adue<lb ed="#V" n="9" break="no"/>niens terminatus ad productum: generans enim et generatum producens 
+          <lb ed="#V" n="10"/>et productum ab innuiceme distinguuntur.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e275">
+          ¶ Sciendum tamen ad 
+          de<lb ed="#V" n="11" break="no"/>cla rationem propositi quod 4or sunt rationes formales incipientes 
+          <lb ed="#V" n="12"/>a generatione ab ipsa abstrahentes: inter quas est insima ipsa 
+          genera<lb ed="#V" n="13" break="no"/>tio et prima in ipso ordine.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e284">
+          ¶ 2a est. productio: omnis enim generatio 
+          <lb ed="#V" n="14"/>productio quaedam est: sed non econverso. nam multa producuntur quae non 
+          ge<lb ed="#V" n="15" break="no"/>nerantur. vnde spirituisancto conuenit productio: sed tamen sibi 
+          repu<lb ed="#V" n="16" break="no"/>gnat generatio. Similiter creature a deo producuntur: sed tamen non 
+          ge<lb ed="#V" n="17" break="no"/>nerantur.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e296">
+          ¶ 3a ratio est: origo quae abstrahit a generatione et 
+          produ<lb ed="#V" n="18" break="no"/>ctione. Nam omne quod producitur originatur: non tamen econverso. Nam materia ditur 
+          <lb ed="#V" n="19"/>quodammo originare formam. non tamen producere. vnde forma 
+          <lb ed="#V" n="20"/>originatur a materia: non tamen producitur. Similiter passio dicitur originari 
+          <lb ed="#V" n="21"/>a subiecto. et tamen non producitur. Similiter compositum dicitur originari a per 
+          <lb ed="#V" n="22"/>tibus: non tamen producitur.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e309">
+          ¶ 4a est: quae abstrahit a 3m: et illa dicitur 
+          <lb ed="#V" n="23"/>pullulatio: quia omne quod ab aliquo originatur pullulat ab eo 
+          <lb ed="#V" n="24"/>vt patet inductiue: nion tamen econverso. attributa enim et relationes dicuntur 
+          pul<lb ed="#V" n="25" break="no"/>lulare ab essentia diuina. non tamen originari. nam origo est 
+          no<lb ed="#V" n="26" break="no"/>men distinctionis realis. Nam dion. de vnica et discreta 
+          theo<lb ed="#V" n="27" break="no"/>logia dicit personas esse pullulationes essentie diuine: 
+          pul<lb ed="#V" n="28" break="no"/>lulare enim dicitur quando aliquid est in aliquo quasi fundamentaliter et 
+          ra<lb ed="#V" n="29" break="no"/>dicaliter ab eo.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e327">
+          ¶ Item intelligendum quod sunt 4or rationes forma 
+          <lb ed="#V" n="30"/>les a quibus abstrahit generatio. iter quas ipsa generatio est suprima: in 
+          <lb ed="#V" n="31"/>sima est dictio a qua abstrahit immediate natiuitas: quia omne 
+          <lb ed="#V" n="32"/>quod dicitur id est per modum intellectus producitur: nascitur. non tamen omne quod 
+          na<lb ed="#V" n="33" break="no"/>scitur dicitur. quia in omnibus animalibus e natiuitas. sicut paternitas et 
+          mater<lb ed="#V" n="34" break="no"/>nitas. Unde exodi. 33. non coques hedum in lacte matris 
+          <lb ed="#V" n="35"/>sue: non tamen animalia dicuntur.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e343">
+          ¶ 3a est germinatio. quae non solum 
+          animali<lb ed="#V" n="36" break="no"/>bus: sed etiam omnibus viuentibus competit: et ideo sicut viuum abstrahis 
+          <lb ed="#V" n="37"/>ab animali. ita germinatio abstrahit a natiuitate. 
+          arbo<lb ed="#V" n="38" break="no"/>res enim dicuntur germinare: non tamen dicuntur nasci.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e352">
+          ¶ 4a est. generatio quae 
+          <lb ed="#V" n="39"/>abstrahit a germinatione. omnis enim germinatio est generatio. sicut 
+          <lb ed="#V" n="40"/>patet inductiue. non tamen econverso. quia ignis generatur ab igne. inter que 
+          <lb ed="#V" n="41"/>tamen non est germinatio. Omne ergo quod germinat generatur. non tamen econverso 
+        </p>
+        <p xml:id="FrMS88-e19916-d1e361">
+          <lb ed="#V" n="42"/>¶ Sed dices. quomodo in divinis possunt esse tot superiora et inferio 
+          <lb ed="#V" n="43"/>ra. cum omnia quae sunt in deo sint simpliciter simplicia.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e369">
+          ¶ Dico 
+          si<lb ed="#V" n="44" break="no"/>cut superius dictum est de ente quod hec se non habent sicut superiora 
+          <lb ed="#V" n="45"/>et inferiora: quorum vnum est de quidditate alterius: quia talia 
+          <lb ed="#V" n="46"/>feriora non sunt simpliciter simplicia. sed ista comparantur: sicut differentiae 
+          <lb ed="#V" n="47"/>subalternatim posite: sicut dicimus quod rationale est inferius 
+          <lb ed="#V" n="48"/>ad sensibile. et illud non impedit simplicitatem.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e382">
+          ¶ Ex dcinas 
+          <lb ed="#V" n="49"/>autem eliciuntur 4or conclusiones: ex quibus manifestantur illationes 
+          pos<lb ed="#V" n="50" break="no"/>sibiles fieri in istis.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e389">
+          ¶ Prima est. quod aliqua repugnant filio in 
+          <lb ed="#V" n="51"/>quantum est verbum quae non repugnant sibi inquantum est natus: sicut 
+          <lb ed="#V" n="52"/>natiuitas quae abstrahit a dictione.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e396">
+          ¶ 2a quod aliqua repugnan 
+          <lb ed="#V" n="53"/>sibi inquantum est natus: quae non repugnant sibi inquantum e genit 
+          <lb ed="#V" n="54"/>sicut generatio quae abstrahit a natiuitate.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e403">
+          ¶ 3a quod aliqua 
+          repu<lb ed="#V" n="55" break="no"/>gnant sibi inquantum est genitus: quae non repugnant sibi inquantum 
+          <lb ed="#V" n="56"/>est productus. sicut productio abstrahit a generatione.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e410">
+          ¶ 4a quod 
+          <lb ed="#V" n="57"/>aliqui sibi repugnant inquantum est productus quae non repugnant 
+          si<lb ed="#V" n="58" break="no"/>bi inquantum est originatus. Ista omnia patent ex vna reatia scilicet quod omni 
+          <lb ed="#V" n="59"/>inferiori repugnat aliquid quod non suo superiori: et hoc est ratione 
+          <lb ed="#V" n="60"/>additi: quod scilicet inferius addit ad superius. Ex istis potest 
+          inuestiga<lb ed="#V" n="61" break="no"/>ri distinctio formalis verbi. nati geniti et 
+          producti<lb ed="#V" n="62" break="no"/>ecundam partem quaestionis dicunt aliqui quod in 
+          divinit<lb ed="#V" n="63" break="no"/>Circa non est generatio eiusdem rationis: quae in creaturis: lie 
+          <lb ed="#V" n="64"/>aliqua generatio ibi fide teneatur: quia omnis genertio multas impr 
+          <lb ed="#V" n="65"/>fectiones includit in creato.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e433">
+          ¶ Sed contra istud arguo. quia 
+          <lb ed="#V" n="66"/>sicut generatio in creaturis est productio diffinitiue: sic in divinis. 
+          <!--60.xml-->
+          <cb ed="#V" n="b"/>
+        </p>
+        <p xml:id="FrMS88-e19916-d1e442">
+          <lb ed="#V" n="67"/>¶ Item secundo quicquid competit generationi diuine inquantum generati 
+          <lb ed="#V" n="68"/>est: conuenit generationi create inquantum generatio est et econverso. et sicut 
+          <lb ed="#V" n="69"/>dico de conuenientia. ita dico de repugnantia. Si autem 
+          <lb ed="#V" n="70"/>detur aliquid conuenire vni quod non alteri hoc secundum omnes. 
+          <lb ed="#V" n="71"/>erit non inquantum generatio in communi: sed inquantum hec vel 
+          ta<lb ed="#V" n="72" break="no"/>lis generatio.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e458">
+          ¶ Ideo dico quod vera est generatio in diuinis. 
+          <lb ed="#V" n="73"/>quod probo auctoritate et ratione: auctoritate sic: in praes. 
+          <lb ed="#V" n="74"/>Tecum principium. et post. ante luciferum genuit.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e465">
+          ¶ Ratione 
+          <lb ed="#V" n="75"/>sic. Ubi est potentia eiusdem rationis: potest esse actus eiusdem 
+          <lb ed="#V" n="76"/>rationis: sed memoria fecunda: cum dicat 
+          perfectio<lb ed="#V" n="77" break="no"/>nem simpliciter est ibi eiusdem rationis: sed ipsa secundum Augu. 
+          <lb ed="#V" n="78"/>est potentia verbi generatiua. xi. de tri. ergo videtur cum 
+          <lb ed="#V" n="79"/>ibi non sit potentia sine actu: quod ibi generatio erit.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e478">
+          ¶ Sed 
+          <lb ed="#V" n="80"/>ontra predicta instatur quadrupliciter. primo sic. 
+          Ubicum<lb ed="#V" n="81" break="no"/>que generatio est ibi est productio huius ab hoc. Tunc sic. magis 
+          <lb ed="#V" n="82"/>est necesse esse a se: quam necesse esse ab alio. Si igitur filius sit 
+          <lb ed="#V" n="83"/>ab alio: erit necessare esse ab alio: et sic minus necesse esse quam pater: 
+          <lb ed="#V" n="84"/>quod est inconueniens: ergo et illud ex quo sequitur scilicet quod sit ab alio. 
+        </p>
+        <p xml:id="FrMS88-e19916-d1e491">
+          <lb ed="#V" n="85"/>¶ 2o sic. quod accipit esse ab alio non habet esse a se: sed 
+          fi<lb ed="#V" n="86" break="no"/>lius habet esse a generante: ergo non habet esse de se.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e499">
+          ¶ Tunc 
+          vltra<lb ed="#V" n="87" break="no"/>quod non habet esse de se. habet de se non esse. ergo transit de non esse ad 
+          <lb ed="#V" n="88"/>esse: quod est inconueniens.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e506">
+          ¶ 3o sic. si filius est generatus vel 
+          produ<lb ed="#V" n="89" break="no"/>ctus: ergo est generabilis vel producibilis.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e511">
+          ¶ Tunc sic. Omne 
+          pro<lb ed="#V" n="90" break="no"/>ducibile est in potentia obiectiua: sed nihil est in divinis: quod sit in 
+          <lb ed="#V" n="91"/>potentia obieantiua. ergo nihil est in diuinis quod est generabile. 
+          Minor<lb ed="#V" n="92" break="no"/>patet: quia nihil est in diuinis quin sit purus actus.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e520">
+          ¶ 4a sic 
+          <lb ed="#V" n="93"/>quod accipit esse ab alio dependet ab ipso: sed 
+          dependen<lb ed="#V" n="94" break="no"/>tia non est in diuinis. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e527">
+          ¶ Ad ista.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e530">
+          ¶ Ad principium 
+          di<lb ed="#V" n="95" break="no"/>co quod si illud quod accipit esse necesse ab alio est aliud 
+          al<lb ed="#V" n="96" break="no"/>illo: propositio accepta habet veritatem: sed vbi est comunicatio eiusdem 
+          <lb ed="#V" n="97"/>entitatis et dans et accipiens sunt necesse esse: et non sunt 
+          <lb ed="#V" n="98"/>aliud et aliud: non habet veritatem: ita est in proposito: quia enim 
+          <lb ed="#V" n="99"/>vnica necessitas est patris et filii. ideo vna persona non est 
+          <lb ed="#V" n="100"/>magis necessaria quam alia: sed eque necessare esse est in vtroque. 
+        </p>
+        <p xml:id="FrMS88-e19916-d1e547">
+          <lb ed="#V" n="101"/>¶ Ad 2m dico quod aliud est de se non habere esse: et aliud 
+          a<lb ed="#V" n="102" break="no"/>se non habere esse. Creature quidem non habent de se esse: et ideo potest 
+          <lb ed="#V" n="103"/>concedi quod de se habent non esse non sic est de verbo. natura licet non 
+          <lb ed="#V" n="104"/>habeat a se esse: tamen de se non competit ei non esse: quia ex 
+          natura<lb ed="#V" n="105" break="no"/>sua habet esse: licet eam accipiat ab alio.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e560">
+          ¶ Ad 3m dico quod 
+          pos<lb ed="#V" n="106" break="no"/>sibile vno modo accipitur vt distinguitur contra necessarium. Et 
+          <lb ed="#V" n="107"/>isto modo dico quod nec filius nec aliquid quod est in diuinis 
+          <lb ed="#V" n="108"/>est possibile. Alio modo accipitur vt distinguitur contra impossibile. Et 
+          <lb ed="#V" n="109"/>isto modo non solum filius: sed omnia quae sunt in divinis sunt possibilia: 
+          <lb ed="#V" n="110"/>et isto modo videtur posse concedi quod productiuum est possibile 
+        </p>
+        <p xml:id="FrMS88-e19916-d1e573">
+          <lb ed="#V" n="111"/>¶ Ad 4m dico quod sicut origo declarat distinctionem 
+          rea<lb ed="#V" n="112" break="no"/>lem: sic dependentia diuersitatem essentialem: vbi ergo 
+          nul<lb ed="#V" n="113" break="no"/>la est distinctio nec essentialis: nec virtualis: ibi nec 
+          de<lb ed="#V" n="114" break="no"/>pendentia: ita est in proposito.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e584">
+          ¶ Sed hoc remanet difficultas. quia 
+          il<lb ed="#V" n="115" break="no"/>lud quod de se nihil habet: nec aliquam perfectionem habet. nisi ab 
+          <lb ed="#V" n="116"/>alio sibi comicetur de se videtur esse imperfectum: sed verbum 
+          <lb ed="#V" n="117"/>diuinum est huiusmodi. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e593">
+          ¶ Dico quod habens naturam quae de se est 
+          per<lb ed="#V" n="118" break="no"/>fectibilis tale est imperfectum: nura autem que comnicatur filio non 
+          <lb ed="#V" n="119"/>est perfectibilis: sed de se est summe perfecta: et ideo 
+          fi<lb ed="#V" n="120" break="no"/>lius summe est perfectus.
+        </p>
+        <p xml:id="FrMS88-e19916-d1e602">
+          ¶ Ad argumentum patet. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,184 +1,184 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 16</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 16</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="9-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-de5816"><!-- l1prolq16 -->
-            <head xml:id="FrMS88-de5816-Hd1e108">Quaestio 16</head>
-            <p xml:id="FrMS88-de5816-d1e111">
-      Quaestio. xvi. 
-      <lb ed="#V" n="59"/>UTrum de divina essentia possit haberi 
-      nol<lb ed="#V" n="60" break="no"/>T ticia abstractiua ex parte obienti nin 
-      <lb ed="#V" n="61"/>cognoscendo deum esse. siue existentiam eius. 
-      <lb ed="#V" n="62"/>quod cognite abstractiua 
-      <lb ed="#V" n="63"/>Shic dicitu abstrahit ab esse et non 
-      <lb ed="#V" n="64"/>esse a praesentia et non a praesentia. et sic multis extremis 
-      contradictio<lb ed="#V" n="65" break="no"/>nis. Sed hic sunt difficultates aliqua.
-    </p>
-            <p xml:id="FrMS88-de5816-d1e129">
-      ¶ Prima vtrum 
-      abstra<lb ed="#V" n="66" break="no"/>hit a terminatione vel non terminatione obiecti: ita scilicet quod possit 
-      <!--21.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>esse et quod obiectum non terminet.
-    </p>
-            <p xml:id="FrMS88-de5816-d1e140">
-      ¶ hic dicunt aliqui quod sic. quia 
-      <lb ed="#V" n="68"/>non videtur quod sit necessarium positionem nisi respctum fundamentalem actus 
-      <lb ed="#V" n="69"/>ad obiectum quando non est.
-    </p>
-            <p xml:id="FrMS88-de5816-d1e147">
-      ¶ Alii dicunt quod non videtur bene 
-      intelligibi<lb ed="#V" n="70" break="no"/>le quod sit intellectio: et quod nihil intelligatur: quod tamen sequitur: et tamen 
-      <lb ed="#V" n="71"/>sicut ipsi dicunt non oportet quod actualiter existat.
-    </p>
-            <p xml:id="FrMS88-de5816-d1e155">
-      ¶ 2a dififfitcliats. est vtrum 
-      <lb ed="#V" n="72"/>abstrahat a per se et per accidens. Dico quod licet possunt cognosci 
-      abstra<lb ed="#V" n="73" break="no"/>ctiue illa quae insunt per se non tamen ina quae insunt per accidens. Et ratio est 
-      <lb ed="#V" n="74"/>ista: quia cognitio abstractiua fit per repraesentatiuum quod semper 
-      <lb ed="#V" n="75"/>vniformiter repraesentat: licet accidentia varientur. Et ideo non potest 
-      cogn<lb ed="#V" n="76" break="no"/>sci cognitione abstractiua vtrum homo sit albus vel non albus: 
-      <lb ed="#V" n="77"/>et sic de aliis: quia accidentia possunt variari manente cognitione 
-      <lb ed="#V" n="78"/>vniformi.
-    </p>
-            <p xml:id="FrMS88-de5816-d1e173">
-      ¶ Sed difficultas est de astrologia quae videtur esse ab 
-      <lb ed="#V" n="79"/>stractiva: et tamen per repraesentatiuum cognoscit existentiam eclypsis. Di 
-      <lb ed="#V" n="80"/>co quod numquam per demonstrationem cognoscit existentiam vel eclypsim esse. 
-      <lb ed="#V" n="81"/>hoc probo sic. quia de contingenus vt contingentia sunt non potest esse 
-      <lb ed="#V" n="82"/>demonstratio: sed quod eclypsis sit tali tempore hoc est contingens. probo. 
-      <lb ed="#V" n="83"/>tum quia angelus mouet contingentur: et deus potest impedire eum. tum 
-      <lb ed="#V" n="84"/>quia de fcon fuit tempore iosue quando stetit sol: et tunc potuit 
-      astro<lb ed="#V" n="85" break="no"/>logus facem demonstrationem: et tamen tunc fuisset conclusio sa. Similiter ante 
-      <lb ed="#V" n="86"/>diem iudicii ipsi possent eodem modo demonstrare: et tamen omnes 
-      de<lb ed="#V" n="87" break="no"/>moastrationes false concluderent post iudicium.
-    </p>
-            <p xml:id="FrMS88-de5816-d1e195">
-      ¶ Dico ergo quod 
-      <lb ed="#V" n="88"/>maiorem certitudinem non habet astrologus de suis conclusionibus quam 
-      <lb ed="#V" n="89"/>geometer: qui etiam abstrahit. Ideo dico quod non demonstrat nis 
-      <lb ed="#V" n="90"/>aptitudinem et non existentiam scilicet quod ita est aptum natum euenir¬ 
-      </p>
-            <p xml:id="FrMS88-de5816-d1e204">
-               <lb ed="#V" n="91"/>¶ Sed contra. quia tunc videretur naturalis philosophus deficere. per contingentes. eni 
-      <lb ed="#V" n="92"/>propositiones demonstrat primum mouens immobile. Nam vt probaui omnia 
-      <lb ed="#V" n="93"/>contingentur mouentur: ex motu autem fit ista demonstratio. 8o philosophee 
-      <lb ed="#V" n="94"/>Dico quod non est demonstratiue: sed quasi arguitiue: quae quidem 
-      ar<lb ed="#V" n="95" break="no"/>gutio licet incipiat a contingenti scilicet a motu incipit ab eo: vt 
-      intui<lb ed="#V" n="96" break="no"/>tiue natus est demonstrari: et quia omnis propositio licet quantumcumque contingens 
-      <lb ed="#V" n="97"/>si intuitiue cognoscatur est per se no. hic est quod ex tali sic 
-      co<lb ed="#V" n="98" break="no"/>gnito potest naturalis philosophus demonstrare quod est aliquis motor 
-      immo<lb ed="#V" n="99" break="no"/>bilis: quia enim videt quod aliquid mouetur potest arguem: quia mouer 
-      <lb ed="#V" n="100"/>vel a se vel ab alio: et sic vltra quiusque veniat ad aliquid 
-      <lb ed="#V" n="101"/>immobile: quia in talibus non est processus in infinitum. 
-      <lb ed="#V" n="102"/>ergo accedendo dicunt aliqui quod 
-      di<lb ed="#V" n="103" break="no"/>Ad quaestione uina essentia non potest cognosci quidita 
-      <lb ed="#V" n="104"/>tiue abstrahendo ipsam ab esse et non esse. hoc probant sic. 
-      <lb ed="#V" n="105"/>Nihil potest cognosci sine hoc quod est de intellectu eius sed 
-      existn<lb ed="#V" n="106" break="no"/>tia est de intellectu divine essentie: quia est necesse esse et actus 
-      <lb ed="#V" n="107"/>purus: et sic non est idfereuns ad esse et ad non esse.
-    </p>
-            <p xml:id="FrMS88-de5816-d1e243">
-      ¶ Docto: 
-      <lb ed="#V" n="108"/>noster dicit contrarium. quodscilicet possumus habere notitiam de divina essentia 
-      <lb ed="#V" n="109"/>abstraheno ab esse per aliquod repraesentatiuum. et probatur hoc sic. qualem 
-      <lb ed="#V" n="110"/>ordinem habent aliqua vbi distinguuntur secundum rem: talis 
-      ordo<lb ed="#V" n="111" break="no"/>manet vbi distinguuntur secundum rationem: sed vbi distinguunt 
-      <lb ed="#V" n="112"/>realiter quiditas et esse vt in creaturis: vnum potest intelligi sine 
-      <lb ed="#V" n="113"/>alio propter ordinem. ergo et in deo: cum ibi sit consimilis ordo.
-    </p>
-            <p xml:id="FrMS88-de5816-d1e259">
-      ¶ 2o sic. 
-      <lb ed="#V" n="114"/>quod est praeditum quiditatiue de aliquo illud est per se notum de eo: 
-      <lb ed="#V" n="115"/>sed non est per se notum deum esse: quia demonstratur. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de5816-d1e267">
-      ¶ ham conlu 
-      <lb ed="#V" n="116"/>nem teneo: tamen propter alias rationes non solum propter istas. Et primo 
-      ar<lb ed="#V" n="117" break="no"/>guitur fic. Quando est aliquid simpliciter simplex nullum commune est de 
-      <lb ed="#V" n="118"/>quiditate eius: sed divina essentia est simpliciter simplex. ergo esse 
-      <lb ed="#V" n="119"/>cum sit commune non est de eius quiditate: sed hoc 
-      habi<lb ed="#V" n="120" break="no"/>to habetur propositum.
-    </p>
-            <p xml:id="FrMS88-de5816-d1e280">
-      ¶  2o quando aliqua sunt eiusdem rationis forma 
-      <lb ed="#V" n="121"/>lis si habent ordinem esentialem vbicumque remanent remanet 
-      <lb ed="#V" n="122"/>ordo inter ea: sed quantitas virtutis et existentia sunt eiusdem 
-      <lb ed="#V" n="123"/>rationis formalis in deo et creatura que sunt essentialiter 
-      <lb ed="#V" n="124"/>ordinata in creatura: quia quantitas virtuu praecedit existentiam. 
-      er<lb ed="#V" n="125" break="no"/>go et in deo: sed quantitas virtutis que est prior non dicitur in 
-      <lb ed="#V" n="126"/>quid de diuina essentia. ergo nec existentia que est posterior. 
-      </p>
-            <p xml:id="FrMS88-de5816-d1e296">
-               <lb ed="#V" n="127"/>¶ 3o sic. Quando sunt aliqua eiusdem rationis formalis quicquid 
-      dicit<lb ed="#V" n="128" break="no"/>in quid de vne et de reliqui: sed intellectus divinus et noster sunt eiusdem 
-      <lb ed="#V" n="129"/>rationis formalis. si ergo esse dicitur in quid de divino intellectu 
-      er<lb ed="#V" n="130" break="no"/>go et de nostro: quod est manis secundum. semper accipiendo esse existentie 
-      </p>
-            <p xml:id="FrMS88-de5816-d1e307">
-               <lb ed="#V" n="131"/>¶ 4o sic. multiplicato aliquo multiplicantur quacumque sunt 
-      qan<lb ed="#V" n="132" break="no"/>intellectu eius quiditatiuo: sed plures rationes formales sunt 
-      <!--22.xml-->
-      <pb ed="#V" n="10-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>in deo. ergo et plures existentie essent. quod est secundm. quia vna existentia 
-      <lb ed="#V" n="2"/>solum est omnium personarum et notionalium.
-    </p>
-            <p xml:id="FrMS88-de5816-d1e325">
-      ¶ Ad argumentum dico 
-      <lb ed="#V" n="3"/>per sunt modi intrinseci. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 16</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 16</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="9-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-de5816"><!-- l1prolq16 -->
+        <head xml:id="FrMS88-de5816-Hd1e108">Quaestio 16</head>
+        <p xml:id="FrMS88-de5816-d1e111">
+          Quaestio. xvi. 
+          <lb ed="#V" n="59"/>UTrum de divina essentia possit haberi 
+          nol<lb ed="#V" n="60" break="no"/>T ticia abstractiua ex parte obienti nin 
+          <lb ed="#V" n="61"/>cognoscendo deum esse. siue existentiam eius. 
+          <lb ed="#V" n="62"/>quod cognite abstractiua 
+          <lb ed="#V" n="63"/>Shic dicitu abstrahit ab esse et non 
+          <lb ed="#V" n="64"/>esse a praesentia et non a praesentia. et sic multis extremis 
+          contradictio<lb ed="#V" n="65" break="no"/>nis. Sed hic sunt difficultates aliqua.
+        </p>
+        <p xml:id="FrMS88-de5816-d1e129">
+          ¶ Prima vtrum 
+          abstra<lb ed="#V" n="66" break="no"/>hit a terminatione vel non terminatione obiecti: ita scilicet quod possit 
+          <!--21.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>esse et quod obiectum non terminet.
+        </p>
+        <p xml:id="FrMS88-de5816-d1e140">
+          ¶ hic dicunt aliqui quod sic. quia 
+          <lb ed="#V" n="68"/>non videtur quod sit necessarium positionem nisi respctum fundamentalem actus 
+          <lb ed="#V" n="69"/>ad obiectum quando non est.
+        </p>
+        <p xml:id="FrMS88-de5816-d1e147">
+          ¶ Alii dicunt quod non videtur bene 
+          intelligibi<lb ed="#V" n="70" break="no"/>le quod sit intellectio: et quod nihil intelligatur: quod tamen sequitur: et tamen 
+          <lb ed="#V" n="71"/>sicut ipsi dicunt non oportet quod actualiter existat.
+        </p>
+        <p xml:id="FrMS88-de5816-d1e155">
+          ¶ 2a dififfitcliats. est vtrum 
+          <lb ed="#V" n="72"/>abstrahat a per se et per accidens. Dico quod licet possunt cognosci 
+          abstra<lb ed="#V" n="73" break="no"/>ctiue illa quae insunt per se non tamen ina quae insunt per accidens. Et ratio est 
+          <lb ed="#V" n="74"/>ista: quia cognitio abstractiua fit per repraesentatiuum quod semper 
+          <lb ed="#V" n="75"/>vniformiter repraesentat: licet accidentia varientur. Et ideo non potest 
+          cogn<lb ed="#V" n="76" break="no"/>sci cognitione abstractiua vtrum homo sit albus vel non albus: 
+          <lb ed="#V" n="77"/>et sic de aliis: quia accidentia possunt variari manente cognitione 
+          <lb ed="#V" n="78"/>vniformi.
+        </p>
+        <p xml:id="FrMS88-de5816-d1e173">
+          ¶ Sed difficultas est de astrologia quae videtur esse ab 
+          <lb ed="#V" n="79"/>stractiva: et tamen per repraesentatiuum cognoscit existentiam eclypsis. Di 
+          <lb ed="#V" n="80"/>co quod numquam per demonstrationem cognoscit existentiam vel eclypsim esse. 
+          <lb ed="#V" n="81"/>hoc probo sic. quia de contingenus vt contingentia sunt non potest esse 
+          <lb ed="#V" n="82"/>demonstratio: sed quod eclypsis sit tali tempore hoc est contingens. probo. 
+          <lb ed="#V" n="83"/>tum quia angelus mouet contingentur: et deus potest impedire eum. tum 
+          <lb ed="#V" n="84"/>quia de fcon fuit tempore iosue quando stetit sol: et tunc potuit 
+          astro<lb ed="#V" n="85" break="no"/>logus facem demonstrationem: et tamen tunc fuisset conclusio sa. Similiter ante 
+          <lb ed="#V" n="86"/>diem iudicii ipsi possent eodem modo demonstrare: et tamen omnes 
+          de<lb ed="#V" n="87" break="no"/>moastrationes false concluderent post iudicium.
+        </p>
+        <p xml:id="FrMS88-de5816-d1e195">
+          ¶ Dico ergo quod 
+          <lb ed="#V" n="88"/>maiorem certitudinem non habet astrologus de suis conclusionibus quam 
+          <lb ed="#V" n="89"/>geometer: qui etiam abstrahit. Ideo dico quod non demonstrat nis 
+          <lb ed="#V" n="90"/>aptitudinem et non existentiam scilicet quod ita est aptum natum euenir¬ 
+        </p>
+        <p xml:id="FrMS88-de5816-d1e204">
+          <lb ed="#V" n="91"/>¶ Sed contra. quia tunc videretur naturalis philosophus deficere. per contingentes. eni 
+          <lb ed="#V" n="92"/>propositiones demonstrat primum mouens immobile. Nam vt probaui omnia 
+          <lb ed="#V" n="93"/>contingentur mouentur: ex motu autem fit ista demonstratio. 8o philosophee 
+          <lb ed="#V" n="94"/>Dico quod non est demonstratiue: sed quasi arguitiue: quae quidem 
+          ar<lb ed="#V" n="95" break="no"/>gutio licet incipiat a contingenti scilicet a motu incipit ab eo: vt 
+          intui<lb ed="#V" n="96" break="no"/>tiue natus est demonstrari: et quia omnis propositio licet quantumcumque contingens 
+          <lb ed="#V" n="97"/>si intuitiue cognoscatur est per se no. hic est quod ex tali sic 
+          co<lb ed="#V" n="98" break="no"/>gnito potest naturalis philosophus demonstrare quod est aliquis motor 
+          immo<lb ed="#V" n="99" break="no"/>bilis: quia enim videt quod aliquid mouetur potest arguem: quia mouer 
+          <lb ed="#V" n="100"/>vel a se vel ab alio: et sic vltra quiusque veniat ad aliquid 
+          <lb ed="#V" n="101"/>immobile: quia in talibus non est processus in infinitum. 
+          <lb ed="#V" n="102"/>ergo accedendo dicunt aliqui quod 
+          di<lb ed="#V" n="103" break="no"/>Ad quaestione uina essentia non potest cognosci quidita 
+          <lb ed="#V" n="104"/>tiue abstrahendo ipsam ab esse et non esse. hoc probant sic. 
+          <lb ed="#V" n="105"/>Nihil potest cognosci sine hoc quod est de intellectu eius sed 
+          existn<lb ed="#V" n="106" break="no"/>tia est de intellectu divine essentie: quia est necesse esse et actus 
+          <lb ed="#V" n="107"/>purus: et sic non est idfereuns ad esse et ad non esse.
+        </p>
+        <p xml:id="FrMS88-de5816-d1e243">
+          ¶ Docto: 
+          <lb ed="#V" n="108"/>noster dicit contrarium. quodscilicet possumus habere notitiam de divina essentia 
+          <lb ed="#V" n="109"/>abstraheno ab esse per aliquod repraesentatiuum. et probatur hoc sic. qualem 
+          <lb ed="#V" n="110"/>ordinem habent aliqua vbi distinguuntur secundum rem: talis 
+          ordo<lb ed="#V" n="111" break="no"/>manet vbi distinguuntur secundum rationem: sed vbi distinguunt 
+          <lb ed="#V" n="112"/>realiter quiditas et esse vt in creaturis: vnum potest intelligi sine 
+          <lb ed="#V" n="113"/>alio propter ordinem. ergo et in deo: cum ibi sit consimilis ordo.
+        </p>
+        <p xml:id="FrMS88-de5816-d1e259">
+          ¶ 2o sic. 
+          <lb ed="#V" n="114"/>quod est praeditum quiditatiue de aliquo illud est per se notum de eo: 
+          <lb ed="#V" n="115"/>sed non est per se notum deum esse: quia demonstratur. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de5816-d1e267">
+          ¶ ham conlu 
+          <lb ed="#V" n="116"/>nem teneo: tamen propter alias rationes non solum propter istas. Et primo 
+          ar<lb ed="#V" n="117" break="no"/>guitur fic. Quando est aliquid simpliciter simplex nullum commune est de 
+          <lb ed="#V" n="118"/>quiditate eius: sed divina essentia est simpliciter simplex. ergo esse 
+          <lb ed="#V" n="119"/>cum sit commune non est de eius quiditate: sed hoc 
+          habi<lb ed="#V" n="120" break="no"/>to habetur propositum.
+        </p>
+        <p xml:id="FrMS88-de5816-d1e280">
+          ¶  2o quando aliqua sunt eiusdem rationis forma 
+          <lb ed="#V" n="121"/>lis si habent ordinem esentialem vbicumque remanent remanet 
+          <lb ed="#V" n="122"/>ordo inter ea: sed quantitas virtutis et existentia sunt eiusdem 
+          <lb ed="#V" n="123"/>rationis formalis in deo et creatura que sunt essentialiter 
+          <lb ed="#V" n="124"/>ordinata in creatura: quia quantitas virtuu praecedit existentiam. 
+          er<lb ed="#V" n="125" break="no"/>go et in deo: sed quantitas virtutis que est prior non dicitur in 
+          <lb ed="#V" n="126"/>quid de diuina essentia. ergo nec existentia que est posterior. 
+        </p>
+        <p xml:id="FrMS88-de5816-d1e296">
+          <lb ed="#V" n="127"/>¶ 3o sic. Quando sunt aliqua eiusdem rationis formalis quicquid 
+          dicit<lb ed="#V" n="128" break="no"/>in quid de vne et de reliqui: sed intellectus divinus et noster sunt eiusdem 
+          <lb ed="#V" n="129"/>rationis formalis. si ergo esse dicitur in quid de divino intellectu 
+          er<lb ed="#V" n="130" break="no"/>go et de nostro: quod est manis secundum. semper accipiendo esse existentie 
+        </p>
+        <p xml:id="FrMS88-de5816-d1e307">
+          <lb ed="#V" n="131"/>¶ 4o sic. multiplicato aliquo multiplicantur quacumque sunt 
+          qan<lb ed="#V" n="132" break="no"/>intellectu eius quiditatiuo: sed plures rationes formales sunt 
+          <!--22.xml-->
+          <pb ed="#V" n="10-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>in deo. ergo et plures existentie essent. quod est secundm. quia vna existentia 
+          <lb ed="#V" n="2"/>solum est omnium personarum et notionalium.
+        </p>
+        <p xml:id="FrMS88-de5816-d1e325">
+          ¶ Ad argumentum dico 
+          <lb ed="#V" n="3"/>per sunt modi intrinseci. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

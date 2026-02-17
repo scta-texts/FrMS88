@@ -1,318 +1,318 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 5</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 5</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="17-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e12027"><!-- l1d2q5 -->
-            <head xml:id="FrMS88-e12027-Hd1e108">Quaestio 5</head>
-            <p xml:id="FrMS88-e12027-d1e111">
-               <lb ed="#V" n="132"/>Questio quinta. 
-      <!--38.xml-->
-      <pb ed="#V" n="18-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>vtrum deus sub ratione infinita 
-      <lb ed="#V" n="2"/>Ueritur possetesse obiectum alicuius scientie 
-      <lb ed="#V" n="3"/>create quod non. apistulus dicit quod deus inhabitat 
-      <lb ed="#V" n="4"/>luceme inaccessibilem. hoc autem non est nisi 
-      ratio<lb ed="#V" n="5" break="no"/>ine infinitatis. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e133">
-      ¶ Contra. Io. in 
-      cano<lb ed="#V" n="6" break="no"/>ca sua. videbimus eum sicuti est. ergo poterimus suam 
-      infinita<lb ed="#V" n="7" break="no"/>tem cognoscere.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e140">
-      ¶ hic sunt duo facienda. Primo est vi 
-      <lb ed="#V" n="8"/>dere in quo consistit ratio infinitatis. Secundo ad quaestionem. 
-      <lb ed="#V" n="9"/>ad primum sciendum quod sunt quatuor modi 
-      di<lb ed="#V" n="10" break="no"/>Quantum cendi de infinito. Aliqui enim dicunt quod 
-      infi<lb ed="#V" n="11" break="no"/>nitas idem est quod deitas. et idem est conceptus vtriusque. Et hoc 
-      pro<lb ed="#V" n="12" break="no"/>bant: quia Ans. dicit quod deus est quo maius cogitari non potest. 
-      <lb ed="#V" n="13"/>hoc autem sibi non competit nisi ratione infinitatis. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e156">
-      ¶ Alii 
-      di<lb ed="#V" n="14" break="no"/>cunt quod est quodam attributum: sicut enim eternitas dicit quandam 
-      <lb ed="#V" n="15"/>quantitatem extensiuam durationis: ita infinitm intensiuam: et ideo sicut 
-      <lb ed="#V" n="16"/>eternitas est attributum: ita et infinitas.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e166">
-      ¶ Alii dicunt quod est 
-      <lb ed="#V" n="17"/>ratio priuatiua: et ratio est: quia de quocumque ente affirmatio vel 
-      <lb ed="#V" n="18"/>negatio: per primum principium. sed affirmatio finitatis non dicitur de 
-      <lb ed="#V" n="19"/>deo. ergo negatio finitatis dicitur de deo.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e175">
-      ¶ Praeterea. carentia finis 
-      di<lb ed="#V" n="20" break="no"/>cit aliquid priuatiuum: sed infinitum dicit carentiam finis. ergo etc. 
-      </p>
-            <p xml:id="FrMS88-e12027-d1e180">
-               <lb ed="#V" n="21"/>¶ Contra omnes istos modos ego arguo. Et prim contra primum 
-      <lb ed="#V" n="22"/>sic. Impossibile est de eadem ratione formali esse certum 
-      con<lb ed="#V" n="23" break="no"/>ceptum et dubium: sed de deitate secundum quod eam concepimus nunc 
-      <lb ed="#V" n="24"/>habemus conceptum certum. dubitamus autem de infinitate. 
-      <lb ed="#V" n="25"/>ergo etc. 2o sic. Impossibile est quod vna et eadem ratio sit 
-      cognosci<lb ed="#V" n="26" break="no"/>bilis per naturam et non cognoscibilis. hoc patet per primum principium: sed per 
-      <lb ed="#V" n="27"/>aturam possumus cognoscere infinitatem. per naturam autem non 
-      <lb ed="#V" n="28"/>possumus cognoscere quiditatem propriam deitatis. ergo etc. 3 
-      <lb ed="#V" n="29"/>sic. Si deitas et infinitas essent vna ratio formalis: sicut 
-      ge<lb ed="#V" n="30" break="no"/>neratio verbi dicitur diuina a deitate: ita diceretur infinita ab 
-      <lb ed="#V" n="31"/>infinitate: quod est falsum.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e206">
-      ¶ Contra 2m arguo quod non sit 
-      at<lb ed="#V" n="32" break="no"/>tributum. illud quod intelligitur in essentia vt abstrahit ab 
-      omni<lb ed="#V" n="33" break="no"/>bus attributis non est attributum: sed infinitas est huiusmodi. ergo etc. 
-      pro<lb ed="#V" n="34" break="no"/>batio minoris: quia in illo priori: in quo intelligitur essentia 
-      prae<lb ed="#V" n="35" break="no"/>pr attributis intelligitur deus perfectissimus: sed hoc non est 
-      ni<lb ed="#V" n="36" break="no"/>si secundum quantitatem virtutis. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e219">
-      ¶ Contra 3m non arguo: 
-      <lb ed="#V" n="37"/>quia in parte dicit verum: licet non in toto.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e224">
-      ¶ Dico ergo quod infinitas 
-      <lb ed="#V" n="38"/>non est omnibus modis idem cum essentia: sicut dictum est contra primum 
-      <lb ed="#V" n="39"/>modum. nec dicitur in primo modo dicendi per se de essentia. cuius ratio 
-      <lb ed="#V" n="40"/>esse potest. quia nullum distinctum aliquo modo a simpliciter simplici 
-      in<lb ed="#V" n="41" break="no"/>cluditur in eo formaliter: sed infinitas: sicut dictum est: aliquo 
-      <lb ed="#V" n="42"/>modo non est eadem deitati. ergo etc. Nec etiam ista infinitas 
-      distin<lb ed="#V" n="43" break="no"/>guitur formaliter a diuinitate. quod probo sic. Nam illud quo 
-      <lb ed="#V" n="44"/>adueniente vel recedente non variatur ratio formalis: non 
-      <lb ed="#V" n="45"/>distinguitur formaliter. vel non habet formalitatem distinctam ab 
-      <lb ed="#V" n="46"/>eo. infinitas et omnis quantitas finitatis est huiusmodi patet de 
-      albedi<lb ed="#V" n="47" break="no"/>ne intensa et remissa. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e249">
-      ¶ Dico ergo sicut dicit 
-      Sco<lb ed="#V" n="48" break="no"/>tus quod infinitas differt ab essentia: sicut modus eius 
-      in<lb ed="#V" n="49" break="no"/>trinsecus. et ista distinctio modi est minor quam distinctio 
-      for<lb ed="#V" n="50" break="no"/>malis. dicit ergo infinitas modum intrinsecum scilicet quantitatem. 
-      <lb ed="#V" n="51"/>virtutis deitatis: vel vniversaliter illius cui applicatur. non enim variat 
-      <lb ed="#V" n="52"/>rationem formalem. Infinitum tamen posset accipi dupliciter. Uno 
-      <lb ed="#V" n="53"/>modo fundamentaliter et primarie. Alio modo formaliter 
-      <lb ed="#V" n="54"/>et vltimate. Exemplum primi. duo alba dicuntur similia 
-      fun<lb ed="#V" n="55" break="no"/>damentaliter et primarie albedine: sed formaliter: et 
-      vltima<lb ed="#V" n="56" break="no"/>te dicuntur similia similitudinibus. Sic dico de infinitate quod 
-      prima<lb ed="#V" n="57" break="no"/>rie et fundamentaliter dicit quantitatem virtutis formaliter 
-      <lb ed="#V" n="58"/>autem et vltimate dicit carentiam finis. Et istis duobus 
-      <lb ed="#V" n="59"/>modis intellexerunt duo vltimi modi dicendi. contra quos non 
-      <lb ed="#V" n="60"/>fuit argutum tantum de primo arti scilicet de ratione infiniti. 
-      <lb ed="#V" n="61"/>ad 2m intelligendo de quantitate 
-      virtu<lb ed="#V" n="62" break="no"/>Quantum tis: videlicet de infinitate: est vna opinio 
-      <lb ed="#V" n="63"/>quod sub ratione infiniti deus non potest esse obiectum notitie create 
-      <lb ed="#V" n="64"/>et ratio eorum est: quia notitia specificatur ab obiecto: sed omnis scientia 
-      <lb ed="#V" n="65"/>creata est finita. ergo non potest esse de obiecto infinito. Sed istud 
-      <lb ed="#V" n="66"/>non cogit: quia non oportet scientiam esse talem quale est obiectum forma¬ 
-      <!--38.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>liter. alioquin scientia de lapide esset lapidea. et sic de multis 
-      <lb ed="#V" n="68"/>aliis: sufficit enim quod sibi assiletur secundum aliquam attributio. 
-      <lb ed="#V" n="69"/>nem.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e304">
-      ¶ Ideo dico hic quatuor conclusiones. Prima est quod deus sub 
-      <lb ed="#V" n="70"/>ratione infiniti est obiectum intellectus nostri in puris naturalibus existentis. 
-      <lb ed="#V" n="71"/>Et hoc probatur dupliciter. Primo sic demonstratiue. omne illud quod 
-      <lb ed="#V" n="72"/>de deo probatur ab aliquo intellectuab illo eodem cognoscitur: 
-      <lb ed="#V" n="73"/>sed infinitas probabiliter vel demonstratiue probatur a nostro 
-      intellectu<lb ed="#V" n="74" break="no"/>de deo. ergo cognoscitur ab intellectu nostro. Nam demonstrare 
-      <lb ed="#V" n="75"/>esset impossibile nisi termini conciperentur. 2o sic. omne creditum est 
-      ali<lb ed="#V" n="76" break="no"/>quo modo cognitum: sed nos credimus quod deus est immensus et 
-      infi<lb ed="#V" n="77" break="no"/>nitus. ergo etc. 2a conclusio est quod habens cognitionem abstractiuam de 
-      <lb ed="#V" n="78"/>deo cognoscit infinitatem dei. hoc probo sic. habens quiditatem 
-      <lb ed="#V" n="79"/>distincte cognitam potest demonstrare de ea quod inest sibi per se. 
-      <lb ed="#V" n="80"/>infinitas autem conuenit deitati per se. 2o. et per consequens. habens 
-      no<lb ed="#V" n="81" break="no"/>titiamabstractiuam poterit demonstrare illam de deo. et sic 
-      <lb ed="#V" n="82"/>cognoscere. 2o sic. cognoscens quiditatem diuine essentie potest 
-      <lb ed="#V" n="83"/>cognoscere quod est communicabilis tribus. et ita quod est infinita: quia 
-      <lb ed="#V" n="84"/>communicabilitas quae sibi competit prouenit ex plenitudine 
-      per<lb ed="#V" n="85" break="no"/>fectionis infinite. 3a conclusio est. quod intellectus cognoscens intuitiue 
-      <lb ed="#V" n="86"/>relationem creature ad deum cognoscitifinitatem dei. probatur. 
-      <lb ed="#V" n="87"/>quia cognoscens respectum cognoscit terminum sub ratione cust 
-      <lb ed="#V" n="88"/>terminat: sed cognoscens creaturam cognoscit quod est 
-      impro<lb ed="#V" n="89" break="no"/>portionabilis deo. relatio autem improportionabilitatis ter 
-      <lb ed="#V" n="90"/>minatur ad deum vt infinitus est: quia aliter non esset creatura 
-      impro<lb ed="#V" n="91" break="no"/>portionabilis sibi.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e354">
-      ¶ Item cognoscens distantiam diei a 
-      crea<lb ed="#V" n="92" break="no"/>tura: necessario cognoscit deum vt infinitum: quia aliter non 
-      cognosce<lb ed="#V" n="93" break="no"/>ret distantiam: quia est quaedam relatio. ergo cognoscit infinitatem 
-      <lb ed="#V" n="94"/>dei. 4a conclusio est quod intuitiue videns deum: secundum quod beati vident deum 
-      <lb ed="#V" n="95"/>in patria: talis inquam cognoscit infinitatem dei.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e365">
-      ¶ hoc 
-      pro<lb ed="#V" n="96" break="no"/>bo sic. quicumque cognoscit intuitiue aliquid cognoscit i 
-      <lb ed="#V" n="97"/>quae insunt sibi per accidens. ergo multo magis quae insunt sibi 
-      <lb ed="#V" n="98"/>per se: sed infinitas inest per se essentie diuine. ergo intuitiue 
-      <lb ed="#V" n="99"/>videns essentiam diuinam videt infinitatem.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e376">
-      ¶ Confirmatur quod 
-      <lb ed="#V" n="100"/>cumque intellectus cognoscit posterius in essentialiter 
-      ordina<lb ed="#V" n="101" break="no"/>tis cognoscit prius: sed intuitiue videns essentiam videt 
-      re<lb ed="#V" n="102" break="no"/>lationes quae sunt posteriores ipsa infinitate. ergo multo 
-      <lb ed="#V" n="103"/>magis videt infinitatem.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e387">
-      ¶ Sed contra ista instatur quadrupliciter. 
-      <lb ed="#V" n="104"/>Primo sic. Ex comparatione positione ad obiectum quandocumque aliquin 
-      <lb ed="#V" n="105"/>termini comparantur ad inuicem et excessus in vno arguiter 
-      <lb ed="#V" n="106"/>excessum in alio. si vnum sit infinitum et alterum similiter erit 
-      infini<lb ed="#V" n="107" break="no"/>tum. vbi enim termini simils augmentantur si vnum crescit in 
-      infi<lb ed="#V" n="108" break="no"/>nitum et alterum: sed maior perfectio in obiecto arguit 
-      maio<lb ed="#V" n="109" break="no"/>rem perfectionem potentiarum: sicut lux quae est obiectum visus 
-      ar<lb ed="#V" n="110" break="no"/>guit visum esse nobiliorem tactu: quia ipsa est nobilior 
-      cali<lb ed="#V" n="111" break="no"/>ditate quae est obiectum tactus: sed obiectum quod est deus 
-      potissi<lb ed="#V" n="112" break="no"/>me sub rationem infiniti: excedit in perfectione omnia alia 
-      obie<lb ed="#V" n="113" break="no"/>cta in infinitum. ergo et potentia intellectiua in infinitum excedit 
-      <lb ed="#V" n="114"/>omnes alias potentias. Similiter 2o arguo sic. de habitu. quia 
-      <lb ed="#V" n="115"/>obiectum perfectius arguit vel causat perfectiorem habitum. 
-      er<lb ed="#V" n="116" break="no"/>go infinitas in obiecto arguit infinitatem in habitu. 3o eodem 
-      <lb ed="#V" n="117"/>modo arguitur de actu: quia nobilioris obiecti est nobilior 
-      <lb ed="#V" n="118"/>actus. 4o confirmatur de specie. Nobilioris enim obiecti est 
-      nobi<lb ed="#V" n="119" break="no"/>lior species. ergo sequitur quod potentia. habitus. actus. et species erunt 
-      <lb ed="#V" n="120"/>perfectionis infinite: si deus sub ratione infinitatis sit obiectum 
-      <lb ed="#V" n="121"/>eorum.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e430">
-      ¶ Rspondeo et dico quod ista maior que accepta est pro 
-      <lb ed="#V" n="122"/>regula scilicet quod vbi excessus in vno arguit excessum in alio: 
-      <lb ed="#V" n="123"/>et infinitas arguit infinitatem. Illa inquam maior habet 
-      veri<lb ed="#V" n="124" break="no"/>tatem quando augmentum fit in vtroque secundum partes eiusdem 
-      quanti<lb ed="#V" n="125" break="no"/>tatis. Si autem in vno fiat secundum partes eiusdem quantitatis et in 
-      <lb ed="#V" n="126"/>alio secundum partes eiusdem proportionis tunc regula non est 
-      <lb ed="#V" n="127"/>vera. Exictum de primo. si duo cubiti essent quin se consequerentur 
-      <lb ed="#V" n="128"/>in augmentando et fieret eis augmentum per monocubi 
-      <lb ed="#V" n="129"/>tos si vnum cresceret in infinitum et alterum. Exintum secundi: si linea 
-      <lb ed="#V" n="130"/>recta cadat supra angulum rectum diuidet eum in duos 
-      <lb ed="#V" n="131"/>acutos. diuidas autem angulum acutum in infinitum et 
-      appo<lb ed="#V" n="132" break="no"/>nas alteri acuto condiuiso sibi nunquam attinget siue per¬ 
-      <!--39.xml-->
-      <pb ed="#V" n="18-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>tinget ad angulum rectum. Similiter apparet si accipias bi 
-      <lb ed="#V" n="2"/>cubitum et tricubitum. diuidas bicubitum in infinitum. et addas 
-      <lb ed="#V" n="3"/>tricubito numquam perueniet ad quantitatem quinque 
-      cubito<lb ed="#V" n="4" break="no"/>rum. Posset autem dici quod hic fit augmentatus in obiecto secundum 
-      par<lb ed="#V" n="5" break="no"/>tes eiusdem quantitates. In actu autem et potentia et aliis praedcis secundum 
-      par<lb ed="#V" n="6" break="no"/>tes eiusdem proportionis.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e476">
-      ¶ Sed contra. quando fit augmentum per eandem 
-      <lb ed="#V" n="7"/>quantitatem. si augmentum in vno arguit excessum et in 
-      alte<lb ed="#V" n="8" break="no"/>ro. et infinitas infinitatem: sed ita est hic. ergo etc. Probatio 
-      mi<lb ed="#V" n="9" break="no"/>noris. quia cum fit comparatio per maiorem excessum: ita quod 
-      su<lb ed="#V" n="10" break="no"/>perius magis excedit suum immediate inferius quam illud 
-      infe<lb ed="#V" n="11" break="no"/>rius excedit omne inferius eo: tunc fit per eandem quantitatem: sed ita 
-      <lb ed="#V" n="12"/>est hic. ergo etc. Maior patet. quia quando fit secundum eandem proportionem 
-      <lb ed="#V" n="13"/>semper inferius magis excedit quam excedatur. minor etiam patet. 
-      <lb ed="#V" n="14"/>quia actus videndi deum vt infinitus est magis excedit actum 
-      <lb ed="#V" n="15"/>quo video illud quod est immediate sub deo quam quiocumque alius 
-      <lb ed="#V" n="16"/>actus alium actum.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e500">
-      ¶ Dico quod in speciebus secundum ordinem eminem 
-      <lb ed="#V" n="17"/>tie est processus quadruplex. Primus est sine omni quantitate 
-      vir<lb ed="#V" n="18" break="no"/>tutis: sicut in genere relationis: quia relatio nec est finita nec 
-      infi<lb ed="#V" n="19" break="no"/>nita. nullam enim habet quantitatem: sed solum est excessus in eis secundum 
-      <lb ed="#V" n="20"/>pncipale et minus praencipale: sicut patet in auctoritate et 
-      sub<lb ed="#V" n="21" break="no"/>auctoritate: et talibus relationibus disquiperantie. 2us gradum 
-      <lb ed="#V" n="22"/>est quando species excedunt se secundum equalem gradum quantitatis: sicut 
-      <lb ed="#V" n="23"/>species numerorum semper excedunt se equaliter loquendo de his 
-      <lb ed="#V" n="24"/>speciebus quae immediate ordinantur. vna enim non excedit aliam 
-      <lb ed="#V" n="25"/>nisi in vnitate. Istud etiam patet in quantitate continua: quia tantum 
-      <lb ed="#V" n="26"/>excedit quadrangulus triangulum quantum pentagonus 
-      quadran<lb ed="#V" n="27" break="no"/>gulum. 3us processus est secundum eandem quantitate virtutis: 
-      in<lb ed="#V" n="28" break="no"/>telligendo sic quod magis excedit superius suum immediate 
-      infe<lb ed="#V" n="29" break="no"/>rius quam illud inferius omnia inferiora. et ille est in genere substantie. 
-      <lb ed="#V" n="30"/>homo enim magis excedit asinum quam asinus excedat quamcumque 
-      <lb ed="#V" n="31"/>aliam speciem animalis. siue omnes species inferiores. et angelus 
-      ho<lb ed="#V" n="32" break="no"/>minem quam homo quamcumque aliam speciem siue omnes species inferiores. 
-      <lb ed="#V" n="33"/>et in istis videtur regula vera. 4us processus est secundum equalem 
-      propor<lb ed="#V" n="34" break="no"/>tionem deficientem: et iste est in actibus intelligendi. plus enim 
-      <lb ed="#V" n="35"/>excedit homo lapidem quam actus intelligendi respectus hominis actum 
-      intel<lb ed="#V" n="36" break="no"/>ligendi respectu lapidis: immo obiectum aliquando magis excedit 
-      <lb ed="#V" n="37"/>obiectum quam suprimus actus insimum.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e548">
-      ¶ Dico ergo quod in illis 
-      <lb ed="#V" n="38"/>speciebus que sunt species minus praencipales in vniuerso: sicut 
-      <lb ed="#V" n="39"/>sunt species intelligibiles et actus intelligendi non tenet ista 
-      <lb ed="#V" n="40"/>regula: quia in istis non est excessus secundum eandem quantitatem 
-      <lb ed="#V" n="41"/>sicut est in obiectis. Sed hic est vnum dubium: cum genus 
-      <lb ed="#V" n="42"/>diuidatur per duas differentias. et vna semper sit nobilior 
-      alte<lb ed="#V" n="43" break="no"/>ra tunc adhuc videtur difficultas semper remanere: quia ex 
-      <lb ed="#V" n="44"/>cessus erit secundum eandem quantitatem: sicut in obiectis. Nam 
-      <lb ed="#V" n="45"/>actus constitutus per differentiam nobiliorem plus excedit in par 
-      <lb ed="#V" n="46"/>fectione actum constitutum per differentiam ignobiliorem quam ille omnes 
-      <lb ed="#V" n="47"/>alios inferiores.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e572">
-      ¶ Dico quod forte genus non semper 
-      diuidi<lb ed="#V" n="48" break="no"/>tur per duo: sed per multas species. et forte actus 
-      intelligen<lb ed="#V" n="49" break="no"/>di ones sunt eiusdem generis immediati: ita quod non sunt in 
-      <lb ed="#V" n="50"/>eis genera subalterna: et ita licet sit in eis aliquins excessus 
-      <lb ed="#V" n="51"/>non tamen talis: quia excessus in eis est deficiendo: et ideo non 
-      <lb ed="#V" n="52"/>tenet regula.
-    </p>
-            <p xml:id="FrMS88-e12027-d1e585">
-      ¶ Ad paulum dico quod loquitur de 
-      pro<lb ed="#V" n="53" break="no"/>pria ratione deitatis. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="17-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e12027"><!-- l1d2q5 -->
+        <head xml:id="FrMS88-e12027-Hd1e108">Quaestio 5</head>
+        <p xml:id="FrMS88-e12027-d1e111">
+          <lb ed="#V" n="132"/>Questio quinta. 
+          <!--38.xml-->
+          <pb ed="#V" n="18-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>vtrum deus sub ratione infinita 
+          <lb ed="#V" n="2"/>Ueritur possetesse obiectum alicuius scientie 
+          <lb ed="#V" n="3"/>create quod non. apistulus dicit quod deus inhabitat 
+          <lb ed="#V" n="4"/>luceme inaccessibilem. hoc autem non est nisi 
+          ratio<lb ed="#V" n="5" break="no"/>ine infinitatis. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e133">
+          ¶ Contra. Io. in 
+          cano<lb ed="#V" n="6" break="no"/>ca sua. videbimus eum sicuti est. ergo poterimus suam 
+          infinita<lb ed="#V" n="7" break="no"/>tem cognoscere.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e140">
+          ¶ hic sunt duo facienda. Primo est vi 
+          <lb ed="#V" n="8"/>dere in quo consistit ratio infinitatis. Secundo ad quaestionem. 
+          <lb ed="#V" n="9"/>ad primum sciendum quod sunt quatuor modi 
+          di<lb ed="#V" n="10" break="no"/>Quantum cendi de infinito. Aliqui enim dicunt quod 
+          infi<lb ed="#V" n="11" break="no"/>nitas idem est quod deitas. et idem est conceptus vtriusque. Et hoc 
+          pro<lb ed="#V" n="12" break="no"/>bant: quia Ans. dicit quod deus est quo maius cogitari non potest. 
+          <lb ed="#V" n="13"/>hoc autem sibi non competit nisi ratione infinitatis. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e156">
+          ¶ Alii 
+          di<lb ed="#V" n="14" break="no"/>cunt quod est quodam attributum: sicut enim eternitas dicit quandam 
+          <lb ed="#V" n="15"/>quantitatem extensiuam durationis: ita infinitm intensiuam: et ideo sicut 
+          <lb ed="#V" n="16"/>eternitas est attributum: ita et infinitas.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e166">
+          ¶ Alii dicunt quod est 
+          <lb ed="#V" n="17"/>ratio priuatiua: et ratio est: quia de quocumque ente affirmatio vel 
+          <lb ed="#V" n="18"/>negatio: per primum principium. sed affirmatio finitatis non dicitur de 
+          <lb ed="#V" n="19"/>deo. ergo negatio finitatis dicitur de deo.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e175">
+          ¶ Praeterea. carentia finis 
+          di<lb ed="#V" n="20" break="no"/>cit aliquid priuatiuum: sed infinitum dicit carentiam finis. ergo etc. 
+        </p>
+        <p xml:id="FrMS88-e12027-d1e180">
+          <lb ed="#V" n="21"/>¶ Contra omnes istos modos ego arguo. Et prim contra primum 
+          <lb ed="#V" n="22"/>sic. Impossibile est de eadem ratione formali esse certum 
+          con<lb ed="#V" n="23" break="no"/>ceptum et dubium: sed de deitate secundum quod eam concepimus nunc 
+          <lb ed="#V" n="24"/>habemus conceptum certum. dubitamus autem de infinitate. 
+          <lb ed="#V" n="25"/>ergo etc. 2o sic. Impossibile est quod vna et eadem ratio sit 
+          cognosci<lb ed="#V" n="26" break="no"/>bilis per naturam et non cognoscibilis. hoc patet per primum principium: sed per 
+          <lb ed="#V" n="27"/>aturam possumus cognoscere infinitatem. per naturam autem non 
+          <lb ed="#V" n="28"/>possumus cognoscere quiditatem propriam deitatis. ergo etc. 3 
+          <lb ed="#V" n="29"/>sic. Si deitas et infinitas essent vna ratio formalis: sicut 
+          ge<lb ed="#V" n="30" break="no"/>neratio verbi dicitur diuina a deitate: ita diceretur infinita ab 
+          <lb ed="#V" n="31"/>infinitate: quod est falsum.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e206">
+          ¶ Contra 2m arguo quod non sit 
+          at<lb ed="#V" n="32" break="no"/>tributum. illud quod intelligitur in essentia vt abstrahit ab 
+          omni<lb ed="#V" n="33" break="no"/>bus attributis non est attributum: sed infinitas est huiusmodi. ergo etc. 
+          pro<lb ed="#V" n="34" break="no"/>batio minoris: quia in illo priori: in quo intelligitur essentia 
+          prae<lb ed="#V" n="35" break="no"/>pr attributis intelligitur deus perfectissimus: sed hoc non est 
+          ni<lb ed="#V" n="36" break="no"/>si secundum quantitatem virtutis. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e219">
+          ¶ Contra 3m non arguo: 
+          <lb ed="#V" n="37"/>quia in parte dicit verum: licet non in toto.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e224">
+          ¶ Dico ergo quod infinitas 
+          <lb ed="#V" n="38"/>non est omnibus modis idem cum essentia: sicut dictum est contra primum 
+          <lb ed="#V" n="39"/>modum. nec dicitur in primo modo dicendi per se de essentia. cuius ratio 
+          <lb ed="#V" n="40"/>esse potest. quia nullum distinctum aliquo modo a simpliciter simplici 
+          in<lb ed="#V" n="41" break="no"/>cluditur in eo formaliter: sed infinitas: sicut dictum est: aliquo 
+          <lb ed="#V" n="42"/>modo non est eadem deitati. ergo etc. Nec etiam ista infinitas 
+          distin<lb ed="#V" n="43" break="no"/>guitur formaliter a diuinitate. quod probo sic. Nam illud quo 
+          <lb ed="#V" n="44"/>adueniente vel recedente non variatur ratio formalis: non 
+          <lb ed="#V" n="45"/>distinguitur formaliter. vel non habet formalitatem distinctam ab 
+          <lb ed="#V" n="46"/>eo. infinitas et omnis quantitas finitatis est huiusmodi patet de 
+          albedi<lb ed="#V" n="47" break="no"/>ne intensa et remissa. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e249">
+          ¶ Dico ergo sicut dicit 
+          Sco<lb ed="#V" n="48" break="no"/>tus quod infinitas differt ab essentia: sicut modus eius 
+          in<lb ed="#V" n="49" break="no"/>trinsecus. et ista distinctio modi est minor quam distinctio 
+          for<lb ed="#V" n="50" break="no"/>malis. dicit ergo infinitas modum intrinsecum scilicet quantitatem. 
+          <lb ed="#V" n="51"/>virtutis deitatis: vel vniversaliter illius cui applicatur. non enim variat 
+          <lb ed="#V" n="52"/>rationem formalem. Infinitum tamen posset accipi dupliciter. Uno 
+          <lb ed="#V" n="53"/>modo fundamentaliter et primarie. Alio modo formaliter 
+          <lb ed="#V" n="54"/>et vltimate. Exemplum primi. duo alba dicuntur similia 
+          fun<lb ed="#V" n="55" break="no"/>damentaliter et primarie albedine: sed formaliter: et 
+          vltima<lb ed="#V" n="56" break="no"/>te dicuntur similia similitudinibus. Sic dico de infinitate quod 
+          prima<lb ed="#V" n="57" break="no"/>rie et fundamentaliter dicit quantitatem virtutis formaliter 
+          <lb ed="#V" n="58"/>autem et vltimate dicit carentiam finis. Et istis duobus 
+          <lb ed="#V" n="59"/>modis intellexerunt duo vltimi modi dicendi. contra quos non 
+          <lb ed="#V" n="60"/>fuit argutum tantum de primo arti scilicet de ratione infiniti. 
+          <lb ed="#V" n="61"/>ad 2m intelligendo de quantitate 
+          virtu<lb ed="#V" n="62" break="no"/>Quantum tis: videlicet de infinitate: est vna opinio 
+          <lb ed="#V" n="63"/>quod sub ratione infiniti deus non potest esse obiectum notitie create 
+          <lb ed="#V" n="64"/>et ratio eorum est: quia notitia specificatur ab obiecto: sed omnis scientia 
+          <lb ed="#V" n="65"/>creata est finita. ergo non potest esse de obiecto infinito. Sed istud 
+          <lb ed="#V" n="66"/>non cogit: quia non oportet scientiam esse talem quale est obiectum forma¬ 
+          <!--38.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>liter. alioquin scientia de lapide esset lapidea. et sic de multis 
+          <lb ed="#V" n="68"/>aliis: sufficit enim quod sibi assiletur secundum aliquam attributio. 
+          <lb ed="#V" n="69"/>nem.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e304">
+          ¶ Ideo dico hic quatuor conclusiones. Prima est quod deus sub 
+          <lb ed="#V" n="70"/>ratione infiniti est obiectum intellectus nostri in puris naturalibus existentis. 
+          <lb ed="#V" n="71"/>Et hoc probatur dupliciter. Primo sic demonstratiue. omne illud quod 
+          <lb ed="#V" n="72"/>de deo probatur ab aliquo intellectuab illo eodem cognoscitur: 
+          <lb ed="#V" n="73"/>sed infinitas probabiliter vel demonstratiue probatur a nostro 
+          intellectu<lb ed="#V" n="74" break="no"/>de deo. ergo cognoscitur ab intellectu nostro. Nam demonstrare 
+          <lb ed="#V" n="75"/>esset impossibile nisi termini conciperentur. 2o sic. omne creditum est 
+          ali<lb ed="#V" n="76" break="no"/>quo modo cognitum: sed nos credimus quod deus est immensus et 
+          infi<lb ed="#V" n="77" break="no"/>nitus. ergo etc. 2a conclusio est quod habens cognitionem abstractiuam de 
+          <lb ed="#V" n="78"/>deo cognoscit infinitatem dei. hoc probo sic. habens quiditatem 
+          <lb ed="#V" n="79"/>distincte cognitam potest demonstrare de ea quod inest sibi per se. 
+          <lb ed="#V" n="80"/>infinitas autem conuenit deitati per se. 2o. et per consequens. habens 
+          no<lb ed="#V" n="81" break="no"/>titiamabstractiuam poterit demonstrare illam de deo. et sic 
+          <lb ed="#V" n="82"/>cognoscere. 2o sic. cognoscens quiditatem diuine essentie potest 
+          <lb ed="#V" n="83"/>cognoscere quod est communicabilis tribus. et ita quod est infinita: quia 
+          <lb ed="#V" n="84"/>communicabilitas quae sibi competit prouenit ex plenitudine 
+          per<lb ed="#V" n="85" break="no"/>fectionis infinite. 3a conclusio est. quod intellectus cognoscens intuitiue 
+          <lb ed="#V" n="86"/>relationem creature ad deum cognoscitifinitatem dei. probatur. 
+          <lb ed="#V" n="87"/>quia cognoscens respectum cognoscit terminum sub ratione cust 
+          <lb ed="#V" n="88"/>terminat: sed cognoscens creaturam cognoscit quod est 
+          impro<lb ed="#V" n="89" break="no"/>portionabilis deo. relatio autem improportionabilitatis ter 
+          <lb ed="#V" n="90"/>minatur ad deum vt infinitus est: quia aliter non esset creatura 
+          impro<lb ed="#V" n="91" break="no"/>portionabilis sibi.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e354">
+          ¶ Item cognoscens distantiam diei a 
+          crea<lb ed="#V" n="92" break="no"/>tura: necessario cognoscit deum vt infinitum: quia aliter non 
+          cognosce<lb ed="#V" n="93" break="no"/>ret distantiam: quia est quaedam relatio. ergo cognoscit infinitatem 
+          <lb ed="#V" n="94"/>dei. 4a conclusio est quod intuitiue videns deum: secundum quod beati vident deum 
+          <lb ed="#V" n="95"/>in patria: talis inquam cognoscit infinitatem dei.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e365">
+          ¶ hoc 
+          pro<lb ed="#V" n="96" break="no"/>bo sic. quicumque cognoscit intuitiue aliquid cognoscit i 
+          <lb ed="#V" n="97"/>quae insunt sibi per accidens. ergo multo magis quae insunt sibi 
+          <lb ed="#V" n="98"/>per se: sed infinitas inest per se essentie diuine. ergo intuitiue 
+          <lb ed="#V" n="99"/>videns essentiam diuinam videt infinitatem.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e376">
+          ¶ Confirmatur quod 
+          <lb ed="#V" n="100"/>cumque intellectus cognoscit posterius in essentialiter 
+          ordina<lb ed="#V" n="101" break="no"/>tis cognoscit prius: sed intuitiue videns essentiam videt 
+          re<lb ed="#V" n="102" break="no"/>lationes quae sunt posteriores ipsa infinitate. ergo multo 
+          <lb ed="#V" n="103"/>magis videt infinitatem.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e387">
+          ¶ Sed contra ista instatur quadrupliciter. 
+          <lb ed="#V" n="104"/>Primo sic. Ex comparatione positione ad obiectum quandocumque aliquin 
+          <lb ed="#V" n="105"/>termini comparantur ad inuicem et excessus in vno arguiter 
+          <lb ed="#V" n="106"/>excessum in alio. si vnum sit infinitum et alterum similiter erit 
+          infini<lb ed="#V" n="107" break="no"/>tum. vbi enim termini simils augmentantur si vnum crescit in 
+          infi<lb ed="#V" n="108" break="no"/>nitum et alterum: sed maior perfectio in obiecto arguit 
+          maio<lb ed="#V" n="109" break="no"/>rem perfectionem potentiarum: sicut lux quae est obiectum visus 
+          ar<lb ed="#V" n="110" break="no"/>guit visum esse nobiliorem tactu: quia ipsa est nobilior 
+          cali<lb ed="#V" n="111" break="no"/>ditate quae est obiectum tactus: sed obiectum quod est deus 
+          potissi<lb ed="#V" n="112" break="no"/>me sub rationem infiniti: excedit in perfectione omnia alia 
+          obie<lb ed="#V" n="113" break="no"/>cta in infinitum. ergo et potentia intellectiua in infinitum excedit 
+          <lb ed="#V" n="114"/>omnes alias potentias. Similiter 2o arguo sic. de habitu. quia 
+          <lb ed="#V" n="115"/>obiectum perfectius arguit vel causat perfectiorem habitum. 
+          er<lb ed="#V" n="116" break="no"/>go infinitas in obiecto arguit infinitatem in habitu. 3o eodem 
+          <lb ed="#V" n="117"/>modo arguitur de actu: quia nobilioris obiecti est nobilior 
+          <lb ed="#V" n="118"/>actus. 4o confirmatur de specie. Nobilioris enim obiecti est 
+          nobi<lb ed="#V" n="119" break="no"/>lior species. ergo sequitur quod potentia. habitus. actus. et species erunt 
+          <lb ed="#V" n="120"/>perfectionis infinite: si deus sub ratione infinitatis sit obiectum 
+          <lb ed="#V" n="121"/>eorum.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e430">
+          ¶ Rspondeo et dico quod ista maior que accepta est pro 
+          <lb ed="#V" n="122"/>regula scilicet quod vbi excessus in vno arguit excessum in alio: 
+          <lb ed="#V" n="123"/>et infinitas arguit infinitatem. Illa inquam maior habet 
+          veri<lb ed="#V" n="124" break="no"/>tatem quando augmentum fit in vtroque secundum partes eiusdem 
+          quanti<lb ed="#V" n="125" break="no"/>tatis. Si autem in vno fiat secundum partes eiusdem quantitatis et in 
+          <lb ed="#V" n="126"/>alio secundum partes eiusdem proportionis tunc regula non est 
+          <lb ed="#V" n="127"/>vera. Exictum de primo. si duo cubiti essent quin se consequerentur 
+          <lb ed="#V" n="128"/>in augmentando et fieret eis augmentum per monocubi 
+          <lb ed="#V" n="129"/>tos si vnum cresceret in infinitum et alterum. Exintum secundi: si linea 
+          <lb ed="#V" n="130"/>recta cadat supra angulum rectum diuidet eum in duos 
+          <lb ed="#V" n="131"/>acutos. diuidas autem angulum acutum in infinitum et 
+          appo<lb ed="#V" n="132" break="no"/>nas alteri acuto condiuiso sibi nunquam attinget siue per¬ 
+          <!--39.xml-->
+          <pb ed="#V" n="18-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>tinget ad angulum rectum. Similiter apparet si accipias bi 
+          <lb ed="#V" n="2"/>cubitum et tricubitum. diuidas bicubitum in infinitum. et addas 
+          <lb ed="#V" n="3"/>tricubito numquam perueniet ad quantitatem quinque 
+          cubito<lb ed="#V" n="4" break="no"/>rum. Posset autem dici quod hic fit augmentatus in obiecto secundum 
+          par<lb ed="#V" n="5" break="no"/>tes eiusdem quantitates. In actu autem et potentia et aliis praedcis secundum 
+          par<lb ed="#V" n="6" break="no"/>tes eiusdem proportionis.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e476">
+          ¶ Sed contra. quando fit augmentum per eandem 
+          <lb ed="#V" n="7"/>quantitatem. si augmentum in vno arguit excessum et in 
+          alte<lb ed="#V" n="8" break="no"/>ro. et infinitas infinitatem: sed ita est hic. ergo etc. Probatio 
+          mi<lb ed="#V" n="9" break="no"/>noris. quia cum fit comparatio per maiorem excessum: ita quod 
+          su<lb ed="#V" n="10" break="no"/>perius magis excedit suum immediate inferius quam illud 
+          infe<lb ed="#V" n="11" break="no"/>rius excedit omne inferius eo: tunc fit per eandem quantitatem: sed ita 
+          <lb ed="#V" n="12"/>est hic. ergo etc. Maior patet. quia quando fit secundum eandem proportionem 
+          <lb ed="#V" n="13"/>semper inferius magis excedit quam excedatur. minor etiam patet. 
+          <lb ed="#V" n="14"/>quia actus videndi deum vt infinitus est magis excedit actum 
+          <lb ed="#V" n="15"/>quo video illud quod est immediate sub deo quam quiocumque alius 
+          <lb ed="#V" n="16"/>actus alium actum.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e500">
+          ¶ Dico quod in speciebus secundum ordinem eminem 
+          <lb ed="#V" n="17"/>tie est processus quadruplex. Primus est sine omni quantitate 
+          vir<lb ed="#V" n="18" break="no"/>tutis: sicut in genere relationis: quia relatio nec est finita nec 
+          infi<lb ed="#V" n="19" break="no"/>nita. nullam enim habet quantitatem: sed solum est excessus in eis secundum 
+          <lb ed="#V" n="20"/>pncipale et minus praencipale: sicut patet in auctoritate et 
+          sub<lb ed="#V" n="21" break="no"/>auctoritate: et talibus relationibus disquiperantie. 2us gradum 
+          <lb ed="#V" n="22"/>est quando species excedunt se secundum equalem gradum quantitatis: sicut 
+          <lb ed="#V" n="23"/>species numerorum semper excedunt se equaliter loquendo de his 
+          <lb ed="#V" n="24"/>speciebus quae immediate ordinantur. vna enim non excedit aliam 
+          <lb ed="#V" n="25"/>nisi in vnitate. Istud etiam patet in quantitate continua: quia tantum 
+          <lb ed="#V" n="26"/>excedit quadrangulus triangulum quantum pentagonus 
+          quadran<lb ed="#V" n="27" break="no"/>gulum. 3us processus est secundum eandem quantitate virtutis: 
+          in<lb ed="#V" n="28" break="no"/>telligendo sic quod magis excedit superius suum immediate 
+          infe<lb ed="#V" n="29" break="no"/>rius quam illud inferius omnia inferiora. et ille est in genere substantie. 
+          <lb ed="#V" n="30"/>homo enim magis excedit asinum quam asinus excedat quamcumque 
+          <lb ed="#V" n="31"/>aliam speciem animalis. siue omnes species inferiores. et angelus 
+          ho<lb ed="#V" n="32" break="no"/>minem quam homo quamcumque aliam speciem siue omnes species inferiores. 
+          <lb ed="#V" n="33"/>et in istis videtur regula vera. 4us processus est secundum equalem 
+          propor<lb ed="#V" n="34" break="no"/>tionem deficientem: et iste est in actibus intelligendi. plus enim 
+          <lb ed="#V" n="35"/>excedit homo lapidem quam actus intelligendi respectus hominis actum 
+          intel<lb ed="#V" n="36" break="no"/>ligendi respectu lapidis: immo obiectum aliquando magis excedit 
+          <lb ed="#V" n="37"/>obiectum quam suprimus actus insimum.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e548">
+          ¶ Dico ergo quod in illis 
+          <lb ed="#V" n="38"/>speciebus que sunt species minus praencipales in vniuerso: sicut 
+          <lb ed="#V" n="39"/>sunt species intelligibiles et actus intelligendi non tenet ista 
+          <lb ed="#V" n="40"/>regula: quia in istis non est excessus secundum eandem quantitatem 
+          <lb ed="#V" n="41"/>sicut est in obiectis. Sed hic est vnum dubium: cum genus 
+          <lb ed="#V" n="42"/>diuidatur per duas differentias. et vna semper sit nobilior 
+          alte<lb ed="#V" n="43" break="no"/>ra tunc adhuc videtur difficultas semper remanere: quia ex 
+          <lb ed="#V" n="44"/>cessus erit secundum eandem quantitatem: sicut in obiectis. Nam 
+          <lb ed="#V" n="45"/>actus constitutus per differentiam nobiliorem plus excedit in par 
+          <lb ed="#V" n="46"/>fectione actum constitutum per differentiam ignobiliorem quam ille omnes 
+          <lb ed="#V" n="47"/>alios inferiores.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e572">
+          ¶ Dico quod forte genus non semper 
+          diuidi<lb ed="#V" n="48" break="no"/>tur per duo: sed per multas species. et forte actus 
+          intelligen<lb ed="#V" n="49" break="no"/>di ones sunt eiusdem generis immediati: ita quod non sunt in 
+          <lb ed="#V" n="50"/>eis genera subalterna: et ita licet sit in eis aliquins excessus 
+          <lb ed="#V" n="51"/>non tamen talis: quia excessus in eis est deficiendo: et ideo non 
+          <lb ed="#V" n="52"/>tenet regula.
+        </p>
+        <p xml:id="FrMS88-e12027-d1e585">
+          ¶ Ad paulum dico quod loquitur de 
+          pro<lb ed="#V" n="53" break="no"/>pria ratione deitatis. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

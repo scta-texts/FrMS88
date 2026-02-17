@@ -1,425 +1,425 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="16-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e10796"><!-- l1d2q2 -->
-            <head xml:id="FrMS88-e10796-Hd1e108">Quaestio 2</head>
-            <p xml:id="FrMS88-e10796-d1e111">
-      ¶ Quaestio. ii. 
-      <lb ed="#V" n="78"/>Utrum deum esse sit 
-      demon<lb ed="#V" n="79" break="no"/>Ueritur. strabile propter quid. quod sic 
-      pro<lb ed="#V" n="80" break="no"/>batur per diffinitionem dei quam dat Ans. po 
-      <lb ed="#V" n="81"/>ltest deum esse demonstrari. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e122">
-      ¶ Con 
-      <lb ed="#V" n="82"/>ltra. Dyo. dicit. quod de deo nec e ratio. nec 
-      imma<lb ed="#V" n="83" break="no"/>ginatio.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e129">
-      ¶ Circa istam quaestionem primo declarabo 
-      ter<lb ed="#V" n="84" break="no"/>minos. 2o quid sit demonstratio propter quid. 
-      <lb ed="#V" n="85"/>de terminis. Ad quod intelligendum 
-      <lb ed="#V" n="86"/>Et primo sciendum est quod tres termini ponuntur 
-      <lb ed="#V" n="87"/>in demonstratione scilicet subiectum diffinitio et passio.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e140">
-      ¶ Ex his 
-      el<lb ed="#V" n="88" break="no"/>cio quattuor conclusiones. Prima conclusio quod diffinitio non differt 
-      <lb ed="#V" n="89"/>formaliter a diffinito. hec conclusio primo probatur sic. quandocum. 
-      <lb ed="#V" n="90"/>que aliqua sic se habent quod vnum dicitur de alio in primo modo 
-      dicen<lb ed="#V" n="91" break="no"/>di per se: ista non differunt formaliter maxime si 
-      adequa<lb ed="#V" n="92" break="no"/>te dicantur. sed diffinitio dicitur de diffinito in priori modo 
-      di<lb ed="#V" n="93" break="no"/>cendi per se et adequate.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e157">
-      ¶ Contra istam conclusionem instatu 
-      <lb ed="#V" n="94"/>quadrupliciter. Primo sic. posita tota quiditate alicuius 
-      cir<lb ed="#V" n="95" break="no"/>cumscripto quocumque alio quod non est de quiditate illius. 
-      <lb ed="#V" n="96"/>ponitur necessario quiditas eius tota: sed posito 
-      gene<lb ed="#V" n="97" break="no"/>re et differentia quocumque alio circumscripto non ponitur 
-      quidi<lb ed="#V" n="98" break="no"/>tas eius tota. ergo dicit aliam rationem formalem quam genus et 
-      <lb ed="#V" n="99"/>differentia similis sumpta: sicut compositum dicit realiter aliud a materia 
-      <lb ed="#V" n="100"/>et forma. Minor probatur. quia posito per impossibile quod 
-      co<lb ed="#V" n="101" break="no"/>lor sepetur a differentia constituente albedinem. si albedo nihil 
-      <lb ed="#V" n="102"/>aliud esset quam color: et talis differentia. tunc istis positis 
-      quan<lb ed="#V" n="103" break="no"/>tumcumque separatis maneret albedo: quod est falsum. Secundo 
-      <lb ed="#V" n="104"/>sic. et euidenter ponendo plures formas. accipio enim 
-      cor<lb ed="#V" n="105" break="no"/>pus animatum. animatum est separabile a corporeo. ponatur 
-      <lb ed="#V" n="106"/>separatio. et tunc remanebit tota quiditas corporis animati. 
-      <lb ed="#V" n="107"/>et tamen non remanebit ipsum corpus animatum. et sic 
-      rema<lb ed="#V" n="108" break="no"/>nebit corpus quod est genus. et animatum quod est differentia. et 
-      <lb ed="#V" n="109"/>tamen non manet diffinitum quod est corpus aiatum. 3o sic. 
-      </p>
-            <p xml:id="FrMS88-e10796-d1e194">
-               <lb ed="#V" n="110"/>¶ Sensibile distinguitur a rationali. separentur: ergo 
-      rema<lb ed="#V" n="111" break="no"/>nebit genus et differentia. et tamen non manebit quiditas speciei. 
-      <lb ed="#V" n="112"/>4o quia explicatiuum et explicabile differunt formaliter: 
-      <lb ed="#V" n="113"/>diffinitio est explicatiuum.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e205">
-      ¶ Ad ista omnia posset dici quod 
-      <lb ed="#V" n="114"/>remanent vnita. ideo non remanet quiditas.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e210">
-      ¶ Contra. aut 
-      <lb ed="#V" n="115"/>ista vnione facta aliquid aliud ab vnione et vnitis 
-      con<lb ed="#V" n="116" break="no"/>sequitur partinens ad speciem. aut ipsa precisa vnio partinet. 
-      <lb ed="#V" n="117"/>aut nihil plus quam ante. Si primum tunc habetur propositum. cum 
-      <lb ed="#V" n="118"/>diffintio non exprimat nisi partes diffiniti. diffinitum autem 
-      ad<lb ed="#V" n="119" break="no"/>det illud aliud ad diffinitionem. Si secundum illud est falsum 
-      <lb ed="#V" n="120"/>quia vnio est respectus: ergo non pertinet ad quiditatem. O 
-      <lb ed="#V" n="121"/>etiam hoc dato habetur propositum. quia illa non exprimitur per 
-      di<lb ed="#V" n="122" break="no"/>finitionem. Si des tertium tunc erit arguendum de 
-      par<lb ed="#V" n="123" break="no"/>tibus separatis: sicut de vnitis. et ita si partes separate non 
-      <lb ed="#V" n="124"/>sunt ipsum diffinitum. sequitur etiam quod nec partes 
-      vni<lb ed="#V" n="125" break="no"/>te.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e236">
-      ¶ Secundo instatur per primum principium complexum. 
-      <lb ed="#V" n="126"/>et hoc sic. species enim componitur ex genere et differentia. Ex hoc 
-      an<lb ed="#V" n="127" break="no"/>guo sic. De eodem omnino impossibile est verificari contradictoria 
-      <lb ed="#V" n="128"/>saltem de eadem ratione formali. sed si species sit omnino idem 
-      <lb ed="#V" n="129"/>cum genere et differentia simul sumptis: de eodem omnibus 
-      mo<lb ed="#V" n="130" break="no"/>dis dicerentur contradictoria: quia genus et differentia simul 
-      sum<lb ed="#V" n="131" break="no"/>pta constituunt speciem: species autem non constituit specie: quia idem 
-      <lb ed="#V" n="132"/>non constituit seipsum. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e254">
-      ¶ Tertio sic. Impossibile est quod 
-      <!--35.xml-->
-      <pb ed="#V" n="16-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>vnitas formalis fundetur in duobus formaliter 
-      distin<lb ed="#V" n="2" break="no"/>ctis. vnitas autem specifica est formalis: genus et differentia 
-      for<lb ed="#V" n="3" break="no"/>maliter distinguuntur. ergo non fundatur in ipsis. ergo oportet 
-      da<lb ed="#V" n="4" break="no"/>re tertium indistinctum formaliter in seipso: quod erit 
-      funda<lb ed="#V" n="5" break="no"/>mentum istius vnitatis. Et illud addit diffinitum super diffinitionem 
-      <lb ed="#V" n="6"/>ergo etc.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e277">
-      ¶ Sed dicens quod sunt vnum realiter.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e280">
-      ¶ Contra. 
-      il<lb ed="#V" n="7" break="no"/>lud non valet. quia sicut vnitas realis requirit vnum reale: 
-      <lb ed="#V" n="8"/>quod sit fundamentum illius. ita videtur quod vnitas formalis non 
-      <lb ed="#V" n="9"/>potest haberi nisi vbi est vna simplex formalitas. Et sicut 
-      <lb ed="#V" n="10"/>vnitas realis non potest fundari in diuersis rebus. ita 
-      nes<lb ed="#V" n="11" break="no"/>vnitas formalis in distinctis formalitatibus. vt sic. 
-      </p>
-            <p xml:id="FrMS88-e10796-d1e293">
-               <lb ed="#V" n="12"/>¶ Quarto arguo sic. Idem simils et selitus non potest esse cognitum 
-      <lb ed="#V" n="13"/>et non cognitum: sed diffinitum cognoscitur sine diffinitione: 
-      <lb ed="#V" n="14"/>per diffinitionem enim distincte cognoscitur res. per 
-      diffini<lb ed="#V" n="15" break="no"/>tum autem indistincte. constat autem quod res potest cognosci 
-      indi<lb ed="#V" n="16" break="no"/>stincte absque hoc quod cognoscatur distincte.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e306">
-      ¶ Si dicatur 
-      <lb ed="#V" n="17"/>quod non est inconueniens eandem rem cognosci duobus 
-      mo<lb ed="#V" n="18" break="no"/>dis.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e313">
-      ¶ Contra. qui cognoscit indistincte non cognoscit per 
-      <lb ed="#V" n="19"/>tes essentiales: sed qui cognoscit distincte cognoscit 
-      par<lb ed="#V" n="20" break="no"/>tes essentiales. ergo aliquid cognoscitur cognitione 
-      di<lb ed="#V" n="21" break="no"/>stincta: quod non cognoscitur cognitione indistincta. 
-      </p>
-            <p xml:id="FrMS88-e10796-d1e322">
-               <lb ed="#V" n="22"/>¶ Sed dices concedo maiorem quod indistincte cognoscens 
-      <lb ed="#V" n="23"/>non cognoscit partes distincte: sed tamen bene indistincte 
-      co<lb ed="#V" n="24" break="no"/>gnoscit.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e332">
-      ¶ Contra: innueniam aliquod compositum ex partibus 
-      <lb ed="#V" n="25"/>simpliciter simplicibus. illud potest cognosci distincte et 
-      in<lb ed="#V" n="26" break="no"/>distincte. quero si cognitione indistincta aliqualiter co 
-      <lb ed="#V" n="27"/>gnosco partes vel non. si non: habeo propositum. si sic et 
-      di<lb ed="#V" n="28" break="no"/>stincte: eodem modo habeo propositum. Si indistincte. 
-      Con<lb ed="#V" n="29" break="no"/>tra. quia simpliciter simplex vel distincte cognoscitur vel nullo 
-      <lb ed="#V" n="30"/>modo cognoscitur. Partes autem ille sunt simpliciter 
-      simpli<lb ed="#V" n="31" break="no"/>ces per suppositum. ergo distincte cognoscuntur. vel 
-      nul<lb ed="#V" n="32" break="no"/>lo modo. Utur ergo dicendum quod sicut compositum naturale 
-      <lb ed="#V" n="33"/>addit ad partes simul sumptas. ita etiam compositum metaphi 
-      <lb ed="#V" n="34"/>sicum. sicut diffinitum vel species addit supra genus et 
-      dis<lb ed="#V" n="35" break="no"/>ferentiam simul sumpta. Et si dicas ergo distinguuntur 
-      for<lb ed="#V" n="36" break="no"/>maliter. dico quod non distinguuntur formaliter. quia ista. sed 
-      <lb ed="#V" n="37"/>pecies includit illa. scilicet genus et differentiam: sicut entitas 
-      con<lb ed="#V" n="38" break="no"/>positi includit partes ideo non distinguuntur.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e365">
-      ¶ 2a conclusio est. 
-      <lb ed="#V" n="39"/>quod passio differt formaliter a subiecto. Nam omne quod dicitur de 
-      ali<lb ed="#V" n="40" break="no"/>quo in secundo modo dicendi per se differt ab eo: saltem 
-      forma<lb ed="#V" n="41" break="no"/>liter: sed passio dicitur de subiecto in secundo modo: ergo etc. Ma. 
-      <lb ed="#V" n="42"/>probatur. quia quando aliqua sunt omnibus modis idem: quicquid 
-      <lb ed="#V" n="43"/>dicitur in primo modo dicendi per se de vno: et de alio. sed difficultas 
-      <lb ed="#V" n="44"/>subiecti dicitur de subiecto in primo modo dicendi per se. ergo et de 
-      ip<lb ed="#V" n="45" break="no"/>sa passione. quod est falsum. 2o arguitur sic. Nullum posteri 
-      <lb ed="#V" n="46"/>potest esse omnibus modis idem cum priori. sed passio est 
-      poste<lb ed="#V" n="47" break="no"/>rior subiecto. ergo etc. 3o diffinitio est per se nota de subiecto. non 
-      <lb ed="#V" n="48"/>autem passio. ergo passio et diffinitio. non sunt omnibus modis 
-      <lb ed="#V" n="49"/>idem. 4o Quando aliqua ita se habent quod vnum est per se 
-      no<lb ed="#V" n="50" break="no"/>tum: aliud non: necessario est inter ea aliqua non idem 
-      <lb ed="#V" n="51"/>titas: sed subiectum de seipso dictum est per se notum. passio 
-      <lb ed="#V" n="52"/>autem de subiecto non. quia demonstratur. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e398">
-      ¶ Dico en 
-      <lb ed="#V" n="53"/>go quod passio non est idem omnibus modis cum subiecto. sed 
-      <lb ed="#V" n="54"/>tamen non dico quod semper distinguitur formaliter a subiecto 
-      <lb ed="#V" n="55"/>sed aliquando distinguitur solum sicut modum intrinsecus. 
-      <lb ed="#V" n="56"/>sicut finitas se habet ad angelum: nam ipsa potest 
-      demonstra<lb ed="#V" n="57" break="no"/>ri de ipso: et tamen solum est modus intrinsecus. et tamen se habet per 
-      <lb ed="#V" n="58"/>modum passionis. non tamen formaliter differentis. 
-      Ali<lb ed="#V" n="59" break="no"/>quando autem differt formaliter a subiecto. sicut quando probatur quod 
-      <lb ed="#V" n="60"/>angelus est nam intellectualis.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e418">
-      ¶ 3a conclusio est quod 
-      pas<lb ed="#V" n="61" break="no"/>sio non differt realiter a subiecto. Et hoc probo sic. Quando 
-      ali<lb ed="#V" n="62" break="no"/>qua sic se habent quod vnum distinguitur realiter ab alio. et 
-      <lb ed="#V" n="63"/>est prius eo essentialiter: illud quod est prius potest fieri si 
-      <lb ed="#V" n="64"/>ne eo quod est posterius. sed si subiectum differt realiter a 
-      pa<lb ed="#V" n="65" break="no"/>sione. et est prius essentialiter ea. ergo potest fieri sine 
-      ea<lb ed="#V" n="66" break="no"/>Maior probatur quadrupliciter. Primo sic. quando aliqua sunt 
-      <!--35.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>essentialiter ordinata et realiter distincta. prius non 
-      depen<lb ed="#V" n="68" break="no"/>det a posteriori. sed que ita se habent quod vnum non 
-      depen<lb ed="#V" n="69" break="no"/>det ab alio. vnum potest ab alio separari: ergo subiectum 
-      pote<lb ed="#V" n="70" break="no"/>rit esse sine passione.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e447">
-      ¶ Sed dices quod inseparabilitas non 
-      <lb ed="#V" n="71"/>solum prouenit ex dependentia. sed ex coexigentia. 
-      </p>
-            <p xml:id="FrMS88-e10796-d1e452">
-               <lb ed="#V" n="72"/>¶ Contra. Nihil necessario coexigitur ad esse alicuius 
-      <lb ed="#V" n="73"/>quod non facit ad esse illius: sed posterius nihil facit ad 
-      <lb ed="#V" n="74"/>esse prioris. ergo etc. 2o sic. Qualemcumque ordinem habent 
-      <lb ed="#V" n="75"/>aliqua in quiditatibus talem habent in existentiis. sed ratio 
-      <lb ed="#V" n="76"/>quiditatiua subiecti et cuiuscumque prioris prior est essentia 
-      <lb ed="#V" n="77"/>liter quam ratio quiditatiua passionis et cuiuscumque posterio 
-      <lb ed="#V" n="78"/>ris. ergo in existendo est prior. ergo potest esse sine 
-      poste<lb ed="#V" n="79" break="no"/>riori. 3o sic. In essentialiter ordinatis non potest esse 
-      circu<lb ed="#V" n="80" break="no"/>latio. si ergo prius non potest esse sine posteriori. et hoc non 
-      <lb ed="#V" n="81"/>potest esse propter dependentiam. sed propter coexigentiam. 
-      po<lb ed="#V" n="82" break="no"/>sterius autem eque coexigit prius sicut econuerso. ergo 
-      <lb ed="#V" n="83"/>circulatio erit. 4o sic. et ista ratio me conuincit. Omne agens 
-      <lb ed="#V" n="84"/>contingenter producens duo essentialiter ordinata. ita 
-      <lb ed="#V" n="85"/>quod ab aliquo non potest necessitari. si producat prius 
-      essen<lb ed="#V" n="86" break="no"/>tialiter non est necesse quod posterius producat. sed deus est 
-      <lb ed="#V" n="87"/>humoi agens. et prius producit subiectum quam passionem. et prius 
-      <lb ed="#V" n="88"/>essentialiter quam posterius. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e492">
-      ¶ Sed dices. quod licet 
-      <lb ed="#V" n="89"/>deus non necessitetur absolute: tamen aliquo supposito. bene 
-      <lb ed="#V" n="90"/>potest dici necessitari scilicet posito subiecto ad producendum passio 
-      <lb ed="#V" n="91"/>nem.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e501">
-      ¶ Contra. Nam inconueniens videtur quod subiectum productum 
-      <lb ed="#V" n="92"/>necessitet deum ad producendum passionem: cum 
-      produ<lb ed="#V" n="93" break="no"/>ctio passionis sit distincta a productione subiecti. Posita 
-      erga<lb ed="#V" n="94" break="no"/>productione substeanti: quare deus non potest subtrahere illam: 
-      </p>
-            <p xml:id="FrMS88-e10796-d1e510">
-               <lb ed="#V" n="95"/>¶ Si dicatur quod equa concludit argumentum in formaliter 
-      <lb ed="#V" n="96"/>distinctis.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e517">
-      ¶ Contra. quecumque vna productione 
-      produ<lb ed="#V" n="97" break="no"/>cuntur. vnum non potest produci sine altero. sicut est de 
-      for<lb ed="#V" n="98" break="no"/>maliter distinctis: realiter tamen eisdem. sed realiter distincta 
-      <lb ed="#V" n="99"/>diuersis productionibus producuntur siue causantur. Noem 
-      <lb ed="#V" n="100"/>idetur ergo ratio si subiectum sit realiter distinctum a passione et 
-      <lb ed="#V" n="101"/>prius essentialiter ea cum distinctis productionibus 
-      produ<lb ed="#V" n="102" break="no"/>cantur: quare non posset fieri vnum sine. alio. et quia non potest: 
-      <lb ed="#V" n="103"/>conuincitur quod sunt eadem res.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e535">
-      ¶ 4a conclusio est. quod deus non potest 
-      <lb ed="#V" n="104"/>facere subiectum sine passione demonstrabili de eo. Istam 
-      pro<lb ed="#V" n="105" break="no"/>bo quadrupliciter. Primo sic. nulla veritas per se nota potest 
-      <lb ed="#V" n="106"/>esse dubia: sed si subiectum sepetur a passione veritas per se 
-      <lb ed="#V" n="107"/>nota fieret dubia. ergo etc. Maior patet. quia illud a quo 
-      depen<lb ed="#V" n="108" break="no"/>det tota certitudo scientiae non potest habere dubitationem. 
-      Mi<lb ed="#V" n="109" break="no"/>norem probo. quia in vna praemissarum passio predicatur de diffifut 
-      <lb ed="#V" n="110"/>finitione. Constat autem quod ista praemissa est per se nota. 
-      Con<lb ed="#V" n="111" break="no"/>stat autem quod si sepetur passio a subiecto non esset per se 
-      no<lb ed="#V" n="112" break="no"/>ta illa premissa: sed esset falsa vel dubia. ergo relinquitur 
-      <lb ed="#V" n="113"/>quod passio per diuinam potentiam non potest a subiecto separari. 
-      </p>
-            <p xml:id="FrMS88-e10796-d1e559">
-               <lb ed="#V" n="114"/>¶ 2o sic. Impossibile est conclusionem demonstratiuam esse 
-      con<lb ed="#V" n="115" break="no"/>tingentem. sed si passio posset a subiecto separari conclusio de 
-      <lb ed="#V" n="116"/>monstratiua esset contingens. Patet. quia conclusio nihil aliud est 
-      <lb ed="#V" n="117"/>nisi propositione in qua passio predicatur de subiecto: ergo etc 
-      <lb ed="#V" n="118"/>quod autem conclusio demonstratiua non potest esse contingens probo. 
-      <lb ed="#V" n="119"/>quia illud quod conuenit rei existenti in potentia. sicut et in actu 
-      <lb ed="#V" n="120"/>existenti non potest esse contingens. hoc patet. sed de rebus 
-      <lb ed="#V" n="121"/>in potentia siunt demonstrationes. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e580">
-      ¶ 3o sic. Conclusio 
-      <lb ed="#V" n="122"/>nem demonstratiuam impossibile est esse falsam. sed si passio 
-      <lb ed="#V" n="123"/>sepetur a subiecto conclusio demonstrationis esset falsa. ista 
-      <lb ed="#V" n="124"/>vero est conclusio demonstrationis. homo est risibilis. sed si 
-      de<lb ed="#V" n="125" break="no"/>separaret risibilitatem: ipsa esset falsa. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e591">
-      ¶ 4o sic. quod 
-      <lb ed="#V" n="126"/>est risibilitas: non est nisi quedam mobilitas faciei. Tunc 
-      <lb ed="#V" n="127"/>arguo sic. A quocumque potest moueri mobilitas mobilis 
-      <lb ed="#V" n="128"/>ab eo potest destrui motiuitas mouentis: immo si 
-      mobili<lb ed="#V" n="129" break="no"/>tas mobilis destrueretur: statim motiuitas mouentis 
-      <lb ed="#V" n="130"/>destrueretur: quia mobile non est mobile nisi ab aliquo 
-      mo<lb ed="#V" n="131" break="no"/>tiuo: nec motiuum est motiuum: nisi respectu alicuius 
-      mo<lb ed="#V" n="132" break="no"/>bilis: si ergo deus potest auferre mobilitatem faciei: illam 
-      <!--36.xml-->
-      <pb ed="#V" n="17-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>sclicet quam dicit risibilitas. vel mobilitatem celi. non 
-      cu<lb ed="#V" n="2" break="no"/>ro de hoc: pari ratione poterit auferre quamcunque motiui 
-      <lb ed="#V" n="3"/>tatem in quocumque agente: quia si vnam solam dimittit statim 
-      il<lb ed="#V" n="4" break="no"/>la erit motiua alicuius mobilis. et aliquod mobile erit 
-      ab<lb ed="#V" n="5" break="no"/>ea modims. cum deus ergo ipse habeat virtutem motiuam respectu huius 
-      <lb ed="#V" n="6"/>mobilis: si faciat istud non esse mobile. necessario faciet seipsum 
-      <lb ed="#V" n="7"/>non esse motiuum: quod est inconueniens. faceret enim se 
-      <lb ed="#V" n="8"/>mpotentem: quia non potentem mouere faciem hominis 
-      <lb ed="#V" n="9"/>2o praencinpaliter videndum est de complexione. et 
-      <lb ed="#V" n="10"/>Nunt circa hoc prae videndus est ordo cognitionis 
-      <lb ed="#V" n="11"/>terminorum in demonstratione. Ad quod dico quod primum 
-      <lb ed="#V" n="12"/>conceptus est: conceptus quiditatiuus subiecti qui est primum 
-      <lb ed="#V" n="13"/>qui nobis aduenit et indistinctus. 2us conceptus est 
-      dif<lb ed="#V" n="14" break="no"/>finitionis. prius enim cognoscitur res indistincte quam 
-      distincte<lb ed="#V" n="15" break="no"/>quia procedimus ab imperfecto ad perfectius. 3us conceptus est 
-      <lb ed="#V" n="16"/>passionis. quia conceptus secundi modi: sunt posteriores aliis. 
-      </p>
-            <p xml:id="FrMS88-e10796-d1e650">
-               <lb ed="#V" n="17"/>¶ 2o videndum est de modo formandin demonstrationem. 
-      <lb ed="#V" n="18"/>Ad quod intelligendum primo necessario accipitur vna 
-      regu<lb ed="#V" n="19" break="no"/>la: qualis est ordo terminorum. talis est ordo complexionum 
-      <lb ed="#V" n="20"/>si ergo primus terminus est diffinitum. et 2uos est difficuiteo. et 3o 
-      <lb ed="#V" n="21"/>est passio. simpliciter prima propositione est formalis: in qua 
-      pra<lb ed="#V" n="22" break="no"/>dicatur diffinitio de diffinito. nam hec sequitur 
-      natu<lb ed="#V" n="23" break="no"/>ram terminorum. 2a autem erit in qua predicatur passio de 
-      <lb ed="#V" n="24"/>diffinitione. vt dicatur sic. Omnis homo est animal rationale. omne 
-      <lb ed="#V" n="25"/>animal rationale est risibile. ergo omnis homo est risibilis. Iste 
-      or<lb ed="#V" n="26" break="no"/>do est congruus: quia praedicatio de primo modo precedit praedicatio. 
-      <lb ed="#V" n="27"/>nem de secundo modo.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e676">
-      ¶ Sed tunc hic est vnum dubium. quia sic 
-      <lb ed="#V" n="28"/>ordinando potissima demonstratio non erit in prima 
-      fi<lb ed="#V" n="29" break="no"/>gura: nec in secunda: nec in 3a. In qua ergo: Aliqui volunt 
-      <lb ed="#V" n="30"/>dicere quod in 4a de hoc non curo. semper enim secundum istum 
-      ordi<lb ed="#V" n="31" break="no"/>nem videtur quod debeant sumi propositiones. et ita forte 
-      logi<lb ed="#V" n="32" break="no"/>ca non tradens istum ordinem errauit.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e689">
-      ¶ Sed tunc 
-      occur<lb ed="#V" n="33" break="no"/>runt duo difficilia. primum quod medium virtute cuius sit 
-      to<lb ed="#V" n="34" break="no"/>tum non ponetur in principio. Ad quod dico quod magis 
-      mo<lb ed="#V" n="35" break="no"/>uet ad oppositum. nam medium est causa connexionis: illud autem 
-      <lb ed="#V" n="36"/>quod est causa connexionis rationabilius collocatur in medio 
-      quani<lb ed="#V" n="37" break="no"/>principio. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e702">
-      ¶ 2m difficile est. quia videtur quod 
-      mi<lb ed="#V" n="38" break="no"/>nor extremitas praedicabitur de maiori conclusione: et sic 
-      <lb ed="#V" n="39"/>erit conclusio indirecta.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e710">
-      ¶ Ad quod ego dico quod naturaliter 
-      lo<lb ed="#V" n="40" break="no"/>quendo forte posset dici quod conclusio quam dicit 
-      indire<lb ed="#V" n="41" break="no"/>ctam est directa.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e717">
-      ¶ Nunc videndum est de vltimo. Utrum 
-      <lb ed="#V" n="42"/>ilicet deum esse sit demonstrabile propter quid. Ad quod dico 
-      <lb ed="#V" n="43"/>quod non. quia in demonstratione propter quid diffinitio substacti diciteur 
-      <lb ed="#V" n="44"/>esse medium: sed deus non est diffinibilis. quia simpliciter 
-      sim<lb ed="#V" n="45" break="no"/>plex.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e728">
-      ¶ Sed contra arguitur dupliciter. primo quia in 
-      dignissima<lb ed="#V" n="46" break="no"/>scientia debent esse nobilissime demonstrationes: sed 
-      theo<lb ed="#V" n="47" break="no"/>logia est nobilissima scientia: et demonstratio propter quid 
-      <lb ed="#V" n="48"/>est nobilissima demonstratio. 2o quia in prima scientiascilicet metaphysi 
-      <lb ed="#V" n="49"/>ca est demonstratio propter quid et potissima. sed subiectum 
-      <lb ed="#V" n="50"/>prime scientie scilicet ens. est ita simpliciter simplex. sicut deus est 
-      <lb ed="#V" n="51"/>simpliciter simplex. ergo etc. Non valet ergo illa ratio de 
-      <lb ed="#V" n="52"/>simplicitate dei.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e746">
-      ¶ Ad ista dico. Ad primum quod 
-      demon<lb ed="#V" n="53" break="no"/>stratio propter quid non est in theologia. Dico tamen quod 
-      theo<lb ed="#V" n="54" break="no"/>logia est nobilissima scientia: quia veritates non sunt note 
-      <lb ed="#V" n="55"/>per discursum: sed per se sunt note: et istud prouenit ex 
-      digni<lb ed="#V" n="56" break="no"/>tate scientie. quia passio est per se nota de subiecto.
-    </p>
-            <p xml:id="FrMS88-e10796-d1e757">
-      ¶ Ad  
-      <lb ed="#V" n="57"/>2m dico: quod proprie passiones entis sunt per se note de 
-      <lb ed="#V" n="58"/>inte: nec possunt demonstrari de ente: loquendo de ente et 
-      <lb ed="#V" n="59"/>de ratione precisa eius: licet possent demonstrari de eo quod 
-      <lb ed="#V" n="60"/>est ens denominatiue. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="16-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e10796"><!-- l1d2q2 -->
+        <head xml:id="FrMS88-e10796-Hd1e108">Quaestio 2</head>
+        <p xml:id="FrMS88-e10796-d1e111">
+          ¶ Quaestio. ii. 
+          <lb ed="#V" n="78"/>Utrum deum esse sit 
+          demon<lb ed="#V" n="79" break="no"/>Ueritur. strabile propter quid. quod sic 
+          pro<lb ed="#V" n="80" break="no"/>batur per diffinitionem dei quam dat Ans. po 
+          <lb ed="#V" n="81"/>ltest deum esse demonstrari. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e122">
+          ¶ Con 
+          <lb ed="#V" n="82"/>ltra. Dyo. dicit. quod de deo nec e ratio. nec 
+          imma<lb ed="#V" n="83" break="no"/>ginatio.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e129">
+          ¶ Circa istam quaestionem primo declarabo 
+          ter<lb ed="#V" n="84" break="no"/>minos. 2o quid sit demonstratio propter quid. 
+          <lb ed="#V" n="85"/>de terminis. Ad quod intelligendum 
+          <lb ed="#V" n="86"/>Et primo sciendum est quod tres termini ponuntur 
+          <lb ed="#V" n="87"/>in demonstratione scilicet subiectum diffinitio et passio.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e140">
+          ¶ Ex his 
+          el<lb ed="#V" n="88" break="no"/>cio quattuor conclusiones. Prima conclusio quod diffinitio non differt 
+          <lb ed="#V" n="89"/>formaliter a diffinito. hec conclusio primo probatur sic. quandocum. 
+          <lb ed="#V" n="90"/>que aliqua sic se habent quod vnum dicitur de alio in primo modo 
+          dicen<lb ed="#V" n="91" break="no"/>di per se: ista non differunt formaliter maxime si 
+          adequa<lb ed="#V" n="92" break="no"/>te dicantur. sed diffinitio dicitur de diffinito in priori modo 
+          di<lb ed="#V" n="93" break="no"/>cendi per se et adequate.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e157">
+          ¶ Contra istam conclusionem instatu 
+          <lb ed="#V" n="94"/>quadrupliciter. Primo sic. posita tota quiditate alicuius 
+          cir<lb ed="#V" n="95" break="no"/>cumscripto quocumque alio quod non est de quiditate illius. 
+          <lb ed="#V" n="96"/>ponitur necessario quiditas eius tota: sed posito 
+          gene<lb ed="#V" n="97" break="no"/>re et differentia quocumque alio circumscripto non ponitur 
+          quidi<lb ed="#V" n="98" break="no"/>tas eius tota. ergo dicit aliam rationem formalem quam genus et 
+          <lb ed="#V" n="99"/>differentia similis sumpta: sicut compositum dicit realiter aliud a materia 
+          <lb ed="#V" n="100"/>et forma. Minor probatur. quia posito per impossibile quod 
+          co<lb ed="#V" n="101" break="no"/>lor sepetur a differentia constituente albedinem. si albedo nihil 
+          <lb ed="#V" n="102"/>aliud esset quam color: et talis differentia. tunc istis positis 
+          quan<lb ed="#V" n="103" break="no"/>tumcumque separatis maneret albedo: quod est falsum. Secundo 
+          <lb ed="#V" n="104"/>sic. et euidenter ponendo plures formas. accipio enim 
+          cor<lb ed="#V" n="105" break="no"/>pus animatum. animatum est separabile a corporeo. ponatur 
+          <lb ed="#V" n="106"/>separatio. et tunc remanebit tota quiditas corporis animati. 
+          <lb ed="#V" n="107"/>et tamen non remanebit ipsum corpus animatum. et sic 
+          rema<lb ed="#V" n="108" break="no"/>nebit corpus quod est genus. et animatum quod est differentia. et 
+          <lb ed="#V" n="109"/>tamen non manet diffinitum quod est corpus aiatum. 3o sic. 
+        </p>
+        <p xml:id="FrMS88-e10796-d1e194">
+          <lb ed="#V" n="110"/>¶ Sensibile distinguitur a rationali. separentur: ergo 
+          rema<lb ed="#V" n="111" break="no"/>nebit genus et differentia. et tamen non manebit quiditas speciei. 
+          <lb ed="#V" n="112"/>4o quia explicatiuum et explicabile differunt formaliter: 
+          <lb ed="#V" n="113"/>diffinitio est explicatiuum.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e205">
+          ¶ Ad ista omnia posset dici quod 
+          <lb ed="#V" n="114"/>remanent vnita. ideo non remanet quiditas.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e210">
+          ¶ Contra. aut 
+          <lb ed="#V" n="115"/>ista vnione facta aliquid aliud ab vnione et vnitis 
+          con<lb ed="#V" n="116" break="no"/>sequitur partinens ad speciem. aut ipsa precisa vnio partinet. 
+          <lb ed="#V" n="117"/>aut nihil plus quam ante. Si primum tunc habetur propositum. cum 
+          <lb ed="#V" n="118"/>diffintio non exprimat nisi partes diffiniti. diffinitum autem 
+          ad<lb ed="#V" n="119" break="no"/>det illud aliud ad diffinitionem. Si secundum illud est falsum 
+          <lb ed="#V" n="120"/>quia vnio est respectus: ergo non pertinet ad quiditatem. O 
+          <lb ed="#V" n="121"/>etiam hoc dato habetur propositum. quia illa non exprimitur per 
+          di<lb ed="#V" n="122" break="no"/>finitionem. Si des tertium tunc erit arguendum de 
+          par<lb ed="#V" n="123" break="no"/>tibus separatis: sicut de vnitis. et ita si partes separate non 
+          <lb ed="#V" n="124"/>sunt ipsum diffinitum. sequitur etiam quod nec partes 
+          vni<lb ed="#V" n="125" break="no"/>te.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e236">
+          ¶ Secundo instatur per primum principium complexum. 
+          <lb ed="#V" n="126"/>et hoc sic. species enim componitur ex genere et differentia. Ex hoc 
+          an<lb ed="#V" n="127" break="no"/>guo sic. De eodem omnino impossibile est verificari contradictoria 
+          <lb ed="#V" n="128"/>saltem de eadem ratione formali. sed si species sit omnino idem 
+          <lb ed="#V" n="129"/>cum genere et differentia simul sumptis: de eodem omnibus 
+          mo<lb ed="#V" n="130" break="no"/>dis dicerentur contradictoria: quia genus et differentia simul 
+          sum<lb ed="#V" n="131" break="no"/>pta constituunt speciem: species autem non constituit specie: quia idem 
+          <lb ed="#V" n="132"/>non constituit seipsum. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e254">
+          ¶ Tertio sic. Impossibile est quod 
+          <!--35.xml-->
+          <pb ed="#V" n="16-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>vnitas formalis fundetur in duobus formaliter 
+          distin<lb ed="#V" n="2" break="no"/>ctis. vnitas autem specifica est formalis: genus et differentia 
+          for<lb ed="#V" n="3" break="no"/>maliter distinguuntur. ergo non fundatur in ipsis. ergo oportet 
+          da<lb ed="#V" n="4" break="no"/>re tertium indistinctum formaliter in seipso: quod erit 
+          funda<lb ed="#V" n="5" break="no"/>mentum istius vnitatis. Et illud addit diffinitum super diffinitionem 
+          <lb ed="#V" n="6"/>ergo etc.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e277">
+          ¶ Sed dicens quod sunt vnum realiter.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e280">
+          ¶ Contra. 
+          il<lb ed="#V" n="7" break="no"/>lud non valet. quia sicut vnitas realis requirit vnum reale: 
+          <lb ed="#V" n="8"/>quod sit fundamentum illius. ita videtur quod vnitas formalis non 
+          <lb ed="#V" n="9"/>potest haberi nisi vbi est vna simplex formalitas. Et sicut 
+          <lb ed="#V" n="10"/>vnitas realis non potest fundari in diuersis rebus. ita 
+          nes<lb ed="#V" n="11" break="no"/>vnitas formalis in distinctis formalitatibus. vt sic. 
+        </p>
+        <p xml:id="FrMS88-e10796-d1e293">
+          <lb ed="#V" n="12"/>¶ Quarto arguo sic. Idem simils et selitus non potest esse cognitum 
+          <lb ed="#V" n="13"/>et non cognitum: sed diffinitum cognoscitur sine diffinitione: 
+          <lb ed="#V" n="14"/>per diffinitionem enim distincte cognoscitur res. per 
+          diffini<lb ed="#V" n="15" break="no"/>tum autem indistincte. constat autem quod res potest cognosci 
+          indi<lb ed="#V" n="16" break="no"/>stincte absque hoc quod cognoscatur distincte.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e306">
+          ¶ Si dicatur 
+          <lb ed="#V" n="17"/>quod non est inconueniens eandem rem cognosci duobus 
+          mo<lb ed="#V" n="18" break="no"/>dis.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e313">
+          ¶ Contra. qui cognoscit indistincte non cognoscit per 
+          <lb ed="#V" n="19"/>tes essentiales: sed qui cognoscit distincte cognoscit 
+          par<lb ed="#V" n="20" break="no"/>tes essentiales. ergo aliquid cognoscitur cognitione 
+          di<lb ed="#V" n="21" break="no"/>stincta: quod non cognoscitur cognitione indistincta. 
+        </p>
+        <p xml:id="FrMS88-e10796-d1e322">
+          <lb ed="#V" n="22"/>¶ Sed dices concedo maiorem quod indistincte cognoscens 
+          <lb ed="#V" n="23"/>non cognoscit partes distincte: sed tamen bene indistincte 
+          co<lb ed="#V" n="24" break="no"/>gnoscit.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e332">
+          ¶ Contra: innueniam aliquod compositum ex partibus 
+          <lb ed="#V" n="25"/>simpliciter simplicibus. illud potest cognosci distincte et 
+          in<lb ed="#V" n="26" break="no"/>distincte. quero si cognitione indistincta aliqualiter co 
+          <lb ed="#V" n="27"/>gnosco partes vel non. si non: habeo propositum. si sic et 
+          di<lb ed="#V" n="28" break="no"/>stincte: eodem modo habeo propositum. Si indistincte. 
+          Con<lb ed="#V" n="29" break="no"/>tra. quia simpliciter simplex vel distincte cognoscitur vel nullo 
+          <lb ed="#V" n="30"/>modo cognoscitur. Partes autem ille sunt simpliciter 
+          simpli<lb ed="#V" n="31" break="no"/>ces per suppositum. ergo distincte cognoscuntur. vel 
+          nul<lb ed="#V" n="32" break="no"/>lo modo. Utur ergo dicendum quod sicut compositum naturale 
+          <lb ed="#V" n="33"/>addit ad partes simul sumptas. ita etiam compositum metaphi 
+          <lb ed="#V" n="34"/>sicum. sicut diffinitum vel species addit supra genus et 
+          dis<lb ed="#V" n="35" break="no"/>ferentiam simul sumpta. Et si dicas ergo distinguuntur 
+          for<lb ed="#V" n="36" break="no"/>maliter. dico quod non distinguuntur formaliter. quia ista. sed 
+          <lb ed="#V" n="37"/>pecies includit illa. scilicet genus et differentiam: sicut entitas 
+          con<lb ed="#V" n="38" break="no"/>positi includit partes ideo non distinguuntur.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e365">
+          ¶ 2a conclusio est. 
+          <lb ed="#V" n="39"/>quod passio differt formaliter a subiecto. Nam omne quod dicitur de 
+          ali<lb ed="#V" n="40" break="no"/>quo in secundo modo dicendi per se differt ab eo: saltem 
+          forma<lb ed="#V" n="41" break="no"/>liter: sed passio dicitur de subiecto in secundo modo: ergo etc. Ma. 
+          <lb ed="#V" n="42"/>probatur. quia quando aliqua sunt omnibus modis idem: quicquid 
+          <lb ed="#V" n="43"/>dicitur in primo modo dicendi per se de vno: et de alio. sed difficultas 
+          <lb ed="#V" n="44"/>subiecti dicitur de subiecto in primo modo dicendi per se. ergo et de 
+          ip<lb ed="#V" n="45" break="no"/>sa passione. quod est falsum. 2o arguitur sic. Nullum posteri 
+          <lb ed="#V" n="46"/>potest esse omnibus modis idem cum priori. sed passio est 
+          poste<lb ed="#V" n="47" break="no"/>rior subiecto. ergo etc. 3o diffinitio est per se nota de subiecto. non 
+          <lb ed="#V" n="48"/>autem passio. ergo passio et diffinitio. non sunt omnibus modis 
+          <lb ed="#V" n="49"/>idem. 4o Quando aliqua ita se habent quod vnum est per se 
+          no<lb ed="#V" n="50" break="no"/>tum: aliud non: necessario est inter ea aliqua non idem 
+          <lb ed="#V" n="51"/>titas: sed subiectum de seipso dictum est per se notum. passio 
+          <lb ed="#V" n="52"/>autem de subiecto non. quia demonstratur. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e398">
+          ¶ Dico en 
+          <lb ed="#V" n="53"/>go quod passio non est idem omnibus modis cum subiecto. sed 
+          <lb ed="#V" n="54"/>tamen non dico quod semper distinguitur formaliter a subiecto 
+          <lb ed="#V" n="55"/>sed aliquando distinguitur solum sicut modum intrinsecus. 
+          <lb ed="#V" n="56"/>sicut finitas se habet ad angelum: nam ipsa potest 
+          demonstra<lb ed="#V" n="57" break="no"/>ri de ipso: et tamen solum est modus intrinsecus. et tamen se habet per 
+          <lb ed="#V" n="58"/>modum passionis. non tamen formaliter differentis. 
+          Ali<lb ed="#V" n="59" break="no"/>quando autem differt formaliter a subiecto. sicut quando probatur quod 
+          <lb ed="#V" n="60"/>angelus est nam intellectualis.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e418">
+          ¶ 3a conclusio est quod 
+          pas<lb ed="#V" n="61" break="no"/>sio non differt realiter a subiecto. Et hoc probo sic. Quando 
+          ali<lb ed="#V" n="62" break="no"/>qua sic se habent quod vnum distinguitur realiter ab alio. et 
+          <lb ed="#V" n="63"/>est prius eo essentialiter: illud quod est prius potest fieri si 
+          <lb ed="#V" n="64"/>ne eo quod est posterius. sed si subiectum differt realiter a 
+          pa<lb ed="#V" n="65" break="no"/>sione. et est prius essentialiter ea. ergo potest fieri sine 
+          ea<lb ed="#V" n="66" break="no"/>Maior probatur quadrupliciter. Primo sic. quando aliqua sunt 
+          <!--35.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>essentialiter ordinata et realiter distincta. prius non 
+          depen<lb ed="#V" n="68" break="no"/>det a posteriori. sed que ita se habent quod vnum non 
+          depen<lb ed="#V" n="69" break="no"/>det ab alio. vnum potest ab alio separari: ergo subiectum 
+          pote<lb ed="#V" n="70" break="no"/>rit esse sine passione.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e447">
+          ¶ Sed dices quod inseparabilitas non 
+          <lb ed="#V" n="71"/>solum prouenit ex dependentia. sed ex coexigentia. 
+        </p>
+        <p xml:id="FrMS88-e10796-d1e452">
+          <lb ed="#V" n="72"/>¶ Contra. Nihil necessario coexigitur ad esse alicuius 
+          <lb ed="#V" n="73"/>quod non facit ad esse illius: sed posterius nihil facit ad 
+          <lb ed="#V" n="74"/>esse prioris. ergo etc. 2o sic. Qualemcumque ordinem habent 
+          <lb ed="#V" n="75"/>aliqua in quiditatibus talem habent in existentiis. sed ratio 
+          <lb ed="#V" n="76"/>quiditatiua subiecti et cuiuscumque prioris prior est essentia 
+          <lb ed="#V" n="77"/>liter quam ratio quiditatiua passionis et cuiuscumque posterio 
+          <lb ed="#V" n="78"/>ris. ergo in existendo est prior. ergo potest esse sine 
+          poste<lb ed="#V" n="79" break="no"/>riori. 3o sic. In essentialiter ordinatis non potest esse 
+          circu<lb ed="#V" n="80" break="no"/>latio. si ergo prius non potest esse sine posteriori. et hoc non 
+          <lb ed="#V" n="81"/>potest esse propter dependentiam. sed propter coexigentiam. 
+          po<lb ed="#V" n="82" break="no"/>sterius autem eque coexigit prius sicut econuerso. ergo 
+          <lb ed="#V" n="83"/>circulatio erit. 4o sic. et ista ratio me conuincit. Omne agens 
+          <lb ed="#V" n="84"/>contingenter producens duo essentialiter ordinata. ita 
+          <lb ed="#V" n="85"/>quod ab aliquo non potest necessitari. si producat prius 
+          essen<lb ed="#V" n="86" break="no"/>tialiter non est necesse quod posterius producat. sed deus est 
+          <lb ed="#V" n="87"/>humoi agens. et prius producit subiectum quam passionem. et prius 
+          <lb ed="#V" n="88"/>essentialiter quam posterius. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e492">
+          ¶ Sed dices. quod licet 
+          <lb ed="#V" n="89"/>deus non necessitetur absolute: tamen aliquo supposito. bene 
+          <lb ed="#V" n="90"/>potest dici necessitari scilicet posito subiecto ad producendum passio 
+          <lb ed="#V" n="91"/>nem.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e501">
+          ¶ Contra. Nam inconueniens videtur quod subiectum productum 
+          <lb ed="#V" n="92"/>necessitet deum ad producendum passionem: cum 
+          produ<lb ed="#V" n="93" break="no"/>ctio passionis sit distincta a productione subiecti. Posita 
+          erga<lb ed="#V" n="94" break="no"/>productione substeanti: quare deus non potest subtrahere illam: 
+        </p>
+        <p xml:id="FrMS88-e10796-d1e510">
+          <lb ed="#V" n="95"/>¶ Si dicatur quod equa concludit argumentum in formaliter 
+          <lb ed="#V" n="96"/>distinctis.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e517">
+          ¶ Contra. quecumque vna productione 
+          produ<lb ed="#V" n="97" break="no"/>cuntur. vnum non potest produci sine altero. sicut est de 
+          for<lb ed="#V" n="98" break="no"/>maliter distinctis: realiter tamen eisdem. sed realiter distincta 
+          <lb ed="#V" n="99"/>diuersis productionibus producuntur siue causantur. Noem 
+          <lb ed="#V" n="100"/>idetur ergo ratio si subiectum sit realiter distinctum a passione et 
+          <lb ed="#V" n="101"/>prius essentialiter ea cum distinctis productionibus 
+          produ<lb ed="#V" n="102" break="no"/>cantur: quare non posset fieri vnum sine. alio. et quia non potest: 
+          <lb ed="#V" n="103"/>conuincitur quod sunt eadem res.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e535">
+          ¶ 4a conclusio est. quod deus non potest 
+          <lb ed="#V" n="104"/>facere subiectum sine passione demonstrabili de eo. Istam 
+          pro<lb ed="#V" n="105" break="no"/>bo quadrupliciter. Primo sic. nulla veritas per se nota potest 
+          <lb ed="#V" n="106"/>esse dubia: sed si subiectum sepetur a passione veritas per se 
+          <lb ed="#V" n="107"/>nota fieret dubia. ergo etc. Maior patet. quia illud a quo 
+          depen<lb ed="#V" n="108" break="no"/>det tota certitudo scientiae non potest habere dubitationem. 
+          Mi<lb ed="#V" n="109" break="no"/>norem probo. quia in vna praemissarum passio predicatur de diffifut 
+          <lb ed="#V" n="110"/>finitione. Constat autem quod ista praemissa est per se nota. 
+          Con<lb ed="#V" n="111" break="no"/>stat autem quod si sepetur passio a subiecto non esset per se 
+          no<lb ed="#V" n="112" break="no"/>ta illa premissa: sed esset falsa vel dubia. ergo relinquitur 
+          <lb ed="#V" n="113"/>quod passio per diuinam potentiam non potest a subiecto separari. 
+        </p>
+        <p xml:id="FrMS88-e10796-d1e559">
+          <lb ed="#V" n="114"/>¶ 2o sic. Impossibile est conclusionem demonstratiuam esse 
+          con<lb ed="#V" n="115" break="no"/>tingentem. sed si passio posset a subiecto separari conclusio de 
+          <lb ed="#V" n="116"/>monstratiua esset contingens. Patet. quia conclusio nihil aliud est 
+          <lb ed="#V" n="117"/>nisi propositione in qua passio predicatur de subiecto: ergo etc 
+          <lb ed="#V" n="118"/>quod autem conclusio demonstratiua non potest esse contingens probo. 
+          <lb ed="#V" n="119"/>quia illud quod conuenit rei existenti in potentia. sicut et in actu 
+          <lb ed="#V" n="120"/>existenti non potest esse contingens. hoc patet. sed de rebus 
+          <lb ed="#V" n="121"/>in potentia siunt demonstrationes. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e580">
+          ¶ 3o sic. Conclusio 
+          <lb ed="#V" n="122"/>nem demonstratiuam impossibile est esse falsam. sed si passio 
+          <lb ed="#V" n="123"/>sepetur a subiecto conclusio demonstrationis esset falsa. ista 
+          <lb ed="#V" n="124"/>vero est conclusio demonstrationis. homo est risibilis. sed si 
+          de<lb ed="#V" n="125" break="no"/>separaret risibilitatem: ipsa esset falsa. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e591">
+          ¶ 4o sic. quod 
+          <lb ed="#V" n="126"/>est risibilitas: non est nisi quedam mobilitas faciei. Tunc 
+          <lb ed="#V" n="127"/>arguo sic. A quocumque potest moueri mobilitas mobilis 
+          <lb ed="#V" n="128"/>ab eo potest destrui motiuitas mouentis: immo si 
+          mobili<lb ed="#V" n="129" break="no"/>tas mobilis destrueretur: statim motiuitas mouentis 
+          <lb ed="#V" n="130"/>destrueretur: quia mobile non est mobile nisi ab aliquo 
+          mo<lb ed="#V" n="131" break="no"/>tiuo: nec motiuum est motiuum: nisi respectu alicuius 
+          mo<lb ed="#V" n="132" break="no"/>bilis: si ergo deus potest auferre mobilitatem faciei: illam 
+          <!--36.xml-->
+          <pb ed="#V" n="17-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>sclicet quam dicit risibilitas. vel mobilitatem celi. non 
+          cu<lb ed="#V" n="2" break="no"/>ro de hoc: pari ratione poterit auferre quamcunque motiui 
+          <lb ed="#V" n="3"/>tatem in quocumque agente: quia si vnam solam dimittit statim 
+          il<lb ed="#V" n="4" break="no"/>la erit motiua alicuius mobilis. et aliquod mobile erit 
+          ab<lb ed="#V" n="5" break="no"/>ea modims. cum deus ergo ipse habeat virtutem motiuam respectu huius 
+          <lb ed="#V" n="6"/>mobilis: si faciat istud non esse mobile. necessario faciet seipsum 
+          <lb ed="#V" n="7"/>non esse motiuum: quod est inconueniens. faceret enim se 
+          <lb ed="#V" n="8"/>mpotentem: quia non potentem mouere faciem hominis 
+          <lb ed="#V" n="9"/>2o praencinpaliter videndum est de complexione. et 
+          <lb ed="#V" n="10"/>Nunt circa hoc prae videndus est ordo cognitionis 
+          <lb ed="#V" n="11"/>terminorum in demonstratione. Ad quod dico quod primum 
+          <lb ed="#V" n="12"/>conceptus est: conceptus quiditatiuus subiecti qui est primum 
+          <lb ed="#V" n="13"/>qui nobis aduenit et indistinctus. 2us conceptus est 
+          dif<lb ed="#V" n="14" break="no"/>finitionis. prius enim cognoscitur res indistincte quam 
+          distincte<lb ed="#V" n="15" break="no"/>quia procedimus ab imperfecto ad perfectius. 3us conceptus est 
+          <lb ed="#V" n="16"/>passionis. quia conceptus secundi modi: sunt posteriores aliis. 
+        </p>
+        <p xml:id="FrMS88-e10796-d1e650">
+          <lb ed="#V" n="17"/>¶ 2o videndum est de modo formandin demonstrationem. 
+          <lb ed="#V" n="18"/>Ad quod intelligendum primo necessario accipitur vna 
+          regu<lb ed="#V" n="19" break="no"/>la: qualis est ordo terminorum. talis est ordo complexionum 
+          <lb ed="#V" n="20"/>si ergo primus terminus est diffinitum. et 2uos est difficuiteo. et 3o 
+          <lb ed="#V" n="21"/>est passio. simpliciter prima propositione est formalis: in qua 
+          pra<lb ed="#V" n="22" break="no"/>dicatur diffinitio de diffinito. nam hec sequitur 
+          natu<lb ed="#V" n="23" break="no"/>ram terminorum. 2a autem erit in qua predicatur passio de 
+          <lb ed="#V" n="24"/>diffinitione. vt dicatur sic. Omnis homo est animal rationale. omne 
+          <lb ed="#V" n="25"/>animal rationale est risibile. ergo omnis homo est risibilis. Iste 
+          or<lb ed="#V" n="26" break="no"/>do est congruus: quia praedicatio de primo modo precedit praedicatio. 
+          <lb ed="#V" n="27"/>nem de secundo modo.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e676">
+          ¶ Sed tunc hic est vnum dubium. quia sic 
+          <lb ed="#V" n="28"/>ordinando potissima demonstratio non erit in prima 
+          fi<lb ed="#V" n="29" break="no"/>gura: nec in secunda: nec in 3a. In qua ergo: Aliqui volunt 
+          <lb ed="#V" n="30"/>dicere quod in 4a de hoc non curo. semper enim secundum istum 
+          ordi<lb ed="#V" n="31" break="no"/>nem videtur quod debeant sumi propositiones. et ita forte 
+          logi<lb ed="#V" n="32" break="no"/>ca non tradens istum ordinem errauit.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e689">
+          ¶ Sed tunc 
+          occur<lb ed="#V" n="33" break="no"/>runt duo difficilia. primum quod medium virtute cuius sit 
+          to<lb ed="#V" n="34" break="no"/>tum non ponetur in principio. Ad quod dico quod magis 
+          mo<lb ed="#V" n="35" break="no"/>uet ad oppositum. nam medium est causa connexionis: illud autem 
+          <lb ed="#V" n="36"/>quod est causa connexionis rationabilius collocatur in medio 
+          quani<lb ed="#V" n="37" break="no"/>principio. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e702">
+          ¶ 2m difficile est. quia videtur quod 
+          mi<lb ed="#V" n="38" break="no"/>nor extremitas praedicabitur de maiori conclusione: et sic 
+          <lb ed="#V" n="39"/>erit conclusio indirecta.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e710">
+          ¶ Ad quod ego dico quod naturaliter 
+          lo<lb ed="#V" n="40" break="no"/>quendo forte posset dici quod conclusio quam dicit 
+          indire<lb ed="#V" n="41" break="no"/>ctam est directa.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e717">
+          ¶ Nunc videndum est de vltimo. Utrum 
+          <lb ed="#V" n="42"/>ilicet deum esse sit demonstrabile propter quid. Ad quod dico 
+          <lb ed="#V" n="43"/>quod non. quia in demonstratione propter quid diffinitio substacti diciteur 
+          <lb ed="#V" n="44"/>esse medium: sed deus non est diffinibilis. quia simpliciter 
+          sim<lb ed="#V" n="45" break="no"/>plex.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e728">
+          ¶ Sed contra arguitur dupliciter. primo quia in 
+          dignissima<lb ed="#V" n="46" break="no"/>scientia debent esse nobilissime demonstrationes: sed 
+          theo<lb ed="#V" n="47" break="no"/>logia est nobilissima scientia: et demonstratio propter quid 
+          <lb ed="#V" n="48"/>est nobilissima demonstratio. 2o quia in prima scientiascilicet metaphysi 
+          <lb ed="#V" n="49"/>ca est demonstratio propter quid et potissima. sed subiectum 
+          <lb ed="#V" n="50"/>prime scientie scilicet ens. est ita simpliciter simplex. sicut deus est 
+          <lb ed="#V" n="51"/>simpliciter simplex. ergo etc. Non valet ergo illa ratio de 
+          <lb ed="#V" n="52"/>simplicitate dei.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e746">
+          ¶ Ad ista dico. Ad primum quod 
+          demon<lb ed="#V" n="53" break="no"/>stratio propter quid non est in theologia. Dico tamen quod 
+          theo<lb ed="#V" n="54" break="no"/>logia est nobilissima scientia: quia veritates non sunt note 
+          <lb ed="#V" n="55"/>per discursum: sed per se sunt note: et istud prouenit ex 
+          digni<lb ed="#V" n="56" break="no"/>tate scientie. quia passio est per se nota de subiecto.
+        </p>
+        <p xml:id="FrMS88-e10796-d1e757">
+          ¶ Ad  
+          <lb ed="#V" n="57"/>2m dico: quod proprie passiones entis sunt per se note de 
+          <lb ed="#V" n="58"/>inte: nec possunt demonstrari de ente: loquendo de ente et 
+          <lb ed="#V" n="59"/>de ratione precisa eius: licet possent demonstrari de eo quod 
+          <lb ed="#V" n="60"/>est ens denominatiue. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

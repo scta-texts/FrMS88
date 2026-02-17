@@ -1,237 +1,237 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 21</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 21</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="11-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-de7507"><!-- l1prolq21 -->
-            <head xml:id="FrMS88-de7507-Hd1e108">Quaestio 21</head>
-            <p xml:id="FrMS88-de7507-d1e111">
-      Quaestio xxi. 
-      <lb ed="#V" n="114"/>QUeritur vtrum theologia sit supnatura 
-      <lb ed="#V" n="115" break="no"/>litur reuelata. quod non probatur 
-      <lb ed="#V" n="116"/>per rationes philosophycas. Primo sic. Potentia habens 
-      <lb ed="#V" n="117"/>aliquod obiectum adequatum potest in omne illud quod 
-      contin<lb ed="#V" n="118" break="no"/>S netur sub ipso: sed ens est obiectum adequatum 
-      po<lb ed="#V" n="119" break="no"/>intellectiue. ergo.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e127">
-      ¶ 2o sic. Sensus non indiget aliquo reuelante. 
-      <lb ed="#V" n="120"/>ergo nec intellectus.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e132">
-      ¶ 3o sic. quia si respectu alicuius obiecti 
-      fie<lb ed="#V" n="121" break="no"/>ret potentia nostra intellectiua proportio nata. hoc esset per aliquod 
-      <lb ed="#V" n="122"/>supenaturale: et tunc esset quaestio eade que prius.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e139">
-      ¶ 4o sic. intellectus ntin 
-      <lb ed="#V" n="123"/>est in potentia passiua naturali ad illam cognitionem. ergo erit actiuum 
-      <lb ed="#V" n="124"/>naturale vel potentia naturalis erit frustra.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e147">
-      ¶ 3o sic. posito 
-      acti<lb ed="#V" n="125" break="no"/>uo et passiuo sufficienti: potest sequi actio. Sed intellectus agens 
-      <lb ed="#V" n="126"/>et possibilis sunt huiusmodi.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e154">
-      ¶ 2o sic. Quarum propositionum 
-      term<lb ed="#V" n="127" break="no"/>ni comprehenduntur per naturam: ipse possunt cognosci per naturam. quia 
-      <lb ed="#V" n="128"/>si sint immediate habetur propositum: si mediate cognoscens 
-      ex<lb ed="#V" n="129" break="no"/>trema potest cognosce medium. Counstat autem quod 
-      termi<lb ed="#V" n="130" break="no"/>ni theologie appraehenduntur.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e165">
-      ¶ 3o quicumque intellectus potest 
-      co<lb ed="#V" n="131" break="no"/>gnosceme subalternantem: et subalternatam: sed naturaliter 
-      possi<lb ed="#V" n="132" break="no"/>mus cognosceme metaphysicam que est subalternas. ergi¬ 
-      <!--26.xml-->
-      <pb ed="#V" n="12-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>theologiam que est subalternata.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e181">
-      ¶ 8o sic. quicunque 
-      intelle<lb ed="#V" n="2" break="no"/>ctus potest cognoscere principium: potest cognoscere omnia elici 
-      <lb ed="#V" n="3"/>bilia ex eo: sed intellectus noster potest habere cognitionem naturalem primum 
-      <lb ed="#V" n="4"/>pincipii. ergo etc. Maior patet. quia prius principius continet virtualiter omnia 
-      co<lb ed="#V" n="5" break="no"/>gnoscibilia.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e192">
-      ¶ Ad ista.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e195">
-      ¶ Ad primum dicunt qui tenent equo 
-      <lb ed="#V" n="6"/>cationem entis quod ratio primi obiecti adequati non est vna 
-      ra<lb ed="#V" n="7" break="no"/>tio: et sic euadant difficultas.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e203">
-      ¶ Sed maior difficultas restat. 
-      <lb ed="#V" n="8"/>quia tunc nihil potest cognosci de deo quod est inconueniens. 
-      </p>
-            <p xml:id="FrMS88-de7507-d1e208">
-               <lb ed="#V" n="9"/>¶ Dico quod licet negetur ab aliquibus minor: concessa tamen 
-      maio<lb ed="#V" n="10" break="no"/>ri scilicet quod potest in omne illud quod cotinetur sub eo. concedo illo modo 
-      <lb ed="#V" n="11"/>dictusionem quod potest in omne contentum sub ente inquantum habet rationem enti: 
-      <lb ed="#V" n="12"/>ideo dico quod omnia possumus cognoscere inquantum entia 
-      </p>
-            <p xml:id="FrMS88-de7507-d1e219">
-               <lb ed="#V" n="13"/>¶ Si dices. quod potest in aliquam rationem: potest in omne illud quod 
-      <lb ed="#V" n="14"/>continetur sub illa ratione.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e226">
-      ¶ Dico quod assumptum non est 
-      ve<lb ed="#V" n="15" break="no"/>rum: quia visus potest in albedinem: et tamen non potest in differentiam 
-      indi<lb ed="#V" n="16" break="no"/>uidualem que continetur aliquo modo sub albedine. sic 
-      di<lb ed="#V" n="17" break="no"/>co de deo respectu entis.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e235">
-      ¶ Ad 2m negatur consequentia de 
-      visu<lb ed="#V" n="18" break="no"/>comparato ad intellectum.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e240">
-      ¶ Ad probationem quod naam non deficut. 
-      Di<lb ed="#V" n="19" break="no"/>co quod nam non deficit in necessaris vbi potest: sed certum est quod 
-      ali<lb ed="#V" n="20" break="no"/>quando non potest: sicut patet de anima intellectiua quam non potest 
-      in<lb ed="#V" n="21" break="no"/>ducere ad corpus: ad quam tamen disponit.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e250">
-      ¶ Ad 3m dico quod 
-      <lb ed="#V" n="22"/>duplex est proportio. attingentie: et commensurationis. prima est in 
-      <lb ed="#V" n="23"/>proposito: sed non 2a. quia illud supenaturale attigitur ab intellectui: sed 
-      <lb ed="#V" n="24"/>intellectus non potest sibi commensurari: ideo est ibi proportio attingen: 
-      <lb ed="#V" n="25"/>tie: sed non commensurationis: prima autem fit per aliquid creatum. 
-      </p>
-            <p xml:id="FrMS88-de7507-d1e261">
-               <lb ed="#V" n="26"/>¶ Ad 4m dico quod illa potentia est frustra que per nullum agens 
-      <lb ed="#V" n="27"/>vel principium potest deduci ad actum: sed si per aliquod agens siue 
-      natura<lb ed="#V" n="28" break="no"/>le siue supernaturale possit: non est frustra: sicut patet de anima 
-      intel<lb ed="#V" n="29" break="no"/>lectiua.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e272">
-      ¶ Ad 5m dico quod intellectus agens non est sufficiens 
-      <lb ed="#V" n="30"/>actiuum respecu omnis illius respectu cuius intellectus possibilis est passiuum: 
-      <lb ed="#V" n="31"/>sed requritur obiectum: et multa quae tenent vicem obiecti sunt reuelata 
-      <lb ed="#V" n="32"/>supnaturaliter.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e281">
-      ¶ Ad qum dico quod licet termini cognoscantur: tali 
-      ta<lb ed="#V" n="33" break="no"/>men modo non cognoscuntur quod possint face euidentiam de 
-      <lb ed="#V" n="34"/>veritate propositionis. quod patet: quia idem termini concipiuntur a 
-      fi<lb ed="#V" n="35" break="no"/>deli et infideli: et tamen propositio vera est vni et alteri neutra¬ 
-      </p>
-            <p xml:id="FrMS88-de7507-d1e290">
-               <lb ed="#V" n="36"/>¶ Ad 5m dico quod licet ex subalternante eodem modo qui 
-      meta<lb ed="#V" n="37" break="no"/>phyefica est subalternaras possint demonstrari rationes 
-      <lb ed="#V" n="38"/>communes: non tamen particulares. et hoc est quod concluditur. 
-      </p>
-            <p xml:id="FrMS88-de7507-d1e299">
-               <lb ed="#V" n="39"/>¶ Ad grum dico quod primum principium continet virtualiter omnes virtutes  
-      <lb ed="#V" n="40"/>quantum ad praedicatum commune quod in eo exprimitur scilicet affirmatio vel 
-      <lb ed="#V" n="41"/>negio vera: sed non continet praedicata multa particularia. 
-      <lb ed="#V" n="42"/>sunt 4or didiffiacul. Prima quia cognoscens 
-      <lb ed="#V" n="43"/>Sed hic effectum potest cognoscem causam: sed possumus 
-      <lb ed="#V" n="44"/>multos effectus cognoscerm. ergo et deum qui est causa.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e316">
-      ¶ 2a quia 
-      co<lb ed="#V" n="45" break="no"/>gnoscens naturam anime: potest naturaliter cognosceme omnes eius 
-      aptitudi<lb ed="#V" n="46" break="no"/>nes: sed eius aptitudo est beatitudo vel appetitus 
-      beatitudi<lb ed="#V" n="47" break="no"/>nis. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e325">
-      ¶ 3a. Omnis potentia habens obiectum adequatum potest in illud 
-      <lb ed="#V" n="48"/>in quo inuenitur verissime ratio sui obsienti adequati: sed huiusmodi est deus 
-      <lb ed="#V" n="49"/>ergo etc.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e332">
-      ¶ 4a quia omni propositione vel est mediata vel immediata. 
-      <lb ed="#V" n="50"/>Si immediata potest cognosci per se et primo. si mediata 
-      cogno<lb ed="#V" n="51" break="no"/>scens extrema potest cognoscere et media.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e339">
-      ¶ Ad ista 
-      </p>
-            <p xml:id="FrMS88-de7507-d1e342">
-               <lb ed="#V" n="52"/>¶ Ad primum dico quod eo modo quo cognoscitur effectus 
-      co<lb ed="#V" n="53" break="no"/>gnoscitur et causa: sed effectus dei non cognoscitur nisi in communi: et 
-      <lb ed="#V" n="54"/>ideo nec causam nisi per rationem commune cognoscimus.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e351">
-      ¶ Ad 2m eo. 
-      <lb ed="#V" n="55"/>dem modo quia non cognoscimus nisi naturam anime in communi: nec etiam 
-      beatitu<lb ed="#V" n="56" break="no"/>dinem nisi in communi. non autem proprie dictam.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e359">
-      ¶ Ad 3m dico quod 
-      <lb ed="#V" n="57"/>habens obiectum adequatum potest in omne illud in qua inuenitur verissime 
-      <lb ed="#V" n="58"/>ratio sui primi obiecti inquantum tale: et sic concedo quod intellectus 
-      ni<lb ed="#V" n="59" break="no"/>potest in deum inquantum ens: licet non secundum rationem specialem 
-      deita<lb ed="#V" n="60" break="no"/>tis.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e370">
-      ¶ Ad 4m dico quod medium potest esse aliqua ratio 
-      forma<lb ed="#V" n="61" break="no"/>lis essentialiter ordinata inter extrema: et tunc concedo quod 
-      con<lb ed="#V" n="62" break="no"/>gnoscens extrema potest cognoscere medium: sed quando esset ratio 
-      di<lb ed="#V" n="63" break="no"/>sperata non.
-    </p>
-            <p xml:id="FrMS88-de7507-d1e379">
-      ¶ Quaestionem aliam feci de vnitate et distixi: et 
-      dide<lb ed="#V" n="64" break="no"/>vnitate simplicitatis et integritatis. Primam vnitatem 
-      <lb ed="#V" n="65"/>habet scientia ex obiecto: sed secundam non. nec plus dixi de illa quaestione. 
-      </p>
-            <p xml:id="FrMS88-de7507-d1e386">
-               <lb ed="#V" n="66"/>¶ Explicit prologus. Sequitur prima distinctio. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 21</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 21</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="11-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-de7507"><!-- l1prolq21 -->
+        <head xml:id="FrMS88-de7507-Hd1e108">Quaestio 21</head>
+        <p xml:id="FrMS88-de7507-d1e111">
+          Quaestio xxi. 
+          <lb ed="#V" n="114"/>QUeritur vtrum theologia sit supnatura 
+          <lb ed="#V" n="115" break="no"/>litur reuelata. quod non probatur 
+          <lb ed="#V" n="116"/>per rationes philosophycas. Primo sic. Potentia habens 
+          <lb ed="#V" n="117"/>aliquod obiectum adequatum potest in omne illud quod 
+          contin<lb ed="#V" n="118" break="no"/>S netur sub ipso: sed ens est obiectum adequatum 
+          po<lb ed="#V" n="119" break="no"/>intellectiue. ergo.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e127">
+          ¶ 2o sic. Sensus non indiget aliquo reuelante. 
+          <lb ed="#V" n="120"/>ergo nec intellectus.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e132">
+          ¶ 3o sic. quia si respectu alicuius obiecti 
+          fie<lb ed="#V" n="121" break="no"/>ret potentia nostra intellectiua proportio nata. hoc esset per aliquod 
+          <lb ed="#V" n="122"/>supenaturale: et tunc esset quaestio eade que prius.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e139">
+          ¶ 4o sic. intellectus ntin 
+          <lb ed="#V" n="123"/>est in potentia passiua naturali ad illam cognitionem. ergo erit actiuum 
+          <lb ed="#V" n="124"/>naturale vel potentia naturalis erit frustra.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e147">
+          ¶ 3o sic. posito 
+          acti<lb ed="#V" n="125" break="no"/>uo et passiuo sufficienti: potest sequi actio. Sed intellectus agens 
+          <lb ed="#V" n="126"/>et possibilis sunt huiusmodi.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e154">
+          ¶ 2o sic. Quarum propositionum 
+          term<lb ed="#V" n="127" break="no"/>ni comprehenduntur per naturam: ipse possunt cognosci per naturam. quia 
+          <lb ed="#V" n="128"/>si sint immediate habetur propositum: si mediate cognoscens 
+          ex<lb ed="#V" n="129" break="no"/>trema potest cognosce medium. Counstat autem quod 
+          termi<lb ed="#V" n="130" break="no"/>ni theologie appraehenduntur.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e165">
+          ¶ 3o quicumque intellectus potest 
+          co<lb ed="#V" n="131" break="no"/>gnosceme subalternantem: et subalternatam: sed naturaliter 
+          possi<lb ed="#V" n="132" break="no"/>mus cognosceme metaphysicam que est subalternas. ergi¬ 
+          <!--26.xml-->
+          <pb ed="#V" n="12-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>theologiam que est subalternata.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e181">
+          ¶ 8o sic. quicunque 
+          intelle<lb ed="#V" n="2" break="no"/>ctus potest cognoscere principium: potest cognoscere omnia elici 
+          <lb ed="#V" n="3"/>bilia ex eo: sed intellectus noster potest habere cognitionem naturalem primum 
+          <lb ed="#V" n="4"/>pincipii. ergo etc. Maior patet. quia prius principius continet virtualiter omnia 
+          co<lb ed="#V" n="5" break="no"/>gnoscibilia.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e192">
+          ¶ Ad ista.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e195">
+          ¶ Ad primum dicunt qui tenent equo 
+          <lb ed="#V" n="6"/>cationem entis quod ratio primi obiecti adequati non est vna 
+          ra<lb ed="#V" n="7" break="no"/>tio: et sic euadant difficultas.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e203">
+          ¶ Sed maior difficultas restat. 
+          <lb ed="#V" n="8"/>quia tunc nihil potest cognosci de deo quod est inconueniens. 
+        </p>
+        <p xml:id="FrMS88-de7507-d1e208">
+          <lb ed="#V" n="9"/>¶ Dico quod licet negetur ab aliquibus minor: concessa tamen 
+          maio<lb ed="#V" n="10" break="no"/>ri scilicet quod potest in omne illud quod cotinetur sub eo. concedo illo modo 
+          <lb ed="#V" n="11"/>dictusionem quod potest in omne contentum sub ente inquantum habet rationem enti: 
+          <lb ed="#V" n="12"/>ideo dico quod omnia possumus cognoscere inquantum entia 
+        </p>
+        <p xml:id="FrMS88-de7507-d1e219">
+          <lb ed="#V" n="13"/>¶ Si dices. quod potest in aliquam rationem: potest in omne illud quod 
+          <lb ed="#V" n="14"/>continetur sub illa ratione.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e226">
+          ¶ Dico quod assumptum non est 
+          ve<lb ed="#V" n="15" break="no"/>rum: quia visus potest in albedinem: et tamen non potest in differentiam 
+          indi<lb ed="#V" n="16" break="no"/>uidualem que continetur aliquo modo sub albedine. sic 
+          di<lb ed="#V" n="17" break="no"/>co de deo respectu entis.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e235">
+          ¶ Ad 2m negatur consequentia de 
+          visu<lb ed="#V" n="18" break="no"/>comparato ad intellectum.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e240">
+          ¶ Ad probationem quod naam non deficut. 
+          Di<lb ed="#V" n="19" break="no"/>co quod nam non deficit in necessaris vbi potest: sed certum est quod 
+          ali<lb ed="#V" n="20" break="no"/>quando non potest: sicut patet de anima intellectiua quam non potest 
+          in<lb ed="#V" n="21" break="no"/>ducere ad corpus: ad quam tamen disponit.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e250">
+          ¶ Ad 3m dico quod 
+          <lb ed="#V" n="22"/>duplex est proportio. attingentie: et commensurationis. prima est in 
+          <lb ed="#V" n="23"/>proposito: sed non 2a. quia illud supenaturale attigitur ab intellectui: sed 
+          <lb ed="#V" n="24"/>intellectus non potest sibi commensurari: ideo est ibi proportio attingen: 
+          <lb ed="#V" n="25"/>tie: sed non commensurationis: prima autem fit per aliquid creatum. 
+        </p>
+        <p xml:id="FrMS88-de7507-d1e261">
+          <lb ed="#V" n="26"/>¶ Ad 4m dico quod illa potentia est frustra que per nullum agens 
+          <lb ed="#V" n="27"/>vel principium potest deduci ad actum: sed si per aliquod agens siue 
+          natura<lb ed="#V" n="28" break="no"/>le siue supernaturale possit: non est frustra: sicut patet de anima 
+          intel<lb ed="#V" n="29" break="no"/>lectiua.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e272">
+          ¶ Ad 5m dico quod intellectus agens non est sufficiens 
+          <lb ed="#V" n="30"/>actiuum respecu omnis illius respectu cuius intellectus possibilis est passiuum: 
+          <lb ed="#V" n="31"/>sed requritur obiectum: et multa quae tenent vicem obiecti sunt reuelata 
+          <lb ed="#V" n="32"/>supnaturaliter.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e281">
+          ¶ Ad qum dico quod licet termini cognoscantur: tali 
+          ta<lb ed="#V" n="33" break="no"/>men modo non cognoscuntur quod possint face euidentiam de 
+          <lb ed="#V" n="34"/>veritate propositionis. quod patet: quia idem termini concipiuntur a 
+          fi<lb ed="#V" n="35" break="no"/>deli et infideli: et tamen propositio vera est vni et alteri neutra¬ 
+        </p>
+        <p xml:id="FrMS88-de7507-d1e290">
+          <lb ed="#V" n="36"/>¶ Ad 5m dico quod licet ex subalternante eodem modo qui 
+          meta<lb ed="#V" n="37" break="no"/>phyefica est subalternaras possint demonstrari rationes 
+          <lb ed="#V" n="38"/>communes: non tamen particulares. et hoc est quod concluditur. 
+        </p>
+        <p xml:id="FrMS88-de7507-d1e299">
+          <lb ed="#V" n="39"/>¶ Ad grum dico quod primum principium continet virtualiter omnes virtutes  
+          <lb ed="#V" n="40"/>quantum ad praedicatum commune quod in eo exprimitur scilicet affirmatio vel 
+          <lb ed="#V" n="41"/>negio vera: sed non continet praedicata multa particularia. 
+          <lb ed="#V" n="42"/>sunt 4or didiffiacul. Prima quia cognoscens 
+          <lb ed="#V" n="43"/>Sed hic effectum potest cognoscem causam: sed possumus 
+          <lb ed="#V" n="44"/>multos effectus cognoscerm. ergo et deum qui est causa.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e316">
+          ¶ 2a quia 
+          co<lb ed="#V" n="45" break="no"/>gnoscens naturam anime: potest naturaliter cognosceme omnes eius 
+          aptitudi<lb ed="#V" n="46" break="no"/>nes: sed eius aptitudo est beatitudo vel appetitus 
+          beatitudi<lb ed="#V" n="47" break="no"/>nis. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e325">
+          ¶ 3a. Omnis potentia habens obiectum adequatum potest in illud 
+          <lb ed="#V" n="48"/>in quo inuenitur verissime ratio sui obsienti adequati: sed huiusmodi est deus 
+          <lb ed="#V" n="49"/>ergo etc.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e332">
+          ¶ 4a quia omni propositione vel est mediata vel immediata. 
+          <lb ed="#V" n="50"/>Si immediata potest cognosci per se et primo. si mediata 
+          cogno<lb ed="#V" n="51" break="no"/>scens extrema potest cognoscere et media.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e339">
+          ¶ Ad ista 
+        </p>
+        <p xml:id="FrMS88-de7507-d1e342">
+          <lb ed="#V" n="52"/>¶ Ad primum dico quod eo modo quo cognoscitur effectus 
+          co<lb ed="#V" n="53" break="no"/>gnoscitur et causa: sed effectus dei non cognoscitur nisi in communi: et 
+          <lb ed="#V" n="54"/>ideo nec causam nisi per rationem commune cognoscimus.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e351">
+          ¶ Ad 2m eo. 
+          <lb ed="#V" n="55"/>dem modo quia non cognoscimus nisi naturam anime in communi: nec etiam 
+          beatitu<lb ed="#V" n="56" break="no"/>dinem nisi in communi. non autem proprie dictam.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e359">
+          ¶ Ad 3m dico quod 
+          <lb ed="#V" n="57"/>habens obiectum adequatum potest in omne illud in qua inuenitur verissime 
+          <lb ed="#V" n="58"/>ratio sui primi obiecti inquantum tale: et sic concedo quod intellectus 
+          ni<lb ed="#V" n="59" break="no"/>potest in deum inquantum ens: licet non secundum rationem specialem 
+          deita<lb ed="#V" n="60" break="no"/>tis.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e370">
+          ¶ Ad 4m dico quod medium potest esse aliqua ratio 
+          forma<lb ed="#V" n="61" break="no"/>lis essentialiter ordinata inter extrema: et tunc concedo quod 
+          con<lb ed="#V" n="62" break="no"/>gnoscens extrema potest cognoscere medium: sed quando esset ratio 
+          di<lb ed="#V" n="63" break="no"/>sperata non.
+        </p>
+        <p xml:id="FrMS88-de7507-d1e379">
+          ¶ Quaestionem aliam feci de vnitate et distixi: et 
+          dide<lb ed="#V" n="64" break="no"/>vnitate simplicitatis et integritatis. Primam vnitatem 
+          <lb ed="#V" n="65"/>habet scientia ex obiecto: sed secundam non. nec plus dixi de illa quaestione. 
+        </p>
+        <p xml:id="FrMS88-de7507-d1e386">
+          <lb ed="#V" n="66"/>¶ Explicit prologus. Sequitur prima distinctio. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

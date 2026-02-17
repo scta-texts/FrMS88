@@ -1,96 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 3</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 3</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#V" n="24-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e16750"><!-- l1d3q3 -->
-            <head xml:id="FrMS88-e16750-Hd1e108">Quaestio 3</head>
-            <p xml:id="FrMS88-e16750-d1e111">
-      Quaestio. iii. 
-      <lb ed="#V" n="48"/>in creaturis sit vestigium 
-      tri<lb ed="#V" n="49" break="no"/>Trum nitatis. 
-      <lb ed="#V" n="50"/>vestigium ponitur 
-      <lb ed="#V" n="51"/>Respondeo. disimode a 
-      mul<lb ed="#V" n="52" break="no"/>dtis. ponitur enim ab aliquibus in triplici 
-      habi<lb ed="#V" n="53" break="no"/>tudine scilicet efficientis. finalis. et exemplaris. Sed si hoc est 
-      <lb ed="#V" n="54"/>derum ostendo manifeste distinctionem inter perfectiones at 
-      <lb ed="#V" n="55"/>tributales aliqualem.
-    </p>
-            <p xml:id="FrMS88-e16750-d1e131">
-      ¶ Et hoc sic. Omnis relatio 
-      distin<lb ed="#V" n="56" break="no"/>guitur ab alia relatione vel a fundamento vel a termino 
-      <lb ed="#V" n="57"/>vel ab extremis: sed inste tres habitudines non possunt 
-      <lb ed="#V" n="58"/>abinuincem distingui ex extremis. quia eadem sunt scilicet de 
-      <lb ed="#V" n="59"/>et creatura: nec per fundamenta. quia in quocumque quod 
-      <lb ed="#V" n="60"/>est in creatura fundatur ista triplex dependentia. ergo 
-      <lb ed="#V" n="61"/>oportet quod a terminis distinguantur.
-    </p>
-            <p xml:id="FrMS88-e16750-d1e147">
-      ¶ Confirmatul 
-      <lb ed="#V" n="62"/>quia vbicunque est terminus et fundamentum eiusdem 
-      ra<lb ed="#V" n="63" break="no"/>tionis. vt eiusdem sunt. nunquam innascitur nisi relatio 
-      <lb ed="#V" n="64"/>eiusdem rationis. sed fundamentum est eiusdem 
-      ratio<lb ed="#V" n="65" break="no"/>nis. ergo nisi termini distinguantur. oportet quod sint eiusdem 
-      <lb ed="#V" n="66"/>rationis. sed hoc est falsum. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e16750-d1e160">
-      ¶ Dependentia 
-      <!--51.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>ergo efficientis ad voluntatem terminatur. 
-      Exempla<lb ed="#V" n="68" break="no"/>ris ad intellectum. sed finalis ad essentiam. ergo ista 
-      <lb ed="#V" n="69"/>tria ex natura rei distinguuntur. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="24-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e16750"><!-- l1d3q3 -->
+        <head xml:id="FrMS88-e16750-Hd1e108">Quaestio 3</head>
+        <p xml:id="FrMS88-e16750-d1e111">
+          Quaestio. iii. 
+          <lb ed="#V" n="48"/>in creaturis sit vestigium 
+          tri<lb ed="#V" n="49" break="no"/>Trum nitatis. 
+          <lb ed="#V" n="50"/>vestigium ponitur 
+          <lb ed="#V" n="51"/>Respondeo. disimode a 
+          mul<lb ed="#V" n="52" break="no"/>dtis. ponitur enim ab aliquibus in triplici 
+          habi<lb ed="#V" n="53" break="no"/>tudine scilicet efficientis. finalis. et exemplaris. Sed si hoc est 
+          <lb ed="#V" n="54"/>derum ostendo manifeste distinctionem inter perfectiones at 
+          <lb ed="#V" n="55"/>tributales aliqualem.
+        </p>
+        <p xml:id="FrMS88-e16750-d1e131">
+          ¶ Et hoc sic. Omnis relatio 
+          distin<lb ed="#V" n="56" break="no"/>guitur ab alia relatione vel a fundamento vel a termino 
+          <lb ed="#V" n="57"/>vel ab extremis: sed inste tres habitudines non possunt 
+          <lb ed="#V" n="58"/>abinuincem distingui ex extremis. quia eadem sunt scilicet de 
+          <lb ed="#V" n="59"/>et creatura: nec per fundamenta. quia in quocumque quod 
+          <lb ed="#V" n="60"/>est in creatura fundatur ista triplex dependentia. ergo 
+          <lb ed="#V" n="61"/>oportet quod a terminis distinguantur.
+        </p>
+        <p xml:id="FrMS88-e16750-d1e147">
+          ¶ Confirmatul 
+          <lb ed="#V" n="62"/>quia vbicunque est terminus et fundamentum eiusdem 
+          ra<lb ed="#V" n="63" break="no"/>tionis. vt eiusdem sunt. nunquam innascitur nisi relatio 
+          <lb ed="#V" n="64"/>eiusdem rationis. sed fundamentum est eiusdem 
+          ratio<lb ed="#V" n="65" break="no"/>nis. ergo nisi termini distinguantur. oportet quod sint eiusdem 
+          <lb ed="#V" n="66"/>rationis. sed hoc est falsum. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e16750-d1e160">
+          ¶ Dependentia 
+          <!--51.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>ergo efficientis ad voluntatem terminatur. 
+          Exempla<lb ed="#V" n="68" break="no"/>ris ad intellectum. sed finalis ad essentiam. ergo ista 
+          <lb ed="#V" n="69"/>tria ex natura rei distinguuntur. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

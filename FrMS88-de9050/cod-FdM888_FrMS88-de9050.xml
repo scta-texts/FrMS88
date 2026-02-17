@@ -1,159 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 5</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 5</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="13-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-de9050"><!-- l1d1q5 -->
-            <head xml:id="FrMS88-de9050-Hd1e108">Quaestio 5</head>
-            <p xml:id="FrMS88-de9050-d1e111">
-      ¶ Questio. v. 
-      <lb ed="#V" n="113"/>vtrum actus fruitionis sit 
-      for<lb ed="#V" n="114" break="no"/>Ueritu maliter lib. quod sic. per illud praes. 
-      <lb ed="#V" n="115"/>vonlectare in disfento. nihil imperatur nisi liberum. ergo etc 
-      </p>
-            <p xml:id="FrMS88-de9050-d1e120">
-               <lb ed="#V" n="116"/>¶ Contra. Ans. de conceptu virginali prima 
-      lil<lb ed="#V" n="117" break="no"/>tas est in voluntate: ergo non in actu voluntatis. 
-      <lb ed="#V" n="118"/>primo videndum est. quod liberum dicitur 4r modis 
-      <lb ed="#V" n="119"/>Et hic Uno modo. prout liberum distinguitur contra 
-      ser<lb ed="#V" n="120" break="no"/>uum. Unde secundum hoc potestas peccandi non est libertas. nec pars 
-      <lb ed="#V" n="121"/>libertatis. quia posse peccare: est posse se facere seruum¬ 
-      </p>
-            <p xml:id="FrMS88-de9050-d1e136">
-               <lb ed="#V" n="122"/>¶ Alio modo accipitur liberum: prout distinguitur contra 
-      <lb ed="#V" n="123"/>necessarium. Et isto modo distinguitur libertas arbitrii contra 
-      lim<lb ed="#V" n="124" break="no"/>berum simpliciter. 2o modo distinguitur contra naturale. et hoc modo 
-      <lb ed="#V" n="125"/>dicit Aug. quod spiritussanctus non procedit quomodo natus. sed 
-      <lb ed="#V" n="126"/>quomodo datus. 4o modo accipitur liberum. prout distinguitur 
-      <lb ed="#V" n="127"/>ontra coactionem. et isto modo omnes potentie anime possunt dici libere: 
-      <lb ed="#V" n="128"/>quia nulla potest cogi. primo modo nec vltimo modo patet quod non 
-      in<lb ed="#V" n="129" break="no"/>telligunt aliqui: qui quaestionem proponunt. Similiter nec 2o modo vt 
-      di<lb ed="#V" n="130" break="no"/>stinguitur contra necessarium. quia isto modo non possemus saluare 
-      <lb ed="#V" n="131"/>quod productio spiritussancti esset formaliter libera. quia omne quod 
-      <lb ed="#V" n="132"/>est in diuinis est summe necessarium. Accipitur ergo 3o modo. vt 
-      <!--30.xml-->
-      <pb ed="#V" n="14-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>scilice distinguitur contra naturale. et sic omne voluntarium dicitur eo 
-      mo<lb ed="#V" n="2" break="no"/>do esse liberum. Unde sicut prius dictum est. quod potentia. actus 
-      pas<lb ed="#V" n="3" break="no"/>sio. habitus. dispositio. voluntaria sunt. hinc est quod libera erunt. 
-      <lb ed="#V" n="4"/>Sed tunc stat difficultas cui conueniat primo libertas. Ad hoc 
-      <lb ed="#V" n="5"/>hico primo negatiue. quod non operationi: nequem dispositioni: quia postquam 
-      <lb ed="#V" n="6"/>est dictum: quicquid ab ea est naturaliter est. Nec habitui quia causat 
-      na<lb ed="#V" n="7" break="no"/>turaliter sicut ignis. Nec passioni. quia necessario naturaliter in 
-      <lb ed="#V" n="8"/>clinat ex quo causata est. Primo ergo ratio libertatis voluntati 
-      con<lb ed="#V" n="9" break="no"/>uenit. vel est in potentia volitiua. Nam omnia alia non habent rationem. 
-      <lb ed="#V" n="10"/>voluntarii nisi per participationem voluntatis. Unde dicit 
-      <lb ed="#V" n="11"/>Uns. de concordia liberi arbitrii. Tibertas primo conuenit 
-      vo<lb ed="#V" n="12" break="no"/>luntati.
-    </p>
-            <p xml:id="FrMS88-de9050-d1e195">
-      ¶ Sed contra. instatur 4r. Primo sic. Nam in hoc 
-      con<lb ed="#V" n="13" break="no"/>sistit libertas: per quod potest quis difuntari actibus suis: sed hoc 
-      <lb ed="#V" n="14"/>est actus complacentie. ergo etc. probo minorem. Nam omnia alia 
-      re<lb ed="#V" n="15" break="no"/>ducuntur in actum illum. 2o sic. In illo consistit libertas. in 
-      quo<lb ed="#V" n="16" break="no"/>est totalis et finalis causa: que redditer pro omnibus. sed talis est 
-      <lb ed="#V" n="17"/>actus complacentie. Nam si queratur. quare hoc fecisti. 
-      responde<lb ed="#V" n="18" break="no"/>tur. quia placet. et ibi cessat omnis quaestio. 3o sic. Tiberum est. quod 
-      <lb ed="#V" n="19"/>est gra sui. sed actus complacentie est huiusmodi. quia est gratia sui: et 
-      <lb ed="#V" n="20"/>alia gratia eius. sicut patet in praecedenti argumentu. ergo etc. 4o sic. Ratio 
-      <lb ed="#V" n="21"/>libertatis est ratio spositiotanea. sed illa consistit in actu 
-      compla<lb ed="#V" n="22" break="no"/>centie. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de9050-d1e220">
-      ¶ Iste rationes reducuntur ad oppositum. Primo 
-      <lb ed="#V" n="23"/>sic. Id per quod dominatur aliquis actibus suis. habet rationem 
-      pri<lb ed="#V" n="24" break="no"/>mam libertatis: hoc est manifesta: sed voluntas est huiusmodi. et non 
-      <lb ed="#V" n="25"/>actus complacentie. Nam actui complacentie diunamur per 
-      vo<lb ed="#V" n="26" break="no"/>luntatem: et potest elicere actum complacendi: et non elicere. 
-      </p>
-            <p xml:id="FrMS88-de9050-d1e231">
-               <lb ed="#V" n="27"/>¶ Item difuntari vetur habere vim productiuam et causatiuam. Sed hoc 
-      <lb ed="#V" n="28"/>conuenit voluntati non solum respectu aliorum actuum: sed etiam 
-      re<lb ed="#V" n="29" break="no"/>pectu actus complacentie. 2o sic. Illud quod vltimate 
-      red<lb ed="#V" n="30" break="no"/>ditur pro causa finali habet rationem libertatis hec est tua. sed 
-      vo<lb ed="#V" n="31" break="no"/>luntas est huiusmodi. Nam si queras. quare hoc fecisti. quia placet. 
-      <lb ed="#V" n="32"/>quare placet. quia habeo voluntatem. que est causa istius 
-      com<lb ed="#V" n="33" break="no"/>placentie.
-    </p>
-            <p xml:id="FrMS88-de9050-d1e249">
-      ¶ Item quando quaeritur de effectu forme propter quid. 
-      conue<lb ed="#V" n="34" break="no"/>nienter respondetur per formam. sicut dicendo. quare iste disgregat 
-      <lb ed="#V" n="35"/>respondetur. quia est albus. quare est albus. quia habet albedinem. sed 
-      <lb ed="#V" n="36"/>actus complacentie est actus voluntatis. sicut disgregatio est 
-      <lb ed="#V" n="37"/>actus albedinis. ergo sicut querenti. quare disgregat. 
-      re<lb ed="#V" n="38" break="no"/>spondetur. quia albus sic querenti: quare hoc facit. conuenienter 
-      <lb ed="#V" n="39"/>respondetur. quia vult. sed vltra. sicut quarenti. quare est albus. 
-      con<lb ed="#V" n="40" break="no"/>uenienter respondetur. quia habet albedinem. Eodem modo. quare vult. 
-      <lb ed="#V" n="41"/>conuenienter respondetur. quia habet voluntatem. que est causa vel forma: 
-      <lb ed="#V" n="42"/>vel saltem illud quo mediante habetur volitio. 3o reducuntur 
-      <lb ed="#V" n="43"/>sic. Tiberum est quod est sui gratia. sed voluntas est huiusmodi et actus 
-      <lb ed="#V" n="44"/>complacentie. Nam ipse actus est accidens. accidentia autem reducum 
-      <lb ed="#V" n="45"/>tur et referuntur ad substantiam: sicut ad finem. magis autem est 
-      fi<lb ed="#V" n="46" break="no"/>nis sui gratia quam illud quod est ad finem. subiectum est magis est 
-      sui<lb ed="#V" n="47" break="no"/>gratia quam accidens. ergo etc. 4o reducuntur sic. Tibiectas est spositiotanea. 
-      <lb ed="#V" n="48"/>sed potentia magis habet rationem spositiotanei quam actus. ergo etc. 
-      Proba<lb ed="#V" n="49" break="no"/>tio minoris. nam actus potest a deo causari. et tunc erit 
-      compla<lb ed="#V" n="50" break="no"/>centia et non spontaneitas. Similiter quando aliqua duo ita se habent quod 
-      <lb ed="#V" n="51"/>vnum ab alio causatur. magis habet rationem spositntanei causam 
-      <lb ed="#V" n="52"/>quam causatum. et sic est hic.
-    </p>
-            <p xml:id="FrMS88-de9050-d1e293">
-      ¶ Ad rationem dico. quod quando duo 
-      effi<lb ed="#V" n="53" break="no"/>ctus sunt essentialiter ordinati. si prior cadit sub 
-      im<lb ed="#V" n="54" break="no"/>perio et secundus. ita quod si imperium cadat super antecedens. 
-      ca<lb ed="#V" n="55" break="no"/>dat etiam super consequens.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="13-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-de9050"><!-- l1d1q5 -->
+        <head xml:id="FrMS88-de9050-Hd1e108">Quaestio 5</head>
+        <p xml:id="FrMS88-de9050-d1e111">
+          ¶ Questio. v. 
+          <lb ed="#V" n="113"/>vtrum actus fruitionis sit 
+          for<lb ed="#V" n="114" break="no"/>Ueritu maliter lib. quod sic. per illud praes. 
+          <lb ed="#V" n="115"/>vonlectare in disfento. nihil imperatur nisi liberum. ergo etc 
+        </p>
+        <p xml:id="FrMS88-de9050-d1e120">
+          <lb ed="#V" n="116"/>¶ Contra. Ans. de conceptu virginali prima 
+          lil<lb ed="#V" n="117" break="no"/>tas est in voluntate: ergo non in actu voluntatis. 
+          <lb ed="#V" n="118"/>primo videndum est. quod liberum dicitur 4r modis 
+          <lb ed="#V" n="119"/>Et hic Uno modo. prout liberum distinguitur contra 
+          ser<lb ed="#V" n="120" break="no"/>uum. Unde secundum hoc potestas peccandi non est libertas. nec pars 
+          <lb ed="#V" n="121"/>libertatis. quia posse peccare: est posse se facere seruum¬ 
+        </p>
+        <p xml:id="FrMS88-de9050-d1e136">
+          <lb ed="#V" n="122"/>¶ Alio modo accipitur liberum: prout distinguitur contra 
+          <lb ed="#V" n="123"/>necessarium. Et isto modo distinguitur libertas arbitrii contra 
+          lim<lb ed="#V" n="124" break="no"/>berum simpliciter. 2o modo distinguitur contra naturale. et hoc modo 
+          <lb ed="#V" n="125"/>dicit Aug. quod spiritus sanctus non procedit quomodo natus. sed 
+          <lb ed="#V" n="126"/>quomodo datus. 4o modo accipitur liberum. prout distinguitur 
+          <lb ed="#V" n="127"/>ontra coactionem. et isto modo omnes potentie anime possunt dici libere: 
+          <lb ed="#V" n="128"/>quia nulla potest cogi. primo modo nec vltimo modo patet quod non 
+          in<lb ed="#V" n="129" break="no"/>telligunt aliqui: qui quaestionem proponunt. Similiter nec 2o modo vt 
+          di<lb ed="#V" n="130" break="no"/>stinguitur contra necessarium. quia isto modo non possemus saluare 
+          <lb ed="#V" n="131"/>quod productio spiritus sancti esset formaliter libera. quia omne quod 
+          <lb ed="#V" n="132"/>est in diuinis est summe necessarium. Accipitur ergo 3o modo. vt 
+          <!--30.xml-->
+          <pb ed="#V" n="14-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>scilice distinguitur contra naturale. et sic omne voluntarium dicitur eo 
+          mo<lb ed="#V" n="2" break="no"/>do esse liberum. Unde sicut prius dictum est. quod potentia. actus 
+          pas<lb ed="#V" n="3" break="no"/>sio. habitus. dispositio. voluntaria sunt. hinc est quod libera erunt. 
+          <lb ed="#V" n="4"/>Sed tunc stat difficultas cui conueniat primo libertas. Ad hoc 
+          <lb ed="#V" n="5"/>hico primo negatiue. quod non operationi: nequem dispositioni: quia postquam 
+          <lb ed="#V" n="6"/>est dictum: quicquid ab ea est naturaliter est. Nec habitui quia causat 
+          na<lb ed="#V" n="7" break="no"/>turaliter sicut ignis. Nec passioni. quia necessario naturaliter in 
+          <lb ed="#V" n="8"/>clinat ex quo causata est. Primo ergo ratio libertatis voluntati 
+          con<lb ed="#V" n="9" break="no"/>uenit. vel est in potentia volitiua. Nam omnia alia non habent rationem. 
+          <lb ed="#V" n="10"/>voluntarii nisi per participationem voluntatis. Unde dicit 
+          <lb ed="#V" n="11"/>Uns. de concordia liberi arbitrii. Tibertas primo conuenit 
+          vo<lb ed="#V" n="12" break="no"/>luntati.
+        </p>
+        <p xml:id="FrMS88-de9050-d1e195">
+          ¶ Sed contra. instatur 4r. Primo sic. Nam in hoc 
+          con<lb ed="#V" n="13" break="no"/>sistit libertas: per quod potest quis difuntari actibus suis: sed hoc 
+          <lb ed="#V" n="14"/>est actus complacentie. ergo etc. probo minorem. Nam omnia alia 
+          re<lb ed="#V" n="15" break="no"/>ducuntur in actum illum. 2o sic. In illo consistit libertas. in 
+          quo<lb ed="#V" n="16" break="no"/>est totalis et finalis causa: que redditer pro omnibus. sed talis est 
+          <lb ed="#V" n="17"/>actus complacentie. Nam si queratur. quare hoc fecisti. 
+          responde<lb ed="#V" n="18" break="no"/>tur. quia placet. et ibi cessat omnis quaestio. 3o sic. Tiberum est. quod 
+          <lb ed="#V" n="19"/>est gra sui. sed actus complacentie est huiusmodi. quia est gratia sui: et 
+          <lb ed="#V" n="20"/>alia gratia eius. sicut patet in praecedenti argumentu. ergo etc. 4o sic. Ratio 
+          <lb ed="#V" n="21"/>libertatis est ratio spositiotanea. sed illa consistit in actu 
+          compla<lb ed="#V" n="22" break="no"/>centie. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de9050-d1e220">
+          ¶ Iste rationes reducuntur ad oppositum. Primo 
+          <lb ed="#V" n="23"/>sic. Id per quod dominatur aliquis actibus suis. habet rationem 
+          pri<lb ed="#V" n="24" break="no"/>mam libertatis: hoc est manifesta: sed voluntas est huiusmodi. et non 
+          <lb ed="#V" n="25"/>actus complacentie. Nam actui complacentie diunamur per 
+          vo<lb ed="#V" n="26" break="no"/>luntatem: et potest elicere actum complacendi: et non elicere. 
+        </p>
+        <p xml:id="FrMS88-de9050-d1e231">
+          <lb ed="#V" n="27"/>¶ Item difuntari vetur habere vim productiuam et causatiuam. Sed hoc 
+          <lb ed="#V" n="28"/>conuenit voluntati non solum respectu aliorum actuum: sed etiam 
+          re<lb ed="#V" n="29" break="no"/>pectu actus complacentie. 2o sic. Illud quod vltimate 
+          red<lb ed="#V" n="30" break="no"/>ditur pro causa finali habet rationem libertatis hec est tua. sed 
+          vo<lb ed="#V" n="31" break="no"/>luntas est huiusmodi. Nam si queras. quare hoc fecisti. quia placet. 
+          <lb ed="#V" n="32"/>quare placet. quia habeo voluntatem. que est causa istius 
+          com<lb ed="#V" n="33" break="no"/>placentie.
+        </p>
+        <p xml:id="FrMS88-de9050-d1e249">
+          ¶ Item quando quaeritur de effectu forme propter quid. 
+          conue<lb ed="#V" n="34" break="no"/>nienter respondetur per formam. sicut dicendo. quare iste disgregat 
+          <lb ed="#V" n="35"/>respondetur. quia est albus. quare est albus. quia habet albedinem. sed 
+          <lb ed="#V" n="36"/>actus complacentie est actus voluntatis. sicut disgregatio est 
+          <lb ed="#V" n="37"/>actus albedinis. ergo sicut querenti. quare disgregat. 
+          re<lb ed="#V" n="38" break="no"/>spondetur. quia albus sic querenti: quare hoc facit. conuenienter 
+          <lb ed="#V" n="39"/>respondetur. quia vult. sed vltra. sicut quarenti. quare est albus. 
+          con<lb ed="#V" n="40" break="no"/>uenienter respondetur. quia habet albedinem. Eodem modo. quare vult. 
+          <lb ed="#V" n="41"/>conuenienter respondetur. quia habet voluntatem. que est causa vel forma: 
+          <lb ed="#V" n="42"/>vel saltem illud quo mediante habetur volitio. 3o reducuntur 
+          <lb ed="#V" n="43"/>sic. Tiberum est quod est sui gratia. sed voluntas est huiusmodi et actus 
+          <lb ed="#V" n="44"/>complacentie. Nam ipse actus est accidens. accidentia autem reducum 
+          <lb ed="#V" n="45"/>tur et referuntur ad substantiam: sicut ad finem. magis autem est 
+          fi<lb ed="#V" n="46" break="no"/>nis sui gratia quam illud quod est ad finem. subiectum est magis est 
+          sui<lb ed="#V" n="47" break="no"/>gratia quam accidens. ergo etc. 4o reducuntur sic. Tibiectas est spositiotanea. 
+          <lb ed="#V" n="48"/>sed potentia magis habet rationem spositiotanei quam actus. ergo etc. 
+          Proba<lb ed="#V" n="49" break="no"/>tio minoris. nam actus potest a deo causari. et tunc erit 
+          compla<lb ed="#V" n="50" break="no"/>centia et non spontaneitas. Similiter quando aliqua duo ita se habent quod 
+          <lb ed="#V" n="51"/>vnum ab alio causatur. magis habet rationem spositntanei causam 
+          <lb ed="#V" n="52"/>quam causatum. et sic est hic.
+        </p>
+        <p xml:id="FrMS88-de9050-d1e293">
+          ¶ Ad rationem dico. quod quando duo 
+          effi<lb ed="#V" n="53" break="no"/>ctus sunt essentialiter ordinati. si prior cadit sub 
+          im<lb ed="#V" n="54" break="no"/>perio et secundus. ita quod si imperium cadat super antecedens. 
+          ca<lb ed="#V" n="55" break="no"/>dat etiam super consequens.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

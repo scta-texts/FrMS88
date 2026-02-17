@@ -1,204 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 20</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 20</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#V" n="11-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-de7250"><!-- l1prolq20 -->
-            <head xml:id="FrMS88-de7250-Hd1e108">Quaestio 20</head>
-            <p xml:id="FrMS88-de7250-d1e111">
-      Quaestio. xx 
-      <lb ed="#V" n="23"/>UTrum in via intellectus possit aliquiod 
-      <lb ed="#V" n="24"/>cognosceme intuitiue. quod non: 
-      <lb ed="#V" n="25"/>quia videmus nunc per speculum in 
-      enigma<lb ed="#V" n="26" break="no"/>te etc.
-    </p>
-            <p xml:id="FrMS88-de7250-d1e122">
-      ¶ Contra. ad Cor. Et quis nouit que 
-      <lb ed="#V" n="27"/>al set in homine nisi spiritus eius.
-    </p>
-            <p xml:id="FrMS88-de7250-d1e127">
-      ¶ Circa istam quone 
-      <lb ed="#V" n="28"/>primo ponam vnam distinctionem de notia. 2o respondebo ad quaestionem. 
-      <lb ed="#V" n="29"/>primum est sciendum quod quadruplex est noticia. 
-      Pri<lb ed="#V" n="30" break="no"/>Circa ma est intuitiua: que scilicet est de re per se ipsam. 
-      </p>
-            <p xml:id="FrMS88-de7250-d1e136">
-               <lb ed="#V" n="31"/>¶ Secunda est abstractiua que est per aliquod repraesentatiuum. 
-      </p>
-            <p xml:id="FrMS88-de7250-d1e142">
-               <lb ed="#V" n="32"/>¶ Tertia est illatiua notia que est de relationibus quae infertur 
-      <lb ed="#V" n="33"/>ex cognitione terminorum.
-    </p>
-            <p xml:id="FrMS88-de7250-d1e149">
-      ¶ Quarta est discursiua 
-      ve<lb ed="#V" n="34" break="no"/>arguitiua: et hec est 2. Una que incipit ab intuitiua et 
-      <lb ed="#V" n="35"/>terminatur ad aliquid quod non videtur intuitiue: sicut patet de cognitio 
-      <lb ed="#V" n="36"/>ne intelligentie: quae conditio incipit a motu: qui intuitiue 
-      cogno<lb ed="#V" n="37" break="no"/>scitur: et deinde arguitiue intelligentia cognoscitur: quae 
-      intuiti<lb ed="#V" n="38" break="no"/>ue a nobis minime cognoscitur. Alia est noticia 
-      discur<lb ed="#V" n="39" break="no"/>siua abstractiua: que incipit ab abstractiua et 
-      terminat<lb ed="#V" n="40" break="no"/>ad aliquid quod non cognoscitur abstractiue: sicut patet de 
-      co<lb ed="#V" n="41" break="no"/>gnitione substantie et accidentis: quia accidentia nullo modo 
-      con<lb ed="#V" n="42" break="no"/>gnoscuntur abstractiue. Noticia discursiua per intuitiuam 
-      <lb ed="#V" n="43"/>que scilicet incipit ab intuitiua et terminatur ad aliquid quod non 
-      vi<lb ed="#V" n="44" break="no"/>detur intuitiue. Abstractiua discursiua que incipit ab ab 
-      <lb ed="#V" n="45"/>stractiua et terminatur ad illa que insunt sibi per se. 
-      <lb ed="#V" n="46"/>dico quatuor conclusiones. Prima est quod 
-      cogni<lb ed="#V" n="47" break="no"/>hoc viso scimus intuitiue actum intelligendi in via. 
-      <lb ed="#V" n="48"/>hoc probo primo sic. Omnis noticia experimentalis est intuitiua 
-      <lb ed="#V" n="49"/>nura per abstractiuam nihil experimur de singularibus: sed 
-      <lb ed="#V" n="50"/>noticia actus intelligendi est experimentalis. experimur enim 
-      <lb ed="#V" n="51"/>nos intelliger. ergo ipse cognoscitur intuitiue.
-    </p>
-            <p xml:id="FrMS88-de7250-d1e191">
-      ¶  2o sic. Omnis 
-      <lb ed="#V" n="52"/>ista cognitio qua cognoscitur aliquid quod est in obiecto per 
-      ac<lb ed="#V" n="53" break="no"/>cidens illa est intuitiua: quia non potest esse abstractiua: quia 
-      re<lb ed="#V" n="54" break="no"/>praesentatiuum vniformiter repraesentat quantumcumque illa que insunt 
-      <lb ed="#V" n="55"/>per accidens varientur: sed noticia qua cognosco actum 
-      intel<lb ed="#V" n="56" break="no"/>ligendi cognosco quod nunc inest quod est sibi per accidens 
-      </p>
-            <p xml:id="FrMS88-de7250-d1e204">
-               <lb ed="#V" n="57"/>¶ 3o sic. Nulla veritas contingens potest cognosci per repraesentati 
-      <lb ed="#V" n="58"/>uum: quia semper repraesentat eodem modo quantumcumque contingentia 
-      vari<lb ed="#V" n="59" break="no"/>tur: sed veritas qua cognosco actum intelligendi existere 
-      <lb ed="#V" n="60"/>est contingens scilicet quod existit que est prima contingens de eo ergo 
-      co<lb ed="#V" n="61" break="no"/>gnoscitur intuitiue.
-    </p>
-            <p xml:id="FrMS88-de7250-d1e217">
-      ¶ 4o sic. Nulla veritas contingens potest esse 
-      <lb ed="#V" n="62"/>per se nota: nisi intuitiue: quia ex terminis non est per se 
-      <lb ed="#V" n="63"/>nota: sed actus existit et istam cognoscimus vt per se 
-      no<lb ed="#V" n="64" break="no"/>tam. ergo intuitiue: quia contingens.
-    </p>
-            <p xml:id="FrMS88-de7250-d1e226">
-      ¶ 2a conclusio est quod in anima nihi 
-      <lb ed="#V" n="65"/>cognoscitur intuitiue nisi actus: quod probo de essentia anime: quia 
-      <lb ed="#V" n="66"/>arguimus animam esse per actus. Eodem modo arguimus positias 
-      <!--25.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>esse per actus. Eodem modo de habitibus per signa quae videmus 
-      <lb ed="#V" n="68"/>in actibus: quia facilitur nunc operamur et non prius. Eodem modo 
-      <lb ed="#V" n="69"/>de specie: quia cognoscimus actum existere: et scimus quod obiectum non 
-      <lb ed="#V" n="70"/>est praesens: arguimus repraesentatiuum esse.
-    </p>
-            <p xml:id="FrMS88-de7250-d1e247">
-      ¶ Omnes iste conclusiones probam 
-      <lb ed="#V" n="71"/>tur vnico medio. Nihil quod cognoscitur praecise per discursum 
-      <lb ed="#V" n="72"/>cognoscitur intuitiue: sed omnia illa cognoscimus praecise per discursum 
-      <lb ed="#V" n="73"/>sicut patet de singulis. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de7250-d1e256">
-      ¶ 3a conclusio. est quod aliquid 
-      cogno<lb ed="#V" n="74" break="no"/>scimus abstractiue. hoc patet. quia omne illud quod directe et 
-      imme<lb ed="#V" n="75" break="no"/>diate cognoscitur et non existit cognoscitur abstractie. sed 
-      ro<lb ed="#V" n="76" break="no"/>sa non existens immediate et directe cognoscitur. ergo.
-    </p>
-            <p xml:id="FrMS88-de7250-d1e265">
-      ¶ 4a conclusio qs 
-      <lb ed="#V" n="77"/>aliqua cognoscimus discursiue. hoc patet. quia cognoscimus 
-      esenu<lb ed="#V" n="78" break="no"/>anime et eius potentias et non nisi discursiue. vt dicit 2a conclusio ergo etc. 
-      <lb ed="#V" n="79"/>sunt quatuor difficul. Prima quia anima nostra est 
-      <lb ed="#V" n="80"/>Sed hic ita perfecte sibi praesens: sicut actus cognoscendi. 
-      <lb ed="#V" n="81"/>ergo videtur quod eque debeat intuitiue cognosci.
-    </p>
-            <p xml:id="FrMS88-de7250-d1e278">
-      ¶ Dico ad 
-      <lb ed="#V" n="82"/>istud quod in causis formalibus non videtur posse assignari causa. sed 
-      <lb ed="#V" n="83"/>quare hoc non cognoscitur: nisi quia non cognoscitur: sed causam 
-      extrin<lb ed="#V" n="84" break="no"/>secam Aug. assignat quare non cognoscimus substantiam anim. scilicet pr 
-      <lb ed="#V" n="85"/>penam praeccai: ex hoc non potest intellectus intelligere: nec se 
-      ne<lb ed="#V" n="86" break="no"/>animam nec alia appraehensibilia.
-    </p>
-            <p xml:id="FrMS88-de7250-d1e291">
-      ¶ Secunda difficultas. Utrum actus 
-      <lb ed="#V" n="87"/>aliarum potentiarum cognoscantur intuitiue. Dico quod sic. quia non 
-      <lb ed="#V" n="88"/>possum videre quod si non viderent intuitiue quod aliqua veritas 
-      com<lb ed="#V" n="89" break="no"/>tingens de his que extra nos sunt puta de motu solis et 
-      ditu<lb ed="#V" n="90" break="no"/>multis aliis certam noticiam posset habere. Ex hoc enim 
-      cogno<lb ed="#V" n="91" break="no"/>sco caelum moueri: quia cognosco intuitiue actum potentie 
-      sen<lb ed="#V" n="92" break="no"/>sitiue ad hanc veritatem terminatum.
-    </p>
-            <p xml:id="FrMS88-de7250-d1e307">
-      ¶ 3a difficultas cum 
-      cogni<lb ed="#V" n="93" break="no"/>tio intuitiua sit perfecta: cur tot ignorantur de actu. nam 
-      infi<lb ed="#V" n="94" break="no"/>nite quaestiones formantur de eo et varie opiniones habentur: 
-      <lb ed="#V" n="95"/>vtrum sit aliquid relatiuum vel absolutum. et sic de aliis. 
-      Di<lb ed="#V" n="96" break="no"/>co quod quamuis intuitiue videatur: non tamen quantum ad omnem modum 
-      <lb ed="#V" n="97"/>cognitionis sue. videt enim visus totam albedinem: tamen non 
-      di<lb ed="#V" n="98" break="no"/>scernimus differentiam specificam eius. eodem modo hic.
-    </p>
-            <p xml:id="FrMS88-de7250-d1e324">
-      ¶ 4a diffincitur. 
-      <lb ed="#V" n="99"/>quando sunt aliqua essentialiter ordinata: si posterius cognoscitur et prius: 
-      <lb ed="#V" n="100"/>sed multa ignorantur de actu priora ipsa existentia quae est eis 
-      po<lb ed="#V" n="101" break="no"/>sterior. ergo magis illa ignorarem. Dico quod actum non 
-      cogno<lb ed="#V" n="102" break="no"/>scimus quantum ad suam propriam rationem: nec etiam existentiam actus: sed 
-      so<lb ed="#V" n="103" break="no"/>lum in generali quod existit. Si autem propriam eius naturam haberemus bene 
-      <lb ed="#V" n="104"/>curreret argumentum. Intellectendum est tamen ad euidentiam praedictorum 
-      <lb ed="#V" n="105"/>quod respcum noticie intuitiue obiectum habet quadruplicem rationem. primo 
-      <lb ed="#V" n="106"/>rationem mouentis in comparatione ad postiiom. 2o rationem causae vel 
-      produ<lb ed="#V" n="107" break="no"/>centis: et hoc per comperationem ad actum. 3o rationem mensurantis per 
-      con<lb ed="#V" n="108" break="no"/>parationem ad habitum: et etiam ad actu. 4o rationem terminantis eo 
-      <lb ed="#V" n="109"/>dem modo: ita quod omnia illa 4or habet obiectum facere in noticia 
-      intui<lb ed="#V" n="110" break="no"/>tiua. In noticia autem abstractiua non habet necessario nisi 
-      term<lb ed="#V" n="111" break="no"/>nare et mensurare: sine enim aliis duabus condieitionibus potest esse 
-      alb<lb ed="#V" n="112" break="no"/>stractiua. vt patet ex prius dictis.
-    </p>
-            <p xml:id="FrMS88-de7250-d1e357">
-      ¶ Ad argumentum in oppositums 
-      di<lb ed="#V" n="113" break="no"/>co quod apitulus loquitur de articulis fidei. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 20</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 20</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="11-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-de7250"><!-- l1prolq20 -->
+        <head xml:id="FrMS88-de7250-Hd1e108">Quaestio 20</head>
+        <p xml:id="FrMS88-de7250-d1e111">
+          Quaestio. xx 
+          <lb ed="#V" n="23"/>UTrum in via intellectus possit aliquiod 
+          <lb ed="#V" n="24"/>cognosceme intuitiue. quod non: 
+          <lb ed="#V" n="25"/>quia videmus nunc per speculum in 
+          enigma<lb ed="#V" n="26" break="no"/>te etc.
+        </p>
+        <p xml:id="FrMS88-de7250-d1e122">
+          ¶ Contra. ad Cor. Et quis nouit que 
+          <lb ed="#V" n="27"/>al set in homine nisi spiritus eius.
+        </p>
+        <p xml:id="FrMS88-de7250-d1e127">
+          ¶ Circa istam quone 
+          <lb ed="#V" n="28"/>primo ponam vnam distinctionem de notia. 2o respondebo ad quaestionem. 
+          <lb ed="#V" n="29"/>primum est sciendum quod quadruplex est noticia. 
+          Pri<lb ed="#V" n="30" break="no"/>Circa ma est intuitiua: que scilicet est de re per se ipsam. 
+        </p>
+        <p xml:id="FrMS88-de7250-d1e136">
+          <lb ed="#V" n="31"/>¶ Secunda est abstractiua que est per aliquod repraesentatiuum. 
+        </p>
+        <p xml:id="FrMS88-de7250-d1e142">
+          <lb ed="#V" n="32"/>¶ Tertia est illatiua notia que est de relationibus quae infertur 
+          <lb ed="#V" n="33"/>ex cognitione terminorum.
+        </p>
+        <p xml:id="FrMS88-de7250-d1e149">
+          ¶ Quarta est discursiua 
+          ve<lb ed="#V" n="34" break="no"/>arguitiua: et hec est 2. Una que incipit ab intuitiua et 
+          <lb ed="#V" n="35"/>terminatur ad aliquid quod non videtur intuitiue: sicut patet de cognitio 
+          <lb ed="#V" n="36"/>ne intelligentie: quae conditio incipit a motu: qui intuitiue 
+          cogno<lb ed="#V" n="37" break="no"/>scitur: et deinde arguitiue intelligentia cognoscitur: quae 
+          intuiti<lb ed="#V" n="38" break="no"/>ue a nobis minime cognoscitur. Alia est noticia 
+          discur<lb ed="#V" n="39" break="no"/>siua abstractiua: que incipit ab abstractiua et 
+          terminat<lb ed="#V" n="40" break="no"/>ad aliquid quod non cognoscitur abstractiue: sicut patet de 
+          co<lb ed="#V" n="41" break="no"/>gnitione substantie et accidentis: quia accidentia nullo modo 
+          con<lb ed="#V" n="42" break="no"/>gnoscuntur abstractiue. Noticia discursiua per intuitiuam 
+          <lb ed="#V" n="43"/>que scilicet incipit ab intuitiua et terminatur ad aliquid quod non 
+          vi<lb ed="#V" n="44" break="no"/>detur intuitiue. Abstractiua discursiua que incipit ab ab 
+          <lb ed="#V" n="45"/>stractiua et terminatur ad illa que insunt sibi per se. 
+          <lb ed="#V" n="46"/>dico quatuor conclusiones. Prima est quod 
+          cogni<lb ed="#V" n="47" break="no"/>hoc viso scimus intuitiue actum intelligendi in via. 
+          <lb ed="#V" n="48"/>hoc probo primo sic. Omnis noticia experimentalis est intuitiua 
+          <lb ed="#V" n="49"/>nura per abstractiuam nihil experimur de singularibus: sed 
+          <lb ed="#V" n="50"/>noticia actus intelligendi est experimentalis. experimur enim 
+          <lb ed="#V" n="51"/>nos intelliger. ergo ipse cognoscitur intuitiue.
+        </p>
+        <p xml:id="FrMS88-de7250-d1e191">
+          ¶  2o sic. Omnis 
+          <lb ed="#V" n="52"/>ista cognitio qua cognoscitur aliquid quod est in obiecto per 
+          ac<lb ed="#V" n="53" break="no"/>cidens illa est intuitiua: quia non potest esse abstractiua: quia 
+          re<lb ed="#V" n="54" break="no"/>praesentatiuum vniformiter repraesentat quantumcumque illa que insunt 
+          <lb ed="#V" n="55"/>per accidens varientur: sed noticia qua cognosco actum 
+          intel<lb ed="#V" n="56" break="no"/>ligendi cognosco quod nunc inest quod est sibi per accidens 
+        </p>
+        <p xml:id="FrMS88-de7250-d1e204">
+          <lb ed="#V" n="57"/>¶ 3o sic. Nulla veritas contingens potest cognosci per repraesentati 
+          <lb ed="#V" n="58"/>uum: quia semper repraesentat eodem modo quantumcumque contingentia 
+          vari<lb ed="#V" n="59" break="no"/>tur: sed veritas qua cognosco actum intelligendi existere 
+          <lb ed="#V" n="60"/>est contingens scilicet quod existit que est prima contingens de eo ergo 
+          co<lb ed="#V" n="61" break="no"/>gnoscitur intuitiue.
+        </p>
+        <p xml:id="FrMS88-de7250-d1e217">
+          ¶ 4o sic. Nulla veritas contingens potest esse 
+          <lb ed="#V" n="62"/>per se nota: nisi intuitiue: quia ex terminis non est per se 
+          <lb ed="#V" n="63"/>nota: sed actus existit et istam cognoscimus vt per se 
+          no<lb ed="#V" n="64" break="no"/>tam. ergo intuitiue: quia contingens.
+        </p>
+        <p xml:id="FrMS88-de7250-d1e226">
+          ¶ 2a conclusio est quod in anima nihi 
+          <lb ed="#V" n="65"/>cognoscitur intuitiue nisi actus: quod probo de essentia anime: quia 
+          <lb ed="#V" n="66"/>arguimus animam esse per actus. Eodem modo arguimus positias 
+          <!--25.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>esse per actus. Eodem modo de habitibus per signa quae videmus 
+          <lb ed="#V" n="68"/>in actibus: quia facilitur nunc operamur et non prius. Eodem modo 
+          <lb ed="#V" n="69"/>de specie: quia cognoscimus actum existere: et scimus quod obiectum non 
+          <lb ed="#V" n="70"/>est praesens: arguimus repraesentatiuum esse.
+        </p>
+        <p xml:id="FrMS88-de7250-d1e247">
+          ¶ Omnes iste conclusiones probam 
+          <lb ed="#V" n="71"/>tur vnico medio. Nihil quod cognoscitur praecise per discursum 
+          <lb ed="#V" n="72"/>cognoscitur intuitiue: sed omnia illa cognoscimus praecise per discursum 
+          <lb ed="#V" n="73"/>sicut patet de singulis. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de7250-d1e256">
+          ¶ 3a conclusio. est quod aliquid 
+          cogno<lb ed="#V" n="74" break="no"/>scimus abstractiue. hoc patet. quia omne illud quod directe et 
+          imme<lb ed="#V" n="75" break="no"/>diate cognoscitur et non existit cognoscitur abstractie. sed 
+          ro<lb ed="#V" n="76" break="no"/>sa non existens immediate et directe cognoscitur. ergo.
+        </p>
+        <p xml:id="FrMS88-de7250-d1e265">
+          ¶ 4a conclusio qs 
+          <lb ed="#V" n="77"/>aliqua cognoscimus discursiue. hoc patet. quia cognoscimus 
+          esenu<lb ed="#V" n="78" break="no"/>anime et eius potentias et non nisi discursiue. vt dicit 2a conclusio ergo etc. 
+          <lb ed="#V" n="79"/>sunt quatuor difficul. Prima quia anima nostra est 
+          <lb ed="#V" n="80"/>Sed hic ita perfecte sibi praesens: sicut actus cognoscendi. 
+          <lb ed="#V" n="81"/>ergo videtur quod eque debeat intuitiue cognosci.
+        </p>
+        <p xml:id="FrMS88-de7250-d1e278">
+          ¶ Dico ad 
+          <lb ed="#V" n="82"/>istud quod in causis formalibus non videtur posse assignari causa. sed 
+          <lb ed="#V" n="83"/>quare hoc non cognoscitur: nisi quia non cognoscitur: sed causam 
+          extrin<lb ed="#V" n="84" break="no"/>secam Aug. assignat quare non cognoscimus substantiam anim. scilicet pr 
+          <lb ed="#V" n="85"/>penam praeccai: ex hoc non potest intellectus intelligere: nec se 
+          ne<lb ed="#V" n="86" break="no"/>animam nec alia appraehensibilia.
+        </p>
+        <p xml:id="FrMS88-de7250-d1e291">
+          ¶ Secunda difficultas. Utrum actus 
+          <lb ed="#V" n="87"/>aliarum potentiarum cognoscantur intuitiue. Dico quod sic. quia non 
+          <lb ed="#V" n="88"/>possum videre quod si non viderent intuitiue quod aliqua veritas 
+          com<lb ed="#V" n="89" break="no"/>tingens de his que extra nos sunt puta de motu solis et 
+          ditu<lb ed="#V" n="90" break="no"/>multis aliis certam noticiam posset habere. Ex hoc enim 
+          cogno<lb ed="#V" n="91" break="no"/>sco caelum moueri: quia cognosco intuitiue actum potentie 
+          sen<lb ed="#V" n="92" break="no"/>sitiue ad hanc veritatem terminatum.
+        </p>
+        <p xml:id="FrMS88-de7250-d1e307">
+          ¶ 3a difficultas cum 
+          cogni<lb ed="#V" n="93" break="no"/>tio intuitiua sit perfecta: cur tot ignorantur de actu. nam 
+          infi<lb ed="#V" n="94" break="no"/>nite quaestiones formantur de eo et varie opiniones habentur: 
+          <lb ed="#V" n="95"/>vtrum sit aliquid relatiuum vel absolutum. et sic de aliis. 
+          Di<lb ed="#V" n="96" break="no"/>co quod quamuis intuitiue videatur: non tamen quantum ad omnem modum 
+          <lb ed="#V" n="97"/>cognitionis sue. videt enim visus totam albedinem: tamen non 
+          di<lb ed="#V" n="98" break="no"/>scernimus differentiam specificam eius. eodem modo hic.
+        </p>
+        <p xml:id="FrMS88-de7250-d1e324">
+          ¶ 4a diffincitur. 
+          <lb ed="#V" n="99"/>quando sunt aliqua essentialiter ordinata: si posterius cognoscitur et prius: 
+          <lb ed="#V" n="100"/>sed multa ignorantur de actu priora ipsa existentia quae est eis 
+          po<lb ed="#V" n="101" break="no"/>sterior. ergo magis illa ignorarem. Dico quod actum non 
+          cogno<lb ed="#V" n="102" break="no"/>scimus quantum ad suam propriam rationem: nec etiam existentiam actus: sed 
+          so<lb ed="#V" n="103" break="no"/>lum in generali quod existit. Si autem propriam eius naturam haberemus bene 
+          <lb ed="#V" n="104"/>curreret argumentum. Intellectendum est tamen ad euidentiam praedictorum 
+          <lb ed="#V" n="105"/>quod respcum noticie intuitiue obiectum habet quadruplicem rationem. primo 
+          <lb ed="#V" n="106"/>rationem mouentis in comparatione ad postiiom. 2o rationem causae vel 
+          produ<lb ed="#V" n="107" break="no"/>centis: et hoc per comperationem ad actum. 3o rationem mensurantis per 
+          con<lb ed="#V" n="108" break="no"/>parationem ad habitum: et etiam ad actu. 4o rationem terminantis eo 
+          <lb ed="#V" n="109"/>dem modo: ita quod omnia illa 4or habet obiectum facere in noticia 
+          intui<lb ed="#V" n="110" break="no"/>tiua. In noticia autem abstractiua non habet necessario nisi 
+          term<lb ed="#V" n="111" break="no"/>nare et mensurare: sine enim aliis duabus condieitionibus potest esse 
+          alb<lb ed="#V" n="112" break="no"/>stractiua. vt patet ex prius dictis.
+        </p>
+        <p xml:id="FrMS88-de7250-d1e357">
+          ¶ Ad argumentum in oppositums 
+          di<lb ed="#V" n="113" break="no"/>co quod apitulus loquitur de articulis fidei. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

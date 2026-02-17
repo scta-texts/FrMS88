@@ -1,91 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="12-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-de8320"><!-- l1d1q2 -->
-            <head xml:id="FrMS88-de8320-Hd1e108">Quaestio 2</head>
-            <p xml:id="FrMS88-de8320-d1e111">
-      Quaestio ii. 
-      <lb ed="#V" n="123"/>fruitio et delectatio sint idem. 
-      <lb ed="#V" n="124"/>Tum quod sic. Ecliastes. Non 
-      prohi<lb ed="#V" n="125" break="no"/>bui cor meum: vt omni voluptate frueretur. 
-      </p>
-            <p xml:id="FrMS88-de8320-d1e120">
-               <lb ed="#V" n="126"/>¶ Contra ad Timotheum. Deus dat frui omni 
-      <lb ed="#V" n="127"/>Ubus quibus est bene agem. dlectatio autem est passio. 
-      <lb ed="#V" n="128"/>istam quaestionem inducuntur quatuor signa per quo 
-      manife<lb ed="#V" n="129" break="no"/>Circa ste apparet quod ista distinguuntur. Primum in 
-      <lb ed="#V" n="130"/>hominibus de intemperato et incontinente. intemperatus enim operatur 
-      ma<lb ed="#V" n="131" break="no"/>lum sine delectatione: sed ex propria malitia: sicut ebriosus est 
-      <lb ed="#V" n="132"/>inebriari vult dato quod non delectetur. incontinens autem vincitur 
-      <!--28.xml-->
-      <pb ed="#V" n="13-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>potest stare quod libe. exitum de spiritus scomo.
-    </p>
-            <p xml:id="FrMS88-de8320-d1e146">
-      ¶ 3a difficultas vtrum possit 
-      causari<lb ed="#V" n="2" break="no"/>actus sine passione. et tamen habitus causetur. Dico quod sic. Nam 
-      <lb ed="#V" n="3"/>actu causato potest esse ita vehems passio opposita sic quod 
-      nul<lb ed="#V" n="4" break="no"/>lam passionem causabit: et tamen habitum causabit. Exentum in demonibus 
-      </p>
-            <p xml:id="FrMS88-de8320-d1e155">
-               <lb ed="#V" n="5"/>¶ 4o vtrum deus sit obiectum delectationis. Dico quod non. quia tunc 
-      <lb ed="#V" n="6"/>essent tres actus beatifici scilicet visio. fruitio. delectatus. Dico ergo 
-      <lb ed="#V" n="7"/>quod habet actum fruendi pro obiecto. deus autem dicitur dlectabilis: quia causat dle 
-      <lb ed="#V" n="8"/>ctatiatem.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="12-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-de8320"><!-- l1d1q2 -->
+        <head xml:id="FrMS88-de8320-Hd1e108">Quaestio 2</head>
+        <p xml:id="FrMS88-de8320-d1e111">
+          Quaestio ii. 
+          <lb ed="#V" n="123"/>fruitio et delectatio sint idem. 
+          <lb ed="#V" n="124"/>Tum quod sic. Ecliastes. Non 
+          prohi<lb ed="#V" n="125" break="no"/>bui cor meum: vt omni voluptate frueretur. 
+        </p>
+        <p xml:id="FrMS88-de8320-d1e120">
+          <lb ed="#V" n="126"/>¶ Contra ad Timotheum. Deus dat frui omni 
+          <lb ed="#V" n="127"/>Ubus quibus est bene agem. dlectatio autem est passio. 
+          <lb ed="#V" n="128"/>istam quaestionem inducuntur quatuor signa per quo 
+          manife<lb ed="#V" n="129" break="no"/>Circa ste apparet quod ista distinguuntur. Primum in 
+          <lb ed="#V" n="130"/>hominibus de intemperato et incontinente. intemperatus enim operatur 
+          ma<lb ed="#V" n="131" break="no"/>lum sine delectatione: sed ex propria malitia: sicut ebriosus est 
+          <lb ed="#V" n="132"/>inebriari vult dato quod non delectetur. incontinens autem vincitur 
+          <!--28.xml-->
+          <pb ed="#V" n="13-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>potest stare quod libe. exitum de spiritus scomo.
+        </p>
+        <p xml:id="FrMS88-de8320-d1e146">
+          ¶ 3a difficultas vtrum possit 
+          causari<lb ed="#V" n="2" break="no"/>actus sine passione. et tamen habitus causetur. Dico quod sic. Nam 
+          <lb ed="#V" n="3"/>actu causato potest esse ita vehems passio opposita sic quod 
+          nul<lb ed="#V" n="4" break="no"/>lam passionem causabit: et tamen habitum causabit. Exentum in demonibus 
+        </p>
+        <p xml:id="FrMS88-de8320-d1e155">
+          <lb ed="#V" n="5"/>¶ 4o vtrum deus sit obiectum delectationis. Dico quod non. quia tunc 
+          <lb ed="#V" n="6"/>essent tres actus beatifici scilicet visio. fruitio. delectatus. Dico ergo 
+          <lb ed="#V" n="7"/>quod habet actum fruendi pro obiecto. deus autem dicitur dlectabilis: quia causat dle 
+          <lb ed="#V" n="8"/>ctatiatem.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

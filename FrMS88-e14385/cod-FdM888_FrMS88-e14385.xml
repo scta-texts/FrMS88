@@ -1,99 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 11</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 11</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#V" n="21-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e14385"><!-- l1d2q11 -->
-            <head xml:id="FrMS88-e14385-Hd1e108">Quaestio 11</head>
-            <p xml:id="FrMS88-e14385-d1e111">
-      Quaestio. xi. 
-      <lb ed="#V" n="57"/>UTrum trinitas sit 
-      demonstrabi<lb ed="#V" n="58" break="no"/>lis demonstratione quia. 
-      <lb ed="#V" n="59"/>breuiter pono quatuor conclusiones secundum 
-      di<lb ed="#V" n="60" break="no"/>Hic stinctionem tactam in praecedenti quaestione 
-      <lb ed="#V" n="61"/>A Prima quod intellectui separato glorificato 
-      <lb ed="#V" n="62"/>non est demonstrabilis. Et ratio est eadem quae prius: quia intellectui 
-      <lb ed="#V" n="63"/>cui per se nota est aliqua propositio non potest demonstrari. trinitas autem 
-      <lb ed="#V" n="64"/>est tali intellectui per se nota. 2a conclusio quod intellectui 
-      separa<lb ed="#V" n="65" break="no"/>to eleuato vel intuitiue videnti diuinam essentiam: sicut prius. 
-      <lb ed="#V" n="66"/>3a quod intellectui habenti specie de diuina essentia potest demon¬ 
-      <!--44.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>strari. quia habens distinctam notitiam de aliqua propria ratione 
-      <lb ed="#V" n="68"/>potest habere notitiam de passione vel quasi passione illius rationis: 
-      <lb ed="#V" n="69"/>sed habens notitiam de passione immediata potest per illam de 
-      quidita<lb ed="#V" n="70" break="no"/>tate demonstrare mediatam: cum ergo possit talis intellectus habens 
-      <lb ed="#V" n="71"/>distinctam notitiam deitatis cognoscere eam esse infinitam 
-      <lb ed="#V" n="72"/>poterit per infinitatem tamquam per medium demonstrare 
-      trini<lb ed="#V" n="73" break="no"/>tatem. 4a conclusio de intellectu nostro coniucto: dico quod non: 
-      <lb ed="#V" n="74"/>quia inteliectus noster non cognoscit aliquid de deo: nisi per 
-      crea<lb ed="#V" n="75" break="no"/>turas: tunc arguo sic. per illud non potest cognosci 
-      demon<lb ed="#V" n="76" break="no"/>stratiue trinitas: quod ducit indifferenter in vnitatem et 
-      <lb ed="#V" n="77"/>pluralitatem: sed omnes effectus creati: quos 
-      cognosci<lb ed="#V" n="78" break="no"/>mus ducunt indifferenter in vnitatem et pluralitatem. ergo etc. 
-      </p>
-            <p xml:id="FrMS88-e14385-d1e166">
-               <lb ed="#V" n="79"/>¶ Praeterea. per illud non cognoscitur determinate pluralitas quod 
-      <lb ed="#V" n="80"/>est commune vni et pluribus: sed omnia quae naturaliter cognoscimus de 
-      <lb ed="#V" n="81"/>deo: sunt communia vni et pluribus. eque enim omnia 
-      con<lb ed="#V" n="82" break="no"/>ueniunt vni persone et pluribus.
-    </p>
-            <p xml:id="FrMS88-e14385-d1e177">
-      ¶ Patet ergo. quod 
-      demon<lb ed="#V" n="83" break="no"/>strari non potest: nec demonstratione quia: nec 
-      demonstra<lb ed="#V" n="84" break="no"/>tione propter quid: trinitas personarum quantum ad intel 
-      <lb ed="#V" n="85"/>iectum nostrum: pro statu isto. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 11</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 11</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="21-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e14385"><!-- l1d2q11 -->
+        <head xml:id="FrMS88-e14385-Hd1e108">Quaestio 11</head>
+        <p xml:id="FrMS88-e14385-d1e111">
+          Quaestio. xi. 
+          <lb ed="#V" n="57"/>UTrum trinitas sit 
+          demonstrabi<lb ed="#V" n="58" break="no"/>lis demonstratione quia. 
+          <lb ed="#V" n="59"/>breuiter pono quatuor conclusiones secundum 
+          di<lb ed="#V" n="60" break="no"/>Hic stinctionem tactam in praecedenti quaestione 
+          <lb ed="#V" n="61"/>A Prima quod intellectui separato glorificato 
+          <lb ed="#V" n="62"/>non est demonstrabilis. Et ratio est eadem quae prius: quia intellectui 
+          <lb ed="#V" n="63"/>cui per se nota est aliqua propositio non potest demonstrari. trinitas autem 
+          <lb ed="#V" n="64"/>est tali intellectui per se nota. 2a conclusio quod intellectui 
+          separa<lb ed="#V" n="65" break="no"/>to eleuato vel intuitiue videnti diuinam essentiam: sicut prius. 
+          <lb ed="#V" n="66"/>3a quod intellectui habenti specie de diuina essentia potest demon¬ 
+          <!--44.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>strari. quia habens distinctam notitiam de aliqua propria ratione 
+          <lb ed="#V" n="68"/>potest habere notitiam de passione vel quasi passione illius rationis: 
+          <lb ed="#V" n="69"/>sed habens notitiam de passione immediata potest per illam de 
+          quidita<lb ed="#V" n="70" break="no"/>tate demonstrare mediatam: cum ergo possit talis intellectus habens 
+          <lb ed="#V" n="71"/>distinctam notitiam deitatis cognoscere eam esse infinitam 
+          <lb ed="#V" n="72"/>poterit per infinitatem tamquam per medium demonstrare 
+          trini<lb ed="#V" n="73" break="no"/>tatem. 4a conclusio de intellectu nostro coniucto: dico quod non: 
+          <lb ed="#V" n="74"/>quia inteliectus noster non cognoscit aliquid de deo: nisi per 
+          crea<lb ed="#V" n="75" break="no"/>turas: tunc arguo sic. per illud non potest cognosci 
+          demon<lb ed="#V" n="76" break="no"/>stratiue trinitas: quod ducit indifferenter in vnitatem et 
+          <lb ed="#V" n="77"/>pluralitatem: sed omnes effectus creati: quos 
+          cognosci<lb ed="#V" n="78" break="no"/>mus ducunt indifferenter in vnitatem et pluralitatem. ergo etc. 
+        </p>
+        <p xml:id="FrMS88-e14385-d1e166">
+          <lb ed="#V" n="79"/>¶ Praeterea. per illud non cognoscitur determinate pluralitas quod 
+          <lb ed="#V" n="80"/>est commune vni et pluribus: sed omnia quae naturaliter cognoscimus de 
+          <lb ed="#V" n="81"/>deo: sunt communia vni et pluribus. eque enim omnia 
+          con<lb ed="#V" n="82" break="no"/>ueniunt vni persone et pluribus.
+        </p>
+        <p xml:id="FrMS88-e14385-d1e177">
+          ¶ Patet ergo. quod 
+          demon<lb ed="#V" n="83" break="no"/>strari non potest: nec demonstratione quia: nec 
+          demonstra<lb ed="#V" n="84" break="no"/>tione propter quid: trinitas personarum quantum ad intel 
+          <lb ed="#V" n="85"/>iectum nostrum: pro statu isto. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

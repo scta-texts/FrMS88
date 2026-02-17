@@ -1,300 +1,300 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 7</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 7</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="33-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e23162"><!-- l1d4q7 -->
-            <head xml:id="FrMS88-e23162-Hd1e108">Quaestio 7</head>
-            <p xml:id="FrMS88-e23162-d1e111">
-      Quaestio. vii. 
-      <lb ed="#V" n="11"/>gnatio divina sit actus elicitus. E 
-      <lb ed="#V" n="12"/>Trum videtur quod sic. quia hpela. de tri. 4o 
-      dei<lb ed="#V" n="13" break="no"/>cit. quod pater est actor filii. omnis aut actor per actum 
-      <lb ed="#V" n="14"/>elicitum agit.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e122">
-      ¶ Contra. idem hyla. In 
-      pa<lb ed="#V" n="15" break="no"/>tre non sunt nisi ingenita.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e127">
-      ¶ hic primo 
-      vi<lb ed="#V" n="16" break="no"/>dendum est. quid est esse elicitu. 2o ad quaestionem. 
-      <lb ed="#V" n="17"/>ad primum dicunt aliqui quod elicitio non est nisi 
-      <lb ed="#V" n="18"/>Quantum productio: et ideo actum esse elicitum non est 
-      ni<lb ed="#V" n="19" break="no"/>si actum esse productum.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e138">
-      ¶ Sed contra. hanc opionem arguo. 4r. 
-      Pri<lb ed="#V" n="20" break="no"/>mo sic. omnis forma generabilis est elicita a materia: sed constat quod ipsa n 
-      <lb ed="#V" n="21"/>est producta ab ipsa. ergo elicitio non est productio.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e146">
-      ¶ 2o sic. Omnis 
-      <lb ed="#V" n="22"/>actus in voluntate est ab ea elicitus: et tamen secundum multos: non omnis 
-      <lb ed="#V" n="23"/>ab ea est productus. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e153">
-      ¶ 3o sic. Omnes concedunt actum 
-      intelli<lb ed="#V" n="24" break="no"/>gendi esse elicitum ab intellectui: et tamen multi negant ipsum esse 
-      produ<lb ed="#V" n="25" break="no"/>ctum.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e160">
-      ¶ 4o sic. quia conclusiones eliciuntur a principiis: et tamen non pro 
-      <lb ed="#V" n="26"/>ducuntur ab ipsis: sed sunt effcuns essentialiter ordinati.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e165">
-      ¶ Ideo 
-      <lb ed="#V" n="27"/>dico quod elicitio est ratio formalis quaedam abstrahens ab omni causatio 
-      <lb ed="#V" n="28"/>ne: sicut productio ab omni factione: quia sicut omne quando fit producitur 
-      <lb ed="#V" n="29"/>et non econuerso: ita omne quod causatur elicitur et non econverso: ita quod 
-      <lb ed="#V" n="30"/>omnis causans elicit: sed non omne eliciens causat. 
-      <lb ed="#V" n="31"/>ad quaestionem pono 4or conclusiones. Prima est. quod 
-      <lb ed="#V" n="32"/>Quantum gnatio actiua in creaturis est actus 
-      elici<lb ed="#V" n="33" break="no"/>tus: quia omne quod causatur elicitur: vt patet per praedicta: sed geneartio actiua 
-      causa<lb ed="#V" n="34" break="no"/>tur a suo fundamento in genere causane materialis. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e185">
-      ¶ Praeterea quod 
-      con<lb ed="#V" n="35" break="no"/>tur effectiue elicitur: sed huiusmodi est genertio actiua: vt nunc 
-      supponor<lb ed="#V" n="36" break="no"/>quia causatur vel producitur a suo termino. ergo elicitur.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e192">
-      ¶ 2a conclusio. quod 
-      <lb ed="#V" n="37"/>gnato passiua in creaturis est elicita. nam omne accidens elicitur eat 
-      <lb ed="#V" n="38"/>suo subiecto: sicut materialiter causatur ab eo: sed geneatio passiua in creaturis 
-      <lb ed="#V" n="39"/>materialiter causatur a suo subiecto. ergo elicitur. Nam ipsa est accidens: quia 
-      <lb ed="#V" n="40"/>posset esse et fieri subiectum sine ea: quia posset totaliter fieri 
-      <lb ed="#V" n="41"/>deo.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e206">
-      ¶ Praeterea. certum est quod illud quod causatur effectiue elicitur: sed 
-      pro<lb ed="#V" n="42" break="no"/>ductio passiua in creaturis causatur effectiue a suo principio 
-      pro<lb ed="#V" n="43" break="no"/>ductiuo. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e213">
-      ¶ 3a conclusio est. illud quod quaerit quaesti scilicet quod genertio in 
-      di<lb ed="#V" n="44" break="no"/>uinis non est actus elicitus. geneartio dico actiua.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e218">
-      ¶ hanc conclusion 
-      <lb ed="#V" n="45"/>probo. 4r Primo sic. Impossibile est quod principium constitutiuum alicus 
-      sup<lb ed="#V" n="46" break="no"/>positi eliciatur ab illo supposito: sed gneratio actiuam est 
-      constitu<lb ed="#V" n="47" break="no"/>tiua patris. ergo etc. Probo maiorem. omne eliciens vel 
-      produ<lb ed="#V" n="48" break="no"/>cens formale constitutiuum alicus suppositi elicit vel 
-      produ<lb ed="#V" n="49" break="no"/>cit totum suppositum constitutum. si igitur gnartio esset elicita a 
-      pa<lb ed="#V" n="50" break="no"/>tre. pater eliceret vel produceret seipsum. quod est manifeste 
-      fal<lb ed="#V" n="51" break="no"/>sum.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e236">
-      ¶ Confirmatur. quia si aliquid eliceret ipsam generationem: 
-      il<lb ed="#V" n="52" break="no"/>lud videretur esse persona patris. cum ipsa sit simpliciter primum eliciens 
-      <lb ed="#V" n="53"/>sed hoc est impossibile: quia nullum posterius elicit prius. gnerio autem 
-      <lb ed="#V" n="54"/>actiua est prior ipso patre: quia ipsum constituit.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e245">
-      ¶ 2o sic. nihi 
-      <lb ed="#V" n="55"/>quod est elicitum ab aliquo supposito divino est in eodem 
-      sup<lb ed="#V" n="56" break="no"/>posito divino: quia supositum est omne illud quod habet sed gneartio est: parte: 
-      <lb ed="#V" n="57"/>elicita. et est in patre: quia eius constitutiuum. ergo ab alia persona est 
-      <lb ed="#V" n="58"/>elicita. quod est falsum.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e256">
-      ¶ Confirmatur. omnia enim quae sunt in per 
-      <lb ed="#V" n="59"/>sona patris sunt idem realiter: et per consequens. inter ipsa non potest esse 
-      ori<lb ed="#V" n="60" break="no"/>go. cum per origines inuestiget Augustinus. primo de tri.t realem 
-      di<lb ed="#V" n="61" break="no"/>stinctionem personarum.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e266">
-      ¶ 3o sic. Omne quod est in patre a se est et 
-      <lb ed="#V" n="62"/>ingenitum: sed nullus actus elicitus est a se et ingenitus 
-      <lb ed="#V" n="63"/>ergo nullus actus elicitus est in patre. et per consequens gnertio 
-      acti<lb ed="#V" n="64" break="no"/>ua non est elicita.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e275">
-      ¶ 4o sic. primum eliciens impossibile est esse 
-      eli<lb ed="#V" n="65" break="no"/>citum: quia per aliud esset elicitum: et sic non esset primum. ergo primmam 
-      <lb ed="#V" n="66"/>elicitionem impossibile est esse elicitam: quia per aliam esset elicita: sed 
-      <!--68.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>gnatio est simpliciter prima elicitio. ergo impossibile est geneationem actiuam esse 
-      <lb ed="#V" n="68"/>elicitam.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e291">
-      ¶ Sed hic est vna difficultas quia si gnario non est actus elie 
-      <lb ed="#V" n="69"/>tus. nec potentia generatiua dicetur potentia elicitiua.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e296">
-      ¶ Dico quod potentia 
-      <lb ed="#V" n="70"/>generandi nec in diuinis nec in creaturis: vt talis potentia est: 
-      <lb ed="#V" n="71"/>elicit generationem. nec dicitur potentia elicitiua: quia potest elicere gnationem: 
-      <lb ed="#V" n="72"/>sicut ignis generans ignem dicitur generare ignem et non gneationem: quia 
-      ni<lb ed="#V" n="73" break="no"/>hil proprie gnatur nisi ipsa substantia.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e307">
-      ¶ Ideo dico quod generatiuum 
-      <lb ed="#V" n="74"/>non dicitur generatiuum respectu genationis. dato quod sit elicibilis: sed solum 
-      <lb ed="#V" n="75"/>respectu generabilis.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e314">
-      ¶ Et patet quod potentia generatiua non respicit 
-      <lb ed="#V" n="76"/>nisi genitum vel generabile: quod est praecise substantia et non gnartio ipsa 
-      </p>
-            <p xml:id="FrMS88-e23162-d1e320">
-               <lb ed="#V" n="77"/>¶ Sed contra. quandocumque potentia respicit aliquid mediante alio: non 
-      <lb ed="#V" n="78"/>potest in vltimum nisi per primum: sed generans non potest in genitum nun 
-      <lb ed="#V" n="79"/>si mediante generatione ergo si non elicit gnationem non elicit 
-      geni<lb ed="#V" n="80" break="no"/>tum.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e331">
-      ¶ Rspondeo dico quod illa propositio non est vera: quando illa duo 
-      <lb ed="#V" n="81"/>que ordinate respicit potentia sunt alterius et alterius 
-      <lb ed="#V" n="82"/>rationis. sicut patet de effectibus ordinatis. voluntas enim non potest 
-      <lb ed="#V" n="83"/>impare aliquem actum nisi mediante elicito: et tamen elicitum. 
-      eli<lb ed="#V" n="84" break="no"/>cit: et impatum non. Et sic dico in proposituo quod potentia generatiua 
-      re<lb ed="#V" n="85" break="no"/>spicit generationem: sicut fundamentum respicit respectum 
-      fun<lb ed="#V" n="86" break="no"/>datum in eo: sed respicit terminum: vt elicitum mediante 
-      ge<lb ed="#V" n="87" break="no"/>neratione.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e349">
-      ¶ 4a conclusio est. quod geneatio passiua non est aliquid 
-      eli<lb ed="#V" n="88" break="no"/>citum in diuinis. Et hoc probo dupliciter.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e354">
-      ¶ Primo sic. 
-      gnatio<lb ed="#V" n="89" break="no"/>nis non est geneatio. et elicitionis non est elicitio. sed productio 
-      <lb ed="#V" n="90"/>passiua est gneratio et elicitio. ergo ipsius non est gneatio nec elicitio. 
-      <lb ed="#V" n="91"/>maior est manifesta. alioquin esset processus in infinitum.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e363">
-      ¶ 2o 
-      <lb ed="#V" n="92"/>sic. nulla origo primi simpliciter originati est originata: sed 
-      <lb ed="#V" n="93"/>gnaton passiua est origo primi simpliciter originati: quia verbi: quia 
-      <lb ed="#V" n="94"/>est primum simpliciter originatum ergo ipsa non est originata. 
-      Ma<lb ed="#V" n="95" break="no"/>ior patet. nam si origo talis esset originata. cum ipsa vt sic: 
-      pram<lb ed="#V" n="96" break="no"/>cedat originatum per eam. quia eius constitutiua. tunc ipsa esset prius 
-      <lb ed="#V" n="97"/>originata.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e379">
-      ¶ Contra istas conclusiones instatur 4r. Primo sic. contra 
-      pri<lb ed="#V" n="98" break="no"/>mam. si gnatio actiua in creaturis esset elicita. cum ipsa sit 
-      eli<lb ed="#V" n="99" break="no"/>citio. elicitionis esset elicitio: et generationis esset gneratio. quod ad. 
-      <lb ed="#V" n="100"/>duxisti tanquam inconueniens in probatione quarte conclusionis.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e389">
-      ¶ 2o 
-      <lb ed="#V" n="101"/>sic. contra secundam. nulla res elicitur nisi per elicitionem formaliter 
-      <lb ed="#V" n="102"/>in ea existentem: sicut nihil mouetur nisi per motum in eo existentem 
-      <lb ed="#V" n="103"/>formaliter: sed geneatio passiua in creaturis non habet in se 
-      fo<lb ed="#V" n="104" break="no"/>maliter geneationem nec elicitionem. ergo non elicitur: et similiter elici 
-      <lb ed="#V" n="105"/>tionis esset elicitio.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e402">
-      ¶ 3a contra tertiam. Omnis actus 2o videtur a prio 
-      <lb ed="#V" n="106"/>esse elicitus: sed gneratio in diuinis est actus 2us. ergo a primo erit 
-      eli<lb ed="#V" n="107" break="no"/>cita.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e409">
-      ¶ 4a contra 4m sic. secundum Aug. et hyla. de tri. in pluribus 
-      <lb ed="#V" n="108"/>locis. quicquid habet filius habet natum: sed filius habet gnationem 
-      pas<lb ed="#V" n="109" break="no"/>siuam. ergo habet ipsam natam. sed omne quod habetur natum est natum: quia nihil 
-      <lb ed="#V" n="110"/>habetur tale nisi illud sit tale. ergo geneatio passiua erit nata. 
-      </p>
-            <p xml:id="FrMS88-e23162-d1e418">
-               <lb ed="#V" n="111"/>¶ Ad primum dico quod hoc speciale est in relationbius et 
-      respecti<lb ed="#V" n="112" break="no"/>bus. quod licet sint ab alio in aliquo genere causalitatis: non 
-      ta<lb ed="#V" n="113" break="no"/>men mediante alio respectu causalitatis: et ideo dico quod 
-      <lb ed="#V" n="114"/>generatio actiua elicitur et originatur non vlteriori orig 
-      <lb ed="#V" n="115"/>natione: sed seipsa.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e431">
-      ¶ Ad 2m dico quod ipsa generatio 
-      passi<lb ed="#V" n="116" break="no"/>ua seipsa est elicita a termino seu a fundamento 
-      generatio<lb ed="#V" n="117" break="no"/>nis actiue: et forte posset poni quod habet respectum 
-      elicibi<lb ed="#V" n="118" break="no"/>lis passiue ad fundamentu. Vel dicatur quod seipsa elicitur: 
-      <lb ed="#V" n="119"/>et non alia.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e442">
-      ¶ Ad 3m dico quod quandocumque 2us actus differt 
-      rea<lb ed="#V" n="120" break="no"/>liter a primo. tunc est vera propositio. quod originatur a primo: quia autm 
-      <lb ed="#V" n="121"/>generare qui est actus secudus non differt realiter a me 
-      <lb ed="#V" n="122"/>moria. qui est actus primus: ideo non originatur ab ea¬ 
-      </p>
-            <p xml:id="FrMS88-e23162-d1e452">
-               <lb ed="#V" n="123"/>¶ Ad 4m dico quod sicut in creaturis omnia sunt creata per 
-      <lb ed="#V" n="124"/>creationem in eis formaliter existentem: ita quod ipsa creatio non 
-      <lb ed="#V" n="125"/>est isto modo creata: sed est illud quo alia creantur: ita potentia 
-      <lb ed="#V" n="126"/>dici quod quicquid est in filio est natum aliquo modo prete 
-      <lb ed="#V" n="127"/>ipsam natiuitatem.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e465">
-      ¶ Sed contra. quia ipsa gneartio que est in 
-      fi<lb ed="#V" n="128" break="no"/>lio est a patre. cum nihil filius habeat a se. et sic aliquo modo est 
-      na<lb ed="#V" n="129" break="no"/>ta et elicita.
-    </p>
-            <p xml:id="FrMS88-e23162-d1e472">
-      ¶ Dico quod solus filius est a patre natus vi 
-      <lb ed="#V" n="130"/>quod. Alia autem sunt a patre in filio vt quo scilicet essentia et 
-      rela<lb ed="#V" n="131" break="no"/>tio. Essentia enim est in filio vt quo. et ratio essendi simpliciter: 
-      <lb ed="#V" n="132"/>sed filiatio est in filio. non ratio essendi simpliciter: sed essendi¬ 
-      <!--69.xml-->
-      <pb ed="#V" n="33-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>filium: et ideo vtrumque est quo: solus autem filius est quod. 
-      </p>
-            <p xml:id="FrMS88-e23162-d1e490">
-               <lb ed="#V" n="2"/>¶ Ad auctoritatem in principio dico. quod pater est actor: quia 
-      <lb ed="#V" n="3"/>auctoritatem habet. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 7</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 7</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="33-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e23162"><!-- l1d4q7 -->
+        <head xml:id="FrMS88-e23162-Hd1e108">Quaestio 7</head>
+        <p xml:id="FrMS88-e23162-d1e111">
+          Quaestio. vii. 
+          <lb ed="#V" n="11"/>gnatio divina sit actus elicitus. E 
+          <lb ed="#V" n="12"/>Trum videtur quod sic. quia hpela. de tri. 4o 
+          dei<lb ed="#V" n="13" break="no"/>cit. quod pater est actor filii. omnis aut actor per actum 
+          <lb ed="#V" n="14"/>elicitum agit.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e122">
+          ¶ Contra. idem hyla. In 
+          pa<lb ed="#V" n="15" break="no"/>tre non sunt nisi ingenita.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e127">
+          ¶ hic primo 
+          vi<lb ed="#V" n="16" break="no"/>dendum est. quid est esse elicitu. 2o ad quaestionem. 
+          <lb ed="#V" n="17"/>ad primum dicunt aliqui quod elicitio non est nisi 
+          <lb ed="#V" n="18"/>Quantum productio: et ideo actum esse elicitum non est 
+          ni<lb ed="#V" n="19" break="no"/>si actum esse productum.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e138">
+          ¶ Sed contra. hanc opionem arguo. 4r. 
+          Pri<lb ed="#V" n="20" break="no"/>mo sic. omnis forma generabilis est elicita a materia: sed constat quod ipsa n 
+          <lb ed="#V" n="21"/>est producta ab ipsa. ergo elicitio non est productio.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e146">
+          ¶ 2o sic. Omnis 
+          <lb ed="#V" n="22"/>actus in voluntate est ab ea elicitus: et tamen secundum multos: non omnis 
+          <lb ed="#V" n="23"/>ab ea est productus. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e153">
+          ¶ 3o sic. Omnes concedunt actum 
+          intelli<lb ed="#V" n="24" break="no"/>gendi esse elicitum ab intellectui: et tamen multi negant ipsum esse 
+          produ<lb ed="#V" n="25" break="no"/>ctum.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e160">
+          ¶ 4o sic. quia conclusiones eliciuntur a principiis: et tamen non pro 
+          <lb ed="#V" n="26"/>ducuntur ab ipsis: sed sunt effcuns essentialiter ordinati.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e165">
+          ¶ Ideo 
+          <lb ed="#V" n="27"/>dico quod elicitio est ratio formalis quaedam abstrahens ab omni causatio 
+          <lb ed="#V" n="28"/>ne: sicut productio ab omni factione: quia sicut omne quando fit producitur 
+          <lb ed="#V" n="29"/>et non econuerso: ita omne quod causatur elicitur et non econverso: ita quod 
+          <lb ed="#V" n="30"/>omnis causans elicit: sed non omne eliciens causat. 
+          <lb ed="#V" n="31"/>ad quaestionem pono 4or conclusiones. Prima est. quod 
+          <lb ed="#V" n="32"/>Quantum gnatio actiua in creaturis est actus 
+          elici<lb ed="#V" n="33" break="no"/>tus: quia omne quod causatur elicitur: vt patet per praedicta: sed geneartio actiua 
+          causa<lb ed="#V" n="34" break="no"/>tur a suo fundamento in genere causane materialis. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e185">
+          ¶ Praeterea quod 
+          con<lb ed="#V" n="35" break="no"/>tur effectiue elicitur: sed huiusmodi est genertio actiua: vt nunc 
+          supponor<lb ed="#V" n="36" break="no"/>quia causatur vel producitur a suo termino. ergo elicitur.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e192">
+          ¶ 2a conclusio. quod 
+          <lb ed="#V" n="37"/>gnato passiua in creaturis est elicita. nam omne accidens elicitur eat 
+          <lb ed="#V" n="38"/>suo subiecto: sicut materialiter causatur ab eo: sed geneatio passiua in creaturis 
+          <lb ed="#V" n="39"/>materialiter causatur a suo subiecto. ergo elicitur. Nam ipsa est accidens: quia 
+          <lb ed="#V" n="40"/>posset esse et fieri subiectum sine ea: quia posset totaliter fieri 
+          <lb ed="#V" n="41"/>deo.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e206">
+          ¶ Praeterea. certum est quod illud quod causatur effectiue elicitur: sed 
+          pro<lb ed="#V" n="42" break="no"/>ductio passiua in creaturis causatur effectiue a suo principio 
+          pro<lb ed="#V" n="43" break="no"/>ductiuo. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e213">
+          ¶ 3a conclusio est. illud quod quaerit quaesti scilicet quod genertio in 
+          di<lb ed="#V" n="44" break="no"/>uinis non est actus elicitus. geneartio dico actiua.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e218">
+          ¶ hanc conclusion 
+          <lb ed="#V" n="45"/>probo. 4r Primo sic. Impossibile est quod principium constitutiuum alicus 
+          sup<lb ed="#V" n="46" break="no"/>positi eliciatur ab illo supposito: sed gneratio actiuam est 
+          constitu<lb ed="#V" n="47" break="no"/>tiua patris. ergo etc. Probo maiorem. omne eliciens vel 
+          produ<lb ed="#V" n="48" break="no"/>cens formale constitutiuum alicus suppositi elicit vel 
+          produ<lb ed="#V" n="49" break="no"/>cit totum suppositum constitutum. si igitur gnartio esset elicita a 
+          pa<lb ed="#V" n="50" break="no"/>tre. pater eliceret vel produceret seipsum. quod est manifeste 
+          fal<lb ed="#V" n="51" break="no"/>sum.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e236">
+          ¶ Confirmatur. quia si aliquid eliceret ipsam generationem: 
+          il<lb ed="#V" n="52" break="no"/>lud videretur esse persona patris. cum ipsa sit simpliciter primum eliciens 
+          <lb ed="#V" n="53"/>sed hoc est impossibile: quia nullum posterius elicit prius. gnerio autem 
+          <lb ed="#V" n="54"/>actiua est prior ipso patre: quia ipsum constituit.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e245">
+          ¶ 2o sic. nihi 
+          <lb ed="#V" n="55"/>quod est elicitum ab aliquo supposito divino est in eodem 
+          sup<lb ed="#V" n="56" break="no"/>posito divino: quia supositum est omne illud quod habet sed gneartio est: parte: 
+          <lb ed="#V" n="57"/>elicita. et est in patre: quia eius constitutiuum. ergo ab alia persona est 
+          <lb ed="#V" n="58"/>elicita. quod est falsum.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e256">
+          ¶ Confirmatur. omnia enim quae sunt in per 
+          <lb ed="#V" n="59"/>sona patris sunt idem realiter: et per consequens. inter ipsa non potest esse 
+          ori<lb ed="#V" n="60" break="no"/>go. cum per origines inuestiget Augustinus. primo de tri.t realem 
+          di<lb ed="#V" n="61" break="no"/>stinctionem personarum.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e266">
+          ¶ 3o sic. Omne quod est in patre a se est et 
+          <lb ed="#V" n="62"/>ingenitum: sed nullus actus elicitus est a se et ingenitus 
+          <lb ed="#V" n="63"/>ergo nullus actus elicitus est in patre. et per consequens gnertio 
+          acti<lb ed="#V" n="64" break="no"/>ua non est elicita.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e275">
+          ¶ 4o sic. primum eliciens impossibile est esse 
+          eli<lb ed="#V" n="65" break="no"/>citum: quia per aliud esset elicitum: et sic non esset primum. ergo primmam 
+          <lb ed="#V" n="66"/>elicitionem impossibile est esse elicitam: quia per aliam esset elicita: sed 
+          <!--68.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>gnatio est simpliciter prima elicitio. ergo impossibile est geneationem actiuam esse 
+          <lb ed="#V" n="68"/>elicitam.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e291">
+          ¶ Sed hic est vna difficultas quia si gnario non est actus elie 
+          <lb ed="#V" n="69"/>tus. nec potentia generatiua dicetur potentia elicitiua.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e296">
+          ¶ Dico quod potentia 
+          <lb ed="#V" n="70"/>generandi nec in diuinis nec in creaturis: vt talis potentia est: 
+          <lb ed="#V" n="71"/>elicit generationem. nec dicitur potentia elicitiua: quia potest elicere gnationem: 
+          <lb ed="#V" n="72"/>sicut ignis generans ignem dicitur generare ignem et non gneationem: quia 
+          ni<lb ed="#V" n="73" break="no"/>hil proprie gnatur nisi ipsa substantia.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e307">
+          ¶ Ideo dico quod generatiuum 
+          <lb ed="#V" n="74"/>non dicitur generatiuum respectu genationis. dato quod sit elicibilis: sed solum 
+          <lb ed="#V" n="75"/>respectu generabilis.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e314">
+          ¶ Et patet quod potentia generatiua non respicit 
+          <lb ed="#V" n="76"/>nisi genitum vel generabile: quod est praecise substantia et non gnartio ipsa 
+        </p>
+        <p xml:id="FrMS88-e23162-d1e320">
+          <lb ed="#V" n="77"/>¶ Sed contra. quandocumque potentia respicit aliquid mediante alio: non 
+          <lb ed="#V" n="78"/>potest in vltimum nisi per primum: sed generans non potest in genitum nun 
+          <lb ed="#V" n="79"/>si mediante generatione ergo si non elicit gnationem non elicit 
+          geni<lb ed="#V" n="80" break="no"/>tum.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e331">
+          ¶ Rspondeo dico quod illa propositio non est vera: quando illa duo 
+          <lb ed="#V" n="81"/>que ordinate respicit potentia sunt alterius et alterius 
+          <lb ed="#V" n="82"/>rationis. sicut patet de effectibus ordinatis. voluntas enim non potest 
+          <lb ed="#V" n="83"/>impare aliquem actum nisi mediante elicito: et tamen elicitum. 
+          eli<lb ed="#V" n="84" break="no"/>cit: et impatum non. Et sic dico in proposituo quod potentia generatiua 
+          re<lb ed="#V" n="85" break="no"/>spicit generationem: sicut fundamentum respicit respectum 
+          fun<lb ed="#V" n="86" break="no"/>datum in eo: sed respicit terminum: vt elicitum mediante 
+          ge<lb ed="#V" n="87" break="no"/>neratione.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e349">
+          ¶ 4a conclusio est. quod geneatio passiua non est aliquid 
+          eli<lb ed="#V" n="88" break="no"/>citum in diuinis. Et hoc probo dupliciter.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e354">
+          ¶ Primo sic. 
+          gnatio<lb ed="#V" n="89" break="no"/>nis non est geneatio. et elicitionis non est elicitio. sed productio 
+          <lb ed="#V" n="90"/>passiua est gneratio et elicitio. ergo ipsius non est gneatio nec elicitio. 
+          <lb ed="#V" n="91"/>maior est manifesta. alioquin esset processus in infinitum.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e363">
+          ¶ 2o 
+          <lb ed="#V" n="92"/>sic. nulla origo primi simpliciter originati est originata: sed 
+          <lb ed="#V" n="93"/>gnaton passiua est origo primi simpliciter originati: quia verbi: quia 
+          <lb ed="#V" n="94"/>est primum simpliciter originatum ergo ipsa non est originata. 
+          Ma<lb ed="#V" n="95" break="no"/>ior patet. nam si origo talis esset originata. cum ipsa vt sic: 
+          pram<lb ed="#V" n="96" break="no"/>cedat originatum per eam. quia eius constitutiua. tunc ipsa esset prius 
+          <lb ed="#V" n="97"/>originata.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e379">
+          ¶ Contra istas conclusiones instatur 4r. Primo sic. contra 
+          pri<lb ed="#V" n="98" break="no"/>mam. si gnatio actiua in creaturis esset elicita. cum ipsa sit 
+          eli<lb ed="#V" n="99" break="no"/>citio. elicitionis esset elicitio: et generationis esset gneratio. quod ad. 
+          <lb ed="#V" n="100"/>duxisti tanquam inconueniens in probatione quarte conclusionis.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e389">
+          ¶ 2o 
+          <lb ed="#V" n="101"/>sic. contra secundam. nulla res elicitur nisi per elicitionem formaliter 
+          <lb ed="#V" n="102"/>in ea existentem: sicut nihil mouetur nisi per motum in eo existentem 
+          <lb ed="#V" n="103"/>formaliter: sed geneatio passiua in creaturis non habet in se 
+          fo<lb ed="#V" n="104" break="no"/>maliter geneationem nec elicitionem. ergo non elicitur: et similiter elici 
+          <lb ed="#V" n="105"/>tionis esset elicitio.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e402">
+          ¶ 3a contra tertiam. Omnis actus 2o videtur a prio 
+          <lb ed="#V" n="106"/>esse elicitus: sed gneratio in diuinis est actus 2us. ergo a primo erit 
+          eli<lb ed="#V" n="107" break="no"/>cita.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e409">
+          ¶ 4a contra 4m sic. secundum Aug. et hyla. de tri. in pluribus 
+          <lb ed="#V" n="108"/>locis. quicquid habet filius habet natum: sed filius habet gnationem 
+          pas<lb ed="#V" n="109" break="no"/>siuam. ergo habet ipsam natam. sed omne quod habetur natum est natum: quia nihil 
+          <lb ed="#V" n="110"/>habetur tale nisi illud sit tale. ergo geneatio passiua erit nata. 
+        </p>
+        <p xml:id="FrMS88-e23162-d1e418">
+          <lb ed="#V" n="111"/>¶ Ad primum dico quod hoc speciale est in relationbius et 
+          respecti<lb ed="#V" n="112" break="no"/>bus. quod licet sint ab alio in aliquo genere causalitatis: non 
+          ta<lb ed="#V" n="113" break="no"/>men mediante alio respectu causalitatis: et ideo dico quod 
+          <lb ed="#V" n="114"/>generatio actiua elicitur et originatur non vlteriori orig 
+          <lb ed="#V" n="115"/>natione: sed seipsa.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e431">
+          ¶ Ad 2m dico quod ipsa generatio 
+          passi<lb ed="#V" n="116" break="no"/>ua seipsa est elicita a termino seu a fundamento 
+          generatio<lb ed="#V" n="117" break="no"/>nis actiue: et forte posset poni quod habet respectum 
+          elicibi<lb ed="#V" n="118" break="no"/>lis passiue ad fundamentu. Vel dicatur quod seipsa elicitur: 
+          <lb ed="#V" n="119"/>et non alia.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e442">
+          ¶ Ad 3m dico quod quandocumque 2us actus differt 
+          rea<lb ed="#V" n="120" break="no"/>liter a primo. tunc est vera propositio. quod originatur a primo: quia autm 
+          <lb ed="#V" n="121"/>generare qui est actus secudus non differt realiter a me 
+          <lb ed="#V" n="122"/>moria. qui est actus primus: ideo non originatur ab ea¬ 
+        </p>
+        <p xml:id="FrMS88-e23162-d1e452">
+          <lb ed="#V" n="123"/>¶ Ad 4m dico quod sicut in creaturis omnia sunt creata per 
+          <lb ed="#V" n="124"/>creationem in eis formaliter existentem: ita quod ipsa creatio non 
+          <lb ed="#V" n="125"/>est isto modo creata: sed est illud quo alia creantur: ita potentia 
+          <lb ed="#V" n="126"/>dici quod quicquid est in filio est natum aliquo modo prete 
+          <lb ed="#V" n="127"/>ipsam natiuitatem.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e465">
+          ¶ Sed contra. quia ipsa gneartio que est in 
+          fi<lb ed="#V" n="128" break="no"/>lio est a patre. cum nihil filius habeat a se. et sic aliquo modo est 
+          na<lb ed="#V" n="129" break="no"/>ta et elicita.
+        </p>
+        <p xml:id="FrMS88-e23162-d1e472">
+          ¶ Dico quod solus filius est a patre natus vi 
+          <lb ed="#V" n="130"/>quod. Alia autem sunt a patre in filio vt quo scilicet essentia et 
+          rela<lb ed="#V" n="131" break="no"/>tio. Essentia enim est in filio vt quo. et ratio essendi simpliciter: 
+          <lb ed="#V" n="132"/>sed filiatio est in filio. non ratio essendi simpliciter: sed essendi¬ 
+          <!--69.xml-->
+          <pb ed="#V" n="33-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>filium: et ideo vtrumque est quo: solus autem filius est quod. 
+        </p>
+        <p xml:id="FrMS88-e23162-d1e490">
+          <lb ed="#V" n="2"/>¶ Ad auctoritatem in principio dico. quod pater est actor: quia 
+          <lb ed="#V" n="3"/>auctoritatem habet. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,220 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 9</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 9</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#V" n="27-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e18563"><!-- l1d3q9 -->
-            <head xml:id="FrMS88-e18563-Hd1e108">Quaestio 9</head>
-            <p xml:id="FrMS88-e18563-d1e111">
-      Quaestio. ix. 
-      <lb ed="#V" n="22"/>in via per intellectum possumus cognoscen 
-      <lb ed="#V" n="23"/>Tu aliquod singulare. Quod non Augs de 
-      <lb ed="#V" n="24"/>ci. io. sensibilia per sensum. intelligibilia per 
-      im<lb ed="#V" n="25" break="no"/>tellectum. non intelligibilia per sensum nec 
-      sen<lb ed="#V" n="26" break="no"/>lsibilia per intellectum: sed singulare est 
-      sensibi<lb ed="#V" n="27" break="no"/>le. ergo non intelligibile.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e127">
-      ¶ Contra. intellectus negociatur circa 
-      <lb ed="#V" n="28"/>eterna per portionem superiorem secundum Augustinu. 12. de tri. 
-      Cir<lb ed="#V" n="29" break="no"/>ca autem temporalia per portionem inferiorem. ergo oportet quod ista 
-      distin<lb ed="#V" n="30" break="no"/>cte cognocat. et sic cum eterna sint singularia. ergo etc. 
-      <lb ed="#V" n="31"/>aliqui quod solum singularia intelligimus: 
-      <lb ed="#V" n="32"/>hic dicunt quia illa praecise intelligimus quae mouent 
-      <lb ed="#V" n="33"/>ad intellectionem sui: sed praecise singularia mouent ad 
-      intelle<lb ed="#V" n="34" break="no"/>ctionem sui: quia actiones sunt singularium. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e145">
-      ¶ Contra 
-      <lb ed="#V" n="35"/>istud arguo. 4r. primo sic. Intelligens quiditate potest demonstrare 
-      <lb ed="#V" n="36"/>passionem de subiecto. ergo intelligens singulare poterit 
-      aliquao<lb ed="#V" n="37" break="no"/>passionem de ipso demonstrare. et tunc erit scientia de 
-      singula<lb ed="#V" n="38" break="no"/>ribus. quod est falsdum.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e156">
-      ¶ Confirmatur. quia intelligens singulare v 
-      <lb ed="#V" n="39"/>singulare est potest cognoscere et demonstrare de eo id quod 
-      con<lb ed="#V" n="40" break="no"/>uenit sibi vt singulare est: sed distinctio sui ab alio 
-      indiui<lb ed="#V" n="41" break="no"/>duo competit sibi inquantum singulare est. ergo talis distinctio 
-      <lb ed="#V" n="42"/>poterit de eo demonstrari.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e168">
-      ¶ 2o sic. Intelligens per repraesenta 
-      <lb ed="#V" n="43"/>tiuum quod indinter repraesentat et vniformiter siue res existat 
-      si<lb ed="#V" n="44" break="no"/>ue non: non intelligit rem existentem esse: sed intelligens rem esse 
-      sin<lb ed="#V" n="45" break="no"/>gularem intelligit eam existem. Probo minorem. nam quoi 
-      intelligi<lb ed="#V" n="46" break="no"/>rem in vltimata eius actualitate intelligit rem existentem. quia si non 
-      ad<lb ed="#V" n="47" break="no"/>huc: non esset in vltimata actualitate: sed intelligens rem es 
-      <lb ed="#V" n="48"/>singularem intelligit eam in vltimata eius actualitate. ergo 
-      intel<lb ed="#V" n="49" break="no"/>ligit eam existentem. Tunc vltra: sed intellectus noster praecise pro statu isto 
-      <lb ed="#V" n="50"/>intelligit per tale repraesentatiuum. ergo intellectus noster non poterit 
-      intelli<lb ed="#V" n="51" break="no"/>gem singlasratrm: vt singulare est.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e190">
-      ¶ 3o sic. illud quod intelligit per 
-      <lb ed="#V" n="52"/>repraesentatiuum vniformiter repraesentans non intelligit aliquid 
-      de<lb ed="#V" n="53" break="no"/>his quae insunt sibi per accidens: sed proprietates indiuiduales 
-      in<lb ed="#V" n="54" break="no"/>sunt per accidens ei quod repraesentatur per repraesentatitum. ergo per repraesentati 
-      <lb ed="#V" n="55"/>per quod intelligimus eas non cognocimus.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e201">
-      ¶ 4o sic. Omne quod 
-      intelli<lb ed="#V" n="56" break="no"/>git aliqua distincta vt distincta non decipitur circa distinctionem 
-      <lb ed="#V" n="57"/>eorum: sed intellectus decipitur circa distinctionem 
-      singula<lb ed="#V" n="58" break="no"/>rium. ergo intellectus noster non cognoscit ea vt distincta. 
-      <lb ed="#V" n="59"/>quod in via non possumus cognoscere sin 
-      <lb ed="#V" n="60"/>Ideo Dico gulare vt singulare: ita quod intelliga 
-      <lb ed="#V" n="61"/>singularitas vel elus heceitas scilicet differentia indiuidualis quae natura 
-      <lb ed="#V" n="62"/>sit hec.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e219">
-      ¶ Sed contra. hoc argumentum sic. Quicumque cognoscit relationem 
-      <lb ed="#V" n="63"/>vt relatio est cogscit terminum: sed intellectus noster cognoscit vniversale vt 
-      <lb ed="#V" n="64"/>iuersale: quod dicitur relatiue ad particulare. ergo cognoscit particulaturm: 
-      <lb ed="#V" n="65"/>quia correlatiua sunt. ergo simul cognoscuntur.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e228">
-      ¶ 2o sic. Illud quod 
-      <lb ed="#V" n="66"/>abstrahit aliquid ab aliquo necessario cognoscit illud: quia abstra 
-      <!--56.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>ctio fieri non potest ab ignoto: sed intellectus noster abstrahi vniversalia 
-      a<lb ed="#V" n="68" break="no"/>particularibus. ergo necessario cognoscit particularia. aliter enim non 
-      ab<lb ed="#V" n="69" break="no"/>straheret.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e244">
-      ¶ 3o sic. Omne intelligens aliquid existens inquantum existens 
-      <lb ed="#V" n="70"/>cognoscit particlusare et singulare: quia non potest existem nisi 
-      singu<lb ed="#V" n="71" break="no"/>lare: sed intellectus noster aliqua sic cognoscit. probo. Nam de primo ente 
-      pro<lb ed="#V" n="72" break="no"/>bat demonstratiue existentiam.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e254">
-      ¶ 4o sic. Omne cognoscens 
-      con<lb ed="#V" n="73" break="no"/>tingentia inquantum contingentia sunt necessario cognoscit 
-      singula<lb ed="#V" n="74" break="no"/>ria: quia nullum non singulare est contingens: sed intellectus noster 
-      co<lb ed="#V" n="75" break="no"/>gnoscit contingenreia: quia distinguit ea a necessaris. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e263">
-      ¶ Ad 
-      <lb ed="#V" n="76"/>primum dico quod oportet necessario propter argumentum dicere quod rationem particularis 
-      <lb ed="#V" n="77"/>cognoscimus saltem in generali: et talis cogno particularis 
-      suf<lb ed="#V" n="78" break="no"/>ficit ad cognonem vniuersalis: vt vniversale est propter relationem.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e272">
-      ¶ Ad 2m dico 
-      <lb ed="#V" n="79"/>quod abstractio diciet sic intelligi quod singulare mouet non per 
-      <lb ed="#V" n="80"/>rationem singularis: sed naturae: et sic intellectu intelligit naturam quae est 
-      <lb ed="#V" n="81"/>in singulari: non vt in singulari: sed vt natura: et ista est 
-      ab<lb ed="#V" n="82" break="no"/>stractio vniuersalis.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e283">
-      ¶ Ad 3m dico quod eo modo quo cognoscitur ali 
-      <lb ed="#V" n="83"/>quid vt existens potest dici quod cognoscitur vt singulare: sed non 
-      <lb ed="#V" n="84"/>cognosco primum vt existens est nisi in generali concipiendo existentiam: 
-      <lb ed="#V" n="85"/>et isto intelligo singulare scilicet in generali.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e292">
-      ¶ Ad 4m dico. 
-      eo<lb ed="#V" n="86" break="no"/>dem modo quod iste cognoscit singulare: sicut contingens: sed non 
-      <lb ed="#V" n="87"/>cognoscit nisi in generali: contingentiam alicuius. et sic nec eius 
-      <lb ed="#V" n="88"/>singularitatem. Nomo. enim intellectus potest iudicare de quolibet 
-      com<lb ed="#V" n="89" break="no"/>tingenti in particulari.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e303">
-      ¶ Sed adhuc remanent due difficultas 
-      <lb ed="#V" n="90"/>satis magne. Prima est de actu cognoscendi. arguo enim sic. quod 
-      <lb ed="#V" n="91"/>intuitiue cognoscitur: cognoscitur vt existens: et sic vt singulare sed 
-      <lb ed="#V" n="92"/>actus intelligendi intuitiue cognoscitur. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e313">
-      ¶ Dico ad  
-      <lb ed="#V" n="93"/>hoc quod cognitio intuitiua potest esse etiam quidammo confusa: ideo potesa 
-      <lb ed="#V" n="94"/>terminari ad aliquid quod est existens: et tamen non ad heceitatem. 
-      <lb ed="#V" n="95"/>quia si oppositum esset tunc possemus cognoscere differentiam et 
-      distin<lb ed="#V" n="96" break="no"/>ctionem actuum.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e324">
-      ¶ 2a difficultas est de sensu vtrum feratur super 
-      sin<lb ed="#V" n="97" break="no"/>gulare. Et dicitur communiter quod sic.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e329">
-      ¶ Sed contra. hoc arguo. quicunque 
-      <lb ed="#V" n="98"/>cognoscit principiam distinctiua cognoscit eorum distinctionem: sed 
-      <lb ed="#V" n="99"/>sensus noster non cognoscit distinctionem singularium. Nam 
-      positi<lb ed="#V" n="100" break="no"/>duobus singularibus cum omnibus accidentibus suis vniformibus 
-      <lb ed="#V" n="101"/>et eiusdem speciei sensus non discerneret inter ea. ver. ergo. de 
-      <lb ed="#V" n="102"/>duobus ouis similibus quantum ad omnia: et tamen distinguuntur numera 
-      <lb ed="#V" n="103"/>liter. vnde bene concedo quod semper sensus cognoscit singlsarem 
-      <lb ed="#V" n="104"/>sed tamen non vt singulare: nec fertur super rationem singularitatis 
-      <lb ed="#V" n="105"/>quia sic semper distingueret inter quacumque singularia: quod secundum est. 
-      </p>
-            <p xml:id="FrMS88-e18563-d1e349">
-               <lb ed="#V" n="106"/>¶ Sed tunc remanet vna difficultas quomodo scilicet poterimus 
-      di<lb ed="#V" n="107" break="no"/>scernem inter duo indiuidua eiusdem speciei. exquo eorum principium 
-      di<lb ed="#V" n="108" break="no"/>stinctiua non cognoscimus nec ea distincta cognolcemus 
-      </p>
-            <p xml:id="FrMS88-e18563-d1e358">
-               <lb ed="#V" n="109"/>¶ Dico quod nunquam hoc possemus nisi per distinctionem spe 
-      <lb ed="#V" n="110"/>cificam in accidentibus: sicut de duabus stellis propter situm diuersum 
-      <lb ed="#V" n="111"/>vel qualitatem vel figuram: et propter hoc si essent omnia similia non 
-      discer<lb ed="#V" n="112" break="no"/>neremus.
-    </p>
-            <p xml:id="FrMS88-e18563-d1e369">
-      ¶ Ad rationem in oposium dico quod Augustinus. non 
-      intel<lb ed="#V" n="113" break="no"/>ligit quin sensibilia et singularia intelligantur secundum qui 
-      <lb ed="#V" n="114"/>ditates eorum ab intellectu: sed tamen vult quod non 
-      intel<lb ed="#V" n="115" break="no"/>igantur secundum heceitates proprias. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 9</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 9</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="27-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e18563"><!-- l1d3q9 -->
+        <head xml:id="FrMS88-e18563-Hd1e108">Quaestio 9</head>
+        <p xml:id="FrMS88-e18563-d1e111">
+          Quaestio. ix. 
+          <lb ed="#V" n="22"/>in via per intellectum possumus cognoscen 
+          <lb ed="#V" n="23"/>Tu aliquod singulare. Quod non Augs de 
+          <lb ed="#V" n="24"/>ci. io. sensibilia per sensum. intelligibilia per 
+          im<lb ed="#V" n="25" break="no"/>tellectum. non intelligibilia per sensum nec 
+          sen<lb ed="#V" n="26" break="no"/>lsibilia per intellectum: sed singulare est 
+          sensibi<lb ed="#V" n="27" break="no"/>le. ergo non intelligibile.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e127">
+          ¶ Contra. intellectus negociatur circa 
+          <lb ed="#V" n="28"/>eterna per portionem superiorem secundum Augustinu. 12. de tri. 
+          Cir<lb ed="#V" n="29" break="no"/>ca autem temporalia per portionem inferiorem. ergo oportet quod ista 
+          distin<lb ed="#V" n="30" break="no"/>cte cognocat. et sic cum eterna sint singularia. ergo etc. 
+          <lb ed="#V" n="31"/>aliqui quod solum singularia intelligimus: 
+          <lb ed="#V" n="32"/>hic dicunt quia illa praecise intelligimus quae mouent 
+          <lb ed="#V" n="33"/>ad intellectionem sui: sed praecise singularia mouent ad 
+          intelle<lb ed="#V" n="34" break="no"/>ctionem sui: quia actiones sunt singularium. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e145">
+          ¶ Contra 
+          <lb ed="#V" n="35"/>istud arguo. 4r. primo sic. Intelligens quiditate potest demonstrare 
+          <lb ed="#V" n="36"/>passionem de subiecto. ergo intelligens singulare poterit 
+          aliquao<lb ed="#V" n="37" break="no"/>passionem de ipso demonstrare. et tunc erit scientia de 
+          singula<lb ed="#V" n="38" break="no"/>ribus. quod est falsdum.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e156">
+          ¶ Confirmatur. quia intelligens singulare v 
+          <lb ed="#V" n="39"/>singulare est potest cognoscere et demonstrare de eo id quod 
+          con<lb ed="#V" n="40" break="no"/>uenit sibi vt singulare est: sed distinctio sui ab alio 
+          indiui<lb ed="#V" n="41" break="no"/>duo competit sibi inquantum singulare est. ergo talis distinctio 
+          <lb ed="#V" n="42"/>poterit de eo demonstrari.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e168">
+          ¶ 2o sic. Intelligens per repraesenta 
+          <lb ed="#V" n="43"/>tiuum quod indinter repraesentat et vniformiter siue res existat 
+          si<lb ed="#V" n="44" break="no"/>ue non: non intelligit rem existentem esse: sed intelligens rem esse 
+          sin<lb ed="#V" n="45" break="no"/>gularem intelligit eam existem. Probo minorem. nam quoi 
+          intelligi<lb ed="#V" n="46" break="no"/>rem in vltimata eius actualitate intelligit rem existentem. quia si non 
+          ad<lb ed="#V" n="47" break="no"/>huc: non esset in vltimata actualitate: sed intelligens rem es 
+          <lb ed="#V" n="48"/>singularem intelligit eam in vltimata eius actualitate. ergo 
+          intel<lb ed="#V" n="49" break="no"/>ligit eam existentem. Tunc vltra: sed intellectus noster praecise pro statu isto 
+          <lb ed="#V" n="50"/>intelligit per tale repraesentatiuum. ergo intellectus noster non poterit 
+          intelli<lb ed="#V" n="51" break="no"/>gem singlasratrm: vt singulare est.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e190">
+          ¶ 3o sic. illud quod intelligit per 
+          <lb ed="#V" n="52"/>repraesentatiuum vniformiter repraesentans non intelligit aliquid 
+          de<lb ed="#V" n="53" break="no"/>his quae insunt sibi per accidens: sed proprietates indiuiduales 
+          in<lb ed="#V" n="54" break="no"/>sunt per accidens ei quod repraesentatur per repraesentatitum. ergo per repraesentati 
+          <lb ed="#V" n="55"/>per quod intelligimus eas non cognocimus.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e201">
+          ¶ 4o sic. Omne quod 
+          intelli<lb ed="#V" n="56" break="no"/>git aliqua distincta vt distincta non decipitur circa distinctionem 
+          <lb ed="#V" n="57"/>eorum: sed intellectus decipitur circa distinctionem 
+          singula<lb ed="#V" n="58" break="no"/>rium. ergo intellectus noster non cognoscit ea vt distincta. 
+          <lb ed="#V" n="59"/>quod in via non possumus cognoscere sin 
+          <lb ed="#V" n="60"/>Ideo Dico gulare vt singulare: ita quod intelliga 
+          <lb ed="#V" n="61"/>singularitas vel elus heceitas scilicet differentia indiuidualis quae natura 
+          <lb ed="#V" n="62"/>sit hec.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e219">
+          ¶ Sed contra. hoc argumentum sic. Quicumque cognoscit relationem 
+          <lb ed="#V" n="63"/>vt relatio est cogscit terminum: sed intellectus noster cognoscit vniversale vt 
+          <lb ed="#V" n="64"/>iuersale: quod dicitur relatiue ad particulare. ergo cognoscit particulaturm: 
+          <lb ed="#V" n="65"/>quia correlatiua sunt. ergo simul cognoscuntur.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e228">
+          ¶ 2o sic. Illud quod 
+          <lb ed="#V" n="66"/>abstrahit aliquid ab aliquo necessario cognoscit illud: quia abstra 
+          <!--56.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>ctio fieri non potest ab ignoto: sed intellectus noster abstrahi vniversalia 
+          a<lb ed="#V" n="68" break="no"/>particularibus. ergo necessario cognoscit particularia. aliter enim non 
+          ab<lb ed="#V" n="69" break="no"/>straheret.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e244">
+          ¶ 3o sic. Omne intelligens aliquid existens inquantum existens 
+          <lb ed="#V" n="70"/>cognoscit particlusare et singulare: quia non potest existem nisi 
+          singu<lb ed="#V" n="71" break="no"/>lare: sed intellectus noster aliqua sic cognoscit. probo. Nam de primo ente 
+          pro<lb ed="#V" n="72" break="no"/>bat demonstratiue existentiam.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e254">
+          ¶ 4o sic. Omne cognoscens 
+          con<lb ed="#V" n="73" break="no"/>tingentia inquantum contingentia sunt necessario cognoscit 
+          singula<lb ed="#V" n="74" break="no"/>ria: quia nullum non singulare est contingens: sed intellectus noster 
+          co<lb ed="#V" n="75" break="no"/>gnoscit contingenreia: quia distinguit ea a necessaris. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e263">
+          ¶ Ad 
+          <lb ed="#V" n="76"/>primum dico quod oportet necessario propter argumentum dicere quod rationem particularis 
+          <lb ed="#V" n="77"/>cognoscimus saltem in generali: et talis cogno particularis 
+          suf<lb ed="#V" n="78" break="no"/>ficit ad cognonem vniuersalis: vt vniversale est propter relationem.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e272">
+          ¶ Ad 2m dico 
+          <lb ed="#V" n="79"/>quod abstractio diciet sic intelligi quod singulare mouet non per 
+          <lb ed="#V" n="80"/>rationem singularis: sed naturae: et sic intellectu intelligit naturam quae est 
+          <lb ed="#V" n="81"/>in singulari: non vt in singulari: sed vt natura: et ista est 
+          ab<lb ed="#V" n="82" break="no"/>stractio vniuersalis.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e283">
+          ¶ Ad 3m dico quod eo modo quo cognoscitur ali 
+          <lb ed="#V" n="83"/>quid vt existens potest dici quod cognoscitur vt singulare: sed non 
+          <lb ed="#V" n="84"/>cognosco primum vt existens est nisi in generali concipiendo existentiam: 
+          <lb ed="#V" n="85"/>et isto intelligo singulare scilicet in generali.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e292">
+          ¶ Ad 4m dico. 
+          eo<lb ed="#V" n="86" break="no"/>dem modo quod iste cognoscit singulare: sicut contingens: sed non 
+          <lb ed="#V" n="87"/>cognoscit nisi in generali: contingentiam alicuius. et sic nec eius 
+          <lb ed="#V" n="88"/>singularitatem. Nomo. enim intellectus potest iudicare de quolibet 
+          com<lb ed="#V" n="89" break="no"/>tingenti in particulari.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e303">
+          ¶ Sed adhuc remanent due difficultas 
+          <lb ed="#V" n="90"/>satis magne. Prima est de actu cognoscendi. arguo enim sic. quod 
+          <lb ed="#V" n="91"/>intuitiue cognoscitur: cognoscitur vt existens: et sic vt singulare sed 
+          <lb ed="#V" n="92"/>actus intelligendi intuitiue cognoscitur. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e313">
+          ¶ Dico ad  
+          <lb ed="#V" n="93"/>hoc quod cognitio intuitiua potest esse etiam quidammo confusa: ideo potesa 
+          <lb ed="#V" n="94"/>terminari ad aliquid quod est existens: et tamen non ad heceitatem. 
+          <lb ed="#V" n="95"/>quia si oppositum esset tunc possemus cognoscere differentiam et 
+          distin<lb ed="#V" n="96" break="no"/>ctionem actuum.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e324">
+          ¶ 2a difficultas est de sensu vtrum feratur super 
+          sin<lb ed="#V" n="97" break="no"/>gulare. Et dicitur communiter quod sic.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e329">
+          ¶ Sed contra. hoc arguo. quicunque 
+          <lb ed="#V" n="98"/>cognoscit principiam distinctiua cognoscit eorum distinctionem: sed 
+          <lb ed="#V" n="99"/>sensus noster non cognoscit distinctionem singularium. Nam 
+          positi<lb ed="#V" n="100" break="no"/>duobus singularibus cum omnibus accidentibus suis vniformibus 
+          <lb ed="#V" n="101"/>et eiusdem speciei sensus non discerneret inter ea. ver. ergo. de 
+          <lb ed="#V" n="102"/>duobus ouis similibus quantum ad omnia: et tamen distinguuntur numera 
+          <lb ed="#V" n="103"/>liter. vnde bene concedo quod semper sensus cognoscit singlsarem 
+          <lb ed="#V" n="104"/>sed tamen non vt singulare: nec fertur super rationem singularitatis 
+          <lb ed="#V" n="105"/>quia sic semper distingueret inter quacumque singularia: quod secundum est. 
+        </p>
+        <p xml:id="FrMS88-e18563-d1e349">
+          <lb ed="#V" n="106"/>¶ Sed tunc remanet vna difficultas quomodo scilicet poterimus 
+          di<lb ed="#V" n="107" break="no"/>scernem inter duo indiuidua eiusdem speciei. exquo eorum principium 
+          di<lb ed="#V" n="108" break="no"/>stinctiua non cognoscimus nec ea distincta cognolcemus 
+        </p>
+        <p xml:id="FrMS88-e18563-d1e358">
+          <lb ed="#V" n="109"/>¶ Dico quod nunquam hoc possemus nisi per distinctionem spe 
+          <lb ed="#V" n="110"/>cificam in accidentibus: sicut de duabus stellis propter situm diuersum 
+          <lb ed="#V" n="111"/>vel qualitatem vel figuram: et propter hoc si essent omnia similia non 
+          discer<lb ed="#V" n="112" break="no"/>neremus.
+        </p>
+        <p xml:id="FrMS88-e18563-d1e369">
+          ¶ Ad rationem in oposium dico quod Augustinus. non 
+          intel<lb ed="#V" n="113" break="no"/>ligit quin sensibilia et singularia intelligantur secundum qui 
+          <lb ed="#V" n="114"/>ditates eorum ab intellectu: sed tamen vult quod non 
+          intel<lb ed="#V" n="115" break="no"/>igantur secundum heceitates proprias. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
