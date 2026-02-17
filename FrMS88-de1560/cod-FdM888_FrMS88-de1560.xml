@@ -1,250 +1,250 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#V" n="4-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-de1560"><!-- l1prolq2 -->
-            <head xml:id="FrMS88-de1560-Hd1e108">Quaestio 2</head>
-            <p xml:id="FrMS88-de1560-d1e111">
-      Quaestio. ii. 
-      <lb ed="#V" n="15"/>UTrum subiectum primi principii coplexi 
-      di<lb ed="#V" n="16" break="no"/>ctum de deo et creatura habe 
-      <lb ed="#V" n="17"/>Ui sat eundem conceptum. quod non. per beatum 
-      Dio<lb ed="#V" n="18" break="no"/>d prae ny. de di. nomnbus. De deo non est vox 
-      nequ<lb ed="#V" n="19" break="no"/>U nomen. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e124">
-      ¶ Contra idem 2o ca. dicit. 
-      <lb ed="#V" n="20"/>Nomnina diuina attribuuntur creaturis. 
-      <lb ed="#V" n="21"/>istam quaestionem pono 4or praeambula. Primum quod 
-      <lb ed="#V" n="22"/>Cti  non accipitur hic conceptus pro actu intelligendi: quia 
-      <lb ed="#V" n="23"/>tunc non esset difficultas aliqua.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e135">
-      ¶ 2m est quod non accipitur pro 
-      ente<lb ed="#V" n="24" break="no"/>rationis: quia quaeritur de praedicato essentiali. Ens autem rationis non 
-      <lb ed="#V" n="25"/>est praedicatum essentiale: quia nec deus nec creatura est ens 
-      ratio<lb ed="#V" n="26" break="no"/>nis quiditatiue. Querimus autem hic conceptum quiditatiuum. 
-      </p>
-            <p xml:id="FrMS88-de1560-d1e144">
-               <lb ed="#V" n="27"/>¶ 3m quod non potest congrue accipi pro obiecto in esse cognito: quia 
-      <lb ed="#V" n="28"/>quicquid constituitur ex ente reali et ex ente rationis. totum 
-      constitu<lb ed="#V" n="29" break="no"/>tu e ens rationis. conceptus ergo si esset de obiecto quod est ens reale: 
-      <lb ed="#V" n="30"/>et de obiecto quod est cognitum: cum hoc sit ens rationis illud quod 
-      fie<lb ed="#V" n="31" break="no"/>ret ex istis esset ens rationis.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e158">
-      ¶ 4m quod accipitur hic conceptus 
-      pro<lb ed="#V" n="32" break="no"/>quiditate cognita ad quam terminatur actus intellectus: vel pro 
-      ro<lb ed="#V" n="33" break="no"/>ne quiditatiua ad quam terminatur actus intelligendi. 
-      <lb ed="#V" n="34"/>ergo istis suppositis. quod subiectum primi principii quod 
-      <lb ed="#V" n="35"/>Dico est ens habet conceptum vnum et vniuocum deo et 
-      crea<lb ed="#V" n="36" break="no"/>ture. Et hoc probo sic. primeo supponitur vna regula doctoris quae est 
-      <lb ed="#V" n="37"/>talis. quandocumque aliquis intellectus est certus de vno conceptu et 
-      <lb ed="#V" n="38"/>dubius de duobus. habet conceptum vnum de quo est certus. 
-      <lb ed="#V" n="39"/>alium a duobus de quibus est dubius.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e178">
-      ¶ hec regula 
-      qua<lb ed="#V" n="40" break="no"/>drupliciter declarantur. Primo sic. suppono enim quod omne 
-      nomen<lb ed="#V" n="41" break="no"/>commune est vniuocum vel est equocum. hoc probo. quia quorum 
-      diffini<lb ed="#V" n="42" break="no"/>torum sunt diffinitiones per contraria immediata. illa sunt immediata: 
-      <lb ed="#V" n="43"/>sedt tales sunt diffinitiones vniuoci et equoci. ergo etc. Proba 
-      <lb ed="#V" n="44"/>tio minoris. quia inter habere vnam rationem formalem et non habere vnan 
-      <lb ed="#V" n="45"/>rationem formalem non est medium.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e194">
-      ¶ 2o quia equocum cadit immelius in 
-      <lb ed="#V" n="46"/>equocata. non vna ratione mediante sed multiplici ratione. 
-      vni<lb ed="#V" n="47" break="no"/>uocum autem vna mediante ratione. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e201">
-      ¶ 2o declaratur fic. ille 
-      con<lb ed="#V" n="48" break="no"/>ceptus non potest concipi ab intellectu: nisi vt inferior vel equalis 
-      <lb ed="#V" n="49"/>vel superior aliis conceptibus dubiis: sed non vt inferior nec 
-      eque<lb ed="#V" n="50" break="no"/>lis. igitur vt superior aliis conceptibus. Maior patet per 
-      sufficien<lb ed="#V" n="51" break="no"/>tem diuisionem. Minor etiam patet. sed omnis superior conceptus comunicabi 
-      <lb ed="#V" n="52"/>lis vt sic est vniuocus. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e214">
-      ¶ 3o sic. Omnis intellectus quae habet vnum 
-      <lb ed="#V" n="53"/>conceptum certum compossibilem duobus: concipit illum vt communicabilem 
-      <lb ed="#V" n="54"/>illis: sed omnis conceptus communicabilis vt sic est vniuocus. ergo etc. 
-      </p>
-            <p xml:id="FrMS88-de1560-d1e221">
-               <lb ed="#V" n="55"/>¶ 4o sic. quia intellectus habens conceptum indeterminatum respectu 
-      ali<lb ed="#V" n="56" break="no"/>quorum determinatorum habet conceptum vniuocum respectu illorum: sed 
-      <lb ed="#V" n="57"/>intellectus certus de vno conceptu et dubius de duobus est 
-      <lb ed="#V" n="58"/>osto. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e233">
-      ¶ Reducitur ergo ratio sic. omnis intellectus certus de vno 
-      <lb ed="#V" n="59"/>conceptu et dubius de duobus habet conceptum illum de quo est 
-      <lb ed="#V" n="60"/>certus. alium et vniuocum respectu illorum de quibus est dubius. Sed 
-      <lb ed="#V" n="61"/>multi fuerunt et sunt certi quod deus est ens. et dubitaue 
-      <lb ed="#V" n="62"/>runt vtrum primum vel non primum. finitum vel non finitum. ergo 
-      conce<lb ed="#V" n="63" break="no"/>ptu entis est vniuocus respectu illorum. 
-      <lb ed="#V" n="64"/>istam regulam instatur. 4r. Et primo 
-      impedien<lb ed="#V" n="65" break="no"/>Sed contra do eam logicaliter. quia eue videtur concludere de 
-      <lb ed="#V" n="66"/>equoco: sicut de vniuoco: quia possum esse certus quod canis 
-      <!--10.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>currit. et tamen dubitare de quo vtrum scilicet de latrabili vel de alio. 
-      </p>
-            <p xml:id="FrMS88-de1560-d1e259">
-               <lb ed="#V" n="68"/>¶ Item aliquis potest esse certus de sanitate quod inest. et tamen 
-      du<lb ed="#V" n="69" break="no"/>bitare vtrum insit vrine vel animali.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e266">
-      ¶ 2o impeditur physice: quia 
-      <lb ed="#V" n="70"/>hilosophi certi fuerunt quod anima informat corpus. et quod corpus est 
-      <lb ed="#V" n="71"/>animatum: et tamen dubitauerunt vtrum anima esset corpus vel spiritus. qui 
-      <lb ed="#V" n="72"/>bus tamen nihil est commune.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e275">
-      ¶ Item fuerunt certi quod deus est necessare esse 
-      <lb ed="#V" n="73"/>et dubitauerunt vtrum finitum vel infinitum. et tamen necesse esse 
-      <lb ed="#V" n="74"/>non est vniuocum respectu finiti vel infinitum.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e282">
-      ¶ 3o impeditur metatise. quia 
-      <lb ed="#V" n="75"/>hilosophicerti fuerunt de eternitate mundi: dubitauerunt autem 
-      <lb ed="#V" n="76"/>de finitate vel infinitate. et tamen eternitas non est vniuoca 
-      fi<lb ed="#V" n="77" break="no"/>nito et infinito.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e291">
-      ¶ Item philosophi fuerunt certi deum esse causam primam. 
-      <lb ed="#V" n="78"/>dubitauerunt autem de finitate vel infinitate: et tamen primua causa non 
-      <lb ed="#V" n="79"/>vniuocatur finito et infinito.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e299">
-      ¶ 4o per conceptus aliquorum 
-      theo<lb ed="#V" n="80" break="no"/>logorum. Conueniunt enim quod anima habet potentias. et tamen dubitant 
-      <lb ed="#V" n="81"/>vtrum sint substantia vel accidens. quibus tamen potentia non est commune vniuocum. 
-      <lb ed="#V" n="82"/>Similiter omne dicunt quod persone diuine constituuntur per proprietates. 
-      <lb ed="#V" n="83"/>et tamen dubitauerunt multi vtrum per absolutas vel respecti 
-      <lb ed="#V" n="84"/>uas. et tamen proprietas non est commune vniuocum ad absolutum et 
-      <lb ed="#V" n="85"/>respectiuum.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e315">
-      ¶ Ad ista.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e318">
-      ¶ Ad primum breuiter dico. quod de 
-      <lb ed="#V" n="86"/>equoco: sicut de cane et sanitate nulla est certitudo 
-      ni<lb ed="#V" n="87" break="no"/>si de voce. non autem de aliquo conceptu. Philosophi autem non solum 
-      fue<lb ed="#V" n="88" break="no"/>runt certi quod deus est ens scilicet de illa voce: sed de 
-      conceptu<lb ed="#V" n="89" break="no"/>vno corrndente isti voci. quae est imposita ad significandum ad 
-      <lb ed="#V" n="90"/>placitum. conceptus autem idem est apud omnes.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e331">
-      ¶ Ad aliud 
-      <lb ed="#V" n="91"/>de anima dico quod non fuerunt certi de aliquo conceptu 
-      specifi<lb ed="#V" n="92" break="no"/>co: sed solum de conceptu quem habuerunt de anima: et ille conce 
-      <lb ed="#V" n="93"/>prtus erat communis omnibus. et vt sic forte erat communis vniuocus. 
-      </p>
-            <p xml:id="FrMS88-de1560-d1e340">
-               <lb ed="#V" n="94"/>¶ Ad aliud de necessare esse: est nonium. quod regula illa de 
-      conce<lb ed="#V" n="95" break="no"/>ptu certo et dubio accipit talem ordinem essentialem: vt ille 
-      <lb ed="#V" n="96"/>conceptus qui est certus sit sic certus existentibus aliis dubiis. 
-      <lb ed="#V" n="97"/>quod impossibile sit ipsum esse dubium: aliis existentibus certis et non 
-      <lb ed="#V" n="98"/>conro
-    </p>
-            <p xml:id="FrMS88-de1560-d1e353">
-      ¶ hoc viso patet quid ad illam instantiam sit dicendum: quia non sic 
-      <lb ed="#V" n="99"/>et habet necessare esse ad finitum vel infinitum: quia ita potest haberi certitudo de 
-      <lb ed="#V" n="100"/>nfinites. et dubitari de necessare esse vel possibile. sicut patet de celo. Et 
-      <lb ed="#V" n="101"/>eodem modo de eterno possunt esse certi et dubitare de infinito 
-      <lb ed="#V" n="102"/>et econuerso. Et sic patet ad illud.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e365">
-      ¶ Ad aliud de concepti 
-      <lb ed="#V" n="103"/>bus theologorum dico. quod non sunt certi nisi de conceptibus 
-      <lb ed="#V" n="104"/>communibus scilicet de potentia: et sic potentis habet conceptum principii 
-      producti<lb ed="#V" n="105" break="no"/>ui. et illud potest esse commune abstractum a conceptu absoluti et 
-      <lb ed="#V" n="106"/>respectiui. Eodem modo de proprietatibus. 
-      <lb ed="#V" n="107"/>2o videndum est de solutione aliquorum ad totam rationem. dicitur 
-      <lb ed="#V" n="108"/>Nunc enim ad minorem concessa maiore. quod non sunt 
-      <lb ed="#V" n="109"/>distincti conceptus. licet videantur duo.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e383">
-      ¶ Sed contra. quia naturales philosoph 
-      <lb ed="#V" n="110"/>demstratiue processerunt per istum conceptum.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e388">
-      ¶ Et preterea 
-      im<lb ed="#V" n="111" break="no"/>possibile est verificari de eodem contradictoria. ergo nec certum et 
-      in<lb ed="#V" n="112" break="no"/>certum.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e395">
-      ¶ Dicitur autem ab aliis quod intellectus est certus de disiuncto et 
-      <lb ed="#V" n="113"/>indeterminato: sed de vno determinato est dubitatio. 
-      </p>
-            <p xml:id="FrMS88-de1560-d1e400">
-               <lb ed="#V" n="114"/>¶ Contra. quia ita fuissent philosophicerti quod deus est trinus: sicut quod 
-      <lb ed="#V" n="115"/>deus est ens: quia certi fuerunt quod deus est trinus vel non trinus: sicu 
-      <lb ed="#V" n="116"/>quod est creatum vel non creatum: primum vel non prius. Eodem modo et 
-      esseni<lb ed="#V" n="117" break="no"/>certi de incarnatione: quia fuerunt certi quod detus est incarnatus vel 
-      <lb ed="#V" n="118"/>non incarnatus. Ex quo patet quod cum certitudinem habeant de 
-      en<lb ed="#V" n="119" break="no"/>te aliam quam de istis. quod ens habeat vnum conceptum de quo est 
-      intel<lb ed="#V" n="120" break="no"/>lectus certus.
-    </p>
-            <p xml:id="FrMS88-de1560-d1e418">
-      ¶ Alii autem dicere voluerunt quod ille conceptu 
-      <lb ed="#V" n="121"/>est mixtus: quod stare non potest: quia conceptus entis est simplitur siml. 
-      <lb ed="#V" n="122"/>Ad arieitum in opositum patet quod non est de deo nomen proprium nequam vox. 
-      <lb ed="#V" n="123"/>sic nec conceptus quin sit quid communius etc.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="4-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-de1560"><!-- l1prolq2 -->
+        <head xml:id="FrMS88-de1560-Hd1e108">Quaestio 2</head>
+        <p xml:id="FrMS88-de1560-d1e111">
+          Quaestio. ii. 
+          <lb ed="#V" n="15"/>UTrum subiectum primi principii coplexi 
+          di<lb ed="#V" n="16" break="no"/>ctum de deo et creatura habe 
+          <lb ed="#V" n="17"/>Ui sat eundem conceptum. quod non. per beatum 
+          Dio<lb ed="#V" n="18" break="no"/>d prae ny. de di. nomnbus. De deo non est vox 
+          nequ<lb ed="#V" n="19" break="no"/>U nomen. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e124">
+          ¶ Contra idem 2o ca. dicit. 
+          <lb ed="#V" n="20"/>Nomnina diuina attribuuntur creaturis. 
+          <lb ed="#V" n="21"/>istam quaestionem pono 4or praeambula. Primum quod 
+          <lb ed="#V" n="22"/>Cti  non accipitur hic conceptus pro actu intelligendi: quia 
+          <lb ed="#V" n="23"/>tunc non esset difficultas aliqua.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e135">
+          ¶ 2m est quod non accipitur pro 
+          ente<lb ed="#V" n="24" break="no"/>rationis: quia quaeritur de praedicato essentiali. Ens autem rationis non 
+          <lb ed="#V" n="25"/>est praedicatum essentiale: quia nec deus nec creatura est ens 
+          ratio<lb ed="#V" n="26" break="no"/>nis quiditatiue. Querimus autem hic conceptum quiditatiuum. 
+        </p>
+        <p xml:id="FrMS88-de1560-d1e144">
+          <lb ed="#V" n="27"/>¶ 3m quod non potest congrue accipi pro obiecto in esse cognito: quia 
+          <lb ed="#V" n="28"/>quicquid constituitur ex ente reali et ex ente rationis. totum 
+          constitu<lb ed="#V" n="29" break="no"/>tu e ens rationis. conceptus ergo si esset de obiecto quod est ens reale: 
+          <lb ed="#V" n="30"/>et de obiecto quod est cognitum: cum hoc sit ens rationis illud quod 
+          fie<lb ed="#V" n="31" break="no"/>ret ex istis esset ens rationis.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e158">
+          ¶ 4m quod accipitur hic conceptus 
+          pro<lb ed="#V" n="32" break="no"/>quiditate cognita ad quam terminatur actus intellectus: vel pro 
+          ro<lb ed="#V" n="33" break="no"/>ne quiditatiua ad quam terminatur actus intelligendi. 
+          <lb ed="#V" n="34"/>ergo istis suppositis. quod subiectum primi principii quod 
+          <lb ed="#V" n="35"/>Dico est ens habet conceptum vnum et vniuocum deo et 
+          crea<lb ed="#V" n="36" break="no"/>ture. Et hoc probo sic. primeo supponitur vna regula doctoris quae est 
+          <lb ed="#V" n="37"/>talis. quandocumque aliquis intellectus est certus de vno conceptu et 
+          <lb ed="#V" n="38"/>dubius de duobus. habet conceptum vnum de quo est certus. 
+          <lb ed="#V" n="39"/>alium a duobus de quibus est dubius.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e178">
+          ¶ hec regula 
+          qua<lb ed="#V" n="40" break="no"/>drupliciter declarantur. Primo sic. suppono enim quod omne 
+          nomen<lb ed="#V" n="41" break="no"/>commune est vniuocum vel est equocum. hoc probo. quia quorum 
+          diffini<lb ed="#V" n="42" break="no"/>torum sunt diffinitiones per contraria immediata. illa sunt immediata: 
+          <lb ed="#V" n="43"/>sedt tales sunt diffinitiones vniuoci et equoci. ergo etc. Proba 
+          <lb ed="#V" n="44"/>tio minoris. quia inter habere vnam rationem formalem et non habere vnan 
+          <lb ed="#V" n="45"/>rationem formalem non est medium.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e194">
+          ¶ 2o quia equocum cadit immelius in 
+          <lb ed="#V" n="46"/>equocata. non vna ratione mediante sed multiplici ratione. 
+          vni<lb ed="#V" n="47" break="no"/>uocum autem vna mediante ratione. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e201">
+          ¶ 2o declaratur fic. ille 
+          con<lb ed="#V" n="48" break="no"/>ceptus non potest concipi ab intellectu: nisi vt inferior vel equalis 
+          <lb ed="#V" n="49"/>vel superior aliis conceptibus dubiis: sed non vt inferior nec 
+          eque<lb ed="#V" n="50" break="no"/>lis. igitur vt superior aliis conceptibus. Maior patet per 
+          sufficien<lb ed="#V" n="51" break="no"/>tem diuisionem. Minor etiam patet. sed omnis superior conceptus comunicabi 
+          <lb ed="#V" n="52"/>lis vt sic est vniuocus. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e214">
+          ¶ 3o sic. Omnis intellectus quae habet vnum 
+          <lb ed="#V" n="53"/>conceptum certum compossibilem duobus: concipit illum vt communicabilem 
+          <lb ed="#V" n="54"/>illis: sed omnis conceptus communicabilis vt sic est vniuocus. ergo etc. 
+        </p>
+        <p xml:id="FrMS88-de1560-d1e221">
+          <lb ed="#V" n="55"/>¶ 4o sic. quia intellectus habens conceptum indeterminatum respectu 
+          ali<lb ed="#V" n="56" break="no"/>quorum determinatorum habet conceptum vniuocum respectu illorum: sed 
+          <lb ed="#V" n="57"/>intellectus certus de vno conceptu et dubius de duobus est 
+          <lb ed="#V" n="58"/>osto. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e233">
+          ¶ Reducitur ergo ratio sic. omnis intellectus certus de vno 
+          <lb ed="#V" n="59"/>conceptu et dubius de duobus habet conceptum illum de quo est 
+          <lb ed="#V" n="60"/>certus. alium et vniuocum respectu illorum de quibus est dubius. Sed 
+          <lb ed="#V" n="61"/>multi fuerunt et sunt certi quod deus est ens. et dubitaue 
+          <lb ed="#V" n="62"/>runt vtrum primum vel non primum. finitum vel non finitum. ergo 
+          conce<lb ed="#V" n="63" break="no"/>ptu entis est vniuocus respectu illorum. 
+          <lb ed="#V" n="64"/>istam regulam instatur. 4r. Et primo 
+          impedien<lb ed="#V" n="65" break="no"/>Sed contra do eam logicaliter. quia eue videtur concludere de 
+          <lb ed="#V" n="66"/>equoco: sicut de vniuoco: quia possum esse certus quod canis 
+          <!--10.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>currit. et tamen dubitare de quo vtrum scilicet de latrabili vel de alio. 
+        </p>
+        <p xml:id="FrMS88-de1560-d1e259">
+          <lb ed="#V" n="68"/>¶ Item aliquis potest esse certus de sanitate quod inest. et tamen 
+          du<lb ed="#V" n="69" break="no"/>bitare vtrum insit vrine vel animali.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e266">
+          ¶ 2o impeditur physice: quia 
+          <lb ed="#V" n="70"/>hilosophi certi fuerunt quod anima informat corpus. et quod corpus est 
+          <lb ed="#V" n="71"/>animatum: et tamen dubitauerunt vtrum anima esset corpus vel spiritus. qui 
+          <lb ed="#V" n="72"/>bus tamen nihil est commune.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e275">
+          ¶ Item fuerunt certi quod deus est necessare esse 
+          <lb ed="#V" n="73"/>et dubitauerunt vtrum finitum vel infinitum. et tamen necesse esse 
+          <lb ed="#V" n="74"/>non est vniuocum respectu finiti vel infinitum.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e282">
+          ¶ 3o impeditur metatise. quia 
+          <lb ed="#V" n="75"/>hilosophicerti fuerunt de eternitate mundi: dubitauerunt autem 
+          <lb ed="#V" n="76"/>de finitate vel infinitate. et tamen eternitas non est vniuoca 
+          fi<lb ed="#V" n="77" break="no"/>nito et infinito.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e291">
+          ¶ Item philosophi fuerunt certi deum esse causam primam. 
+          <lb ed="#V" n="78"/>dubitauerunt autem de finitate vel infinitate: et tamen primua causa non 
+          <lb ed="#V" n="79"/>vniuocatur finito et infinito.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e299">
+          ¶ 4o per conceptus aliquorum 
+          theo<lb ed="#V" n="80" break="no"/>logorum. Conueniunt enim quod anima habet potentias. et tamen dubitant 
+          <lb ed="#V" n="81"/>vtrum sint substantia vel accidens. quibus tamen potentia non est commune vniuocum. 
+          <lb ed="#V" n="82"/>Similiter omne dicunt quod persone diuine constituuntur per proprietates. 
+          <lb ed="#V" n="83"/>et tamen dubitauerunt multi vtrum per absolutas vel respecti 
+          <lb ed="#V" n="84"/>uas. et tamen proprietas non est commune vniuocum ad absolutum et 
+          <lb ed="#V" n="85"/>respectiuum.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e315">
+          ¶ Ad ista.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e318">
+          ¶ Ad primum breuiter dico. quod de 
+          <lb ed="#V" n="86"/>equoco: sicut de cane et sanitate nulla est certitudo 
+          ni<lb ed="#V" n="87" break="no"/>si de voce. non autem de aliquo conceptu. Philosophi autem non solum 
+          fue<lb ed="#V" n="88" break="no"/>runt certi quod deus est ens scilicet de illa voce: sed de 
+          conceptu<lb ed="#V" n="89" break="no"/>vno corrndente isti voci. quae est imposita ad significandum ad 
+          <lb ed="#V" n="90"/>placitum. conceptus autem idem est apud omnes.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e331">
+          ¶ Ad aliud 
+          <lb ed="#V" n="91"/>de anima dico quod non fuerunt certi de aliquo conceptu 
+          specifi<lb ed="#V" n="92" break="no"/>co: sed solum de conceptu quem habuerunt de anima: et ille conce 
+          <lb ed="#V" n="93"/>prtus erat communis omnibus. et vt sic forte erat communis vniuocus. 
+        </p>
+        <p xml:id="FrMS88-de1560-d1e340">
+          <lb ed="#V" n="94"/>¶ Ad aliud de necessare esse: est nonium. quod regula illa de 
+          conce<lb ed="#V" n="95" break="no"/>ptu certo et dubio accipit talem ordinem essentialem: vt ille 
+          <lb ed="#V" n="96"/>conceptus qui est certus sit sic certus existentibus aliis dubiis. 
+          <lb ed="#V" n="97"/>quod impossibile sit ipsum esse dubium: aliis existentibus certis et non 
+          <lb ed="#V" n="98"/>conro
+        </p>
+        <p xml:id="FrMS88-de1560-d1e353">
+          ¶ hoc viso patet quid ad illam instantiam sit dicendum: quia non sic 
+          <lb ed="#V" n="99"/>et habet necessare esse ad finitum vel infinitum: quia ita potest haberi certitudo de 
+          <lb ed="#V" n="100"/>nfinites. et dubitari de necessare esse vel possibile. sicut patet de celo. Et 
+          <lb ed="#V" n="101"/>eodem modo de eterno possunt esse certi et dubitare de infinito 
+          <lb ed="#V" n="102"/>et econuerso. Et sic patet ad illud.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e365">
+          ¶ Ad aliud de concepti 
+          <lb ed="#V" n="103"/>bus theologorum dico. quod non sunt certi nisi de conceptibus 
+          <lb ed="#V" n="104"/>communibus scilicet de potentia: et sic potentis habet conceptum principii 
+          producti<lb ed="#V" n="105" break="no"/>ui. et illud potest esse commune abstractum a conceptu absoluti et 
+          <lb ed="#V" n="106"/>respectiui. Eodem modo de proprietatibus. 
+          <lb ed="#V" n="107"/>2o videndum est de solutione aliquorum ad totam rationem. dicitur 
+          <lb ed="#V" n="108"/>Nunc enim ad minorem concessa maiore. quod non sunt 
+          <lb ed="#V" n="109"/>distincti conceptus. licet videantur duo.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e383">
+          ¶ Sed contra. quia naturales philosoph 
+          <lb ed="#V" n="110"/>demstratiue processerunt per istum conceptum.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e388">
+          ¶ Et preterea 
+          im<lb ed="#V" n="111" break="no"/>possibile est verificari de eodem contradictoria. ergo nec certum et 
+          in<lb ed="#V" n="112" break="no"/>certum.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e395">
+          ¶ Dicitur autem ab aliis quod intellectus est certus de disiuncto et 
+          <lb ed="#V" n="113"/>indeterminato: sed de vno determinato est dubitatio. 
+        </p>
+        <p xml:id="FrMS88-de1560-d1e400">
+          <lb ed="#V" n="114"/>¶ Contra. quia ita fuissent philosophicerti quod deus est trinus: sicut quod 
+          <lb ed="#V" n="115"/>deus est ens: quia certi fuerunt quod deus est trinus vel non trinus: sicu 
+          <lb ed="#V" n="116"/>quod est creatum vel non creatum: primum vel non prius. Eodem modo et 
+          esseni<lb ed="#V" n="117" break="no"/>certi de incarnatione: quia fuerunt certi quod detus est incarnatus vel 
+          <lb ed="#V" n="118"/>non incarnatus. Ex quo patet quod cum certitudinem habeant de 
+          en<lb ed="#V" n="119" break="no"/>te aliam quam de istis. quod ens habeat vnum conceptum de quo est 
+          intel<lb ed="#V" n="120" break="no"/>lectus certus.
+        </p>
+        <p xml:id="FrMS88-de1560-d1e418">
+          ¶ Alii autem dicere voluerunt quod ille conceptu 
+          <lb ed="#V" n="121"/>est mixtus: quod stare non potest: quia conceptus entis est simplitur siml. 
+          <lb ed="#V" n="122"/>Ad arieitum in opositum patet quod non est de deo nomen proprium nequam vox. 
+          <lb ed="#V" n="123"/>sic nec conceptus quin sit quid communius etc.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

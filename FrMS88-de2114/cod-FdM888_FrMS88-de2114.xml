@@ -1,196 +1,196 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 4</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 4</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="4-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-de2114"><!-- l1prolq4 -->
-            <head xml:id="FrMS88-de2114-Hd1e108">Quaestio 4</head>
-            <p xml:id="FrMS88-de2114-d1e111">
-      Quaestio. iiii. 
-      <lb ed="#V" n="68"/>UTrum subiectum primi principii complexi 
-      ha<lb ed="#V" n="69" break="no"/> beat eandem rationem formalem i deo et 
-      <lb ed="#V" n="70"/>creatura secundum scientias reales. quod non. Deatus Dio 
-      <lb ed="#V" n="71"/>ny. dicit. quod negitiones de deo sunt vere. 
-      affir<lb ed="#V" n="72" break="no"/>mationes incompacte.
-    </p>
-            <p xml:id="FrMS88-de2114-d1e124">
-      ¶ Contra. per eundem quae dicit quod 
-      <lb ed="#V" n="73"/>creature sunt quedam participationes dei
-    </p>
-            <p xml:id="FrMS88-de2114-d1e129">
-               <lb ed="#V" n="74"/>hic introducuntur 4or ordines 
-      fundamento<lb ed="#V" n="75" break="no"/>rum ad probandum propositum. 
-      Pri<lb ed="#V" n="76" break="no"/>mum fundamentm est ex nam distionis. Ex qui ar sic. quando aliqua
-      <lb ed="#V" n="77"/>distinguuntur per sua priora. illa non sunt eiusdem rationis 
-      forma<lb ed="#V" n="78" break="no"/>lis. hoc probatur. quia priora sunt diffinientia. quae ergo 
-      disti<lb ed="#V" n="79" break="no"/>guuntur per diffinientia patet quod non sunt eiusdem rationis formalis. 
-      <lb ed="#V" n="80"/>habet etiam ex alio: quia quae distinguuntur per ea quae sunt dide per modo 
-      dicen<lb ed="#V" n="81" break="no"/>di per se distinguuntur per rationes formales. sola autem illa de prim 
-      <lb ed="#V" n="82"/>mo sunt priora. Patet ergo illa propositio accepta. ergo sub illa accipi 
-      <lb ed="#V" n="83"/>tur alia non ex primum: quia quae distinguuntur solis posterioribus 
-      <lb ed="#V" n="84"/>sunt eiusdem rationis formalis. hoc patet. quia si non sunt eiusdem 
-      <lb ed="#V" n="85"/>rationis formalis. oportet quod distinguantur per aliqua diffinientia. et 
-      <lb ed="#V" n="86"/>per aliqua de per modo dicedi per se. quia disto formalium rationum non 
-      <lb ed="#V" n="87"/>potest esse sine distictione illorum de per modo dicendi per se: sed que 
-      <lb ed="#V" n="88"/>distinguuntur per talia: solis posterioribus non 
-      distinguun<lb ed="#V" n="89" break="no"/>tur. ergo quae solis posterioribus distinguuntur conueniunt in 
-      <lb ed="#V" n="90"/>prioribus. et per consequens habent easdem rationes formales: sed deus et 
-      <lb ed="#V" n="91"/>creatura vel entitas in deo et creatura distinguitur praecise per 
-      <lb ed="#V" n="92"/>posteriora. Probatur. quia per dependens et independens. 
-      nece<lb ed="#V" n="93" break="no"/>esse. et possibile esse. finitum et infinitum. illa omnia sunt posteriora dieo 
-      <lb ed="#V" n="94"/>et creature siue entitate in quaolibet eorum. Probo. nura pro 
-      <lb ed="#V" n="95"/>quicumque signo creatura est dependens. deus est idependens: sed 
-      <lb ed="#V" n="96"/>creatura prius est talis entitas quam habeat talem dependentiam: 
-      <lb ed="#V" n="97"/>quia absolutum praecedit relationem. ergo deus est prius talis entitas 
-      <lb ed="#V" n="98"/>quam sit independens. Patet ergo resumendo totam rationem: quia 
-      quae<lb ed="#V" n="99" break="no"/>solum distinguuntur per accidens et a posteriori. sunt eiusdem 
-      ra<lb ed="#V" n="100" break="no"/>tionis formalis: sed ens in deo et in creatura est huiusmodi: quia 
-      <lb ed="#V" n="101"/>distinguitur per illa quae sequuntur rationem formalem: quia per 
-      <lb ed="#V" n="102"/>posteriora. patet etiam quia finitum et infinitum sunt posteriora: quia 
-      <lb ed="#V" n="103"/>gradus est posterior quiditate. Similiter continngens et 
-      necessa<lb ed="#V" n="104" break="no"/>rium quae sunt modi quiditatis. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de2114-d1e199">
-      ¶ Praeterea. que 
-      distinguun<lb ed="#V" n="105" break="no"/>tur solis differentiis diuisiuis: sunt eiusdem rationis 
-      forma<lb ed="#V" n="106" break="no"/>lis indiuiso: deus et creatura sunt huiusmodi. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de2114-d1e207">
-               <lb ed="#V" n="107"/>Secundum fundamentum radicatur in natura 
-      oppositio<lb ed="#V" n="108" break="no"/>nis. et primo in relatiue oppositis. Et 
-      <lb ed="#V" n="109"/>arguitur sic. In quibuscumque fundatur relatio similitudis: illa sunt 
-      <lb ed="#V" n="110"/>vnum in aliqua ratione: deus et creatura sunt huiusmodi. quia creatura est 
-      <lb ed="#V" n="111"/>similis deo secundum imaginem. ergo etc. Ma. patet: quia relationes priuo 
-      modi<lb ed="#V" n="112" break="no"/>sunt relationes vnius rationis: similitudo est relatio prius modi. ergo etc. 
-      </p>
-            <p xml:id="FrMS88-de2114-d1e223">
-               <lb ed="#V" n="113"/>¶ 2o arguitur in contrarie oppositis sic. Contraria semper 
-      redu<lb ed="#V" n="114" break="no"/>cuntur ad aliquod commune: quod per presupponitur: sed deo et 
-      creatu<lb ed="#V" n="115" break="no"/>re competunt contraria: ergo etc.
-    </p>
-            <p xml:id="FrMS88-de2114-d1e232">
-      ¶ 3o arguitur in priuatiue 
-      opposi<lb ed="#V" n="116" break="no"/>tis sic: quandocumque aliquae priuationes sunt eiusdem rationis: et 
-      posi<lb ed="#V" n="117" break="no"/>tiua similiter sunt eiusde rationis vel possunt esse. hoc patet. quia priuatia et 
-      <lb ed="#V" n="118"/>habitus sunt essentialiter ordinata secundum prius et posterius: sed 
-      <lb ed="#V" n="119"/>in quocumque est illud quod est posterius essentialiter: in illo potest esse 
-      <lb ed="#V" n="120"/>vel est prius: sed ita est in proposito. quia dieo et creature competunt 
-      <lb ed="#V" n="121"/>priuationes eiusdem rationis. ver. ergo. incorruptibilitas est in deo 
-      <lb ed="#V" n="122"/>et in anima intellectiua: vel in celo. Incorruptibilitas enim est 
-      <lb ed="#V" n="123"/>puatio corruptibilitatis sine aptitudine: hoc competit dieo 
-      <lb ed="#V" n="124"/>et creature. vt dictum est. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de2114-d1e254">
-      ¶ 4o arguitur eodem modo in 
-      contra<lb ed="#V" n="125" break="no"/>dictorie oppositis: quia deus et creatura siue angelus 
-      st<lb ed="#V" n="126" break="no"/>non albi. Illa autem nugatio est eiusdem rationis.
-    </p>
-            <p xml:id="FrMS88-de2114-d1e261">
-               <lb ed="#V" n="127"/>Tertium fundamentum radicatur in natura 
-      pluralita<lb ed="#V" n="128" break="no"/>tis. Et ex hoc arguitur sic. quando aliqua dicuntur 
-      plu<lb ed="#V" n="129" break="no"/>ra secundum aliquid vnum numeratum: habent rationem vnam communem. Et 
-      <lb ed="#V" n="130"/>hoc patet: quia homo et bos non numerantur sed propria eis: quia 
-      <lb ed="#V" n="131"/>non dicuntur duo boues: vel duo homines: sed duo animalia: sed  
-      <lb ed="#V" n="132"/>deus et creatura dicuntur duo entia. ergo ens in eis dicit vnam 
-      <!--12.xml-->
-      <pb ed="#V" n="5-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>rationem communem.
-    </p>
-            <p xml:id="FrMS88-de2114-d1e285">
-      ¶ 2o ex eodem arguo sic: nullum 
-      equi<lb ed="#V" n="2" break="no"/>uocum numeratur in equocatis: sicut canis non numeratur in illis de quod 
-      <lb ed="#V" n="3"/>bus dicitur: sed solum accipitur secundum plures acceptiones eiusdem voc 
-      <lb ed="#V" n="4"/>vel significationes: sed ens plurificatur in deo et in creatura 
-      <lb ed="#V" n="5"/>sunt enim plura entia. igitur etc.
-    </p>
-            <p xml:id="FrMS88-de2114-d1e297">
-      ¶ 3o sic. quando aliqua sic se habent quod 
-      cir<lb ed="#V" n="6" break="no"/>cumscripto omni alio quod non est de quiditate ipsorum: illa sunt 
-      pe<lb ed="#V" n="7" break="no"/>nitus idem: talia sunt eiusdem rationis formalis: sed pluralitas non 
-      <lb ed="#V" n="8"/>est de ratione quiditatiua dei: nec creature: nec entis. quia cir 
-      <lb ed="#V" n="9"/>cumscripta pluralitate ab eis: essent idem ens: ergo sunt eiusdem 
-      <lb ed="#V" n="10"/>rationis formalis in ente.
-    </p>
-            <p xml:id="FrMS88-de2114-d1e310">
-      ¶ 4o ex eodem arguitur sic. Illa 
-      <lb ed="#V" n="11"/>su eiusdem rationis formalis: quibus aduenit omnis pluralitas: 
-      <lb ed="#V" n="12"/>sed deus et creatura sunt huiusmodi secundum Aug. 8. lib. de trinita
-    </p>
-            <p xml:id="FrMS88-de2114-d1e317">
-               <lb ed="#V" n="13"/>Quartum fundamentum radicatur in natura perfectionis 
-      <lb ed="#V" n="14"/>Ex quo arguitur sic. omnis perfectio. simpliciter quae 
-      in<lb ed="#V" n="15" break="no"/>uenitur in creatura: inuenitur in deo secundum eandem rationem formalem: 
-      <lb ed="#V" n="16"/>sed ens est perfectio simpliciter. ergo ens est in deo et creatura 
-      eiu<lb ed="#V" n="17" break="no"/>dem rationis formalis. Ma. probatur: quia in ente perfectissimo oportet 
-      <lb ed="#V" n="18"/>innuenire omnem perfectionem simpliciter.Preera. deus est illud quo 
-      <lb ed="#V" n="19"/>maius excogitari non potest: hoc autem non esset nisi in eo esset 
-      <lb ed="#V" n="20"/>omnis praefectio simpliciter. Mior probatur. quia in perfectione simpliciter 
-      <lb ed="#V" n="21"/>non includiter nisi perfectio simpliciter. hoc patet. quia perfectio potest 
-      <lb ed="#V" n="22"/>esse sine omni imperfectione: sed ens includiter in multis 
-      perfectio<lb ed="#V" n="23" break="no"/>nibus simpliciter. ergo etc. Probatur ex alio minor. perfectio 
-      sim<lb ed="#V" n="24" break="no"/>pliciter non est limitata nec illimitata: sed ens est huiusmodi. ergo etc. 
-      <lb ed="#V" n="25"/>raeterea. quod est melius quocumque sibi incompossibili: est perfectio simpliciter 
-      <lb ed="#V" n="26"/>sed ita est de ente: quia nihil est sibi incompossibile nisi nihil: ergo etc 
-      <lb ed="#V" n="27"/>raeterea in essentialiter ordinatis si posterius dicit perfectionem 
-      sim<lb ed="#V" n="28" break="no"/>pliciter: et illud quod est prius: sed ens est prius passionibus suis: 
-      qua<lb ed="#V" n="29" break="no"/>rum aliquae dicunt perfectionem simpliciter. ergo et ens. Maior patet. quia per 
-      <lb ed="#V" n="30"/>fectio simpliciter nihil imperfectum includit vel praesupponit. 
-      </p>
-            <p xml:id="FrMS88-de2114-d1e359">
-               <lb ed="#V" n="31"/>¶ Ad argumentum Dion. dico quod ipse loquitur de 
-      affir<lb ed="#V" n="32" break="no"/>mationibus transumptiuis vel methaphoricis.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="4-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-de2114"><!-- l1prolq4 -->
+        <head xml:id="FrMS88-de2114-Hd1e108">Quaestio 4</head>
+        <p xml:id="FrMS88-de2114-d1e111">
+          Quaestio. iiii. 
+          <lb ed="#V" n="68"/>UTrum subiectum primi principii complexi 
+          ha<lb ed="#V" n="69" break="no"/> beat eandem rationem formalem i deo et 
+          <lb ed="#V" n="70"/>creatura secundum scientias reales. quod non. Deatus Dio 
+          <lb ed="#V" n="71"/>ny. dicit. quod negitiones de deo sunt vere. 
+          affir<lb ed="#V" n="72" break="no"/>mationes incompacte.
+        </p>
+        <p xml:id="FrMS88-de2114-d1e124">
+          ¶ Contra. per eundem quae dicit quod 
+          <lb ed="#V" n="73"/>creature sunt quedam participationes dei
+        </p>
+        <p xml:id="FrMS88-de2114-d1e129">
+          <lb ed="#V" n="74"/>hic introducuntur 4or ordines 
+          fundamento<lb ed="#V" n="75" break="no"/>rum ad probandum propositum. 
+          Pri<lb ed="#V" n="76" break="no"/>mum fundamentm est ex nam distionis. Ex qui ar sic. quando aliqua
+          <lb ed="#V" n="77"/>distinguuntur per sua priora. illa non sunt eiusdem rationis 
+          forma<lb ed="#V" n="78" break="no"/>lis. hoc probatur. quia priora sunt diffinientia. quae ergo 
+          disti<lb ed="#V" n="79" break="no"/>guuntur per diffinientia patet quod non sunt eiusdem rationis formalis. 
+          <lb ed="#V" n="80"/>habet etiam ex alio: quia quae distinguuntur per ea quae sunt dide per modo 
+          dicen<lb ed="#V" n="81" break="no"/>di per se distinguuntur per rationes formales. sola autem illa de prim 
+          <lb ed="#V" n="82"/>mo sunt priora. Patet ergo illa propositio accepta. ergo sub illa accipi 
+          <lb ed="#V" n="83"/>tur alia non ex primum: quia quae distinguuntur solis posterioribus 
+          <lb ed="#V" n="84"/>sunt eiusdem rationis formalis. hoc patet. quia si non sunt eiusdem 
+          <lb ed="#V" n="85"/>rationis formalis. oportet quod distinguantur per aliqua diffinientia. et 
+          <lb ed="#V" n="86"/>per aliqua de per modo dicedi per se. quia disto formalium rationum non 
+          <lb ed="#V" n="87"/>potest esse sine distictione illorum de per modo dicendi per se: sed que 
+          <lb ed="#V" n="88"/>distinguuntur per talia: solis posterioribus non 
+          distinguun<lb ed="#V" n="89" break="no"/>tur. ergo quae solis posterioribus distinguuntur conueniunt in 
+          <lb ed="#V" n="90"/>prioribus. et per consequens habent easdem rationes formales: sed deus et 
+          <lb ed="#V" n="91"/>creatura vel entitas in deo et creatura distinguitur praecise per 
+          <lb ed="#V" n="92"/>posteriora. Probatur. quia per dependens et independens. 
+          nece<lb ed="#V" n="93" break="no"/>esse. et possibile esse. finitum et infinitum. illa omnia sunt posteriora dieo 
+          <lb ed="#V" n="94"/>et creature siue entitate in quaolibet eorum. Probo. nura pro 
+          <lb ed="#V" n="95"/>quicumque signo creatura est dependens. deus est idependens: sed 
+          <lb ed="#V" n="96"/>creatura prius est talis entitas quam habeat talem dependentiam: 
+          <lb ed="#V" n="97"/>quia absolutum praecedit relationem. ergo deus est prius talis entitas 
+          <lb ed="#V" n="98"/>quam sit independens. Patet ergo resumendo totam rationem: quia 
+          quae<lb ed="#V" n="99" break="no"/>solum distinguuntur per accidens et a posteriori. sunt eiusdem 
+          ra<lb ed="#V" n="100" break="no"/>tionis formalis: sed ens in deo et in creatura est huiusmodi: quia 
+          <lb ed="#V" n="101"/>distinguitur per illa quae sequuntur rationem formalem: quia per 
+          <lb ed="#V" n="102"/>posteriora. patet etiam quia finitum et infinitum sunt posteriora: quia 
+          <lb ed="#V" n="103"/>gradus est posterior quiditate. Similiter continngens et 
+          necessa<lb ed="#V" n="104" break="no"/>rium quae sunt modi quiditatis. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de2114-d1e199">
+          ¶ Praeterea. que 
+          distinguun<lb ed="#V" n="105" break="no"/>tur solis differentiis diuisiuis: sunt eiusdem rationis 
+          forma<lb ed="#V" n="106" break="no"/>lis indiuiso: deus et creatura sunt huiusmodi. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de2114-d1e207">
+          <lb ed="#V" n="107"/>Secundum fundamentum radicatur in natura 
+          oppositio<lb ed="#V" n="108" break="no"/>nis. et primo in relatiue oppositis. Et 
+          <lb ed="#V" n="109"/>arguitur sic. In quibuscumque fundatur relatio similitudis: illa sunt 
+          <lb ed="#V" n="110"/>vnum in aliqua ratione: deus et creatura sunt huiusmodi. quia creatura est 
+          <lb ed="#V" n="111"/>similis deo secundum imaginem. ergo etc. Ma. patet: quia relationes priuo 
+          modi<lb ed="#V" n="112" break="no"/>sunt relationes vnius rationis: similitudo est relatio prius modi. ergo etc. 
+        </p>
+        <p xml:id="FrMS88-de2114-d1e223">
+          <lb ed="#V" n="113"/>¶ 2o arguitur in contrarie oppositis sic. Contraria semper 
+          redu<lb ed="#V" n="114" break="no"/>cuntur ad aliquod commune: quod per presupponitur: sed deo et 
+          creatu<lb ed="#V" n="115" break="no"/>re competunt contraria: ergo etc.
+        </p>
+        <p xml:id="FrMS88-de2114-d1e232">
+          ¶ 3o arguitur in priuatiue 
+          opposi<lb ed="#V" n="116" break="no"/>tis sic: quandocumque aliquae priuationes sunt eiusdem rationis: et 
+          posi<lb ed="#V" n="117" break="no"/>tiua similiter sunt eiusde rationis vel possunt esse. hoc patet. quia priuatia et 
+          <lb ed="#V" n="118"/>habitus sunt essentialiter ordinata secundum prius et posterius: sed 
+          <lb ed="#V" n="119"/>in quocumque est illud quod est posterius essentialiter: in illo potest esse 
+          <lb ed="#V" n="120"/>vel est prius: sed ita est in proposito. quia dieo et creature competunt 
+          <lb ed="#V" n="121"/>priuationes eiusdem rationis. ver. ergo. incorruptibilitas est in deo 
+          <lb ed="#V" n="122"/>et in anima intellectiua: vel in celo. Incorruptibilitas enim est 
+          <lb ed="#V" n="123"/>puatio corruptibilitatis sine aptitudine: hoc competit dieo 
+          <lb ed="#V" n="124"/>et creature. vt dictum est. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de2114-d1e254">
+          ¶ 4o arguitur eodem modo in 
+          contra<lb ed="#V" n="125" break="no"/>dictorie oppositis: quia deus et creatura siue angelus 
+          st<lb ed="#V" n="126" break="no"/>non albi. Illa autem nugatio est eiusdem rationis.
+        </p>
+        <p xml:id="FrMS88-de2114-d1e261">
+          <lb ed="#V" n="127"/>Tertium fundamentum radicatur in natura 
+          pluralita<lb ed="#V" n="128" break="no"/>tis. Et ex hoc arguitur sic. quando aliqua dicuntur 
+          plu<lb ed="#V" n="129" break="no"/>ra secundum aliquid vnum numeratum: habent rationem vnam communem. Et 
+          <lb ed="#V" n="130"/>hoc patet: quia homo et bos non numerantur sed propria eis: quia 
+          <lb ed="#V" n="131"/>non dicuntur duo boues: vel duo homines: sed duo animalia: sed  
+          <lb ed="#V" n="132"/>deus et creatura dicuntur duo entia. ergo ens in eis dicit vnam 
+          <!--12.xml-->
+          <pb ed="#V" n="5-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>rationem communem.
+        </p>
+        <p xml:id="FrMS88-de2114-d1e285">
+          ¶ 2o ex eodem arguo sic: nullum 
+          equi<lb ed="#V" n="2" break="no"/>uocum numeratur in equocatis: sicut canis non numeratur in illis de quod 
+          <lb ed="#V" n="3"/>bus dicitur: sed solum accipitur secundum plures acceptiones eiusdem voc 
+          <lb ed="#V" n="4"/>vel significationes: sed ens plurificatur in deo et in creatura 
+          <lb ed="#V" n="5"/>sunt enim plura entia. igitur etc.
+        </p>
+        <p xml:id="FrMS88-de2114-d1e297">
+          ¶ 3o sic. quando aliqua sic se habent quod 
+          cir<lb ed="#V" n="6" break="no"/>cumscripto omni alio quod non est de quiditate ipsorum: illa sunt 
+          pe<lb ed="#V" n="7" break="no"/>nitus idem: talia sunt eiusdem rationis formalis: sed pluralitas non 
+          <lb ed="#V" n="8"/>est de ratione quiditatiua dei: nec creature: nec entis. quia cir 
+          <lb ed="#V" n="9"/>cumscripta pluralitate ab eis: essent idem ens: ergo sunt eiusdem 
+          <lb ed="#V" n="10"/>rationis formalis in ente.
+        </p>
+        <p xml:id="FrMS88-de2114-d1e310">
+          ¶ 4o ex eodem arguitur sic. Illa 
+          <lb ed="#V" n="11"/>su eiusdem rationis formalis: quibus aduenit omnis pluralitas: 
+          <lb ed="#V" n="12"/>sed deus et creatura sunt huiusmodi secundum Aug. 8. lib. de trinita
+        </p>
+        <p xml:id="FrMS88-de2114-d1e317">
+          <lb ed="#V" n="13"/>Quartum fundamentum radicatur in natura perfectionis 
+          <lb ed="#V" n="14"/>Ex quo arguitur sic. omnis perfectio. simpliciter quae 
+          in<lb ed="#V" n="15" break="no"/>uenitur in creatura: inuenitur in deo secundum eandem rationem formalem: 
+          <lb ed="#V" n="16"/>sed ens est perfectio simpliciter. ergo ens est in deo et creatura 
+          eiu<lb ed="#V" n="17" break="no"/>dem rationis formalis. Ma. probatur: quia in ente perfectissimo oportet 
+          <lb ed="#V" n="18"/>innuenire omnem perfectionem simpliciter.Preera. deus est illud quo 
+          <lb ed="#V" n="19"/>maius excogitari non potest: hoc autem non esset nisi in eo esset 
+          <lb ed="#V" n="20"/>omnis praefectio simpliciter. Mior probatur. quia in perfectione simpliciter 
+          <lb ed="#V" n="21"/>non includiter nisi perfectio simpliciter. hoc patet. quia perfectio potest 
+          <lb ed="#V" n="22"/>esse sine omni imperfectione: sed ens includiter in multis 
+          perfectio<lb ed="#V" n="23" break="no"/>nibus simpliciter. ergo etc. Probatur ex alio minor. perfectio 
+          sim<lb ed="#V" n="24" break="no"/>pliciter non est limitata nec illimitata: sed ens est huiusmodi. ergo etc. 
+          <lb ed="#V" n="25"/>raeterea. quod est melius quocumque sibi incompossibili: est perfectio simpliciter 
+          <lb ed="#V" n="26"/>sed ita est de ente: quia nihil est sibi incompossibile nisi nihil: ergo etc 
+          <lb ed="#V" n="27"/>raeterea in essentialiter ordinatis si posterius dicit perfectionem 
+          sim<lb ed="#V" n="28" break="no"/>pliciter: et illud quod est prius: sed ens est prius passionibus suis: 
+          qua<lb ed="#V" n="29" break="no"/>rum aliquae dicunt perfectionem simpliciter. ergo et ens. Maior patet. quia per 
+          <lb ed="#V" n="30"/>fectio simpliciter nihil imperfectum includit vel praesupponit. 
+        </p>
+        <p xml:id="FrMS88-de2114-d1e359">
+          <lb ed="#V" n="31"/>¶ Ad argumentum Dion. dico quod ipse loquitur de 
+          affir<lb ed="#V" n="32" break="no"/>mationibus transumptiuis vel methaphoricis.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

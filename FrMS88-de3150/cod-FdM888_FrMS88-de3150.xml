@@ -1,298 +1,298 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 7</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 7</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="6-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-de3150"><!-- l1prolq7 -->
-            <head xml:id="FrMS88-de3150-Hd1e108">Quaestio 7</head>
-            <p xml:id="FrMS88-de3150-d1e111">
-      Questio. vii. 
-      <lb ed="#V" n="29"/>UTrum ratio entis sit praecisa ab aliis ratio
-      <lb ed="#V" n="30" break="no"/>nibus formalibus que sunt in 
-      <lb ed="#V" n="31"/>deo. Quod non: quia dicit hyl. quod diuersitas non 
-      <lb ed="#V" n="32"/>est adminttenda in diuinis: praecisio autem est 
-      di<lb ed="#V" n="33" break="no"/>ruersitas. ergo etc. Contra. Dion. de divinis non 
-      <lb ed="#V" n="34"/>bus dicit. Quod in divinis est aliqua alteritas et diunsitas. ergo etc. 
-      <lb ed="#V" n="35"/>excludam duas contradictiones duorum doctorum 
-      <lb ed="#V" n="36"/>Hic Ioa. et Pe. Unus enim dicit. quod ens habet vnum 
-      <lb ed="#V" n="37"/>conceptum: non autem vnam rationem: et ille conceptus est imprecisus 
-      <lb ed="#V" n="38"/>ab aliis. Alius dicit quod habet vnam rationem formalem 
-      impre<lb ed="#V" n="39" break="no"/>cisam: non tamen in quid dictam de omnibus.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e137">
-      ¶ Contra primum 
-      <lb ed="#V" n="40"/>impositum primo doctori inducitur quadruplex 
-      contra<lb ed="#V" n="41" break="no"/>dictio. Prima est. quod idem conceptus erit communis: et non communis: 
-      pro<lb ed="#V" n="42" break="no"/>prius et non proprius. Et arguitur sic. conceptus entis 
-      cer<lb ed="#V" n="43" break="no"/>tus est communis: conceptus cuiuslibet dubiorum est non commnis: ergo 
-      <lb ed="#V" n="44"/>idem est communis: et non communis: proprius et non proprius. Ultus 
-      <lb ed="#V" n="45"/>sic. conceptus certus de duobus est communis illis duobus 
-      <lb ed="#V" n="46"/>sed si idem certus conceptus de duobus esset dubius: non esset 
-      <lb ed="#V" n="47"/>communis eis: et sic esset proprius et non proprius: communis et non communis. 
-      </p>
-            <p xml:id="FrMS88-de3150-d1e157">
-               <lb ed="#V" n="48"/>¶ 2a. quia idem conceptus esset repugnans: et non repugnans: quia 
-      <lb ed="#V" n="49"/>conceptus entis est compossibilis omnibus: et per consequens non 
-      repu<lb ed="#V" n="50" break="no"/>gnaturas conceptus aliorum vt hominis non est compossibilis omnibus 
-      <lb ed="#V" n="51"/>et per consequens repugnans. Idem igitur conceptus erit repugnans et 
-      <lb ed="#V" n="52"/>non repugnans.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e170">
-      ¶ 3a condictio est: quia idem erit transcendens 
-      <lb ed="#V" n="53"/>et non transcendens: quia conceptus entis est transcendens: conceptus 
-      <lb ed="#V" n="54"/>autem aliorum puta hominis non transcendens. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e178">
-      ¶ 4a quia 
-      iden<lb ed="#V" n="55" break="no"/>esset abstractus et non abstractus: quia conceptus entis est 
-      ab<lb ed="#V" n="56" break="no"/>stractus: conceptus autem inferiorum non est abstractus. ergo etc 
-      </p>
-            <p xml:id="FrMS88-de3150-d1e185">
-               <lb ed="#V" n="57"/>¶ Si dicatur quod vnitas entis est vnitas indeterminatio 
-      <lb ed="#V" n="58"/>nis.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e192">
-      ¶ Contra. eodem modo arguitur: quia conceptus entis est 
-      <lb ed="#V" n="59"/>vnus vnitate indeterminationis: alii non. ergo etc. Item 
-      <lb ed="#V" n="60"/>x. praesenta habent conceptus determinatos: ratio autem entis habet rationem 
-      <lb ed="#V" n="61"/>vel conceptum indeterminatum. De eodem autem secundum idem non possunt 
-      di<lb ed="#V" n="62" break="no"/>ci contradictoria. et per consequens nec indeterminatum et determinatum. ergo 
-      <lb ed="#V" n="63"/>etc. Sic ergo imponitur istis doctoribus multiplex contradictio: 
-      impo<lb ed="#V" n="64" break="no"/>nendo eis quod primo dicunt: quod ens habet vnum conceptum imprecisum ab 
-      <lb ed="#V" n="65"/>aliis. 2o quod ens habet vnam rationem imprecisam ab aliis. 
-      <lb ed="#V" n="66"/>dico. quod ista sipossunt intelligi vt sonant: quia eodem 
-      <lb ed="#V" n="67"/>Ideo modo reduci possunt argumentum et contradictiones 
-      <!--14.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="68"/>facte contra primum et contra secundum: quia eadem ratio non potest esse communis et 
-      <lb ed="#V" n="69"/>non communis. Credo enim quod isti docto. non sic intellexo 
-      <lb ed="#V" n="70"/>runt. Probo enim istum intellectum esse falsum: et quod ratio siue 
-      con<lb ed="#V" n="71" break="no"/>ceptus entis sit praecisa ab omnibus aliis rationibus siue concepti 
-      <lb ed="#V" n="72"/>bus. Et hoc probo primo sic. quia quandocumque vni rationi formali 
-      compe<lb ed="#V" n="73" break="no"/>tit aliquid secundum se: quod non competit alteri ille rationes sunt 
-      distin<lb ed="#V" n="74" break="no"/>cte et precise: hoc patet per primum principium complexum: sed deo inquantum 
-      <lb ed="#V" n="75"/>deus competit beatificare: enti autem inquantum ens non. quia si sic 
-      con<lb ed="#V" n="76" break="no"/>deteret omni enti: ergo etc.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e238">
-      ¶ Si dicatur quod verum est de ratione 
-      <lb ed="#V" n="77"/>entis in generali. Et ego dico quod de illa loquor quae 
-      inueni<lb ed="#V" n="78" break="no"/>tur in omnibus: et de illa probo quod distinguitur a divitate.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e245">
-      ¶ 2o sic. 
-      <lb ed="#V" n="79"/>quando ita est quod aliquid realiter repugnat alicui ex aliqua ratione 
-      <lb ed="#V" n="80"/>formali: et non repugnat sibi ex alia: ille rationes sunt aliqualiter 
-      <lb ed="#V" n="81"/>distincte: sed repugnat deo ex ratione diuinitatis finitas 
-      <lb ed="#V" n="82"/>sed ex ratione entitatis non: quia tunc repugnaret omni 
-      <lb ed="#V" n="83"/>enti: ergo etc.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e258">
-      ¶ 3o arguo sic. Impossibile est quod idem in 
-      <lb ed="#V" n="84"/>tellectus sit certus et dubius de eadem ratione 
-      forma<lb ed="#V" n="85" break="no"/>li: sed certi sumus de diuina entitate: dubitamum tamen 
-      <lb ed="#V" n="86"/>de ratione propria deitatis: ergo etc.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e268">
-      ¶ 4o sic. eadem 
-      <lb ed="#V" n="87"/>ratio praecise non potest esse cognoscibilis: et non cognoscibiliter per naturam 
-      <lb ed="#V" n="88"/>sed diuinitatis ratio non est cognoscibilis per naturam: ratio autem entitati 
-      <lb ed="#V" n="89"/>sic. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e277">
-      ¶ Sed contra ista arguitur quadrupliciter. primo sic quando ita est 
-      <lb ed="#V" n="90"/>quod vna ratio aliquorum est altera: vna illarum non est 
-      praecisa<lb ed="#V" n="91" break="no"/>ab altera vel distincta: sed ratio entitatis et diuinitatis  
-      <lb ed="#V" n="92"/>ita se habent quod vna est altera. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e286">
-      ¶ 2o sic. diuia essentia 
-      <lb ed="#V" n="93"/>est aliquid in sua praecisione: aut ergo aliquid positiuum: aut non. 
-      <lb ed="#V" n="94"/>si non. ergo nihil. si sic. ergo ens.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e293">
-      ¶ 3o sic. ratio formalis 
-      di<lb ed="#V" n="95" break="no"/>uinitatis: aut est aliquid: aut nihil. Non nihil. ergo ens. 
-      </p>
-            <p xml:id="FrMS88-de3150-d1e298">
-               <lb ed="#V" n="96"/>¶ 4o sic. illa non est praecisa ratio que est omnis ratio nullo 
-      <lb ed="#V" n="97"/>sibi addito: sed talis est ratio entis. ergo etc. Maior est nota per primum 
-      <lb ed="#V" n="98"/>principium. Minor probatur. quia si aliquid addatur: aut est ens: aut 
-      ni<lb ed="#V" n="99" break="no"/>hil. Si ens: ergo ens additur ad ens. Non nihil: vt patet 
-      </p>
-            <p xml:id="FrMS88-de3150-d1e309">
-               <lb ed="#V" n="100"/>¶ Ad ista. Ad primum dico. quod licet vna ratio sit alia absolute et 
-      <lb ed="#V" n="101"/>aliquo modo: tamen non omnibus modis. Si. enim esset omnibus 
-      mo<lb ed="#V" n="102" break="no"/>dis: tunc concluderet ratio. Tne dico quod ratio diuinitatis non 
-      <lb ed="#V" n="103"/>est omnibus modis eadem cum ratione entitatis.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e321">
-      ¶ Si dicatur. 
-      <lb ed="#V" n="104"/>quod oportet illam non identitatem reducere ad aliqua extrema. 
-      <lb ed="#V" n="105"/>Dico quod duplex abstractio inuenitur. Una quae fit per nomina 
-      <lb ed="#V" n="106"/>prime intentionis: et in ista semper vna dicitur de alia: et vna 
-      <lb ed="#V" n="107"/>semper praedicatur de altera. Alia fit per nomina secunde 
-      intentio<lb ed="#V" n="108" break="no"/>nis: et in ista non est vera. quod vnum semper de altero 
-      predi<lb ed="#V" n="109" break="no"/>cetur. Unde ista non est vera: diffinitum est diffinitio in genere secundarum 
-      <lb ed="#V" n="110"/>intentionum: sed ista est vera: homo est animal rationale: in genere 
-      <lb ed="#V" n="111"/>primarum intentionum. Diffinito enim entis non est 
-      diffini<lb ed="#V" n="112" break="no"/>tio deitatis. licet enim deitas sit entitas. quia adhuc statur in 
-      <lb ed="#V" n="113"/>prima abstractione: tamen ista non est vera: deitas est 
-      for<lb ed="#V" n="114" break="no"/>maliter entitas. quia per ly formaliter intelecitur 2a abstractio. 
-      </p>
-            <p xml:id="FrMS88-de3150-d1e347">
-               <lb ed="#V" n="115"/>¶ Ad 2m dico. quod sicut differentia vt praescindit a genere: est illud 
-      de<lb ed="#V" n="116" break="no"/>nominatiue: et non quiditatiue: sic essentia diuina vt 
-      praescindit<lb ed="#V" n="117" break="no"/>ab entitate est entitas denominatiue. Non tamen quiditatiue est 
-      <lb ed="#V" n="118"/>illud positiuum quod est formaliter entitas.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e358">
-      ¶ Ad 3m 
-      <lb ed="#V" n="119"/>dico. quod est aliquid propria aliquitate. sed non sequitur quod sit 
-      <lb ed="#V" n="120"/>formaliter entitas.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e365">
-      ¶ Si dicatur. vbi diffinito praedicatur videtur forma 
-      <lb ed="#V" n="121"/>lis predicatio: sed diffinitio entis predicatur de deitate. 
-      </p>
-            <p xml:id="FrMS88-de3150-d1e370">
-               <lb ed="#V" n="122"/>¶ Responideo. quod solum eodem modo quo ens diffinitur: eodem modo 
-      <lb ed="#V" n="123"/>diffinitio predicatur: sed ens precise diffinitur per secundam 
-      intentio<lb ed="#V" n="124" break="no"/>nem: et nullo modo per primam: ergo eodem modo quo dicitur de ente 
-      illa<lb ed="#V" n="125" break="no"/>ecunda intentio: icetur de deo: sed de ente dicitur 
-      denominati<lb ed="#V" n="126" break="no"/>ue: et non quiditatiue. Sic ergo dicetur illa secunda intentio de 
-      <lb ed="#V" n="127"/>deo praecise denominatiue: et non quiditatiue.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e386">
-      ¶ Sed si dicatur 
-      <lb ed="#V" n="128"/>ista ratio formalis quid est: potest dici quod est secunda intentio secundum 
-      <lb ed="#V" n="129"/>quod hic accipitur formalis ratio sentitatis. Sed intelligendum est 
-      <lb ed="#V" n="130"/>tamen quod quando ratio formalis est secunda intentio: supponit pro prima¬ 
-      </p>
-            <p xml:id="FrMS88-de3150-d1e396">
-               <lb ed="#V" n="131"/>¶ Ad 4m dico ad maiorem: quod aliqua ratio sit omnis ratio 
-      nul<lb ed="#V" n="132" break="no"/>lo sibi addito. potest intelleci dupliciter. Vel vt sit omnis ratio 
-      quidi<lb ed="#V" n="133" break="no"/>tatiue: vel solum identice et denominatiue. Primo modo ma 
-      <!--15.xml-->
-      <pb ed="#V" n="6-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>ior est vera. et minor falsa. potest ergo esse omnis ratio denominatiue 
-      <lb ed="#V" n="2"/>sed non quiditatiue. Si autem accipiatur sic quod est denominati 
-      <lb ed="#V" n="3"/>ue omnis ratio: non tamen quiditatiue. maior est falsa. Et tunc ad mi 
-      <lb ed="#V" n="4"/>norem. si accipiatur omni modo est alia nllo addito. non est vera: quia est 
-      <lb ed="#V" n="5"/>omnis alia ratio non quiditatiue: sed denominatiue: sicut rationale est anima 
-      <lb ed="#V" n="6"/>denominatiue: non tamen quiditatiue: immo quiditatiue addit ad 
-      <lb ed="#V" n="7"/>animal. vt patet in exemplo. illud quod addit suba vel animal ad ens: 
-      <lb ed="#V" n="8"/>licet sit ens denominatiue. non tamen est ens quiditatiue. 
-      <lb ed="#V" n="9"/>praesuppositis sic arguitur deducendo rationem ad op 
-      <lb ed="#V" n="10"/>Istis positum: quandocumque aliqua ratio vel conceptus n est idem 
-      omnibu<lb ed="#V" n="11" break="no"/>modis nullo sibi addito. ille conceptus siue illa ratio est 
-      praecis<lb ed="#V" n="12" break="no"/>ab omnibus aliis: et non omnino sibi ead. sed ratio entis non est omnibus mo 
-      <lb ed="#V" n="13"/>dis omnes rationes aliorum nullo sibi addito.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e440">
-      ¶ Quod probo prir 
-      <lb ed="#V" n="14"/>sic. quia omnis conceptus qui sic est idem aliis: nullo sibi addito est 
-      <lb ed="#V" n="15"/>mere equocus: quia equocum non addit ad equocata nisi non 
-      <lb ed="#V" n="16"/>men: sed per te: conceptus enti non addit ad illa diftinquibus dicitur: nisi 
-      so<lb ed="#V" n="17" break="no"/>lum nomen. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e451">
-      ¶ 2o sic. ille conceptus quae est omnis conceptus non 
-      tran<lb ed="#V" n="18" break="no"/>scendens nullo sibi addito: non est transcedens: sed: secundum te: 
-      conce<lb ed="#V" n="19" break="no"/>ptus entis est conceptus. decem praeseanorum nullo sibi addito. ergo etc. 
-      <lb ed="#V" n="20"/>3o sic. ille conceptus qui est singularis conceptus nullo sibi 
-      <lb ed="#V" n="21"/>addito non est vniuersalis: sed: par te: conceptus entis est huiusmodi. ergo etc 
-      </p>
-            <p xml:id="FrMS88-de3150-d1e462">
-               <lb ed="#V" n="22"/>¶ 4o sic. Iste conceptus qui est omnes alii indifferenter: non habet ma 
-      <lb ed="#V" n="23"/>iorem vnitatem illis: sed conceptus singulares non habent nisi 
-      vni<lb ed="#V" n="24" break="no"/>tatem aggregationis vel ordinis: ergo conceptus entis non est 
-      <lb ed="#V" n="25"/>vnus nisi vnitate aggregationis vel ordins: quod est 
-      manife<lb ed="#V" n="26" break="no"/>ste falsum.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e475">
-      ¶ Item istuo redit in dictum antiquorum doctorum: quo 
-      di<lb ed="#V" n="27" break="no"/>cunt quod intellectus est certus de alterutro duorum 
-      indetermina<lb ed="#V" n="28" break="no"/>te: et dubius de altero determinate.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e482">
-      ¶ Sed contra hoc arguo 
-      <lb ed="#V" n="29"/>sic. intellectus aut habet certitudinem de neutro: aut de altero 
-      <lb ed="#V" n="30"/>aut de vtroque simul: aut de altero indistincte et 
-      indeter<lb ed="#V" n="31" break="no"/>minate.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e492">
-      ¶ Si dicas. quod est neuter: habetur propositum: quia omnis concept 
-      <lb ed="#V" n="32"/>neuter ad duos determinatos est praecisus ab illis. Si autem 
-      <lb ed="#V" n="33"/>est alter: vel erit finitus vel infinitus: non finitus: quia deus non 
-      <lb ed="#V" n="34"/>est finitus. Nec infinitus. quia de hoc dubitamus. Nec potest 
-      dici<lb ed="#V" n="35" break="no"/>quod de vtroque est certus: quia de falso nullus potest esse certus 
-      <lb ed="#V" n="36"/>ralsum autem est quod deus est finitus et infinitus.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e505">
-      ¶ Si autem dicas. 
-      <lb ed="#V" n="37"/>quod de alterutro sic. Contra hoc est illud argumentum quod 
-      <lb ed="#V" n="38"/>prius factum est. sicut contra alios. Tunc. enim tantam certitudinem heo 
-      <lb ed="#V" n="39"/>quod deus est trinus: incarnatus: mortuus: sicut quod deus est ens. 
-      <lb ed="#V" n="40"/>quia sum certus eque bene quod est trinus: vel non trinus: sicut quod est 
-      <lb ed="#V" n="41"/>primum vel non primum: sed ille: parte: erit conceptus entis: ergo 
-      <lb ed="#V" n="42"/>etc. Et sic de aliis.
-    </p>
-            <p xml:id="FrMS88-de3150-d1e521">
-      ¶ Ad argumentum in oppositum de hil. dicendum. 
-      <lb ed="#V" n="43"/>quod ipse loquitur de diuersitate in natura.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 7</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 7</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="6-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-de3150"><!-- l1prolq7 -->
+        <head xml:id="FrMS88-de3150-Hd1e108">Quaestio 7</head>
+        <p xml:id="FrMS88-de3150-d1e111">
+          Questio. vii. 
+          <lb ed="#V" n="29"/>UTrum ratio entis sit praecisa ab aliis ratio
+          <lb ed="#V" n="30" break="no"/>nibus formalibus que sunt in 
+          <lb ed="#V" n="31"/>deo. Quod non: quia dicit hyl. quod diuersitas non 
+          <lb ed="#V" n="32"/>est adminttenda in diuinis: praecisio autem est 
+          di<lb ed="#V" n="33" break="no"/>ruersitas. ergo etc. Contra. Dion. de divinis non 
+          <lb ed="#V" n="34"/>bus dicit. Quod in divinis est aliqua alteritas et diunsitas. ergo etc. 
+          <lb ed="#V" n="35"/>excludam duas contradictiones duorum doctorum 
+          <lb ed="#V" n="36"/>Hic Ioa. et Pe. Unus enim dicit. quod ens habet vnum 
+          <lb ed="#V" n="37"/>conceptum: non autem vnam rationem: et ille conceptus est imprecisus 
+          <lb ed="#V" n="38"/>ab aliis. Alius dicit quod habet vnam rationem formalem 
+          impre<lb ed="#V" n="39" break="no"/>cisam: non tamen in quid dictam de omnibus.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e137">
+          ¶ Contra primum 
+          <lb ed="#V" n="40"/>impositum primo doctori inducitur quadruplex 
+          contra<lb ed="#V" n="41" break="no"/>dictio. Prima est. quod idem conceptus erit communis: et non communis: 
+          pro<lb ed="#V" n="42" break="no"/>prius et non proprius. Et arguitur sic. conceptus entis 
+          cer<lb ed="#V" n="43" break="no"/>tus est communis: conceptus cuiuslibet dubiorum est non commnis: ergo 
+          <lb ed="#V" n="44"/>idem est communis: et non communis: proprius et non proprius. Ultus 
+          <lb ed="#V" n="45"/>sic. conceptus certus de duobus est communis illis duobus 
+          <lb ed="#V" n="46"/>sed si idem certus conceptus de duobus esset dubius: non esset 
+          <lb ed="#V" n="47"/>communis eis: et sic esset proprius et non proprius: communis et non communis. 
+        </p>
+        <p xml:id="FrMS88-de3150-d1e157">
+          <lb ed="#V" n="48"/>¶ 2a. quia idem conceptus esset repugnans: et non repugnans: quia 
+          <lb ed="#V" n="49"/>conceptus entis est compossibilis omnibus: et per consequens non 
+          repu<lb ed="#V" n="50" break="no"/>gnaturas conceptus aliorum vt hominis non est compossibilis omnibus 
+          <lb ed="#V" n="51"/>et per consequens repugnans. Idem igitur conceptus erit repugnans et 
+          <lb ed="#V" n="52"/>non repugnans.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e170">
+          ¶ 3a condictio est: quia idem erit transcendens 
+          <lb ed="#V" n="53"/>et non transcendens: quia conceptus entis est transcendens: conceptus 
+          <lb ed="#V" n="54"/>autem aliorum puta hominis non transcendens. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e178">
+          ¶ 4a quia 
+          iden<lb ed="#V" n="55" break="no"/>esset abstractus et non abstractus: quia conceptus entis est 
+          ab<lb ed="#V" n="56" break="no"/>stractus: conceptus autem inferiorum non est abstractus. ergo etc 
+        </p>
+        <p xml:id="FrMS88-de3150-d1e185">
+          <lb ed="#V" n="57"/>¶ Si dicatur quod vnitas entis est vnitas indeterminatio 
+          <lb ed="#V" n="58"/>nis.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e192">
+          ¶ Contra. eodem modo arguitur: quia conceptus entis est 
+          <lb ed="#V" n="59"/>vnus vnitate indeterminationis: alii non. ergo etc. Item 
+          <lb ed="#V" n="60"/>x. praesenta habent conceptus determinatos: ratio autem entis habet rationem 
+          <lb ed="#V" n="61"/>vel conceptum indeterminatum. De eodem autem secundum idem non possunt 
+          di<lb ed="#V" n="62" break="no"/>ci contradictoria. et per consequens nec indeterminatum et determinatum. ergo 
+          <lb ed="#V" n="63"/>etc. Sic ergo imponitur istis doctoribus multiplex contradictio: 
+          impo<lb ed="#V" n="64" break="no"/>nendo eis quod primo dicunt: quod ens habet vnum conceptum imprecisum ab 
+          <lb ed="#V" n="65"/>aliis. 2o quod ens habet vnam rationem imprecisam ab aliis. 
+          <lb ed="#V" n="66"/>dico. quod ista sipossunt intelligi vt sonant: quia eodem 
+          <lb ed="#V" n="67"/>Ideo modo reduci possunt argumentum et contradictiones 
+          <!--14.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="68"/>facte contra primum et contra secundum: quia eadem ratio non potest esse communis et 
+          <lb ed="#V" n="69"/>non communis. Credo enim quod isti docto. non sic intellexo 
+          <lb ed="#V" n="70"/>runt. Probo enim istum intellectum esse falsum: et quod ratio siue 
+          con<lb ed="#V" n="71" break="no"/>ceptus entis sit praecisa ab omnibus aliis rationibus siue concepti 
+          <lb ed="#V" n="72"/>bus. Et hoc probo primo sic. quia quandocumque vni rationi formali 
+          compe<lb ed="#V" n="73" break="no"/>tit aliquid secundum se: quod non competit alteri ille rationes sunt 
+          distin<lb ed="#V" n="74" break="no"/>cte et precise: hoc patet per primum principium complexum: sed deo inquantum 
+          <lb ed="#V" n="75"/>deus competit beatificare: enti autem inquantum ens non. quia si sic 
+          con<lb ed="#V" n="76" break="no"/>deteret omni enti: ergo etc.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e238">
+          ¶ Si dicatur quod verum est de ratione 
+          <lb ed="#V" n="77"/>entis in generali. Et ego dico quod de illa loquor quae 
+          inueni<lb ed="#V" n="78" break="no"/>tur in omnibus: et de illa probo quod distinguitur a divitate.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e245">
+          ¶ 2o sic. 
+          <lb ed="#V" n="79"/>quando ita est quod aliquid realiter repugnat alicui ex aliqua ratione 
+          <lb ed="#V" n="80"/>formali: et non repugnat sibi ex alia: ille rationes sunt aliqualiter 
+          <lb ed="#V" n="81"/>distincte: sed repugnat deo ex ratione diuinitatis finitas 
+          <lb ed="#V" n="82"/>sed ex ratione entitatis non: quia tunc repugnaret omni 
+          <lb ed="#V" n="83"/>enti: ergo etc.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e258">
+          ¶ 3o arguo sic. Impossibile est quod idem in 
+          <lb ed="#V" n="84"/>tellectus sit certus et dubius de eadem ratione 
+          forma<lb ed="#V" n="85" break="no"/>li: sed certi sumus de diuina entitate: dubitamum tamen 
+          <lb ed="#V" n="86"/>de ratione propria deitatis: ergo etc.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e268">
+          ¶ 4o sic. eadem 
+          <lb ed="#V" n="87"/>ratio praecise non potest esse cognoscibilis: et non cognoscibiliter per naturam 
+          <lb ed="#V" n="88"/>sed diuinitatis ratio non est cognoscibilis per naturam: ratio autem entitati 
+          <lb ed="#V" n="89"/>sic. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e277">
+          ¶ Sed contra ista arguitur quadrupliciter. primo sic quando ita est 
+          <lb ed="#V" n="90"/>quod vna ratio aliquorum est altera: vna illarum non est 
+          praecisa<lb ed="#V" n="91" break="no"/>ab altera vel distincta: sed ratio entitatis et diuinitatis  
+          <lb ed="#V" n="92"/>ita se habent quod vna est altera. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e286">
+          ¶ 2o sic. diuia essentia 
+          <lb ed="#V" n="93"/>est aliquid in sua praecisione: aut ergo aliquid positiuum: aut non. 
+          <lb ed="#V" n="94"/>si non. ergo nihil. si sic. ergo ens.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e293">
+          ¶ 3o sic. ratio formalis 
+          di<lb ed="#V" n="95" break="no"/>uinitatis: aut est aliquid: aut nihil. Non nihil. ergo ens. 
+        </p>
+        <p xml:id="FrMS88-de3150-d1e298">
+          <lb ed="#V" n="96"/>¶ 4o sic. illa non est praecisa ratio que est omnis ratio nullo 
+          <lb ed="#V" n="97"/>sibi addito: sed talis est ratio entis. ergo etc. Maior est nota per primum 
+          <lb ed="#V" n="98"/>principium. Minor probatur. quia si aliquid addatur: aut est ens: aut 
+          ni<lb ed="#V" n="99" break="no"/>hil. Si ens: ergo ens additur ad ens. Non nihil: vt patet 
+        </p>
+        <p xml:id="FrMS88-de3150-d1e309">
+          <lb ed="#V" n="100"/>¶ Ad ista. Ad primum dico. quod licet vna ratio sit alia absolute et 
+          <lb ed="#V" n="101"/>aliquo modo: tamen non omnibus modis. Si. enim esset omnibus 
+          mo<lb ed="#V" n="102" break="no"/>dis: tunc concluderet ratio. Tne dico quod ratio diuinitatis non 
+          <lb ed="#V" n="103"/>est omnibus modis eadem cum ratione entitatis.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e321">
+          ¶ Si dicatur. 
+          <lb ed="#V" n="104"/>quod oportet illam non identitatem reducere ad aliqua extrema. 
+          <lb ed="#V" n="105"/>Dico quod duplex abstractio inuenitur. Una quae fit per nomina 
+          <lb ed="#V" n="106"/>prime intentionis: et in ista semper vna dicitur de alia: et vna 
+          <lb ed="#V" n="107"/>semper praedicatur de altera. Alia fit per nomina secunde 
+          intentio<lb ed="#V" n="108" break="no"/>nis: et in ista non est vera. quod vnum semper de altero 
+          predi<lb ed="#V" n="109" break="no"/>cetur. Unde ista non est vera: diffinitum est diffinitio in genere secundarum 
+          <lb ed="#V" n="110"/>intentionum: sed ista est vera: homo est animal rationale: in genere 
+          <lb ed="#V" n="111"/>primarum intentionum. Diffinito enim entis non est 
+          diffini<lb ed="#V" n="112" break="no"/>tio deitatis. licet enim deitas sit entitas. quia adhuc statur in 
+          <lb ed="#V" n="113"/>prima abstractione: tamen ista non est vera: deitas est 
+          for<lb ed="#V" n="114" break="no"/>maliter entitas. quia per ly formaliter intelecitur 2a abstractio. 
+        </p>
+        <p xml:id="FrMS88-de3150-d1e347">
+          <lb ed="#V" n="115"/>¶ Ad 2m dico. quod sicut differentia vt praescindit a genere: est illud 
+          de<lb ed="#V" n="116" break="no"/>nominatiue: et non quiditatiue: sic essentia diuina vt 
+          praescindit<lb ed="#V" n="117" break="no"/>ab entitate est entitas denominatiue. Non tamen quiditatiue est 
+          <lb ed="#V" n="118"/>illud positiuum quod est formaliter entitas.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e358">
+          ¶ Ad 3m 
+          <lb ed="#V" n="119"/>dico. quod est aliquid propria aliquitate. sed non sequitur quod sit 
+          <lb ed="#V" n="120"/>formaliter entitas.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e365">
+          ¶ Si dicatur. vbi diffinito praedicatur videtur forma 
+          <lb ed="#V" n="121"/>lis predicatio: sed diffinitio entis predicatur de deitate. 
+        </p>
+        <p xml:id="FrMS88-de3150-d1e370">
+          <lb ed="#V" n="122"/>¶ Responideo. quod solum eodem modo quo ens diffinitur: eodem modo 
+          <lb ed="#V" n="123"/>diffinitio predicatur: sed ens precise diffinitur per secundam 
+          intentio<lb ed="#V" n="124" break="no"/>nem: et nullo modo per primam: ergo eodem modo quo dicitur de ente 
+          illa<lb ed="#V" n="125" break="no"/>ecunda intentio: icetur de deo: sed de ente dicitur 
+          denominati<lb ed="#V" n="126" break="no"/>ue: et non quiditatiue. Sic ergo dicetur illa secunda intentio de 
+          <lb ed="#V" n="127"/>deo praecise denominatiue: et non quiditatiue.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e386">
+          ¶ Sed si dicatur 
+          <lb ed="#V" n="128"/>ista ratio formalis quid est: potest dici quod est secunda intentio secundum 
+          <lb ed="#V" n="129"/>quod hic accipitur formalis ratio sentitatis. Sed intelligendum est 
+          <lb ed="#V" n="130"/>tamen quod quando ratio formalis est secunda intentio: supponit pro prima¬ 
+        </p>
+        <p xml:id="FrMS88-de3150-d1e396">
+          <lb ed="#V" n="131"/>¶ Ad 4m dico ad maiorem: quod aliqua ratio sit omnis ratio 
+          nul<lb ed="#V" n="132" break="no"/>lo sibi addito. potest intelleci dupliciter. Vel vt sit omnis ratio 
+          quidi<lb ed="#V" n="133" break="no"/>tatiue: vel solum identice et denominatiue. Primo modo ma 
+          <!--15.xml-->
+          <pb ed="#V" n="6-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ior est vera. et minor falsa. potest ergo esse omnis ratio denominatiue 
+          <lb ed="#V" n="2"/>sed non quiditatiue. Si autem accipiatur sic quod est denominati 
+          <lb ed="#V" n="3"/>ue omnis ratio: non tamen quiditatiue. maior est falsa. Et tunc ad mi 
+          <lb ed="#V" n="4"/>norem. si accipiatur omni modo est alia nllo addito. non est vera: quia est 
+          <lb ed="#V" n="5"/>omnis alia ratio non quiditatiue: sed denominatiue: sicut rationale est anima 
+          <lb ed="#V" n="6"/>denominatiue: non tamen quiditatiue: immo quiditatiue addit ad 
+          <lb ed="#V" n="7"/>animal. vt patet in exemplo. illud quod addit suba vel animal ad ens: 
+          <lb ed="#V" n="8"/>licet sit ens denominatiue. non tamen est ens quiditatiue. 
+          <lb ed="#V" n="9"/>praesuppositis sic arguitur deducendo rationem ad op 
+          <lb ed="#V" n="10"/>Istis positum: quandocumque aliqua ratio vel conceptus n est idem 
+          omnibu<lb ed="#V" n="11" break="no"/>modis nullo sibi addito. ille conceptus siue illa ratio est 
+          praecis<lb ed="#V" n="12" break="no"/>ab omnibus aliis: et non omnino sibi ead. sed ratio entis non est omnibus mo 
+          <lb ed="#V" n="13"/>dis omnes rationes aliorum nullo sibi addito.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e440">
+          ¶ Quod probo prir 
+          <lb ed="#V" n="14"/>sic. quia omnis conceptus qui sic est idem aliis: nullo sibi addito est 
+          <lb ed="#V" n="15"/>mere equocus: quia equocum non addit ad equocata nisi non 
+          <lb ed="#V" n="16"/>men: sed per te: conceptus enti non addit ad illa diftinquibus dicitur: nisi 
+          so<lb ed="#V" n="17" break="no"/>lum nomen. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e451">
+          ¶ 2o sic. ille conceptus quae est omnis conceptus non 
+          tran<lb ed="#V" n="18" break="no"/>scendens nullo sibi addito: non est transcedens: sed: secundum te: 
+          conce<lb ed="#V" n="19" break="no"/>ptus entis est conceptus. decem praeseanorum nullo sibi addito. ergo etc. 
+          <lb ed="#V" n="20"/>3o sic. ille conceptus qui est singularis conceptus nullo sibi 
+          <lb ed="#V" n="21"/>addito non est vniuersalis: sed: par te: conceptus entis est huiusmodi. ergo etc 
+        </p>
+        <p xml:id="FrMS88-de3150-d1e462">
+          <lb ed="#V" n="22"/>¶ 4o sic. Iste conceptus qui est omnes alii indifferenter: non habet ma 
+          <lb ed="#V" n="23"/>iorem vnitatem illis: sed conceptus singulares non habent nisi 
+          vni<lb ed="#V" n="24" break="no"/>tatem aggregationis vel ordinis: ergo conceptus entis non est 
+          <lb ed="#V" n="25"/>vnus nisi vnitate aggregationis vel ordins: quod est 
+          manife<lb ed="#V" n="26" break="no"/>ste falsum.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e475">
+          ¶ Item istuo redit in dictum antiquorum doctorum: quo 
+          di<lb ed="#V" n="27" break="no"/>cunt quod intellectus est certus de alterutro duorum 
+          indetermina<lb ed="#V" n="28" break="no"/>te: et dubius de altero determinate.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e482">
+          ¶ Sed contra hoc arguo 
+          <lb ed="#V" n="29"/>sic. intellectus aut habet certitudinem de neutro: aut de altero 
+          <lb ed="#V" n="30"/>aut de vtroque simul: aut de altero indistincte et 
+          indeter<lb ed="#V" n="31" break="no"/>minate.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e492">
+          ¶ Si dicas. quod est neuter: habetur propositum: quia omnis concept 
+          <lb ed="#V" n="32"/>neuter ad duos determinatos est praecisus ab illis. Si autem 
+          <lb ed="#V" n="33"/>est alter: vel erit finitus vel infinitus: non finitus: quia deus non 
+          <lb ed="#V" n="34"/>est finitus. Nec infinitus. quia de hoc dubitamus. Nec potest 
+          dici<lb ed="#V" n="35" break="no"/>quod de vtroque est certus: quia de falso nullus potest esse certus 
+          <lb ed="#V" n="36"/>ralsum autem est quod deus est finitus et infinitus.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e505">
+          ¶ Si autem dicas. 
+          <lb ed="#V" n="37"/>quod de alterutro sic. Contra hoc est illud argumentum quod 
+          <lb ed="#V" n="38"/>prius factum est. sicut contra alios. Tunc. enim tantam certitudinem heo 
+          <lb ed="#V" n="39"/>quod deus est trinus: incarnatus: mortuus: sicut quod deus est ens. 
+          <lb ed="#V" n="40"/>quia sum certus eque bene quod est trinus: vel non trinus: sicut quod est 
+          <lb ed="#V" n="41"/>primum vel non primum: sed ille: parte: erit conceptus entis: ergo 
+          <lb ed="#V" n="42"/>etc. Et sic de aliis.
+        </p>
+        <p xml:id="FrMS88-de3150-d1e521">
+          ¶ Ad argumentum in oppositum de hil. dicendum. 
+          <lb ed="#V" n="43"/>quod ipse loquitur de diuersitate in natura.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

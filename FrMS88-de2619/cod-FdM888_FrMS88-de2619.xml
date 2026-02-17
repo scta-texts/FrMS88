@@ -1,372 +1,372 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 6</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 6</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="5-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-de2619"><!-- l1prolq6 -->
-            <head xml:id="FrMS88-de2619-Hd1e108">Quaestio 6</head>
-            <p xml:id="FrMS88-de2619-d1e111">
-      Quaestio. vi. 
-      <lb ed="#V" n="114"/>UIso de vniuocatione entis. Nunc vi 
-      <lb ed="#V" n="115" break="no"/>dendum est de modo vniuocationis. Et 
-      <lb ed="#V" n="116"/>quantum ad hoc quaero. 4. quaestiones. prima. vtrum dicatur 
-      <lb ed="#V" n="117"/>ens quiditatiue de divina essentia vltimate 
-      prae<lb ed="#V" n="118" break="no"/>cisa. Quod non. secundum Ans. in li. de veritate. Qua 
-      <lb ed="#V" n="119"/>lis est comperatio lucentis ad luceme: talis essentie ad ens: sed ibi 
-      <lb ed="#V" n="120"/>lux tantum denominatiue dicitur de lucente. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e129">
-      ¶ Contra Au. 5. de  
-      <lb ed="#V" n="121"/>tri. dicit. quod essentia propriissime dicitur de deo. 
-    </p>
-            <p xml:id="FrMS88-de2619-d1e134">
-               <lb ed="#V" n="122"/>Circa istam quaestione ponam. 4. conclusiones doctoris. prima quod 
-      <lb ed="#V" n="123"/>ens non dicitur quiditatiue de aliquo simpliciter 
-      simpli<lb ed="#V" n="124" break="no"/>ci. secunda. quod nec de per diuersis. 3a quod nec de passionibus 
-      <lb ed="#V" n="125"/>4a quod nec de vltimis differentiis.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e145">
-      ¶ De per sciendum. quod voco con 
-      <lb ed="#V" n="126"/>ceptum simplicem simpliciter: quo non est resolubilis in alios 
-      con<lb ed="#V" n="127" break="no"/>ceptus: sicut in quantitate illud est simpliciter indiuisibile quod 
-      <lb ed="#V" n="128"/>non est amplius diuisibile: quod patet de puncto qui non resoluitur: 
-      <lb ed="#V" n="129"/>quod autem aliquis talis sit: probatur fic. quia si non. oportebit 
-      proce<lb ed="#V" n="130" break="no"/>dere in infinitum in conceptibus et rationibus quiditatiuis: inter 
-      <lb ed="#V" n="131"/>quos est ordo essentialis: quod est falsum.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e162">
-      ¶ hoc suppotitus 
-      <lb ed="#V" n="132"/>probo. propositum euidenter sic: quando aliquid commune includiter quiditatiue 
-      <!--13.xml-->
-      <pb ed="#V" n="5-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>in aliquo inferiori. illud in quo includiter tale commune est 
-      resolu<lb ed="#V" n="2" break="no"/>bile in rationem communem et propriam: hoc patet. sed nullum simpliciter simpliciter 
-      <lb ed="#V" n="3"/>est resolubile: ergo etc.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e180">
-      ¶ 2a conclusio est. quod de primo diuersis nihil 
-      pradiu<lb ed="#V" n="4" break="no"/>in quid. Et primo exponitur quid fit primo diuersum. vbi sciendum. quod quando 
-      <lb ed="#V" n="5"/>aliqua conueniunt et differunt: necessario est deuenire ad aliqua in illis in 
-      <lb ed="#V" n="6"/>clusa. quae ita differunt quod in nullo conueniunt. Alioquin esset 
-      pro<lb ed="#V" n="7" break="no"/>cessus in infinitum: tale autem vltimum vocatur primo diuersum.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e191">
-      ¶ Tumc 
-      <lb ed="#V" n="8"/>arguitur pro 2a conclusione sic. In quibuscumque includitur ratio entis: illa 
-      <lb ed="#V" n="9"/>aliqui conueniunt: sed primo diuersa in nullo conueniunt. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e198">
-      ¶ 3a 
-      a<lb ed="#V" n="10" break="no"/>de passionibus probatur sic. Nulla propria passio est perfectior suo 
-      <lb ed="#V" n="11"/>subiecto: sed si ens includeretur in suins passionibus: passio esset per 
-      <lb ed="#V" n="12"/>fectior ente ex additione sue proprie rationis ad rationem entis: quia 
-      <lb ed="#V" n="13"/>quicquid includit aliud et amplius: est perfectius praecise illo alio 
-      </p>
-            <p xml:id="FrMS88-de2619-d1e209">
-               <lb ed="#V" n="14"/>¶ 4a conclusio de vltimis differentiis probatur sic. Ultemo differentiae sunt primo diunse. 
-      <lb ed="#V" n="15"/>per diuersis nihil est commune. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e216">
-      ¶ Probatur etiam quod non includiter 
-      <lb ed="#V" n="16"/>in primis differentiis. quia quod diditur immeliut in aliqua. non includitur quidita 
-      <lb ed="#V" n="17"/>tiue in eis. hoc patet. quia tunc esset nugatio addem diuidens diso. sed 
-      <lb ed="#V" n="18"/>ens diditur immediate in differentias primas vel per eas. ergo etc. 
-      <lb ed="#V" n="19"/>contra ista instatur. 4r. primo sic: omne cognitum resoluiter in 
-      ratio<lb ed="#V" n="20" break="no"/>Sed nenentis: quia quod non est ens non potest cognosci. sed 
-      sim<lb ed="#V" n="21" break="no"/>pliciter simpliciter potest cognosci: ergo ens.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e233">
-      ¶ 2o sic. primo diunsum aut est 
-      <lb ed="#V" n="22"/>ens quiditatiue: aut nihil quiditatiue: si nihil: ergo ens.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e238">
-      ¶ 3a 
-      <lb ed="#V" n="23"/>sic. nulla praedicatio in abstracto est vera nisi quiditatiua: sed 
-      in<lb ed="#V" n="24" break="no"/>abstracto veritas recipit praedicationem entis. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e245">
-      ¶ 4o 
-      <lb ed="#V" n="25"/>sic. Ultime differentiae st specifice differentiae. sed iste includunt ens. Nam 
-      <lb ed="#V" n="26"/>rationale est ens. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e252">
-      ¶ Ad ista. Ad primum dico. quod duplex est 
-      <lb ed="#V" n="27"/>resolutioo. Una in partes essentiales. et ista est in linea praesentali: et 
-      <lb ed="#V" n="28"/>illa in quae resoluuntur aliqua istoo dicuntur de eis in quid. Alia autem est 
-      <lb ed="#V" n="29"/>resolutio in priora quae non sunt partes essentiales. Et talia priora in 
-      <lb ed="#V" n="30"/>oportet quod dicantur de eis quae resoluuntur istoo in quid. licet resoluantur 
-      <lb ed="#V" n="31"/>in ea.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e265">
-      ¶ Ad 2m dico. quod primo diuersa: sunt ens: sed non quiditati 
-      <lb ed="#V" n="32"/>ue ens: tamen non sunt nihil quiditatiue. Contradictoria autem 
-      <lb ed="#V" n="33"/>circa aliquid cum additione vel determinatione aliqua: perdunt 
-      <lb ed="#V" n="34"/>naturam contradictionis. sicut album et non album sunt contradictoria: et ideo 
-      ab<lb ed="#V" n="35" break="no"/>solute de quolibet dicitur alterum. sed tamen homo cum ista additione per se vel 
-      <lb ed="#V" n="36"/>quiditatiue: nec est albus: nec non albus.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e278">
-      ¶ Ad 3m argumentum dico 
-      <lb ed="#V" n="37"/>quod non solum in abstractis inuenitur praedicatio quiditatiua vera 
-      <lb ed="#V" n="38"/>sed etiam identica: sicut patet in divinis. Sed aliter hoc et aliter in divinis. quia in 
-      <lb ed="#V" n="39"/>divinis conceditur praedicatio identica propter infinitatem: sed hoc 
-      concedi<lb ed="#V" n="40" break="no"/>propter communitatem alterius extremi excedets sicut est ens.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e290">
-      ¶ Ad 4m 
-      <lb ed="#V" n="41"/>dico. quod prim differentiae dicuntur ille per quas primo diuiditur ens: sicut absoluti 
-      <lb ed="#V" n="42"/>et respectiuum: et in talibus no includitur ens quiditatiue. Alie 
-      <lb ed="#V" n="43"/>sunt vltim. et ille dicuntur indiuiduales proprietates: vel differentiae speci 
-      <lb ed="#V" n="44"/>fice. non tamen omnes: nisi breuiter ille quae accipiuntur ab vltim reali 
-      <lb ed="#V" n="45"/>tate: et vniversaliter omnes differentiae ad quas stat vltim resolutio conceptuum quidi 
-      <lb ed="#V" n="46"/>tatiuorum: omnes tales voco vltimas. Et in istis non 
-      includi<lb ed="#V" n="47" break="no"/>tur ens quiditatiue. Ratioale autem non accipitur ab vltima rea 
-      <lb ed="#V" n="48"/>litate: nec stat in ea resolutioo. sed ipsum resoluiter. 
-      <lb ed="#V" n="49"/> sunt. 4. conclusiones cuiusdam doctoris Thome 
-      angli<lb ed="#V" n="50" break="no"/>Alie ci: quae non videdentur praedictis opposite. prima est. quod ens non 
-      <lb ed="#V" n="51"/>includitur quiditatiue in aliquo praesento. 2a quod ens non includitur quod 
-      <lb ed="#V" n="52"/>ditatiue in aliquo genere subalterno. 3a quod nec in aliqua specis 
-      <lb ed="#V" n="53"/>specialissima. 4a quod non in aliquo indiuiduo cuiuslibet primo 
-      <lb ed="#V" n="54"/>dicamenti.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e323">
-      ¶ prima conclusio probatur sic. quia praesenta sunt prima 
-      irreso<lb ed="#V" n="55" break="no"/>lubilia. quae igitur sunt simpliciter prima. non resoluuntur in aliqua priora 
-      <lb ed="#V" n="56"/>quiditatiue. Si autem ens includeretur in istis quiditatiue: 
-      sequere<lb ed="#V" n="57" break="no"/>tur quod essent resolubilia. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e332">
-      ¶ 2a conclusio pro. quia quando due rationes 
-      <lb ed="#V" n="58"/>formales includuntur in aliquo quiditatiue: oportet illas 
-      subordi<lb ed="#V" n="59" break="no"/>nari. ita quod vna includat in alia. sed in genere subalterno 
-      im<lb ed="#V" n="60" break="no"/>cluditur genus praedicamentale. Certum autem est quod ens in illo non in 
-      <lb ed="#V" n="61"/>cluditur: vt probatum est: nec econverso. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e343">
-      ¶ 3a conclusio probatur. quia ratio dis 
-      <lb ed="#V" n="62"/>finitiua constat ex genere et differentia: ratio dico diffinitiua speciei 
-      specia<lb ed="#V" n="63" break="no"/>lissime: sed ens non est genus nec differentia: nec in eis includiter. ergo etc. 
-      </p>
-            <p xml:id="FrMS88-de2619-d1e350">
-               <lb ed="#V" n="64"/>¶ Quarta conclusio de indiuiduo probatur. quia tota quod 
-      <lb ed="#V" n="65"/>ditas indiuinduorum est species: sed in specie non 
-      in<lb ed="#V" n="66" break="no"/>cluditur ens: ergo nec in aliquo indiuiduo. 
-      <!--13.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>occurrunt. 4. difficultas prima de priori et posteriori: quia 
-      <lb ed="#V" n="68"/>Sed quae non dicuntur in quid de aliquibus non sunt priora eis 
-      sequi<lb ed="#V" n="69" break="no"/>ens non dicitur in quid de praedictis. ergo non est prius. quod est 
-      manife<lb ed="#V" n="70" break="no"/>ste falsum.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e372">
-      ¶ 2a. quia omne praedicatum: vel est per se: vel per accidens: 
-      <lb ed="#V" n="71"/>ens non praedicatur per accidens. ergo per se. Si sic. Vel in primo modo: vel 
-      <lb ed="#V" n="72"/>in 2o. Si in primo heo propositu. ergo in quid. Si in secundo cum pramao 
-      <lb ed="#V" n="73"/>dicatio de secundo mo sit per accidens: et posterius: ergo ens est tale 
-      <lb ed="#V" n="74"/>quod est falsum.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e384">
-      ¶ 3a difficultas. quia videtur quod praedicatio generis de differentia 
-      <lb ed="#V" n="75"/>sit per accidens. Si igitur praedicatio entis reducitur ad illam erit 
-      <lb ed="#V" n="76"/>per accidens.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e391">
-      ¶ 4a est de praedicatione vniuoca. Nam certum est quod 
-      <lb ed="#V" n="77"/>ens praedicatur vniuoce: sed quod praedicatur denominatiue: non praedicatur 
-      <lb ed="#V" n="78"/>vniuoce. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e398">
-      ¶ Ad ista. Ad primum nego illud quod 
-      assumi<lb ed="#V" n="79" break="no"/>tur scilicet quod illud quod nin praedicatur quiditatiue non potest esse 
-      <lb ed="#V" n="80"/>prius. Nam certum est quod genus non praedicatur quiditatiue 
-      <lb ed="#V" n="81"/>de differentia: et tamen est prius. Concedo ergo quod illud quod predicatur rimo 
-      <lb ed="#V" n="82"/>quid est prius. sed non econverso.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e409">
-      ¶ Ad 2m dico: quod predicat 
-      <lb ed="#V" n="83"/>non vt predicatum de secundo modo: sed de primo: non tamen di 
-      <lb ed="#V" n="84"/>recte est de primo: sed tantum indirecte reductiue.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e416">
-      ¶ Ad  
-      <lb ed="#V" n="85"/>tertium dico. quod genus non predicatur de differentia per accidens. sed per 
-      <lb ed="#V" n="86"/>se. quia essentialis ordo est inter genus et differentiam. ergo et ille 
-      or<lb ed="#V" n="87" break="no"/>do est prior ordine generis ad speciem quia ordo generis ad 
-      <lb ed="#V" n="88"/>speciem est per differentiam. Si ergo praedicatur de specie 
-      <lb ed="#V" n="89"/>per se: ergo de differentia non per accidens: sed perse: 
-      <lb ed="#V" n="90"/>et ille ordo est essentialis: sicut quando vna pars essentialis 
-      <lb ed="#V" n="91"/>de alia predicatur. Et reducitur ista praedicatio ad primum modium. 
-      </p>
-            <p xml:id="FrMS88-de2619-d1e434">
-               <lb ed="#V" n="92"/>¶ Ad 4m dico. quod duplex est predicatio denominatia 
-      <lb ed="#V" n="93"/>Una quae accipitur a posteriori et ab accidente: et nunquam ista est 
-      <lb ed="#V" n="94"/>vniuoca: sicut a iustitia dicitur iustus. Alia est que accipitur 
-      <lb ed="#V" n="95"/>ab essentialiter priori. Et ista potest esse vniuoca: quia 
-      redu<lb ed="#V" n="96" break="no"/>cibilis ad primum modum: sicut predicatio generis de differentiam: 
-      <lb ed="#V" n="97"/>et sicut praedicatio transcendentium quae est vere vniuoca. 
-      <lb ed="#V" n="98"/>igitur dico. quod ens non dicitur in quid de 
-      diuina<lb ed="#V" n="99" break="no"/>Ad quaestione essentia: sicut pars essentialis: vel sicut 
-      ge<lb ed="#V" n="100" break="no"/>nus de specie: sed dicitur tali modo de divina essentia: sicut dicitur gen 
-      <lb ed="#V" n="101"/>de differentia.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e459">
-      ¶ hoc probo. primo sic. quandocumque aliquid 
-      inclu<lb ed="#V" n="102" break="no"/>ditur in quiditate alicuius: sicut pars essentialis: illud est prius 
-      <lb ed="#V" n="103"/>illo: sed nihil est prius divinitate: igitur nihil includiter in quod 
-      <lb ed="#V" n="104"/>ditate eius in primo modo: sicut pars essentialis.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e468">
-      ¶ Secundo sic. 
-      <lb ed="#V" n="105"/>diuina essentia est perfectio simpliciter simplex: sed 
-      perfectio<lb ed="#V" n="106" break="no"/>quae est simpliciter simplex non includit aliquid tanquam partem sui. 
-      <lb ed="#V" n="107"/>ergo etc.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e477">
-      ¶ 3o sic. In nullo primo diuerso includitero quiditati 
-      <lb ed="#V" n="108"/>ua alicuius comnis: sed essetia diuina est primo diuersa: vt po 
-      <lb ed="#V" n="109"/>stea videbitur. ergo etc.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e484">
-      ¶ 4o sic. sicut dicit Dion. essentia 
-      di<lb ed="#V" n="110" break="no"/>uina est sicut radix omnium perfectionum diuinarum: sed nihi 
-      <lb ed="#V" n="111"/>potest esse radix illius: quod est de eius quiditate. ergo etc. 
-      <lb ed="#V" n="112"/>sunt. 4. difficultates. Prima est. quid dicendum est 
-      affi<lb ed="#V" n="113" break="no"/>Sed hic matiue de ente: quare non predicatur ese 
-      <lb ed="#V" n="114"/>ditatiue: sicut alia superiora.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e497">
-      ¶ Ad istud dico. quod proba 
-      <lb ed="#V" n="115"/>tum est euidenter quod ens non dicitur quiditatiue: sed 
-      dno<lb ed="#V" n="116" break="no"/>minatiue de diuina essentia. Si autem poneretur includi in 
-      <lb ed="#V" n="117"/>aliquo alio quiditatiue: illud esset intimius ens quam deus 
-      <lb ed="#V" n="118"/>Sed contra arguitur: quia ratio entis dicitur quiditatiue de hoc ente scilicet 
-      <lb ed="#V" n="119"/>de indiuiduo entis: ergo salte illud erit intimius ens: quam 
-      <lb ed="#V" n="120"/>deus.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e513">
-      ¶ Praeterea animal dicitur quiditatiue de homine. ergo homo erit 
-      <lb ed="#V" n="121"/>animal intimius quam deus est ens.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e519">
-      ¶ Ad primum negatur illa 
-      <lb ed="#V" n="122"/>consequentia scilicet ergo hoc ens est magis ens quam deus: quia magis 
-      <lb ed="#V" n="123"/>et minus attenduntur secundum quantitatem virtutis: ratio autem dei ratione 
-      <lb ed="#V" n="124"/>entis est per se prior.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e528">
-      ¶ Sed dices. quod saltem hoc ens est 
-      in<lb ed="#V" n="125" break="no"/>timius ens quam deus: sic arguebatur. Dico quod non oportet 
-      <lb ed="#V" n="126"/>ponere tantam identitatem vel omnimodam inter deum et ens. 
-      <lb ed="#V" n="127"/>sicut inter idem et seipsum.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e537">
-      ¶ Ad aliud conceditur. quod potio 
-      <lb ed="#V" n="128"/>ri modo quo ad nos: homo est animal quam deus sit ens: quia in prio 
-      <lb ed="#V" n="129"/>modo dicendi per se: tamen ille modus identitatis est potior et per 
-      <lb ed="#V" n="130"/>fectior simpliciter.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e546">
-      ¶ 2a difficultas quod licet superius diuisum per 
-      <lb ed="#V" n="131"/>differentias non sit de quiditate earum. videtur tamen quod sit de quiditate 
-      con<lb ed="#V" n="132" break="no"/>stituti. ergo etc. quare ens diuisum per absolutum et respecti¬ 
-      <!--14.xml-->
-      <pb ed="#V" n="6-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>uum non est de quiditate illorum constitutorum.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e562">
-      ¶ Respondeo dico quod aliter 
-      <lb ed="#V" n="2"/>est de diuisione transcendentium: et aliter de diuisione generum: 
-      <lb ed="#V" n="3"/>quia propter limitationem generis et differentiarum potest constitui vnum ex eis 
-      per<lb ed="#V" n="4" break="no"/>copositionem: sed propter illimitationem transcendentium et eorum differentiarum 
-      nul<lb ed="#V" n="5" break="no"/>lum 3m constituunt: quia transcendentia simpliciter simplicia sunt cum 
-      <lb ed="#V" n="6"/>inueniantur in deo.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e575">
-      ¶ 3a difficultas est de modis intrinsecis: et 
-      <lb ed="#V" n="7"/>de praedicatione entis de eis. Utr enim quod sit quiditatiua 
-      praedi<lb ed="#V" n="8" break="no"/>catio entis de ente finito. quia modus intrinsecus non 
-      va<lb ed="#V" n="9" break="no"/>riat rationem quiditatiuam.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e585">
-      ¶ Dicendum est. quod praedicatio entis die 
-      en<lb ed="#V" n="10" break="no"/>te finito est quiditatiua: non tamen intelligendo quod ex ente et modo 
-      <lb ed="#V" n="11"/>fiat vnum quod habeat vnam rationem formalem quae recipiat praedicatio 
-      <lb ed="#V" n="12"/>nem entis: quia nullum tale constituunt: sed ita diciet intelligi. quod ens 
-      <lb ed="#V" n="13"/>quod est finitum est ens: non tamen ens dicitur de finitate: sed de ipso 
-      deter<lb ed="#V" n="14" break="no"/>minato per finitatem. No enim eodem modo praedicatur quoe homo praedicatur 
-      <lb ed="#V" n="15"/>de hoc homine: vel animal de homine: quia animal dicitur quiditatiue de ratione 
-      <lb ed="#V" n="16"/>formali quae fit ex animali et rationali. Non sic ens praedicatur de 
-      en<lb ed="#V" n="17" break="no"/>te finito quiditatiue: sed eo modo qui animal praedicatur de homine albo 
-      <lb ed="#V" n="18"/>hoc est de homine qui est albus. Sic est de ente et ente finito 
-      </p>
-            <p xml:id="FrMS88-de2619-d1e607">
-               <lb ed="#V" n="19"/>¶ 4a difficultas est. si in diuinis inuenitur primus modus 
-      dicen<lb ed="#V" n="20" break="no"/>di per se. Dico quod non. quia non est ibi proprie diffinibile. 
-      nec<lb ed="#V" n="21" break="no"/>diffinitiuum: ex quibus resultat primus modus dicendi per 
-      <lb ed="#V" n="22"/>e: tamen ibi est primus modus dicendi per se: per reductionem nin quod sit 
-      si<lb ed="#V" n="23" break="no"/>tut pars essentialis: sed sicut genus de differentia.
-    </p>
-            <p xml:id="FrMS88-de2619-d1e620">
-      ¶ Ad 
-      ar<lb ed="#V" n="24" break="no"/>gumentum in oppositum dico. quod lucens est participium: 
-      <lb ed="#V" n="25"/>et ideo dicitur denominatiue: et eodem modo ens est parti 
-      <lb ed="#V" n="26"/>cipium: sed vt est nomen acceptum ab essentia vel qui 
-      <lb ed="#V" n="27"/>
-               <!-- LINE COORD error -->
-               <lb ed="#V" n="28"/>ditate non sic dicitur. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 6</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 6</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="5-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-de2619"><!-- l1prolq6 -->
+        <head xml:id="FrMS88-de2619-Hd1e108">Quaestio 6</head>
+        <p xml:id="FrMS88-de2619-d1e111">
+          Quaestio. vi. 
+          <lb ed="#V" n="114"/>UIso de vniuocatione entis. Nunc vi 
+          <lb ed="#V" n="115" break="no"/>dendum est de modo vniuocationis. Et 
+          <lb ed="#V" n="116"/>quantum ad hoc quaero. 4. quaestiones. prima. vtrum dicatur 
+          <lb ed="#V" n="117"/>ens quiditatiue de divina essentia vltimate 
+          prae<lb ed="#V" n="118" break="no"/>cisa. Quod non. secundum Ans. in li. de veritate. Qua 
+          <lb ed="#V" n="119"/>lis est comperatio lucentis ad luceme: talis essentie ad ens: sed ibi 
+          <lb ed="#V" n="120"/>lux tantum denominatiue dicitur de lucente. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e129">
+          ¶ Contra Au. 5. de  
+          <lb ed="#V" n="121"/>tri. dicit. quod essentia propriissime dicitur de deo. 
+        </p>
+        <p xml:id="FrMS88-de2619-d1e134">
+          <lb ed="#V" n="122"/>Circa istam quaestione ponam. 4. conclusiones doctoris. prima quod 
+          <lb ed="#V" n="123"/>ens non dicitur quiditatiue de aliquo simpliciter 
+          simpli<lb ed="#V" n="124" break="no"/>ci. secunda. quod nec de per diuersis. 3a quod nec de passionibus 
+          <lb ed="#V" n="125"/>4a quod nec de vltimis differentiis.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e145">
+          ¶ De per sciendum. quod voco con 
+          <lb ed="#V" n="126"/>ceptum simplicem simpliciter: quo non est resolubilis in alios 
+          con<lb ed="#V" n="127" break="no"/>ceptus: sicut in quantitate illud est simpliciter indiuisibile quod 
+          <lb ed="#V" n="128"/>non est amplius diuisibile: quod patet de puncto qui non resoluitur: 
+          <lb ed="#V" n="129"/>quod autem aliquis talis sit: probatur fic. quia si non. oportebit 
+          proce<lb ed="#V" n="130" break="no"/>dere in infinitum in conceptibus et rationibus quiditatiuis: inter 
+          <lb ed="#V" n="131"/>quos est ordo essentialis: quod est falsum.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e162">
+          ¶ hoc suppotitus 
+          <lb ed="#V" n="132"/>probo. propositum euidenter sic: quando aliquid commune includiter quiditatiue 
+          <!--13.xml-->
+          <pb ed="#V" n="5-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>in aliquo inferiori. illud in quo includiter tale commune est 
+          resolu<lb ed="#V" n="2" break="no"/>bile in rationem communem et propriam: hoc patet. sed nullum simpliciter simpliciter 
+          <lb ed="#V" n="3"/>est resolubile: ergo etc.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e180">
+          ¶ 2a conclusio est. quod de primo diuersis nihil 
+          pradiu<lb ed="#V" n="4" break="no"/>in quid. Et primo exponitur quid fit primo diuersum. vbi sciendum. quod quando 
+          <lb ed="#V" n="5"/>aliqua conueniunt et differunt: necessario est deuenire ad aliqua in illis in 
+          <lb ed="#V" n="6"/>clusa. quae ita differunt quod in nullo conueniunt. Alioquin esset 
+          pro<lb ed="#V" n="7" break="no"/>cessus in infinitum: tale autem vltimum vocatur primo diuersum.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e191">
+          ¶ Tumc 
+          <lb ed="#V" n="8"/>arguitur pro 2a conclusione sic. In quibuscumque includitur ratio entis: illa 
+          <lb ed="#V" n="9"/>aliqui conueniunt: sed primo diuersa in nullo conueniunt. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e198">
+          ¶ 3a 
+          a<lb ed="#V" n="10" break="no"/>de passionibus probatur sic. Nulla propria passio est perfectior suo 
+          <lb ed="#V" n="11"/>subiecto: sed si ens includeretur in suins passionibus: passio esset per 
+          <lb ed="#V" n="12"/>fectior ente ex additione sue proprie rationis ad rationem entis: quia 
+          <lb ed="#V" n="13"/>quicquid includit aliud et amplius: est perfectius praecise illo alio 
+        </p>
+        <p xml:id="FrMS88-de2619-d1e209">
+          <lb ed="#V" n="14"/>¶ 4a conclusio de vltimis differentiis probatur sic. Ultemo differentiae sunt primo diunse. 
+          <lb ed="#V" n="15"/>per diuersis nihil est commune. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e216">
+          ¶ Probatur etiam quod non includiter 
+          <lb ed="#V" n="16"/>in primis differentiis. quia quod diditur immeliut in aliqua. non includitur quidita 
+          <lb ed="#V" n="17"/>tiue in eis. hoc patet. quia tunc esset nugatio addem diuidens diso. sed 
+          <lb ed="#V" n="18"/>ens diditur immediate in differentias primas vel per eas. ergo etc. 
+          <lb ed="#V" n="19"/>contra ista instatur. 4r. primo sic: omne cognitum resoluiter in 
+          ratio<lb ed="#V" n="20" break="no"/>Sed nenentis: quia quod non est ens non potest cognosci. sed 
+          sim<lb ed="#V" n="21" break="no"/>pliciter simpliciter potest cognosci: ergo ens.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e233">
+          ¶ 2o sic. primo diunsum aut est 
+          <lb ed="#V" n="22"/>ens quiditatiue: aut nihil quiditatiue: si nihil: ergo ens.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e238">
+          ¶ 3a 
+          <lb ed="#V" n="23"/>sic. nulla praedicatio in abstracto est vera nisi quiditatiua: sed 
+          in<lb ed="#V" n="24" break="no"/>abstracto veritas recipit praedicationem entis. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e245">
+          ¶ 4o 
+          <lb ed="#V" n="25"/>sic. Ultime differentiae st specifice differentiae. sed iste includunt ens. Nam 
+          <lb ed="#V" n="26"/>rationale est ens. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e252">
+          ¶ Ad ista. Ad primum dico. quod duplex est 
+          <lb ed="#V" n="27"/>resolutioo. Una in partes essentiales. et ista est in linea praesentali: et 
+          <lb ed="#V" n="28"/>illa in quae resoluuntur aliqua istoo dicuntur de eis in quid. Alia autem est 
+          <lb ed="#V" n="29"/>resolutio in priora quae non sunt partes essentiales. Et talia priora in 
+          <lb ed="#V" n="30"/>oportet quod dicantur de eis quae resoluuntur istoo in quid. licet resoluantur 
+          <lb ed="#V" n="31"/>in ea.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e265">
+          ¶ Ad 2m dico. quod primo diuersa: sunt ens: sed non quiditati 
+          <lb ed="#V" n="32"/>ue ens: tamen non sunt nihil quiditatiue. Contradictoria autem 
+          <lb ed="#V" n="33"/>circa aliquid cum additione vel determinatione aliqua: perdunt 
+          <lb ed="#V" n="34"/>naturam contradictionis. sicut album et non album sunt contradictoria: et ideo 
+          ab<lb ed="#V" n="35" break="no"/>solute de quolibet dicitur alterum. sed tamen homo cum ista additione per se vel 
+          <lb ed="#V" n="36"/>quiditatiue: nec est albus: nec non albus.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e278">
+          ¶ Ad 3m argumentum dico 
+          <lb ed="#V" n="37"/>quod non solum in abstractis inuenitur praedicatio quiditatiua vera 
+          <lb ed="#V" n="38"/>sed etiam identica: sicut patet in divinis. Sed aliter hoc et aliter in divinis. quia in 
+          <lb ed="#V" n="39"/>divinis conceditur praedicatio identica propter infinitatem: sed hoc 
+          concedi<lb ed="#V" n="40" break="no"/>propter communitatem alterius extremi excedets sicut est ens.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e290">
+          ¶ Ad 4m 
+          <lb ed="#V" n="41"/>dico. quod prim differentiae dicuntur ille per quas primo diuiditur ens: sicut absoluti 
+          <lb ed="#V" n="42"/>et respectiuum: et in talibus no includitur ens quiditatiue. Alie 
+          <lb ed="#V" n="43"/>sunt vltim. et ille dicuntur indiuiduales proprietates: vel differentiae speci 
+          <lb ed="#V" n="44"/>fice. non tamen omnes: nisi breuiter ille quae accipiuntur ab vltim reali 
+          <lb ed="#V" n="45"/>tate: et vniversaliter omnes differentiae ad quas stat vltim resolutio conceptuum quidi 
+          <lb ed="#V" n="46"/>tatiuorum: omnes tales voco vltimas. Et in istis non 
+          includi<lb ed="#V" n="47" break="no"/>tur ens quiditatiue. Ratioale autem non accipitur ab vltima rea 
+          <lb ed="#V" n="48"/>litate: nec stat in ea resolutioo. sed ipsum resoluiter. 
+          <lb ed="#V" n="49"/> sunt. 4. conclusiones cuiusdam doctoris Thome 
+          angli<lb ed="#V" n="50" break="no"/>Alie ci: quae non videdentur praedictis opposite. prima est. quod ens non 
+          <lb ed="#V" n="51"/>includitur quiditatiue in aliquo praesento. 2a quod ens non includitur quod 
+          <lb ed="#V" n="52"/>ditatiue in aliquo genere subalterno. 3a quod nec in aliqua specis 
+          <lb ed="#V" n="53"/>specialissima. 4a quod non in aliquo indiuiduo cuiuslibet primo 
+          <lb ed="#V" n="54"/>dicamenti.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e323">
+          ¶ prima conclusio probatur sic. quia praesenta sunt prima 
+          irreso<lb ed="#V" n="55" break="no"/>lubilia. quae igitur sunt simpliciter prima. non resoluuntur in aliqua priora 
+          <lb ed="#V" n="56"/>quiditatiue. Si autem ens includeretur in istis quiditatiue: 
+          sequere<lb ed="#V" n="57" break="no"/>tur quod essent resolubilia. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e332">
+          ¶ 2a conclusio pro. quia quando due rationes 
+          <lb ed="#V" n="58"/>formales includuntur in aliquo quiditatiue: oportet illas 
+          subordi<lb ed="#V" n="59" break="no"/>nari. ita quod vna includat in alia. sed in genere subalterno 
+          im<lb ed="#V" n="60" break="no"/>cluditur genus praedicamentale. Certum autem est quod ens in illo non in 
+          <lb ed="#V" n="61"/>cluditur: vt probatum est: nec econverso. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e343">
+          ¶ 3a conclusio probatur. quia ratio dis 
+          <lb ed="#V" n="62"/>finitiua constat ex genere et differentia: ratio dico diffinitiua speciei 
+          specia<lb ed="#V" n="63" break="no"/>lissime: sed ens non est genus nec differentia: nec in eis includiter. ergo etc. 
+        </p>
+        <p xml:id="FrMS88-de2619-d1e350">
+          <lb ed="#V" n="64"/>¶ Quarta conclusio de indiuiduo probatur. quia tota quod 
+          <lb ed="#V" n="65"/>ditas indiuinduorum est species: sed in specie non 
+          in<lb ed="#V" n="66" break="no"/>cluditur ens: ergo nec in aliquo indiuiduo. 
+          <!--13.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>occurrunt. 4. difficultas prima de priori et posteriori: quia 
+          <lb ed="#V" n="68"/>Sed quae non dicuntur in quid de aliquibus non sunt priora eis 
+          sequi<lb ed="#V" n="69" break="no"/>ens non dicitur in quid de praedictis. ergo non est prius. quod est 
+          manife<lb ed="#V" n="70" break="no"/>ste falsum.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e372">
+          ¶ 2a. quia omne praedicatum: vel est per se: vel per accidens: 
+          <lb ed="#V" n="71"/>ens non praedicatur per accidens. ergo per se. Si sic. Vel in primo modo: vel 
+          <lb ed="#V" n="72"/>in 2o. Si in primo heo propositu. ergo in quid. Si in secundo cum pramao 
+          <lb ed="#V" n="73"/>dicatio de secundo mo sit per accidens: et posterius: ergo ens est tale 
+          <lb ed="#V" n="74"/>quod est falsum.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e384">
+          ¶ 3a difficultas. quia videtur quod praedicatio generis de differentia 
+          <lb ed="#V" n="75"/>sit per accidens. Si igitur praedicatio entis reducitur ad illam erit 
+          <lb ed="#V" n="76"/>per accidens.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e391">
+          ¶ 4a est de praedicatione vniuoca. Nam certum est quod 
+          <lb ed="#V" n="77"/>ens praedicatur vniuoce: sed quod praedicatur denominatiue: non praedicatur 
+          <lb ed="#V" n="78"/>vniuoce. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e398">
+          ¶ Ad ista. Ad primum nego illud quod 
+          assumi<lb ed="#V" n="79" break="no"/>tur scilicet quod illud quod nin praedicatur quiditatiue non potest esse 
+          <lb ed="#V" n="80"/>prius. Nam certum est quod genus non praedicatur quiditatiue 
+          <lb ed="#V" n="81"/>de differentia: et tamen est prius. Concedo ergo quod illud quod predicatur rimo 
+          <lb ed="#V" n="82"/>quid est prius. sed non econverso.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e409">
+          ¶ Ad 2m dico: quod predicat 
+          <lb ed="#V" n="83"/>non vt predicatum de secundo modo: sed de primo: non tamen di 
+          <lb ed="#V" n="84"/>recte est de primo: sed tantum indirecte reductiue.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e416">
+          ¶ Ad  
+          <lb ed="#V" n="85"/>tertium dico. quod genus non predicatur de differentia per accidens. sed per 
+          <lb ed="#V" n="86"/>se. quia essentialis ordo est inter genus et differentiam. ergo et ille 
+          or<lb ed="#V" n="87" break="no"/>do est prior ordine generis ad speciem quia ordo generis ad 
+          <lb ed="#V" n="88"/>speciem est per differentiam. Si ergo praedicatur de specie 
+          <lb ed="#V" n="89"/>per se: ergo de differentia non per accidens: sed perse: 
+          <lb ed="#V" n="90"/>et ille ordo est essentialis: sicut quando vna pars essentialis 
+          <lb ed="#V" n="91"/>de alia predicatur. Et reducitur ista praedicatio ad primum modium. 
+        </p>
+        <p xml:id="FrMS88-de2619-d1e434">
+          <lb ed="#V" n="92"/>¶ Ad 4m dico. quod duplex est predicatio denominatia 
+          <lb ed="#V" n="93"/>Una quae accipitur a posteriori et ab accidente: et nunquam ista est 
+          <lb ed="#V" n="94"/>vniuoca: sicut a iustitia dicitur iustus. Alia est que accipitur 
+          <lb ed="#V" n="95"/>ab essentialiter priori. Et ista potest esse vniuoca: quia 
+          redu<lb ed="#V" n="96" break="no"/>cibilis ad primum modum: sicut predicatio generis de differentiam: 
+          <lb ed="#V" n="97"/>et sicut praedicatio transcendentium quae est vere vniuoca. 
+          <lb ed="#V" n="98"/>igitur dico. quod ens non dicitur in quid de 
+          diuina<lb ed="#V" n="99" break="no"/>Ad quaestione essentia: sicut pars essentialis: vel sicut 
+          ge<lb ed="#V" n="100" break="no"/>nus de specie: sed dicitur tali modo de divina essentia: sicut dicitur gen 
+          <lb ed="#V" n="101"/>de differentia.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e459">
+          ¶ hoc probo. primo sic. quandocumque aliquid 
+          inclu<lb ed="#V" n="102" break="no"/>ditur in quiditate alicuius: sicut pars essentialis: illud est prius 
+          <lb ed="#V" n="103"/>illo: sed nihil est prius divinitate: igitur nihil includiter in quod 
+          <lb ed="#V" n="104"/>ditate eius in primo modo: sicut pars essentialis.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e468">
+          ¶ Secundo sic. 
+          <lb ed="#V" n="105"/>diuina essentia est perfectio simpliciter simplex: sed 
+          perfectio<lb ed="#V" n="106" break="no"/>quae est simpliciter simplex non includit aliquid tanquam partem sui. 
+          <lb ed="#V" n="107"/>ergo etc.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e477">
+          ¶ 3o sic. In nullo primo diuerso includitero quiditati 
+          <lb ed="#V" n="108"/>ua alicuius comnis: sed essetia diuina est primo diuersa: vt po 
+          <lb ed="#V" n="109"/>stea videbitur. ergo etc.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e484">
+          ¶ 4o sic. sicut dicit Dion. essentia 
+          di<lb ed="#V" n="110" break="no"/>uina est sicut radix omnium perfectionum diuinarum: sed nihi 
+          <lb ed="#V" n="111"/>potest esse radix illius: quod est de eius quiditate. ergo etc. 
+          <lb ed="#V" n="112"/>sunt. 4. difficultates. Prima est. quid dicendum est 
+          affi<lb ed="#V" n="113" break="no"/>Sed hic matiue de ente: quare non predicatur ese 
+          <lb ed="#V" n="114"/>ditatiue: sicut alia superiora.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e497">
+          ¶ Ad istud dico. quod proba 
+          <lb ed="#V" n="115"/>tum est euidenter quod ens non dicitur quiditatiue: sed 
+          dno<lb ed="#V" n="116" break="no"/>minatiue de diuina essentia. Si autem poneretur includi in 
+          <lb ed="#V" n="117"/>aliquo alio quiditatiue: illud esset intimius ens quam deus 
+          <lb ed="#V" n="118"/>Sed contra arguitur: quia ratio entis dicitur quiditatiue de hoc ente scilicet 
+          <lb ed="#V" n="119"/>de indiuiduo entis: ergo salte illud erit intimius ens: quam 
+          <lb ed="#V" n="120"/>deus.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e513">
+          ¶ Praeterea animal dicitur quiditatiue de homine. ergo homo erit 
+          <lb ed="#V" n="121"/>animal intimius quam deus est ens.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e519">
+          ¶ Ad primum negatur illa 
+          <lb ed="#V" n="122"/>consequentia scilicet ergo hoc ens est magis ens quam deus: quia magis 
+          <lb ed="#V" n="123"/>et minus attenduntur secundum quantitatem virtutis: ratio autem dei ratione 
+          <lb ed="#V" n="124"/>entis est per se prior.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e528">
+          ¶ Sed dices. quod saltem hoc ens est 
+          in<lb ed="#V" n="125" break="no"/>timius ens quam deus: sic arguebatur. Dico quod non oportet 
+          <lb ed="#V" n="126"/>ponere tantam identitatem vel omnimodam inter deum et ens. 
+          <lb ed="#V" n="127"/>sicut inter idem et seipsum.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e537">
+          ¶ Ad aliud conceditur. quod potio 
+          <lb ed="#V" n="128"/>ri modo quo ad nos: homo est animal quam deus sit ens: quia in prio 
+          <lb ed="#V" n="129"/>modo dicendi per se: tamen ille modus identitatis est potior et per 
+          <lb ed="#V" n="130"/>fectior simpliciter.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e546">
+          ¶ 2a difficultas quod licet superius diuisum per 
+          <lb ed="#V" n="131"/>differentias non sit de quiditate earum. videtur tamen quod sit de quiditate 
+          con<lb ed="#V" n="132" break="no"/>stituti. ergo etc. quare ens diuisum per absolutum et respecti¬ 
+          <!--14.xml-->
+          <pb ed="#V" n="6-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>uum non est de quiditate illorum constitutorum.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e562">
+          ¶ Respondeo dico quod aliter 
+          <lb ed="#V" n="2"/>est de diuisione transcendentium: et aliter de diuisione generum: 
+          <lb ed="#V" n="3"/>quia propter limitationem generis et differentiarum potest constitui vnum ex eis 
+          per<lb ed="#V" n="4" break="no"/>copositionem: sed propter illimitationem transcendentium et eorum differentiarum 
+          nul<lb ed="#V" n="5" break="no"/>lum 3m constituunt: quia transcendentia simpliciter simplicia sunt cum 
+          <lb ed="#V" n="6"/>inueniantur in deo.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e575">
+          ¶ 3a difficultas est de modis intrinsecis: et 
+          <lb ed="#V" n="7"/>de praedicatione entis de eis. Utr enim quod sit quiditatiua 
+          praedi<lb ed="#V" n="8" break="no"/>catio entis de ente finito. quia modus intrinsecus non 
+          va<lb ed="#V" n="9" break="no"/>riat rationem quiditatiuam.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e585">
+          ¶ Dicendum est. quod praedicatio entis die 
+          en<lb ed="#V" n="10" break="no"/>te finito est quiditatiua: non tamen intelligendo quod ex ente et modo 
+          <lb ed="#V" n="11"/>fiat vnum quod habeat vnam rationem formalem quae recipiat praedicatio 
+          <lb ed="#V" n="12"/>nem entis: quia nullum tale constituunt: sed ita diciet intelligi. quod ens 
+          <lb ed="#V" n="13"/>quod est finitum est ens: non tamen ens dicitur de finitate: sed de ipso 
+          deter<lb ed="#V" n="14" break="no"/>minato per finitatem. No enim eodem modo praedicatur quoe homo praedicatur 
+          <lb ed="#V" n="15"/>de hoc homine: vel animal de homine: quia animal dicitur quiditatiue de ratione 
+          <lb ed="#V" n="16"/>formali quae fit ex animali et rationali. Non sic ens praedicatur de 
+          en<lb ed="#V" n="17" break="no"/>te finito quiditatiue: sed eo modo qui animal praedicatur de homine albo 
+          <lb ed="#V" n="18"/>hoc est de homine qui est albus. Sic est de ente et ente finito 
+        </p>
+        <p xml:id="FrMS88-de2619-d1e607">
+          <lb ed="#V" n="19"/>¶ 4a difficultas est. si in diuinis inuenitur primus modus 
+          dicen<lb ed="#V" n="20" break="no"/>di per se. Dico quod non. quia non est ibi proprie diffinibile. 
+          nec<lb ed="#V" n="21" break="no"/>diffinitiuum: ex quibus resultat primus modus dicendi per 
+          <lb ed="#V" n="22"/>e: tamen ibi est primus modus dicendi per se: per reductionem nin quod sit 
+          si<lb ed="#V" n="23" break="no"/>tut pars essentialis: sed sicut genus de differentia.
+        </p>
+        <p xml:id="FrMS88-de2619-d1e620">
+          ¶ Ad 
+          ar<lb ed="#V" n="24" break="no"/>gumentum in oppositum dico. quod lucens est participium: 
+          <lb ed="#V" n="25"/>et ideo dicitur denominatiue: et eodem modo ens est parti 
+          <lb ed="#V" n="26"/>cipium: sed vt est nomen acceptum ab essentia vel qui 
+          <lb ed="#V" n="27"/>
+          <!-- LINE COORD error -->
+          <lb ed="#V" n="28"/>ditate non sic dicitur. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
