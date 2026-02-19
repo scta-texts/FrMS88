@@ -1,355 +1,355 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="38-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e27365"><!-- l1d6q2 -->
-            <head xml:id="FrMS88-e27365-Hd1e108">Quaestio 2</head>
-            <p xml:id="FrMS88-e27365-d1e111">
-      Questio. ii. 
-      <lb ed="#V" n="116"/>a pater producat filium intellectu 
-      <lb ed="#V" n="117"/>Cui videtur quod non: quia memoria 
-      produ<lb ed="#V" n="118" break="no"/>cit verbum: sed memoria distinguitur ab 
-      <lb ed="#V" n="119"/>intellectu: ergo etc.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e122">
-      ¶ Contra. quia verbum 
-      produ<lb ed="#V" n="120" break="no"/>citur secundum Aug. per actum dicendi. sed dicer 
-      <lb ed="#V" n="121"/>non est nisi potentie intellectiue: ergo etc.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e129">
-      ¶ hic procedendum 
-      <lb ed="#V" n="122"/>est sicut in praecedenti. q. per de potentia. secundo de actu. 
-      <lb ed="#V" n="123"/>ad primum supposita applicatione 
-      prae<lb ed="#V" n="124" break="no"/>Quantum dicte distinctionis de voluntate a 
-      <lb ed="#V" n="125"/>intellectum.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e140">
-      ¶ Dinco conformiter quatuor conclusiones per ordinem: sed 
-      <lb ed="#V" n="126"/>illa quatuor membra distinctionis.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e146">
-      ¶ Prima est quod deum 
-      <lb ed="#V" n="127"/>pater generat filium intellectu praecedente: probatur. quia essentialia 
-      <lb ed="#V" n="128"/>ocedunt notionalia: quia natura perfecta incipit a perfectior. 
-      <lb ed="#V" n="129"/>bus: essentialia sunt perfectiora notionalibus sed 
-      in<lb ed="#V" n="130" break="no"/>tellectus essentialis est. productio vero notionalis. ergo etc. 
-      </p>
-            <p xml:id="FrMS88-e27365-d1e157">
-               <lb ed="#V" n="131"/>¶ 2a conclusio est. quod intellectu concomitante: quia intellectus et gene 
-      <lb ed="#V" n="132"/>ratio sunt coeterna: et per consequens vnum aliud 
-      concomita<lb ed="#V" n="133" break="no"/>tur.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e166">
-      ¶ 3a conclusio est. quod non intellectu consequente: quia nullo ordine 
-      <!--79.xml-->
-      <pb ed="#V" n="38-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>potentia intellectiua sequitur actum generandi simpliciter: licet cum 
-      de<lb ed="#V" n="2" break="no"/>terminatione sic.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e179">
-      ¶ 4a est. quod generat ipsum intellectu 
-      elicien<lb ed="#V" n="3" break="no"/>te: quia secundum Aug. verbum numquam est nisi a dicente: sed nulla alia 
-      <lb ed="#V" n="4"/>potentio in deo est dictiua nisi intellectus. ergo intellectus elicit verbum. 
-      <lb ed="#V" n="5"/>Sed sunt aliquae difficultates. Prima est. Utrum omnes perfectiones quae sunt 
-      <lb ed="#V" n="6"/>in intellectui formaliter concurrant ad producendum verbum: videtur quod 
-      <lb ed="#V" n="7"/>sic: quia intellectus perfectus multis virtutibus in nobis simils cum 
-      omni<lb ed="#V" n="8" break="no"/>bus elicit actum. ergo et in deo. Sunt autem ibi sapina: scientia: ars 
-      <lb ed="#V" n="9"/>et prudentia.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e197">
-      ¶ Dico quod sola sapia concurrit elicitiue in 
-      pro<lb ed="#V" n="10" break="no"/>ductione verbi. Ratio huius est: quia omnis perfectio habitualis 
-      coo<lb ed="#V" n="11" break="no"/>beratur sue potentie ad actum dcic obiecto: qui scilicet actus est de tali obiecto. 
-      <lb ed="#V" n="12"/>verbum autem diuinum est de diuina essentia. respectu cuius est vera 
-      <lb ed="#V" n="13"/>sapina. ergo sapinia concurrit. Scientia autem non concurrit: quia verbum non 
-      <lb ed="#V" n="14"/>est illius obiecti: respectu cuius est scientia: quia scientia est proprie de 
-      <lb ed="#V" n="15"/>creaturis. Nec prudentia: quia est de contingentibus. Nec 
-      <lb ed="#V" n="16"/>ars. quia est de factibilibus. ergo sola sapina.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e215">
-      ¶ Contra. Aug. 
-      <lb ed="#V" n="17"/>dicit. quod filius est ars patris plena omnium rationum viuentium. Et 
-      <lb ed="#V" n="18"/>similiter dicit: quod verbum est scientia de scientia: et consilium de consilio. Et sic 
-      <lb ed="#V" n="19"/>penter per modum artis procedere et scientiae et prudentie.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e225">
-      ¶ Praeterea. Augustins 
-      <lb ed="#V" n="20"/>9. de tri. dicit. quod verbum procedit de omnibus que sunt in 
-      memo<lb ed="#V" n="21" break="no"/>ria patris: sunt autem in memoria isti habitus. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e232">
-      ¶ Ad  
-      <lb ed="#V" n="22"/>primum dico. quod verbum est ars et scientia et consilium identice et 
-      appro<lb ed="#V" n="23" break="no"/>priate: quia per modum intellectus.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e239">
-      ¶ Ad 2m dico. quod ad me 
-      <lb ed="#V" n="24"/>moriam vt memoria est nihil partinet nisi diuinus intellectus in 
-      <lb ed="#V" n="25"/>ratione actiui et obiectum: sapia autem quasi per modum habitus 
-      perficie<lb ed="#V" n="26" break="no"/>tis: alia autem magis partinent ad intelligentiam quam ad 
-      memo<lb ed="#V" n="27" break="no"/>riam.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e250">
-      ¶ 2a difficultas est si ex parte obiecti concurrant ad productionem 
-      <lb ed="#V" n="28"/>verbi perfectiones essentiales: quae se tenent ex parte essentie: sicut in 
-      <lb ed="#V" n="29"/>finitas necessitas et talia. Dico quod sola essentia concurrit 
-      in<lb ed="#V" n="30" break="no"/>ratione principii elicitiui. Alia autem sunt que non concurrunt 
-      <lb ed="#V" n="31"/>isto modo: sed vt conditiones agentes: sicut heceitas in 
-      <lb ed="#V" n="32"/>homine generante est solum conditio agentis: et isto modo 
-      con<lb ed="#V" n="33" break="no"/>currunt necessitas et infinitas: et huiusmodi: et non alio modo. 
-      <lb ed="#V" n="34"/>ad 2m praencipale scilicet de actu 
-      intelligen<lb ed="#V" n="35" break="no"/>Quantum di inducuntur quatuor conclusiones conformes 
-      <lb ed="#V" n="36"/>aliis de intellectu.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e272">
-      ¶ Prima est quod pater producit filium 
-      intel<lb ed="#V" n="37" break="no"/>lectione praecedente: quia intellectio est essentialis: productio 
-      <lb ed="#V" n="38"/>notionalis.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e279">
-      ¶ 2a est. quod producit intellectione 
-      concomitan<lb ed="#V" n="39" break="no"/>te: quia sunt coeterna.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e285">
-      ¶ 3a est. quod non producit intellectione 
-      <lb ed="#V" n="40"/>subsequente: quia nullo ordine intellectio productionem 
-      sequi<lb ed="#V" n="41" break="no"/>tur.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e292">
-      ¶ 4a est. quod non intellectione eliciente. Et hoc probo 4r 
-      <lb ed="#V" n="42"/>Primo. quia intellectio est finis: et per consequens non vlterioris 
-      <lb ed="#V" n="43"/>termini productiua. 2o eadem intellectione omnia intelligunt 
-      <lb ed="#V" n="44"/>sicut eadem volitione omnia diliguntur. sed volitio non est 
-      pro<lb ed="#V" n="45" break="no"/>ductiua. ergo etc. 3o. quia non partinet ad memoriam. 4o quia af 
-      <lb ed="#V" n="46"/>propriatur filio.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e305">
-      ¶ Sed contra instatur 4r. primo sic. non videtur quod 
-      <lb ed="#V" n="47"/>actus intelligendi possit precedere actum generandi: quia 
-      <lb ed="#V" n="48"/>actio suppositi semper praesupponit suppositum cuius est. 
-      <lb ed="#V" n="49"/>sed intellectio est operatio patris. ergo praesupponit patrem: et per 
-      <lb ed="#V" n="50"/>consequens paternitatem.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e316">
-      ¶ 2o sic. eadem intellectio est respectu 
-      essen<lb ed="#V" n="51" break="no"/>tie et respectu verbi: secundum Aug. 19. de trini. sed actio 
-      intel<lb ed="#V" n="52" break="no"/>ligendi verbum non videtur posse precedere verbum. vt intelligit 
-      ver<lb ed="#V" n="53" break="no"/>bum: plusquam potest precedere essentiam: vt intelligit eam. 
-      </p>
-            <p xml:id="FrMS88-e27365-d1e325">
-               <lb ed="#V" n="54"/>¶ Tertio sic. Omnis cognitio visiua est tantum existentis. 
-      <lb ed="#V" n="55"/>nam quod non est videri non potest. ergo si intellectio 
-      preceditqun<lb ed="#V" n="56" break="no"/>bum cognosceret verbum anteque sit. quod est impossibile.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e334">
-      ¶ 4o sic. 
-      <lb ed="#V" n="57"/>sicut supra fuit declaratum. cognitio intuitiua est existent / vt 
-      <lb ed="#V" n="58"/>existens est. et ita in illo priori qui intelligit verbum non existens: vel 
-      <lb ed="#V" n="59"/>non erit cognitio intuitiua: vel erit intuitiua non exissunt 
-      </p>
-            <p xml:id="FrMS88-e27365-d1e344">
-               <lb ed="#V" n="60"/>¶ Ad primum dico. quod operationes elicite in supposito a ratione 
-      <lb ed="#V" n="61"/>formali non possunt illam percedere sicut ratiocinari hominis que est 
-      <lb ed="#V" n="62"/>ab anima non potest praecedere animam rationalem. sed operatio elicita 
-      <lb ed="#V" n="63"/>a principio fundamentali potest praecedere suppositum constitutum: 
-      <lb ed="#V" n="64"/>sicut corpus mortuum immutat sensum: quia videtur et tangitur. et 
-      <lb ed="#V" n="65"/>sic de aliis. Si autem infundatur sibi anima: ista operatio prece 
-      <lb ed="#V" n="66"/>dit suppositum. Sic in proposito actus intelligendi¬ 
-      <!--79.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>elicitur ab essentia: vt a principio fundamentali: et ideo potest 
-      praece<lb ed="#V" n="68" break="no"/>dere suppositum.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e370">
-      ¶ Ad 2m: concedo quod est idem. actus 
-      intel<lb ed="#V" n="69" break="no"/>ligendi: habens tamen duo obstantia ordinata scilicet essentiam: vt 
-      prima<lb ed="#V" n="70" break="no"/>rium obiectum. et verbum vt secundarium. prius ergo secundum ordinem 
-      ali<lb ed="#V" n="71" break="no"/>quem terminatur ad essentiam quam ad proprietatem. Non 
-      requi<lb ed="#V" n="72" break="no"/>ritur autem quod actus praesupponat obiectum secundarium: licet necessario 
-      pre<lb ed="#V" n="73" break="no"/>exigat obiectum primarium.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e383">
-      ¶ Ad 3m et ad 4m simul: quia quae 
-      <lb ed="#V" n="74"/>si idem sunt: dicitur quod aliquid potest videri et cognosci intuitiue 
-      <lb ed="#V" n="75"/>dato quod non existat: sicut in repraesentatiuo supereminente. sicut 
-      <lb ed="#V" n="76"/>futura contingentia repraesentantur quae non sunt. De hoc alias 
-      </p>
-            <p xml:id="FrMS88-e27365-d1e392">
-               <lb ed="#V" n="77"/>¶ Difficultas ergo est: quomodo notitia quae cognoscitur 
-      ver<lb ed="#V" n="78" break="no"/>bum est intuitiua. Si dicatur quod est intuitiua. essentie: non 
-      <lb ed="#V" n="79"/>vt verbi.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e401">
-      ¶ Sed contra difficultas est de cognitione verbi vt verbum 
-      <lb ed="#V" n="80"/>est: que videtur intuitiua.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e406">
-      ¶ Ad cuius euidentiam notandum. 
-      <lb ed="#V" n="81"/>quod duo assignantur ordinata ex parte obstecti: et duo ex 
-      par<lb ed="#V" n="82" break="no"/>te operantis. Ex parte obiecti assignatur essentia. quae primo terminat 
-      <lb ed="#V" n="83"/>in per signo: vt obiectum primum: assignatur autem in 2o signo 
-      proprie<lb ed="#V" n="84" break="no"/>tas siue generatio vt obiectum secundarium. Ex parte autem operantis  
-      <lb ed="#V" n="85"/>sunt alia duo. Primo est enim actus intelligendi. 2o 
-      <lb ed="#V" n="86"/>actus producendi.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e423">
-      ¶ Istis autem suppositis potest sic 
-      declara<lb ed="#V" n="87" break="no"/>ri propositum: quandocumque duo ordines: ita se habent quod 
-      vni<lb ed="#V" n="88" break="no"/>formiter currunt: et primum vnius est simul cum primo alterius: 
-      <lb ed="#V" n="89"/>videtur quod 2m est similis cum 2o: sed ordo actus intelligendi ad 
-      pro<lb ed="#V" n="90" break="no"/>ductionem ex parte operantis: et ex parte obiecti ordo 
-      essen<lb ed="#V" n="91" break="no"/>tie et proprietatis ita se habent: vniformiter enim currere videntur 
-      <lb ed="#V" n="92"/>et primum vnius est simul cum primo alterius: videtur quod 2m erit simul cum 
-      <lb ed="#V" n="93"/>secundo sed actus intelligendi et essentia: vt obiectum simul sunt. ergo 
-      <lb ed="#V" n="94"/>secundum erit cum secundo scilicet actus producendi: et ipsemet filius in ratione 
-      <lb ed="#V" n="95"/>obiecti erunt simul.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e445">
-      ¶ Sed adhuc remanet difficultas: 
-      <lb ed="#V" n="96"/>punctus enim difficultatis in ista quaestione non est. vtrum 
-      pa<lb ed="#V" n="97" break="no"/>ter prius intelligat essentiam quam producit filium: sed est. Utrum 
-      <lb ed="#V" n="98"/>pater intelligat filium: et preintelligens filium producat ipsum. 
-      </p>
-            <p xml:id="FrMS88-e27365-d1e454">
-               <lb ed="#V" n="99"/>¶ Dico. quod pater prius non intelligit filium quam ipsum 
-      produ<lb ed="#V" n="100" break="no"/>cat: quia sic intelligeret patrem anteque esset pater: quia per generationem 
-      <lb ed="#V" n="101"/>constituitur pater: sed bene concedo quod pater prius origine filium 
-      intel<lb ed="#V" n="102" break="no"/>ligit quam filius producatur: quia pater habet a se filium cognoscere: et 
-      <lb ed="#V" n="103"/>ideo cognitio filii inest patri ordine originis antequam filius 
-      <lb ed="#V" n="104"/>producatur: quia solum producitur in secundo signo originis: quia 
-      produ<lb ed="#V" n="105" break="no"/>citur ab alio et non a se: et hoc est esse posterius.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e472">
-      ¶ Sed 
-      <lb ed="#V" n="106"/>si dicatur: tunc redit difficultaes apparenter sic. Tu ponis quod 
-      pri<lb ed="#V" n="107" break="no"/>precedit verbum pro aliquo signo: et pro illo signo non 
-      <lb ed="#V" n="108"/>est verbum. sed pro illo signo cognitio patris est 
-      intuiti<lb ed="#V" n="109" break="no"/>ua: et sic ipsa erit non existentis.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e483">
-      ¶ hic est intelligendum 
-      <lb ed="#V" n="110"/>quod duo genera signorum sunt. Quedam sunt permanentia 
-      <lb ed="#V" n="111"/>et quedam successiua. Successiua sicut est prius et poste. 
-      <lb ed="#V" n="112"/>rius in tempore: et in istis est regula generalis: cum prius est 
-      po<lb ed="#V" n="113" break="no"/>sterius non est. Permanentia autem sunt sicut prius et poste. 
-      <lb ed="#V" n="114"/>rius in ordine perfectionis vel situationis: sicut 
-      dici<lb ed="#V" n="115" break="no"/>mus quod sol est prior luna: quia perfectior: similiter 
-      satur<lb ed="#V" n="116" break="no"/>nus est prior sole: quia in situ priori et eminentiori. Prima 
-      <lb ed="#V" n="117"/>dicuntur successiua. quia non permanent simul. 2a autem dicuntur 
-      perma<lb ed="#V" n="118" break="no"/>nentia: quia simul permanent et existunt. In istis autem signis 
-      sue<lb ed="#V" n="119" break="no"/>cessiuis vltra hoc quod quando vnum est: alterum non est: habent aliud 
-      <lb ed="#V" n="120"/>quod quando vnum est scilicet prius: posterius nec simpliciter: nec 
-      sernd<lb ed="#V" n="121" break="no"/>quid est: nisi in potentia. In aliis autem permanentibus 
-      quandocum<lb ed="#V" n="122" break="no"/>que vnum est aliud simpliciter est: sed tamen secundum quid non est. quia 
-      <lb ed="#V" n="123"/>scilicet non pro eodem signo: sicut quando celum empireum est. tunc 
-      <lb ed="#V" n="124"/>firmamentum est: sed non est pro eodem signo perfectionis 
-      <lb ed="#V" n="125"/>Eodem modo dico in proposito: pater precedit filium pro tali 
-      <lb ed="#V" n="126"/>signo permanente: prius enim et posterius originis sunt 
-      par<lb ed="#V" n="127" break="no"/>manentia: et ideo quandocumque pater est: filius simpliciter est. et tamen 
-      <lb ed="#V" n="128"/>non est pro illo signo: quod est non esse secundum quid: filium. enim esse 
-      <lb ed="#V" n="129"/>pro primo signo originis: nihil aliud est quam filiu esse a se. 
-      fili<lb ed="#V" n="130" break="no"/>um autem esse a se est filium non esse ab alio: et sic esse 
-      fili<lb ed="#V" n="131" break="no"/>um et non esse filium.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e533">
-      ¶ Tunc ad argumentum. quod non est non 
-      <lb ed="#V" n="132"/>potest videri. concedo quod simpliciter non est non potest vide¬ 
-      <!--80.xml-->
-      <pb ed="#V" n="39-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>ti: filius non est quando pater est. Dico quod ista est falsa. quia semper 
-      <lb ed="#V" n="2"/>silius est quando pater est simpliciter: sed tamen non est pro illo signo.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e550">
-      ¶ Tu 
-      <lb ed="#V" n="3"/>dices. hoc sufficit ad impediendum: quia si non est pro illo signo 
-      <lb ed="#V" n="4"/>pro quo intelligitur: tunc impedietur ratio notitie intuitiue.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e557">
-      ¶ Dico 
-      <lb ed="#V" n="5"/>quod sufficit ad notitiam intuitiuam quod obiectum habeat esse simpliciter 
-      <lb ed="#V" n="6"/>quando notitia est: sed non requritur quod habeat esse quo ad omnem 
-      con<lb ed="#V" n="7" break="no"/>ditionem.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e566">
-      ¶ Exemplum manifestu: actus intelligendi qui 
-      al<lb ed="#V" n="8" break="no"/>bedo intuitiue coguoscitur prior est ordine nobilitatis et 
-      <lb ed="#V" n="9"/>perfectionis ipso obiecto scilicet albedine: quia accidens spirituale: illud  
-      <lb ed="#V" n="10"/>autem corporale.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e575">
-      ¶ Ex hoc arguo sicut tu: obiectum notitie 
-      intui<lb ed="#V" n="11" break="no"/>tiue est pro quocumque signo notitia est: sed notitia est prius 
-      <lb ed="#V" n="12"/>perfectione quam tale obiectum: ergo pro illo priori obiectum est: sed 
-      albedi<lb ed="#V" n="13" break="no"/>nem esse pro illo signo pro quo est intellectio: est eam esse eque 
-      perfe<lb ed="#V" n="14" break="no"/>ctam: sicut intellectio est: quae sunt contradictoria. hoc autem no se 
-      <lb ed="#V" n="15"/>quitur ex hoc quod notitia est prior perfectione quam albedo: ergo 
-      ex<lb ed="#V" n="16" break="no"/>alio scilicet quod pro quocunque signo notitia est: obiectum est: ergo etc. 
-      </p>
-            <p xml:id="FrMS88-e27365-d1e591">
-               <lb ed="#V" n="17"/>¶ Dico ergo. quod patrem esse priorem filio origine: est patrem esse a se. 
-      <lb ed="#V" n="18"/>et filium non esse a se: licet ergo semper quando pater est filius simpliciter est. et hoc 
-      <lb ed="#V" n="19"/>sufficit ad intuitiuam notitiam: tamen filius non est pro quocumque 
-      <lb ed="#V" n="20"/>signo: pro quo pater est: quia non est a se.
-    </p>
-            <p xml:id="FrMS88-e27365-d1e602">
-      ¶ Ad auctoritatem in principio 
-      <lb ed="#V" n="21"/>dico. quod Aug. accipit memoriam fecundam quae est principium verbi 
-      pro<lb ed="#V" n="22" break="no"/>potentia intellectiua cum obiecto aut specie intelligibili. 
-      Intelligen<lb ed="#V" n="23" break="no"/>tiam autem potentiam intellectiuam cum actu. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="38-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e27365"><!-- l1d6q2 -->
+        <head xml:id="FrMS88-e27365-Hd1e108">Quaestio 2</head>
+        <p xml:id="FrMS88-e27365-d1e111">
+          Questio. ii. 
+          <lb ed="#V" n="116"/>a pater producat filium intellectu 
+          <lb ed="#V" n="117"/>Cui videtur quod non: quia memoria 
+          produ<lb ed="#V" n="118" break="no"/>cit verbum: sed memoria distinguitur ab 
+          <lb ed="#V" n="119"/>intellectu: ergo etc.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e122">
+          ¶ Contra. quia verbum 
+          produ<lb ed="#V" n="120" break="no"/>citur secundum Aug. per actum dicendi. sed dicer 
+          <lb ed="#V" n="121"/>non est nisi potentie intellectiue: ergo etc.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e129">
+          ¶ hic procedendum 
+          <lb ed="#V" n="122"/>est sicut in praecedenti. q. per de potentia. secundo de actu. 
+          <lb ed="#V" n="123"/>ad primum supposita applicatione 
+          prae<lb ed="#V" n="124" break="no"/>Quantum dicte distinctionis de voluntate a 
+          <lb ed="#V" n="125"/>intellectum.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e140">
+          ¶ Dinco conformiter quatuor conclusiones per ordinem: sed 
+          <lb ed="#V" n="126"/>illa quatuor membra distinctionis.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e146">
+          ¶ Prima est quod deum 
+          <lb ed="#V" n="127"/>pater generat filium intellectu praecedente: probatur. quia essentialia 
+          <lb ed="#V" n="128"/>ocedunt notionalia: quia natura perfecta incipit a perfectior. 
+          <lb ed="#V" n="129"/>bus: essentialia sunt perfectiora notionalibus sed 
+          in<lb ed="#V" n="130" break="no"/>tellectus essentialis est. productio vero notionalis. ergo etc. 
+        </p>
+        <p xml:id="FrMS88-e27365-d1e157">
+          <lb ed="#V" n="131"/>¶ 2a conclusio est. quod intellectu concomitante: quia intellectus et gene 
+          <lb ed="#V" n="132"/>ratio sunt coeterna: et per consequens vnum aliud 
+          concomita<lb ed="#V" n="133" break="no"/>tur.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e166">
+          ¶ 3a conclusio est. quod non intellectu consequente: quia nullo ordine 
+          <!--79.xml-->
+          <pb ed="#V" n="38-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>potentia intellectiua sequitur actum generandi simpliciter: licet cum 
+          de<lb ed="#V" n="2" break="no"/>terminatione sic.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e179">
+          ¶ 4a est. quod generat ipsum intellectu 
+          elicien<lb ed="#V" n="3" break="no"/>te: quia secundum Aug. verbum numquam est nisi a dicente: sed nulla alia 
+          <lb ed="#V" n="4"/>potentio in deo est dictiua nisi intellectus. ergo intellectus elicit verbum. 
+          <lb ed="#V" n="5"/>Sed sunt aliquae difficultates. Prima est. Utrum omnes perfectiones quae sunt 
+          <lb ed="#V" n="6"/>in intellectui formaliter concurrant ad producendum verbum: videtur quod 
+          <lb ed="#V" n="7"/>sic: quia intellectus perfectus multis virtutibus in nobis simils cum 
+          omni<lb ed="#V" n="8" break="no"/>bus elicit actum. ergo et in deo. Sunt autem ibi sapina: scientia: ars 
+          <lb ed="#V" n="9"/>et prudentia.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e197">
+          ¶ Dico quod sola sapia concurrit elicitiue in 
+          pro<lb ed="#V" n="10" break="no"/>ductione verbi. Ratio huius est: quia omnis perfectio habitualis 
+          coo<lb ed="#V" n="11" break="no"/>beratur sue potentie ad actum dcic obiecto: qui scilicet actus est de tali obiecto. 
+          <lb ed="#V" n="12"/>verbum autem diuinum est de diuina essentia. respectu cuius est vera 
+          <lb ed="#V" n="13"/>sapina. ergo sapinia concurrit. Scientia autem non concurrit: quia verbum non 
+          <lb ed="#V" n="14"/>est illius obiecti: respectu cuius est scientia: quia scientia est proprie de 
+          <lb ed="#V" n="15"/>creaturis. Nec prudentia: quia est de contingentibus. Nec 
+          <lb ed="#V" n="16"/>ars. quia est de factibilibus. ergo sola sapina.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e215">
+          ¶ Contra. Aug. 
+          <lb ed="#V" n="17"/>dicit. quod filius est ars patris plena omnium rationum viuentium. Et 
+          <lb ed="#V" n="18"/>similiter dicit: quod verbum est scientia de scientia: et consilium de consilio. Et sic 
+          <lb ed="#V" n="19"/>penter per modum artis procedere et scientiae et prudentie.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e225">
+          ¶ Praeterea. Augustins 
+          <lb ed="#V" n="20"/>9. de tri. dicit. quod verbum procedit de omnibus que sunt in 
+          memo<lb ed="#V" n="21" break="no"/>ria patris: sunt autem in memoria isti habitus. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e232">
+          ¶ Ad  
+          <lb ed="#V" n="22"/>primum dico. quod verbum est ars et scientia et consilium identice et 
+          appro<lb ed="#V" n="23" break="no"/>priate: quia per modum intellectus.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e239">
+          ¶ Ad 2m dico. quod ad me 
+          <lb ed="#V" n="24"/>moriam vt memoria est nihil partinet nisi diuinus intellectus in 
+          <lb ed="#V" n="25"/>ratione actiui et obiectum: sapia autem quasi per modum habitus 
+          perficie<lb ed="#V" n="26" break="no"/>tis: alia autem magis partinent ad intelligentiam quam ad 
+          memo<lb ed="#V" n="27" break="no"/>riam.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e250">
+          ¶ 2a difficultas est si ex parte obiecti concurrant ad productionem 
+          <lb ed="#V" n="28"/>verbi perfectiones essentiales: quae se tenent ex parte essentie: sicut in 
+          <lb ed="#V" n="29"/>finitas necessitas et talia. Dico quod sola essentia concurrit 
+          in<lb ed="#V" n="30" break="no"/>ratione principii elicitiui. Alia autem sunt que non concurrunt 
+          <lb ed="#V" n="31"/>isto modo: sed vt conditiones agentes: sicut heceitas in 
+          <lb ed="#V" n="32"/>homine generante est solum conditio agentis: et isto modo 
+          con<lb ed="#V" n="33" break="no"/>currunt necessitas et infinitas: et huiusmodi: et non alio modo. 
+          <lb ed="#V" n="34"/>ad 2m praencipale scilicet de actu 
+          intelligen<lb ed="#V" n="35" break="no"/>Quantum di inducuntur quatuor conclusiones conformes 
+          <lb ed="#V" n="36"/>aliis de intellectu.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e272">
+          ¶ Prima est quod pater producit filium 
+          intel<lb ed="#V" n="37" break="no"/>lectione praecedente: quia intellectio est essentialis: productio 
+          <lb ed="#V" n="38"/>notionalis.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e279">
+          ¶ 2a est. quod producit intellectione 
+          concomitan<lb ed="#V" n="39" break="no"/>te: quia sunt coeterna.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e285">
+          ¶ 3a est. quod non producit intellectione 
+          <lb ed="#V" n="40"/>subsequente: quia nullo ordine intellectio productionem 
+          sequi<lb ed="#V" n="41" break="no"/>tur.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e292">
+          ¶ 4a est. quod non intellectione eliciente. Et hoc probo 4r 
+          <lb ed="#V" n="42"/>Primo. quia intellectio est finis: et per consequens non vlterioris 
+          <lb ed="#V" n="43"/>termini productiua. 2o eadem intellectione omnia intelligunt 
+          <lb ed="#V" n="44"/>sicut eadem volitione omnia diliguntur. sed volitio non est 
+          pro<lb ed="#V" n="45" break="no"/>ductiua. ergo etc. 3o. quia non partinet ad memoriam. 4o quia af 
+          <lb ed="#V" n="46"/>propriatur filio.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e305">
+          ¶ Sed contra instatur 4r. primo sic. non videtur quod 
+          <lb ed="#V" n="47"/>actus intelligendi possit precedere actum generandi: quia 
+          <lb ed="#V" n="48"/>actio suppositi semper praesupponit suppositum cuius est. 
+          <lb ed="#V" n="49"/>sed intellectio est operatio patris. ergo praesupponit patrem: et per 
+          <lb ed="#V" n="50"/>consequens paternitatem.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e316">
+          ¶ 2o sic. eadem intellectio est respectu 
+          essen<lb ed="#V" n="51" break="no"/>tie et respectu verbi: secundum Aug. 19. de trini. sed actio 
+          intel<lb ed="#V" n="52" break="no"/>ligendi verbum non videtur posse precedere verbum. vt intelligit 
+          ver<lb ed="#V" n="53" break="no"/>bum: plusquam potest precedere essentiam: vt intelligit eam. 
+        </p>
+        <p xml:id="FrMS88-e27365-d1e325">
+          <lb ed="#V" n="54"/>¶ Tertio sic. Omnis cognitio visiua est tantum existentis. 
+          <lb ed="#V" n="55"/>nam quod non est videri non potest. ergo si intellectio 
+          preceditqun<lb ed="#V" n="56" break="no"/>bum cognosceret verbum anteque sit. quod est impossibile.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e334">
+          ¶ 4o sic. 
+          <lb ed="#V" n="57"/>sicut supra fuit declaratum. cognitio intuitiua est existent / vt 
+          <lb ed="#V" n="58"/>existens est. et ita in illo priori qui intelligit verbum non existens: vel 
+          <lb ed="#V" n="59"/>non erit cognitio intuitiua: vel erit intuitiua non exissunt 
+        </p>
+        <p xml:id="FrMS88-e27365-d1e344">
+          <lb ed="#V" n="60"/>¶ Ad primum dico. quod operationes elicite in supposito a ratione 
+          <lb ed="#V" n="61"/>formali non possunt illam percedere sicut ratiocinari hominis que est 
+          <lb ed="#V" n="62"/>ab anima non potest praecedere animam rationalem. sed operatio elicita 
+          <lb ed="#V" n="63"/>a principio fundamentali potest praecedere suppositum constitutum: 
+          <lb ed="#V" n="64"/>sicut corpus mortuum immutat sensum: quia videtur et tangitur. et 
+          <lb ed="#V" n="65"/>sic de aliis. Si autem infundatur sibi anima: ista operatio prece 
+          <lb ed="#V" n="66"/>dit suppositum. Sic in proposito actus intelligendi¬ 
+          <!--79.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>elicitur ab essentia: vt a principio fundamentali: et ideo potest 
+          praece<lb ed="#V" n="68" break="no"/>dere suppositum.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e370">
+          ¶ Ad 2m: concedo quod est idem. actus 
+          intel<lb ed="#V" n="69" break="no"/>ligendi: habens tamen duo obstantia ordinata scilicet essentiam: vt 
+          prima<lb ed="#V" n="70" break="no"/>rium obiectum. et verbum vt secundarium. prius ergo secundum ordinem 
+          ali<lb ed="#V" n="71" break="no"/>quem terminatur ad essentiam quam ad proprietatem. Non 
+          requi<lb ed="#V" n="72" break="no"/>ritur autem quod actus praesupponat obiectum secundarium: licet necessario 
+          pre<lb ed="#V" n="73" break="no"/>exigat obiectum primarium.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e383">
+          ¶ Ad 3m et ad 4m simul: quia quae 
+          <lb ed="#V" n="74"/>si idem sunt: dicitur quod aliquid potest videri et cognosci intuitiue 
+          <lb ed="#V" n="75"/>dato quod non existat: sicut in repraesentatiuo supereminente. sicut 
+          <lb ed="#V" n="76"/>futura contingentia repraesentantur quae non sunt. De hoc alias 
+        </p>
+        <p xml:id="FrMS88-e27365-d1e392">
+          <lb ed="#V" n="77"/>¶ Difficultas ergo est: quomodo notitia quae cognoscitur 
+          ver<lb ed="#V" n="78" break="no"/>bum est intuitiua. Si dicatur quod est intuitiua. essentie: non 
+          <lb ed="#V" n="79"/>vt verbi.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e401">
+          ¶ Sed contra difficultas est de cognitione verbi vt verbum 
+          <lb ed="#V" n="80"/>est: que videtur intuitiua.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e406">
+          ¶ Ad cuius euidentiam notandum. 
+          <lb ed="#V" n="81"/>quod duo assignantur ordinata ex parte obstecti: et duo ex 
+          par<lb ed="#V" n="82" break="no"/>te operantis. Ex parte obiecti assignatur essentia. quae primo terminat 
+          <lb ed="#V" n="83"/>in per signo: vt obiectum primum: assignatur autem in 2o signo 
+          proprie<lb ed="#V" n="84" break="no"/>tas siue generatio vt obiectum secundarium. Ex parte autem operantis  
+          <lb ed="#V" n="85"/>sunt alia duo. Primo est enim actus intelligendi. 2o 
+          <lb ed="#V" n="86"/>actus producendi.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e423">
+          ¶ Istis autem suppositis potest sic 
+          declara<lb ed="#V" n="87" break="no"/>ri propositum: quandocumque duo ordines: ita se habent quod 
+          vni<lb ed="#V" n="88" break="no"/>formiter currunt: et primum vnius est simul cum primo alterius: 
+          <lb ed="#V" n="89"/>videtur quod 2m est similis cum 2o: sed ordo actus intelligendi ad 
+          pro<lb ed="#V" n="90" break="no"/>ductionem ex parte operantis: et ex parte obiecti ordo 
+          essen<lb ed="#V" n="91" break="no"/>tie et proprietatis ita se habent: vniformiter enim currere videntur 
+          <lb ed="#V" n="92"/>et primum vnius est simul cum primo alterius: videtur quod 2m erit simul cum 
+          <lb ed="#V" n="93"/>secundo sed actus intelligendi et essentia: vt obiectum simul sunt. ergo 
+          <lb ed="#V" n="94"/>secundum erit cum secundo scilicet actus producendi: et ipsemet filius in ratione 
+          <lb ed="#V" n="95"/>obiecti erunt simul.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e445">
+          ¶ Sed adhuc remanet difficultas: 
+          <lb ed="#V" n="96"/>punctus enim difficultatis in ista quaestione non est. vtrum 
+          pa<lb ed="#V" n="97" break="no"/>ter prius intelligat essentiam quam producit filium: sed est. Utrum 
+          <lb ed="#V" n="98"/>pater intelligat filium: et preintelligens filium producat ipsum. 
+        </p>
+        <p xml:id="FrMS88-e27365-d1e454">
+          <lb ed="#V" n="99"/>¶ Dico. quod pater prius non intelligit filium quam ipsum 
+          produ<lb ed="#V" n="100" break="no"/>cat: quia sic intelligeret patrem anteque esset pater: quia per generationem 
+          <lb ed="#V" n="101"/>constituitur pater: sed bene concedo quod pater prius origine filium 
+          intel<lb ed="#V" n="102" break="no"/>ligit quam filius producatur: quia pater habet a se filium cognoscere: et 
+          <lb ed="#V" n="103"/>ideo cognitio filii inest patri ordine originis antequam filius 
+          <lb ed="#V" n="104"/>producatur: quia solum producitur in secundo signo originis: quia 
+          produ<lb ed="#V" n="105" break="no"/>citur ab alio et non a se: et hoc est esse posterius.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e472">
+          ¶ Sed 
+          <lb ed="#V" n="106"/>si dicatur: tunc redit difficultaes apparenter sic. Tu ponis quod 
+          pri<lb ed="#V" n="107" break="no"/>precedit verbum pro aliquo signo: et pro illo signo non 
+          <lb ed="#V" n="108"/>est verbum. sed pro illo signo cognitio patris est 
+          intuiti<lb ed="#V" n="109" break="no"/>ua: et sic ipsa erit non existentis.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e483">
+          ¶ hic est intelligendum 
+          <lb ed="#V" n="110"/>quod duo genera signorum sunt. Quedam sunt permanentia 
+          <lb ed="#V" n="111"/>et quedam successiua. Successiua sicut est prius et poste. 
+          <lb ed="#V" n="112"/>rius in tempore: et in istis est regula generalis: cum prius est 
+          po<lb ed="#V" n="113" break="no"/>sterius non est. Permanentia autem sunt sicut prius et poste. 
+          <lb ed="#V" n="114"/>rius in ordine perfectionis vel situationis: sicut 
+          dici<lb ed="#V" n="115" break="no"/>mus quod sol est prior luna: quia perfectior: similiter 
+          satur<lb ed="#V" n="116" break="no"/>nus est prior sole: quia in situ priori et eminentiori. Prima 
+          <lb ed="#V" n="117"/>dicuntur successiua. quia non permanent simul. 2a autem dicuntur 
+          perma<lb ed="#V" n="118" break="no"/>nentia: quia simul permanent et existunt. In istis autem signis 
+          sue<lb ed="#V" n="119" break="no"/>cessiuis vltra hoc quod quando vnum est: alterum non est: habent aliud 
+          <lb ed="#V" n="120"/>quod quando vnum est scilicet prius: posterius nec simpliciter: nec 
+          sernd<lb ed="#V" n="121" break="no"/>quid est: nisi in potentia. In aliis autem permanentibus 
+          quandocum<lb ed="#V" n="122" break="no"/>que vnum est aliud simpliciter est: sed tamen secundum quid non est. quia 
+          <lb ed="#V" n="123"/>scilicet non pro eodem signo: sicut quando celum empireum est. tunc 
+          <lb ed="#V" n="124"/>firmamentum est: sed non est pro eodem signo perfectionis 
+          <lb ed="#V" n="125"/>Eodem modo dico in proposito: pater precedit filium pro tali 
+          <lb ed="#V" n="126"/>signo permanente: prius enim et posterius originis sunt 
+          par<lb ed="#V" n="127" break="no"/>manentia: et ideo quandocumque pater est: filius simpliciter est. et tamen 
+          <lb ed="#V" n="128"/>non est pro illo signo: quod est non esse secundum quid: filium. enim esse 
+          <lb ed="#V" n="129"/>pro primo signo originis: nihil aliud est quam filiu esse a se. 
+          fili<lb ed="#V" n="130" break="no"/>um autem esse a se est filium non esse ab alio: et sic esse 
+          fili<lb ed="#V" n="131" break="no"/>um et non esse filium.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e533">
+          ¶ Tunc ad argumentum. quod non est non 
+          <lb ed="#V" n="132"/>potest videri. concedo quod simpliciter non est non potest vide¬ 
+          <!--80.xml-->
+          <pb ed="#V" n="39-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ti: filius non est quando pater est. Dico quod ista est falsa. quia semper 
+          <lb ed="#V" n="2"/>silius est quando pater est simpliciter: sed tamen non est pro illo signo.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e550">
+          ¶ Tu 
+          <lb ed="#V" n="3"/>dices. hoc sufficit ad impediendum: quia si non est pro illo signo 
+          <lb ed="#V" n="4"/>pro quo intelligitur: tunc impedietur ratio notitie intuitiue.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e557">
+          ¶ Dico 
+          <lb ed="#V" n="5"/>quod sufficit ad notitiam intuitiuam quod obiectum habeat esse simpliciter 
+          <lb ed="#V" n="6"/>quando notitia est: sed non requritur quod habeat esse quo ad omnem 
+          con<lb ed="#V" n="7" break="no"/>ditionem.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e566">
+          ¶ Exemplum manifestu: actus intelligendi qui 
+          al<lb ed="#V" n="8" break="no"/>bedo intuitiue coguoscitur prior est ordine nobilitatis et 
+          <lb ed="#V" n="9"/>perfectionis ipso obiecto scilicet albedine: quia accidens spirituale: illud  
+          <lb ed="#V" n="10"/>autem corporale.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e575">
+          ¶ Ex hoc arguo sicut tu: obiectum notitie 
+          intui<lb ed="#V" n="11" break="no"/>tiue est pro quocumque signo notitia est: sed notitia est prius 
+          <lb ed="#V" n="12"/>perfectione quam tale obiectum: ergo pro illo priori obiectum est: sed 
+          albedi<lb ed="#V" n="13" break="no"/>nem esse pro illo signo pro quo est intellectio: est eam esse eque 
+          perfe<lb ed="#V" n="14" break="no"/>ctam: sicut intellectio est: quae sunt contradictoria. hoc autem no se 
+          <lb ed="#V" n="15"/>quitur ex hoc quod notitia est prior perfectione quam albedo: ergo 
+          ex<lb ed="#V" n="16" break="no"/>alio scilicet quod pro quocunque signo notitia est: obiectum est: ergo etc. 
+        </p>
+        <p xml:id="FrMS88-e27365-d1e591">
+          <lb ed="#V" n="17"/>¶ Dico ergo. quod patrem esse priorem filio origine: est patrem esse a se. 
+          <lb ed="#V" n="18"/>et filium non esse a se: licet ergo semper quando pater est filius simpliciter est. et hoc 
+          <lb ed="#V" n="19"/>sufficit ad intuitiuam notitiam: tamen filius non est pro quocumque 
+          <lb ed="#V" n="20"/>signo: pro quo pater est: quia non est a se.
+        </p>
+        <p xml:id="FrMS88-e27365-d1e602">
+          ¶ Ad auctoritatem in principio 
+          <lb ed="#V" n="21"/>dico. quod Aug. accipit memoriam fecundam quae est principium verbi 
+          pro<lb ed="#V" n="22" break="no"/>potentia intellectiua cum obiecto aut specie intelligibili. 
+          Intelligen<lb ed="#V" n="23" break="no"/>tiam autem potentiam intellectiuam cum actu. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

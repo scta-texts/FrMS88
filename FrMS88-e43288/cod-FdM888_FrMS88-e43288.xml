@@ -1,339 +1,339 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 3</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 3</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="59-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e43288"><!-- l1q11q3 -->
-            <head xml:id="FrMS88-e43288-Hd1e108">Quaestio 3</head>
-            <p xml:id="FrMS88-e43288-d1e111">
-      Quaestio. il 
-      <lb ed="#V" n="76"/>UTrum spiratio actiua differat 
-      rea<lb ed="#V" n="77" break="no"/>litur a patrnitate. Quod sic. quia quod 
-      <lb ed="#V" n="78"/>est elicitum a supposito differt realiter a 
-      consti<lb ed="#V" n="79" break="no"/>tutiuo suppositi: sed spiratio actiua est 
-      eli<lb ed="#V" n="80" break="no"/>l cita a patre. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e124">
-      ¶ Contra. tantum tres res 
-      po<lb ed="#V" n="81" break="no"/>nuntur.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e129">
-      ¶ hic ponuntur duo declaratiua. Prium est de eo quod tangitur 
-      <lb ed="#V" n="82"/>argumentum. Utrum actus spirandi sit elicitus. 2m est de quesito. 
-      <lb ed="#V" n="83"/> ad primum pono quatuor conclusiones de actu 
-      spiran<lb ed="#V" n="84" break="no"/>Quantu di diuino. Prima est ista. quod spiratio actia 
-      <lb ed="#V" n="85"/>in patre a nullo est elicita. probo. Quandocunque aliqua 
-      sun<lb ed="#V" n="86" break="no"/>idem rcaliter: si vnum sit elicitum. reliquum non potest esse eliciens: 
-      <lb ed="#V" n="87"/>sed spiratio in patre: si eliciatur non potest elici nisi a patre: 
-      <lb ed="#V" n="88"/>vel ab eo quod est formaliter in patre: sed sicut 
-      declarabi<lb ed="#V" n="89" break="no"/>tur. illa est eadem cum omnibus que sunt realiter in patre: ergo etc. 
-      </p>
-            <p xml:id="FrMS88-e43288-d1e149">
-               <lb ed="#V" n="90"/>¶ 2a est. quod spiratio in filio non est elicita ab eo: quia inter 
-      <lb ed="#V" n="91"/>producens et eliciens et elicitum semper est realis distinctio: 
-      <lb ed="#V" n="92"/>spiratio actiua non differt realiter ab aliquo quod sit formali 
-      <lb ed="#V" n="93"/>ter in filio: ergo etc.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e161">
-      ¶ 3a est. quod spiratio in filio non est 
-      elici<lb ed="#V" n="94" break="no"/>ta a patre: quia eadem res numero vel quiditas non potest esse 
-      eli<lb ed="#V" n="95" break="no"/>cita et non elicita: sed in filio spiratio est eadem res cum 
-      <lb ed="#V" n="96"/>spiratione que est in patre. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e170">
-      ¶ 4a est. quod 
-      spiratio<lb ed="#V" n="97" break="no"/>passiua in spiritusancto non est elicita. quia sola persona 
-      spira<lb ed="#V" n="98" break="no"/>tur.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e177">
-      ¶ Et Praeterea causa formalis abstrahit a suo effectu. 
-      spi<lb ed="#V" n="99" break="no"/>ratio autem formaliter est elicio alterius. ergo ipsa vt videtur 
-      <lb ed="#V" n="100"/>non potest esse elicita.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e184">
-      ¶ Nunc pono quatuor alias 
-      proposi<lb ed="#V" n="101" break="no"/>tiones de vi spiratiua.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e189">
-      ¶ Prima est. quod potentia 
-      spira<lb ed="#V" n="102" break="no"/>tiua siue vis non est in deo elicitiua spirationis actiue in 
-      <lb ed="#V" n="103"/>daere. Secunda est quod non est elicitiua spirationis actiue in 
-      <lb ed="#V" n="104"/>filio. Tertia est. quod non est elicitiua spirationis passiue 
-      <lb ed="#V" n="105"/>in spiritusancto.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e200">
-      ¶ Iste propositiones vnico verbo 
-      pro<lb ed="#V" n="106" break="no"/>bantur. quia quod non elicitur respectu eius non est vis 
-      eliciti<lb ed="#V" n="107" break="no"/>ua: sed nulla istarum proprietatum est elicibilis: cuilibet 
-      <lb ed="#V" n="108"/>enim repugnat esse elicitum: ergo etc. 4a propositio est. quod virtus 
-      <lb ed="#V" n="109"/>spiratiua in deo est elicitiua persone spussancti: quia spiri 
-      <lb ed="#V" n="110"/>russanctus est suppositum vere elicitum: et per consequens 
-      <lb ed="#V" n="111"/>elicibile: sed omne elicibile est elicibile ab aliquo 
-      eliciti<lb ed="#V" n="112" break="no"/>uo: sicut omne calefactibile ab aliqui calefactiuo: non potest 
-      <lb ed="#V" n="113"/>autem dici quod illud elicitiuum sit spiratio actiua: quia tunc 
-      pas<lb ed="#V" n="114" break="no"/>siua esset elicibilis: cuius oppositum est ostensum. Erit 
-      er<lb ed="#V" n="115" break="no"/>go voluntas 2a scilicet voluntas infinita cum obiecto in 
-      infi<lb ed="#V" n="116" break="no"/>nitum diligibili sibi praesentato.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e227">
-      ¶ Uifis aliquibus de 
-      spira<lb ed="#V" n="117" break="no"/>tione et vi spiratiua in deo. Dico duas propositiones de 
-      spi<lb ed="#V" n="118" break="no"/>ratione in creaturis. Prima est. quod spiratio actiua in 
-      <lb ed="#V" n="119"/>creaturis que fuindatur in potentia volitiua non est elicita. quia 
-      <lb ed="#V" n="120"/>elicionis non est elicio: sicut nec actionis est actio: vt 
-      vi<lb ed="#V" n="121" break="no"/>tetur processus in infinitum. 2a est. quod spiratio passiua quae 
-      fun<lb ed="#V" n="122" break="no"/>datur in amore spirato non est elicita: quia tunc haberet in se 
-      <lb ed="#V" n="123"/>formaliter elitionem: quod est impossibile.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e245">
-      ¶ De vi autem spiratiua 
-      po<lb ed="#V" n="124" break="no"/>no tres propositiones in creaturis. Prima est. quod virtus 
-      spi<lb ed="#V" n="125" break="no"/>ratiua in creaturis non est elicitiua actiue spirationis: 
-      <lb ed="#V" n="126"/>sed tantum fundamentum. 2o est. quod ipsa. non est elicitiua spi 
-      <lb ed="#V" n="127"/>rationis passiue que fuudatur in amore.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e256">
-      ¶ Iste due 
-      pro<lb ed="#V" n="128" break="no"/>bantur vnico verbo. quia nihil est elicitiuum respectu illius quod 
-      <lb ed="#V" n="129"/>non est elicibile: spiratio actiua et passiua non sunt 
-      eli<lb ed="#V" n="130" break="no"/>cibiles. 3a propositio est. quod ipsa est vere elicitiua 
-      amo<lb ed="#V" n="131" break="no"/>ris spirati qui est actus volendi. quia sicut potentia 
-      moti<lb ed="#V" n="132" break="no"/>ua est respectu moti: et actiua respectu passi: non autem 
-      <!--122.xml-->
-      <pb ed="#V" n="60-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>actionis et passionis: sicut spiratiua respectu spirati non 
-      <lb ed="#V" n="2"/>spirationis.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e280">
-      ¶ Sed contra predicta instatur 
-      quadrupli<lb ed="#V" n="3" break="no"/>titer.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e285">
-      ¶ Primo. quia quicquid habet spiritusscus habet 
-      <lb ed="#V" n="4"/>sibi datum a patre et filio. secundum Augu. Istud autem 
-      da<lb ed="#V" n="5" break="no"/>ri est elici. cum ergo spiratio passiua sit ei data. sequitur 
-      <lb ed="#V" n="6"/>quod necessario erit elicita in eo.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e294">
-      ¶ Secundo sic. potentia 
-      pro<lb ed="#V" n="7" break="no"/>ductiua respicit omnia ad que sua productio 
-      termina<lb ed="#V" n="8" break="no"/>tur. sed spiratio actiua terminatur ad omnia que sunt in 
-      <lb ed="#V" n="9"/>spiritusancto. vel primo vel secundario. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e304">
-      ¶ 
-      Ter<lb ed="#V" n="10" break="no"/>tio sic. omnis relatio in creaturis causatur a suo termino 
-      <lb ed="#V" n="11"/>effectiue. spirationis autem passiue terminus est 
-      poten<lb ed="#V" n="12" break="no"/>tia spiratiua. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e313">
-      ¶ Quarto sic. nihil in creaturis 
-      <lb ed="#V" n="13"/>est inelicitum: quia omnia creata sunt producta: omne 
-      ar<lb ed="#V" n="14" break="no"/>tem productum est elicitum: ergo omne creatum est elicitum: et 
-      <lb ed="#V" n="15"/>per consequens spiratio actiua vel passiua.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e322">
-      ¶ Ad primum dico. quod 
-      <lb ed="#V" n="16"/>illud dari non est spirari: cum. enim essentia divina deter tunc per 
-      <lb ed="#V" n="17"/>consequens spiraretur: dari ergo est comunicari: et ita spirituisancto 
-      coni<lb ed="#V" n="18" break="no"/>catur proprietas scilicet spiratio passiua que in vi spiratiua 
-      quaesi<lb ed="#V" n="19" break="no"/>virtualiter continnetur.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e333">
-      ¶ Ad 2m dico. quod assumptum est verum. quando 
-      <lb ed="#V" n="20"/>quicquid est in termino totali: accipit simpliciter esse: et 
-      produ<lb ed="#V" n="21" break="no"/>citur: sed in divinis non sic est: quia terminus formalis non 
-      produ<lb ed="#V" n="22" break="no"/>citur. et per consequens nihil terminat proprie: vel vt quod nisi ipsa perium vt 
-      <lb ed="#V" n="23"/>terminus totalis.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e344">
-      ¶ Ad 3m dico. quod si efficiatur spiratio 
-      <lb ed="#V" n="24"/>passiua a suo termino: illa productio vel factio non est spi 
-      <lb ed="#V" n="25"/>ratio: sed causatio naturalis. Melius tamen videtur dicendum. quod nulla 
-      fa<lb ed="#V" n="26" break="no"/>ctio ab aliquo fiat. quia ipsa est quo aliud fit.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e353">
-      ¶ Ad 4m dico 
-      <lb ed="#V" n="27"/>quod non negatur spirationem actiuam esse elicitam in creatu 
-      <lb ed="#V" n="28"/>ris saltem a creante. Negatur autem quod sit elicita a 
-      volunta<lb ed="#V" n="29" break="no"/>te spirante: quia ipsa est qua voluntas creata est spirans. 
-      <lb ed="#V" n="30"/>2o videndum est si spiratio actiua est distincta 
-      <lb ed="#V" n="31"/>Nunc a generatione actiua. Dicunt aliqui quod distinguitur 
-      <lb ed="#V" n="32"/>sola ratione.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e370">
-      ¶ Contra istos non oportet alia argumenta 
-      ha<lb ed="#V" n="33" break="no"/>bere: nisi illa per que probatur distinctio essentie et relationis. 
-      <lb ed="#V" n="34"/>Dicunt autem alii quod distinguuntur realiter. tamen non 
-      compo<lb ed="#V" n="35" break="no"/>nunt: quia vna non est in alia: sed vtraque in essenus cui sunt 
-      <lb ed="#V" n="36"/>ambe realiter idem et omnibus modis.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e381">
-      ¶ Contra hoc arguitur 
-      <lb ed="#V" n="37"/>sic. quecumque vni et eidem sunt eadem: ipsa inter se sunt 
-      ea<lb ed="#V" n="38" break="no"/>dem. led paternitas et spiratio sunt idem realiter in essemus. 
-      er<lb ed="#V" n="39" break="no"/>go inter se.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e390">
-      ¶ Praeterea hec paternitas est hec essemus. hec 
-      spira<lb ed="#V" n="40" break="no"/>tio est hec essemus. ergo hec spiratio est hec paternitas: vel 
-      <lb ed="#V" n="41"/>sic: hec essentia est hec paternitas: hec spiratio est heo 
-      <lb ed="#V" n="42"/>essentia: ergo hec spiratio est hec paternitas.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e399">
-      ¶ Praeterea hoc 
-      sup<lb ed="#V" n="43" break="no"/>posito destruitur forma simili perfecti: que consistit in vnio 
-      <lb ed="#V" n="44"/>ne duorum que vniuntur in 3o.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e406">
-      ¶ 4o hoc est contra primum principium 
-      <lb ed="#V" n="45"/>complexum: quia si nihil aliud est spiratio quam essentia. et spi 
-      <lb ed="#V" n="46"/>ratio distinguitur realiter a paternitate: ergo sequitur 
-      contradi<lb ed="#V" n="47" break="no"/>ctio scilicet affirmatio et negatio de eodem: quod est contra primo 
-      <lb ed="#V" n="48"/>mum principium complexum.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e417">
-      ¶ Ideo dico quod spiratio 
-      acti<lb ed="#V" n="49" break="no"/>ua in patre non distinguitur a paternitate realiter: nec 
-      ipsa<lb ed="#V" n="50" break="no"/>in filio distinguitur realiter a filiatione. hoc probo 4r 
-      </p>
-            <p xml:id="FrMS88-e43288-d1e425">
-               <lb ed="#V" n="51"/>¶ Primo sic. sicut prima vnitas in essentia consistit: ita 
-      <lb ed="#V" n="52"/>prima simplex diuersitas scilicet realis stat inter personas: sed 
-      <lb ed="#V" n="53"/>si spiratio actiua et generatio essent realiter distincte: 
-      <lb ed="#V" n="54"/>prima realis distinctio non esset inter personas: sed 
-      prima<lb ed="#V" n="55" break="no"/>simpliciter esset in vna persona.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e438">
-      ¶ 2o sic. magis videntur idem 
-      que<lb ed="#V" n="56" break="no"/>sunt in vna persona: et minus distingui: quam que sunt in 
-      di<lb ed="#V" n="57" break="no"/>uersis: sed que sunt in diuersis tantum realiter et praecise 
-      distin<lb ed="#V" n="58" break="no"/>guuntur: ergo que sunt in vna minus distinguuntur quam 
-      rea<lb ed="#V" n="59" break="no"/>liter.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e449">
-      ¶ 3o sic. vna persona non est magis vna in se quam alia: 
-      <lb ed="#V" n="60"/>sed si ille due productiones realiter distinguerentur: 
-      perso<lb ed="#V" n="61" break="no"/>na spiritussancti esset magis vna in se quam alie: quia non 
-      ha<lb ed="#V" n="62" break="no"/>beret multitudinem rerum: quam alie habent. ergo etc 
-      </p>
-            <p xml:id="FrMS88-e43288-d1e458">
-               <lb ed="#V" n="63"/>¶ 4o sic. et hec est fundamentalis: vbicumque enim sunt 
-      qua<lb ed="#V" n="64" break="no"/>tuor et realiter distincta: ibi sunt quatuor res: sed in 
-      di<lb ed="#V" n="65" break="no"/>uinis sunt quatuor distincte relationes: et per te: distincte 
-      <lb ed="#V" n="66"/>realiter: ergo quatuor res. quod est contra determinationem 
-      <!--122.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>ecclesie. qua ibi determinat esse tantum tres res.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e476">
-      ¶ Istud non 
-      po<lb ed="#V" n="68" break="no"/>test euadi nisi dicatur vno duorum modorum: vel quod non 
-      sequi<lb ed="#V" n="69" break="no"/>tur quod sunt 4or res: quia sunt idem in essentia: vel oportet dicere 
-      <lb ed="#V" n="70"/>quod non est inconueniens ponere. 4. res relatiuas eiusdem 
-      <lb ed="#V" n="71"/>essentie cuiusmodi sunt iste.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e487">
-      ¶ Contra primum instatur: nam 
-      perso<lb ed="#V" n="72" break="no"/>ne sunt distincte realiter: ideo dicuntur tres persone. similiter tres res. 
-      <lb ed="#V" n="73"/>non obstante identitate perfecta earum: cum essentia: ergo a simili: non 
-      <lb ed="#V" n="74"/>obstante perfecta identitate relationum distinctarum cum 
-      essen<lb ed="#V" n="75" break="no"/>tia: si sint realiter distincte: sicut sunt. 4. ita erunt. 4. res. 
-      </p>
-            <p xml:id="FrMS88-e43288-d1e499">
-               <lb ed="#V" n="76"/>¶ Nec sufficit 2m. quia illo modo qui eccleia concedit tres res vel 
-      <lb ed="#V" n="77"/>plures in diuinis: negat quatuor: sed non concedit 
-      trini<lb ed="#V" n="78" break="no"/>tatem et pluralitatem rerum nisi relatiuarum: ergo illo modo 
-      ne<lb ed="#V" n="79" break="no"/>gat quaternitatem.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e510">
-      ¶ Sed quare non ita distinguitur 
-      <lb ed="#V" n="80"/>spiratio actiua ab aliis realiter: sicut spiratio passiua. 
-      </p>
-            <p xml:id="FrMS88-e43288-d1e515">
-               <lb ed="#V" n="81"/>¶ Dico quod non est incoueniens duas productiones tota 
-      <lb ed="#V" n="82"/>les actiuas esse in vna persona. que autem sunt in vna 
-      <lb ed="#V" n="83"/>persona. in vna realitate conueniunt. et per consequens non 
-      di<lb ed="#V" n="84" break="no"/>stinguuntur realiter. sed impossibile est plures productiones 
-      <lb ed="#V" n="85"/>passiuas totales esse in eadem persona. et per consequent sunt necessario 
-      <lb ed="#V" n="86"/>in duabus: sed due persone habent diuersas realitates: ergo 
-      il<lb ed="#V" n="87" break="no"/>le due productiones realiter distinguuntur.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e533">
-      ¶ Sed tunc est 
-      <lb ed="#V" n="88"/>dubium: quia videtur quod spiratio actiua a seipsa vt in patre 
-      rea<lb ed="#V" n="89" break="no"/>liter differat: vt in filio: quia pater et filius diuersas reali 
-      <lb ed="#V" n="90"/>tates habent.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e542">
-      ¶ Dico ad hoc. quod sicut vna essemus est in 
-      <lb ed="#V" n="91"/>tribus realiter distinctis: vna tamen realiter: ita dico de spi 
-      <lb ed="#V" n="92"/>ratione actiua: quod est in duobus: vnde ad distinctionem 
-      <lb ed="#V" n="93"/>realem non sufficit habere aliam et aliam realitatem: sed 
-      <lb ed="#V" n="94"/>requiritur quod vnum distinctorum realiter non habeat 
-      rea<lb ed="#V" n="95" break="no"/>litatem qua aliud habet. vel econverso. sicut non sufficit ad hoc quod 
-      <lb ed="#V" n="96"/>aliqua dicantur distincta personaliter quod habeant in se 
-      di<lb ed="#V" n="97" break="no"/>uersas personalitates: quia cum essentia diuina habeat 
-      <lb ed="#V" n="98"/>distinctas personalitates diceretur distincta personaliter: 
-      <lb ed="#V" n="99"/>requiritur ergo ad hoc quod aliqua dicantur personaliter 
-      distin<lb ed="#V" n="100" break="no"/>gui. quod personalitatem: quam habet: vnum non habeat aliud: vel econverso 
-      <lb ed="#V" n="101"/>quod non contingit in essentia diuina.
-    </p>
-            <p xml:id="FrMS88-e43288-d1e568">
-      ¶ Ad 
-      argumen<lb ed="#V" n="102" break="no"/>tum in oppositum patet. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="59-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e43288"><!-- l1q11q3 -->
+        <head xml:id="FrMS88-e43288-Hd1e108">Quaestio 3</head>
+        <p xml:id="FrMS88-e43288-d1e111">
+          Quaestio. il 
+          <lb ed="#V" n="76"/>UTrum spiratio actiua differat 
+          rea<lb ed="#V" n="77" break="no"/>litur a paternitate. Quod sic. quia quod 
+          <lb ed="#V" n="78"/>est elicitum a supposito differt realiter a 
+          consti<lb ed="#V" n="79" break="no"/>tutiuo suppositi: sed spiratio actiua est 
+          eli<lb ed="#V" n="80" break="no"/>l cita a patre. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e124">
+          ¶ Contra. tantum tres res 
+          po<lb ed="#V" n="81" break="no"/>nuntur.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e129">
+          ¶ hic ponuntur duo declaratiua. Prium est de eo quod tangitur 
+          <lb ed="#V" n="82"/>argumentum. Utrum actus spirandi sit elicitus. 2m est de quesito. 
+          <lb ed="#V" n="83"/> ad primum pono quatuor conclusiones de actu 
+          spiran<lb ed="#V" n="84" break="no"/>Quantu di diuino. Prima est ista. quod spiratio actia 
+          <lb ed="#V" n="85"/>in patre a nullo est elicita. probo. Quandocunque aliqua 
+          sun<lb ed="#V" n="86" break="no"/>idem rcaliter: si vnum sit elicitum. reliquum non potest esse eliciens: 
+          <lb ed="#V" n="87"/>sed spiratio in patre: si eliciatur non potest elici nisi a patre: 
+          <lb ed="#V" n="88"/>vel ab eo quod est formaliter in patre: sed sicut 
+          declarabi<lb ed="#V" n="89" break="no"/>tur. illa est eadem cum omnibus que sunt realiter in patre: ergo etc. 
+        </p>
+        <p xml:id="FrMS88-e43288-d1e149">
+          <lb ed="#V" n="90"/>¶ 2a est. quod spiratio in filio non est elicita ab eo: quia inter 
+          <lb ed="#V" n="91"/>producens et eliciens et elicitum semper est realis distinctio: 
+          <lb ed="#V" n="92"/>spiratio actiua non differt realiter ab aliquo quod sit formali 
+          <lb ed="#V" n="93"/>ter in filio: ergo etc.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e161">
+          ¶ 3a est. quod spiratio in filio non est 
+          elici<lb ed="#V" n="94" break="no"/>ta a patre: quia eadem res numero vel quiditas non potest esse 
+          eli<lb ed="#V" n="95" break="no"/>cita et non elicita: sed in filio spiratio est eadem res cum 
+          <lb ed="#V" n="96"/>spiratione que est in patre. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e170">
+          ¶ 4a est. quod 
+          spiratio<lb ed="#V" n="97" break="no"/>passiua in spiritusancto non est elicita. quia sola persona 
+          spira<lb ed="#V" n="98" break="no"/>tur.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e177">
+          ¶ Et Praeterea causa formalis abstrahit a suo effectu. 
+          spi<lb ed="#V" n="99" break="no"/>ratio autem formaliter est elicio alterius. ergo ipsa vt videtur 
+          <lb ed="#V" n="100"/>non potest esse elicita.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e184">
+          ¶ Nunc pono quatuor alias 
+          proposi<lb ed="#V" n="101" break="no"/>tiones de vi spiratiua.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e189">
+          ¶ Prima est. quod potentia 
+          spira<lb ed="#V" n="102" break="no"/>tiua siue vis non est in deo elicitiua spirationis actiue in 
+          <lb ed="#V" n="103"/>daere. Secunda est quod non est elicitiua spirationis actiue in 
+          <lb ed="#V" n="104"/>filio. Tertia est. quod non est elicitiua spirationis passiue 
+          <lb ed="#V" n="105"/>in spiritusancto.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e200">
+          ¶ Iste propositiones vnico verbo 
+          pro<lb ed="#V" n="106" break="no"/>bantur. quia quod non elicitur respectu eius non est vis 
+          eliciti<lb ed="#V" n="107" break="no"/>ua: sed nulla istarum proprietatum est elicibilis: cuilibet 
+          <lb ed="#V" n="108"/>enim repugnat esse elicitum: ergo etc. 4a propositio est. quod virtus 
+          <lb ed="#V" n="109"/>spiratiua in deo est elicitiua persone spussancti: quia spiri 
+          <lb ed="#V" n="110"/>russanctus est suppositum vere elicitum: et per consequens 
+          <lb ed="#V" n="111"/>elicibile: sed omne elicibile est elicibile ab aliquo 
+          eliciti<lb ed="#V" n="112" break="no"/>uo: sicut omne calefactibile ab aliqui calefactiuo: non potest 
+          <lb ed="#V" n="113"/>autem dici quod illud elicitiuum sit spiratio actiua: quia tunc 
+          pas<lb ed="#V" n="114" break="no"/>siua esset elicibilis: cuius oppositum est ostensum. Erit 
+          er<lb ed="#V" n="115" break="no"/>go voluntas 2a scilicet voluntas infinita cum obiecto in 
+          infi<lb ed="#V" n="116" break="no"/>nitum diligibili sibi praesentato.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e227">
+          ¶ Uifis aliquibus de 
+          spira<lb ed="#V" n="117" break="no"/>tione et vi spiratiua in deo. Dico duas propositiones de 
+          spi<lb ed="#V" n="118" break="no"/>ratione in creaturis. Prima est. quod spiratio actiua in 
+          <lb ed="#V" n="119"/>creaturis que fuindatur in potentia volitiua non est elicita. quia 
+          <lb ed="#V" n="120"/>elicionis non est elicio: sicut nec actionis est actio: vt 
+          vi<lb ed="#V" n="121" break="no"/>tetur processus in infinitum. 2a est. quod spiratio passiua quae 
+          fun<lb ed="#V" n="122" break="no"/>datur in amore spirato non est elicita: quia tunc haberet in se 
+          <lb ed="#V" n="123"/>formaliter elitionem: quod est impossibile.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e245">
+          ¶ De vi autem spiratiua 
+          po<lb ed="#V" n="124" break="no"/>no tres propositiones in creaturis. Prima est. quod virtus 
+          spi<lb ed="#V" n="125" break="no"/>ratiua in creaturis non est elicitiua actiue spirationis: 
+          <lb ed="#V" n="126"/>sed tantum fundamentum. 2o est. quod ipsa. non est elicitiua spi 
+          <lb ed="#V" n="127"/>rationis passiue que fuudatur in amore.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e256">
+          ¶ Iste due 
+          pro<lb ed="#V" n="128" break="no"/>bantur vnico verbo. quia nihil est elicitiuum respectu illius quod 
+          <lb ed="#V" n="129"/>non est elicibile: spiratio actiua et passiua non sunt 
+          eli<lb ed="#V" n="130" break="no"/>cibiles. 3a propositio est. quod ipsa est vere elicitiua 
+          amo<lb ed="#V" n="131" break="no"/>ris spirati qui est actus volendi. quia sicut potentia 
+          moti<lb ed="#V" n="132" break="no"/>ua est respectu moti: et actiua respectu passi: non autem 
+          <!--122.xml-->
+          <pb ed="#V" n="60-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>actionis et passionis: sicut spiratiua respectu spirati non 
+          <lb ed="#V" n="2"/>spirationis.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e280">
+          ¶ Sed contra predicta instatur 
+          quadrupli<lb ed="#V" n="3" break="no"/>titer.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e285">
+          ¶ Primo. quia quicquid habet spiritusscus habet 
+          <lb ed="#V" n="4"/>sibi datum a patre et filio. secundum Augu. Istud autem 
+          da<lb ed="#V" n="5" break="no"/>ri est elici. cum ergo spiratio passiua sit ei data. sequitur 
+          <lb ed="#V" n="6"/>quod necessario erit elicita in eo.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e294">
+          ¶ Secundo sic. potentia 
+          pro<lb ed="#V" n="7" break="no"/>ductiua respicit omnia ad que sua productio 
+          termina<lb ed="#V" n="8" break="no"/>tur. sed spiratio actiua terminatur ad omnia que sunt in 
+          <lb ed="#V" n="9"/>spiritusancto. vel primo vel secundario. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e304">
+          ¶ 
+          Ter<lb ed="#V" n="10" break="no"/>tio sic. omnis relatio in creaturis causatur a suo termino 
+          <lb ed="#V" n="11"/>effectiue. spirationis autem passiue terminus est 
+          poten<lb ed="#V" n="12" break="no"/>tia spiratiua. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e313">
+          ¶ Quarto sic. nihil in creaturis 
+          <lb ed="#V" n="13"/>est inelicitum: quia omnia creata sunt producta: omne 
+          ar<lb ed="#V" n="14" break="no"/>tem productum est elicitum: ergo omne creatum est elicitum: et 
+          <lb ed="#V" n="15"/>per consequens spiratio actiua vel passiua.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e322">
+          ¶ Ad primum dico. quod 
+          <lb ed="#V" n="16"/>illud dari non est spirari: cum. enim essentia divina deter tunc per 
+          <lb ed="#V" n="17"/>consequens spiraretur: dari ergo est comunicari: et ita spirituisancto 
+          coni<lb ed="#V" n="18" break="no"/>catur proprietas scilicet spiratio passiua que in vi spiratiua 
+          quaesi<lb ed="#V" n="19" break="no"/>virtualiter continnetur.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e333">
+          ¶ Ad 2m dico. quod assumptum est verum. quando 
+          <lb ed="#V" n="20"/>quicquid est in termino totali: accipit simpliciter esse: et 
+          produ<lb ed="#V" n="21" break="no"/>citur: sed in divinis non sic est: quia terminus formalis non 
+          produ<lb ed="#V" n="22" break="no"/>citur. et per consequens nihil terminat proprie: vel vt quod nisi ipsa perium vt 
+          <lb ed="#V" n="23"/>terminus totalis.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e344">
+          ¶ Ad 3m dico. quod si efficiatur spiratio 
+          <lb ed="#V" n="24"/>passiua a suo termino: illa productio vel factio non est spi 
+          <lb ed="#V" n="25"/>ratio: sed causatio naturalis. Melius tamen videtur dicendum. quod nulla 
+          fa<lb ed="#V" n="26" break="no"/>ctio ab aliquo fiat. quia ipsa est quo aliud fit.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e353">
+          ¶ Ad 4m dico 
+          <lb ed="#V" n="27"/>quod non negatur spirationem actiuam esse elicitam in creatu 
+          <lb ed="#V" n="28"/>ris saltem a creante. Negatur autem quod sit elicita a 
+          volunta<lb ed="#V" n="29" break="no"/>te spirante: quia ipsa est qua voluntas creata est spirans. 
+          <lb ed="#V" n="30"/>2o videndum est si spiratio actiua est distincta 
+          <lb ed="#V" n="31"/>Nunc a generatione actiua. Dicunt aliqui quod distinguitur 
+          <lb ed="#V" n="32"/>sola ratione.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e370">
+          ¶ Contra istos non oportet alia argumenta 
+          ha<lb ed="#V" n="33" break="no"/>bere: nisi illa per que probatur distinctio essentie et relationis. 
+          <lb ed="#V" n="34"/>Dicunt autem alii quod distinguuntur realiter. tamen non 
+          compo<lb ed="#V" n="35" break="no"/>nunt: quia vna non est in alia: sed vtraque in essenus cui sunt 
+          <lb ed="#V" n="36"/>ambe realiter idem et omnibus modis.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e381">
+          ¶ Contra hoc arguitur 
+          <lb ed="#V" n="37"/>sic. quecumque vni et eidem sunt eadem: ipsa inter se sunt 
+          ea<lb ed="#V" n="38" break="no"/>dem. led paternitas et spiratio sunt idem realiter in essemus. 
+          er<lb ed="#V" n="39" break="no"/>go inter se.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e390">
+          ¶ Praeterea hec paternitas est hec essemus. hec 
+          spira<lb ed="#V" n="40" break="no"/>tio est hec essemus. ergo hec spiratio est hec paternitas: vel 
+          <lb ed="#V" n="41"/>sic: hec essentia est hec paternitas: hec spiratio est heo 
+          <lb ed="#V" n="42"/>essentia: ergo hec spiratio est hec paternitas.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e399">
+          ¶ Praeterea hoc 
+          sup<lb ed="#V" n="43" break="no"/>posito destruitur forma simili perfecti: que consistit in vnio 
+          <lb ed="#V" n="44"/>ne duorum que vniuntur in 3o.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e406">
+          ¶ 4o hoc est contra primum principium 
+          <lb ed="#V" n="45"/>complexum: quia si nihil aliud est spiratio quam essentia. et spi 
+          <lb ed="#V" n="46"/>ratio distinguitur realiter a paternitate: ergo sequitur 
+          contradi<lb ed="#V" n="47" break="no"/>ctio scilicet affirmatio et negatio de eodem: quod est contra primo 
+          <lb ed="#V" n="48"/>mum principium complexum.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e417">
+          ¶ Ideo dico quod spiratio 
+          acti<lb ed="#V" n="49" break="no"/>ua in patre non distinguitur a paternitate realiter: nec 
+          ipsa<lb ed="#V" n="50" break="no"/>in filio distinguitur realiter a filiatione. hoc probo 4r 
+        </p>
+        <p xml:id="FrMS88-e43288-d1e425">
+          <lb ed="#V" n="51"/>¶ Primo sic. sicut prima vnitas in essentia consistit: ita 
+          <lb ed="#V" n="52"/>prima simplex diuersitas scilicet realis stat inter personas: sed 
+          <lb ed="#V" n="53"/>si spiratio actiua et generatio essent realiter distincte: 
+          <lb ed="#V" n="54"/>prima realis distinctio non esset inter personas: sed 
+          prima<lb ed="#V" n="55" break="no"/>simpliciter esset in vna persona.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e438">
+          ¶ 2o sic. magis videntur idem 
+          que<lb ed="#V" n="56" break="no"/>sunt in vna persona: et minus distingui: quam que sunt in 
+          di<lb ed="#V" n="57" break="no"/>uersis: sed que sunt in diuersis tantum realiter et praecise 
+          distin<lb ed="#V" n="58" break="no"/>guuntur: ergo que sunt in vna minus distinguuntur quam 
+          rea<lb ed="#V" n="59" break="no"/>liter.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e449">
+          ¶ 3o sic. vna persona non est magis vna in se quam alia: 
+          <lb ed="#V" n="60"/>sed si ille due productiones realiter distinguerentur: 
+          perso<lb ed="#V" n="61" break="no"/>na spiritussancti esset magis vna in se quam alie: quia non 
+          ha<lb ed="#V" n="62" break="no"/>beret multitudinem rerum: quam alie habent. ergo etc 
+        </p>
+        <p xml:id="FrMS88-e43288-d1e458">
+          <lb ed="#V" n="63"/>¶ 4o sic. et hec est fundamentalis: vbicumque enim sunt 
+          qua<lb ed="#V" n="64" break="no"/>tuor et realiter distincta: ibi sunt quatuor res: sed in 
+          di<lb ed="#V" n="65" break="no"/>uinis sunt quatuor distincte relationes: et per te: distincte 
+          <lb ed="#V" n="66"/>realiter: ergo quatuor res. quod est contra determinationem 
+          <!--122.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>ecclesie. qua ibi determinat esse tantum tres res.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e476">
+          ¶ Istud non 
+          po<lb ed="#V" n="68" break="no"/>test euadi nisi dicatur vno duorum modorum: vel quod non 
+          sequi<lb ed="#V" n="69" break="no"/>tur quod sunt 4or res: quia sunt idem in essentia: vel oportet dicere 
+          <lb ed="#V" n="70"/>quod non est inconueniens ponere. 4. res relatiuas eiusdem 
+          <lb ed="#V" n="71"/>essentie cuiusmodi sunt iste.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e487">
+          ¶ Contra primum instatur: nam 
+          perso<lb ed="#V" n="72" break="no"/>ne sunt distincte realiter: ideo dicuntur tres persone. similiter tres res. 
+          <lb ed="#V" n="73"/>non obstante identitate perfecta earum: cum essentia: ergo a simili: non 
+          <lb ed="#V" n="74"/>obstante perfecta identitate relationum distinctarum cum 
+          essen<lb ed="#V" n="75" break="no"/>tia: si sint realiter distincte: sicut sunt. 4. ita erunt. 4. res. 
+        </p>
+        <p xml:id="FrMS88-e43288-d1e499">
+          <lb ed="#V" n="76"/>¶ Nec sufficit 2m. quia illo modo qui eccleia concedit tres res vel 
+          <lb ed="#V" n="77"/>plures in diuinis: negat quatuor: sed non concedit 
+          trini<lb ed="#V" n="78" break="no"/>tatem et pluralitatem rerum nisi relatiuarum: ergo illo modo 
+          ne<lb ed="#V" n="79" break="no"/>gat quaternitatem.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e510">
+          ¶ Sed quare non ita distinguitur 
+          <lb ed="#V" n="80"/>spiratio actiua ab aliis realiter: sicut spiratio passiua. 
+        </p>
+        <p xml:id="FrMS88-e43288-d1e515">
+          <lb ed="#V" n="81"/>¶ Dico quod non est incoueniens duas productiones tota 
+          <lb ed="#V" n="82"/>les actiuas esse in vna persona. que autem sunt in vna 
+          <lb ed="#V" n="83"/>persona. in vna realitate conueniunt. et per consequens non 
+          di<lb ed="#V" n="84" break="no"/>stinguuntur realiter. sed impossibile est plures productiones 
+          <lb ed="#V" n="85"/>passiuas totales esse in eadem persona. et per consequent sunt necessario 
+          <lb ed="#V" n="86"/>in duabus: sed due persone habent diuersas realitates: ergo 
+          il<lb ed="#V" n="87" break="no"/>le due productiones realiter distinguuntur.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e533">
+          ¶ Sed tunc est 
+          <lb ed="#V" n="88"/>dubium: quia videtur quod spiratio actiua a seipsa vt in patre 
+          rea<lb ed="#V" n="89" break="no"/>liter differat: vt in filio: quia pater et filius diuersas reali 
+          <lb ed="#V" n="90"/>tates habent.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e542">
+          ¶ Dico ad hoc. quod sicut vna essemus est in 
+          <lb ed="#V" n="91"/>tribus realiter distinctis: vna tamen realiter: ita dico de spi 
+          <lb ed="#V" n="92"/>ratione actiua: quod est in duobus: vnde ad distinctionem 
+          <lb ed="#V" n="93"/>realem non sufficit habere aliam et aliam realitatem: sed 
+          <lb ed="#V" n="94"/>requiritur quod vnum distinctorum realiter non habeat 
+          rea<lb ed="#V" n="95" break="no"/>litatem qua aliud habet. vel econverso. sicut non sufficit ad hoc quod 
+          <lb ed="#V" n="96"/>aliqua dicantur distincta personaliter quod habeant in se 
+          di<lb ed="#V" n="97" break="no"/>uersas personalitates: quia cum essentia diuina habeat 
+          <lb ed="#V" n="98"/>distinctas personalitates diceretur distincta personaliter: 
+          <lb ed="#V" n="99"/>requiritur ergo ad hoc quod aliqua dicantur personaliter 
+          distin<lb ed="#V" n="100" break="no"/>gui. quod personalitatem: quam habet: vnum non habeat aliud: vel econverso 
+          <lb ed="#V" n="101"/>quod non contingit in essentia diuina.
+        </p>
+        <p xml:id="FrMS88-e43288-d1e568">
+          ¶ Ad 
+          argumen<lb ed="#V" n="102" break="no"/>tum in oppositum patet. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

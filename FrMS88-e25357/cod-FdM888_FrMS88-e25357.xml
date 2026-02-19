@@ -1,90 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 3</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 3</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#V" n="168-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e25357"><!-- l1d5q3 -->
-            <head xml:id="FrMS88-e25357-Hd1e108">Quaestio 3</head>
-            <p xml:id="FrMS88-e25357-d1e111">
-      Questio. iii. 
-      <lb ed="#V" n="89"/>UTrum proprietas patris generet.
-    </p>
-            <p xml:id="FrMS88-e25357-d1e116">
-      ¶ Di<lb ed="#V" n="90" break="no"/>co quod non. quia nullus effectus 
-      <lb ed="#V" n="91"/>formalis potest praedicari de sua causa. quia hec est 
-      <lb ed="#V" n="92"/>falsa. albedo est alba. vel impropria: sed genera 
-      <lb ed="#V" n="93"/>re est effectus formalis proprietatis. ergo etc. 
-      </p>
-            <p xml:id="FrMS88-e25357-d1e127">
-               <lb ed="#V" n="94"/>¶ Item sic. tunc esset aliquid prius generans quam pater. quod est falsum. 
-      <lb ed="#V" n="95"/>probatio consequentie. proprietas aliquo modo prior est patre. quia eius 
-      con<lb ed="#V" n="96" break="no"/>stitutiua. ergo si generaret esset prius generans quam pater: sicut ipsa est 
-      <lb ed="#V" n="97"/>prior.
-    </p>
-            <p xml:id="FrMS88-e25357-d1e138">
-      ¶ 2o dico quod essentia vt in patre non generat: quia a 
-      deter<lb ed="#V" n="98" break="no"/>minabili sumpto cum determinatione non distrahente 
-      po<lb ed="#V" n="99" break="no"/>test fieri bona consequentia ad determinabile per se sumptum sed 
-      <lb ed="#V" n="100"/>vt in patre non diminuit. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e25357-d1e148">
-      ¶ Praeterea. nihil generat nisi 
-      per<lb ed="#V" n="101" break="no"/>sona: sed essentia vt in patre non est persona. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e25357-d1e153">
-      ¶ Et 
-      <lb ed="#V" n="102"/>sic patet ad istam questiumculam. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="168-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e25357"><!-- l1d5q3 -->
+        <head xml:id="FrMS88-e25357-Hd1e108">Quaestio 3</head>
+        <p xml:id="FrMS88-e25357-d1e111">
+          Questio. iii. 
+          <lb ed="#V" n="89"/>UTrum proprietas patris generet.
+        </p>
+        <p xml:id="FrMS88-e25357-d1e116">
+          ¶ Di<lb ed="#V" n="90" break="no"/>co quod non. quia nullus effectus 
+          <lb ed="#V" n="91"/>formalis potest praedicari de sua causa. quia hec est 
+          <lb ed="#V" n="92"/>falsa. albedo est alba. vel impropria: sed genera 
+          <lb ed="#V" n="93"/>re est effectus formalis proprietatis. ergo etc. 
+        </p>
+        <p xml:id="FrMS88-e25357-d1e127">
+          <lb ed="#V" n="94"/>¶ Item sic. tunc esset aliquid prius generans quam pater. quod est falsum. 
+          <lb ed="#V" n="95"/>probatio consequentie. proprietas aliquo modo prior est patre. quia eius 
+          con<lb ed="#V" n="96" break="no"/>stitutiua. ergo si generaret esset prius generans quam pater: sicut ipsa est 
+          <lb ed="#V" n="97"/>prior.
+        </p>
+        <p xml:id="FrMS88-e25357-d1e138">
+          ¶ 2o dico quod essentia vt in patre non generat: quia a 
+          deter<lb ed="#V" n="98" break="no"/>minabili sumpto cum determinatione non distrahente 
+          po<lb ed="#V" n="99" break="no"/>test fieri bona consequentia ad determinabile per se sumptum sed 
+          <lb ed="#V" n="100"/>vt in patre non diminuit. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e25357-d1e148">
+          ¶ Praeterea. nihil generat nisi 
+          per<lb ed="#V" n="101" break="no"/>sona: sed essentia vt in patre non est persona. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e25357-d1e153">
+          ¶ Et 
+          <lb ed="#V" n="102"/>sic patet ad istam questiumculam. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,284 +1,284 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 4</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 4</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="99-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e73552"><!-- l1d32q4 -->
-            <head xml:id="FrMS88-e73552-Hd1e108">Quaestio 4</head>
-            <p xml:id="FrMS88-e73552-d1e111">
-      Quaestio. iiii. 
-      <lb ed="#V" n="16"/>pater sit sapiens sapientia geni 
-      <lb ed="#V" n="17"/>Trum ta. quod sic. Aug videtur dicere. 5. de 
-      <lb ed="#V" n="18"/>tri scilicet quod pater est sapiens sapientia quam 
-      ge<lb ed="#V" n="19" break="no"/>nuit.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e122">
-      ¶ Contra. Idem Aug. 5. eiusdem libri 
-      <lb ed="#V" n="20"/>dicit expresse. quod non sit verum 
-      <lb ed="#V" n="21"/>praemittuntur 4or praeabula. Primum est. quod pater et filius 
-      <lb ed="#V" n="22"/>Hic sapiunt eadem penitus sapietia. quia sicut in patre et filie 
-      <lb ed="#V" n="23"/>est eadem essentia: ita in patre et filio est eadem penitus sapia quae sunt 
-      <lb ed="#V" n="24"/>sapientes.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e135">
-      ¶ 2o. quia si alia sapienia esset patris et alia filii: tunc 
-      <lb ed="#V" n="25"/>neutra diceret perfectionem simpliciter: quia non esset in supposito 
-      <lb ed="#V" n="26"/>perfectissimo. vel si diceret: tunc supposito perfectissimo 
-      ali<lb ed="#V" n="27" break="no"/>qua perfectio simpliciter deficeret.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e144">
-      ¶ 2m praemabulum est quod 
-      acci<lb ed="#V" n="28" break="no"/>piendo sapientiam illam secundum se. qua vtraque perum est sapiens. et 
-      <lb ed="#V" n="29"/>etiam tota trinitas: ipsa est ingenita. quia illud quod 
-      praeueni<lb ed="#V" n="30" break="no"/>actum generandi in divinis est ingenitum: sapia autem cum sit 
-      perfectio<lb ed="#V" n="31" break="no"/>essentialis: praeuenit generationem actiuam: quae est proprietas personalis. 
-      <lb ed="#V" n="32"/>eo modo quo personalia praeueniuntur ab esentialibus secundum 
-      Dio<lb ed="#V" n="33" break="no"/>in. c. de vnica et discreta theologia. Item omne genitum est 
-      <lb ed="#V" n="34"/>realiter a generante distinctum: sed sapia est indistincta a patre 
-      <lb ed="#V" n="35"/>ergo etc.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e165">
-      ¶ 3m praemabulum est. quod sapinta vt in poritum patris est principium quo 
-      <lb ed="#V" n="36"/>generationis: ad productionem enim verbi perfectissimi concurrit non 
-      <lb ed="#V" n="37"/>solum potentia. sed etiam habitus perfectissimus illius obiecti. sapienia autem 
-      <lb ed="#V" n="38"/>est huiusmodi. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e174">
-      ¶ 4m priemabulum est. quod illa sapinia vt in prium 
-      ver<lb ed="#V" n="39" break="no"/>bi. est genita vt quo: quia quicquid habet verbum. est ei datum per 
-      ge<lb ed="#V" n="40" break="no"/>nerationem. vt habetur. 19. de tri. Item nulli dubium est quin sibi sit 
-      a<lb ed="#V" n="41" break="no"/>patre comnicata: sicut alia. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e183">
-      ¶ Istis praemissis dicunt aliquo 
-      <lb ed="#V" n="42"/>ad quaestionem quod illa propositione non est concedenda: licet enim Aug. 5. de 
-      <lb ed="#V" n="43"/>tri. eam dicat. tamen 3o eam retractat dicens. quod pater non est sapiens 
-      <lb ed="#V" n="44"/>sapientia quam genuit: probatio autem sua videtur talis: 
-      pa<lb ed="#V" n="45" break="no"/>ter idem est esse et sapere: sed pater non est essentia quam 
-      genu<lb ed="#V" n="46" break="no"/>it. ergo non sapit sapientia quam genuit.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e196">
-      ¶ Sed illud non vi 
-      <lb ed="#V" n="47"/>detur probabile quod tantus doctor in tam solemni libro: ita 
-      <lb ed="#V" n="48"/>mmediate sibi contradixerit. Idcirco ad euitandum istam 
-      contradictio<lb ed="#V" n="49" break="no"/>nem. pono 4or conclusiones.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e205">
-      ¶ Prima est. quod pater est sapiens 
-      sa<lb ed="#V" n="50" break="no"/>dientia ingenita in sensu compositionis: quia quicquid est in patre: 
-      <lb ed="#V" n="51"/>totum est ingenitum: vt in eo: cum secundum Aug. pater habeat omnia a 
-      <lb ed="#V" n="52"/>se.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e214">
-      ¶ 2a conclusio est. quod pater est sapiens sapientia genita in 
-      sensu<lb ed="#V" n="53" break="no"/>diuisionis: accipiendo genitum vt quo vel vt 
-      communi<lb ed="#V" n="54" break="no"/>catum: quia eadem numero sapientia qua filius sapit patet 
-      <lb ed="#V" n="55"/>sapit: sed sapientia qua sapit filius est genita. ergo etc. 
-      </p>
-            <p xml:id="FrMS88-e73552-d1e224">
-               <lb ed="#V" n="56"/>¶ 3a conclusio est. quod filius est sapies sapientia ingenita in 
-      sensu<lb ed="#V" n="57" break="no"/>diuisionis: quia eadem sapientia numero qua filius 
-      sapit<lb ed="#V" n="58" break="no"/>et pater. pater autem sapit sapientia ingenita. ergo 
-      sapien<lb ed="#V" n="59" break="no"/>tia filii est illa que est ingenita.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e235">
-      ¶ 4a conclusio est. quod filius est 
-      sa<lb ed="#V" n="60" break="no"/>piens sapientia genita in sensu compositionis: quia quicquid est in 
-      <lb ed="#V" n="61"/>verbo vt est in eo qui est sensus compositionis. est per generatio 
-      <lb ed="#V" n="62"/>nem comnicatum: et omne tale est genitum vt quo. cum generatio ad 
-      <lb ed="#V" n="63"/>omnia que sunt in verbo terminetur primario vel secundario. 
-      </p>
-            <p xml:id="FrMS88-e73552-d1e246">
-               <lb ed="#V" n="64"/>¶ Contra istas conclusiones instatur quadrupliciter. Primo sic. quia si 
-      <lb ed="#V" n="65"/>sapientia vt in patre est ingenita: cum pater non sit formaliter 
-      <lb ed="#V" n="66"/>sapiens nisi sapientia: que est in eo formaliter: ergo numn¬ 
-      <!--201.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>quam erit sapiens nisi sapientia ingenita.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e262">
-      ¶ 2o sic. quia 
-      ge<lb ed="#V" n="68" break="no"/>nitum et ingenitum sunt extrema contradictionis: aut saltem 
-      <lb ed="#V" n="69"/>non genitum: sed talia eidem simul conuenire non possunt. vt scilicet 
-      <lb ed="#V" n="70"/>piter fit simul sapiens sapientia genita et ingenita.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e271">
-      ¶ 3o sic. 
-      <lb ed="#V" n="71"/>Nam si filius esset sapiens sapientia ingenita: esset sapiens 
-      sapi<lb ed="#V" n="72" break="no"/>entia per generationem non comunicata: et sic esset sapiens a se. 
-      contra<lb ed="#V" n="73" break="no"/>Auguins vbi. supra.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e280">
-      ¶ 4o sic. quia si filius non est sapiens nisi pro 
-      il<lb ed="#V" n="74" break="no"/>lo signo originis pro quo est cum sapere presupponat 
-      <lb ed="#V" n="75"/>esse. pro illo autem signo pro qui filius est: est sapientia eius 
-      ge<lb ed="#V" n="76" break="no"/>nita: sicut pro illo signo pro quo pater praecedit est ingenita: ergo 
-      <lb ed="#V" n="77"/>filius non erit sapiens nisi sapientia genita: nec pater nisi 
-      <lb ed="#V" n="78"/>genita.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e294">
-      ¶ Ad primum dico quod nunquam pater est sapiens nisi 
-      sa<lb ed="#V" n="79" break="no"/>pientia ingenita. sed illa eadem in filio est genita. Et quando 
-      di<lb ed="#V" n="80" break="no"/>citur quod non est sapiens nisi sapientia: vt est in eo formaliter. 
-      <lb ed="#V" n="81"/>illud est verum: quia illa reduplicatio est nota sensus 
-      com<lb ed="#V" n="82" break="no"/>positionis qui conceditur esse verus: tamen in sensu diuisionis ipse est 
-      <lb ed="#V" n="83"/>sapiens illa sapientia que est in alio formaliter: sicut 
-      cor<lb ed="#V" n="84" break="no"/>pus christi in pixide vulneratur simpliciter. quia idem est cum eo: 
-      <lb ed="#V" n="85"/>quod vulneratur in cruce: non tamen vt in pxide.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e312">
-      ¶ Ad 2m dico 
-      <lb ed="#V" n="86"/>quod esse genitum vno modo et ingenitum alio modo non 
-      contra<lb ed="#V" n="87" break="no"/>dicunt: sicut hic in sensu compositionis ingenitum: et in 
-      sensu<lb ed="#V" n="88" break="no"/>diuisionis genitum: sicut possibile est ridentem flere in 
-      sensu<lb ed="#V" n="89" break="no"/>diuisionis: et impossibile est in sensu compositionis.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e323">
-      ¶ Ad 3m 
-      di<lb ed="#V" n="90" break="no"/>to. quod filius non est sapiens nisi a patre. et propter hoc non est 
-      <lb ed="#V" n="91"/>sapiens nisi sapientia genita in sensu compositionis 
-      intelli<lb ed="#V" n="92" break="no"/>gendo. non autem est sapiens sapientia ingenita nisi in sensu 
-      di<lb ed="#V" n="93" break="no"/>uisionis: sicut patet de corpore christi.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e334">
-      ¶ Ad 4m dico. quod 
-      <lb ed="#V" n="94"/>pro illo signo pro quo filius est sapiens: sapientia illa est 
-      <lb ed="#V" n="95"/>genita: et hoc in sensu compositionis: sed eadem pro alio 
-      si<lb ed="#V" n="96" break="no"/>gno fuit ingenita: et illud est in sensu diuisionis filium 
-      <lb ed="#V" n="97"/>esse sapientem sapientia ingenita scilicet illa sapientia que est 
-      <lb ed="#V" n="98"/>de se ingenita: aut saltem in patre. 
-      <lb ed="#V" n="99"/>sunt alique difficultates. Prima est quid 
-      intelligi<lb ed="#V" n="100" break="no"/>Sed hic mus in proposito per sensum compositionis et 
-      diui<lb ed="#V" n="101" break="no"/>sionis. Dico quod sicut album potest esse nigrum in sensu 
-      diuisio<lb ed="#V" n="102" break="no"/>nis: quia subiectum quod est album potest transire ad nigredinem: 
-      <lb ed="#V" n="103"/>non tamen in sensu compositionis: quia tunc contraria simul essent. ita 
-      <lb ed="#V" n="104"/>pater est sapiens sapientia genita: quia sua sapientia qua est 
-      for<lb ed="#V" n="105" break="no"/>maliter sapiens: est alicubi genita. et non in sensu 
-      compos<lb ed="#V" n="106" break="no"/>tionis. quia tunc in eo esset sapientia cum generatione passiua. 
-      </p>
-            <p xml:id="FrMS88-e73552-d1e365">
-               <lb ed="#V" n="107"/>¶ 3a difficultas est. cum propositio que solum in sensu diuisionis 
-      <lb ed="#V" n="108"/>conceditur. simpliciter negatur: sicut cum dicitur: deus in celo punit 
-      <lb ed="#V" n="109"/>homines: quare Aug. concedit simpliciter. 5. de tri. quod pater est 
-      <lb ed="#V" n="110"/>sapiens sapientia genita: vel sapientia quam genuit: cum vt 
-      <lb ed="#V" n="111"/>dictum est. non verificetur nisi in sensu diuisionis.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e378">
-      ¶ 
-      Di<lb ed="#V" n="112" break="no"/>co quod Aug. intelligit sic. licet non ita expresserit. Unde 
-      proposi<lb ed="#V" n="113" break="no"/>tio non est simpliciter concedenda nisi cum determinatione est 
-      <lb ed="#V" n="114"/>dat intelligere sensum diuisionis scilicet pater est sapiens 
-      sapi<lb ed="#V" n="115" break="no"/>entia genita id est illa sapientia qua est formaliter sapiens 
-      pa<lb ed="#V" n="116" break="no"/>ter. est in filio genita.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e392">
-      ¶ 3a difficultas est. quomodo debeat solui ratio 
-      <lb ed="#V" n="117"/>Aug scilicet quod cum eodem pater sit et sapiat: et sic si sapiat 
-      sa<lb ed="#V" n="118" break="no"/>pientia genita erit essentia genita.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e399">
-      ¶ Dico quod vtraque est 
-      ve<lb ed="#V" n="119" break="no"/>ra in sensu diuisionis. sicut enim pater sapit sapientia quae 
-      <lb ed="#V" n="120"/>est genita: non tamen verbo vel sapientia genita inquantum 
-      ge<lb ed="#V" n="121" break="no"/>nita. quia ibi est sensus compositionis: sic pater habet esse 
-      essen<lb ed="#V" n="122" break="no"/>tia quae est comunicata filio: non tamen habet esse per filium: vel illa est 
-      <lb ed="#V" n="123"/>sentia inquantum est comunicata. veruntamen vna est plus 
-      ve<lb ed="#V" n="124" break="no"/>rificabilis quam alia propter appropriationem.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e415">
-      ¶ 4a difficultas est. si 
-      <lb ed="#V" n="125"/>spiritussanctus habet esse sapiens sapientia genita. Dico 
-      <lb ed="#V" n="126"/>quod in sensu diuisionis sic: quia sapientia qua formaliter est 
-      <lb ed="#V" n="127"/>sapiens: est illa que est genita: tamen in sensu 
-      compositio<lb ed="#V" n="128" break="no"/>nis non: sed potius sapientia spirata.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e426">
-      ¶ Sed adhuc 
-      re<lb ed="#V" n="129" break="no"/>manent due difficultates prima est si deus est sapiens sapientia 
-      <lb ed="#V" n="130"/>creata in sensu diuisionis. Potest dici quod non. quia illa 
-      sa<lb ed="#V" n="131" break="no"/>pientia qua deus est sapiens non est in creatura.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e435">
-      ¶ 
-      Con<lb ed="#V" n="132" break="no"/>tra. Nam ratio formalis sapientie est vna in deo et in 
-      <!--202.xml-->
-      <pb ed="#V" n="100-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>creatura: et sic ratio formalis qua deus est sapiens erit 
-      crea<lb ed="#V" n="2" break="no"/>ta.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e451">
-      ¶ Potest dici quod accipiendo rationem formalem sub illa 
-      <lb ed="#V" n="3"/>precisione qua est vna in deo et in creatura non creatur. 
-      </p>
-            <p xml:id="FrMS88-e73552-d1e457">
-               <lb ed="#V" n="4"/>¶ Sed est ne ratio formalis quae deus est sapiens in creatura. 
-      <lb ed="#V" n="5"/>Dico quod non esset magnum inconueniens dicere quod sic: sed in 
-      <lb ed="#V" n="6"/>conueniens esset dicere quod illa eadem omnimoda vnitate: 
-      si<lb ed="#V" n="7" break="no"/>cut est in patre et filio: quia vnitate numerali et cum 
-      heceita<lb ed="#V" n="8" break="no"/>te: sed non sic in deo et creatura.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e470">
-      ¶ 2a difficultas est de 
-      implica<lb ed="#V" n="9" break="no"/>tione qua est in propositione: quia non videtur quod plus posset dici 
-      sapi<lb ed="#V" n="10" break="no"/>entia genita quam essentia. Dico quod hoc faciunt duo scilicet non 
-      equi<lb ed="#V" n="11" break="no"/>lis abstractio essentie et sapientie: et inequalis 
-      appro<lb ed="#V" n="12" break="no"/>priatio.
-    </p>
-            <p xml:id="FrMS88-e73552-d1e481">
-      ¶ Ad argumentum in principio patet. quia verum est in 
-      sen<lb ed="#V" n="13" break="no"/>su diuisionis etc. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="99-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e73552"><!-- l1d32q4 -->
+        <head xml:id="FrMS88-e73552-Hd1e108">Quaestio 4</head>
+        <p xml:id="FrMS88-e73552-d1e111">
+          Quaestio. iiii. 
+          <lb ed="#V" n="16"/>pater sit sapiens sapientia geni 
+          <lb ed="#V" n="17"/>Trum ta. quod sic. Aug videtur dicere. 5. de 
+          <lb ed="#V" n="18"/>tri scilicet quod pater est sapiens sapientia quam 
+          ge<lb ed="#V" n="19" break="no"/>nuit.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e122">
+          ¶ Contra. Idem Aug. 5. eiusdem libri 
+          <lb ed="#V" n="20"/>dicit expresse. quod non sit verum 
+          <lb ed="#V" n="21"/>praemittuntur 4or praeabula. Primum est. quod pater et filius 
+          <lb ed="#V" n="22"/>Hic sapiunt eadem penitus sapietia. quia sicut in patre et filie 
+          <lb ed="#V" n="23"/>est eadem essentia: ita in patre et filio est eadem penitus sapia quae sunt 
+          <lb ed="#V" n="24"/>sapientes.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e135">
+          ¶ 2o. quia si alia sapienia esset patris et alia filii: tunc 
+          <lb ed="#V" n="25"/>neutra diceret perfectionem simpliciter: quia non esset in supposito 
+          <lb ed="#V" n="26"/>perfectissimo. vel si diceret: tunc supposito perfectissimo 
+          ali<lb ed="#V" n="27" break="no"/>qua perfectio simpliciter deficeret.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e144">
+          ¶ 2m praemabulum est quod 
+          acci<lb ed="#V" n="28" break="no"/>piendo sapientiam illam secundum se. qua vtraque perum est sapiens. et 
+          <lb ed="#V" n="29"/>etiam tota trinitas: ipsa est ingenita. quia illud quod 
+          praeueni<lb ed="#V" n="30" break="no"/>actum generandi in divinis est ingenitum: sapia autem cum sit 
+          perfectio<lb ed="#V" n="31" break="no"/>essentialis: praeuenit generationem actiuam: quae est proprietas personalis. 
+          <lb ed="#V" n="32"/>eo modo quo personalia praeueniuntur ab esentialibus secundum 
+          Dio<lb ed="#V" n="33" break="no"/>in. c. de vnica et discreta theologia. Item omne genitum est 
+          <lb ed="#V" n="34"/>realiter a generante distinctum: sed sapia est indistincta a patre 
+          <lb ed="#V" n="35"/>ergo etc.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e165">
+          ¶ 3m praemabulum est. quod sapinta vt in poritum patris est principium quo 
+          <lb ed="#V" n="36"/>generationis: ad productionem enim verbi perfectissimi concurrit non 
+          <lb ed="#V" n="37"/>solum potentia. sed etiam habitus perfectissimus illius obiecti. sapienia autem 
+          <lb ed="#V" n="38"/>est huiusmodi. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e174">
+          ¶ 4m priemabulum est. quod illa sapinia vt in prium 
+          ver<lb ed="#V" n="39" break="no"/>bi. est genita vt quo: quia quicquid habet verbum. est ei datum per 
+          ge<lb ed="#V" n="40" break="no"/>nerationem. vt habetur. 19. de tri. Item nulli dubium est quin sibi sit 
+          a<lb ed="#V" n="41" break="no"/>patre comnicata: sicut alia. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e183">
+          ¶ Istis praemissis dicunt aliquo 
+          <lb ed="#V" n="42"/>ad quaestionem quod illa propositione non est concedenda: licet enim Aug. 5. de 
+          <lb ed="#V" n="43"/>tri. eam dicat. tamen 3o eam retractat dicens. quod pater non est sapiens 
+          <lb ed="#V" n="44"/>sapientia quam genuit: probatio autem sua videtur talis: 
+          pa<lb ed="#V" n="45" break="no"/>ter idem est esse et sapere: sed pater non est essentia quam 
+          genu<lb ed="#V" n="46" break="no"/>it. ergo non sapit sapientia quam genuit.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e196">
+          ¶ Sed illud non vi 
+          <lb ed="#V" n="47"/>detur probabile quod tantus doctor in tam solemni libro: ita 
+          <lb ed="#V" n="48"/>mmediate sibi contradixerit. Idcirco ad euitandum istam 
+          contradictio<lb ed="#V" n="49" break="no"/>nem. pono 4or conclusiones.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e205">
+          ¶ Prima est. quod pater est sapiens 
+          sa<lb ed="#V" n="50" break="no"/>dientia ingenita in sensu compositionis: quia quicquid est in patre: 
+          <lb ed="#V" n="51"/>totum est ingenitum: vt in eo: cum secundum Aug. pater habeat omnia a 
+          <lb ed="#V" n="52"/>se.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e214">
+          ¶ 2a conclusio est. quod pater est sapiens sapientia genita in 
+          sensu<lb ed="#V" n="53" break="no"/>diuisionis: accipiendo genitum vt quo vel vt 
+          communi<lb ed="#V" n="54" break="no"/>catum: quia eadem numero sapientia qua filius sapit patet 
+          <lb ed="#V" n="55"/>sapit: sed sapientia qua sapit filius est genita. ergo etc. 
+        </p>
+        <p xml:id="FrMS88-e73552-d1e224">
+          <lb ed="#V" n="56"/>¶ 3a conclusio est. quod filius est sapies sapientia ingenita in 
+          sensu<lb ed="#V" n="57" break="no"/>diuisionis: quia eadem sapientia numero qua filius 
+          sapit<lb ed="#V" n="58" break="no"/>et pater. pater autem sapit sapientia ingenita. ergo 
+          sapien<lb ed="#V" n="59" break="no"/>tia filii est illa que est ingenita.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e235">
+          ¶ 4a conclusio est. quod filius est 
+          sa<lb ed="#V" n="60" break="no"/>piens sapientia genita in sensu compositionis: quia quicquid est in 
+          <lb ed="#V" n="61"/>verbo vt est in eo qui est sensus compositionis. est per generatio 
+          <lb ed="#V" n="62"/>nem comnicatum: et omne tale est genitum vt quo. cum generatio ad 
+          <lb ed="#V" n="63"/>omnia que sunt in verbo terminetur primario vel secundario. 
+        </p>
+        <p xml:id="FrMS88-e73552-d1e246">
+          <lb ed="#V" n="64"/>¶ Contra istas conclusiones instatur quadrupliciter. Primo sic. quia si 
+          <lb ed="#V" n="65"/>sapientia vt in patre est ingenita: cum pater non sit formaliter 
+          <lb ed="#V" n="66"/>sapiens nisi sapientia: que est in eo formaliter: ergo numn¬ 
+          <!--201.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>quam erit sapiens nisi sapientia ingenita.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e262">
+          ¶ 2o sic. quia 
+          ge<lb ed="#V" n="68" break="no"/>nitum et ingenitum sunt extrema contradictionis: aut saltem 
+          <lb ed="#V" n="69"/>non genitum: sed talia eidem simul conuenire non possunt. vt scilicet 
+          <lb ed="#V" n="70"/>piter fit simul sapiens sapientia genita et ingenita.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e271">
+          ¶ 3o sic. 
+          <lb ed="#V" n="71"/>Nam si filius esset sapiens sapientia ingenita: esset sapiens 
+          sapi<lb ed="#V" n="72" break="no"/>entia per generationem non comunicata: et sic esset sapiens a se. 
+          contra<lb ed="#V" n="73" break="no"/>Auguins vbi. supra.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e280">
+          ¶ 4o sic. quia si filius non est sapiens nisi pro 
+          il<lb ed="#V" n="74" break="no"/>lo signo originis pro quo est cum sapere presupponat 
+          <lb ed="#V" n="75"/>esse. pro illo autem signo pro qui filius est: est sapientia eius 
+          ge<lb ed="#V" n="76" break="no"/>nita: sicut pro illo signo pro quo pater praecedit est ingenita: ergo 
+          <lb ed="#V" n="77"/>filius non erit sapiens nisi sapientia genita: nec pater nisi 
+          <lb ed="#V" n="78"/>genita.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e294">
+          ¶ Ad primum dico quod nunquam pater est sapiens nisi 
+          sa<lb ed="#V" n="79" break="no"/>pientia ingenita. sed illa eadem in filio est genita. Et quando 
+          di<lb ed="#V" n="80" break="no"/>citur quod non est sapiens nisi sapientia: vt est in eo formaliter. 
+          <lb ed="#V" n="81"/>illud est verum: quia illa reduplicatio est nota sensus 
+          com<lb ed="#V" n="82" break="no"/>positionis qui conceditur esse verus: tamen in sensu diuisionis ipse est 
+          <lb ed="#V" n="83"/>sapiens illa sapientia que est in alio formaliter: sicut 
+          cor<lb ed="#V" n="84" break="no"/>pus christi in pixide vulneratur simpliciter. quia idem est cum eo: 
+          <lb ed="#V" n="85"/>quod vulneratur in cruce: non tamen vt in pxide.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e312">
+          ¶ Ad 2m dico 
+          <lb ed="#V" n="86"/>quod esse genitum vno modo et ingenitum alio modo non 
+          contra<lb ed="#V" n="87" break="no"/>dicunt: sicut hic in sensu compositionis ingenitum: et in 
+          sensu<lb ed="#V" n="88" break="no"/>diuisionis genitum: sicut possibile est ridentem flere in 
+          sensu<lb ed="#V" n="89" break="no"/>diuisionis: et impossibile est in sensu compositionis.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e323">
+          ¶ Ad 3m 
+          di<lb ed="#V" n="90" break="no"/>to. quod filius non est sapiens nisi a patre. et propter hoc non est 
+          <lb ed="#V" n="91"/>sapiens nisi sapientia genita in sensu compositionis 
+          intelli<lb ed="#V" n="92" break="no"/>gendo. non autem est sapiens sapientia ingenita nisi in sensu 
+          di<lb ed="#V" n="93" break="no"/>uisionis: sicut patet de corpore christi.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e334">
+          ¶ Ad 4m dico. quod 
+          <lb ed="#V" n="94"/>pro illo signo pro quo filius est sapiens: sapientia illa est 
+          <lb ed="#V" n="95"/>genita: et hoc in sensu compositionis: sed eadem pro alio 
+          si<lb ed="#V" n="96" break="no"/>gno fuit ingenita: et illud est in sensu diuisionis filium 
+          <lb ed="#V" n="97"/>esse sapientem sapientia ingenita scilicet illa sapientia que est 
+          <lb ed="#V" n="98"/>de se ingenita: aut saltem in patre. 
+          <lb ed="#V" n="99"/>sunt alique difficultates. Prima est quid 
+          intelligi<lb ed="#V" n="100" break="no"/>Sed hic mus in proposito per sensum compositionis et 
+          diui<lb ed="#V" n="101" break="no"/>sionis. Dico quod sicut album potest esse nigrum in sensu 
+          diuisio<lb ed="#V" n="102" break="no"/>nis: quia subiectum quod est album potest transire ad nigredinem: 
+          <lb ed="#V" n="103"/>non tamen in sensu compositionis: quia tunc contraria simul essent. ita 
+          <lb ed="#V" n="104"/>pater est sapiens sapientia genita: quia sua sapientia qua est 
+          for<lb ed="#V" n="105" break="no"/>maliter sapiens: est alicubi genita. et non in sensu 
+          compos<lb ed="#V" n="106" break="no"/>tionis. quia tunc in eo esset sapientia cum generatione passiua. 
+        </p>
+        <p xml:id="FrMS88-e73552-d1e365">
+          <lb ed="#V" n="107"/>¶ 3a difficultas est. cum propositio que solum in sensu diuisionis 
+          <lb ed="#V" n="108"/>conceditur. simpliciter negatur: sicut cum dicitur: deus in celo punit 
+          <lb ed="#V" n="109"/>homines: quare Aug. concedit simpliciter. 5. de tri. quod pater est 
+          <lb ed="#V" n="110"/>sapiens sapientia genita: vel sapientia quam genuit: cum vt 
+          <lb ed="#V" n="111"/>dictum est. non verificetur nisi in sensu diuisionis.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e378">
+          ¶ 
+          Di<lb ed="#V" n="112" break="no"/>co quod Aug. intelligit sic. licet non ita expresserit. Unde 
+          proposi<lb ed="#V" n="113" break="no"/>tio non est simpliciter concedenda nisi cum determinatione est 
+          <lb ed="#V" n="114"/>dat intelligere sensum diuisionis scilicet pater est sapiens 
+          sapi<lb ed="#V" n="115" break="no"/>entia genita id est illa sapientia qua est formaliter sapiens 
+          pa<lb ed="#V" n="116" break="no"/>ter. est in filio genita.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e392">
+          ¶ 3a difficultas est. quomodo debeat solui ratio 
+          <lb ed="#V" n="117"/>Aug scilicet quod cum eodem pater sit et sapiat: et sic si sapiat 
+          sa<lb ed="#V" n="118" break="no"/>pientia genita erit essentia genita.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e399">
+          ¶ Dico quod vtraque est 
+          ve<lb ed="#V" n="119" break="no"/>ra in sensu diuisionis. sicut enim pater sapit sapientia quae 
+          <lb ed="#V" n="120"/>est genita: non tamen verbo vel sapientia genita inquantum 
+          ge<lb ed="#V" n="121" break="no"/>nita. quia ibi est sensus compositionis: sic pater habet esse 
+          essen<lb ed="#V" n="122" break="no"/>tia quae est comunicata filio: non tamen habet esse per filium: vel illa est 
+          <lb ed="#V" n="123"/>sentia inquantum est comunicata. veruntamen vna est plus 
+          ve<lb ed="#V" n="124" break="no"/>rificabilis quam alia propter appropriationem.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e415">
+          ¶ 4a difficultas est. si 
+          <lb ed="#V" n="125"/>spiritussanctus habet esse sapiens sapientia genita. Dico 
+          <lb ed="#V" n="126"/>quod in sensu diuisionis sic: quia sapientia qua formaliter est 
+          <lb ed="#V" n="127"/>sapiens: est illa que est genita: tamen in sensu 
+          compositio<lb ed="#V" n="128" break="no"/>nis non: sed potius sapientia spirata.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e426">
+          ¶ Sed adhuc 
+          re<lb ed="#V" n="129" break="no"/>manent due difficultates prima est si deus est sapiens sapientia 
+          <lb ed="#V" n="130"/>creata in sensu diuisionis. Potest dici quod non. quia illa 
+          sa<lb ed="#V" n="131" break="no"/>pientia qua deus est sapiens non est in creatura.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e435">
+          ¶ 
+          Con<lb ed="#V" n="132" break="no"/>tra. Nam ratio formalis sapientie est vna in deo et in 
+          <!--202.xml-->
+          <pb ed="#V" n="100-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>creatura: et sic ratio formalis qua deus est sapiens erit 
+          crea<lb ed="#V" n="2" break="no"/>ta.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e451">
+          ¶ Potest dici quod accipiendo rationem formalem sub illa 
+          <lb ed="#V" n="3"/>precisione qua est vna in deo et in creatura non creatur. 
+        </p>
+        <p xml:id="FrMS88-e73552-d1e457">
+          <lb ed="#V" n="4"/>¶ Sed est ne ratio formalis quae deus est sapiens in creatura. 
+          <lb ed="#V" n="5"/>Dico quod non esset magnum inconueniens dicere quod sic: sed in 
+          <lb ed="#V" n="6"/>conueniens esset dicere quod illa eadem omnimoda vnitate: 
+          si<lb ed="#V" n="7" break="no"/>cut est in patre et filio: quia vnitate numerali et cum 
+          heceita<lb ed="#V" n="8" break="no"/>te: sed non sic in deo et creatura.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e470">
+          ¶ 2a difficultas est de 
+          implica<lb ed="#V" n="9" break="no"/>tione qua est in propositione: quia non videtur quod plus posset dici 
+          sapi<lb ed="#V" n="10" break="no"/>entia genita quam essentia. Dico quod hoc faciunt duo scilicet non 
+          equi<lb ed="#V" n="11" break="no"/>lis abstractio essentie et sapientie: et inequalis 
+          appro<lb ed="#V" n="12" break="no"/>priatio.
+        </p>
+        <p xml:id="FrMS88-e73552-d1e481">
+          ¶ Ad argumentum in principio patet. quia verum est in 
+          sen<lb ed="#V" n="13" break="no"/>su diuisionis etc. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

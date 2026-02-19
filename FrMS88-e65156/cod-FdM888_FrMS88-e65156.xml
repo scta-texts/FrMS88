@@ -1,277 +1,277 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="88-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e65156"><!-- l1d28q2 -->
-            <head xml:id="FrMS88-e65156-Hd1e108">Quaestio 2</head>
-            <p xml:id="FrMS88-e65156-d1e111">
-      Quaestio. ii. 
-      <lb ed="#V" n="32"/>ingenitum et innascibile sint 
-      <lb ed="#V" n="33"/>Tum proprietates patris constitutiue 
-      <lb ed="#V" n="34"/>quod sic. Omne quod dat esse incommunicabile constituit: 
-      <lb ed="#V" n="35"/>sed iste priuationes dant esse incommunicabile. 
-      <lb ed="#V" n="36"/>ergo etc.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e124">
-      ¶ Contra. Quod non est ens non 
-      <lb ed="#V" n="37"/>constituit ens: sed hec non sunt entia. ergo etc. 
-      <lb ed="#V" n="38"/>vna opio que 
-      di<lb ed="#V" n="39" break="no"/>hic introducitur cit quod sic. quia 
-      proprie<lb ed="#V" n="40" break="no"/>tas incommunicabilis quae prie aduenit prie supposito ipsum constituit: 
-      <lb ed="#V" n="41"/>sed innascibilitas est huiusmodi. ergo etc. Mi. patet. quia omne quod est 
-      ad<lb ed="#V" n="42" break="no"/>aliud prius est aliquid ad sequem sit ad aliud. iungenitum autem est 
-      <lb ed="#V" n="43"/>ad se. hanc opionem confirmo 4r. Primo sic. Illud cui non 
-      <lb ed="#V" n="44"/>repugnat esse sine altero: et alteri repugnat esse sine illo 
-      <lb ed="#V" n="45"/>illud est prius: sed ingenito non repugnat esse sine 
-      paternita<lb ed="#V" n="46" break="no"/>te: tamen paternitati repugnat esse sine ingenito. ergo ingenitum est 
-      pri<lb ed="#V" n="47" break="no"/>us. Minor patet. quia essentia in illo priori pro quo praecedit 
-      pa<lb ed="#V" n="48" break="no"/>trem est ingenita.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e153">
-      ¶ 2o quando aliquid indifferens est ad 
-      oppo<lb ed="#V" n="49" break="no"/>sita contradictorie et contrarie. prius est indifferens ad opposita 
-      contra<lb ed="#V" n="50" break="no"/>dictorie quam contrarie: sed essentia est indifferens ad generare et genera 
-      <lb ed="#V" n="51"/>ri quae sunt contraria. et ad genitum et ingenitum quae sunt contradictoria 
-      <lb ed="#V" n="52"/>ergo prior est habitudo ad ista. et per consequens ingenitum est prima proprietas 
-      <lb ed="#V" n="53"/>simpliciter.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e166">
-      ¶ 3o. Quando aliquid comparatur ad prius et posterius. prior 
-      <lb ed="#V" n="54"/>est habitudo sui ad prius quam habitudo ad posterius: sed pater per hoc 
-      <lb ed="#V" n="55"/>quod est genitor comparatur ad posterius. per hoc autem 
-      <lb ed="#V" n="56"/>quod est ingenitum comparatur ad prius scilicet ad generans quod non est 
-      <lb ed="#V" n="57"/>ergo ingenitum prius est generatione.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e178">
-      ¶ 4o sic. Quando priuatio 
-      <lb ed="#V" n="58"/>inest alicui pro illo signo sibi inest pro quo habitus sibi 
-      op<lb ed="#V" n="59" break="no"/>positus aptus natus est ibi inesse: sed si pater generaretur prius 
-      <lb ed="#V" n="60"/>inesset sibi generatio passiua quam actiua. ergo negatio gnatinis 
-      <lb ed="#V" n="61"/>passiue prius inest quam generatio passiua. De ratione autem proprie 
-      <lb ed="#V" n="62"/>tatis primo incommunicabilis est constituere. ergo ingenitum constituit 
-      </p>
-            <p xml:id="FrMS88-e65156-d1e191">
-               <lb ed="#V" n="63"/>¶ Sed contra istam opinionem arguo. 4r Primo sic. Persona 
-      relati<lb ed="#V" n="64" break="no"/>ua non potest formaliter constitui per illud quod est ad se: sed 
-      ingeni<lb ed="#V" n="65" break="no"/>tum secundum Aug. 5. de tri. dicitur ad se. pater autem est persona relatiua 
-      <lb ed="#V" n="66"/>ergo non constituitur per ingenitum.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e202">
-      ¶ 2o. Nullum positiuum 
-      <lb ed="#V" n="67"/>suppositum constituitur ex negatiuo vel priuatiuo: quia tunc 
-      <!--179.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="68"/>totum esset priuatiuum: sed supposita diuina sunt positiua. 
-      </p>
-            <p xml:id="FrMS88-e65156-d1e213">
-               <lb ed="#V" n="69"/>¶ 3o. Nullum suppositum reale potest constitui ex eo quod 
-      <lb ed="#V" n="70"/>non est reale. suppositum diuinum est reale. priuatio 
-      au<lb ed="#V" n="71" break="no"/>tem non est res. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e222">
-      ¶ 4o. Illud quod non habet esse non potest 
-      <lb ed="#V" n="72"/>dare esse: sed priuatio: cum sic quedam negatio est huiusmodi 
-      <lb ed="#V" n="73"/>quod ingenitum non constituit patrem. 
-      <lb ed="#V" n="74"/>Oico ergo
-    </p>
-            <p xml:id="FrMS88-e65156-d1e231">
-      ¶ Quod confirmatur 4r. Primo sic. Omnia 
-      <lb ed="#V" n="75"/>distinctio aliquorum fundatur in principiis distinctis 
-      <lb ed="#V" n="76"/>eorum: cum ergo eadem sint principia constitutiua et 
-      di<lb ed="#V" n="77" break="no"/>stinctiua. si ingenitum constitueret ingenitum: esset 
-      funda<lb ed="#V" n="78" break="no"/>mentum distinctionis que est patris ad filium.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e243">
-      ¶ Tunc sic 
-      <lb ed="#V" n="79"/>Nullum reale positiuum potest fundari in priuatione vel 
-      ne<lb ed="#V" n="80" break="no"/>gatione: sed distinctio patris a filio est realis et positia 
-      <lb ed="#V" n="81"/>ua. ergo non potest fundari in ingenito: quod est priuatiuum 
-      <lb ed="#V" n="82"/>Vel da quod sic. Sequitur quod distinctio patris a filio non erit 
-      <lb ed="#V" n="83"/>realis nec positiua. hoc autem totum sequitur ex hoc quod 
-      in<lb ed="#V" n="84" break="no"/>genitum ponitur proprietas patris constitutiua. ergo hoc non 
-      <lb ed="#V" n="85"/>potest stare.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e261">
-      ¶ 2o illud quod constituit personam fundatur 
-      im<lb ed="#V" n="86" break="no"/>mediate in diuina essentia: sed innascibilitas non 
-      fun<lb ed="#V" n="87" break="no"/>datur immediate in diuina essentia. ergo non constituit. Ma 
-      <lb ed="#V" n="88"/>est manifesta. Minorem probo. Sicut aptitudo 
-      natura<lb ed="#V" n="89" break="no"/>lis: est per se passio illius cui conuenit. vt patet ex 
-      supradi<lb ed="#V" n="90" break="no"/>ctis: ita repugnantia naturalis est per se passio illius cui conuenit 
-      <lb ed="#V" n="91"/>Sicut enim risibilitas est per se passio hominis: ita 
-      repugnan<lb ed="#V" n="92" break="no"/>tia ad ridere scilicet irrisibilitas est per se passio asim. cum 
-      <lb ed="#V" n="93"/>ergo esse generabile sit aptitudo naturalis. et per consequens propria 
-      <lb ed="#V" n="94"/>passio eius cui conuenit. sic repugnantia ad generari: 
-      quan<lb ed="#V" n="95" break="no"/>intelligo per innascibilitatem erit propria passio illius 
-      <lb ed="#V" n="96"/>cui conuenit primo: sed si ingenitum vel innascibile 
-      com<lb ed="#V" n="97" break="no"/>stituat ipsum primo conuenit essentie diuine. ergo ingenitum et 
-      inna<lb ed="#V" n="98" break="no"/>scibile erunt propria passio essentie diuine.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e292">
-      ¶ Tunc sic. 
-      <lb ed="#V" n="99"/>Ubicumque est innuenire obiectum est innuenire propriam 
-      pas<lb ed="#V" n="100" break="no"/>sionem: sed in filio est innuenire essentiam. ergo in filio erit 
-      <lb ed="#V" n="101"/>reperire innascibilitatem: et sic proprietas constitutiua prime 
-      <lb ed="#V" n="102"/>dersone esset formaliter in tribus: quod videtur 
-      incon<lb ed="#V" n="103" break="no"/>ueniens.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e305">
-      ¶ 3o arguo sicut arguit doctor noster. Nulla 
-      <lb ed="#V" n="104"/>negatio est primo incommunicabilis: sed formale constitutiuum 
-      <lb ed="#V" n="105"/>paratris est incommunicabile primo. ergo ingenitum non est 
-      forma<lb ed="#V" n="106" break="no"/>le constitutiuum. Ma. patet. Si enim negatio esset 
-      incom<lb ed="#V" n="107" break="no"/>municabilis: quandocumque fundamentum comunicaretur: sequitur 
-      contradi<lb ed="#V" n="108" break="no"/>ctio scilicet quod in eondem fundamento essent affirmatio et 
-      nega<lb ed="#V" n="109" break="no"/>tio. Nam primo est fundamentum cum negatione. 
-      nega<lb ed="#V" n="110" break="no"/>tio autem ponitur incommunicabilis. fundamentum autem 
-      <lb ed="#V" n="111"/>communicabile. ergo erit fundamentum sine negatione. et per 
-      <lb ed="#V" n="112"/>consequens cum negatione et affirmatione. et sic contradictio. 
-      <lb ed="#V" n="113"/>Innascibilitas autem fundatur immediate in essentia que est 
-      <lb ed="#V" n="114"/>communicabilis: posito quod ipsa sit constitutiua: et per consequens 
-      essentia<lb ed="#V" n="115" break="no"/>est incommunicabilis: sicut ipsa innascibilitas est 
-      incommunicabi<lb ed="#V" n="116" break="no"/>lis. vel si non. essentia erit cum affirmatione et negatione. 
-      </p>
-            <p xml:id="FrMS88-e65156-d1e336">
-               <lb ed="#V" n="117"/>¶ Dico ergo quod innascibilitas non potest esse proprietas 
-      con<lb ed="#V" n="118" break="no"/>stitutiua prime persone: quia nullo modo potest esse proprietas 
-      <lb ed="#V" n="119"/>prima.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e345">
-      ¶ Sed contra. Essentia diuina persone patris non conicatur 
-      <lb ed="#V" n="120"/>diuina essentia persone filii comunicatur ergo idem est communicabile et 
-      incon<lb ed="#V" n="121" break="no"/>municabile. et sic oppositia priuatiue dicuntur de essentia.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e353">
-      ¶ 2 
-      <lb ed="#V" n="122"/>Quia essentia diuina in persona patris est principium productiuum 
-      di<lb ed="#V" n="123" break="no"/>uine persone. in persona spussancti non. ergo affirmatio et 
-      nega<lb ed="#V" n="124" break="no"/>tio de eodem.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e362">
-      ¶ Ad ista.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e365">
-      ¶ Ad primum dico quod non communicar 
-      <lb ed="#V" n="125"/>non conuenit diuine essentie immediate: sed mediante primi 
-      <lb ed="#V" n="126"/>tate originis in qua fundatur ista incomunicabilitas. et ideo quando 
-      <lb ed="#V" n="127"/>dico essentia vt in patre. accipio eam cum praemitate origis: qui is 
-      <lb ed="#V" n="128"/>fundamentum istius negationis. quando autem dico essentia vt in 
-      fi<lb ed="#V" n="129" break="no"/>lio accipio eam sine fundamento. et ideo affirmatio et 
-      neg<lb ed="#V" n="130" break="no"/>non dicuntur immediate de eodem: sed mediante alio.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e381">
-      ¶ Ad 2m 
-      <lb ed="#V" n="131"/>eodem modo. Nam esse principium productionis conuenit essentie vt sub 
-      pram<lb ed="#V" n="132" break="no"/>mitate orgis. in spiritusan. autem non est sub ista praemitate: et ideo 
-      <lb ed="#V" n="133"/>non concludit distinctionem essentie: sed praemitatis orginis ab 
-      <!--180.xml-->
-      <pb ed="#V" n="89-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>alio significa.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e399">
-      ¶ Ad arictu alterius opionis.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e402">
-      ¶ Ad primum dico quod 
-      <lb ed="#V" n="2"/>Aug. vocat ibi: ad se: omne illud quod non est positiue ad 
-      ali<lb ed="#V" n="3" break="no"/>ad et quia ingenitum non sic est ad aliud scilicet positiue. dicit quod est ad 
-      <lb ed="#V" n="4"/>se: tame videtur expraesse concedere quod non exit genus relationis.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e412">
-      ¶ Ad  
-      <lb ed="#V" n="5"/>2m dico quod bene probat quod ingenitum improprie accipiendo percedit 
-      <lb ed="#V" n="6"/>paferem: sed tamen illud conuenit essentie et illud non est 
-      incomica<lb ed="#V" n="7" break="no"/>bile. Sed accipiendo proprie ingenitum: sicut supra dictum est. illud 
-      <lb ed="#V" n="8"/>est proprium patri et sequitur paternitatem. illud enim est incomunicabile: sed quia 
-      <lb ed="#V" n="9"/>undatur in praemitate origis quae praesupponit patrem. hic est quod 
-      <lb ed="#V" n="10"/>non constituit. et de tali dico quod impossibile est esse fine patre: licet 
-      ingeni<lb ed="#V" n="11" break="no"/>tum quod conuenit essentie possit.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e430">
-      ¶ Ad 3m dico quod 2 desicut. 
-      Pri<lb ed="#V" n="12" break="no"/>mo quia non est simile de positiuis et negatiuis. Negatiua enim 
-      <lb ed="#V" n="13"/>non possunt esse de intrinseco intellectu alicuius positiui. Positiua 
-      <lb ed="#V" n="14"/>autem sic. et ideo licet si pater esset ab alio respectus ad prius praecederet 
-      re<lb ed="#V" n="15" break="no"/>spectum qui respicit illud quod est ab eo: quia posset esse 
-      consti<lb ed="#V" n="16" break="no"/>tutiuum illius: negatus tamen respectus ad prius non: quia illa negatio non 
-      <lb ed="#V" n="17"/>potest esse constitutiua perum positiue.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e446">
-      ¶ 2o quia respectus ad prius: licet 
-      <lb ed="#V" n="18"/>ocedat respectum posteriorem et ad posterius: non tamen 
-      praecedi<lb ed="#V" n="19" break="no"/>respectu qui non est posterior: licet sit ad posterius scilicet illum 
-      <lb ed="#V" n="20"/>qui est constitutiuus: vnaquaeque enim res respict prius illa de primo modo 
-      <lb ed="#V" n="21"/>que illa quae sibi conueniunt per accidens. sicut homo prius intelligitur esse 
-      <lb ed="#V" n="22"/>animatus: quam intelligatur esse a deo: et deus prius intelligitur 
-      <lb ed="#V" n="23"/>ens: quam non creatiuus: pater ergo prius respicit respectum paternitati 
-      <lb ed="#V" n="24"/>quo constituitur quam ingenitum.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e464">
-      ¶ Ad 4m dico. quod habitudom 
-      <lb ed="#V" n="25"/>ad priora potest concedi prior quam habitudo ad posteriora. 
-      <lb ed="#V" n="26"/>si habitudo ad posteriora non constituit fundamentum 
-      <lb ed="#V" n="27"/>virtriusque: modo hic habitudo ad filium constituit: 
-      ha<lb ed="#V" n="28" break="no"/>duitudo autem ad prius non. ergo etc. Similiter dato quod esset 
-      ve<lb ed="#V" n="29" break="no"/>rum: adhuc tamen non haberet propositum: quia ingenitum non 
-      <lb ed="#V" n="30"/>est habitudo ad prius: sed negauo habitudinis ad prius: 
-      <lb ed="#V" n="31"/>et ideo non valet argumentum. nec probat quod 
-      ingeni<lb ed="#V" n="32" break="no"/>tum precedat paternitatem.
-    </p>
-            <p xml:id="FrMS88-e65156-d1e484">
-      ¶ Ad argumentum patet. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="88-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e65156"><!-- l1d28q2 -->
+        <head xml:id="FrMS88-e65156-Hd1e108">Quaestio 2</head>
+        <p xml:id="FrMS88-e65156-d1e111">
+          Quaestio. ii. 
+          <lb ed="#V" n="32"/>ingenitum et innascibile sint 
+          <lb ed="#V" n="33"/>Tum proprietates patris constitutiue 
+          <lb ed="#V" n="34"/>quod sic. Omne quod dat esse incommunicabile constituit: 
+          <lb ed="#V" n="35"/>sed iste priuationes dant esse incommunicabile. 
+          <lb ed="#V" n="36"/>ergo etc.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e124">
+          ¶ Contra. Quod non est ens non 
+          <lb ed="#V" n="37"/>constituit ens: sed hec non sunt entia. ergo etc. 
+          <lb ed="#V" n="38"/>vna opio que 
+          di<lb ed="#V" n="39" break="no"/>hic introducitur cit quod sic. quia 
+          proprie<lb ed="#V" n="40" break="no"/>tas incommunicabilis quae prie aduenit prie supposito ipsum constituit: 
+          <lb ed="#V" n="41"/>sed innascibilitas est huiusmodi. ergo etc. Mi. patet. quia omne quod est 
+          ad<lb ed="#V" n="42" break="no"/>aliud prius est aliquid ad sequem sit ad aliud. iungenitum autem est 
+          <lb ed="#V" n="43"/>ad se. hanc opionem confirmo 4r. Primo sic. Illud cui non 
+          <lb ed="#V" n="44"/>repugnat esse sine altero: et alteri repugnat esse sine illo 
+          <lb ed="#V" n="45"/>illud est prius: sed ingenito non repugnat esse sine 
+          paternita<lb ed="#V" n="46" break="no"/>te: tamen paternitati repugnat esse sine ingenito. ergo ingenitum est 
+          pri<lb ed="#V" n="47" break="no"/>us. Minor patet. quia essentia in illo priori pro quo praecedit 
+          pa<lb ed="#V" n="48" break="no"/>trem est ingenita.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e153">
+          ¶ 2o quando aliquid indifferens est ad 
+          oppo<lb ed="#V" n="49" break="no"/>sita contradictorie et contrarie. prius est indifferens ad opposita 
+          contra<lb ed="#V" n="50" break="no"/>dictorie quam contrarie: sed essentia est indifferens ad generare et genera 
+          <lb ed="#V" n="51"/>ri quae sunt contraria. et ad genitum et ingenitum quae sunt contradictoria 
+          <lb ed="#V" n="52"/>ergo prior est habitudo ad ista. et per consequens ingenitum est prima proprietas 
+          <lb ed="#V" n="53"/>simpliciter.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e166">
+          ¶ 3o. Quando aliquid comparatur ad prius et posterius. prior 
+          <lb ed="#V" n="54"/>est habitudo sui ad prius quam habitudo ad posterius: sed pater per hoc 
+          <lb ed="#V" n="55"/>quod est genitor comparatur ad posterius. per hoc autem 
+          <lb ed="#V" n="56"/>quod est ingenitum comparatur ad prius scilicet ad generans quod non est 
+          <lb ed="#V" n="57"/>ergo ingenitum prius est generatione.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e178">
+          ¶ 4o sic. Quando priuatio 
+          <lb ed="#V" n="58"/>inest alicui pro illo signo sibi inest pro quo habitus sibi 
+          op<lb ed="#V" n="59" break="no"/>positus aptus natus est ibi inesse: sed si pater generaretur prius 
+          <lb ed="#V" n="60"/>inesset sibi generatio passiua quam actiua. ergo negatio gnatinis 
+          <lb ed="#V" n="61"/>passiue prius inest quam generatio passiua. De ratione autem proprie 
+          <lb ed="#V" n="62"/>tatis primo incommunicabilis est constituere. ergo ingenitum constituit 
+        </p>
+        <p xml:id="FrMS88-e65156-d1e191">
+          <lb ed="#V" n="63"/>¶ Sed contra istam opinionem arguo. 4r Primo sic. Persona 
+          relati<lb ed="#V" n="64" break="no"/>ua non potest formaliter constitui per illud quod est ad se: sed 
+          ingeni<lb ed="#V" n="65" break="no"/>tum secundum Aug. 5. de tri. dicitur ad se. pater autem est persona relatiua 
+          <lb ed="#V" n="66"/>ergo non constituitur per ingenitum.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e202">
+          ¶ 2o. Nullum positiuum 
+          <lb ed="#V" n="67"/>suppositum constituitur ex negatiuo vel priuatiuo: quia tunc 
+          <!--179.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="68"/>totum esset priuatiuum: sed supposita diuina sunt positiua. 
+        </p>
+        <p xml:id="FrMS88-e65156-d1e213">
+          <lb ed="#V" n="69"/>¶ 3o. Nullum suppositum reale potest constitui ex eo quod 
+          <lb ed="#V" n="70"/>non est reale. suppositum diuinum est reale. priuatio 
+          au<lb ed="#V" n="71" break="no"/>tem non est res. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e222">
+          ¶ 4o. Illud quod non habet esse non potest 
+          <lb ed="#V" n="72"/>dare esse: sed priuatio: cum sic quedam negatio est huiusmodi 
+          <lb ed="#V" n="73"/>quod ingenitum non constituit patrem. 
+          <lb ed="#V" n="74"/>Oico ergo
+        </p>
+        <p xml:id="FrMS88-e65156-d1e231">
+          ¶ Quod confirmatur 4r. Primo sic. Omnia 
+          <lb ed="#V" n="75"/>distinctio aliquorum fundatur in principiis distinctis 
+          <lb ed="#V" n="76"/>eorum: cum ergo eadem sint principia constitutiua et 
+          di<lb ed="#V" n="77" break="no"/>stinctiua. si ingenitum constitueret ingenitum: esset 
+          funda<lb ed="#V" n="78" break="no"/>mentum distinctionis que est patris ad filium.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e243">
+          ¶ Tunc sic 
+          <lb ed="#V" n="79"/>Nullum reale positiuum potest fundari in priuatione vel 
+          ne<lb ed="#V" n="80" break="no"/>gatione: sed distinctio patris a filio est realis et positia 
+          <lb ed="#V" n="81"/>ua. ergo non potest fundari in ingenito: quod est priuatiuum 
+          <lb ed="#V" n="82"/>Vel da quod sic. Sequitur quod distinctio patris a filio non erit 
+          <lb ed="#V" n="83"/>realis nec positiua. hoc autem totum sequitur ex hoc quod 
+          in<lb ed="#V" n="84" break="no"/>genitum ponitur proprietas patris constitutiua. ergo hoc non 
+          <lb ed="#V" n="85"/>potest stare.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e261">
+          ¶ 2o illud quod constituit personam fundatur 
+          im<lb ed="#V" n="86" break="no"/>mediate in diuina essentia: sed innascibilitas non 
+          fun<lb ed="#V" n="87" break="no"/>datur immediate in diuina essentia. ergo non constituit. Ma 
+          <lb ed="#V" n="88"/>est manifesta. Minorem probo. Sicut aptitudo 
+          natura<lb ed="#V" n="89" break="no"/>lis: est per se passio illius cui conuenit. vt patet ex 
+          supradi<lb ed="#V" n="90" break="no"/>ctis: ita repugnantia naturalis est per se passio illius cui conuenit 
+          <lb ed="#V" n="91"/>Sicut enim risibilitas est per se passio hominis: ita 
+          repugnan<lb ed="#V" n="92" break="no"/>tia ad ridere scilicet irrisibilitas est per se passio asim. cum 
+          <lb ed="#V" n="93"/>ergo esse generabile sit aptitudo naturalis. et per consequens propria 
+          <lb ed="#V" n="94"/>passio eius cui conuenit. sic repugnantia ad generari: 
+          quan<lb ed="#V" n="95" break="no"/>intelligo per innascibilitatem erit propria passio illius 
+          <lb ed="#V" n="96"/>cui conuenit primo: sed si ingenitum vel innascibile 
+          com<lb ed="#V" n="97" break="no"/>stituat ipsum primo conuenit essentie diuine. ergo ingenitum et 
+          inna<lb ed="#V" n="98" break="no"/>scibile erunt propria passio essentie diuine.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e292">
+          ¶ Tunc sic. 
+          <lb ed="#V" n="99"/>Ubicumque est innuenire obiectum est innuenire propriam 
+          pas<lb ed="#V" n="100" break="no"/>sionem: sed in filio est innuenire essentiam. ergo in filio erit 
+          <lb ed="#V" n="101"/>reperire innascibilitatem: et sic proprietas constitutiua prime 
+          <lb ed="#V" n="102"/>dersone esset formaliter in tribus: quod videtur 
+          incon<lb ed="#V" n="103" break="no"/>ueniens.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e305">
+          ¶ 3o arguo sicut arguit doctor noster. Nulla 
+          <lb ed="#V" n="104"/>negatio est primo incommunicabilis: sed formale constitutiuum 
+          <lb ed="#V" n="105"/>paratris est incommunicabile primo. ergo ingenitum non est 
+          forma<lb ed="#V" n="106" break="no"/>le constitutiuum. Ma. patet. Si enim negatio esset 
+          incom<lb ed="#V" n="107" break="no"/>municabilis: quandocumque fundamentum comunicaretur: sequitur 
+          contradi<lb ed="#V" n="108" break="no"/>ctio scilicet quod in eondem fundamento essent affirmatio et 
+          nega<lb ed="#V" n="109" break="no"/>tio. Nam primo est fundamentum cum negatione. 
+          nega<lb ed="#V" n="110" break="no"/>tio autem ponitur incommunicabilis. fundamentum autem 
+          <lb ed="#V" n="111"/>communicabile. ergo erit fundamentum sine negatione. et per 
+          <lb ed="#V" n="112"/>consequens cum negatione et affirmatione. et sic contradictio. 
+          <lb ed="#V" n="113"/>Innascibilitas autem fundatur immediate in essentia que est 
+          <lb ed="#V" n="114"/>communicabilis: posito quod ipsa sit constitutiua: et per consequens 
+          essentia<lb ed="#V" n="115" break="no"/>est incommunicabilis: sicut ipsa innascibilitas est 
+          incommunicabi<lb ed="#V" n="116" break="no"/>lis. vel si non. essentia erit cum affirmatione et negatione. 
+        </p>
+        <p xml:id="FrMS88-e65156-d1e336">
+          <lb ed="#V" n="117"/>¶ Dico ergo quod innascibilitas non potest esse proprietas 
+          con<lb ed="#V" n="118" break="no"/>stitutiua prime persone: quia nullo modo potest esse proprietas 
+          <lb ed="#V" n="119"/>prima.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e345">
+          ¶ Sed contra. Essentia diuina persone patris non conicatur 
+          <lb ed="#V" n="120"/>diuina essentia persone filii comunicatur ergo idem est communicabile et 
+          incon<lb ed="#V" n="121" break="no"/>municabile. et sic oppositia priuatiue dicuntur de essentia.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e353">
+          ¶ 2 
+          <lb ed="#V" n="122"/>Quia essentia diuina in persona patris est principium productiuum 
+          di<lb ed="#V" n="123" break="no"/>uine persone. in persona spussancti non. ergo affirmatio et 
+          nega<lb ed="#V" n="124" break="no"/>tio de eodem.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e362">
+          ¶ Ad ista.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e365">
+          ¶ Ad primum dico quod non communicar 
+          <lb ed="#V" n="125"/>non conuenit diuine essentie immediate: sed mediante primi 
+          <lb ed="#V" n="126"/>tate originis in qua fundatur ista incomunicabilitas. et ideo quando 
+          <lb ed="#V" n="127"/>dico essentia vt in patre. accipio eam cum praemitate origis: qui is 
+          <lb ed="#V" n="128"/>fundamentum istius negationis. quando autem dico essentia vt in 
+          fi<lb ed="#V" n="129" break="no"/>lio accipio eam sine fundamento. et ideo affirmatio et 
+          neg<lb ed="#V" n="130" break="no"/>non dicuntur immediate de eodem: sed mediante alio.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e381">
+          ¶ Ad 2m 
+          <lb ed="#V" n="131"/>eodem modo. Nam esse principium productionis conuenit essentie vt sub 
+          pram<lb ed="#V" n="132" break="no"/>mitate orgis. in spiritusan. autem non est sub ista praemitate: et ideo 
+          <lb ed="#V" n="133"/>non concludit distinctionem essentie: sed praemitatis orginis ab 
+          <!--180.xml-->
+          <pb ed="#V" n="89-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>alio significa.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e399">
+          ¶ Ad arictu alterius opionis.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e402">
+          ¶ Ad primum dico quod 
+          <lb ed="#V" n="2"/>Aug. vocat ibi: ad se: omne illud quod non est positiue ad 
+          ali<lb ed="#V" n="3" break="no"/>ad et quia ingenitum non sic est ad aliud scilicet positiue. dicit quod est ad 
+          <lb ed="#V" n="4"/>se: tame videtur expraesse concedere quod non exit genus relationis.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e412">
+          ¶ Ad  
+          <lb ed="#V" n="5"/>2m dico quod bene probat quod ingenitum improprie accipiendo percedit 
+          <lb ed="#V" n="6"/>paferem: sed tamen illud conuenit essentie et illud non est 
+          incomica<lb ed="#V" n="7" break="no"/>bile. Sed accipiendo proprie ingenitum: sicut supra dictum est. illud 
+          <lb ed="#V" n="8"/>est proprium patri et sequitur paternitatem. illud enim est incomunicabile: sed quia 
+          <lb ed="#V" n="9"/>undatur in praemitate origis quae praesupponit patrem. hic est quod 
+          <lb ed="#V" n="10"/>non constituit. et de tali dico quod impossibile est esse fine patre: licet 
+          ingeni<lb ed="#V" n="11" break="no"/>tum quod conuenit essentie possit.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e430">
+          ¶ Ad 3m dico quod 2 desicut. 
+          Pri<lb ed="#V" n="12" break="no"/>mo quia non est simile de positiuis et negatiuis. Negatiua enim 
+          <lb ed="#V" n="13"/>non possunt esse de intrinseco intellectu alicuius positiui. Positiua 
+          <lb ed="#V" n="14"/>autem sic. et ideo licet si pater esset ab alio respectus ad prius praecederet 
+          re<lb ed="#V" n="15" break="no"/>spectum qui respicit illud quod est ab eo: quia posset esse 
+          consti<lb ed="#V" n="16" break="no"/>tutiuum illius: negatus tamen respectus ad prius non: quia illa negatio non 
+          <lb ed="#V" n="17"/>potest esse constitutiua perum positiue.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e446">
+          ¶ 2o quia respectus ad prius: licet 
+          <lb ed="#V" n="18"/>ocedat respectum posteriorem et ad posterius: non tamen 
+          praecedi<lb ed="#V" n="19" break="no"/>respectu qui non est posterior: licet sit ad posterius scilicet illum 
+          <lb ed="#V" n="20"/>qui est constitutiuus: vnaquaeque enim res respict prius illa de primo modo 
+          <lb ed="#V" n="21"/>que illa quae sibi conueniunt per accidens. sicut homo prius intelligitur esse 
+          <lb ed="#V" n="22"/>animatus: quam intelligatur esse a deo: et deus prius intelligitur 
+          <lb ed="#V" n="23"/>ens: quam non creatiuus: pater ergo prius respicit respectum paternitati 
+          <lb ed="#V" n="24"/>quo constituitur quam ingenitum.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e464">
+          ¶ Ad 4m dico. quod habitudom 
+          <lb ed="#V" n="25"/>ad priora potest concedi prior quam habitudo ad posteriora. 
+          <lb ed="#V" n="26"/>si habitudo ad posteriora non constituit fundamentum 
+          <lb ed="#V" n="27"/>virtriusque: modo hic habitudo ad filium constituit: 
+          ha<lb ed="#V" n="28" break="no"/>duitudo autem ad prius non. ergo etc. Similiter dato quod esset 
+          ve<lb ed="#V" n="29" break="no"/>rum: adhuc tamen non haberet propositum: quia ingenitum non 
+          <lb ed="#V" n="30"/>est habitudo ad prius: sed negauo habitudinis ad prius: 
+          <lb ed="#V" n="31"/>et ideo non valet argumentum. nec probat quod 
+          ingeni<lb ed="#V" n="32" break="no"/>tum precedat paternitatem.
+        </p>
+        <p xml:id="FrMS88-e65156-d1e484">
+          ¶ Ad argumentum patet. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

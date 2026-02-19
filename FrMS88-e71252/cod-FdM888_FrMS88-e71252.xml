@@ -1,212 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 3</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 3</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#V" n="144-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e71252"><!-- l1d30q3 -->
-            <head xml:id="FrMS88-e71252-Hd1e108">Quaestio 3</head>
-            <p xml:id="FrMS88-e71252-d1e111">
-      ¶ Ad Arg. patet. Quaestio. iii. 
-      <lb ed="#V" n="14"/>Respectus fundamentales 
-      <lb ed="#V" n="15"/>Tum sint in deo ad creaturam. Quod 
-      <lb ed="#V" n="16"/>non. quia in quo est respectus illud est 
-      relati<lb ed="#V" n="17" break="no"/>uum. sed deus: vt dictum est: non est relatiuum 
-      <lb ed="#V" n="18"/>l ergo in eo non est aliquis respectus.
-    </p>
-            <p xml:id="FrMS88-e71252-d1e124">
-      ¶ Contra. 
-      <lb ed="#V" n="19"/>Deus est creatiuus. hoc autem est ad aliquid. non formaliter: 
-      <lb ed="#V" n="20"/>ergo fundamentaliter.
-    </p>
-            <p xml:id="FrMS88-e71252-d1e131">
-      ¶ hic primo ad euidentiam multorum dictorum 
-      su<lb ed="#V" n="21" break="no"/>perius et in posterius dicendorum: oportet videre quid est 
-      respe<lb ed="#V" n="22" break="no"/>ctus fundamentalis. et 2o vtrum sit in deo respectu creature. 
-      <lb ed="#V" n="23"/>ad primum dico quod illum voco respectum 
-      <lb ed="#V" n="24"/>Quantum fundamentalem. qui est in suo 
-      fundamen<lb ed="#V" n="25" break="no"/>to: non per accidens: sed per se. formalis vel actualis est ille quod 
-      <lb ed="#V" n="26"/>inest suo fundamento per accidens. Intelligo autem sic inherere 
-      <lb ed="#V" n="27"/>per se: quod inest sibi in 2o modo. ita quod est propria passio sui 
-      funda<lb ed="#V" n="28" break="no"/>menti: respectus autem actualis est accidens per accidens.
-    </p>
-            <p xml:id="FrMS88-e71252-d1e151">
-      ¶ Exentum. 
-      <lb ed="#V" n="29"/>Angelus mouens caelum habet 4or respectus ad caelum. Primus est 
-      <lb ed="#V" n="30"/>mouentis ad motum. 2us est producentis ad productum: non autem 
-      <lb ed="#V" n="31"/>adcaelum quod est motum: sed ad terminum motus primi. 3u est ex 
-      <lb ed="#V" n="32"/>cedentis ad excessum. 4us est mensurantis ad mensuratum 
-      <lb ed="#V" n="33"/>scientia enim angeli mensurat motum celi. Isti autem respectus sunt 
-      <lb ed="#V" n="34"/>actuales et accidentales. Voco autem istos respectus 
-      actua<lb ed="#V" n="35" break="no"/>les qui per accidens conueniunt fundamento: huiusmodi autem sunt omnes isti¬ 
-      </p>
-            <p xml:id="FrMS88-e71252-d1e170">
-               <lb ed="#V" n="36"/>¶ Istis autem 4or formalibus respectibus et accidentalibus 
-      cor<lb ed="#V" n="37" break="no"/>respondent 4or fundamentales qui per se insunt et necessario. 
-      An<lb ed="#V" n="38" break="no"/>gelus enim comparatur ad caelum vt motiuum ad mobile: existente. enim 
-      <lb ed="#V" n="39"/>angelo deus non posset facere quin angelus esset motiuus 
-      ce<lb ed="#V" n="40" break="no"/>li. 2us est productiui ad producibile. 3us est excessiui ad 
-      ex<lb ed="#V" n="41" break="no"/>cessibile. 4us est mensuratiui ad mensurabile: et isti aliis 
-      <lb ed="#V" n="42"/>prioribus actualibus corrspondent. ita quod primum primo etc.
-    </p>
-            <p xml:id="FrMS88-e71252-d1e188">
-      ¶ Sed cont 
-      <lb ed="#V" n="43"/>hoc instatur 4r. Primo sic. Relationes originis in deo sunt 
-      <lb ed="#V" n="44"/>per se: et tamen sunt relationes formales et actuales: non ergo sunt 
-      <lb ed="#V" n="45"/>omnes respectus fundamentales qui insunt per se. 2o sic. Nam 
-      <lb ed="#V" n="46"/>similitudo et equalitas et alie relationes communes sunt formales et 
-      <lb ed="#V" n="47"/>actuales. et tamen insunt per se personis. 3o sic. Nam dependentia 
-      <lb ed="#V" n="48"/>creature ad deum est formalis et actualis. et tamen per se inest 
-      <lb ed="#V" n="49"/>creature. 4o sic. Quia relatio compositi ad causas intrinsecas 
-      <lb ed="#V" n="50"/>inest per se: et tamen est formalis.
-    </p>
-            <p xml:id="FrMS88-e71252-d1e208">
-      ¶ Ad primum dico quod relatio originis 
-      <lb ed="#V" n="51"/>nis in diuinis non inest per se: sed per accidens: tamen inesse per accidens 
-      <lb ed="#V" n="52"/>otest dupliciter intelligi: vel sicut accidens inest subiecto. et sic non in 
-      <lb ed="#V" n="53"/>est relatio in divinis: vel sicut inferius inest superiori: et sic inest 
-      <lb ed="#V" n="54"/>per accidens. Si enim paternitas inesset per se essentie. vbicumque esset 
-      <lb ed="#V" n="55"/>essentia esset paternitas: et sic esset in filio: quod est impossibile: inest 
-      grgo<lb ed="#V" n="56" break="no"/>paternitas ad modum quo proprietas indiuindualis inest naturae in 
-      <lb ed="#V" n="57"/>creaturis. et non aliter.
-    </p>
-            <p xml:id="FrMS88-e71252-d1e226">
-      ¶ Ad 2m dico eodem modo: similitudo 
-      <lb ed="#V" n="58"/>n. non inest per se essentie vel attributo: quia tunc esset illa eadem 
-      <lb ed="#V" n="59"/>in filio: quod est slentdum. quia in filio est alia. nec inest sicut accidents 
-      <lb ed="#V" n="60"/>accidit subiecto: quia tale non est in diuinis: sed alio modo: vel 
-      <lb ed="#V" n="61"/>consequentur ad illum.
-    </p>
-            <p xml:id="FrMS88-e71252-d1e237">
-      ¶ Ad 3m dico eodem modo quod relatio creature 
-      <lb ed="#V" n="62"/>ad deum inest per accidens creature. Ista enim propositione creatura 
-      <lb ed="#V" n="63"/>creatur: est in contingenti materia: quia est contingens: et potest non 
-      crea<lb ed="#V" n="64" break="no"/>ri: et ideo creatio non inest sibi per se: sed per accidens.
-    </p>
-            <p xml:id="FrMS88-e71252-d1e246">
-      ¶ Ad 4m 
-      di<lb ed="#V" n="65" break="no"/>cuo quod dependentia compositi ad causas intrinsecas actualiter non 
-      <lb ed="#V" n="66"/>inest per se composito: accidit enim homin quod causaetur. vnde in potentia ob¬ 
-      <!--195.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>iectiua: vbi sunt quiditates non est creatio compositi. ea autem 
-      <lb ed="#V" n="68"/>quae per se in sunt homin sunt in potentia obiectiua. Dico ergo quod relatio 
-      <lb ed="#V" n="69"/>fu ndamentalis inest per se fundamento suo: et est de 
-      praedica<lb ed="#V" n="70" break="no"/>mento: de quo est suum subiectum vel fundamentum: sicut omnis alia 
-      <lb ed="#V" n="71"/>propria passio: sicut risibilitas: ista enim licet habeant quantum ad 
-      ali<lb ed="#V" n="72" break="no"/>quid modum accidentis: sunt tamen eiusdem praedicamenti cum illis quorum si. 
-      <lb ed="#V" n="73"/>ad 2m videndum est vtrum tales respect 
-      <lb ed="#V" n="74"/>Quantum sint in deo in ordine ad creaturam. 
-      Di<lb ed="#V" n="75" break="no"/>cunt aliqui quod non. quia sic referretur realiter ad creaturam: quod est 
-      <lb ed="#V" n="76"/>impossibile.
-    </p>
-            <p xml:id="FrMS88-e71252-d1e280">
-      ¶ Ego autem dico. quod licet impossibile sit quod deus actuali et 
-      <lb ed="#V" n="77"/>formali respectu qui sit in deo formaliter referatur ad 
-      crea<lb ed="#V" n="78" break="no"/>turam: tamen de fundamentali dico quod deus habet respectum 
-      fun<lb ed="#V" n="79" break="no"/>damentalem in se respectu creature: et patet quantum ad illos 4o 
-      <lb ed="#V" n="80"/>respectus qua positi sunt in angelo respectu celi. Est enim deum 
-      <lb ed="#V" n="81"/>productiuus respectu creature: et motiuus: et mensuratium 
-      <lb ed="#V" n="82"/>et excessiuus creature. et ista omnia sunt de deo ratione 
-      divinita<lb ed="#V" n="83" break="no"/>tis demonstrabilia: et per consequens sunt in deo ex nam rei. et sic non 
-      <lb ed="#V" n="84"/>est inconueniens quod deus referatur ad creaturam respectu 
-      fun<lb ed="#V" n="85" break="no"/>damentali.
-    </p>
-            <p xml:id="FrMS88-e71252-d1e302">
-      ¶ Sed hic sunt difficultas de isto respectu 
-      fundamen<lb ed="#V" n="86" break="no"/>tali. Prima est. Utrum sit ad se vel ad aliud. Dico quod isti 
-      respe<lb ed="#V" n="87" break="no"/>ctus fundamentales ex ratione sua formali sunt ad aliud 
-      <lb ed="#V" n="88"/>quia non est intelligibile si deus est productinus quin sit alicuius 
-      <lb ed="#V" n="89"/>alterius productiuus: non tamen sic sunt formaliter ad aliud quod dicant 
-      <lb ed="#V" n="90"/>rem additam super suum fundamentum eo modo sicut relationes 
-      ac<lb ed="#V" n="91" break="no"/>tuales et de genere relationis sunt ad aliud.
-    </p>
-            <p xml:id="FrMS88-e71252-d1e318">
-      ¶ Sed dico quod 
-      ta<lb ed="#V" n="92" break="no"/>lis est propria passio non differens realiter. sed formaliter ab 
-      <lb ed="#V" n="93"/>eo cuius est.
-    </p>
-            <p xml:id="FrMS88-e71252-d1e325">
-      ¶ Secunda difficultas est. Si inste respectus habet 
-      ter<lb ed="#V" n="94" break="no"/>minum. Dico quod impossibile est intelligere relatione esse quin 
-      intelli<lb ed="#V" n="95" break="no"/>gatur habere terminum. Unde dico quod productiuum habet terminum 
-      <lb ed="#V" n="96"/>producibile. Si autem quaras quid est producibile. Dico quod 
-      ip<lb ed="#V" n="97" break="no"/>sa creatura quae fuit ab eterno producibilis.
-    </p>
-            <p xml:id="FrMS88-e71252-d1e336">
-      ¶ 3a 
-      difficul<lb ed="#V" n="98" break="no"/>tas. Utrum productiuitas dependeat a termino. quia dictum 
-      <lb ed="#V" n="99"/>est quod respectus causatur a termino. Dico quod illud dictum est 
-      <lb ed="#V" n="100"/>verum de respectu formali et actuali: non autem de 
-      funda<lb ed="#V" n="101" break="no"/>mentali: quia sicut ab eodem procedit subiectum et eius passio: 
-      <lb ed="#V" n="102"/>ita ab eodem producitur fundamentum et respectus 
-      fundamenta<lb ed="#V" n="103" break="no"/>lis. et ideo talis respectus non dependet a termino.
-    </p>
-            <p xml:id="FrMS88-e71252-d1e352">
-      ¶ 
-      Quar<lb ed="#V" n="104" break="no"/>ta difficultas. si requrit terminum in actu. Dico quod nec in 
-      <lb ed="#V" n="105"/>actu nec in potentia: sed tantum requirit quiditatem. Sed quid 
-      <lb ed="#V" n="106"/>intelligis per quiditatem: Dico quod quiditatem vt abstrahit ab 
-      <lb ed="#V" n="107"/>esse in actu et esse in potentia. Unde ad omne ens non prohibitum 
-      <lb ed="#V" n="108"/>terminatur respectus productiuitatis.
-    </p>
-            <p xml:id="FrMS88-e71252-d1e366">
-      ¶ Sed est difficultas si deus dicitur 
-      <lb ed="#V" n="109"/>creans per tales respectus. Dico quod non: sed creatiuus et creans per 
-      re<lb ed="#V" n="110" break="no"/>spectum actualem qui est in creatura.
-    </p>
-            <p xml:id="FrMS88-e71252-d1e373">
-      ¶ Ad arinitum patet. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="144-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e71252"><!-- l1d30q3 -->
+        <head xml:id="FrMS88-e71252-Hd1e108">Quaestio 3</head>
+        <p xml:id="FrMS88-e71252-d1e111">
+          ¶ Ad Arg. patet. Quaestio. iii. 
+          <lb ed="#V" n="14"/>Respectus fundamentales 
+          <lb ed="#V" n="15"/>Tum sint in deo ad creaturam. Quod 
+          <lb ed="#V" n="16"/>non. quia in quo est respectus illud est 
+          relati<lb ed="#V" n="17" break="no"/>uum. sed deus: vt dictum est: non est relatiuum 
+          <lb ed="#V" n="18"/>l ergo in eo non est aliquis respectus.
+        </p>
+        <p xml:id="FrMS88-e71252-d1e124">
+          ¶ Contra. 
+          <lb ed="#V" n="19"/>Deus est creatiuus. hoc autem est ad aliquid. non formaliter: 
+          <lb ed="#V" n="20"/>ergo fundamentaliter.
+        </p>
+        <p xml:id="FrMS88-e71252-d1e131">
+          ¶ hic primo ad euidentiam multorum dictorum 
+          su<lb ed="#V" n="21" break="no"/>perius et in posterius dicendorum: oportet videre quid est 
+          respe<lb ed="#V" n="22" break="no"/>ctus fundamentalis. et 2o vtrum sit in deo respectu creature. 
+          <lb ed="#V" n="23"/>ad primum dico quod illum voco respectum 
+          <lb ed="#V" n="24"/>Quantum fundamentalem. qui est in suo 
+          fundamen<lb ed="#V" n="25" break="no"/>to: non per accidens: sed per se. formalis vel actualis est ille quod 
+          <lb ed="#V" n="26"/>inest suo fundamento per accidens. Intelligo autem sic inherere 
+          <lb ed="#V" n="27"/>per se: quod inest sibi in 2o modo. ita quod est propria passio sui 
+          funda<lb ed="#V" n="28" break="no"/>menti: respectus autem actualis est accidens per accidens.
+        </p>
+        <p xml:id="FrMS88-e71252-d1e151">
+          ¶ Exentum. 
+          <lb ed="#V" n="29"/>Angelus mouens caelum habet 4or respectus ad caelum. Primus est 
+          <lb ed="#V" n="30"/>mouentis ad motum. 2us est producentis ad productum: non autem 
+          <lb ed="#V" n="31"/>adcaelum quod est motum: sed ad terminum motus primi. 3u est ex 
+          <lb ed="#V" n="32"/>cedentis ad excessum. 4us est mensurantis ad mensuratum 
+          <lb ed="#V" n="33"/>scientia enim angeli mensurat motum celi. Isti autem respectus sunt 
+          <lb ed="#V" n="34"/>actuales et accidentales. Voco autem istos respectus 
+          actua<lb ed="#V" n="35" break="no"/>les qui per accidens conueniunt fundamento: huiusmodi autem sunt omnes isti¬ 
+        </p>
+        <p xml:id="FrMS88-e71252-d1e170">
+          <lb ed="#V" n="36"/>¶ Istis autem 4or formalibus respectibus et accidentalibus 
+          cor<lb ed="#V" n="37" break="no"/>respondent 4or fundamentales qui per se insunt et necessario. 
+          An<lb ed="#V" n="38" break="no"/>gelus enim comparatur ad caelum vt motiuum ad mobile: existente. enim 
+          <lb ed="#V" n="39"/>angelo deus non posset facere quin angelus esset motiuus 
+          ce<lb ed="#V" n="40" break="no"/>li. 2us est productiui ad producibile. 3us est excessiui ad 
+          ex<lb ed="#V" n="41" break="no"/>cessibile. 4us est mensuratiui ad mensurabile: et isti aliis 
+          <lb ed="#V" n="42"/>prioribus actualibus corrspondent. ita quod primum primo etc.
+        </p>
+        <p xml:id="FrMS88-e71252-d1e188">
+          ¶ Sed cont 
+          <lb ed="#V" n="43"/>hoc instatur 4r. Primo sic. Relationes originis in deo sunt 
+          <lb ed="#V" n="44"/>per se: et tamen sunt relationes formales et actuales: non ergo sunt 
+          <lb ed="#V" n="45"/>omnes respectus fundamentales qui insunt per se. 2o sic. Nam 
+          <lb ed="#V" n="46"/>similitudo et equalitas et alie relationes communes sunt formales et 
+          <lb ed="#V" n="47"/>actuales. et tamen insunt per se personis. 3o sic. Nam dependentia 
+          <lb ed="#V" n="48"/>creature ad deum est formalis et actualis. et tamen per se inest 
+          <lb ed="#V" n="49"/>creature. 4o sic. Quia relatio compositi ad causas intrinsecas 
+          <lb ed="#V" n="50"/>inest per se: et tamen est formalis.
+        </p>
+        <p xml:id="FrMS88-e71252-d1e208">
+          ¶ Ad primum dico quod relatio originis 
+          <lb ed="#V" n="51"/>nis in diuinis non inest per se: sed per accidens: tamen inesse per accidens 
+          <lb ed="#V" n="52"/>otest dupliciter intelligi: vel sicut accidens inest subiecto. et sic non in 
+          <lb ed="#V" n="53"/>est relatio in divinis: vel sicut inferius inest superiori: et sic inest 
+          <lb ed="#V" n="54"/>per accidens. Si enim paternitas inesset per se essentie. vbicumque esset 
+          <lb ed="#V" n="55"/>essentia esset paternitas: et sic esset in filio: quod est impossibile: inest 
+          grgo<lb ed="#V" n="56" break="no"/>paternitas ad modum quo proprietas indiuindualis inest naturae in 
+          <lb ed="#V" n="57"/>creaturis. et non aliter.
+        </p>
+        <p xml:id="FrMS88-e71252-d1e226">
+          ¶ Ad 2m dico eodem modo: similitudo 
+          <lb ed="#V" n="58"/>n. non inest per se essentie vel attributo: quia tunc esset illa eadem 
+          <lb ed="#V" n="59"/>in filio: quod est slentdum. quia in filio est alia. nec inest sicut accidents 
+          <lb ed="#V" n="60"/>accidit subiecto: quia tale non est in diuinis: sed alio modo: vel 
+          <lb ed="#V" n="61"/>consequentur ad illum.
+        </p>
+        <p xml:id="FrMS88-e71252-d1e237">
+          ¶ Ad 3m dico eodem modo quod relatio creature 
+          <lb ed="#V" n="62"/>ad deum inest per accidens creature. Ista enim propositione creatura 
+          <lb ed="#V" n="63"/>creatur: est in contingenti materia: quia est contingens: et potest non 
+          crea<lb ed="#V" n="64" break="no"/>ri: et ideo creatio non inest sibi per se: sed per accidens.
+        </p>
+        <p xml:id="FrMS88-e71252-d1e246">
+          ¶ Ad 4m 
+          di<lb ed="#V" n="65" break="no"/>cuo quod dependentia compositi ad causas intrinsecas actualiter non 
+          <lb ed="#V" n="66"/>inest per se composito: accidit enim homin quod causaetur. vnde in potentia ob¬ 
+          <!--195.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>iectiua: vbi sunt quiditates non est creatio compositi. ea autem 
+          <lb ed="#V" n="68"/>quae per se in sunt homin sunt in potentia obiectiua. Dico ergo quod relatio 
+          <lb ed="#V" n="69"/>fu ndamentalis inest per se fundamento suo: et est de 
+          praedica<lb ed="#V" n="70" break="no"/>mento: de quo est suum subiectum vel fundamentum: sicut omnis alia 
+          <lb ed="#V" n="71"/>propria passio: sicut risibilitas: ista enim licet habeant quantum ad 
+          ali<lb ed="#V" n="72" break="no"/>quid modum accidentis: sunt tamen eiusdem praedicamenti cum illis quorum si. 
+          <lb ed="#V" n="73"/>ad 2m videndum est vtrum tales respect 
+          <lb ed="#V" n="74"/>Quantum sint in deo in ordine ad creaturam. 
+          Di<lb ed="#V" n="75" break="no"/>cunt aliqui quod non. quia sic referretur realiter ad creaturam: quod est 
+          <lb ed="#V" n="76"/>impossibile.
+        </p>
+        <p xml:id="FrMS88-e71252-d1e280">
+          ¶ Ego autem dico. quod licet impossibile sit quod deus actuali et 
+          <lb ed="#V" n="77"/>formali respectu qui sit in deo formaliter referatur ad 
+          crea<lb ed="#V" n="78" break="no"/>turam: tamen de fundamentali dico quod deus habet respectum 
+          fun<lb ed="#V" n="79" break="no"/>damentalem in se respectu creature: et patet quantum ad illos 4o 
+          <lb ed="#V" n="80"/>respectus qua positi sunt in angelo respectu celi. Est enim deum 
+          <lb ed="#V" n="81"/>productiuus respectu creature: et motiuus: et mensuratium 
+          <lb ed="#V" n="82"/>et excessiuus creature. et ista omnia sunt de deo ratione 
+          divinita<lb ed="#V" n="83" break="no"/>tis demonstrabilia: et per consequens sunt in deo ex nam rei. et sic non 
+          <lb ed="#V" n="84"/>est inconueniens quod deus referatur ad creaturam respectu 
+          fun<lb ed="#V" n="85" break="no"/>damentali.
+        </p>
+        <p xml:id="FrMS88-e71252-d1e302">
+          ¶ Sed hic sunt difficultas de isto respectu 
+          fundamen<lb ed="#V" n="86" break="no"/>tali. Prima est. Utrum sit ad se vel ad aliud. Dico quod isti 
+          respe<lb ed="#V" n="87" break="no"/>ctus fundamentales ex ratione sua formali sunt ad aliud 
+          <lb ed="#V" n="88"/>quia non est intelligibile si deus est productinus quin sit alicuius 
+          <lb ed="#V" n="89"/>alterius productiuus: non tamen sic sunt formaliter ad aliud quod dicant 
+          <lb ed="#V" n="90"/>rem additam super suum fundamentum eo modo sicut relationes 
+          ac<lb ed="#V" n="91" break="no"/>tuales et de genere relationis sunt ad aliud.
+        </p>
+        <p xml:id="FrMS88-e71252-d1e318">
+          ¶ Sed dico quod 
+          ta<lb ed="#V" n="92" break="no"/>lis est propria passio non differens realiter. sed formaliter ab 
+          <lb ed="#V" n="93"/>eo cuius est.
+        </p>
+        <p xml:id="FrMS88-e71252-d1e325">
+          ¶ Secunda difficultas est. Si inste respectus habet 
+          ter<lb ed="#V" n="94" break="no"/>minum. Dico quod impossibile est intelligere relatione esse quin 
+          intelli<lb ed="#V" n="95" break="no"/>gatur habere terminum. Unde dico quod productiuum habet terminum 
+          <lb ed="#V" n="96"/>producibile. Si autem quaras quid est producibile. Dico quod 
+          ip<lb ed="#V" n="97" break="no"/>sa creatura quae fuit ab eterno producibilis.
+        </p>
+        <p xml:id="FrMS88-e71252-d1e336">
+          ¶ 3a 
+          difficul<lb ed="#V" n="98" break="no"/>tas. Utrum productiuitas dependeat a termino. quia dictum 
+          <lb ed="#V" n="99"/>est quod respectus causatur a termino. Dico quod illud dictum est 
+          <lb ed="#V" n="100"/>verum de respectu formali et actuali: non autem de 
+          funda<lb ed="#V" n="101" break="no"/>mentali: quia sicut ab eodem procedit subiectum et eius passio: 
+          <lb ed="#V" n="102"/>ita ab eodem producitur fundamentum et respectus 
+          fundamenta<lb ed="#V" n="103" break="no"/>lis. et ideo talis respectus non dependet a termino.
+        </p>
+        <p xml:id="FrMS88-e71252-d1e352">
+          ¶ 
+          Quar<lb ed="#V" n="104" break="no"/>ta difficultas. si requrit terminum in actu. Dico quod nec in 
+          <lb ed="#V" n="105"/>actu nec in potentia: sed tantum requirit quiditatem. Sed quid 
+          <lb ed="#V" n="106"/>intelligis per quiditatem: Dico quod quiditatem vt abstrahit ab 
+          <lb ed="#V" n="107"/>esse in actu et esse in potentia. Unde ad omne ens non prohibitum 
+          <lb ed="#V" n="108"/>terminatur respectus productiuitatis.
+        </p>
+        <p xml:id="FrMS88-e71252-d1e366">
+          ¶ Sed est difficultas si deus dicitur 
+          <lb ed="#V" n="109"/>creans per tales respectus. Dico quod non: sed creatiuus et creans per 
+          re<lb ed="#V" n="110" break="no"/>spectum actualem qui est in creatura.
+        </p>
+        <p xml:id="FrMS88-e71252-d1e373">
+          ¶ Ad arinitum patet. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

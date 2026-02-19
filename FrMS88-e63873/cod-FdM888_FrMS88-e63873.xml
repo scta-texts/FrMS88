@@ -1,171 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 3</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 3</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="86-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e63873"><!-- l1d27q3 -->
-            <head xml:id="FrMS88-e63873-Hd1e108">Quaestio 3</head>
-            <p xml:id="FrMS88-e63873-d1e111">
-      Questio. iii. 
-      <lb ed="#V" n="117"/>verbum secundum eandem rationem formalem 
-      <lb ed="#V" n="118"/>Tum dicatur de deo et creatura. 
-      <lb ed="#V" n="119"/>vna opinio. 
-      <lb ed="#V" n="120"/>hic introducit Dicitur enim quia 
-      <lb ed="#V" n="121"/>non. quia verbum diuinum est de genere substantie. vere 
-      <lb ed="#V" n="122"/>bum autem creatum de genere qualitatis. ergo non sunt eiusdem rationis. 
-      </p>
-            <p xml:id="FrMS88-e63873-d1e127">
-               <lb ed="#V" n="123"/>¶ Contra istam opinionem arguo. 4r. Primo sic. Aliquis 
-      <lb ed="#V" n="124"/>potest esse certus quod omnia per verbum facta sunt. quando scilicet recitatur 
-      <lb ed="#V" n="125"/>euangelium: et cum hoc dubitare vtrum per verbum creatum 
-      <lb ed="#V" n="126"/>vel increatum. hoc de facto patet in Arrianis.
-    </p>
-            <p xml:id="FrMS88-e63873-d1e138">
-      ¶ Secundo sic. 
-      <lb ed="#V" n="127"/>Quicquid conuenit verbo creato inquantum verbum est 
-      conue<lb ed="#V" n="128" break="no"/>nit et diuino. si enim aliquid deter conuenire vni quod non alteri. hoc 
-      <lb ed="#V" n="129"/>non erit inquantum verbum: sed propter aliam rationem: sed quecumque ita 
-      <lb ed="#V" n="130"/>se habent sunt eiusdem rationis cum ista reduplicatione. ergo.
-    </p>
-            <p xml:id="FrMS88-e63873-d1e149">
-      ¶ 3o. 
-      <lb ed="#V" n="131"/>Quecumque ita se habent quod quicquid repugnat vni inquantum 
-      ta<lb ed="#V" n="132" break="no"/>le repugnat alteri inquantum tale: illa sunt idem in illa 
-      ra<lb ed="#V" n="133" break="no"/>tione super quam cadit reduplicatio et repugnantia: sed huiusmodi 
-      <!--176.xml-->
-      <pb ed="#V" n="87-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>sunt verbum diuinum et creatum inquantum verbum sunt. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e63873-d1e168">
-      ¶ 4o sic. 
-      <lb ed="#V" n="2"/>Ubi principium eiusdem rationis et productio eiusdem rationis ibi 
-      produ<lb ed="#V" n="3" break="no"/>cibile eiusdem rationis: sed memoria fecunda quae est principium 
-      producti<lb ed="#V" n="4" break="no"/>uum verbi est eiusdem rationis in deo et in creaturis. ergo verbum quod 
-      vtro<lb ed="#V" n="5" break="no"/>bique producitur est eiusdem rationis vtrobique.
-    </p>
-            <p xml:id="FrMS88-e63873-d1e179">
-      ¶ Dico ergo quod verbum 
-      <lb ed="#V" n="6"/>diuinum et creatum sunt aliquo modo eiusdem rationis formalis in diceo 
-      <lb ed="#V" n="7"/>et in creatura vt probant rationes adducte. et breuiter omnes quae 
-      <lb ed="#V" n="8"/>concludunt de ente.
-    </p>
-            <p xml:id="FrMS88-e63873-d1e188">
-      ¶ Sed contra hoc instatur 4r. Primo. Quando aliquid  
-      <lb ed="#V" n="9"/>intrinsece constituitur ex quibus. variato altero constituentium 
-      va<lb ed="#V" n="10" break="no"/>riatur totum: sed verbum creatu constituitur ex actu intelligendi et 
-      di<lb ed="#V" n="11" break="no"/>ctione passiua. in deo autem ex essentia et dictione. ergo altera pars 
-      <lb ed="#V" n="12"/>variatur.
-    </p>
-            <p xml:id="FrMS88-e63873-d1e199">
-      ¶ 2o. Respectus non solum variantur ex terminis: sed 
-      <lb ed="#V" n="13"/>etiam ex fundamentis: cum ab vtrisque dependeant: sed dictio 
-      passi<lb ed="#V" n="14" break="no"/>ua quae est constitutiua verbi habet fundamentum aliud in deo: quia 
-      <lb ed="#V" n="15"/>essentiam. aliud in creatura: quia actum intelligendi. ergo variatur. 
-      </p>
-            <p xml:id="FrMS88-e63873-d1e208">
-               <lb ed="#V" n="16"/>¶ 3o. Sicut actus intelligendi diunsificantur ex diunsitate 
-      ob<lb ed="#V" n="17" break="no"/>iectorum: ita et verba: sed obiectum verbi diuini non est eiusdem rationis 
-      <lb ed="#V" n="18"/>cum obiecto verbi creati: quia ibi essentia diuina: hoc interdum lapis 
-      <lb ed="#V" n="19"/>ergo non sunt eiusdem rationis.
-    </p>
-            <p xml:id="FrMS88-e63873-d1e219">
-      ¶ 4o. Quando aliqua sunt eiusdem 
-      ratio<lb ed="#V" n="20" break="no"/>nis quicquid dicitur in quid de vno vt sic. et de alio. sed actus 
-      in<lb ed="#V" n="21" break="no"/>telligendi dicitur in quid de verbo creato et non de verbo diuino. vt 
-      <lb ed="#V" n="22"/>patuit. supra. ergo non sunt eiusdem rationis formalis.
-    </p>
-            <p xml:id="FrMS88-e63873-d1e229">
-      ¶ Ad primum dico 
-      <lb ed="#V" n="23"/>quod illa propositio est vera vniversaliter in constitutis per se: sed in per accidens 
-      con<lb ed="#V" n="24" break="no"/>titutis non est verum. nara in illis quae sunt per accidens totum stat eius 
-      <lb ed="#V" n="25"/>dem rationis formalis. Exemplum. Nam album est eiusdem rationis 
-      <lb ed="#V" n="26"/>formalis in lapide et in ligno: sed verbum non est aliquod 
-      consti<lb ed="#V" n="27" break="no"/>tutum per se: ideo non valet.
-    </p>
-            <p xml:id="FrMS88-e63873-d1e242">
-      ¶ Ad 2m dico quod sicut in creaturis 
-      <lb ed="#V" n="28"/>actus intelligendi diuersificatur specie: ita et dictiones passiue 
-      <lb ed="#V" n="29"/>que in eis fundantur: tamen in ratione commni conueniunt: licet non in ratione 
-      <lb ed="#V" n="30"/>specifica. Eodem modo dico quod verbum diuinum et creatum non sunt 
-      <lb ed="#V" n="31"/>eiusdem rationis specifice: sed tantum conueniunt in ratione 
-      commu<lb ed="#V" n="32" break="no"/>ni.
-    </p>
-            <p xml:id="FrMS88-e63873-d1e255">
-      ¶ Ad 3m dico per idem. No enim volo dicere quod verbum 
-      di<lb ed="#V" n="33" break="no"/>uinum sit eiusdem rationis specifice: sed tantum conueniunt in ratione 
-      <lb ed="#V" n="34"/>generali verbi: et hoc non improbat argumentum: sed solum de identitate 
-      <lb ed="#V" n="35"/>specifica.
-    </p>
-            <p xml:id="FrMS88-e63873-d1e264">
-      ¶ Ad 4m dico quod ina quae sunt eiusdem rationis speci 
-      <lb ed="#V" n="36"/>fice eadem praedicata quiditatiua habent. modo dico quod verbum 
-      diui<lb ed="#V" n="37" break="no"/>num et creatum non sunt huiusmodi. tamen inquantum sunt eiusdem rationis 
-      il<lb ed="#V" n="38" break="no"/>la propositio est vera. Dico enim quod actus intelligendi non dicitur de verbo 
-      <lb ed="#V" n="39"/>creato inquantum verbum est: sed inquantum tale. Sed hic est difficultas 
-      <lb ed="#V" n="40"/>Que est illa ratio generalis verbi in qua omnia conueniunt: et sub qua ratio 
-      <lb ed="#V" n="41"/>ne actus intelligendi intrat rationem verbi creati et non verbi 
-      <lb ed="#V" n="42"/>inquantum verbum e hoc est quaerere qua est illa ratio addita verbo in 
-      <lb ed="#V" n="43"/>genere.
-    </p>
-            <p xml:id="FrMS88-e63873-d1e284">
-      ¶ Dico quod sicut ratio formalis albi inquantum album est: est 
-      <lb ed="#V" n="44"/>quod sit disgregatiuum: et illud non variatur siue album sit in 
-      la<lb ed="#V" n="45" break="no"/>pide siue in cigno: sed semper est eiusdem rationis inquantum 
-      al<lb ed="#V" n="46" break="no"/>bum est. sic in proposito esse productum quiditatiue. non 
-      au<lb ed="#V" n="47" break="no"/>tem denominatiue per actum dicendi est ratio communis verbi. 
-      <lb ed="#V" n="48"/>c Ad argumentum patet.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 3</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 3</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="86-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e63873"><!-- l1d27q3 -->
+        <head xml:id="FrMS88-e63873-Hd1e108">Quaestio 3</head>
+        <p xml:id="FrMS88-e63873-d1e111">
+          Questio. iii. 
+          <lb ed="#V" n="117"/>verbum secundum eandem rationem formalem 
+          <lb ed="#V" n="118"/>Tum dicatur de deo et creatura. 
+          <lb ed="#V" n="119"/>vna opinio. 
+          <lb ed="#V" n="120"/>hic introducit Dicitur enim quia 
+          <lb ed="#V" n="121"/>non. quia verbum diuinum est de genere substantie. vere 
+          <lb ed="#V" n="122"/>bum autem creatum de genere qualitatis. ergo non sunt eiusdem rationis. 
+        </p>
+        <p xml:id="FrMS88-e63873-d1e127">
+          <lb ed="#V" n="123"/>¶ Contra istam opinionem arguo. 4r. Primo sic. Aliquis 
+          <lb ed="#V" n="124"/>potest esse certus quod omnia per verbum facta sunt. quando scilicet recitatur 
+          <lb ed="#V" n="125"/>euangelium: et cum hoc dubitare vtrum per verbum creatum 
+          <lb ed="#V" n="126"/>vel increatum. hoc de facto patet in Arrianis.
+        </p>
+        <p xml:id="FrMS88-e63873-d1e138">
+          ¶ Secundo sic. 
+          <lb ed="#V" n="127"/>Quicquid conuenit verbo creato inquantum verbum est 
+          conue<lb ed="#V" n="128" break="no"/>nit et diuino. si enim aliquid deter conuenire vni quod non alteri. hoc 
+          <lb ed="#V" n="129"/>non erit inquantum verbum: sed propter aliam rationem: sed quecumque ita 
+          <lb ed="#V" n="130"/>se habent sunt eiusdem rationis cum ista reduplicatione. ergo.
+        </p>
+        <p xml:id="FrMS88-e63873-d1e149">
+          ¶ 3o. 
+          <lb ed="#V" n="131"/>Quecumque ita se habent quod quicquid repugnat vni inquantum 
+          ta<lb ed="#V" n="132" break="no"/>le repugnat alteri inquantum tale: illa sunt idem in illa 
+          ra<lb ed="#V" n="133" break="no"/>tione super quam cadit reduplicatio et repugnantia: sed huiusmodi 
+          <!--176.xml-->
+          <pb ed="#V" n="87-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>sunt verbum diuinum et creatum inquantum verbum sunt. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e63873-d1e168">
+          ¶ 4o sic. 
+          <lb ed="#V" n="2"/>Ubi principium eiusdem rationis et productio eiusdem rationis ibi 
+          produ<lb ed="#V" n="3" break="no"/>cibile eiusdem rationis: sed memoria fecunda quae est principium 
+          producti<lb ed="#V" n="4" break="no"/>uum verbi est eiusdem rationis in deo et in creaturis. ergo verbum quod 
+          vtro<lb ed="#V" n="5" break="no"/>bique producitur est eiusdem rationis vtrobique.
+        </p>
+        <p xml:id="FrMS88-e63873-d1e179">
+          ¶ Dico ergo quod verbum 
+          <lb ed="#V" n="6"/>diuinum et creatum sunt aliquo modo eiusdem rationis formalis in diceo 
+          <lb ed="#V" n="7"/>et in creatura vt probant rationes adducte. et breuiter omnes quae 
+          <lb ed="#V" n="8"/>concludunt de ente.
+        </p>
+        <p xml:id="FrMS88-e63873-d1e188">
+          ¶ Sed contra hoc instatur 4r. Primo. Quando aliquid  
+          <lb ed="#V" n="9"/>intrinsece constituitur ex quibus. variato altero constituentium 
+          va<lb ed="#V" n="10" break="no"/>riatur totum: sed verbum creatu constituitur ex actu intelligendi et 
+          di<lb ed="#V" n="11" break="no"/>ctione passiua. in deo autem ex essentia et dictione. ergo altera pars 
+          <lb ed="#V" n="12"/>variatur.
+        </p>
+        <p xml:id="FrMS88-e63873-d1e199">
+          ¶ 2o. Respectus non solum variantur ex terminis: sed 
+          <lb ed="#V" n="13"/>etiam ex fundamentis: cum ab vtrisque dependeant: sed dictio 
+          passi<lb ed="#V" n="14" break="no"/>ua quae est constitutiua verbi habet fundamentum aliud in deo: quia 
+          <lb ed="#V" n="15"/>essentiam. aliud in creatura: quia actum intelligendi. ergo variatur. 
+        </p>
+        <p xml:id="FrMS88-e63873-d1e208">
+          <lb ed="#V" n="16"/>¶ 3o. Sicut actus intelligendi diunsificantur ex diunsitate 
+          ob<lb ed="#V" n="17" break="no"/>iectorum: ita et verba: sed obiectum verbi diuini non est eiusdem rationis 
+          <lb ed="#V" n="18"/>cum obiecto verbi creati: quia ibi essentia diuina: hoc interdum lapis 
+          <lb ed="#V" n="19"/>ergo non sunt eiusdem rationis.
+        </p>
+        <p xml:id="FrMS88-e63873-d1e219">
+          ¶ 4o. Quando aliqua sunt eiusdem 
+          ratio<lb ed="#V" n="20" break="no"/>nis quicquid dicitur in quid de vno vt sic. et de alio. sed actus 
+          in<lb ed="#V" n="21" break="no"/>telligendi dicitur in quid de verbo creato et non de verbo diuino. vt 
+          <lb ed="#V" n="22"/>patuit. supra. ergo non sunt eiusdem rationis formalis.
+        </p>
+        <p xml:id="FrMS88-e63873-d1e229">
+          ¶ Ad primum dico 
+          <lb ed="#V" n="23"/>quod illa propositio est vera vniversaliter in constitutis per se: sed in per accidens 
+          con<lb ed="#V" n="24" break="no"/>titutis non est verum. nara in illis quae sunt per accidens totum stat eius 
+          <lb ed="#V" n="25"/>dem rationis formalis. Exemplum. Nam album est eiusdem rationis 
+          <lb ed="#V" n="26"/>formalis in lapide et in ligno: sed verbum non est aliquod 
+          consti<lb ed="#V" n="27" break="no"/>tutum per se: ideo non valet.
+        </p>
+        <p xml:id="FrMS88-e63873-d1e242">
+          ¶ Ad 2m dico quod sicut in creaturis 
+          <lb ed="#V" n="28"/>actus intelligendi diuersificatur specie: ita et dictiones passiue 
+          <lb ed="#V" n="29"/>que in eis fundantur: tamen in ratione commni conueniunt: licet non in ratione 
+          <lb ed="#V" n="30"/>specifica. Eodem modo dico quod verbum diuinum et creatum non sunt 
+          <lb ed="#V" n="31"/>eiusdem rationis specifice: sed tantum conueniunt in ratione 
+          commu<lb ed="#V" n="32" break="no"/>ni.
+        </p>
+        <p xml:id="FrMS88-e63873-d1e255">
+          ¶ Ad 3m dico per idem. No enim volo dicere quod verbum 
+          di<lb ed="#V" n="33" break="no"/>uinum sit eiusdem rationis specifice: sed tantum conueniunt in ratione 
+          <lb ed="#V" n="34"/>generali verbi: et hoc non improbat argumentum: sed solum de identitate 
+          <lb ed="#V" n="35"/>specifica.
+        </p>
+        <p xml:id="FrMS88-e63873-d1e264">
+          ¶ Ad 4m dico quod ina quae sunt eiusdem rationis speci 
+          <lb ed="#V" n="36"/>fice eadem praedicata quiditatiua habent. modo dico quod verbum 
+          diui<lb ed="#V" n="37" break="no"/>num et creatum non sunt huiusmodi. tamen inquantum sunt eiusdem rationis 
+          il<lb ed="#V" n="38" break="no"/>la propositio est vera. Dico enim quod actus intelligendi non dicitur de verbo 
+          <lb ed="#V" n="39"/>creato inquantum verbum est: sed inquantum tale. Sed hic est difficultas 
+          <lb ed="#V" n="40"/>Que est illa ratio generalis verbi in qua omnia conueniunt: et sub qua ratio 
+          <lb ed="#V" n="41"/>ne actus intelligendi intrat rationem verbi creati et non verbi 
+          <lb ed="#V" n="42"/>inquantum verbum e hoc est quaerere qua est illa ratio addita verbo in 
+          <lb ed="#V" n="43"/>genere.
+        </p>
+        <p xml:id="FrMS88-e63873-d1e284">
+          ¶ Dico quod sicut ratio formalis albi inquantum album est: est 
+          <lb ed="#V" n="44"/>quod sit disgregatiuum: et illud non variatur siue album sit in 
+          la<lb ed="#V" n="45" break="no"/>pide siue in cigno: sed semper est eiusdem rationis inquantum 
+          al<lb ed="#V" n="46" break="no"/>bum est. sic in proposito esse productum quiditatiue. non 
+          au<lb ed="#V" n="47" break="no"/>tem denominatiue per actum dicendi est ratio communis verbi. 
+          <lb ed="#V" n="48"/>c Ad argumentum patet.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

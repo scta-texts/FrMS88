@@ -1,246 +1,246 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="83-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e61286"><!-- l1d26q2 -->
-            <head xml:id="FrMS88-e61286-Hd1e108">Quaestio 2</head>
-            <p xml:id="FrMS88-e61286-d1e111">
-      Questio. ii. 
-      <lb ed="#V" n="42"/>UTrum in diuinis sit aliquod 
-      abso<lb ed="#V" n="43" break="no"/>lutum indiuiduum. Quod non. quia 
-      <lb ed="#V" n="44"/>ibi non est aliquod suppositum absolutum. Con 
-      <lb ed="#V" n="45"/>Hic ctra ibi est vna natura numero. 
-      <lb ed="#V" n="46"/>dicit vnus magnus doctor quod licet in 
-      di<lb ed="#V" n="47" break="no"/>uinis non sit aliquod vnum suppositum absolutum: tamen est 
-      ib<lb ed="#V" n="48" break="no"/>aliquod indiuiduum absolutum.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e129">
-      ¶ Quod confirmatur quadrupl 
-      <lb ed="#V" n="49"/>citer ratione. Primo sic. quia omne quod demonstratur est 
-      singula<lb ed="#V" n="50" break="no"/>re: sed in patria demonstratur hic deus ad oculum qui est ens 
-      <lb ed="#V" n="51"/>absolutum. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e138">
-      ¶ 2o sic. Omne quod dicitur de vno solo est in 
-      <lb ed="#V" n="52"/>diuiduum: sed hic deus secundum Aug. de tri. dicitur de vno solo. ergo 
-      <lb ed="#V" n="53"/>est indiuinduum. Mi. patet: quia alioquin essent plures dii.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e145">
-      ¶  
-      <lb ed="#V" n="54"/>sic. Nam cum singularitate constituit indiuiduum sicut genus 
-      <lb ed="#V" n="55"/>et differentia speciem. sed in diuinis naaura diuina est cum 
-      singularita<lb ed="#V" n="56" break="no"/>te absotua. ergo ibi est indiuiduum absolutum.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e155">
-      ¶ 4o sic. Aug. 79. de 
-      <lb ed="#V" n="57"/>tri. deitas non dicitur de tribus personis: sicut vniversale de 
-      singulari<lb ed="#V" n="58" break="no"/>bus. ergo oportet quod essentia divina sit vna singularis in tribus et 
-      ab<lb ed="#V" n="59" break="no"/>soluta. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e164">
-      ¶ Sed contra hoc instatur 4r.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e167">
-      ¶ Primo sic. 
-      Nu<lb ed="#V" n="60" break="no"/>lum absolutum in diuinis est incommunicabile: sed omne 
-      indiui<lb ed="#V" n="61" break="no"/>duum vt indiuiduum est incommunicabile. ergo nullum indiuiduum est 
-      <lb ed="#V" n="62"/>absolutum in diuinis. Mi. videtur de se manifesta. Ma. patet 
-      <lb ed="#V" n="63"/>quia etiam: perte: est vera.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e178">
-      ¶ 2o sic. Indiuiduum est quod dicitur de 
-      <lb ed="#V" n="64"/>vno solo. sed hoc deus dicitur de tribus. ergo hic deus non erit in 
-      <lb ed="#V" n="65"/>diuiduum.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e185">
-      ¶ 3o sic. In ordine predicamentali nihil est 
-      <lb ed="#V" n="66"/>inferius indiuiduo: sed deo multa sunt inferiora scilicet sup¬ 
-      <!--169.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>posita. de quibus secundum idem nomen: et secundum eandem rationem dicitur. 
-      </p>
-            <p xml:id="FrMS88-e61286-d1e196">
-               <lb ed="#V" n="68"/>¶ 4o sic. Ita hec persona est indiuiduum persone: sicut hic 
-      de<lb ed="#V" n="69" break="no"/>us est indiuiduum deitatis: si ergo hic deus sit indiuiduum: tunc 
-      <lb ed="#V" n="70"/>erunt 4or indiuindua scilicet tria indiuidua persone quae sunt 
-      respe<lb ed="#V" n="71" break="no"/>ctiua et 4m diuinitatis: quod est absolutum: quod est inconueniens. 
-      </p>
-            <p xml:id="FrMS88-e61286-d1e208">
-               <lb ed="#V" n="72"/>¶ Ad primum dico. quod esse incommunicabile potest intelligi dupliciter: 
-      <lb ed="#V" n="73"/>vel sicut nam in vniversali pluribus indiuiduis: et isto modo 
-      indiui<lb ed="#V" n="74" break="no"/>duum est incommunicabile: vel sicut hec natura est comunicabilis 
-      plu<lb ed="#V" n="75" break="no"/>ribus suppositis: et iso modo indiuiduo vt indiuiduum est 
-      <lb ed="#V" n="76"/>non repugnat comunicari.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e221">
-      ¶ Ex hoc ad argumentum dico ad 
-      maio<lb ed="#V" n="77" break="no"/>rem quod nullum absolutum incommunicabile est 2o: sed primos omne 
-      absolu<lb ed="#V" n="78" break="no"/>tum est incominicabile: et ad minorem dico quod omne indiuiduum 
-      <lb ed="#V" n="79"/>vt indiuiduum est incommunicabile primo modo: sed tamen non 2o: et si 
-      va<lb ed="#V" n="80" break="no"/>riatur medium.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e232">
-      ¶ Ad 2m dico quod indiuiduum dicitur de vno 
-      so<lb ed="#V" n="81" break="no"/>lo. sicut hic deus dicitur de vno solo deo: quando tamen natum indiuidum 
-      <lb ed="#V" n="82"/>est in pluribus suppositis vnum indiuiduum potest dici de 
-      plu<lb ed="#V" n="83" break="no"/>ribus suppositis: sicut si idem color esset in pluribus substantis 
-      di<lb ed="#V" n="84" break="no"/>ceretur de eis. sic in proposito.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e243">
-      ¶ Ad 3m dico. quod hoc deus non 
-      <lb ed="#V" n="85"/>dicitur de patre et filio ad modum quo vniversale dicitur de singularibus et 
-      <lb ed="#V" n="86"/>superius de inferioribus: cum ita singularis sit hic deus: sicut 
-      <lb ed="#V" n="87"/>hic pater. sed ad modum quo hec humanitas dicitur de hoc homini 
-      <lb ed="#V" n="88"/>singulari.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e254">
-      ¶ Ad 4m dico. quod sicut in nobis multe hecei 
-      <lb ed="#V" n="89"/>tates concurrunt ad vnum hoc: quae tamen non faciunt distincta hec proapter 
-      <lb ed="#V" n="90"/>coincidentiam in idem. sic heceitates deitatis et persone 
-      coinci<lb ed="#V" n="91" break="no"/>duntur in idem saltem in idem realiter: et ideo non faciunt distincta in 
-      <lb ed="#V" n="92"/>diuidua: sicut non est aliud indiuiduum hominis et animalis. Ita nec 
-      <lb ed="#V" n="93"/>aliud habet deus et pater: et ideo indiuiduum dei coincidit cum tribus 
-      <lb ed="#V" n="94"/>respectiuis: licet heceitas absoluta non sit respectiua 
-      <lb ed="#V" n="95"/>viso intelligendum est ad quid ponitur hoc indiuiduum ab 
-      <lb ed="#V" n="96"/>hoc solutum in divinis: et dico hoc 4or conclusiones. prima est quod huic 
-      <lb ed="#V" n="97"/>indiuiduo attribuuntur omnes operationes essentiales ad 
-      im<lb ed="#V" n="98" break="no"/>tra et extra. probatur. quia hoc est bonus processus. hoc deus intelligit et prie 
-      <lb ed="#V" n="99"/>et filius et i scilicet sunt haec deus. ergo etc. et sic haec a. l. ergo hoc. deus est est 
-      <lb ed="#V" n="100"/>si medium hoc ad concludendum de quolibet supsto istas operatione 
-      <lb ed="#V" n="101"/>essentiales: quia sibi adequate conueniunt: et sic per ipsum 
-      di<lb ed="#V" n="102" break="no"/>omnibus suppositis possunt demonstrari.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e287">
-      ¶ 2a conclusio est. quod 
-      <lb ed="#V" n="103"/>operationes notionales ad intra: siue ad extra non 
-      con<lb ed="#V" n="104" break="no"/>ueniunt primo huic deo vel isti indiuiduo: sicut sunt 
-      gene<lb ed="#V" n="105" break="no"/>rare et spirare et incarnari. quia si sic. tunc iste operationes 
-      <lb ed="#V" n="106"/>omnibus conuenirent: quod est fal sum.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e299">
-      ¶ 3a conclusio est. quod hic deus est 
-      <lb ed="#V" n="107"/>communis omnibus personis. Nam omnes persone sunt vnus deus: 
-      <lb ed="#V" n="108"/>et non nisi vnus deus numero. ergo sunt haec deus.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e306">
-      ¶ 4a 
-      conclu<lb ed="#V" n="109" break="no"/>sio est. quod licet indiuiduum sit idem realiter cum qualibet persona: 
-      <lb ed="#V" n="110"/>non tamen formaliter: quia est absolutum: persona autem relatiua 
-      </p>
-            <p xml:id="FrMS88-e61286-d1e313">
-               <lb ed="#V" n="111"/>¶ Sed contra hec instatur quadrupliciter.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e318">
-      ¶ Primo sic. Si 
-      <lb ed="#V" n="112"/>ille est bonus processus qui est factus in prima conclusione: iste 
-      <lb ed="#V" n="113"/>erit bonus: hic deus generat: hec essentia est hic deus. 
-      er<lb ed="#V" n="114" break="no"/>go etc.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e327">
-      ¶ 2o. quia cum hic deus sit prior patre: hic deus prius 
-      <lb ed="#V" n="115"/>creabit quam pater. quod est falsum.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e332">
-      ¶ Tertio. Quia quid 
-      <lb ed="#V" n="116"/>quid attribuiter inferiori videtur competere superiori: sed 
-      distin<lb ed="#V" n="117" break="no"/>ctio attribuitur patri: ergo huic deo: ergo sicut pater 
-      distingui<lb ed="#V" n="118" break="no"/>tur a filio: ita hic deus ab hoc deo.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e342">
-      ¶ Quarto. quia tunc 
-      <lb ed="#V" n="119"/>saltem erunt 4or supposita formaliter distincta: cum illud 
-      indi<lb ed="#V" n="120" break="no"/>uiduum formaliter absolutum formaliter distinguatur a 
-      rela<lb ed="#V" n="121" break="no"/>tiuis.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e351">
-      ¶ Ad primum dico. quod deitas vel essentia sunt magis 
-      ab<lb ed="#V" n="122" break="no"/>stracta quam sit hic deus: ideo multa de hoc deo verifica 
-      <lb ed="#V" n="123"/>ri possunt: que non verificantur de essentia vel deitate.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e358">
-      ¶ Si 
-      <lb ed="#V" n="124"/>dicatur quod hoc deus nullo modo distinguitur ab essentia. ergo quod 
-      <lb ed="#V" n="125"/>sibi conuenit et essentie conuenit. Dico quod ratione illius quod 
-      con<lb ed="#V" n="126" break="no"/>cernit hic deus quod non concernit deitas: potest suppone. 
-      <lb ed="#V" n="127"/>re pro personis: pro quibus non supponit essentia vel 
-      dei<lb ed="#V" n="128" break="no"/>tas.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e371">
-      ¶ Ad 2m dico. quod actio duobus attribuitur scilicet principio quo 
-      <lb ed="#V" n="129"/>et principio quod et semper prius priuio quo quam pripuio quod suo modo. 
-      <lb ed="#V" n="130"/>Unde concedo quod hoc deus prius creat eo modo quo tale priamo 
-      <lb ed="#V" n="131"/>dicatum competit pripio quo: quam creat pater vel filius. Sed  
-      <lb ed="#V" n="132"/>in generatione est ne hic deus quo vel quod. Dico quod re¬ 
-      <!--170.xml-->
-      <pb ed="#V" n="84-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>spectu persone est quo. respectu autem essentie est quod. 
-      </p>
-            <p xml:id="FrMS88-e61286-d1e391">
-               <lb ed="#V" n="2"/>¶ Ad 3m dico. quod predicatum negatiuum dictum de 
-      in<lb ed="#V" n="3" break="no"/>seriori. non propter hoc dicitur de superiori: vel etiam 
-      equipol<lb ed="#V" n="4" break="no"/>lens negatiuo: cuiusmodi est distinctio.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e400">
-      ¶ Ad 4m dico. 
-      <lb ed="#V" n="5"/>quod non est inconueniens formaliter loquendo: concedere 
-      mul<lb ed="#V" n="6" break="no"/>ta indiuidua formaliter distincta: licet non plura 
-      suppo<lb ed="#V" n="7" break="no"/>sita.
-    </p>
-            <p xml:id="FrMS88-e61286-d1e410">
-      ¶ Ad argumentum patet. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="83-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e61286"><!-- l1d26q2 -->
+        <head xml:id="FrMS88-e61286-Hd1e108">Quaestio 2</head>
+        <p xml:id="FrMS88-e61286-d1e111">
+          Questio. ii. 
+          <lb ed="#V" n="42"/>UTrum in diuinis sit aliquod 
+          abso<lb ed="#V" n="43" break="no"/>lutum indiuiduum. Quod non. quia 
+          <lb ed="#V" n="44"/>ibi non est aliquod suppositum absolutum. Con 
+          <lb ed="#V" n="45"/>Hic ctra ibi est vna natura numero. 
+          <lb ed="#V" n="46"/>dicit vnus magnus doctor quod licet in 
+          di<lb ed="#V" n="47" break="no"/>uinis non sit aliquod vnum suppositum absolutum: tamen est 
+          ib<lb ed="#V" n="48" break="no"/>aliquod indiuiduum absolutum.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e129">
+          ¶ Quod confirmatur quadrupl 
+          <lb ed="#V" n="49"/>citer ratione. Primo sic. quia omne quod demonstratur est 
+          singula<lb ed="#V" n="50" break="no"/>re: sed in patria demonstratur hic deus ad oculum qui est ens 
+          <lb ed="#V" n="51"/>absolutum. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e138">
+          ¶ 2o sic. Omne quod dicitur de vno solo est in 
+          <lb ed="#V" n="52"/>diuiduum: sed hic deus secundum Aug. de tri. dicitur de vno solo. ergo 
+          <lb ed="#V" n="53"/>est indiuinduum. Mi. patet: quia alioquin essent plures dii.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e145">
+          ¶  
+          <lb ed="#V" n="54"/>sic. Nam cum singularitate constituit indiuiduum sicut genus 
+          <lb ed="#V" n="55"/>et differentia speciem. sed in diuinis naaura diuina est cum 
+          singularita<lb ed="#V" n="56" break="no"/>te absotua. ergo ibi est indiuiduum absolutum.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e155">
+          ¶ 4o sic. Aug. 79. de 
+          <lb ed="#V" n="57"/>tri. deitas non dicitur de tribus personis: sicut vniversale de 
+          singulari<lb ed="#V" n="58" break="no"/>bus. ergo oportet quod essentia divina sit vna singularis in tribus et 
+          ab<lb ed="#V" n="59" break="no"/>soluta. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e164">
+          ¶ Sed contra hoc instatur 4r.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e167">
+          ¶ Primo sic. 
+          Nu<lb ed="#V" n="60" break="no"/>lum absolutum in diuinis est incommunicabile: sed omne 
+          indiui<lb ed="#V" n="61" break="no"/>duum vt indiuiduum est incommunicabile. ergo nullum indiuiduum est 
+          <lb ed="#V" n="62"/>absolutum in diuinis. Mi. videtur de se manifesta. Ma. patet 
+          <lb ed="#V" n="63"/>quia etiam: perte: est vera.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e178">
+          ¶ 2o sic. Indiuiduum est quod dicitur de 
+          <lb ed="#V" n="64"/>vno solo. sed hoc deus dicitur de tribus. ergo hic deus non erit in 
+          <lb ed="#V" n="65"/>diuiduum.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e185">
+          ¶ 3o sic. In ordine predicamentali nihil est 
+          <lb ed="#V" n="66"/>inferius indiuiduo: sed deo multa sunt inferiora scilicet sup¬ 
+          <!--169.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>posita. de quibus secundum idem nomen: et secundum eandem rationem dicitur. 
+        </p>
+        <p xml:id="FrMS88-e61286-d1e196">
+          <lb ed="#V" n="68"/>¶ 4o sic. Ita hec persona est indiuiduum persone: sicut hic 
+          de<lb ed="#V" n="69" break="no"/>us est indiuiduum deitatis: si ergo hic deus sit indiuiduum: tunc 
+          <lb ed="#V" n="70"/>erunt 4or indiuindua scilicet tria indiuidua persone quae sunt 
+          respe<lb ed="#V" n="71" break="no"/>ctiua et 4m diuinitatis: quod est absolutum: quod est inconueniens. 
+        </p>
+        <p xml:id="FrMS88-e61286-d1e208">
+          <lb ed="#V" n="72"/>¶ Ad primum dico. quod esse incommunicabile potest intelligi dupliciter: 
+          <lb ed="#V" n="73"/>vel sicut nam in vniversali pluribus indiuiduis: et isto modo 
+          indiui<lb ed="#V" n="74" break="no"/>duum est incommunicabile: vel sicut hec natura est comunicabilis 
+          plu<lb ed="#V" n="75" break="no"/>ribus suppositis: et iso modo indiuiduo vt indiuiduum est 
+          <lb ed="#V" n="76"/>non repugnat comunicari.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e221">
+          ¶ Ex hoc ad argumentum dico ad 
+          maio<lb ed="#V" n="77" break="no"/>rem quod nullum absolutum incommunicabile est 2o: sed primos omne 
+          absolu<lb ed="#V" n="78" break="no"/>tum est incominicabile: et ad minorem dico quod omne indiuiduum 
+          <lb ed="#V" n="79"/>vt indiuiduum est incommunicabile primo modo: sed tamen non 2o: et si 
+          va<lb ed="#V" n="80" break="no"/>riatur medium.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e232">
+          ¶ Ad 2m dico quod indiuiduum dicitur de vno 
+          so<lb ed="#V" n="81" break="no"/>lo. sicut hic deus dicitur de vno solo deo: quando tamen natum indiuidum 
+          <lb ed="#V" n="82"/>est in pluribus suppositis vnum indiuiduum potest dici de 
+          plu<lb ed="#V" n="83" break="no"/>ribus suppositis: sicut si idem color esset in pluribus substantis 
+          di<lb ed="#V" n="84" break="no"/>ceretur de eis. sic in proposito.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e243">
+          ¶ Ad 3m dico. quod hoc deus non 
+          <lb ed="#V" n="85"/>dicitur de patre et filio ad modum quo vniversale dicitur de singularibus et 
+          <lb ed="#V" n="86"/>superius de inferioribus: cum ita singularis sit hic deus: sicut 
+          <lb ed="#V" n="87"/>hic pater. sed ad modum quo hec humanitas dicitur de hoc homini 
+          <lb ed="#V" n="88"/>singulari.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e254">
+          ¶ Ad 4m dico. quod sicut in nobis multe hecei 
+          <lb ed="#V" n="89"/>tates concurrunt ad vnum hoc: quae tamen non faciunt distincta hec proapter 
+          <lb ed="#V" n="90"/>coincidentiam in idem. sic heceitates deitatis et persone 
+          coinci<lb ed="#V" n="91" break="no"/>duntur in idem saltem in idem realiter: et ideo non faciunt distincta in 
+          <lb ed="#V" n="92"/>diuidua: sicut non est aliud indiuiduum hominis et animalis. Ita nec 
+          <lb ed="#V" n="93"/>aliud habet deus et pater: et ideo indiuiduum dei coincidit cum tribus 
+          <lb ed="#V" n="94"/>respectiuis: licet heceitas absoluta non sit respectiua 
+          <lb ed="#V" n="95"/>viso intelligendum est ad quid ponitur hoc indiuiduum ab 
+          <lb ed="#V" n="96"/>hoc solutum in divinis: et dico hoc 4or conclusiones. prima est quod huic 
+          <lb ed="#V" n="97"/>indiuiduo attribuuntur omnes operationes essentiales ad 
+          im<lb ed="#V" n="98" break="no"/>tra et extra. probatur. quia hoc est bonus processus. hoc deus intelligit et prie 
+          <lb ed="#V" n="99"/>et filius et i scilicet sunt haec deus. ergo etc. et sic haec a. l. ergo hoc. deus est est 
+          <lb ed="#V" n="100"/>si medium hoc ad concludendum de quolibet supsto istas operatione 
+          <lb ed="#V" n="101"/>essentiales: quia sibi adequate conueniunt: et sic per ipsum 
+          di<lb ed="#V" n="102" break="no"/>omnibus suppositis possunt demonstrari.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e287">
+          ¶ 2a conclusio est. quod 
+          <lb ed="#V" n="103"/>operationes notionales ad intra: siue ad extra non 
+          con<lb ed="#V" n="104" break="no"/>ueniunt primo huic deo vel isti indiuiduo: sicut sunt 
+          gene<lb ed="#V" n="105" break="no"/>rare et spirare et incarnari. quia si sic. tunc iste operationes 
+          <lb ed="#V" n="106"/>omnibus conuenirent: quod est fal sum.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e299">
+          ¶ 3a conclusio est. quod hic deus est 
+          <lb ed="#V" n="107"/>communis omnibus personis. Nam omnes persone sunt vnus deus: 
+          <lb ed="#V" n="108"/>et non nisi vnus deus numero. ergo sunt haec deus.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e306">
+          ¶ 4a 
+          conclu<lb ed="#V" n="109" break="no"/>sio est. quod licet indiuiduum sit idem realiter cum qualibet persona: 
+          <lb ed="#V" n="110"/>non tamen formaliter: quia est absolutum: persona autem relatiua 
+        </p>
+        <p xml:id="FrMS88-e61286-d1e313">
+          <lb ed="#V" n="111"/>¶ Sed contra hec instatur quadrupliciter.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e318">
+          ¶ Primo sic. Si 
+          <lb ed="#V" n="112"/>ille est bonus processus qui est factus in prima conclusione: iste 
+          <lb ed="#V" n="113"/>erit bonus: hic deus generat: hec essentia est hic deus. 
+          er<lb ed="#V" n="114" break="no"/>go etc.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e327">
+          ¶ 2o. quia cum hic deus sit prior patre: hic deus prius 
+          <lb ed="#V" n="115"/>creabit quam pater. quod est falsum.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e332">
+          ¶ Tertio. Quia quid 
+          <lb ed="#V" n="116"/>quid attribuiter inferiori videtur competere superiori: sed 
+          distin<lb ed="#V" n="117" break="no"/>ctio attribuitur patri: ergo huic deo: ergo sicut pater 
+          distingui<lb ed="#V" n="118" break="no"/>tur a filio: ita hic deus ab hoc deo.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e342">
+          ¶ Quarto. quia tunc 
+          <lb ed="#V" n="119"/>saltem erunt 4or supposita formaliter distincta: cum illud 
+          indi<lb ed="#V" n="120" break="no"/>uiduum formaliter absolutum formaliter distinguatur a 
+          rela<lb ed="#V" n="121" break="no"/>tiuis.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e351">
+          ¶ Ad primum dico. quod deitas vel essentia sunt magis 
+          ab<lb ed="#V" n="122" break="no"/>stracta quam sit hic deus: ideo multa de hoc deo verifica 
+          <lb ed="#V" n="123"/>ri possunt: que non verificantur de essentia vel deitate.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e358">
+          ¶ Si 
+          <lb ed="#V" n="124"/>dicatur quod hoc deus nullo modo distinguitur ab essentia. ergo quod 
+          <lb ed="#V" n="125"/>sibi conuenit et essentie conuenit. Dico quod ratione illius quod 
+          con<lb ed="#V" n="126" break="no"/>cernit hic deus quod non concernit deitas: potest suppone. 
+          <lb ed="#V" n="127"/>re pro personis: pro quibus non supponit essentia vel 
+          dei<lb ed="#V" n="128" break="no"/>tas.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e371">
+          ¶ Ad 2m dico. quod actio duobus attribuitur scilicet principio quo 
+          <lb ed="#V" n="129"/>et principio quod et semper prius priuio quo quam pripuio quod suo modo. 
+          <lb ed="#V" n="130"/>Unde concedo quod hoc deus prius creat eo modo quo tale priamo 
+          <lb ed="#V" n="131"/>dicatum competit pripio quo: quam creat pater vel filius. Sed  
+          <lb ed="#V" n="132"/>in generatione est ne hic deus quo vel quod. Dico quod re¬ 
+          <!--170.xml-->
+          <pb ed="#V" n="84-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>spectu persone est quo. respectu autem essentie est quod. 
+        </p>
+        <p xml:id="FrMS88-e61286-d1e391">
+          <lb ed="#V" n="2"/>¶ Ad 3m dico. quod predicatum negatiuum dictum de 
+          in<lb ed="#V" n="3" break="no"/>seriori. non propter hoc dicitur de superiori: vel etiam 
+          equipol<lb ed="#V" n="4" break="no"/>lens negatiuo: cuiusmodi est distinctio.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e400">
+          ¶ Ad 4m dico. 
+          <lb ed="#V" n="5"/>quod non est inconueniens formaliter loquendo: concedere 
+          mul<lb ed="#V" n="6" break="no"/>ta indiuidua formaliter distincta: licet non plura 
+          suppo<lb ed="#V" n="7" break="no"/>sita.
+        </p>
+        <p xml:id="FrMS88-e61286-d1e410">
+          ¶ Ad argumentum patet. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

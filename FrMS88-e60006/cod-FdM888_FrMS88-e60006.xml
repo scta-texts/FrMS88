@@ -1,294 +1,294 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="82-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e60006"><!-- l1d24-25q2 -->
-            <head xml:id="FrMS88-e60006-Hd1e108">Quaestio 2</head>
-            <p xml:id="FrMS88-e60006-d1e111">
-      Questio. ii. 
-      <lb ed="#V" n="7"/>UTrum in deo sit forma vnitas. Quod non 
-      <lb ed="#V" n="8"/>quia nulla prtio prium viditur posse esse in 
-      <lb ed="#V" n="9"/>deo. vnitas est huiusmodi.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e120">
-      ¶ contra hi tres vnum sunt 
-      <lb ed="#V" n="10"/>hic primo dicendum est de vnitate in se. 2o de 
-      vni<lb ed="#V" n="11" break="no"/> tate comperando ad deum  
-      <lb ed="#V" n="12"/>ad primum praemittuntur 4or praeabula. primum est 
-      <lb ed="#V" n="13"/>Quantum quod ratio formalis vnius vnitate 
-      simplicita<lb ed="#V" n="14" break="no"/>tis consistit in distinctione et non in disione tantum: nam partes continui no 
-      <lb ed="#V" n="15"/>sunt vnum vnitate simplicitatis: cum tamen sint indiuise in actu. 
-      </p>
-            <p xml:id="FrMS88-e60006-d1e136">
-               <lb ed="#V" n="16"/>¶ 2m praemabulum est. quod ratio formalis vnius quod est vnum vnitate 
-      <lb ed="#V" n="17"/>compositionis non consistit in distinctone: sed in disionoe: quia matearim et 
-      forma<lb ed="#V" n="18" break="no"/>quae faciunt vnum vnitate compositionis: quanuis sint indiuisa: non tamen 
-      <lb ed="#V" n="19"/>actualiter indistincta: vt patet in anima et corpore.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e147">
-      ¶ 3m est quod de ratione 
-      <lb ed="#V" n="20"/>vnitatis simplitbus non requritur esse distinctum ab alio cum disto 
-      <lb ed="#V" n="21"/>sit respectus: quia cum omne distinctum sit ab alio distinctum: tunc 
-      ces<lb ed="#V" n="22" break="no"/>sante altero extremorum cessaret esse vnum quod est sim.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e157">
-      ¶ 4m 
-      <lb ed="#V" n="23"/>est. quod in ratione vnitatis composite non concurrit esse diuisum ab 
-      <lb ed="#V" n="24"/>alio. nam si non esset nisi vnu continuum in vniuerso nulla esset 
-      di<lb ed="#V" n="25" break="no"/>uisio: cum ipsa dicat respectum inter diuersa divisa: et tamen iliud 
-      conti<lb ed="#V" n="26" break="no"/>nuum esset vere vnum: vnitate sibi conueniente.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e168">
-      ¶ his visis 
-      po<lb ed="#V" n="27" break="no"/>no 4or conclusiones. Prima est quod ratio vnitatis non est ab anima: sed extr 
-      <lb ed="#V" n="28"/>hoc probo sic. Nulla passio alicus realis potest esse ab anima fabri 
-      <lb ed="#V" n="29"/>cata: sed vnitas est passio alicus existentis in rerum natura scilicet entis: de 
-      <lb ed="#V" n="30"/>quanullus negat quin sit in rerum natura. ergo ratio vniauis non erit ab 
-      aim<lb ed="#V" n="31" break="no"/>tabricata.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e181">
-      ¶ 2a conclusio est. quod ratio vnitati: est ratio prius et non positiua. 
-      <lb ed="#V" n="32"/>Dicunt tamen aliqui quod ratio vnitatis est positiua: quia negaus negonnis 
-      <lb ed="#V" n="33"/>videtur aliquid positiuum esse: modo disio est negatus continuitatis. priuau 
-      <lb ed="#V" n="34"/>ienm integritatem: ergo indiuisio ei oppositia erit positiua: vnitas 
-      <lb ed="#V" n="35"/>ant est quadam indiuisio. ergo etc. Sed isto stare non potest. ideo arguo contra hoc 
-      <lb ed="#V" n="36"/>probando conclusione oporntum.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e194">
-      ¶ Primo sic. Quando sunt aliqua duo primum 
-      <lb ed="#V" n="37"/>oppositum si potest demonstrari quod vnum sit positiuum euidenter potest 
-      de<lb ed="#V" n="38" break="no"/>monstrari alterum esse priuatiuum: sed multitudo priuatiue 
-      oppo<lb ed="#V" n="39" break="no"/>vnitati. multitudo autem est quid positiuum. hoc probo. quia 
-      multitu<lb ed="#V" n="40" break="no"/>do includit distitonem et disto dicit respectum positiuum. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e205">
-      ¶ PrPeia 
-      <lb ed="#V" n="41"/>Actio realis habet terminum realem: sed disio est vere actio 
-      rea<lb ed="#V" n="42" break="no"/>lis: et terminatur ad multium es. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e212">
-      ¶ 2o nllibet positiuum 
-      fun<lb ed="#V" n="43" break="no"/>datur in priuatiuo: sed vnitas fundatur in priuatiuo. probo. quia vbi 
-      <lb ed="#V" n="44"/>oppositio: ibi dualitas. et per consequens vnitas. nam vnum vni 
-      oppo<lb ed="#V" n="45" break="no"/>nitur. ergo in vtroque extremorum contradictionis est vnitas.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e222">
-      ¶ 3o. Quod 
-      <lb ed="#V" n="46"/>cumque denominatiue dicitur de omni positiuo non est positiuum. vnitas 
-      <lb ed="#V" n="47"/>est huiusmodi. quia non est dare aliquid quod non sit indisum. Maior patet. quia 
-      <lb ed="#V" n="48"/>si esset positiuum tunc diceretur de seipso: quod est slicet. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e231">
-      ¶ 4o 
-      <lb ed="#V" n="49"/>Quando aliquod subiectum se habet ad duo contraria positiua in esse 
-      immedia<lb ed="#V" n="50" break="no"/>te deus potest facere subiectum sine altero illorum: sed deus non potest 
-      fa<lb ed="#V" n="51" break="no"/>cere quin sit vnum vel multa: et tamen succedunt sibiuicem in eodem 
-      <lb ed="#V" n="52"/>subiecto. quiro ergo vnde est quod deus separare n possit: non propter identitatem 
-      <lb ed="#V" n="53"/>ad alteru. quia sine altero pot esse: nec propter illud. quia vtrumque 
-      <lb ed="#V" n="54"/>est positiuum: quia in aliis positiuis potest hoc. ergo hoc erit. quia 
-      priua<lb ed="#V" n="55" break="no"/>tiue opposito sunt. Nec argumentum eorum valet. no enim negatur quin 
-      <lb ed="#V" n="56"/>per diuisionem aliquid corrumpatur. sed oportet cum hoc quod aliquid fiat. 
-      </p>
-            <p xml:id="FrMS88-e60006-d1e251">
-               <lb ed="#V" n="57"/>¶ Exiten. per elongationem enim ignis ab aqua caliditas 
-      corrum<lb ed="#V" n="58" break="no"/>pitur: ipsa tamen elongatio est distantia vel respectus 
-      positi<lb ed="#V" n="59" break="no"/>uus.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e260">
-      ¶ 3a conclusio. quod ratio vnitatis ex se et ex ratione sua: nec 
-      <lb ed="#V" n="60"/>substantialis est: nec accidentalis: quia continuum habens vnitatem sine 
-      il<lb ed="#V" n="61" break="no"/>la potest esse. ergo non est substantial. Similiter habens ens: habet vnitatem vt passio 
-      <lb ed="#V" n="62"/>ne propriam. ergo non est accidentalis.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e269">
-      ¶ 4a conclusio est. quod ratio vnitatis non 
-      <lb ed="#V" n="63"/>est absolutua nec respectiua. quia illud quod competit tam 
-      absolu<lb ed="#V" n="64" break="no"/>to quam respectiuo non potest ex se et ex ratione: sua esse absolutum vel 
-      re<lb ed="#V" n="65" break="no"/>spectiuum: sed vnitas e huiusmodi. sicut et veritas et bonitas et passio 
-      <lb ed="#V" n="66"/>nes enti. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e280">
-      ¶ Sed contra istas conclusiones instatur quadrupliciter.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e284">
-      ¶ Pri¬ 
-      <!--166.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>mo sicontra prim. Si vnitas competit entiam extra animam: sequitur tunc quod 
-      si<lb ed="#V" n="68" break="no"/>cut omnia sunt ens extra animam: ita omnia erunt vnum ens extra animam: 
-      <lb ed="#V" n="69"/>quia cuicumque conuenit subiectum et propria passio denominans subiectum 
-      <lb ed="#V" n="70"/>illud.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e300">
-      ¶ 2a contra 2am sic. Nulla perfectio simpliciter videtur dicere 
-      ali<lb ed="#V" n="71" break="no"/>quid priuatiuum: sed vnitas est perfectio simpliciter. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e305">
-      ¶ 3a contra 
-      <lb ed="#V" n="72"/>3a sic. Illud quod potest abeem praeter subiecti corruptionem est accidens: 
-      <lb ed="#V" n="73"/>sedt vnitas continui est huiusmodi. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e312">
-      ¶ 4a contra 4am. Negus secundum Aug. 
-      <lb ed="#V" n="74"/>est in eodem genere cum affirmatione sibi oppositum. sed divisio vel 
-      plurali<lb ed="#V" n="75" break="no"/>tas oppositua vnius videtur esse in genere relationis: sicut dictum fuit in principio 
-      quaestio<lb ed="#V" n="76" break="no"/>nis. ergo et vnitas quae est priuatio eius.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e321">
-      ¶ Ad primum dico. quod non est quo 
-      <lb ed="#V" n="77"/>poterit negare quin omnium creaturarum: et etiam omnium entium sil 
-      <lb ed="#V" n="78"/>aliqua vnitas: et omnia sunt vnum illa vnitate quae etiam est extra animam: 
-      <lb ed="#V" n="79"/>cum hoc tamen stant diuersitas et differentiae: et omnia quae dicuntur de entibus. 
-      </p>
-            <p xml:id="FrMS88-e60006-d1e330">
-               <lb ed="#V" n="80"/>¶ Ad 2m dico. quod vnitas et multe negatines sicut 
-      immortali<lb ed="#V" n="81" break="no"/>tas licet ex se formaliter non dicunt perfectionem simpliciter: tamen bene 
-      <lb ed="#V" n="82"/>fundamentaliter ratione substrati perfeleltstum dicunt: sed illud non videtur 
-      <lb ed="#V" n="83"/>sufficere: quia sic paternitas diceret perfectionem simpliciter. similiter 
-      <lb ed="#V" n="84"/>vnitas albedis ratione substrati non dicit perfectionem 
-      sim<lb ed="#V" n="85" break="no"/>pliciter. ergo ipsa non erit perfectio simpliciter.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e347">
-      ¶ Dico ergo quod 
-      <lb ed="#V" n="86"/>non est inconueniens dicere quod aliquae priuationes quae priuant 
-      imperfectio<lb ed="#V" n="87" break="no"/>nes sint meliores in quolibet ipse: quam non ipse. et sic diffinitionem 
-      <lb ed="#V" n="88"/>perfectionis simpliciter accipiunt.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e356">
-      ¶ Ad 3m potest dici quod 
-      vni<lb ed="#V" n="89" break="no"/>tas continuitatis non destruitur nisi destructa forma 
-      continu<lb ed="#V" n="90" break="no"/>tatis: sicut si destrueretur caelum forma et mobilitas 
-      de<lb ed="#V" n="91" break="no"/>strueretur: sic in proposito.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e365">
-      ¶ Sed adhuc stat di. quia 
-      vn<lb ed="#V" n="92" break="no"/>tas sola est quae abstrahit: quae scilicet est transcendens. sed vnitas 
-      tran<lb ed="#V" n="93" break="no"/>scendens est essentialis. ergo vnitas quae abstrahit est essentialis 
-      </p>
-            <p xml:id="FrMS88-e60006-d1e372">
-               <lb ed="#V" n="94"/>¶ Dico quod vnitas quae est transcendens conuertitur cum ente. sed 
-      <lb ed="#V" n="95"/>tamen ista non est illa. de qua loquimur. quia illa non habet aliquid 
-      po<lb ed="#V" n="96" break="no"/>sitiuum oppositum: sed loquimur de vnitate quae habet multitudinem 
-      <lb ed="#V" n="97"/>oppositam: de illa autem dico. quod non est substantia nec 
-      accidens<lb ed="#V" n="98" break="no"/>nam in aliquibus est essentialis in aliquibus accuntalis. 
-      abstra<lb ed="#V" n="99" break="no"/>hit enim sed quod sit accidens in isto: hoc est per accidens: vel quod sit 
-      essen<lb ed="#V" n="100" break="no"/>tialis similiter.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e390">
-      ¶ Ad 4m dico. quod vnitas bene reducitur ad 
-      ge<lb ed="#V" n="101" break="no"/>nus illius quod priuat: et ideo quia primo priuat illud quod abstrahit ab 
-      <lb ed="#V" n="102"/>omni genere: puta diuisionem qui est transcendens sic ipsa abstrahit 
-      <lb ed="#V" n="103"/>ab omni genere: quando autem priuat multitudinem que est in 
-      ge<lb ed="#V" n="104" break="no"/>nere: tunc reducitur ad illud genus 
-      <lb ed="#V" n="105"/>videndum est de principali quaesito scilicet vtrum 
-      <lb ed="#V" n="106"/>Secundo vnitas sit in deo.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e406">
-      ¶ Circa quod sciendum 
-      <lb ed="#V" n="107"/>quod quadruplex vnitas inuenitur. quedam est vnitas quae est 
-      pas<lb ed="#V" n="108" break="no"/>sio entis secundum totam eius latitudinem et denominationem: alia est 
-      <lb ed="#V" n="109"/>que conuertitur cum ratione entis praecise: et isto modo non dicitur 
-      <lb ed="#V" n="110"/>de bono et vero: sed de ratione entis praecise. et illa non 
-      com<lb ed="#V" n="111" break="no"/>petit nisi rationi formali entis: vt distinguitur contra omnem aliam 
-      <lb ed="#V" n="112"/>que non est ipsa. Prima istarum vnitatum 2m latitudininem 
-      en<lb ed="#V" n="113" break="no"/>tis accepta dicitur de omnibus quae sunt in deo: tam 
-      differenti<lb ed="#V" n="114" break="no"/>bus sicut sunt persone: quam diuersis sicut sunt relationes 
-      vl<lb ed="#V" n="115" break="no"/>timate constitutiue: sed 2a vnitas 2o modo accepta non habet 
-      <lb ed="#V" n="116"/>praecise denominare nisi rationem entis et nihil aliud. 3or accipit 
-      <lb ed="#V" n="117"/>vnitas vt est diuisiua ipsius entis: vt scilicet diuiditur contra mul¬ 
-      <lb ed="#V" n="118"/>¬titudininem: et isto modo probatur vnum deum esse et non plures: 
-      <lb ed="#V" n="119"/>quia talis pluralitas deorum vel multitudo multa 
-      incom<lb ed="#V" n="120" break="no"/>possibilia includit. 4o accipitur prout est principium numeri 
-      <lb ed="#V" n="121"/>transcendentis. et isto modo dicimus quod persona est vna sicut 
-      <lb ed="#V" n="122"/>trinitas inuenitur in diuinis. et sicut numerus: ita est ibi 
-      vni<lb ed="#V" n="123" break="no"/>tas: quia omnis multitudo secundum rem vel rationem quodammo 
-      respi<lb ed="#V" n="124" break="no"/>cit vnitatem.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e449">
-      ¶ Sed hic est di. si iste vnitates sunt 
-      diuer<lb ed="#V" n="125" break="no"/>sarum rationum. Dico quod non. quia diffinitio vnitatis siue sit 
-      <lb ed="#V" n="126"/>indiuisio in se vel carentia pluralitatis omnibus istis 
-      compe<lb ed="#V" n="127" break="no"/>tit: nec fit istarum vnitatum distinctio nisi penes substantia: sicut 
-      <lb ed="#V" n="128"/>cecitas in oculo leonis non est alterius rationis a cecitate 
-      <lb ed="#V" n="129"/>bouis.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e462">
-      ¶ Sed aliud dubus est. Utrum diuisio et pluralitas 
-      <lb ed="#V" n="130"/>et distinctio ex parte vna sint idem: et vnitas et indiuisio et 
-      indi<lb ed="#V" n="131" break="no"/>stinctio ex parte alia sint idem. Dico quod non omnibus modis. 
-      <lb ed="#V" n="132"/>potest enim vnitas esse aliquid formaliter. quod non est indiui¬ 
-      <!--167.xml-->
-      <pb ed="#V" n="82-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>sio nec indistinctio formaliter: sicut videmus in oppositis 
-      <lb ed="#V" n="2"/>scilicet in pluralitate diuisione et distione: quia vnum potest esse 
-      <lb ed="#V" n="3"/>sine alio: sicut disto sine diuisione: vt patet in partibus 
-      conti<lb ed="#V" n="4" break="no"/>nui.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e486">
-      ¶ Sed est difficultas quomodo vnitas potest competere multis quae 
-      <lb ed="#V" n="5"/>nihil habent commune: eo quod vnitas passionis videatur exigere 
-      vni<lb ed="#V" n="6" break="no"/>tatem subiecti.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e493">
-      ¶ Dico quod illa regula fallit in praedicatis 
-      nega<lb ed="#V" n="7" break="no"/>tiuis: et in multis habitudinibus: in quibus conueniun 
-      <lb ed="#V" n="8"/>primo diuersa.
-    </p>
-            <p xml:id="FrMS88-e60006-d1e500">
-      ¶ Ad argumentum patet. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="82-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e60006"><!-- l1d24-25q2 -->
+        <head xml:id="FrMS88-e60006-Hd1e108">Quaestio 2</head>
+        <p xml:id="FrMS88-e60006-d1e111">
+          Questio. ii. 
+          <lb ed="#V" n="7"/>UTrum in deo sit forma vnitas. Quod non 
+          <lb ed="#V" n="8"/>quia nulla prtio prium viditur posse esse in 
+          <lb ed="#V" n="9"/>deo. vnitas est huiusmodi.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e120">
+          ¶ contra hi tres vnum sunt 
+          <lb ed="#V" n="10"/>hic primo dicendum est de vnitate in se. 2o de 
+          vni<lb ed="#V" n="11" break="no"/> tate comperando ad deum  
+          <lb ed="#V" n="12"/>ad primum praemittuntur 4or praeabula. primum est 
+          <lb ed="#V" n="13"/>Quantum quod ratio formalis vnius vnitate 
+          simplicita<lb ed="#V" n="14" break="no"/>tis consistit in distinctione et non in disione tantum: nam partes continui no 
+          <lb ed="#V" n="15"/>sunt vnum vnitate simplicitatis: cum tamen sint indiuise in actu. 
+        </p>
+        <p xml:id="FrMS88-e60006-d1e136">
+          <lb ed="#V" n="16"/>¶ 2m praemabulum est. quod ratio formalis vnius quod est vnum vnitate 
+          <lb ed="#V" n="17"/>compositionis non consistit in distinctone: sed in disionoe: quia matearim et 
+          forma<lb ed="#V" n="18" break="no"/>quae faciunt vnum vnitate compositionis: quanuis sint indiuisa: non tamen 
+          <lb ed="#V" n="19"/>actualiter indistincta: vt patet in anima et corpore.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e147">
+          ¶ 3m est quod de ratione 
+          <lb ed="#V" n="20"/>vnitatis simplitbus non requritur esse distinctum ab alio cum disto 
+          <lb ed="#V" n="21"/>sit respectus: quia cum omne distinctum sit ab alio distinctum: tunc 
+          ces<lb ed="#V" n="22" break="no"/>sante altero extremorum cessaret esse vnum quod est sim.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e157">
+          ¶ 4m 
+          <lb ed="#V" n="23"/>est. quod in ratione vnitatis composite non concurrit esse diuisum ab 
+          <lb ed="#V" n="24"/>alio. nam si non esset nisi vnu continuum in vniuerso nulla esset 
+          di<lb ed="#V" n="25" break="no"/>uisio: cum ipsa dicat respectum inter diuersa divisa: et tamen iliud 
+          conti<lb ed="#V" n="26" break="no"/>nuum esset vere vnum: vnitate sibi conueniente.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e168">
+          ¶ his visis 
+          po<lb ed="#V" n="27" break="no"/>no 4or conclusiones. Prima est quod ratio vnitatis non est ab anima: sed extr 
+          <lb ed="#V" n="28"/>hoc probo sic. Nulla passio alicus realis potest esse ab anima fabri 
+          <lb ed="#V" n="29"/>cata: sed vnitas est passio alicus existentis in rerum natura scilicet entis: de 
+          <lb ed="#V" n="30"/>quanullus negat quin sit in rerum natura. ergo ratio vniauis non erit ab 
+          aim<lb ed="#V" n="31" break="no"/>tabricata.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e181">
+          ¶ 2a conclusio est. quod ratio vnitati: est ratio prius et non positiua. 
+          <lb ed="#V" n="32"/>Dicunt tamen aliqui quod ratio vnitatis est positiua: quia negaus negonnis 
+          <lb ed="#V" n="33"/>videtur aliquid positiuum esse: modo disio est negatus continuitatis. priuau 
+          <lb ed="#V" n="34"/>ienm integritatem: ergo indiuisio ei oppositia erit positiua: vnitas 
+          <lb ed="#V" n="35"/>ant est quadam indiuisio. ergo etc. Sed isto stare non potest. ideo arguo contra hoc 
+          <lb ed="#V" n="36"/>probando conclusione oporntum.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e194">
+          ¶ Primo sic. Quando sunt aliqua duo primum 
+          <lb ed="#V" n="37"/>oppositum si potest demonstrari quod vnum sit positiuum euidenter potest 
+          de<lb ed="#V" n="38" break="no"/>monstrari alterum esse priuatiuum: sed multitudo priuatiue 
+          oppo<lb ed="#V" n="39" break="no"/>vnitati. multitudo autem est quid positiuum. hoc probo. quia 
+          multitu<lb ed="#V" n="40" break="no"/>do includit distitonem et disto dicit respectum positiuum. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e205">
+          ¶ PrPeia 
+          <lb ed="#V" n="41"/>Actio realis habet terminum realem: sed disio est vere actio 
+          rea<lb ed="#V" n="42" break="no"/>lis: et terminatur ad multium es. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e212">
+          ¶ 2o nllibet positiuum 
+          fun<lb ed="#V" n="43" break="no"/>datur in priuatiuo: sed vnitas fundatur in priuatiuo. probo. quia vbi 
+          <lb ed="#V" n="44"/>oppositio: ibi dualitas. et per consequens vnitas. nam vnum vni 
+          oppo<lb ed="#V" n="45" break="no"/>nitur. ergo in vtroque extremorum contradictionis est vnitas.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e222">
+          ¶ 3o. Quod 
+          <lb ed="#V" n="46"/>cumque denominatiue dicitur de omni positiuo non est positiuum. vnitas 
+          <lb ed="#V" n="47"/>est huiusmodi. quia non est dare aliquid quod non sit indisum. Maior patet. quia 
+          <lb ed="#V" n="48"/>si esset positiuum tunc diceretur de seipso: quod est slicet. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e231">
+          ¶ 4o 
+          <lb ed="#V" n="49"/>Quando aliquod subiectum se habet ad duo contraria positiua in esse 
+          immedia<lb ed="#V" n="50" break="no"/>te deus potest facere subiectum sine altero illorum: sed deus non potest 
+          fa<lb ed="#V" n="51" break="no"/>cere quin sit vnum vel multa: et tamen succedunt sibiuicem in eodem 
+          <lb ed="#V" n="52"/>subiecto. quiro ergo vnde est quod deus separare n possit: non propter identitatem 
+          <lb ed="#V" n="53"/>ad alteru. quia sine altero pot esse: nec propter illud. quia vtrumque 
+          <lb ed="#V" n="54"/>est positiuum: quia in aliis positiuis potest hoc. ergo hoc erit. quia 
+          priua<lb ed="#V" n="55" break="no"/>tiue opposito sunt. Nec argumentum eorum valet. no enim negatur quin 
+          <lb ed="#V" n="56"/>per diuisionem aliquid corrumpatur. sed oportet cum hoc quod aliquid fiat. 
+        </p>
+        <p xml:id="FrMS88-e60006-d1e251">
+          <lb ed="#V" n="57"/>¶ Exiten. per elongationem enim ignis ab aqua caliditas 
+          corrum<lb ed="#V" n="58" break="no"/>pitur: ipsa tamen elongatio est distantia vel respectus 
+          positi<lb ed="#V" n="59" break="no"/>uus.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e260">
+          ¶ 3a conclusio. quod ratio vnitatis ex se et ex ratione sua: nec 
+          <lb ed="#V" n="60"/>substantialis est: nec accidentalis: quia continuum habens vnitatem sine 
+          il<lb ed="#V" n="61" break="no"/>la potest esse. ergo non est substantial. Similiter habens ens: habet vnitatem vt passio 
+          <lb ed="#V" n="62"/>ne propriam. ergo non est accidentalis.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e269">
+          ¶ 4a conclusio est. quod ratio vnitatis non 
+          <lb ed="#V" n="63"/>est absolutua nec respectiua. quia illud quod competit tam 
+          absolu<lb ed="#V" n="64" break="no"/>to quam respectiuo non potest ex se et ex ratione: sua esse absolutum vel 
+          re<lb ed="#V" n="65" break="no"/>spectiuum: sed vnitas e huiusmodi. sicut et veritas et bonitas et passio 
+          <lb ed="#V" n="66"/>nes enti. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e280">
+          ¶ Sed contra istas conclusiones instatur quadrupliciter.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e284">
+          ¶ Pri¬ 
+          <!--166.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>mo sicontra prim. Si vnitas competit entiam extra animam: sequitur tunc quod 
+          si<lb ed="#V" n="68" break="no"/>cut omnia sunt ens extra animam: ita omnia erunt vnum ens extra animam: 
+          <lb ed="#V" n="69"/>quia cuicumque conuenit subiectum et propria passio denominans subiectum 
+          <lb ed="#V" n="70"/>illud.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e300">
+          ¶ 2a contra 2am sic. Nulla perfectio simpliciter videtur dicere 
+          ali<lb ed="#V" n="71" break="no"/>quid priuatiuum: sed vnitas est perfectio simpliciter. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e305">
+          ¶ 3a contra 
+          <lb ed="#V" n="72"/>3a sic. Illud quod potest abeem praeter subiecti corruptionem est accidens: 
+          <lb ed="#V" n="73"/>sedt vnitas continui est huiusmodi. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e312">
+          ¶ 4a contra 4am. Negus secundum Aug. 
+          <lb ed="#V" n="74"/>est in eodem genere cum affirmatione sibi oppositum. sed divisio vel 
+          plurali<lb ed="#V" n="75" break="no"/>tas oppositua vnius videtur esse in genere relationis: sicut dictum fuit in principio 
+          quaestio<lb ed="#V" n="76" break="no"/>nis. ergo et vnitas quae est priuatio eius.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e321">
+          ¶ Ad primum dico. quod non est quo 
+          <lb ed="#V" n="77"/>poterit negare quin omnium creaturarum: et etiam omnium entium sil 
+          <lb ed="#V" n="78"/>aliqua vnitas: et omnia sunt vnum illa vnitate quae etiam est extra animam: 
+          <lb ed="#V" n="79"/>cum hoc tamen stant diuersitas et differentiae: et omnia quae dicuntur de entibus. 
+        </p>
+        <p xml:id="FrMS88-e60006-d1e330">
+          <lb ed="#V" n="80"/>¶ Ad 2m dico. quod vnitas et multe negatines sicut 
+          immortali<lb ed="#V" n="81" break="no"/>tas licet ex se formaliter non dicunt perfectionem simpliciter: tamen bene 
+          <lb ed="#V" n="82"/>fundamentaliter ratione substrati perfeleltstum dicunt: sed illud non videtur 
+          <lb ed="#V" n="83"/>sufficere: quia sic paternitas diceret perfectionem simpliciter. similiter 
+          <lb ed="#V" n="84"/>vnitas albedis ratione substrati non dicit perfectionem 
+          sim<lb ed="#V" n="85" break="no"/>pliciter. ergo ipsa non erit perfectio simpliciter.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e347">
+          ¶ Dico ergo quod 
+          <lb ed="#V" n="86"/>non est inconueniens dicere quod aliquae priuationes quae priuant 
+          imperfectio<lb ed="#V" n="87" break="no"/>nes sint meliores in quolibet ipse: quam non ipse. et sic diffinitionem 
+          <lb ed="#V" n="88"/>perfectionis simpliciter accipiunt.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e356">
+          ¶ Ad 3m potest dici quod 
+          vni<lb ed="#V" n="89" break="no"/>tas continuitatis non destruitur nisi destructa forma 
+          continu<lb ed="#V" n="90" break="no"/>tatis: sicut si destrueretur caelum forma et mobilitas 
+          de<lb ed="#V" n="91" break="no"/>strueretur: sic in proposito.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e365">
+          ¶ Sed adhuc stat di. quia 
+          vn<lb ed="#V" n="92" break="no"/>tas sola est quae abstrahit: quae scilicet est transcendens. sed vnitas 
+          tran<lb ed="#V" n="93" break="no"/>scendens est essentialis. ergo vnitas quae abstrahit est essentialis 
+        </p>
+        <p xml:id="FrMS88-e60006-d1e372">
+          <lb ed="#V" n="94"/>¶ Dico quod vnitas quae est transcendens conuertitur cum ente. sed 
+          <lb ed="#V" n="95"/>tamen ista non est illa. de qua loquimur. quia illa non habet aliquid 
+          po<lb ed="#V" n="96" break="no"/>sitiuum oppositum: sed loquimur de vnitate quae habet multitudinem 
+          <lb ed="#V" n="97"/>oppositam: de illa autem dico. quod non est substantia nec 
+          accidens<lb ed="#V" n="98" break="no"/>nam in aliquibus est essentialis in aliquibus accuntalis. 
+          abstra<lb ed="#V" n="99" break="no"/>hit enim sed quod sit accidens in isto: hoc est per accidens: vel quod sit 
+          essen<lb ed="#V" n="100" break="no"/>tialis similiter.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e390">
+          ¶ Ad 4m dico. quod vnitas bene reducitur ad 
+          ge<lb ed="#V" n="101" break="no"/>nus illius quod priuat: et ideo quia primo priuat illud quod abstrahit ab 
+          <lb ed="#V" n="102"/>omni genere: puta diuisionem qui est transcendens sic ipsa abstrahit 
+          <lb ed="#V" n="103"/>ab omni genere: quando autem priuat multitudinem que est in 
+          ge<lb ed="#V" n="104" break="no"/>nere: tunc reducitur ad illud genus 
+          <lb ed="#V" n="105"/>videndum est de principali quaesito scilicet vtrum 
+          <lb ed="#V" n="106"/>Secundo vnitas sit in deo.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e406">
+          ¶ Circa quod sciendum 
+          <lb ed="#V" n="107"/>quod quadruplex vnitas inuenitur. quedam est vnitas quae est 
+          pas<lb ed="#V" n="108" break="no"/>sio entis secundum totam eius latitudinem et denominationem: alia est 
+          <lb ed="#V" n="109"/>que conuertitur cum ratione entis praecise: et isto modo non dicitur 
+          <lb ed="#V" n="110"/>de bono et vero: sed de ratione entis praecise. et illa non 
+          com<lb ed="#V" n="111" break="no"/>petit nisi rationi formali entis: vt distinguitur contra omnem aliam 
+          <lb ed="#V" n="112"/>que non est ipsa. Prima istarum vnitatum 2m latitudininem 
+          en<lb ed="#V" n="113" break="no"/>tis accepta dicitur de omnibus quae sunt in deo: tam 
+          differenti<lb ed="#V" n="114" break="no"/>bus sicut sunt persone: quam diuersis sicut sunt relationes 
+          vl<lb ed="#V" n="115" break="no"/>timate constitutiue: sed 2a vnitas 2o modo accepta non habet 
+          <lb ed="#V" n="116"/>praecise denominare nisi rationem entis et nihil aliud. 3or accipit 
+          <lb ed="#V" n="117"/>vnitas vt est diuisiua ipsius entis: vt scilicet diuiditur contra mul¬ 
+          <lb ed="#V" n="118"/>¬titudininem: et isto modo probatur vnum deum esse et non plures: 
+          <lb ed="#V" n="119"/>quia talis pluralitas deorum vel multitudo multa 
+          incom<lb ed="#V" n="120" break="no"/>possibilia includit. 4o accipitur prout est principium numeri 
+          <lb ed="#V" n="121"/>transcendentis. et isto modo dicimus quod persona est vna sicut 
+          <lb ed="#V" n="122"/>trinitas inuenitur in diuinis. et sicut numerus: ita est ibi 
+          vni<lb ed="#V" n="123" break="no"/>tas: quia omnis multitudo secundum rem vel rationem quodammo 
+          respi<lb ed="#V" n="124" break="no"/>cit vnitatem.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e449">
+          ¶ Sed hic est di. si iste vnitates sunt 
+          diuer<lb ed="#V" n="125" break="no"/>sarum rationum. Dico quod non. quia diffinitio vnitatis siue sit 
+          <lb ed="#V" n="126"/>indiuisio in se vel carentia pluralitatis omnibus istis 
+          compe<lb ed="#V" n="127" break="no"/>tit: nec fit istarum vnitatum distinctio nisi penes substantia: sicut 
+          <lb ed="#V" n="128"/>cecitas in oculo leonis non est alterius rationis a cecitate 
+          <lb ed="#V" n="129"/>bouis.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e462">
+          ¶ Sed aliud dubus est. Utrum diuisio et pluralitas 
+          <lb ed="#V" n="130"/>et distinctio ex parte vna sint idem: et vnitas et indiuisio et 
+          indi<lb ed="#V" n="131" break="no"/>stinctio ex parte alia sint idem. Dico quod non omnibus modis. 
+          <lb ed="#V" n="132"/>potest enim vnitas esse aliquid formaliter. quod non est indiui¬ 
+          <!--167.xml-->
+          <pb ed="#V" n="82-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>sio nec indistinctio formaliter: sicut videmus in oppositis 
+          <lb ed="#V" n="2"/>scilicet in pluralitate diuisione et distione: quia vnum potest esse 
+          <lb ed="#V" n="3"/>sine alio: sicut disto sine diuisione: vt patet in partibus 
+          conti<lb ed="#V" n="4" break="no"/>nui.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e486">
+          ¶ Sed est difficultas quomodo vnitas potest competere multis quae 
+          <lb ed="#V" n="5"/>nihil habent commune: eo quod vnitas passionis videatur exigere 
+          vni<lb ed="#V" n="6" break="no"/>tatem subiecti.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e493">
+          ¶ Dico quod illa regula fallit in praedicatis 
+          nega<lb ed="#V" n="7" break="no"/>tiuis: et in multis habitudinibus: in quibus conueniun 
+          <lb ed="#V" n="8"/>primo diuersa.
+        </p>
+        <p xml:id="FrMS88-e60006-d1e500">
+          ¶ Ad argumentum patet. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

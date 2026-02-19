@@ -1,254 +1,254 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 4</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 4</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="120-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e89087"><!-- l1d40-41q4 -->
-            <head xml:id="FrMS88-e89087-Hd1e108">Quaestio 4</head>
-            <p xml:id="FrMS88-e89087-d1e111">
-      Questio. iiii. 
-      <lb ed="#V" n="27"/>Utrum sit aliqua causa predestinationis. 
-      <lb ed="#V" n="28"/>Quod sic. in apotin. ditur. Ideo 
-      re<lb ed="#V" n="29" break="no"/>gnant cum deo: et agnus dei cum illis. Ideo est 
-      <lb ed="#V" n="30"/>illatio effectus cum causa.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e122">
-      ¶ Contra. Aug. in 
-      <lb ed="#V" n="31"/>lib. retractationum.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e127">
-      ¶ hic sunt duo 
-      princi<lb ed="#V" n="32" break="no"/>paliter inqurenda. Primum de quasito scilicet de causa 
-      praedestinatio<lb ed="#V" n="33" break="no"/>nis. 2m est de causa reprobationis. 
-      <lb ed="#V" n="34"/>ad primum intelligendum. quod aliquando videtur fuisse 
-      <lb ed="#V" n="35"/>Quatum Aug. illius opionis quod sic. quia dicebatur 
-      <lb ed="#V" n="36"/>fidere esse causam praedestinationis.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e140">
-      ¶ Sed contra sunt alii scienta. Et istud 
-      <lb ed="#V" n="37"/>onfirmatur quadruplici ratione. Primo confirmatur ratione 
-      pauli<lb ed="#V" n="38" break="no"/>lihil quod datur ex meritis est mere gratia: sed praedestiatio ad 
-      <lb ed="#V" n="39"/>vitam eternam est mere ex gratia. ergo praedestinatio non est ex me 
-      <lb ed="#V" n="40"/>itis. et per consequens non habet causam. Et 2o quia paulus dicit. quod antequam 
-      <lb ed="#V" n="41"/>quidquam boni vel mali egissent: elegit Iacob et no Esau. 
-      <lb ed="#V" n="42"/>3o. actus summe liberalis non habet causam: sed praedestinatio 
-      <lb ed="#V" n="43"/>est huiusmodi. ergo etc. 4o. quia si haberet causam. tunc deus non posset non 
-      praede<lb ed="#V" n="44" break="no"/>stinare sine iniustitia.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e161">
-      ¶ Sed contra illud instatur 4r. Primo. 
-      <lb ed="#V" n="45"/>quia secundum Ans. sicut omnis voluntas habet quid. ita habet cur. ergo etc. 
-      <lb ed="#V" n="46"/>2o. quia voluntas quae dat aliquid sine ratione est irrationalis. 3o 
-      <lb ed="#V" n="47"/>quia tunc videretur deus acceptor. personarum. 4o. quia istos quod 
-      <lb ed="#V" n="48"/>sunt pares voluntas recta omnes acceptat: vt pares equaliter 
-      <lb ed="#V" n="49"/>sed in praedestinando omnes offeruntur: vt pares: in illo signo 
-      <lb ed="#V" n="50"/>enim offeruntur in puris naturalibus: in quibus sunt pares 
-      <lb ed="#V" n="51"/>go etc.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e179">
-      ¶ Ad primum dico. illud cur si referatur ad obiectum. falsum 
-      <lb ed="#V" n="52"/>est: si ad potetiam: dico quod habet cur scilicet ad complacentiam quare sic 
-      <lb ed="#V" n="53"/>fecit: quia sibi placuit.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e186">
-      ¶ Ad 2m dico. quod illud est verum: vbi 
-      <lb ed="#V" n="54"/>voluntas regulatur a ratione: sed voluntas diuina in 
-      contingen<lb ed="#V" n="55" break="no"/>tibus est prima regula omnino. et a nullo regulatur.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e193">
-      ¶ Ad 3m 
-      <lb ed="#V" n="56"/>dico. quod acceptio personarum est. quando pro minori merito datur 
-      <lb ed="#V" n="57"/>maius praemium. ita quod meritum aliquod praesupponit: hic autem 
-      <lb ed="#V" n="58"/>nullum praesupponitur.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e202">
-      ¶ Ad 4m dico. quod verum est secundum se et ad 
-      <lb ed="#V" n="59"/>finem naturalem: sed non oportet quod ad finem supernaturalem eque bonos 
-      <lb ed="#V" n="60"/>equaeliter acceptet. quia mere liberaliter acceptat: et confert 
-      ta<lb ed="#V" n="61" break="no"/>lem finem liberaliter isti et non illi. 
-      <lb ed="#V" n="62"/>ad 2m priencipale videndum est. vtrum 
-      re<lb ed="#V" n="63" break="no"/>Quantum probationis sit causa aliqua. Et quantum 
-      <lb ed="#V" n="64"/>ad hoc dicit doctor noster quod sic. Ted enim praedestinatio nullam causam 
-      <lb ed="#V" n="65"/>habeat: tamen reprobatio habet.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e220">
-      ¶ hoc autem probatur quadruplici 
-      pro<lb ed="#V" n="66" break="no"/>babilitate. Primo quia deus promptior est ad miserendum quam ad 
-      <!--242.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>puniendum. Potest ergo minsereri sine causa. sed non punire.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e232">
-      ¶ 
-      Con<lb ed="#V" n="68" break="no"/>firmatur. quia ad quartam generationem vadit in puniendo 
-      iniquita<lb ed="#V" n="69" break="no"/>est patrum. in milia autem milium vadit in miserendo.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e239">
-      ¶ 2o 
-      <lb ed="#V" n="70"/>quia nullus iustus aliquem sine ratione condennat. Reprobatio 
-      <lb ed="#V" n="71"/>autem est quedam condenatio.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e246">
-      ¶ 3o. quia deus est pronus ad mi 
-      <lb ed="#V" n="72"/>serendum respectu illorum qui peccauerunt: multo fortius 
-      <lb ed="#V" n="73"/>respectu illorum qua no peccauerunt.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e253">
-      ¶ 4o. quia pena 
-      sequi<lb ed="#V" n="74" break="no"/>tur culpam. verbi ergo nulla culpa praeuidetur. nulla daet 
-      impo<lb ed="#V" n="75" break="no"/>ni pena.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e260">
-      ¶ Confirmatur. quia secundum Aug. deus non est prius 
-      <lb ed="#V" n="76"/>vltor quam homo sit peccator. Ideo dico sicut dicit doctor 
-      nol<lb ed="#V" n="77" break="no"/>ster quod prius deus videt demerita quam reprobum. licet prius 
-      <lb ed="#V" n="78"/>non videat merita quam eligat.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e269">
-      ¶ hoc autem declaratur 
-      du<lb ed="#V" n="79" break="no"/>pliciter. Primo. deus sicut et omne agens et operans debite 
-      prae<lb ed="#V" n="80" break="no"/>us diligit finem quam ea quae sunt ad finem: et inter ea que sunt 
-      <lb ed="#V" n="81"/>ad finem: prius diligit propinquiora fini quam alia. Cum ero 
-      <lb ed="#V" n="82"/>gloria sit finis: prius vult gloriam petro. deinde gratiam 
-      <lb ed="#V" n="83"/>quia est immediata ipsi glorie: deinde fidere: deinde minam. 
-      <lb ed="#V" n="84"/>deinde alia que ordinantur ad finem. Cum ergo merita 
-      <lb ed="#V" n="85"/>gratiam praesupponant: et gloria prius diligatur quam gratia: sequitur 
-      <lb ed="#V" n="86"/>quod merita non praecedunt praedestinationem vel priordinationem 
-      <lb ed="#V" n="87"/>ad gloriam. Quia autem reprobatio multum et maxime distat 
-      <lb ed="#V" n="88"/>a fine priordinato ad gloriam. ergo ordinate operans prius 
-      ac<lb ed="#V" n="89" break="no"/>cipit ea que non tantum distant a fine. vt scilicet primum quod preordinatur 
-      <lb ed="#V" n="90"/>isti sit debite esse. 2m sit culpa. 3m demerita. et 4m ipsa 
-      re<lb ed="#V" n="91" break="no"/>probatio. Ista autem se habent per ordinem: secundum maiorem et 
-      <lb ed="#V" n="92"/>minorem distantiam a fine.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e303">
-      ¶ 2o illud declaratur 
-      exponen<lb ed="#V" n="93" break="no"/>do illa signa que sunt necessaria ad intelligendum 
-      proce<lb ed="#V" n="94" break="no"/>sum reprobationis et praedestinationis. Sunt ergo 4or 
-      <lb ed="#V" n="95"/>signa. Est ergo primum in quo iudas et petrus offeruntur 
-      <lb ed="#V" n="96"/>voluntati diuine vt neutri. et tunc voluntas diuina 
-      pre<lb ed="#V" n="97" break="no"/>ordinauit petrum ad gloriam: nullum autem actum positiuum 
-      <lb ed="#V" n="98"/>habet circa inudam. secundum Aug.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e319">
-      ¶ 2m signum est in quo 
-      preordi<lb ed="#V" n="99" break="no"/>uit petrum ad gratiam: et tunc circa iudam adhuc 
-      nul<lb ed="#V" n="100" break="no"/>lum actum positiuum habet.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e326">
-      ¶ 3m signum est. in quo 
-      re<lb ed="#V" n="101" break="no"/>linquuntur sibiipsis: et vterque cadit in peccatum.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e331">
-      ¶ 4 
-      <lb ed="#V" n="102"/>signum in quo petrus resurgit quia non potest 
-      perma<lb ed="#V" n="103" break="no"/>nere. quia predestinatus intelligitur ex primo signo. 
-      Iu<lb ed="#V" n="104" break="no"/>das autem non resurgit: eo quod non habet releuantem in deo 
-      <lb ed="#V" n="105"/>ideo reprobatur.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e342">
-      ¶ Sed hic occurrunt difficultates. 
-      Prima<lb ed="#V" n="106" break="no"/>est. quia deus videtur esse causa reprobationis. quia 
-      quan<lb ed="#V" n="107" break="no"/>do primo offerunt: ita est aptus inudas sicut petrus vt 
-      <lb ed="#V" n="108"/>predestinaretur. hunc autem predestinat: illum autem non 
-      <lb ed="#V" n="109"/>et sic prius videtur vltor quam ille peccator.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e353">
-      ¶ Dico quod 
-      <lb ed="#V" n="110"/>tunc punitio videtur quando nullo demerito 
-      interueni<lb ed="#V" n="111" break="no"/>ente non datur alicui finis. ad quem ipse est aptus secundum 
-      <lb ed="#V" n="112"/>ordinem nature: sed si non datur finis supernaturalis 
-      <lb ed="#V" n="113"/>et excedens facultatem eius tunc non dicitur punitio. 
-      </p>
-            <p xml:id="FrMS88-e89087-d1e365">
-               <lb ed="#V" n="114"/>¶ Secunda difficultas est quia deus videt illud malum 
-      cul<lb ed="#V" n="115" break="no"/>pe: et tamen non prohibet. cum tamen posset impedire: et 
-      <lb ed="#V" n="116"/>sic videtur consentire.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e374">
-      ¶ Dico quod si deus esset obligatus 
-      <lb ed="#V" n="117"/>ad prohibendum. verum esset: sed ad hoc deus non obligatur 
-      </p>
-            <p xml:id="FrMS88-e89087-d1e379">
-               <lb ed="#V" n="118"/>¶ Tertia difficultas vtrum deus puniat propter peccatum 
-      con<lb ed="#V" n="119" break="no"/>missionis. Et si haec quare concausat illum actum. Si autem 
-      <lb ed="#V" n="120"/>opter pecatum omissionis qualiter illud peccatum sit.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e388">
-      ¶ Dicit Sco. 
-      <lb ed="#V" n="121"/>quod licet ad actum commissionis deus concurrat quantum ad 
-      <lb ed="#V" n="122"/>substratum peccati. non tamen quantum ad deformitatem 
-      pecca<lb ed="#V" n="123" break="no"/>ti. Ad peccatum autem omissionis concurrit per aliquem 
-      <lb ed="#V" n="124"/>alium actum positiuum: hoc alias declarabitur.
-    </p>
-            <p xml:id="FrMS88-e89087-d1e399">
-      ¶ 4a difficultas 
-      <lb ed="#V" n="125"/>est. quia pena danni est pena maxima. si ergo in primo signo 
-      prior<lb ed="#V" n="126" break="no"/>dinat petrum et non inudam. tunc videtur penam danni 
-      prior<lb ed="#V" n="127" break="no"/>dinare iude saltim sine causa. Ex illa saltem negatione 
-      acti<lb ed="#V" n="128" break="no"/>circa iudam in primo signo priuatur iudas visione 
-      di<lb ed="#V" n="129" break="no"/>uina. Dicitur quod pena danni vel carentie visionis non videtur esse 
-      <lb ed="#V" n="130"/>vena simpliciter. quia si deus homines creasset in puris 
-      naturali<lb ed="#V" n="131" break="no"/>pus: et non dedisset eis visionem: nulla pena eis fuisset: 
-      <lb ed="#V" n="132"/>quia hoc non est debitum sibi. secus est de pena sensus¬ 
-      <!--243.xml-->
-      <pb ed="#V" n="120-v"/>
-               <cb ed="#V" n="a"/>
-            </p>
-            <p xml:id="FrMS88-e89087-d1e425">
-               <lb ed="#V" n="1"/>¶ Ad argumentum. patet. quia ideo est illatio effectus ex causa 
-      com<lb ed="#V" n="2" break="no"/>placentie. quia placet diuine voluntati.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="120-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e89087"><!-- l1d40-41q4 -->
+        <head xml:id="FrMS88-e89087-Hd1e108">Quaestio 4</head>
+        <p xml:id="FrMS88-e89087-d1e111">
+          Questio. iiii. 
+          <lb ed="#V" n="27"/>Utrum sit aliqua causa predestinationis. 
+          <lb ed="#V" n="28"/>Quod sic. in apotin. ditur. Ideo 
+          re<lb ed="#V" n="29" break="no"/>gnant cum deo: et agnus dei cum illis. Ideo est 
+          <lb ed="#V" n="30"/>illatio effectus cum causa.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e122">
+          ¶ Contra. Aug. in 
+          <lb ed="#V" n="31"/>lib. retractationum.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e127">
+          ¶ hic sunt duo 
+          princi<lb ed="#V" n="32" break="no"/>paliter inqurenda. Primum de quasito scilicet de causa 
+          praedestinatio<lb ed="#V" n="33" break="no"/>nis. 2m est de causa reprobationis. 
+          <lb ed="#V" n="34"/>ad primum intelligendum. quod aliquando videtur fuisse 
+          <lb ed="#V" n="35"/>Quatum Aug. illius opionis quod sic. quia dicebatur 
+          <lb ed="#V" n="36"/>fidere esse causam praedestinationis.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e140">
+          ¶ Sed contra sunt alii scienta. Et istud 
+          <lb ed="#V" n="37"/>onfirmatur quadruplici ratione. Primo confirmatur ratione 
+          pauli<lb ed="#V" n="38" break="no"/>lihil quod datur ex meritis est mere gratia: sed praedestiatio ad 
+          <lb ed="#V" n="39"/>vitam eternam est mere ex gratia. ergo praedestinatio non est ex me 
+          <lb ed="#V" n="40"/>itis. et per consequens non habet causam. Et 2o quia paulus dicit. quod antequam 
+          <lb ed="#V" n="41"/>quidquam boni vel mali egissent: elegit Iacob et no Esau. 
+          <lb ed="#V" n="42"/>3o. actus summe liberalis non habet causam: sed praedestinatio 
+          <lb ed="#V" n="43"/>est huiusmodi. ergo etc. 4o. quia si haberet causam. tunc deus non posset non 
+          praede<lb ed="#V" n="44" break="no"/>stinare sine iniustitia.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e161">
+          ¶ Sed contra illud instatur 4r. Primo. 
+          <lb ed="#V" n="45"/>quia secundum Ans. sicut omnis voluntas habet quid. ita habet cur. ergo etc. 
+          <lb ed="#V" n="46"/>2o. quia voluntas quae dat aliquid sine ratione est irrationalis. 3o 
+          <lb ed="#V" n="47"/>quia tunc videretur deus acceptor. personarum. 4o. quia istos quod 
+          <lb ed="#V" n="48"/>sunt pares voluntas recta omnes acceptat: vt pares equaliter 
+          <lb ed="#V" n="49"/>sed in praedestinando omnes offeruntur: vt pares: in illo signo 
+          <lb ed="#V" n="50"/>enim offeruntur in puris naturalibus: in quibus sunt pares 
+          <lb ed="#V" n="51"/>go etc.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e179">
+          ¶ Ad primum dico. illud cur si referatur ad obiectum. falsum 
+          <lb ed="#V" n="52"/>est: si ad potetiam: dico quod habet cur scilicet ad complacentiam quare sic 
+          <lb ed="#V" n="53"/>fecit: quia sibi placuit.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e186">
+          ¶ Ad 2m dico. quod illud est verum: vbi 
+          <lb ed="#V" n="54"/>voluntas regulatur a ratione: sed voluntas diuina in 
+          contingen<lb ed="#V" n="55" break="no"/>tibus est prima regula omnino. et a nullo regulatur.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e193">
+          ¶ Ad 3m 
+          <lb ed="#V" n="56"/>dico. quod acceptio personarum est. quando pro minori merito datur 
+          <lb ed="#V" n="57"/>maius praemium. ita quod meritum aliquod praesupponit: hic autem 
+          <lb ed="#V" n="58"/>nullum praesupponitur.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e202">
+          ¶ Ad 4m dico. quod verum est secundum se et ad 
+          <lb ed="#V" n="59"/>finem naturalem: sed non oportet quod ad finem supernaturalem eque bonos 
+          <lb ed="#V" n="60"/>equaeliter acceptet. quia mere liberaliter acceptat: et confert 
+          ta<lb ed="#V" n="61" break="no"/>lem finem liberaliter isti et non illi. 
+          <lb ed="#V" n="62"/>ad 2m priencipale videndum est. vtrum 
+          re<lb ed="#V" n="63" break="no"/>Quantum probationis sit causa aliqua. Et quantum 
+          <lb ed="#V" n="64"/>ad hoc dicit doctor noster quod sic. Ted enim praedestinatio nullam causam 
+          <lb ed="#V" n="65"/>habeat: tamen reprobatio habet.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e220">
+          ¶ hoc autem probatur quadruplici 
+          pro<lb ed="#V" n="66" break="no"/>babilitate. Primo quia deus promptior est ad miserendum quam ad 
+          <!--242.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>puniendum. Potest ergo minsereri sine causa. sed non punire.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e232">
+          ¶ 
+          Con<lb ed="#V" n="68" break="no"/>firmatur. quia ad quartam generationem vadit in puniendo 
+          iniquita<lb ed="#V" n="69" break="no"/>est patrum. in milia autem milium vadit in miserendo.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e239">
+          ¶ 2o 
+          <lb ed="#V" n="70"/>quia nullus iustus aliquem sine ratione condennat. Reprobatio 
+          <lb ed="#V" n="71"/>autem est quedam condenatio.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e246">
+          ¶ 3o. quia deus est pronus ad mi 
+          <lb ed="#V" n="72"/>serendum respectu illorum qui peccauerunt: multo fortius 
+          <lb ed="#V" n="73"/>respectu illorum qua no peccauerunt.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e253">
+          ¶ 4o. quia pena 
+          sequi<lb ed="#V" n="74" break="no"/>tur culpam. verbi ergo nulla culpa praeuidetur. nulla daet 
+          impo<lb ed="#V" n="75" break="no"/>ni pena.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e260">
+          ¶ Confirmatur. quia secundum Aug. deus non est prius 
+          <lb ed="#V" n="76"/>vltor quam homo sit peccator. Ideo dico sicut dicit doctor 
+          nol<lb ed="#V" n="77" break="no"/>ster quod prius deus videt demerita quam reprobum. licet prius 
+          <lb ed="#V" n="78"/>non videat merita quam eligat.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e269">
+          ¶ hoc autem declaratur 
+          du<lb ed="#V" n="79" break="no"/>pliciter. Primo. deus sicut et omne agens et operans debite 
+          prae<lb ed="#V" n="80" break="no"/>us diligit finem quam ea quae sunt ad finem: et inter ea que sunt 
+          <lb ed="#V" n="81"/>ad finem: prius diligit propinquiora fini quam alia. Cum ero 
+          <lb ed="#V" n="82"/>gloria sit finis: prius vult gloriam petro. deinde gratiam 
+          <lb ed="#V" n="83"/>quia est immediata ipsi glorie: deinde fidere: deinde minam. 
+          <lb ed="#V" n="84"/>deinde alia que ordinantur ad finem. Cum ergo merita 
+          <lb ed="#V" n="85"/>gratiam praesupponant: et gloria prius diligatur quam gratia: sequitur 
+          <lb ed="#V" n="86"/>quod merita non praecedunt praedestinationem vel priordinationem 
+          <lb ed="#V" n="87"/>ad gloriam. Quia autem reprobatio multum et maxime distat 
+          <lb ed="#V" n="88"/>a fine priordinato ad gloriam. ergo ordinate operans prius 
+          ac<lb ed="#V" n="89" break="no"/>cipit ea que non tantum distant a fine. vt scilicet primum quod preordinatur 
+          <lb ed="#V" n="90"/>isti sit debite esse. 2m sit culpa. 3m demerita. et 4m ipsa 
+          re<lb ed="#V" n="91" break="no"/>probatio. Ista autem se habent per ordinem: secundum maiorem et 
+          <lb ed="#V" n="92"/>minorem distantiam a fine.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e303">
+          ¶ 2o illud declaratur 
+          exponen<lb ed="#V" n="93" break="no"/>do illa signa que sunt necessaria ad intelligendum 
+          proce<lb ed="#V" n="94" break="no"/>sum reprobationis et praedestinationis. Sunt ergo 4or 
+          <lb ed="#V" n="95"/>signa. Est ergo primum in quo iudas et petrus offeruntur 
+          <lb ed="#V" n="96"/>voluntati diuine vt neutri. et tunc voluntas diuina 
+          pre<lb ed="#V" n="97" break="no"/>ordinauit petrum ad gloriam: nullum autem actum positiuum 
+          <lb ed="#V" n="98"/>habet circa inudam. secundum Aug.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e319">
+          ¶ 2m signum est in quo 
+          preordi<lb ed="#V" n="99" break="no"/>uit petrum ad gratiam: et tunc circa iudam adhuc 
+          nul<lb ed="#V" n="100" break="no"/>lum actum positiuum habet.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e326">
+          ¶ 3m signum est. in quo 
+          re<lb ed="#V" n="101" break="no"/>linquuntur sibiipsis: et vterque cadit in peccatum.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e331">
+          ¶ 4 
+          <lb ed="#V" n="102"/>signum in quo petrus resurgit quia non potest 
+          perma<lb ed="#V" n="103" break="no"/>nere. quia predestinatus intelligitur ex primo signo. 
+          Iu<lb ed="#V" n="104" break="no"/>das autem non resurgit: eo quod non habet releuantem in deo 
+          <lb ed="#V" n="105"/>ideo reprobatur.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e342">
+          ¶ Sed hic occurrunt difficultates. 
+          Prima<lb ed="#V" n="106" break="no"/>est. quia deus videtur esse causa reprobationis. quia 
+          quan<lb ed="#V" n="107" break="no"/>do primo offerunt: ita est aptus inudas sicut petrus vt 
+          <lb ed="#V" n="108"/>predestinaretur. hunc autem predestinat: illum autem non 
+          <lb ed="#V" n="109"/>et sic prius videtur vltor quam ille peccator.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e353">
+          ¶ Dico quod 
+          <lb ed="#V" n="110"/>tunc punitio videtur quando nullo demerito 
+          interueni<lb ed="#V" n="111" break="no"/>ente non datur alicui finis. ad quem ipse est aptus secundum 
+          <lb ed="#V" n="112"/>ordinem nature: sed si non datur finis supernaturalis 
+          <lb ed="#V" n="113"/>et excedens facultatem eius tunc non dicitur punitio. 
+        </p>
+        <p xml:id="FrMS88-e89087-d1e365">
+          <lb ed="#V" n="114"/>¶ Secunda difficultas est quia deus videt illud malum 
+          cul<lb ed="#V" n="115" break="no"/>pe: et tamen non prohibet. cum tamen posset impedire: et 
+          <lb ed="#V" n="116"/>sic videtur consentire.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e374">
+          ¶ Dico quod si deus esset obligatus 
+          <lb ed="#V" n="117"/>ad prohibendum. verum esset: sed ad hoc deus non obligatur 
+        </p>
+        <p xml:id="FrMS88-e89087-d1e379">
+          <lb ed="#V" n="118"/>¶ Tertia difficultas vtrum deus puniat propter peccatum 
+          con<lb ed="#V" n="119" break="no"/>missionis. Et si haec quare concausat illum actum. Si autem 
+          <lb ed="#V" n="120"/>opter pecatum omissionis qualiter illud peccatum sit.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e388">
+          ¶ Dicit Sco. 
+          <lb ed="#V" n="121"/>quod licet ad actum commissionis deus concurrat quantum ad 
+          <lb ed="#V" n="122"/>substratum peccati. non tamen quantum ad deformitatem 
+          pecca<lb ed="#V" n="123" break="no"/>ti. Ad peccatum autem omissionis concurrit per aliquem 
+          <lb ed="#V" n="124"/>alium actum positiuum: hoc alias declarabitur.
+        </p>
+        <p xml:id="FrMS88-e89087-d1e399">
+          ¶ 4a difficultas 
+          <lb ed="#V" n="125"/>est. quia pena danni est pena maxima. si ergo in primo signo 
+          prior<lb ed="#V" n="126" break="no"/>dinat petrum et non inudam. tunc videtur penam danni 
+          prior<lb ed="#V" n="127" break="no"/>dinare iude saltim sine causa. Ex illa saltem negatione 
+          acti<lb ed="#V" n="128" break="no"/>circa iudam in primo signo priuatur iudas visione 
+          di<lb ed="#V" n="129" break="no"/>uina. Dicitur quod pena danni vel carentie visionis non videtur esse 
+          <lb ed="#V" n="130"/>vena simpliciter. quia si deus homines creasset in puris 
+          naturali<lb ed="#V" n="131" break="no"/>pus: et non dedisset eis visionem: nulla pena eis fuisset: 
+          <lb ed="#V" n="132"/>quia hoc non est debitum sibi. secus est de pena sensus¬ 
+          <!--243.xml-->
+          <pb ed="#V" n="120-v"/>
+          <cb ed="#V" n="a"/>
+        </p>
+        <p xml:id="FrMS88-e89087-d1e425">
+          <lb ed="#V" n="1"/>¶ Ad argumentum. patet. quia ideo est illatio effectus ex causa 
+          com<lb ed="#V" n="2" break="no"/>placentie. quia placet diuine voluntati.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

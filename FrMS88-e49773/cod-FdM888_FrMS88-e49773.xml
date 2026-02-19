@@ -1,333 +1,333 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 4</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 4</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="68-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e49773"><!-- l1d14-16q4 -->
-            <head xml:id="FrMS88-e49773-Hd1e108">Quaestio 4</head>
-            <p xml:id="FrMS88-e49773-d1e111">
-      Questio. iiii. 
-      <lb ed="#V" n="8"/>QUeritur Utrum in essentialiter 
-      or<lb ed="#V" n="9" break="no"/>dinatis et realiter distinctis 
-      <lb ed="#V" n="10"/>prius possit per diuinam potentiam fieri fine 
-      <lb ed="#V" n="11"/>posteriori. quod non. quia prius est correlatiuum 
-      <lb ed="#V" n="12"/>S ad posterius. ergo non potest esse sine eo 
-      </p>
-            <p xml:id="FrMS88-e49773-d1e124">
-               <lb ed="#V" n="13"/>¶ Contra. prius non dependet a posteriori. 
-      <lb ed="#V" n="14"/>introducitur regula fratris Io. que talis est. Quando 
-      <lb ed="#V" n="15"/>Hic cumque sunt aliqua essentialiter ordinata: et realiter 
-      <lb ed="#V" n="16"/>distincta: deus potest facere prius fine posteriori: hec autem 
-      <lb ed="#V" n="17"/>regula confirmatur ratione: et primo sic. Quandocumque est aliquod 
-      <lb ed="#V" n="18"/>agens quod quantum est ex se contingenter agit: nec potest 
-      ne<lb ed="#V" n="19" break="no"/>cessitari ab aliquo extrinseco: si producat duo realiter 
-      di<lb ed="#V" n="20" break="no"/>stincta: et vnum prius producat quam aliud: priori producto potest 
-      <lb ed="#V" n="21"/>non producere posterius: et sic a productione posterioris 
-      <lb ed="#V" n="22"/>cessare: sed deus est tale agens et non potest necessitari: ergo 
-      <lb ed="#V" n="23"/>priori producto poterit cessare a productione posterio 
-      <lb ed="#V" n="24"/>ris. Maior dicitur manifesta. quia exquo agens agit quantum 
-      <lb ed="#V" n="25"/>est ex se contingenter: nec aliquid aliud potest eum 
-      necessi<lb ed="#V" n="26" break="no"/>tare: non videtur quod producto priori non possit deus cessare a 
-      <lb ed="#V" n="27"/>productione posterioris.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e159">
-      ¶ Si dicas quod hoc impedit 
-      co<lb ed="#V" n="28" break="no"/>existentia prioris respectu posterioris: hoc non valet: quia 
-      <lb ed="#V" n="29"/>cum producto priori ab eo non possit necessitari: et quantum 
-      <lb ed="#V" n="30"/>est ex se contingenter agit: cessare poterit a productione 
-      po<lb ed="#V" n="31" break="no"/>sterioris.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e170">
-      ¶ hec ratio confirmatur quadrupliciter.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e174">
-      ¶ Primo sic. 
-      <lb ed="#V" n="32"/>Agens naturali necessitate circa aliquem effectum: eadem 
-      <lb ed="#V" n="33"/>necessitate producit omne necessarium ad productionem 
-      <lb ed="#V" n="34"/>effectus: sed per te: producto fundamento vel subiecto quod est 
-      <lb ed="#V" n="35"/>prius: necessitatur deus ad producendum actum vel 
-      respe<lb ed="#V" n="36" break="no"/>ctus: vel illud quod est posterius: productio autem prioris est 
-      <lb ed="#V" n="37"/>necessaria ad producendum posterius: ergo sequitur quod 
-      ea<lb ed="#V" n="38" break="no"/>dem necessitate producet prius qua producet posterius 
-      <lb ed="#V" n="39"/>secundum te.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e194">
-      ¶ 2o sic. Quandocumque aliquod agens naturali 
-      necessita<lb ed="#V" n="40" break="no"/>te inclinatur in terminum: eadem necessitate determinat 
-      <lb ed="#V" n="41"/>se in termino quantum potest: sed per te: deus necessitatur ad 
-      <lb ed="#V" n="42"/>producendum respectum fundamento producto: ergo 
-      neces<lb ed="#V" n="43" break="no"/>sario conseruabit illum. Item sequeretur quod dum produceret 
-      <lb ed="#V" n="44"/>aliquid ad extra de necessitate non posset non produce 
-      <lb ed="#V" n="45"/>re. quod est falsum.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e210">
-      ¶ 3o sic. Quandocumque aliquod agens agit ex 
-      <lb ed="#V" n="46"/>toto conatu producit perfectiorem effectum quem potest 
-      pro<lb ed="#V" n="47" break="no"/>ducere. Si ergo deus de necessitate producat. b. a. produm 
-      <lb ed="#V" n="48"/>cto. produceret. b. ita perfectum sicut posset: et sic posita 
-      <lb ed="#V" n="49"/>albedine causaret similitudinem perfectiorem quam posset: quod est 
-      <lb ed="#V" n="50"/>falsum.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e223">
-      ¶ 4o sic. Necessario agens agit quamcito potest: si en 
-      <lb ed="#V" n="51"/>go producto fundamento produceret respectum 
-      necessa<lb ed="#V" n="52" break="no"/>rio: produceret fundamentum et respectum ab eterno¬ 
-      </p>
-            <p xml:id="FrMS88-e49773-d1e230">
-               <lb ed="#V" n="53"/>¶ Sed contra istud instatur quadrupliciter.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e235">
-      ¶ Primo de 
-      <lb ed="#V" n="54"/>composito ex materia et forma. Nam materia et forma 
-      <lb ed="#V" n="55"/>simul sumpta sunt priora composito. ergo poterit deus 
-      <lb ed="#V" n="56"/>ea simul facere: et tamen non erit compositum. quod 
-      vide<lb ed="#V" n="57" break="no"/>tur absurdum.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e247">
-      ¶ Secundo sic. Omnis causa videtur 
-      <lb ed="#V" n="58"/>esse prior et realiter distincta a suo effectu: sed deus non 
-      <lb ed="#V" n="59"/>posset albedinem imprimere: nisi sequeretur album: 
-      er<lb ed="#V" n="60" break="no"/>go non omne prius realiter distinctum potest esse sine 
-      po<lb ed="#V" n="61" break="no"/>steriori.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e258">
-      ¶ Tertio sic. Impossibile est aliquid esse vel 
-      fie<lb ed="#V" n="62" break="no"/>ri sine eo: quod est eius diffinitiuum: sed quantitas 
-      ingre<lb ed="#V" n="63" break="no"/>ditur vt diffinitiuum hominis: quia corpus organicum: 
-      <lb ed="#V" n="64"/>constat autem quod substantia est prior et realiter distincta 
-      <lb ed="#V" n="65"/>ab accidente. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e269">
-      ¶ Quarto sic. Omnis effectus 
-      <lb ed="#V" n="66"/>sicut in esse dependet a deo. ita in fieri et conseruari. cum er¬ 
-      <!--139.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>go non solum inquantum in fieri paternitas dependeat 
-      <lb ed="#V" n="68"/>a deo: sed etiam in conseruari: poterit deus pro primo in 
-      <lb ed="#V" n="69"/>stanti influere et postea non influere: et sic erit pater et 
-      fi<lb ed="#V" n="70" break="no"/>lius sine paternitate. et sic pater et non pater: nam ex hoc 
-      <lb ed="#V" n="71"/>quod hic homo est genitus ab illo: est filius illius: erit 
-      gergo<lb ed="#V" n="72" break="no"/>sortes genitus a Platone: et tamen non erit filius: nec plato 
-      <lb ed="#V" n="73"/>erit pater.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e293">
-      ¶ Ad primum si dicatur quod compositum non 
-      <lb ed="#V" n="74"/>addit tertiam entitatem: sicut dicunt aliqui. facile est eua 
-      <lb ed="#V" n="75"/>dere. Tenendo autem oppositum: oportet dicere quod 
-      ani<lb ed="#V" n="76" break="no"/>ma et corpus possunt simul esse: et tamen compositum non 
-      <lb ed="#V" n="77"/>resultabit: posset enim anima coniungi corpori: vt 
-      mo<lb ed="#V" n="78" break="no"/>tor: et tamen non resultabit aliquod tertium compositum. 
-      <lb ed="#V" n="79"/>sicut non resultat ex angelo et corpore: cui vnitur aliquod 
-      <lb ed="#V" n="80"/>tertium compositum ex eis differens.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e311">
-      ¶ Ad secundum. Si 
-      <lb ed="#V" n="81"/>dicatur quod effectus formalis differt a forma: illi sic 
-      di<lb ed="#V" n="82" break="no"/>centes habent dicere quod deus potest album facere sine albe 
-      <lb ed="#V" n="83"/>dine: si volunt dicere consequenter: vel potius albedinem 
-      <lb ed="#V" n="84"/>in subiecto sine effectu scilicet sine albo. Sed ego dico quod esse 
-      <lb ed="#V" n="85"/>album nihil aliud est quam albedo. et subiectum et vnio 
-      albedi<lb ed="#V" n="86" break="no"/>nis ad subiectum. Et istis positis est impossibile quin 
-      in<lb ed="#V" n="87" break="no"/>lud ponatur scilicet esse album quantumcumque sint priora: quia non 
-      <lb ed="#V" n="88"/>distinguuntur.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e331">
-      ¶ Ad tertium dico. quod deus omnem 
-      sub<lb ed="#V" n="89" break="no"/>stantiam priorem accidente potest sine illo accidente 
-      face<lb ed="#V" n="90" break="no"/>re. Et ideo corpus quod dicitur organicum: quia est 
-      pri<lb ed="#V" n="91" break="no"/>us et realiter distinctum a quantitate potest facere sine 
-      <lb ed="#V" n="92"/>ea. sed hominem non potest: quia licet homo sit differens 
-      <lb ed="#V" n="93"/>realiter a quantitate: tamen praesupponit quantitatem: et est 
-      <lb ed="#V" n="94"/>quodammodo posterior quantitate: et sic deficit prioritas: 
-      <lb ed="#V" n="95"/>et per consequens non possunt separari.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e350">
-      ¶ Ad quartum 
-      <lb ed="#V" n="96"/>dico quod non videtur inconueniens. quod deus influat in 
-      fun<lb ed="#V" n="97" break="no"/>damentum relationis non influendo in relationem: cum 
-      <lb ed="#V" n="98"/>fundamentum sit prius et realiter distinctum: et sic deus 
-      <lb ed="#V" n="99"/>poterit facere quod Petrus et Martinus sint. et tamen 
-      pa<lb ed="#V" n="100" break="no"/>ternitas non sit in Petro: nec filiatio in Martino 
-      for<lb ed="#V" n="101" break="no"/>malis et actualis: sed tantum fundamentalis: quia illa non 
-      <lb ed="#V" n="102"/>differt ab eis. scilicet a fundamento: et sic patet ad illud. 
-      </p>
-            <p xml:id="FrMS88-e49773-d1e368">
-               <lb ed="#V" n="103"/>¶ Sed hic adhuc remanent aliquae difficultates.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e373">
-      ¶ 
-      Pri<lb ed="#V" n="104" break="no"/>ma est. Utrum deus possit facere materiam et formam 
-      <lb ed="#V" n="105"/>vnita sine vnione. Dico quod non. quia omne vnitum est 
-      <lb ed="#V" n="106"/>effectus formalis vnionis: materiam tamen et formam 
-      <lb ed="#V" n="107"/>bene potest facere sine vnione.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e384">
-      ¶ Secunda difficultas est. 
-      <lb ed="#V" n="108"/>Utrum deus possit facere corpus sine figura.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e389">
-      ¶ Dico 
-      <lb ed="#V" n="109"/>quod supposito quod deus possit facere corpus infinitum: tunc 
-      <lb ed="#V" n="110"/>tale corpus erit sine figura. Si autem dicatur oppositum 
-      <lb ed="#V" n="111"/>tunc erit difficile euadere.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e398">
-      ¶ Dicunt tamen aliquin quod iste 
-      <lb ed="#V" n="112"/>extremitates scilicet superficies et punctus non dicunt aliquid  
-      <lb ed="#V" n="113"/>positiuum. sed nihil aliud est punctus: nisi nihil plus 
-      <lb ed="#V" n="114"/>de linea: et sic de aliis: scilicet de linea respectu superficieit 
-      <lb ed="#V" n="115"/>et superficie respectu corporis: hoc est difficile tenere et 
-      <lb ed="#V" n="116"/>defendere.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e412">
-      ¶ Ideo dico aliter. Quod illa omnia nihil abi 
-      <lb ed="#V" n="117"/>solutum dicunt: sed praecise respectum: sunt enim extremitates  
-      <lb ed="#V" n="118"/>aliorum: sicut punctus est extremitas linee: et sic de aliis. 
-      </p>
-            <p xml:id="FrMS88-e49773-d1e419">
-               <lb ed="#V" n="119"/>¶ Et si dicas quomodo albedo quae est ens positiuum et 
-      absolu<lb ed="#V" n="120" break="no"/>tum potest fundari in superficie: qua est ens respectiuum. Dico 
-      <lb ed="#V" n="121"/>quod nec albedo fundatur in superficie: nec superficies in 
-      al<lb ed="#V" n="122" break="no"/>bedine: sed ambo in eodem subiecto de hoc alias.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e430">
-      ¶ Sed 
-      di<lb ed="#V" n="123" break="no"/>ces. quomodo dicere debes de linea dum est sine 
-      pun<lb ed="#V" n="124" break="no"/>cto: et superficies sine linea: et sic de aliis. Dico quod omnia 
-      <lb ed="#V" n="125"/>sunt finita fundamentaliter: non tamen formaliter actualiter. 
-      <lb ed="#V" n="126"/>Et sic dicendum est. sicut diceremus de duabus 
-      albedini<lb ed="#V" n="127" break="no"/>bus sine similitudine. Eent enim inter eas similitudo 
-      fun<lb ed="#V" n="128" break="no"/>damentalis. sed tamen non formalis nec actualis: que est 
-      <lb ed="#V" n="129"/>accidens: et potest ab eis separari.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e448">
-      ¶ Tertia 
-      difficul<lb ed="#V" n="130" break="no"/>tas est. Utrum deus possit facere actionem sine 
-      termi<lb ed="#V" n="131" break="no"/>no. Dico quod sicut inferius declarabitur quod actio 
-      respici<lb ed="#V" n="132" break="no"/>passum tanquam terminum: et sicut non potest fieri respe¬ 
-      <!--140.xml-->
-      <pb ed="#V" n="69-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>ctus sine termino. ita nec actio sine passio. quia terminus 
-      <lb ed="#V" n="2"/>est prior ipsa relatione naturaliter et ordine essentiali.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e468">
-      ¶ Sed 
-      <lb ed="#V" n="3"/>si fieret quastio. Utrum deus possit facere actionem sine 
-      <lb ed="#V" n="4"/>termino scilicet quod accipit esse per istam actionem. potest dici 
-      <lb ed="#V" n="5"/>quod non. sicut enim declarabitur: actio presupponit 
-      pro<lb ed="#V" n="6" break="no"/>ductionem: productio autem tam actiua quam passiua 
-      pre<lb ed="#V" n="7" break="no"/>supponit terminum: quia actio vel productio actiua 
-      pre<lb ed="#V" n="8" break="no"/>supponit fundamentum et terminum: hoc enim est 
-      genera<lb ed="#V" n="9" break="no"/>le cuilibet respectui. Productio enim passiua fundatur in 
-      <lb ed="#V" n="10"/>termino producto: ergo ipsum presupponit: et per 
-      con<lb ed="#V" n="11" break="no"/>sequens actiua: quia simul natura est cum passiua. Dico 
-      <lb ed="#V" n="12"/>ergo quod deus separare non posset actionem a termino: lice 
-      <lb ed="#V" n="13"/>distinguuntur realiter. quia ordine essentiali et 
-      necessa<lb ed="#V" n="14" break="no"/>rio actio presupponit terminum: et sic patet ad illud. 
-      </p>
-            <p xml:id="FrMS88-e49773-d1e497">
-               <lb ed="#V" n="15"/>¶ Quarta difficultas est. Si deus possit facem motum sine 
-      <lb ed="#V" n="16"/>termino: quia videtur esse prior realiter et essentialiter et 
-      distin<lb ed="#V" n="17" break="no"/>ctus realiter. Dico quod accipiendo motum pro 
-      forma<lb ed="#V" n="18" break="no"/>luente: que non est aliud a termino. patet quod potest. Sed 
-      ad<lb ed="#V" n="19" break="no"/>cipiendo motum profluxu forme: qui nihil aliud est 
-      <lb ed="#V" n="20"/>nisi ordo partium forme: et ordo sicut quilibet 
-      respe<lb ed="#V" n="21" break="no"/>ctus presupponit terminum et fundamentum: 
-      relinque<lb ed="#V" n="22" break="no"/>tur dicendum quod motus non potest esse sine termino: quia 
-      <lb ed="#V" n="23"/>posterior eo. Eodem modo dico de mutatione. Ipsa enim 
-      <lb ed="#V" n="24"/>est posterior termino.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e522">
-      ¶ Quinta difficultas est. Utrum 
-      <lb ed="#V" n="25"/>deus possit faceme animal: quod non sit sanum vel egrum. 
-      </p>
-            <p xml:id="FrMS88-e49773-d1e527">
-               <lb ed="#V" n="26"/>¶ Dico quod hic est imaginandum sicut superius dictum 
-      <lb ed="#V" n="27"/>est de quantitate: comparando enim sanum ad egrum: vel 
-      <lb ed="#V" n="28"/>istas formas ad corpus quod immediate respiciunt 
-      <lb ed="#V" n="29"/>pro subiecto: quia ipsum est prius eis et distinctum reali 
-      <lb ed="#V" n="30"/>ter: potest deus corpus sine sanitate et egritudine facem 
-      </p>
-            <p xml:id="FrMS88-e49773-d1e540">
-               <lb ed="#V" n="31"/>¶ Sed loquendo de homine qui presupponit in 
-      cor<lb ed="#V" n="32" break="no"/>pore talem mixtionem que est lanitas vel egritudo: 
-      si<lb ed="#V" n="33" break="no"/>cut dictum fuit de quantitate: sicut deus non potest 
-      fa<lb ed="#V" n="34" break="no"/>cere hominem sine quantitate: sic non hotest deus 
-      fa<lb ed="#V" n="35" break="no"/>cere hominem sine qualitate: ita forte non potest face 
-      <lb ed="#V" n="36"/>hominem sine illis mixtionibus.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e556">
-      ¶ Ideo dico quod sicut 
-      <lb ed="#V" n="37"/>corpus potest fieri sine quantitate: sed non homo. ita corpus potest fieri 
-      <lb ed="#V" n="38"/>sine istis mixtionibus. licet non homo vel humanitas.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e563">
-      ¶ 
-      Sex<lb ed="#V" n="39" break="no"/>ta difficultas: de luce et tenebris respectu aeris. Utrum 
-      <lb ed="#V" n="40"/>aer possit fieri sine eis. ita quod aer esset qui non esset nec 
-      luci<lb ed="#V" n="41" break="no"/>dus nec tenebrosus.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e572">
-      ¶ Dico quod hec regula non tenet in 
-      pri<lb ed="#V" n="42" break="no"/>uatione et habitu: quia priuatio non producitur: sed ex sola 
-      amo<lb ed="#V" n="43" break="no"/>tione habitus inducitur. Et ideo non potest fieri quod subiectum non 
-      <lb ed="#V" n="44"/>sit sub altero eorum: quia si excludatur habitus eo inducitur 
-      <lb ed="#V" n="45"/>priuatio.
-    </p>
-            <p xml:id="FrMS88-e49773-d1e584">
-      ¶ Ad argumentum ex dictis patet. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="68-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e49773"><!-- l1d14-16q4 -->
+        <head xml:id="FrMS88-e49773-Hd1e108">Quaestio 4</head>
+        <p xml:id="FrMS88-e49773-d1e111">
+          Questio. iiii. 
+          <lb ed="#V" n="8"/>QUeritur Utrum in essentialiter 
+          or<lb ed="#V" n="9" break="no"/>dinatis et realiter distinctis 
+          <lb ed="#V" n="10"/>prius possit per diuinam potentiam fieri fine 
+          <lb ed="#V" n="11"/>posteriori. quod non. quia prius est correlatiuum 
+          <lb ed="#V" n="12"/>S ad posterius. ergo non potest esse sine eo 
+        </p>
+        <p xml:id="FrMS88-e49773-d1e124">
+          <lb ed="#V" n="13"/>¶ Contra. prius non dependet a posteriori. 
+          <lb ed="#V" n="14"/>introducitur regula fratris Io. que talis est. Quando 
+          <lb ed="#V" n="15"/>Hic cumque sunt aliqua essentialiter ordinata: et realiter 
+          <lb ed="#V" n="16"/>distincta: deus potest facere prius fine posteriori: hec autem 
+          <lb ed="#V" n="17"/>regula confirmatur ratione: et primo sic. Quandocumque est aliquod 
+          <lb ed="#V" n="18"/>agens quod quantum est ex se contingenter agit: nec potest 
+          ne<lb ed="#V" n="19" break="no"/>cessitari ab aliquo extrinseco: si producat duo realiter 
+          di<lb ed="#V" n="20" break="no"/>stincta: et vnum prius producat quam aliud: priori producto potest 
+          <lb ed="#V" n="21"/>non producere posterius: et sic a productione posterioris 
+          <lb ed="#V" n="22"/>cessare: sed deus est tale agens et non potest necessitari: ergo 
+          <lb ed="#V" n="23"/>priori producto poterit cessare a productione posterio 
+          <lb ed="#V" n="24"/>ris. Maior dicitur manifesta. quia exquo agens agit quantum 
+          <lb ed="#V" n="25"/>est ex se contingenter: nec aliquid aliud potest eum 
+          necessi<lb ed="#V" n="26" break="no"/>tare: non videtur quod producto priori non possit deus cessare a 
+          <lb ed="#V" n="27"/>productione posterioris.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e159">
+          ¶ Si dicas quod hoc impedit 
+          co<lb ed="#V" n="28" break="no"/>existentia prioris respectu posterioris: hoc non valet: quia 
+          <lb ed="#V" n="29"/>cum producto priori ab eo non possit necessitari: et quantum 
+          <lb ed="#V" n="30"/>est ex se contingenter agit: cessare poterit a productione 
+          po<lb ed="#V" n="31" break="no"/>sterioris.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e170">
+          ¶ hec ratio confirmatur quadrupliciter.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e174">
+          ¶ Primo sic. 
+          <lb ed="#V" n="32"/>Agens naturali necessitate circa aliquem effectum: eadem 
+          <lb ed="#V" n="33"/>necessitate producit omne necessarium ad productionem 
+          <lb ed="#V" n="34"/>effectus: sed per te: producto fundamento vel subiecto quod est 
+          <lb ed="#V" n="35"/>prius: necessitatur deus ad producendum actum vel 
+          respe<lb ed="#V" n="36" break="no"/>ctus: vel illud quod est posterius: productio autem prioris est 
+          <lb ed="#V" n="37"/>necessaria ad producendum posterius: ergo sequitur quod 
+          ea<lb ed="#V" n="38" break="no"/>dem necessitate producet prius qua producet posterius 
+          <lb ed="#V" n="39"/>secundum te.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e194">
+          ¶ 2o sic. Quandocumque aliquod agens naturali 
+          necessita<lb ed="#V" n="40" break="no"/>te inclinatur in terminum: eadem necessitate determinat 
+          <lb ed="#V" n="41"/>se in termino quantum potest: sed per te: deus necessitatur ad 
+          <lb ed="#V" n="42"/>producendum respectum fundamento producto: ergo 
+          neces<lb ed="#V" n="43" break="no"/>sario conseruabit illum. Item sequeretur quod dum produceret 
+          <lb ed="#V" n="44"/>aliquid ad extra de necessitate non posset non produce 
+          <lb ed="#V" n="45"/>re. quod est falsum.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e210">
+          ¶ 3o sic. Quandocumque aliquod agens agit ex 
+          <lb ed="#V" n="46"/>toto conatu producit perfectiorem effectum quem potest 
+          pro<lb ed="#V" n="47" break="no"/>ducere. Si ergo deus de necessitate producat. b. a. produm 
+          <lb ed="#V" n="48"/>cto. produceret. b. ita perfectum sicut posset: et sic posita 
+          <lb ed="#V" n="49"/>albedine causaret similitudinem perfectiorem quam posset: quod est 
+          <lb ed="#V" n="50"/>falsum.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e223">
+          ¶ 4o sic. Necessario agens agit quamcito potest: si en 
+          <lb ed="#V" n="51"/>go producto fundamento produceret respectum 
+          necessa<lb ed="#V" n="52" break="no"/>rio: produceret fundamentum et respectum ab eterno¬ 
+        </p>
+        <p xml:id="FrMS88-e49773-d1e230">
+          <lb ed="#V" n="53"/>¶ Sed contra istud instatur quadrupliciter.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e235">
+          ¶ Primo de 
+          <lb ed="#V" n="54"/>composito ex materia et forma. Nam materia et forma 
+          <lb ed="#V" n="55"/>simul sumpta sunt priora composito. ergo poterit deus 
+          <lb ed="#V" n="56"/>ea simul facere: et tamen non erit compositum. quod 
+          vide<lb ed="#V" n="57" break="no"/>tur absurdum.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e247">
+          ¶ Secundo sic. Omnis causa videtur 
+          <lb ed="#V" n="58"/>esse prior et realiter distincta a suo effectu: sed deus non 
+          <lb ed="#V" n="59"/>posset albedinem imprimere: nisi sequeretur album: 
+          er<lb ed="#V" n="60" break="no"/>go non omne prius realiter distinctum potest esse sine 
+          po<lb ed="#V" n="61" break="no"/>steriori.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e258">
+          ¶ Tertio sic. Impossibile est aliquid esse vel 
+          fie<lb ed="#V" n="62" break="no"/>ri sine eo: quod est eius diffinitiuum: sed quantitas 
+          ingre<lb ed="#V" n="63" break="no"/>ditur vt diffinitiuum hominis: quia corpus organicum: 
+          <lb ed="#V" n="64"/>constat autem quod substantia est prior et realiter distincta 
+          <lb ed="#V" n="65"/>ab accidente. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e269">
+          ¶ Quarto sic. Omnis effectus 
+          <lb ed="#V" n="66"/>sicut in esse dependet a deo. ita in fieri et conseruari. cum er¬ 
+          <!--139.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>go non solum inquantum in fieri paternitas dependeat 
+          <lb ed="#V" n="68"/>a deo: sed etiam in conseruari: poterit deus pro primo in 
+          <lb ed="#V" n="69"/>stanti influere et postea non influere: et sic erit pater et 
+          fi<lb ed="#V" n="70" break="no"/>lius sine paternitate. et sic pater et non pater: nam ex hoc 
+          <lb ed="#V" n="71"/>quod hic homo est genitus ab illo: est filius illius: erit 
+          gergo<lb ed="#V" n="72" break="no"/>sortes genitus a Platone: et tamen non erit filius: nec plato 
+          <lb ed="#V" n="73"/>erit pater.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e293">
+          ¶ Ad primum si dicatur quod compositum non 
+          <lb ed="#V" n="74"/>addit tertiam entitatem: sicut dicunt aliqui. facile est eua 
+          <lb ed="#V" n="75"/>dere. Tenendo autem oppositum: oportet dicere quod 
+          ani<lb ed="#V" n="76" break="no"/>ma et corpus possunt simul esse: et tamen compositum non 
+          <lb ed="#V" n="77"/>resultabit: posset enim anima coniungi corpori: vt 
+          mo<lb ed="#V" n="78" break="no"/>tor: et tamen non resultabit aliquod tertium compositum. 
+          <lb ed="#V" n="79"/>sicut non resultat ex angelo et corpore: cui vnitur aliquod 
+          <lb ed="#V" n="80"/>tertium compositum ex eis differens.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e311">
+          ¶ Ad secundum. Si 
+          <lb ed="#V" n="81"/>dicatur quod effectus formalis differt a forma: illi sic 
+          di<lb ed="#V" n="82" break="no"/>centes habent dicere quod deus potest album facere sine albe 
+          <lb ed="#V" n="83"/>dine: si volunt dicere consequenter: vel potius albedinem 
+          <lb ed="#V" n="84"/>in subiecto sine effectu scilicet sine albo. Sed ego dico quod esse 
+          <lb ed="#V" n="85"/>album nihil aliud est quam albedo. et subiectum et vnio 
+          albedi<lb ed="#V" n="86" break="no"/>nis ad subiectum. Et istis positis est impossibile quin 
+          in<lb ed="#V" n="87" break="no"/>lud ponatur scilicet esse album quantumcumque sint priora: quia non 
+          <lb ed="#V" n="88"/>distinguuntur.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e331">
+          ¶ Ad tertium dico. quod deus omnem 
+          sub<lb ed="#V" n="89" break="no"/>stantiam priorem accidente potest sine illo accidente 
+          face<lb ed="#V" n="90" break="no"/>re. Et ideo corpus quod dicitur organicum: quia est 
+          pri<lb ed="#V" n="91" break="no"/>us et realiter distinctum a quantitate potest facere sine 
+          <lb ed="#V" n="92"/>ea. sed hominem non potest: quia licet homo sit differens 
+          <lb ed="#V" n="93"/>realiter a quantitate: tamen praesupponit quantitatem: et est 
+          <lb ed="#V" n="94"/>quodammodo posterior quantitate: et sic deficit prioritas: 
+          <lb ed="#V" n="95"/>et per consequens non possunt separari.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e350">
+          ¶ Ad quartum 
+          <lb ed="#V" n="96"/>dico quod non videtur inconueniens. quod deus influat in 
+          fun<lb ed="#V" n="97" break="no"/>damentum relationis non influendo in relationem: cum 
+          <lb ed="#V" n="98"/>fundamentum sit prius et realiter distinctum: et sic deus 
+          <lb ed="#V" n="99"/>poterit facere quod Petrus et Martinus sint. et tamen 
+          pa<lb ed="#V" n="100" break="no"/>ternitas non sit in Petro: nec filiatio in Martino 
+          for<lb ed="#V" n="101" break="no"/>malis et actualis: sed tantum fundamentalis: quia illa non 
+          <lb ed="#V" n="102"/>differt ab eis. scilicet a fundamento: et sic patet ad illud. 
+        </p>
+        <p xml:id="FrMS88-e49773-d1e368">
+          <lb ed="#V" n="103"/>¶ Sed hic adhuc remanent aliquae difficultates.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e373">
+          ¶ 
+          Pri<lb ed="#V" n="104" break="no"/>ma est. Utrum deus possit facere materiam et formam 
+          <lb ed="#V" n="105"/>vnita sine vnione. Dico quod non. quia omne vnitum est 
+          <lb ed="#V" n="106"/>effectus formalis vnionis: materiam tamen et formam 
+          <lb ed="#V" n="107"/>bene potest facere sine vnione.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e384">
+          ¶ Secunda difficultas est. 
+          <lb ed="#V" n="108"/>Utrum deus possit facere corpus sine figura.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e389">
+          ¶ Dico 
+          <lb ed="#V" n="109"/>quod supposito quod deus possit facere corpus infinitum: tunc 
+          <lb ed="#V" n="110"/>tale corpus erit sine figura. Si autem dicatur oppositum 
+          <lb ed="#V" n="111"/>tunc erit difficile euadere.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e398">
+          ¶ Dicunt tamen aliquin quod iste 
+          <lb ed="#V" n="112"/>extremitates scilicet superficies et punctus non dicunt aliquid  
+          <lb ed="#V" n="113"/>positiuum. sed nihil aliud est punctus: nisi nihil plus 
+          <lb ed="#V" n="114"/>de linea: et sic de aliis: scilicet de linea respectu superficieit 
+          <lb ed="#V" n="115"/>et superficie respectu corporis: hoc est difficile tenere et 
+          <lb ed="#V" n="116"/>defendere.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e412">
+          ¶ Ideo dico aliter. Quod illa omnia nihil abi 
+          <lb ed="#V" n="117"/>solutum dicunt: sed praecise respectum: sunt enim extremitates  
+          <lb ed="#V" n="118"/>aliorum: sicut punctus est extremitas linee: et sic de aliis. 
+        </p>
+        <p xml:id="FrMS88-e49773-d1e419">
+          <lb ed="#V" n="119"/>¶ Et si dicas quomodo albedo quae est ens positiuum et 
+          absolu<lb ed="#V" n="120" break="no"/>tum potest fundari in superficie: qua est ens respectiuum. Dico 
+          <lb ed="#V" n="121"/>quod nec albedo fundatur in superficie: nec superficies in 
+          al<lb ed="#V" n="122" break="no"/>bedine: sed ambo in eodem subiecto de hoc alias.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e430">
+          ¶ Sed 
+          di<lb ed="#V" n="123" break="no"/>ces. quomodo dicere debes de linea dum est sine 
+          pun<lb ed="#V" n="124" break="no"/>cto: et superficies sine linea: et sic de aliis. Dico quod omnia 
+          <lb ed="#V" n="125"/>sunt finita fundamentaliter: non tamen formaliter actualiter. 
+          <lb ed="#V" n="126"/>Et sic dicendum est. sicut diceremus de duabus 
+          albedini<lb ed="#V" n="127" break="no"/>bus sine similitudine. Eent enim inter eas similitudo 
+          fun<lb ed="#V" n="128" break="no"/>damentalis. sed tamen non formalis nec actualis: que est 
+          <lb ed="#V" n="129"/>accidens: et potest ab eis separari.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e448">
+          ¶ Tertia 
+          difficul<lb ed="#V" n="130" break="no"/>tas est. Utrum deus possit facere actionem sine 
+          termi<lb ed="#V" n="131" break="no"/>no. Dico quod sicut inferius declarabitur quod actio 
+          respici<lb ed="#V" n="132" break="no"/>passum tanquam terminum: et sicut non potest fieri respe¬ 
+          <!--140.xml-->
+          <pb ed="#V" n="69-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ctus sine termino. ita nec actio sine passio. quia terminus 
+          <lb ed="#V" n="2"/>est prior ipsa relatione naturaliter et ordine essentiali.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e468">
+          ¶ Sed 
+          <lb ed="#V" n="3"/>si fieret quastio. Utrum deus possit facere actionem sine 
+          <lb ed="#V" n="4"/>termino scilicet quod accipit esse per istam actionem. potest dici 
+          <lb ed="#V" n="5"/>quod non. sicut enim declarabitur: actio presupponit 
+          pro<lb ed="#V" n="6" break="no"/>ductionem: productio autem tam actiua quam passiua 
+          pre<lb ed="#V" n="7" break="no"/>supponit terminum: quia actio vel productio actiua 
+          pre<lb ed="#V" n="8" break="no"/>supponit fundamentum et terminum: hoc enim est 
+          genera<lb ed="#V" n="9" break="no"/>le cuilibet respectui. Productio enim passiua fundatur in 
+          <lb ed="#V" n="10"/>termino producto: ergo ipsum presupponit: et per 
+          con<lb ed="#V" n="11" break="no"/>sequens actiua: quia simul natura est cum passiua. Dico 
+          <lb ed="#V" n="12"/>ergo quod deus separare non posset actionem a termino: lice 
+          <lb ed="#V" n="13"/>distinguuntur realiter. quia ordine essentiali et 
+          necessa<lb ed="#V" n="14" break="no"/>rio actio presupponit terminum: et sic patet ad illud. 
+        </p>
+        <p xml:id="FrMS88-e49773-d1e497">
+          <lb ed="#V" n="15"/>¶ Quarta difficultas est. Si deus possit facem motum sine 
+          <lb ed="#V" n="16"/>termino: quia videtur esse prior realiter et essentialiter et 
+          distin<lb ed="#V" n="17" break="no"/>ctus realiter. Dico quod accipiendo motum pro 
+          forma<lb ed="#V" n="18" break="no"/>luente: que non est aliud a termino. patet quod potest. Sed 
+          ad<lb ed="#V" n="19" break="no"/>cipiendo motum profluxu forme: qui nihil aliud est 
+          <lb ed="#V" n="20"/>nisi ordo partium forme: et ordo sicut quilibet 
+          respe<lb ed="#V" n="21" break="no"/>ctus presupponit terminum et fundamentum: 
+          relinque<lb ed="#V" n="22" break="no"/>tur dicendum quod motus non potest esse sine termino: quia 
+          <lb ed="#V" n="23"/>posterior eo. Eodem modo dico de mutatione. Ipsa enim 
+          <lb ed="#V" n="24"/>est posterior termino.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e522">
+          ¶ Quinta difficultas est. Utrum 
+          <lb ed="#V" n="25"/>deus possit faceme animal: quod non sit sanum vel egrum. 
+        </p>
+        <p xml:id="FrMS88-e49773-d1e527">
+          <lb ed="#V" n="26"/>¶ Dico quod hic est imaginandum sicut superius dictum 
+          <lb ed="#V" n="27"/>est de quantitate: comparando enim sanum ad egrum: vel 
+          <lb ed="#V" n="28"/>istas formas ad corpus quod immediate respiciunt 
+          <lb ed="#V" n="29"/>pro subiecto: quia ipsum est prius eis et distinctum reali 
+          <lb ed="#V" n="30"/>ter: potest deus corpus sine sanitate et egritudine facem 
+        </p>
+        <p xml:id="FrMS88-e49773-d1e540">
+          <lb ed="#V" n="31"/>¶ Sed loquendo de homine qui presupponit in 
+          cor<lb ed="#V" n="32" break="no"/>pore talem mixtionem que est lanitas vel egritudo: 
+          si<lb ed="#V" n="33" break="no"/>cut dictum fuit de quantitate: sicut deus non potest 
+          fa<lb ed="#V" n="34" break="no"/>cere hominem sine quantitate: sic non hotest deus 
+          fa<lb ed="#V" n="35" break="no"/>cere hominem sine qualitate: ita forte non potest face 
+          <lb ed="#V" n="36"/>hominem sine illis mixtionibus.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e556">
+          ¶ Ideo dico quod sicut 
+          <lb ed="#V" n="37"/>corpus potest fieri sine quantitate: sed non homo. ita corpus potest fieri 
+          <lb ed="#V" n="38"/>sine istis mixtionibus. licet non homo vel humanitas.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e563">
+          ¶ 
+          Sex<lb ed="#V" n="39" break="no"/>ta difficultas: de luce et tenebris respectu aeris. Utrum 
+          <lb ed="#V" n="40"/>aer possit fieri sine eis. ita quod aer esset qui non esset nec 
+          luci<lb ed="#V" n="41" break="no"/>dus nec tenebrosus.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e572">
+          ¶ Dico quod hec regula non tenet in 
+          pri<lb ed="#V" n="42" break="no"/>uatione et habitu: quia priuatio non producitur: sed ex sola 
+          amo<lb ed="#V" n="43" break="no"/>tione habitus inducitur. Et ideo non potest fieri quod subiectum non 
+          <lb ed="#V" n="44"/>sit sub altero eorum: quia si excludatur habitus eo inducitur 
+          <lb ed="#V" n="45"/>priuatio.
+        </p>
+        <p xml:id="FrMS88-e49773-d1e584">
+          ¶ Ad argumentum ex dictis patet. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

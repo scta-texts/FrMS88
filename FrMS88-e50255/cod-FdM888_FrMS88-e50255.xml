@@ -1,416 +1,416 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="69-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e50255"><!-- l1d17q1 -->
-            <head xml:id="FrMS88-e50255-Hd1e108">Quaestio 1</head>
-            <p xml:id="FrMS88-e50255-d1e111">
-               <lb ed="#V" n="46"/>¶ Distinctio decimaseptima. Questio. 1. 
-      <lb ed="#V" n="47"/>Iam nunc accedamus etc. 
-      <lb ed="#V" n="48"/>QUeritur Utrum necessare sit 
-      pon<lb ed="#V" n="49" break="no"/>nere charitatem 
-      crea<lb ed="#V" n="50" break="no"/>tam in anima nostra. Quod non. Apstulus. 
-      Chari<lb ed="#V" n="51" break="no"/>tas dei diffusa est in cordibus vidsrnis per 
-      <lb ed="#V" n="52"/>spiumsanctum.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e129">
-      ¶ Contra idem Apstlus. 
-      <lb ed="#V" n="53"/>fructus spiritussancti est charitas.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e134">
-      ¶ Ciri 
-      <lb ed="#V" n="54"/>ca istam quaestionem oportet videre de necessaritate 
-      cha<lb ed="#V" n="55" break="no"/>ritatis quantum ad positiom ordinatam. Et 
-      <lb ed="#V" n="56"/>secundo quantum ad potentiam absolutam. 
-      <lb ed="#V" n="57"/>ad primum fuerunt antiquitus 4or 
-      opini<lb ed="#V" n="58" break="no"/>Quantum
-    </p>
-            <p xml:id="FrMS88-e50255-d1e147">
-      ¶ Prima fuit opiniones velagi quo scilicet 
-      qd<lb ed="#V" n="59" break="no"/>actum meritorium non requritur charitas sine gratia. nec specialis 
-      <lb ed="#V" n="60"/>influentia: sed quod ex puris naturalibus posset homo mereri vitam 
-      <lb ed="#V" n="61"/>eternam: nam ea quae non sunt in potestate nostra: meritoria esse non 
-      <lb ed="#V" n="62"/>dossunt.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e159">
-      ¶ Secunda opiniones suit quod requritur charitas: nec ipsa 
-      suffi<lb ed="#V" n="63" break="no"/>tit: sed oportet quod sit ibi assistentia spiritus sancti et influentia. quia cum 
-      <lb ed="#V" n="64"/>omnia sint creata non videtur quod aliquod creatum possit actum dignum 
-      <lb ed="#V" n="65"/>tanto praemio causare.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e168">
-      ¶ Tertia opinione uit magtri. quo scilicet ad talem 
-      <!--140.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="66"/>actum meritorium requritur spiritusancti influentia: et non requiritur 
-      <lb ed="#V" n="67"/>charitas nec aliqua creatura: quia persona diuina scilicet 
-      spiritus<lb ed="#V" n="68" break="no"/>sancti potens est facem sine illa creatura quod posset facen 
-      <lb ed="#V" n="69"/>cum illa.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e184">
-      ¶ Quarta opinionem quod ad talem actum sufficit sola 
-      <lb ed="#V" n="70"/>charitas. nec requritur assistentia spiritussancti specialis. eo 
-      <lb ed="#V" n="71"/>quod dona supernaturalia videntur sufficientia ad faciendum 
-      ta<lb ed="#V" n="72" break="no"/>lem effectum deo acceptum secundum ordinationem diuinama.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e193">
-      ¶ 
-      Pri<lb ed="#V" n="73" break="no"/>ma istarum opionum stare non potest: sed erronea reputatur. 
-      <lb ed="#V" n="74"/>Est enim opinione. Pelagii. Ipse enim posuit quod homo ex puris 
-      natura<lb ed="#V" n="75" break="no"/>libus potest mereri vitam eternam: quod est falsum.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e202">
-      ¶ Nec 
-      <lb ed="#V" n="76"/>secunda potest stare: quia eodem actu numero aliquins per ipsum 
-      <lb ed="#V" n="77"/>meretur vitam eternam si habeat charitatem. per quem tamen 
-      <lb ed="#V" n="78"/>non mereatur vitam eternam si non habet charitatem: 
-      da<lb ed="#V" n="79" break="no"/>to quod idem actus habeatur. Et hic ostenditur quod spiritussactus 
-      <lb ed="#V" n="80"/>specialiter non concurrat: quia prius dum charitas 
-      <lb ed="#V" n="81"/>non erat: actus erat positus in esse sine illo speciali in 
-      <lb ed="#V" n="82"/>fluxu. ergo postquam habet charitatem iam non amplius 
-      <lb ed="#V" n="83"/>per quemcunque influxum ponetur in esse.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e222">
-      ¶ Si dicatur 
-      <lb ed="#V" n="84"/>quod non erit idem actus numero. sed distinctus.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e228">
-      ¶ 
-      Con<lb ed="#V" n="85" break="no"/>tra. eodem modo arguitur de actu eiusdem rationis. quia 
-      <lb ed="#V" n="86"/>actum eiusdem rationis et eque intensum habet 
-      aliquan<lb ed="#V" n="87" break="no"/>do in charitate existens: et non charitatem habens. ergo 
-      <lb ed="#V" n="88"/>non videtur quod aliqua alia causa concurrat ad 
-      causan<lb ed="#V" n="89" break="no"/>dum eum que prius non concurrebat.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e241">
-      ¶ Sed ad ista 
-      <lb ed="#V" n="90"/>potest dici dupliciter. Uno modo quod spiritussanctus 
-      con<lb ed="#V" n="91" break="no"/>currat nunc ad vnum et non prius sine variatione illius 
-      <lb ed="#V" n="92"/>actus saltem specifica. quia hoc non est impossibile: eo quod 
-      <lb ed="#V" n="93"/>est agens liberum et non naturale.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e252">
-      ¶ Secundo modo 
-      dici<lb ed="#V" n="94" break="no"/>tur quod non est inconueniens ponere istos actus scilicet 
-      me<lb ed="#V" n="95" break="no"/>ritorium et non meritorium differre specie. quia alie et alie 
-      <lb ed="#V" n="96"/>cause concurrunt ad istum quod arguit distinctionem 
-      spe<lb ed="#V" n="97" break="no"/>cificam.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e263">
-      ¶ Contra primum non sufficit. nam ceteris 
-      <lb ed="#V" n="98"/>causis paribus videtur impossibile vlteriorem causam 
-      con<lb ed="#V" n="99" break="no"/>currere quin effectus varietur: aut intendatur. siue sit 
-      <lb ed="#V" n="100"/>causa libera: siue naturalis: alioquin nihil ibi faceret cum ipsa 
-      <lb ed="#V" n="101"/>non concurrente nihil minus causeretur effectus. Alia autem 
-      <lb ed="#V" n="102"/>omnia paria ponuntur.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e276">
-      ¶ Nec secundum valet: Nam tunc omnis 
-      <lb ed="#V" n="103"/>actus boni hominis existentis in charitate differret speciei 
-      <lb ed="#V" n="104"/>ab omni actu eiusdem hominis charitatem non habentis. 
-      <lb ed="#V" n="105"/>quod videtur inconueniens. Ideo non videtur 
-      necessa<lb ed="#V" n="106" break="no"/>ria influentia specialis spiritussancti cum equales actus 
-      <lb ed="#V" n="107"/>et eiusdem speciei sint digni vita eterna et non digni: et etiam 
-      <lb ed="#V" n="108"/>in eodem: quod non posset esse si esset supernaturalis influentia 
-      </p>
-            <p xml:id="FrMS88-e50255-d1e292">
-               <lb ed="#V" n="109"/>¶ Tertia opinio. que est magistri non tenetur communiter 
-      <lb ed="#V" n="110"/>eo quod non videtur bene consona dictis sactorum. Nec etiam bene 
-      consona<lb ed="#V" n="111" break="no"/>dictis sacri canonis. Gratia enim et veritas per Iesum 
-      <lb ed="#V" n="112"/>christum facta est Io. i. Sed mihi videtur quod loquendo de 
-      <lb ed="#V" n="113"/>potentia dei absoluta: non est ita opinio absurda. Nam 
-      <lb ed="#V" n="114"/>quicquid potest deus facere mediante causa secunda. potest 
-      si<lb ed="#V" n="115" break="no"/>ne ea in genere cause efficientis: potest autem per te: mediante 
-      <lb ed="#V" n="116"/>charitate: ergo sine ea per se potest: nec etiam est ita 
-      irrationabi<lb ed="#V" n="117" break="no"/>lis: sicut dicitur. sed sicut secunda opinio exaltat meritum 
-      <lb ed="#V" n="118"/>per singularem influentiam spiritussancti: ita ista multo 
-      ma<lb ed="#V" n="119" break="no"/>gis exaltat per totalem spiritussancti influentiam 
-      respe<lb ed="#V" n="120" break="no"/>ctu actus. istis ergo tribus modis dicendi non proba 
-      <lb ed="#V" n="121"/>bilibus dimissis. Dico secundum quartam opinionem: quod 
-      chari<lb ed="#V" n="122" break="no"/>tas sola cum aliis quae dicentur sine spiritussancti influentia speciali 
-      <lb ed="#V" n="123"/>requiritur.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e328">
-      ¶ Requiruntur enim ad actum meritorium: ipsa 
-      volun<lb ed="#V" n="124" break="no"/>tas: ipsa charitas: ipsa acceptatio diuina: et influentia 
-      <lb ed="#V" n="125"/>generalis: non autem specialis: eo quod talis actus eque 
-      intensi<lb ed="#V" n="126" break="no"/>possunt haberi a non habente charitatem et ab habente.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e337">
-      ¶ Sed  
-      <lb ed="#V" n="127"/>tunc est vna difficultas. Uidetur enim sequi error pelagii: 
-      <lb ed="#V" n="128"/>quia sine speciali influentia potest causari actus meritorius. 
-      Di<lb ed="#V" n="129" break="no"/>co quod non est error pelagii. quia ipse nihil aliud ponebat 
-      prima<lb ed="#V" n="130" break="no"/>ter naturalia et influentiam generalem. Ego autem pono preter 
-      influen<lb ed="#V" n="131" break="no"/>tiam generalem ipsam charitatem: que licet dum est na¬ 
-      <!--141.xml-->
-      <pb ed="#V" n="69-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>turaliter operetur: tamen supernaturaliter infunditur et simili cum hoc 
-      re<lb ed="#V" n="2" break="no"/>quiritur acceptatio diuina.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e361">
-      ¶ Nec valent rationes pro 
-      <lb ed="#V" n="3"/>aliis opionibus inducte. Prima non. quia licet voluntas 
-      di<lb ed="#V" n="4" break="no"/>uina coagat voluntati nostre: tamen sic coagit quod actus semper 
-      <lb ed="#V" n="5"/>est in potestate nostra. et similiter charitas concurrens. Nec ratio 
-      pro<lb ed="#V" n="6" break="no"/>secunda valet. quia licet charitas nec aliquid aliud possit actum 
-      <lb ed="#V" n="7"/>dignum tanto permio causare quantum est ex se. tamen ex ordine illius 
-      <lb ed="#V" n="8"/>in cuius potestate est primium conferre bene est possibile. Nec ratio 
-      pro<lb ed="#V" n="9" break="no"/>tertia. quia licet probet quod deus posset aliter faceme: tamen de facto 
-      <lb ed="#V" n="10"/>non probat: habemus enim gratiam esse factam. constat autem quod 
-      <lb ed="#V" n="11"/>gratia quae facta est non est spiritussancti. 
-      <lb ed="#V" n="12"/>ad secundam partem quaestionis que est videre 
-      <lb ed="#V" n="13"/>Quantum vtrum de potentia dei absoluta posse ditur 
-      <lb ed="#V" n="14"/>acceptare aliquem sine charitate: ita quod charitas non est 
-      <lb ed="#V" n="15"/>necessaria quantum ad potentiam absolutam. Dicunt aliquo 
-      <lb ed="#V" n="16"/>quod deus de potentia sua absoluta non potest de nouo 
-      ali<lb ed="#V" n="17" break="no"/>quem acceptare nisi infundat ei charitatem. Et hoc probant 
-      <lb ed="#V" n="18"/>sic. Impossibile est esse transitum de contradictorio in 
-      contradi<lb ed="#V" n="19" break="no"/>ctorium sine mutatione facta in altero extremorum: 
-      <lb ed="#V" n="20"/>sed hic fit mutatio de non accepto ad acceptum: et non 
-      <lb ed="#V" n="21"/>est mutatio ex parte dei: ergo erit ex parte creature 
-      acci<lb ed="#V" n="22" break="no"/>parte. Sed non poest intelligi mutatio nisi aliquid habeat quod 
-      <lb ed="#V" n="23"/>prius non habuit. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e409">
-      ¶ Confirmatur: quia nulla 
-      volun<lb ed="#V" n="24" break="no"/>tas aliquid acceptat quod non prius nisi eius 
-      intelle<lb ed="#V" n="25" break="no"/>ctus aliter iudicet de illo quam prius. ergo si de nouo 
-      vo<lb ed="#V" n="26" break="no"/>luntas diuina acceptat sine mutatione in creatura est 
-      <lb ed="#V" n="27"/>mutatio in eius intellectu.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e420">
-      ¶ Contra istam conclusionem 
-      ar<lb ed="#V" n="28" break="no"/>guitur quadrupliciter. Primo sic. Non est magis 
-      libe<lb ed="#V" n="29" break="no"/>ra voluntas nostra circa obiectum quam voluntas 
-      diuina<lb ed="#V" n="30" break="no"/>circa contingentia: sed nulla mutatione facta circa 
-      ob<lb ed="#V" n="31" break="no"/>iectum oditum: potest voluntas illud diligere spositiote. ergo etc. 
-      </p>
-            <p xml:id="FrMS88-e50255-d1e431">
-               <lb ed="#V" n="32"/>¶ Secundo sic. Aut potest deus existentem in charitate 
-      <lb ed="#V" n="33"/>acceptare. aut non. Si sic. ergo cum prius eum non 
-      acce<lb ed="#V" n="34" break="no"/>ptaret erit transitus de contradictorio in 
-      contradicto<lb ed="#V" n="35" break="no"/>rium sine mutatione. Si non. ergo aliquid de 
-      necessi<lb ed="#V" n="36" break="no"/>tate vult citra vltimum finem. quod est falsum.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e445">
-      ¶ 
-      Ter<lb ed="#V" n="37" break="no"/>tio sic. Deus ab eterno volunt solem pro tali die 
-      creare<lb ed="#V" n="38" break="no"/>et pro illo diie potuit non creare: quero in quo est 
-      mu<lb ed="#V" n="39" break="no"/>tatio: quia est transitus: patet quod non in deo: nec in solem 
-      <lb ed="#V" n="40"/>quia non erat adhuc. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e456">
-      ¶ Quarto sic. Deus ab 
-      eter<lb ed="#V" n="41" break="no"/>novoluit animam antichristi creare pro tali die. et 
-      adhud<lb ed="#V" n="42" break="no"/>potest non creare eum: transitus ergo fiet a 
-      contradicto<lb ed="#V" n="43" break="no"/>rio in contradictorium sine mutatione. non in deo. per te. 
-      <lb ed="#V" n="44"/>nec in anima: quia nondum est. ergo videtur quod ratio non 
-      va<lb ed="#V" n="45" break="no"/>let.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e469">
-      ¶ Nec videtur quod ratio de mutatione quam isti potenti 
-      <lb ed="#V" n="46"/>derant plus probet quod charitas sit necessaria quam 
-      casti<lb ed="#V" n="47" break="no"/>tas: vel quodcunque aliud: quod a deo infunderetur: quia 
-      <lb ed="#V" n="48"/>tunc aliquid esset mutatum: nec hoc etiam concludit. 
-      <lb ed="#V" n="49"/>Ideo est alia opinio que dicit. quod deus de potentia sua 
-      <lb ed="#V" n="50"/>absoluta de nouo potest acceptare: quam prius non 
-      ac<lb ed="#V" n="51" break="no"/>ceptabat sine charitate: vel aliquo alio infuso reali: 
-      ni<lb ed="#V" n="52" break="no"/>si sola acceptatione passiua que est ens rationis: quod 
-      <lb ed="#V" n="53"/>declaratur sic. Nam circa operationes immanentes 
-      <lb ed="#V" n="54"/>fieri potest transitus de contradictorio in 
-      contradicto<lb ed="#V" n="55" break="no"/>rium ex parte obiecti sine mutatione in obiecto per solum 
-      re<lb ed="#V" n="56" break="no"/>spectum rationis. sicut deus de non dilecto a me fit 
-      dile<lb ed="#V" n="57" break="no"/>ctus a me. Acceptare autem est operatio immanens: sicut 
-      <lb ed="#V" n="58"/>velle: potest ergo deus nunc aliquem acceptare quem prius 
-      <lb ed="#V" n="59"/>non acceptabat: nulla facta mutatione circa obiectum 
-      <lb ed="#V" n="60"/>in esse reali: sed forte tantum in esse rationis: quia sic. in 
-      <lb ed="#V" n="61"/>ea esset acceptatio passiua.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e506">
-      ¶ Sed contra hoc instatur 4r. 
-      <lb ed="#V" n="62"/>Primo sic. Nam ideo creatura potest velle quod prius 
-      <lb ed="#V" n="63"/>non volunt nulla mutatione facta circa obiectum. quia fit 
-      mu<lb ed="#V" n="64" break="no"/>tatio in voluntate. quia prius non habuit actum 
-      volen<lb ed="#V" n="65" break="no"/>di: nunc autem habet: sed si poneretur idem omnio actus et non 
-      mu<lb ed="#V" n="66" break="no"/>taretur: videretur quod oporteret mutationem esse in obiecto si fie¬ 
-      <!--141.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>ret de non volito volitum: cum ergo in diuina voluntate non 
-      <lb ed="#V" n="68"/>fit mutatio: hentur propositum.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e528">
-      ¶ Secundo sic. Nulla 
-      com<lb ed="#V" n="69" break="no"/>tradictio realis potest saluari per non reale: sed 
-      velle<lb ed="#V" n="70" break="no"/>et non velle est contradictio realis. ergo non potest 
-      sal<lb ed="#V" n="71" break="no"/>uari per istam acceptationem que non est realis.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e537">
-      ¶ 3a 
-      <lb ed="#V" n="72"/>sic. Nullum ens simpliciter potest saluari per ens secundum 
-      <lb ed="#V" n="73"/>quid. sed quando aliquid fit de non volito volitum. 
-      <lb ed="#V" n="74"/>illa videtur esse mutatio simpliciter: acceptatio est ens 
-      <lb ed="#V" n="75"/>secundum quid. ergo per eam non potest saluari.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e549">
-      ¶ Quarto 
-      <lb ed="#V" n="76"/>sic. Nam videtur eodem modo stare dubium. Utrum 
-      <lb ed="#V" n="77"/>de potentia dei absoluta possit deus acceptare quod 
-      <lb ed="#V" n="78"/>prius non acceptabat sine illa acceptatione passiua. 
-      <lb ed="#V" n="79"/>Ipsa enim acceptatio pari modo videtur donum 
-      quod<lb ed="#V" n="80" break="no"/>dam: sicut charitas.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e562">
-      ¶ Ad primum dico. quod si 
-      creatu<lb ed="#V" n="81" break="no"/>ra eodem actu vellet omnia libere: sicut vult deus: eo 
-      <lb ed="#V" n="82"/>dem modo posset fieri aliquid de non volito volitum 
-      <lb ed="#V" n="83"/>a creatura sine mutatione: sicut de deo dicimus: sed quia 
-      <lb ed="#V" n="84"/>non est ita: ideo de deo dicimum quod sic potest fieri de non 
-      <lb ed="#V" n="85"/>acceptante hoc acceptans hoc sine mutatione: non 
-      au<lb ed="#V" n="86" break="no"/>tem de creatura. hoc autem possumus dicere: quia 
-      di<lb ed="#V" n="87" break="no"/>uersis actibus vult et operatur circa diuersa obiecta. 
-      </p>
-            <p xml:id="FrMS88-e50255-d1e580">
-               <lb ed="#V" n="88"/>¶ Ad secundum et ad tertium simul dico. quod duplex est 
-      <lb ed="#V" n="89"/>mutatio: quedam est obiectiua: et quedam subiectiua. 
-      <lb ed="#V" n="90"/>Mutatio obiectiua solum requirit aliquid volitum 
-      <lb ed="#V" n="91"/>in esse obiectiuo: et talis est quando aliquid de non 
-      vo<lb ed="#V" n="92" break="no"/>lito sit volitum. Sed quomodo per ens rationis 
-      po<lb ed="#V" n="93" break="no"/>test saluari esse reale. Dico quod ens rationis quantum 
-      <lb ed="#V" n="94"/>ad presens spectat: est in duplici differentia: quoddam 
-      <lb ed="#V" n="95"/>enim est fabricatum a ratione: sicut respectus ad seipsum 
-      <lb ed="#V" n="96"/>et per tale ens rationis nunquam saluatur aliquid reale. Aliud est 
-      <lb ed="#V" n="97"/>ens rationis non a ratione fabricatum: sed a ratione derelictum. et huiusmo 
-      <lb ed="#V" n="98"/>sunt respecus. intellecti. voliti. dilecti et huiusmodi. per talia autem 
-      <lb ed="#V" n="99"/>rationis entia bene possunt saluari mutationes et contradictiones 
-      <lb ed="#V" n="100"/>obitectiue.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e611">
-      ¶ Sed dices. si esse volitum dicit ens solum rationis: quodo 
-      <lb ed="#V" n="101"/>saluabitur transitus realis qui est quando de non volente sit volens per esse 
-      <lb ed="#V" n="102"/>volitum:
-    </p>
-            <p xml:id="FrMS88-e50255-d1e618">
-      ¶ Dico quod quaedam sunt ita realia: quod 
-      circumscrip<lb ed="#V" n="103" break="no"/>to omni actu intelligendi et volendi permanent: et talia per aliquid 
-      <lb ed="#V" n="104"/>non reale non possunt saluari. Aliqua sunt quae licet non fabricent 
-      <lb ed="#V" n="105"/>ab actu intelligendi et volendi. tamen istos actus consequuntur: sicut esse 
-      <lb ed="#V" n="106"/>acceptum: et non esse acceptum et esse volitum et non volitum: et de 
-      ta<lb ed="#V" n="107" break="no"/>libus verum est quod licet non sint realia: tamen contradictiones quae videntur reales 
-      <lb ed="#V" n="108"/>de actibus istis scilicet intelligendi volendi et acceptandi 
-      sal<lb ed="#V" n="109" break="no"/>uantur.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e636">
-      ¶ Si autem quaras. Est ne inste transitus simpliciter. vel secundam 
-      <lb ed="#V" n="110"/>quid: quando aliquid fit non de accepto acceptum. Dico quod est 
-      <lb ed="#V" n="111"/>secundum quid. quia nihil nouum est in termino transitus nisi aliquod 
-      <lb ed="#V" n="112"/>ens secundum quid. Et si dicas hoc est simpliciter acceptum. 
-      Di<lb ed="#V" n="113" break="no"/>co quod ita dicitur hoc est simpliciter ens rationis vel secundum quid.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e648">
-      ¶ Per 
-      <lb ed="#V" n="114"/>hoc patet ad rationes prime opinionis. quod ad transitum 
-      <lb ed="#V" n="115"/>istum saluandum inter contradictoria: non oportet quod aliquid fiat 
-      no<lb ed="#V" n="116" break="no"/>uum habens plus de realitate quam vnum istorum 
-      contradicto<lb ed="#V" n="117" break="no"/>riorum: modo ita est quod esse acceptum et nonn esse acceptum 
-      <lb ed="#V" n="118"/>sunt extrema contradictionis solum in esse obiectiuo 
-      <lb ed="#V" n="119"/>vel volito. et non in esse simpliciter reali. fit autem 
-      mu<lb ed="#V" n="120" break="no"/>tatio secundum tale esse: quia sit nouus respectus rationis.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e666">
-      ¶ Ad  
-      <lb ed="#V" n="121"/>quartum dico. quod respectus ille scilicet acceptationis siue 
-      <lb ed="#V" n="122"/>acceptatio passiua non potest dici donum nec charitas 
-      <lb ed="#V" n="123"/>quia est solum ens rationis. ideo non potest creari: nec est in 
-      crea<lb ed="#V" n="124" break="no"/>tura que est in esse reali subiectiue. sed est in creatura 
-      <lb ed="#V" n="125"/>que est in esse obiectiuo.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e679">
-      ¶ Sed posset ne plus deus 
-      <lb ed="#V" n="126"/>de nouo acceptare sine acceptatione passiua: vel sine 
-      <lb ed="#V" n="127"/>esse acceptato: hoc est querere. Utrum deus possit 
-      ali<lb ed="#V" n="128" break="no"/>quid creare et non creare. Nam sicut creatio actiua 
-      in<lb ed="#V" n="129" break="no"/>fert necessario passiuam: sic acceptatio actiua infert 
-      necessa<lb ed="#V" n="130" break="no"/>rio passiuam: non potest ergo deus acceptare nisi acceptetur 
-      ali<lb ed="#V" n="131" break="no"/>quid: nec aliquid potest esse acceptum sine acceptatione 
-      passi<lb ed="#V" n="132" break="no"/>ua: sicut nec esse album sine albedine. Sed posset ne deus 
-      <!--142.xml-->
-      <pb ed="#V" n="70-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>aliquem acceptare non impriemendo ei talem respectum: Dico 
-      <lb ed="#V" n="2"/>quod sic sane intelligendo. non enim potest deus aliquem 
-      acce<lb ed="#V" n="3" break="no"/>ptare nisi acceptatio fuerit in eo formaliter. Sed tamen potest 
-      <lb ed="#V" n="4"/>deus bene de nouo acceptare: et tamen acceptatio passiua nin 
-      <lb ed="#V" n="5"/>erit noua: sicut sepre fuit dictum isto anno. 132. Nam 
-      posi<lb ed="#V" n="6" break="no"/>ta visione circa accidentia separata: stante visione: si deus ea 
-      <lb ed="#V" n="7"/>subiecto coniugeret: nunc videretur subiectum et non prius: non tamen 
-      vi<lb ed="#V" n="8" break="no"/>sione passiua noua: sed eadem qua videbantur prius accidentia 
-      <lb ed="#V" n="9"/>Eodem modo in proposito: quod facta prius acceptatione circa 
-      <lb ed="#V" n="10"/>aliquod obiectum: vtpote circa charitatem ex infusione charita 
-      <lb ed="#V" n="11"/>tis fiet anima accepta non noua acceptatione: sed eadem 
-      qua<lb ed="#V" n="12" break="no"/>prius charitas erat accepta.
-    </p>
-            <p xml:id="FrMS88-e50255-d1e729">
-      ¶ Ad auctoritatem in 
-      prin<lb ed="#V" n="13" break="no"/>cipio: et ad omnes similes quae adducuntur a magstro et ab aliis. 
-      </p>
-            <p xml:id="FrMS88-e50255-d1e734">
-               <lb ed="#V" n="14"/>¶ Dico quod nunquam intelligitur quod charitas diffusa vel 
-      <lb ed="#V" n="15"/>pata sit spiritussanctus: sed intelligitur quod est data vel 
-      <lb ed="#V" n="16"/>diffusa per spiritum sanctum. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="69-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e50255"><!-- l1d17q1 -->
+        <head xml:id="FrMS88-e50255-Hd1e108">Quaestio 1</head>
+        <p xml:id="FrMS88-e50255-d1e111">
+          <lb ed="#V" n="46"/>¶ Distinctio decimaseptima. Questio. 1. 
+          <lb ed="#V" n="47"/>Iam nunc accedamus etc. 
+          <lb ed="#V" n="48"/>QUeritur Utrum necessare sit 
+          pon<lb ed="#V" n="49" break="no"/>nere charitatem 
+          crea<lb ed="#V" n="50" break="no"/>tam in anima nostra. Quod non. Apstulus. 
+          Chari<lb ed="#V" n="51" break="no"/>tas dei diffusa est in cordibus vidsrnis per 
+          <lb ed="#V" n="52"/>spiumsanctum.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e129">
+          ¶ Contra idem Apstlus. 
+          <lb ed="#V" n="53"/>fructus spiritussancti est charitas.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e134">
+          ¶ Ciri 
+          <lb ed="#V" n="54"/>ca istam quaestionem oportet videre de necessaritate 
+          cha<lb ed="#V" n="55" break="no"/>ritatis quantum ad positiom ordinatam. Et 
+          <lb ed="#V" n="56"/>secundo quantum ad potentiam absolutam. 
+          <lb ed="#V" n="57"/>ad primum fuerunt antiquitus 4or 
+          opini<lb ed="#V" n="58" break="no"/>Quantum
+        </p>
+        <p xml:id="FrMS88-e50255-d1e147">
+          ¶ Prima fuit opiniones velagi quo scilicet 
+          qd<lb ed="#V" n="59" break="no"/>actum meritorium non requritur charitas sine gratia. nec specialis 
+          <lb ed="#V" n="60"/>influentia: sed quod ex puris naturalibus posset homo mereri vitam 
+          <lb ed="#V" n="61"/>eternam: nam ea quae non sunt in potestate nostra: meritoria esse non 
+          <lb ed="#V" n="62"/>dossunt.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e159">
+          ¶ Secunda opiniones suit quod requritur charitas: nec ipsa 
+          suffi<lb ed="#V" n="63" break="no"/>tit: sed oportet quod sit ibi assistentia spiritus sancti et influentia. quia cum 
+          <lb ed="#V" n="64"/>omnia sint creata non videtur quod aliquod creatum possit actum dignum 
+          <lb ed="#V" n="65"/>tanto praemio causare.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e168">
+          ¶ Tertia opinione uit magtri. quo scilicet ad talem 
+          <!--140.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="66"/>actum meritorium requritur spiritusancti influentia: et non requiritur 
+          <lb ed="#V" n="67"/>charitas nec aliqua creatura: quia persona diuina scilicet 
+          spiritus<lb ed="#V" n="68" break="no"/>sancti potens est facem sine illa creatura quod posset facen 
+          <lb ed="#V" n="69"/>cum illa.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e184">
+          ¶ Quarta opinionem quod ad talem actum sufficit sola 
+          <lb ed="#V" n="70"/>charitas. nec requritur assistentia spiritussancti specialis. eo 
+          <lb ed="#V" n="71"/>quod dona supernaturalia videntur sufficientia ad faciendum 
+          ta<lb ed="#V" n="72" break="no"/>lem effectum deo acceptum secundum ordinationem diuinama.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e193">
+          ¶ 
+          Pri<lb ed="#V" n="73" break="no"/>ma istarum opionum stare non potest: sed erronea reputatur. 
+          <lb ed="#V" n="74"/>Est enim opinione. Pelagii. Ipse enim posuit quod homo ex puris 
+          natura<lb ed="#V" n="75" break="no"/>libus potest mereri vitam eternam: quod est falsum.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e202">
+          ¶ Nec 
+          <lb ed="#V" n="76"/>secunda potest stare: quia eodem actu numero aliquins per ipsum 
+          <lb ed="#V" n="77"/>meretur vitam eternam si habeat charitatem. per quem tamen 
+          <lb ed="#V" n="78"/>non mereatur vitam eternam si non habet charitatem: 
+          da<lb ed="#V" n="79" break="no"/>to quod idem actus habeatur. Et hic ostenditur quod spiritussactus 
+          <lb ed="#V" n="80"/>specialiter non concurrat: quia prius dum charitas 
+          <lb ed="#V" n="81"/>non erat: actus erat positus in esse sine illo speciali in 
+          <lb ed="#V" n="82"/>fluxu. ergo postquam habet charitatem iam non amplius 
+          <lb ed="#V" n="83"/>per quemcunque influxum ponetur in esse.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e222">
+          ¶ Si dicatur 
+          <lb ed="#V" n="84"/>quod non erit idem actus numero. sed distinctus.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e228">
+          ¶ 
+          Con<lb ed="#V" n="85" break="no"/>tra. eodem modo arguitur de actu eiusdem rationis. quia 
+          <lb ed="#V" n="86"/>actum eiusdem rationis et eque intensum habet 
+          aliquan<lb ed="#V" n="87" break="no"/>do in charitate existens: et non charitatem habens. ergo 
+          <lb ed="#V" n="88"/>non videtur quod aliqua alia causa concurrat ad 
+          causan<lb ed="#V" n="89" break="no"/>dum eum que prius non concurrebat.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e241">
+          ¶ Sed ad ista 
+          <lb ed="#V" n="90"/>potest dici dupliciter. Uno modo quod spiritussanctus 
+          con<lb ed="#V" n="91" break="no"/>currat nunc ad vnum et non prius sine variatione illius 
+          <lb ed="#V" n="92"/>actus saltem specifica. quia hoc non est impossibile: eo quod 
+          <lb ed="#V" n="93"/>est agens liberum et non naturale.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e252">
+          ¶ Secundo modo 
+          dici<lb ed="#V" n="94" break="no"/>tur quod non est inconueniens ponere istos actus scilicet 
+          me<lb ed="#V" n="95" break="no"/>ritorium et non meritorium differre specie. quia alie et alie 
+          <lb ed="#V" n="96"/>cause concurrunt ad istum quod arguit distinctionem 
+          spe<lb ed="#V" n="97" break="no"/>cificam.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e263">
+          ¶ Contra primum non sufficit. nam ceteris 
+          <lb ed="#V" n="98"/>causis paribus videtur impossibile vlteriorem causam 
+          con<lb ed="#V" n="99" break="no"/>currere quin effectus varietur: aut intendatur. siue sit 
+          <lb ed="#V" n="100"/>causa libera: siue naturalis: alioquin nihil ibi faceret cum ipsa 
+          <lb ed="#V" n="101"/>non concurrente nihil minus causeretur effectus. Alia autem 
+          <lb ed="#V" n="102"/>omnia paria ponuntur.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e276">
+          ¶ Nec secundum valet: Nam tunc omnis 
+          <lb ed="#V" n="103"/>actus boni hominis existentis in charitate differret speciei 
+          <lb ed="#V" n="104"/>ab omni actu eiusdem hominis charitatem non habentis. 
+          <lb ed="#V" n="105"/>quod videtur inconueniens. Ideo non videtur 
+          necessa<lb ed="#V" n="106" break="no"/>ria influentia specialis spiritussancti cum equales actus 
+          <lb ed="#V" n="107"/>et eiusdem speciei sint digni vita eterna et non digni: et etiam 
+          <lb ed="#V" n="108"/>in eodem: quod non posset esse si esset supernaturalis influentia 
+        </p>
+        <p xml:id="FrMS88-e50255-d1e292">
+          <lb ed="#V" n="109"/>¶ Tertia opinio. que est magistri non tenetur communiter 
+          <lb ed="#V" n="110"/>eo quod non videtur bene consona dictis sactorum. Nec etiam bene 
+          consona<lb ed="#V" n="111" break="no"/>dictis sacri canonis. Gratia enim et veritas per Iesum 
+          <lb ed="#V" n="112"/>christum facta est Io. i. Sed mihi videtur quod loquendo de 
+          <lb ed="#V" n="113"/>potentia dei absoluta: non est ita opinio absurda. Nam 
+          <lb ed="#V" n="114"/>quicquid potest deus facere mediante causa secunda. potest 
+          si<lb ed="#V" n="115" break="no"/>ne ea in genere cause efficientis: potest autem per te: mediante 
+          <lb ed="#V" n="116"/>charitate: ergo sine ea per se potest: nec etiam est ita 
+          irrationabi<lb ed="#V" n="117" break="no"/>lis: sicut dicitur. sed sicut secunda opinio exaltat meritum 
+          <lb ed="#V" n="118"/>per singularem influentiam spiritussancti: ita ista multo 
+          ma<lb ed="#V" n="119" break="no"/>gis exaltat per totalem spiritussancti influentiam 
+          respe<lb ed="#V" n="120" break="no"/>ctu actus. istis ergo tribus modis dicendi non proba 
+          <lb ed="#V" n="121"/>bilibus dimissis. Dico secundum quartam opinionem: quod 
+          chari<lb ed="#V" n="122" break="no"/>tas sola cum aliis quae dicentur sine spiritussancti influentia speciali 
+          <lb ed="#V" n="123"/>requiritur.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e328">
+          ¶ Requiruntur enim ad actum meritorium: ipsa 
+          volun<lb ed="#V" n="124" break="no"/>tas: ipsa charitas: ipsa acceptatio diuina: et influentia 
+          <lb ed="#V" n="125"/>generalis: non autem specialis: eo quod talis actus eque 
+          intensi<lb ed="#V" n="126" break="no"/>possunt haberi a non habente charitatem et ab habente.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e337">
+          ¶ Sed  
+          <lb ed="#V" n="127"/>tunc est vna difficultas. Uidetur enim sequi error pelagii: 
+          <lb ed="#V" n="128"/>quia sine speciali influentia potest causari actus meritorius. 
+          Di<lb ed="#V" n="129" break="no"/>co quod non est error pelagii. quia ipse nihil aliud ponebat 
+          prima<lb ed="#V" n="130" break="no"/>ter naturalia et influentiam generalem. Ego autem pono preter 
+          influen<lb ed="#V" n="131" break="no"/>tiam generalem ipsam charitatem: que licet dum est na¬ 
+          <!--141.xml-->
+          <pb ed="#V" n="69-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>turaliter operetur: tamen supernaturaliter infunditur et simili cum hoc 
+          re<lb ed="#V" n="2" break="no"/>quiritur acceptatio diuina.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e361">
+          ¶ Nec valent rationes pro 
+          <lb ed="#V" n="3"/>aliis opionibus inducte. Prima non. quia licet voluntas 
+          di<lb ed="#V" n="4" break="no"/>uina coagat voluntati nostre: tamen sic coagit quod actus semper 
+          <lb ed="#V" n="5"/>est in potestate nostra. et similiter charitas concurrens. Nec ratio 
+          pro<lb ed="#V" n="6" break="no"/>secunda valet. quia licet charitas nec aliquid aliud possit actum 
+          <lb ed="#V" n="7"/>dignum tanto permio causare quantum est ex se. tamen ex ordine illius 
+          <lb ed="#V" n="8"/>in cuius potestate est primium conferre bene est possibile. Nec ratio 
+          pro<lb ed="#V" n="9" break="no"/>tertia. quia licet probet quod deus posset aliter faceme: tamen de facto 
+          <lb ed="#V" n="10"/>non probat: habemus enim gratiam esse factam. constat autem quod 
+          <lb ed="#V" n="11"/>gratia quae facta est non est spiritussancti. 
+          <lb ed="#V" n="12"/>ad secundam partem quaestionis que est videre 
+          <lb ed="#V" n="13"/>Quantum vtrum de potentia dei absoluta posse ditur 
+          <lb ed="#V" n="14"/>acceptare aliquem sine charitate: ita quod charitas non est 
+          <lb ed="#V" n="15"/>necessaria quantum ad potentiam absolutam. Dicunt aliquo 
+          <lb ed="#V" n="16"/>quod deus de potentia sua absoluta non potest de nouo 
+          ali<lb ed="#V" n="17" break="no"/>quem acceptare nisi infundat ei charitatem. Et hoc probant 
+          <lb ed="#V" n="18"/>sic. Impossibile est esse transitum de contradictorio in 
+          contradi<lb ed="#V" n="19" break="no"/>ctorium sine mutatione facta in altero extremorum: 
+          <lb ed="#V" n="20"/>sed hic fit mutatio de non accepto ad acceptum: et non 
+          <lb ed="#V" n="21"/>est mutatio ex parte dei: ergo erit ex parte creature 
+          acci<lb ed="#V" n="22" break="no"/>parte. Sed non poest intelligi mutatio nisi aliquid habeat quod 
+          <lb ed="#V" n="23"/>prius non habuit. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e409">
+          ¶ Confirmatur: quia nulla 
+          volun<lb ed="#V" n="24" break="no"/>tas aliquid acceptat quod non prius nisi eius 
+          intelle<lb ed="#V" n="25" break="no"/>ctus aliter iudicet de illo quam prius. ergo si de nouo 
+          vo<lb ed="#V" n="26" break="no"/>luntas diuina acceptat sine mutatione in creatura est 
+          <lb ed="#V" n="27"/>mutatio in eius intellectu.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e420">
+          ¶ Contra istam conclusionem 
+          ar<lb ed="#V" n="28" break="no"/>guitur quadrupliciter. Primo sic. Non est magis 
+          libe<lb ed="#V" n="29" break="no"/>ra voluntas nostra circa obiectum quam voluntas 
+          diuina<lb ed="#V" n="30" break="no"/>circa contingentia: sed nulla mutatione facta circa 
+          ob<lb ed="#V" n="31" break="no"/>iectum oditum: potest voluntas illud diligere spositiote. ergo etc. 
+        </p>
+        <p xml:id="FrMS88-e50255-d1e431">
+          <lb ed="#V" n="32"/>¶ Secundo sic. Aut potest deus existentem in charitate 
+          <lb ed="#V" n="33"/>acceptare. aut non. Si sic. ergo cum prius eum non 
+          acce<lb ed="#V" n="34" break="no"/>ptaret erit transitus de contradictorio in 
+          contradicto<lb ed="#V" n="35" break="no"/>rium sine mutatione. Si non. ergo aliquid de 
+          necessi<lb ed="#V" n="36" break="no"/>tate vult citra vltimum finem. quod est falsum.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e445">
+          ¶ 
+          Ter<lb ed="#V" n="37" break="no"/>tio sic. Deus ab eterno volunt solem pro tali die 
+          creare<lb ed="#V" n="38" break="no"/>et pro illo diie potuit non creare: quero in quo est 
+          mu<lb ed="#V" n="39" break="no"/>tatio: quia est transitus: patet quod non in deo: nec in solem 
+          <lb ed="#V" n="40"/>quia non erat adhuc. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e456">
+          ¶ Quarto sic. Deus ab 
+          eter<lb ed="#V" n="41" break="no"/>novoluit animam antichristi creare pro tali die. et 
+          adhud<lb ed="#V" n="42" break="no"/>potest non creare eum: transitus ergo fiet a 
+          contradicto<lb ed="#V" n="43" break="no"/>rio in contradictorium sine mutatione. non in deo. per te. 
+          <lb ed="#V" n="44"/>nec in anima: quia nondum est. ergo videtur quod ratio non 
+          va<lb ed="#V" n="45" break="no"/>let.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e469">
+          ¶ Nec videtur quod ratio de mutatione quam isti potenti 
+          <lb ed="#V" n="46"/>derant plus probet quod charitas sit necessaria quam 
+          casti<lb ed="#V" n="47" break="no"/>tas: vel quodcunque aliud: quod a deo infunderetur: quia 
+          <lb ed="#V" n="48"/>tunc aliquid esset mutatum: nec hoc etiam concludit. 
+          <lb ed="#V" n="49"/>Ideo est alia opinio que dicit. quod deus de potentia sua 
+          <lb ed="#V" n="50"/>absoluta de nouo potest acceptare: quam prius non 
+          ac<lb ed="#V" n="51" break="no"/>ceptabat sine charitate: vel aliquo alio infuso reali: 
+          ni<lb ed="#V" n="52" break="no"/>si sola acceptatione passiua que est ens rationis: quod 
+          <lb ed="#V" n="53"/>declaratur sic. Nam circa operationes immanentes 
+          <lb ed="#V" n="54"/>fieri potest transitus de contradictorio in 
+          contradicto<lb ed="#V" n="55" break="no"/>rium ex parte obiecti sine mutatione in obiecto per solum 
+          re<lb ed="#V" n="56" break="no"/>spectum rationis. sicut deus de non dilecto a me fit 
+          dile<lb ed="#V" n="57" break="no"/>ctus a me. Acceptare autem est operatio immanens: sicut 
+          <lb ed="#V" n="58"/>velle: potest ergo deus nunc aliquem acceptare quem prius 
+          <lb ed="#V" n="59"/>non acceptabat: nulla facta mutatione circa obiectum 
+          <lb ed="#V" n="60"/>in esse reali: sed forte tantum in esse rationis: quia sic. in 
+          <lb ed="#V" n="61"/>ea esset acceptatio passiua.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e506">
+          ¶ Sed contra hoc instatur 4r. 
+          <lb ed="#V" n="62"/>Primo sic. Nam ideo creatura potest velle quod prius 
+          <lb ed="#V" n="63"/>non volunt nulla mutatione facta circa obiectum. quia fit 
+          mu<lb ed="#V" n="64" break="no"/>tatio in voluntate. quia prius non habuit actum 
+          volen<lb ed="#V" n="65" break="no"/>di: nunc autem habet: sed si poneretur idem omnio actus et non 
+          mu<lb ed="#V" n="66" break="no"/>taretur: videretur quod oporteret mutationem esse in obiecto si fie¬ 
+          <!--141.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>ret de non volito volitum: cum ergo in diuina voluntate non 
+          <lb ed="#V" n="68"/>fit mutatio: hentur propositum.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e528">
+          ¶ Secundo sic. Nulla 
+          com<lb ed="#V" n="69" break="no"/>tradictio realis potest saluari per non reale: sed 
+          velle<lb ed="#V" n="70" break="no"/>et non velle est contradictio realis. ergo non potest 
+          sal<lb ed="#V" n="71" break="no"/>uari per istam acceptationem que non est realis.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e537">
+          ¶ 3a 
+          <lb ed="#V" n="72"/>sic. Nullum ens simpliciter potest saluari per ens secundum 
+          <lb ed="#V" n="73"/>quid. sed quando aliquid fit de non volito volitum. 
+          <lb ed="#V" n="74"/>illa videtur esse mutatio simpliciter: acceptatio est ens 
+          <lb ed="#V" n="75"/>secundum quid. ergo per eam non potest saluari.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e549">
+          ¶ Quarto 
+          <lb ed="#V" n="76"/>sic. Nam videtur eodem modo stare dubium. Utrum 
+          <lb ed="#V" n="77"/>de potentia dei absoluta possit deus acceptare quod 
+          <lb ed="#V" n="78"/>prius non acceptabat sine illa acceptatione passiua. 
+          <lb ed="#V" n="79"/>Ipsa enim acceptatio pari modo videtur donum 
+          quod<lb ed="#V" n="80" break="no"/>dam: sicut charitas.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e562">
+          ¶ Ad primum dico. quod si 
+          creatu<lb ed="#V" n="81" break="no"/>ra eodem actu vellet omnia libere: sicut vult deus: eo 
+          <lb ed="#V" n="82"/>dem modo posset fieri aliquid de non volito volitum 
+          <lb ed="#V" n="83"/>a creatura sine mutatione: sicut de deo dicimus: sed quia 
+          <lb ed="#V" n="84"/>non est ita: ideo de deo dicimum quod sic potest fieri de non 
+          <lb ed="#V" n="85"/>acceptante hoc acceptans hoc sine mutatione: non 
+          au<lb ed="#V" n="86" break="no"/>tem de creatura. hoc autem possumus dicere: quia 
+          di<lb ed="#V" n="87" break="no"/>uersis actibus vult et operatur circa diuersa obiecta. 
+        </p>
+        <p xml:id="FrMS88-e50255-d1e580">
+          <lb ed="#V" n="88"/>¶ Ad secundum et ad tertium simul dico. quod duplex est 
+          <lb ed="#V" n="89"/>mutatio: quedam est obiectiua: et quedam subiectiua. 
+          <lb ed="#V" n="90"/>Mutatio obiectiua solum requirit aliquid volitum 
+          <lb ed="#V" n="91"/>in esse obiectiuo: et talis est quando aliquid de non 
+          vo<lb ed="#V" n="92" break="no"/>lito sit volitum. Sed quomodo per ens rationis 
+          po<lb ed="#V" n="93" break="no"/>test saluari esse reale. Dico quod ens rationis quantum 
+          <lb ed="#V" n="94"/>ad presens spectat: est in duplici differentia: quoddam 
+          <lb ed="#V" n="95"/>enim est fabricatum a ratione: sicut respectus ad seipsum 
+          <lb ed="#V" n="96"/>et per tale ens rationis nunquam saluatur aliquid reale. Aliud est 
+          <lb ed="#V" n="97"/>ens rationis non a ratione fabricatum: sed a ratione derelictum. et huiusmo 
+          <lb ed="#V" n="98"/>sunt respecus. intellecti. voliti. dilecti et huiusmodi. per talia autem 
+          <lb ed="#V" n="99"/>rationis entia bene possunt saluari mutationes et contradictiones 
+          <lb ed="#V" n="100"/>obitectiue.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e611">
+          ¶ Sed dices. si esse volitum dicit ens solum rationis: quodo 
+          <lb ed="#V" n="101"/>saluabitur transitus realis qui est quando de non volente sit volens per esse 
+          <lb ed="#V" n="102"/>volitum:
+        </p>
+        <p xml:id="FrMS88-e50255-d1e618">
+          ¶ Dico quod quaedam sunt ita realia: quod 
+          circumscrip<lb ed="#V" n="103" break="no"/>to omni actu intelligendi et volendi permanent: et talia per aliquid 
+          <lb ed="#V" n="104"/>non reale non possunt saluari. Aliqua sunt quae licet non fabricent 
+          <lb ed="#V" n="105"/>ab actu intelligendi et volendi. tamen istos actus consequuntur: sicut esse 
+          <lb ed="#V" n="106"/>acceptum: et non esse acceptum et esse volitum et non volitum: et de 
+          ta<lb ed="#V" n="107" break="no"/>libus verum est quod licet non sint realia: tamen contradictiones quae videntur reales 
+          <lb ed="#V" n="108"/>de actibus istis scilicet intelligendi volendi et acceptandi 
+          sal<lb ed="#V" n="109" break="no"/>uantur.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e636">
+          ¶ Si autem quaras. Est ne inste transitus simpliciter. vel secundam 
+          <lb ed="#V" n="110"/>quid: quando aliquid fit non de accepto acceptum. Dico quod est 
+          <lb ed="#V" n="111"/>secundum quid. quia nihil nouum est in termino transitus nisi aliquod 
+          <lb ed="#V" n="112"/>ens secundum quid. Et si dicas hoc est simpliciter acceptum. 
+          Di<lb ed="#V" n="113" break="no"/>co quod ita dicitur hoc est simpliciter ens rationis vel secundum quid.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e648">
+          ¶ Per 
+          <lb ed="#V" n="114"/>hoc patet ad rationes prime opinionis. quod ad transitum 
+          <lb ed="#V" n="115"/>istum saluandum inter contradictoria: non oportet quod aliquid fiat 
+          no<lb ed="#V" n="116" break="no"/>uum habens plus de realitate quam vnum istorum 
+          contradicto<lb ed="#V" n="117" break="no"/>riorum: modo ita est quod esse acceptum et nonn esse acceptum 
+          <lb ed="#V" n="118"/>sunt extrema contradictionis solum in esse obiectiuo 
+          <lb ed="#V" n="119"/>vel volito. et non in esse simpliciter reali. fit autem 
+          mu<lb ed="#V" n="120" break="no"/>tatio secundum tale esse: quia sit nouus respectus rationis.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e666">
+          ¶ Ad  
+          <lb ed="#V" n="121"/>quartum dico. quod respectus ille scilicet acceptationis siue 
+          <lb ed="#V" n="122"/>acceptatio passiua non potest dici donum nec charitas 
+          <lb ed="#V" n="123"/>quia est solum ens rationis. ideo non potest creari: nec est in 
+          crea<lb ed="#V" n="124" break="no"/>tura que est in esse reali subiectiue. sed est in creatura 
+          <lb ed="#V" n="125"/>que est in esse obiectiuo.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e679">
+          ¶ Sed posset ne plus deus 
+          <lb ed="#V" n="126"/>de nouo acceptare sine acceptatione passiua: vel sine 
+          <lb ed="#V" n="127"/>esse acceptato: hoc est querere. Utrum deus possit 
+          ali<lb ed="#V" n="128" break="no"/>quid creare et non creare. Nam sicut creatio actiua 
+          in<lb ed="#V" n="129" break="no"/>fert necessario passiuam: sic acceptatio actiua infert 
+          necessa<lb ed="#V" n="130" break="no"/>rio passiuam: non potest ergo deus acceptare nisi acceptetur 
+          ali<lb ed="#V" n="131" break="no"/>quid: nec aliquid potest esse acceptum sine acceptatione 
+          passi<lb ed="#V" n="132" break="no"/>ua: sicut nec esse album sine albedine. Sed posset ne deus 
+          <!--142.xml-->
+          <pb ed="#V" n="70-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>aliquem acceptare non impriemendo ei talem respectum: Dico 
+          <lb ed="#V" n="2"/>quod sic sane intelligendo. non enim potest deus aliquem 
+          acce<lb ed="#V" n="3" break="no"/>ptare nisi acceptatio fuerit in eo formaliter. Sed tamen potest 
+          <lb ed="#V" n="4"/>deus bene de nouo acceptare: et tamen acceptatio passiua nin 
+          <lb ed="#V" n="5"/>erit noua: sicut sepre fuit dictum isto anno. 132. Nam 
+          posi<lb ed="#V" n="6" break="no"/>ta visione circa accidentia separata: stante visione: si deus ea 
+          <lb ed="#V" n="7"/>subiecto coniugeret: nunc videretur subiectum et non prius: non tamen 
+          vi<lb ed="#V" n="8" break="no"/>sione passiua noua: sed eadem qua videbantur prius accidentia 
+          <lb ed="#V" n="9"/>Eodem modo in proposito: quod facta prius acceptatione circa 
+          <lb ed="#V" n="10"/>aliquod obiectum: vtpote circa charitatem ex infusione charita 
+          <lb ed="#V" n="11"/>tis fiet anima accepta non noua acceptatione: sed eadem 
+          qua<lb ed="#V" n="12" break="no"/>prius charitas erat accepta.
+        </p>
+        <p xml:id="FrMS88-e50255-d1e729">
+          ¶ Ad auctoritatem in 
+          prin<lb ed="#V" n="13" break="no"/>cipio: et ad omnes similes quae adducuntur a magstro et ab aliis. 
+        </p>
+        <p xml:id="FrMS88-e50255-d1e734">
+          <lb ed="#V" n="14"/>¶ Dico quod nunquam intelligitur quod charitas diffusa vel 
+          <lb ed="#V" n="15"/>pata sit spiritussanctus: sed intelligitur quod est data vel 
+          <lb ed="#V" n="16"/>diffusa per spiritum sanctum. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

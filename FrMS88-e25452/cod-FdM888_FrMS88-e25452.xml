@@ -1,488 +1,488 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 5</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 5</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="35-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e25452"><!-- l1d5q5 -->
-            <head xml:id="FrMS88-e25452-Hd1e108">Quaestio 5</head>
-            <p xml:id="FrMS88-e25452-d1e111">
-      Questio. v. 
-      <lb ed="#V" n="113"/>filius sit de substantia patris 
-      eter<lb ed="#V" n="114" break="no"/>Tum naliter genitus. quod non secundum Ric. 
-      <lb ed="#V" n="115"/>quia ex hoc sequitur quod essentia diuina 
-      gene<lb ed="#V" n="116" break="no"/>ret vel generetur.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e122">
-      ¶ Contra Athanasius 
-      <lb ed="#V" n="117"/>in symbolo dicit. quod Christus est deus ex 
-      <lb ed="#V" n="118"/>substantia patris ante secula genitus. 
-      <lb ed="#V" n="119"/>istam quaestionem tria sunt facienda. Primum est. quomodo 
-      <lb ed="#V" n="120"/>Circa se habet essentia in generatione. Et circa hoc sunt 4or 
-      opi<lb ed="#V" n="121" break="no"/>niones: secundum 4or quae inueniuntur in generatione creata scilicet materia. 
-      for<lb ed="#V" n="122" break="no"/>ma. compositum. et qualitas simbola.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e138">
-      ¶ Dicunt ergo aliqui quod 
-      essen<lb ed="#V" n="123" break="no"/>tia diuina habet modum materiae. Et probant. ntura illud quod est commune 
-      <lb ed="#V" n="124"/>vtrique termino generationis habet modum materiae: sed essentia est huiusmodi. 
-      <lb ed="#V" n="125"/>Nam ipsa eadem stat sub paternitate et filiatione que sunt 
-      <lb ed="#V" n="126"/>constitutiua personarum et terminorum. Alii dicunt quod se habet 
-      <lb ed="#V" n="127"/>sicut forma: quia illud quod formaliter terminat 
-      genera<lb ed="#V" n="128" break="no"/>tionem illud se habet vt forma in illa gneratione: sed essentia 
-      di<lb ed="#V" n="129" break="no"/>uina est formalis terminus generationis diuine. ergo etc. 
-      Ma<lb ed="#V" n="130" break="no"/>ior patet in generatione creata. Mior patuit supra.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e158">
-      ¶ Alii 
-      di<lb ed="#V" n="131" break="no"/>cunt quod se habet ad modum compositi. Nam sicut mateam et 
-      forma<lb ed="#V" n="132" break="no"/>constituunt vnam totam naturam. et illa est compositum: ita to. 
-      <!--74.xml-->
-      <pb ed="#V" n="36-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>ta natura que comnicatur in diuinis est essentia diuina: et 
-      <lb ed="#V" n="2"/>ideo habet modum compositi.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e177">
-      ¶ Alii dicunt quod se habet per 
-      mo<lb ed="#V" n="3" break="no"/>dum qualitatis simbolice: quia sicut qualitas illa eadem 
-      ma<lb ed="#V" n="4" break="no"/>net in generato et corrupto: ita essentia est sic communis patri et 
-      fi<lb ed="#V" n="5" break="no"/>lio. non est autem nec vt terminus nec principium generationis.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e186">
-      ¶ Sed 
-      <lb ed="#V" n="6"/>contra istos modos arguo: primo contra primum sic. Ubicunque 
-      <lb ed="#V" n="7"/>est aliquid se habens per modum materiae que est communis 
-      vtri<lb ed="#V" n="8" break="no"/>que termino. ibi oportet imaginari generatum et corruptum: et 
-      <lb ed="#V" n="9"/>tunc ratio illa bene valent. non tamen tenet in generante et 
-      geni<lb ed="#V" n="10" break="no"/>to.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e199">
-      ¶ Confirmatur. quia termini generationis sub quibus stat 
-      il<lb ed="#V" n="11" break="no"/>lud commune. non sunt generans et genitum: sed genitum et corruptum. 
-      </p>
-            <p xml:id="FrMS88-e25452-d1e204">
-               <lb ed="#V" n="12"/>¶ 2o sic. in gneatione vbi est materia. materia est propter formam. essentia 
-      <lb ed="#V" n="13"/>autem divina non est propter respectum.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e211">
-      ¶ Cotra 2m. primo sic. Omne 
-      il<lb ed="#V" n="14" break="no"/>lud quod se habet sicut forma praesupponit aliquid in quo fundetur: sed 
-      <lb ed="#V" n="15"/>divina essentia nihil praesupponit. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e218">
-      ¶ 2o sic. forma ordinat 
-      <lb ed="#V" n="16"/>ad constitutum. et accipitur simpiciter esse. sed essentia divina ad nihil 
-      or<lb ed="#V" n="17" break="no"/>dinatur nec accipit simpliciter esse. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e226">
-      ¶ Contra 3m sic. 
-      Im<lb ed="#V" n="18" break="no"/>possibile est compotinius vel habens modum composia in gnatione esse 
-      ter<lb ed="#V" n="19" break="no"/>minum formalem in illa generatione: sed essentia est terminus 
-      forma<lb ed="#V" n="20" break="no"/>lis illius gnerationis diuine. ergo ipsa non habebit modum 
-      con<lb ed="#V" n="21" break="no"/>positi.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e237">
-      ¶ Contra 4m primo sic. Illud quod constituit quiditati. 
-      <lb ed="#V" n="22"/>ue totalem terminum genrationis non se habet sicut qualitas 
-      sim<lb ed="#V" n="23" break="no"/>bolica quia ipsa habet modum adiacentis: sed essentia diuina 
-      <lb ed="#V" n="24"/>constituit quiditatiue totalem terminum gnrationis scilicet filium. 
-      er<lb ed="#V" n="25" break="no"/>go etc.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e248">
-      ¶ 2o sic. Qualitas non dicitur simbolica nisi: quia eadem 
-      <lb ed="#V" n="26"/>est in genito et corrupto. hoc patet: quia sol potest aliquid 
-      ge<lb ed="#V" n="27" break="no"/>nerare vbi non est qualitas simbolica. ergo non respicit 
-      ge<lb ed="#V" n="28" break="no"/>nerans et genitum: sed in diuinis non sunt nisi isti termini 
-      <lb ed="#V" n="29"/>gnationis. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e259">
-      ¶ 3o. quia illa non est communis primo et per se: sed 
-      ratio<lb ed="#V" n="30" break="no"/>ne subiecti: essentia autem diuina per se et primo es communis. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e264">
-      ¶ 4o 
-      <lb ed="#V" n="31"/>quia qualitas simbolica ordinatur ad formam. essentia autem 
-      <lb ed="#V" n="32"/>diuina non ordinatur ad aliquid aliud. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e271">
-      ¶ Ideo 
-      di<lb ed="#V" n="33" break="no"/>co quod imaginandum est. quod essentia diuina se habet ad modum 
-      <lb ed="#V" n="34"/>simplicis naturae: que habet modum communicandi respectu sui 
-      ipsi<lb ed="#V" n="35" break="no"/>us: licet non innueniamus in creaturis simile: sicut dicit Dio 
-      <lb ed="#V" n="36"/>ny. quod essentie rerum creatarum exceduntur incomparabitir permo 
-      <lb ed="#V" n="37"/>diuinis.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e285">
-      ¶ Contra hoc arguo. 4r. Primo sic. nam cuius 
-      <lb ed="#V" n="38"/>actus est gneatio. illud se habet per modum potentie: sed 
-      genera<lb ed="#V" n="39" break="no"/>tio in diuinis est actus essentie diuine. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e292">
-      ¶ 2o sic. natura 
-      <lb ed="#V" n="40"/>gnationis actus videtur essentiam actuare. ergo essentia se habe 
-      <lb ed="#V" n="41"/>per modum potentie.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e299">
-      ¶ 3o sic. illud quod determinat aliud 
-      <lb ed="#V" n="42"/>se habet ad illud: sicut forma ad materiam: sed relatio vel gene 
-      <lb ed="#V" n="43"/>ratio in diuinis determinat essentiam. ergo essentia se 
-      ha<lb ed="#V" n="44" break="no"/>bet sicut mtam respectu gnationis.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e308">
-      ¶ 4o sic. quia prior est 
-      con<lb ed="#V" n="45" break="no"/>paratio principiorum inter se quam eorum ad principiatum: sed est 
-      <lb ed="#V" n="46"/>sentia et relatio sunt principia persone. ergo prius 
-      compa<lb ed="#V" n="47" break="no"/>rabuntur inter se: et sic relatio prius suum effectum formalem 
-      <lb ed="#V" n="48"/>dabit essentie quam supposito ex his constituto scilicet persone et 
-      <lb ed="#V" n="49"/>sic essentia prius referretur quam persona: quod est falsum. 
-      </p>
-            <p xml:id="FrMS88-e25452-d1e321">
-               <lb ed="#V" n="50"/>¶ Ad ista.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e326">
-      ¶ Ad primum negandum est fundamentum ab 
-      <lb ed="#V" n="51"/>solute scilicet quod actus essentie sit gneartio: quia ex se essentia est actua 
-      <lb ed="#V" n="52"/>igata. et omnis actualitatis fundamentum.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e334">
-      ¶ Ad hec 
-      di<lb ed="#V" n="53" break="no"/>cunt aliqui quod non est inconueniens quod essentia in potentia 
-      <lb ed="#V" n="54"/>sit ad generationem.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e341">
-      ¶ Contra. dimitto potentiam logicam 
-      <lb ed="#V" n="55"/>de qua certum est. arguo de potentia naturali: quia si essentia 
-      <lb ed="#V" n="56"/>est in potentia ad relationem. cum ex eis fiat vnum 
-      necessa<lb ed="#V" n="57" break="no"/>rio illud erit compositum. et sic persona diuina erit 
-      composi<lb ed="#V" n="58" break="no"/>talex actu et potentia.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e352">
-      ¶ Ideo dico quod essentia diuina est 
-      <lb ed="#V" n="59"/>actualissima. et ideo sibi repugnat esse in potentia.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e357">
-      ¶ Sed 
-      <lb ed="#V" n="60"/>adhuc contra. quia quandocunque aliquid pro aliquo signo non 
-      <lb ed="#V" n="61"/>habet a. et postea habet a. est in potetia ad a. sed saltem secundum 
-      or<lb ed="#V" n="62" break="no"/>dinem rationis essentia sicut fundamentum est prius relatione. et 
-      <lb ed="#V" n="63"/>non habet pro aliquo signo. ergo etc. Ad istud non faciendo difficult 
-      <lb ed="#V" n="64"/>cultatem de signis. quia de hoc dicam distin. 13a. Dico ad argumentu 
-      <lb ed="#V" n="65"/>quod concludit quod non est repugnantia inter essentiam et 
-      rela<lb ed="#V" n="66" break="no"/>tionem. et ista est potentia logica et non naturalis. cum eo autem 
-      <!--74.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>quod non sit perfectibile aliquid per aliud: sed quod ipsum sit 
-      <lb ed="#V" n="68"/>actualissimum: stat quod ipsum sit in potentia tali scilicet logica. 
-      <lb ed="#V" n="69"/>non naturali.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e386">
-      ¶ Ad 2m dico quod ex duobus potest 
-      procede<lb ed="#V" n="70" break="no"/>re quod aliquid adueniens alicui non actuet ipsum: primo si ipsum 
-      <lb ed="#V" n="71"/>sit actualissimum: sicut aqua calidissima dato quod sibi 
-      ap<lb ed="#V" n="72" break="no"/>proximetur ignis. non actuabitur a caliditate vlteriori 
-      <lb ed="#V" n="73"/>quia est summe actuata. et sic repugnat essentie a relatione 
-      <lb ed="#V" n="74"/>actuari. eo quod ipsa est actuata vltiata actualitate. Alio 
-      <lb ed="#V" n="75"/>modo quando ex parte aduenientis est repugnantia ad actuan 
-      <lb ed="#V" n="76"/>dum: sicut ignis approximatus lune non calefacit: quia 
-      <lb ed="#V" n="77"/>tali subiecto repugnat actuari a calore ignis: et isto 
-      mo<lb ed="#V" n="78" break="no"/>do etiam essentia non potest actuari a relatione: quia ipsa non est 
-      <lb ed="#V" n="79"/>apta esse actus alicus: eo quod ipsa est subsistens: et nullum 
-      sub<lb ed="#V" n="80" break="no"/>sistens actuat aliquid. eo quod nihil tale comunicatur.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e412">
-      ¶ Ad 3m 
-      di<lb ed="#V" n="81" break="no"/>co quod relato secundum Dama. non determinat essentiam: sed 
-      hyposta<lb ed="#V" n="82" break="no"/>ses. nec etiam oportet quod omnis forma determinet illud cui 
-      adue<lb ed="#V" n="83" break="no"/>nit. si sibi repugnat: sicut dictum est in precedenti solutione. 
-      <lb ed="#V" n="84"/>Nunc autem essentie repugnat determinari: sed quicquid fac 
-      re<lb ed="#V" n="85" break="no"/>latio faca circa personam.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e426">
-      ¶ Ad 4m dico. quod aliqua 
-      forma<lb ed="#V" n="86" break="no"/>lia constitutiua sunt quae primo dant suum esse circa fundamentum. vel 
-      <lb ed="#V" n="87"/>circa aliquod compositum: sicut albedo prius dat actum suum 
-      for<lb ed="#V" n="88" break="no"/>malem superficiei quam constituto. aliqua autem non: sed expectant 
-      <lb ed="#V" n="89"/>constitutum ad dandum suum esse. Exitum de anima intellectiua. quae 
-      <lb ed="#V" n="90"/>non dat esse rationale materiae nec corpori. et tamen dat toti 
-      constitu<lb ed="#V" n="91" break="no"/>to ex anima et corpore scilicet homin. Quedam alie forme sunt que 
-      <lb ed="#V" n="92"/>habent aliquod esse quod repugnat suo susceptiuo. Exegtum anima 
-      in<lb ed="#V" n="93" break="no"/>tellectiua est incorruptibilis. non dat autem corpori esse in 
-      <lb ed="#V" n="94"/>corruptibile: quia sibi repugnat. propter ista duo relatio non 
-      <lb ed="#V" n="95"/>pat effectum suum formalem essentie: sed expectat 
-      constitu<lb ed="#V" n="96" break="no"/>tum. non enim refert essentiam sed personam: et huius 
-      potissi<lb ed="#V" n="97" break="no"/>ma causa potest esse secundum sanctos: quia repugnat essentie tale esse 
-      <lb ed="#V" n="98"/>scilicet referri. ideo sibi non dat vel conuenit talis forma¬ 
-      </p>
-            <p xml:id="FrMS88-e25452-d1e457">
-               <lb ed="#V" n="99"/>¶ Sed hic remanet dubus. quia aliqui non possunt capere quin 
-      <lb ed="#V" n="100"/>essentia sit subiectum relationum. cum sit fundamentum carum: et 
-      <lb ed="#V" n="101"/>propter haec dixerunt aliqui quod relatio diuina non indiget 
-      fun<lb ed="#V" n="102" break="no"/>damento. cum sit subsistens sicut persona.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e468">
-      ¶ Contra hoc. quia 
-      <lb ed="#V" n="103"/>non minus subsistentes sunt perfectiones diuine quam 
-      relatio<lb ed="#V" n="104" break="no"/>nes diuine: et tamen ponuntur in essentia formaliter. Similiter 
-      pa<lb ed="#V" n="105" break="no"/>sio videtur inesse subiecto: sed eque est passio essentie relatio sicut 
-      <lb ed="#V" n="106"/>attributum.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e479">
-      ¶ Ideo dico quod ignorantia abstractionum 
-      mul<lb ed="#V" n="107" break="no"/>tos errores fecit: sicut philosophi nescierunt abstrahere 
-      produ<lb ed="#V" n="108" break="no"/>ctionem a productione transmutatiua. Ideo dixerunt quod 
-      crea<lb ed="#V" n="109" break="no"/>tio erat impossibilis. quia nihil erat transmutabile. Similiter 
-      <lb ed="#V" n="110"/>Arriani nescierunt abstrahere productionem a factionem 
-      <lb ed="#V" n="111"/>ideo quia viderunt verbum esse productum dixerunt 
-      ipsun<lb ed="#V" n="112" break="no"/>esse factum. Similiter posset poni exsitum de multis aliis 
-      errori<lb ed="#V" n="113" break="no"/>bus ex hoc prouenientibus.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e497">
-      ¶ Ideo dico quod ista quatuo 
-      <lb ed="#V" n="114"/>sunt ordinata essentialiter scilicet subiectum. receptiuum. fundamen 
-      <lb ed="#V" n="115"/>tum. et radix siue principium radicale. Inter ista subiectum 
-      poste<lb ed="#V" n="116" break="no"/>rius est et insimum. a subiecto abstrahit ratio receptiui. Nam 
-      om<lb ed="#V" n="117" break="no"/>ne subiectum recipit. non tamen omne quod recipit est subiectum: quia corpus 
-      <lb ed="#V" n="118"/>recipit animam intellectiuam. non tamen est eius subiectum. quia sic 
-      depen<lb ed="#V" n="119" break="no"/>deret ab eo. Fundamentum autem abstrahit a subiecto et 
-      rece<lb ed="#V" n="120" break="no"/>ptiuo. Nam omne quod recipit fundat. non tamen econverso. Nam 
-      pas<lb ed="#V" n="121" break="no"/>siones non sunt in subiecto: sicut in receptiuo propter 
-      indistinctio<lb ed="#V" n="122" break="no"/>nem realem: bene tamensunt sicut in fundamento. radix autem 
-      <lb ed="#V" n="123"/>abstrahit a fundamento: quia diuina essentia dicitur radixi 
-      <lb ed="#V" n="124"/>diuinarum personarum: secundum Diony. in c. de vnica et. discreta 
-      <lb ed="#V" n="125"/>theologia: et tamen non est proprie fundamentum: cum 
-      suppo<lb ed="#V" n="126" break="no"/>sita non insint. Et ideo sicut productio sine factione potentiae 
-      <lb ed="#V" n="127"/>intelligi. ita fundamentum sine subiecto siue receptiuo.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e530">
-      ¶ Ir 
-      <lb ed="#V" n="128"/>telligendum tamen ad euidentiam istorum a seinuincem 
-      abstra<lb ed="#V" n="129" break="no"/>habentium: quod subiectum sic recipit quod etiam causat: receptiuum autem 
-      <lb ed="#V" n="130"/>recipit: sed non causat: sicut anima intellectiua recipitur in 
-      cor<lb ed="#V" n="131" break="no"/>pore: et tamen non causatur ab eo: et distinguitur a recepto: sed 
-      <lb ed="#V" n="132"/>non oportet quod fundamentum distinguatur realiter a fundato: et 
-      <!--75.xml-->
-      <pb ed="#V" n="36-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>ita se habet essentia respectu proprietatum 
-      <lb ed="#V" n="2"/>quomodo se habet respectu proprietatum esset 
-      <lb ed="#V" n="3"/>Nunc viso tia: videndum est quomodo se habet relatio siue 
-      pro<lb ed="#V" n="4" break="no"/>prietas respectu essentie.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e559">
-      ¶ Dicunt aliqui quod se habet 
-      pe<lb ed="#V" n="5" break="no"/>modum substantie. Aliqui per modum accidentis. Aliqui per modum subs 
-      <lb ed="#V" n="6"/>stentis. Aliqui quod se habet per modum rationis formalis et 
-      diffinit<lb ed="#V" n="7" break="no"/>ue respectu ipsius essentie. Nullus istorum modorum 
-      appa<lb ed="#V" n="8" break="no"/>ret mihi conueniens. Ideo arguo contra eos.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e570">
-      ¶ Primo contra primum qui 
-      <lb ed="#V" n="9"/>dicit de substantia: quecumque distinguuntur per rationes 
-      substantia<lb ed="#V" n="10" break="no"/>les diuerse rationis. illa sunt supposita alterius et 
-      al<lb ed="#V" n="11" break="no"/>terius naturae: persone autem divine non sunt suppotitia alterius naturae 
-      <lb ed="#V" n="12"/>Constat autem quod distinguuntur per relationes: ergo non se habent per 
-      mo<lb ed="#V" n="13" break="no"/>dum substantie.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e583">
-      ¶ Contra 2m sic. Illud quod est accidens vel habes 
-      <lb ed="#V" n="14"/>modum accidentis non constituit suppositum de genere substantie: sed relati 
-      <lb ed="#V" n="15"/>nes constituunt suppositum de genere substantie: ergo non habent modum 
-      <lb ed="#V" n="16"/>accidentis.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e592">
-      ¶ Contra 3m. quia quantumcumque relatio habet modum sub 
-      <lb ed="#V" n="17"/>sistentis: quia constituit suppositum: vel quia est constitutiua 
-      sup<lb ed="#V" n="18" break="no"/>positi: tamen quia omnis relatio necesse est vt habeat aliquod 
-      funda<lb ed="#V" n="19" break="no"/>mentum in quo sit. oportet assignare quomodo ista se habeat ad 
-      essen<lb ed="#V" n="20" break="no"/>tiam sicut ad fundamentu.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e603">
-      ¶ Contra 4m. qui videturquasi ab 
-      <lb ed="#V" n="21"/>surdus. Nam diffinitio vel ratio diffinitiua predicatur in primo 
-      di<lb ed="#V" n="22" break="no"/>cendi per se de diffinito: si ergo relatio sit ratio diffinitiua 
-      sub<lb ed="#V" n="23" break="no"/>stantie vel essentie: ipsa dicetur de ea in per modo: quod est 
-      falsun<lb ed="#V" n="24" break="no"/>et contra Augstines
-    </p>
-            <p xml:id="FrMS88-e25452-d1e614">
-      ¶ Praeterea vbicumque est diffinitio et diffinitum et econverso: sed 
-      essen<lb ed="#V" n="25" break="no"/>tia est in filio: ergo et paternitas. Similiter essentia opponeretur relatio 
-      <lb ed="#V" n="26"/>ni sicut relatio. Similiter tunc essentia esset incommunicabilis sicut 
-      re<lb ed="#V" n="27" break="no"/>latio. Similiter essentia distingueret sicut relato. hec omnia sunt 
-      fal<lb ed="#V" n="28" break="no"/>sa.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e626">
-      ¶ Ideo dicit Sco. quod relatio comparatur ad essentiam per 
-      mo<lb ed="#V" n="29" break="no"/>dum proprietatis indiuidualis: et hoc probatur dupliciter. 
-      <lb ed="#V" n="30"/>Primo sic. Illud quo distinguuntur supposita eiusdem 
-      na<lb ed="#V" n="31" break="no"/>ture sunt proprietates indiuiduales: sed relationes respectu 
-      <lb ed="#V" n="32"/>essentie sic se habent. ergo etc. 2o sic. illa quibus producens et 
-      pro<lb ed="#V" n="33" break="no"/>ductum in geneatione vniuoca distinguuntur: se habent: sicut 
-      proprie<lb ed="#V" n="34" break="no"/>tates indiuiduales: quia si non: productio non esset vniuoca 
-      <lb ed="#V" n="35"/>sed relationes isto modo se habent. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e644">
-      ¶ Sed contra istud 
-      argui<lb ed="#V" n="36" break="no"/>4r. Primo sic. nulla proprietas indiuidualis est principium disto. 
-      <lb ed="#V" n="37"/>nis formalis: sed persone diuine formaliter distinguuntur: ergo 
-      ri<lb ed="#V" n="38" break="no"/>lationes quibus distinguuntur non se habent sicut proprietates 
-      <lb ed="#V" n="39"/>indiuiduales.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e655">
-      ¶ 2o sic. omnis proprietas indiuidualis est eius 
-      <lb ed="#V" n="40"/>dem rationis seu generis cum natura cuius est proprietas: proprietas 
-      <lb ed="#V" n="41"/>autem diuina est alterius generis a divina essemus. quia proprietas est 
-      re<lb ed="#V" n="42" break="no"/>latio: essentia autem est substantia. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e664">
-      ¶ 3o sic. omnis proprietas 
-      indiu<lb ed="#V" n="43" break="no"/>dualis cum nam cus est facit vnum conceletum formalem: sed relatio cum 
-      essen<lb ed="#V" n="44" break="no"/>non facit. ergo relatio non est proprietas indiuindualis. Mi. patet. quia 
-      il<lb ed="#V" n="45" break="no"/>le conceptus esset: aut absolutus: aut respectiuus.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e673">
-      ¶ 4o sic. 
-      <lb ed="#V" n="46"/>omnis proprietas indiuidualis est incommunicabilis: sed paternitas est 
-      <lb ed="#V" n="47"/>communicabilis. Nam paternitas est eiusdem rationis in deo et in 
-      creatu<lb ed="#V" n="48" break="no"/>ris: secundum enim Apietum. illa in divinis est: a quae omnis alia paternitas de 
-      <lb ed="#V" n="49"/>nominatur. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e684">
-      ¶ Propter ista et multa alia posset dio 
-      <lb ed="#V" n="50"/>sicut credo esse verum: quod ista comparatio non est propria: sed quodam 
-      <lb ed="#V" n="51"/>modo metaphorica: licet autem propter aliquam similitudinem liceret 
-      di<lb ed="#V" n="52" break="no"/>cere sic. tamen in pluribus est dissimile quam simile.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e694">
-      ¶ Sed quantum ad 
-      qua<lb ed="#V" n="53" break="no"/>tam obiectionem: quomodo potest paternitas dare esse incommunicabile: 
-      <lb ed="#V" n="54"/>cum ipsa sit communicabilis.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e701">
-      ¶ Si dicatur quod ideo dat esse 
-      inci<lb ed="#V" n="55" break="no"/>municabile. quia diuina.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e706">
-      ¶ Contra. quia tunc omne diuinum esse 
-      <lb ed="#V" n="56"/>tale: quod est falsum. Nec valet dicere: quia inquantum hec 
-      <lb ed="#V" n="57"/>paternitas scilicet ratione heceitatis: quia si solum isto modo non essent 
-      sup<lb ed="#V" n="58" break="no"/>posita diuina inquantum talia distincta formaliter. Nam 
-      <lb ed="#V" n="59"/>diuersitas heceitatum non facit distinctionem formalem: 
-      </p>
-            <p xml:id="FrMS88-e25452-d1e717">
-               <lb ed="#V" n="60"/>¶ Dico ergo quod paternitas habet vnam rationem communem: que est 
-      <lb ed="#V" n="61"/>ratio communis paternitati diuine et create: et habet aliam propriam spe 
-      <lb ed="#V" n="62"/>cificam: et illa est propria paternitati diuine: et illa ex se est 
-      <lb ed="#V" n="63"/>hec. et secundum istam constituit. Eodem modo de aliis 
-      <lb ed="#V" n="64"/>visis respondeo ad quaestionem: et pono 4or conclusiones. prima est. quod 
-      <lb ed="#V" n="65"/>His esse de substantia patris non dicit solum originem: quia cum 
-      crea<lb ed="#V" n="66" break="no"/>tura originetur a deo: creatura esset de substantia patris: vel 
-      <!--75.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>dei: quod est falsum.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e741">
-      ¶ 2a conclusio est. quod de. non dicit solam 
-      consub<lb ed="#V" n="68" break="no"/>stantialitatem. quia tunc pater potest dici eque de substantia filii: sicut 
-      <lb ed="#V" n="69"/>econverso.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e748">
-      ¶ 3a conclusio est. quod vtrumque dicit et consubstantiali tatem et 
-      origi<lb ed="#V" n="70" break="no"/>nem. Uerge quia filius habet eandem substantiam cum patre: et est ab eo. 
-      <lb ed="#V" n="71"/>dicitur de substantia patris.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e756">
-      ¶ 4a conclusio est. quod de principalius dicit secundum 
-      <lb ed="#V" n="72"/>aliquos originem quam consubstantialitatem: quia ratio consubstantialitatis  
-      <lb ed="#V" n="73"/>est respectus consequens distonem personarum. sicut respectus 
-      <lb ed="#V" n="74"/>similitudinis: equalitatis et identitatis: personalis autem 
-      distin<lb ed="#V" n="75" break="no"/>ctio fit per origines. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e767">
-      ¶ Confirmatur. quia in essentialiter 
-      <lb ed="#V" n="76"/>ordinatis prius est semper praencipalius: sed distinctio 
-      praece<lb ed="#V" n="77" break="no"/>dit consubstantialitatem: sicut alias relationes communes scilicet 
-      similitudi<lb ed="#V" n="78" break="no"/>nis: identitatis: et equalitatis: ergo de. dicit prius originem quam 
-      <lb ed="#V" n="79"/>consubstantialitatem.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e778">
-      ¶ Sed oppositum apparet mihi.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e781">
-      ¶ Ideo sit 4 
-      <lb ed="#V" n="80"/>nitruso quod de. principalius dicit: siue significat consubstantialitatem quae 
-      <lb ed="#V" n="81"/>originem. Nam si diceret prius originem: tunc non repugua 
-      <lb ed="#V" n="82"/>ret substantie esse genitam: sicut sibi non repugnat esse de.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e790">
-      ¶ Praeterea 
-      <lb ed="#V" n="83"/>sicut assimilare dicit relationem prius similitudinis: concernit 
-      <lb ed="#V" n="84"/>autem originem: ita communicare: vt dictum est superius. Et eodem modo 
-      <lb ed="#V" n="85"/>de hac praepositione de. prius enim dicit consubstantialitatem: postea 
-      ori<lb ed="#V" n="86" break="no"/>ginem.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e801">
-      ¶ Sed tunc ad argumenta in contrarium dico. quod licet 
-      distin<lb ed="#V" n="87" break="no"/>ctio et origo per quam fit distinctio et consubstantialitas sint 
-      essentia<lb ed="#V" n="88" break="no"/>liter ordinata. ita quod distinctio siue origo sit prior: et 
-      con<lb ed="#V" n="89" break="no"/>substantialitas sit posterior. tamen aliquod nomen potest 
-      imponi<lb ed="#V" n="90" break="no"/>quod prius significabit vnum scilicet illud quod posterius est quam illud 
-      <lb ed="#V" n="91"/>quod est prius. sicut album prius dicitur de albedine quae est 
-      posteri<lb ed="#V" n="92" break="no"/>or quam de subiecto quod est prius: ita in proposito.
-    </p>
-            <p xml:id="FrMS88-e25452-d1e818">
-      ¶ Ad Rice 
-      <lb ed="#V" n="93"/>dico: quod negatur ab omnibus.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="35-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e25452"><!-- l1d5q5 -->
+        <head xml:id="FrMS88-e25452-Hd1e108">Quaestio 5</head>
+        <p xml:id="FrMS88-e25452-d1e111">
+          Questio. v. 
+          <lb ed="#V" n="113"/>filius sit de substantia patris 
+          eter<lb ed="#V" n="114" break="no"/>Tum naliter genitus. quod non secundum Ric. 
+          <lb ed="#V" n="115"/>quia ex hoc sequitur quod essentia diuina 
+          gene<lb ed="#V" n="116" break="no"/>ret vel generetur.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e122">
+          ¶ Contra Athanasius 
+          <lb ed="#V" n="117"/>in symbolo dicit. quod Christus est deus ex 
+          <lb ed="#V" n="118"/>substantia patris ante secula genitus. 
+          <lb ed="#V" n="119"/>istam quaestionem tria sunt facienda. Primum est. quomodo 
+          <lb ed="#V" n="120"/>Circa se habet essentia in generatione. Et circa hoc sunt 4or 
+          opi<lb ed="#V" n="121" break="no"/>niones: secundum 4or quae inueniuntur in generatione creata scilicet materia. 
+          for<lb ed="#V" n="122" break="no"/>ma. compositum. et qualitas simbola.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e138">
+          ¶ Dicunt ergo aliqui quod 
+          essen<lb ed="#V" n="123" break="no"/>tia diuina habet modum materiae. Et probant. ntura illud quod est commune 
+          <lb ed="#V" n="124"/>vtrique termino generationis habet modum materiae: sed essentia est huiusmodi. 
+          <lb ed="#V" n="125"/>Nam ipsa eadem stat sub paternitate et filiatione que sunt 
+          <lb ed="#V" n="126"/>constitutiua personarum et terminorum. Alii dicunt quod se habet 
+          <lb ed="#V" n="127"/>sicut forma: quia illud quod formaliter terminat 
+          genera<lb ed="#V" n="128" break="no"/>tionem illud se habet vt forma in illa gneratione: sed essentia 
+          di<lb ed="#V" n="129" break="no"/>uina est formalis terminus generationis diuine. ergo etc. 
+          Ma<lb ed="#V" n="130" break="no"/>ior patet in generatione creata. Mior patuit supra.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e158">
+          ¶ Alii 
+          di<lb ed="#V" n="131" break="no"/>cunt quod se habet ad modum compositi. Nam sicut mateam et 
+          forma<lb ed="#V" n="132" break="no"/>constituunt vnam totam naturam. et illa est compositum: ita to. 
+          <!--74.xml-->
+          <pb ed="#V" n="36-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ta natura que comnicatur in diuinis est essentia diuina: et 
+          <lb ed="#V" n="2"/>ideo habet modum compositi.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e177">
+          ¶ Alii dicunt quod se habet per 
+          mo<lb ed="#V" n="3" break="no"/>dum qualitatis simbolice: quia sicut qualitas illa eadem 
+          ma<lb ed="#V" n="4" break="no"/>net in generato et corrupto: ita essentia est sic communis patri et 
+          fi<lb ed="#V" n="5" break="no"/>lio. non est autem nec vt terminus nec principium generationis.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e186">
+          ¶ Sed 
+          <lb ed="#V" n="6"/>contra istos modos arguo: primo contra primum sic. Ubicunque 
+          <lb ed="#V" n="7"/>est aliquid se habens per modum materiae que est communis 
+          vtri<lb ed="#V" n="8" break="no"/>que termino. ibi oportet imaginari generatum et corruptum: et 
+          <lb ed="#V" n="9"/>tunc ratio illa bene valent. non tamen tenet in generante et 
+          geni<lb ed="#V" n="10" break="no"/>to.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e199">
+          ¶ Confirmatur. quia termini generationis sub quibus stat 
+          il<lb ed="#V" n="11" break="no"/>lud commune. non sunt generans et genitum: sed genitum et corruptum. 
+        </p>
+        <p xml:id="FrMS88-e25452-d1e204">
+          <lb ed="#V" n="12"/>¶ 2o sic. in gneatione vbi est materia. materia est propter formam. essentia 
+          <lb ed="#V" n="13"/>autem divina non est propter respectum.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e211">
+          ¶ Cotra 2m. primo sic. Omne 
+          il<lb ed="#V" n="14" break="no"/>lud quod se habet sicut forma praesupponit aliquid in quo fundetur: sed 
+          <lb ed="#V" n="15"/>divina essentia nihil praesupponit. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e218">
+          ¶ 2o sic. forma ordinat 
+          <lb ed="#V" n="16"/>ad constitutum. et accipitur simpiciter esse. sed essentia divina ad nihil 
+          or<lb ed="#V" n="17" break="no"/>dinatur nec accipit simpliciter esse. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e226">
+          ¶ Contra 3m sic. 
+          Im<lb ed="#V" n="18" break="no"/>possibile est compotinius vel habens modum composia in gnatione esse 
+          ter<lb ed="#V" n="19" break="no"/>minum formalem in illa generatione: sed essentia est terminus 
+          forma<lb ed="#V" n="20" break="no"/>lis illius gnerationis diuine. ergo ipsa non habebit modum 
+          con<lb ed="#V" n="21" break="no"/>positi.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e237">
+          ¶ Contra 4m primo sic. Illud quod constituit quiditati. 
+          <lb ed="#V" n="22"/>ue totalem terminum genrationis non se habet sicut qualitas 
+          sim<lb ed="#V" n="23" break="no"/>bolica quia ipsa habet modum adiacentis: sed essentia diuina 
+          <lb ed="#V" n="24"/>constituit quiditatiue totalem terminum gnrationis scilicet filium. 
+          er<lb ed="#V" n="25" break="no"/>go etc.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e248">
+          ¶ 2o sic. Qualitas non dicitur simbolica nisi: quia eadem 
+          <lb ed="#V" n="26"/>est in genito et corrupto. hoc patet: quia sol potest aliquid 
+          ge<lb ed="#V" n="27" break="no"/>nerare vbi non est qualitas simbolica. ergo non respicit 
+          ge<lb ed="#V" n="28" break="no"/>nerans et genitum: sed in diuinis non sunt nisi isti termini 
+          <lb ed="#V" n="29"/>gnationis. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e259">
+          ¶ 3o. quia illa non est communis primo et per se: sed 
+          ratio<lb ed="#V" n="30" break="no"/>ne subiecti: essentia autem diuina per se et primo es communis. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e264">
+          ¶ 4o 
+          <lb ed="#V" n="31"/>quia qualitas simbolica ordinatur ad formam. essentia autem 
+          <lb ed="#V" n="32"/>diuina non ordinatur ad aliquid aliud. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e271">
+          ¶ Ideo 
+          di<lb ed="#V" n="33" break="no"/>co quod imaginandum est. quod essentia diuina se habet ad modum 
+          <lb ed="#V" n="34"/>simplicis naturae: que habet modum communicandi respectu sui 
+          ipsi<lb ed="#V" n="35" break="no"/>us: licet non innueniamus in creaturis simile: sicut dicit Dio 
+          <lb ed="#V" n="36"/>ny. quod essentie rerum creatarum exceduntur incomparabitir permo 
+          <lb ed="#V" n="37"/>diuinis.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e285">
+          ¶ Contra hoc arguo. 4r. Primo sic. nam cuius 
+          <lb ed="#V" n="38"/>actus est gneatio. illud se habet per modum potentie: sed 
+          genera<lb ed="#V" n="39" break="no"/>tio in diuinis est actus essentie diuine. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e292">
+          ¶ 2o sic. natura 
+          <lb ed="#V" n="40"/>gnationis actus videtur essentiam actuare. ergo essentia se habe 
+          <lb ed="#V" n="41"/>per modum potentie.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e299">
+          ¶ 3o sic. illud quod determinat aliud 
+          <lb ed="#V" n="42"/>se habet ad illud: sicut forma ad materiam: sed relatio vel gene 
+          <lb ed="#V" n="43"/>ratio in diuinis determinat essentiam. ergo essentia se 
+          ha<lb ed="#V" n="44" break="no"/>bet sicut mtam respectu gnationis.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e308">
+          ¶ 4o sic. quia prior est 
+          con<lb ed="#V" n="45" break="no"/>paratio principiorum inter se quam eorum ad principiatum: sed est 
+          <lb ed="#V" n="46"/>sentia et relatio sunt principia persone. ergo prius 
+          compa<lb ed="#V" n="47" break="no"/>rabuntur inter se: et sic relatio prius suum effectum formalem 
+          <lb ed="#V" n="48"/>dabit essentie quam supposito ex his constituto scilicet persone et 
+          <lb ed="#V" n="49"/>sic essentia prius referretur quam persona: quod est falsum. 
+        </p>
+        <p xml:id="FrMS88-e25452-d1e321">
+          <lb ed="#V" n="50"/>¶ Ad ista.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e326">
+          ¶ Ad primum negandum est fundamentum ab 
+          <lb ed="#V" n="51"/>solute scilicet quod actus essentie sit gneartio: quia ex se essentia est actua 
+          <lb ed="#V" n="52"/>igata. et omnis actualitatis fundamentum.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e334">
+          ¶ Ad hec 
+          di<lb ed="#V" n="53" break="no"/>cunt aliqui quod non est inconueniens quod essentia in potentia 
+          <lb ed="#V" n="54"/>sit ad generationem.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e341">
+          ¶ Contra. dimitto potentiam logicam 
+          <lb ed="#V" n="55"/>de qua certum est. arguo de potentia naturali: quia si essentia 
+          <lb ed="#V" n="56"/>est in potentia ad relationem. cum ex eis fiat vnum 
+          necessa<lb ed="#V" n="57" break="no"/>rio illud erit compositum. et sic persona diuina erit 
+          composi<lb ed="#V" n="58" break="no"/>talex actu et potentia.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e352">
+          ¶ Ideo dico quod essentia diuina est 
+          <lb ed="#V" n="59"/>actualissima. et ideo sibi repugnat esse in potentia.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e357">
+          ¶ Sed 
+          <lb ed="#V" n="60"/>adhuc contra. quia quandocunque aliquid pro aliquo signo non 
+          <lb ed="#V" n="61"/>habet a. et postea habet a. est in potetia ad a. sed saltem secundum 
+          or<lb ed="#V" n="62" break="no"/>dinem rationis essentia sicut fundamentum est prius relatione. et 
+          <lb ed="#V" n="63"/>non habet pro aliquo signo. ergo etc. Ad istud non faciendo difficult 
+          <lb ed="#V" n="64"/>cultatem de signis. quia de hoc dicam distin. 13a. Dico ad argumentu 
+          <lb ed="#V" n="65"/>quod concludit quod non est repugnantia inter essentiam et 
+          rela<lb ed="#V" n="66" break="no"/>tionem. et ista est potentia logica et non naturalis. cum eo autem 
+          <!--74.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>quod non sit perfectibile aliquid per aliud: sed quod ipsum sit 
+          <lb ed="#V" n="68"/>actualissimum: stat quod ipsum sit in potentia tali scilicet logica. 
+          <lb ed="#V" n="69"/>non naturali.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e386">
+          ¶ Ad 2m dico quod ex duobus potest 
+          procede<lb ed="#V" n="70" break="no"/>re quod aliquid adueniens alicui non actuet ipsum: primo si ipsum 
+          <lb ed="#V" n="71"/>sit actualissimum: sicut aqua calidissima dato quod sibi 
+          ap<lb ed="#V" n="72" break="no"/>proximetur ignis. non actuabitur a caliditate vlteriori 
+          <lb ed="#V" n="73"/>quia est summe actuata. et sic repugnat essentie a relatione 
+          <lb ed="#V" n="74"/>actuari. eo quod ipsa est actuata vltiata actualitate. Alio 
+          <lb ed="#V" n="75"/>modo quando ex parte aduenientis est repugnantia ad actuan 
+          <lb ed="#V" n="76"/>dum: sicut ignis approximatus lune non calefacit: quia 
+          <lb ed="#V" n="77"/>tali subiecto repugnat actuari a calore ignis: et isto 
+          mo<lb ed="#V" n="78" break="no"/>do etiam essentia non potest actuari a relatione: quia ipsa non est 
+          <lb ed="#V" n="79"/>apta esse actus alicus: eo quod ipsa est subsistens: et nullum 
+          sub<lb ed="#V" n="80" break="no"/>sistens actuat aliquid. eo quod nihil tale comunicatur.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e412">
+          ¶ Ad 3m 
+          di<lb ed="#V" n="81" break="no"/>co quod relato secundum Dama. non determinat essentiam: sed 
+          hyposta<lb ed="#V" n="82" break="no"/>ses. nec etiam oportet quod omnis forma determinet illud cui 
+          adue<lb ed="#V" n="83" break="no"/>nit. si sibi repugnat: sicut dictum est in precedenti solutione. 
+          <lb ed="#V" n="84"/>Nunc autem essentie repugnat determinari: sed quicquid fac 
+          re<lb ed="#V" n="85" break="no"/>latio faca circa personam.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e426">
+          ¶ Ad 4m dico. quod aliqua 
+          forma<lb ed="#V" n="86" break="no"/>lia constitutiua sunt quae primo dant suum esse circa fundamentum. vel 
+          <lb ed="#V" n="87"/>circa aliquod compositum: sicut albedo prius dat actum suum 
+          for<lb ed="#V" n="88" break="no"/>malem superficiei quam constituto. aliqua autem non: sed expectant 
+          <lb ed="#V" n="89"/>constitutum ad dandum suum esse. Exitum de anima intellectiua. quae 
+          <lb ed="#V" n="90"/>non dat esse rationale materiae nec corpori. et tamen dat toti 
+          constitu<lb ed="#V" n="91" break="no"/>to ex anima et corpore scilicet homin. Quedam alie forme sunt que 
+          <lb ed="#V" n="92"/>habent aliquod esse quod repugnat suo susceptiuo. Exegtum anima 
+          in<lb ed="#V" n="93" break="no"/>tellectiua est incorruptibilis. non dat autem corpori esse in 
+          <lb ed="#V" n="94"/>corruptibile: quia sibi repugnat. propter ista duo relatio non 
+          <lb ed="#V" n="95"/>pat effectum suum formalem essentie: sed expectat 
+          constitu<lb ed="#V" n="96" break="no"/>tum. non enim refert essentiam sed personam: et huius 
+          potissi<lb ed="#V" n="97" break="no"/>ma causa potest esse secundum sanctos: quia repugnat essentie tale esse 
+          <lb ed="#V" n="98"/>scilicet referri. ideo sibi non dat vel conuenit talis forma¬ 
+        </p>
+        <p xml:id="FrMS88-e25452-d1e457">
+          <lb ed="#V" n="99"/>¶ Sed hic remanet dubus. quia aliqui non possunt capere quin 
+          <lb ed="#V" n="100"/>essentia sit subiectum relationum. cum sit fundamentum carum: et 
+          <lb ed="#V" n="101"/>propter haec dixerunt aliqui quod relatio diuina non indiget 
+          fun<lb ed="#V" n="102" break="no"/>damento. cum sit subsistens sicut persona.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e468">
+          ¶ Contra hoc. quia 
+          <lb ed="#V" n="103"/>non minus subsistentes sunt perfectiones diuine quam 
+          relatio<lb ed="#V" n="104" break="no"/>nes diuine: et tamen ponuntur in essentia formaliter. Similiter 
+          pa<lb ed="#V" n="105" break="no"/>sio videtur inesse subiecto: sed eque est passio essentie relatio sicut 
+          <lb ed="#V" n="106"/>attributum.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e479">
+          ¶ Ideo dico quod ignorantia abstractionum 
+          mul<lb ed="#V" n="107" break="no"/>tos errores fecit: sicut philosophi nescierunt abstrahere 
+          produ<lb ed="#V" n="108" break="no"/>ctionem a productione transmutatiua. Ideo dixerunt quod 
+          crea<lb ed="#V" n="109" break="no"/>tio erat impossibilis. quia nihil erat transmutabile. Similiter 
+          <lb ed="#V" n="110"/>Arriani nescierunt abstrahere productionem a factionem 
+          <lb ed="#V" n="111"/>ideo quia viderunt verbum esse productum dixerunt 
+          ipsun<lb ed="#V" n="112" break="no"/>esse factum. Similiter posset poni exsitum de multis aliis 
+          errori<lb ed="#V" n="113" break="no"/>bus ex hoc prouenientibus.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e497">
+          ¶ Ideo dico quod ista quatuo 
+          <lb ed="#V" n="114"/>sunt ordinata essentialiter scilicet subiectum. receptiuum. fundamen 
+          <lb ed="#V" n="115"/>tum. et radix siue principium radicale. Inter ista subiectum 
+          poste<lb ed="#V" n="116" break="no"/>rius est et insimum. a subiecto abstrahit ratio receptiui. Nam 
+          om<lb ed="#V" n="117" break="no"/>ne subiectum recipit. non tamen omne quod recipit est subiectum: quia corpus 
+          <lb ed="#V" n="118"/>recipit animam intellectiuam. non tamen est eius subiectum. quia sic 
+          depen<lb ed="#V" n="119" break="no"/>deret ab eo. Fundamentum autem abstrahit a subiecto et 
+          rece<lb ed="#V" n="120" break="no"/>ptiuo. Nam omne quod recipit fundat. non tamen econverso. Nam 
+          pas<lb ed="#V" n="121" break="no"/>siones non sunt in subiecto: sicut in receptiuo propter 
+          indistinctio<lb ed="#V" n="122" break="no"/>nem realem: bene tamensunt sicut in fundamento. radix autem 
+          <lb ed="#V" n="123"/>abstrahit a fundamento: quia diuina essentia dicitur radixi 
+          <lb ed="#V" n="124"/>diuinarum personarum: secundum Diony. in c. de vnica et. discreta 
+          <lb ed="#V" n="125"/>theologia: et tamen non est proprie fundamentum: cum 
+          suppo<lb ed="#V" n="126" break="no"/>sita non insint. Et ideo sicut productio sine factione potentiae 
+          <lb ed="#V" n="127"/>intelligi. ita fundamentum sine subiecto siue receptiuo.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e530">
+          ¶ Ir 
+          <lb ed="#V" n="128"/>telligendum tamen ad euidentiam istorum a seinuincem 
+          abstra<lb ed="#V" n="129" break="no"/>habentium: quod subiectum sic recipit quod etiam causat: receptiuum autem 
+          <lb ed="#V" n="130"/>recipit: sed non causat: sicut anima intellectiua recipitur in 
+          cor<lb ed="#V" n="131" break="no"/>pore: et tamen non causatur ab eo: et distinguitur a recepto: sed 
+          <lb ed="#V" n="132"/>non oportet quod fundamentum distinguatur realiter a fundato: et 
+          <!--75.xml-->
+          <pb ed="#V" n="36-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ita se habet essentia respectu proprietatum 
+          <lb ed="#V" n="2"/>quomodo se habet respectu proprietatum esset 
+          <lb ed="#V" n="3"/>Nunc viso tia: videndum est quomodo se habet relatio siue 
+          pro<lb ed="#V" n="4" break="no"/>prietas respectu essentie.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e559">
+          ¶ Dicunt aliqui quod se habet 
+          pe<lb ed="#V" n="5" break="no"/>modum substantie. Aliqui per modum accidentis. Aliqui per modum subs 
+          <lb ed="#V" n="6"/>stentis. Aliqui quod se habet per modum rationis formalis et 
+          diffinit<lb ed="#V" n="7" break="no"/>ue respectu ipsius essentie. Nullus istorum modorum 
+          appa<lb ed="#V" n="8" break="no"/>ret mihi conueniens. Ideo arguo contra eos.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e570">
+          ¶ Primo contra primum qui 
+          <lb ed="#V" n="9"/>dicit de substantia: quecumque distinguuntur per rationes 
+          substantia<lb ed="#V" n="10" break="no"/>les diuerse rationis. illa sunt supposita alterius et 
+          al<lb ed="#V" n="11" break="no"/>terius naturae: persone autem divine non sunt suppotitia alterius naturae 
+          <lb ed="#V" n="12"/>Constat autem quod distinguuntur per relationes: ergo non se habent per 
+          mo<lb ed="#V" n="13" break="no"/>dum substantie.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e583">
+          ¶ Contra 2m sic. Illud quod est accidens vel habes 
+          <lb ed="#V" n="14"/>modum accidentis non constituit suppositum de genere substantie: sed relati 
+          <lb ed="#V" n="15"/>nes constituunt suppositum de genere substantie: ergo non habent modum 
+          <lb ed="#V" n="16"/>accidentis.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e592">
+          ¶ Contra 3m. quia quantumcumque relatio habet modum sub 
+          <lb ed="#V" n="17"/>sistentis: quia constituit suppositum: vel quia est constitutiua 
+          sup<lb ed="#V" n="18" break="no"/>positi: tamen quia omnis relatio necesse est vt habeat aliquod 
+          funda<lb ed="#V" n="19" break="no"/>mentum in quo sit. oportet assignare quomodo ista se habeat ad 
+          essen<lb ed="#V" n="20" break="no"/>tiam sicut ad fundamentu.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e603">
+          ¶ Contra 4m. qui videturquasi ab 
+          <lb ed="#V" n="21"/>surdus. Nam diffinitio vel ratio diffinitiua predicatur in primo 
+          di<lb ed="#V" n="22" break="no"/>cendi per se de diffinito: si ergo relatio sit ratio diffinitiua 
+          sub<lb ed="#V" n="23" break="no"/>stantie vel essentie: ipsa dicetur de ea in per modo: quod est 
+          falsun<lb ed="#V" n="24" break="no"/>et contra Augstines
+        </p>
+        <p xml:id="FrMS88-e25452-d1e614">
+          ¶ Praeterea vbicumque est diffinitio et diffinitum et econverso: sed 
+          essen<lb ed="#V" n="25" break="no"/>tia est in filio: ergo et paternitas. Similiter essentia opponeretur relatio 
+          <lb ed="#V" n="26"/>ni sicut relatio. Similiter tunc essentia esset incommunicabilis sicut 
+          re<lb ed="#V" n="27" break="no"/>latio. Similiter essentia distingueret sicut relato. hec omnia sunt 
+          fal<lb ed="#V" n="28" break="no"/>sa.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e626">
+          ¶ Ideo dicit Sco. quod relatio comparatur ad essentiam per 
+          mo<lb ed="#V" n="29" break="no"/>dum proprietatis indiuidualis: et hoc probatur dupliciter. 
+          <lb ed="#V" n="30"/>Primo sic. Illud quo distinguuntur supposita eiusdem 
+          na<lb ed="#V" n="31" break="no"/>ture sunt proprietates indiuiduales: sed relationes respectu 
+          <lb ed="#V" n="32"/>essentie sic se habent. ergo etc. 2o sic. illa quibus producens et 
+          pro<lb ed="#V" n="33" break="no"/>ductum in geneatione vniuoca distinguuntur: se habent: sicut 
+          proprie<lb ed="#V" n="34" break="no"/>tates indiuiduales: quia si non: productio non esset vniuoca 
+          <lb ed="#V" n="35"/>sed relationes isto modo se habent. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e644">
+          ¶ Sed contra istud 
+          argui<lb ed="#V" n="36" break="no"/>4r. Primo sic. nulla proprietas indiuidualis est principium disto. 
+          <lb ed="#V" n="37"/>nis formalis: sed persone diuine formaliter distinguuntur: ergo 
+          ri<lb ed="#V" n="38" break="no"/>lationes quibus distinguuntur non se habent sicut proprietates 
+          <lb ed="#V" n="39"/>indiuiduales.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e655">
+          ¶ 2o sic. omnis proprietas indiuidualis est eius 
+          <lb ed="#V" n="40"/>dem rationis seu generis cum natura cuius est proprietas: proprietas 
+          <lb ed="#V" n="41"/>autem diuina est alterius generis a divina essemus. quia proprietas est 
+          re<lb ed="#V" n="42" break="no"/>latio: essentia autem est substantia. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e664">
+          ¶ 3o sic. omnis proprietas 
+          indiu<lb ed="#V" n="43" break="no"/>dualis cum nam cus est facit vnum conceletum formalem: sed relatio cum 
+          essen<lb ed="#V" n="44" break="no"/>non facit. ergo relatio non est proprietas indiuindualis. Mi. patet. quia 
+          il<lb ed="#V" n="45" break="no"/>le conceptus esset: aut absolutus: aut respectiuus.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e673">
+          ¶ 4o sic. 
+          <lb ed="#V" n="46"/>omnis proprietas indiuidualis est incommunicabilis: sed paternitas est 
+          <lb ed="#V" n="47"/>communicabilis. Nam paternitas est eiusdem rationis in deo et in 
+          creatu<lb ed="#V" n="48" break="no"/>ris: secundum enim Apietum. illa in divinis est: a quae omnis alia paternitas de 
+          <lb ed="#V" n="49"/>nominatur. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e684">
+          ¶ Propter ista et multa alia posset dio 
+          <lb ed="#V" n="50"/>sicut credo esse verum: quod ista comparatio non est propria: sed quodam 
+          <lb ed="#V" n="51"/>modo metaphorica: licet autem propter aliquam similitudinem liceret 
+          di<lb ed="#V" n="52" break="no"/>cere sic. tamen in pluribus est dissimile quam simile.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e694">
+          ¶ Sed quantum ad 
+          qua<lb ed="#V" n="53" break="no"/>tam obiectionem: quomodo potest paternitas dare esse incommunicabile: 
+          <lb ed="#V" n="54"/>cum ipsa sit communicabilis.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e701">
+          ¶ Si dicatur quod ideo dat esse 
+          inci<lb ed="#V" n="55" break="no"/>municabile. quia diuina.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e706">
+          ¶ Contra. quia tunc omne diuinum esse 
+          <lb ed="#V" n="56"/>tale: quod est falsum. Nec valet dicere: quia inquantum hec 
+          <lb ed="#V" n="57"/>paternitas scilicet ratione heceitatis: quia si solum isto modo non essent 
+          sup<lb ed="#V" n="58" break="no"/>posita diuina inquantum talia distincta formaliter. Nam 
+          <lb ed="#V" n="59"/>diuersitas heceitatum non facit distinctionem formalem: 
+        </p>
+        <p xml:id="FrMS88-e25452-d1e717">
+          <lb ed="#V" n="60"/>¶ Dico ergo quod paternitas habet vnam rationem communem: que est 
+          <lb ed="#V" n="61"/>ratio communis paternitati diuine et create: et habet aliam propriam spe 
+          <lb ed="#V" n="62"/>cificam: et illa est propria paternitati diuine: et illa ex se est 
+          <lb ed="#V" n="63"/>hec. et secundum istam constituit. Eodem modo de aliis 
+          <lb ed="#V" n="64"/>visis respondeo ad quaestionem: et pono 4or conclusiones. prima est. quod 
+          <lb ed="#V" n="65"/>His esse de substantia patris non dicit solum originem: quia cum 
+          crea<lb ed="#V" n="66" break="no"/>tura originetur a deo: creatura esset de substantia patris: vel 
+          <!--75.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>dei: quod est falsum.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e741">
+          ¶ 2a conclusio est. quod de. non dicit solam 
+          consub<lb ed="#V" n="68" break="no"/>stantialitatem. quia tunc pater potest dici eque de substantia filii: sicut 
+          <lb ed="#V" n="69"/>econverso.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e748">
+          ¶ 3a conclusio est. quod vtrumque dicit et consubstantiali tatem et 
+          origi<lb ed="#V" n="70" break="no"/>nem. Uerge quia filius habet eandem substantiam cum patre: et est ab eo. 
+          <lb ed="#V" n="71"/>dicitur de substantia patris.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e756">
+          ¶ 4a conclusio est. quod de principalius dicit secundum 
+          <lb ed="#V" n="72"/>aliquos originem quam consubstantialitatem: quia ratio consubstantialitatis  
+          <lb ed="#V" n="73"/>est respectus consequens distonem personarum. sicut respectus 
+          <lb ed="#V" n="74"/>similitudinis: equalitatis et identitatis: personalis autem 
+          distin<lb ed="#V" n="75" break="no"/>ctio fit per origines. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e767">
+          ¶ Confirmatur. quia in essentialiter 
+          <lb ed="#V" n="76"/>ordinatis prius est semper praencipalius: sed distinctio 
+          praece<lb ed="#V" n="77" break="no"/>dit consubstantialitatem: sicut alias relationes communes scilicet 
+          similitudi<lb ed="#V" n="78" break="no"/>nis: identitatis: et equalitatis: ergo de. dicit prius originem quam 
+          <lb ed="#V" n="79"/>consubstantialitatem.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e778">
+          ¶ Sed oppositum apparet mihi.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e781">
+          ¶ Ideo sit 4 
+          <lb ed="#V" n="80"/>nitruso quod de. principalius dicit: siue significat consubstantialitatem quae 
+          <lb ed="#V" n="81"/>originem. Nam si diceret prius originem: tunc non repugua 
+          <lb ed="#V" n="82"/>ret substantie esse genitam: sicut sibi non repugnat esse de.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e790">
+          ¶ Praeterea 
+          <lb ed="#V" n="83"/>sicut assimilare dicit relationem prius similitudinis: concernit 
+          <lb ed="#V" n="84"/>autem originem: ita communicare: vt dictum est superius. Et eodem modo 
+          <lb ed="#V" n="85"/>de hac praepositione de. prius enim dicit consubstantialitatem: postea 
+          ori<lb ed="#V" n="86" break="no"/>ginem.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e801">
+          ¶ Sed tunc ad argumenta in contrarium dico. quod licet 
+          distin<lb ed="#V" n="87" break="no"/>ctio et origo per quam fit distinctio et consubstantialitas sint 
+          essentia<lb ed="#V" n="88" break="no"/>liter ordinata. ita quod distinctio siue origo sit prior: et 
+          con<lb ed="#V" n="89" break="no"/>substantialitas sit posterior. tamen aliquod nomen potest 
+          imponi<lb ed="#V" n="90" break="no"/>quod prius significabit vnum scilicet illud quod posterius est quam illud 
+          <lb ed="#V" n="91"/>quod est prius. sicut album prius dicitur de albedine quae est 
+          posteri<lb ed="#V" n="92" break="no"/>or quam de subiecto quod est prius: ita in proposito.
+        </p>
+        <p xml:id="FrMS88-e25452-d1e818">
+          ¶ Ad Rice 
+          <lb ed="#V" n="93"/>dico: quod negatur ab omnibus.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

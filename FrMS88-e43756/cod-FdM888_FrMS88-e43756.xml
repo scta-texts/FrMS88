@@ -1,308 +1,308 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 4</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 4</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="60-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e43756"><!-- l1q11q4 -->
-            <head xml:id="FrMS88-e43756-Hd1e108">Quaestio 4</head>
-            <p xml:id="FrMS88-e43756-d1e111">
-      Quaestio. iiii. 
-      <lb ed="#V" n="103"/>UTrum spiratio actiua sit 
-      constitu<lb ed="#V" n="104" break="no"/>tiua persone. hic primo vide 
-      <lb ed="#V" n="105"/>dum est. si spiratio actiua constituit. 2o 
-      <lb ed="#V" n="106"/>dato quod non. quare non constituit. 
-      <lb ed="#V" n="107"/>ad primum dicit vnus reuerendus do 
-      <lb ed="#V" n="108"/>Quantum ctor Praetea. aureo. quod spiratio actius 
-      <lb ed="#V" n="109"/>concurrit ad constitutionem verbi cum essentia et filiatione. et ad 
-      <lb ed="#V" n="110"/>constitonem persone patris cum essentia et paternitate. Et huius 
-      ratio<lb ed="#V" n="111" break="no"/>est: quia quecumque sunt indiuisa in se et nullatenus adinuicem 
-      <lb ed="#V" n="112"/>diuisa concurrunt ad eandem vnitatem: sed ille relationes et 
-      <lb ed="#V" n="113"/>essentia sunt talia. ergo concurrunt ad eandem vnitatem eiusdem 
-      perso<lb ed="#V" n="114" break="no"/>ne.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e140">
-      ¶ Sed contra istam opionem arguo quadrupliciter. 
-      </p>
-            <p xml:id="FrMS88-e43756-d1e143">
-               <lb ed="#V" n="115"/>¶ Primo sic. quandocumque aliqua duo concurrunt in vltimato 
-      con<lb ed="#V" n="116" break="no"/>stitutiuo: ipsa conueniunt in ratione totius constituti: sicut 
-      si<lb ed="#V" n="117" break="no"/>aliqua conueniunt in vna proprietate indiuiduali sunt vnum 
-      <lb ed="#V" n="118"/>numero: sed pater et filius conueniunt in vltimato constitutiuo 
-      perso<lb ed="#V" n="119" break="no"/>ne scilicet in spiratione actiua: quia spiratio est vltimate 
-      consti<lb ed="#V" n="120" break="no"/>tutiuum. ergo conueniunt in vnitate persone.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e159">
-      ¶ 2o sic. Ordo 
-      <lb ed="#V" n="121"/>et processus in constitutiuis est procedere a magis confuso et 
-      <lb ed="#V" n="122"/>minus distincto ad magis distinctum: et ad magis proprium: 
-      <lb ed="#V" n="123"/>ergo illud constitutiuum quod vltimate aduenit est magis 
-      pro<lb ed="#V" n="124" break="no"/>prium: sed in processu constitutiuorum persone patris vltimatum est 
-      <lb ed="#V" n="125"/>piratio actiua. Prius. enim intellectur paternitas quam spiratio 
-      acti<lb ed="#V" n="126" break="no"/>ua intelligatur aduenire: ergo ipsa erit magis propria. et per 
-      <lb ed="#V" n="127"/>consequens erit minus communis: vel incommunicabilis. sed hoc est 
-      fal<lb ed="#V" n="128" break="no"/>sum: quia communis est duabus personis.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e180">
-      ¶ 3o sic. nullum comunicabile 
-      <lb ed="#V" n="129"/>constituit vltimate suppositum in esse incommunicabili: quia impossibile 
-      <lb ed="#V" n="130"/>est quod forma det oppositum effectum: vel esse sibi: sed 
-      spira<lb ed="#V" n="131" break="no"/>tio actiua vltimate aduenit: et ipsa est comunicabilis: ergo non 
-      <lb ed="#V" n="132"/>dat supposito esse incommunicabile.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e191">
-      ¶ 4o sic. quandocunque est ali¬ 
-      <!--123.xml-->
-      <pb ed="#V" n="60-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>quod suppositum in vltimato esse constitutum: impossibile est quod 
-      ali<lb ed="#V" n="2" break="no"/>quid adueniens ipsum constituat: sed pater est constitutus in 
-      vltima<lb ed="#V" n="3" break="no"/>to esse per generationem actiuam: et filius per passiuam: ergo spiratio 
-      <lb ed="#V" n="4"/>actiua adueniens vtrique iam constituto: ipsum non 
-      con<lb ed="#V" n="5" break="no"/>stituet.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e211">
-      ¶ Confirmatur. quia non videtur quod spiratio passiua aliquo 
-      <lb ed="#V" n="6"/>habeat: vnde sibi conueniat vltimate constituere et praecise: quod 
-      <lb ed="#V" n="7"/>non habeat paternitas in patre: vel filiatio in finito. quia vtraque 
-      ista<lb ed="#V" n="8" break="no"/>rum est eque incommunicabilis: sicut est illa: sed pro signo pro quo intellect 
-      <lb ed="#V" n="9"/>aduenire essentie: constituit personam spiritussci sine quiocumque alio 
-      ex<lb ed="#V" n="10" break="no"/>cepta essentis: ergo sic paternitas et filiatio: si in aliquo signo prece 
-      <lb ed="#V" n="11"/>dunt spirationem actiuam: ergo praeconstitute erunt patrue.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e227">
-      ¶ Ideo dico 
-      <lb ed="#V" n="12"/>quod spiratio actiua non est verbi vel patris constitutiua: cum 
-      to<lb ed="#V" n="13" break="no"/>ta fecunditas intellectus praeintelligatur volitiue fecunditati. et per 
-      <lb ed="#V" n="14"/>consequens persone intelliguntur praeconstitute.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e236">
-      ¶ Sed contra illud 
-      in<lb ed="#V" n="15" break="no"/>statur quadrupliciter.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e241">
-      ¶ Primo sic. quod aduenit post completum 
-      <lb ed="#V" n="16"/>esse rei. illud est accidens et aduenticium: sed spiratio actia 
-      <lb ed="#V" n="17"/>cum non constituat aduenit personis iam complete constituti: ergo est 
-      <lb ed="#V" n="18"/>accidens et aduenticium deo: quod est impossibile.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e251">
-      ¶ 2o sic. quod est in 
-      <lb ed="#V" n="19"/>aliquo: et est sibi extraneum: non videtur quod possit stare cum ipso sine 
-      <lb ed="#V" n="20"/>aliqua compositione: sed spiratio actiua est in istis duobus 
-      sup<lb ed="#V" n="21" break="no"/>positis: et est eis extranea: ergo videtur necessario quod ipsa cum eis 
-      compo<lb ed="#V" n="22" break="no"/>nat.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e262">
-      ¶ 3o sic. nullum suppositum est vnum formaliter: quod habet 
-      <lb ed="#V" n="23"/>in se aliquam rationem: vel aliquid quod suam rationem formalem non in 
-      <lb ed="#V" n="24"/>grediter: sed per te: spiratio actiua rationem formalem patris non 
-      <lb ed="#V" n="25"/>ingrediter: ergo pater non est vnum formaliter.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e271">
-      ¶ 4o sic. non enim videtur quod 
-      <lb ed="#V" n="26"/>spiratio actiua sit minoris efficacie quam passiua: sed 
-      pa<lb ed="#V" n="27" break="no"/>siua spiratio constituit personam spiritussancti: ergo eodem modo 
-      acti<lb ed="#V" n="28" break="no"/>ua constituit personam patris et filii: vel alterius.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e280">
-      ¶ Ad ista per 
-      <lb ed="#V" n="29"/>ordinem.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e285">
-      ¶ Ad primum dico quod si intelligatur accidens vel 
-      ad<lb ed="#V" n="30" break="no"/>uenticium aliquid quasi extraneum: hoc est non intrans rationem 
-      <lb ed="#V" n="31"/>formalem: sic concedo quod spiratio actiua est accidens et 
-      adue<lb ed="#V" n="32" break="no"/>ticia: sed hoc non est impossibile in diuinis: vt patet in attribut 
-      <lb ed="#V" n="33"/>et essentia et multis aliis. Si autem intelligatur proprie accidens: sicut 
-      <lb ed="#V" n="34"/>dico quod spiratio actiua non est proprie accidens: et hoc propter 
-      <lb ed="#V" n="35"/>duo. Unum est identitas realis sui ad suppositum cui 
-      <lb ed="#V" n="36"/>aduenit. 2m est: quia est subsistens et non inherens.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e303">
-      ¶ Ad 2m 
-      <lb ed="#V" n="37"/>dico. quod eodem modo posset dici de similitudine et equalitate: quia 
-      <lb ed="#V" n="38"/>aduenit personis iam constitutis: et non facit compositionem 
-      <lb ed="#V" n="39"/>propter indistinctionem realem que est inter ipsam: et alia 
-      <lb ed="#V" n="40"/>in quibus est scilicet personam patris: et personam filii.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e315">
-      ¶ Ad 3m 
-      <lb ed="#V" n="41"/>dico. quod secundum multos persona divina non est aliqua vna ratio 
-      for<lb ed="#V" n="42" break="no"/>malis formaliter vna: sed solum est vna res simplex 
-      com<lb ed="#V" n="43" break="no"/>tituta ex duabus rationibus formalibus: quarum quelibet 
-      <lb ed="#V" n="44"/>praedicatur de ipsa identice.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e326">
-      ¶ Ad 4m dico. quod licet maioris est 
-      <lb ed="#V" n="45"/>ficacie non sit passiua spiratio quam actiua quantum ad 
-      mul<lb ed="#V" n="46" break="no"/>ta: tamen quantum ad hoc potest dici quod spiratio passiua est 
-      ta<lb ed="#V" n="47" break="no"/>lis: quia est incommunicabilis: ergo sibi debetur constituere: sed 
-      <lb ed="#V" n="48"/>actiua non est hbmodi: ergo sibi non debetur. hoc autem 
-      sta<lb ed="#V" n="49" break="no"/>tim declarabitur: sed fugiendo difficultatem posset homo 
-      <lb ed="#V" n="50"/>dicere quod spiratio actiua ideo non constituit: quia 
-      adueni<lb ed="#V" n="51" break="no"/>iam priua constituto: sed spiratio passiua non ideo constituit 
-      <lb ed="#V" n="52"/>ad 2m videndum est de causa istius 
-      nega<lb ed="#V" n="53" break="no"/>Quantum tiue: uter scilicet piratio actiua non 
-      consti<lb ed="#V" n="54" break="no"/>tuit: sicut cetere origines. tam actiue quam passiue quae sunt in deo. 
-      </p>
-            <p xml:id="FrMS88-e43756-d1e350">
-               <lb ed="#V" n="55"/>¶ Dicitur sicut iam dictum est: quia aduenit praeconstitutis scilicet patri iam 
-      <lb ed="#V" n="56"/>constituto per generationem actiuam et aduenit filio iam 
-      praeconstitu<lb ed="#V" n="57" break="no"/>to per generationem passiuam: et licet habeat vim constitutiuam: 
-      ta<lb ed="#V" n="58" break="no"/>men constituem non potest: quia non est constituibile respectu eius: 
-      <lb ed="#V" n="59"/>sicut calor lignum summe calefactum calefaceme non potest 
-      </p>
-            <p xml:id="FrMS88-e43756-d1e363">
-               <lb ed="#V" n="60"/>¶ Sed contra istud arguiter 4r. Primo sic. licet enim bona ratio sit 
-      <lb ed="#V" n="61"/>ad probandum quod non constituat. et tamen non ostendit propter quid: 
-      <lb ed="#V" n="62"/>nec probat a priori. Et ideo arguiter contra.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e372">
-      ¶ Primo 
-      <lb ed="#V" n="63"/>sic. omne constitutiuum necessario est alicuius 
-      consti<lb ed="#V" n="64" break="no"/>tuibilis: sed per te spiratio actiua est constitutiua: ergo 
-      alicu<lb ed="#V" n="65" break="no"/>ius constituibilis: non autem alicuius illorum trium: quia 
-      ipsa<lb ed="#V" n="66" break="no"/>sunt constituibilia precise per tria ipsa constituentia. ergo erit 
-      <!--123.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>dare aliud constituibile per ipsum: nihil est ibi in 
-      prio<lb ed="#V" n="68" break="no"/>tentia: ergo erit dare 4m constitutum.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e392">
-      ¶ Secundo sic. 
-      <lb ed="#V" n="69"/>nulla virtus realis siue actiua: siue passiua est 
-      respe<lb ed="#V" n="70" break="no"/>ctu entis prohibiti. tunc enim esset vere potentia ad 
-      impossibi<lb ed="#V" n="71" break="no"/>le: sed omne aliud suppositum praeter tria est prohibitum: ergo 
-      <lb ed="#V" n="72"/>spiratio actiua non est constitutiua alicuius.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e404">
-      ¶ 3o sic. in 
-      <lb ed="#V" n="73"/>incommutabili natura est idem esse et posse: si ergo actiua 
-      spi<lb ed="#V" n="74" break="no"/>ratio habet de se vim constitutiuam suppositi: necessario ibi esset 
-      <lb ed="#V" n="75"/>tale suppositum constitutum: vel si non: aliquid posset esse deus: 
-      <lb ed="#V" n="76"/>quod non est.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e415">
-      ¶ 4o sic. minus est ponendum in deo aliquid  
-      <lb ed="#V" n="77"/>frustra quam in creatura: tunc autem esset in deo ista 
-      poten<lb ed="#V" n="78" break="no"/>tia frustra scilicet spirationis actiue. que scilicet ad actum quod non 
-      <lb ed="#V" n="79"/>posset reduci nec per se: nec per aliquid aliud.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e424">
-      ¶ Ideo 
-      vide<lb ed="#V" n="80" break="no"/>tur mihi dicendum quod spirationi actiue ex se intrinsece 
-      repu<lb ed="#V" n="81" break="no"/>gnat constituem personam: et nullam habet de se vim constitutiuam: 
-      <lb ed="#V" n="82"/>quetumcunque enim adueniret supposito non preconstituto: 
-      <lb ed="#V" n="83"/>adhuc dico quod repugnat sibi constituere: licet enim 
-      filiatio<lb ed="#V" n="84" break="no"/>ni inquantum filiatio est: non competat constituere: sed 
-      ratio<lb ed="#V" n="85" break="no"/>ni specifice filiationis qua contrahitur ad diuia. Sic ergo 
-      <lb ed="#V" n="86"/>dico in proposito. quod non solum spirationi in generali 
-      <lb ed="#V" n="87"/>non competit habere vim constituendi. sed etiam ipsi rationi 
-      <lb ed="#V" n="88"/>formali: et specifice huius spirationis repugnat 
-      consti<lb ed="#V" n="89" break="no"/>tuere. Et ideo non est assignanda alia ratio: stante. enim 
-      <lb ed="#V" n="90"/>ratione formali istius spirationis quocumque adueniente vel 
-      <lb ed="#V" n="91"/>recedente non constitueret.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e453">
-      ¶ Sed contra hoc instatur 
-      <lb ed="#V" n="92"/>quadruplicitur. Primo sic. non enim videtur quod rationes hoc 
-      <lb ed="#V" n="93"/>probantes necessarie sint. nam entitati que est in deo 
-      <lb ed="#V" n="94"/>vel rationi formali entitatis non repugnat ab eterno 
-      <lb ed="#V" n="95"/>communicari scilicet inquantum entitas est: cum ergo non 
-      fue<lb ed="#V" n="96" break="no"/>rit ab eterno communicata: nec communicabitur. ergo 
-      po<lb ed="#V" n="97" break="no"/>netur frustra. non sequitur ergo nec illud simile de spiratione. 
-      </p>
-            <p xml:id="FrMS88-e43756-d1e469">
-               <lb ed="#V" n="98"/>¶ Secundo sic. nam quottidine queritur quare filius non 
-      po<lb ed="#V" n="99" break="no"/>test generare cum habeat potentiam generandi. non oporteret 
-      <lb ed="#V" n="100"/>autem querere hoc si ratio sufficeret assignata: posset enim simi 
-      <lb ed="#V" n="101"/>liter sic dici. quod filius est filius. ergo frustra talis inquisitio fit. 
-      </p>
-            <p xml:id="FrMS88-e43756-d1e480">
-               <lb ed="#V" n="102"/>¶ Tertio eodem de multiplicatione filiorum in deo. 
-      </p>
-            <p xml:id="FrMS88-e43756-d1e486">
-               <lb ed="#V" n="103"/>¶ 4o quia non videtur ratio quare magis repugnat actiue 
-      spi<lb ed="#V" n="104" break="no"/>rationi constituem ex sua ratione formali quam passiue.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e493">
-      ¶ Ad  
-      <lb ed="#V" n="105"/>primum istorum dico quod ad hoc quod aliquid non sit frustra non 
-      <lb ed="#V" n="106"/>oportet quod semper ponatur actu. sed quod ipsum sit ponibile. ita quod 
-      <lb ed="#V" n="107"/>nihil sibi repugnat: sicut potentia creatiua alterius 
-      mum<lb ed="#V" n="108" break="no"/>di non ponitur frustra. quia potest fieri. dato quod nunquam fiat. 
-      </p>
-            <p xml:id="FrMS88-e43756-d1e504">
-               <lb ed="#V" n="109"/>¶ Ad 2m dico. quod ratio quare filius non potest generare est 
-      <lb ed="#V" n="110"/>ignota nobis quecumque sit illa. Ideo fit quaestio vt aliqualiter 
-      <lb ed="#V" n="111"/>saltem a posteriori possemus reddere causam 
-      aliquam<lb ed="#V" n="112" break="no"/>istius veritatis.
-    </p>
-            <p xml:id="FrMS88-e43756-d1e515">
-      ¶ Ad 3m eodem modo. nam causa 
-      intrin<lb ed="#V" n="113" break="no"/>seca quare non possent esse plures filii est nobis 
-      igno<lb ed="#V" n="114" break="no"/>ta. Ideo per extrinseca inquirimus. non enim cognosci 
-      <lb ed="#V" n="115"/>mus rationem formalem propter quid forte hoc est. 
-      </p>
-            <p xml:id="FrMS88-e43756-d1e524">
-               <lb ed="#V" n="116"/>¶ Ad 4m dico quod si spiratio actiua et passiua essent 
-      no<lb ed="#V" n="117" break="no"/>bis perfecte note: sicut beatis: videremus causam 
-      in<lb ed="#V" n="118" break="no"/>trinsecam repugnare spirationi actiue: que modo nos 
-      <lb ed="#V" n="119"/>latet. Et ideo quo ad nos prima ratio aliorum ad 
-      pro<lb ed="#V" n="120" break="no"/>bandum. quia ita est. satis videtur sufficiens: sed per 
-      il<lb ed="#V" n="121" break="no"/>lam non reditur prima ratio: quia aduenit supposito 
-      pre<lb ed="#V" n="122" break="no"/>constituto propter alia causam scilicet quia spiratio est spiratio¬ 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="60-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e43756"><!-- l1q11q4 -->
+        <head xml:id="FrMS88-e43756-Hd1e108">Quaestio 4</head>
+        <p xml:id="FrMS88-e43756-d1e111">
+          Quaestio. iiii. 
+          <lb ed="#V" n="103"/>UTrum spiratio actiua sit 
+          constitu<lb ed="#V" n="104" break="no"/>tiua persone. hic primo vide 
+          <lb ed="#V" n="105"/>dum est. si spiratio actiua constituit. 2o 
+          <lb ed="#V" n="106"/>dato quod non. quare non constituit. 
+          <lb ed="#V" n="107"/>ad primum dicit vnus reuerendus do 
+          <lb ed="#V" n="108"/>Quantum ctor Praetea. aureo. quod spiratio actius 
+          <lb ed="#V" n="109"/>concurrit ad constitutionem verbi cum essentia et filiatione. et ad 
+          <lb ed="#V" n="110"/>constitonem persone patris cum essentia et paternitate. Et huius 
+          ratio<lb ed="#V" n="111" break="no"/>est: quia quecumque sunt indiuisa in se et nullatenus adinuicem 
+          <lb ed="#V" n="112"/>diuisa concurrunt ad eandem vnitatem: sed ille relationes et 
+          <lb ed="#V" n="113"/>essentia sunt talia. ergo concurrunt ad eandem vnitatem eiusdem 
+          perso<lb ed="#V" n="114" break="no"/>ne.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e140">
+          ¶ Sed contra istam opionem arguo quadrupliciter. 
+        </p>
+        <p xml:id="FrMS88-e43756-d1e143">
+          <lb ed="#V" n="115"/>¶ Primo sic. quandocumque aliqua duo concurrunt in vltimato 
+          con<lb ed="#V" n="116" break="no"/>stitutiuo: ipsa conueniunt in ratione totius constituti: sicut 
+          si<lb ed="#V" n="117" break="no"/>aliqua conueniunt in vna proprietate indiuiduali sunt vnum 
+          <lb ed="#V" n="118"/>numero: sed pater et filius conueniunt in vltimato constitutiuo 
+          perso<lb ed="#V" n="119" break="no"/>ne scilicet in spiratione actiua: quia spiratio est vltimate 
+          consti<lb ed="#V" n="120" break="no"/>tutiuum. ergo conueniunt in vnitate persone.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e159">
+          ¶ 2o sic. Ordo 
+          <lb ed="#V" n="121"/>et processus in constitutiuis est procedere a magis confuso et 
+          <lb ed="#V" n="122"/>minus distincto ad magis distinctum: et ad magis proprium: 
+          <lb ed="#V" n="123"/>ergo illud constitutiuum quod vltimate aduenit est magis 
+          pro<lb ed="#V" n="124" break="no"/>prium: sed in processu constitutiuorum persone patris vltimatum est 
+          <lb ed="#V" n="125"/>piratio actiua. Prius. enim intellectur paternitas quam spiratio 
+          acti<lb ed="#V" n="126" break="no"/>ua intelligatur aduenire: ergo ipsa erit magis propria. et per 
+          <lb ed="#V" n="127"/>consequens erit minus communis: vel incommunicabilis. sed hoc est 
+          fal<lb ed="#V" n="128" break="no"/>sum: quia communis est duabus personis.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e180">
+          ¶ 3o sic. nullum comunicabile 
+          <lb ed="#V" n="129"/>constituit vltimate suppositum in esse incommunicabili: quia impossibile 
+          <lb ed="#V" n="130"/>est quod forma det oppositum effectum: vel esse sibi: sed 
+          spira<lb ed="#V" n="131" break="no"/>tio actiua vltimate aduenit: et ipsa est comunicabilis: ergo non 
+          <lb ed="#V" n="132"/>dat supposito esse incommunicabile.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e191">
+          ¶ 4o sic. quandocunque est ali¬ 
+          <!--123.xml-->
+          <pb ed="#V" n="60-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>quod suppositum in vltimato esse constitutum: impossibile est quod 
+          ali<lb ed="#V" n="2" break="no"/>quid adueniens ipsum constituat: sed pater est constitutus in 
+          vltima<lb ed="#V" n="3" break="no"/>to esse per generationem actiuam: et filius per passiuam: ergo spiratio 
+          <lb ed="#V" n="4"/>actiua adueniens vtrique iam constituto: ipsum non 
+          con<lb ed="#V" n="5" break="no"/>stituet.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e211">
+          ¶ Confirmatur. quia non videtur quod spiratio passiua aliquo 
+          <lb ed="#V" n="6"/>habeat: vnde sibi conueniat vltimate constituere et praecise: quod 
+          <lb ed="#V" n="7"/>non habeat paternitas in patre: vel filiatio in finito. quia vtraque 
+          ista<lb ed="#V" n="8" break="no"/>rum est eque incommunicabilis: sicut est illa: sed pro signo pro quo intellect 
+          <lb ed="#V" n="9"/>aduenire essentie: constituit personam spiritussci sine quiocumque alio 
+          ex<lb ed="#V" n="10" break="no"/>cepta essentis: ergo sic paternitas et filiatio: si in aliquo signo prece 
+          <lb ed="#V" n="11"/>dunt spirationem actiuam: ergo praeconstitute erunt patrue.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e227">
+          ¶ Ideo dico 
+          <lb ed="#V" n="12"/>quod spiratio actiua non est verbi vel patris constitutiua: cum 
+          to<lb ed="#V" n="13" break="no"/>ta fecunditas intellectus praeintelligatur volitiue fecunditati. et per 
+          <lb ed="#V" n="14"/>consequens persone intelliguntur praeconstitute.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e236">
+          ¶ Sed contra illud 
+          in<lb ed="#V" n="15" break="no"/>statur quadrupliciter.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e241">
+          ¶ Primo sic. quod aduenit post completum 
+          <lb ed="#V" n="16"/>esse rei. illud est accidens et aduenticium: sed spiratio actia 
+          <lb ed="#V" n="17"/>cum non constituat aduenit personis iam complete constituti: ergo est 
+          <lb ed="#V" n="18"/>accidens et aduenticium deo: quod est impossibile.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e251">
+          ¶ 2o sic. quod est in 
+          <lb ed="#V" n="19"/>aliquo: et est sibi extraneum: non videtur quod possit stare cum ipso sine 
+          <lb ed="#V" n="20"/>aliqua compositione: sed spiratio actiua est in istis duobus 
+          sup<lb ed="#V" n="21" break="no"/>positis: et est eis extranea: ergo videtur necessario quod ipsa cum eis 
+          compo<lb ed="#V" n="22" break="no"/>nat.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e262">
+          ¶ 3o sic. nullum suppositum est vnum formaliter: quod habet 
+          <lb ed="#V" n="23"/>in se aliquam rationem: vel aliquid quod suam rationem formalem non in 
+          <lb ed="#V" n="24"/>grediter: sed per te: spiratio actiua rationem formalem patris non 
+          <lb ed="#V" n="25"/>ingrediter: ergo pater non est vnum formaliter.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e271">
+          ¶ 4o sic. non enim videtur quod 
+          <lb ed="#V" n="26"/>spiratio actiua sit minoris efficacie quam passiua: sed 
+          pa<lb ed="#V" n="27" break="no"/>siua spiratio constituit personam spiritussancti: ergo eodem modo 
+          acti<lb ed="#V" n="28" break="no"/>ua constituit personam patris et filii: vel alterius.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e280">
+          ¶ Ad ista per 
+          <lb ed="#V" n="29"/>ordinem.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e285">
+          ¶ Ad primum dico quod si intelligatur accidens vel 
+          ad<lb ed="#V" n="30" break="no"/>uenticium aliquid quasi extraneum: hoc est non intrans rationem 
+          <lb ed="#V" n="31"/>formalem: sic concedo quod spiratio actiua est accidens et 
+          adue<lb ed="#V" n="32" break="no"/>ticia: sed hoc non est impossibile in diuinis: vt patet in attribut 
+          <lb ed="#V" n="33"/>et essentia et multis aliis. Si autem intelligatur proprie accidens: sicut 
+          <lb ed="#V" n="34"/>dico quod spiratio actiua non est proprie accidens: et hoc propter 
+          <lb ed="#V" n="35"/>duo. Unum est identitas realis sui ad suppositum cui 
+          <lb ed="#V" n="36"/>aduenit. 2m est: quia est subsistens et non inherens.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e303">
+          ¶ Ad 2m 
+          <lb ed="#V" n="37"/>dico. quod eodem modo posset dici de similitudine et equalitate: quia 
+          <lb ed="#V" n="38"/>aduenit personis iam constitutis: et non facit compositionem 
+          <lb ed="#V" n="39"/>propter indistinctionem realem que est inter ipsam: et alia 
+          <lb ed="#V" n="40"/>in quibus est scilicet personam patris: et personam filii.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e315">
+          ¶ Ad 3m 
+          <lb ed="#V" n="41"/>dico. quod secundum multos persona divina non est aliqua vna ratio 
+          for<lb ed="#V" n="42" break="no"/>malis formaliter vna: sed solum est vna res simplex 
+          com<lb ed="#V" n="43" break="no"/>tituta ex duabus rationibus formalibus: quarum quelibet 
+          <lb ed="#V" n="44"/>praedicatur de ipsa identice.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e326">
+          ¶ Ad 4m dico. quod licet maioris est 
+          <lb ed="#V" n="45"/>ficacie non sit passiua spiratio quam actiua quantum ad 
+          mul<lb ed="#V" n="46" break="no"/>ta: tamen quantum ad hoc potest dici quod spiratio passiua est 
+          ta<lb ed="#V" n="47" break="no"/>lis: quia est incommunicabilis: ergo sibi debetur constituere: sed 
+          <lb ed="#V" n="48"/>actiua non est hbmodi: ergo sibi non debetur. hoc autem 
+          sta<lb ed="#V" n="49" break="no"/>tim declarabitur: sed fugiendo difficultatem posset homo 
+          <lb ed="#V" n="50"/>dicere quod spiratio actiua ideo non constituit: quia 
+          adueni<lb ed="#V" n="51" break="no"/>iam priua constituto: sed spiratio passiua non ideo constituit 
+          <lb ed="#V" n="52"/>ad 2m videndum est de causa istius 
+          nega<lb ed="#V" n="53" break="no"/>Quantum tiue: uter scilicet piratio actiua non 
+          consti<lb ed="#V" n="54" break="no"/>tuit: sicut cetere origines. tam actiue quam passiue quae sunt in deo. 
+        </p>
+        <p xml:id="FrMS88-e43756-d1e350">
+          <lb ed="#V" n="55"/>¶ Dicitur sicut iam dictum est: quia aduenit praeconstitutis scilicet patri iam 
+          <lb ed="#V" n="56"/>constituto per generationem actiuam et aduenit filio iam 
+          praeconstitu<lb ed="#V" n="57" break="no"/>to per generationem passiuam: et licet habeat vim constitutiuam: 
+          ta<lb ed="#V" n="58" break="no"/>men constituem non potest: quia non est constituibile respectu eius: 
+          <lb ed="#V" n="59"/>sicut calor lignum summe calefactum calefaceme non potest 
+        </p>
+        <p xml:id="FrMS88-e43756-d1e363">
+          <lb ed="#V" n="60"/>¶ Sed contra istud arguiter 4r. Primo sic. licet enim bona ratio sit 
+          <lb ed="#V" n="61"/>ad probandum quod non constituat. et tamen non ostendit propter quid: 
+          <lb ed="#V" n="62"/>nec probat a priori. Et ideo arguiter contra.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e372">
+          ¶ Primo 
+          <lb ed="#V" n="63"/>sic. omne constitutiuum necessario est alicuius 
+          consti<lb ed="#V" n="64" break="no"/>tuibilis: sed per te spiratio actiua est constitutiua: ergo 
+          alicu<lb ed="#V" n="65" break="no"/>ius constituibilis: non autem alicuius illorum trium: quia 
+          ipsa<lb ed="#V" n="66" break="no"/>sunt constituibilia precise per tria ipsa constituentia. ergo erit 
+          <!--123.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>dare aliud constituibile per ipsum: nihil est ibi in 
+          prio<lb ed="#V" n="68" break="no"/>tentia: ergo erit dare 4m constitutum.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e392">
+          ¶ Secundo sic. 
+          <lb ed="#V" n="69"/>nulla virtus realis siue actiua: siue passiua est 
+          respe<lb ed="#V" n="70" break="no"/>ctu entis prohibiti. tunc enim esset vere potentia ad 
+          impossibi<lb ed="#V" n="71" break="no"/>le: sed omne aliud suppositum praeter tria est prohibitum: ergo 
+          <lb ed="#V" n="72"/>spiratio actiua non est constitutiua alicuius.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e404">
+          ¶ 3o sic. in 
+          <lb ed="#V" n="73"/>incommutabili natura est idem esse et posse: si ergo actiua 
+          spi<lb ed="#V" n="74" break="no"/>ratio habet de se vim constitutiuam suppositi: necessario ibi esset 
+          <lb ed="#V" n="75"/>tale suppositum constitutum: vel si non: aliquid posset esse deus: 
+          <lb ed="#V" n="76"/>quod non est.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e415">
+          ¶ 4o sic. minus est ponendum in deo aliquid  
+          <lb ed="#V" n="77"/>frustra quam in creatura: tunc autem esset in deo ista 
+          poten<lb ed="#V" n="78" break="no"/>tia frustra scilicet spirationis actiue. que scilicet ad actum quod non 
+          <lb ed="#V" n="79"/>posset reduci nec per se: nec per aliquid aliud.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e424">
+          ¶ Ideo 
+          vide<lb ed="#V" n="80" break="no"/>tur mihi dicendum quod spirationi actiue ex se intrinsece 
+          repu<lb ed="#V" n="81" break="no"/>gnat constituem personam: et nullam habet de se vim constitutiuam: 
+          <lb ed="#V" n="82"/>quetumcunque enim adueniret supposito non preconstituto: 
+          <lb ed="#V" n="83"/>adhuc dico quod repugnat sibi constituere: licet enim 
+          filiatio<lb ed="#V" n="84" break="no"/>ni inquantum filiatio est: non competat constituere: sed 
+          ratio<lb ed="#V" n="85" break="no"/>ni specifice filiationis qua contrahitur ad diuia. Sic ergo 
+          <lb ed="#V" n="86"/>dico in proposito. quod non solum spirationi in generali 
+          <lb ed="#V" n="87"/>non competit habere vim constituendi. sed etiam ipsi rationi 
+          <lb ed="#V" n="88"/>formali: et specifice huius spirationis repugnat 
+          consti<lb ed="#V" n="89" break="no"/>tuere. Et ideo non est assignanda alia ratio: stante. enim 
+          <lb ed="#V" n="90"/>ratione formali istius spirationis quocumque adueniente vel 
+          <lb ed="#V" n="91"/>recedente non constitueret.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e453">
+          ¶ Sed contra hoc instatur 
+          <lb ed="#V" n="92"/>quadruplicitur. Primo sic. non enim videtur quod rationes hoc 
+          <lb ed="#V" n="93"/>probantes necessarie sint. nam entitati que est in deo 
+          <lb ed="#V" n="94"/>vel rationi formali entitatis non repugnat ab eterno 
+          <lb ed="#V" n="95"/>communicari scilicet inquantum entitas est: cum ergo non 
+          fue<lb ed="#V" n="96" break="no"/>rit ab eterno communicata: nec communicabitur. ergo 
+          po<lb ed="#V" n="97" break="no"/>netur frustra. non sequitur ergo nec illud simile de spiratione. 
+        </p>
+        <p xml:id="FrMS88-e43756-d1e469">
+          <lb ed="#V" n="98"/>¶ Secundo sic. nam quottidine queritur quare filius non 
+          po<lb ed="#V" n="99" break="no"/>test generare cum habeat potentiam generandi. non oporteret 
+          <lb ed="#V" n="100"/>autem querere hoc si ratio sufficeret assignata: posset enim simi 
+          <lb ed="#V" n="101"/>liter sic dici. quod filius est filius. ergo frustra talis inquisitio fit. 
+        </p>
+        <p xml:id="FrMS88-e43756-d1e480">
+          <lb ed="#V" n="102"/>¶ Tertio eodem de multiplicatione filiorum in deo. 
+        </p>
+        <p xml:id="FrMS88-e43756-d1e486">
+          <lb ed="#V" n="103"/>¶ 4o quia non videtur ratio quare magis repugnat actiue 
+          spi<lb ed="#V" n="104" break="no"/>rationi constituem ex sua ratione formali quam passiue.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e493">
+          ¶ Ad  
+          <lb ed="#V" n="105"/>primum istorum dico quod ad hoc quod aliquid non sit frustra non 
+          <lb ed="#V" n="106"/>oportet quod semper ponatur actu. sed quod ipsum sit ponibile. ita quod 
+          <lb ed="#V" n="107"/>nihil sibi repugnat: sicut potentia creatiua alterius 
+          mum<lb ed="#V" n="108" break="no"/>di non ponitur frustra. quia potest fieri. dato quod nunquam fiat. 
+        </p>
+        <p xml:id="FrMS88-e43756-d1e504">
+          <lb ed="#V" n="109"/>¶ Ad 2m dico. quod ratio quare filius non potest generare est 
+          <lb ed="#V" n="110"/>ignota nobis quecumque sit illa. Ideo fit quaestio vt aliqualiter 
+          <lb ed="#V" n="111"/>saltem a posteriori possemus reddere causam 
+          aliquam<lb ed="#V" n="112" break="no"/>istius veritatis.
+        </p>
+        <p xml:id="FrMS88-e43756-d1e515">
+          ¶ Ad 3m eodem modo. nam causa 
+          intrin<lb ed="#V" n="113" break="no"/>seca quare non possent esse plures filii est nobis 
+          igno<lb ed="#V" n="114" break="no"/>ta. Ideo per extrinseca inquirimus. non enim cognosci 
+          <lb ed="#V" n="115"/>mus rationem formalem propter quid forte hoc est. 
+        </p>
+        <p xml:id="FrMS88-e43756-d1e524">
+          <lb ed="#V" n="116"/>¶ Ad 4m dico quod si spiratio actiua et passiua essent 
+          no<lb ed="#V" n="117" break="no"/>bis perfecte note: sicut beatis: videremus causam 
+          in<lb ed="#V" n="118" break="no"/>trinsecam repugnare spirationi actiue: que modo nos 
+          <lb ed="#V" n="119"/>latet. Et ideo quo ad nos prima ratio aliorum ad 
+          pro<lb ed="#V" n="120" break="no"/>bandum. quia ita est. satis videtur sufficiens: sed per 
+          il<lb ed="#V" n="121" break="no"/>lam non reditur prima ratio: quia aduenit supposito 
+          pre<lb ed="#V" n="122" break="no"/>constituto propter alia causam scilicet quia spiratio est spiratio¬ 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

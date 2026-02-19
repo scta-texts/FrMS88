@@ -1,441 +1,441 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="70-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e50894"><!-- l1d17q2 -->
-            <head xml:id="FrMS88-e50894-Hd1e108">Quaestio 2</head>
-            <p xml:id="FrMS88-e50894-d1e111">
-      Questio. ii. 
-      <lb ed="#V" n="17"/>Utrum charitas infusa sit 
-      necessa<lb ed="#V" n="18" break="no"/>ria ratio acceptandi id in quo est
-      pas<lb ed="#V" n="19" break="no"/>siue. Quod sic. prouer. 5. Diligentes me diligo. 
-      <lb ed="#V" n="20"/>etc.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e122">
-      ¶ Contra. Iob. 22o. Quid prodest dieo 
-      <lb ed="#V" n="21"/>si homo iustus fuerit etc. 
-      <lb ed="#V" n="22"/>quatuor preambula 
-      <lb ed="#V" n="23"/>hic premittuntu
-    </p>
-            <p xml:id="FrMS88-e50894-d1e131">
-      ¶ Primum est quod 
-      accui<lb ed="#V" n="24" break="no"/>ptatio diuina actiua quae datur intelligi per acceptare: est 
-      <lb ed="#V" n="25"/>respectus fundamentalis fundatus in actu diuine 
-      vo<lb ed="#V" n="26" break="no"/>luntatis. et terminatus ad creaturam: quia deus non referi 
-      <lb ed="#V" n="27"/>ad creaturam nisi respectu fundamentali.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e142">
-      ¶ 2m 
-      preambu<lb ed="#V" n="28" break="no"/>lnum est. quod acceptatio passiua est respectus formalis 
-      fun<lb ed="#V" n="29" break="no"/>datus in charitate creata: et terminatus ad actum 
-      diui<lb ed="#V" n="30" break="no"/>ne voluntatis: quia licet dei ad creaturam sit tantum respectus 
-      fun<lb ed="#V" n="31" break="no"/>damentalis: tamen creature ad deum bene potest esse et est respect 
-      <lb ed="#V" n="32"/>formalis: sicut patet in creatione.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e156">
-      ¶ 3m preambulum est. quod 
-      <lb ed="#V" n="33"/>iste respectus scilicet acceptatio passiua non est sic respectus 
-      ratio<lb ed="#V" n="34" break="no"/>nis quod sit totaliter ab anima fabricatus vel fictus: sed sic est 
-      <lb ed="#V" n="35"/>rationis quod est ab actu voluntatis in obiecto derelictus in esse 
-      <lb ed="#V" n="36"/>obiectiuo scilicet terminante talem actum.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e167">
-      ¶ 4m praeambulum est 
-      <lb ed="#V" n="37"/>quod inste respectus scilicet acceptatio passiua non est sic realis 
-      <lb ed="#V" n="38"/>quod ipse possit esse circunscripto omni actu intellectus. quia 
-      <lb ed="#V" n="39"/>nihil potest esse acceptum nisi volitum. nec volitum: nisi 
-      cogni<lb ed="#V" n="40" break="no"/>tum: tamen ipsa anima dicitur realiter accepta. 
-      Intel<lb ed="#V" n="41" break="no"/>ligendum tamen quod in charitate intelligimus fundari 
-      qua<lb ed="#V" n="42" break="no"/>tuor acceptationes passiuas. Prima est eodem modo quo 
-      <lb ed="#V" n="43"/>deus acceptat quiditatem cuiuslibet creabilis relucentem 
-      <lb ed="#V" n="44"/>in sua essentia actu scilicet simplicis complacentie.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e187">
-      ¶ 2a est 
-      qua<lb ed="#V" n="45" break="no"/>deus acceptat quamcumque rem creatam ipsam efficaciter 
-      vo<lb ed="#V" n="46" break="no"/>dens pro actuali existentia.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e194">
-      ¶ 3a est qua deus acceptat eam 
-      <lb ed="#V" n="47"/>vt est quedam virtus quae secundum naturam suam est elicitiua actuum 
-      lau<lb ed="#V" n="48" break="no"/>dabilium sicut iustitia.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e201">
-      ¶ 4a est quae deus acceptat eam: vt 
-      di<lb ed="#V" n="49" break="no"/>generam vita eterna: et ista acceptatio non est ex natura charita 
-      <lb ed="#V" n="50"/>tis: sed ab ordinatione diuina talem legere statuente: sicut 
-      <lb ed="#V" n="51"/>si esset aliquis rex qui ordinaret in regno suo quicunque haberet 
-      <lb ed="#V" n="52"/>denarium aureum: hret hereditatem et nullus alius: iste in 
-      <lb ed="#V" n="53"/>quam denarius acceptaretur pro hereditate ipsum incorpora 
-      <lb ed="#V" n="54"/>biliter excedente: et hoc etiam esset propter ordinatam lege 
-      sta<lb ed="#V" n="55" break="no"/>tuentis.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e219">
-      ¶ his praemissis introducuntur quantum ad quesitum 
-      <lb ed="#V" n="56"/>due opiones contrarie.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e225">
-      ¶ Prima dicit quod charitas est simpliciter 
-      <lb ed="#V" n="57"/>ratio necessaria acceptandin hominem ipsam habentem: ita quod deus 
-      <lb ed="#V" n="58"/>de potentia sua absoluta non posset non acceptare. Et hoc 
-      pro<lb ed="#V" n="59" break="no"/>batur sic. nam deus necessario complacet in quiditatibus quarum 
-      <lb ed="#V" n="60"/>cumque creaturarum quantumcumque a deo remotarum. Utur igitur quod 
-      <lb ed="#V" n="61"/>multomagis deus necessario acceptat charitatem quae est 
-      <lb ed="#V" n="62"/>excellentissimum donum inter cetera creata.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e241">
-      ¶ Sed contra istam 
-      <lb ed="#V" n="63"/>opionem arguo. 4r
-    </p>
-            <p xml:id="FrMS88-e50894-d1e246">
-      ¶ Primo sic. quandocumque aliquod agens 
-      <lb ed="#V" n="64"/>vult aliquod obiectum necessario: eadem necessitate qua vult illud: vult 
-      <lb ed="#V" n="65"/>omne necessario requisitum ad tale obiectum habendum: sed deus 
-      <lb ed="#V" n="66"/>per te: necessario acceptat charitatem. existentia autem chari¬ 
-      <!--142.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>tatis praesupponitur eius acceptationi. ergo deus existentiam 
-      cha<lb ed="#V" n="68" break="no"/>ritatis necessario volet: et similiter necessario producet 
-      chari<lb ed="#V" n="69" break="no"/>tatem: et eadem necessitate causabit. quod est falsum.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e266">
-      ¶ 2o sic 
-      <lb ed="#V" n="70"/>Quandocumque aliqua sunt essentialiter ordinata si 
-      po<lb ed="#V" n="71" break="no"/>sterius est necessarium et prius: posterius essentialiter 
-      neces<lb ed="#V" n="72" break="no"/>sario praesupponit prius: sed existentia charitatis et 
-      accepta<lb ed="#V" n="73" break="no"/>tio eius sunt essentialiter ordinata. ita quod talis ordinatio 
-      <lb ed="#V" n="74"/>ad vitam eternam de facto est posterior essentialiter ipsa 
-      <lb ed="#V" n="75"/>existentia charitatis: ergo si charitas ordinatur ad vitam 
-      <lb ed="#V" n="76"/>eternam: et ipsa acceptatio sit necessaria: ipsa 
-      necessa<lb ed="#V" n="77" break="no"/>rio erit: et per consequens necessario causabitur.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e286">
-      ¶ 3o sic. illud 
-      <lb ed="#V" n="78"/>magis necessario diligitur a voluntate recta. quod est 
-      <lb ed="#V" n="79"/>magis diligibile: sed nam angelica est obiectum magis 
-      dili<lb ed="#V" n="80" break="no"/>gibile quam sit charitas: nobilius enim ens est: ergo voluntas 
-      <lb ed="#V" n="81"/>diuina magis necessario diliget naturam angelicam 
-      quan<lb ed="#V" n="82" break="no"/>charitatem. Constat autem quod non necessario diligit naturam 
-      <lb ed="#V" n="83"/>angelicam: ergo nec necessario acceptabit charitatem. 
-      </p>
-            <p xml:id="FrMS88-e50894-d1e302">
-               <lb ed="#V" n="84"/>¶ Confirmatur ista ratio. quia diuina voluntas non operatur 
-      <lb ed="#V" n="85"/>necessario: inquantum voluntas: nec inquantum 
-      infini<lb ed="#V" n="86" break="no"/>ta circa ea que sunt extra eam: sed contingenter: quia si in 
-      <lb ed="#V" n="87"/>quantum voluntas infinita causaret necessario causaret 
-      <lb ed="#V" n="88"/>operatur ergo tantum modo necessario circa obiectum infinitum. et 
-      cir<lb ed="#V" n="89" break="no"/>ca ea que sunt ad intra: sed charitas non est de 
-      nume<lb ed="#V" n="90" break="no"/>ro talium obiectorum. nec aliquod aliud creatum. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e321">
-      ¶ 4o 
-      <lb ed="#V" n="91"/>sic. Omne volens rationabiliter vult res quas vult secundum 
-      nobi<lb ed="#V" n="92" break="no"/>litatem ipsarum rerum: et plus et minus secundum quod res magis et 
-      <lb ed="#V" n="93"/>minus diligibiles sunt: sed multa sunt creata que sunt 
-      <lb ed="#V" n="94"/>magis diligibilia quam charitas scilicet nam angelica. ergo magis 
-      <lb ed="#V" n="95"/>eam volet. et per consequens magis necessario.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e334">
-      ¶ Si dicatur quod nam 
-      ange<lb ed="#V" n="96" break="no"/>lica quantum est in se est magis diligibilis quam charitas: 
-      <lb ed="#V" n="97"/>sed quantum est in habitudine ad deum non.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e341">
-      ¶ hoc dictum confirmat 
-      <lb ed="#V" n="98"/>ratione. Nam quod est in se magis diligibile est magis 
-      diligi<lb ed="#V" n="99" break="no"/>bile in habitudine ad deum: sed nam angelica: parte: est magis 
-      <lb ed="#V" n="100"/>diligibilis in se. ergo etc. Maior patet. quia diuina voluntas 
-      di<lb ed="#V" n="101" break="no"/>ligit res secundum diligibilitatem earum.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e352">
-      ¶ Confirmantur iste ratio 
-      <lb ed="#V" n="102"/>nes 4r. Primo sic. Omne agens quod agit de 
-      necessi<lb ed="#V" n="103" break="no"/>tate. citius agit quam possit. ergo cum: parte: deus necessario acceptet 
-      <lb ed="#V" n="104"/>habentem charitatem ad vitam eternam. quam cito posset 
-      da<lb ed="#V" n="105" break="no"/>ret sibi vitam eternam. et sic statim postquam homo esset 
-      in<lb ed="#V" n="106" break="no"/>gratia haberet vitam eternam.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e365">
-      ¶ 2o sic. Omne agens 
-      <lb ed="#V" n="107"/>de necessitate agit inquantum potest: sed deum potest in 
-      in<lb ed="#V" n="108" break="no"/>finitum diligere. ergo diliget habentem charitatem in infinitum 
-      <lb ed="#V" n="109"/>sed omne diligibile in infinitum est deus. ergo charitam 
-      <lb ed="#V" n="110"/>esset deus.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e376">
-      ¶ 3o sic. Omne agens de necessitate 
-      necessa<lb ed="#V" n="111" break="no"/>rio eadem necessitate conseruat effectum quantum potest: sed potest 
-      <lb ed="#V" n="112"/>deus habentem charitatem ineternum conseruare. ergo necessario 
-      <lb ed="#V" n="113"/>consernabit habentem charitate ineternum.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e386">
-      ¶ 4o sic. Eodem 
-      <lb ed="#V" n="114"/>modo deus necessario sicut diligit charitatem odit peccatum 
-      <lb ed="#V" n="115"/>si ergo odiret deus necessario existentem in peccato 
-      nunqua<lb ed="#V" n="116" break="no"/>posset eum diligere. et per consequens numquam existens in peccato 
-      mor<lb ed="#V" n="117" break="no"/>tali resurgeret. nec existens in charitate nunquam caderet: 
-      <lb ed="#V" n="118"/>que sunt manifesta falsa.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e399">
-      ¶ Et confirmatur. quia nullum 
-      <lb ed="#V" n="119"/>obiectum creatum est necessario diligibile: sed 
-      volun<lb ed="#V" n="120" break="no"/>tas diuina: cum sit recta: non fertur in obiectum nisi secundum 
-      <lb ed="#V" n="121"/>diligibilitatem obiecti. ergo nullum obiectum creatum 
-      a<lb ed="#V" n="122" break="no"/>voluntate diuina necessario diligetur. 
-      <lb ed="#V" n="123"/>opinio doctoris quam reputo verum scilicet 
-      <lb ed="#V" n="124"/>Est erg te quod charitas non est simpliciter necessaria ratio 
-      <lb ed="#V" n="125"/>acceptandin hominem. dico acceptatione tali: quo scilicet sit 
-      digni<lb ed="#V" n="126" break="no"/>vita eterna: quia nullum obiectum creatum est sufficiens 
-      <lb ed="#V" n="127"/>principium vel ratio necessitandi infinitam voluntatem 
-      <lb ed="#V" n="128"/>eo quod nihil diligit necessario nisi finem vel habens necessario 
-      <lb ed="#V" n="129"/>connexionem ad finem: sine qua finis non poterit esse: quae 
-      so<lb ed="#V" n="130" break="no"/>lus finis vel terminus. vel ea que necessariam 
-      connexio<lb ed="#V" n="131" break="no"/>nem habent cum eo mouent diuinam voluntatem: sed nullum 
-      <lb ed="#V" n="132"/>creatum habet necessariam connexionem ad finem sine qua fi¬ 
-      <!--143.xml-->
-      <pb ed="#V" n="70-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>nis non posset esse. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e441">
-      ¶ Sed contra istam operionem instatur 4r. 
-      <lb ed="#V" n="2"/>Primo sic. secundum Dion. de diuinis nomnibus quarto. Nam 
-      bon<lb ed="#V" n="3" break="no"/>pstantior est quam natura mali: sed natuam mali necessitat deum ad 
-      <lb ed="#V" n="4"/>odiendum. vt patet de peccato ex genere: quod non potest placere 
-      <lb ed="#V" n="5"/>deo. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e452">
-      ¶ 2o sic. magis necessitatur deus a charitate quam 
-      <lb ed="#V" n="6"/>a quiditate lapidis: quia charitas dicit perfectionem simpliciter. 
-      <lb ed="#V" n="7"/>lapis autem no. sed deus necessario complacet in natura 
-      lapi<lb ed="#V" n="8" break="no"/>dis. ergo multo magis in chatie.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e461">
-      ¶ 3o sic. Uoluntas quae est volunta 
-      <lb ed="#V" n="9"/>recta non potest non diligere actum rectum moraliter ex nam sua: sed 
-      <lb ed="#V" n="10"/>voluntas diuina est summe recta. actus autem charitatis 
-      <lb ed="#V" n="11"/>est rectus moraliter ex natura sua et necessaria: quia bonus mora 
-      <lb ed="#V" n="12"/>liter: ita quod nullo modo potest esse malus: ideo cum bonum ex 
-      natura<lb ed="#V" n="13" break="no"/>sua sit acceptabile bene ordinata voluntate non poterit 
-      <lb ed="#V" n="14"/>iste actus non esse acceptus optime voluntati. ergo voluntas 
-      <lb ed="#V" n="15"/>diuina necessario diliget.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e479">
-      ¶ 4o sic. Effectus causae 
-      forma<lb ed="#V" n="16" break="no"/>lis non potest esse sine causa formali: sed esse carum est effectus 
-      for<lb ed="#V" n="17" break="no"/>malis charitatis: sicut esse gratum est effectus formalis 
-      <lb ed="#V" n="18"/>gratie. ergo impossibile est in aliquo charitatem esse vel gratiam: 
-      <lb ed="#V" n="19"/>quin illud sit carum vel gratum.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e491">
-      ¶ Ad primum istorum dico quod licet 
-      ma<lb ed="#V" n="20" break="no"/>lum ex se sit odibile: non tamen oportet quod deus actu positiuo od 
-      <lb ed="#V" n="21"/>at illud in quo est malum. sicut potest quis actu odire 
-      ma<lb ed="#V" n="22" break="no"/>las conditiones alicuius hominis: non tamen odire illum hominem. 
-      </p>
-            <p xml:id="FrMS88-e50894-d1e500">
-               <lb ed="#V" n="23"/>¶ Similiter dato quod hoc concederetur quod deus non diligeret. 
-      <lb ed="#V" n="24"/>nec posset diligere illum in quo est malum. non tamen sequitur quod 
-      ne<lb ed="#V" n="25" break="no"/>cessario odiat: quia potest actum suspendere: et sic non diligetur 
-      <lb ed="#V" n="26"/>nec odiet Similiter dato quod malum a deo odiatur necessario. 
-      <lb ed="#V" n="27"/>non tamen necessitat deum ad odiendum tali odio. quod sit in 
-      or<lb ed="#V" n="28" break="no"/>dine ad penam eternam. Eodem modo dico de charitate. dato 
-      <lb ed="#V" n="29"/>quod deus necessario eam diligeret. sni tamen sequitur quod 
-      necessa<lb ed="#V" n="30" break="no"/>rio diligat eam in ordine ad vitam eternara. Actus enim 
-      <lb ed="#V" n="31"/>malus est volitus a deo quantum ad esse positiuum: sed 
-      praeo<lb ed="#V" n="32" break="no"/>cise negatio oditur a deo vt est priuatio quaedam.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e524">
-      ¶ Ad secundum 
-      <lb ed="#V" n="33"/>dico quod deus sicut acceptat simplices quiditates alias: 
-      <lb ed="#V" n="34"/>ita necessario charitatem scilicet acceptatione simplicis 
-      com<lb ed="#V" n="35" break="no"/>placentie. Sed non loquimur hic de illa: sed de ea que est 
-      <lb ed="#V" n="36"/>in ordine ad tale premium. vel tale. et ista necessaria non 
-      <lb ed="#V" n="37"/>est.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e537">
-      ¶ Ad tertium dico quod actus charitatis: quia bonus 
-      <lb ed="#V" n="38"/>est: ideo acceptabilis: sed non sequitur: ideo acceptus 
-      ne<lb ed="#V" n="39" break="no"/>cessario: sed solum contingenter: quia deus actum potest 
-      suspen<lb ed="#V" n="40" break="no"/>dere: et tunc actualiter: vel non actualiter acceptaretur. Simili 
-      <lb ed="#V" n="41"/>dato quod deus non posset non diligere actum charitatis. non 
-      <lb ed="#V" n="42"/>tamen sequitur quod hoc diligere esset in ordine ad vitam eternara 
-      <lb ed="#V" n="43"/>reddendam pro tali merito: quia hoc deus libere ordinauit 
-      </p>
-            <p xml:id="FrMS88-e50894-d1e553">
-               <lb ed="#V" n="44"/>¶ Ad quartum dico quod charitas et gratia possunt acci 
-      <lb ed="#V" n="45"/>pi dupliciter. Uno modo pro illo absoluto quod includunt materialiter. 
-      <lb ed="#V" n="46"/>et de tali loquor quod deus non necessario acceptat: quia 
-      a<lb ed="#V" n="47" break="no"/>ceptum esse non est effectus eius formalis. Vel possunt 
-      <lb ed="#V" n="48"/>accipi vt implicant accceptationem passiuam: et isto modo 
-      <lb ed="#V" n="49"/>bene dico quod contradictionem includit. quod charitas 
-      ve<lb ed="#V" n="50" break="no"/>gratia sit in aliquo quin illud sit acceptum vel gratum vel 
-      <lb ed="#V" n="51"/>carum. et isto modo non intelligitur.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e573">
-      ¶ Dico ergo quod deus 
-      de<lb ed="#V" n="52" break="no"/>potentia sua absoluta potest acceptare quecunque sine 
-      <lb ed="#V" n="53"/>tali habitu infuso et postquam infusus est non acceptarem 
-      <lb ed="#V" n="54"/>sed hoc totum est in ordinatione diuina. Sicut si rex 
-      <lb ed="#V" n="55"/>ordinasset quod quicumque haberet robas suas reciperetur in 
-      <lb ed="#V" n="56"/>conuiuio suo. et qui non haberet repudiaretur. hoc esset 
-      in<lb ed="#V" n="57" break="no"/>beneplacito statuentis. sic in proposito.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e590">
-      ¶ Exemplum. in 
-      ve<lb ed="#V" n="58" break="no"/>ste nuptiali secundum saluatorem.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e595">
-      ¶ Sed hic occurrunt aliquo 
-      dif<lb ed="#V" n="59" break="no"/>ficultates. Prima est quod non videtur secundum predicta 
-      necessi<lb ed="#V" n="60" break="no"/>tas ponendi charitatem. Nam deus: vt dictum est. posset 
-      <lb ed="#V" n="61"/>aliquem acceptare pro vita eterna sine charitate: sicut cum 
-      <lb ed="#V" n="62"/>charitate.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e606">
-      ¶ Dico quod si loquamur de potentia dei ab 
-      <lb ed="#V" n="63"/>soluta. nulla necessitas apparet ponendi charitatem. 
-      <lb ed="#V" n="64"/>quin eque acceptet sine ea sicut cum ea. tamen loquendo 
-      didu<lb ed="#V" n="65" break="no"/>potentia dei ordinata. Dico quod necesse est eam ponere. 
-      </p>
-            <p xml:id="FrMS88-e50894-d1e615">
-               <lb ed="#V" n="66"/>¶ Et si dicas quomodo fuit ordinatum per eum ex quo non fuit 
-      <!--143.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>necessarium ponere.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e626">
-      ¶ Dico quod ex quo constat nobis de 
-      <lb ed="#V" n="68"/>diuina ordinatione presumendum est quod hoc fuit magis 
-      <lb ed="#V" n="69"/>congruum: et ideo sic ordinatum est. Exemplum. deus 
-      potuis<lb ed="#V" n="70" break="no"/>set humanum genus aliter redemisse quam per incarnationem 
-      <lb ed="#V" n="71"/>nec fuit necessarium sic redimere. et sic tamen redemint: quia 
-      <lb ed="#V" n="72"/>magis fuit congruum. sic dico in proposito.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e639">
-      ¶ Secunda 
-      <lb ed="#V" n="73"/>difficultas est. Si istam acceptationem passiuam positam 
-      <lb ed="#V" n="74"/>et appropriatam charitati potuisset deus ponere in 
-      qua<lb ed="#V" n="75" break="no"/>cunque alia qualitate vel virtute: sicut in fide vel in spex 
-      <lb ed="#V" n="76"/>et sic de aliis.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e651">
-      ¶ Dico quod sic. non solum infusa: sed etiam 
-      acquis<lb ed="#V" n="77" break="no"/>ta: et non solum spirituali: verum etiam sensibili. vt scilicet quod omnis crispus 
-      <lb ed="#V" n="78"/>acceptaretur ad vitam eternara. tamen magis congruum fuit sic: quia 
-      <lb ed="#V" n="79"/>charitas est excellentissima virtus propter finem. Exitum Rex 
-      pos<lb ed="#V" n="80" break="no"/>set ordinare quod plus daretur pro moneta argenti quam auri: licet 
-      <lb ed="#V" n="81"/>aurum melius sit in se quam argentum. Sic dico in proposito. et 
-      <lb ed="#V" n="82"/>haec tamen totum est: quia est ad placitum instituentis.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e667">
-      ¶ 3a 
-      diffi<lb ed="#V" n="83" break="no"/>cultas est. Si istam acceptationem posset deus positionem vel 
-      <lb ed="#V" n="84"/>fundare in habitu vitioso. vel in actu vitioso.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e674">
-      ¶ Dico 
-      <lb ed="#V" n="85"/>quod loquendo de potentia dei absoluta posset deus 
-      instin<lb ed="#V" n="86" break="no"/>tuere. quod quicumque blasphemaret deum acceptaretur ad vi 
-      <lb ed="#V" n="87"/>tam eternara. vel poneretur in vita eterna. Et quicumque 
-      lau<lb ed="#V" n="88" break="no"/>daret deum in inferno. Sicut deus posset de potentia 
-      absolu<lb ed="#V" n="89" break="no"/>ta damnare omnes iustos: et saluare omnes praeccatores si vellet 
-      <lb ed="#V" n="90"/>tamen hoc non congruit voluntati sue et iustitie infinite. Et 
-      <lb ed="#V" n="91"/>indcirco de potentia ordinata non posset praedicta facere 
-      </p>
-            <p xml:id="FrMS88-e50894-d1e692">
-               <lb ed="#V" n="92"/>¶ 4a difficultas est: quia cum potentia ista sit contingens in 
-      vo<lb ed="#V" n="93" break="no"/>luntate diuina respectu bonorum ad odium. et malorum ad 
-      <lb ed="#V" n="94"/>dilectionem. videtur quod bona sint odibilia. et mala diligibilia. 
-      <lb ed="#V" n="95"/>ex quo sunt apta nata ad talem actum.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e703">
-      ¶ Dico quod sic 
-      pos<lb ed="#V" n="96" break="no"/>semus nos diligere quos odimus. et odire quos 
-      dili<lb ed="#V" n="97" break="no"/>gimus et ex eadem causa. tamen illud esset vitiosum et male factum 
-      <lb ed="#V" n="98"/>sic deus posset quos odit diligere. et econverso: sed tamen hoc 
-      <lb ed="#V" n="99"/>non esset malefactum. Nam hoc est magis diligendum: quia 
-      a<lb ed="#V" n="100" break="no"/>deo diligitur.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e716">
-      ¶ Quinta difficultas est. quia adhuc 
-      vide<lb ed="#V" n="101" break="no"/>tur stare totus punctus quaestionis. Non enim dictum est 
-      <lb ed="#V" n="102"/>adhuc nisi de acceptatione ad vitam eternara. 4oquimur autem 
-      <lb ed="#V" n="103"/>de acceptatione hominis in se vt est deo carus non 
-      facien<lb ed="#V" n="104" break="no"/>do mentionem de ordinatione ad vitam eternara. Utrum aliquis 
-      <lb ed="#V" n="105"/>possit alium diligere: dato quod ei non proponat bene facere. 
-      </p>
-            <p xml:id="FrMS88-e50894-d1e730">
-               <lb ed="#V" n="106"/>¶ Dico quod loquendo de illa acceptatione et dilectione 
-      <lb ed="#V" n="107"/>hominis in se. non apparet aliqua necessitas propter quam deus 
-      ho<lb ed="#V" n="108" break="no"/>minem habentem charitatem acceptet. nec etiam quare deus 
-      <lb ed="#V" n="109"/>hominem habentem in se peccatum necessario odiat. cum non 
-      <lb ed="#V" n="110"/>minus sit liber deus in sua dilectione et odio quam nos. 
-      <lb ed="#V" n="111"/>Experimur autem in nobis quod libere odimus aliquem cui 
-      <lb ed="#V" n="112"/>tamen videmus aliquid inesse quod diligimus. sicut odimus 
-      <lb ed="#V" n="113"/>inimicum in se: cuius tamen fortitudinem pulchritudinem 
-      <lb ed="#V" n="114"/>prudentiam diligimus. Et eodem modo diligimus multos 
-      <lb ed="#V" n="115"/>in se: quorum tamen vitia odimus: sicut fratrem 
-      meu<lb ed="#V" n="116" break="no"/>diligo: cuius tamen turpitudinem odio. Utrum autem deus 
-      <lb ed="#V" n="117"/>actum charitatis et virtutis in se: non loquendo de ordine: 
-      <lb ed="#V" n="118"/>possit odire: et actum cupiditatis et peccati diligere. hoc 
-      <lb ed="#V" n="119"/>est valde dubium.
-    </p>
-            <p xml:id="FrMS88-e50894-d1e763">
-      ¶ Ad auctoritatem dico quod 
-      loqui<lb ed="#V" n="120" break="no"/>tur de potentia ordinata. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="70-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e50894"><!-- l1d17q2 -->
+        <head xml:id="FrMS88-e50894-Hd1e108">Quaestio 2</head>
+        <p xml:id="FrMS88-e50894-d1e111">
+          Questio. ii. 
+          <lb ed="#V" n="17"/>Utrum charitas infusa sit 
+          necessa<lb ed="#V" n="18" break="no"/>ria ratio acceptandi id in quo est
+          pas<lb ed="#V" n="19" break="no"/>siue. Quod sic. prouer. 5. Diligentes me diligo. 
+          <lb ed="#V" n="20"/>etc.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e122">
+          ¶ Contra. Iob. 22o. Quid prodest dieo 
+          <lb ed="#V" n="21"/>si homo iustus fuerit etc. 
+          <lb ed="#V" n="22"/>quatuor preambula 
+          <lb ed="#V" n="23"/>hic premittuntu
+        </p>
+        <p xml:id="FrMS88-e50894-d1e131">
+          ¶ Primum est quod 
+          accui<lb ed="#V" n="24" break="no"/>ptatio diuina actiua quae datur intelligi per acceptare: est 
+          <lb ed="#V" n="25"/>respectus fundamentalis fundatus in actu diuine 
+          vo<lb ed="#V" n="26" break="no"/>luntatis. et terminatus ad creaturam: quia deus non referi 
+          <lb ed="#V" n="27"/>ad creaturam nisi respectu fundamentali.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e142">
+          ¶ 2m 
+          preambu<lb ed="#V" n="28" break="no"/>lnum est. quod acceptatio passiua est respectus formalis 
+          fun<lb ed="#V" n="29" break="no"/>datus in charitate creata: et terminatus ad actum 
+          diui<lb ed="#V" n="30" break="no"/>ne voluntatis: quia licet dei ad creaturam sit tantum respectus 
+          fun<lb ed="#V" n="31" break="no"/>damentalis: tamen creature ad deum bene potest esse et est respect 
+          <lb ed="#V" n="32"/>formalis: sicut patet in creatione.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e156">
+          ¶ 3m preambulum est. quod 
+          <lb ed="#V" n="33"/>iste respectus scilicet acceptatio passiua non est sic respectus 
+          ratio<lb ed="#V" n="34" break="no"/>nis quod sit totaliter ab anima fabricatus vel fictus: sed sic est 
+          <lb ed="#V" n="35"/>rationis quod est ab actu voluntatis in obiecto derelictus in esse 
+          <lb ed="#V" n="36"/>obiectiuo scilicet terminante talem actum.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e167">
+          ¶ 4m praeambulum est 
+          <lb ed="#V" n="37"/>quod inste respectus scilicet acceptatio passiua non est sic realis 
+          <lb ed="#V" n="38"/>quod ipse possit esse circunscripto omni actu intellectus. quia 
+          <lb ed="#V" n="39"/>nihil potest esse acceptum nisi volitum. nec volitum: nisi 
+          cogni<lb ed="#V" n="40" break="no"/>tum: tamen ipsa anima dicitur realiter accepta. 
+          Intel<lb ed="#V" n="41" break="no"/>ligendum tamen quod in charitate intelligimus fundari 
+          qua<lb ed="#V" n="42" break="no"/>tuor acceptationes passiuas. Prima est eodem modo quo 
+          <lb ed="#V" n="43"/>deus acceptat quiditatem cuiuslibet creabilis relucentem 
+          <lb ed="#V" n="44"/>in sua essentia actu scilicet simplicis complacentie.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e187">
+          ¶ 2a est 
+          qua<lb ed="#V" n="45" break="no"/>deus acceptat quamcumque rem creatam ipsam efficaciter 
+          vo<lb ed="#V" n="46" break="no"/>dens pro actuali existentia.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e194">
+          ¶ 3a est qua deus acceptat eam 
+          <lb ed="#V" n="47"/>vt est quedam virtus quae secundum naturam suam est elicitiua actuum 
+          lau<lb ed="#V" n="48" break="no"/>dabilium sicut iustitia.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e201">
+          ¶ 4a est quae deus acceptat eam: vt 
+          di<lb ed="#V" n="49" break="no"/>generam vita eterna: et ista acceptatio non est ex natura charita 
+          <lb ed="#V" n="50"/>tis: sed ab ordinatione diuina talem legere statuente: sicut 
+          <lb ed="#V" n="51"/>si esset aliquis rex qui ordinaret in regno suo quicunque haberet 
+          <lb ed="#V" n="52"/>denarium aureum: hret hereditatem et nullus alius: iste in 
+          <lb ed="#V" n="53"/>quam denarius acceptaretur pro hereditate ipsum incorpora 
+          <lb ed="#V" n="54"/>biliter excedente: et hoc etiam esset propter ordinatam lege 
+          sta<lb ed="#V" n="55" break="no"/>tuentis.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e219">
+          ¶ his praemissis introducuntur quantum ad quesitum 
+          <lb ed="#V" n="56"/>due opiones contrarie.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e225">
+          ¶ Prima dicit quod charitas est simpliciter 
+          <lb ed="#V" n="57"/>ratio necessaria acceptandin hominem ipsam habentem: ita quod deus 
+          <lb ed="#V" n="58"/>de potentia sua absoluta non posset non acceptare. Et hoc 
+          pro<lb ed="#V" n="59" break="no"/>batur sic. nam deus necessario complacet in quiditatibus quarum 
+          <lb ed="#V" n="60"/>cumque creaturarum quantumcumque a deo remotarum. Utur igitur quod 
+          <lb ed="#V" n="61"/>multomagis deus necessario acceptat charitatem quae est 
+          <lb ed="#V" n="62"/>excellentissimum donum inter cetera creata.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e241">
+          ¶ Sed contra istam 
+          <lb ed="#V" n="63"/>opionem arguo. 4r
+        </p>
+        <p xml:id="FrMS88-e50894-d1e246">
+          ¶ Primo sic. quandocumque aliquod agens 
+          <lb ed="#V" n="64"/>vult aliquod obiectum necessario: eadem necessitate qua vult illud: vult 
+          <lb ed="#V" n="65"/>omne necessario requisitum ad tale obiectum habendum: sed deus 
+          <lb ed="#V" n="66"/>per te: necessario acceptat charitatem. existentia autem chari¬ 
+          <!--142.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>tatis praesupponitur eius acceptationi. ergo deus existentiam 
+          cha<lb ed="#V" n="68" break="no"/>ritatis necessario volet: et similiter necessario producet 
+          chari<lb ed="#V" n="69" break="no"/>tatem: et eadem necessitate causabit. quod est falsum.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e266">
+          ¶ 2o sic 
+          <lb ed="#V" n="70"/>Quandocumque aliqua sunt essentialiter ordinata si 
+          po<lb ed="#V" n="71" break="no"/>sterius est necessarium et prius: posterius essentialiter 
+          neces<lb ed="#V" n="72" break="no"/>sario praesupponit prius: sed existentia charitatis et 
+          accepta<lb ed="#V" n="73" break="no"/>tio eius sunt essentialiter ordinata. ita quod talis ordinatio 
+          <lb ed="#V" n="74"/>ad vitam eternam de facto est posterior essentialiter ipsa 
+          <lb ed="#V" n="75"/>existentia charitatis: ergo si charitas ordinatur ad vitam 
+          <lb ed="#V" n="76"/>eternam: et ipsa acceptatio sit necessaria: ipsa 
+          necessa<lb ed="#V" n="77" break="no"/>rio erit: et per consequens necessario causabitur.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e286">
+          ¶ 3o sic. illud 
+          <lb ed="#V" n="78"/>magis necessario diligitur a voluntate recta. quod est 
+          <lb ed="#V" n="79"/>magis diligibile: sed nam angelica est obiectum magis 
+          dili<lb ed="#V" n="80" break="no"/>gibile quam sit charitas: nobilius enim ens est: ergo voluntas 
+          <lb ed="#V" n="81"/>diuina magis necessario diliget naturam angelicam 
+          quan<lb ed="#V" n="82" break="no"/>charitatem. Constat autem quod non necessario diligit naturam 
+          <lb ed="#V" n="83"/>angelicam: ergo nec necessario acceptabit charitatem. 
+        </p>
+        <p xml:id="FrMS88-e50894-d1e302">
+          <lb ed="#V" n="84"/>¶ Confirmatur ista ratio. quia diuina voluntas non operatur 
+          <lb ed="#V" n="85"/>necessario: inquantum voluntas: nec inquantum 
+          infini<lb ed="#V" n="86" break="no"/>ta circa ea que sunt extra eam: sed contingenter: quia si in 
+          <lb ed="#V" n="87"/>quantum voluntas infinita causaret necessario causaret 
+          <lb ed="#V" n="88"/>operatur ergo tantum modo necessario circa obiectum infinitum. et 
+          cir<lb ed="#V" n="89" break="no"/>ca ea que sunt ad intra: sed charitas non est de 
+          nume<lb ed="#V" n="90" break="no"/>ro talium obiectorum. nec aliquod aliud creatum. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e321">
+          ¶ 4o 
+          <lb ed="#V" n="91"/>sic. Omne volens rationabiliter vult res quas vult secundum 
+          nobi<lb ed="#V" n="92" break="no"/>litatem ipsarum rerum: et plus et minus secundum quod res magis et 
+          <lb ed="#V" n="93"/>minus diligibiles sunt: sed multa sunt creata que sunt 
+          <lb ed="#V" n="94"/>magis diligibilia quam charitas scilicet nam angelica. ergo magis 
+          <lb ed="#V" n="95"/>eam volet. et per consequens magis necessario.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e334">
+          ¶ Si dicatur quod nam 
+          ange<lb ed="#V" n="96" break="no"/>lica quantum est in se est magis diligibilis quam charitas: 
+          <lb ed="#V" n="97"/>sed quantum est in habitudine ad deum non.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e341">
+          ¶ hoc dictum confirmat 
+          <lb ed="#V" n="98"/>ratione. Nam quod est in se magis diligibile est magis 
+          diligi<lb ed="#V" n="99" break="no"/>bile in habitudine ad deum: sed nam angelica: parte: est magis 
+          <lb ed="#V" n="100"/>diligibilis in se. ergo etc. Maior patet. quia diuina voluntas 
+          di<lb ed="#V" n="101" break="no"/>ligit res secundum diligibilitatem earum.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e352">
+          ¶ Confirmantur iste ratio 
+          <lb ed="#V" n="102"/>nes 4r. Primo sic. Omne agens quod agit de 
+          necessi<lb ed="#V" n="103" break="no"/>tate. citius agit quam possit. ergo cum: parte: deus necessario acceptet 
+          <lb ed="#V" n="104"/>habentem charitatem ad vitam eternam. quam cito posset 
+          da<lb ed="#V" n="105" break="no"/>ret sibi vitam eternam. et sic statim postquam homo esset 
+          in<lb ed="#V" n="106" break="no"/>gratia haberet vitam eternam.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e365">
+          ¶ 2o sic. Omne agens 
+          <lb ed="#V" n="107"/>de necessitate agit inquantum potest: sed deum potest in 
+          in<lb ed="#V" n="108" break="no"/>finitum diligere. ergo diliget habentem charitatem in infinitum 
+          <lb ed="#V" n="109"/>sed omne diligibile in infinitum est deus. ergo charitam 
+          <lb ed="#V" n="110"/>esset deus.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e376">
+          ¶ 3o sic. Omne agens de necessitate 
+          necessa<lb ed="#V" n="111" break="no"/>rio eadem necessitate conseruat effectum quantum potest: sed potest 
+          <lb ed="#V" n="112"/>deus habentem charitatem ineternum conseruare. ergo necessario 
+          <lb ed="#V" n="113"/>consernabit habentem charitate ineternum.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e386">
+          ¶ 4o sic. Eodem 
+          <lb ed="#V" n="114"/>modo deus necessario sicut diligit charitatem odit peccatum 
+          <lb ed="#V" n="115"/>si ergo odiret deus necessario existentem in peccato 
+          nunqua<lb ed="#V" n="116" break="no"/>posset eum diligere. et per consequens numquam existens in peccato 
+          mor<lb ed="#V" n="117" break="no"/>tali resurgeret. nec existens in charitate nunquam caderet: 
+          <lb ed="#V" n="118"/>que sunt manifesta falsa.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e399">
+          ¶ Et confirmatur. quia nullum 
+          <lb ed="#V" n="119"/>obiectum creatum est necessario diligibile: sed 
+          volun<lb ed="#V" n="120" break="no"/>tas diuina: cum sit recta: non fertur in obiectum nisi secundum 
+          <lb ed="#V" n="121"/>diligibilitatem obiecti. ergo nullum obiectum creatum 
+          a<lb ed="#V" n="122" break="no"/>voluntate diuina necessario diligetur. 
+          <lb ed="#V" n="123"/>opinio doctoris quam reputo verum scilicet 
+          <lb ed="#V" n="124"/>Est erg te quod charitas non est simpliciter necessaria ratio 
+          <lb ed="#V" n="125"/>acceptandin hominem. dico acceptatione tali: quo scilicet sit 
+          digni<lb ed="#V" n="126" break="no"/>vita eterna: quia nullum obiectum creatum est sufficiens 
+          <lb ed="#V" n="127"/>principium vel ratio necessitandi infinitam voluntatem 
+          <lb ed="#V" n="128"/>eo quod nihil diligit necessario nisi finem vel habens necessario 
+          <lb ed="#V" n="129"/>connexionem ad finem: sine qua finis non poterit esse: quae 
+          so<lb ed="#V" n="130" break="no"/>lus finis vel terminus. vel ea que necessariam 
+          connexio<lb ed="#V" n="131" break="no"/>nem habent cum eo mouent diuinam voluntatem: sed nullum 
+          <lb ed="#V" n="132"/>creatum habet necessariam connexionem ad finem sine qua fi¬ 
+          <!--143.xml-->
+          <pb ed="#V" n="70-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>nis non posset esse. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e441">
+          ¶ Sed contra istam operionem instatur 4r. 
+          <lb ed="#V" n="2"/>Primo sic. secundum Dion. de diuinis nomnibus quarto. Nam 
+          bon<lb ed="#V" n="3" break="no"/>pstantior est quam natura mali: sed natuam mali necessitat deum ad 
+          <lb ed="#V" n="4"/>odiendum. vt patet de peccato ex genere: quod non potest placere 
+          <lb ed="#V" n="5"/>deo. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e452">
+          ¶ 2o sic. magis necessitatur deus a charitate quam 
+          <lb ed="#V" n="6"/>a quiditate lapidis: quia charitas dicit perfectionem simpliciter. 
+          <lb ed="#V" n="7"/>lapis autem no. sed deus necessario complacet in natura 
+          lapi<lb ed="#V" n="8" break="no"/>dis. ergo multo magis in chatie.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e461">
+          ¶ 3o sic. Uoluntas quae est volunta 
+          <lb ed="#V" n="9"/>recta non potest non diligere actum rectum moraliter ex nam sua: sed 
+          <lb ed="#V" n="10"/>voluntas diuina est summe recta. actus autem charitatis 
+          <lb ed="#V" n="11"/>est rectus moraliter ex natura sua et necessaria: quia bonus mora 
+          <lb ed="#V" n="12"/>liter: ita quod nullo modo potest esse malus: ideo cum bonum ex 
+          natura<lb ed="#V" n="13" break="no"/>sua sit acceptabile bene ordinata voluntate non poterit 
+          <lb ed="#V" n="14"/>iste actus non esse acceptus optime voluntati. ergo voluntas 
+          <lb ed="#V" n="15"/>diuina necessario diliget.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e479">
+          ¶ 4o sic. Effectus causae 
+          forma<lb ed="#V" n="16" break="no"/>lis non potest esse sine causa formali: sed esse carum est effectus 
+          for<lb ed="#V" n="17" break="no"/>malis charitatis: sicut esse gratum est effectus formalis 
+          <lb ed="#V" n="18"/>gratie. ergo impossibile est in aliquo charitatem esse vel gratiam: 
+          <lb ed="#V" n="19"/>quin illud sit carum vel gratum.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e491">
+          ¶ Ad primum istorum dico quod licet 
+          ma<lb ed="#V" n="20" break="no"/>lum ex se sit odibile: non tamen oportet quod deus actu positiuo od 
+          <lb ed="#V" n="21"/>at illud in quo est malum. sicut potest quis actu odire 
+          ma<lb ed="#V" n="22" break="no"/>las conditiones alicuius hominis: non tamen odire illum hominem. 
+        </p>
+        <p xml:id="FrMS88-e50894-d1e500">
+          <lb ed="#V" n="23"/>¶ Similiter dato quod hoc concederetur quod deus non diligeret. 
+          <lb ed="#V" n="24"/>nec posset diligere illum in quo est malum. non tamen sequitur quod 
+          ne<lb ed="#V" n="25" break="no"/>cessario odiat: quia potest actum suspendere: et sic non diligetur 
+          <lb ed="#V" n="26"/>nec odiet Similiter dato quod malum a deo odiatur necessario. 
+          <lb ed="#V" n="27"/>non tamen necessitat deum ad odiendum tali odio. quod sit in 
+          or<lb ed="#V" n="28" break="no"/>dine ad penam eternam. Eodem modo dico de charitate. dato 
+          <lb ed="#V" n="29"/>quod deus necessario eam diligeret. sni tamen sequitur quod 
+          necessa<lb ed="#V" n="30" break="no"/>rio diligat eam in ordine ad vitam eternara. Actus enim 
+          <lb ed="#V" n="31"/>malus est volitus a deo quantum ad esse positiuum: sed 
+          praeo<lb ed="#V" n="32" break="no"/>cise negatio oditur a deo vt est priuatio quaedam.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e524">
+          ¶ Ad secundum 
+          <lb ed="#V" n="33"/>dico quod deus sicut acceptat simplices quiditates alias: 
+          <lb ed="#V" n="34"/>ita necessario charitatem scilicet acceptatione simplicis 
+          com<lb ed="#V" n="35" break="no"/>placentie. Sed non loquimur hic de illa: sed de ea que est 
+          <lb ed="#V" n="36"/>in ordine ad tale premium. vel tale. et ista necessaria non 
+          <lb ed="#V" n="37"/>est.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e537">
+          ¶ Ad tertium dico quod actus charitatis: quia bonus 
+          <lb ed="#V" n="38"/>est: ideo acceptabilis: sed non sequitur: ideo acceptus 
+          ne<lb ed="#V" n="39" break="no"/>cessario: sed solum contingenter: quia deus actum potest 
+          suspen<lb ed="#V" n="40" break="no"/>dere: et tunc actualiter: vel non actualiter acceptaretur. Simili 
+          <lb ed="#V" n="41"/>dato quod deus non posset non diligere actum charitatis. non 
+          <lb ed="#V" n="42"/>tamen sequitur quod hoc diligere esset in ordine ad vitam eternara 
+          <lb ed="#V" n="43"/>reddendam pro tali merito: quia hoc deus libere ordinauit 
+        </p>
+        <p xml:id="FrMS88-e50894-d1e553">
+          <lb ed="#V" n="44"/>¶ Ad quartum dico quod charitas et gratia possunt acci 
+          <lb ed="#V" n="45"/>pi dupliciter. Uno modo pro illo absoluto quod includunt materialiter. 
+          <lb ed="#V" n="46"/>et de tali loquor quod deus non necessario acceptat: quia 
+          a<lb ed="#V" n="47" break="no"/>ceptum esse non est effectus eius formalis. Vel possunt 
+          <lb ed="#V" n="48"/>accipi vt implicant accceptationem passiuam: et isto modo 
+          <lb ed="#V" n="49"/>bene dico quod contradictionem includit. quod charitas 
+          ve<lb ed="#V" n="50" break="no"/>gratia sit in aliquo quin illud sit acceptum vel gratum vel 
+          <lb ed="#V" n="51"/>carum. et isto modo non intelligitur.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e573">
+          ¶ Dico ergo quod deus 
+          de<lb ed="#V" n="52" break="no"/>potentia sua absoluta potest acceptare quecunque sine 
+          <lb ed="#V" n="53"/>tali habitu infuso et postquam infusus est non acceptarem 
+          <lb ed="#V" n="54"/>sed hoc totum est in ordinatione diuina. Sicut si rex 
+          <lb ed="#V" n="55"/>ordinasset quod quicumque haberet robas suas reciperetur in 
+          <lb ed="#V" n="56"/>conuiuio suo. et qui non haberet repudiaretur. hoc esset 
+          in<lb ed="#V" n="57" break="no"/>beneplacito statuentis. sic in proposito.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e590">
+          ¶ Exemplum. in 
+          ve<lb ed="#V" n="58" break="no"/>ste nuptiali secundum saluatorem.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e595">
+          ¶ Sed hic occurrunt aliquo 
+          dif<lb ed="#V" n="59" break="no"/>ficultates. Prima est quod non videtur secundum predicta 
+          necessi<lb ed="#V" n="60" break="no"/>tas ponendi charitatem. Nam deus: vt dictum est. posset 
+          <lb ed="#V" n="61"/>aliquem acceptare pro vita eterna sine charitate: sicut cum 
+          <lb ed="#V" n="62"/>charitate.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e606">
+          ¶ Dico quod si loquamur de potentia dei ab 
+          <lb ed="#V" n="63"/>soluta. nulla necessitas apparet ponendi charitatem. 
+          <lb ed="#V" n="64"/>quin eque acceptet sine ea sicut cum ea. tamen loquendo 
+          didu<lb ed="#V" n="65" break="no"/>potentia dei ordinata. Dico quod necesse est eam ponere. 
+        </p>
+        <p xml:id="FrMS88-e50894-d1e615">
+          <lb ed="#V" n="66"/>¶ Et si dicas quomodo fuit ordinatum per eum ex quo non fuit 
+          <!--143.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>necessarium ponere.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e626">
+          ¶ Dico quod ex quo constat nobis de 
+          <lb ed="#V" n="68"/>diuina ordinatione presumendum est quod hoc fuit magis 
+          <lb ed="#V" n="69"/>congruum: et ideo sic ordinatum est. Exemplum. deus 
+          potuis<lb ed="#V" n="70" break="no"/>set humanum genus aliter redemisse quam per incarnationem 
+          <lb ed="#V" n="71"/>nec fuit necessarium sic redimere. et sic tamen redemint: quia 
+          <lb ed="#V" n="72"/>magis fuit congruum. sic dico in proposito.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e639">
+          ¶ Secunda 
+          <lb ed="#V" n="73"/>difficultas est. Si istam acceptationem passiuam positam 
+          <lb ed="#V" n="74"/>et appropriatam charitati potuisset deus ponere in 
+          qua<lb ed="#V" n="75" break="no"/>cunque alia qualitate vel virtute: sicut in fide vel in spex 
+          <lb ed="#V" n="76"/>et sic de aliis.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e651">
+          ¶ Dico quod sic. non solum infusa: sed etiam 
+          acquis<lb ed="#V" n="77" break="no"/>ta: et non solum spirituali: verum etiam sensibili. vt scilicet quod omnis crispus 
+          <lb ed="#V" n="78"/>acceptaretur ad vitam eternara. tamen magis congruum fuit sic: quia 
+          <lb ed="#V" n="79"/>charitas est excellentissima virtus propter finem. Exitum Rex 
+          pos<lb ed="#V" n="80" break="no"/>set ordinare quod plus daretur pro moneta argenti quam auri: licet 
+          <lb ed="#V" n="81"/>aurum melius sit in se quam argentum. Sic dico in proposito. et 
+          <lb ed="#V" n="82"/>haec tamen totum est: quia est ad placitum instituentis.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e667">
+          ¶ 3a 
+          diffi<lb ed="#V" n="83" break="no"/>cultas est. Si istam acceptationem posset deus positionem vel 
+          <lb ed="#V" n="84"/>fundare in habitu vitioso. vel in actu vitioso.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e674">
+          ¶ Dico 
+          <lb ed="#V" n="85"/>quod loquendo de potentia dei absoluta posset deus 
+          instin<lb ed="#V" n="86" break="no"/>tuere. quod quicumque blasphemaret deum acceptaretur ad vi 
+          <lb ed="#V" n="87"/>tam eternara. vel poneretur in vita eterna. Et quicumque 
+          lau<lb ed="#V" n="88" break="no"/>daret deum in inferno. Sicut deus posset de potentia 
+          absolu<lb ed="#V" n="89" break="no"/>ta damnare omnes iustos: et saluare omnes praeccatores si vellet 
+          <lb ed="#V" n="90"/>tamen hoc non congruit voluntati sue et iustitie infinite. Et 
+          <lb ed="#V" n="91"/>indcirco de potentia ordinata non posset praedicta facere 
+        </p>
+        <p xml:id="FrMS88-e50894-d1e692">
+          <lb ed="#V" n="92"/>¶ 4a difficultas est: quia cum potentia ista sit contingens in 
+          vo<lb ed="#V" n="93" break="no"/>luntate diuina respectu bonorum ad odium. et malorum ad 
+          <lb ed="#V" n="94"/>dilectionem. videtur quod bona sint odibilia. et mala diligibilia. 
+          <lb ed="#V" n="95"/>ex quo sunt apta nata ad talem actum.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e703">
+          ¶ Dico quod sic 
+          pos<lb ed="#V" n="96" break="no"/>semus nos diligere quos odimus. et odire quos 
+          dili<lb ed="#V" n="97" break="no"/>gimus et ex eadem causa. tamen illud esset vitiosum et male factum 
+          <lb ed="#V" n="98"/>sic deus posset quos odit diligere. et econverso: sed tamen hoc 
+          <lb ed="#V" n="99"/>non esset malefactum. Nam hoc est magis diligendum: quia 
+          a<lb ed="#V" n="100" break="no"/>deo diligitur.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e716">
+          ¶ Quinta difficultas est. quia adhuc 
+          vide<lb ed="#V" n="101" break="no"/>tur stare totus punctus quaestionis. Non enim dictum est 
+          <lb ed="#V" n="102"/>adhuc nisi de acceptatione ad vitam eternara. 4oquimur autem 
+          <lb ed="#V" n="103"/>de acceptatione hominis in se vt est deo carus non 
+          facien<lb ed="#V" n="104" break="no"/>do mentionem de ordinatione ad vitam eternara. Utrum aliquis 
+          <lb ed="#V" n="105"/>possit alium diligere: dato quod ei non proponat bene facere. 
+        </p>
+        <p xml:id="FrMS88-e50894-d1e730">
+          <lb ed="#V" n="106"/>¶ Dico quod loquendo de illa acceptatione et dilectione 
+          <lb ed="#V" n="107"/>hominis in se. non apparet aliqua necessitas propter quam deus 
+          ho<lb ed="#V" n="108" break="no"/>minem habentem charitatem acceptet. nec etiam quare deus 
+          <lb ed="#V" n="109"/>hominem habentem in se peccatum necessario odiat. cum non 
+          <lb ed="#V" n="110"/>minus sit liber deus in sua dilectione et odio quam nos. 
+          <lb ed="#V" n="111"/>Experimur autem in nobis quod libere odimus aliquem cui 
+          <lb ed="#V" n="112"/>tamen videmus aliquid inesse quod diligimus. sicut odimus 
+          <lb ed="#V" n="113"/>inimicum in se: cuius tamen fortitudinem pulchritudinem 
+          <lb ed="#V" n="114"/>prudentiam diligimus. Et eodem modo diligimus multos 
+          <lb ed="#V" n="115"/>in se: quorum tamen vitia odimus: sicut fratrem 
+          meu<lb ed="#V" n="116" break="no"/>diligo: cuius tamen turpitudinem odio. Utrum autem deus 
+          <lb ed="#V" n="117"/>actum charitatis et virtutis in se: non loquendo de ordine: 
+          <lb ed="#V" n="118"/>possit odire: et actum cupiditatis et peccati diligere. hoc 
+          <lb ed="#V" n="119"/>est valde dubium.
+        </p>
+        <p xml:id="FrMS88-e50894-d1e763">
+          ¶ Ad auctoritatem dico quod 
+          loqui<lb ed="#V" n="120" break="no"/>tur de potentia ordinata. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

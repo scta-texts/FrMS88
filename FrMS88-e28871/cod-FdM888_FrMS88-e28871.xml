@@ -1,520 +1,520 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="40-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e28871"><!-- l1d7q1 -->
-            <head xml:id="FrMS88-e28871-Hd1e108">Quaestio 1</head>
-            <p xml:id="FrMS88-e28871-d1e111">
-               <lb ed="#V" n="87"/>¶ Distinctio. vii. Questio i. 
-    </p>
-            <p xml:id="FrMS88-e28871-d1e116">
-               <lb ed="#V" n="88"/>hic queri solet. etc. 
-      <lb ed="#V" n="89"/>distinctionem septimam:
-    </p>
-            <p xml:id="FrMS88-e28871-d1e123">
-      ¶ Que 
-      <lb ed="#V" n="90"/>Irca ratio vtrum in diuinis sit 
-      poten<lb ed="#V" n="91" break="no"/>tia generandi. quod non. quia hylarius 
-      quar<lb ed="#V" n="92" break="no"/>to de trinita. dicit quod in generatione 
-      ver<lb ed="#V" n="93" break="no"/>bi non est intelligenda coherentia: sed 
-      in<lb ed="#V" n="94" break="no"/>differentia. Nihil autem est in potentia 
-      <lb ed="#V" n="95"/>ad seipsum. ergo ibi erit coherentia.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e139">
-      ¶ Sed contra. 
-      <lb ed="#V" n="96"/>ibidem 4o de trini. quod ad ampliandam potestatem generantis 
-      <lb ed="#V" n="97"/>ponitur vnigenitus coequalis.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e147">
-      ¶ hic primo videndum est 
-      <lb ed="#V" n="98"/>quid sit potentia.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e152">
-      ¶ 2o vtrum sit in diuinis. 
-      <lb ed="#V" n="99"/>ad primum quatuor sunt facienda. 
-      <lb ed="#V" n="100"/>Quantum
-    </p>
-            <p xml:id="FrMS88-e28871-d1e159">
-      ¶ Primo videndum est quid fit 
-      po<lb ed="#V" n="101" break="no"/>tentialitas. 2o quid sit potentia. 3o quid potentia 
-      ge<lb ed="#V" n="102" break="no"/>nerandi in patre. et 4o quid potentia generandi in filio.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e166">
-      ¶ 
-      Quan<lb ed="#V" n="103" break="no"/>tum ad primum. quid sit potentialitas dicit Scotus. quod est 
-      respe<lb ed="#V" n="104" break="no"/>ctus fundamentalis vel aptitudinalis. non formalis. 
-      <lb ed="#V" n="105"/>Respectus autem quidam dicuntur formales vel 
-      ac<lb ed="#V" n="106" break="no"/>tuales. qui actualiter sunt in fundamento. et actualiter in 
-      <lb ed="#V" n="107"/>formant. et actualiter habent terminum.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e179">
-      ¶ Alii dicunt 
-      aptitu<lb ed="#V" n="108" break="no"/>dinales. quando fundamentum concipitur vt aptum 
-      na<lb ed="#V" n="109" break="no"/>tum recipere vel fundare relationem realem actualem. quod 
-      <lb ed="#V" n="110"/>autem potentialitas sit respectus. patet. quia non potest concipi ni 
-      <lb ed="#V" n="111"/>si ad aliquid respectu cuius habens illam potetialitatem 
-      di<lb ed="#V" n="112" break="no"/>catur potens. quod autem sit aptitudinalis vel 
-      fundamen<lb ed="#V" n="113" break="no"/>talis. non actualis. patet. quia est sine termino. Nam 
-      mul<lb ed="#V" n="114" break="no"/>ta habent potentiam ad aliquid quod non est actu. Nullus 
-      <lb ed="#V" n="115"/>autem est respectus actualis vel formalis nisi 
-      respectu<lb ed="#V" n="116" break="no"/>alicuius quod est actu existens. sicut est respectus.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e201">
-      ¶ 
-      Quan<lb ed="#V" n="117" break="no"/>tum ad 2m quid sit potentia. Dico quod potentia est 
-      concre<lb ed="#V" n="118" break="no"/>tum potentialitatis. aliquid scilicet compositum ex fundamento 
-      <lb ed="#V" n="119"/>potentialitatis et ipsa potentialitate. Vel potest dici quod 
-      <lb ed="#V" n="120"/>potentia est illa naturalis perfectio in qua fundatur illa 
-      po<lb ed="#V" n="121" break="no"/>tentialitas. Nam sicut vnumquodque dicitur perfectum a 
-      perfe<lb ed="#V" n="122" break="no"/>ctione sibi insistente. sic quelibet potentia dicitur potens a 
-      <lb ed="#V" n="123"/>potentialitate in ipsa fundata: sicut passio in subiecto 
-      <lb ed="#V" n="124"/>Nam omnis naturalis habitudo dicitur passio respectu subiecti 
-      ar<lb ed="#V" n="125" break="no"/>ti nati: sicut risibilitas respectu hominis.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e224">
-      ¶ Quantum ad 
-      <lb ed="#V" n="126"/>tertium. quid sit potentia generandi in patre. Dico quod 
-      <lb ed="#V" n="127"/>est perfectio naturalis in qua fundatur potentialitas ad genera 
-      <lb ed="#V" n="128"/>bile inquantum generabile est. quia sicut generans inquantum 
-      <lb ed="#V" n="129"/>tale refertur ad genitum. sic generatiuum inquantum tale ad 
-      <lb ed="#V" n="130"/>generabile.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e237">
-      ¶ Quantum ad 4m. quid est potentia 
-      gene<lb ed="#V" n="131" break="no"/>randi in filio. dico quod est illud in quo fundatur potentiali 
-      <!--83.xml-->
-      <pb ed="#V" n="40-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>tas ad generari passiue respectu generatiui. Nam communiter dicitur quod 
-      <lb ed="#V" n="2"/>relatiua per se innuicem diffiniuntur. et sic dicit Augustius. 19. de 
-      <lb ed="#V" n="3"/>trini.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e255">
-      ¶ Sed hic sunt alique difficultates. Prima est. quia inste 
-      re<lb ed="#V" n="4" break="no"/>spectus fundamentalis: aut est aliquid absolutum. aut respe 
-      <lb ed="#V" n="5"/>ctiuum.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e262">
-      ¶ Dico quod non respectiuum quia sic esset processus 
-      in<lb ed="#V" n="6" break="no"/>infinitum: quia ad illum respectum esset aptitudo. Nec potest dici quod sit 
-      <lb ed="#V" n="7"/>absolutum: quia ille inuenitur in eo quod abstrahit ab absoluto 
-      <lb ed="#V" n="8"/>et respectiuo scilicet in ente. vtpote veritas et bonitas quae non 
-      di<lb ed="#V" n="9" break="no"/>cunt nisi respectus aptitudinales ad mouendum intellectum et 
-      <lb ed="#V" n="10"/>voluntatem.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e275">
-      ¶ 2a difficultas est. si respectus ille est idem cum 
-      funda<lb ed="#V" n="11" break="no"/>mento vel non. Dico quod ille respectus est passio perfectionis 
-      <lb ed="#V" n="12"/>fundantis ipsum et competit ei in 2o modo dicendi per se. quia est eius 
-      <lb ed="#V" n="13"/>naturalis aptitudo. omnis autem naturalis aptitudo siue ad accidens 
-      <lb ed="#V" n="14"/>siue ad aliud quodcumque. est per se passio illius cui competit. 
-      <lb ed="#V" n="15"/>Unde aptitudo ad ratiocinari est per se passio hominis: sicut 
-      ar<lb ed="#V" n="16" break="no"/>titudo ad ridendum. Unde homo non est homo: quia aptus natus ad 
-      ratio<lb ed="#V" n="17" break="no"/>cinari: nisi a posteriori: sed a priori: ideo est aptus natus 
-      ratio<lb ed="#V" n="18" break="no"/>cinari: quia est homo.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e295">
-      ¶ 3a difficultas est. si oportet positiaere ex parte filii vel 
-      <lb ed="#V" n="19"/>producti potentiam generandi.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e301">
-      ¶ Dico quod sic. Nam sicut omni 
-      po<lb ed="#V" n="20" break="no"/>tentie actiue corrspondet poto passiua: ita omni potentie 
-      producti<lb ed="#V" n="21" break="no"/>ue corrspondet potentia producendi passiue scilicet producibilitas. 
-      <lb ed="#V" n="22"/>Non est autem proprie potentia passiua: sicut nos accipimum 
-      <lb ed="#V" n="23"/>in creaturis: quia illa dicit imperfectionem. et talis non est in 
-      di<lb ed="#V" n="24" break="no"/>uinis: sicut ergo memoria in patre est potentia generatiua: ita 
-      <lb ed="#V" n="25"/>essentia in filio potest dici potentia generabilis.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e317">
-      ¶ 4a difficultas est. 
-      <lb ed="#V" n="26"/>quid est homo potentia in patre et filio.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e322">
-      ¶ Dico quod sicut 
-      me<lb ed="#V" n="27" break="no"/>moria fecunda est potentia generandi in patre. ita essentia 
-      <lb ed="#V" n="28"/>in filio est potentia generandi passiue.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e329">
-      ¶ Sed quantum ad 
-      <lb ed="#V" n="29"/>pmum dicit vnus doctor quod homo potentia in patre est ipsames 
-      <lb ed="#V" n="30"/>generatio: quia pater quo generat illo potest generare. sed generatione generat 
-      </p>
-            <p xml:id="FrMS88-e28871-d1e336">
-               <lb ed="#V" n="31"/>¶ Contra. quia secundum te posse deu generare dicit infinitam 
-      perfe<lb ed="#V" n="32" break="no"/>ctionem: sed generatio non est infinita perfectio.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e343">
-      ¶ 2o. quia omnis 
-      <lb ed="#V" n="33"/>perfectio infinita est communis patri et filio: sed generatio 
-      acti<lb ed="#V" n="34" break="no"/>ua non. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e351">
-      ¶ Et ideo dico sicut dixi. Tamen hic 
-      <lb ed="#V" n="35"/>sunt duo dubia. Primum est. quomodo diuina essentia potest esse 
-      <lb ed="#V" n="36"/>talis potentia generandi. cum sit absolutissima et talis 
-      poten<lb ed="#V" n="37" break="no"/>tialitas sit respectus. Dico quod sicut calor dicitur potentia 
-      ca<lb ed="#V" n="38" break="no"/>lefactiua fundamentaliter: quia fundat respectum aptitudina 
-      <lb ed="#V" n="39"/>lem potentialitatis. Ita diuina essentia habet respectum istium 
-      <lb ed="#V" n="40"/>potentialitatis fundamentalem secundum quem respectum forte dicitur 
-      <lb ed="#V" n="41"/>communicabilis.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e369">
-      ¶ 2m dubium est. qualiter essentia diuina ex per 
-      <lb ed="#V" n="42"/>te producti potest fundare istam potentialitatem scilicet producibilita. 
-      <lb ed="#V" n="43"/>tem quin ipsa sit producibilis.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e376">
-      ¶ Dico quod ille respectus 
-      <lb ed="#V" n="44"/>non est natus denominare nisi suppositum. sicut natura 
-      humana<lb ed="#V" n="45" break="no"/>nodo dicitur filius: sed fundamentum filiationis: quia 
-      fundat<lb ed="#V" n="46" break="no"/>respectum filiationis. Nec potentia generatiua in patre est 
-      pa<lb ed="#V" n="47" break="no"/>ter: licet fundet respectum paternitatis. 
-      <lb ed="#V" n="48"/>2o videndum est. si in diuinis sit potentia generandi. 
-      <lb ed="#V" n="49"/>Nunc Et hic dico duas conclusiones. Prima est de 
-      poten<lb ed="#V" n="50" break="no"/>tia vt se tenet ex parte producentis. 2a vt se tenet ex parte 
-      produ<lb ed="#V" n="51" break="no"/>ti.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e396">
-      ¶ Prim ma conclusio quod in diuinis est potentia generandi v 
-      <lb ed="#V" n="52"/>qua pater potest generare. Istam conclusione probo euidenter. per 
-      supponen<lb ed="#V" n="53" break="no"/>do vnam regulam satis euidentem scilicet quod omnis relatio 
-      posteri<lb ed="#V" n="54" break="no"/>or est suo termino. hanc probo sic. omne diffinitum per aliquid 
-      <lb ed="#V" n="55"/>necessario est posterius illo. hoc patet. quia omnis diffinitio vel est 
-      es<lb ed="#V" n="56" break="no"/>sentialis. et tunc diffinientia sunt genus et differentia de quibus 
-      <lb ed="#V" n="57"/>constat quod sunt priora secundum naturam diffinito. Vel est per 
-      addi<lb ed="#V" n="58" break="no"/>tamentum. et tunc est certum quod diffiniens ipsum scilicet additamentum 
-      <lb ed="#V" n="59"/>est prius diffinito: sicut patet de substantia quae ponitur vt 
-      addita<lb ed="#V" n="60" break="no"/>mentum in diffinitione accidentis: sed relatio diffinitur per terminum 
-      <lb ed="#V" n="61"/>ergo est posterior eo.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e420">
-      ¶ Ex ista reglalsa supposita et probata. 
-      <lb ed="#V" n="62"/>arguo sic. generatio passiua in filio est relatio. ergo habet terminum 
-      <lb ed="#V" n="63"/>in patre. sed terminus non est nisi essentia. ergo essentia erit quo 
-      <lb ed="#V" n="64"/>respectu generationis. Nam illud quod terminat generationem 
-      <lb ed="#V" n="65"/>passiuam est proprie qui respectu eius. Probo autem quod nihil in 
-      pa<lb ed="#V" n="66" break="no"/>tre poterit terminare generationem passiuam nisi essentia: vel 
-      <!--83.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>aliquid essentiale scilicet ipsa memoria: quia in patre non est nisi gen 
-      <lb ed="#V" n="68"/>neratio actiua: et illa non potest esse terminus. quia est similis nam cum 
-      <lb ed="#V" n="69"/>generatione passiua. terminus autem est prior. Nec etiam pter scilicet 
-      ipsa<lb ed="#V" n="70" break="no"/>met persona constitutiua potest esse terminus: quia relatio est 
-      poste<lb ed="#V" n="71" break="no"/>rior termino: sed generatio passiua est prior patre constituto: quia est 
-      <lb ed="#V" n="72"/>simul natura cum generatione actiua: quae est prior natura ipso patre quia eius 
-      <lb ed="#V" n="73"/>formale principium constitutiuum. Relinquitur ergo quod sit aliquid 
-      essentia<lb ed="#V" n="74" break="no"/>le: et non est nisi memoria.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e455">
-      ¶ 2o sic. In esentialiter ordinatis 
-      <lb ed="#V" n="75"/>vbi est posterius. ibi est prius: sed quo et quod sunt essentialiter 
-      <lb ed="#V" n="76"/>ordinata. et quo est prius. quia actio competit per quo: ipsi quod. 
-      </p>
-            <p xml:id="FrMS88-e28871-d1e463">
-               <lb ed="#V" n="77"/>¶ Ex hoc arguo sic. quandocumque aliquid competit alicui per 
-      <lb ed="#V" n="78"/>aliud: illud per quod competit sibi est prius: sed per quo 
-      <lb ed="#V" n="79"/>competit ipsi quod quod agat ergo illud quo agens agit est prius 
-      <lb ed="#V" n="80"/>essentialiter. Cum ergo in diuinis sit quod agit. oportet sibi dare 
-      po<lb ed="#V" n="81" break="no"/>generandi quo quia nihil aliud voco quo nisi potentiam. 
-      <lb ed="#V" n="82"/>generandi.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e479">
-      ¶ Sed hic instatur 4r. Et per sic. sicut se habet 
-      po<lb ed="#V" n="83" break="no"/>tentia intellectiua ad actum intelligendi et intelligibile: ita 
-      <lb ed="#V" n="84"/>idetur se habere potentia generatiua ad actum generandi et generabile: sed 
-      <lb ed="#V" n="85"/>intellectus non respicit intelligibile nisi per actum 
-      intelligen<lb ed="#V" n="86" break="no"/>di quem prius respicit. ergo nec potentia generandi generabile ni 
-      <lb ed="#V" n="87"/>si per actu generandi. sed respectu actus generandi non est quo. ergo 
-      <lb ed="#V" n="88"/>nec respectu generabilis erit quo.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e495">
-      ¶ 2o sic. potentia visiua 
-      <lb ed="#V" n="89"/>primo dicitur visiua respectu actus. ergo a simili potentia 
-      <lb ed="#V" n="90"/>generatiua per dicetur potentia generatiua respectu actus 
-      ge<lb ed="#V" n="91" break="no"/>nerandi.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e504">
-      ¶ 3o sic. Cuius est potentia eius est actus. nam in eodem 
-      <lb ed="#V" n="92"/>habunt esse: si ergo essentia vel memoria est potentia 
-      generan<lb ed="#V" n="93" break="no"/>di. eius postea erit actus generandi. et sic erit generans. 
-      </p>
-            <p xml:id="FrMS88-e28871-d1e511">
-               <lb ed="#V" n="94"/>¶ 4o sic. omne generatiuum potest fundare respectum generationis: 
-      <lb ed="#V" n="95"/>sed pater non potest fundare respectum generationis: ideo non est 
-      ge<lb ed="#V" n="96" break="no"/>ne atiuus. Minor patet. quia sicut fundamentum 
-      presuppo<lb ed="#V" n="97" break="no"/>nitur a respectu: ita generatio praesupponeret patrem. et sic non 
-      <lb ed="#V" n="98"/>constitueret. quod est falsum.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e524">
-      ¶ Ad ista.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e528">
-      ¶ Ad primum 
-      concessa<lb ed="#V" n="99" break="no"/>maiore. negatur minor. Nam potentia intellectiua prius 
-      <lb ed="#V" n="100"/>respicit intelligibile quam actum intelligendi. inquantum 
-      in<lb ed="#V" n="101" break="no"/>tellectiua est. sicut calefactiua calefactibile. Actus autem 
-      <lb ed="#V" n="102"/>intelligendi non est primo intelligibilis nisi per actum 
-      <lb ed="#V" n="103"/>reflexum. nec comparatur potentia intellectiua ad actum 
-      intel<lb ed="#V" n="104" break="no"/>ligendi: vt ad intelligibile. Primo ergo respicit 
-      intelli<lb ed="#V" n="105" break="no"/>gibile antequam respiciat actum intelligendi. Et similiter dico de 
-      <lb ed="#V" n="106"/>potentia generatiua. quod prius respicit generabile quam actum 
-      <lb ed="#V" n="107"/>generandi.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e550">
-      ¶ Similiter dico ad 2m de potentia visiua. Nam 
-      <lb ed="#V" n="108"/>ipsa primo respicit visibile praecise: et non actum videndi: quia ipse 
-      <lb ed="#V" n="109"/>non est visibilis. Unde dico quod potentia visiua inquantum 
-      <lb ed="#V" n="110"/>visiua est. praecise respicit visibile.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e559">
-      ¶ Sed contra. sicut risibi 
-      <lb ed="#V" n="111"/>litas dicitur esse naturalis aptitudo ad actum ridendi qui est 
-      in<lb ed="#V" n="112" break="no"/>ridente formaliter. ita generatiuitas et potentia generati 
-      <lb ed="#V" n="113"/>ua visiua. intellectiua. respectu suorum actuum qui in eis 
-      re<lb ed="#V" n="114" break="no"/>cipiuntur formaliter sunt naturales aptitudines. Respiciunt 
-      <lb ed="#V" n="115"/>ergo suos actus et non suos terminos.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e572">
-      ¶ Ad hoc dico 
-      <lb ed="#V" n="116"/>quod risibilitas inquantum talis non est nisi potentia receptiua. 
-      <lb ed="#V" n="117"/>non est autem sic de istis aliis potentiis. quia plus dicunt 
-      <lb ed="#V" n="118"/>quam receptiuum. Unde hec inquantum receptiue sunt posset 
-      <lb ed="#V" n="119"/>concedi conclusio argumenti: quia non sunt nisi naturales 
-      ap<lb ed="#V" n="120" break="no"/>titudinines ad recipiendum tales actus.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e585">
-      ¶ Ad 3m dico et 
-      <lb ed="#V" n="121"/>concedo quod in essentia fundatur generatio. non tamen 
-      denomina<lb ed="#V" n="122" break="no"/>sicut prius deductum fuit. quia quedam relationes sunt 
-      cua<lb ed="#V" n="123" break="no"/>non denominant nisi suppositum. non autem fundamentum. 
-      </p>
-            <p xml:id="FrMS88-e28871-d1e594">
-               <lb ed="#V" n="124"/>¶ Ad 4m dico. quod illud generatiuum quod non constituitur 
-      <lb ed="#V" n="125"/>in esse personali per respectum generationis: illud 
-      inqua<lb ed="#V" n="126" break="no"/>potest bene fundare: sed in proposito non est sic. quia pater 
-      con<lb ed="#V" n="127" break="no"/>stituitur per relationem.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e606">
-      ¶ Sed posito quod potentia sit 
-      <lb ed="#V" n="128"/>sic in deo et ipsa non sit relatio: tunc ipsa videtur esse 
-      aliquo<lb ed="#V" n="129" break="no"/>perfectio. potentia autem non dicit aliquid per se vnum 
-      </p>
-            <p xml:id="FrMS88-e28871-d1e613">
-               <lb ed="#V" n="130"/>¶ Dico quod potentia accipitur vt suppositioit pro 
-      fundamen<lb ed="#V" n="131" break="no"/>to. et sic est vna. non autem vt supponit pro toto.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e620">
-      ¶ Contra. 
-      <lb ed="#V" n="132"/>multiplicato fundamento multiplicatur potentia acci 
-      <!--84.xml-->
-      <pb ed="#V" n="41-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>piendo potentiam etiam: vt tum dicis: sed fundamentum 
-      multipli<lb ed="#V" n="2" break="no"/>catur in pre. quia memoria fecunda continet duo scilicet essentiam 
-      <lb ed="#V" n="3"/>et intellectum.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e638">
-      ¶ Dico ergo ad hoc quod quando sunt duo principim partialia non 
-      <lb ed="#V" n="4"/>totalia: quarum vnum est idem identice alteri. tunc vnus respecus 
-      <lb ed="#V" n="5"/>princinpiationis potest in eis fundare: et sic non erit nisi vna 
-      <lb ed="#V" n="6"/>actio et vna totalis potentia.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e647">
-      ¶ 2a conclusio est. quod potentia generandi 
-      pas<lb ed="#V" n="7" break="no"/>siue est in filio. Et hoc probo sic. Omnis habitudo que est int 
-      <lb ed="#V" n="8"/>extrema praesupponit ea: sed actiua generatio est quaedam 
-      habitu<lb ed="#V" n="9" break="no"/>do que est in patre. ergo oportet quod in filio correspondeat sibi 
-      termi<lb ed="#V" n="10" break="no"/>nus. non potest autem esse generatio passiua in filio: quia illa est 
-      sei<lb ed="#V" n="11" break="no"/>mul nam cum ea. terminus autem prius est natuam relatione. nec potest 
-      <lb ed="#V" n="12"/>esse filius: quia posterius est relatione et generatione passiua: quia 
-      <lb ed="#V" n="13"/>constituitur per eam: et per consequens est posterior generatione actiua. 
-      Re<lb ed="#V" n="14" break="no"/>linquitur ergo quod sit essentia. terminus autem qui terminat vt quae 
-      <lb ed="#V" n="15"/>generationem actiuam. illum voco qui respectu generationis. ergo etc. 
-      </p>
-            <p xml:id="FrMS88-e28871-d1e669">
-               <lb ed="#V" n="16"/>¶ 2o quia vbicunque est posse generari. ibi est potentia generandi: sed 
-      <lb ed="#V" n="17"/>in filio est posse generari. ergo et in filio est potentia generandi. 
-      Ma<lb ed="#V" n="18" break="no"/>ior patet. quia vbi est effectus formalis. ibi est forma cuius 
-      <lb ed="#V" n="19"/>est effectus. posse autem generari est effectus potentie generandi. ergo 
-      <lb ed="#V" n="20"/>vbi est posse generari ibi est potentia generandi.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e683">
-      ¶ Sed contra primam 
-      <lb ed="#V" n="21"/>contlusionem arguit vnus doc scilicet De. ostendens quod in diuinis non est 
-      <lb ed="#V" n="22"/>potentia generandi que sit elicitiua actus genandi: et ex consequenti non 
-      <lb ed="#V" n="23"/>erit ibi potentia gneandi. si enim non est respectu actus: nec per consequens 
-      <lb ed="#V" n="24"/>respectu termini erit. Probat ergo hoc antecedens 4r quod non sit in 
-      <lb ed="#V" n="25"/>deo potentia respectu actus. et arguit sic. potentia que est ad actum 
-      <lb ed="#V" n="26"/>qui non est elicitus: non est potentia elicitiua: sed actus 
-      ge<lb ed="#V" n="27" break="no"/>nerandi in supposito patris non est elicitus: cum pater habeat 
-      <lb ed="#V" n="28"/>omnia a se. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e703">
-      ¶ 2o sic. posse generare: et posse esse patrem est 
-      <lb ed="#V" n="29"/>idem. cum idem sit paternitas et generatio sed potentia essendi patrem non est 
-      <lb ed="#V" n="30"/>elicitiua: quia tunc pater posset se producere. quod est absurdum 
-      </p>
-            <p xml:id="FrMS88-e28871-d1e710">
-               <lb ed="#V" n="31"/>¶ 3o sic. primi suppositi ad suum constitutiuum non est 
-      elici<lb ed="#V" n="32" break="no"/>tiua potentia: quia tunc haberet potentiam producendi seipsum.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e717">
-      ¶ 4o 
-      <lb ed="#V" n="33"/>sic. potentia generatiua vel productiua non recipit intra se actum 
-      <lb ed="#V" n="34"/>fuum. sed pater habet intra se formaliter actum generandi.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e724">
-      ¶ 
-      Con<lb ed="#V" n="35" break="no"/>clusionem quam probant iste rationes reputo verissime 
-      demon<lb ed="#V" n="36" break="no"/>stratam: et demonstrabilem cuicumque catholico scilicet quod persona 
-      <lb ed="#V" n="37"/>patris nihil potest esse formaliter quod sit elicitum. consequens 
-      tamen<lb ed="#V" n="38" break="no"/>quod videtur inferre ex haec scilicet quod quia non est potentia respectu actus non 
-      <lb ed="#V" n="39"/>est simpliciter potentia generandi in diuinis. hoc reputo 
-      <lb ed="#V" n="40"/>falsum. Et falsitatem eius probo per rationes proprias quas 
-      addu<lb ed="#V" n="41" break="no"/>cit ad antecedens.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e742">
-      ¶ Primo sic. omnis potentia que est ad aliquid elici 
-      <lb ed="#V" n="42"/>tum per ipsam: ipsa est elicitiua: sed potentia patris est ad 
-      ali<lb ed="#V" n="43" break="no"/>quid elicitum scilicet ad 2m suppositum quod est vere elicitum. ergo ipsa 
-      <lb ed="#V" n="44"/>est elicitiua. et per consequens vere generatiua.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e752">
-      ¶ 2o sic. si posse gene 
-      <lb ed="#V" n="45"/>rare est posse esse patrem. respectu cuiuscumque erit pater: 
-      <lb ed="#V" n="46"/>respectu eiusdem erit potens generare: sed ille est pater 
-      respe<lb ed="#V" n="47" break="no"/>ctu suppositi eliciti scilicet filii. ergo habet potentiam elicitiuam 
-      </p>
-            <p xml:id="FrMS88-e28871-d1e761">
-               <lb ed="#V" n="48"/>¶ 3o sic. omne suppositum aliud suppositum producens habet 
-      <lb ed="#V" n="49"/>potentiam elicitiuam respectu suppositi producti: sed patur 
-      <lb ed="#V" n="50"/>est producens filium. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e770">
-      ¶ 4o sic. omnis potentia generatiua est elici 
-      <lb ed="#V" n="51"/>tiua eius quod est extra se. sed verbum est extra patreem. ergo etc. 
-      </p>
-            <p xml:id="FrMS88-e28871-d1e775">
-               <lb ed="#V" n="52"/>¶ Sed dices. est ne potentia creandi potentia elicitiua. 
-      Di<lb ed="#V" n="53" break="no"/>co quod non est simile de potentia creatiua et generatiua: quia potentia 
-      crea<lb ed="#V" n="54" break="no"/>tiua non est ad aliquem actum qui sit in deo formaliter. potetia 
-      <lb ed="#V" n="55"/>autem generatiua sic. Dico tamen quod potentia creatiua est vere eliciti 
-      <lb ed="#V" n="56"/>ua. quia scilicet est productiua respectu creature. omne autem 
-      producti<lb ed="#V" n="57" break="no"/>uum: et similiter omne causatum est elicitiuum.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e791">
-      ¶ Sed adhuc est 
-      du<lb ed="#V" n="58" break="no"/>bium vtrum potentia generatiua in creaturis est elicitiua actus 
-      <lb ed="#V" n="59"/>generandi. Dico quod non est elicitiua ipsius generationis que 
-      <lb ed="#V" n="60"/>est accidens eius commune. cum non producatur ab ea in genere 
-      caus<lb ed="#V" n="61" break="no"/>efficientis: sed solum in genere causare materialis causatur: quia est 
-      acci<lb ed="#V" n="62" break="no"/>dens eius commune. hic autem accipitur elicitio pro 
-      productio<lb ed="#V" n="63" break="no"/>ne. hec autem potentia solum recipit actum illum: et iterum potentia 
-      produ<lb ed="#V" n="64" break="no"/>ctiua inquantum talis non est nisi respcum producti. et generatiua 
-      <lb ed="#V" n="65"/>respcum geniti.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e811">
-      ¶ Confirmatur. quia generans non dicitur generationem ge 
-      <lb ed="#V" n="66"/>uerare: sed genitum. Dico ergo quod vbicumque est potentia productiua 
-      <!--84.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>inquantum talis semper respicit productum.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e823">
-      ¶ Contra 2m conclusione 
-      <lb ed="#V" n="68"/>istatur 4r. Primo sic. quia licet potentia actiua dicat perfectionem. potentia 
-      <lb ed="#V" n="69"/>tamen passiua dicit imperfectionem: ergo non est ponenda in filio. 
-      </p>
-            <p xml:id="FrMS88-e28871-d1e830">
-               <lb ed="#V" n="70"/>¶ 2o sic. creatura iccirco est in potentia obiectiua: quia creabilis 
-      <lb ed="#V" n="71"/>ergo eodem modo verbum erit in potentia obiectiua. quia generabile. 
-      </p>
-            <p xml:id="FrMS88-e28871-d1e837">
-               <lb ed="#V" n="72"/>¶ 3o sic. Omnis naturalis aptitudo prius concipitur suo actu sed 
-      ver<lb ed="#V" n="73" break="no"/>bum non potest prius concipi sue generationi cum sit eius constitutiua in esse 
-      <lb ed="#V" n="74"/>verbi.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e846">
-      ¶ 4o sic. Sicut in gnratiuo fundatur genero actiua: ita 
-      <lb ed="#V" n="75"/>in generabili fundatur generatio passiua: sed ipsa non potest 
-      funda<lb ed="#V" n="76" break="no"/>ri in filio: quia ipsum constituit: et per consequens est prior eo. ergo filius 
-      <lb ed="#V" n="77"/>non erit generabilis.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e855">
-      ¶ Ad primum istorum dico quod proprie 
-      accipien<lb ed="#V" n="78" break="no"/>do potentia productiua non est actiua nec sua corrspondens ex 
-      par<lb ed="#V" n="79" break="no"/>te producti est passiua. producti enim non est pati: et ideo dico quod 
-      <lb ed="#V" n="80"/>nullam imperfectionem dicit.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e864">
-      ¶ Ad 2m dico quod verbum non est in 
-      <lb ed="#V" n="81"/>poteitioa: quia ex sua quiditate est constitutum per productionem: et ita 
-      <lb ed="#V" n="82"/>cludit in ratione sua formali quiditatiua actualem generationem. 
-      <lb ed="#V" n="83"/>vt supra dictum est. nullum autem tale potest esse in potentia obiectiua. 
-      <lb ed="#V" n="84"/>Uerumtamen potest dici quod essemus posset dici in potentia: et in illo priori 
-      <lb ed="#V" n="85"/>pro quo intelligitur non habere generationem passiuam. posset 
-      concedi<lb ed="#V" n="86" break="no"/>sed tamen non proprie. ipsum autem quod est constitutum per actualem 
-      pro<lb ed="#V" n="87" break="no"/>ductionem nullo modo potest dici esse in potentia obiectiua. creatura 
-      <lb ed="#V" n="88"/>autem potest dici esse in potentia obiectiua: quia non constituitur in esse per 
-      <lb ed="#V" n="89"/>actualem productionem. et prius est producibilis quam 
-      produca<lb ed="#V" n="90" break="no"/>tur tam natura quam tempore. et per hoc ad alia.
-    </p>
-            <p xml:id="FrMS88-e28871-d1e889">
-      ¶ Ad 
-      aucto<lb ed="#V" n="91" break="no"/>ritatem in principio patet. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="40-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e28871"><!-- l1d7q1 -->
+        <head xml:id="FrMS88-e28871-Hd1e108">Quaestio 1</head>
+        <p xml:id="FrMS88-e28871-d1e111">
+          <lb ed="#V" n="87"/>¶ Distinctio. vii. Questio i. 
+        </p>
+        <p xml:id="FrMS88-e28871-d1e116">
+          <lb ed="#V" n="88"/>hic queri solet. etc. 
+          <lb ed="#V" n="89"/>distinctionem septimam:
+        </p>
+        <p xml:id="FrMS88-e28871-d1e123">
+          ¶ Que 
+          <lb ed="#V" n="90"/>Irca ratio vtrum in diuinis sit 
+          poten<lb ed="#V" n="91" break="no"/>tia generandi. quod non. quia hylarius 
+          quar<lb ed="#V" n="92" break="no"/>to de trinita. dicit quod in generatione 
+          ver<lb ed="#V" n="93" break="no"/>bi non est intelligenda coherentia: sed 
+          in<lb ed="#V" n="94" break="no"/>differentia. Nihil autem est in potentia 
+          <lb ed="#V" n="95"/>ad seipsum. ergo ibi erit coherentia.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e139">
+          ¶ Sed contra. 
+          <lb ed="#V" n="96"/>ibidem 4o de trini. quod ad ampliandam potestatem generantis 
+          <lb ed="#V" n="97"/>ponitur vnigenitus coequalis.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e147">
+          ¶ hic primo videndum est 
+          <lb ed="#V" n="98"/>quid sit potentia.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e152">
+          ¶ 2o vtrum sit in diuinis. 
+          <lb ed="#V" n="99"/>ad primum quatuor sunt facienda. 
+          <lb ed="#V" n="100"/>Quantum
+        </p>
+        <p xml:id="FrMS88-e28871-d1e159">
+          ¶ Primo videndum est quid fit 
+          po<lb ed="#V" n="101" break="no"/>tentialitas. 2o quid sit potentia. 3o quid potentia 
+          ge<lb ed="#V" n="102" break="no"/>nerandi in patre. et 4o quid potentia generandi in filio.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e166">
+          ¶ 
+          Quan<lb ed="#V" n="103" break="no"/>tum ad primum. quid sit potentialitas dicit Scotus. quod est 
+          respe<lb ed="#V" n="104" break="no"/>ctus fundamentalis vel aptitudinalis. non formalis. 
+          <lb ed="#V" n="105"/>Respectus autem quidam dicuntur formales vel 
+          ac<lb ed="#V" n="106" break="no"/>tuales. qui actualiter sunt in fundamento. et actualiter in 
+          <lb ed="#V" n="107"/>formant. et actualiter habent terminum.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e179">
+          ¶ Alii dicunt 
+          aptitu<lb ed="#V" n="108" break="no"/>dinales. quando fundamentum concipitur vt aptum 
+          na<lb ed="#V" n="109" break="no"/>tum recipere vel fundare relationem realem actualem. quod 
+          <lb ed="#V" n="110"/>autem potentialitas sit respectus. patet. quia non potest concipi ni 
+          <lb ed="#V" n="111"/>si ad aliquid respectu cuius habens illam potetialitatem 
+          di<lb ed="#V" n="112" break="no"/>catur potens. quod autem sit aptitudinalis vel 
+          fundamen<lb ed="#V" n="113" break="no"/>talis. non actualis. patet. quia est sine termino. Nam 
+          mul<lb ed="#V" n="114" break="no"/>ta habent potentiam ad aliquid quod non est actu. Nullus 
+          <lb ed="#V" n="115"/>autem est respectus actualis vel formalis nisi 
+          respectu<lb ed="#V" n="116" break="no"/>alicuius quod est actu existens. sicut est respectus.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e201">
+          ¶ 
+          Quan<lb ed="#V" n="117" break="no"/>tum ad 2m quid sit potentia. Dico quod potentia est 
+          concre<lb ed="#V" n="118" break="no"/>tum potentialitatis. aliquid scilicet compositum ex fundamento 
+          <lb ed="#V" n="119"/>potentialitatis et ipsa potentialitate. Vel potest dici quod 
+          <lb ed="#V" n="120"/>potentia est illa naturalis perfectio in qua fundatur illa 
+          po<lb ed="#V" n="121" break="no"/>tentialitas. Nam sicut vnumquodque dicitur perfectum a 
+          perfe<lb ed="#V" n="122" break="no"/>ctione sibi insistente. sic quelibet potentia dicitur potens a 
+          <lb ed="#V" n="123"/>potentialitate in ipsa fundata: sicut passio in subiecto 
+          <lb ed="#V" n="124"/>Nam omnis naturalis habitudo dicitur passio respectu subiecti 
+          ar<lb ed="#V" n="125" break="no"/>ti nati: sicut risibilitas respectu hominis.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e224">
+          ¶ Quantum ad 
+          <lb ed="#V" n="126"/>tertium. quid sit potentia generandi in patre. Dico quod 
+          <lb ed="#V" n="127"/>est perfectio naturalis in qua fundatur potentialitas ad genera 
+          <lb ed="#V" n="128"/>bile inquantum generabile est. quia sicut generans inquantum 
+          <lb ed="#V" n="129"/>tale refertur ad genitum. sic generatiuum inquantum tale ad 
+          <lb ed="#V" n="130"/>generabile.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e237">
+          ¶ Quantum ad 4m. quid est potentia 
+          gene<lb ed="#V" n="131" break="no"/>randi in filio. dico quod est illud in quo fundatur potentiali 
+          <!--83.xml-->
+          <pb ed="#V" n="40-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>tas ad generari passiue respectu generatiui. Nam communiter dicitur quod 
+          <lb ed="#V" n="2"/>relatiua per se innuicem diffiniuntur. et sic dicit Augustius. 19. de 
+          <lb ed="#V" n="3"/>trini.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e255">
+          ¶ Sed hic sunt alique difficultates. Prima est. quia inste 
+          re<lb ed="#V" n="4" break="no"/>spectus fundamentalis: aut est aliquid absolutum. aut respe 
+          <lb ed="#V" n="5"/>ctiuum.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e262">
+          ¶ Dico quod non respectiuum quia sic esset processus 
+          in<lb ed="#V" n="6" break="no"/>infinitum: quia ad illum respectum esset aptitudo. Nec potest dici quod sit 
+          <lb ed="#V" n="7"/>absolutum: quia ille inuenitur in eo quod abstrahit ab absoluto 
+          <lb ed="#V" n="8"/>et respectiuo scilicet in ente. vtpote veritas et bonitas quae non 
+          di<lb ed="#V" n="9" break="no"/>cunt nisi respectus aptitudinales ad mouendum intellectum et 
+          <lb ed="#V" n="10"/>voluntatem.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e275">
+          ¶ 2a difficultas est. si respectus ille est idem cum 
+          funda<lb ed="#V" n="11" break="no"/>mento vel non. Dico quod ille respectus est passio perfectionis 
+          <lb ed="#V" n="12"/>fundantis ipsum et competit ei in 2o modo dicendi per se. quia est eius 
+          <lb ed="#V" n="13"/>naturalis aptitudo. omnis autem naturalis aptitudo siue ad accidens 
+          <lb ed="#V" n="14"/>siue ad aliud quodcumque. est per se passio illius cui competit. 
+          <lb ed="#V" n="15"/>Unde aptitudo ad ratiocinari est per se passio hominis: sicut 
+          ar<lb ed="#V" n="16" break="no"/>titudo ad ridendum. Unde homo non est homo: quia aptus natus ad 
+          ratio<lb ed="#V" n="17" break="no"/>cinari: nisi a posteriori: sed a priori: ideo est aptus natus 
+          ratio<lb ed="#V" n="18" break="no"/>cinari: quia est homo.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e295">
+          ¶ 3a difficultas est. si oportet positiaere ex parte filii vel 
+          <lb ed="#V" n="19"/>producti potentiam generandi.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e301">
+          ¶ Dico quod sic. Nam sicut omni 
+          po<lb ed="#V" n="20" break="no"/>tentie actiue corrspondet poto passiua: ita omni potentie 
+          producti<lb ed="#V" n="21" break="no"/>ue corrspondet potentia producendi passiue scilicet producibilitas. 
+          <lb ed="#V" n="22"/>Non est autem proprie potentia passiua: sicut nos accipimum 
+          <lb ed="#V" n="23"/>in creaturis: quia illa dicit imperfectionem. et talis non est in 
+          di<lb ed="#V" n="24" break="no"/>uinis: sicut ergo memoria in patre est potentia generatiua: ita 
+          <lb ed="#V" n="25"/>essentia in filio potest dici potentia generabilis.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e317">
+          ¶ 4a difficultas est. 
+          <lb ed="#V" n="26"/>quid est homo potentia in patre et filio.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e322">
+          ¶ Dico quod sicut 
+          me<lb ed="#V" n="27" break="no"/>moria fecunda est potentia generandi in patre. ita essentia 
+          <lb ed="#V" n="28"/>in filio est potentia generandi passiue.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e329">
+          ¶ Sed quantum ad 
+          <lb ed="#V" n="29"/>pmum dicit vnus doctor quod homo potentia in patre est ipsames 
+          <lb ed="#V" n="30"/>generatio: quia pater quo generat illo potest generare. sed generatione generat 
+        </p>
+        <p xml:id="FrMS88-e28871-d1e336">
+          <lb ed="#V" n="31"/>¶ Contra. quia secundum te posse deu generare dicit infinitam 
+          perfe<lb ed="#V" n="32" break="no"/>ctionem: sed generatio non est infinita perfectio.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e343">
+          ¶ 2o. quia omnis 
+          <lb ed="#V" n="33"/>perfectio infinita est communis patri et filio: sed generatio 
+          acti<lb ed="#V" n="34" break="no"/>ua non. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e351">
+          ¶ Et ideo dico sicut dixi. Tamen hic 
+          <lb ed="#V" n="35"/>sunt duo dubia. Primum est. quomodo diuina essentia potest esse 
+          <lb ed="#V" n="36"/>talis potentia generandi. cum sit absolutissima et talis 
+          poten<lb ed="#V" n="37" break="no"/>tialitas sit respectus. Dico quod sicut calor dicitur potentia 
+          ca<lb ed="#V" n="38" break="no"/>lefactiua fundamentaliter: quia fundat respectum aptitudina 
+          <lb ed="#V" n="39"/>lem potentialitatis. Ita diuina essentia habet respectum istium 
+          <lb ed="#V" n="40"/>potentialitatis fundamentalem secundum quem respectum forte dicitur 
+          <lb ed="#V" n="41"/>communicabilis.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e369">
+          ¶ 2m dubium est. qualiter essentia diuina ex per 
+          <lb ed="#V" n="42"/>te producti potest fundare istam potentialitatem scilicet producibilita. 
+          <lb ed="#V" n="43"/>tem quin ipsa sit producibilis.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e376">
+          ¶ Dico quod ille respectus 
+          <lb ed="#V" n="44"/>non est natus denominare nisi suppositum. sicut natura 
+          humana<lb ed="#V" n="45" break="no"/>nodo dicitur filius: sed fundamentum filiationis: quia 
+          fundat<lb ed="#V" n="46" break="no"/>respectum filiationis. Nec potentia generatiua in patre est 
+          pa<lb ed="#V" n="47" break="no"/>ter: licet fundet respectum paternitatis. 
+          <lb ed="#V" n="48"/>2o videndum est. si in diuinis sit potentia generandi. 
+          <lb ed="#V" n="49"/>Nunc Et hic dico duas conclusiones. Prima est de 
+          poten<lb ed="#V" n="50" break="no"/>tia vt se tenet ex parte producentis. 2a vt se tenet ex parte 
+          produ<lb ed="#V" n="51" break="no"/>ti.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e396">
+          ¶ Prim ma conclusio quod in diuinis est potentia generandi v 
+          <lb ed="#V" n="52"/>qua pater potest generare. Istam conclusione probo euidenter. per 
+          supponen<lb ed="#V" n="53" break="no"/>do vnam regulam satis euidentem scilicet quod omnis relatio 
+          posteri<lb ed="#V" n="54" break="no"/>or est suo termino. hanc probo sic. omne diffinitum per aliquid 
+          <lb ed="#V" n="55"/>necessario est posterius illo. hoc patet. quia omnis diffinitio vel est 
+          es<lb ed="#V" n="56" break="no"/>sentialis. et tunc diffinientia sunt genus et differentia de quibus 
+          <lb ed="#V" n="57"/>constat quod sunt priora secundum naturam diffinito. Vel est per 
+          addi<lb ed="#V" n="58" break="no"/>tamentum. et tunc est certum quod diffiniens ipsum scilicet additamentum 
+          <lb ed="#V" n="59"/>est prius diffinito: sicut patet de substantia quae ponitur vt 
+          addita<lb ed="#V" n="60" break="no"/>mentum in diffinitione accidentis: sed relatio diffinitur per terminum 
+          <lb ed="#V" n="61"/>ergo est posterior eo.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e420">
+          ¶ Ex ista reglalsa supposita et probata. 
+          <lb ed="#V" n="62"/>arguo sic. generatio passiua in filio est relatio. ergo habet terminum 
+          <lb ed="#V" n="63"/>in patre. sed terminus non est nisi essentia. ergo essentia erit quo 
+          <lb ed="#V" n="64"/>respectu generationis. Nam illud quod terminat generationem 
+          <lb ed="#V" n="65"/>passiuam est proprie qui respectu eius. Probo autem quod nihil in 
+          pa<lb ed="#V" n="66" break="no"/>tre poterit terminare generationem passiuam nisi essentia: vel 
+          <!--83.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>aliquid essentiale scilicet ipsa memoria: quia in patre non est nisi gen 
+          <lb ed="#V" n="68"/>neratio actiua: et illa non potest esse terminus. quia est similis nam cum 
+          <lb ed="#V" n="69"/>generatione passiua. terminus autem est prior. Nec etiam pter scilicet 
+          ipsa<lb ed="#V" n="70" break="no"/>met persona constitutiua potest esse terminus: quia relatio est 
+          poste<lb ed="#V" n="71" break="no"/>rior termino: sed generatio passiua est prior patre constituto: quia est 
+          <lb ed="#V" n="72"/>simul natura cum generatione actiua: quae est prior natura ipso patre quia eius 
+          <lb ed="#V" n="73"/>formale principium constitutiuum. Relinquitur ergo quod sit aliquid 
+          essentia<lb ed="#V" n="74" break="no"/>le: et non est nisi memoria.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e455">
+          ¶ 2o sic. In esentialiter ordinatis 
+          <lb ed="#V" n="75"/>vbi est posterius. ibi est prius: sed quo et quod sunt essentialiter 
+          <lb ed="#V" n="76"/>ordinata. et quo est prius. quia actio competit per quo: ipsi quod. 
+        </p>
+        <p xml:id="FrMS88-e28871-d1e463">
+          <lb ed="#V" n="77"/>¶ Ex hoc arguo sic. quandocumque aliquid competit alicui per 
+          <lb ed="#V" n="78"/>aliud: illud per quod competit sibi est prius: sed per quo 
+          <lb ed="#V" n="79"/>competit ipsi quod quod agat ergo illud quo agens agit est prius 
+          <lb ed="#V" n="80"/>essentialiter. Cum ergo in diuinis sit quod agit. oportet sibi dare 
+          po<lb ed="#V" n="81" break="no"/>generandi quo quia nihil aliud voco quo nisi potentiam. 
+          <lb ed="#V" n="82"/>generandi.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e479">
+          ¶ Sed hic instatur 4r. Et per sic. sicut se habet 
+          po<lb ed="#V" n="83" break="no"/>tentia intellectiua ad actum intelligendi et intelligibile: ita 
+          <lb ed="#V" n="84"/>idetur se habere potentia generatiua ad actum generandi et generabile: sed 
+          <lb ed="#V" n="85"/>intellectus non respicit intelligibile nisi per actum 
+          intelligen<lb ed="#V" n="86" break="no"/>di quem prius respicit. ergo nec potentia generandi generabile ni 
+          <lb ed="#V" n="87"/>si per actu generandi. sed respectu actus generandi non est quo. ergo 
+          <lb ed="#V" n="88"/>nec respectu generabilis erit quo.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e495">
+          ¶ 2o sic. potentia visiua 
+          <lb ed="#V" n="89"/>primo dicitur visiua respectu actus. ergo a simili potentia 
+          <lb ed="#V" n="90"/>generatiua per dicetur potentia generatiua respectu actus 
+          ge<lb ed="#V" n="91" break="no"/>nerandi.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e504">
+          ¶ 3o sic. Cuius est potentia eius est actus. nam in eodem 
+          <lb ed="#V" n="92"/>habunt esse: si ergo essentia vel memoria est potentia 
+          generan<lb ed="#V" n="93" break="no"/>di. eius postea erit actus generandi. et sic erit generans. 
+        </p>
+        <p xml:id="FrMS88-e28871-d1e511">
+          <lb ed="#V" n="94"/>¶ 4o sic. omne generatiuum potest fundare respectum generationis: 
+          <lb ed="#V" n="95"/>sed pater non potest fundare respectum generationis: ideo non est 
+          ge<lb ed="#V" n="96" break="no"/>ne atiuus. Minor patet. quia sicut fundamentum 
+          presuppo<lb ed="#V" n="97" break="no"/>nitur a respectu: ita generatio praesupponeret patrem. et sic non 
+          <lb ed="#V" n="98"/>constitueret. quod est falsum.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e524">
+          ¶ Ad ista.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e528">
+          ¶ Ad primum 
+          concessa<lb ed="#V" n="99" break="no"/>maiore. negatur minor. Nam potentia intellectiua prius 
+          <lb ed="#V" n="100"/>respicit intelligibile quam actum intelligendi. inquantum 
+          in<lb ed="#V" n="101" break="no"/>tellectiua est. sicut calefactiua calefactibile. Actus autem 
+          <lb ed="#V" n="102"/>intelligendi non est primo intelligibilis nisi per actum 
+          <lb ed="#V" n="103"/>reflexum. nec comparatur potentia intellectiua ad actum 
+          intel<lb ed="#V" n="104" break="no"/>ligendi: vt ad intelligibile. Primo ergo respicit 
+          intelli<lb ed="#V" n="105" break="no"/>gibile antequam respiciat actum intelligendi. Et similiter dico de 
+          <lb ed="#V" n="106"/>potentia generatiua. quod prius respicit generabile quam actum 
+          <lb ed="#V" n="107"/>generandi.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e550">
+          ¶ Similiter dico ad 2m de potentia visiua. Nam 
+          <lb ed="#V" n="108"/>ipsa primo respicit visibile praecise: et non actum videndi: quia ipse 
+          <lb ed="#V" n="109"/>non est visibilis. Unde dico quod potentia visiua inquantum 
+          <lb ed="#V" n="110"/>visiua est. praecise respicit visibile.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e559">
+          ¶ Sed contra. sicut risibi 
+          <lb ed="#V" n="111"/>litas dicitur esse naturalis aptitudo ad actum ridendi qui est 
+          in<lb ed="#V" n="112" break="no"/>ridente formaliter. ita generatiuitas et potentia generati 
+          <lb ed="#V" n="113"/>ua visiua. intellectiua. respectu suorum actuum qui in eis 
+          re<lb ed="#V" n="114" break="no"/>cipiuntur formaliter sunt naturales aptitudines. Respiciunt 
+          <lb ed="#V" n="115"/>ergo suos actus et non suos terminos.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e572">
+          ¶ Ad hoc dico 
+          <lb ed="#V" n="116"/>quod risibilitas inquantum talis non est nisi potentia receptiua. 
+          <lb ed="#V" n="117"/>non est autem sic de istis aliis potentiis. quia plus dicunt 
+          <lb ed="#V" n="118"/>quam receptiuum. Unde hec inquantum receptiue sunt posset 
+          <lb ed="#V" n="119"/>concedi conclusio argumenti: quia non sunt nisi naturales 
+          ap<lb ed="#V" n="120" break="no"/>titudinines ad recipiendum tales actus.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e585">
+          ¶ Ad 3m dico et 
+          <lb ed="#V" n="121"/>concedo quod in essentia fundatur generatio. non tamen 
+          denomina<lb ed="#V" n="122" break="no"/>sicut prius deductum fuit. quia quedam relationes sunt 
+          cua<lb ed="#V" n="123" break="no"/>non denominant nisi suppositum. non autem fundamentum. 
+        </p>
+        <p xml:id="FrMS88-e28871-d1e594">
+          <lb ed="#V" n="124"/>¶ Ad 4m dico. quod illud generatiuum quod non constituitur 
+          <lb ed="#V" n="125"/>in esse personali per respectum generationis: illud 
+          inqua<lb ed="#V" n="126" break="no"/>potest bene fundare: sed in proposito non est sic. quia pater 
+          con<lb ed="#V" n="127" break="no"/>stituitur per relationem.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e606">
+          ¶ Sed posito quod potentia sit 
+          <lb ed="#V" n="128"/>sic in deo et ipsa non sit relatio: tunc ipsa videtur esse 
+          aliquo<lb ed="#V" n="129" break="no"/>perfectio. potentia autem non dicit aliquid per se vnum 
+        </p>
+        <p xml:id="FrMS88-e28871-d1e613">
+          <lb ed="#V" n="130"/>¶ Dico quod potentia accipitur vt suppositioit pro 
+          fundamen<lb ed="#V" n="131" break="no"/>to. et sic est vna. non autem vt supponit pro toto.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e620">
+          ¶ Contra. 
+          <lb ed="#V" n="132"/>multiplicato fundamento multiplicatur potentia acci 
+          <!--84.xml-->
+          <pb ed="#V" n="41-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>piendo potentiam etiam: vt tum dicis: sed fundamentum 
+          multipli<lb ed="#V" n="2" break="no"/>catur in pre. quia memoria fecunda continet duo scilicet essentiam 
+          <lb ed="#V" n="3"/>et intellectum.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e638">
+          ¶ Dico ergo ad hoc quod quando sunt duo principim partialia non 
+          <lb ed="#V" n="4"/>totalia: quarum vnum est idem identice alteri. tunc vnus respecus 
+          <lb ed="#V" n="5"/>princinpiationis potest in eis fundare: et sic non erit nisi vna 
+          <lb ed="#V" n="6"/>actio et vna totalis potentia.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e647">
+          ¶ 2a conclusio est. quod potentia generandi 
+          pas<lb ed="#V" n="7" break="no"/>siue est in filio. Et hoc probo sic. Omnis habitudo que est int 
+          <lb ed="#V" n="8"/>extrema praesupponit ea: sed actiua generatio est quaedam 
+          habitu<lb ed="#V" n="9" break="no"/>do que est in patre. ergo oportet quod in filio correspondeat sibi 
+          termi<lb ed="#V" n="10" break="no"/>nus. non potest autem esse generatio passiua in filio: quia illa est 
+          sei<lb ed="#V" n="11" break="no"/>mul nam cum ea. terminus autem prius est natuam relatione. nec potest 
+          <lb ed="#V" n="12"/>esse filius: quia posterius est relatione et generatione passiua: quia 
+          <lb ed="#V" n="13"/>constituitur per eam: et per consequens est posterior generatione actiua. 
+          Re<lb ed="#V" n="14" break="no"/>linquitur ergo quod sit essentia. terminus autem qui terminat vt quae 
+          <lb ed="#V" n="15"/>generationem actiuam. illum voco qui respectu generationis. ergo etc. 
+        </p>
+        <p xml:id="FrMS88-e28871-d1e669">
+          <lb ed="#V" n="16"/>¶ 2o quia vbicunque est posse generari. ibi est potentia generandi: sed 
+          <lb ed="#V" n="17"/>in filio est posse generari. ergo et in filio est potentia generandi. 
+          Ma<lb ed="#V" n="18" break="no"/>ior patet. quia vbi est effectus formalis. ibi est forma cuius 
+          <lb ed="#V" n="19"/>est effectus. posse autem generari est effectus potentie generandi. ergo 
+          <lb ed="#V" n="20"/>vbi est posse generari ibi est potentia generandi.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e683">
+          ¶ Sed contra primam 
+          <lb ed="#V" n="21"/>contlusionem arguit vnus doc scilicet De. ostendens quod in diuinis non est 
+          <lb ed="#V" n="22"/>potentia generandi que sit elicitiua actus genandi: et ex consequenti non 
+          <lb ed="#V" n="23"/>erit ibi potentia gneandi. si enim non est respectu actus: nec per consequens 
+          <lb ed="#V" n="24"/>respectu termini erit. Probat ergo hoc antecedens 4r quod non sit in 
+          <lb ed="#V" n="25"/>deo potentia respectu actus. et arguit sic. potentia que est ad actum 
+          <lb ed="#V" n="26"/>qui non est elicitus: non est potentia elicitiua: sed actus 
+          ge<lb ed="#V" n="27" break="no"/>nerandi in supposito patris non est elicitus: cum pater habeat 
+          <lb ed="#V" n="28"/>omnia a se. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e703">
+          ¶ 2o sic. posse generare: et posse esse patrem est 
+          <lb ed="#V" n="29"/>idem. cum idem sit paternitas et generatio sed potentia essendi patrem non est 
+          <lb ed="#V" n="30"/>elicitiua: quia tunc pater posset se producere. quod est absurdum 
+        </p>
+        <p xml:id="FrMS88-e28871-d1e710">
+          <lb ed="#V" n="31"/>¶ 3o sic. primi suppositi ad suum constitutiuum non est 
+          elici<lb ed="#V" n="32" break="no"/>tiua potentia: quia tunc haberet potentiam producendi seipsum.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e717">
+          ¶ 4o 
+          <lb ed="#V" n="33"/>sic. potentia generatiua vel productiua non recipit intra se actum 
+          <lb ed="#V" n="34"/>fuum. sed pater habet intra se formaliter actum generandi.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e724">
+          ¶ 
+          Con<lb ed="#V" n="35" break="no"/>clusionem quam probant iste rationes reputo verissime 
+          demon<lb ed="#V" n="36" break="no"/>stratam: et demonstrabilem cuicumque catholico scilicet quod persona 
+          <lb ed="#V" n="37"/>patris nihil potest esse formaliter quod sit elicitum. consequens 
+          tamen<lb ed="#V" n="38" break="no"/>quod videtur inferre ex haec scilicet quod quia non est potentia respectu actus non 
+          <lb ed="#V" n="39"/>est simpliciter potentia generandi in diuinis. hoc reputo 
+          <lb ed="#V" n="40"/>falsum. Et falsitatem eius probo per rationes proprias quas 
+          addu<lb ed="#V" n="41" break="no"/>cit ad antecedens.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e742">
+          ¶ Primo sic. omnis potentia que est ad aliquid elici 
+          <lb ed="#V" n="42"/>tum per ipsam: ipsa est elicitiua: sed potentia patris est ad 
+          ali<lb ed="#V" n="43" break="no"/>quid elicitum scilicet ad 2m suppositum quod est vere elicitum. ergo ipsa 
+          <lb ed="#V" n="44"/>est elicitiua. et per consequens vere generatiua.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e752">
+          ¶ 2o sic. si posse gene 
+          <lb ed="#V" n="45"/>rare est posse esse patrem. respectu cuiuscumque erit pater: 
+          <lb ed="#V" n="46"/>respectu eiusdem erit potens generare: sed ille est pater 
+          respe<lb ed="#V" n="47" break="no"/>ctu suppositi eliciti scilicet filii. ergo habet potentiam elicitiuam 
+        </p>
+        <p xml:id="FrMS88-e28871-d1e761">
+          <lb ed="#V" n="48"/>¶ 3o sic. omne suppositum aliud suppositum producens habet 
+          <lb ed="#V" n="49"/>potentiam elicitiuam respectu suppositi producti: sed patur 
+          <lb ed="#V" n="50"/>est producens filium. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e770">
+          ¶ 4o sic. omnis potentia generatiua est elici 
+          <lb ed="#V" n="51"/>tiua eius quod est extra se. sed verbum est extra patreem. ergo etc. 
+        </p>
+        <p xml:id="FrMS88-e28871-d1e775">
+          <lb ed="#V" n="52"/>¶ Sed dices. est ne potentia creandi potentia elicitiua. 
+          Di<lb ed="#V" n="53" break="no"/>co quod non est simile de potentia creatiua et generatiua: quia potentia 
+          crea<lb ed="#V" n="54" break="no"/>tiua non est ad aliquem actum qui sit in deo formaliter. potetia 
+          <lb ed="#V" n="55"/>autem generatiua sic. Dico tamen quod potentia creatiua est vere eliciti 
+          <lb ed="#V" n="56"/>ua. quia scilicet est productiua respectu creature. omne autem 
+          producti<lb ed="#V" n="57" break="no"/>uum: et similiter omne causatum est elicitiuum.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e791">
+          ¶ Sed adhuc est 
+          du<lb ed="#V" n="58" break="no"/>bium vtrum potentia generatiua in creaturis est elicitiua actus 
+          <lb ed="#V" n="59"/>generandi. Dico quod non est elicitiua ipsius generationis que 
+          <lb ed="#V" n="60"/>est accidens eius commune. cum non producatur ab ea in genere 
+          caus<lb ed="#V" n="61" break="no"/>efficientis: sed solum in genere causare materialis causatur: quia est 
+          acci<lb ed="#V" n="62" break="no"/>dens eius commune. hic autem accipitur elicitio pro 
+          productio<lb ed="#V" n="63" break="no"/>ne. hec autem potentia solum recipit actum illum: et iterum potentia 
+          produ<lb ed="#V" n="64" break="no"/>ctiua inquantum talis non est nisi respcum producti. et generatiua 
+          <lb ed="#V" n="65"/>respcum geniti.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e811">
+          ¶ Confirmatur. quia generans non dicitur generationem ge 
+          <lb ed="#V" n="66"/>uerare: sed genitum. Dico ergo quod vbicumque est potentia productiua 
+          <!--84.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>inquantum talis semper respicit productum.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e823">
+          ¶ Contra 2m conclusione 
+          <lb ed="#V" n="68"/>istatur 4r. Primo sic. quia licet potentia actiua dicat perfectionem. potentia 
+          <lb ed="#V" n="69"/>tamen passiua dicit imperfectionem: ergo non est ponenda in filio. 
+        </p>
+        <p xml:id="FrMS88-e28871-d1e830">
+          <lb ed="#V" n="70"/>¶ 2o sic. creatura iccirco est in potentia obiectiua: quia creabilis 
+          <lb ed="#V" n="71"/>ergo eodem modo verbum erit in potentia obiectiua. quia generabile. 
+        </p>
+        <p xml:id="FrMS88-e28871-d1e837">
+          <lb ed="#V" n="72"/>¶ 3o sic. Omnis naturalis aptitudo prius concipitur suo actu sed 
+          ver<lb ed="#V" n="73" break="no"/>bum non potest prius concipi sue generationi cum sit eius constitutiua in esse 
+          <lb ed="#V" n="74"/>verbi.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e846">
+          ¶ 4o sic. Sicut in gnratiuo fundatur genero actiua: ita 
+          <lb ed="#V" n="75"/>in generabili fundatur generatio passiua: sed ipsa non potest 
+          funda<lb ed="#V" n="76" break="no"/>ri in filio: quia ipsum constituit: et per consequens est prior eo. ergo filius 
+          <lb ed="#V" n="77"/>non erit generabilis.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e855">
+          ¶ Ad primum istorum dico quod proprie 
+          accipien<lb ed="#V" n="78" break="no"/>do potentia productiua non est actiua nec sua corrspondens ex 
+          par<lb ed="#V" n="79" break="no"/>te producti est passiua. producti enim non est pati: et ideo dico quod 
+          <lb ed="#V" n="80"/>nullam imperfectionem dicit.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e864">
+          ¶ Ad 2m dico quod verbum non est in 
+          <lb ed="#V" n="81"/>poteitioa: quia ex sua quiditate est constitutum per productionem: et ita 
+          <lb ed="#V" n="82"/>cludit in ratione sua formali quiditatiua actualem generationem. 
+          <lb ed="#V" n="83"/>vt supra dictum est. nullum autem tale potest esse in potentia obiectiua. 
+          <lb ed="#V" n="84"/>Uerumtamen potest dici quod essemus posset dici in potentia: et in illo priori 
+          <lb ed="#V" n="85"/>pro quo intelligitur non habere generationem passiuam. posset 
+          concedi<lb ed="#V" n="86" break="no"/>sed tamen non proprie. ipsum autem quod est constitutum per actualem 
+          pro<lb ed="#V" n="87" break="no"/>ductionem nullo modo potest dici esse in potentia obiectiua. creatura 
+          <lb ed="#V" n="88"/>autem potest dici esse in potentia obiectiua: quia non constituitur in esse per 
+          <lb ed="#V" n="89"/>actualem productionem. et prius est producibilis quam 
+          produca<lb ed="#V" n="90" break="no"/>tur tam natura quam tempore. et per hoc ad alia.
+        </p>
+        <p xml:id="FrMS88-e28871-d1e889">
+          ¶ Ad 
+          aucto<lb ed="#V" n="91" break="no"/>ritatem in principio patet. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

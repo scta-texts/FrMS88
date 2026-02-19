@@ -1,227 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#V" n="67-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e49029"><!-- l1d14-16q2 -->
-            <head xml:id="FrMS88-e49029-Hd1e108">Quaestio 2</head>
-            <p xml:id="FrMS88-e49029-d1e111">
-      Questio. ii. 
-      <lb ed="#V" n="7"/>UTrum in diuinis sit ordo 
-      accidenta<lb ed="#V" n="8" break="no"/>lis. Quod non. quia in deo nullum 
-      <lb ed="#V" n="9"/>est accidens. ergo nec ordo accidentalis.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e120">
-      ¶ 
-      Con<lb ed="#V" n="10" break="no"/>tra. Nam inter substantias inuenitur ordo 
-      ac<lb ed="#V" n="11" break="no"/>Egat cidentalis vt iam ostensum est. ergo deo non 
-      re<lb ed="#V" n="12" break="no"/>pugnat.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e129">
-      ¶ hic sicut in praecedenti. qu. videndum est primo quid siut 
-      <lb ed="#V" n="13"/>ordo accidentalis. 2o si in diuinis sit. 
-      <lb ed="#V" n="14"/>ad primum dico. quod sicut ordo consequens 
-      extre<lb ed="#V" n="15" break="no"/>Quantum ma per se est essentialis. ita ordo consequens / 
-      ex<lb ed="#V" n="16" break="no"/>trema per accidens est accidentalis. sicut ordo localis est ad 
-      <lb ed="#V" n="17"/>cidentalis. et sicut ordo durationis. nam non repugnat 
-      or<lb ed="#V" n="18" break="no"/>dinatio vt prius secundum vnum instorum ordinum: etiam ordinari: vt 
-      po<lb ed="#V" n="19" break="no"/>sterius: vt quod est prius secundum locum vel tempus potest esse sine 
-      <lb ed="#V" n="20"/>repugnantia posterius.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e149">
-      ¶ Nunc vidende sunt 4or 
-      regule<lb ed="#V" n="21" break="no"/>declarantes istum ordinem opposite prioribus datis 
-      regu<lb ed="#V" n="22" break="no"/>lis de ordine essentiali.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e157">
-      ¶ Prima est. priori in ordine 
-      ac<lb ed="#V" n="23" break="no"/>cidentali non repugnat esse sine posteriori: nec econuerso. 
-      <lb ed="#V" n="24"/>quia quecumque accidentalem connexionem habent adinuincem: 
-      acci<lb ed="#V" n="25" break="no"/>dunt sibi adiuicem: sed ordinata isto ordine sunt huiusmod scilicet habent 
-      <lb ed="#V" n="26"/>accidentalem connexionem adinuinceme: ergo sicut prius 
-      po<lb ed="#V" n="27" break="no"/>test esse sine posteriori: ita econuerso.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e170">
-      ¶ Secunda regula est. 
-      <lb ed="#V" n="28"/>quod in isto ordine possibilis est circulatio: sicut patet de 
-      <lb ed="#V" n="29"/>motu locali circulari: cuius partes sunt eiusdem rationis: et 
-      <lb ed="#V" n="30"/>per accidens ordinate. Illem autem qui est prior contingit esse 
-      po<lb ed="#V" n="31" break="no"/>sterior. et posterior prior: quia pars que primo est prior postea 
-      <lb ed="#V" n="32"/>est posterior: et econuerso propter circulum.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e183">
-      ¶ Tertia 
-      re<lb ed="#V" n="33" break="no"/>gula est. quod in isto ordine potest esse processus in infinitum: quia 
-      <lb ed="#V" n="34"/>vnum aliud non praesupponit: cuius oppositum est in ordine 
-      <lb ed="#V" n="35"/>essentiali.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e192">
-      ¶ 4a regula est. quod inter illa quae sunt eiusdem 
-      ratio<lb ed="#V" n="36" break="no"/>nis est accidentalis ordo: cuius oppositum est in ordine 
-      <lb ed="#V" n="37"/>essentiali. quare negatur ibi processus in infinitum. hic non potest 
-      <lb ed="#V" n="38"/>negari: vt patet.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e201">
-      ¶ Contra primam: quia prius et posterius sunt 
-      <lb ed="#V" n="39"/>correlatiua secundum quemcumque ordinem: sed correlatiua posita 
-      <lb ed="#V" n="40"/>se ponunt: et vnum non potest esse sine alio: ergo sequitur quod vnum 
-      <lb ed="#V" n="41"/>istorum ordinatorum non potest esse sine alio. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e210">
-      ¶ 2o sic. 
-      <lb ed="#V" n="42"/>contra secundam regulam. quia in quocumque ordine impossibile est idem 
-      <lb ed="#V" n="43"/>esse prius seipso. Sed si esset possibilis circulatio in 
-      accidene<lb ed="#V" n="44" break="no"/>taliter ordinatis: ita sequeretur quod idem esset prius seipso: 
-      si<lb ed="#V" n="45" break="no"/>cut in ordine essentiali. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e222">
-      ¶ 3o contra tertiam. posito 
-      pro<lb ed="#V" n="46" break="no"/>cessu in infinitum in accidentaliter ordinatis: sequitur illud 
-      <lb ed="#V" n="47"/>idem in essentialiter ordinatis: quia quocunque addito fit 
-      <lb ed="#V" n="48"/>noua species numeri: inter quas est essentialis ordo: 
-      <lb ed="#V" n="49"/>sed inter illa essentialiter ordinata non est: accidentalis ordo: 
-      <lb ed="#V" n="50"/>ergo nec est inter ista.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e235">
-      ¶ 4a contra quartam: inter illa que sunt 
-      <lb ed="#V" n="51"/>eiusdem rationis non potest esse relatio disquiperantie: sed prius 
-      <lb ed="#V" n="52"/>et posterius: que importat ordo accidentalis. sunt 
-      rela<lb ed="#V" n="53" break="no"/>tiones disquiperantie. ergo videtur quod non possit esse inter 
-      <lb ed="#V" n="54"/>ea que sunt eiusdem rationis ordo accidentalis.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e246">
-      ¶ Ad primum 
-      <lb ed="#V" n="55"/>dico. quod prius et posterius possunt accipi dupliciter. Uno modo 
-      <lb ed="#V" n="56"/>formaliter: vt scilicet dicunt relationes prioritatis et posteriorita 
-      <lb ed="#V" n="57"/>tis: vel composita ex fundamento et respectu. et isto 
-      mo<lb ed="#V" n="58" break="no"/>do in quocumque ordine prius non potest esse sine 
-      posterio<lb ed="#V" n="59" break="no"/>ri.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e259">
-      ¶ Alio modo possunt accipi fundamentaliter: vt 
-      suppo<lb ed="#V" n="60" break="no"/>nunt pro fundamentis relationum: et isto modo in 
-      accidentali<lb ed="#V" n="61" break="no"/>ter ordinatis prius potest esse sine posteriori: et econverso. In 
-      essen<lb ed="#V" n="62" break="no"/>tialiter autem ordinatis licet prius possit esse sine posteriori: 
-      <lb ed="#V" n="63"/>non tamen econuerso.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e270">
-      ¶ Ad 2m dico. quod sicut non est 
-      incom<lb ed="#V" n="64" break="no"/>ueniens quod idem differat a seipso per accidens. ita non est 
-      <lb ed="#V" n="65"/>inconueniens quod idem sit prius seipso per accidens. 
-      ta<lb ed="#V" n="66" break="no"/>men essentialiter loquendo scilicet ex ratione formali. nec vnum: 
-      <!--137.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>nec aliud est possibile.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e286">
-      ¶ Ad 3m dico de numeris et 
-      spe<lb ed="#V" n="68" break="no"/>ciebus numerorum quod ad posterius eundo in essentialiter 
-      <lb ed="#V" n="69"/>ordinatis potest esse processus in infinitum: vt ostensum est 
-      <lb ed="#V" n="70"/>non tamen ad prius: in proposito autem sequitur non solum 
-      <lb ed="#V" n="71"/>versus posterius: sed etiam versus prius.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e298">
-      ¶ Ad 4m dico. 
-      <lb ed="#V" n="72"/>quod impossibile est prius et posterius esse inter 
-      indiuidua<lb ed="#V" n="73" break="no"/>eiusdem rationis praecise: sed vbicumque est ordo secundum prius et 
-      po<lb ed="#V" n="74" break="no"/>sterius siue accidentalis: siue alius: semper in ordinatis  
-      <lb ed="#V" n="75"/>sunt aliqua alterius et alterius rationis: quibus tamen 
-      indi<lb ed="#V" n="76" break="no"/>uidua eiusdem rationis per accidens coniunguntur.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e311">
-      ¶ 
-      Exen<lb ed="#V" n="77" break="no"/>plum de ordine secundum locum qui est inter Petrum et 
-      mau<lb ed="#V" n="78" break="no"/>ritium: quibus necessario sunt annexa distincta vbi spe 
-      <lb ed="#V" n="79"/>cie: ad hoc quod ipsa sint ordinata secundum locum. Unde dico 
-      <lb ed="#V" n="80"/>et concedo generaliter loquendo. quod omnis ordo 
-      acciden<lb ed="#V" n="81" break="no"/>talis reducitur ad essentiam: nec est possibile inuenire 
-      <lb ed="#V" n="82"/>ordinem accidentalem sine essentiali. 
-      <lb ed="#V" n="83"/>ad 2m praencinpale scilicet Utrum ordo 
-      acciden<lb ed="#V" n="84" break="no"/>Quantum talis sit in diuinis. Dico quod non inter 
-      <lb ed="#V" n="85"/>perfectiones quiditatiuas: nec inter relationes de quibus dictum 
-      <lb ed="#V" n="86"/>est superius. Tamen inter relationes communes non videtur inconueniens 
-      <lb ed="#V" n="87"/>ponere. Similitudo enim qua patet filio similis est: 
-      prior<lb ed="#V" n="88" break="no"/>est similitudine qua spiritussanctus similis est patri. que 
-      ta<lb ed="#V" n="89" break="no"/>men sunt vel possunt esse eiusdem rationis: et sic videtur quod talis acci 
-      <lb ed="#V" n="90"/>dentalis ordo est inter istas relationes.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e344">
-      ¶ Intelligendum tamen 
-      <lb ed="#V" n="91"/>est. quod ordo accidentalis potest accipi dupliciter. sicut et accidens. 
-      <lb ed="#V" n="92"/>Conuenit enim aliquid alteri accidere. sicut accidens accidit 
-      <lb ed="#V" n="93"/>subiecto. Vel alio modo sicut inferius accidit superiori: sicut 
-      di<lb ed="#V" n="94" break="no"/>cimus quod accidit animali quod sit risibile. Isto 2o modo potest est 
-      <lb ed="#V" n="95"/>se in quiditatiuis perfectionibus ordo accidentalis: sicut 
-      po<lb ed="#V" n="96" break="no"/>test patere per ea que dicta sunt superius. quod sic declaratur 
-      <lb ed="#V" n="97"/>Nam spiritus se habet ad rationem deitatis: sicut quoddam 
-      sub<lb ed="#V" n="98" break="no"/>alternum. Spiritus autem ex eo quod spiritus non est posterior 
-      dei<lb ed="#V" n="99" break="no"/>tate: subalternum semper est posterius quocumque alio 
-      spe<lb ed="#V" n="100" break="no"/>cialissimo: quia tamen in deo: propter per fectionem: priora sunt quae sunt 
-      <lb ed="#V" n="101"/>perfectiora. et ratio detatis est perfectior. relinquitur quod sit 
-      <lb ed="#V" n="102"/>prior. spiritus posterior. In creaturis autem: quia imperfectiora 
-      <lb ed="#V" n="103"/>sunt priora propter imperfectionem: et subalterna sunt 
-      imper<lb ed="#V" n="104" break="no"/>fectiora specialissimis: hinc est quod spiritus. quia subalternum. 
-      <lb ed="#V" n="105"/>est prior natura specifica angeli: non ordinatur ergo 
-      dei<lb ed="#V" n="106" break="no"/>tas ad rationem spiritus ex ratione quiditatiua spiritus 
-      <lb ed="#V" n="107"/>eo modo quo nunc ordinatur: sed ex alio. Eodem 
-      mo<lb ed="#V" n="108" break="no"/>do dico de spritu respectu entitatis: quia in creaturis 
-      en<lb ed="#V" n="109" break="no"/>titas est prior: et in deo posterior secundum vnum modum 
-      di<lb ed="#V" n="110" break="no"/>cendi superius.
-    </p>
-            <p xml:id="FrMS88-e49029-d1e390">
-      ¶ Ad argumentum in oppositum per 
-      <lb ed="#V" n="111"/>iam dicta patet. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="67-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e49029"><!-- l1d14-16q2 -->
+        <head xml:id="FrMS88-e49029-Hd1e108">Quaestio 2</head>
+        <p xml:id="FrMS88-e49029-d1e111">
+          Questio. ii. 
+          <lb ed="#V" n="7"/>UTrum in diuinis sit ordo 
+          accidenta<lb ed="#V" n="8" break="no"/>lis. Quod non. quia in deo nullum 
+          <lb ed="#V" n="9"/>est accidens. ergo nec ordo accidentalis.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e120">
+          ¶ 
+          Con<lb ed="#V" n="10" break="no"/>tra. Nam inter substantias inuenitur ordo 
+          ac<lb ed="#V" n="11" break="no"/>Egat cidentalis vt iam ostensum est. ergo deo non 
+          re<lb ed="#V" n="12" break="no"/>pugnat.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e129">
+          ¶ hic sicut in praecedenti. qu. videndum est primo quid siut 
+          <lb ed="#V" n="13"/>ordo accidentalis. 2o si in diuinis sit. 
+          <lb ed="#V" n="14"/>ad primum dico. quod sicut ordo consequens 
+          extre<lb ed="#V" n="15" break="no"/>Quantum ma per se est essentialis. ita ordo consequens / 
+          ex<lb ed="#V" n="16" break="no"/>trema per accidens est accidentalis. sicut ordo localis est ad 
+          <lb ed="#V" n="17"/>cidentalis. et sicut ordo durationis. nam non repugnat 
+          or<lb ed="#V" n="18" break="no"/>dinatio vt prius secundum vnum instorum ordinum: etiam ordinari: vt 
+          po<lb ed="#V" n="19" break="no"/>sterius: vt quod est prius secundum locum vel tempus potest esse sine 
+          <lb ed="#V" n="20"/>repugnantia posterius.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e149">
+          ¶ Nunc vidende sunt 4or 
+          regule<lb ed="#V" n="21" break="no"/>declarantes istum ordinem opposite prioribus datis 
+          regu<lb ed="#V" n="22" break="no"/>lis de ordine essentiali.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e157">
+          ¶ Prima est. priori in ordine 
+          ac<lb ed="#V" n="23" break="no"/>cidentali non repugnat esse sine posteriori: nec econuerso. 
+          <lb ed="#V" n="24"/>quia quecumque accidentalem connexionem habent adinuincem: 
+          acci<lb ed="#V" n="25" break="no"/>dunt sibi adiuicem: sed ordinata isto ordine sunt huiusmod scilicet habent 
+          <lb ed="#V" n="26"/>accidentalem connexionem adinuinceme: ergo sicut prius 
+          po<lb ed="#V" n="27" break="no"/>test esse sine posteriori: ita econuerso.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e170">
+          ¶ Secunda regula est. 
+          <lb ed="#V" n="28"/>quod in isto ordine possibilis est circulatio: sicut patet de 
+          <lb ed="#V" n="29"/>motu locali circulari: cuius partes sunt eiusdem rationis: et 
+          <lb ed="#V" n="30"/>per accidens ordinate. Illem autem qui est prior contingit esse 
+          po<lb ed="#V" n="31" break="no"/>sterior. et posterior prior: quia pars que primo est prior postea 
+          <lb ed="#V" n="32"/>est posterior: et econuerso propter circulum.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e183">
+          ¶ Tertia 
+          re<lb ed="#V" n="33" break="no"/>gula est. quod in isto ordine potest esse processus in infinitum: quia 
+          <lb ed="#V" n="34"/>vnum aliud non praesupponit: cuius oppositum est in ordine 
+          <lb ed="#V" n="35"/>essentiali.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e192">
+          ¶ 4a regula est. quod inter illa quae sunt eiusdem 
+          ratio<lb ed="#V" n="36" break="no"/>nis est accidentalis ordo: cuius oppositum est in ordine 
+          <lb ed="#V" n="37"/>essentiali. quare negatur ibi processus in infinitum. hic non potest 
+          <lb ed="#V" n="38"/>negari: vt patet.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e201">
+          ¶ Contra primam: quia prius et posterius sunt 
+          <lb ed="#V" n="39"/>correlatiua secundum quemcumque ordinem: sed correlatiua posita 
+          <lb ed="#V" n="40"/>se ponunt: et vnum non potest esse sine alio: ergo sequitur quod vnum 
+          <lb ed="#V" n="41"/>istorum ordinatorum non potest esse sine alio. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e210">
+          ¶ 2o sic. 
+          <lb ed="#V" n="42"/>contra secundam regulam. quia in quocumque ordine impossibile est idem 
+          <lb ed="#V" n="43"/>esse prius seipso. Sed si esset possibilis circulatio in 
+          accidene<lb ed="#V" n="44" break="no"/>taliter ordinatis: ita sequeretur quod idem esset prius seipso: 
+          si<lb ed="#V" n="45" break="no"/>cut in ordine essentiali. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e222">
+          ¶ 3o contra tertiam. posito 
+          pro<lb ed="#V" n="46" break="no"/>cessu in infinitum in accidentaliter ordinatis: sequitur illud 
+          <lb ed="#V" n="47"/>idem in essentialiter ordinatis: quia quocunque addito fit 
+          <lb ed="#V" n="48"/>noua species numeri: inter quas est essentialis ordo: 
+          <lb ed="#V" n="49"/>sed inter illa essentialiter ordinata non est: accidentalis ordo: 
+          <lb ed="#V" n="50"/>ergo nec est inter ista.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e235">
+          ¶ 4a contra quartam: inter illa que sunt 
+          <lb ed="#V" n="51"/>eiusdem rationis non potest esse relatio disquiperantie: sed prius 
+          <lb ed="#V" n="52"/>et posterius: que importat ordo accidentalis. sunt 
+          rela<lb ed="#V" n="53" break="no"/>tiones disquiperantie. ergo videtur quod non possit esse inter 
+          <lb ed="#V" n="54"/>ea que sunt eiusdem rationis ordo accidentalis.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e246">
+          ¶ Ad primum 
+          <lb ed="#V" n="55"/>dico. quod prius et posterius possunt accipi dupliciter. Uno modo 
+          <lb ed="#V" n="56"/>formaliter: vt scilicet dicunt relationes prioritatis et posteriorita 
+          <lb ed="#V" n="57"/>tis: vel composita ex fundamento et respectu. et isto 
+          mo<lb ed="#V" n="58" break="no"/>do in quocumque ordine prius non potest esse sine 
+          posterio<lb ed="#V" n="59" break="no"/>ri.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e259">
+          ¶ Alio modo possunt accipi fundamentaliter: vt 
+          suppo<lb ed="#V" n="60" break="no"/>nunt pro fundamentis relationum: et isto modo in 
+          accidentali<lb ed="#V" n="61" break="no"/>ter ordinatis prius potest esse sine posteriori: et econverso. In 
+          essen<lb ed="#V" n="62" break="no"/>tialiter autem ordinatis licet prius possit esse sine posteriori: 
+          <lb ed="#V" n="63"/>non tamen econuerso.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e270">
+          ¶ Ad 2m dico. quod sicut non est 
+          incom<lb ed="#V" n="64" break="no"/>ueniens quod idem differat a seipso per accidens. ita non est 
+          <lb ed="#V" n="65"/>inconueniens quod idem sit prius seipso per accidens. 
+          ta<lb ed="#V" n="66" break="no"/>men essentialiter loquendo scilicet ex ratione formali. nec vnum: 
+          <!--137.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>nec aliud est possibile.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e286">
+          ¶ Ad 3m dico de numeris et 
+          spe<lb ed="#V" n="68" break="no"/>ciebus numerorum quod ad posterius eundo in essentialiter 
+          <lb ed="#V" n="69"/>ordinatis potest esse processus in infinitum: vt ostensum est 
+          <lb ed="#V" n="70"/>non tamen ad prius: in proposito autem sequitur non solum 
+          <lb ed="#V" n="71"/>versus posterius: sed etiam versus prius.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e298">
+          ¶ Ad 4m dico. 
+          <lb ed="#V" n="72"/>quod impossibile est prius et posterius esse inter 
+          indiuidua<lb ed="#V" n="73" break="no"/>eiusdem rationis praecise: sed vbicumque est ordo secundum prius et 
+          po<lb ed="#V" n="74" break="no"/>sterius siue accidentalis: siue alius: semper in ordinatis  
+          <lb ed="#V" n="75"/>sunt aliqua alterius et alterius rationis: quibus tamen 
+          indi<lb ed="#V" n="76" break="no"/>uidua eiusdem rationis per accidens coniunguntur.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e311">
+          ¶ 
+          Exen<lb ed="#V" n="77" break="no"/>plum de ordine secundum locum qui est inter Petrum et 
+          mau<lb ed="#V" n="78" break="no"/>ritium: quibus necessario sunt annexa distincta vbi spe 
+          <lb ed="#V" n="79"/>cie: ad hoc quod ipsa sint ordinata secundum locum. Unde dico 
+          <lb ed="#V" n="80"/>et concedo generaliter loquendo. quod omnis ordo 
+          acciden<lb ed="#V" n="81" break="no"/>talis reducitur ad essentiam: nec est possibile inuenire 
+          <lb ed="#V" n="82"/>ordinem accidentalem sine essentiali. 
+          <lb ed="#V" n="83"/>ad 2m praencinpale scilicet Utrum ordo 
+          acciden<lb ed="#V" n="84" break="no"/>Quantum talis sit in diuinis. Dico quod non inter 
+          <lb ed="#V" n="85"/>perfectiones quiditatiuas: nec inter relationes de quibus dictum 
+          <lb ed="#V" n="86"/>est superius. Tamen inter relationes communes non videtur inconueniens 
+          <lb ed="#V" n="87"/>ponere. Similitudo enim qua patet filio similis est: 
+          prior<lb ed="#V" n="88" break="no"/>est similitudine qua spiritussanctus similis est patri. que 
+          ta<lb ed="#V" n="89" break="no"/>men sunt vel possunt esse eiusdem rationis: et sic videtur quod talis acci 
+          <lb ed="#V" n="90"/>dentalis ordo est inter istas relationes.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e344">
+          ¶ Intelligendum tamen 
+          <lb ed="#V" n="91"/>est. quod ordo accidentalis potest accipi dupliciter. sicut et accidens. 
+          <lb ed="#V" n="92"/>Conuenit enim aliquid alteri accidere. sicut accidens accidit 
+          <lb ed="#V" n="93"/>subiecto. Vel alio modo sicut inferius accidit superiori: sicut 
+          di<lb ed="#V" n="94" break="no"/>cimus quod accidit animali quod sit risibile. Isto 2o modo potest est 
+          <lb ed="#V" n="95"/>se in quiditatiuis perfectionibus ordo accidentalis: sicut 
+          po<lb ed="#V" n="96" break="no"/>test patere per ea que dicta sunt superius. quod sic declaratur 
+          <lb ed="#V" n="97"/>Nam spiritus se habet ad rationem deitatis: sicut quoddam 
+          sub<lb ed="#V" n="98" break="no"/>alternum. Spiritus autem ex eo quod spiritus non est posterior 
+          dei<lb ed="#V" n="99" break="no"/>tate: subalternum semper est posterius quocumque alio 
+          spe<lb ed="#V" n="100" break="no"/>cialissimo: quia tamen in deo: propter per fectionem: priora sunt quae sunt 
+          <lb ed="#V" n="101"/>perfectiora. et ratio detatis est perfectior. relinquitur quod sit 
+          <lb ed="#V" n="102"/>prior. spiritus posterior. In creaturis autem: quia imperfectiora 
+          <lb ed="#V" n="103"/>sunt priora propter imperfectionem: et subalterna sunt 
+          imper<lb ed="#V" n="104" break="no"/>fectiora specialissimis: hinc est quod spiritus. quia subalternum. 
+          <lb ed="#V" n="105"/>est prior natura specifica angeli: non ordinatur ergo 
+          dei<lb ed="#V" n="106" break="no"/>tas ad rationem spiritus ex ratione quiditatiua spiritus 
+          <lb ed="#V" n="107"/>eo modo quo nunc ordinatur: sed ex alio. Eodem 
+          mo<lb ed="#V" n="108" break="no"/>do dico de spritu respectu entitatis: quia in creaturis 
+          en<lb ed="#V" n="109" break="no"/>titas est prior: et in deo posterior secundum vnum modum 
+          di<lb ed="#V" n="110" break="no"/>cendi superius.
+        </p>
+        <p xml:id="FrMS88-e49029-d1e390">
+          ¶ Ad argumentum in oppositum per 
+          <lb ed="#V" n="111"/>iam dicta patet. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

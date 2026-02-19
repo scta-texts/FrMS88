@@ -1,639 +1,639 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 4</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 4</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="104-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e77138"><!-- l1d33q4 -->
-            <head xml:id="FrMS88-e77138-Hd1e108">Quaestio 4</head>
-            <p xml:id="FrMS88-e77138-d1e111">
-      Questio. iiii. 
-      <lb ed="#V" n="94"/>UTrum persona et essentia 
-      distinguan<lb ed="#V" n="95" break="no"/>tur ex nam rei. Quod n. quia 
-      essentia<lb ed="#V" n="96" break="no"/>sdicitur de persona in primo modo. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e120">
-      ¶ Contra. quia 
-      per<lb ed="#V" n="97" break="no"/>sona includit relationem quae distinguitur ab 
-      essen<lb ed="#V" n="98" break="no"/>ltia. ergo et ipsa persona.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e127">
-      ¶ hic sunt tria per 
-      <lb ed="#V" n="99"/>ordinem videnda. Primum est. vtrum essentia et persona 
-      di<lb ed="#V" n="100" break="no"/>stinguuntur aliquo modo. 2m. Utrum relatio et persona. 3m. Utrum 
-      <lb ed="#V" n="101"/>essentia et relatio similis iuncte distinguantur a persona. 
-      <lb ed="#V" n="102"/>ad primum pono quatuor conclusiones. 
-      <lb ed="#V" n="103"/>Quantum Prima est. quod essentia et persona 
-      di<lb ed="#V" n="104" break="no"/>stinguuntur ex natura rei: et hoc probo communi medio. scilicet de 
-      <lb ed="#V" n="105"/>communicabilibus: et incomnicabilibus. quia essentia est communi 
-      <lb ed="#V" n="106"/>cabilis: persona incommunicabilis ex natuam rei: ergo 
-      distinguun<lb ed="#V" n="107" break="no"/>tur ex na rei.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e149">
-      ¶ Quantum ad istam rationem dantur responsiones 
-      <lb ed="#V" n="108"/>superius tacte: ideo nunc dimitto eas.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e155">
-      ¶ Secunda conclusio est. quod 
-      <lb ed="#V" n="109"/>persona et essentia formaliter distinguuntur: quia quecunque 
-      <lb ed="#V" n="110"/>distinguuntur secundum diffinitiuas rationes: formaliter 
-      distin<lb ed="#V" n="111" break="no"/>guuntur: hoc patet ex precedentibus: sed persona et essentia sunt 
-      <lb ed="#V" n="112"/>huiusmodi. quia persona includit relationem in sua diffinitione et non 
-      essen<lb ed="#V" n="113" break="no"/>tia. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e168">
-      ¶ Dicunt tamen aliqui quod ista ratio tantum concedit 
-      distinctio<lb ed="#V" n="114" break="no"/>nem rationis: nec etiam illud per se concedit. Et ratio istorum est hec. quia 
-      <lb ed="#V" n="115"/>ratio formalis aliquo modo inuenitur in entibus rationis: et 
-      di<lb ed="#V" n="116" break="no"/>uersa entia rationis habent diuersas rationes formales et 
-      dif<lb ed="#V" n="117" break="no"/>finitiuas. Arguere ergo ex distinctione rationum 
-      diffinitiua<lb ed="#V" n="118" break="no"/>rum. distinctionem ex natura rei: est arguere a positione consequentis 
-      <lb ed="#V" n="119"/>Nam oppositum consequentis scilicet non distingui ex natura rei: stat cum 
-      <lb ed="#V" n="120"/>distinctione diffinitiuarum rationum in entibus rationis. Sed 
-      <lb ed="#V" n="121"/>tamen concesso quod saltem essentia et persona distinguuntur per difficultas 
-      <lb ed="#V" n="122"/>nitiuas rationes: sicut concedit illa responsio: ostendo ex hoc 
-      <lb ed="#V" n="123"/>quod ex natura rei distinguuntur et hoc quadrupliciter. Primo sic. 
-      <lb ed="#V" n="124"/>Nam in essentia ex sua ratione formali conceditur quod sit ibi 
-      <lb ed="#V" n="125"/>vna differentia ex natura rei: vt absolutum: et in persona alia vt 
-      re<lb ed="#V" n="126" break="no"/>atio.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e199">
-      ¶ Tunc sic. Ubicumque sunt differentiae opposite ex 
-      natu<lb ed="#V" n="127" break="no"/>ra rei: ibi oportet quod sit distino ex nam rei: cum distinctio sit 
-      re<lb ed="#V" n="128" break="no"/>pectus intrinsecus adueniens: sed sic est in proposito 
-      <lb ed="#V" n="129"/>ergo etc.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e208">
-      ¶ 2o sic. Nam essentia fundat identitatem personarum 
-      <lb ed="#V" n="130"/>et relatio distinctionem quae sunt opposite habitudines. ita 
-      <lb ed="#V" n="131"/>quod ex natura rei identas non est diuersitas. ergo in diuina 
-      persona<lb ed="#V" n="132" break="no"/>sunt duo positiua: quorum vnum ex nam rei distinguitur a reliquiqui¬ 
-      <!--211.xml-->
-      <pb ed="#V" n="104-v"/>
-               <cb ed="#V" n="a"/>
-            </p>
-            <p xml:id="FrMS88-e77138-d1e224">
-               <lb ed="#V" n="1"/>¶ Confirmatur. quia diuersitas habitudinum oportet quod ortum habeat 
-      <lb ed="#V" n="2"/>ex diuersitate extremorum siue ergo positias distntem extremorum 
-      <lb ed="#V" n="3"/>in vna persona: siue ponas in alia: semper vtrobique propositum 
-      <lb ed="#V" n="4"/>sequitur scilicet distinctio.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e235">
-      ¶ 3o fic. Quandocumque alicui conueniunt passiones 
-      <lb ed="#V" n="5"/>opposite. oportet quod sint in eo rationes formales quas ille 
-      passio<lb ed="#V" n="6" break="no"/>nes consequuntur: sed persone conuenit esse idem cum alia et 
-      distin<lb ed="#V" n="7" break="no"/>gui: ergo in persona sunt aliqua distincta.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e245">
-      ¶ 4o. quia essentia est 
-      imme<lb ed="#V" n="8" break="no"/>diatu fundamentum relationis. et hoc ex natura rei: et per consequens 
-      distin<lb ed="#V" n="9" break="no"/>guuntur ex natura rei: et sic persona et essentia. Omnes enim rationes 
-      pro<lb ed="#V" n="10" break="no"/>bantes relationem distingui ab essentia propositum probant.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e254">
-      ¶ 3a 
-      <lb ed="#V" n="11"/>est. quod persona diuina et essentia sunt idem identice: quia vbicun 
-      <lb ed="#V" n="12"/>que vnum extremorum vel vtrumque est formaliter infinitu. illa sunt 
-      <lb ed="#V" n="13"/>idem identice si sunt in eadem persona. et propter hoc in abstracto 
-      <lb ed="#V" n="14"/>vnum praedicatur de alio: vt essentia de persona. quod vnum de alio 
-      <lb ed="#V" n="15"/>in abstracto praedicetur: probatur quadruplici auctoritate Augi 
-      <lb ed="#V" n="16"/>Prima. 7. de tri. One quod relatiue dicitur est aliquid ad se: illud 
-      <lb ed="#V" n="17"/>vero ad se non potest intelligi nisi de essentia.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e272">
-      ¶ 2m est in eodem 
-      <lb ed="#V" n="18"/>quod filius est sapina de sapina: sicut essentia de essentia.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e277">
-      ¶ 3a. quia 
-      <lb ed="#V" n="19"/>in eodem dicitur quod vnam essentiam dicimus tres personas: non ex 
-      essen<lb ed="#V" n="20" break="no"/>tia eadem quasi aliud sit essentia: aliud persona.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e284">
-      ¶ 4a est. in 
-      sr<lb ed="#V" n="21" break="no"/>de tri. vbi ipse dicit. quod pater et filius sunt idem vnum atquam vna 
-      <lb ed="#V" n="22"/>substantia.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e291">
-      ¶ 4a conclusio est. quod persona diuina et essentia sunt idem 
-      rea<lb ed="#V" n="23" break="no"/>liter: quia non est maior distinctio inter essentiam et personam quam inter 
-      <lb ed="#V" n="24"/>relationem et essentiam: cum persona includat essentiam et non relatio: sed 
-      <lb ed="#V" n="25"/>ista non distinguuntur realiter. ergo nec illa.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e301">
-      ¶ Isti tamen conclusioni vnde 
-      <lb ed="#V" n="26"/>alique auctoritates repugnare. Primo. quia persona dice 
-      <lb ed="#V" n="27"/>retur ad se: quia essentia est ad se. Aug. autem dicit quod persona in 
-      diui<lb ed="#V" n="28" break="no"/>nis non dicitur ad se: et ideo non dicitur secundum substantiam. sed secundum relationem. sed si 
-      <lb ed="#V" n="29"/>persona est essentia: pater diceretur ad se: cum ad se sit superius ad 
-      <lb ed="#V" n="30"/>essentiam: per locum a parte subiectiua. 2a auctoritas: quia deo non est 
-      <lb ed="#V" n="31"/>aliud esse et subsistere: sed bene est aliud esse et patrem esse: et sic vi 
-      <lb ed="#V" n="32"/>distinctio realis. 3a auctoritas: quia non eo pater quo deus. 4 
-      <lb ed="#V" n="33"/>auctoritas. eo verbum quo filius. non eo autem verbum qua sapina. 
-      <lb ed="#V" n="34"/>Iste auctoritates omnes soluuntur per distinctionem formalem 
-      </p>
-            <p xml:id="FrMS88-e77138-d1e323">
-               <lb ed="#V" n="35"/>¶ Sed contra istas conclusiones arguitur 4. Primo sic. quia per rationem 
-      <lb ed="#V" n="36"/>formalem per quam probas primam conclusione probatur quod essentia 
-      distin<lb ed="#V" n="37" break="no"/>guitur ab omnibus personis simul sumptis. nam essentia est in 
-      <lb ed="#V" n="38"/>tribus personis: tres autem persone non: ergo etc.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e334">
-      ¶ 2o. quia nullum 
-      <lb ed="#V" n="39"/>suppositum videtur a sua nam formaliter differre: cum natura dicatur de 
-      <lb ed="#V" n="40"/>ipso in primo modo dicendi per se qui partinet ad quiditatem.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e341">
-      ¶ 3o: quia 
-      vni<lb ed="#V" n="41" break="no"/>tas identica videtur supra infinitatem fundari: sed ista repugna 
-      <lb ed="#V" n="42"/>persone quantum ad suum formale constitutiuum. Illud autem cui 
-      re<lb ed="#V" n="43" break="no"/>pugnat fundamentum alicuius vnitatis non potest habere illam 
-      <lb ed="#V" n="44"/>vnitatem.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e352">
-      ¶ 4o. quia quandocumque aliqua ita se habent quod vnum potest esse 
-      <lb ed="#V" n="45"/>sine reliquo illa diffetut realiter. cum eadem res a seipsa sepaer 
-      <lb ed="#V" n="46"/>ri non potest: sed diuina essentia in vna persona ponitur et est si 
-      <lb ed="#V" n="47"/>ne alia. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e361">
-      ¶ Ad primum dico quod tota trinitas addit ad 
-      <lb ed="#V" n="48"/>essentiam quatuor relationes: et sic conceditur conclusio.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e367">
-      ¶ Ad 2m dico 
-      <lb ed="#V" n="49"/>quod verum est quando suppositum per aliquid constituitur: quod non est extr 
-      <lb ed="#V" n="50"/>rationem formalem sue naturae: huiusmodi autem suppositum constituitur per relatio 
-      <lb ed="#V" n="51"/>nem que differt formaliter a substantia. et illa etiam maior non videtur ver 
-      <lb ed="#V" n="52"/>quia homo videtur esse suppositum animalis: et tamen differt ab animali ratione 
-      <lb ed="#V" n="53"/>differentie superaddite. ita quod quando suppositum aliquid 
-      forma<lb ed="#V" n="54" break="no"/>le superaddit: tunc illa propositio non est vera.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e383">
-      ¶ Ad 3m dico quod sic 
-      <lb ed="#V" n="55"/>esse suppositum repugnat accidenti: et tamen non repugnat sibi 
-      <lb ed="#V" n="56"/>vnio eius cum supposito: sic esse infinitum repugnat formaliter 
-      <lb ed="#V" n="57"/>relationi. et tamen non vnitas eius ad illud quod infinitum est 
-      <lb ed="#V" n="58"/>ratione infinitatis.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e394">
-      ¶ Ad 4m dico quod numquam essentia potest esse 
-      <lb ed="#V" n="59"/>simpliciter sine aliqua relatione: vel sine aliqua personarum: nec est in 
-      <lb ed="#V" n="60"/>vna sine alia simpliciter dicendo: tamen cum reduplicatione bene. 
-      <lb ed="#V" n="61"/>vnde essentia in filio est in patre. non tamen vt in filio 
-      <lb ed="#V" n="62"/>ad 3m praencipale videndum est. vtrum 
-      per<lb ed="#V" n="63" break="no"/>Quantum sona et proprietas aliquo modo ex nam 
-      re<lb ed="#V" n="64" break="no"/>distinguuntur. Et quantum ad hoc introducuntur 4or conclusiones consimiles. 
-      <lb ed="#V" n="65"/>Prima est. quod persona et relatio distinguuntur ex natura rei: quia secund 
-      <lb ed="#V" n="66"/>Aug. 7. de tri. omne quod relatiue dicitur esse aliquid excepta re¬ 
-      <!--211.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>latione. cum ergo persona dicatur ad aliquid et 
-      relati<lb ed="#V" n="68" break="no"/>ue: erit aliquid excepta relatione: et per consequens non erit 
-      omni<lb ed="#V" n="69" break="no"/>no idem.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e425">
-      ¶ Secunda conclusio quod persona et relatio distinguuntur 
-      <lb ed="#V" n="70"/>formaliter: quia persona includit in se aliquam rationem 
-      for<lb ed="#V" n="71" break="no"/>malem absolutam quam relatio non includit scilicet deitatem. sed quae 
-      <lb ed="#V" n="72"/>sic se habent: formaliter distinguuntur. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e434">
-      ¶ 3a conclusio. 
-      <lb ed="#V" n="73"/>quod persona et relatio sunt idem identice: quia cum persi 
-      <lb ed="#V" n="74"/>na includat essentiam. videtur formaliter infinita: et per consequens 
-      <lb ed="#V" n="75"/>sibi vnit identice omne sibi compossibile: cum ergo relatio sit in 
-      <lb ed="#V" n="76"/>persona erit idem identice.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e445">
-      ¶ Quarta conclusio. quod 
-      per<lb ed="#V" n="77" break="no"/>sona et relatio non distinguuntur realiter: quia magis 
-      in<lb ed="#V" n="78" break="no"/>tima est relatio persone quam sit essentie: cum ipsam 
-      for<lb ed="#V" n="79" break="no"/>mraliter constituat in esse: et tamencvt patuitus non 
-      distingui<lb ed="#V" n="80" break="no"/>tur realiter ab essentia.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e457">
-      ¶ Sed contra has conclusiones instatur 
-      <lb ed="#V" n="81"/>4r. Primo. quia persona et essentia videntur distingui 
-      distin<lb ed="#V" n="82" break="no"/>ctione minima ex natuam rei: et tamen videtur minor inter persona 
-      <lb ed="#V" n="83"/>et relationem. cum persona dicatur respectiua: et non 
-      <lb ed="#V" n="84"/>absoluta: cum ergo ista sit minima: illa erit rationis. 
-      </p>
-            <p xml:id="FrMS88-e77138-d1e468">
-               <lb ed="#V" n="85"/>¶ 2o quia cum relatio dicatur de persona in primo modo ddi per se tanquam 
-      <lb ed="#V" n="86"/>eius formale constitutiuum: non videtur ibi esse formalis 
-      distin<lb ed="#V" n="87" break="no"/>presertim cum persona ponatur respectiua.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e477">
-      ¶ 3o sic. natura 
-      <lb ed="#V" n="88"/>persone non ponuntur idem identice: eo quod non sunt 
-      for<lb ed="#V" n="89" break="no"/>maliter infinite: si ergo persona non sit formaliter 
-      infini<lb ed="#V" n="90" break="no"/>ta. Constat autem quod relatio non est formaliter infinita: se 
-      <lb ed="#V" n="91"/>quitur quod non erunt idem identice.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e488">
-      ¶ 4o. quia licet ista 
-      inue<lb ed="#V" n="92" break="no"/>niatur a sanctis communiter concessa: persona est essentia: non 
-      <lb ed="#V" n="93"/>tamen ista: persona est relatio: minus ergo videntur idem: et per consequens 
-      <lb ed="#V" n="94"/>distincta realiter.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e497">
-      ¶ Ad primum dico. quod licet magis addat 
-      <lb ed="#V" n="95"/>totus homo ad corpus: quiam ad animam: eo quod habet entitatem 
-      mi<lb ed="#V" n="96" break="no"/>norem: tamen magis denominatur a corpore: vnde dicitur corpus 
-      <lb ed="#V" n="97"/>non spiritus. Sic in proposito. licet persona minus addat ad 
-      <lb ed="#V" n="98"/>essentiam quam ad relationem: tamen a relatione fit denominatio: et 
-      dicitu<lb ed="#V" n="99" break="no"/>tota persona respectiua. Et ratio horum est: quia constitutum semper 
-      <lb ed="#V" n="100"/>tenet modum minus praencipalem. vt patet in constituto ex 
-      abso<lb ed="#V" n="101" break="no"/>luto et respectiuo: ex substantia et accidente: ex contingenti et 
-      ne<lb ed="#V" n="102" break="no"/>cessario: ex spirituali et corporali.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e517">
-      ¶ Ad 2m dico. quod licet 
-      ge<lb ed="#V" n="103" break="no"/>nus dicatur de specie in primo modo dicendi per se. tamen species addit ad 
-      <lb ed="#V" n="104"/>ipsum differentiam specificam: secundum quam distinguitur ab eo 
-      for<lb ed="#V" n="105" break="no"/>maliter per modum additionis.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e527">
-      ¶ Ad 3m dico. quod oportet 
-      con<lb ed="#V" n="106" break="no"/>cedere: quod aut illa vnitas non erit identica: cum nec 
-      perso<lb ed="#V" n="107" break="no"/>na nec relatio sit formaliter infinita: aut dicere quod 
-      persone<lb ed="#V" n="108" break="no"/>est formaliter infinita: sicut et essentia diuina. Et tunc 
-      <lb ed="#V" n="109"/>oportet dicere quod non sufficit ad vnitatem identicam quod vnum 
-      <lb ed="#V" n="110"/>vel alterum sint realiter idem tertio infinito: sed oportet quod vtrum 
-      <lb ed="#V" n="111"/>que: ita quod talis realis vnitas sit prior ordine essentiali quam 
-      <lb ed="#V" n="112"/>identica.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e545">
-      ¶ Ad quartum dico quod Aug. videtur eam 
-      ex<lb ed="#V" n="113" break="no"/>primere. 7. de trini. quando dicit quod eo verbum quo filius: non 
-      <lb ed="#V" n="114"/>tamen eo sapientia quo verbum: sed eo essentia quae sapientia 
-      <lb ed="#V" n="115"/>videtur ergo concedere aliquo modo relatione verbum esse quo 
-      nega<lb ed="#V" n="116" break="no"/>sapientia verbum esse.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e556">
-      ¶ Sed hic sunt quatuor difficultates. Prim 
-      <lb ed="#V" n="117"/>ma est. si aliquod praedicatum potest dici de diuina persona in 
-      <lb ed="#V" n="118"/>modo dicendi per se dico quod non proprie: quia persona diuina non 
-      <lb ed="#V" n="119"/>est aliquod vnum diffinibile. cum non sit vnum formaliter. 
-      <lb ed="#V" n="120"/>Suppositum autem in creaturis multa predicata recipit 
-      <lb ed="#V" n="121"/>de primo modo: quia est quoddam vnum diffinibile per se persona aum 
-      <lb ed="#V" n="122"/>diuina non sic. ad constitonem autem eius concurrunt due 
-      ratio<lb ed="#V" n="123" break="no"/>nes diuersorum generum non facientes aliquam tertiam 
-      <lb ed="#V" n="124"/>entitatem vnam per se.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e576">
-      ¶ 2a difficultas est. si ista est in primo 
-      <lb ed="#V" n="125"/>modo. pater est essentia. Dico quod non proprie. quia 
-      praedi<lb ed="#V" n="126" break="no"/>catio primi modi non est nisi formalis. ista aut est 
-      identi<lb ed="#V" n="127" break="no"/>ca.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e585">
-      ¶ Tertia difficultas est. si ista sit de primo modo. pater est deus: 
-      <lb ed="#V" n="128"/>Dico quod non. licet in creaturis hoc modo natura de supposito 
-      <lb ed="#V" n="129"/>praedicetur. eo quod ratio constitutiua suppositi non extraneantus 
-      <lb ed="#V" n="130"/>a natura. tamen in diuinis sic. quia relatio constituens extraneatur a 
-      <lb ed="#V" n="131"/>natura diuina. Ratio autem euidenter ostendens quod ista non est in 
-      <lb ed="#V" n="132"/>primo modo est ista: quia quod per se diceretur de deo diceretur de 
-      <!--212.xml-->
-      <pb ed="#V" n="105-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>patre. sicut patet per regulam logicalem: ergo cum deus per se sit absolutum 
-      <lb ed="#V" n="2"/>persona erit abspluta: quod est secundum.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e609">
-      ¶ 4a difficultas est. si ista. patet 
-      <lb ed="#V" n="3"/>est relatio. sit in per modo: Dico quod non. quia videtur identica. sed ista. 
-      <lb ed="#V" n="4"/>pater est relatiuum videtur appropinquare: quia quicquid dicitur in quid de 
-      re<lb ed="#V" n="5" break="no"/>spectiuo: dicitur in quid de patre 
-      <lb ed="#V" n="6"/>ad 3am partem istius quaestionis videndum est. Utrum 
-      <lb ed="#V" n="7"/>Quantu persona dicat aliquid praeter relationem et essentiam 
-      si<lb ed="#V" n="8" break="no"/>mul sumptas. ita quod sit quaestio similis illi quae fit in creaturis de 
-      <lb ed="#V" n="9"/>entitate compositi resultante. Introducuntur autem hoc 4or 
-      ratio<lb ed="#V" n="10" break="no"/>nes probantes partem affirmatiua: quae omnes innituntur primo principio 
-      complexio<lb ed="#V" n="11" break="no"/>quia de eodem contradictoria dici non possunt. Prima est ista et 
-      concedi<lb ed="#V" n="12" break="no"/>tur ab omnibus quod essentia et relatio constituunt similis sumpta param: sed 
-      <lb ed="#V" n="13"/>prsona non constituit personam: quia idem non constituit se. ergo etc. 
-      </p>
-            <p xml:id="FrMS88-e77138-d1e636">
-               <lb ed="#V" n="14"/>¶ 2a est ista. Omne constitutiuum alicuius videtur prius constituto: cum 
-      <lb ed="#V" n="15"/>constitutum videatur ab eis resultare. sed essentia et relatio simuls 
-      sum<lb ed="#V" n="16" break="no"/>pta sunt constitutiua persone: ergo priora persona: sed persona non est 
-      <lb ed="#V" n="17"/>prior pesolut: quia nihil est prius se. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e647">
-      ¶ 3a est hec: nulla res 
-      <lb ed="#V" n="18"/>seipsam praesupponit: sed persona praesupponit essentiam et 
-      relatio<lb ed="#V" n="19" break="no"/>nem. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e654">
-      ¶ 4a. Supra primo diuersa vt sic non potest aliqua 
-      vni<lb ed="#V" n="20" break="no"/>tas fundari. sed essentia et relatio secundum suas rationes formales sunt 
-      <lb ed="#V" n="21"/>prod diuersa. ergo vnitas quam habemus positionem in persona: non potest 
-      <lb ed="#V" n="22"/>in eis fundari. ergo in alio. Intelligentum autem ad euidentiam 
-      isti<lb ed="#V" n="23" break="no"/>us articuli. quod 4r potest aliquis imaginari quod persona ad 
-      essen<lb ed="#V" n="24" break="no"/>tiam et relationem se heret. Unoo quod sicut species suo modo: secundum communem 
-      <lb ed="#V" n="25"/>viam: nihil addit ad genus et differentiam simul sumpta. ita 
-      perso<lb ed="#V" n="26" break="no"/>na nihil addit ad rationes formales essentie et relationis simul 
-      <lb ed="#V" n="27"/>sumptas. quia sicut illa sunt diffinitia speciei. sic ista persone. 
-      </p>
-            <p xml:id="FrMS88-e77138-d1e674">
-               <lb ed="#V" n="28"/>¶ 2o modo quod ex relatione et essentia resultet quadam 3a vnitas: sei 
-      <lb ed="#V" n="29"/>cut ponit a multis de composito ex mam et forma: ita quod 
-      si<lb ed="#V" n="30" break="no"/>cut ex istis fit vnum per se. ita ex illis.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e683">
-      ¶ 3o modo quod sit ibi 
-      vni<lb ed="#V" n="31" break="no"/>tas identica que prouenit ex infinitate vnius istorum 
-      constituen<lb ed="#V" n="32" break="no"/>tium scilicet essentie. vt sic perimum nihil aliud sit nisi essentis et relatio: non vi 
-      <lb ed="#V" n="33"/>praecise distincta secundum rationes formales: sed vt sunt vnum identice. 
-      </p>
-            <p xml:id="FrMS88-e77138-d1e692">
-               <lb ed="#V" n="34"/>¶ 4o modo quod ponatur persona vnica realitas: secundum quam omnia 
-      <lb ed="#V" n="35"/>quae sunt in vna perum sint vna res. ita quod illa realitas vere sit 
-      <lb ed="#V" n="36"/>essentia et vere relatio: sicut infinitas divina vere est quodlibet 
-      attri<lb ed="#V" n="37" break="no"/>butum. sicut etiam vnica essentia est qualibet persona: sic ergo persolutum est 
-      ali<lb ed="#V" n="38" break="no"/>quid vnum reale non vnitate fundata in ratione aliqua forma. sed in 
-      <lb ed="#V" n="39"/>realitate commni.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e709">
-      ¶ Aliis autem viis praetermissis quarum qualibet 
-      <lb ed="#V" n="40"/>habet multas difficultas ptractando 4am viam. Est sciendum quod si 
-      ipsa<lb ed="#V" n="41" break="no"/>ponatur multe insurgunt difficultas qubus declaratis multa alia 
-      pa<lb ed="#V" n="42" break="no"/>tebunt. Prima est. quae est necessaritas ponendi istam realitatem 
-      prima<lb ed="#V" n="43" break="no"/>ter rationes formales.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e720">
-      ¶ Dico quod quadruplici de causa ponitur 
-      <lb ed="#V" n="44"/>necessario illa realitas. Primo ad vitandum realem distinctionem. 
-      <lb ed="#V" n="45"/>vt scilicet ea que sunt in eadem periua realiter non distinguantur. vnde 
-      <lb ed="#V" n="46"/>oportet quod respondeat vnica realitas: vt sit vna res.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e729">
-      ¶ 2o ad 
-      sal<lb ed="#V" n="47" break="no"/>uanum distinctionem formalem quae superius demonstrata est inter ista 
-      <lb ed="#V" n="48"/>quae sunt in vna perum. quia si rationes formales nullatenus 
-      abstra<lb ed="#V" n="49" break="no"/>hant a sua realitate: sed sint omnibus modis: idem tunc sicut 
-      poni<lb ed="#V" n="50" break="no"/>vna res: poneretur vna formalis ratio.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e740">
-      ¶ 3o ad vitandum 
-      qua<lb ed="#V" n="51" break="no"/>ternitatem rerum. quia cum tres persone sint tres res respectiue. 
-      <lb ed="#V" n="52"/>si ponatur in aliqua persona nisi vna reatiae habebimus 
-      quaeternita<lb ed="#V" n="53" break="no"/>tem rerum.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e749">
-      ¶ 4o ad salisum quaternitatem relationum. quia si relatio in 
-      di<lb ed="#V" n="54" break="no"/>uinis est omni modo sua reatiam: sicut sunt 4or relationes. sic erunt 
-      <lb ed="#V" n="55"/>4or res.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e756">
-      ¶ 2a di. est. quia si videtur necessario potentiem distinctione aliquam inter 
-      <lb ed="#V" n="56"/>relationem et essentiam ex vna parte: et illam realitatem ex alia. cum 
-      <lb ed="#V" n="57"/>extrema contradictionis secundum praemissa eis attribuantur. vt patet. Di 
-      <lb ed="#V" n="58"/>co quod non est ibi distinctio nec realis nec formalis: sed sicut 
-      mo<lb ed="#V" n="59" break="no"/>dus intrinsecus intellecitur distingui a formalibus suis rationibus 
-      <lb ed="#V" n="60"/>ab eo abstrahentibus: sicut attritias divina abstrahunt ab 
-      infini<lb ed="#V" n="61" break="no"/>tate et necessaritate.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e773">
-      ¶ 3a differentas est. quia aliqui videntur vitare istos 
-      mo<lb ed="#V" n="62" break="no"/>dos per vnicam distinction quam quoilibet cogitur positionem. si ergo sic possunt 
-      <lb ed="#V" n="63"/>vitari ponendo illud quod necessarium est positionem. videtur quod non 
-      de<lb ed="#V" n="64" break="no"/>beant poni. Dicitur ergo quod res 2a accipitur. Uno pro omni eo quod est 
-      <lb ed="#V" n="65"/>extra animam. et sic accipien conceditur quod essentia et relatio sunt 
-      due<lb ed="#V" n="66" break="no"/>res. Si autem accipiatur pro re proprie. prout nunc loquimur 
-      <!--212.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>de re. sic tantum sunt vna res. Ista tamen euasio non videtur sufficiens: 
-      <lb ed="#V" n="68"/>quia sic possumus distingueme de essentia. prout accipitur pro omni eo 
-      <lb ed="#V" n="69"/>quod est in re extra: et pro essentia proprie. primo modo conceditur quod sunt 
-      tre<lb ed="#V" n="70" break="no"/>essentie: quod nullatenus conceditur. 2o modo non. Similiter accipio 
-      pro<lb ed="#V" n="71" break="no"/>priissime rem: sicut tu accipis: quando dicitur quod in divinis sunt 
-      tres<lb ed="#V" n="72" break="no"/>res tantum: quocumque autem sunt in vna persolus sunt vna res.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e804">
-      ¶ 
-      Con<lb ed="#V" n="73" break="no"/>stat quod in vna persolus sunt multe rationes formales. ergo plures 
-      <lb ed="#V" n="74"/>res. Item eo mo qua est vnica res: sunt ibi multe rationes 
-      for<lb ed="#V" n="75" break="no"/>males.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e813">
-      ¶ Si dicas non sunt multe rationes formales sed 
-      <lb ed="#V" n="76"/>vna: non tamen formaliter. Istud non sufficit. quia eodem modo 
-      ar<lb ed="#V" n="77" break="no"/>guam de vna ratione formali: et pluribus formaliter.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e820">
-      ¶ 4a difficultas 
-      <lb ed="#V" n="78"/>est. quia divina essentia vt videtur antecedere personas diuinas in 
-      quo<lb ed="#V" n="79" break="no"/>dam signo naturae: secundum illud quod dicit Dion. inc. de vnica et 
-      di<lb ed="#V" n="80" break="no"/>screta theologia: est vera res per suam realitatem. hic autem non 
-      <lb ed="#V" n="81"/>ponuntur nisi realitates personales.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e831">
-      ¶ Dico quod deitas vt 
-      <lb ed="#V" n="82"/>praecedit personas nullam realitatem habet. sicut nec natura humana extra 
-      <lb ed="#V" n="83"/>sua supposita. potest tamen dici res in illo priori eo modo quo loquitur 
-      <lb ed="#V" n="84"/>Aug. 9. de tri. quod omne relatiuum prius est quam ipsa relatio: cum 
-      <lb ed="#V" n="85"/>tamen per relationem sit formaliter relatiuum. Unde album potest duplio 
-      <lb ed="#V" n="86"/>ter accipi: aut prout supponit pro subiecto albedis: et sic 
-      prae<lb ed="#V" n="87" break="no"/>cedit albedinem: aut prout supponit quasi pro constituto ex 
-      <lb ed="#V" n="88"/>subiecto et albedine: et sic est posterius ipsa albedine: et sic 
-      <lb ed="#V" n="89"/>dicendum est de denominato a realitate: et ipsa realitate. 
-      </p>
-            <p xml:id="FrMS88-e77138-d1e851">
-               <lb ed="#V" n="90"/>¶ 5a difficultas est. quia divina essentia secundum determinationem ecclesi 
-      <lb ed="#V" n="91"/>est summa res: que nec generat nec generatur: nec spirat nec 
-      spe<lb ed="#V" n="92" break="no"/>ratur: et tamen qualibet trium rerum personalium: aut generat: aut generatur 
-      <lb ed="#V" n="93"/>aut spirat: aut spiratur: erit ergo vna 4or res.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e863">
-      ¶ Dico quod sicut 
-      <lb ed="#V" n="94"/>ab eadem iustitia dicitur homo iustus et anima iusta denominatiue: et tamen 
-      <lb ed="#V" n="95"/>vnum istorum generatur et corrumpitur: et aliud non. ita ab eadem 
-      <lb ed="#V" n="96"/>realitate denominatur res diuina essentia et persoluta: et tamen res que 
-      <lb ed="#V" n="97"/>est essentia non generat nec generatur: sed res qui est persoltua. 
-      Reali<lb ed="#V" n="98" break="no"/>tas enim identice est idem essentie et persone: et supponit pro vtro 
-      <lb ed="#V" n="99"/>que: vt autem supponit pro essentia: nec generat nec generatur: vt autem 
-      <lb ed="#V" n="100"/>pro persoluas sic.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e881">
-      ¶  6a difficultas est. quia in diuis ponitur vna res ab 
-      <lb ed="#V" n="101"/>solutissima scilicet divina essentia quae est res absoluta: et ponuntur 
-      tres<lb ed="#V" n="102" break="no"/>respectiue secundum quod patet ex dictis. ergo videtur quod sequitur quaternim 
-      <lb ed="#V" n="103"/>tas rerum. quod est contra ecclesiam.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e890">
-      ¶ Dico quod sicut eadem existentia 
-      <lb ed="#V" n="104"/>existit essentia et persoltua. sic eadem realitate sunt res: illa autem 
-      <lb ed="#V" n="105"/>realitas abstrahit ab absoluto et respectiuo. sicut ratio 
-      en<lb ed="#V" n="106" break="no"/>tis. tamen dicitur denominatiue absoluta et respectiua secundum quod sun 
-      <lb ed="#V" n="107"/>quiditates: quarum est realitas.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e901">
-      ¶ a difficultas est. quia in divinis est 
-      <lb ed="#V" n="108"/>vna realitas comnicabilis scilicet essentia. et tres incommunicabiles: 
-      <lb ed="#V" n="109"/>vt realitate personales: ergo quaternitas.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e908">
-      ¶ Dico quod vna 
-      rea<lb ed="#V" n="110" break="no"/>litas vt supponit pro essentia dicitur communicabilis: vt autem pro 
-      <lb ed="#V" n="111"/>relatione dicitur incommunicabilis: ipsa tamen in se vltimate praecisa non 
-      <lb ed="#V" n="112"/>est comunicabilis cum sit personalis: nisi pro quanto 
-      supponis<lb ed="#V" n="113" break="no"/>pro essentia cum qua est vnum identice: et vt sic potest dici 
-      comica<lb ed="#V" n="114" break="no"/>bilis: tamen in se formaliter non: accidit enim sibi quod supponat 
-      qua<lb ed="#V" n="115" break="no"/>essemtuias.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e924">
-      ¶ Sed quare non ita bene relatio communicabilis: cum sit eque 
-      <lb ed="#V" n="116"/>vnum identice cum essentia: sicut ista realitas:
-    </p>
-            <p xml:id="FrMS88-e77138-d1e930">
-      ¶ Dico quod 
-      res<lb ed="#V" n="117" break="no"/>et ens identice de aliis praedicantur in divinis propter duas causas. sed 
-      <lb ed="#V" n="118"/>propter infinitatem et communitate: ideo magis supponit pro aliis: 
-      <lb ed="#V" n="119"/>quam relatio vel alia.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e939">
-      ¶ 56a difficultas. quia vt videtur divina esse non erit tantum 
-      <lb ed="#V" n="120"/>vna res. sed tres res. cum ibi sint tres realitates: a quibus 
-      <lb ed="#V" n="121"/>ipsa denominatur res.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e946">
-      ¶ Dico quod essentia diuina simul est 
-      tre<lb ed="#V" n="122" break="no"/>res: sicut tres persone simul de ipsa praedicantur: et etiam est 
-      <lb ed="#V" n="123"/>vna res quae est quolibet illarum: non est autem alia res ab istis. 
-      <lb ed="#V" n="124"/>Aliter enim dicitur vna res et tres res: et aliter tres realita 
-      <lb ed="#V" n="125"/>tes et vna realitas. quia vna et tres res dicuntur 
-      denomina<lb ed="#V" n="126" break="no"/>tiue: vna autem et tres realitates dicuntur identice.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e959">
-      ¶ 4o 
-      <lb ed="#V" n="127"/>difficultas. quia cum quelibet istarum realitatum dicatur 
-      abso<lb ed="#V" n="128" break="no"/>luta propter diuinam essentiam: sicut relatiua propter 
-      rela<lb ed="#V" n="129" break="no"/>tionem. videtur quod ita debeant dici tres realitates 
-      abso<lb ed="#V" n="130" break="no"/>lute: sicut dicuntur tres respectiue.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e970">
-      ¶ Dico quod verum esset 
-      <lb ed="#V" n="131"/>si illud a quo dicitur realitas absoluta: multiplicetur in 
-      <lb ed="#V" n="132"/>diuinis: sicut illud a quo dicitur relatiua: cuius opposi¬ 
-      <!--213.xml-->
-      <pb ed="#V" n="105-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>tum est de facto: licet enim quelibet trium realitatum sit 
-      absoli<lb ed="#V" n="2" break="no"/>ta. non tamen tres realitates absolute: sicut quolibet 
-      attribu<lb ed="#V" n="3" break="no"/>torum dicitur infinitum: non tamen plures infinitates: aut sicut 
-      quali<lb ed="#V" n="4" break="no"/>bet persona est deus: non tamen tres dii.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e992">
-      ¶ a dtra difficultas est. quia cum 
-      <lb ed="#V" n="5"/>distinctio realis fundetur in realitate. sicut formalis in 
-      ra<lb ed="#V" n="6" break="no"/>tione formali: videtur quod relatio vnius persone non 
-      distingua<lb ed="#V" n="7" break="no"/>realiter a relatione alterius persone: cum secundum te sint tantum tres 
-      <lb ed="#V" n="8"/>rationes formales.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e1004">
-      ¶ Dico quod sicut accidentia diuersorum 
-      <lb ed="#V" n="9"/>suppositorum distinguuntur suppositaliter: licet non sint 
-      suppo<lb ed="#V" n="10" break="no"/>sitaatamen hoc habent per attributionem ad ipsa. ita distincte 
-      rela<lb ed="#V" n="11" break="no"/>tiones distinguuntur realiter per attributionem ad diuersas 
-      <lb ed="#V" n="12"/>realitates quas habent in distinctis personis.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e1015">
-      ¶ Undecima difficultas 
-      <lb ed="#V" n="13"/>cultas: quia tunc secundum praemissa non videtur quod persona per relatio 
-      <lb ed="#V" n="14"/>nem distinguitur realiter ab alia persona. sed formaliter tantum: 
-      <lb ed="#V" n="15"/>cum supra formalitatem non fundetur nisi formalis distinctio¬ 
-      </p>
-            <p xml:id="FrMS88-e77138-d1e1024">
-               <lb ed="#V" n="16"/>¶ Dico quod sicut relationes formalitur distinguuntur: ita 
-      perso<lb ed="#V" n="17" break="no"/>ne per realitatem ipsarum relationum realiter distinguuntur: vt 
-      <lb ed="#V" n="18"/>autem abstrahit ratio formalis a realitate: tunc manet 
-      <lb ed="#V" n="19"/>solum distinctio formalis: et tunc maior videtur distinctio 
-      re<lb ed="#V" n="20" break="no"/>lationis a relatione quam persone a persona: sicut distinctio 
-      ge<lb ed="#V" n="21" break="no"/>neris excedit specificam.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e1040">
-      ¶ Duodecima difficultas: quia 
-      <lb ed="#V" n="22"/>sicut relatio in patre distinguitur a relatione filii realiter per 
-      <lb ed="#V" n="23"/>hoc quod aliam et aliam realitatem habet in illis personis. ita vi 
-      <lb ed="#V" n="24"/>quod essentia per attributionem ad diuersas realitates pari 
-      <lb ed="#V" n="25"/>ratione distinguitur realiter.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e1051">
-      ¶ Dico quod realis distinctio 
-      praesup<lb ed="#V" n="26" break="no"/>ponit non identitatem extremorum. vbi ergo preintelligitur non idem 
-      <lb ed="#V" n="27"/>titas. distinctio esse non potest. essentia autem vna numero est in 
-      <lb ed="#V" n="28"/>personis: et ideo quicumque sibi adueniente realiter distingui non 
-      <lb ed="#V" n="29"/>potest. sicut nec personaliter distinguitur per attributionem ad 
-      perso<lb ed="#V" n="30" break="no"/>nas.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e1064">
-      ¶ Tertiadecima difficultas: quia realitas videtur 
-      <lb ed="#V" n="31"/>dicere perfectionem simpliciter: sicut alia transcendentia 
-      concomitan<lb ed="#V" n="32" break="no"/>tia ens. et tamen nulla perfectio simplicitur in diuinis est 
-      per<lb ed="#V" n="33" break="no"/>sonalis: sed inste tres realitates secundum premissa ponuntur 
-      <lb ed="#V" n="34"/>personales.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e1076">
-      ¶ Dico quod sicut vnitas non dicit vniversaliter perse 
-      <lb ed="#V" n="35"/>ctionem simpliciter: cum in divinis non negatur vnitas personalis: 
-      <lb ed="#V" n="36"/>et forte eodem modo veritas sic forte suo modo potest dici 
-      <lb ed="#V" n="37"/>de ipsa realitate.
-    </p>
-            <p xml:id="FrMS88-e77138-d1e1085">
-      ¶ Ad argumentum patet. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="104-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e77138"><!-- l1d33q4 -->
+        <head xml:id="FrMS88-e77138-Hd1e108">Quaestio 4</head>
+        <p xml:id="FrMS88-e77138-d1e111">
+          Questio. iiii. 
+          <lb ed="#V" n="94"/>UTrum persona et essentia 
+          distinguan<lb ed="#V" n="95" break="no"/>tur ex nam rei. Quod n. quia 
+          essentia<lb ed="#V" n="96" break="no"/>sdicitur de persona in primo modo. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e120">
+          ¶ Contra. quia 
+          per<lb ed="#V" n="97" break="no"/>sona includit relationem quae distinguitur ab 
+          essen<lb ed="#V" n="98" break="no"/>ltia. ergo et ipsa persona.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e127">
+          ¶ hic sunt tria per 
+          <lb ed="#V" n="99"/>ordinem videnda. Primum est. vtrum essentia et persona 
+          di<lb ed="#V" n="100" break="no"/>stinguuntur aliquo modo. 2m. Utrum relatio et persona. 3m. Utrum 
+          <lb ed="#V" n="101"/>essentia et relatio similis iuncte distinguantur a persona. 
+          <lb ed="#V" n="102"/>ad primum pono quatuor conclusiones. 
+          <lb ed="#V" n="103"/>Quantum Prima est. quod essentia et persona 
+          di<lb ed="#V" n="104" break="no"/>stinguuntur ex natura rei: et hoc probo communi medio. scilicet de 
+          <lb ed="#V" n="105"/>communicabilibus: et incomnicabilibus. quia essentia est communi 
+          <lb ed="#V" n="106"/>cabilis: persona incommunicabilis ex natuam rei: ergo 
+          distinguun<lb ed="#V" n="107" break="no"/>tur ex na rei.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e149">
+          ¶ Quantum ad istam rationem dantur responsiones 
+          <lb ed="#V" n="108"/>superius tacte: ideo nunc dimitto eas.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e155">
+          ¶ Secunda conclusio est. quod 
+          <lb ed="#V" n="109"/>persona et essentia formaliter distinguuntur: quia quecunque 
+          <lb ed="#V" n="110"/>distinguuntur secundum diffinitiuas rationes: formaliter 
+          distin<lb ed="#V" n="111" break="no"/>guuntur: hoc patet ex precedentibus: sed persona et essentia sunt 
+          <lb ed="#V" n="112"/>huiusmodi. quia persona includit relationem in sua diffinitione et non 
+          essen<lb ed="#V" n="113" break="no"/>tia. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e168">
+          ¶ Dicunt tamen aliqui quod ista ratio tantum concedit 
+          distinctio<lb ed="#V" n="114" break="no"/>nem rationis: nec etiam illud per se concedit. Et ratio istorum est hec. quia 
+          <lb ed="#V" n="115"/>ratio formalis aliquo modo inuenitur in entibus rationis: et 
+          di<lb ed="#V" n="116" break="no"/>uersa entia rationis habent diuersas rationes formales et 
+          dif<lb ed="#V" n="117" break="no"/>finitiuas. Arguere ergo ex distinctione rationum 
+          diffinitiua<lb ed="#V" n="118" break="no"/>rum. distinctionem ex natura rei: est arguere a positione consequentis 
+          <lb ed="#V" n="119"/>Nam oppositum consequentis scilicet non distingui ex natura rei: stat cum 
+          <lb ed="#V" n="120"/>distinctione diffinitiuarum rationum in entibus rationis. Sed 
+          <lb ed="#V" n="121"/>tamen concesso quod saltem essentia et persona distinguuntur per difficultas 
+          <lb ed="#V" n="122"/>nitiuas rationes: sicut concedit illa responsio: ostendo ex hoc 
+          <lb ed="#V" n="123"/>quod ex natura rei distinguuntur et hoc quadrupliciter. Primo sic. 
+          <lb ed="#V" n="124"/>Nam in essentia ex sua ratione formali conceditur quod sit ibi 
+          <lb ed="#V" n="125"/>vna differentia ex natura rei: vt absolutum: et in persona alia vt 
+          re<lb ed="#V" n="126" break="no"/>atio.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e199">
+          ¶ Tunc sic. Ubicumque sunt differentiae opposite ex 
+          natu<lb ed="#V" n="127" break="no"/>ra rei: ibi oportet quod sit distino ex nam rei: cum distinctio sit 
+          re<lb ed="#V" n="128" break="no"/>pectus intrinsecus adueniens: sed sic est in proposito 
+          <lb ed="#V" n="129"/>ergo etc.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e208">
+          ¶ 2o sic. Nam essentia fundat identitatem personarum 
+          <lb ed="#V" n="130"/>et relatio distinctionem quae sunt opposite habitudines. ita 
+          <lb ed="#V" n="131"/>quod ex natura rei identas non est diuersitas. ergo in diuina 
+          persona<lb ed="#V" n="132" break="no"/>sunt duo positiua: quorum vnum ex nam rei distinguitur a reliquiqui¬ 
+          <!--211.xml-->
+          <pb ed="#V" n="104-v"/>
+          <cb ed="#V" n="a"/>
+        </p>
+        <p xml:id="FrMS88-e77138-d1e224">
+          <lb ed="#V" n="1"/>¶ Confirmatur. quia diuersitas habitudinum oportet quod ortum habeat 
+          <lb ed="#V" n="2"/>ex diuersitate extremorum siue ergo positias distntem extremorum 
+          <lb ed="#V" n="3"/>in vna persona: siue ponas in alia: semper vtrobique propositum 
+          <lb ed="#V" n="4"/>sequitur scilicet distinctio.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e235">
+          ¶ 3o fic. Quandocumque alicui conueniunt passiones 
+          <lb ed="#V" n="5"/>opposite. oportet quod sint in eo rationes formales quas ille 
+          passio<lb ed="#V" n="6" break="no"/>nes consequuntur: sed persone conuenit esse idem cum alia et 
+          distin<lb ed="#V" n="7" break="no"/>gui: ergo in persona sunt aliqua distincta.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e245">
+          ¶ 4o. quia essentia est 
+          imme<lb ed="#V" n="8" break="no"/>diatu fundamentum relationis. et hoc ex natura rei: et per consequens 
+          distin<lb ed="#V" n="9" break="no"/>guuntur ex natura rei: et sic persona et essentia. Omnes enim rationes 
+          pro<lb ed="#V" n="10" break="no"/>bantes relationem distingui ab essentia propositum probant.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e254">
+          ¶ 3a 
+          <lb ed="#V" n="11"/>est. quod persona diuina et essentia sunt idem identice: quia vbicun 
+          <lb ed="#V" n="12"/>que vnum extremorum vel vtrumque est formaliter infinitu. illa sunt 
+          <lb ed="#V" n="13"/>idem identice si sunt in eadem persona. et propter hoc in abstracto 
+          <lb ed="#V" n="14"/>vnum praedicatur de alio: vt essentia de persona. quod vnum de alio 
+          <lb ed="#V" n="15"/>in abstracto praedicetur: probatur quadruplici auctoritate Augi 
+          <lb ed="#V" n="16"/>Prima. 7. de tri. One quod relatiue dicitur est aliquid ad se: illud 
+          <lb ed="#V" n="17"/>vero ad se non potest intelligi nisi de essentia.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e272">
+          ¶ 2m est in eodem 
+          <lb ed="#V" n="18"/>quod filius est sapina de sapina: sicut essentia de essentia.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e277">
+          ¶ 3a. quia 
+          <lb ed="#V" n="19"/>in eodem dicitur quod vnam essentiam dicimus tres personas: non ex 
+          essen<lb ed="#V" n="20" break="no"/>tia eadem quasi aliud sit essentia: aliud persona.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e284">
+          ¶ 4a est. in 
+          sr<lb ed="#V" n="21" break="no"/>de tri. vbi ipse dicit. quod pater et filius sunt idem vnum atquam vna 
+          <lb ed="#V" n="22"/>substantia.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e291">
+          ¶ 4a conclusio est. quod persona diuina et essentia sunt idem 
+          rea<lb ed="#V" n="23" break="no"/>liter: quia non est maior distinctio inter essentiam et personam quam inter 
+          <lb ed="#V" n="24"/>relationem et essentiam: cum persona includat essentiam et non relatio: sed 
+          <lb ed="#V" n="25"/>ista non distinguuntur realiter. ergo nec illa.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e301">
+          ¶ Isti tamen conclusioni vnde 
+          <lb ed="#V" n="26"/>alique auctoritates repugnare. Primo. quia persona dice 
+          <lb ed="#V" n="27"/>retur ad se: quia essentia est ad se. Aug. autem dicit quod persona in 
+          diui<lb ed="#V" n="28" break="no"/>nis non dicitur ad se: et ideo non dicitur secundum substantiam. sed secundum relationem. sed si 
+          <lb ed="#V" n="29"/>persona est essentia: pater diceretur ad se: cum ad se sit superius ad 
+          <lb ed="#V" n="30"/>essentiam: per locum a parte subiectiua. 2a auctoritas: quia deo non est 
+          <lb ed="#V" n="31"/>aliud esse et subsistere: sed bene est aliud esse et patrem esse: et sic vi 
+          <lb ed="#V" n="32"/>distinctio realis. 3a auctoritas: quia non eo pater quo deus. 4 
+          <lb ed="#V" n="33"/>auctoritas. eo verbum quo filius. non eo autem verbum qua sapina. 
+          <lb ed="#V" n="34"/>Iste auctoritates omnes soluuntur per distinctionem formalem 
+        </p>
+        <p xml:id="FrMS88-e77138-d1e323">
+          <lb ed="#V" n="35"/>¶ Sed contra istas conclusiones arguitur 4. Primo sic. quia per rationem 
+          <lb ed="#V" n="36"/>formalem per quam probas primam conclusione probatur quod essentia 
+          distin<lb ed="#V" n="37" break="no"/>guitur ab omnibus personis simul sumptis. nam essentia est in 
+          <lb ed="#V" n="38"/>tribus personis: tres autem persone non: ergo etc.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e334">
+          ¶ 2o. quia nullum 
+          <lb ed="#V" n="39"/>suppositum videtur a sua nam formaliter differre: cum natura dicatur de 
+          <lb ed="#V" n="40"/>ipso in primo modo dicendi per se qui partinet ad quiditatem.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e341">
+          ¶ 3o: quia 
+          vni<lb ed="#V" n="41" break="no"/>tas identica videtur supra infinitatem fundari: sed ista repugna 
+          <lb ed="#V" n="42"/>persone quantum ad suum formale constitutiuum. Illud autem cui 
+          re<lb ed="#V" n="43" break="no"/>pugnat fundamentum alicuius vnitatis non potest habere illam 
+          <lb ed="#V" n="44"/>vnitatem.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e352">
+          ¶ 4o. quia quandocumque aliqua ita se habent quod vnum potest esse 
+          <lb ed="#V" n="45"/>sine reliquo illa diffetut realiter. cum eadem res a seipsa sepaer 
+          <lb ed="#V" n="46"/>ri non potest: sed diuina essentia in vna persona ponitur et est si 
+          <lb ed="#V" n="47"/>ne alia. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e361">
+          ¶ Ad primum dico quod tota trinitas addit ad 
+          <lb ed="#V" n="48"/>essentiam quatuor relationes: et sic conceditur conclusio.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e367">
+          ¶ Ad 2m dico 
+          <lb ed="#V" n="49"/>quod verum est quando suppositum per aliquid constituitur: quod non est extr 
+          <lb ed="#V" n="50"/>rationem formalem sue naturae: huiusmodi autem suppositum constituitur per relatio 
+          <lb ed="#V" n="51"/>nem que differt formaliter a substantia. et illa etiam maior non videtur ver 
+          <lb ed="#V" n="52"/>quia homo videtur esse suppositum animalis: et tamen differt ab animali ratione 
+          <lb ed="#V" n="53"/>differentie superaddite. ita quod quando suppositum aliquid 
+          forma<lb ed="#V" n="54" break="no"/>le superaddit: tunc illa propositio non est vera.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e383">
+          ¶ Ad 3m dico quod sic 
+          <lb ed="#V" n="55"/>esse suppositum repugnat accidenti: et tamen non repugnat sibi 
+          <lb ed="#V" n="56"/>vnio eius cum supposito: sic esse infinitum repugnat formaliter 
+          <lb ed="#V" n="57"/>relationi. et tamen non vnitas eius ad illud quod infinitum est 
+          <lb ed="#V" n="58"/>ratione infinitatis.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e394">
+          ¶ Ad 4m dico quod numquam essentia potest esse 
+          <lb ed="#V" n="59"/>simpliciter sine aliqua relatione: vel sine aliqua personarum: nec est in 
+          <lb ed="#V" n="60"/>vna sine alia simpliciter dicendo: tamen cum reduplicatione bene. 
+          <lb ed="#V" n="61"/>vnde essentia in filio est in patre. non tamen vt in filio 
+          <lb ed="#V" n="62"/>ad 3m praencipale videndum est. vtrum 
+          per<lb ed="#V" n="63" break="no"/>Quantum sona et proprietas aliquo modo ex nam 
+          re<lb ed="#V" n="64" break="no"/>distinguuntur. Et quantum ad hoc introducuntur 4or conclusiones consimiles. 
+          <lb ed="#V" n="65"/>Prima est. quod persona et relatio distinguuntur ex natura rei: quia secund 
+          <lb ed="#V" n="66"/>Aug. 7. de tri. omne quod relatiue dicitur esse aliquid excepta re¬ 
+          <!--211.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>latione. cum ergo persona dicatur ad aliquid et 
+          relati<lb ed="#V" n="68" break="no"/>ue: erit aliquid excepta relatione: et per consequens non erit 
+          omni<lb ed="#V" n="69" break="no"/>no idem.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e425">
+          ¶ Secunda conclusio quod persona et relatio distinguuntur 
+          <lb ed="#V" n="70"/>formaliter: quia persona includit in se aliquam rationem 
+          for<lb ed="#V" n="71" break="no"/>malem absolutam quam relatio non includit scilicet deitatem. sed quae 
+          <lb ed="#V" n="72"/>sic se habent: formaliter distinguuntur. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e434">
+          ¶ 3a conclusio. 
+          <lb ed="#V" n="73"/>quod persona et relatio sunt idem identice: quia cum persi 
+          <lb ed="#V" n="74"/>na includat essentiam. videtur formaliter infinita: et per consequens 
+          <lb ed="#V" n="75"/>sibi vnit identice omne sibi compossibile: cum ergo relatio sit in 
+          <lb ed="#V" n="76"/>persona erit idem identice.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e445">
+          ¶ Quarta conclusio. quod 
+          per<lb ed="#V" n="77" break="no"/>sona et relatio non distinguuntur realiter: quia magis 
+          in<lb ed="#V" n="78" break="no"/>tima est relatio persone quam sit essentie: cum ipsam 
+          for<lb ed="#V" n="79" break="no"/>mraliter constituat in esse: et tamencvt patuitus non 
+          distingui<lb ed="#V" n="80" break="no"/>tur realiter ab essentia.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e457">
+          ¶ Sed contra has conclusiones instatur 
+          <lb ed="#V" n="81"/>4r. Primo. quia persona et essentia videntur distingui 
+          distin<lb ed="#V" n="82" break="no"/>ctione minima ex natuam rei: et tamen videtur minor inter persona 
+          <lb ed="#V" n="83"/>et relationem. cum persona dicatur respectiua: et non 
+          <lb ed="#V" n="84"/>absoluta: cum ergo ista sit minima: illa erit rationis. 
+        </p>
+        <p xml:id="FrMS88-e77138-d1e468">
+          <lb ed="#V" n="85"/>¶ 2o quia cum relatio dicatur de persona in primo modo ddi per se tanquam 
+          <lb ed="#V" n="86"/>eius formale constitutiuum: non videtur ibi esse formalis 
+          distin<lb ed="#V" n="87" break="no"/>presertim cum persona ponatur respectiua.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e477">
+          ¶ 3o sic. natura 
+          <lb ed="#V" n="88"/>persone non ponuntur idem identice: eo quod non sunt 
+          for<lb ed="#V" n="89" break="no"/>maliter infinite: si ergo persona non sit formaliter 
+          infini<lb ed="#V" n="90" break="no"/>ta. Constat autem quod relatio non est formaliter infinita: se 
+          <lb ed="#V" n="91"/>quitur quod non erunt idem identice.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e488">
+          ¶ 4o. quia licet ista 
+          inue<lb ed="#V" n="92" break="no"/>niatur a sanctis communiter concessa: persona est essentia: non 
+          <lb ed="#V" n="93"/>tamen ista: persona est relatio: minus ergo videntur idem: et per consequens 
+          <lb ed="#V" n="94"/>distincta realiter.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e497">
+          ¶ Ad primum dico. quod licet magis addat 
+          <lb ed="#V" n="95"/>totus homo ad corpus: quiam ad animam: eo quod habet entitatem 
+          mi<lb ed="#V" n="96" break="no"/>norem: tamen magis denominatur a corpore: vnde dicitur corpus 
+          <lb ed="#V" n="97"/>non spiritus. Sic in proposito. licet persona minus addat ad 
+          <lb ed="#V" n="98"/>essentiam quam ad relationem: tamen a relatione fit denominatio: et 
+          dicitu<lb ed="#V" n="99" break="no"/>tota persona respectiua. Et ratio horum est: quia constitutum semper 
+          <lb ed="#V" n="100"/>tenet modum minus praencipalem. vt patet in constituto ex 
+          abso<lb ed="#V" n="101" break="no"/>luto et respectiuo: ex substantia et accidente: ex contingenti et 
+          ne<lb ed="#V" n="102" break="no"/>cessario: ex spirituali et corporali.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e517">
+          ¶ Ad 2m dico. quod licet 
+          ge<lb ed="#V" n="103" break="no"/>nus dicatur de specie in primo modo dicendi per se. tamen species addit ad 
+          <lb ed="#V" n="104"/>ipsum differentiam specificam: secundum quam distinguitur ab eo 
+          for<lb ed="#V" n="105" break="no"/>maliter per modum additionis.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e527">
+          ¶ Ad 3m dico. quod oportet 
+          con<lb ed="#V" n="106" break="no"/>cedere: quod aut illa vnitas non erit identica: cum nec 
+          perso<lb ed="#V" n="107" break="no"/>na nec relatio sit formaliter infinita: aut dicere quod 
+          persone<lb ed="#V" n="108" break="no"/>est formaliter infinita: sicut et essentia diuina. Et tunc 
+          <lb ed="#V" n="109"/>oportet dicere quod non sufficit ad vnitatem identicam quod vnum 
+          <lb ed="#V" n="110"/>vel alterum sint realiter idem tertio infinito: sed oportet quod vtrum 
+          <lb ed="#V" n="111"/>que: ita quod talis realis vnitas sit prior ordine essentiali quam 
+          <lb ed="#V" n="112"/>identica.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e545">
+          ¶ Ad quartum dico quod Aug. videtur eam 
+          ex<lb ed="#V" n="113" break="no"/>primere. 7. de trini. quando dicit quod eo verbum quo filius: non 
+          <lb ed="#V" n="114"/>tamen eo sapientia quo verbum: sed eo essentia quae sapientia 
+          <lb ed="#V" n="115"/>videtur ergo concedere aliquo modo relatione verbum esse quo 
+          nega<lb ed="#V" n="116" break="no"/>sapientia verbum esse.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e556">
+          ¶ Sed hic sunt quatuor difficultates. Prim 
+          <lb ed="#V" n="117"/>ma est. si aliquod praedicatum potest dici de diuina persona in 
+          <lb ed="#V" n="118"/>modo dicendi per se dico quod non proprie: quia persona diuina non 
+          <lb ed="#V" n="119"/>est aliquod vnum diffinibile. cum non sit vnum formaliter. 
+          <lb ed="#V" n="120"/>Suppositum autem in creaturis multa predicata recipit 
+          <lb ed="#V" n="121"/>de primo modo: quia est quoddam vnum diffinibile per se persona aum 
+          <lb ed="#V" n="122"/>diuina non sic. ad constitonem autem eius concurrunt due 
+          ratio<lb ed="#V" n="123" break="no"/>nes diuersorum generum non facientes aliquam tertiam 
+          <lb ed="#V" n="124"/>entitatem vnam per se.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e576">
+          ¶ 2a difficultas est. si ista est in primo 
+          <lb ed="#V" n="125"/>modo. pater est essentia. Dico quod non proprie. quia 
+          praedi<lb ed="#V" n="126" break="no"/>catio primi modi non est nisi formalis. ista aut est 
+          identi<lb ed="#V" n="127" break="no"/>ca.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e585">
+          ¶ Tertia difficultas est. si ista sit de primo modo. pater est deus: 
+          <lb ed="#V" n="128"/>Dico quod non. licet in creaturis hoc modo natura de supposito 
+          <lb ed="#V" n="129"/>praedicetur. eo quod ratio constitutiua suppositi non extraneantus 
+          <lb ed="#V" n="130"/>a natura. tamen in diuinis sic. quia relatio constituens extraneatur a 
+          <lb ed="#V" n="131"/>natura diuina. Ratio autem euidenter ostendens quod ista non est in 
+          <lb ed="#V" n="132"/>primo modo est ista: quia quod per se diceretur de deo diceretur de 
+          <!--212.xml-->
+          <pb ed="#V" n="105-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>patre. sicut patet per regulam logicalem: ergo cum deus per se sit absolutum 
+          <lb ed="#V" n="2"/>persona erit abspluta: quod est secundum.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e609">
+          ¶ 4a difficultas est. si ista. patet 
+          <lb ed="#V" n="3"/>est relatio. sit in per modo: Dico quod non. quia videtur identica. sed ista. 
+          <lb ed="#V" n="4"/>pater est relatiuum videtur appropinquare: quia quicquid dicitur in quid de 
+          re<lb ed="#V" n="5" break="no"/>spectiuo: dicitur in quid de patre 
+          <lb ed="#V" n="6"/>ad 3am partem istius quaestionis videndum est. Utrum 
+          <lb ed="#V" n="7"/>Quantu persona dicat aliquid praeter relationem et essentiam 
+          si<lb ed="#V" n="8" break="no"/>mul sumptas. ita quod sit quaestio similis illi quae fit in creaturis de 
+          <lb ed="#V" n="9"/>entitate compositi resultante. Introducuntur autem hoc 4or 
+          ratio<lb ed="#V" n="10" break="no"/>nes probantes partem affirmatiua: quae omnes innituntur primo principio 
+          complexio<lb ed="#V" n="11" break="no"/>quia de eodem contradictoria dici non possunt. Prima est ista et 
+          concedi<lb ed="#V" n="12" break="no"/>tur ab omnibus quod essentia et relatio constituunt similis sumpta param: sed 
+          <lb ed="#V" n="13"/>prsona non constituit personam: quia idem non constituit se. ergo etc. 
+        </p>
+        <p xml:id="FrMS88-e77138-d1e636">
+          <lb ed="#V" n="14"/>¶ 2a est ista. Omne constitutiuum alicuius videtur prius constituto: cum 
+          <lb ed="#V" n="15"/>constitutum videatur ab eis resultare. sed essentia et relatio simuls 
+          sum<lb ed="#V" n="16" break="no"/>pta sunt constitutiua persone: ergo priora persona: sed persona non est 
+          <lb ed="#V" n="17"/>prior pesolut: quia nihil est prius se. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e647">
+          ¶ 3a est hec: nulla res 
+          <lb ed="#V" n="18"/>seipsam praesupponit: sed persona praesupponit essentiam et 
+          relatio<lb ed="#V" n="19" break="no"/>nem. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e654">
+          ¶ 4a. Supra primo diuersa vt sic non potest aliqua 
+          vni<lb ed="#V" n="20" break="no"/>tas fundari. sed essentia et relatio secundum suas rationes formales sunt 
+          <lb ed="#V" n="21"/>prod diuersa. ergo vnitas quam habemus positionem in persona: non potest 
+          <lb ed="#V" n="22"/>in eis fundari. ergo in alio. Intelligentum autem ad euidentiam 
+          isti<lb ed="#V" n="23" break="no"/>us articuli. quod 4r potest aliquis imaginari quod persona ad 
+          essen<lb ed="#V" n="24" break="no"/>tiam et relationem se heret. Unoo quod sicut species suo modo: secundum communem 
+          <lb ed="#V" n="25"/>viam: nihil addit ad genus et differentiam simul sumpta. ita 
+          perso<lb ed="#V" n="26" break="no"/>na nihil addit ad rationes formales essentie et relationis simul 
+          <lb ed="#V" n="27"/>sumptas. quia sicut illa sunt diffinitia speciei. sic ista persone. 
+        </p>
+        <p xml:id="FrMS88-e77138-d1e674">
+          <lb ed="#V" n="28"/>¶ 2o modo quod ex relatione et essentia resultet quadam 3a vnitas: sei 
+          <lb ed="#V" n="29"/>cut ponit a multis de composito ex mam et forma: ita quod 
+          si<lb ed="#V" n="30" break="no"/>cut ex istis fit vnum per se. ita ex illis.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e683">
+          ¶ 3o modo quod sit ibi 
+          vni<lb ed="#V" n="31" break="no"/>tas identica que prouenit ex infinitate vnius istorum 
+          constituen<lb ed="#V" n="32" break="no"/>tium scilicet essentie. vt sic perimum nihil aliud sit nisi essentis et relatio: non vi 
+          <lb ed="#V" n="33"/>praecise distincta secundum rationes formales: sed vt sunt vnum identice. 
+        </p>
+        <p xml:id="FrMS88-e77138-d1e692">
+          <lb ed="#V" n="34"/>¶ 4o modo quod ponatur persona vnica realitas: secundum quam omnia 
+          <lb ed="#V" n="35"/>quae sunt in vna perum sint vna res. ita quod illa realitas vere sit 
+          <lb ed="#V" n="36"/>essentia et vere relatio: sicut infinitas divina vere est quodlibet 
+          attri<lb ed="#V" n="37" break="no"/>butum. sicut etiam vnica essentia est qualibet persona: sic ergo persolutum est 
+          ali<lb ed="#V" n="38" break="no"/>quid vnum reale non vnitate fundata in ratione aliqua forma. sed in 
+          <lb ed="#V" n="39"/>realitate commni.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e709">
+          ¶ Aliis autem viis praetermissis quarum qualibet 
+          <lb ed="#V" n="40"/>habet multas difficultas ptractando 4am viam. Est sciendum quod si 
+          ipsa<lb ed="#V" n="41" break="no"/>ponatur multe insurgunt difficultas qubus declaratis multa alia 
+          pa<lb ed="#V" n="42" break="no"/>tebunt. Prima est. quae est necessaritas ponendi istam realitatem 
+          prima<lb ed="#V" n="43" break="no"/>ter rationes formales.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e720">
+          ¶ Dico quod quadruplici de causa ponitur 
+          <lb ed="#V" n="44"/>necessario illa realitas. Primo ad vitandum realem distinctionem. 
+          <lb ed="#V" n="45"/>vt scilicet ea que sunt in eadem periua realiter non distinguantur. vnde 
+          <lb ed="#V" n="46"/>oportet quod respondeat vnica realitas: vt sit vna res.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e729">
+          ¶ 2o ad 
+          sal<lb ed="#V" n="47" break="no"/>uanum distinctionem formalem quae superius demonstrata est inter ista 
+          <lb ed="#V" n="48"/>quae sunt in vna perum. quia si rationes formales nullatenus 
+          abstra<lb ed="#V" n="49" break="no"/>hant a sua realitate: sed sint omnibus modis: idem tunc sicut 
+          poni<lb ed="#V" n="50" break="no"/>vna res: poneretur vna formalis ratio.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e740">
+          ¶ 3o ad vitandum 
+          qua<lb ed="#V" n="51" break="no"/>ternitatem rerum. quia cum tres persone sint tres res respectiue. 
+          <lb ed="#V" n="52"/>si ponatur in aliqua persona nisi vna reatiae habebimus 
+          quaeternita<lb ed="#V" n="53" break="no"/>tem rerum.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e749">
+          ¶ 4o ad salisum quaternitatem relationum. quia si relatio in 
+          di<lb ed="#V" n="54" break="no"/>uinis est omni modo sua reatiam: sicut sunt 4or relationes. sic erunt 
+          <lb ed="#V" n="55"/>4or res.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e756">
+          ¶ 2a di. est. quia si videtur necessario potentiem distinctione aliquam inter 
+          <lb ed="#V" n="56"/>relationem et essentiam ex vna parte: et illam realitatem ex alia. cum 
+          <lb ed="#V" n="57"/>extrema contradictionis secundum praemissa eis attribuantur. vt patet. Di 
+          <lb ed="#V" n="58"/>co quod non est ibi distinctio nec realis nec formalis: sed sicut 
+          mo<lb ed="#V" n="59" break="no"/>dus intrinsecus intellecitur distingui a formalibus suis rationibus 
+          <lb ed="#V" n="60"/>ab eo abstrahentibus: sicut attritias divina abstrahunt ab 
+          infini<lb ed="#V" n="61" break="no"/>tate et necessaritate.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e773">
+          ¶ 3a differentas est. quia aliqui videntur vitare istos 
+          mo<lb ed="#V" n="62" break="no"/>dos per vnicam distinction quam quoilibet cogitur positionem. si ergo sic possunt 
+          <lb ed="#V" n="63"/>vitari ponendo illud quod necessarium est positionem. videtur quod non 
+          de<lb ed="#V" n="64" break="no"/>beant poni. Dicitur ergo quod res 2a accipitur. Uno pro omni eo quod est 
+          <lb ed="#V" n="65"/>extra animam. et sic accipien conceditur quod essentia et relatio sunt 
+          due<lb ed="#V" n="66" break="no"/>res. Si autem accipiatur pro re proprie. prout nunc loquimur 
+          <!--212.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>de re. sic tantum sunt vna res. Ista tamen euasio non videtur sufficiens: 
+          <lb ed="#V" n="68"/>quia sic possumus distingueme de essentia. prout accipitur pro omni eo 
+          <lb ed="#V" n="69"/>quod est in re extra: et pro essentia proprie. primo modo conceditur quod sunt 
+          tre<lb ed="#V" n="70" break="no"/>essentie: quod nullatenus conceditur. 2o modo non. Similiter accipio 
+          pro<lb ed="#V" n="71" break="no"/>priissime rem: sicut tu accipis: quando dicitur quod in divinis sunt 
+          tres<lb ed="#V" n="72" break="no"/>res tantum: quocumque autem sunt in vna persolus sunt vna res.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e804">
+          ¶ 
+          Con<lb ed="#V" n="73" break="no"/>stat quod in vna persolus sunt multe rationes formales. ergo plures 
+          <lb ed="#V" n="74"/>res. Item eo mo qua est vnica res: sunt ibi multe rationes 
+          for<lb ed="#V" n="75" break="no"/>males.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e813">
+          ¶ Si dicas non sunt multe rationes formales sed 
+          <lb ed="#V" n="76"/>vna: non tamen formaliter. Istud non sufficit. quia eodem modo 
+          ar<lb ed="#V" n="77" break="no"/>guam de vna ratione formali: et pluribus formaliter.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e820">
+          ¶ 4a difficultas 
+          <lb ed="#V" n="78"/>est. quia divina essentia vt videtur antecedere personas diuinas in 
+          quo<lb ed="#V" n="79" break="no"/>dam signo naturae: secundum illud quod dicit Dion. inc. de vnica et 
+          di<lb ed="#V" n="80" break="no"/>screta theologia: est vera res per suam realitatem. hic autem non 
+          <lb ed="#V" n="81"/>ponuntur nisi realitates personales.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e831">
+          ¶ Dico quod deitas vt 
+          <lb ed="#V" n="82"/>praecedit personas nullam realitatem habet. sicut nec natura humana extra 
+          <lb ed="#V" n="83"/>sua supposita. potest tamen dici res in illo priori eo modo quo loquitur 
+          <lb ed="#V" n="84"/>Aug. 9. de tri. quod omne relatiuum prius est quam ipsa relatio: cum 
+          <lb ed="#V" n="85"/>tamen per relationem sit formaliter relatiuum. Unde album potest duplio 
+          <lb ed="#V" n="86"/>ter accipi: aut prout supponit pro subiecto albedis: et sic 
+          prae<lb ed="#V" n="87" break="no"/>cedit albedinem: aut prout supponit quasi pro constituto ex 
+          <lb ed="#V" n="88"/>subiecto et albedine: et sic est posterius ipsa albedine: et sic 
+          <lb ed="#V" n="89"/>dicendum est de denominato a realitate: et ipsa realitate. 
+        </p>
+        <p xml:id="FrMS88-e77138-d1e851">
+          <lb ed="#V" n="90"/>¶ 5a difficultas est. quia divina essentia secundum determinationem ecclesi 
+          <lb ed="#V" n="91"/>est summa res: que nec generat nec generatur: nec spirat nec 
+          spe<lb ed="#V" n="92" break="no"/>ratur: et tamen qualibet trium rerum personalium: aut generat: aut generatur 
+          <lb ed="#V" n="93"/>aut spirat: aut spiratur: erit ergo vna 4or res.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e863">
+          ¶ Dico quod sicut 
+          <lb ed="#V" n="94"/>ab eadem iustitia dicitur homo iustus et anima iusta denominatiue: et tamen 
+          <lb ed="#V" n="95"/>vnum istorum generatur et corrumpitur: et aliud non. ita ab eadem 
+          <lb ed="#V" n="96"/>realitate denominatur res diuina essentia et persoluta: et tamen res que 
+          <lb ed="#V" n="97"/>est essentia non generat nec generatur: sed res qui est persoltua. 
+          Reali<lb ed="#V" n="98" break="no"/>tas enim identice est idem essentie et persone: et supponit pro vtro 
+          <lb ed="#V" n="99"/>que: vt autem supponit pro essentia: nec generat nec generatur: vt autem 
+          <lb ed="#V" n="100"/>pro persoluas sic.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e881">
+          ¶  6a difficultas est. quia in diuis ponitur vna res ab 
+          <lb ed="#V" n="101"/>solutissima scilicet divina essentia quae est res absoluta: et ponuntur 
+          tres<lb ed="#V" n="102" break="no"/>respectiue secundum quod patet ex dictis. ergo videtur quod sequitur quaternim 
+          <lb ed="#V" n="103"/>tas rerum. quod est contra ecclesiam.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e890">
+          ¶ Dico quod sicut eadem existentia 
+          <lb ed="#V" n="104"/>existit essentia et persoltua. sic eadem realitate sunt res: illa autem 
+          <lb ed="#V" n="105"/>realitas abstrahit ab absoluto et respectiuo. sicut ratio 
+          en<lb ed="#V" n="106" break="no"/>tis. tamen dicitur denominatiue absoluta et respectiua secundum quod sun 
+          <lb ed="#V" n="107"/>quiditates: quarum est realitas.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e901">
+          ¶ a difficultas est. quia in divinis est 
+          <lb ed="#V" n="108"/>vna realitas comnicabilis scilicet essentia. et tres incommunicabiles: 
+          <lb ed="#V" n="109"/>vt realitate personales: ergo quaternitas.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e908">
+          ¶ Dico quod vna 
+          rea<lb ed="#V" n="110" break="no"/>litas vt supponit pro essentia dicitur communicabilis: vt autem pro 
+          <lb ed="#V" n="111"/>relatione dicitur incommunicabilis: ipsa tamen in se vltimate praecisa non 
+          <lb ed="#V" n="112"/>est comunicabilis cum sit personalis: nisi pro quanto 
+          supponis<lb ed="#V" n="113" break="no"/>pro essentia cum qua est vnum identice: et vt sic potest dici 
+          comica<lb ed="#V" n="114" break="no"/>bilis: tamen in se formaliter non: accidit enim sibi quod supponat 
+          qua<lb ed="#V" n="115" break="no"/>essemtuias.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e924">
+          ¶ Sed quare non ita bene relatio communicabilis: cum sit eque 
+          <lb ed="#V" n="116"/>vnum identice cum essentia: sicut ista realitas:
+        </p>
+        <p xml:id="FrMS88-e77138-d1e930">
+          ¶ Dico quod 
+          res<lb ed="#V" n="117" break="no"/>et ens identice de aliis praedicantur in divinis propter duas causas. sed 
+          <lb ed="#V" n="118"/>propter infinitatem et communitate: ideo magis supponit pro aliis: 
+          <lb ed="#V" n="119"/>quam relatio vel alia.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e939">
+          ¶ 56a difficultas. quia vt videtur divina esse non erit tantum 
+          <lb ed="#V" n="120"/>vna res. sed tres res. cum ibi sint tres realitates: a quibus 
+          <lb ed="#V" n="121"/>ipsa denominatur res.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e946">
+          ¶ Dico quod essentia diuina simul est 
+          tre<lb ed="#V" n="122" break="no"/>res: sicut tres persone simul de ipsa praedicantur: et etiam est 
+          <lb ed="#V" n="123"/>vna res quae est quolibet illarum: non est autem alia res ab istis. 
+          <lb ed="#V" n="124"/>Aliter enim dicitur vna res et tres res: et aliter tres realita 
+          <lb ed="#V" n="125"/>tes et vna realitas. quia vna et tres res dicuntur 
+          denomina<lb ed="#V" n="126" break="no"/>tiue: vna autem et tres realitates dicuntur identice.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e959">
+          ¶ 4o 
+          <lb ed="#V" n="127"/>difficultas. quia cum quelibet istarum realitatum dicatur 
+          abso<lb ed="#V" n="128" break="no"/>luta propter diuinam essentiam: sicut relatiua propter 
+          rela<lb ed="#V" n="129" break="no"/>tionem. videtur quod ita debeant dici tres realitates 
+          abso<lb ed="#V" n="130" break="no"/>lute: sicut dicuntur tres respectiue.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e970">
+          ¶ Dico quod verum esset 
+          <lb ed="#V" n="131"/>si illud a quo dicitur realitas absoluta: multiplicetur in 
+          <lb ed="#V" n="132"/>diuinis: sicut illud a quo dicitur relatiua: cuius opposi¬ 
+          <!--213.xml-->
+          <pb ed="#V" n="105-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>tum est de facto: licet enim quelibet trium realitatum sit 
+          absoli<lb ed="#V" n="2" break="no"/>ta. non tamen tres realitates absolute: sicut quolibet 
+          attribu<lb ed="#V" n="3" break="no"/>torum dicitur infinitum: non tamen plures infinitates: aut sicut 
+          quali<lb ed="#V" n="4" break="no"/>bet persona est deus: non tamen tres dii.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e992">
+          ¶ a dtra difficultas est. quia cum 
+          <lb ed="#V" n="5"/>distinctio realis fundetur in realitate. sicut formalis in 
+          ra<lb ed="#V" n="6" break="no"/>tione formali: videtur quod relatio vnius persone non 
+          distingua<lb ed="#V" n="7" break="no"/>realiter a relatione alterius persone: cum secundum te sint tantum tres 
+          <lb ed="#V" n="8"/>rationes formales.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e1004">
+          ¶ Dico quod sicut accidentia diuersorum 
+          <lb ed="#V" n="9"/>suppositorum distinguuntur suppositaliter: licet non sint 
+          suppo<lb ed="#V" n="10" break="no"/>sitaatamen hoc habent per attributionem ad ipsa. ita distincte 
+          rela<lb ed="#V" n="11" break="no"/>tiones distinguuntur realiter per attributionem ad diuersas 
+          <lb ed="#V" n="12"/>realitates quas habent in distinctis personis.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e1015">
+          ¶ Undecima difficultas 
+          <lb ed="#V" n="13"/>cultas: quia tunc secundum praemissa non videtur quod persona per relatio 
+          <lb ed="#V" n="14"/>nem distinguitur realiter ab alia persona. sed formaliter tantum: 
+          <lb ed="#V" n="15"/>cum supra formalitatem non fundetur nisi formalis distinctio¬ 
+        </p>
+        <p xml:id="FrMS88-e77138-d1e1024">
+          <lb ed="#V" n="16"/>¶ Dico quod sicut relationes formalitur distinguuntur: ita 
+          perso<lb ed="#V" n="17" break="no"/>ne per realitatem ipsarum relationum realiter distinguuntur: vt 
+          <lb ed="#V" n="18"/>autem abstrahit ratio formalis a realitate: tunc manet 
+          <lb ed="#V" n="19"/>solum distinctio formalis: et tunc maior videtur distinctio 
+          re<lb ed="#V" n="20" break="no"/>lationis a relatione quam persone a persona: sicut distinctio 
+          ge<lb ed="#V" n="21" break="no"/>neris excedit specificam.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e1040">
+          ¶ Duodecima difficultas: quia 
+          <lb ed="#V" n="22"/>sicut relatio in patre distinguitur a relatione filii realiter per 
+          <lb ed="#V" n="23"/>hoc quod aliam et aliam realitatem habet in illis personis. ita vi 
+          <lb ed="#V" n="24"/>quod essentia per attributionem ad diuersas realitates pari 
+          <lb ed="#V" n="25"/>ratione distinguitur realiter.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e1051">
+          ¶ Dico quod realis distinctio 
+          praesup<lb ed="#V" n="26" break="no"/>ponit non identitatem extremorum. vbi ergo preintelligitur non idem 
+          <lb ed="#V" n="27"/>titas. distinctio esse non potest. essentia autem vna numero est in 
+          <lb ed="#V" n="28"/>personis: et ideo quicumque sibi adueniente realiter distingui non 
+          <lb ed="#V" n="29"/>potest. sicut nec personaliter distinguitur per attributionem ad 
+          perso<lb ed="#V" n="30" break="no"/>nas.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e1064">
+          ¶ Tertiadecima difficultas: quia realitas videtur 
+          <lb ed="#V" n="31"/>dicere perfectionem simpliciter: sicut alia transcendentia 
+          concomitan<lb ed="#V" n="32" break="no"/>tia ens. et tamen nulla perfectio simplicitur in diuinis est 
+          per<lb ed="#V" n="33" break="no"/>sonalis: sed inste tres realitates secundum premissa ponuntur 
+          <lb ed="#V" n="34"/>personales.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e1076">
+          ¶ Dico quod sicut vnitas non dicit vniversaliter perse 
+          <lb ed="#V" n="35"/>ctionem simpliciter: cum in divinis non negatur vnitas personalis: 
+          <lb ed="#V" n="36"/>et forte eodem modo veritas sic forte suo modo potest dici 
+          <lb ed="#V" n="37"/>de ipsa realitate.
+        </p>
+        <p xml:id="FrMS88-e77138-d1e1085">
+          ¶ Ad argumentum patet. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

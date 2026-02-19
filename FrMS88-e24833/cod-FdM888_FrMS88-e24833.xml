@@ -1,371 +1,371 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="35-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e24833"><!-- l1d5q2 -->
-            <head xml:id="FrMS88-e24833-Hd1e108">Quaestio 2</head>
-            <p xml:id="FrMS88-e24833-d1e111">
-      Questio. ii. 
-      <lb ed="#V" n="45"/>essentia diuina generetur. quod 
-      <lb ed="#V" n="46"/>Trum sic. Eclesiastici. 24. Ex ore 
-      <lb ed="#V" n="47"/>altissimi prodii praegenita ante omnem 
-      creatu<lb ed="#V" n="48" break="no"/>ram.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e122">
-      ¶ Contra. Augustinus. dicit contra epistolam 
-      <lb ed="#V" n="49"/>fundamenti quod est ecclesie credendum: que 
-      <lb ed="#V" n="50"/>dicit quod non generatur.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e129">
-      ¶ Circa istam quaestionem sunt duo faciem 
-      <lb ed="#V" n="51"/>da. Primum est inquirere. si essentia diuina generatur 
-      <lb ed="#V" n="52"/>Secundum est supposito quod non. que sit ratio 
-      <lb ed="#V" n="53"/>ad primum introducuntur 4or conclusiones ex qui 
-      <lb ed="#V" n="54"/>Quantum bus patebit primum. Prima est quod essentia 
-      <lb ed="#V" n="55"/>diuina simpliciter sumpta non generatur sicut nec generat.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e142">
-      ¶ Et 
-      <lb ed="#V" n="56"/>probo sicut supra: quia subiectum istius propositionis est vltimate 
-      <lb ed="#V" n="57"/>abstractum: et praedicatum non potest nisi formaliter predica 
-      <lb ed="#V" n="58"/>ri ergo esset in primo modo dicendi per se. quod est impossibile.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e152">
-      ¶ Item 
-      <lb ed="#V" n="59"/>primo quo repugnat esse quod: sed essentia est primum quo filius 
-      <lb ed="#V" n="60"/>generatur. ergo non potest esse quod.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e159">
-      ¶ 2a conclusio est. quod essentia 
-      di<lb ed="#V" n="61" break="no"/>uina non generatur vt quo. quia sic comparatur quo ad quod. 
-      <lb ed="#V" n="62"/>sicut principium formale gnrationis ad generans. Nam esse 
-      gene<lb ed="#V" n="63" break="no"/>rans est: sicut esse agens. Tunc arguo sic. Omne cui 
-      con<lb ed="#V" n="64" break="no"/>petit generari conuenit sibi per aliquid quod est in ipso formali 
-      <lb ed="#V" n="65"/>ter: sicut dictum est de generare. Ista patet. quia quod 
-      reduci<lb ed="#V" n="66" break="no"/>tur ad quo. sed essentie diuine nihil potest competere quo 
-      <!--72.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>ipsa generetur. cum ipsa fit prius quo et primum terminus 
-      for<lb ed="#V" n="68" break="no"/>malis. ergo ipsa non generatur: etiam vt quo.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e183">
-      ¶ 3a conclusio est. quod 
-      essentia<lb ed="#V" n="69" break="no"/>diuina vt in filio non generatur. quia cui competit esse quo sub 
-      <lb ed="#V" n="70"/>aliqua determinatione: nullo alio addito non conuenit 
-      er<lb ed="#V" n="71" break="no"/>esse quod: sed essentie vt in filio competit esse terminum 
-      for<lb ed="#V" n="72" break="no"/>malem generationis. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e194">
-      ¶ Praeterea essentia quacumque 
-      reduplica<lb ed="#V" n="73" break="no"/>tione addita est vltimate abstracta: sicut simpliciter 
-      sum<lb ed="#V" n="74" break="no"/>pta: sed vt simpliciter sumpta non generatur. ergo nec vt in filio. 
-      </p>
-            <p xml:id="FrMS88-e24833-d1e201">
-               <lb ed="#V" n="75"/>¶ 4a conclusio est. quod essentia divina no generatur subiectiue: quia 
-      ter<lb ed="#V" n="76" break="no"/>minus formalis generationis non est eius subiectum: sed essentia est 
-      <lb ed="#V" n="77"/>huiusmodi. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e210">
-      ¶ Sed contra. istud instatur 4r. Primo sic. Nam secundum 
-      san<lb ed="#V" n="78" break="no"/>ctos docor essentia diuina comunicatur et datur. et ista comunicatio in 
-      fi<lb ed="#V" n="79" break="no"/>lio non videtur nisi gneatio passiua. ergo sicut conceditur quod 
-      communica<lb ed="#V" n="80" break="no"/>tur: ita poterit generari.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e220">
-      ¶ 2o sic. Augustius. 19. de tri. quicquid 
-      <lb ed="#V" n="81"/>habet filius habet a patre: sed essentiam habet. ergo a patre habet: sed habere a. 
-      <lb ed="#V" n="82"/>dicit originem.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e227">
-      ¶ Confirmatur. quia essentia est formalis 
-      ter<lb ed="#V" n="83" break="no"/>minus. ergo saltem vt quo poterit dici generari.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e232">
-      ¶ 3o sic. 
-      <lb ed="#V" n="84"/>nam filius dicitur essentia de essentia. istud autem de nihil 
-      ab<lb ed="#V" n="85" break="no"/>solutum dicit. ergo respectum: sed non nisi originis. 
-      er<lb ed="#V" n="86" break="no"/>go etc.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e241">
-      ¶ 4o sic. in Io. dicitur. Dictetur quod dedit mihi maius omnibus 
-      <lb ed="#V" n="87"/>est: sed hoc non est nisi essentia. ergo essentia datur. sed dari non 
-      <lb ed="#V" n="88"/>est aliud quam produci. ergo essentia producitur.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e248">
-      ¶ Ad ista. 
-      </p>
-            <p xml:id="FrMS88-e24833-d1e251">
-               <lb ed="#V" n="89"/>¶ Ad primum dicit frater Io. concedendo quod essentia comunicatur 
-      vni<lb ed="#V" n="90" break="no"/>de dicit. quod alia est relatio qua principium quod dicitur ad productum: 
-      <lb ed="#V" n="91"/>et alia qua principium formale dicitur ad terminum quo et hoc 
-      <lb ed="#V" n="92"/>tantum modo est in creaturis: quia principium formale in creatu 
-      <lb ed="#V" n="93"/>ris differt realiter a termino quo. Ideo habitudo vtra 
-      <lb ed="#V" n="94"/>que tam agentis totalis ad productum: quam etiam principii 
-      pro<lb ed="#V" n="95" break="no"/>ductiui ad terminum est realis in creaturis: quia autem in 
-      <lb ed="#V" n="96"/>diuinis non distinguitur principium quo. et terminus quo: inter 
-      <lb ed="#V" n="97"/>ea non poterit esse relatio realis: sed solum modo erit 
-      re<lb ed="#V" n="98" break="no"/>latio rationis: quia autem totale principium quod est distinctum a 
-      <lb ed="#V" n="99"/>totali termino quod: hinc est quod illa habitudo est realis. 
-      </p>
-            <p xml:id="FrMS88-e24833-d1e278">
-               <lb ed="#V" n="100"/>¶ Sed quia istud non videtur satisfacere. essentia enim rea 
-      <lb ed="#V" n="101"/>liter comuicat et realiter communicatur: licet realiter non gignatur. Ideo 
-      <lb ed="#V" n="102"/>dicitur aliter quod communicare abstrahit a generare sicut superius ab 
-      in<lb ed="#V" n="103" break="no"/>feriori. non enim sequitur: essentia comunicatur. ergo gnratur. quia 
-      <lb ed="#V" n="104"/>locus a toto vniversali non est constructiuus.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e291">
-      ¶ Sed nec istud 
-      sa<lb ed="#V" n="105" break="no"/>tiffacit. Ideo contra hoc arguo sic. quandocumque ab aliquo negantur 
-      <lb ed="#V" n="106"/>omnes species alicuius generis. totum genus potest negari ab eodem 
-      <lb ed="#V" n="107"/>sicut a quo negatur homo asinus etc. ab eo negatur omne animal: 
-      <lb ed="#V" n="108"/>sed comunicare in diuinis est superius ad generare et spirare. et 
-      <lb ed="#V" n="109"/>ibi nullas alias species habet. ergo si generare et spirare 
-      remo<lb ed="#V" n="110" break="no"/>uentur ab essentia diuina. ergo et genus scilicet comunicare: et tunc 
-      <lb ed="#V" n="111"/>sicut nec generatur nec spiratur. ita nec comunicatur.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e309">
-      ¶ Dico 
-      <lb ed="#V" n="112"/>ergo aliter quod geneatio et comunicatio sunt relationes disparate 
-      <lb ed="#V" n="113"/>Nam generatio est relatio originis. comunicatio autem est 
-      <lb ed="#V" n="114"/>relatio communis: sicut identitas vel equalitas. vel 
-      similitu<lb ed="#V" n="115" break="no"/>do. Non est autem inconueniens quod essentia diuina talibus 
-      re<lb ed="#V" n="116" break="no"/>lationibus referatur. sicut essentia dicitur esse eadem. et quantitas 
-      equa<lb ed="#V" n="117" break="no"/>lis. et qualitas vel attributum siue perfectio dicitur esse similis.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e325">
-      ¶ Sed 
-      <lb ed="#V" n="118"/>contra. relationes communes dicuntur esse equiparantie. comunicatio autem 
-      <lb ed="#V" n="119"/>disquiparantie.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e332">
-      ¶ Dico igitur quod communicatio dicit relationem 
-      <lb ed="#V" n="120"/>commune concernendo relationem originis. communicare enim dicit 
-      <lb ed="#V" n="121"/>identitatem concernendo gnaturare. et communicari idem dicit 
-      concer<lb ed="#V" n="122" break="no"/>nendo gnaterari. Et ratione istius concernentie est difformitas 
-      </p>
-            <p xml:id="FrMS88-e24833-d1e341">
-               <lb ed="#V" n="123"/>¶ Ad 2m dico eodem modo scilicet de a. quod a dicit relationem 
-      con<lb ed="#V" n="124" break="no"/>munem concernendo originem.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e349">
-      ¶ Ad confirmationem dico quod 
-      <lb ed="#V" n="125"/>licet ei conueniat esse principium quo. vel terminus quo. sib 
-      <lb ed="#V" n="126"/>tamen repugnat esse principium quod vel terminus quod: et ide 
-      <lb ed="#V" n="127"/>non generatur.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e358">
-      ¶ Ad 3m et 4m de de. et dedit. dico quod 
-      tam<lb ed="#V" n="128" break="no"/>de quam dedit. dicunt relationes communes concernentes ordinem 
-      <lb ed="#V" n="129"/>priginis. Potest tamen dici de de. quod concernit quandam origns 
-      <lb ed="#V" n="130"/>nem: sed totum redit in idem. 
-      <lb ed="#V" n="131"/>2o. videndum est. quare essentia non gneratur.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e369">
-      ¶ Ad  
-      <lb ed="#V" n="132"/>Nunc intelligendum autem hoc oportet aliqua prius notare. 
-      <!--73.xml-->
-      <pb ed="#V" n="35-v"/>
-               <cb ed="#V" n="a"/>
-            </p>
-            <p xml:id="FrMS88-e24833-d1e380">
-               <lb ed="#V" n="1"/>¶ Primum est quod in creaturis est innuenire principia 
-      operatio<lb ed="#V" n="2" break="no"/>num secundum quadruplicem ordinem. Primus est. quod aliqua principium aliquarum 
-      <lb ed="#V" n="3"/>operationum sunt: ita principim quo. quod nullo modo quod. Exemplum. quando 
-      <lb ed="#V" n="4"/>intellectus intelligit. ratio formalis autem intellectus est 
-      <lb ed="#V" n="5"/>ita quo intelligit. quod nullo modo potest esse quod. Unde 
-      nul<lb ed="#V" n="6" break="no"/>lus dicit quod ratio formalis intellectus intelligat.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e396">
-      ¶ Secundus 
-      <lb ed="#V" n="7"/>modus est econuerso. quod aliquod principium est ita quod. quod nullo 
-      <lb ed="#V" n="8"/>modo quo. vt suppositum verbi intelligit vt quod: et est ita 
-      vltim<lb ed="#V" n="9" break="no"/>mum quod. quod nullo modo qui esse potest respectu alterius.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e405">
-      ¶ 
-      Ter<lb ed="#V" n="10" break="no"/>tius modus est. quod aliquid est ita principium quod vni. quod pluribus 
-      <lb ed="#V" n="11"/>aliis potest esse quo: sicut potentia intellectiua est quod. tamen 
-      <lb ed="#V" n="12"/>ratione sue quiditatis vel rationis formalis est quo tam anima quam 
-      <lb ed="#V" n="13"/>suppositum hominis intelligit.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e417">
-      ¶ Quartus modus est 
-      econue<lb ed="#V" n="14" break="no"/>so: quo scilicet aliquid est ita principium quo vni. quod pluribus potest esse quod. 
-      <lb ed="#V" n="15"/>Exentum. anima enim est tantum qui intelligit homo vel supositum: verumtamen ipsa est 
-      <lb ed="#V" n="16"/>quod respectu intellectus: et respectu rationis formalis intellectus.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e426">
-      ¶ Ex omnibus istis 
-      <lb ed="#V" n="17"/>habetur quod illud quod est simpliciter primum qui. sibi repugnat esse quod: sed 
-      <lb ed="#V" n="18"/>essentia diuina est primum quo aliquid scilicet filius generatur. ergo sibi 
-      re<lb ed="#V" n="19" break="no"/>bugnat esse quod. Ex hoc etiam declaratur ratio praecedentis 
-      quaestio<lb ed="#V" n="20" break="no"/>nis.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e437">
-      ¶ Sed vlterius notandum quod quatuor genera relationum 
-      inue<lb ed="#V" n="21" break="no"/>niuntur in creaturis que attribuuntur diuinis. Primum 
-      ge<lb ed="#V" n="22" break="no"/>nus relationis est referentium et denominantium primo fundamentum 
-      <lb ed="#V" n="23"/>2o subiectum. et 3o suppositum. Exentum. nam similitudine fundata in 
-      <lb ed="#V" n="24"/>duabus albedinibus. primo referuntur fundamenta: quia 
-      albedi<lb ed="#V" n="25" break="no"/>nes sunt similes. 2o substantia. quia corpora dicuntur similia. 3o 
-      sup<lb ed="#V" n="26" break="no"/>posita: quia homines ipsi dicuntur similes: sic de equalitate 
-      </p>
-            <p xml:id="FrMS88-e24833-d1e453">
-               <lb ed="#V" n="27"/>¶ Alie secundi generis sunt quae referunt tantum fundamentum. non 
-      <lb ed="#V" n="28"/>tamen subiectum nequem suppositum. Exitum. inherentia albedinis 
-      re<lb ed="#V" n="29" break="no"/>fert albedinem: sicut fundamentum. non tamen subiectum scilicet corpus. 
-      <lb ed="#V" n="30"/>nec suppositum scilicet sortem.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e464">
-      ¶ Alie tertii generis sunt quae 
-      de<lb ed="#V" n="31" break="no"/>nominant primo fundamentum. 2o subiectum. non tamen 3o suppositum. 
-      <lb ed="#V" n="32"/>Exnitum. creatio passiua in anima christi refert animam sicut 
-      funda<lb ed="#V" n="33" break="no"/>mentum. et humanitatem: sicut subiectum. non tamen suppositum. quia est 
-      <lb ed="#V" n="34"/>diuinum.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e475">
-      ¶ Alie quarti generis sunt que nominant praecise 
-      sup<lb ed="#V" n="35" break="no"/>positum. et non primo fundamentum nec 2o subiectum. Exitum. paternitas 
-      <lb ed="#V" n="36"/>solum denominat suppositum. Nam potentia generatiua non est pater: quae est 
-      <lb ed="#V" n="37"/>fundamentum. nec anima quae est subiectum: sed solum homo vel supositum est pater 
-      </p>
-            <p xml:id="FrMS88-e24833-d1e485">
-               <lb ed="#V" n="38"/>¶ Isti autem gradus inueniuntur in divinis. nam excellentia 
-      <lb ed="#V" n="39"/>vel summitas est in infinitate sicut in fundamento. et in 
-      <lb ed="#V" n="40"/>essentia: sicut in subiecto. et in persona sicut in supposito. et 
-      <lb ed="#V" n="41"/>omnia denominant suo modo.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e496">
-      ¶ Secundus gradus est ordo po 
-      <lb ed="#V" n="42"/>sterioritatis vel distionis que est in vna perfectione 
-      re<lb ed="#V" n="43" break="no"/>spectu alterius: ita quod denominat fundamentum scilicet illam 
-      perfe<lb ed="#V" n="44" break="no"/>ctionem. non essentiam nec personam: quia neutrum istorum dicitur 
-      poste<lb ed="#V" n="45" break="no"/>rius.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e507">
-      ¶ Tertius gradus est in diuinis. Exitum. esse principium 
-      pro<lb ed="#V" n="46" break="no"/>ductiuum quo. hec habitudo refert vim productiuam que 
-      <lb ed="#V" n="47"/>eius est fundamentum: et essentiam quae eius subiectum est. et non 
-      sup<lb ed="#V" n="48" break="no"/>positum. quia non potest esse quo.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e516">
-      ¶ Quartus gradus est in 
-      re<lb ed="#V" n="49" break="no"/>lationibus originis. Nam generare fundatur in memoria 
-      fe<lb ed="#V" n="50" break="no"/>cunda quam non denominat. nec refert subiectum scilicet essentiam: sed tantum 
-      <lb ed="#V" n="51"/>suppositum scilicet personam.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e525">
-      ¶ hoc viso patet quare essentia non 
-      ge<lb ed="#V" n="52" break="no"/>neratur.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e530">
-      ¶ Sed contra. ista instatur 4r. Primo sic. vbi est causa 
-      for<lb ed="#V" n="53" break="no"/>malis ibi potest esse suus effectus formalis. geneartio autem est 
-      pri<lb ed="#V" n="54" break="no"/>or generare: sicut effectu suo formali: sed geneartio dicitur de essentia. 
-      <lb ed="#V" n="55"/>ergo et generare. 2o mirabile videtur quod alicubi sit forma quae non 
-      <lb ed="#V" n="56"/>pet esse. cum ergo gnatio sit in essentia. videtur quod generabit. Nam 
-      <lb ed="#V" n="57"/>omnis forma videtur suum effectum formalem ponere. vel in 
-      fun<lb ed="#V" n="58" break="no"/>damento. vel in subiecto. ergo ita hic. 3o quia sicut filius est 
-      sapi<lb ed="#V" n="59" break="no"/>ens sapientia genita. ita potest esse deus essentia genita. 
-      Vel<lb ed="#V" n="60" break="no"/>si non. quare non: 4o conceditur a scintis quod filius sit notitia 
-      ge<lb ed="#V" n="61" break="no"/>nita. ergo eodem modo essentia.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e553">
-      ¶ Ad primum concedo quod 
-      cui<lb ed="#V" n="62" break="no"/>cumque conuenit forma conueniat sibi effectus formalis sed tamen 
-      <lb ed="#V" n="63"/>dico quod non de quocumque dicitur forma dicitur effectus formalis: 
-      <lb ed="#V" n="64"/>sicut vbi est albedo ibi est album: sed tamen aliquid est album quod 
-      <lb ed="#V" n="65"/>non est albedo.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e564">
-      ¶ Ad 2m dico quod aliqua sunt forme quae 
-      commui<lb ed="#V" n="66" break="no"/>cant tale esse quale habent: sicut albedo superficiei. aliqua autem non: si¬ 
-      <!--73.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>cut materiae non dat anima esse intellectuale: sed expectat totum 
-      <lb ed="#V" n="68"/>pstitutum: sic est in proposito.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e577">
-      ¶ Ad 3m et 4m dico quod nec 
-      sa<lb ed="#V" n="69" break="no"/>pientia nec notitia sunt vltimate abstracta. Et ideo aliquio 
-      <lb ed="#V" n="70"/>concernunt quod non concernunt rationes formales eorum. et propter hoc 
-      <lb ed="#V" n="71"/>dicuntur generari. et non quiditates eorum. Similiter nec 
-      essen<lb ed="#V" n="72" break="no"/>tia.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e588">
-      ¶ Sed hic est vnum dubium. Utrum sit ista concedenda. 
-      <lb ed="#V" n="73"/>substantia generat. Et videtur quod sic. suppono enim sicut dictum est prius. 
-      <lb ed="#V" n="74"/>quod de deo habentr 4or conceptus quiditatiui ordinati secundum sub et 
-      <lb ed="#V" n="75"/>supra scilicet specificus. qui est de quiditate propria. subalternum 
-      <lb ed="#V" n="76"/>qui est spiritus. Snedenialissimus qui est substantia. transcendens qui est ens 
-      <lb ed="#V" n="77"/>Cunc arguo sic. quandocumque aliquid remouetur et negatur a 
-      su<lb ed="#V" n="78" break="no"/>periori. negatur ab omni contento sub eo: sed si generare 
-      negatur<lb ed="#V" n="79" break="no"/>a substantia: cum substantia sit superior ad spiritum. et ad deitatem. et ad 
-      <lb ed="#V" n="80"/>deum. sequitur si negetur ab ea quod ab omni contento sub ea 
-      negabi<lb ed="#V" n="81" break="no"/>tur. ergo negatur a spiritu et a deo. Unde arguo sic. substantia in 
-      diui<lb ed="#V" n="82" break="no"/>nis non generat. spiritus et deus sunt substantia. ergo nec spiritus nec de 
-      <lb ed="#V" n="83"/>generat. et per oppositum sequitur deus generat: sed deus est substantia. 
-      <lb ed="#V" n="84"/>ergo substantia generat.
-    </p>
-            <p xml:id="FrMS88-e24833-d1e617">
-      ¶ Dico ergo ad hoc quod substantia potest accipi dupliciter. 
-      <lb ed="#V" n="85"/>Uno modo in vniversali. et sic concedendum est quod generat: quia aliqua 
-      <lb ed="#V" n="86"/>pars eius subiectiua generat. Alio modo pro quadam ratione 
-      <lb ed="#V" n="87"/>particulari praecisa: sicut deitas. Et isto modo non generat: 
-      nes<lb ed="#V" n="88" break="no"/>concludit argumentum. quare etc. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="35-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e24833"><!-- l1d5q2 -->
+        <head xml:id="FrMS88-e24833-Hd1e108">Quaestio 2</head>
+        <p xml:id="FrMS88-e24833-d1e111">
+          Questio. ii. 
+          <lb ed="#V" n="45"/>essentia diuina generetur. quod 
+          <lb ed="#V" n="46"/>Trum sic. Eclesiastici. 24. Ex ore 
+          <lb ed="#V" n="47"/>altissimi prodii praegenita ante omnem 
+          creatu<lb ed="#V" n="48" break="no"/>ram.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e122">
+          ¶ Contra. Augustinus. dicit contra epistolam 
+          <lb ed="#V" n="49"/>fundamenti quod est ecclesie credendum: que 
+          <lb ed="#V" n="50"/>dicit quod non generatur.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e129">
+          ¶ Circa istam quaestionem sunt duo faciem 
+          <lb ed="#V" n="51"/>da. Primum est inquirere. si essentia diuina generatur 
+          <lb ed="#V" n="52"/>Secundum est supposito quod non. que sit ratio 
+          <lb ed="#V" n="53"/>ad primum introducuntur 4or conclusiones ex qui 
+          <lb ed="#V" n="54"/>Quantum bus patebit primum. Prima est quod essentia 
+          <lb ed="#V" n="55"/>diuina simpliciter sumpta non generatur sicut nec generat.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e142">
+          ¶ Et 
+          <lb ed="#V" n="56"/>probo sicut supra: quia subiectum istius propositionis est vltimate 
+          <lb ed="#V" n="57"/>abstractum: et praedicatum non potest nisi formaliter predica 
+          <lb ed="#V" n="58"/>ri ergo esset in primo modo dicendi per se. quod est impossibile.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e152">
+          ¶ Item 
+          <lb ed="#V" n="59"/>primo quo repugnat esse quod: sed essentia est primum quo filius 
+          <lb ed="#V" n="60"/>generatur. ergo non potest esse quod.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e159">
+          ¶ 2a conclusio est. quod essentia 
+          di<lb ed="#V" n="61" break="no"/>uina non generatur vt quo. quia sic comparatur quo ad quod. 
+          <lb ed="#V" n="62"/>sicut principium formale gnrationis ad generans. Nam esse 
+          gene<lb ed="#V" n="63" break="no"/>rans est: sicut esse agens. Tunc arguo sic. Omne cui 
+          con<lb ed="#V" n="64" break="no"/>petit generari conuenit sibi per aliquid quod est in ipso formali 
+          <lb ed="#V" n="65"/>ter: sicut dictum est de generare. Ista patet. quia quod 
+          reduci<lb ed="#V" n="66" break="no"/>tur ad quo. sed essentie diuine nihil potest competere quo 
+          <!--72.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>ipsa generetur. cum ipsa fit prius quo et primum terminus 
+          for<lb ed="#V" n="68" break="no"/>malis. ergo ipsa non generatur: etiam vt quo.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e183">
+          ¶ 3a conclusio est. quod 
+          essentia<lb ed="#V" n="69" break="no"/>diuina vt in filio non generatur. quia cui competit esse quo sub 
+          <lb ed="#V" n="70"/>aliqua determinatione: nullo alio addito non conuenit 
+          er<lb ed="#V" n="71" break="no"/>esse quod: sed essentie vt in filio competit esse terminum 
+          for<lb ed="#V" n="72" break="no"/>malem generationis. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e194">
+          ¶ Praeterea essentia quacumque 
+          reduplica<lb ed="#V" n="73" break="no"/>tione addita est vltimate abstracta: sicut simpliciter 
+          sum<lb ed="#V" n="74" break="no"/>pta: sed vt simpliciter sumpta non generatur. ergo nec vt in filio. 
+        </p>
+        <p xml:id="FrMS88-e24833-d1e201">
+          <lb ed="#V" n="75"/>¶ 4a conclusio est. quod essentia divina no generatur subiectiue: quia 
+          ter<lb ed="#V" n="76" break="no"/>minus formalis generationis non est eius subiectum: sed essentia est 
+          <lb ed="#V" n="77"/>huiusmodi. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e210">
+          ¶ Sed contra. istud instatur 4r. Primo sic. Nam secundum 
+          san<lb ed="#V" n="78" break="no"/>ctos docor essentia diuina comunicatur et datur. et ista comunicatio in 
+          fi<lb ed="#V" n="79" break="no"/>lio non videtur nisi gneatio passiua. ergo sicut conceditur quod 
+          communica<lb ed="#V" n="80" break="no"/>tur: ita poterit generari.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e220">
+          ¶ 2o sic. Augustius. 19. de tri. quicquid 
+          <lb ed="#V" n="81"/>habet filius habet a patre: sed essentiam habet. ergo a patre habet: sed habere a. 
+          <lb ed="#V" n="82"/>dicit originem.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e227">
+          ¶ Confirmatur. quia essentia est formalis 
+          ter<lb ed="#V" n="83" break="no"/>minus. ergo saltem vt quo poterit dici generari.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e232">
+          ¶ 3o sic. 
+          <lb ed="#V" n="84"/>nam filius dicitur essentia de essentia. istud autem de nihil 
+          ab<lb ed="#V" n="85" break="no"/>solutum dicit. ergo respectum: sed non nisi originis. 
+          er<lb ed="#V" n="86" break="no"/>go etc.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e241">
+          ¶ 4o sic. in Io. dicitur. Dictetur quod dedit mihi maius omnibus 
+          <lb ed="#V" n="87"/>est: sed hoc non est nisi essentia. ergo essentia datur. sed dari non 
+          <lb ed="#V" n="88"/>est aliud quam produci. ergo essentia producitur.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e248">
+          ¶ Ad ista. 
+        </p>
+        <p xml:id="FrMS88-e24833-d1e251">
+          <lb ed="#V" n="89"/>¶ Ad primum dicit frater Io. concedendo quod essentia comunicatur 
+          vni<lb ed="#V" n="90" break="no"/>de dicit. quod alia est relatio qua principium quod dicitur ad productum: 
+          <lb ed="#V" n="91"/>et alia qua principium formale dicitur ad terminum quo et hoc 
+          <lb ed="#V" n="92"/>tantum modo est in creaturis: quia principium formale in creatu 
+          <lb ed="#V" n="93"/>ris differt realiter a termino quo. Ideo habitudo vtra 
+          <lb ed="#V" n="94"/>que tam agentis totalis ad productum: quam etiam principii 
+          pro<lb ed="#V" n="95" break="no"/>ductiui ad terminum est realis in creaturis: quia autem in 
+          <lb ed="#V" n="96"/>diuinis non distinguitur principium quo. et terminus quo: inter 
+          <lb ed="#V" n="97"/>ea non poterit esse relatio realis: sed solum modo erit 
+          re<lb ed="#V" n="98" break="no"/>latio rationis: quia autem totale principium quod est distinctum a 
+          <lb ed="#V" n="99"/>totali termino quod: hinc est quod illa habitudo est realis. 
+        </p>
+        <p xml:id="FrMS88-e24833-d1e278">
+          <lb ed="#V" n="100"/>¶ Sed quia istud non videtur satisfacere. essentia enim rea 
+          <lb ed="#V" n="101"/>liter comuicat et realiter communicatur: licet realiter non gignatur. Ideo 
+          <lb ed="#V" n="102"/>dicitur aliter quod communicare abstrahit a generare sicut superius ab 
+          in<lb ed="#V" n="103" break="no"/>feriori. non enim sequitur: essentia comunicatur. ergo gnratur. quia 
+          <lb ed="#V" n="104"/>locus a toto vniversali non est constructiuus.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e291">
+          ¶ Sed nec istud 
+          sa<lb ed="#V" n="105" break="no"/>tiffacit. Ideo contra hoc arguo sic. quandocumque ab aliquo negantur 
+          <lb ed="#V" n="106"/>omnes species alicuius generis. totum genus potest negari ab eodem 
+          <lb ed="#V" n="107"/>sicut a quo negatur homo asinus etc. ab eo negatur omne animal: 
+          <lb ed="#V" n="108"/>sed comunicare in diuinis est superius ad generare et spirare. et 
+          <lb ed="#V" n="109"/>ibi nullas alias species habet. ergo si generare et spirare 
+          remo<lb ed="#V" n="110" break="no"/>uentur ab essentia diuina. ergo et genus scilicet comunicare: et tunc 
+          <lb ed="#V" n="111"/>sicut nec generatur nec spiratur. ita nec comunicatur.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e309">
+          ¶ Dico 
+          <lb ed="#V" n="112"/>ergo aliter quod geneatio et comunicatio sunt relationes disparate 
+          <lb ed="#V" n="113"/>Nam generatio est relatio originis. comunicatio autem est 
+          <lb ed="#V" n="114"/>relatio communis: sicut identitas vel equalitas. vel 
+          similitu<lb ed="#V" n="115" break="no"/>do. Non est autem inconueniens quod essentia diuina talibus 
+          re<lb ed="#V" n="116" break="no"/>lationibus referatur. sicut essentia dicitur esse eadem. et quantitas 
+          equa<lb ed="#V" n="117" break="no"/>lis. et qualitas vel attributum siue perfectio dicitur esse similis.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e325">
+          ¶ Sed 
+          <lb ed="#V" n="118"/>contra. relationes communes dicuntur esse equiparantie. comunicatio autem 
+          <lb ed="#V" n="119"/>disquiparantie.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e332">
+          ¶ Dico igitur quod communicatio dicit relationem 
+          <lb ed="#V" n="120"/>commune concernendo relationem originis. communicare enim dicit 
+          <lb ed="#V" n="121"/>identitatem concernendo gnaturare. et communicari idem dicit 
+          concer<lb ed="#V" n="122" break="no"/>nendo gnaterari. Et ratione istius concernentie est difformitas 
+        </p>
+        <p xml:id="FrMS88-e24833-d1e341">
+          <lb ed="#V" n="123"/>¶ Ad 2m dico eodem modo scilicet de a. quod a dicit relationem 
+          con<lb ed="#V" n="124" break="no"/>munem concernendo originem.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e349">
+          ¶ Ad confirmationem dico quod 
+          <lb ed="#V" n="125"/>licet ei conueniat esse principium quo. vel terminus quo. sib 
+          <lb ed="#V" n="126"/>tamen repugnat esse principium quod vel terminus quod: et ide 
+          <lb ed="#V" n="127"/>non generatur.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e358">
+          ¶ Ad 3m et 4m de de. et dedit. dico quod 
+          tam<lb ed="#V" n="128" break="no"/>de quam dedit. dicunt relationes communes concernentes ordinem 
+          <lb ed="#V" n="129"/>priginis. Potest tamen dici de de. quod concernit quandam origns 
+          <lb ed="#V" n="130"/>nem: sed totum redit in idem. 
+          <lb ed="#V" n="131"/>2o. videndum est. quare essentia non gneratur.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e369">
+          ¶ Ad  
+          <lb ed="#V" n="132"/>Nunc intelligendum autem hoc oportet aliqua prius notare. 
+          <!--73.xml-->
+          <pb ed="#V" n="35-v"/>
+          <cb ed="#V" n="a"/>
+        </p>
+        <p xml:id="FrMS88-e24833-d1e380">
+          <lb ed="#V" n="1"/>¶ Primum est quod in creaturis est innuenire principia 
+          operatio<lb ed="#V" n="2" break="no"/>num secundum quadruplicem ordinem. Primus est. quod aliqua principium aliquarum 
+          <lb ed="#V" n="3"/>operationum sunt: ita principim quo. quod nullo modo quod. Exemplum. quando 
+          <lb ed="#V" n="4"/>intellectus intelligit. ratio formalis autem intellectus est 
+          <lb ed="#V" n="5"/>ita quo intelligit. quod nullo modo potest esse quod. Unde 
+          nul<lb ed="#V" n="6" break="no"/>lus dicit quod ratio formalis intellectus intelligat.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e396">
+          ¶ Secundus 
+          <lb ed="#V" n="7"/>modus est econuerso. quod aliquod principium est ita quod. quod nullo 
+          <lb ed="#V" n="8"/>modo quo. vt suppositum verbi intelligit vt quod: et est ita 
+          vltim<lb ed="#V" n="9" break="no"/>mum quod. quod nullo modo qui esse potest respectu alterius.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e405">
+          ¶ 
+          Ter<lb ed="#V" n="10" break="no"/>tius modus est. quod aliquid est ita principium quod vni. quod pluribus 
+          <lb ed="#V" n="11"/>aliis potest esse quo: sicut potentia intellectiua est quod. tamen 
+          <lb ed="#V" n="12"/>ratione sue quiditatis vel rationis formalis est quo tam anima quam 
+          <lb ed="#V" n="13"/>suppositum hominis intelligit.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e417">
+          ¶ Quartus modus est 
+          econue<lb ed="#V" n="14" break="no"/>so: quo scilicet aliquid est ita principium quo vni. quod pluribus potest esse quod. 
+          <lb ed="#V" n="15"/>Exentum. anima enim est tantum qui intelligit homo vel supositum: verumtamen ipsa est 
+          <lb ed="#V" n="16"/>quod respectu intellectus: et respectu rationis formalis intellectus.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e426">
+          ¶ Ex omnibus istis 
+          <lb ed="#V" n="17"/>habetur quod illud quod est simpliciter primum qui. sibi repugnat esse quod: sed 
+          <lb ed="#V" n="18"/>essentia diuina est primum quo aliquid scilicet filius generatur. ergo sibi 
+          re<lb ed="#V" n="19" break="no"/>bugnat esse quod. Ex hoc etiam declaratur ratio praecedentis 
+          quaestio<lb ed="#V" n="20" break="no"/>nis.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e437">
+          ¶ Sed vlterius notandum quod quatuor genera relationum 
+          inue<lb ed="#V" n="21" break="no"/>niuntur in creaturis que attribuuntur diuinis. Primum 
+          ge<lb ed="#V" n="22" break="no"/>nus relationis est referentium et denominantium primo fundamentum 
+          <lb ed="#V" n="23"/>2o subiectum. et 3o suppositum. Exentum. nam similitudine fundata in 
+          <lb ed="#V" n="24"/>duabus albedinibus. primo referuntur fundamenta: quia 
+          albedi<lb ed="#V" n="25" break="no"/>nes sunt similes. 2o substantia. quia corpora dicuntur similia. 3o 
+          sup<lb ed="#V" n="26" break="no"/>posita: quia homines ipsi dicuntur similes: sic de equalitate 
+        </p>
+        <p xml:id="FrMS88-e24833-d1e453">
+          <lb ed="#V" n="27"/>¶ Alie secundi generis sunt quae referunt tantum fundamentum. non 
+          <lb ed="#V" n="28"/>tamen subiectum nequem suppositum. Exitum. inherentia albedinis 
+          re<lb ed="#V" n="29" break="no"/>fert albedinem: sicut fundamentum. non tamen subiectum scilicet corpus. 
+          <lb ed="#V" n="30"/>nec suppositum scilicet sortem.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e464">
+          ¶ Alie tertii generis sunt quae 
+          de<lb ed="#V" n="31" break="no"/>nominant primo fundamentum. 2o subiectum. non tamen 3o suppositum. 
+          <lb ed="#V" n="32"/>Exnitum. creatio passiua in anima christi refert animam sicut 
+          funda<lb ed="#V" n="33" break="no"/>mentum. et humanitatem: sicut subiectum. non tamen suppositum. quia est 
+          <lb ed="#V" n="34"/>diuinum.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e475">
+          ¶ Alie quarti generis sunt que nominant praecise 
+          sup<lb ed="#V" n="35" break="no"/>positum. et non primo fundamentum nec 2o subiectum. Exitum. paternitas 
+          <lb ed="#V" n="36"/>solum denominat suppositum. Nam potentia generatiua non est pater: quae est 
+          <lb ed="#V" n="37"/>fundamentum. nec anima quae est subiectum: sed solum homo vel supositum est pater 
+        </p>
+        <p xml:id="FrMS88-e24833-d1e485">
+          <lb ed="#V" n="38"/>¶ Isti autem gradus inueniuntur in divinis. nam excellentia 
+          <lb ed="#V" n="39"/>vel summitas est in infinitate sicut in fundamento. et in 
+          <lb ed="#V" n="40"/>essentia: sicut in subiecto. et in persona sicut in supposito. et 
+          <lb ed="#V" n="41"/>omnia denominant suo modo.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e496">
+          ¶ Secundus gradus est ordo po 
+          <lb ed="#V" n="42"/>sterioritatis vel distionis que est in vna perfectione 
+          re<lb ed="#V" n="43" break="no"/>spectu alterius: ita quod denominat fundamentum scilicet illam 
+          perfe<lb ed="#V" n="44" break="no"/>ctionem. non essentiam nec personam: quia neutrum istorum dicitur 
+          poste<lb ed="#V" n="45" break="no"/>rius.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e507">
+          ¶ Tertius gradus est in diuinis. Exitum. esse principium 
+          pro<lb ed="#V" n="46" break="no"/>ductiuum quo. hec habitudo refert vim productiuam que 
+          <lb ed="#V" n="47"/>eius est fundamentum: et essentiam quae eius subiectum est. et non 
+          sup<lb ed="#V" n="48" break="no"/>positum. quia non potest esse quo.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e516">
+          ¶ Quartus gradus est in 
+          re<lb ed="#V" n="49" break="no"/>lationibus originis. Nam generare fundatur in memoria 
+          fe<lb ed="#V" n="50" break="no"/>cunda quam non denominat. nec refert subiectum scilicet essentiam: sed tantum 
+          <lb ed="#V" n="51"/>suppositum scilicet personam.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e525">
+          ¶ hoc viso patet quare essentia non 
+          ge<lb ed="#V" n="52" break="no"/>neratur.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e530">
+          ¶ Sed contra. ista instatur 4r. Primo sic. vbi est causa 
+          for<lb ed="#V" n="53" break="no"/>malis ibi potest esse suus effectus formalis. geneartio autem est 
+          pri<lb ed="#V" n="54" break="no"/>or generare: sicut effectu suo formali: sed geneartio dicitur de essentia. 
+          <lb ed="#V" n="55"/>ergo et generare. 2o mirabile videtur quod alicubi sit forma quae non 
+          <lb ed="#V" n="56"/>pet esse. cum ergo gnatio sit in essentia. videtur quod generabit. Nam 
+          <lb ed="#V" n="57"/>omnis forma videtur suum effectum formalem ponere. vel in 
+          fun<lb ed="#V" n="58" break="no"/>damento. vel in subiecto. ergo ita hic. 3o quia sicut filius est 
+          sapi<lb ed="#V" n="59" break="no"/>ens sapientia genita. ita potest esse deus essentia genita. 
+          Vel<lb ed="#V" n="60" break="no"/>si non. quare non: 4o conceditur a scintis quod filius sit notitia 
+          ge<lb ed="#V" n="61" break="no"/>nita. ergo eodem modo essentia.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e553">
+          ¶ Ad primum concedo quod 
+          cui<lb ed="#V" n="62" break="no"/>cumque conuenit forma conueniat sibi effectus formalis sed tamen 
+          <lb ed="#V" n="63"/>dico quod non de quocumque dicitur forma dicitur effectus formalis: 
+          <lb ed="#V" n="64"/>sicut vbi est albedo ibi est album: sed tamen aliquid est album quod 
+          <lb ed="#V" n="65"/>non est albedo.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e564">
+          ¶ Ad 2m dico quod aliqua sunt forme quae 
+          commui<lb ed="#V" n="66" break="no"/>cant tale esse quale habent: sicut albedo superficiei. aliqua autem non: si¬ 
+          <!--73.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>cut materiae non dat anima esse intellectuale: sed expectat totum 
+          <lb ed="#V" n="68"/>pstitutum: sic est in proposito.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e577">
+          ¶ Ad 3m et 4m dico quod nec 
+          sa<lb ed="#V" n="69" break="no"/>pientia nec notitia sunt vltimate abstracta. Et ideo aliquio 
+          <lb ed="#V" n="70"/>concernunt quod non concernunt rationes formales eorum. et propter hoc 
+          <lb ed="#V" n="71"/>dicuntur generari. et non quiditates eorum. Similiter nec 
+          essen<lb ed="#V" n="72" break="no"/>tia.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e588">
+          ¶ Sed hic est vnum dubium. Utrum sit ista concedenda. 
+          <lb ed="#V" n="73"/>substantia generat. Et videtur quod sic. suppono enim sicut dictum est prius. 
+          <lb ed="#V" n="74"/>quod de deo habentr 4or conceptus quiditatiui ordinati secundum sub et 
+          <lb ed="#V" n="75"/>supra scilicet specificus. qui est de quiditate propria. subalternum 
+          <lb ed="#V" n="76"/>qui est spiritus. Snedenialissimus qui est substantia. transcendens qui est ens 
+          <lb ed="#V" n="77"/>Cunc arguo sic. quandocumque aliquid remouetur et negatur a 
+          su<lb ed="#V" n="78" break="no"/>periori. negatur ab omni contento sub eo: sed si generare 
+          negatur<lb ed="#V" n="79" break="no"/>a substantia: cum substantia sit superior ad spiritum. et ad deitatem. et ad 
+          <lb ed="#V" n="80"/>deum. sequitur si negetur ab ea quod ab omni contento sub ea 
+          negabi<lb ed="#V" n="81" break="no"/>tur. ergo negatur a spiritu et a deo. Unde arguo sic. substantia in 
+          diui<lb ed="#V" n="82" break="no"/>nis non generat. spiritus et deus sunt substantia. ergo nec spiritus nec de 
+          <lb ed="#V" n="83"/>generat. et per oppositum sequitur deus generat: sed deus est substantia. 
+          <lb ed="#V" n="84"/>ergo substantia generat.
+        </p>
+        <p xml:id="FrMS88-e24833-d1e617">
+          ¶ Dico ergo ad hoc quod substantia potest accipi dupliciter. 
+          <lb ed="#V" n="85"/>Uno modo in vniversali. et sic concedendum est quod generat: quia aliqua 
+          <lb ed="#V" n="86"/>pars eius subiectiua generat. Alio modo pro quadam ratione 
+          <lb ed="#V" n="87"/>particulari praecisa: sicut deitas. Et isto modo non generat: 
+          nes<lb ed="#V" n="88" break="no"/>concludit argumentum. quare etc. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

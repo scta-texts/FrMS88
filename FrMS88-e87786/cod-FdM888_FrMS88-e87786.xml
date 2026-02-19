@@ -1,293 +1,293 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="118-r"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e87786"><!-- l1d40-41q1 -->
-            <head xml:id="FrMS88-e87786-Hd1e108">Quaestio 1</head>
-            <p xml:id="FrMS88-e87786-d1e111">
-               <lb ed="#V" n="89"/>¶ Distinctio. xl. et. xli. Questio i. 
-      <lb ed="#V" n="90"/>Predestinatorum nullus 
-      vide<lb ed="#V" n="91" break="no"/>tur posse damnari etc. 
-      <lb ed="#V" n="92"/>Si autem querimus meritum 
-      <lb ed="#V" n="93"/>obdurationis etc. 
-      <lb ed="#V" n="94"/>distinctionem. 4ologiam et 4 3am 
-      <lb ed="#V" n="95"/>Irc a Quero primo Utrum praedestinatio 
-      <lb ed="#V" n="96"/>sit eterna. quod non. quia solus deus est 
-      eter<lb ed="#V" n="97" break="no"/>nus: sed praed estinatio non est deus quia 
-      pre<lb ed="#V" n="98" break="no"/>destinatio est contingens. deus autem 
-      necessa<lb ed="#V" n="99" break="no"/>rius. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e137">
-      ¶ Contra. quia deus 
-      praedestina<lb ed="#V" n="100" break="no"/>ait electos ante mundi constitutionem.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e142">
-      ¶ hic sunt 
-      <lb ed="#V" n="101"/>duo inquirenda. Primum est. quid est predestinatio 
-      <lb ed="#V" n="102"/>2m si predestinatio est eterna. 
-      <lb ed="#V" n="103"/>ad primum pono. 4or conclusiones. Prima est 
-      <lb ed="#V" n="104"/>Quantum quod praedestiatio non dicit aliquid 
-      absolu<lb ed="#V" n="105" break="no"/>tum: sed respectiuum. Probatur. quia praedestinatio secundum quod huiusmodi est 
-      <lb ed="#V" n="106"/>alicuius praedestinatio: sed omne tale est respectiuum. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e158">
-      ¶ 2o. 
-      <lb ed="#V" n="107"/>quia omnis productio videtur dicere respectum: sed praedestinatio nihil 
-      <lb ed="#V" n="108"/>aliud esse videtur nisi productio praedestinati in esse volito. ergo etc. 
-      </p>
-            <p xml:id="FrMS88-e87786-d1e166">
-               <lb ed="#V" n="109"/>¶ 2a conclusio est. quod praedestinatio non est respectus 
-      fundamenta<lb ed="#V" n="110" break="no"/>lis: sed formalis. Probatur. quia omnis respectus 
-      fundamen<lb ed="#V" n="111" break="no"/>talis est necessario in deo: quia quod per se inest. necessario inest: sed primo 
-      <lb ed="#V" n="112"/>destinatio in deo non est necessario: quia sicut deus 
-      contingen<lb ed="#V" n="113" break="no"/>ter praedestinat: ita in eo contingenter est. et quasi per accidens. 
-      <lb ed="#V" n="114"/>Predestinatio ergo ipsa est respectus actualis. non 
-      fundamen<lb ed="#V" n="115" break="no"/>talis.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e184">
-      ¶ 3a conclusio quod est respectus rationis. non realis. Probatur. quia 
-      <lb ed="#V" n="116"/>deus ad creaturam non refertur realiter. sed deus praedestinatione ad 
-      <lb ed="#V" n="117"/>creaturam praedestinatam refertur. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e191">
-      ¶ 2o. quia omne quod est in deo 
-      <lb ed="#V" n="118"/>realiter est necesse esse: sed praedestinatio est contingens. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e196">
-      ¶ 4a 
-      <lb ed="#V" n="119"/>cicuso quod praedestinatio non pertinet ad intellectum in deo: sed 
-      <lb ed="#V" n="120"/>ad voluntatem. Probatur. quia omnis priordinatio videtur ad 
-      vo<lb ed="#V" n="121" break="no"/>luntatem partinere: sed praedestinare nihil aliud est nisi ad 
-      <lb ed="#V" n="122"/>vitam eternam aliquem priordinare. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e207">
-      ¶ Sed contra hoc 
-      <lb ed="#V" n="123"/>instatur 4r. Primo sic. Nam predestinatio nihil aliud est 
-      <lb ed="#V" n="124"/>nisi preordinatio alicuius ad vitam eternam. Sed 
-      <lb ed="#V" n="125"/>illud non videtur esse nisi velle diuinum: quo vult ali 
-      <lb ed="#V" n="126"/>cui dare gloriam. Constat autem quod hoc est absolutum. ergo etc. 
-      </p>
-            <p xml:id="FrMS88-e87786-d1e218">
-               <lb ed="#V" n="127"/>¶ 2o sic. quod formaliter est in deo. non est contingens: quia 
-      <lb ed="#V" n="128"/>omne tale est imperfectum vt sic. sed predestinatio est 
-      <!--239.xml-->
-      <pb ed="#V" n="118-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>formaliteri deo. ergo non est contingens: et sic erit necessaria 
-      <lb ed="#V" n="2"/>sed omnis respectus dei ad creaturam necessario est 
-      fundamen<lb ed="#V" n="3" break="no"/>talis. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e239">
-      ¶ 3o sic. per illud praecise quod est ens rationis nin potest 
-      ali<lb ed="#V" n="4" break="no"/>quid realiter denominari sed deus dicitur realiter praedestinare electos. 
-      <lb ed="#V" n="5"/>Constat autem quod deus non dicitur praedestinare electos nisi ipsa 
-      prae<lb ed="#V" n="6" break="no"/>destinatione. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e248">
-      ¶ 4o sic. Omnis respectus rationis videtur esse in 
-      <lb ed="#V" n="7"/>intellectui: immo videtur contradictio. quod sit respectus rationis et non in 
-      in<lb ed="#V" n="8" break="no"/>tellectui: sed praedestinatio: per te: est respectus rationis. ergo non est nisi in 
-      <lb ed="#V" n="9"/>intellectui: et sic non partinet ad voluntatem.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e257">
-      ¶ Ad primum dico. quod in 
-      <lb ed="#V" n="10"/>destinatio potest accipi 2m. vel fundamentaliter: et sic non est nisi 
-      <lb ed="#V" n="11"/>velle divinum. vel formaliter et vltimate: et sic dico quod dicit 
-      re<lb ed="#V" n="12" break="no"/>spectum: vt scilicet accipiatur pro priordinatione alicuius ad vitam 
-      <lb ed="#V" n="13"/>eternara. Unde si velle divinum accipiatur simpliciter. sic est quid 
-      abso<lb ed="#V" n="14" break="no"/>lutum. et idem quod deus. Si autem accipiatur velle divinum non simpliciter 
-      <lb ed="#V" n="15"/>vt velle est: sed vt velle huius. sic dicit respectum ad illud cus est 
-      <lb ed="#V" n="16"/>Sic dico in proposito.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e275">
-      ¶ Ad 2m dico. quod omne reale quod est in deo 
-      <lb ed="#V" n="17"/>est necesse esse: sed tamen non omnis respectus rationis quae ponitur in 
-      <lb ed="#V" n="18"/>eo formaliter potest dici necesse esse. huiusmodi est praedestinatio.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e282">
-      ¶ Ad  
-      <lb ed="#V" n="19"/>inm dico. quod quando dicitur quod deus realiter praedestinat: verum est: sed tunc 
-      ae<lb ed="#V" n="20" break="no"/>cipitur praedestiatio pro fundamento. et sic est realis: quia nihil 
-      ali<lb ed="#V" n="21" break="no"/>ud est nisi velle divinum. quod est reale. Sed si accipiatur pro eo 
-      <lb ed="#V" n="22"/>quod formaliter dicit scilicet pro respectu. sic non est realis: sed tantum rationis 
-      <lb ed="#V" n="23"/>Dicitur tamen quodammodo realis. vel quia non singitur a ratione: sed 
-      derelin<lb ed="#V" n="24" break="no"/>quitur. Vel realis: quia denominatione extrinseca dicitur de re propter 
-      <lb ed="#V" n="25"/>terminum realem: sicut actio dicitur de deo realiter tantum denominatione 
-      <lb ed="#V" n="26"/>extrinseca.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e302">
-      ¶ Ad 4m dico quod respectus rationis potest 
-      ac<lb ed="#V" n="27" break="no"/>cipi 2m. Vel large vel stricte. Si stricte. sic est tantum in 
-      in<lb ed="#V" n="28" break="no"/>tellectu. et sic praedestiatio non est respectus rationis. Si large. sic 
-      <lb ed="#V" n="29"/>dicitur de omni respectu qui non est in re ante operationem intellectus: et sic potest esse 
-      <lb ed="#V" n="30"/>non solum in intellectui: sed etiam in voluntate et in omni potentia 
-      co<lb ed="#V" n="31" break="no"/>latiua vel ordinatiua alicus ad aliud: sicut patet quod voluntas 
-      <lb ed="#V" n="32"/>dat numismati quod sit numisma. et baliuo quod sit baliuus: 
-      <lb ed="#V" n="33"/>nihil reale dando sibi. Sic ergo respectus talis a voluntate esse potest 
-      <lb ed="#V" n="34"/>ad 2m praencipale videndum est. si 
-      praedestina<lb ed="#V" n="35" break="no"/>Quantum tio sit eterna. hec est veritas 
-      determin<lb ed="#V" n="36" break="no"/>nata per eccleasiam et per sacram scripturam. Uenite benedicti 
-      pa<lb ed="#V" n="37" break="no"/>tris mei percipite regnum. Predestinationem autem esse 
-      eternara<lb ed="#V" n="38" break="no"/>potest intelligi dupliciter. Uno modo quod ab eterno 
-      praedestina<lb ed="#V" n="39" break="no"/>uerit et non modo. sed quod tantum nunc et semper maneat in 
-      propo<lb ed="#V" n="40" break="no"/>sito praedestinationis. Aliood quod ab eterno praedestinauerit 
-      <lb ed="#V" n="41"/>et nunc praedestinat: et semper praedestiabit. ita quod semper sit vnicus actus 
-      <lb ed="#V" n="42"/>praedestinationis. quae non transeat in praeteritum. Exemplum. de 
-      <lb ed="#V" n="43"/>eternitate mundi: qui potest intelligi 2. Vel quia primo creauit 
-      <lb ed="#V" n="44"/>et postea non: sed tantum conseruauit. Vel quod sicut ab 
-      eterno<lb ed="#V" n="45" break="no"/>creauit. ita nunc creat: et semper creabit. Primo modo non potest 
-      <lb ed="#V" n="46"/>intelligi quod praedestinatio sit eterna. Et probo 4r. Primo 
-      <lb ed="#V" n="47"/>sic. quandocumque signum indiuisibile est in aliquo peryodo. oporet 
-      <lb ed="#V" n="48"/>quod omnis duratio sequens sit finita ex parte ante: et per consequens non 
-      <lb ed="#V" n="49"/>eterna. Si ergo esset aliquod instans in quo deus 
-      praedestinas<lb ed="#V" n="50" break="no"/>set: tunc et post non. praedestinatio dei non esset eterna.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e358">
-      ¶ 2a 
-      <lb ed="#V" n="51"/>sic. omne continuum quod incipit ab aliquo termino non potest esse 
-      <lb ed="#V" n="52"/>infinita: sed continuum successiuum est continuum. ergo si habet terminum 
-      <lb ed="#V" n="53"/>non est infinitum: sed si tale instans ponatur in quo 
-      praedesti<lb ed="#V" n="54" break="no"/>net et postea non: duratio actus praedestinandi haberet 
-      ter<lb ed="#V" n="55" break="no"/>minum: ergo non esset eterna.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e371">
-      ¶ 3o sic. quando aliqua ita se habent 
-      <lb ed="#V" n="56"/>quod vnum praecedit et aliud sequitur. si illud quod sequitur est ab 
-      eter<lb ed="#V" n="57" break="no"/>no: aliud scilicet illud quod praecedit non est ab eterno: sed 
-      ante<lb ed="#V" n="58" break="no"/>eternum. sed praedestinare et manem in eoo proposito sic se habent 
-      <lb ed="#V" n="59"/>Manere enim in eodem proposito sequitur pradestinare: et illud 
-      <lb ed="#V" n="60"/>est eternum et ab eterno. quia ab eterno mansit in proposito 
-      <lb ed="#V" n="61"/>eodem. ergo ante eternum praedestinauit. Et si non. praedestinatio 
-      <lb ed="#V" n="62"/>durationem habet finitam.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e389">
-      ¶ 4o sic. quando aliqua sunt 
-      incom<lb ed="#V" n="63" break="no"/>possibilia in ordine durationis. si vnum est eternum: 
-      <lb ed="#V" n="64"/>aliud non. sed praedestinare et permanere in eodem proposito 
-      <lb ed="#V" n="65"/>praedestinandi sunt incompossibila. ergo si praedestinare est 
-      eter<lb ed="#V" n="66" break="no"/>num: permansio non est eterna. Ideo dico. quod primo modo non 
-      <!--239.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>potest intelligi. sed oportet quod intelligatur secundo modo. ita quod 
-      vni<lb ed="#V" n="68" break="no"/>cus actus praedestinationis sit ab eterno. quae ab eterno primo 
-      <lb ed="#V" n="69"/>destinauit. prdestinat et praedestinabit.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e411">
-      ¶ Sed contra instatur 4 
-      <lb ed="#V" n="70"/>Primo sic. pro illo signo pro quo deus praedestinauit electos: 
-      <lb ed="#V" n="71"/>transiuit ab illa indeterminatione ad 
-      determinatio<lb ed="#V" n="72" break="no"/>nem: vel ab illa indifferentia ad determinationem. Primo 
-      <lb ed="#V" n="73"/>enim secundum prius dicta sunt oblata voluntati vt neutra: sed 
-      <lb ed="#V" n="74"/>illa transitio non potest esse nunc: sed ab eterno. ergo modo non 
-      <lb ed="#V" n="75"/>praedestiat.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e427">
-      ¶ 2o sic. quia illud quod semel accipit esse: frustra 
-      <lb ed="#V" n="76"/>amplius producitur. sed esse praedestinatum non est aliud 
-      ni<lb ed="#V" n="77" break="no"/>si accipere esse volitum. ergo si ab eterno accipit: frustra 
-      <lb ed="#V" n="78"/>nunc accipit.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e436">
-      ¶ 3o sic. nam sequitur secundum praedicta quod sancum 
-      <lb ed="#V" n="79"/>quando dabitur gloria. tunc praedestinantur: et tamen illud est 
-      impos<lb ed="#V" n="80" break="no"/>sibile: cum praedestinatio non fiat nisi profuturo.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e444">
-      ¶ 4o sic. quia 
-      <lb ed="#V" n="81"/>ptinet ad prouidentiam que respicit futurum: vt futurum. 
-      </p>
-            <p xml:id="FrMS88-e87786-d1e449">
-               <lb ed="#V" n="82"/>¶ Ad primum concedo. quod idem transitus est nunc 
-      qui<lb ed="#V" n="83" break="no"/>fuit ab eterno. et quod non fuit ab eterno non est nunc. 
-      <lb ed="#V" n="84"/>Non enim est imaginandum: nec nunc nec ab eterno esse 
-      <lb ed="#V" n="85"/>transitum per modumfluxus et successionis: quia illa sunt 
-      <lb ed="#V" n="86"/>omnia permanentia. vnde non est alius transitus nisi quod in 
-      prae<lb ed="#V" n="87" break="no"/>mo signo naturae nunc offert. et ab eterno offerebat 
-      intel<lb ed="#V" n="88" break="no"/>lectus voluntati. In secundo autem instanti naturae nunc determinat 
-      <lb ed="#V" n="89"/>et ab eterno determinauit. ita quod semper est idem actus 
-      ma<lb ed="#V" n="90" break="no"/>nens.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e471">
-      ¶ Ad secundum semper est eadem praedestinatio permanens 
-      <lb ed="#V" n="91"/>sic eadem numero: sicut creatio dicitur permanere eadem 
-      nu<lb ed="#V" n="92" break="no"/>mero et non fluens. quae deus dicitur creare quamlibet 
-      creatu<lb ed="#V" n="93" break="no"/>ram.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e480">
-      ¶ Ad 3m dico. quod praedestinatio est pro futuro signe 
-      <lb ed="#V" n="94"/>naturae vel durationis. Unde quando aliquis saluabitur. 
-      considerabi<lb ed="#V" n="95" break="no"/>tur ibi signa naturae. nam ab eterno erat futurum. sed quando 
-      da<lb ed="#V" n="96" break="no"/>bit non erit ibi futuritio: sed ordo naturae.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e489">
-      ¶ Eodem modo 
-      <lb ed="#V" n="97"/>dico ad quartum. sufficit enim ordo naturae.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e494">
-      ¶ Sed est hic difficultas 
-      <lb ed="#V" n="98"/>licet si ex praedictis possit excludi sufficienter eternitas mum 
-      <lb ed="#V" n="99"/>di. Dico quod necesse est vti distinctione priori. Primo 
-      au<lb ed="#V" n="100" break="no"/>tem modo interrogando scilicet quod primo creauit et postea 
-      con<lb ed="#V" n="101" break="no"/>seruauit. sic dico quod eternitas mundi est impossibilis. 
-      <lb ed="#V" n="102"/>Sed secundo modo ni videtur. quia non repugnat contingenti 
-      produci<lb ed="#V" n="103" break="no"/>quia ab eterno predestinauit contingenter: et ita mo videtur quo 
-      <lb ed="#V" n="104"/>ab eterno produxerit: quantumcumque contingenter 
-      produ<lb ed="#V" n="105" break="no"/>xerit.
-    </p>
-            <p xml:id="FrMS88-e87786-d1e515">
-      ¶ Ad argumentum patet. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="118-r"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e87786"><!-- l1d40-41q1 -->
+        <head xml:id="FrMS88-e87786-Hd1e108">Quaestio 1</head>
+        <p xml:id="FrMS88-e87786-d1e111">
+          <lb ed="#V" n="89"/>¶ Distinctio. xl. et. xli. Questio i. 
+          <lb ed="#V" n="90"/>Predestinatorum nullus 
+          vide<lb ed="#V" n="91" break="no"/>tur posse damnari etc. 
+          <lb ed="#V" n="92"/>Si autem querimus meritum 
+          <lb ed="#V" n="93"/>obdurationis etc. 
+          <lb ed="#V" n="94"/>distinctionem. 4ologiam et 4 3am 
+          <lb ed="#V" n="95"/>Irc a Quero primo Utrum praedestinatio 
+          <lb ed="#V" n="96"/>sit eterna. quod non. quia solus deus est 
+          eter<lb ed="#V" n="97" break="no"/>nus: sed praed estinatio non est deus quia 
+          pre<lb ed="#V" n="98" break="no"/>destinatio est contingens. deus autem 
+          necessa<lb ed="#V" n="99" break="no"/>rius. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e137">
+          ¶ Contra. quia deus 
+          praedestina<lb ed="#V" n="100" break="no"/>ait electos ante mundi constitutionem.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e142">
+          ¶ hic sunt 
+          <lb ed="#V" n="101"/>duo inquirenda. Primum est. quid est predestinatio 
+          <lb ed="#V" n="102"/>2m si predestinatio est eterna. 
+          <lb ed="#V" n="103"/>ad primum pono. 4or conclusiones. Prima est 
+          <lb ed="#V" n="104"/>Quantum quod praedestiatio non dicit aliquid 
+          absolu<lb ed="#V" n="105" break="no"/>tum: sed respectiuum. Probatur. quia praedestinatio secundum quod huiusmodi est 
+          <lb ed="#V" n="106"/>alicuius praedestinatio: sed omne tale est respectiuum. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e158">
+          ¶ 2o. 
+          <lb ed="#V" n="107"/>quia omnis productio videtur dicere respectum: sed praedestinatio nihil 
+          <lb ed="#V" n="108"/>aliud esse videtur nisi productio praedestinati in esse volito. ergo etc. 
+        </p>
+        <p xml:id="FrMS88-e87786-d1e166">
+          <lb ed="#V" n="109"/>¶ 2a conclusio est. quod praedestinatio non est respectus 
+          fundamenta<lb ed="#V" n="110" break="no"/>lis: sed formalis. Probatur. quia omnis respectus 
+          fundamen<lb ed="#V" n="111" break="no"/>talis est necessario in deo: quia quod per se inest. necessario inest: sed primo 
+          <lb ed="#V" n="112"/>destinatio in deo non est necessario: quia sicut deus 
+          contingen<lb ed="#V" n="113" break="no"/>ter praedestinat: ita in eo contingenter est. et quasi per accidens. 
+          <lb ed="#V" n="114"/>Predestinatio ergo ipsa est respectus actualis. non 
+          fundamen<lb ed="#V" n="115" break="no"/>talis.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e184">
+          ¶ 3a conclusio quod est respectus rationis. non realis. Probatur. quia 
+          <lb ed="#V" n="116"/>deus ad creaturam non refertur realiter. sed deus praedestinatione ad 
+          <lb ed="#V" n="117"/>creaturam praedestinatam refertur. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e191">
+          ¶ 2o. quia omne quod est in deo 
+          <lb ed="#V" n="118"/>realiter est necesse esse: sed praedestinatio est contingens. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e196">
+          ¶ 4a 
+          <lb ed="#V" n="119"/>cicuso quod praedestinatio non pertinet ad intellectum in deo: sed 
+          <lb ed="#V" n="120"/>ad voluntatem. Probatur. quia omnis priordinatio videtur ad 
+          vo<lb ed="#V" n="121" break="no"/>luntatem partinere: sed praedestinare nihil aliud est nisi ad 
+          <lb ed="#V" n="122"/>vitam eternam aliquem priordinare. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e207">
+          ¶ Sed contra hoc 
+          <lb ed="#V" n="123"/>instatur 4r. Primo sic. Nam predestinatio nihil aliud est 
+          <lb ed="#V" n="124"/>nisi preordinatio alicuius ad vitam eternam. Sed 
+          <lb ed="#V" n="125"/>illud non videtur esse nisi velle diuinum: quo vult ali 
+          <lb ed="#V" n="126"/>cui dare gloriam. Constat autem quod hoc est absolutum. ergo etc. 
+        </p>
+        <p xml:id="FrMS88-e87786-d1e218">
+          <lb ed="#V" n="127"/>¶ 2o sic. quod formaliter est in deo. non est contingens: quia 
+          <lb ed="#V" n="128"/>omne tale est imperfectum vt sic. sed predestinatio est 
+          <!--239.xml-->
+          <pb ed="#V" n="118-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>formaliteri deo. ergo non est contingens: et sic erit necessaria 
+          <lb ed="#V" n="2"/>sed omnis respectus dei ad creaturam necessario est 
+          fundamen<lb ed="#V" n="3" break="no"/>talis. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e239">
+          ¶ 3o sic. per illud praecise quod est ens rationis nin potest 
+          ali<lb ed="#V" n="4" break="no"/>quid realiter denominari sed deus dicitur realiter praedestinare electos. 
+          <lb ed="#V" n="5"/>Constat autem quod deus non dicitur praedestinare electos nisi ipsa 
+          prae<lb ed="#V" n="6" break="no"/>destinatione. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e248">
+          ¶ 4o sic. Omnis respectus rationis videtur esse in 
+          <lb ed="#V" n="7"/>intellectui: immo videtur contradictio. quod sit respectus rationis et non in 
+          in<lb ed="#V" n="8" break="no"/>tellectui: sed praedestinatio: per te: est respectus rationis. ergo non est nisi in 
+          <lb ed="#V" n="9"/>intellectui: et sic non partinet ad voluntatem.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e257">
+          ¶ Ad primum dico. quod in 
+          <lb ed="#V" n="10"/>destinatio potest accipi 2m. vel fundamentaliter: et sic non est nisi 
+          <lb ed="#V" n="11"/>velle divinum. vel formaliter et vltimate: et sic dico quod dicit 
+          re<lb ed="#V" n="12" break="no"/>spectum: vt scilicet accipiatur pro priordinatione alicuius ad vitam 
+          <lb ed="#V" n="13"/>eternara. Unde si velle divinum accipiatur simpliciter. sic est quid 
+          abso<lb ed="#V" n="14" break="no"/>lutum. et idem quod deus. Si autem accipiatur velle divinum non simpliciter 
+          <lb ed="#V" n="15"/>vt velle est: sed vt velle huius. sic dicit respectum ad illud cus est 
+          <lb ed="#V" n="16"/>Sic dico in proposito.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e275">
+          ¶ Ad 2m dico. quod omne reale quod est in deo 
+          <lb ed="#V" n="17"/>est necesse esse: sed tamen non omnis respectus rationis quae ponitur in 
+          <lb ed="#V" n="18"/>eo formaliter potest dici necesse esse. huiusmodi est praedestinatio.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e282">
+          ¶ Ad  
+          <lb ed="#V" n="19"/>inm dico. quod quando dicitur quod deus realiter praedestinat: verum est: sed tunc 
+          ae<lb ed="#V" n="20" break="no"/>cipitur praedestiatio pro fundamento. et sic est realis: quia nihil 
+          ali<lb ed="#V" n="21" break="no"/>ud est nisi velle divinum. quod est reale. Sed si accipiatur pro eo 
+          <lb ed="#V" n="22"/>quod formaliter dicit scilicet pro respectu. sic non est realis: sed tantum rationis 
+          <lb ed="#V" n="23"/>Dicitur tamen quodammodo realis. vel quia non singitur a ratione: sed 
+          derelin<lb ed="#V" n="24" break="no"/>quitur. Vel realis: quia denominatione extrinseca dicitur de re propter 
+          <lb ed="#V" n="25"/>terminum realem: sicut actio dicitur de deo realiter tantum denominatione 
+          <lb ed="#V" n="26"/>extrinseca.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e302">
+          ¶ Ad 4m dico quod respectus rationis potest 
+          ac<lb ed="#V" n="27" break="no"/>cipi 2m. Vel large vel stricte. Si stricte. sic est tantum in 
+          in<lb ed="#V" n="28" break="no"/>tellectu. et sic praedestiatio non est respectus rationis. Si large. sic 
+          <lb ed="#V" n="29"/>dicitur de omni respectu qui non est in re ante operationem intellectus: et sic potest esse 
+          <lb ed="#V" n="30"/>non solum in intellectui: sed etiam in voluntate et in omni potentia 
+          co<lb ed="#V" n="31" break="no"/>latiua vel ordinatiua alicus ad aliud: sicut patet quod voluntas 
+          <lb ed="#V" n="32"/>dat numismati quod sit numisma. et baliuo quod sit baliuus: 
+          <lb ed="#V" n="33"/>nihil reale dando sibi. Sic ergo respectus talis a voluntate esse potest 
+          <lb ed="#V" n="34"/>ad 2m praencipale videndum est. si 
+          praedestina<lb ed="#V" n="35" break="no"/>Quantum tio sit eterna. hec est veritas 
+          determin<lb ed="#V" n="36" break="no"/>nata per eccleasiam et per sacram scripturam. Uenite benedicti 
+          pa<lb ed="#V" n="37" break="no"/>tris mei percipite regnum. Predestinationem autem esse 
+          eternara<lb ed="#V" n="38" break="no"/>potest intelligi dupliciter. Uno modo quod ab eterno 
+          praedestina<lb ed="#V" n="39" break="no"/>uerit et non modo. sed quod tantum nunc et semper maneat in 
+          propo<lb ed="#V" n="40" break="no"/>sito praedestinationis. Aliood quod ab eterno praedestinauerit 
+          <lb ed="#V" n="41"/>et nunc praedestinat: et semper praedestiabit. ita quod semper sit vnicus actus 
+          <lb ed="#V" n="42"/>praedestinationis. quae non transeat in praeteritum. Exemplum. de 
+          <lb ed="#V" n="43"/>eternitate mundi: qui potest intelligi 2. Vel quia primo creauit 
+          <lb ed="#V" n="44"/>et postea non: sed tantum conseruauit. Vel quod sicut ab 
+          eterno<lb ed="#V" n="45" break="no"/>creauit. ita nunc creat: et semper creabit. Primo modo non potest 
+          <lb ed="#V" n="46"/>intelligi quod praedestinatio sit eterna. Et probo 4r. Primo 
+          <lb ed="#V" n="47"/>sic. quandocumque signum indiuisibile est in aliquo peryodo. oporet 
+          <lb ed="#V" n="48"/>quod omnis duratio sequens sit finita ex parte ante: et per consequens non 
+          <lb ed="#V" n="49"/>eterna. Si ergo esset aliquod instans in quo deus 
+          praedestinas<lb ed="#V" n="50" break="no"/>set: tunc et post non. praedestinatio dei non esset eterna.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e358">
+          ¶ 2a 
+          <lb ed="#V" n="51"/>sic. omne continuum quod incipit ab aliquo termino non potest esse 
+          <lb ed="#V" n="52"/>infinita: sed continuum successiuum est continuum. ergo si habet terminum 
+          <lb ed="#V" n="53"/>non est infinitum: sed si tale instans ponatur in quo 
+          praedesti<lb ed="#V" n="54" break="no"/>net et postea non: duratio actus praedestinandi haberet 
+          ter<lb ed="#V" n="55" break="no"/>minum: ergo non esset eterna.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e371">
+          ¶ 3o sic. quando aliqua ita se habent 
+          <lb ed="#V" n="56"/>quod vnum praecedit et aliud sequitur. si illud quod sequitur est ab 
+          eter<lb ed="#V" n="57" break="no"/>no: aliud scilicet illud quod praecedit non est ab eterno: sed 
+          ante<lb ed="#V" n="58" break="no"/>eternum. sed praedestinare et manem in eoo proposito sic se habent 
+          <lb ed="#V" n="59"/>Manere enim in eodem proposito sequitur pradestinare: et illud 
+          <lb ed="#V" n="60"/>est eternum et ab eterno. quia ab eterno mansit in proposito 
+          <lb ed="#V" n="61"/>eodem. ergo ante eternum praedestinauit. Et si non. praedestinatio 
+          <lb ed="#V" n="62"/>durationem habet finitam.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e389">
+          ¶ 4o sic. quando aliqua sunt 
+          incom<lb ed="#V" n="63" break="no"/>possibilia in ordine durationis. si vnum est eternum: 
+          <lb ed="#V" n="64"/>aliud non. sed praedestinare et permanere in eodem proposito 
+          <lb ed="#V" n="65"/>praedestinandi sunt incompossibila. ergo si praedestinare est 
+          eter<lb ed="#V" n="66" break="no"/>num: permansio non est eterna. Ideo dico. quod primo modo non 
+          <!--239.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>potest intelligi. sed oportet quod intelligatur secundo modo. ita quod 
+          vni<lb ed="#V" n="68" break="no"/>cus actus praedestinationis sit ab eterno. quae ab eterno primo 
+          <lb ed="#V" n="69"/>destinauit. prdestinat et praedestinabit.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e411">
+          ¶ Sed contra instatur 4 
+          <lb ed="#V" n="70"/>Primo sic. pro illo signo pro quo deus praedestinauit electos: 
+          <lb ed="#V" n="71"/>transiuit ab illa indeterminatione ad 
+          determinatio<lb ed="#V" n="72" break="no"/>nem: vel ab illa indifferentia ad determinationem. Primo 
+          <lb ed="#V" n="73"/>enim secundum prius dicta sunt oblata voluntati vt neutra: sed 
+          <lb ed="#V" n="74"/>illa transitio non potest esse nunc: sed ab eterno. ergo modo non 
+          <lb ed="#V" n="75"/>praedestiat.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e427">
+          ¶ 2o sic. quia illud quod semel accipit esse: frustra 
+          <lb ed="#V" n="76"/>amplius producitur. sed esse praedestinatum non est aliud 
+          ni<lb ed="#V" n="77" break="no"/>si accipere esse volitum. ergo si ab eterno accipit: frustra 
+          <lb ed="#V" n="78"/>nunc accipit.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e436">
+          ¶ 3o sic. nam sequitur secundum praedicta quod sancum 
+          <lb ed="#V" n="79"/>quando dabitur gloria. tunc praedestinantur: et tamen illud est 
+          impos<lb ed="#V" n="80" break="no"/>sibile: cum praedestinatio non fiat nisi profuturo.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e444">
+          ¶ 4o sic. quia 
+          <lb ed="#V" n="81"/>ptinet ad prouidentiam que respicit futurum: vt futurum. 
+        </p>
+        <p xml:id="FrMS88-e87786-d1e449">
+          <lb ed="#V" n="82"/>¶ Ad primum concedo. quod idem transitus est nunc 
+          qui<lb ed="#V" n="83" break="no"/>fuit ab eterno. et quod non fuit ab eterno non est nunc. 
+          <lb ed="#V" n="84"/>Non enim est imaginandum: nec nunc nec ab eterno esse 
+          <lb ed="#V" n="85"/>transitum per modumfluxus et successionis: quia illa sunt 
+          <lb ed="#V" n="86"/>omnia permanentia. vnde non est alius transitus nisi quod in 
+          prae<lb ed="#V" n="87" break="no"/>mo signo naturae nunc offert. et ab eterno offerebat 
+          intel<lb ed="#V" n="88" break="no"/>lectus voluntati. In secundo autem instanti naturae nunc determinat 
+          <lb ed="#V" n="89"/>et ab eterno determinauit. ita quod semper est idem actus 
+          ma<lb ed="#V" n="90" break="no"/>nens.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e471">
+          ¶ Ad secundum semper est eadem praedestinatio permanens 
+          <lb ed="#V" n="91"/>sic eadem numero: sicut creatio dicitur permanere eadem 
+          nu<lb ed="#V" n="92" break="no"/>mero et non fluens. quae deus dicitur creare quamlibet 
+          creatu<lb ed="#V" n="93" break="no"/>ram.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e480">
+          ¶ Ad 3m dico. quod praedestinatio est pro futuro signe 
+          <lb ed="#V" n="94"/>naturae vel durationis. Unde quando aliquis saluabitur. 
+          considerabi<lb ed="#V" n="95" break="no"/>tur ibi signa naturae. nam ab eterno erat futurum. sed quando 
+          da<lb ed="#V" n="96" break="no"/>bit non erit ibi futuritio: sed ordo naturae.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e489">
+          ¶ Eodem modo 
+          <lb ed="#V" n="97"/>dico ad quartum. sufficit enim ordo naturae.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e494">
+          ¶ Sed est hic difficultas 
+          <lb ed="#V" n="98"/>licet si ex praedictis possit excludi sufficienter eternitas mum 
+          <lb ed="#V" n="99"/>di. Dico quod necesse est vti distinctione priori. Primo 
+          au<lb ed="#V" n="100" break="no"/>tem modo interrogando scilicet quod primo creauit et postea 
+          con<lb ed="#V" n="101" break="no"/>seruauit. sic dico quod eternitas mundi est impossibilis. 
+          <lb ed="#V" n="102"/>Sed secundo modo ni videtur. quia non repugnat contingenti 
+          produci<lb ed="#V" n="103" break="no"/>quia ab eterno predestinauit contingenter: et ita mo videtur quo 
+          <lb ed="#V" n="104"/>ab eterno produxerit: quantumcumque contingenter 
+          produ<lb ed="#V" n="105" break="no"/>xerit.
+        </p>
+        <p xml:id="FrMS88-e87786-d1e515">
+          ¶ Ad argumentum patet. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

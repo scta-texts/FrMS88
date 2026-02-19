@@ -1,329 +1,329 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="91-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e67160"><!-- l1d29q2 -->
-            <head xml:id="FrMS88-e67160-Hd1e108">Quaestio 2</head>
-            <p xml:id="FrMS88-e67160-d1e111">
-      Quaestio. ii. 
-      <lb ed="#V" n="56"/>posito quod relatio sit quid et 
-      <lb ed="#V" n="57"/>Ecundo in rerum natura. quaro de ea 
-      con<lb ed="#V" n="58" break="no"/>paratione ad fundamentum: et primo. Quero 
-      <lb ed="#V" n="59"/>vtrum relatio differat realiter a 
-      fundamen<lb ed="#V" n="60" break="no"/>ulto. quod sic. Aug. de tri. Omne quod est ad aliud: est 
-      <lb ed="#V" n="61"/>aliud ab eo quod relatiue dicitur.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e127">
-      ¶ Contra per eundem. 
-      <lb ed="#V" n="62"/>Si est aliquid praeter illud: ergo differt a seipso. 
-      <lb ed="#V" n="63"/>aliqui concedentes quod relatio est extra. quod 
-      <lb ed="#V" n="64"/>Hic dicun relatio non differt a suo 
-      sundamen<lb ed="#V" n="65" break="no"/>to. quia duo alba sunt seipsis similia nullo addito et hoc 
-      rea<lb ed="#V" n="66" break="no"/>liter.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e140">
-      ¶ Sed contra istud arguo quadruplici via. Primo per 
-      <!--184.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>viam originis et causalitatis sfic. Omnis effectus differt realiter a 
-      sua<lb ed="#V" n="68" break="no"/>causa. cum nulla res seipsam causare possit. ex primo de tri. sed 
-      <lb ed="#V" n="69"/>relatio cum adueniat de nouo fundamento: et nulla causa 
-      matarai<lb ed="#V" n="70" break="no"/>lis possit sibi assignari nisi illud in qui est scilicet fundamentum: 
-      <lb ed="#V" n="71"/>relinquitur quod necessario distinguetur a suo fundamento.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e158">
-      ¶ 
-      Con<lb ed="#V" n="72" break="no"/>firmatur. quia nihil originatur a seipso: sed forma originatur a materia: 
-      <lb ed="#V" n="73"/>et relatio: vt quaedam forma: a fundamnto vt a materia. ergo distinguitur 
-      </p>
-            <p xml:id="FrMS88-e67160-d1e166">
-               <lb ed="#V" n="74"/>¶ 2o per viam generationis sic. Quando aliqua ita se habent quod vnum 
-      produci<lb ed="#V" n="75" break="no"/>tur alio non producto illa differunt realiter: quia vnum est quando 
-      <lb ed="#V" n="76"/>alterum non est: sed homo sunt fundamentum et relatio. ergo 
-      fundamen<lb ed="#V" n="77" break="no"/>tum producitur. et relatio non.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e177">
-      ¶ 3o per viam corruptionis sic. Quando 
-      <lb ed="#V" n="78"/>aliqui ita se habent quod vnum corrumpitur alio non corrupto: illa 
-      <lb ed="#V" n="79"/>differunt realiter: sed homo sunt fundamentum et relatio: 
-      contigit<lb ed="#V" n="80" break="no"/>enim relationem destrui totaliter remanente fundamento. ergo etc. 
-      </p>
-            <p xml:id="FrMS88-e67160-d1e186">
-               <lb ed="#V" n="81"/>¶ 4o sic per viam separationis: quia fundamentum non repugnat 
-      <lb ed="#V" n="82"/>esse sine relatione. similiter omne accidens videtur realiter differre a 
-      <lb ed="#V" n="83"/>fubiecto. cum ab eo dependeat: sed relatio est vere accidens: 
-      <lb ed="#V" n="84"/>ergo non potest esse idem cum fundamento.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e197">
-      ¶ Dicunt aliqui ad 
-      <lb ed="#V" n="85"/>omnia ista. quod quando fundamentum generatur omnia ista generantur scilicet 
-      relatio<lb ed="#V" n="86" break="no"/>nes: et semper manent cum fundamento. Unde dicunt quod relatio 
-      <lb ed="#V" n="87"/>similitudinis que est inter duas albedines dicit vnam 
-      <lb ed="#V" n="88"/>albedinem aliam connotando. sed quando extremum 
-      <lb ed="#V" n="89"/>non est. tunc connotatio non est. ideo non denominat.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e210">
-      ¶ Contra hoc. 
-      <lb ed="#V" n="90"/>quia ista connotatio aut est eadem cum ipsa albedine totaliter. 
-      <lb ed="#V" n="91"/>aut non. si non. habeo propositum. si sic. ergo stante albedine quam 
-      <lb ed="#V" n="92"/>tumcumque alia albedo destruatur illud stabit: et sic extremo 
-      <lb ed="#V" n="93"/>destructo stabit connotatio.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e221">
-      ¶ Ad hoc dicunt aliqui quod connotaus 
-      <lb ed="#V" n="94"/>ista non est nisi ille due albedines: et ideo dicit quod 
-      connotatio<lb ed="#V" n="95" break="no"/>differt ab hac albedine per aliquid quod dicit vtrumque. Vel sic. 
-      <lb ed="#V" n="96"/>licet similitudo differat realiter ab albedine vna per aliam: non tamen a 
-      <lb ed="#V" n="97"/>puabus albedinibus simul sumptis. Idem dico de 
-      connota<lb ed="#V" n="98" break="no"/>tione.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e235">
-      ¶ Sed contra hoc arguitur dupliciter. Primo sic. Quicquid 
-      <lb ed="#V" n="99"/>absolutum est in duabus albedinibus simul existentibus: totum 
-      <lb ed="#V" n="100"/>est in duabus succedentibus sibiinuicere: sed similitudo est in 
-      <lb ed="#V" n="101"/>duabus albedinibus simul existentibus. ergo erit in duabus fucce 
-      <lb ed="#V" n="102"/>dentibus: sed hoc est falsum. ergo similitudo dicet aliquid praeter duas 
-      <lb ed="#V" n="103"/>albedines simul sumptas: quia si nihil aliud diceret nisi 
-      <lb ed="#V" n="104"/>puas albedines: et due albedines ita fuerunt quantum ad 
-      <lb ed="#V" n="105"/>omnia absoluta quae sunt in duabus albedinibus successiuis: 
-      si<lb ed="#V" n="106" break="no"/>cut permanentibus: ergo habetur propositum.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e255">
-      ¶ 2o sic. quicquid 
-      abso<lb ed="#V" n="107" break="no"/>lutum potest deus facem in duobus permanentibus absolutis: potest 
-      in<lb ed="#V" n="108" break="no"/>puobus absolutis successiue se habentibus. quia prius non 
-      varia<lb ed="#V" n="109" break="no"/>tur per posterius. Duratio autem rei in potentia obstantiua posterior 
-      <lb ed="#V" n="110"/>est ipsa re durante: et ideo si aliqua sint compossibilia ex se. tunc quantum 
-      <lb ed="#V" n="111"/>cumque varietur duratio quae est posterior poterunt simul 
-      fie<lb ed="#V" n="112" break="no"/>ri: si ergo fuit in eis relatio quando erunt duo alba simul: quae relatio 
-      ni<lb ed="#V" n="113" break="no"/>hil dicit praeter duo absoltia duorum alborum. Eodem modo pote. 
-      <lb ed="#V" n="114"/>rit deus facem quod relatio sit inter ea: vt successiue se habentia: et sic 
-      <lb ed="#V" n="115"/>albedo vere erit similis illi quae nunc non est: sed cras erit. quod 
-      <lb ed="#V" n="116"/>ipsi negant.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e279">
-      ¶ Si dicas non sequitur: sed ibi requritur 
-      simul<lb ed="#V" n="117" break="no"/>tas quae non est.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e284">
-      ¶ Contra. Aut simultas est aliquid praeter 
-      al<lb ed="#V" n="118" break="no"/>bedines: aut non: si non. ergo sicut prius de similitudine: si sic. 
-      <lb ed="#V" n="119"/>aut absolutum. et etiam vt prius: aut respectiuum: et tunc habetur pro 
-      <lb ed="#V" n="120"/>positum. Dico ergo quod relato actualis et formalis quae est de genere 
-      <lb ed="#V" n="121"/>relationis est vera res realiter distincta a fundamento. Non enim 
-      <lb ed="#V" n="122"/>pium principium ad sensum dicitet negari propter quascumque instantias quas fac 
-      <lb ed="#V" n="123"/>le est euadem. oppositum autem repugnat prim principio ad sensum¬ 
-      </p>
-            <p xml:id="FrMS88-e67160-d1e300">
-               <lb ed="#V" n="124"/>¶ Sed contra hoc instatur quadruplicitur: et per quia sequitur processus 
-      in<lb ed="#V" n="125" break="no"/>infinitum: quia due similitudines dicuntur similes: sicut due albedines dicunt 
-      <lb ed="#V" n="126"/>imililes cum equaliter sint eiusdem speciei: et alie dicentur similes eodem 
-      <lb ed="#V" n="127"/>modo. sicut prime ergo processus in infinitum.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e311">
-      ¶ 2o sequitur quod in eadem 
-      re<lb ed="#V" n="128" break="no"/>erunt infinite relationes. Nam quaecumque res ad aliam comparata: 
-      <lb ed="#V" n="129"/>aut est similis vel dissimilis: cum ergo sint infinite res distincte: quae 
-      <lb ed="#V" n="130"/>libet illarum habebit ad omnes alias relationem similitudinis vel 
-      <lb ed="#V" n="131"/>dissimilitudinis: et sic infinitas.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e323">
-      ¶ 3o sic. Nono enim videtur qui 
-      <lb ed="#V" n="132"/>omnem rem ab alia realiter distinctam deum facere posset. cum 
-      <!--185.xml-->
-      <pb ed="#V" n="91-v"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>ergo relatio sit vera res distincta realiter a fundamento. videtur quod deus 
-      <lb ed="#V" n="2"/>eam a fundamento poterit separare: et sic per seipsam facere. 
-      </p>
-            <p xml:id="FrMS88-e67160-d1e339">
-               <lb ed="#V" n="3"/>¶ 4o sic. Prius potest fieri fine posteriori realiter distincto: 
-      <lb ed="#V" n="4"/>sed due albedines realiter distinguuntur a similitudine quae est inter 
-      <lb ed="#V" n="5"/>tas: et sunt priores naturaliter ea. ergo deus potest eas facem sine 
-      similitu<lb ed="#V" n="6" break="no"/>dine: et sic non erunt similes.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e350">
-      ¶ Ad primum dico sicut dicit doctor quod 
-      <lb ed="#V" n="7"/>in talibus est ponendus status in 2o licet enim alba quae ad se dicuntur si 
-      <lb ed="#V" n="8"/>milia: non tamen similitudines similes. et ideo est status in 2o quia vel 
-      <lb ed="#V" n="9"/>sunt similes seipsis: vel non sunt proprie similes: quia effectus 
-      forma<lb ed="#V" n="10" break="no"/>lis non praedicatur de sua causa formali: vt album de albedine: et 
-      <lb ed="#V" n="11"/>per consequens nec simile de similitudine.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e363">
-      ¶ Ad 2m dico. quod non apparet 
-      <lb ed="#V" n="12"/>mihi magnum onus portandum habere se infinitas relationes. 
-      <lb ed="#V" n="13"/>Nam quaelibet res quae est in vniuerso habet ordinem ad quamcunque 
-      <lb ed="#V" n="14"/>aliam quae est in vniuerso: et cum forte sint infinita numero in vni 
-      <lb ed="#V" n="15"/>uerso: quaelibet habebit infinitas relationes ad infinita numero: hoc 
-      <lb ed="#V" n="16"/>apparet in partibus continnui quae vt dictum est de. 19. . se infinite et 
-      di<lb ed="#V" n="17" break="no"/>stincte et vnite: in qualibet ergo fundantur respectus ad quamlibet aliam: 
-      <lb ed="#V" n="18"/>et sic in qualibet fundantur respectus infiniti. nec est inconueniens 
-      <lb ed="#V" n="19"/>nisi habentibus grossum intellectum.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e383">
-      ¶ Ad 3m dico. quod omnem rem 
-      <lb ed="#V" n="20"/>distinctam ab alia et priorem deus potest separe: sed posteriorem 
-      <lb ed="#V" n="21"/>non. hoc enim requrit ordo essentialis et necessarius: si est simplicitur 
-      <lb ed="#V" n="22"/>necessarius. Relatio autem est posterior fundamento.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e392">
-      ¶ Ad 4m 
-      <lb ed="#V" n="23"/>dico. quod deus potest face sine similitudine actuali et realiter 
-      di<lb ed="#V" n="24" break="no"/>stincta duo alba. tamen ipsa remanent similia similitudine 
-      funda<lb ed="#V" n="25" break="no"/>mentali. quae non distinguitur realiter ab eis. tamen non sic est de 
-      actua<lb ed="#V" n="26" break="no"/>li.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e404">
-      ¶ Sed hoc sunt aliquae difficultas
-    </p>
-            <p xml:id="FrMS88-e67160-d1e407">
-      ¶ Prima. quia tunc si differret 
-      <lb ed="#V" n="27"/>relatio realiter non esset ita simplex albedo similis: sicut 
-      albe<lb ed="#V" n="28" break="no"/>do per se: cuius oppositum communiter dicitur.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e414">
-      ¶ Dico quod 
-      demonstrati<lb ed="#V" n="29" break="no"/>ue probatur. quod conclusio est vera. quod non est ita simpliciter res: qua constituitur 
-      <lb ed="#V" n="30"/>ex rebus diuersorum generum. et ex rebus realiter differentibus: 
-      <lb ed="#V" n="31"/>quarum vna sit in potentia ad aliam: sicut vna illarum: nec propter hoc 
-      de<lb ed="#V" n="32" break="no"/>pet negari compositio si non videatur ad oclusum hoc poni cum 
-      <lb ed="#V" n="33"/>alio vel in alio.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e427">
-      ¶ 2a difficultas quia tunc videtur quod ad relationem possit 
-      <lb ed="#V" n="34"/>esse mutatio.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e432">
-      ¶ Dico quod ad relationem est vera mutatio: sed 
-      <lb ed="#V" n="35"/>tamen non per se tertio modo. quia nisi aliquid aliud prius terminet 
-      <lb ed="#V" n="36"/>motum ipsa non potest terminare: et sic negant auctores. 
-      </p>
-            <p xml:id="FrMS88-e67160-d1e439">
-               <lb ed="#V" n="37"/>¶ 3a di. si relatio producitur productione sibi propria: Dico quod sic. 
-      <lb ed="#V" n="38"/>et vere causatur. licet non per se modo praedicto secundum poteintiam naturalem. tamen per 
-      <lb ed="#V" n="39"/>potsitionam diuinam posset per se terminare veram et realem pro 
-      <lb ed="#V" n="40"/>ductionem per se 3o modo.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e451">
-      ¶ 4a difficultas quia si ponatur quod 
-      re<lb ed="#V" n="41" break="no"/>latio producitur tunc videtur quod agens creatum poterit agem in 
-      quan<lb ed="#V" n="42" break="no"/>tumcumque distans. quia albo existente rome si fiat album in anglia 
-      <lb ed="#V" n="43"/>causatur ista similitudo in albo rome ac si non distaret. 
-      </p>
-            <p xml:id="FrMS88-e67160-d1e460">
-               <lb ed="#V" n="44"/>¶ Dico quod sicut inferius ostendetur in agentibus naturalibus et me 
-      <lb ed="#V" n="45"/>thaphoricis aliud et aliud est. Agentia enim physica 
-      con<lb ed="#V" n="46" break="no"/>ternunt situm. et ideo determinatam propinquitatem. et talem quod 
-      <lb ed="#V" n="47"/>vltra illam non possent effectum suum causare. In 
-      methapho<lb ed="#V" n="48" break="no"/>ricis autem non est sic: quia abstrahunt a situ: et ideo non 
-      re<lb ed="#V" n="49" break="no"/>quirunt determinatam approximationem. et per consequens possunt 
-      age<lb ed="#V" n="50" break="no"/>re in quantumcumque distans: de numero talium agentium est causans 
-      <lb ed="#V" n="51"/>relationem: et ideo nullum inconueniens est.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e480">
-      ¶ Sed ex habet sequitur 
-      <lb ed="#V" n="52"/>quod moto vno omnia mouebuntur. et sic moto digito meo 
-      causa<lb ed="#V" n="53" break="no"/>buntur noui respectus in omnibus quae sunt in vniuerso. et sic 
-      <lb ed="#V" n="54"/>omnia erunt mutata: quod videtur satis magnum inconueniens. 
-      </p>
-            <p xml:id="FrMS88-e67160-d1e489">
-               <lb ed="#V" n="55"/>¶ Dico et concedo quod si aliquid mutat ordinem omnia quae sunt in 
-      <lb ed="#V" n="56"/>vniuerso mutant ordinem ad ipsum: nec est hoc magnum 
-      incon<lb ed="#V" n="57" break="no"/>ueniens cum omnia quae sunt vniuerso sint adiuicem ordinata: et 
-      <lb ed="#V" n="58"/>sic nouum ordinem habent.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e500">
-      ¶ Sed adhuc sunt aliqua dubia. 
-      <lb ed="#V" n="59"/>Primum. Utrum relatio possit esse eadem cum fundamento suo. 
-      <lb ed="#V" n="60"/>Dico quod sic. quia in essentialiter ordinatis et realiter distinctis 
-      <lb ed="#V" n="61"/>deum potest facem prius sine posteriori. cum ergo fundamentum sic 
-      <lb ed="#V" n="62"/>pus essentialiter sua relatione. si omne fundamentum esset realiter 
-      <lb ed="#V" n="63"/>distinctum a sua relatione: deus posset omne fundamentum 
-      <lb ed="#V" n="64"/>a relatione separare: hoc autem est inconueniens. ergo oportet quod 
-      ali<lb ed="#V" n="65" break="no"/>quod fundamentum sit et possit esse idem cum relatione. 
-      Assum<lb ed="#V" n="66" break="no"/>ptum scilicet quod aliquod fundamentum est quod non possit separari 
-      <!--185.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>a sua relatione. patet in multi: sicut creatura non potest separaria 
-      <lb ed="#V" n="68"/>relatione eius ad deum: nec compositum a relatione quam habet ad 
-      <lb ed="#V" n="69"/>materiam et formam: licet econtrario scili mateam et forma posesent a composito 
-      <lb ed="#V" n="70"/>separari: tamen compositum non.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e533">
-      ¶ Similiter inherentia accidentis 
-      <lb ed="#V" n="71"/>non absoluti: sed respectiui non potest separari ab illo 
-      acciden<lb ed="#V" n="72" break="no"/>te: et vniversaliter secundum doctorem: omnis illa relatio est inseparabilis a 
-      fini<lb ed="#V" n="73" break="no"/>damento: et per consequens eadem fundamento. cui videlicet 
-      funda<lb ed="#V" n="74" break="no"/>mento repugnat ex se esse sine termino: sicut in omnibus istis 
-      <lb ed="#V" n="75"/>exemplis patet scilicet de creatura respectu dei: et sic de aliis. 
-      </p>
-            <p xml:id="FrMS88-e67160-d1e547">
-               <lb ed="#V" n="76"/>¶ 2m dubium. dato quod non omnis relatio differat a 
-      fundamen<lb ed="#V" n="77" break="no"/>to realiter. Utrum formaliter differat: vel sit idem.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e554">
-      ¶ Dico quod 
-      <lb ed="#V" n="78"/>niversalter omnis relatio formaliter differt a suo fundamento: 
-      <lb ed="#V" n="79"/>quia si fundatur in absoluto. patet quod absolutum et respecti 
-      <lb ed="#V" n="80"/>uum cadunt sub oppositis differentiis diuidentibus ens in relatio 
-      <lb ed="#V" n="81"/>ne. patet quod fundamentum intellctur esse in potentia ad relationem. et sic 
-      <lb ed="#V" n="82"/>differt formaliter.
-    </p>
-            <p xml:id="FrMS88-e67160-d1e567">
-      ¶ Ad argumentum patet. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="91-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e67160"><!-- l1d29q2 -->
+        <head xml:id="FrMS88-e67160-Hd1e108">Quaestio 2</head>
+        <p xml:id="FrMS88-e67160-d1e111">
+          Quaestio. ii. 
+          <lb ed="#V" n="56"/>posito quod relatio sit quid et 
+          <lb ed="#V" n="57"/>Ecundo in rerum natura. quaro de ea 
+          con<lb ed="#V" n="58" break="no"/>paratione ad fundamentum: et primo. Quero 
+          <lb ed="#V" n="59"/>vtrum relatio differat realiter a 
+          fundamen<lb ed="#V" n="60" break="no"/>ulto. quod sic. Aug. de tri. Omne quod est ad aliud: est 
+          <lb ed="#V" n="61"/>aliud ab eo quod relatiue dicitur.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e127">
+          ¶ Contra per eundem. 
+          <lb ed="#V" n="62"/>Si est aliquid praeter illud: ergo differt a seipso. 
+          <lb ed="#V" n="63"/>aliqui concedentes quod relatio est extra. quod 
+          <lb ed="#V" n="64"/>Hic dicun relatio non differt a suo 
+          sundamen<lb ed="#V" n="65" break="no"/>to. quia duo alba sunt seipsis similia nullo addito et hoc 
+          rea<lb ed="#V" n="66" break="no"/>liter.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e140">
+          ¶ Sed contra istud arguo quadruplici via. Primo per 
+          <!--184.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>viam originis et causalitatis sfic. Omnis effectus differt realiter a 
+          sua<lb ed="#V" n="68" break="no"/>causa. cum nulla res seipsam causare possit. ex primo de tri. sed 
+          <lb ed="#V" n="69"/>relatio cum adueniat de nouo fundamento: et nulla causa 
+          matarai<lb ed="#V" n="70" break="no"/>lis possit sibi assignari nisi illud in qui est scilicet fundamentum: 
+          <lb ed="#V" n="71"/>relinquitur quod necessario distinguetur a suo fundamento.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e158">
+          ¶ 
+          Con<lb ed="#V" n="72" break="no"/>firmatur. quia nihil originatur a seipso: sed forma originatur a materia: 
+          <lb ed="#V" n="73"/>et relatio: vt quaedam forma: a fundamnto vt a materia. ergo distinguitur 
+        </p>
+        <p xml:id="FrMS88-e67160-d1e166">
+          <lb ed="#V" n="74"/>¶ 2o per viam generationis sic. Quando aliqua ita se habent quod vnum 
+          produci<lb ed="#V" n="75" break="no"/>tur alio non producto illa differunt realiter: quia vnum est quando 
+          <lb ed="#V" n="76"/>alterum non est: sed homo sunt fundamentum et relatio. ergo 
+          fundamen<lb ed="#V" n="77" break="no"/>tum producitur. et relatio non.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e177">
+          ¶ 3o per viam corruptionis sic. Quando 
+          <lb ed="#V" n="78"/>aliqui ita se habent quod vnum corrumpitur alio non corrupto: illa 
+          <lb ed="#V" n="79"/>differunt realiter: sed homo sunt fundamentum et relatio: 
+          contigit<lb ed="#V" n="80" break="no"/>enim relationem destrui totaliter remanente fundamento. ergo etc. 
+        </p>
+        <p xml:id="FrMS88-e67160-d1e186">
+          <lb ed="#V" n="81"/>¶ 4o sic per viam separationis: quia fundamentum non repugnat 
+          <lb ed="#V" n="82"/>esse sine relatione. similiter omne accidens videtur realiter differre a 
+          <lb ed="#V" n="83"/>fubiecto. cum ab eo dependeat: sed relatio est vere accidens: 
+          <lb ed="#V" n="84"/>ergo non potest esse idem cum fundamento.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e197">
+          ¶ Dicunt aliqui ad 
+          <lb ed="#V" n="85"/>omnia ista. quod quando fundamentum generatur omnia ista generantur scilicet 
+          relatio<lb ed="#V" n="86" break="no"/>nes: et semper manent cum fundamento. Unde dicunt quod relatio 
+          <lb ed="#V" n="87"/>similitudinis que est inter duas albedines dicit vnam 
+          <lb ed="#V" n="88"/>albedinem aliam connotando. sed quando extremum 
+          <lb ed="#V" n="89"/>non est. tunc connotatio non est. ideo non denominat.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e210">
+          ¶ Contra hoc. 
+          <lb ed="#V" n="90"/>quia ista connotatio aut est eadem cum ipsa albedine totaliter. 
+          <lb ed="#V" n="91"/>aut non. si non. habeo propositum. si sic. ergo stante albedine quam 
+          <lb ed="#V" n="92"/>tumcumque alia albedo destruatur illud stabit: et sic extremo 
+          <lb ed="#V" n="93"/>destructo stabit connotatio.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e221">
+          ¶ Ad hoc dicunt aliqui quod connotaus 
+          <lb ed="#V" n="94"/>ista non est nisi ille due albedines: et ideo dicit quod 
+          connotatio<lb ed="#V" n="95" break="no"/>differt ab hac albedine per aliquid quod dicit vtrumque. Vel sic. 
+          <lb ed="#V" n="96"/>licet similitudo differat realiter ab albedine vna per aliam: non tamen a 
+          <lb ed="#V" n="97"/>puabus albedinibus simul sumptis. Idem dico de 
+          connota<lb ed="#V" n="98" break="no"/>tione.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e235">
+          ¶ Sed contra hoc arguitur dupliciter. Primo sic. Quicquid 
+          <lb ed="#V" n="99"/>absolutum est in duabus albedinibus simul existentibus: totum 
+          <lb ed="#V" n="100"/>est in duabus succedentibus sibiinuicere: sed similitudo est in 
+          <lb ed="#V" n="101"/>duabus albedinibus simul existentibus. ergo erit in duabus fucce 
+          <lb ed="#V" n="102"/>dentibus: sed hoc est falsum. ergo similitudo dicet aliquid praeter duas 
+          <lb ed="#V" n="103"/>albedines simul sumptas: quia si nihil aliud diceret nisi 
+          <lb ed="#V" n="104"/>puas albedines: et due albedines ita fuerunt quantum ad 
+          <lb ed="#V" n="105"/>omnia absoluta quae sunt in duabus albedinibus successiuis: 
+          si<lb ed="#V" n="106" break="no"/>cut permanentibus: ergo habetur propositum.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e255">
+          ¶ 2o sic. quicquid 
+          abso<lb ed="#V" n="107" break="no"/>lutum potest deus facem in duobus permanentibus absolutis: potest 
+          in<lb ed="#V" n="108" break="no"/>puobus absolutis successiue se habentibus. quia prius non 
+          varia<lb ed="#V" n="109" break="no"/>tur per posterius. Duratio autem rei in potentia obstantiua posterior 
+          <lb ed="#V" n="110"/>est ipsa re durante: et ideo si aliqua sint compossibilia ex se. tunc quantum 
+          <lb ed="#V" n="111"/>cumque varietur duratio quae est posterior poterunt simul 
+          fie<lb ed="#V" n="112" break="no"/>ri: si ergo fuit in eis relatio quando erunt duo alba simul: quae relatio 
+          ni<lb ed="#V" n="113" break="no"/>hil dicit praeter duo absoltia duorum alborum. Eodem modo pote. 
+          <lb ed="#V" n="114"/>rit deus facem quod relatio sit inter ea: vt successiue se habentia: et sic 
+          <lb ed="#V" n="115"/>albedo vere erit similis illi quae nunc non est: sed cras erit. quod 
+          <lb ed="#V" n="116"/>ipsi negant.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e279">
+          ¶ Si dicas non sequitur: sed ibi requritur 
+          simul<lb ed="#V" n="117" break="no"/>tas quae non est.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e284">
+          ¶ Contra. Aut simultas est aliquid praeter 
+          al<lb ed="#V" n="118" break="no"/>bedines: aut non: si non. ergo sicut prius de similitudine: si sic. 
+          <lb ed="#V" n="119"/>aut absolutum. et etiam vt prius: aut respectiuum: et tunc habetur pro 
+          <lb ed="#V" n="120"/>positum. Dico ergo quod relato actualis et formalis quae est de genere 
+          <lb ed="#V" n="121"/>relationis est vera res realiter distincta a fundamento. Non enim 
+          <lb ed="#V" n="122"/>pium principium ad sensum dicitet negari propter quascumque instantias quas fac 
+          <lb ed="#V" n="123"/>le est euadem. oppositum autem repugnat prim principio ad sensum¬ 
+        </p>
+        <p xml:id="FrMS88-e67160-d1e300">
+          <lb ed="#V" n="124"/>¶ Sed contra hoc instatur quadruplicitur: et per quia sequitur processus 
+          in<lb ed="#V" n="125" break="no"/>infinitum: quia due similitudines dicuntur similes: sicut due albedines dicunt 
+          <lb ed="#V" n="126"/>imililes cum equaliter sint eiusdem speciei: et alie dicentur similes eodem 
+          <lb ed="#V" n="127"/>modo. sicut prime ergo processus in infinitum.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e311">
+          ¶ 2o sequitur quod in eadem 
+          re<lb ed="#V" n="128" break="no"/>erunt infinite relationes. Nam quaecumque res ad aliam comparata: 
+          <lb ed="#V" n="129"/>aut est similis vel dissimilis: cum ergo sint infinite res distincte: quae 
+          <lb ed="#V" n="130"/>libet illarum habebit ad omnes alias relationem similitudinis vel 
+          <lb ed="#V" n="131"/>dissimilitudinis: et sic infinitas.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e323">
+          ¶ 3o sic. Nono enim videtur qui 
+          <lb ed="#V" n="132"/>omnem rem ab alia realiter distinctam deum facere posset. cum 
+          <!--185.xml-->
+          <pb ed="#V" n="91-v"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>ergo relatio sit vera res distincta realiter a fundamento. videtur quod deus 
+          <lb ed="#V" n="2"/>eam a fundamento poterit separare: et sic per seipsam facere. 
+        </p>
+        <p xml:id="FrMS88-e67160-d1e339">
+          <lb ed="#V" n="3"/>¶ 4o sic. Prius potest fieri fine posteriori realiter distincto: 
+          <lb ed="#V" n="4"/>sed due albedines realiter distinguuntur a similitudine quae est inter 
+          <lb ed="#V" n="5"/>tas: et sunt priores naturaliter ea. ergo deus potest eas facem sine 
+          similitu<lb ed="#V" n="6" break="no"/>dine: et sic non erunt similes.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e350">
+          ¶ Ad primum dico sicut dicit doctor quod 
+          <lb ed="#V" n="7"/>in talibus est ponendus status in 2o licet enim alba quae ad se dicuntur si 
+          <lb ed="#V" n="8"/>milia: non tamen similitudines similes. et ideo est status in 2o quia vel 
+          <lb ed="#V" n="9"/>sunt similes seipsis: vel non sunt proprie similes: quia effectus 
+          forma<lb ed="#V" n="10" break="no"/>lis non praedicatur de sua causa formali: vt album de albedine: et 
+          <lb ed="#V" n="11"/>per consequens nec simile de similitudine.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e363">
+          ¶ Ad 2m dico. quod non apparet 
+          <lb ed="#V" n="12"/>mihi magnum onus portandum habere se infinitas relationes. 
+          <lb ed="#V" n="13"/>Nam quaelibet res quae est in vniuerso habet ordinem ad quamcunque 
+          <lb ed="#V" n="14"/>aliam quae est in vniuerso: et cum forte sint infinita numero in vni 
+          <lb ed="#V" n="15"/>uerso: quaelibet habebit infinitas relationes ad infinita numero: hoc 
+          <lb ed="#V" n="16"/>apparet in partibus continnui quae vt dictum est de. 19. . se infinite et 
+          di<lb ed="#V" n="17" break="no"/>stincte et vnite: in qualibet ergo fundantur respectus ad quamlibet aliam: 
+          <lb ed="#V" n="18"/>et sic in qualibet fundantur respectus infiniti. nec est inconueniens 
+          <lb ed="#V" n="19"/>nisi habentibus grossum intellectum.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e383">
+          ¶ Ad 3m dico. quod omnem rem 
+          <lb ed="#V" n="20"/>distinctam ab alia et priorem deus potest separe: sed posteriorem 
+          <lb ed="#V" n="21"/>non. hoc enim requrit ordo essentialis et necessarius: si est simplicitur 
+          <lb ed="#V" n="22"/>necessarius. Relatio autem est posterior fundamento.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e392">
+          ¶ Ad 4m 
+          <lb ed="#V" n="23"/>dico. quod deus potest face sine similitudine actuali et realiter 
+          di<lb ed="#V" n="24" break="no"/>stincta duo alba. tamen ipsa remanent similia similitudine 
+          funda<lb ed="#V" n="25" break="no"/>mentali. quae non distinguitur realiter ab eis. tamen non sic est de 
+          actua<lb ed="#V" n="26" break="no"/>li.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e404">
+          ¶ Sed hoc sunt aliquae difficultas
+        </p>
+        <p xml:id="FrMS88-e67160-d1e407">
+          ¶ Prima. quia tunc si differret 
+          <lb ed="#V" n="27"/>relatio realiter non esset ita simplex albedo similis: sicut 
+          albe<lb ed="#V" n="28" break="no"/>do per se: cuius oppositum communiter dicitur.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e414">
+          ¶ Dico quod 
+          demonstrati<lb ed="#V" n="29" break="no"/>ue probatur. quod conclusio est vera. quod non est ita simpliciter res: qua constituitur 
+          <lb ed="#V" n="30"/>ex rebus diuersorum generum. et ex rebus realiter differentibus: 
+          <lb ed="#V" n="31"/>quarum vna sit in potentia ad aliam: sicut vna illarum: nec propter hoc 
+          de<lb ed="#V" n="32" break="no"/>pet negari compositio si non videatur ad oclusum hoc poni cum 
+          <lb ed="#V" n="33"/>alio vel in alio.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e427">
+          ¶ 2a difficultas quia tunc videtur quod ad relationem possit 
+          <lb ed="#V" n="34"/>esse mutatio.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e432">
+          ¶ Dico quod ad relationem est vera mutatio: sed 
+          <lb ed="#V" n="35"/>tamen non per se tertio modo. quia nisi aliquid aliud prius terminet 
+          <lb ed="#V" n="36"/>motum ipsa non potest terminare: et sic negant auctores. 
+        </p>
+        <p xml:id="FrMS88-e67160-d1e439">
+          <lb ed="#V" n="37"/>¶ 3a di. si relatio producitur productione sibi propria: Dico quod sic. 
+          <lb ed="#V" n="38"/>et vere causatur. licet non per se modo praedicto secundum poteintiam naturalem. tamen per 
+          <lb ed="#V" n="39"/>potsitionam diuinam posset per se terminare veram et realem pro 
+          <lb ed="#V" n="40"/>ductionem per se 3o modo.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e451">
+          ¶ 4a difficultas quia si ponatur quod 
+          re<lb ed="#V" n="41" break="no"/>latio producitur tunc videtur quod agens creatum poterit agem in 
+          quan<lb ed="#V" n="42" break="no"/>tumcumque distans. quia albo existente rome si fiat album in anglia 
+          <lb ed="#V" n="43"/>causatur ista similitudo in albo rome ac si non distaret. 
+        </p>
+        <p xml:id="FrMS88-e67160-d1e460">
+          <lb ed="#V" n="44"/>¶ Dico quod sicut inferius ostendetur in agentibus naturalibus et me 
+          <lb ed="#V" n="45"/>thaphoricis aliud et aliud est. Agentia enim physica 
+          con<lb ed="#V" n="46" break="no"/>ternunt situm. et ideo determinatam propinquitatem. et talem quod 
+          <lb ed="#V" n="47"/>vltra illam non possent effectum suum causare. In 
+          methapho<lb ed="#V" n="48" break="no"/>ricis autem non est sic: quia abstrahunt a situ: et ideo non 
+          re<lb ed="#V" n="49" break="no"/>quirunt determinatam approximationem. et per consequens possunt 
+          age<lb ed="#V" n="50" break="no"/>re in quantumcumque distans: de numero talium agentium est causans 
+          <lb ed="#V" n="51"/>relationem: et ideo nullum inconueniens est.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e480">
+          ¶ Sed ex habet sequitur 
+          <lb ed="#V" n="52"/>quod moto vno omnia mouebuntur. et sic moto digito meo 
+          causa<lb ed="#V" n="53" break="no"/>buntur noui respectus in omnibus quae sunt in vniuerso. et sic 
+          <lb ed="#V" n="54"/>omnia erunt mutata: quod videtur satis magnum inconueniens. 
+        </p>
+        <p xml:id="FrMS88-e67160-d1e489">
+          <lb ed="#V" n="55"/>¶ Dico et concedo quod si aliquid mutat ordinem omnia quae sunt in 
+          <lb ed="#V" n="56"/>vniuerso mutant ordinem ad ipsum: nec est hoc magnum 
+          incon<lb ed="#V" n="57" break="no"/>ueniens cum omnia quae sunt vniuerso sint adiuicem ordinata: et 
+          <lb ed="#V" n="58"/>sic nouum ordinem habent.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e500">
+          ¶ Sed adhuc sunt aliqua dubia. 
+          <lb ed="#V" n="59"/>Primum. Utrum relatio possit esse eadem cum fundamento suo. 
+          <lb ed="#V" n="60"/>Dico quod sic. quia in essentialiter ordinatis et realiter distinctis 
+          <lb ed="#V" n="61"/>deum potest facem prius sine posteriori. cum ergo fundamentum sic 
+          <lb ed="#V" n="62"/>pus essentialiter sua relatione. si omne fundamentum esset realiter 
+          <lb ed="#V" n="63"/>distinctum a sua relatione: deus posset omne fundamentum 
+          <lb ed="#V" n="64"/>a relatione separare: hoc autem est inconueniens. ergo oportet quod 
+          ali<lb ed="#V" n="65" break="no"/>quod fundamentum sit et possit esse idem cum relatione. 
+          Assum<lb ed="#V" n="66" break="no"/>ptum scilicet quod aliquod fundamentum est quod non possit separari 
+          <!--185.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>a sua relatione. patet in multi: sicut creatura non potest separaria 
+          <lb ed="#V" n="68"/>relatione eius ad deum: nec compositum a relatione quam habet ad 
+          <lb ed="#V" n="69"/>materiam et formam: licet econtrario scili mateam et forma posesent a composito 
+          <lb ed="#V" n="70"/>separari: tamen compositum non.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e533">
+          ¶ Similiter inherentia accidentis 
+          <lb ed="#V" n="71"/>non absoluti: sed respectiui non potest separari ab illo 
+          acciden<lb ed="#V" n="72" break="no"/>te: et vniversaliter secundum doctorem: omnis illa relatio est inseparabilis a 
+          fini<lb ed="#V" n="73" break="no"/>damento: et per consequens eadem fundamento. cui videlicet 
+          funda<lb ed="#V" n="74" break="no"/>mento repugnat ex se esse sine termino: sicut in omnibus istis 
+          <lb ed="#V" n="75"/>exemplis patet scilicet de creatura respectu dei: et sic de aliis. 
+        </p>
+        <p xml:id="FrMS88-e67160-d1e547">
+          <lb ed="#V" n="76"/>¶ 2m dubium. dato quod non omnis relatio differat a 
+          fundamen<lb ed="#V" n="77" break="no"/>to realiter. Utrum formaliter differat: vel sit idem.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e554">
+          ¶ Dico quod 
+          <lb ed="#V" n="78"/>niversalter omnis relatio formaliter differt a suo fundamento: 
+          <lb ed="#V" n="79"/>quia si fundatur in absoluto. patet quod absolutum et respecti 
+          <lb ed="#V" n="80"/>uum cadunt sub oppositis differentiis diuidentibus ens in relatio 
+          <lb ed="#V" n="81"/>ne. patet quod fundamentum intellctur esse in potentia ad relationem. et sic 
+          <lb ed="#V" n="82"/>differt formaliter.
+        </p>
+        <p xml:id="FrMS88-e67160-d1e567">
+          ¶ Ad argumentum patet. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

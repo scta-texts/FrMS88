@@ -1,334 +1,334 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="111-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e82685"><!-- l1d36q2 -->
-            <head xml:id="FrMS88-e82685-Hd1e108">Quaestio 2</head>
-            <p xml:id="FrMS88-e82685-d1e111">
-      Quaestio. ii. 
-      <lb ed="#V" n="52"/>Intellectus agens et possibilis 
-      <lb ed="#V" n="53"/>Tum realiter distinguantur. E videtur quod sic 
-      <lb ed="#V" n="54"/>etiam in creatis. quia Aug. super gen. loquens de 
-      <lb ed="#V" n="55"/>ista materia dicit. quod omne agens est praestantius patiente 
-      <lb ed="#V" n="56"/>sed nulla res est seipsa praestantior. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e124">
-      ¶ Co 
-      <lb ed="#V" n="57"/>tra. Aug. lib. de tri. 5. dicit. quod sunt tres potentie et non tres 
-      <lb ed="#V" n="58"/>res: sed vna res totaliter sunt. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e131">
-      ¶ hic sunt. 4or facienda. 
-      <lb ed="#V" n="59"/>Primum de quasito. 2m quis eorum fit principium verbi. 3m vtrum vnus 
-      <lb ed="#V" n="60"/>eorum sit perfectio alterius. 4m. quis eorum est nobilior 
-      <lb ed="#V" n="61"/>ad primum introducuntur 4or conclusiones. Prima quod 
-      intel<lb ed="#V" n="62" break="no"/>Quantu llectus agens et possibilis distinguuntur 
-      for<lb ed="#V" n="63" break="no"/>maliter. Quod probatur primo. quia cadunt sub oppositis 
-      differen<lb ed="#V" n="64" break="no"/>tiis diuidentibus aliquod cone. sicut sub actiuo et passiuo. quia 
-      <lb ed="#V" n="65"/>principium distinguitur formaliter per actiuum et passiuum: quae sunt differentiae 
-      op<lb ed="#V" n="66" break="no"/>posite. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e151">
-      ¶ 2o quia vnu diffinitur per facere: aliud per pati: quae 
-      <lb ed="#V" n="67"/>sunt opposita.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e157">
-      ¶ 2a conclusio est. quod intellectus agens et possi¬ 
-      <!--225.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="68"/>bilis distinguuntur formaliter extra animam. quia intellectui 
-      agen<lb ed="#V" n="69" break="no"/>ti repugnat possibilitas ex natura rei. que competit ipsi 
-      pos<lb ed="#V" n="70" break="no"/>sibili.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e170">
-      ¶ 2o quia intelligere: secundum omnes: conuenit ex natum rei 
-      pos<lb ed="#V" n="71" break="no"/>sibili. quod tamen secundum multos non conuenit agenti: sed solum 
-      intel<lb ed="#V" n="72" break="no"/>lectionem facere.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e177">
-      ¶ 3a conclusio est. quod non distinguuntur realiter. quia 
-      <lb ed="#V" n="73"/>non apparet necessitas hoc ponendi. Nulli enim notum est. 
-      <lb ed="#V" n="74"/>vtrum vnus istorum ab alio possit separari: aut fieri: nec 
-      aliquo<lb ed="#V" n="75" break="no"/>via apparet que necessitet ad distinctionem realem.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e186">
-      ¶ 4a est 
-      <lb ed="#V" n="76"/>est. quod non distinguuntur essentialiter sicut multi ponunt. Aug. 
-      <lb ed="#V" n="77"/>dicit. 5. de tri. quod omnes potentie anime sunt necessario vnius essen 
-      <lb ed="#V" n="78"/>tie. Similiter in 4o ipse dicit. quod plures potentie non sunt 
-      plu<lb ed="#V" n="79" break="no"/>res vite. sed vna vita: nec plures mentes: sed vna mens: 
-      <lb ed="#V" n="80"/>nec plures substantie: sed vna substantia.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e199">
-      ¶ Sed est hoc vna difficultas vtrum sit 
-      <lb ed="#V" n="81"/>eadem potentia. Dicunt aliqui quod non sunt diuerse potentie: quia 
-      ne<lb ed="#V" n="82" break="no"/>gociantur circa idem obiectum.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e206">
-      ¶ Sed istud non multum valet. 
-      <lb ed="#V" n="83"/>quia eodem modo intellectus et voluntas circa idem negocian 
-      <lb ed="#V" n="84"/>tur.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e214">
-      ¶ Dicunt ergo aliqui quod sunt idem: quia circa eundem actum 
-      nego<lb ed="#V" n="85" break="no"/>ciantur.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e219">
-      ¶ Sed nec hoc multum valet. quia sic concluderetur. quod 
-      <lb ed="#V" n="86"/>potentia et obiectum essent eadem potentia. quia negociantur circa eundem actum 
-      </p>
-            <p xml:id="FrMS88-e82685-d1e224">
-               <lb ed="#V" n="87"/>¶ Ideo videtur esse dicendum. quod sunt distincte potentie cum cadant sub diffiflt 
-      <lb ed="#V" n="88"/>ferentiis oppositis potentie. quae sui pria diuisione diuinditur 
-      <lb ed="#V" n="89"/>in actiuam et passiuam.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e233">
-      ¶ Confirmatur. quia multiplicato 
-      infe<lb ed="#V" n="90" break="no"/>riori: multiplicatur superius. per locum a parte subieantiua. Psseunt tamen 
-      di<lb ed="#V" n="91" break="no"/>ci vna potentia vnitate integritatis in habitudine ad vnum 
-      <lb ed="#V" n="92"/>actum quarum vna causat: et alia recipit. sicut omnia que videntur 
-      <lb ed="#V" n="93"/>concurrere ad eundem effectum quodammodo dicuntur vna 
-      causa<lb ed="#V" n="94" break="no"/>totalis. sicut sol et homo: eodem modo in proposito. 
-      <lb ed="#V" n="95"/>ad 2m inquirendum est. quis istorum est 
-      <lb ed="#V" n="96"/>Quantum principium verbi. Et quantum ad hoc 
-      di<lb ed="#V" n="97" break="no"/>cunt aliqui. quod intellectus agens nullam actiuitatem habet: nisi 
-      <lb ed="#V" n="98"/>supra fantasmata: et propter hoc nihil habet facere de verbo: sed 
-      <lb ed="#V" n="99"/>solum intellectus possibilis.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e257">
-      ¶ Contra. Nam tunc causalitas 
-      fan<lb ed="#V" n="100" break="no"/>tasie esset nobilior quam causalitas intellectus agentis: quia 
-      no<lb ed="#V" n="101" break="no"/>bilissima actio fantasie est fantasiare: sed actio illa causata 
-      <lb ed="#V" n="102"/>ab intellectu agente in fantasia non est fantasiare. ergo non 
-      <lb ed="#V" n="103"/>erit ita perfecta.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e268">
-      ¶ 2o quia omnis effectus impressus in fantasia 
-      <lb ed="#V" n="104"/>est corporeus: cum fantasia sit corpore a: ergo ille effectus 
-      <lb ed="#V" n="105"/>intellectus agentis erit corporeus. Constat autem quod 
-      fan<lb ed="#V" n="106" break="no"/>tasia aliquid causat in intellectu possibili: et illud est 
-      spiritua<lb ed="#V" n="107" break="no"/>le. ergo effectus fantasie excedit effectum intellectus agentis: cum 
-      <lb ed="#V" n="108"/>nobilitas causare ex effectu iudicetur.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e282">
-      ¶ Ideo dicunt alii quod 
-      intel<lb ed="#V" n="109" break="no"/>lectus agens concurrit cum fantasmate ad causandum specie 
-      intel<lb ed="#V" n="110" break="no"/>ligibilem: non tamen actum intelligendi: ipsum autem causat intellectus 
-      pos<lb ed="#V" n="111" break="no"/>sibilis specie informatus: specie concurrente. Et sic formatio 
-      <lb ed="#V" n="112"/>verbi non partinet ad agentem.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e293">
-      ¶ Sed contra istud arguitur 4r. 
-      Primo<lb ed="#V" n="113" break="no"/>quia impossibile est quod aliqua species cadat sub oppositis differet 
-      <lb ed="#V" n="114"/>tiis illius generis in qui est. sed in genere potentie. intellectus 
-      possi<lb ed="#V" n="115" break="no"/>bilis cadit sub passiuo. ergo n sub actiuo.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e302">
-      ¶ 2o quia tunc erunt 
-      <lb ed="#V" n="116"/>tres intellectu scilicet agens et possibilis: et iste possibilis 
-      diuidi<lb ed="#V" n="117" break="no"/>tur in actiuum et passiuum: que sunt ita opposite differentiae: sicut 
-      <lb ed="#V" n="118"/>ille quibus agens et possibilis differunt.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e311">
-      ¶ 3o quia omnis potentia actiua 
-      <lb ed="#V" n="119"/>vt talis est perfectio simpliciter: alioquin non esset ratio 
-      for<lb ed="#V" n="120" break="no"/>malis potentie actiue in deo. nulla potentia passiua 
-      in<lb ed="#V" n="121" break="no"/>quantum talis est perfectio simpliciter. cum eius ratio non inueniatur 
-      <lb ed="#V" n="122"/>in deo. ergo nulla potentia actiua est potentia passiua et per consequens 
-      <lb ed="#V" n="123"/>necessario distinguuntur.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e324">
-      ¶ 4o quia causa materialis et effectiua ex 
-      <lb ed="#V" n="124"/>opposito distinguuntur: ergo impossibile est quod coincidant in idem. 
-      </p>
-            <p xml:id="FrMS88-e82685-d1e329">
-               <lb ed="#V" n="125"/>¶ Dico ergo quod intellectus possibilis habet quadruplicem 
-      causa<lb ed="#V" n="126" break="no"/>litatem in genere causare materialis. ita scilicet vt primo recipiat speciem. 
-      <lb ed="#V" n="127"/>2o actum. 3o dispositionem ad habitum. et 4o ipsum habitum. Eo 
-      <lb ed="#V" n="128"/>dem modo dico de intellectu agente in genere causare 
-      ef<lb ed="#V" n="129" break="no"/>ficientis. quod scilicet habet quadruplicem causalitatem. vt scilicet primo concurrit 
-      <lb ed="#V" n="130"/>cum fantasmate ad causandum speciem intelligibilem. Et secundo 
-      <lb ed="#V" n="131"/>cum specie intelligibili causat actum. 3o cum eadem causat dispositionem. 
-      <lb ed="#V" n="132"/>4o autem cum eadem specie causat habitum. Sicut ergo 
-      possi<lb ed="#V" n="133" break="no"/>bilis dicitur qui est omnia fieri: quia omnia recipit: sic agens. qui est omnia 
-      <!--226.xml-->
-      <pb ed="#V" n="112-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>facere. quia omnia causat.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e361">
-      ¶ Sed quare negatur causatio actus 
-      intelligen<lb ed="#V" n="2" break="no"/>di ab intellectu illo qui solus formaliter intellect.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e366">
-      ¶ Dico quod 
-      <lb ed="#V" n="3"/>intelligere non est agere: sed pati. Unde si deus infunderet 
-      <lb ed="#V" n="4"/>vnum actum intelligendi. per ipsum intelligeret intellectus possibilis. 
-      <lb ed="#V" n="5"/>ad 3m videndum est vtrum vnus istorum 
-      <lb ed="#V" n="6"/>Quantum intellectum sit perfectio alterius. Et 
-      quan<lb ed="#V" n="7" break="no"/>tum ad hoc dicit vnus doctor quod sic. Nam sicut materia prima est 
-      infi<lb ed="#V" n="8" break="no"/>ma natam in genere sensibilium: ita intellectus possibilis in 
-      <lb ed="#V" n="9"/>genere intelligibilium. Et ideo intellectus agens comparat 
-      <lb ed="#V" n="10"/>ad possibilem: sicut forma ad materiam. Intellectus autem 
-      possi<lb ed="#V" n="11" break="no"/>bilis ad agente sicut materia ad formam. ita quod intellectus agens 
-      <lb ed="#V" n="12"/>formaliter perficit ipsum.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e390">
-      ¶ Sed contra arguo. 4r. primo sic. omne 
-      perfecti<lb ed="#V" n="13" break="no"/>uum de genere substantie distinctum formaliter a perfectibili est vere 
-      for<lb ed="#V" n="14" break="no"/>ma: et suum perfectibile est vere materia: sed intellectus agens et 
-      pos<lb ed="#V" n="15" break="no"/>sibilis sunt huiusmodi ergo sunt mam et forma.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e399">
-      ¶ 2o sic. quia 
-      composi<lb ed="#V" n="16" break="no"/>tum tale esset corruptibile: cum possibile vnius esset in 
-      poo<lb ed="#V" n="17" break="no"/>ad actuale alterius. Nam passiuum eiusdem rationis est in potenti. 
-      <lb ed="#V" n="18"/>ad actum eiusdem rationis. Intellectus autem agens et 
-      possibi<lb ed="#V" n="19" break="no"/>lis sunt eiusdem rationis. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e410">
-      ¶ 3o sic. quia omnis perfectio que 
-      <lb ed="#V" n="20"/>fundatur in aliquo: et realiter distinguitur ab eo dependeu 
-      <lb ed="#V" n="21"/>ab ipso: cum innitatur ei tamquam susceptiuo. Et sic intellectus agens 
-      <lb ed="#V" n="22"/>dependet a possibili in essendo.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e419">
-      ¶ 4o sic. quia nec 
-      composi<lb ed="#V" n="23" break="no"/>tum nec partes compositi dicunt perfectionem simpliciter. et tamen secundum 
-      <lb ed="#V" n="24"/>Ans. in mono. intellectus in creaturis est perfectio 
-      sim<lb ed="#V" n="25" break="no"/>pliciter.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e429">
-      ¶ Ideo dico. quod vnus istorum intellectuum non perficiti 
-      <lb ed="#V" n="26"/>alium: sed ambo sunt formales perfectiones essentie anime 
-      <lb ed="#V" n="27"/>immediate. sicut intellectus et voluntas que sunt passiones 
-      <lb ed="#V" n="28"/>piritualis substantie.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e438">
-      ¶ Sed hic est difficultas que istarum prius 
-      perfi<lb ed="#V" n="29" break="no"/>cit animam: vel possibilis vel agens. Potest dici satis 
-      pro<lb ed="#V" n="30" break="no"/>babiliter quod intellectus possibilis: quia in eodem genere semper 
-      <lb ed="#V" n="31"/>est processus de magis potentiali ad magis actuale: 
-      ma<lb ed="#V" n="32" break="no"/>gis autem potentiale est intellectus possibilis. ergo prius est in anima. 
-      <lb ed="#V" n="33"/>ad 4m est videndum. quis eorum est nobi 
-      <lb ed="#V" n="34"/>Quantum lior. Communiter dicitur. quod intellectus agens 
-      <lb ed="#V" n="35"/>quia Aug. super genesim. omne agens est praestantius patiente 
-      <lb ed="#V" n="36"/>secundum quod tale.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e458">
-      ¶ Sed contra istud potest argui quadrupliciter. 
-      Primo<lb ed="#V" n="37" break="no"/>sic. quia cum obiectum ponatur agere in potentia: eadem ratione 
-      <lb ed="#V" n="38"/>ponetur obiectum perfectius ipsa potentia. quod multotiens 
-      <lb ed="#V" n="39"/>reperitur esse falsum.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e467">
-      ¶ 2o sic. quia nobilissimus actus 
-      intel<lb ed="#V" n="40" break="no"/>lectus possibilis est intelligere deum: sed intelligere deum 
-      pre<lb ed="#V" n="41" break="no"/>pollet dicere verbum. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e474">
-      ¶ 3o sic. quia intellectus agens 
-      nul<lb ed="#V" n="42" break="no"/>lo suo actu attingit obiectum beatificum: cum omnis sua 
-      operatio<lb ed="#V" n="43" break="no"/>sit respectu alicuius creati: nihil enim agit circa obiectum. 
-      </p>
-            <p xml:id="FrMS88-e82685-d1e481">
-               <lb ed="#V" n="44"/>¶ 4o sic. quia nobilissime potentie ponuntur in nobis 
-      bea<lb ed="#V" n="45" break="no"/>tificabiles: intellectus autem agens non ponitur beatifica 
-      <lb ed="#V" n="46"/>bilis. cum in eo non ponatur actus beatificus: sed tantum in 
-      in<lb ed="#V" n="47" break="no"/>tellectu possibili et voluntate.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e493">
-      ¶ Ideo videtur dicendum. quod 
-      intellectui<lb ed="#V" n="48" break="no"/>possibilis sit nobilior: cum nulla potentia intellectiua 
-      immedia<lb ed="#V" n="49" break="no"/>te attingit vltimum finem nisi per intelligere: intelligere autem 
-      <lb ed="#V" n="50"/>est solius possibilis: vt per ipsum intelligere intellectus 
-      pos<lb ed="#V" n="51" break="no"/>sibilis intelligit obiectum suum et non agens.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e504">
-      ¶ Sed hic sunt 
-      <lb ed="#V" n="52"/>difficultas quia in essentialiter ordinatis eiusdem rationis semper 
-      poste<lb ed="#V" n="53" break="no"/>rius est perfectius: eo quod natura semper procedit a minus perfectis 
-      <lb ed="#V" n="54"/>ad perfectiora: sed intellectus agens ponitur posterior: vt 
-      pa<lb ed="#V" n="55" break="no"/>tuit: ergo videtur quod sit nobilior.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e515">
-      ¶ Dico quod illa posterioritas non 
-      <lb ed="#V" n="56"/>est multum clara: quia non est comparatio agentis intellectus vt 
-      for<lb ed="#V" n="57" break="no"/>me: sed vt mouentis. Et dato quod esset prior. dicendum esset quod 
-      <lb ed="#V" n="58"/>regula assumpta non est vniversaliter vera. sicut patet in delectatione 
-      <lb ed="#V" n="59"/>beatifica.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e526">
-      ¶ 2a difficultas quod cum differentia actiue potentie sit 
-      praestan<lb ed="#V" n="60" break="no"/>tior differentia potentie passiue: quare non omne quod cadit sub potentia ae 
-      <lb ed="#V" n="61"/>tiua: vel sub prima differentia est nobilius.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e533">
-      ¶ Dico quod non est 
-      <lb ed="#V" n="62"/>inconueniens si inferiora habent aliquas perfectiones 
-      subliman<lb ed="#V" n="63" break="no"/>tes. sicut patet quod causalitas effectiua in igne est nobilior 
-      causa<lb ed="#V" n="64" break="no"/>litate materiali in homine. Et isto modo potest intelligi quod omne agens 
-      <lb ed="#V" n="65"/>vt sic est praestantius patiente. licet alio modo patiens poterit ess 
-      <lb ed="#V" n="66"/>praestantius.
-    </p>
-            <p xml:id="FrMS88-e82685-d1e546">
-      ¶ Ad auctoritatem in principio adductam dico quod in ea¬ 
-      <!--226.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>dem re possunt esse plures rationes: quarum vna est praestantior 
-      alte<lb ed="#V" n="68" break="no"/>ta: vt patet in genere et differentia simplicium etc. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="111-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e82685"><!-- l1d36q2 -->
+        <head xml:id="FrMS88-e82685-Hd1e108">Quaestio 2</head>
+        <p xml:id="FrMS88-e82685-d1e111">
+          Quaestio. ii. 
+          <lb ed="#V" n="52"/>Intellectus agens et possibilis 
+          <lb ed="#V" n="53"/>Tum realiter distinguantur. E videtur quod sic 
+          <lb ed="#V" n="54"/>etiam in creatis. quia Aug. super gen. loquens de 
+          <lb ed="#V" n="55"/>ista materia dicit. quod omne agens est praestantius patiente 
+          <lb ed="#V" n="56"/>sed nulla res est seipsa praestantior. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e124">
+          ¶ Co 
+          <lb ed="#V" n="57"/>tra. Aug. lib. de tri. 5. dicit. quod sunt tres potentie et non tres 
+          <lb ed="#V" n="58"/>res: sed vna res totaliter sunt. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e131">
+          ¶ hic sunt. 4or facienda. 
+          <lb ed="#V" n="59"/>Primum de quasito. 2m quis eorum fit principium verbi. 3m vtrum vnus 
+          <lb ed="#V" n="60"/>eorum sit perfectio alterius. 4m. quis eorum est nobilior 
+          <lb ed="#V" n="61"/>ad primum introducuntur 4or conclusiones. Prima quod 
+          intel<lb ed="#V" n="62" break="no"/>Quantu llectus agens et possibilis distinguuntur 
+          for<lb ed="#V" n="63" break="no"/>maliter. Quod probatur primo. quia cadunt sub oppositis 
+          differen<lb ed="#V" n="64" break="no"/>tiis diuidentibus aliquod cone. sicut sub actiuo et passiuo. quia 
+          <lb ed="#V" n="65"/>principium distinguitur formaliter per actiuum et passiuum: quae sunt differentiae 
+          op<lb ed="#V" n="66" break="no"/>posite. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e151">
+          ¶ 2o quia vnu diffinitur per facere: aliud per pati: quae 
+          <lb ed="#V" n="67"/>sunt opposita.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e157">
+          ¶ 2a conclusio est. quod intellectus agens et possi¬ 
+          <!--225.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="68"/>bilis distinguuntur formaliter extra animam. quia intellectui 
+          agen<lb ed="#V" n="69" break="no"/>ti repugnat possibilitas ex natura rei. que competit ipsi 
+          pos<lb ed="#V" n="70" break="no"/>sibili.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e170">
+          ¶ 2o quia intelligere: secundum omnes: conuenit ex natum rei 
+          pos<lb ed="#V" n="71" break="no"/>sibili. quod tamen secundum multos non conuenit agenti: sed solum 
+          intel<lb ed="#V" n="72" break="no"/>lectionem facere.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e177">
+          ¶ 3a conclusio est. quod non distinguuntur realiter. quia 
+          <lb ed="#V" n="73"/>non apparet necessitas hoc ponendi. Nulli enim notum est. 
+          <lb ed="#V" n="74"/>vtrum vnus istorum ab alio possit separari: aut fieri: nec 
+          aliquo<lb ed="#V" n="75" break="no"/>via apparet que necessitet ad distinctionem realem.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e186">
+          ¶ 4a est 
+          <lb ed="#V" n="76"/>est. quod non distinguuntur essentialiter sicut multi ponunt. Aug. 
+          <lb ed="#V" n="77"/>dicit. 5. de tri. quod omnes potentie anime sunt necessario vnius essen 
+          <lb ed="#V" n="78"/>tie. Similiter in 4o ipse dicit. quod plures potentie non sunt 
+          plu<lb ed="#V" n="79" break="no"/>res vite. sed vna vita: nec plures mentes: sed vna mens: 
+          <lb ed="#V" n="80"/>nec plures substantie: sed vna substantia.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e199">
+          ¶ Sed est hoc vna difficultas vtrum sit 
+          <lb ed="#V" n="81"/>eadem potentia. Dicunt aliqui quod non sunt diuerse potentie: quia 
+          ne<lb ed="#V" n="82" break="no"/>gociantur circa idem obiectum.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e206">
+          ¶ Sed istud non multum valet. 
+          <lb ed="#V" n="83"/>quia eodem modo intellectus et voluntas circa idem negocian 
+          <lb ed="#V" n="84"/>tur.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e214">
+          ¶ Dicunt ergo aliqui quod sunt idem: quia circa eundem actum 
+          nego<lb ed="#V" n="85" break="no"/>ciantur.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e219">
+          ¶ Sed nec hoc multum valet. quia sic concluderetur. quod 
+          <lb ed="#V" n="86"/>potentia et obiectum essent eadem potentia. quia negociantur circa eundem actum 
+        </p>
+        <p xml:id="FrMS88-e82685-d1e224">
+          <lb ed="#V" n="87"/>¶ Ideo videtur esse dicendum. quod sunt distincte potentie cum cadant sub diffiflt 
+          <lb ed="#V" n="88"/>ferentiis oppositis potentie. quae sui pria diuisione diuinditur 
+          <lb ed="#V" n="89"/>in actiuam et passiuam.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e233">
+          ¶ Confirmatur. quia multiplicato 
+          infe<lb ed="#V" n="90" break="no"/>riori: multiplicatur superius. per locum a parte subieantiua. Psseunt tamen 
+          di<lb ed="#V" n="91" break="no"/>ci vna potentia vnitate integritatis in habitudine ad vnum 
+          <lb ed="#V" n="92"/>actum quarum vna causat: et alia recipit. sicut omnia que videntur 
+          <lb ed="#V" n="93"/>concurrere ad eundem effectum quodammodo dicuntur vna 
+          causa<lb ed="#V" n="94" break="no"/>totalis. sicut sol et homo: eodem modo in proposito. 
+          <lb ed="#V" n="95"/>ad 2m inquirendum est. quis istorum est 
+          <lb ed="#V" n="96"/>Quantum principium verbi. Et quantum ad hoc 
+          di<lb ed="#V" n="97" break="no"/>cunt aliqui. quod intellectus agens nullam actiuitatem habet: nisi 
+          <lb ed="#V" n="98"/>supra fantasmata: et propter hoc nihil habet facere de verbo: sed 
+          <lb ed="#V" n="99"/>solum intellectus possibilis.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e257">
+          ¶ Contra. Nam tunc causalitas 
+          fan<lb ed="#V" n="100" break="no"/>tasie esset nobilior quam causalitas intellectus agentis: quia 
+          no<lb ed="#V" n="101" break="no"/>bilissima actio fantasie est fantasiare: sed actio illa causata 
+          <lb ed="#V" n="102"/>ab intellectu agente in fantasia non est fantasiare. ergo non 
+          <lb ed="#V" n="103"/>erit ita perfecta.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e268">
+          ¶ 2o quia omnis effectus impressus in fantasia 
+          <lb ed="#V" n="104"/>est corporeus: cum fantasia sit corpore a: ergo ille effectus 
+          <lb ed="#V" n="105"/>intellectus agentis erit corporeus. Constat autem quod 
+          fan<lb ed="#V" n="106" break="no"/>tasia aliquid causat in intellectu possibili: et illud est 
+          spiritua<lb ed="#V" n="107" break="no"/>le. ergo effectus fantasie excedit effectum intellectus agentis: cum 
+          <lb ed="#V" n="108"/>nobilitas causare ex effectu iudicetur.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e282">
+          ¶ Ideo dicunt alii quod 
+          intel<lb ed="#V" n="109" break="no"/>lectus agens concurrit cum fantasmate ad causandum specie 
+          intel<lb ed="#V" n="110" break="no"/>ligibilem: non tamen actum intelligendi: ipsum autem causat intellectus 
+          pos<lb ed="#V" n="111" break="no"/>sibilis specie informatus: specie concurrente. Et sic formatio 
+          <lb ed="#V" n="112"/>verbi non partinet ad agentem.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e293">
+          ¶ Sed contra istud arguitur 4r. 
+          Primo<lb ed="#V" n="113" break="no"/>quia impossibile est quod aliqua species cadat sub oppositis differet 
+          <lb ed="#V" n="114"/>tiis illius generis in qui est. sed in genere potentie. intellectus 
+          possi<lb ed="#V" n="115" break="no"/>bilis cadit sub passiuo. ergo n sub actiuo.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e302">
+          ¶ 2o quia tunc erunt 
+          <lb ed="#V" n="116"/>tres intellectu scilicet agens et possibilis: et iste possibilis 
+          diuidi<lb ed="#V" n="117" break="no"/>tur in actiuum et passiuum: que sunt ita opposite differentiae: sicut 
+          <lb ed="#V" n="118"/>ille quibus agens et possibilis differunt.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e311">
+          ¶ 3o quia omnis potentia actiua 
+          <lb ed="#V" n="119"/>vt talis est perfectio simpliciter: alioquin non esset ratio 
+          for<lb ed="#V" n="120" break="no"/>malis potentie actiue in deo. nulla potentia passiua 
+          in<lb ed="#V" n="121" break="no"/>quantum talis est perfectio simpliciter. cum eius ratio non inueniatur 
+          <lb ed="#V" n="122"/>in deo. ergo nulla potentia actiua est potentia passiua et per consequens 
+          <lb ed="#V" n="123"/>necessario distinguuntur.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e324">
+          ¶ 4o quia causa materialis et effectiua ex 
+          <lb ed="#V" n="124"/>opposito distinguuntur: ergo impossibile est quod coincidant in idem. 
+        </p>
+        <p xml:id="FrMS88-e82685-d1e329">
+          <lb ed="#V" n="125"/>¶ Dico ergo quod intellectus possibilis habet quadruplicem 
+          causa<lb ed="#V" n="126" break="no"/>litatem in genere causare materialis. ita scilicet vt primo recipiat speciem. 
+          <lb ed="#V" n="127"/>2o actum. 3o dispositionem ad habitum. et 4o ipsum habitum. Eo 
+          <lb ed="#V" n="128"/>dem modo dico de intellectu agente in genere causare 
+          ef<lb ed="#V" n="129" break="no"/>ficientis. quod scilicet habet quadruplicem causalitatem. vt scilicet primo concurrit 
+          <lb ed="#V" n="130"/>cum fantasmate ad causandum speciem intelligibilem. Et secundo 
+          <lb ed="#V" n="131"/>cum specie intelligibili causat actum. 3o cum eadem causat dispositionem. 
+          <lb ed="#V" n="132"/>4o autem cum eadem specie causat habitum. Sicut ergo 
+          possi<lb ed="#V" n="133" break="no"/>bilis dicitur qui est omnia fieri: quia omnia recipit: sic agens. qui est omnia 
+          <!--226.xml-->
+          <pb ed="#V" n="112-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>facere. quia omnia causat.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e361">
+          ¶ Sed quare negatur causatio actus 
+          intelligen<lb ed="#V" n="2" break="no"/>di ab intellectu illo qui solus formaliter intellect.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e366">
+          ¶ Dico quod 
+          <lb ed="#V" n="3"/>intelligere non est agere: sed pati. Unde si deus infunderet 
+          <lb ed="#V" n="4"/>vnum actum intelligendi. per ipsum intelligeret intellectus possibilis. 
+          <lb ed="#V" n="5"/>ad 3m videndum est vtrum vnus istorum 
+          <lb ed="#V" n="6"/>Quantum intellectum sit perfectio alterius. Et 
+          quan<lb ed="#V" n="7" break="no"/>tum ad hoc dicit vnus doctor quod sic. Nam sicut materia prima est 
+          infi<lb ed="#V" n="8" break="no"/>ma natam in genere sensibilium: ita intellectus possibilis in 
+          <lb ed="#V" n="9"/>genere intelligibilium. Et ideo intellectus agens comparat 
+          <lb ed="#V" n="10"/>ad possibilem: sicut forma ad materiam. Intellectus autem 
+          possi<lb ed="#V" n="11" break="no"/>bilis ad agente sicut materia ad formam. ita quod intellectus agens 
+          <lb ed="#V" n="12"/>formaliter perficit ipsum.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e390">
+          ¶ Sed contra arguo. 4r. primo sic. omne 
+          perfecti<lb ed="#V" n="13" break="no"/>uum de genere substantie distinctum formaliter a perfectibili est vere 
+          for<lb ed="#V" n="14" break="no"/>ma: et suum perfectibile est vere materia: sed intellectus agens et 
+          pos<lb ed="#V" n="15" break="no"/>sibilis sunt huiusmodi ergo sunt mam et forma.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e399">
+          ¶ 2o sic. quia 
+          composi<lb ed="#V" n="16" break="no"/>tum tale esset corruptibile: cum possibile vnius esset in 
+          poo<lb ed="#V" n="17" break="no"/>ad actuale alterius. Nam passiuum eiusdem rationis est in potenti. 
+          <lb ed="#V" n="18"/>ad actum eiusdem rationis. Intellectus autem agens et 
+          possibi<lb ed="#V" n="19" break="no"/>lis sunt eiusdem rationis. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e410">
+          ¶ 3o sic. quia omnis perfectio que 
+          <lb ed="#V" n="20"/>fundatur in aliquo: et realiter distinguitur ab eo dependeu 
+          <lb ed="#V" n="21"/>ab ipso: cum innitatur ei tamquam susceptiuo. Et sic intellectus agens 
+          <lb ed="#V" n="22"/>dependet a possibili in essendo.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e419">
+          ¶ 4o sic. quia nec 
+          composi<lb ed="#V" n="23" break="no"/>tum nec partes compositi dicunt perfectionem simpliciter. et tamen secundum 
+          <lb ed="#V" n="24"/>Ans. in mono. intellectus in creaturis est perfectio 
+          sim<lb ed="#V" n="25" break="no"/>pliciter.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e429">
+          ¶ Ideo dico. quod vnus istorum intellectuum non perficiti 
+          <lb ed="#V" n="26"/>alium: sed ambo sunt formales perfectiones essentie anime 
+          <lb ed="#V" n="27"/>immediate. sicut intellectus et voluntas que sunt passiones 
+          <lb ed="#V" n="28"/>piritualis substantie.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e438">
+          ¶ Sed hic est difficultas que istarum prius 
+          perfi<lb ed="#V" n="29" break="no"/>cit animam: vel possibilis vel agens. Potest dici satis 
+          pro<lb ed="#V" n="30" break="no"/>babiliter quod intellectus possibilis: quia in eodem genere semper 
+          <lb ed="#V" n="31"/>est processus de magis potentiali ad magis actuale: 
+          ma<lb ed="#V" n="32" break="no"/>gis autem potentiale est intellectus possibilis. ergo prius est in anima. 
+          <lb ed="#V" n="33"/>ad 4m est videndum. quis eorum est nobi 
+          <lb ed="#V" n="34"/>Quantum lior. Communiter dicitur. quod intellectus agens 
+          <lb ed="#V" n="35"/>quia Aug. super genesim. omne agens est praestantius patiente 
+          <lb ed="#V" n="36"/>secundum quod tale.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e458">
+          ¶ Sed contra istud potest argui quadrupliciter. 
+          Primo<lb ed="#V" n="37" break="no"/>sic. quia cum obiectum ponatur agere in potentia: eadem ratione 
+          <lb ed="#V" n="38"/>ponetur obiectum perfectius ipsa potentia. quod multotiens 
+          <lb ed="#V" n="39"/>reperitur esse falsum.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e467">
+          ¶ 2o sic. quia nobilissimus actus 
+          intel<lb ed="#V" n="40" break="no"/>lectus possibilis est intelligere deum: sed intelligere deum 
+          pre<lb ed="#V" n="41" break="no"/>pollet dicere verbum. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e474">
+          ¶ 3o sic. quia intellectus agens 
+          nul<lb ed="#V" n="42" break="no"/>lo suo actu attingit obiectum beatificum: cum omnis sua 
+          operatio<lb ed="#V" n="43" break="no"/>sit respectu alicuius creati: nihil enim agit circa obiectum. 
+        </p>
+        <p xml:id="FrMS88-e82685-d1e481">
+          <lb ed="#V" n="44"/>¶ 4o sic. quia nobilissime potentie ponuntur in nobis 
+          bea<lb ed="#V" n="45" break="no"/>tificabiles: intellectus autem agens non ponitur beatifica 
+          <lb ed="#V" n="46"/>bilis. cum in eo non ponatur actus beatificus: sed tantum in 
+          in<lb ed="#V" n="47" break="no"/>tellectu possibili et voluntate.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e493">
+          ¶ Ideo videtur dicendum. quod 
+          intellectui<lb ed="#V" n="48" break="no"/>possibilis sit nobilior: cum nulla potentia intellectiua 
+          immedia<lb ed="#V" n="49" break="no"/>te attingit vltimum finem nisi per intelligere: intelligere autem 
+          <lb ed="#V" n="50"/>est solius possibilis: vt per ipsum intelligere intellectus 
+          pos<lb ed="#V" n="51" break="no"/>sibilis intelligit obiectum suum et non agens.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e504">
+          ¶ Sed hic sunt 
+          <lb ed="#V" n="52"/>difficultas quia in essentialiter ordinatis eiusdem rationis semper 
+          poste<lb ed="#V" n="53" break="no"/>rius est perfectius: eo quod natura semper procedit a minus perfectis 
+          <lb ed="#V" n="54"/>ad perfectiora: sed intellectus agens ponitur posterior: vt 
+          pa<lb ed="#V" n="55" break="no"/>tuit: ergo videtur quod sit nobilior.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e515">
+          ¶ Dico quod illa posterioritas non 
+          <lb ed="#V" n="56"/>est multum clara: quia non est comparatio agentis intellectus vt 
+          for<lb ed="#V" n="57" break="no"/>me: sed vt mouentis. Et dato quod esset prior. dicendum esset quod 
+          <lb ed="#V" n="58"/>regula assumpta non est vniversaliter vera. sicut patet in delectatione 
+          <lb ed="#V" n="59"/>beatifica.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e526">
+          ¶ 2a difficultas quod cum differentia actiue potentie sit 
+          praestan<lb ed="#V" n="60" break="no"/>tior differentia potentie passiue: quare non omne quod cadit sub potentia ae 
+          <lb ed="#V" n="61"/>tiua: vel sub prima differentia est nobilius.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e533">
+          ¶ Dico quod non est 
+          <lb ed="#V" n="62"/>inconueniens si inferiora habent aliquas perfectiones 
+          subliman<lb ed="#V" n="63" break="no"/>tes. sicut patet quod causalitas effectiua in igne est nobilior 
+          causa<lb ed="#V" n="64" break="no"/>litate materiali in homine. Et isto modo potest intelligi quod omne agens 
+          <lb ed="#V" n="65"/>vt sic est praestantius patiente. licet alio modo patiens poterit ess 
+          <lb ed="#V" n="66"/>praestantius.
+        </p>
+        <p xml:id="FrMS88-e82685-d1e546">
+          ¶ Ad auctoritatem in principio adductam dico quod in ea¬ 
+          <!--226.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>dem re possunt esse plures rationes: quarum vna est praestantior 
+          alte<lb ed="#V" n="68" break="no"/>ta: vt patet in genere et differentia simplicium etc. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

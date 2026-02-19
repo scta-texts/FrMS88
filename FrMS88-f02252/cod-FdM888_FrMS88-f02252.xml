@@ -1,118 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#V" n="137-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-f02252"><!-- l1d47q2 -->
-            <head xml:id="FrMS88-f02252-Hd1e108">Quaestio 2</head>
-            <p xml:id="FrMS88-f02252-d1e111">
-      Quaestio. ii. 
-      <lb ed="#V" n="90"/>Tum vde sint in potentia 
-      obie<lb ed="#V" n="91" break="no"/>ctiua. 
-      <lb ed="#V" n="92"/>intelligendum quod sicut 
-      rec<lb ed="#V" n="93" break="no"/>hic est tat Aus. sr q. llus 
-      nomun<lb ed="#V" n="94" break="no"/>c ydea fuit a platone inuentum: et est idem quod 
-      <lb ed="#V" n="95"/>forma.
-    </p>
-            <p xml:id="FrMS88-f02252-d1e127">
-      ¶ forma autem accipitur 4r. Primo accipitur pro 
-      perfe<lb ed="#V" n="96" break="no"/>ctione que non est pars rei: sicut accidens dicitur esse perfectio. 
-      </p>
-            <p xml:id="FrMS88-f02252-d1e132">
-               <lb ed="#V" n="97"/>¶ 2o modo accipitur forma pro eo quod est perfectio et pars rei 
-      <lb ed="#V" n="98"/>sicut anima.
-    </p>
-            <p xml:id="FrMS88-f02252-d1e139">
-      ¶ 3o accipitur pro perfectione que est tota natura: vel 
-      <lb ed="#V" n="99"/>totum compositum.
-    </p>
-            <p xml:id="FrMS88-f02252-d1e145">
-      ¶ 4o modo accipitur pro ratione diffinitiua. 
-      <lb ed="#V" n="100"/>et sic accipit plato. Isto modo intelligendo dicit Scotus: vt 
-      <lb ed="#V" n="101"/>prius dictum est. quod quiditas productiua in esse intelligibili est 
-      <lb ed="#V" n="102"/>vdea. Illud vt dixi: non capio. quia aut ipse loquitur 
-      theolo<lb ed="#V" n="103" break="no"/>gice: aut metaphysice. Si theologice. sic patet quod non est 
-      <lb ed="#V" n="104"/>verum. Nam illo modo secundum Aug. est nobilissimum et 
-      praestantissi<lb ed="#V" n="105" break="no"/>mum. quiditas autem producta habet solum esse secundum quid et 
-      dimin<lb ed="#V" n="106" break="no"/>nutum. Si autem metaphysice: certum est quod vdea accepta 
-      <lb ed="#V" n="107"/>4o modo abstrahit ab omni productione. ergo vt producta non 
-      <lb ed="#V" n="108"/>est vdea.
-    </p>
-            <p xml:id="FrMS88-f02252-d1e167">
-      ¶ Oportet ergo imaginari 4or signa in quiditate. 
-      </p>
-            <p xml:id="FrMS88-f02252-d1e170">
-               <lb ed="#V" n="109"/>¶ Primum est in quo est quiditas tantum.
-    </p>
-            <p xml:id="FrMS88-f02252-d1e175">
-      ¶ 2m est in quo est 
-      <lb ed="#V" n="110"/>intelligibilis: quia intelligibilitas est veritas: et hec est eius 
-      <lb ed="#V" n="111"/>passio.
-    </p>
-            <p xml:id="FrMS88-f02252-d1e182">
-      ¶ 3m in quo aduenit sibi esse intellectum: esse 
-      enim<lb ed="#V" n="112" break="no"/>intelligibile conuenit sibi ab intrinseco sicut propria passio 
-      <lb ed="#V" n="113"/>sed esse intellectum ab extrinseco et per accidens: et per consequens 
-      <lb ed="#V" n="114"/>posterius.
-    </p>
-            <p xml:id="FrMS88-f02252-d1e191">
-      ¶ 4m in quo intelligitur a creatura: et hoc est 
-      <lb ed="#V" n="115"/>ei accidens et contingens. et ideo in 4or signo. quia quod conuenit 
-      <lb ed="#V" n="116"/>sibi in 3o scilicet esse intellectum a deo: licet conueniat sibi per accidens 
-      <lb ed="#V" n="117"/>sibi conuenit necessario ab extrinseco. sed quod intelligatur a 
-      crea<lb ed="#V" n="118" break="no"/>tura est contingens. quiditas ergo prius est quam sit in esse cognito vel 
-      li<lb ed="#V" n="119" break="no"/>tellitua: et vt sic habet esse in potentia obieantiua. et sic est yvdea. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="137-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-f02252"><!-- l1d47q2 -->
+        <head xml:id="FrMS88-f02252-Hd1e108">Quaestio 2</head>
+        <p xml:id="FrMS88-f02252-d1e111">
+          Quaestio. ii. 
+          <lb ed="#V" n="90"/>Tum vde sint in potentia 
+          obie<lb ed="#V" n="91" break="no"/>ctiua. 
+          <lb ed="#V" n="92"/>intelligendum quod sicut 
+          rec<lb ed="#V" n="93" break="no"/>hic est tat Aus. sr q. llus 
+          nomun<lb ed="#V" n="94" break="no"/>c ydea fuit a platone inuentum: et est idem quod 
+          <lb ed="#V" n="95"/>forma.
+        </p>
+        <p xml:id="FrMS88-f02252-d1e127">
+          ¶ forma autem accipitur 4r. Primo accipitur pro 
+          perfe<lb ed="#V" n="96" break="no"/>ctione que non est pars rei: sicut accidens dicitur esse perfectio. 
+        </p>
+        <p xml:id="FrMS88-f02252-d1e132">
+          <lb ed="#V" n="97"/>¶ 2o modo accipitur forma pro eo quod est perfectio et pars rei 
+          <lb ed="#V" n="98"/>sicut anima.
+        </p>
+        <p xml:id="FrMS88-f02252-d1e139">
+          ¶ 3o accipitur pro perfectione que est tota natura: vel 
+          <lb ed="#V" n="99"/>totum compositum.
+        </p>
+        <p xml:id="FrMS88-f02252-d1e145">
+          ¶ 4o modo accipitur pro ratione diffinitiua. 
+          <lb ed="#V" n="100"/>et sic accipit plato. Isto modo intelligendo dicit Scotus: vt 
+          <lb ed="#V" n="101"/>prius dictum est. quod quiditas productiua in esse intelligibili est 
+          <lb ed="#V" n="102"/>vdea. Illud vt dixi: non capio. quia aut ipse loquitur 
+          theolo<lb ed="#V" n="103" break="no"/>gice: aut metaphysice. Si theologice. sic patet quod non est 
+          <lb ed="#V" n="104"/>verum. Nam illo modo secundum Aug. est nobilissimum et 
+          praestantissi<lb ed="#V" n="105" break="no"/>mum. quiditas autem producta habet solum esse secundum quid et 
+          dimin<lb ed="#V" n="106" break="no"/>nutum. Si autem metaphysice: certum est quod vdea accepta 
+          <lb ed="#V" n="107"/>4o modo abstrahit ab omni productione. ergo vt producta non 
+          <lb ed="#V" n="108"/>est vdea.
+        </p>
+        <p xml:id="FrMS88-f02252-d1e167">
+          ¶ Oportet ergo imaginari 4or signa in quiditate. 
+        </p>
+        <p xml:id="FrMS88-f02252-d1e170">
+          <lb ed="#V" n="109"/>¶ Primum est in quo est quiditas tantum.
+        </p>
+        <p xml:id="FrMS88-f02252-d1e175">
+          ¶ 2m est in quo est 
+          <lb ed="#V" n="110"/>intelligibilis: quia intelligibilitas est veritas: et hec est eius 
+          <lb ed="#V" n="111"/>passio.
+        </p>
+        <p xml:id="FrMS88-f02252-d1e182">
+          ¶ 3m in quo aduenit sibi esse intellectum: esse 
+          enim<lb ed="#V" n="112" break="no"/>intelligibile conuenit sibi ab intrinseco sicut propria passio 
+          <lb ed="#V" n="113"/>sed esse intellectum ab extrinseco et per accidens: et per consequens 
+          <lb ed="#V" n="114"/>posterius.
+        </p>
+        <p xml:id="FrMS88-f02252-d1e191">
+          ¶ 4m in quo intelligitur a creatura: et hoc est 
+          <lb ed="#V" n="115"/>ei accidens et contingens. et ideo in 4or signo. quia quod conuenit 
+          <lb ed="#V" n="116"/>sibi in 3o scilicet esse intellectum a deo: licet conueniat sibi per accidens 
+          <lb ed="#V" n="117"/>sibi conuenit necessario ab extrinseco. sed quod intelligatur a 
+          crea<lb ed="#V" n="118" break="no"/>tura est contingens. quiditas ergo prius est quam sit in esse cognito vel 
+          li<lb ed="#V" n="119" break="no"/>tellitua: et vt sic habet esse in potentia obieantiua. et sic est yvdea. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

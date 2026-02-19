@@ -1,419 +1,419 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="85-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e62849"><!-- l1d27q1 -->
-            <head xml:id="FrMS88-e62849-Hd1e108">Quaestio 1</head>
-            <p xml:id="FrMS88-e62849-d1e111">
-               <lb ed="#V" n="37"/>¶ Distinctio. xxvii. Questio i. 
-      <lb ed="#V" n="38"/>hic quari potest vtrum pater vel filius etc.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e118">
-               <lb ed="#V" n="39"/>CIrca distinctionem. 27am. Quero. vtrum 
-      <lb ed="#V" n="40"/>verbum nostrm sit actualis notitia. quod 
-      <lb ed="#V" n="41"/>non. Aug. Uox est vehiculum verbi materialis. non 
-      <lb ed="#V" n="42"/>autem est signufitum actus intelligendi: sed rei.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e129">
-      ¶ Contra 
-      <lb ed="#V" n="43"/>Ibidem dicit Aug. quod verbum est cogitatio 
-      ip<lb ed="#V" n="44" break="no"/>sa. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e136">
-      ¶ hic primo videndum est quid  
-      <lb ed="#V" n="45"/>sit verbum nostrum. Secundo de quesito. 
-      <lb ed="#V" n="46"/>ad primum sunt quatuor modi. Aliquo dicunt 
-      <lb ed="#V" n="47"/>Quantum quod verbum est notitia declaratiua siue 
-      <lb ed="#V" n="48"/>diffinitiua cuiuscumque diffinibilis. quia secundum Aug. verbum est 
-      noti<lb ed="#V" n="49" break="no"/>tia perfecta. nulla autem perfecta est nisi diffinitiua. ergo etc. 
-      </p>
-            <p xml:id="FrMS88-e62849-d1e150">
-               <lb ed="#V" n="50"/>¶ Alii dicunt quod verbum est species intelligibilis 
-      repre<lb ed="#V" n="51" break="no"/>sentans obiectum vel quiditatem obiectiui: quia secundum Aug. 8o de 
-      tri<lb ed="#V" n="52" break="no"/>omnes cuiuslibet rei est verbum eius. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e159">
-      ¶ Alii dicunt quod 
-      ver<lb ed="#V" n="53" break="no"/>bum est quiditas obiecti: quia secundum Aug. diffintio 
-      Cartagi<lb ed="#V" n="54" break="no"/>nem. et hoc est verbum eius.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e166">
-      ¶ Alii dicunt quod verbum est ipsum 
-      <lb ed="#V" n="55"/>obiectum in esse cognito productum. quia dicit Aug. quod verbum 
-      <lb ed="#V" n="56"/>quod foris sonat est signum verbi quod intus latet. non est autem 
-      <lb ed="#V" n="57"/>ignum nisi obiecti cogniti et vt cogniti. Et iterum dicit Aug. 
-      <lb ed="#V" n="58"/>quod verbum est quod volubili cogitatione iactamus.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e177">
-      ¶ 
-      Nu<lb ed="#V" n="59" break="no"/>la istarum viarum stare potest. Prima non. quia quando dicit quod verbum 
-      <lb ed="#V" n="60"/>est notitia diffinitiua. Quero aut accipit diffinitionem proprie. 
-      <lb ed="#V" n="61"/>aut non. sed solum pro notitia perfecta. Si primo modo. sequitur quod 
-      nun<lb ed="#V" n="62" break="no"/>quam haberemus verbum nisi de diffinibilibus: quod est 
-      fal<lb ed="#V" n="63" break="no"/>sum. Si intelligat per diffinitionem cognitionem distinctam 
-      <lb ed="#V" n="64"/>et perfectam: tunc cum pater in illo priori in quo prece 
-      <lb ed="#V" n="65"/>dit filium intelligat distincte et perfecte seipsum. ergo 
-      <!--173.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="66"/>tunc habebit verbum. et sic verbum verbi et verbum 
-      <lb ed="#V" n="67"/>ante verbum.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e203">
-      ¶ Praeterea. Aug. sepre distinguit inter verbum 
-      <lb ed="#V" n="68"/>perfectum et imperfectum. ergo etc. Nec secunda stare potest 
-      <lb ed="#V" n="69"/>quia in perfectissima notitia scilicet intuitiua vt in patria non 
-      <lb ed="#V" n="70"/>ponitur species: et tamen secundum multos. et videtur de intentione 
-      <lb ed="#V" n="71"/>Aug. 5. de tri. ponitur verbum: et hoc perfectissimum. ergo etc. 
-      </p>
-            <p xml:id="FrMS88-e62849-d1e214">
-               <lb ed="#V" n="72"/>¶ Tertia etiam non potest stare: quia omne verbum quod 
-      habe<lb ed="#V" n="73" break="no"/>mus de quocunque obiecto est commutabile: sed quiditas 
-      <lb ed="#V" n="74"/>obiecti diuini scilicet quiditas dei est incommutabilis.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e224">
-      ¶ 4a 
-      <lb ed="#V" n="75"/>etiam non valet. quia omnis productio in esse cognitio vt sic est 
-      pro<lb ed="#V" n="76" break="no"/>ductio secundum quid. si ergo verbum esset quiditas vel obiectum in esse 
-      con<lb ed="#V" n="77" break="no"/>gnito. vt sic: omne verbum esset solum ens secundum quid et ens 
-      <lb ed="#V" n="78"/>rationis. quod est falsum. quia generatio verbi est generatio et 
-      pro<lb ed="#V" n="79" break="no"/>ductio in esse simpliciter et non inesse rationis.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e237">
-      ¶ Dico ergo secundum 
-      <lb ed="#V" n="80"/>doc scilicet secundum Io. secunodo. quod verbum nostrm: generaliter sumendo: est actus 
-      <lb ed="#V" n="81"/>intelligendi: non quicumque: sed productus per actum 
-      diui<lb ed="#V" n="82" break="no"/>dendi. Unde si intellectio aliqua esset substantia vel causaretur 
-      <lb ed="#V" n="83"/>totaliter a deo: illa non esset verbum: quia quicquid 
-      cau<lb ed="#V" n="84" break="no"/>sat deus ad extra causat per voluntatem: sed verbum 
-      cau<lb ed="#V" n="85" break="no"/>satur solum per intellectum.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e253">
-      ¶ hanc conclusionem confirmo 
-      quadru<lb ed="#V" n="86" break="no"/>plici auctoritate Aug. Prima est. 19o. de trini. vbi dicit 
-      <lb ed="#V" n="87"/>quod formata cogitatio ab ea re quam scimus est verbum quod 
-      <lb ed="#V" n="88"/>in corde dicimus.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e262">
-      ¶ Secunda est ibidem. vbi dicit quod 
-      cogi<lb ed="#V" n="89" break="no"/>tatio nostra ab obiecto formata est verbum.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e267">
-      ¶ 3a quod verbum 
-      <lb ed="#V" n="90"/>nostrm nascitur de memoria: et de scientia nostra. Constat autem 
-      <lb ed="#V" n="91"/>quod de istis secundum eum non nascitur nisi notitia actualis. 
-      </p>
-            <p xml:id="FrMS88-e62849-d1e274">
-               <lb ed="#V" n="92"/>¶ Quarta quia ibidem dicit quod verbum est visio de visione 
-      <lb ed="#V" n="93"/>habituali visioni simillima.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e282">
-      ¶ Sed hic est difficultas. quia 
-      au<lb ed="#V" n="94" break="no"/>ctoritates non videntur cogere. quia Augu. videtur 
-      di<lb ed="#V" n="95" break="no"/>uersimode loqui de verbo. Quia aliquando accipit verbum 
-      <lb ed="#V" n="96"/>pro similitudine rei: aliquando pro specie. aliquando pro diffinitione: et sicv 
-      <lb ed="#V" n="97"/>detur equocare.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e293">
-      ¶ Dico quod Aug. loques de verbo 
-      men<lb ed="#V" n="98" break="no"/>tionem facit de his quae concurrunt ad verbum vel vt 
-      cau<lb ed="#V" n="99" break="no"/>sa. vel vt dispositio preuia. vel conditio sequens: quia omnia per 
-      quan<lb ed="#V" n="100" break="no"/>dam analogiam ad verbum. vocat verbi nomine.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e302">
-      ¶ Sed tamen 
-      <lb ed="#V" n="101"/>princinpaliter et ex intentione videtur determinare. quod actus 
-      in<lb ed="#V" n="102" break="no"/>telligendi proprie acceptus cum dictione passiua est verbum 
-      <lb ed="#V" n="103"/>Quod etiam dicit eo papa in sermone de sancto Iouane 
-      <lb ed="#V" n="104"/>bap. Uerbum inquit Teo. est ipsa 
-      cogitatio<lb ed="#V" n="105" break="no"/>ad secundam partem videndum est. Utrum 
-      <lb ed="#V" n="106"/>Quantum verbum nostrum sit actualis notitia et 
-      <lb ed="#V" n="107"/>ad hoc introducuntur quatuor conclusiones. Prima est quod verbum 
-      <lb ed="#V" n="108"/>nostrm non est praecise actus intelligendi. quod probo sic. Omne quod 
-      <lb ed="#V" n="109"/>secundum suam rationem formalem est ad aliud non est praecise aliquo 
-      <lb ed="#V" n="110"/>absolutum. verbum autem secundum Aug. eo quod verbum est ad verban 
-      <lb ed="#V" n="111"/>tem et dicentem. ergo precise acceptum non dicit aliquid 
-      absolu<lb ed="#V" n="112" break="no"/>tum. Constat autem quod actus intelligendi praecise acceptus est 
-      <lb ed="#V" n="113"/>aliquid absolutum. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e333">
-      ¶ Praeterea. Illud praecise acceptum 
-      <lb ed="#V" n="114"/>non est verbum. cui non repugnat esse in primo dicente in 
-      <lb ed="#V" n="115"/>nascibili scilicet in patre dicente: sed actus intelligendi secundum illud 
-      <lb ed="#V" n="116"/>totum absolutum quod dicit est in patre in diuinis. ergo actus 
-      in<lb ed="#V" n="117" break="no"/>telligendi: vt sic non est verbum.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e344">
-      ¶ Secunda conclusio est. quod verbum 
-      <lb ed="#V" n="118"/>nostrum non est praecise actus dicendi: quia omne quod est ad aliud est 
-      <lb ed="#V" n="119"/>aliquid excepta relatione: sed verbum refertur. ergo in verbo est 
-      <lb ed="#V" n="120"/>aliquid praeter dicere: quod praecise est respectus.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e353">
-      ¶ Praeterea. 
-      ver<lb ed="#V" n="121" break="no"/>bum est genitum. dicere praecise non est genitum. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e359">
-      ¶ Ter. 
-      <lb ed="#V" n="122"/>tia conclusio quod verbum nostrm constituitur ex actu intelligendi et actu 
-      di<lb ed="#V" n="123" break="no"/>cendi: quia omne concretum constituitur ex subiecto et forma 
-      deno<lb ed="#V" n="124" break="no"/>minante: sed verbum est quid concretum. ergo includit 
-      subie<lb ed="#V" n="125" break="no"/>ctum. et istud est actus intelligendi: et forma: et illa est actus 
-      <lb ed="#V" n="126"/>dicendi.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e372">
-      ¶ Quarta conclusio est. quod verbum nostrmi constituitur tamquam ex 
-      <lb ed="#V" n="127"/>formali constitutiuo per actum dicendi: et etiam specifice: quia quando 
-      <lb ed="#V" n="128"/>totum per accidens constituitur ex materiali et formali. speci 
-      <lb ed="#V" n="129"/>ficatio est a formali: verbum est huiusmodi. dictio autem est 
-      for<lb ed="#V" n="130" break="no"/>male. ergo specificatio fiet ab ea.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e383">
-      ¶ Contra istas conclusiones 
-      in<lb ed="#V" n="131" break="no"/>statur. Primo contra primam sic. Totum non praedicatur de parte 
-      <!--174.xml-->
-      <pb ed="#V" n="86-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>nec econverso. sed dicumus quod actus intelligendi est verbum et quod 
-      <lb ed="#V" n="2"/>verbum est visio de visione. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e399">
-      ¶  2o contra secundam sic. Sicut 
-      <lb ed="#V" n="3"/>se habet verbum vocale ad locutionem sensibilem: ita verbum 
-      intelle<lb ed="#V" n="4" break="no"/>ctuale ad locutionem intelligibilem: sed verbum sensibile non est 
-      <lb ed="#V" n="5"/>nisi ipsa locutio. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e408">
-      ¶ 3o contra m am. Aggregatum per accidens 
-      <lb ed="#V" n="6"/>non est in aliquo praesento: sed verbum: par te: est aggregatum per accidens: 
-      <lb ed="#V" n="7"/>quia ex absoluto et respectiuo. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e415">
-      ¶ 4o coico 4am. 
-      Produ<lb ed="#V" n="8" break="no"/>ctio totius magis terminatur ad formale quam ad materiale. sed: per te 
-      <lb ed="#V" n="9"/>formale est dictio. ergo productio verbi magis terminabitur ad 
-      di<lb ed="#V" n="10" break="no"/>ctionem quam ad actum intelligendi: quod est falsum.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e425">
-      ¶ Praeterea a 
-      prini<lb ed="#V" n="11" break="no"/>cipaliori dibet fieri denominatio: sed principalior est actus 
-      intelli<lb ed="#V" n="12" break="no"/>gendi ipso respectu. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e432">
-      ¶ Ad primum dico quod non est inconueniens 
-      <lb ed="#V" n="13"/>quod pars praedicetur de toto in concreto: sicut hic. homo est pater: sed in 
-      <lb ed="#V" n="14"/>abstracto hoc non est possibile: sicut hic. homo est paternitas: et quia 
-      <lb ed="#V" n="15"/>verbum est concretum potest praedicarin de actu intelligendi et econverso semper 
-      <lb ed="#V" n="16"/>accipiendo in concreto.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e443">
-      ¶ Sed contra. tunc ista non erit vera. verbum 
-      <lb ed="#V" n="17"/>est intellectio.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e448">
-      ¶ Dico quod verbum sicut alia relatiua 
-      concre<lb ed="#V" n="18" break="no"/>ta possunt accipi 2. Unoo formaliter. Alioo fundamentaliter. 
-      <lb ed="#V" n="19"/>Si primo modo accipiatur illa est falsa: verbum est intellectio. Si 2o 
-      <lb ed="#V" n="20"/>modo: sic est vera.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e457">
-      ¶ Ad 2m dico quod in sensibilibus aliud est 
-      <lb ed="#V" n="21"/>verbum aliud productio verbi. Uerbum enim est sonus vel 
-      forma<lb ed="#V" n="22" break="no"/>ta vox. Tocutio autem est productio ipsius vocis: vel sonus 
-      <lb ed="#V" n="23"/>quae differt ab ea. sicut gneatio lucis a luce. sic dico in 
-      proposi<lb ed="#V" n="24" break="no"/>to quod verbum est aliquid praeter dictionem.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e468">
-      ¶ Ad 3m dico quod numquam 
-      <lb ed="#V" n="25"/>ex absoluto et respectiuo constituitur per se vnum. nec ex eis 
-      <lb ed="#V" n="26"/>vna ratio formalis resultat nisi per accidens: sicut ex substantia et 
-      ad<lb ed="#V" n="27" break="no"/>cidente: et ideo concedo conclusione. quod verbum vt verbum non est proprie in 
-      <lb ed="#V" n="28"/>aliquo praesento.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e480">
-      ¶ Ad 4m dico quod productio totius magis 
-      <lb ed="#V" n="29"/>terminatur ad formale quando est absolutum: sed non semper 
-      quan<lb ed="#V" n="30" break="no"/>do formale est respectus. maxime quando illud formale est 
-      ta<lb ed="#V" n="31" break="no"/>lis respectus: quod de ipso dicatur illud productum: quia gneatio 
-      so<lb ed="#V" n="32" break="no"/>lis terminatur ad radium et non ad productionem radii. Tunc 
-      <lb ed="#V" n="33"/>ad confirmationem dico quod est ad oppositum. quia 
-      deno<lb ed="#V" n="34" break="no"/>minatio fit ab infirminori 
-      <lb ed="#V" n="35"/>oriuntur difficultates. Prima est. si verbum dimenat 
-      di<lb ed="#V" n="36" break="no"/>Sed hic ciquid absolutum vel respectiuum.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e500">
-      ¶ Dico 
-      <lb ed="#V" n="37"/>quod respectiuum. quia sicut quandocumque aliquid constituitur ex necessario et 
-      <lb ed="#V" n="38"/>contingenti totum est contingens: sic quando aliquid constituitur ex 
-      abso<lb ed="#V" n="39" break="no"/>luto et respectus totum est respectumum.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e509">
-      ¶ Confirmatur. quia persona 
-      diuina<lb ed="#V" n="40" break="no"/>simpliciter dicitur respectua.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e514">
-      ¶ 2a difficultas. Utrum dictio passiua dicaturi primo 
-      <lb ed="#V" n="41"/>modo dicendi per se de verbo nostro.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e519">
-      ¶ Dico quod non proprie. quia ens 
-      <lb ed="#V" n="42"/> 
-               <lb ed="#V" n="43"/>per accidens vnum: proprie non habet diffinitionem: et per consequens non est in ente 
-      <lb ed="#V" n="44"/>praccidens primus modus perseitatis. potest tamen dici large loquendo 
-      <lb ed="#V" n="45"/>sicut albedo dicitur de homine albo in primo modo dicendi per se: et ita eodem 
-      <lb ed="#V" n="46"/>modo ratio dictionis passiue: large loquendo: dicitur in primo modo: quia 
-      <lb ed="#V" n="47"/>ex ea constituitur. et sic actus intelligendi: quia ex eo etiam constituitur. 
-      </p>
-            <p xml:id="FrMS88-e62849-d1e535">
-               <lb ed="#V" n="48"/>¶ 3a difficultas. Qualiter actus dicendi includiter in actu intelligendi. 
-      </p>
-            <p xml:id="FrMS88-e62849-d1e541">
-               <lb ed="#V" n="49"/>¶ Dico quod non in primo modo eo quod nullus respectus est de 
-      qui<lb ed="#V" n="50" break="no"/>ditate absoluti: sed nec in secundo modo: quia cum deus possit 
-      causa<lb ed="#V" n="51" break="no"/>re quicquid intellectus noster potest intelligere et gignere. tunc si 
-      de<lb ed="#V" n="52" break="no"/>causaret vnum actum intelligendi non diceretur verbum. sequitur ergo quod 
-      di<lb ed="#V" n="53" break="no"/>ctio sibi conueniat per accidens: sicut radio solis accidit sua 
-      <lb ed="#V" n="54"/>gnatio cum poterit causari a deo: et tunc non erit in eo gneatio.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e557">
-      ¶ 4o 
-      <lb ed="#V" n="55"/>difficultas. Utrum obiectum cum sit causa verbi dicatur verbum.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e562">
-      ¶ Dico quod n 
-      <lb ed="#V" n="56"/>nam actus intelligendi duplicem habet productionem passiuam 
-      <lb ed="#V" n="57"/>et duplicem respectum. per vnum respectum refertur ad obiectum vi 
-      <lb ed="#V" n="58"/>ad partialem causam. per alium ad intellectum agentem vt ad aliam causam 
-      <lb ed="#V" n="59"/>partialem. solum respectus 2us est formalis dictio. quia per 
-      dictio<lb ed="#V" n="60" break="no"/>nem passiuam nihil refertur nisi ad id quod habet potsintiom dictiuam 
-      <lb ed="#V" n="61"/>sola autem potentia intellectiua habet potsentiom dictiuam. dicere. enim est actus 
-      <lb ed="#V" n="62"/>viuentis intellectualiter. 2a autem productio est generatio. Unde 
-      <lb ed="#V" n="63"/>possumus dicere quod actus intelligendi dicitur ab intellectu: sicut 
-      <lb ed="#V" n="64"/>a causa vniversali. generatur autem ab obiecto: sicut a causa particulari. obiectum enim 
-      in<lb ed="#V" n="65" break="no"/>quantum obiectum non est naturae intellectualis. ideo etc.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e586">
-      ¶ 5a difficultas 
-      <lb ed="#V" n="66"/>Utrum notitia a deo causata in reuelatione alicuius veritat 
-      <lb ed="#V" n="67"/>possit dici verbum.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e593">
-      ¶ Dico quod si a deo totaliter causeretur non potest 
-      <!--174.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="68"/>dici verbum: quia deus non dicit ad extra: sicut nec generat: et ideo quod 
-      <lb ed="#V" n="69"/>causatur non dicitur.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e604">
-      ¶ 6a difficultas. Utrum notitia reuelata ab angelo 
-      <lb ed="#V" n="70"/>alteri angelo sit verbum.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e610">
-      ¶ Dico quod sic. quia principium causatiuum et es 
-      <lb ed="#V" n="71"/>fectiuum reuelationis ab angelo facere est memoria: sed 
-      <lb ed="#V" n="72"/>omne productum a memoria vt sic est verbum.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e617">
-      ¶ 5a difficultas. Utrum 
-      <lb ed="#V" n="73"/>actus beatificus sit verbum.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e622">
-      ¶ Dico quod si potentia intellectiua 
-      con<lb ed="#V" n="74" break="no"/>currat est verbum: tamen tenendo quod causeretur totaliter a voluntate diui 
-      <lb ed="#V" n="75"/>na: sicut credo verius: et non a potentia intellectiua creata: dabiet 
-      <lb ed="#V" n="76"/>dici consequeter quod non est verbum.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e631">
-      ¶ 5a difficultas. Utrum deus poterit 
-      aliu<lb ed="#V" n="77" break="no"/>quod verbum causare ad extra.e videtur quod sic. Quia quicquid potest facere 
-      <lb ed="#V" n="78"/>mediante causa secunda. potest et per se: sed mediante memoria potest 
-      <lb ed="#V" n="79"/>producere verbum. ergo per se potest idem.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e640">
-      ¶ Dico quod deus non potest 
-      <lb ed="#V" n="80"/>creare verbum. quia quicquid deus causat ad extra causat per voluntatem: sed 
-      re<lb ed="#V" n="81" break="no"/>pugnat voluntati dicere. ergo deus ad extra non potest dicere: et sic ni 
-      <lb ed="#V" n="82"/>potest totaliter creare verbum. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e649">
-      ¶ Confirmatur. quia verbum vt 
-      <lb ed="#V" n="83"/>verbum potentiam intellectiuam respicit vt principium sue dictionis: 
-      <lb ed="#V" n="84"/>sed deus per potentiam intellectiuam nihil causat ad extra. ergo 
-      ni<lb ed="#V" n="85" break="no"/>hil causatum a deo poterit dici verbum: quicquid sit illud.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e659">
-      ¶ Ad ratio 
-      <lb ed="#V" n="86"/>nem dico: quod scilicet regula ia fallit et habet instantias infinitas 
-      <lb ed="#V" n="87"/>in respectibus productionum. quod autem habeat instantiam in 
-      respe<lb ed="#V" n="88" break="no"/>ctibus dictis probo. Primo in motu intelligentie: certun 
-      <lb ed="#V" n="89"/>est quod deus sine intelligentia posset mouere orbem: sed tamen 
-      <lb ed="#V" n="90"/>quod causaret motum cum respectu efficientis ad intelligentiam: illud 
-      <lb ed="#V" n="91"/>est impossibile nisi intelligentia causaet: quia non aliter terminat 
-      <lb ed="#V" n="92"/>illum respectum. 2o hoc patet in generatione radii geniti a sole 
-      <lb ed="#V" n="93"/>Ted enim posset deus radium absolute causare sine sole: tamen illud 
-      <lb ed="#V" n="94"/>totum scilicet illud absolutum radii cum respectu effectualitatis  
-      <lb ed="#V" n="95"/>ad solem. posse causare sine sole impossibile est.
-    </p>
-            <p xml:id="FrMS88-e62849-d1e683">
-      ¶ Dico ergo quod omnem 
-      <lb ed="#V" n="96"/>actum intelligendi quem potest intellectus causare potest 
-      <lb ed="#V" n="97"/>deus sine intellectu: sed actum intelligendi cum 
-      respe<lb ed="#V" n="98" break="no"/>ctu dictionis passiue: que duo constituunt verbum: non potest 
-      <lb ed="#V" n="99"/>causare sine intellectu: cum dictio sit ad dicentem. 
-      </p>
-            <p xml:id="FrMS88-e62849-d1e694">
-               <lb ed="#V" n="100"/>¶ Ad argumentum patet. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="85-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e62849"><!-- l1d27q1 -->
+        <head xml:id="FrMS88-e62849-Hd1e108">Quaestio 1</head>
+        <p xml:id="FrMS88-e62849-d1e111">
+          <lb ed="#V" n="37"/>¶ Distinctio. xxvii. Questio i. 
+          <lb ed="#V" n="38"/>hic quari potest vtrum pater vel filius etc.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e118">
+          <lb ed="#V" n="39"/>CIrca distinctionem. 27am. Quero. vtrum 
+          <lb ed="#V" n="40"/>verbum nostrm sit actualis notitia. quod 
+          <lb ed="#V" n="41"/>non. Aug. Uox est vehiculum verbi materialis. non 
+          <lb ed="#V" n="42"/>autem est signufitum actus intelligendi: sed rei.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e129">
+          ¶ Contra 
+          <lb ed="#V" n="43"/>Ibidem dicit Aug. quod verbum est cogitatio 
+          ip<lb ed="#V" n="44" break="no"/>sa. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e136">
+          ¶ hic primo videndum est quid  
+          <lb ed="#V" n="45"/>sit verbum nostrum. Secundo de quesito. 
+          <lb ed="#V" n="46"/>ad primum sunt quatuor modi. Aliquo dicunt 
+          <lb ed="#V" n="47"/>Quantum quod verbum est notitia declaratiua siue 
+          <lb ed="#V" n="48"/>diffinitiua cuiuscumque diffinibilis. quia secundum Aug. verbum est 
+          noti<lb ed="#V" n="49" break="no"/>tia perfecta. nulla autem perfecta est nisi diffinitiua. ergo etc. 
+        </p>
+        <p xml:id="FrMS88-e62849-d1e150">
+          <lb ed="#V" n="50"/>¶ Alii dicunt quod verbum est species intelligibilis 
+          repre<lb ed="#V" n="51" break="no"/>sentans obiectum vel quiditatem obiectiui: quia secundum Aug. 8o de 
+          tri<lb ed="#V" n="52" break="no"/>omnes cuiuslibet rei est verbum eius. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e159">
+          ¶ Alii dicunt quod 
+          ver<lb ed="#V" n="53" break="no"/>bum est quiditas obiecti: quia secundum Aug. diffintio 
+          Cartagi<lb ed="#V" n="54" break="no"/>nem. et hoc est verbum eius.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e166">
+          ¶ Alii dicunt quod verbum est ipsum 
+          <lb ed="#V" n="55"/>obiectum in esse cognito productum. quia dicit Aug. quod verbum 
+          <lb ed="#V" n="56"/>quod foris sonat est signum verbi quod intus latet. non est autem 
+          <lb ed="#V" n="57"/>ignum nisi obiecti cogniti et vt cogniti. Et iterum dicit Aug. 
+          <lb ed="#V" n="58"/>quod verbum est quod volubili cogitatione iactamus.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e177">
+          ¶ 
+          Nu<lb ed="#V" n="59" break="no"/>la istarum viarum stare potest. Prima non. quia quando dicit quod verbum 
+          <lb ed="#V" n="60"/>est notitia diffinitiua. Quero aut accipit diffinitionem proprie. 
+          <lb ed="#V" n="61"/>aut non. sed solum pro notitia perfecta. Si primo modo. sequitur quod 
+          nun<lb ed="#V" n="62" break="no"/>quam haberemus verbum nisi de diffinibilibus: quod est 
+          fal<lb ed="#V" n="63" break="no"/>sum. Si intelligat per diffinitionem cognitionem distinctam 
+          <lb ed="#V" n="64"/>et perfectam: tunc cum pater in illo priori in quo prece 
+          <lb ed="#V" n="65"/>dit filium intelligat distincte et perfecte seipsum. ergo 
+          <!--173.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="66"/>tunc habebit verbum. et sic verbum verbi et verbum 
+          <lb ed="#V" n="67"/>ante verbum.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e203">
+          ¶ Praeterea. Aug. sepre distinguit inter verbum 
+          <lb ed="#V" n="68"/>perfectum et imperfectum. ergo etc. Nec secunda stare potest 
+          <lb ed="#V" n="69"/>quia in perfectissima notitia scilicet intuitiua vt in patria non 
+          <lb ed="#V" n="70"/>ponitur species: et tamen secundum multos. et videtur de intentione 
+          <lb ed="#V" n="71"/>Aug. 5. de tri. ponitur verbum: et hoc perfectissimum. ergo etc. 
+        </p>
+        <p xml:id="FrMS88-e62849-d1e214">
+          <lb ed="#V" n="72"/>¶ Tertia etiam non potest stare: quia omne verbum quod 
+          habe<lb ed="#V" n="73" break="no"/>mus de quocunque obiecto est commutabile: sed quiditas 
+          <lb ed="#V" n="74"/>obiecti diuini scilicet quiditas dei est incommutabilis.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e224">
+          ¶ 4a 
+          <lb ed="#V" n="75"/>etiam non valet. quia omnis productio in esse cognitio vt sic est 
+          pro<lb ed="#V" n="76" break="no"/>ductio secundum quid. si ergo verbum esset quiditas vel obiectum in esse 
+          con<lb ed="#V" n="77" break="no"/>gnito. vt sic: omne verbum esset solum ens secundum quid et ens 
+          <lb ed="#V" n="78"/>rationis. quod est falsum. quia generatio verbi est generatio et 
+          pro<lb ed="#V" n="79" break="no"/>ductio in esse simpliciter et non inesse rationis.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e237">
+          ¶ Dico ergo secundum 
+          <lb ed="#V" n="80"/>doc scilicet secundum Io. secunodo. quod verbum nostrm: generaliter sumendo: est actus 
+          <lb ed="#V" n="81"/>intelligendi: non quicumque: sed productus per actum 
+          diui<lb ed="#V" n="82" break="no"/>dendi. Unde si intellectio aliqua esset substantia vel causaretur 
+          <lb ed="#V" n="83"/>totaliter a deo: illa non esset verbum: quia quicquid 
+          cau<lb ed="#V" n="84" break="no"/>sat deus ad extra causat per voluntatem: sed verbum 
+          cau<lb ed="#V" n="85" break="no"/>satur solum per intellectum.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e253">
+          ¶ hanc conclusionem confirmo 
+          quadru<lb ed="#V" n="86" break="no"/>plici auctoritate Aug. Prima est. 19o. de trini. vbi dicit 
+          <lb ed="#V" n="87"/>quod formata cogitatio ab ea re quam scimus est verbum quod 
+          <lb ed="#V" n="88"/>in corde dicimus.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e262">
+          ¶ Secunda est ibidem. vbi dicit quod 
+          cogi<lb ed="#V" n="89" break="no"/>tatio nostra ab obiecto formata est verbum.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e267">
+          ¶ 3a quod verbum 
+          <lb ed="#V" n="90"/>nostrm nascitur de memoria: et de scientia nostra. Constat autem 
+          <lb ed="#V" n="91"/>quod de istis secundum eum non nascitur nisi notitia actualis. 
+        </p>
+        <p xml:id="FrMS88-e62849-d1e274">
+          <lb ed="#V" n="92"/>¶ Quarta quia ibidem dicit quod verbum est visio de visione 
+          <lb ed="#V" n="93"/>habituali visioni simillima.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e282">
+          ¶ Sed hic est difficultas. quia 
+          au<lb ed="#V" n="94" break="no"/>ctoritates non videntur cogere. quia Augu. videtur 
+          di<lb ed="#V" n="95" break="no"/>uersimode loqui de verbo. Quia aliquando accipit verbum 
+          <lb ed="#V" n="96"/>pro similitudine rei: aliquando pro specie. aliquando pro diffinitione: et sicv 
+          <lb ed="#V" n="97"/>detur equocare.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e293">
+          ¶ Dico quod Aug. loques de verbo 
+          men<lb ed="#V" n="98" break="no"/>tionem facit de his quae concurrunt ad verbum vel vt 
+          cau<lb ed="#V" n="99" break="no"/>sa. vel vt dispositio preuia. vel conditio sequens: quia omnia per 
+          quan<lb ed="#V" n="100" break="no"/>dam analogiam ad verbum. vocat verbi nomine.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e302">
+          ¶ Sed tamen 
+          <lb ed="#V" n="101"/>princinpaliter et ex intentione videtur determinare. quod actus 
+          in<lb ed="#V" n="102" break="no"/>telligendi proprie acceptus cum dictione passiua est verbum 
+          <lb ed="#V" n="103"/>Quod etiam dicit eo papa in sermone de sancto Iouane 
+          <lb ed="#V" n="104"/>bap. Uerbum inquit Teo. est ipsa 
+          cogitatio<lb ed="#V" n="105" break="no"/>ad secundam partem videndum est. Utrum 
+          <lb ed="#V" n="106"/>Quantum verbum nostrum sit actualis notitia et 
+          <lb ed="#V" n="107"/>ad hoc introducuntur quatuor conclusiones. Prima est quod verbum 
+          <lb ed="#V" n="108"/>nostrm non est praecise actus intelligendi. quod probo sic. Omne quod 
+          <lb ed="#V" n="109"/>secundum suam rationem formalem est ad aliud non est praecise aliquo 
+          <lb ed="#V" n="110"/>absolutum. verbum autem secundum Aug. eo quod verbum est ad verban 
+          <lb ed="#V" n="111"/>tem et dicentem. ergo precise acceptum non dicit aliquid 
+          absolu<lb ed="#V" n="112" break="no"/>tum. Constat autem quod actus intelligendi praecise acceptus est 
+          <lb ed="#V" n="113"/>aliquid absolutum. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e333">
+          ¶ Praeterea. Illud praecise acceptum 
+          <lb ed="#V" n="114"/>non est verbum. cui non repugnat esse in primo dicente in 
+          <lb ed="#V" n="115"/>nascibili scilicet in patre dicente: sed actus intelligendi secundum illud 
+          <lb ed="#V" n="116"/>totum absolutum quod dicit est in patre in diuinis. ergo actus 
+          in<lb ed="#V" n="117" break="no"/>telligendi: vt sic non est verbum.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e344">
+          ¶ Secunda conclusio est. quod verbum 
+          <lb ed="#V" n="118"/>nostrum non est praecise actus dicendi: quia omne quod est ad aliud est 
+          <lb ed="#V" n="119"/>aliquid excepta relatione: sed verbum refertur. ergo in verbo est 
+          <lb ed="#V" n="120"/>aliquid praeter dicere: quod praecise est respectus.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e353">
+          ¶ Praeterea. 
+          ver<lb ed="#V" n="121" break="no"/>bum est genitum. dicere praecise non est genitum. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e359">
+          ¶ Ter. 
+          <lb ed="#V" n="122"/>tia conclusio quod verbum nostrm constituitur ex actu intelligendi et actu 
+          di<lb ed="#V" n="123" break="no"/>cendi: quia omne concretum constituitur ex subiecto et forma 
+          deno<lb ed="#V" n="124" break="no"/>minante: sed verbum est quid concretum. ergo includit 
+          subie<lb ed="#V" n="125" break="no"/>ctum. et istud est actus intelligendi: et forma: et illa est actus 
+          <lb ed="#V" n="126"/>dicendi.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e372">
+          ¶ Quarta conclusio est. quod verbum nostrmi constituitur tamquam ex 
+          <lb ed="#V" n="127"/>formali constitutiuo per actum dicendi: et etiam specifice: quia quando 
+          <lb ed="#V" n="128"/>totum per accidens constituitur ex materiali et formali. speci 
+          <lb ed="#V" n="129"/>ficatio est a formali: verbum est huiusmodi. dictio autem est 
+          for<lb ed="#V" n="130" break="no"/>male. ergo specificatio fiet ab ea.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e383">
+          ¶ Contra istas conclusiones 
+          in<lb ed="#V" n="131" break="no"/>statur. Primo contra primam sic. Totum non praedicatur de parte 
+          <!--174.xml-->
+          <pb ed="#V" n="86-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>nec econverso. sed dicumus quod actus intelligendi est verbum et quod 
+          <lb ed="#V" n="2"/>verbum est visio de visione. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e399">
+          ¶  2o contra secundam sic. Sicut 
+          <lb ed="#V" n="3"/>se habet verbum vocale ad locutionem sensibilem: ita verbum 
+          intelle<lb ed="#V" n="4" break="no"/>ctuale ad locutionem intelligibilem: sed verbum sensibile non est 
+          <lb ed="#V" n="5"/>nisi ipsa locutio. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e408">
+          ¶ 3o contra m am. Aggregatum per accidens 
+          <lb ed="#V" n="6"/>non est in aliquo praesento: sed verbum: par te: est aggregatum per accidens: 
+          <lb ed="#V" n="7"/>quia ex absoluto et respectiuo. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e415">
+          ¶ 4o coico 4am. 
+          Produ<lb ed="#V" n="8" break="no"/>ctio totius magis terminatur ad formale quam ad materiale. sed: per te 
+          <lb ed="#V" n="9"/>formale est dictio. ergo productio verbi magis terminabitur ad 
+          di<lb ed="#V" n="10" break="no"/>ctionem quam ad actum intelligendi: quod est falsum.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e425">
+          ¶ Praeterea a 
+          prini<lb ed="#V" n="11" break="no"/>cipaliori dibet fieri denominatio: sed principalior est actus 
+          intelli<lb ed="#V" n="12" break="no"/>gendi ipso respectu. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e432">
+          ¶ Ad primum dico quod non est inconueniens 
+          <lb ed="#V" n="13"/>quod pars praedicetur de toto in concreto: sicut hic. homo est pater: sed in 
+          <lb ed="#V" n="14"/>abstracto hoc non est possibile: sicut hic. homo est paternitas: et quia 
+          <lb ed="#V" n="15"/>verbum est concretum potest praedicarin de actu intelligendi et econverso semper 
+          <lb ed="#V" n="16"/>accipiendo in concreto.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e443">
+          ¶ Sed contra. tunc ista non erit vera. verbum 
+          <lb ed="#V" n="17"/>est intellectio.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e448">
+          ¶ Dico quod verbum sicut alia relatiua 
+          concre<lb ed="#V" n="18" break="no"/>ta possunt accipi 2. Unoo formaliter. Alioo fundamentaliter. 
+          <lb ed="#V" n="19"/>Si primo modo accipiatur illa est falsa: verbum est intellectio. Si 2o 
+          <lb ed="#V" n="20"/>modo: sic est vera.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e457">
+          ¶ Ad 2m dico quod in sensibilibus aliud est 
+          <lb ed="#V" n="21"/>verbum aliud productio verbi. Uerbum enim est sonus vel 
+          forma<lb ed="#V" n="22" break="no"/>ta vox. Tocutio autem est productio ipsius vocis: vel sonus 
+          <lb ed="#V" n="23"/>quae differt ab ea. sicut gneatio lucis a luce. sic dico in 
+          proposi<lb ed="#V" n="24" break="no"/>to quod verbum est aliquid praeter dictionem.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e468">
+          ¶ Ad 3m dico quod numquam 
+          <lb ed="#V" n="25"/>ex absoluto et respectiuo constituitur per se vnum. nec ex eis 
+          <lb ed="#V" n="26"/>vna ratio formalis resultat nisi per accidens: sicut ex substantia et 
+          ad<lb ed="#V" n="27" break="no"/>cidente: et ideo concedo conclusione. quod verbum vt verbum non est proprie in 
+          <lb ed="#V" n="28"/>aliquo praesento.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e480">
+          ¶ Ad 4m dico quod productio totius magis 
+          <lb ed="#V" n="29"/>terminatur ad formale quando est absolutum: sed non semper 
+          quan<lb ed="#V" n="30" break="no"/>do formale est respectus. maxime quando illud formale est 
+          ta<lb ed="#V" n="31" break="no"/>lis respectus: quod de ipso dicatur illud productum: quia gneatio 
+          so<lb ed="#V" n="32" break="no"/>lis terminatur ad radium et non ad productionem radii. Tunc 
+          <lb ed="#V" n="33"/>ad confirmationem dico quod est ad oppositum. quia 
+          deno<lb ed="#V" n="34" break="no"/>minatio fit ab infirminori 
+          <lb ed="#V" n="35"/>oriuntur difficultates. Prima est. si verbum dimenat 
+          di<lb ed="#V" n="36" break="no"/>Sed hic ciquid absolutum vel respectiuum.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e500">
+          ¶ Dico 
+          <lb ed="#V" n="37"/>quod respectiuum. quia sicut quandocumque aliquid constituitur ex necessario et 
+          <lb ed="#V" n="38"/>contingenti totum est contingens: sic quando aliquid constituitur ex 
+          abso<lb ed="#V" n="39" break="no"/>luto et respectus totum est respectumum.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e509">
+          ¶ Confirmatur. quia persona 
+          diuina<lb ed="#V" n="40" break="no"/>simpliciter dicitur respectua.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e514">
+          ¶ 2a difficultas. Utrum dictio passiua dicaturi primo 
+          <lb ed="#V" n="41"/>modo dicendi per se de verbo nostro.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e519">
+          ¶ Dico quod non proprie. quia ens 
+          <lb ed="#V" n="42"/> 
+          <lb ed="#V" n="43"/>per accidens vnum: proprie non habet diffinitionem: et per consequens non est in ente 
+          <lb ed="#V" n="44"/>praccidens primus modus perseitatis. potest tamen dici large loquendo 
+          <lb ed="#V" n="45"/>sicut albedo dicitur de homine albo in primo modo dicendi per se: et ita eodem 
+          <lb ed="#V" n="46"/>modo ratio dictionis passiue: large loquendo: dicitur in primo modo: quia 
+          <lb ed="#V" n="47"/>ex ea constituitur. et sic actus intelligendi: quia ex eo etiam constituitur. 
+        </p>
+        <p xml:id="FrMS88-e62849-d1e535">
+          <lb ed="#V" n="48"/>¶ 3a difficultas. Qualiter actus dicendi includiter in actu intelligendi. 
+        </p>
+        <p xml:id="FrMS88-e62849-d1e541">
+          <lb ed="#V" n="49"/>¶ Dico quod non in primo modo eo quod nullus respectus est de 
+          qui<lb ed="#V" n="50" break="no"/>ditate absoluti: sed nec in secundo modo: quia cum deus possit 
+          causa<lb ed="#V" n="51" break="no"/>re quicquid intellectus noster potest intelligere et gignere. tunc si 
+          de<lb ed="#V" n="52" break="no"/>causaret vnum actum intelligendi non diceretur verbum. sequitur ergo quod 
+          di<lb ed="#V" n="53" break="no"/>ctio sibi conueniat per accidens: sicut radio solis accidit sua 
+          <lb ed="#V" n="54"/>gnatio cum poterit causari a deo: et tunc non erit in eo gneatio.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e557">
+          ¶ 4o 
+          <lb ed="#V" n="55"/>difficultas. Utrum obiectum cum sit causa verbi dicatur verbum.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e562">
+          ¶ Dico quod n 
+          <lb ed="#V" n="56"/>nam actus intelligendi duplicem habet productionem passiuam 
+          <lb ed="#V" n="57"/>et duplicem respectum. per vnum respectum refertur ad obiectum vi 
+          <lb ed="#V" n="58"/>ad partialem causam. per alium ad intellectum agentem vt ad aliam causam 
+          <lb ed="#V" n="59"/>partialem. solum respectus 2us est formalis dictio. quia per 
+          dictio<lb ed="#V" n="60" break="no"/>nem passiuam nihil refertur nisi ad id quod habet potsintiom dictiuam 
+          <lb ed="#V" n="61"/>sola autem potentia intellectiua habet potsentiom dictiuam. dicere. enim est actus 
+          <lb ed="#V" n="62"/>viuentis intellectualiter. 2a autem productio est generatio. Unde 
+          <lb ed="#V" n="63"/>possumus dicere quod actus intelligendi dicitur ab intellectu: sicut 
+          <lb ed="#V" n="64"/>a causa vniversali. generatur autem ab obiecto: sicut a causa particulari. obiectum enim 
+          in<lb ed="#V" n="65" break="no"/>quantum obiectum non est naturae intellectualis. ideo etc.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e586">
+          ¶ 5a difficultas 
+          <lb ed="#V" n="66"/>Utrum notitia a deo causata in reuelatione alicuius veritat 
+          <lb ed="#V" n="67"/>possit dici verbum.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e593">
+          ¶ Dico quod si a deo totaliter causeretur non potest 
+          <!--174.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="68"/>dici verbum: quia deus non dicit ad extra: sicut nec generat: et ideo quod 
+          <lb ed="#V" n="69"/>causatur non dicitur.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e604">
+          ¶ 6a difficultas. Utrum notitia reuelata ab angelo 
+          <lb ed="#V" n="70"/>alteri angelo sit verbum.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e610">
+          ¶ Dico quod sic. quia principium causatiuum et es 
+          <lb ed="#V" n="71"/>fectiuum reuelationis ab angelo facere est memoria: sed 
+          <lb ed="#V" n="72"/>omne productum a memoria vt sic est verbum.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e617">
+          ¶ 5a difficultas. Utrum 
+          <lb ed="#V" n="73"/>actus beatificus sit verbum.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e622">
+          ¶ Dico quod si potentia intellectiua 
+          con<lb ed="#V" n="74" break="no"/>currat est verbum: tamen tenendo quod causeretur totaliter a voluntate diui 
+          <lb ed="#V" n="75"/>na: sicut credo verius: et non a potentia intellectiua creata: dabiet 
+          <lb ed="#V" n="76"/>dici consequeter quod non est verbum.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e631">
+          ¶ 5a difficultas. Utrum deus poterit 
+          aliu<lb ed="#V" n="77" break="no"/>quod verbum causare ad extra.e videtur quod sic. Quia quicquid potest facere 
+          <lb ed="#V" n="78"/>mediante causa secunda. potest et per se: sed mediante memoria potest 
+          <lb ed="#V" n="79"/>producere verbum. ergo per se potest idem.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e640">
+          ¶ Dico quod deus non potest 
+          <lb ed="#V" n="80"/>creare verbum. quia quicquid deus causat ad extra causat per voluntatem: sed 
+          re<lb ed="#V" n="81" break="no"/>pugnat voluntati dicere. ergo deus ad extra non potest dicere: et sic ni 
+          <lb ed="#V" n="82"/>potest totaliter creare verbum. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e649">
+          ¶ Confirmatur. quia verbum vt 
+          <lb ed="#V" n="83"/>verbum potentiam intellectiuam respicit vt principium sue dictionis: 
+          <lb ed="#V" n="84"/>sed deus per potentiam intellectiuam nihil causat ad extra. ergo 
+          ni<lb ed="#V" n="85" break="no"/>hil causatum a deo poterit dici verbum: quicquid sit illud.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e659">
+          ¶ Ad ratio 
+          <lb ed="#V" n="86"/>nem dico: quod scilicet regula ia fallit et habet instantias infinitas 
+          <lb ed="#V" n="87"/>in respectibus productionum. quod autem habeat instantiam in 
+          respe<lb ed="#V" n="88" break="no"/>ctibus dictis probo. Primo in motu intelligentie: certun 
+          <lb ed="#V" n="89"/>est quod deus sine intelligentia posset mouere orbem: sed tamen 
+          <lb ed="#V" n="90"/>quod causaret motum cum respectu efficientis ad intelligentiam: illud 
+          <lb ed="#V" n="91"/>est impossibile nisi intelligentia causaet: quia non aliter terminat 
+          <lb ed="#V" n="92"/>illum respectum. 2o hoc patet in generatione radii geniti a sole 
+          <lb ed="#V" n="93"/>Ted enim posset deus radium absolute causare sine sole: tamen illud 
+          <lb ed="#V" n="94"/>totum scilicet illud absolutum radii cum respectu effectualitatis  
+          <lb ed="#V" n="95"/>ad solem. posse causare sine sole impossibile est.
+        </p>
+        <p xml:id="FrMS88-e62849-d1e683">
+          ¶ Dico ergo quod omnem 
+          <lb ed="#V" n="96"/>actum intelligendi quem potest intellectus causare potest 
+          <lb ed="#V" n="97"/>deus sine intellectu: sed actum intelligendi cum 
+          respe<lb ed="#V" n="98" break="no"/>ctu dictionis passiue: que duo constituunt verbum: non potest 
+          <lb ed="#V" n="99"/>causare sine intellectu: cum dictio sit ad dicentem. 
+        </p>
+        <p xml:id="FrMS88-e62849-d1e694">
+          <lb ed="#V" n="100"/>¶ Ad argumentum patet. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,223 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#V" n="80-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e58831"><!-- l1d23q4 -->
-            <head xml:id="FrMS88-e58831-Hd1e108">Quaestio 1</head>
-            <p xml:id="FrMS88-e58831-d1e111">
-      Quaestio. iiii. 
-      <lb ed="#V" n="2"/>persona sit ad se vel ad aliud 
-      <lb ed="#V" n="3"/>Trum quod ad se scundum Aug. o. de 
-      tri<lb ed="#V" n="4" break="no"/>Persona ita est ad se: sicut deus.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e120">
-      ¶ 
-      Con<lb ed="#V" n="5" break="no"/>tra. idem Aug. Trinitas diuina est 
-      perso<lb ed="#V" n="6" break="no"/>narum inuicem relatiuarum. 
-      <lb ed="#V" n="7"/>quattuor conclusiones. 
-      <lb ed="#V" n="8"/>hic introducuntu Pria et quo ato 
-      pesoo<lb ed="#V" n="9" break="no"/>ne non est praecise relatiua: quia tunc vbique esset relatiua.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e133">
-      ¶ 2 
-      <lb ed="#V" n="10"/>ontra est. quod ratio persone non est praecise absoluta nec dicit conceptum 
-      <lb ed="#V" n="11"/>absolutum: quia tunc omnis persona esset absoluta. consequentie istarum 
-      dua<lb ed="#V" n="12" break="no"/>rum rationum pro prima et 2a conclusione probantur fic. Quandocumque aliquid conuenit 
-      <lb ed="#V" n="13"/>alicui ex sua ratione formali siue per se primo modo siue 2o modo: illud 
-      <lb ed="#V" n="14"/>sibi conuenit vbique inueniatur: hoc patet. si ergo persona ex sua ratione 
-      <lb ed="#V" n="15"/>formali esset absoluta vel relatiua tunc persona divina esset 
-      <lb ed="#V" n="16"/>absoluta: et creata relatiua: quod est secundum.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e151">
-      ¶ 3a conclusio est. quod ratio per 
-      <lb ed="#V" n="17"/>sone non est similis absoluta et relatiua nec includit simils esse ad 
-      <lb ed="#V" n="18"/>se et ad aliud. probatur ista conclusio sicut alie due. Quia si ex sua 
-      ratio<lb ed="#V" n="19" break="no"/>ne formali inquantum persona esset absoluta et relatiua omnis per 
-      <lb ed="#V" n="20"/>sona divina et creata sic esset.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e163">
-      ¶ 4a conclusio est. quod ratio persone 
-      abstra<lb ed="#V" n="21" break="no"/>hit ab absoluto et relatiuo: quia omne diuisum per aliqua duo 
-      op<lb ed="#V" n="22" break="no"/>posita necessario abstrahit ab vtroque: sed persona diuiditur per 
-      <lb ed="#V" n="23"/>absolutum et relatiuum. ergo ipsa vt sic abstrahit ab 
-      absolu<lb ed="#V" n="24" break="no"/>to et relatiuo.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e174">
-      ¶ Contra istas conclusiones instatur 4r. Primo sic. 
-      <lb ed="#V" n="25"/>Quicquid ex ratione sua formali competit superiori illud etiam 
-      co<lb ed="#V" n="26" break="no"/>uenit inferiori: sed persone ex sua ratione formali conuenit sic 
-      ab<lb ed="#V" n="27" break="no"/>strahere: ergo et huic persone. et sic persona in divinis abstrahit 
-      </p>
-            <p xml:id="FrMS88-e58831-d1e183">
-               <lb ed="#V" n="28"/>¶ Confirmatur: quia secundum Augu. persona est ad se. ergo hec 
-      persona<lb ed="#V" n="29" break="no"/>est ad se.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e190">
-      ¶ 2o sic. Quicquid denominatiue dicitur de inferiori videtur 
-      <lb ed="#V" n="30"/>dici de superiori: sed referri et constitui ex absoluto et 
-      rela<lb ed="#V" n="31" break="no"/>tiuo dicitur de hac persona in diuinis. ergo dicetur et de persona¬ 
-      </p>
-            <p xml:id="FrMS88-e58831-d1e197">
-               <lb ed="#V" n="32"/>¶ 3o sic. Quicquid est in genere substantie siue praedicamentalis 
-      si<lb ed="#V" n="33" break="no"/>ue transcendentis est absolutum: sed persona est huiusmodi: quia persona 
-      dis<lb ed="#V" n="34" break="no"/>finitur per indiuiduam substantiam.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e206">
-      ¶ Et confirmatur. quia nam 
-      intelle<lb ed="#V" n="35" break="no"/>ctualis est aliquid absolutum. diffinitur autem per naturam 
-      intellectua<lb ed="#V" n="36" break="no"/>lem.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e214">
-      ¶ 4o sic. Omne illud quod ex diffinitione sua est alterius illud 
-      <lb ed="#V" n="37"/>idetur esse relatiuum et non absolutum nec neutrum: sed persona est 
-      <lb ed="#V" n="38"/>alterius secundum diffinitionem nunc datam. Est enim intellectualis 
-      natura<lb ed="#V" n="39" break="no"/>indiuidua substantia. ergo erit relatiua.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e223">
-      ¶ Ad primum dico quod licet 
-      <lb ed="#V" n="40"/>psona quelibet inquantum addit ad rationem persone in communi sit 
-      abso<lb ed="#V" n="41" break="no"/>luta vel relatiua: sicut homo ratione additi est rationalis. tamen 
-      in<lb ed="#V" n="42" break="no"/>quantum persona semper abstrahit sicut homo inquantum animal non est 
-      ratio<lb ed="#V" n="43" break="no"/>nalis. Vel potest dici quod a superiori ad inferius numquam tenet consequentia in 
-      <lb ed="#V" n="44"/>ecundis intentionibus. abstrahere autem et praescindere et talia v 
-      <lb ed="#V" n="45"/>dentur esse secunde intentiones: vel saltem attribuuntur alicui secundum illud 
-      <lb ed="#V" n="46"/>secundum quod sibi attribuitur secunda intentio.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e241">
-      ¶ Ad confirmationem 
-      di<lb ed="#V" n="47" break="no"/>co quod ad se dupliciter intelligitur. pramo positiue: et sic accipitur pro 
-      al<lb ed="#V" n="48" break="no"/>soluto: sicut incorporeum accipitur positiue secundum quod constituit 
-      <lb ed="#V" n="49"/>speciem ex opposito distinctam contra specie constitutam per corporeum 
-      <lb ed="#V" n="50"/>2o modo accipitur negatiue: sicut dicimus quod ad se potest dici quod 
-      <lb ed="#V" n="51"/>non est ad aliud: sicut dicimus quod substantia: vt substantia non est 
-      corpo<lb ed="#V" n="52" break="no"/>rea hoc est non includit in se corporeitatem: nec sequitur quod sit 
-      <lb ed="#V" n="53"/>incorporea. nam incorporeum est differentia diuidens substantiam.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e259">
-      ¶ Sic 
-      <lb ed="#V" n="54"/>dico in proposito de persona. Persona enim vt persona non est ad 
-      <lb ed="#V" n="55"/>aliud: et isto modo negatiue accipiendo est ad se: sed non 
-      se<lb ed="#V" n="56" break="no"/>quitur. ergo absoluta: quia requritur quod sit ad se positiue: et vt sic 
-      <lb ed="#V" n="57"/>non est ad se. primo modo intelligit Aug.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e270">
-      ¶ Ad 2m potest dici quod quan 
-      <lb ed="#V" n="58"/>arguitur a persona patris inquantum supponit pro patre et pro 
-      pria<lb ed="#V" n="59" break="no"/>intentione ad personam in communi: vt supponit pro se quod proprie non 
-      ar<lb ed="#V" n="60" break="no"/>guitur ab inferiori ad superius: quia inferius hoc est prima intentio. superius 
-      <lb ed="#V" n="61"/>autem secunda. sic est in proposito referri et constitui dicuntur de 
-      perso<lb ed="#V" n="62" break="no"/>na patris inquantum persona supponit pro patre et pro prima intentione. et 
-      <lb ed="#V" n="63"/>per consequens persona in communi ad quam fit argumentatio est 2a intentio 
-      <lb ed="#V" n="64"/>et ideo non valet.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e288">
-      ¶ Aliter potest dici quod locus a parte subiectiua 
-      de<lb ed="#V" n="65" break="no"/>ficit in duobus. Primo in secundis intentionibus et ideo quia 
-      consti<lb ed="#V" n="66" break="no"/>tui est secunda intentio non tenet ibi. deficit etiam in relatiuis: quia si¬ 
-      <!--163.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>species est ad aliquid non sequitur quod genus sit ad aliquid. huiusmodi est 
-      re<lb ed="#V" n="68" break="no"/>ferri. vt patet.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e305">
-      ¶ Ad 3m dico quod sicut generatio diffinitur per naturam: 
-      si<lb ed="#V" n="69" break="no"/>cut per aliquid circa quod habet fieri: non tamen quod sit formaliter natura. sic 
-      <lb ed="#V" n="70"/>dico quod persona: sicut per circumstantiam subiecti vel alterius 
-      cir<lb ed="#V" n="71" break="no"/>ca quod habet fieri diffinitur per substantiam et naturam intellectualem: non tamen 
-      <lb ed="#V" n="72"/>est quiditatiue aliquod istorum.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e316">
-      ¶ Ad 4m dico quod illa diffinites 
-      <lb ed="#V" n="73"/>circumlocutiua: sicut quando dicimus. albedo est mensura 
-      colo<lb ed="#V" n="74" break="no"/>rum.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e323">
-      ¶ Et praeterea illud quod est alicuius vt subienti non oportet quod sit 
-      re<lb ed="#V" n="75" break="no"/>latiuum. Persona autem est naturae intellectualis sicut subsitanti 
-      cir<lb ed="#V" n="76" break="no"/>ca quod habet fieri: sicut color superficiei.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e330">
-      ¶ Sed hic est di. Utrum 
-      <lb ed="#V" n="77"/>prsona. sit nomen dignitatis vel perfectionis.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e335">
-      ¶ Dico quod sicut 
-      <lb ed="#V" n="78"/>esse papam est nomen dignitatis: non tamen perfectionis: quia est secunda 
-      <lb ed="#V" n="79"/>intentio: et respectum quendam dicit. sic dico de persona quod est 
-      <lb ed="#V" n="80"/>nomen dignitatis non tamen perfectionis: quia est secunda intentio. 
-      In<lb ed="#V" n="81" break="no"/>telligendum tamen ad euidentiam multorum hoc dictorum quod superiora 
-      <lb ed="#V" n="82"/>aliquando dicuntur ad aliquid: et etiam inferiora: sicut similitudo et 
-      con<lb ed="#V" n="83" break="no"/>formitas. conformitas. enim dicitur de similitudine et vtrumque est ad 
-      <lb ed="#V" n="84"/>aliquid. aliquando nec superius nec inferius: sicut albedo et 
-      color<lb ed="#V" n="85" break="no"/>aliquod superius et non inferius: sicut scientia dicitur ad aliquid: non tamen 
-      <lb ed="#V" n="86"/>grammatica. aliquando inferius et non superius: sicut scientia est ad 
-      <lb ed="#V" n="87"/>aliquid: et tamen qualitas que est genus non est ad aliquid.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e359">
-      ¶ Sed 
-      <lb ed="#V" n="88"/>quomodo est hoc possibile. Dico quod si aliquid quod est in vna 
-      coor<lb ed="#V" n="89" break="no"/>dinatione est absolutum vel relatiuum omnia illius 
-      coordina<lb ed="#V" n="90" break="no"/>tionis erunt talia. scientia autem quiditatiue non est ad aliquid: et ideo 
-      <lb ed="#V" n="91"/>non oportet quod grammatica vel qualitas sit ad aliquid. Sed 
-      supposi<lb ed="#V" n="92" break="no"/>to quod solum denominatiue est ad aliquid: quare suum genus non est 
-      <lb ed="#V" n="93"/>ad aliud vel sua species: Dico quod sicut superius dictum est 
-      <lb ed="#V" n="94"/>locus a parte subiectiua non tenet in secundis 
-      intentio<lb ed="#V" n="95" break="no"/>nibus nec in relatiuis.
-    </p>
-            <p xml:id="FrMS88-e58831-d1e380">
-      ¶ Ad argumentum patet. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="80-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e58831"><!-- l1d23q4 -->
+        <head xml:id="FrMS88-e58831-Hd1e108">Quaestio 1</head>
+        <p xml:id="FrMS88-e58831-d1e111">
+          Quaestio. iiii. 
+          <lb ed="#V" n="2"/>persona sit ad se vel ad aliud 
+          <lb ed="#V" n="3"/>Trum quod ad se scundum Aug. o. de 
+          tri<lb ed="#V" n="4" break="no"/>Persona ita est ad se: sicut deus.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e120">
+          ¶ 
+          Con<lb ed="#V" n="5" break="no"/>tra. idem Aug. Trinitas diuina est 
+          perso<lb ed="#V" n="6" break="no"/>narum inuicem relatiuarum. 
+          <lb ed="#V" n="7"/>quattuor conclusiones. 
+          <lb ed="#V" n="8"/>hic introducuntu Pria et quo ato 
+          pesoo<lb ed="#V" n="9" break="no"/>ne non est praecise relatiua: quia tunc vbique esset relatiua.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e133">
+          ¶ 2 
+          <lb ed="#V" n="10"/>ontra est. quod ratio persone non est praecise absoluta nec dicit conceptum 
+          <lb ed="#V" n="11"/>absolutum: quia tunc omnis persona esset absoluta. consequentie istarum 
+          dua<lb ed="#V" n="12" break="no"/>rum rationum pro prima et 2a conclusione probantur fic. Quandocumque aliquid conuenit 
+          <lb ed="#V" n="13"/>alicui ex sua ratione formali siue per se primo modo siue 2o modo: illud 
+          <lb ed="#V" n="14"/>sibi conuenit vbique inueniatur: hoc patet. si ergo persona ex sua ratione 
+          <lb ed="#V" n="15"/>formali esset absoluta vel relatiua tunc persona divina esset 
+          <lb ed="#V" n="16"/>absoluta: et creata relatiua: quod est secundum.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e151">
+          ¶ 3a conclusio est. quod ratio per 
+          <lb ed="#V" n="17"/>sone non est similis absoluta et relatiua nec includit simils esse ad 
+          <lb ed="#V" n="18"/>se et ad aliud. probatur ista conclusio sicut alie due. Quia si ex sua 
+          ratio<lb ed="#V" n="19" break="no"/>ne formali inquantum persona esset absoluta et relatiua omnis per 
+          <lb ed="#V" n="20"/>sona divina et creata sic esset.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e163">
+          ¶ 4a conclusio est. quod ratio persone 
+          abstra<lb ed="#V" n="21" break="no"/>hit ab absoluto et relatiuo: quia omne diuisum per aliqua duo 
+          op<lb ed="#V" n="22" break="no"/>posita necessario abstrahit ab vtroque: sed persona diuiditur per 
+          <lb ed="#V" n="23"/>absolutum et relatiuum. ergo ipsa vt sic abstrahit ab 
+          absolu<lb ed="#V" n="24" break="no"/>to et relatiuo.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e174">
+          ¶ Contra istas conclusiones instatur 4r. Primo sic. 
+          <lb ed="#V" n="25"/>Quicquid ex ratione sua formali competit superiori illud etiam 
+          co<lb ed="#V" n="26" break="no"/>uenit inferiori: sed persone ex sua ratione formali conuenit sic 
+          ab<lb ed="#V" n="27" break="no"/>strahere: ergo et huic persone. et sic persona in divinis abstrahit 
+        </p>
+        <p xml:id="FrMS88-e58831-d1e183">
+          <lb ed="#V" n="28"/>¶ Confirmatur: quia secundum Augu. persona est ad se. ergo hec 
+          persona<lb ed="#V" n="29" break="no"/>est ad se.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e190">
+          ¶ 2o sic. Quicquid denominatiue dicitur de inferiori videtur 
+          <lb ed="#V" n="30"/>dici de superiori: sed referri et constitui ex absoluto et 
+          rela<lb ed="#V" n="31" break="no"/>tiuo dicitur de hac persona in diuinis. ergo dicetur et de persona¬ 
+        </p>
+        <p xml:id="FrMS88-e58831-d1e197">
+          <lb ed="#V" n="32"/>¶ 3o sic. Quicquid est in genere substantie siue praedicamentalis 
+          si<lb ed="#V" n="33" break="no"/>ue transcendentis est absolutum: sed persona est huiusmodi: quia persona 
+          dis<lb ed="#V" n="34" break="no"/>finitur per indiuiduam substantiam.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e206">
+          ¶ Et confirmatur. quia nam 
+          intelle<lb ed="#V" n="35" break="no"/>ctualis est aliquid absolutum. diffinitur autem per naturam 
+          intellectua<lb ed="#V" n="36" break="no"/>lem.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e214">
+          ¶ 4o sic. Omne illud quod ex diffinitione sua est alterius illud 
+          <lb ed="#V" n="37"/>idetur esse relatiuum et non absolutum nec neutrum: sed persona est 
+          <lb ed="#V" n="38"/>alterius secundum diffinitionem nunc datam. Est enim intellectualis 
+          natura<lb ed="#V" n="39" break="no"/>indiuidua substantia. ergo erit relatiua.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e223">
+          ¶ Ad primum dico quod licet 
+          <lb ed="#V" n="40"/>psona quelibet inquantum addit ad rationem persone in communi sit 
+          abso<lb ed="#V" n="41" break="no"/>luta vel relatiua: sicut homo ratione additi est rationalis. tamen 
+          in<lb ed="#V" n="42" break="no"/>quantum persona semper abstrahit sicut homo inquantum animal non est 
+          ratio<lb ed="#V" n="43" break="no"/>nalis. Vel potest dici quod a superiori ad inferius numquam tenet consequentia in 
+          <lb ed="#V" n="44"/>ecundis intentionibus. abstrahere autem et praescindere et talia v 
+          <lb ed="#V" n="45"/>dentur esse secunde intentiones: vel saltem attribuuntur alicui secundum illud 
+          <lb ed="#V" n="46"/>secundum quod sibi attribuitur secunda intentio.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e241">
+          ¶ Ad confirmationem 
+          di<lb ed="#V" n="47" break="no"/>co quod ad se dupliciter intelligitur. pramo positiue: et sic accipitur pro 
+          al<lb ed="#V" n="48" break="no"/>soluto: sicut incorporeum accipitur positiue secundum quod constituit 
+          <lb ed="#V" n="49"/>speciem ex opposito distinctam contra specie constitutam per corporeum 
+          <lb ed="#V" n="50"/>2o modo accipitur negatiue: sicut dicimus quod ad se potest dici quod 
+          <lb ed="#V" n="51"/>non est ad aliud: sicut dicimus quod substantia: vt substantia non est 
+          corpo<lb ed="#V" n="52" break="no"/>rea hoc est non includit in se corporeitatem: nec sequitur quod sit 
+          <lb ed="#V" n="53"/>incorporea. nam incorporeum est differentia diuidens substantiam.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e259">
+          ¶ Sic 
+          <lb ed="#V" n="54"/>dico in proposito de persona. Persona enim vt persona non est ad 
+          <lb ed="#V" n="55"/>aliud: et isto modo negatiue accipiendo est ad se: sed non 
+          se<lb ed="#V" n="56" break="no"/>quitur. ergo absoluta: quia requritur quod sit ad se positiue: et vt sic 
+          <lb ed="#V" n="57"/>non est ad se. primo modo intelligit Aug.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e270">
+          ¶ Ad 2m potest dici quod quan 
+          <lb ed="#V" n="58"/>arguitur a persona patris inquantum supponit pro patre et pro 
+          pria<lb ed="#V" n="59" break="no"/>intentione ad personam in communi: vt supponit pro se quod proprie non 
+          ar<lb ed="#V" n="60" break="no"/>guitur ab inferiori ad superius: quia inferius hoc est prima intentio. superius 
+          <lb ed="#V" n="61"/>autem secunda. sic est in proposito referri et constitui dicuntur de 
+          perso<lb ed="#V" n="62" break="no"/>na patris inquantum persona supponit pro patre et pro prima intentione. et 
+          <lb ed="#V" n="63"/>per consequens persona in communi ad quam fit argumentatio est 2a intentio 
+          <lb ed="#V" n="64"/>et ideo non valet.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e288">
+          ¶ Aliter potest dici quod locus a parte subiectiua 
+          de<lb ed="#V" n="65" break="no"/>ficit in duobus. Primo in secundis intentionibus et ideo quia 
+          consti<lb ed="#V" n="66" break="no"/>tui est secunda intentio non tenet ibi. deficit etiam in relatiuis: quia si¬ 
+          <!--163.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>species est ad aliquid non sequitur quod genus sit ad aliquid. huiusmodi est 
+          re<lb ed="#V" n="68" break="no"/>ferri. vt patet.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e305">
+          ¶ Ad 3m dico quod sicut generatio diffinitur per naturam: 
+          si<lb ed="#V" n="69" break="no"/>cut per aliquid circa quod habet fieri: non tamen quod sit formaliter natura. sic 
+          <lb ed="#V" n="70"/>dico quod persona: sicut per circumstantiam subiecti vel alterius 
+          cir<lb ed="#V" n="71" break="no"/>ca quod habet fieri diffinitur per substantiam et naturam intellectualem: non tamen 
+          <lb ed="#V" n="72"/>est quiditatiue aliquod istorum.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e316">
+          ¶ Ad 4m dico quod illa diffinites 
+          <lb ed="#V" n="73"/>circumlocutiua: sicut quando dicimus. albedo est mensura 
+          colo<lb ed="#V" n="74" break="no"/>rum.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e323">
+          ¶ Et praeterea illud quod est alicuius vt subienti non oportet quod sit 
+          re<lb ed="#V" n="75" break="no"/>latiuum. Persona autem est naturae intellectualis sicut subsitanti 
+          cir<lb ed="#V" n="76" break="no"/>ca quod habet fieri: sicut color superficiei.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e330">
+          ¶ Sed hic est di. Utrum 
+          <lb ed="#V" n="77"/>prsona. sit nomen dignitatis vel perfectionis.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e335">
+          ¶ Dico quod sicut 
+          <lb ed="#V" n="78"/>esse papam est nomen dignitatis: non tamen perfectionis: quia est secunda 
+          <lb ed="#V" n="79"/>intentio: et respectum quendam dicit. sic dico de persona quod est 
+          <lb ed="#V" n="80"/>nomen dignitatis non tamen perfectionis: quia est secunda intentio. 
+          In<lb ed="#V" n="81" break="no"/>telligendum tamen ad euidentiam multorum hoc dictorum quod superiora 
+          <lb ed="#V" n="82"/>aliquando dicuntur ad aliquid: et etiam inferiora: sicut similitudo et 
+          con<lb ed="#V" n="83" break="no"/>formitas. conformitas. enim dicitur de similitudine et vtrumque est ad 
+          <lb ed="#V" n="84"/>aliquid. aliquando nec superius nec inferius: sicut albedo et 
+          color<lb ed="#V" n="85" break="no"/>aliquod superius et non inferius: sicut scientia dicitur ad aliquid: non tamen 
+          <lb ed="#V" n="86"/>grammatica. aliquando inferius et non superius: sicut scientia est ad 
+          <lb ed="#V" n="87"/>aliquid: et tamen qualitas que est genus non est ad aliquid.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e359">
+          ¶ Sed 
+          <lb ed="#V" n="88"/>quomodo est hoc possibile. Dico quod si aliquid quod est in vna 
+          coor<lb ed="#V" n="89" break="no"/>dinatione est absolutum vel relatiuum omnia illius 
+          coordina<lb ed="#V" n="90" break="no"/>tionis erunt talia. scientia autem quiditatiue non est ad aliquid: et ideo 
+          <lb ed="#V" n="91"/>non oportet quod grammatica vel qualitas sit ad aliquid. Sed 
+          supposi<lb ed="#V" n="92" break="no"/>to quod solum denominatiue est ad aliquid: quare suum genus non est 
+          <lb ed="#V" n="93"/>ad aliud vel sua species: Dico quod sicut superius dictum est 
+          <lb ed="#V" n="94"/>locus a parte subiectiua non tenet in secundis 
+          intentio<lb ed="#V" n="95" break="no"/>nibus nec in relatiuis.
+        </p>
+        <p xml:id="FrMS88-e58831-d1e380">
+          ¶ Ad argumentum patet. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

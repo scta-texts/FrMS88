@@ -1,685 +1,685 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 5</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 5</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="113-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e83731"><!-- l1d36q5 -->
-            <head xml:id="FrMS88-e83731-Hd1e108">Quaestio 5</head>
-            <p xml:id="FrMS88-e83731-d1e111">
-      Quaestio. v. 
-      <lb ed="#V" n="10"/>deus intelligat infinita actua 
-      <lb ed="#V" n="11"/>Trum liter. Quod non. quia scriptura scintie 
-      <lb ed="#V" n="12"/>tiam dei comparat arene maris: et pluuie 
-      gut<lb ed="#V" n="13" break="no"/>tis: sed ista non sunt infintum. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e122">
-      ¶ Contra. et 
-      <lb ed="#V" n="14"/>sapientie eius non est numerus. in psalmo. i 4do. 
-      <lb ed="#V" n="15"/>ad declarationem presentium et predictorum et 
-      di<lb ed="#V" n="16" break="no"/>Hic cendorum. ponuntur quatuor preambula.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e131">
-      ¶ 
-      Pri<lb ed="#V" n="17" break="no"/>mum est istud. quod quecumque deus cognoscit per obiectum 
-      <lb ed="#V" n="18"/>vnum primum scilicet per essentiam suam cognoscit: quia ipsa 
-      <lb ed="#V" n="19"/>continet et repraesentat supereminenter omnia.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e140">
-      ¶ 2m est. quod 
-      de<lb ed="#V" n="20" break="no"/>us omnia cognoscit per vnum actum indiuisibilem: quia tanta 
-      <lb ed="#V" n="21"/>illimitatio actus infiniti: sicut potentie infinite. Nos 
-      au<lb ed="#V" n="22" break="no"/>tem eadem potentia omnia cognoscimus sicut deus eodem actus 
-      <lb ed="#V" n="23"/>Unde Aug. de tri. dicit. quod deus vna et eterna et 
-      innume<lb ed="#V" n="24" break="no"/>rabili visione complectitur cuncta quae videt.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e154">
-      ¶ 3m est. quod 
-      de<lb ed="#V" n="25" break="no"/>us non cognoscit omnia per vnum quasi habitum. quia licet in 
-      <lb ed="#V" n="26"/>deo non sit proprie habitus. est tamen ibi aliquid a nobis 
-      <lb ed="#V" n="27"/>intellectum per modum habitus. vt scientia et sapietia: quae 
-      viden<lb ed="#V" n="28" break="no"/>tur in deo formaliter distincta: vt scilicet sapieinia sit ad intra: scientia 
-      <lb ed="#V" n="29"/>autem sit ad extra: quia respectu diuinorum videtur sapientia. 
-      re<lb ed="#V" n="30" break="no"/>pectu autem creatorum dicitur scientia secundum Aug. 14. de tri.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e170">
-      ¶ 4m 
-      prae<lb ed="#V" n="31" break="no"/>ambulum est. quod deus non cognoscit omnia per vnicum 
-      repria<lb ed="#V" n="32" break="no"/>sentatiuum: quia habet in se formaliter plures vdeas. sicut dicit 
-      <lb ed="#V" n="33"/>Aug. surm quionum. et per illas cognoscit creaturas 
-      distin<lb ed="#V" n="34" break="no"/>cte. Unde dicit. quod alia ratione conditus est homo: et alia equus 
-      </p>
-            <p xml:id="FrMS88-e83731-d1e181">
-               <lb ed="#V" n="35"/>¶ Sed contra ista pambula instatur 4r.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e186">
-      ¶ Primo sic. quia cum 
-      <lb ed="#V" n="36"/>diuina essentia eminenter contineat omnia contingentia: secundum 
-      <lb ed="#V" n="37"/>quod contingentia: sicut et necessaria: vniformiter ea 
-      repraesen<lb ed="#V" n="38" break="no"/>tabit. Et sic diuinus intellectus ea naturaliter intelliget: et sic 
-      <lb ed="#V" n="39"/>necessario.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e197">
-      ¶ 2o sic. quia idem actus non potest esse 
-      affirmati<lb ed="#V" n="40" break="no"/>uus et negatiuus. sed deus habet simul notitiam de 
-      verita<lb ed="#V" n="41" break="no"/>tibus affirmatiuis et negatiuis.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e204">
-      ¶ Confirmatur. quia 
-      ea<lb ed="#V" n="42" break="no"/>dem ratione ponetur vnicus actus in voluntate: cum tamen deus 
-      <lb ed="#V" n="43"/>habeat actum volendi et nolendi: quae non videntur idem actus. 
-      </p>
-            <p xml:id="FrMS88-e83731-d1e212">
-               <lb ed="#V" n="44"/>¶ 3o sic. quia non videtur quare deo non ita sufficiat vna 
-      illimi<lb ed="#V" n="45" break="no"/>tata perfectio se habens per modum habitus: sicut se habens per 
-      <lb ed="#V" n="46"/>modum actus. Et ita vnus habitus solum.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e221">
-      ¶ 4o sic. quia cum 
-      <lb ed="#V" n="47"/>essentia diuina sit supereminenter omnia continens: videtur sufficere 
-      <lb ed="#V" n="48"/>ad omnia contenta perfectissime repraesentanda. et sic viderentur vdee 
-      <lb ed="#V" n="49"/>totaliter sumperflue.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e230">
-      ¶ Ad primum dico. quod cum diuina essentia 
-      <lb ed="#V" n="50"/>radicabiliter contineat voluntatem: quicquid continetur a 
-      vo<lb ed="#V" n="51" break="no"/>luntate continetur ab essentia: et ideo contingentia: vt sic: 
-      conti<lb ed="#V" n="52" break="no"/>nentur in diuina essentia supereminenter et vniformiter: 
-      <lb ed="#V" n="53"/>non tamen vt sic: sunt ibi repraesentata secundum variationem suam: qua 
-      <lb ed="#V" n="54"/>e non videtur sufficiens ratio representandi ratio continendi: 
-      si<lb ed="#V" n="55" break="no"/>cut forte vel non omnia representat que eminenter 
-      con<lb ed="#V" n="56" break="no"/>tinet.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e248">
-      ¶ Ad 2m dico. quod eodem actu potest deus 
-      affirma<lb ed="#V" n="57" break="no"/>re et negare: velle et nolle: illud: sicut nos eadem 
-      poten<lb ed="#V" n="58" break="no"/>tia. Non esset tamen multis inconueniens: sicut aliquin 
-      viden<lb ed="#V" n="59" break="no"/>tur ponere quod in illo actu essent diuerse rationes formales 
-      </p>
-            <p xml:id="FrMS88-e83731-d1e257">
-               <lb ed="#V" n="60"/>¶ Ad 3m est satis rationabile. quod ita sufficiat: et ideo tunc 
-      <lb ed="#V" n="61"/>sicut vnus et idem actus in deo est sapientialis et 
-      scientia<lb ed="#V" n="62" break="no"/>lis secundum habitudinem ad diuersa obiecta: aut secundum 
-      diuer<lb ed="#V" n="63" break="no"/>sas rationes formales in eo: ita etiam eadem perfectio 
-      qua<lb ed="#V" n="64" break="no"/>si habitualis. Et ita potest vnum exemplar poni quasi 
-      tota<lb ed="#V" n="65" break="no"/>le: habens in virtute multa exemplaria quaesi partialia.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e273">
-      ¶ Ad  
-      <lb ed="#V" n="66"/>4m dico. quod illa ratio continentie non videtur perfectissima ratio 
-      <!--228.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>necessario cognoscendi vel repraesentandi: si ponantur in deo 
-      <lb ed="#V" n="68"/>exemplaria formaliter.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e287">
-      ¶ Exemplum: sicut sol perfectius 
-      contine<lb ed="#V" n="69" break="no"/>tur in substantia ab eo genita quam in specie que est quoddam accidens: 
-      <lb ed="#V" n="70"/>et tamen perfectius cognoscitur per speciem suam quam per effectum: 
-      <lb ed="#V" n="71"/>quanuis effectus sit substantia et spes sit accidens: sic dico in proposito 
-      </p>
-            <p xml:id="FrMS88-e83731-d1e296">
-               <lb ed="#V" n="72"/>¶ Sed hoic occurrunt difficultas quia secundum premissa non videtur bene 
-      <lb ed="#V" n="73"/>posse saluari quod diuina essentia sit primum obiectum et 
-      ad<lb ed="#V" n="74" break="no"/>equatum intellectus diuini: cum in ipsa non cognoscat 
-      <lb ed="#V" n="75"/>ipsa contingentia: sed in actu voluntatis: similiter cum per 
-      exen<lb ed="#V" n="76" break="no"/>plaria cognoscat creaturas.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e309">
-      ¶ Dico quod sicut vnus actus 
-      <lb ed="#V" n="77"/>est eni adequatus. ita et obiectum: quia non potest habere aliquem actum: 
-      <lb ed="#V" n="78"/>qui primo non terminetur ad diuinam essentiam: sicut ad 
-      <lb ed="#V" n="79"/>primum obiectum. sicut intellectus noster non potest habere aliquem 
-      <lb ed="#V" n="80"/>actum: qui primo non terminetur ad ens: licet secundario talis 
-      <lb ed="#V" n="81"/>actus possit ad non ens terminari.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e322">
-      ¶ 2a difficultas posito quod 
-      in<lb ed="#V" n="82" break="no"/>telligat creaturas terminatiue modo exposito in 
-      praeceden<lb ed="#V" n="83" break="no"/>ti quaestione. Utrum diuinus intellectus possit plura intelligere 
-      <lb ed="#V" n="84"/>quam intelligat.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e331">
-      ¶ Dico quod respectu necessariorum non: cum 
-      <lb ed="#V" n="85"/>naturali necessitate feratur in omnia talia. Respectu autem 
-      <lb ed="#V" n="86"/>contingentium dico. quod sicut voluntas diuina potest plura vel 
-      <lb ed="#V" n="87"/>le quam velit: eo quod potest plura facere que non facit et 
-      paucio<lb ed="#V" n="88" break="no"/>ra. Sic dico de scientia diuina: vnde sicut voluntas diuina 
-      <lb ed="#V" n="89"/>potest minui vel augeri: sic notitia diuina de futuris 
-      con<lb ed="#V" n="90" break="no"/>tingentibus.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e347">
-      ¶ 3a difficultas. Utrum hoc ponat aliquam 
-      muta<lb ed="#V" n="91" break="no"/>tionem in deo.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e353">
-      ¶ Dico quod non. sed solum productio talium 
-      <lb ed="#V" n="92"/>obiectorum in esse volito vel cognito: quae incipit est sine 
-      mu<lb ed="#V" n="93" break="no"/>tatione diuina. sicut productio in esse existentie incipit esse 
-      si<lb ed="#V" n="94" break="no"/>ne mutatione diuina.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e362">
-      ¶ 4a difficultas vtrum diuinus intellectus 
-      <lb ed="#V" n="95"/>comprehendat diuinam essentiam. Dico quod in hoc differunt 
-      comn<lb ed="#V" n="96" break="no"/>prehendere et apprehendere secundum mentem Augus. s3. 
-      <lb ed="#V" n="97"/>qui. quia apprehendere est attingere operatione 
-      intel<lb ed="#V" n="98" break="no"/>lectiua aliquod obiectum: et sic creatura potest apprehendere non 
-      <lb ed="#V" n="99"/>solum creaturam: sed etiam deum. Comprehendere autem est attinge 
-      <lb ed="#V" n="100"/>re tale obiectum adequate: quantum in se est attingibile. Et isto 
-      <lb ed="#V" n="101"/>modo licet creatura non poterit deum comprehendere: tamen diuinus 
-      <lb ed="#V" n="102"/>intellectus bene. Si vero deus sit sibi comprehensibilis: tunc 
-      <lb ed="#V" n="103"/>comprehensio est alicuius obiecti secundum aliquam determinatam 
-      men<lb ed="#V" n="104" break="no"/>suram: sed apprehensio quando in supereminenti attingit secundarium 
-      <lb ed="#V" n="105"/>obiectum supereminenter ibi contentum: sicut sunt creature. 
-      <lb ed="#V" n="106"/>praemissis ponitur veritas quaestionis determinata per 
-      <lb ed="#V" n="107"/>Istis sacram scripturam: qui scilicet ifinita sunt a deo 
-      actua<lb ed="#V" n="108" break="no"/>liter cognita.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e395">
-      ¶ Confirmat per Aug. de ci. di. libo. 12. c. ig. 
-      <lb ed="#V" n="109"/>vbi ex intentione dicit et probat quod deus cognoscit actualiter 
-      <lb ed="#V" n="110"/>infinita.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e402">
-      ¶ Ista autem veritas probatur quadruplici ratione. 
-      Pri<lb ed="#V" n="111" break="no"/>mo sic. Nam infinite partes sunt in quolibet continnuo: 
-      salte<lb ed="#V" n="112" break="no"/>in potentia. cum sit diuisibile in infinitum: sed deus omnes 
-      il<lb ed="#V" n="113" break="no"/>las cognoscit: ergo etc. Probo minorem dupliciter. Primo. quia 
-      <lb ed="#V" n="114"/>eas diuina voluntas conseruat in esse. ergo diuinus intellectus 
-      <lb ed="#V" n="115"/>tas intelligit. 2o. quia cuilibet potentie passiue 
-      correspon<lb ed="#V" n="116" break="no"/>det potentia actiua: sed continuum est in infinitum diuisibile 
-      <lb ed="#V" n="117"/>passiue: ergo in deo erit potentia actiua. sed deus nouit quicquid est 
-      <lb ed="#V" n="118"/>in eo. ergo eam cognoscit. et per consequens partes continui quae sunt 
-      infi<lb ed="#V" n="119" break="no"/>nite: quod autem similis cognoscat omnes: patet: quia nullius cognitio 
-      <lb ed="#V" n="120"/>nem acquirere potest de nouo.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e426">
-      ¶ 2o sic. nam sunt infinite species 
-      <lb ed="#V" n="121"/>numerorum secundum Aug. 12. de ci. dei. quia infinitorum numerorum 
-      <lb ed="#V" n="122"/>non est numerus: sed deus cognoscit omnes. Unde Augs.e dicit 
-      <lb ed="#V" n="123"/>quod omnes isti numeri sunt in eius intellectu comprehensi: cuius 
-      sa<lb ed="#V" n="124" break="no"/>pientie non est numerus.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e437">
-      ¶ 3o sic. quia in qualibet linea sunt 
-      <lb ed="#V" n="125"/>infinita puncta. cum ipsa sit diuisibilis in infinitum et in 
-      quali<lb ed="#V" n="126" break="no"/>bet diuisione causentur etiam duo puncta. Sunt ergo 
-      infini<lb ed="#V" n="127" break="no"/>ta saltem in potentia. sed deus omnia cognoscit: cum diuidendo 
-      <lb ed="#V" n="128"/>voluntas diuina possit ea ponere in actu.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e449">
-      ¶ 4o sic. in 
-      qua<lb ed="#V" n="129" break="no"/>libet die sunt infinita instantia: et in quolibet generatur 
-      <lb ed="#V" n="130"/>vnus radius solis: cum raptim transeat. et diuina 
-      volun<lb ed="#V" n="131" break="no"/>tas concurrit ad causandum quemlibet radium cum sole. 
-      <lb ed="#V" n="132"/>ergo infinitos radios cognoscit simul diuinus intellectus. 
-      <!--229.xml-->
-      <pb ed="#V" n="113-v"/>
-               <cb ed="#V" n="a"/>
-            </p>
-            <p xml:id="FrMS88-e83731-d1e467">
-               <lb ed="#V" n="1"/>¶ Confirmantur omnia ista. quia deus in actu cognoscit omnia 
-      <lb ed="#V" n="2"/>que potest facere successiue: sed deum potest infinita indiuidua 
-      <lb ed="#V" n="3"/>caulare sub aliqua specie. ergo ea cognoscit et simul. quia 
-      si<lb ed="#V" n="4" break="no"/>mul cognoscit quod potest facere successiue. Minor patet. quia 
-      <lb ed="#V" n="5"/>aliter non posset perpetuare mundum. Ad perpetuationem 
-      <lb ed="#V" n="6"/>enim mundi necessario requritur vel quod in aliquibus 
-      specie<lb ed="#V" n="7" break="no"/>bus indiuidua procedant in infinitum. vel oportet quod idem 
-      nul<lb ed="#V" n="8" break="no"/>mero infinities redeat. Primum autem communius ponitur 
-      </p>
-            <p xml:id="FrMS88-e83731-d1e487">
-               <lb ed="#V" n="9"/>¶ Sed contra instatur 4r. Primo sic. Omnes partes quas 
-      <lb ed="#V" n="10"/>deus cognoscit in continuo sunt diuisibiles in partes 
-      vlte<lb ed="#V" n="11" break="no"/>riores: et ille partes vlteriores sunt partes continui.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e496">
-      ¶ Tunc 
-      <lb ed="#V" n="12"/>sic. Ille intellectus non cognoscit omnes partes continui: quia 
-      <lb ed="#V" n="13"/>illud continuum continnet partes aliquas vltra omnes quas ille 
-      im<lb ed="#V" n="14" break="no"/>tellectus cognoscit: sed omne continuum est huiusmodi. quia omnes partes 
-      <lb ed="#V" n="15"/>quas deus cognoscit in continuo sunt diuisibiles in 
-      par<lb ed="#V" n="16" break="no"/>tes vlteriores: ergo sunt partes alique vltra cognitas a 
-      <lb ed="#V" n="17"/>deo.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e512">
-      ¶ 2o sic. omnis species numeri habet speciem numeri vltra se 
-      <lb ed="#V" n="18"/>maiorem quam deus cognoscit: cum per appositionem vnitatis 
-      <lb ed="#V" n="19"/>varietur numerus: ergo vltra omnes species quas videt: vi 
-      <lb ed="#V" n="20"/>det aliquas maiores. Sed omnis species maior omni specie nume 
-      <lb ed="#V" n="21"/>ri: non est species numeri: ergo si deus intelligit omnem speciem 
-      <lb ed="#V" n="22"/>numeri: intelligit necessario aliquam speciem numeri: que non est 
-      <lb ed="#V" n="23"/>species numeri: hoc est falsum: ergo illud ex quo sequitur. 
-      </p>
-            <p xml:id="FrMS88-e83731-d1e528">
-               <lb ed="#V" n="24"/>¶ 3o sic. Inter primum punctum qui est in linea: et quemlibet alium 
-      <lb ed="#V" n="25"/>a deo cognitum: aut est dare medium: aut non. Si sic. tunc 
-      <lb ed="#V" n="26"/>illud medium aut est diuisibile: et tunc erunt ibi multa 
-      pum<lb ed="#V" n="27" break="no"/>cta ante omnia alia puncta. que sunt in linea a deo 
-      cogni<lb ed="#V" n="28" break="no"/>ta. Et tunc deum no cognoscet omnia puncta: quae sunt in linea 
-      <lb ed="#V" n="29"/>Aut illud medium erit indiuisibile: et tunc ille punctus non 
-      <lb ed="#V" n="30"/>erit a deo cognitus per eandem deductionem.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e547">
-      ¶ Si autem 
-      <lb ed="#V" n="31"/>dicas. quod non est dare medium: tunc sequitur continuum 
-      con<lb ed="#V" n="32" break="no"/>poni ex indiuisibilibus.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e554">
-      ¶ 4o sic. deus distincte radios 
-      <lb ed="#V" n="33"/>solis cognoscit. Tunc sic. aut inter ipsum primum radium et 
-      quem<lb ed="#V" n="34" break="no"/>cumque alium cognitum a deo. est radius medius: aut non. 
-      <lb ed="#V" n="35"/>Si sic. tunc ille non erit a deo cognitus: cum sit extra omnem 
-      <lb ed="#V" n="36"/>alium radium a deo cognitum. Si non sit radius alius: tunc 
-      <lb ed="#V" n="37"/>alius radius a deo cognitus immediatesequitur alium: et 
-      <lb ed="#V" n="38"/>per consequens cum radius adequate coexistat instanti temporis: 
-      <lb ed="#V" n="39"/>istans temporis erit immediatum instanti.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e572">
-      ¶ Iste instantie 
-      soluun<lb ed="#V" n="40" break="no"/>tur ab aliquibus logicaliter ab aliis sophistice. premo sic. quia hoc 
-      <lb ed="#V" n="41"/>signum omne vel quodlibet: in altera praemissarum sumitur 
-      colle<lb ed="#V" n="42" break="no"/>ctiue: in altera distributiue. Sed hoc non euacuat: quia 
-      in<lb ed="#V" n="43" break="no"/>vtraque praemissarum est vera diuisio: et vera distributio. 2m 
-      <lb ed="#V" n="44"/>soluuntur ab aluis sic: quia signum in vna habet suppositionem 
-      sim<lb ed="#V" n="45" break="no"/>plicem: in alia confusam. Sed nec hoc satisfacit: quia vtrobi 
-      <lb ed="#V" n="46"/>que habet suppositionem simplicem.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e590">
-      ¶ his ergo praemissis que non 
-      quie<lb ed="#V" n="47" break="no"/>tant intellectum pono quatuor praeambula. Primum est. quod 
-      <lb ed="#V" n="48"/>equale et inequale sunt passiones quantitatis finite adequa 
-      <lb ed="#V" n="49"/>te. Unde si essent quantitates infinite: non essent equales vel 
-      <lb ed="#V" n="50"/>inequales: et huius ratio est: quia equalia sunt quorum extrema non 
-      <lb ed="#V" n="51"/>excedunt se: in infinitis autem non sunt extrema.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e603">
-      ¶ 2m 
-      praema<lb ed="#V" n="52" break="no"/>bulum est. quod totum et pars non inueniuntur nisi in quantitate 
-      <lb ed="#V" n="53"/>finita: patet ex praecedenti. quia vbicumque est maioritas vel mino 
-      <lb ed="#V" n="54"/>ritas: ibi est equalitas vel inequalitas: sed vbi est totum 
-      <lb ed="#V" n="55"/>et pars: ibi est maioritas et minoritas: sed maioritas et 
-      <lb ed="#V" n="56"/>minoritas sunt species inequalitatis. Et ostensum est quod 
-      inequa<lb ed="#V" n="57" break="no"/>litas non inuenitur nisi in quantitate finita: ergo nec totum 
-      <lb ed="#V" n="58"/>nec pars inuenietur nisi in quantitate finita.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e621">
-      ¶ 3m pramabulum 
-      <lb ed="#V" n="59"/>est. quod tolum in quantitate est quaedam species totius. et pars in 
-      quan<lb ed="#V" n="60" break="no"/>titate est quaedam species partis: totum autem designatur per vniversale vniversaliter 
-      sum<lb ed="#V" n="61" break="no"/>ptum. pars autem per vniversale et non vniversaliter sumptum.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e631">
-      ¶ Est ergo 
-      regu<lb ed="#V" n="62" break="no"/>la talis. quod cuicumque repugnat superius: repugnat inferius: 
-      <lb ed="#V" n="63"/>sed infinito vt infinitum est: repugnat ratio totius in vniverli: ergo 
-      re<lb ed="#V" n="64" break="no"/>pugnat sibi ratio totius in quantitate: et sic ei non potest addi  
-      <lb ed="#V" n="65"/>signum vniversale. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e642">
-      ¶ 4m praemabulum est. quod de infinita 
-      multi<lb ed="#V" n="66" break="no"/>tudine non potest verificari vniuersalis affirmatiua. quia 
-      <!--229.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>iversalis affirmatiua est quoddam totum in quantitate: sed osten 
-      <lb ed="#V" n="68"/>sum est quod infinito: vt infinitum est repugnat ratio totius: 
-      <lb ed="#V" n="69"/>ergo et huius totius.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e658">
-      ¶ Confirmatur: quia si infiniti homines 
-      <lb ed="#V" n="70"/>essent. idem esset dicere: omnes homines et tota multitudo 
-      <lb ed="#V" n="71"/>hominum: sed ostensum est. quod totalitas repugnat 
-      infi<lb ed="#V" n="72" break="no"/>nito: vt infinitum est: ergo et totum vniversale scilicet omnis.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e667">
-      ¶ Sed contra ista primo 
-      <lb ed="#V" n="73"/>ambula arguitur vt magis declarentur. Primo quia 
-      de<lb ed="#V" n="74" break="no"/>us est quo maius cogitari nihil potest. est etiam maius quam 
-      ali<lb ed="#V" n="75" break="no"/>quid aliud quod possit cogitari: vt docet Ans. in 
-      proso<lb ed="#V" n="76" break="no"/>Et sic est ibi maioritas que est species inequalitatis. et ratio 
-      <lb ed="#V" n="77"/>infinitatis.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e680">
-      ¶ 2o quia inter diuinas personas conceditur 
-      equali<lb ed="#V" n="78" break="no"/>tas. que tamen sunt infinite intensiue. 3o quia infinite multitudini 
-      <lb ed="#V" n="79"/>non repugnat totum vniversale infra eandem speciem: et tamen est species 
-      to<lb ed="#V" n="80" break="no"/>tius ita totum vniversale: sicut totum in quantitate.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e689">
-      ¶ 4o. quia tunc 
-      <lb ed="#V" n="81"/>de infinitate nullus svllectus poterit formari: quia nullus 
-      svl<lb ed="#V" n="82" break="no"/>logismus est debite formatus: cuius nulla praemissarum est vniuersalis: 
-      <lb ed="#V" n="83"/>sed impossibile est. per te quod aliqua praemissarum verificetur vniversalis de 
-      infi<lb ed="#V" n="84" break="no"/>nito. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e701">
-      ¶ Ad primum dico. quod inequalitas vt hic accipitur 
-      <lb ed="#V" n="85"/>est excessus secundum proportionem. deus autem fine 
-      proportio<lb ed="#V" n="86" break="no"/>ne omnia excedit. et per consequens non est inequalis.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e708">
-      ¶ Ad 2m dico. quod 
-      <lb ed="#V" n="87"/>equalitas et inequalitas: de quibus est nunc intentio: est 
-      <lb ed="#V" n="88"/>illa quae est in quantitatibus illis que constant ex partibus 
-      <lb ed="#V" n="89"/>realiter distinctis: quia ibi est solum totum / et pars. quantitas 
-      au<lb ed="#V" n="90" break="no"/>tem que est in deo non est huiusmodi: quia non constat ex talibus 
-      rea<lb ed="#V" n="91" break="no"/>liter distinctis.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e721">
-      ¶ Ad 3m dico. quod totum vniversale est pars vera et 
-      <lb ed="#V" n="92"/>essentialis: et est totum equiuoce. eo quod totum vniversale 
-      inclu<lb ed="#V" n="93" break="no"/>ditur in qualibet sui parte: non tamen totum integrale vel totum 
-      <lb ed="#V" n="94"/>in quantitate: quia si sic: bicubitum esset in monocubito.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e730">
-      ¶ Ad  
-      <lb ed="#V" n="95"/>4m. si accipiatur aliqua multitudo finita de infinita mul¬ 
-      <lb ed="#V" n="96"/>¬titudinine: tunc de illa finita multitudine poterit formari 
-      <lb ed="#V" n="97"/>proposition: sed de infinita non poterit: eo quod non potest sibi addi 
-      si<lb ed="#V" n="98" break="no"/>gnum vniversale: sed bene de terminis vt abstrahunt a finito et in 
-      <lb ed="#V" n="99"/>finito.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e743">
-      ¶ Ideo dico quod signum vniversale non potest addi alicui 
-      in<lb ed="#V" n="100" break="no"/>finito inquantum infinitum: eo quod sibi repugnat ratio totius 
-      <lb ed="#V" n="101"/>et etiam partis.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e750">
-      ¶ Sed hic sunt difficultaes. Prima est. quia si essent 
-      <lb ed="#V" n="102"/>infiniti homines adhuc homo esset inferius ad animal: et sic pars. 
-      </p>
-            <p xml:id="FrMS88-e83731-d1e756">
-               <lb ed="#V" n="103"/>¶ Dico quod hoc conuenit homini inquantum est homo: quod sit anima 
-      <lb ed="#V" n="104"/>inquantum abstrahit ab vnitate et pluralitate scilicet quod secundum 
-      <lb ed="#V" n="105"/>rationem suam formalem: secundum quam abstrahit a finito et 
-      infi<lb ed="#V" n="106" break="no"/>nito. homo est animal.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e767">
-      ¶ Secunda difficultas est. quia si 
-      es<lb ed="#V" n="107" break="no"/>sent infiniti homines adhuc ista posset esse vera: quidam homo 
-      <lb ed="#V" n="108"/>currit: et sic particularis: sed non potest dari particularis 
-      si<lb ed="#V" n="109" break="no"/>ne vniuersali: ergo stante infinita hominum multitudine: 
-      <lb ed="#V" n="110"/>stabit vniuersalis. Dico quod non est inconueniens dari particule si 
-      <lb ed="#V" n="111"/>ne vniuersali. Et si dicas. particularis habet rationem 
-      par<lb ed="#V" n="112" break="no"/>tis: sed vbi pars: ibi totum. Dico quod illa particularis est 
-      re<lb ed="#V" n="113" break="no"/>spectu alicuius vniuersalis: non quidem vniuersalis verifica. 
-      <lb ed="#V" n="114"/>te. vel formate de infinita multitudine: sed per respectum 
-      <lb ed="#V" n="115"/>ad finitum de illa infinita multitudine: ratione cuius potest 
-      <lb ed="#V" n="116"/>formari propositio vniuersalis.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e791">
-      ¶ Tertia difficultas 
-      <lb ed="#V" n="117"/>si essent infiniti homines: adhuc hic homo esset indiuinduum. 
-      Di<lb ed="#V" n="118" break="no"/>co quod sic respectu alicuius multitudinins finite sumpter 
-      <lb ed="#V" n="119"/>Istis ergo praeambulis suppositis tanquam veris: facile est 
-      re<lb ed="#V" n="120" break="no"/>spondere ad instantias superius adductas.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e802">
-      ¶ Ad primum 
-      <lb ed="#V" n="121"/>cum dicitur. omnes partes continui quas deus cognoscit sunt 
-      <lb ed="#V" n="122"/>diuisibiles. Dico quod ista propositio includit incompossibilia in 
-      <lb ed="#V" n="123"/>suo subiecto si vniversaliter accipiatur: sicut insta: omnis homo irrationalis 
-      <lb ed="#V" n="124"/>currit: in subiecto includit incompossibilia: sicut hic: omni 
-      <lb ed="#V" n="125"/>sortes currit. Et ratio est: quia sorti repugnat quod sibi addatur 
-      <lb ed="#V" n="126"/>signum vniversale. Eodem modo dico. quod multitudini infinite 
-      repu<lb ed="#V" n="127" break="no"/>gnat addi signum vniversale: et ideo nec deus videt omnes partes 
-      <lb ed="#V" n="128"/>ptinui: nec non videt. Dico ergo. quod deus bene cognoscit 
-      par<lb ed="#V" n="129" break="no"/>tes continui: et omnes: pro quacumque determinata 
-      multitudi<lb ed="#V" n="130" break="no"/>ne. Sed si accipias multitudinem infinitam non cognoscit 
-      <lb ed="#V" n="131"/>omnes: quia non sunt omnes.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e828">
-      ¶ Ad 2m dico eodem modo de 
-      specie<lb ed="#V" n="132" break="no"/>bus numerorum.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e833">
-      ¶ Ad 3m dico. quod non est dare quemcunque 
-      <!--230.xml-->
-      <pb ed="#V" n="114-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>alium punctum in linea. Sicut non est dare omnem sortem 
-      <lb ed="#V" n="2"/>currere vel non currere: quia tali termino repugnat addi  
-      <lb ed="#V" n="3"/>tale signum. Eodem modo dico in proposito.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e850">
-      ¶ Et ad 4m similiter de 
-      <lb ed="#V" n="4"/>radiis.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e855">
-      ¶ Iste solutiones confirmantur. quia idem est omnis homo 
-      <lb ed="#V" n="5"/>et tota multitudo hominum. sed infinita multitudo hominum si 
-      <lb ed="#V" n="6"/>esset: non esse totum: quia aut tale totum constaret ex partibus 
-      fini<lb ed="#V" n="7" break="no"/>tis: et hoc est impossibile: quia ex finitis non constituitur nisi finitum 
-      <lb ed="#V" n="8"/>aut constaret ex infinitis: et tunc totum non esset maius sua 
-      par<lb ed="#V" n="9" break="no"/>te: quia sua pars esset infinita. Infinitum autem vt sic excedi non 
-      <lb ed="#V" n="10"/>potest.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e871">
-      ¶ Sed contra has solutiones instatur 4r. Primo sic. quia 
-      cu<lb ed="#V" n="11" break="no"/>iuslibet contradictionis altera pars vera est: quia de quolibet 
-      af<lb ed="#V" n="12" break="no"/>firmatio vel negatio etc.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e878">
-      ¶ Sed ista est falsa: quaedam pars 
-      <lb ed="#V" n="13"/>continui non est diuisibilis in vlteriores partes: ergo sua 
-      contradicto<lb ed="#V" n="14" break="no"/>ria est vera scilicet ista. Omnis pars continui est diuisibilis in 
-      vlterio<lb ed="#V" n="15" break="no"/>res partes. Similiter deus post primam aut cognoscit quamcumque 
-      <lb ed="#V" n="16"/>aliam: aut non cognoscit. Ista autem sunt extrema contradictionis: 
-      <lb ed="#V" n="17"/>igitur alterum verum.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e891">
-      ¶ Item 2o de numero. Aut omnis species 
-      nu<lb ed="#V" n="18" break="no"/>meri habet vlteriorem: aut non. Si non: et non omnis equipollet 
-      hu<lb ed="#V" n="19" break="no"/>ic. quidam non: sed ista est falsa: quidam numerus non habet speciem 
-      <lb ed="#V" n="20"/>vlteriorem: igitur sua equipollens. et per consequens eius contradictoria 
-      ve<lb ed="#V" n="21" break="no"/>ra scilicet quod omnis species numeri habet vlteriorem.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e902">
-      ¶ 3o sic. a 
-      singula<lb ed="#V" n="22" break="no"/>ribus sufficienter enumeratis sequitur vniversale vniversaliter sumptum: per 
-      <lb ed="#V" n="23"/>locum a toto in quantitate. Iste autem punctus post primum punctum 
-      <lb ed="#V" n="24"/>in linea est a deo cognitus: et iste alius: et sic de singulis. 
-      <lb ed="#V" n="25"/>ergo omnes puncti sunt a deo cogniti.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e914">
-      ¶ 4o sic. quia sicut est per se 
-      <lb ed="#V" n="26"/>notum quod omne totum est maius sua parte: ita est hec per se nota. omnis 
-      <lb ed="#V" n="27"/>pars minor est suo toto.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e921">
-      ¶ Sed istud distribuit pro 
-      infini<lb ed="#V" n="28" break="no"/>tis partibus continui: cum infinite sint partes in continuo: quarum 
-      <lb ed="#V" n="29"/>quaelibet minor est suo toto.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e928">
-      ¶ Confirmatur. nam certum est quod 
-      in<lb ed="#V" n="30" break="no"/>finiti homines sunt in potentia. tamen ista pro singulis verificatur. 
-      <lb ed="#V" n="31"/>omnis homo est risibilis. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e935">
-      ¶ Ad primum dico. pro propositione cuius 
-      <lb ed="#V" n="32"/>subiectum includit incompossibilia non est vera. et in deo non habet 
-      contra<lb ed="#V" n="33" break="no"/>dictionem: sicut ista. Omnis homo irrationalis est animal. quia eius 
-      contra<lb ed="#V" n="34" break="no"/>dictoria vera esse non potest: in cuius subiecto incompossibilia 
-      inclu<lb ed="#V" n="35" break="no"/>duntur. Et ita dico in proposito. dicendo omnis pars continui: pro 
-      infini<lb ed="#V" n="36" break="no"/>tis distribuendo.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e948">
-      ¶ Sed contra ista est bona contradictio. Omnis 
-      chi<lb ed="#V" n="37" break="no"/>mera est ens prohibitum: chimera non est prohibitum: et tamen subiectum 
-      <lb ed="#V" n="38"/>includit incompossibila. Potest dici quod aliter: si istud concedatur: quando 
-      <lb ed="#V" n="39"/>subiectum includit infra se tale quid: et aliter quando subiectum cum sibi ad 
-      <lb ed="#V" n="40"/>iuncto: vt si dicatur tota magnitudo puncti est simplex: et sic 
-      <lb ed="#V" n="41"/>ista non vetur habere contradictoriam: sicut nec ista. Omnis hic homo vel 
-      <lb ed="#V" n="42"/>omnis sortes currit.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e964">
-      ¶ Contra. nam omnis propositio vna cuius subiectum 
-      <lb ed="#V" n="43"/>talia non includit habet contradictoriam: sed talis est ista. omnis pars 
-      conti<lb ed="#V" n="44" break="no"/>nui non est diuisibilis. licet sit falsa: et ei non potest dari nisi ista. 
-      <lb ed="#V" n="45"/>omnis pars continui est diuisibilis: et tunc erit vera. Dinco quod 
-      contradi<lb ed="#V" n="46" break="no"/>ctoria sua est ista. non quaedam pars continui est divisibilis.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e976">
-      ¶ Et si 
-      <lb ed="#V" n="47"/>dicatur. quod ista equipollet isti: omnis pars continui est diuisibilis 
-      <lb ed="#V" n="48"/>Dico quod non est verum. quia ista est incompossibilis: et in 
-      incom<lb ed="#V" n="49" break="no"/>possibilibus non est equipollentia.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e985">
-      ¶ Ad 2m dico. quod non 
-      <lb ed="#V" n="50"/>omnis species numeri habet vlteriorem: quia ista negatur: omnis species 
-      nu<lb ed="#V" n="51" break="no"/>meri habet vlteriorem. non omnis autem equipollet ad quidam non 
-      <lb ed="#V" n="52"/>vbi scilicet propositio de omnis est vera. vbi autem non est vera: non. Nam 
-      <lb ed="#V" n="53"/>ista: sortes non est homo: non equipollet huic. non omnis 
-      sor<lb ed="#V" n="54" break="no"/>tes est homo: cum ista possit aliqualiter concedi. Dico ergo quod 
-      <lb ed="#V" n="55"/>ista non est concedenda. omnis species numeri habet vlteriorem: sicut 
-      <lb ed="#V" n="56"/>nec insta: omnis sortes currit.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e1003">
-      ¶ Sed contra. ista est vera: preter 
-      <lb ed="#V" n="57"/>quandam speciem numeri est species numeri: ergo eius 
-      contradicto<lb ed="#V" n="58" break="no"/>ria falsa: praeter omnem speciem numeri est dare specie numeri. 
-      <lb ed="#V" n="59"/>Dico quod hec non est contradictoria illius. sed solum illa que 
-      <lb ed="#V" n="60"/>est cum duplici negatione. Prima solutio apparet plus. 
-      </p>
-            <p xml:id="FrMS88-e83731-d1e1014">
-               <lb ed="#V" n="61"/>¶ Ad 3m dico. quod illa regula non tenet nisi vbi illa 
-      singula<lb ed="#V" n="62" break="no"/>ria sufficienter enumerata sunt partes vniversalis vniversaliter sumpti: quia 
-      <lb ed="#V" n="63"/>tenet per locum a parte in quantitate. Ista autem singularia in 
-      <lb ed="#V" n="64"/>proposito non sunt partes multitudinins infinite: cum 
-      sem<lb ed="#V" n="65" break="no"/>per sit proportio inter totum et partem. Sicut non potest 
-      <lb ed="#V" n="66"/>dici proprie: omnis persona in diuinis producta est a patre: a 
-      <!--230.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>singularibus sufficientes enumeratis. non sequitur. quia hoc 
-      si<lb ed="#V" n="68" break="no"/>gnum omnis: secundum antiquos philosophos: non dicitur minus quam de tribus. 
-      </p>
-            <p xml:id="FrMS88-e83731-d1e1038">
-               <lb ed="#V" n="69"/>¶ Ad 4m cum dicitur: omnis pars est minor suo toto. est ita 
-      equa<lb ed="#V" n="70" break="no"/>liter vera si sint finite vel infinite partes: et ideo verificatur 
-      <lb ed="#V" n="71"/>pro multitudine partium vt abstrahit a multitudine 
-      fi<lb ed="#V" n="72" break="no"/>nita vel infinita: sed tamen non pro infinita.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e1049">
-      ¶ Contra. quicquid 
-      ve<lb ed="#V" n="73" break="no"/>rificatur per se de superiori. verificatur per se de inferiori: cum 
-      <lb ed="#V" n="74"/>diffinitiones et passiones superiorum insint singulis inferioribus: 
-      <lb ed="#V" n="75"/>sed multitudo sic abstracta est quodam superius ad finitam 
-      <lb ed="#V" n="76"/>et infinitam. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e1061">
-      ¶ Dicitur quod verificatur de multitudine 
-      <lb ed="#V" n="77"/>infinita. tamen per accidens. quia sibi non conuenit inquantum est 
-      <lb ed="#V" n="78"/>infinita. sed inquantum est multitudo.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e1068">
-      ¶ Contra. quia eodem 
-      <lb ed="#V" n="79"/>modo verificatur de finita. et tamen est ibi simpliciter vera ac 
-      <lb ed="#V" n="80"/>concessa: et non alibi.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e1075">
-      ¶ Dicitur quod totalitas non repugnat 
-      <lb ed="#V" n="81"/>finito: et ideo ibi per accidens conceditur: et hic non: quando scilicet 
-      <lb ed="#V" n="82"/>determinatur ad infinitum. Vel potest dici sicut totum 
-      vni<lb ed="#V" n="83" break="no"/>uersale conuenit homini et repugnat sorti. ita 
-      distribu<lb ed="#V" n="84" break="no"/>tio conuenit multitudini simpliciter et in vniuersali: et 
-      ta<lb ed="#V" n="85" break="no"/>men repugnat multitudini infinite. Aut dicetur. quod 
-      quan<lb ed="#V" n="86" break="no"/>do dicitur omnis homo est risibilis. si sint infiniti. quod ly omnis 
-      <lb ed="#V" n="87"/>distribuit pro sola multitudine finita: quam accipit 
-      in<lb ed="#V" n="88" break="no"/>tellectus noster quando format illam propositionem. Et tunc 
-      te<lb ed="#V" n="89" break="no"/>nendo istam viam oportet dicere. quod illa que dicuntur a vulgo 
-      <lb ed="#V" n="90"/>contradictoria: possunt verificari. Infinitis enim 
-      homini<lb ed="#V" n="91" break="no"/>bus existentibus: accepta certa multitudine currentium: 
-      <lb ed="#V" n="92"/>esset vera ista propositio: omnis homo currit: accepto autem 
-      <lb ed="#V" n="93"/>vno qui non sit de illa multitudine prius accepta. dicetur 
-      <lb ed="#V" n="94"/>quod quidam homo non currit: et sic omnis homo currit: quidam 
-      <lb ed="#V" n="95"/>homo non currit: verificantur. Prima responsio tamen est melior. 
-      </p>
-            <p xml:id="FrMS88-e83731-d1e1110">
-               <lb ed="#V" n="96"/>¶ Iste rationes confirmantur: quia secundum philosophos: ante omnem motum 
-      <lb ed="#V" n="97"/>fuit motus: et ante omne tempus fuit tempus: et ante omnem 
-      <lb ed="#V" n="98"/>diem fuit dies. Illud autem signum scilicet omne: in istis 
-      propo<lb ed="#V" n="99" break="no"/>sitionibus non potest distribuere adequate pro infinita 
-      <lb ed="#V" n="100"/>multitudine: quia ante infinitam multitudinem dierum non 
-      <lb ed="#V" n="101"/>fuit dies: cum talis infinita multitudo sit eternitas: et 
-      an<lb ed="#V" n="102" break="no"/>te eternitatem nulla posset esse dies: ergo distribuit solum 
-      <lb ed="#V" n="103"/>pro finita multitudine accepta vel acceptabili.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e1130">
-      ¶ Item 
-      <lb ed="#V" n="104"/>sancti dicunt. quod deus posset mundum perpetuare: et de 
-      fa<lb ed="#V" n="105" break="no"/>cto perpetuabit penas et cogitationes: ita quod post omnem 
-      <lb ed="#V" n="106"/>cogitationem erit cogitatio. et sic non distribuit pro 
-      infini<lb ed="#V" n="107" break="no"/>tis. cum infinitas nulla sit futura.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e1141">
-      ¶ Sed hic est dif. 
-      qua<lb ed="#V" n="108" break="no"/>liter deus potest intelligere infinitam multitudinem: cum 
-      <lb ed="#V" n="109"/>fit impossibilis et ens prohibitum. Dispositio autem rei in 
-      ve<lb ed="#V" n="110" break="no"/>ritate est similis vel eadem dispositioni in entitate.
-    </p>
-            <p xml:id="FrMS88-e83731-d1e1151">
-      ¶ 
-      Di<lb ed="#V" n="111" break="no"/>co quod non est ita ens prohibitum quin inueniatur in 
-      poten<lb ed="#V" n="112" break="no"/>tia. ratio autem entis extenditur ad ea que sunt in potentia: et 
-      <lb ed="#V" n="113"/>vlterius non videtur inconueniens multis: ponere quod deus 
-      <lb ed="#V" n="114"/>intelligat sicut et nos entia prohibita. Uidetur etiam 
-      mul<lb ed="#V" n="115" break="no"/>tis quod ens infinitum non solum in multitudine: verum 
-      <lb ed="#V" n="116"/>etiam in magnitudine non sit ens prohibitum: sicut 
-      fu<lb ed="#V" n="117" break="no"/>it dist. 19. declaratum. et etiam aliquo modo ostensum. 
-      </p>
-            <p xml:id="FrMS88-e83731-d1e1169">
-               <lb ed="#V" n="118"/>¶ Ad argumentum in oppositum patet. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 5</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 5</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="113-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e83731"><!-- l1d36q5 -->
+        <head xml:id="FrMS88-e83731-Hd1e108">Quaestio 5</head>
+        <p xml:id="FrMS88-e83731-d1e111">
+          Quaestio. v. 
+          <lb ed="#V" n="10"/>deus intelligat infinita actua 
+          <lb ed="#V" n="11"/>Trum liter. Quod non. quia scriptura scintie 
+          <lb ed="#V" n="12"/>tiam dei comparat arene maris: et pluuie 
+          gut<lb ed="#V" n="13" break="no"/>tis: sed ista non sunt infintum. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e122">
+          ¶ Contra. et 
+          <lb ed="#V" n="14"/>sapientie eius non est numerus. in psalmo. i 4do. 
+          <lb ed="#V" n="15"/>ad declarationem presentium et predictorum et 
+          di<lb ed="#V" n="16" break="no"/>Hic cendorum. ponuntur quatuor preambula.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e131">
+          ¶ 
+          Pri<lb ed="#V" n="17" break="no"/>mum est istud. quod quecumque deus cognoscit per obiectum 
+          <lb ed="#V" n="18"/>vnum primum scilicet per essentiam suam cognoscit: quia ipsa 
+          <lb ed="#V" n="19"/>continet et repraesentat supereminenter omnia.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e140">
+          ¶ 2m est. quod 
+          de<lb ed="#V" n="20" break="no"/>us omnia cognoscit per vnum actum indiuisibilem: quia tanta 
+          <lb ed="#V" n="21"/>illimitatio actus infiniti: sicut potentie infinite. Nos 
+          au<lb ed="#V" n="22" break="no"/>tem eadem potentia omnia cognoscimus sicut deus eodem actus 
+          <lb ed="#V" n="23"/>Unde Aug. de tri. dicit. quod deus vna et eterna et 
+          innume<lb ed="#V" n="24" break="no"/>rabili visione complectitur cuncta quae videt.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e154">
+          ¶ 3m est. quod 
+          de<lb ed="#V" n="25" break="no"/>us non cognoscit omnia per vnum quasi habitum. quia licet in 
+          <lb ed="#V" n="26"/>deo non sit proprie habitus. est tamen ibi aliquid a nobis 
+          <lb ed="#V" n="27"/>intellectum per modum habitus. vt scientia et sapietia: quae 
+          viden<lb ed="#V" n="28" break="no"/>tur in deo formaliter distincta: vt scilicet sapieinia sit ad intra: scientia 
+          <lb ed="#V" n="29"/>autem sit ad extra: quia respectu diuinorum videtur sapientia. 
+          re<lb ed="#V" n="30" break="no"/>pectu autem creatorum dicitur scientia secundum Aug. 14. de tri.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e170">
+          ¶ 4m 
+          prae<lb ed="#V" n="31" break="no"/>ambulum est. quod deus non cognoscit omnia per vnicum 
+          repria<lb ed="#V" n="32" break="no"/>sentatiuum: quia habet in se formaliter plures vdeas. sicut dicit 
+          <lb ed="#V" n="33"/>Aug. surm quionum. et per illas cognoscit creaturas 
+          distin<lb ed="#V" n="34" break="no"/>cte. Unde dicit. quod alia ratione conditus est homo: et alia equus 
+        </p>
+        <p xml:id="FrMS88-e83731-d1e181">
+          <lb ed="#V" n="35"/>¶ Sed contra ista pambula instatur 4r.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e186">
+          ¶ Primo sic. quia cum 
+          <lb ed="#V" n="36"/>diuina essentia eminenter contineat omnia contingentia: secundum 
+          <lb ed="#V" n="37"/>quod contingentia: sicut et necessaria: vniformiter ea 
+          repraesen<lb ed="#V" n="38" break="no"/>tabit. Et sic diuinus intellectus ea naturaliter intelliget: et sic 
+          <lb ed="#V" n="39"/>necessario.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e197">
+          ¶ 2o sic. quia idem actus non potest esse 
+          affirmati<lb ed="#V" n="40" break="no"/>uus et negatiuus. sed deus habet simul notitiam de 
+          verita<lb ed="#V" n="41" break="no"/>tibus affirmatiuis et negatiuis.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e204">
+          ¶ Confirmatur. quia 
+          ea<lb ed="#V" n="42" break="no"/>dem ratione ponetur vnicus actus in voluntate: cum tamen deus 
+          <lb ed="#V" n="43"/>habeat actum volendi et nolendi: quae non videntur idem actus. 
+        </p>
+        <p xml:id="FrMS88-e83731-d1e212">
+          <lb ed="#V" n="44"/>¶ 3o sic. quia non videtur quare deo non ita sufficiat vna 
+          illimi<lb ed="#V" n="45" break="no"/>tata perfectio se habens per modum habitus: sicut se habens per 
+          <lb ed="#V" n="46"/>modum actus. Et ita vnus habitus solum.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e221">
+          ¶ 4o sic. quia cum 
+          <lb ed="#V" n="47"/>essentia diuina sit supereminenter omnia continens: videtur sufficere 
+          <lb ed="#V" n="48"/>ad omnia contenta perfectissime repraesentanda. et sic viderentur vdee 
+          <lb ed="#V" n="49"/>totaliter sumperflue.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e230">
+          ¶ Ad primum dico. quod cum diuina essentia 
+          <lb ed="#V" n="50"/>radicabiliter contineat voluntatem: quicquid continetur a 
+          vo<lb ed="#V" n="51" break="no"/>luntate continetur ab essentia: et ideo contingentia: vt sic: 
+          conti<lb ed="#V" n="52" break="no"/>nentur in diuina essentia supereminenter et vniformiter: 
+          <lb ed="#V" n="53"/>non tamen vt sic: sunt ibi repraesentata secundum variationem suam: qua 
+          <lb ed="#V" n="54"/>e non videtur sufficiens ratio representandi ratio continendi: 
+          si<lb ed="#V" n="55" break="no"/>cut forte vel non omnia representat que eminenter 
+          con<lb ed="#V" n="56" break="no"/>tinet.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e248">
+          ¶ Ad 2m dico. quod eodem actu potest deus 
+          affirma<lb ed="#V" n="57" break="no"/>re et negare: velle et nolle: illud: sicut nos eadem 
+          poten<lb ed="#V" n="58" break="no"/>tia. Non esset tamen multis inconueniens: sicut aliquin 
+          viden<lb ed="#V" n="59" break="no"/>tur ponere quod in illo actu essent diuerse rationes formales 
+        </p>
+        <p xml:id="FrMS88-e83731-d1e257">
+          <lb ed="#V" n="60"/>¶ Ad 3m est satis rationabile. quod ita sufficiat: et ideo tunc 
+          <lb ed="#V" n="61"/>sicut vnus et idem actus in deo est sapientialis et 
+          scientia<lb ed="#V" n="62" break="no"/>lis secundum habitudinem ad diuersa obiecta: aut secundum 
+          diuer<lb ed="#V" n="63" break="no"/>sas rationes formales in eo: ita etiam eadem perfectio 
+          qua<lb ed="#V" n="64" break="no"/>si habitualis. Et ita potest vnum exemplar poni quasi 
+          tota<lb ed="#V" n="65" break="no"/>le: habens in virtute multa exemplaria quaesi partialia.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e273">
+          ¶ Ad  
+          <lb ed="#V" n="66"/>4m dico. quod illa ratio continentie non videtur perfectissima ratio 
+          <!--228.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>necessario cognoscendi vel repraesentandi: si ponantur in deo 
+          <lb ed="#V" n="68"/>exemplaria formaliter.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e287">
+          ¶ Exemplum: sicut sol perfectius 
+          contine<lb ed="#V" n="69" break="no"/>tur in substantia ab eo genita quam in specie que est quoddam accidens: 
+          <lb ed="#V" n="70"/>et tamen perfectius cognoscitur per speciem suam quam per effectum: 
+          <lb ed="#V" n="71"/>quanuis effectus sit substantia et spes sit accidens: sic dico in proposito 
+        </p>
+        <p xml:id="FrMS88-e83731-d1e296">
+          <lb ed="#V" n="72"/>¶ Sed hoic occurrunt difficultas quia secundum premissa non videtur bene 
+          <lb ed="#V" n="73"/>posse saluari quod diuina essentia sit primum obiectum et 
+          ad<lb ed="#V" n="74" break="no"/>equatum intellectus diuini: cum in ipsa non cognoscat 
+          <lb ed="#V" n="75"/>ipsa contingentia: sed in actu voluntatis: similiter cum per 
+          exen<lb ed="#V" n="76" break="no"/>plaria cognoscat creaturas.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e309">
+          ¶ Dico quod sicut vnus actus 
+          <lb ed="#V" n="77"/>est eni adequatus. ita et obiectum: quia non potest habere aliquem actum: 
+          <lb ed="#V" n="78"/>qui primo non terminetur ad diuinam essentiam: sicut ad 
+          <lb ed="#V" n="79"/>primum obiectum. sicut intellectus noster non potest habere aliquem 
+          <lb ed="#V" n="80"/>actum: qui primo non terminetur ad ens: licet secundario talis 
+          <lb ed="#V" n="81"/>actus possit ad non ens terminari.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e322">
+          ¶ 2a difficultas posito quod 
+          in<lb ed="#V" n="82" break="no"/>telligat creaturas terminatiue modo exposito in 
+          praeceden<lb ed="#V" n="83" break="no"/>ti quaestione. Utrum diuinus intellectus possit plura intelligere 
+          <lb ed="#V" n="84"/>quam intelligat.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e331">
+          ¶ Dico quod respectu necessariorum non: cum 
+          <lb ed="#V" n="85"/>naturali necessitate feratur in omnia talia. Respectu autem 
+          <lb ed="#V" n="86"/>contingentium dico. quod sicut voluntas diuina potest plura vel 
+          <lb ed="#V" n="87"/>le quam velit: eo quod potest plura facere que non facit et 
+          paucio<lb ed="#V" n="88" break="no"/>ra. Sic dico de scientia diuina: vnde sicut voluntas diuina 
+          <lb ed="#V" n="89"/>potest minui vel augeri: sic notitia diuina de futuris 
+          con<lb ed="#V" n="90" break="no"/>tingentibus.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e347">
+          ¶ 3a difficultas. Utrum hoc ponat aliquam 
+          muta<lb ed="#V" n="91" break="no"/>tionem in deo.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e353">
+          ¶ Dico quod non. sed solum productio talium 
+          <lb ed="#V" n="92"/>obiectorum in esse volito vel cognito: quae incipit est sine 
+          mu<lb ed="#V" n="93" break="no"/>tatione diuina. sicut productio in esse existentie incipit esse 
+          si<lb ed="#V" n="94" break="no"/>ne mutatione diuina.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e362">
+          ¶ 4a difficultas vtrum diuinus intellectus 
+          <lb ed="#V" n="95"/>comprehendat diuinam essentiam. Dico quod in hoc differunt 
+          comn<lb ed="#V" n="96" break="no"/>prehendere et apprehendere secundum mentem Augus. s3. 
+          <lb ed="#V" n="97"/>qui. quia apprehendere est attingere operatione 
+          intel<lb ed="#V" n="98" break="no"/>lectiua aliquod obiectum: et sic creatura potest apprehendere non 
+          <lb ed="#V" n="99"/>solum creaturam: sed etiam deum. Comprehendere autem est attinge 
+          <lb ed="#V" n="100"/>re tale obiectum adequate: quantum in se est attingibile. Et isto 
+          <lb ed="#V" n="101"/>modo licet creatura non poterit deum comprehendere: tamen diuinus 
+          <lb ed="#V" n="102"/>intellectus bene. Si vero deus sit sibi comprehensibilis: tunc 
+          <lb ed="#V" n="103"/>comprehensio est alicuius obiecti secundum aliquam determinatam 
+          men<lb ed="#V" n="104" break="no"/>suram: sed apprehensio quando in supereminenti attingit secundarium 
+          <lb ed="#V" n="105"/>obiectum supereminenter ibi contentum: sicut sunt creature. 
+          <lb ed="#V" n="106"/>praemissis ponitur veritas quaestionis determinata per 
+          <lb ed="#V" n="107"/>Istis sacram scripturam: qui scilicet ifinita sunt a deo 
+          actua<lb ed="#V" n="108" break="no"/>liter cognita.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e395">
+          ¶ Confirmat per Aug. de ci. di. libo. 12. c. ig. 
+          <lb ed="#V" n="109"/>vbi ex intentione dicit et probat quod deus cognoscit actualiter 
+          <lb ed="#V" n="110"/>infinita.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e402">
+          ¶ Ista autem veritas probatur quadruplici ratione. 
+          Pri<lb ed="#V" n="111" break="no"/>mo sic. Nam infinite partes sunt in quolibet continnuo: 
+          salte<lb ed="#V" n="112" break="no"/>in potentia. cum sit diuisibile in infinitum: sed deus omnes 
+          il<lb ed="#V" n="113" break="no"/>las cognoscit: ergo etc. Probo minorem dupliciter. Primo. quia 
+          <lb ed="#V" n="114"/>eas diuina voluntas conseruat in esse. ergo diuinus intellectus 
+          <lb ed="#V" n="115"/>tas intelligit. 2o. quia cuilibet potentie passiue 
+          correspon<lb ed="#V" n="116" break="no"/>det potentia actiua: sed continuum est in infinitum diuisibile 
+          <lb ed="#V" n="117"/>passiue: ergo in deo erit potentia actiua. sed deus nouit quicquid est 
+          <lb ed="#V" n="118"/>in eo. ergo eam cognoscit. et per consequens partes continui quae sunt 
+          infi<lb ed="#V" n="119" break="no"/>nite: quod autem similis cognoscat omnes: patet: quia nullius cognitio 
+          <lb ed="#V" n="120"/>nem acquirere potest de nouo.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e426">
+          ¶ 2o sic. nam sunt infinite species 
+          <lb ed="#V" n="121"/>numerorum secundum Aug. 12. de ci. dei. quia infinitorum numerorum 
+          <lb ed="#V" n="122"/>non est numerus: sed deus cognoscit omnes. Unde Augs.e dicit 
+          <lb ed="#V" n="123"/>quod omnes isti numeri sunt in eius intellectu comprehensi: cuius 
+          sa<lb ed="#V" n="124" break="no"/>pientie non est numerus.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e437">
+          ¶ 3o sic. quia in qualibet linea sunt 
+          <lb ed="#V" n="125"/>infinita puncta. cum ipsa sit diuisibilis in infinitum et in 
+          quali<lb ed="#V" n="126" break="no"/>bet diuisione causentur etiam duo puncta. Sunt ergo 
+          infini<lb ed="#V" n="127" break="no"/>ta saltem in potentia. sed deus omnia cognoscit: cum diuidendo 
+          <lb ed="#V" n="128"/>voluntas diuina possit ea ponere in actu.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e449">
+          ¶ 4o sic. in 
+          qua<lb ed="#V" n="129" break="no"/>libet die sunt infinita instantia: et in quolibet generatur 
+          <lb ed="#V" n="130"/>vnus radius solis: cum raptim transeat. et diuina 
+          volun<lb ed="#V" n="131" break="no"/>tas concurrit ad causandum quemlibet radium cum sole. 
+          <lb ed="#V" n="132"/>ergo infinitos radios cognoscit simul diuinus intellectus. 
+          <!--229.xml-->
+          <pb ed="#V" n="113-v"/>
+          <cb ed="#V" n="a"/>
+        </p>
+        <p xml:id="FrMS88-e83731-d1e467">
+          <lb ed="#V" n="1"/>¶ Confirmantur omnia ista. quia deus in actu cognoscit omnia 
+          <lb ed="#V" n="2"/>que potest facere successiue: sed deum potest infinita indiuidua 
+          <lb ed="#V" n="3"/>caulare sub aliqua specie. ergo ea cognoscit et simul. quia 
+          si<lb ed="#V" n="4" break="no"/>mul cognoscit quod potest facere successiue. Minor patet. quia 
+          <lb ed="#V" n="5"/>aliter non posset perpetuare mundum. Ad perpetuationem 
+          <lb ed="#V" n="6"/>enim mundi necessario requritur vel quod in aliquibus 
+          specie<lb ed="#V" n="7" break="no"/>bus indiuidua procedant in infinitum. vel oportet quod idem 
+          nul<lb ed="#V" n="8" break="no"/>mero infinities redeat. Primum autem communius ponitur 
+        </p>
+        <p xml:id="FrMS88-e83731-d1e487">
+          <lb ed="#V" n="9"/>¶ Sed contra instatur 4r. Primo sic. Omnes partes quas 
+          <lb ed="#V" n="10"/>deus cognoscit in continuo sunt diuisibiles in partes 
+          vlte<lb ed="#V" n="11" break="no"/>riores: et ille partes vlteriores sunt partes continui.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e496">
+          ¶ Tunc 
+          <lb ed="#V" n="12"/>sic. Ille intellectus non cognoscit omnes partes continui: quia 
+          <lb ed="#V" n="13"/>illud continuum continnet partes aliquas vltra omnes quas ille 
+          im<lb ed="#V" n="14" break="no"/>tellectus cognoscit: sed omne continuum est huiusmodi. quia omnes partes 
+          <lb ed="#V" n="15"/>quas deus cognoscit in continuo sunt diuisibiles in 
+          par<lb ed="#V" n="16" break="no"/>tes vlteriores: ergo sunt partes alique vltra cognitas a 
+          <lb ed="#V" n="17"/>deo.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e512">
+          ¶ 2o sic. omnis species numeri habet speciem numeri vltra se 
+          <lb ed="#V" n="18"/>maiorem quam deus cognoscit: cum per appositionem vnitatis 
+          <lb ed="#V" n="19"/>varietur numerus: ergo vltra omnes species quas videt: vi 
+          <lb ed="#V" n="20"/>det aliquas maiores. Sed omnis species maior omni specie nume 
+          <lb ed="#V" n="21"/>ri: non est species numeri: ergo si deus intelligit omnem speciem 
+          <lb ed="#V" n="22"/>numeri: intelligit necessario aliquam speciem numeri: que non est 
+          <lb ed="#V" n="23"/>species numeri: hoc est falsum: ergo illud ex quo sequitur. 
+        </p>
+        <p xml:id="FrMS88-e83731-d1e528">
+          <lb ed="#V" n="24"/>¶ 3o sic. Inter primum punctum qui est in linea: et quemlibet alium 
+          <lb ed="#V" n="25"/>a deo cognitum: aut est dare medium: aut non. Si sic. tunc 
+          <lb ed="#V" n="26"/>illud medium aut est diuisibile: et tunc erunt ibi multa 
+          pum<lb ed="#V" n="27" break="no"/>cta ante omnia alia puncta. que sunt in linea a deo 
+          cogni<lb ed="#V" n="28" break="no"/>ta. Et tunc deum no cognoscet omnia puncta: quae sunt in linea 
+          <lb ed="#V" n="29"/>Aut illud medium erit indiuisibile: et tunc ille punctus non 
+          <lb ed="#V" n="30"/>erit a deo cognitus per eandem deductionem.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e547">
+          ¶ Si autem 
+          <lb ed="#V" n="31"/>dicas. quod non est dare medium: tunc sequitur continuum 
+          con<lb ed="#V" n="32" break="no"/>poni ex indiuisibilibus.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e554">
+          ¶ 4o sic. deus distincte radios 
+          <lb ed="#V" n="33"/>solis cognoscit. Tunc sic. aut inter ipsum primum radium et 
+          quem<lb ed="#V" n="34" break="no"/>cumque alium cognitum a deo. est radius medius: aut non. 
+          <lb ed="#V" n="35"/>Si sic. tunc ille non erit a deo cognitus: cum sit extra omnem 
+          <lb ed="#V" n="36"/>alium radium a deo cognitum. Si non sit radius alius: tunc 
+          <lb ed="#V" n="37"/>alius radius a deo cognitus immediatesequitur alium: et 
+          <lb ed="#V" n="38"/>per consequens cum radius adequate coexistat instanti temporis: 
+          <lb ed="#V" n="39"/>istans temporis erit immediatum instanti.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e572">
+          ¶ Iste instantie 
+          soluun<lb ed="#V" n="40" break="no"/>tur ab aliquibus logicaliter ab aliis sophistice. premo sic. quia hoc 
+          <lb ed="#V" n="41"/>signum omne vel quodlibet: in altera praemissarum sumitur 
+          colle<lb ed="#V" n="42" break="no"/>ctiue: in altera distributiue. Sed hoc non euacuat: quia 
+          in<lb ed="#V" n="43" break="no"/>vtraque praemissarum est vera diuisio: et vera distributio. 2m 
+          <lb ed="#V" n="44"/>soluuntur ab aluis sic: quia signum in vna habet suppositionem 
+          sim<lb ed="#V" n="45" break="no"/>plicem: in alia confusam. Sed nec hoc satisfacit: quia vtrobi 
+          <lb ed="#V" n="46"/>que habet suppositionem simplicem.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e590">
+          ¶ his ergo praemissis que non 
+          quie<lb ed="#V" n="47" break="no"/>tant intellectum pono quatuor praeambula. Primum est. quod 
+          <lb ed="#V" n="48"/>equale et inequale sunt passiones quantitatis finite adequa 
+          <lb ed="#V" n="49"/>te. Unde si essent quantitates infinite: non essent equales vel 
+          <lb ed="#V" n="50"/>inequales: et huius ratio est: quia equalia sunt quorum extrema non 
+          <lb ed="#V" n="51"/>excedunt se: in infinitis autem non sunt extrema.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e603">
+          ¶ 2m 
+          praema<lb ed="#V" n="52" break="no"/>bulum est. quod totum et pars non inueniuntur nisi in quantitate 
+          <lb ed="#V" n="53"/>finita: patet ex praecedenti. quia vbicumque est maioritas vel mino 
+          <lb ed="#V" n="54"/>ritas: ibi est equalitas vel inequalitas: sed vbi est totum 
+          <lb ed="#V" n="55"/>et pars: ibi est maioritas et minoritas: sed maioritas et 
+          <lb ed="#V" n="56"/>minoritas sunt species inequalitatis. Et ostensum est quod 
+          inequa<lb ed="#V" n="57" break="no"/>litas non inuenitur nisi in quantitate finita: ergo nec totum 
+          <lb ed="#V" n="58"/>nec pars inuenietur nisi in quantitate finita.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e621">
+          ¶ 3m pramabulum 
+          <lb ed="#V" n="59"/>est. quod tolum in quantitate est quaedam species totius. et pars in 
+          quan<lb ed="#V" n="60" break="no"/>titate est quaedam species partis: totum autem designatur per vniversale vniversaliter 
+          sum<lb ed="#V" n="61" break="no"/>ptum. pars autem per vniversale et non vniversaliter sumptum.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e631">
+          ¶ Est ergo 
+          regu<lb ed="#V" n="62" break="no"/>la talis. quod cuicumque repugnat superius: repugnat inferius: 
+          <lb ed="#V" n="63"/>sed infinito vt infinitum est: repugnat ratio totius in vniverli: ergo 
+          re<lb ed="#V" n="64" break="no"/>pugnat sibi ratio totius in quantitate: et sic ei non potest addi  
+          <lb ed="#V" n="65"/>signum vniversale. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e642">
+          ¶ 4m praemabulum est. quod de infinita 
+          multi<lb ed="#V" n="66" break="no"/>tudine non potest verificari vniuersalis affirmatiua. quia 
+          <!--229.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>iversalis affirmatiua est quoddam totum in quantitate: sed osten 
+          <lb ed="#V" n="68"/>sum est quod infinito: vt infinitum est repugnat ratio totius: 
+          <lb ed="#V" n="69"/>ergo et huius totius.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e658">
+          ¶ Confirmatur: quia si infiniti homines 
+          <lb ed="#V" n="70"/>essent. idem esset dicere: omnes homines et tota multitudo 
+          <lb ed="#V" n="71"/>hominum: sed ostensum est. quod totalitas repugnat 
+          infi<lb ed="#V" n="72" break="no"/>nito: vt infinitum est: ergo et totum vniversale scilicet omnis.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e667">
+          ¶ Sed contra ista primo 
+          <lb ed="#V" n="73"/>ambula arguitur vt magis declarentur. Primo quia 
+          de<lb ed="#V" n="74" break="no"/>us est quo maius cogitari nihil potest. est etiam maius quam 
+          ali<lb ed="#V" n="75" break="no"/>quid aliud quod possit cogitari: vt docet Ans. in 
+          proso<lb ed="#V" n="76" break="no"/>Et sic est ibi maioritas que est species inequalitatis. et ratio 
+          <lb ed="#V" n="77"/>infinitatis.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e680">
+          ¶ 2o quia inter diuinas personas conceditur 
+          equali<lb ed="#V" n="78" break="no"/>tas. que tamen sunt infinite intensiue. 3o quia infinite multitudini 
+          <lb ed="#V" n="79"/>non repugnat totum vniversale infra eandem speciem: et tamen est species 
+          to<lb ed="#V" n="80" break="no"/>tius ita totum vniversale: sicut totum in quantitate.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e689">
+          ¶ 4o. quia tunc 
+          <lb ed="#V" n="81"/>de infinitate nullus svllectus poterit formari: quia nullus 
+          svl<lb ed="#V" n="82" break="no"/>logismus est debite formatus: cuius nulla praemissarum est vniuersalis: 
+          <lb ed="#V" n="83"/>sed impossibile est. per te quod aliqua praemissarum verificetur vniversalis de 
+          infi<lb ed="#V" n="84" break="no"/>nito. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e701">
+          ¶ Ad primum dico. quod inequalitas vt hic accipitur 
+          <lb ed="#V" n="85"/>est excessus secundum proportionem. deus autem fine 
+          proportio<lb ed="#V" n="86" break="no"/>ne omnia excedit. et per consequens non est inequalis.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e708">
+          ¶ Ad 2m dico. quod 
+          <lb ed="#V" n="87"/>equalitas et inequalitas: de quibus est nunc intentio: est 
+          <lb ed="#V" n="88"/>illa quae est in quantitatibus illis que constant ex partibus 
+          <lb ed="#V" n="89"/>realiter distinctis: quia ibi est solum totum / et pars. quantitas 
+          au<lb ed="#V" n="90" break="no"/>tem que est in deo non est huiusmodi: quia non constat ex talibus 
+          rea<lb ed="#V" n="91" break="no"/>liter distinctis.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e721">
+          ¶ Ad 3m dico. quod totum vniversale est pars vera et 
+          <lb ed="#V" n="92"/>essentialis: et est totum equiuoce. eo quod totum vniversale 
+          inclu<lb ed="#V" n="93" break="no"/>ditur in qualibet sui parte: non tamen totum integrale vel totum 
+          <lb ed="#V" n="94"/>in quantitate: quia si sic: bicubitum esset in monocubito.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e730">
+          ¶ Ad  
+          <lb ed="#V" n="95"/>4m. si accipiatur aliqua multitudo finita de infinita mul¬ 
+          <lb ed="#V" n="96"/>¬titudinine: tunc de illa finita multitudine poterit formari 
+          <lb ed="#V" n="97"/>proposition: sed de infinita non poterit: eo quod non potest sibi addi 
+          si<lb ed="#V" n="98" break="no"/>gnum vniversale: sed bene de terminis vt abstrahunt a finito et in 
+          <lb ed="#V" n="99"/>finito.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e743">
+          ¶ Ideo dico quod signum vniversale non potest addi alicui 
+          in<lb ed="#V" n="100" break="no"/>finito inquantum infinitum: eo quod sibi repugnat ratio totius 
+          <lb ed="#V" n="101"/>et etiam partis.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e750">
+          ¶ Sed hic sunt difficultaes. Prima est. quia si essent 
+          <lb ed="#V" n="102"/>infiniti homines adhuc homo esset inferius ad animal: et sic pars. 
+        </p>
+        <p xml:id="FrMS88-e83731-d1e756">
+          <lb ed="#V" n="103"/>¶ Dico quod hoc conuenit homini inquantum est homo: quod sit anima 
+          <lb ed="#V" n="104"/>inquantum abstrahit ab vnitate et pluralitate scilicet quod secundum 
+          <lb ed="#V" n="105"/>rationem suam formalem: secundum quam abstrahit a finito et 
+          infi<lb ed="#V" n="106" break="no"/>nito. homo est animal.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e767">
+          ¶ Secunda difficultas est. quia si 
+          es<lb ed="#V" n="107" break="no"/>sent infiniti homines adhuc ista posset esse vera: quidam homo 
+          <lb ed="#V" n="108"/>currit: et sic particularis: sed non potest dari particularis 
+          si<lb ed="#V" n="109" break="no"/>ne vniuersali: ergo stante infinita hominum multitudine: 
+          <lb ed="#V" n="110"/>stabit vniuersalis. Dico quod non est inconueniens dari particule si 
+          <lb ed="#V" n="111"/>ne vniuersali. Et si dicas. particularis habet rationem 
+          par<lb ed="#V" n="112" break="no"/>tis: sed vbi pars: ibi totum. Dico quod illa particularis est 
+          re<lb ed="#V" n="113" break="no"/>spectu alicuius vniuersalis: non quidem vniuersalis verifica. 
+          <lb ed="#V" n="114"/>te. vel formate de infinita multitudine: sed per respectum 
+          <lb ed="#V" n="115"/>ad finitum de illa infinita multitudine: ratione cuius potest 
+          <lb ed="#V" n="116"/>formari propositio vniuersalis.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e791">
+          ¶ Tertia difficultas 
+          <lb ed="#V" n="117"/>si essent infiniti homines: adhuc hic homo esset indiuinduum. 
+          Di<lb ed="#V" n="118" break="no"/>co quod sic respectu alicuius multitudinins finite sumpter 
+          <lb ed="#V" n="119"/>Istis ergo praeambulis suppositis tanquam veris: facile est 
+          re<lb ed="#V" n="120" break="no"/>spondere ad instantias superius adductas.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e802">
+          ¶ Ad primum 
+          <lb ed="#V" n="121"/>cum dicitur. omnes partes continui quas deus cognoscit sunt 
+          <lb ed="#V" n="122"/>diuisibiles. Dico quod ista propositio includit incompossibilia in 
+          <lb ed="#V" n="123"/>suo subiecto si vniversaliter accipiatur: sicut insta: omnis homo irrationalis 
+          <lb ed="#V" n="124"/>currit: in subiecto includit incompossibilia: sicut hic: omni 
+          <lb ed="#V" n="125"/>sortes currit. Et ratio est: quia sorti repugnat quod sibi addatur 
+          <lb ed="#V" n="126"/>signum vniversale. Eodem modo dico. quod multitudini infinite 
+          repu<lb ed="#V" n="127" break="no"/>gnat addi signum vniversale: et ideo nec deus videt omnes partes 
+          <lb ed="#V" n="128"/>ptinui: nec non videt. Dico ergo. quod deus bene cognoscit 
+          par<lb ed="#V" n="129" break="no"/>tes continui: et omnes: pro quacumque determinata 
+          multitudi<lb ed="#V" n="130" break="no"/>ne. Sed si accipias multitudinem infinitam non cognoscit 
+          <lb ed="#V" n="131"/>omnes: quia non sunt omnes.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e828">
+          ¶ Ad 2m dico eodem modo de 
+          specie<lb ed="#V" n="132" break="no"/>bus numerorum.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e833">
+          ¶ Ad 3m dico. quod non est dare quemcunque 
+          <!--230.xml-->
+          <pb ed="#V" n="114-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>alium punctum in linea. Sicut non est dare omnem sortem 
+          <lb ed="#V" n="2"/>currere vel non currere: quia tali termino repugnat addi  
+          <lb ed="#V" n="3"/>tale signum. Eodem modo dico in proposito.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e850">
+          ¶ Et ad 4m similiter de 
+          <lb ed="#V" n="4"/>radiis.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e855">
+          ¶ Iste solutiones confirmantur. quia idem est omnis homo 
+          <lb ed="#V" n="5"/>et tota multitudo hominum. sed infinita multitudo hominum si 
+          <lb ed="#V" n="6"/>esset: non esse totum: quia aut tale totum constaret ex partibus 
+          fini<lb ed="#V" n="7" break="no"/>tis: et hoc est impossibile: quia ex finitis non constituitur nisi finitum 
+          <lb ed="#V" n="8"/>aut constaret ex infinitis: et tunc totum non esset maius sua 
+          par<lb ed="#V" n="9" break="no"/>te: quia sua pars esset infinita. Infinitum autem vt sic excedi non 
+          <lb ed="#V" n="10"/>potest.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e871">
+          ¶ Sed contra has solutiones instatur 4r. Primo sic. quia 
+          cu<lb ed="#V" n="11" break="no"/>iuslibet contradictionis altera pars vera est: quia de quolibet 
+          af<lb ed="#V" n="12" break="no"/>firmatio vel negatio etc.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e878">
+          ¶ Sed ista est falsa: quaedam pars 
+          <lb ed="#V" n="13"/>continui non est diuisibilis in vlteriores partes: ergo sua 
+          contradicto<lb ed="#V" n="14" break="no"/>ria est vera scilicet ista. Omnis pars continui est diuisibilis in 
+          vlterio<lb ed="#V" n="15" break="no"/>res partes. Similiter deus post primam aut cognoscit quamcumque 
+          <lb ed="#V" n="16"/>aliam: aut non cognoscit. Ista autem sunt extrema contradictionis: 
+          <lb ed="#V" n="17"/>igitur alterum verum.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e891">
+          ¶ Item 2o de numero. Aut omnis species 
+          nu<lb ed="#V" n="18" break="no"/>meri habet vlteriorem: aut non. Si non: et non omnis equipollet 
+          hu<lb ed="#V" n="19" break="no"/>ic. quidam non: sed ista est falsa: quidam numerus non habet speciem 
+          <lb ed="#V" n="20"/>vlteriorem: igitur sua equipollens. et per consequens eius contradictoria 
+          ve<lb ed="#V" n="21" break="no"/>ra scilicet quod omnis species numeri habet vlteriorem.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e902">
+          ¶ 3o sic. a 
+          singula<lb ed="#V" n="22" break="no"/>ribus sufficienter enumeratis sequitur vniversale vniversaliter sumptum: per 
+          <lb ed="#V" n="23"/>locum a toto in quantitate. Iste autem punctus post primum punctum 
+          <lb ed="#V" n="24"/>in linea est a deo cognitus: et iste alius: et sic de singulis. 
+          <lb ed="#V" n="25"/>ergo omnes puncti sunt a deo cogniti.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e914">
+          ¶ 4o sic. quia sicut est per se 
+          <lb ed="#V" n="26"/>notum quod omne totum est maius sua parte: ita est hec per se nota. omnis 
+          <lb ed="#V" n="27"/>pars minor est suo toto.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e921">
+          ¶ Sed istud distribuit pro 
+          infini<lb ed="#V" n="28" break="no"/>tis partibus continui: cum infinite sint partes in continuo: quarum 
+          <lb ed="#V" n="29"/>quaelibet minor est suo toto.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e928">
+          ¶ Confirmatur. nam certum est quod 
+          in<lb ed="#V" n="30" break="no"/>finiti homines sunt in potentia. tamen ista pro singulis verificatur. 
+          <lb ed="#V" n="31"/>omnis homo est risibilis. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e935">
+          ¶ Ad primum dico. pro propositione cuius 
+          <lb ed="#V" n="32"/>subiectum includit incompossibilia non est vera. et in deo non habet 
+          contra<lb ed="#V" n="33" break="no"/>dictionem: sicut ista. Omnis homo irrationalis est animal. quia eius 
+          contra<lb ed="#V" n="34" break="no"/>dictoria vera esse non potest: in cuius subiecto incompossibilia 
+          inclu<lb ed="#V" n="35" break="no"/>duntur. Et ita dico in proposito. dicendo omnis pars continui: pro 
+          infini<lb ed="#V" n="36" break="no"/>tis distribuendo.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e948">
+          ¶ Sed contra ista est bona contradictio. Omnis 
+          chi<lb ed="#V" n="37" break="no"/>mera est ens prohibitum: chimera non est prohibitum: et tamen subiectum 
+          <lb ed="#V" n="38"/>includit incompossibila. Potest dici quod aliter: si istud concedatur: quando 
+          <lb ed="#V" n="39"/>subiectum includit infra se tale quid: et aliter quando subiectum cum sibi ad 
+          <lb ed="#V" n="40"/>iuncto: vt si dicatur tota magnitudo puncti est simplex: et sic 
+          <lb ed="#V" n="41"/>ista non vetur habere contradictoriam: sicut nec ista. Omnis hic homo vel 
+          <lb ed="#V" n="42"/>omnis sortes currit.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e964">
+          ¶ Contra. nam omnis propositio vna cuius subiectum 
+          <lb ed="#V" n="43"/>talia non includit habet contradictoriam: sed talis est ista. omnis pars 
+          conti<lb ed="#V" n="44" break="no"/>nui non est diuisibilis. licet sit falsa: et ei non potest dari nisi ista. 
+          <lb ed="#V" n="45"/>omnis pars continui est diuisibilis: et tunc erit vera. Dinco quod 
+          contradi<lb ed="#V" n="46" break="no"/>ctoria sua est ista. non quaedam pars continui est divisibilis.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e976">
+          ¶ Et si 
+          <lb ed="#V" n="47"/>dicatur. quod ista equipollet isti: omnis pars continui est diuisibilis 
+          <lb ed="#V" n="48"/>Dico quod non est verum. quia ista est incompossibilis: et in 
+          incom<lb ed="#V" n="49" break="no"/>possibilibus non est equipollentia.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e985">
+          ¶ Ad 2m dico. quod non 
+          <lb ed="#V" n="50"/>omnis species numeri habet vlteriorem: quia ista negatur: omnis species 
+          nu<lb ed="#V" n="51" break="no"/>meri habet vlteriorem. non omnis autem equipollet ad quidam non 
+          <lb ed="#V" n="52"/>vbi scilicet propositio de omnis est vera. vbi autem non est vera: non. Nam 
+          <lb ed="#V" n="53"/>ista: sortes non est homo: non equipollet huic. non omnis 
+          sor<lb ed="#V" n="54" break="no"/>tes est homo: cum ista possit aliqualiter concedi. Dico ergo quod 
+          <lb ed="#V" n="55"/>ista non est concedenda. omnis species numeri habet vlteriorem: sicut 
+          <lb ed="#V" n="56"/>nec insta: omnis sortes currit.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e1003">
+          ¶ Sed contra. ista est vera: preter 
+          <lb ed="#V" n="57"/>quandam speciem numeri est species numeri: ergo eius 
+          contradicto<lb ed="#V" n="58" break="no"/>ria falsa: praeter omnem speciem numeri est dare specie numeri. 
+          <lb ed="#V" n="59"/>Dico quod hec non est contradictoria illius. sed solum illa que 
+          <lb ed="#V" n="60"/>est cum duplici negatione. Prima solutio apparet plus. 
+        </p>
+        <p xml:id="FrMS88-e83731-d1e1014">
+          <lb ed="#V" n="61"/>¶ Ad 3m dico. quod illa regula non tenet nisi vbi illa 
+          singula<lb ed="#V" n="62" break="no"/>ria sufficienter enumerata sunt partes vniversalis vniversaliter sumpti: quia 
+          <lb ed="#V" n="63"/>tenet per locum a parte in quantitate. Ista autem singularia in 
+          <lb ed="#V" n="64"/>proposito non sunt partes multitudinins infinite: cum 
+          sem<lb ed="#V" n="65" break="no"/>per sit proportio inter totum et partem. Sicut non potest 
+          <lb ed="#V" n="66"/>dici proprie: omnis persona in diuinis producta est a patre: a 
+          <!--230.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>singularibus sufficientes enumeratis. non sequitur. quia hoc 
+          si<lb ed="#V" n="68" break="no"/>gnum omnis: secundum antiquos philosophos: non dicitur minus quam de tribus. 
+        </p>
+        <p xml:id="FrMS88-e83731-d1e1038">
+          <lb ed="#V" n="69"/>¶ Ad 4m cum dicitur: omnis pars est minor suo toto. est ita 
+          equa<lb ed="#V" n="70" break="no"/>liter vera si sint finite vel infinite partes: et ideo verificatur 
+          <lb ed="#V" n="71"/>pro multitudine partium vt abstrahit a multitudine 
+          fi<lb ed="#V" n="72" break="no"/>nita vel infinita: sed tamen non pro infinita.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e1049">
+          ¶ Contra. quicquid 
+          ve<lb ed="#V" n="73" break="no"/>rificatur per se de superiori. verificatur per se de inferiori: cum 
+          <lb ed="#V" n="74"/>diffinitiones et passiones superiorum insint singulis inferioribus: 
+          <lb ed="#V" n="75"/>sed multitudo sic abstracta est quodam superius ad finitam 
+          <lb ed="#V" n="76"/>et infinitam. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e1061">
+          ¶ Dicitur quod verificatur de multitudine 
+          <lb ed="#V" n="77"/>infinita. tamen per accidens. quia sibi non conuenit inquantum est 
+          <lb ed="#V" n="78"/>infinita. sed inquantum est multitudo.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e1068">
+          ¶ Contra. quia eodem 
+          <lb ed="#V" n="79"/>modo verificatur de finita. et tamen est ibi simpliciter vera ac 
+          <lb ed="#V" n="80"/>concessa: et non alibi.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e1075">
+          ¶ Dicitur quod totalitas non repugnat 
+          <lb ed="#V" n="81"/>finito: et ideo ibi per accidens conceditur: et hic non: quando scilicet 
+          <lb ed="#V" n="82"/>determinatur ad infinitum. Vel potest dici sicut totum 
+          vni<lb ed="#V" n="83" break="no"/>uersale conuenit homini et repugnat sorti. ita 
+          distribu<lb ed="#V" n="84" break="no"/>tio conuenit multitudini simpliciter et in vniuersali: et 
+          ta<lb ed="#V" n="85" break="no"/>men repugnat multitudini infinite. Aut dicetur. quod 
+          quan<lb ed="#V" n="86" break="no"/>do dicitur omnis homo est risibilis. si sint infiniti. quod ly omnis 
+          <lb ed="#V" n="87"/>distribuit pro sola multitudine finita: quam accipit 
+          in<lb ed="#V" n="88" break="no"/>tellectus noster quando format illam propositionem. Et tunc 
+          te<lb ed="#V" n="89" break="no"/>nendo istam viam oportet dicere. quod illa que dicuntur a vulgo 
+          <lb ed="#V" n="90"/>contradictoria: possunt verificari. Infinitis enim 
+          homini<lb ed="#V" n="91" break="no"/>bus existentibus: accepta certa multitudine currentium: 
+          <lb ed="#V" n="92"/>esset vera ista propositio: omnis homo currit: accepto autem 
+          <lb ed="#V" n="93"/>vno qui non sit de illa multitudine prius accepta. dicetur 
+          <lb ed="#V" n="94"/>quod quidam homo non currit: et sic omnis homo currit: quidam 
+          <lb ed="#V" n="95"/>homo non currit: verificantur. Prima responsio tamen est melior. 
+        </p>
+        <p xml:id="FrMS88-e83731-d1e1110">
+          <lb ed="#V" n="96"/>¶ Iste rationes confirmantur: quia secundum philosophos: ante omnem motum 
+          <lb ed="#V" n="97"/>fuit motus: et ante omne tempus fuit tempus: et ante omnem 
+          <lb ed="#V" n="98"/>diem fuit dies. Illud autem signum scilicet omne: in istis 
+          propo<lb ed="#V" n="99" break="no"/>sitionibus non potest distribuere adequate pro infinita 
+          <lb ed="#V" n="100"/>multitudine: quia ante infinitam multitudinem dierum non 
+          <lb ed="#V" n="101"/>fuit dies: cum talis infinita multitudo sit eternitas: et 
+          an<lb ed="#V" n="102" break="no"/>te eternitatem nulla posset esse dies: ergo distribuit solum 
+          <lb ed="#V" n="103"/>pro finita multitudine accepta vel acceptabili.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e1130">
+          ¶ Item 
+          <lb ed="#V" n="104"/>sancti dicunt. quod deus posset mundum perpetuare: et de 
+          fa<lb ed="#V" n="105" break="no"/>cto perpetuabit penas et cogitationes: ita quod post omnem 
+          <lb ed="#V" n="106"/>cogitationem erit cogitatio. et sic non distribuit pro 
+          infini<lb ed="#V" n="107" break="no"/>tis. cum infinitas nulla sit futura.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e1141">
+          ¶ Sed hic est dif. 
+          qua<lb ed="#V" n="108" break="no"/>liter deus potest intelligere infinitam multitudinem: cum 
+          <lb ed="#V" n="109"/>fit impossibilis et ens prohibitum. Dispositio autem rei in 
+          ve<lb ed="#V" n="110" break="no"/>ritate est similis vel eadem dispositioni in entitate.
+        </p>
+        <p xml:id="FrMS88-e83731-d1e1151">
+          ¶ 
+          Di<lb ed="#V" n="111" break="no"/>co quod non est ita ens prohibitum quin inueniatur in 
+          poten<lb ed="#V" n="112" break="no"/>tia. ratio autem entis extenditur ad ea que sunt in potentia: et 
+          <lb ed="#V" n="113"/>vlterius non videtur inconueniens multis: ponere quod deus 
+          <lb ed="#V" n="114"/>intelligat sicut et nos entia prohibita. Uidetur etiam 
+          mul<lb ed="#V" n="115" break="no"/>tis quod ens infinitum non solum in multitudine: verum 
+          <lb ed="#V" n="116"/>etiam in magnitudine non sit ens prohibitum: sicut 
+          fu<lb ed="#V" n="117" break="no"/>it dist. 19. declaratum. et etiam aliquo modo ostensum. 
+        </p>
+        <p xml:id="FrMS88-e83731-d1e1169">
+          <lb ed="#V" n="118"/>¶ Ad argumentum in oppositum patet. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

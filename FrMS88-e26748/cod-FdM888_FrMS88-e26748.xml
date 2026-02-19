@@ -1,133 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 8</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 8</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-           <pb ed="#V" n="37-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e26748"><!-- l1d5q8 -->
-            <head xml:id="FrMS88-e26748-Hd1e108">Quaestio 8</head>
-            <p xml:id="FrMS88-e26748-d1e111">
-      Quaestio. viii. 
-      <lb ed="#V" n="40"/>essentia vt praescindit a volun 
-      <lb ed="#V" n="41"/>Trum tate sit principium 
-      producti<lb ed="#V" n="42" break="no"/>uum alicuius ad extra in ratione efficientis. 
-      <lb ed="#V" n="43"/>non. hoc probatur ab aliquibus 
-      <lb ed="#V" n="44"/> Dico quod Primo sic. impossibile est quod 
-      <lb ed="#V" n="45"/>aliquid necessario producatur ad extra: essentia autem vt sic est principium 
-      ne<lb ed="#V" n="46" break="no"/>cessarium. ergo non est principium producendi ad extra.
-    </p>
-            <p xml:id="FrMS88-e26748-d1e129">
-      ¶ 2o sic. Nihil ad 
-      <lb ed="#V" n="47"/>extra producitur a deo necessario: sed essentia diuina necessario producit 
-      <lb ed="#V" n="48"/>quicquid producit. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e26748-d1e136">
-      ¶ Iste rationes secundum quod aliquis posset 
-      di<lb ed="#V" n="49" break="no"/>cere: non concludunt. probarent enim quod necessario causaret beatitudinem 
-      </p>
-            <p xml:id="FrMS88-e26748-d1e141">
-               <lb ed="#V" n="50"/>¶ Ideo pono alias. Prima sit ista: quandocumque sunt aliqua 
-      due<lb ed="#V" n="51" break="no"/>causare partiales respectu alicuius effectus: vna vniuersalis: et alia parti 
-      <lb ed="#V" n="52"/>cularis: vniuersalior est perfectior. Patet in omnibus. posito ergo quod 
-      essen<lb ed="#V" n="53" break="no"/>concurrat: cum est voluntas concurrat: tunc voluntas cum sit 
-      vniversali<lb ed="#V" n="54" break="no"/>or esset perfectior: quod autem voluntas sit vniuersalior patet: quia essentia non 
-      <lb ed="#V" n="55"/>ponetur nisi in productionibus obiectiuis causare: voluntas 
-      <lb ed="#V" n="56"/>vero in omnibus. etc. Maior patet: quia qualem ordinem habent aliqua in 
-      <lb ed="#V" n="57"/>causndo talem habent in essendo.
-    </p>
-            <p xml:id="FrMS88-e26748-d1e162">
-      ¶ 2o sic. omnis causa quae non est prima de 
-      <lb ed="#V" n="58"/>pendet a primo in causando. voluntas est prima causa in causando secundum 
-      <lb ed="#V" n="59"/>Aug. sed quando aliquid dependet ab alio in operando est 
-      im<lb ed="#V" n="60" break="no"/>perfectius illo: et sic essentia erit imperfectior voluntate. quod est 
-      <lb ed="#V" n="61"/>falsum. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e26748-d1e173">
-      ¶ 3o sic. quandocumque ad aliquem effectum concurrunt 
-      <lb ed="#V" n="62"/>due causae essentialiter ordinate: causa minus praencipalis non potentia 
-      <lb ed="#V" n="63"/>tantum intendi quin sit inferior: sed obiectum respectu actus 
-      intelligen<lb ed="#V" n="64" break="no"/>di est minus praencipalis causa: ergo si essentia diuina concurrat cum 
-      <lb ed="#V" n="65"/>potentia. ipsa erit minus praencipalis causa in essendo: quia minus 
-      prin<lb ed="#V" n="66" break="no"/>cipalis in operando.
-    </p>
-            <p xml:id="FrMS88-e26748-d1e186">
-      ¶ 4o. sic. nam tunc videretur intellectus ni¬ 
-      <!--77.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>agens esse perfectior. quia ad omnes actus concurrit: non sic autem 
-      essen<lb ed="#V" n="68" break="no"/>tia diuina.
-    </p>
-            <p xml:id="FrMS88-e26748-d1e197">
-      ¶ 3o sic. quandocumque aliqua res communis diuiditur per duas 
-      <lb ed="#V" n="69"/>diferentias oppositas scilicet impossibile est vnam earum in aliam 
-      coinciden<lb ed="#V" n="70" break="no"/>sed causa effectiua et finalis diuidunt causam ex opposito: 
-      essen<lb ed="#V" n="71" break="no"/>tia autem diuina: vt sit accepta est causa finalis omnium: vt 
-      pa<lb ed="#V" n="72" break="no"/>tuit in praecedenti. qu. ergo ipsa non erit causa efficiens: sed 
-      volunta<lb ed="#V" n="73" break="no"/>ti attribuiter causalitas effectiua.
-    </p>
-            <p xml:id="FrMS88-e26748-d1e210">
-      ¶ 2o sic. impossibile est inter 
-      fun<lb ed="#V" n="74" break="no"/>damentum et terminum eiusdem rationis esse relationes nisi eiusdem 
-      ratio<lb ed="#V" n="75" break="no"/>nis: sed eadem forma simplex refertur ad deum sub ratione finis 
-      <lb ed="#V" n="76"/>et efficientis: fundamentum autem est idem ex parte causati. ergo oportet quod 
-      <lb ed="#V" n="77"/>sit differentia ex parte termi: quia alioquin relationes essent eiusd rationis 
-      <lb ed="#V" n="78"/>quod est falsum: essentia autem diuina est terminus relationis per 
-      <lb ed="#V" n="79"/>modum finis. ergo non erit per modum efficientis.
-    </p>
-            <p xml:id="FrMS88-e26748-d1e226">
-      ¶ Ideo ad 
-      quio<lb ed="#V" n="80" break="no"/>nem qua quaeritur. Utrum esentia vt praescindit a voluntate sit 
-      <lb ed="#V" n="81"/>princinpium productiuum ad extra. Dico quod non potest esse. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 8</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 8</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="37-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e26748"><!-- l1d5q8 -->
+        <head xml:id="FrMS88-e26748-Hd1e108">Quaestio 8</head>
+        <p xml:id="FrMS88-e26748-d1e111">
+          Quaestio. viii. 
+          <lb ed="#V" n="40"/>essentia vt praescindit a volun 
+          <lb ed="#V" n="41"/>Trum tate sit principium 
+          producti<lb ed="#V" n="42" break="no"/>uum alicuius ad extra in ratione efficientis. 
+          <lb ed="#V" n="43"/>non. hoc probatur ab aliquibus 
+          <lb ed="#V" n="44"/> Dico quod Primo sic. impossibile est quod 
+          <lb ed="#V" n="45"/>aliquid necessario producatur ad extra: essentia autem vt sic est principium 
+          ne<lb ed="#V" n="46" break="no"/>cessarium. ergo non est principium producendi ad extra.
+        </p>
+        <p xml:id="FrMS88-e26748-d1e129">
+          ¶ 2o sic. Nihil ad 
+          <lb ed="#V" n="47"/>extra producitur a deo necessario: sed essentia diuina necessario producit 
+          <lb ed="#V" n="48"/>quicquid producit. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e26748-d1e136">
+          ¶ Iste rationes secundum quod aliquis posset 
+          di<lb ed="#V" n="49" break="no"/>cere: non concludunt. probarent enim quod necessario causaret beatitudinem 
+        </p>
+        <p xml:id="FrMS88-e26748-d1e141">
+          <lb ed="#V" n="50"/>¶ Ideo pono alias. Prima sit ista: quandocumque sunt aliqua 
+          due<lb ed="#V" n="51" break="no"/>causare partiales respectu alicuius effectus: vna vniuersalis: et alia parti 
+          <lb ed="#V" n="52"/>cularis: vniuersalior est perfectior. Patet in omnibus. posito ergo quod 
+          essen<lb ed="#V" n="53" break="no"/>concurrat: cum est voluntas concurrat: tunc voluntas cum sit 
+          vniversali<lb ed="#V" n="54" break="no"/>or esset perfectior: quod autem voluntas sit vniuersalior patet: quia essentia non 
+          <lb ed="#V" n="55"/>ponetur nisi in productionibus obiectiuis causare: voluntas 
+          <lb ed="#V" n="56"/>vero in omnibus. etc. Maior patet: quia qualem ordinem habent aliqua in 
+          <lb ed="#V" n="57"/>causndo talem habent in essendo.
+        </p>
+        <p xml:id="FrMS88-e26748-d1e162">
+          ¶ 2o sic. omnis causa quae non est prima de 
+          <lb ed="#V" n="58"/>pendet a primo in causando. voluntas est prima causa in causando secundum 
+          <lb ed="#V" n="59"/>Aug. sed quando aliquid dependet ab alio in operando est 
+          im<lb ed="#V" n="60" break="no"/>perfectius illo: et sic essentia erit imperfectior voluntate. quod est 
+          <lb ed="#V" n="61"/>falsum. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e26748-d1e173">
+          ¶ 3o sic. quandocumque ad aliquem effectum concurrunt 
+          <lb ed="#V" n="62"/>due causae essentialiter ordinate: causa minus praencipalis non potentia 
+          <lb ed="#V" n="63"/>tantum intendi quin sit inferior: sed obiectum respectu actus 
+          intelligen<lb ed="#V" n="64" break="no"/>di est minus praencipalis causa: ergo si essentia diuina concurrat cum 
+          <lb ed="#V" n="65"/>potentia. ipsa erit minus praencipalis causa in essendo: quia minus 
+          prin<lb ed="#V" n="66" break="no"/>cipalis in operando.
+        </p>
+        <p xml:id="FrMS88-e26748-d1e186">
+          ¶ 4o. sic. nam tunc videretur intellectus ni¬ 
+          <!--77.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>agens esse perfectior. quia ad omnes actus concurrit: non sic autem 
+          essen<lb ed="#V" n="68" break="no"/>tia diuina.
+        </p>
+        <p xml:id="FrMS88-e26748-d1e197">
+          ¶ 3o sic. quandocumque aliqua res communis diuiditur per duas 
+          <lb ed="#V" n="69"/>diferentias oppositas scilicet impossibile est vnam earum in aliam 
+          coinciden<lb ed="#V" n="70" break="no"/>sed causa effectiua et finalis diuidunt causam ex opposito: 
+          essen<lb ed="#V" n="71" break="no"/>tia autem diuina: vt sit accepta est causa finalis omnium: vt 
+          pa<lb ed="#V" n="72" break="no"/>tuit in praecedenti. qu. ergo ipsa non erit causa efficiens: sed 
+          volunta<lb ed="#V" n="73" break="no"/>ti attribuiter causalitas effectiua.
+        </p>
+        <p xml:id="FrMS88-e26748-d1e210">
+          ¶ 2o sic. impossibile est inter 
+          fun<lb ed="#V" n="74" break="no"/>damentum et terminum eiusdem rationis esse relationes nisi eiusdem 
+          ratio<lb ed="#V" n="75" break="no"/>nis: sed eadem forma simplex refertur ad deum sub ratione finis 
+          <lb ed="#V" n="76"/>et efficientis: fundamentum autem est idem ex parte causati. ergo oportet quod 
+          <lb ed="#V" n="77"/>sit differentia ex parte termi: quia alioquin relationes essent eiusd rationis 
+          <lb ed="#V" n="78"/>quod est falsum: essentia autem diuina est terminus relationis per 
+          <lb ed="#V" n="79"/>modum finis. ergo non erit per modum efficientis.
+        </p>
+        <p xml:id="FrMS88-e26748-d1e226">
+          ¶ Ideo ad 
+          quio<lb ed="#V" n="80" break="no"/>nem qua quaeritur. Utrum esentia vt praescindit a voluntate sit 
+          <lb ed="#V" n="81"/>princinpium productiuum ad extra. Dico quod non potest esse. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

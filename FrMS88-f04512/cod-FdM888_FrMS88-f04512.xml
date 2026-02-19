@@ -1,165 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 4</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 4</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="141-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-f04512"><!-- l1d48q4 -->
-            <head xml:id="FrMS88-f04512-Hd1e108">Quaestio 4</head>
-            <p xml:id="FrMS88-f04512-d1e111">
-      Quaestio. iiii. 
-      <lb ed="#V" n="74"/>eadem scientia possit esse 
-      specula<lb ed="#V" n="75" break="no"/>Tum tiua: et praectica: et hoc eadem specie. 
-      <lb ed="#V" n="76"/>non. quia quiquid conuenit 
-      <lb ed="#V" n="77"/>Dico quod vni indiuiduo alicuius spei 
-      <lb ed="#V" n="78"/>ciei per se conuenit omnibus: hoc patet: 
-      <lb ed="#V" n="79"/>quia per se predicata consequuntur quiditatem que est 
-      <lb ed="#V" n="80"/>eis conis: sed practicum conuenit per se illi indiuiduo 
-      <lb ed="#V" n="81"/>cui conuenit. ergo et omnibus indiuinduis eiusdem 
-      spe<lb ed="#V" n="82" break="no"/>ciei. Minor patet. quia est respectus fundamentalis qui 
-      <lb ed="#V" n="83"/>est propria passio. Eodem modo de speculatiuo.
-    </p>
-            <p xml:id="FrMS88-f04512-d1e135">
-      ¶ Sed 
-      <lb ed="#V" n="84"/>contra. quia dictum est quod deus de futuris contingentibus 
-      <lb ed="#V" n="85"/>non habet scientiam practicam: et sic notitiam de futuria 
-      <lb ed="#V" n="86"/>contingentibus reuelaret alicui sancto: tunc sanctus de 
-      <lb ed="#V" n="87"/>eis haberet notitiam practicam. ergo etc.
-    </p>
-            <p xml:id="FrMS88-f04512-d1e146">
-      ¶ Secundo 
-      <lb ed="#V" n="88"/>quia angelus mouens celum. videtur quod habeat scientiam 
-      pra<lb ed="#V" n="89" break="no"/>cticam de motu celi: nos tamen de eodem motu habe 
-      <lb ed="#V" n="90"/>mus scientiam speculatiuam.
-    </p>
-            <p xml:id="FrMS88-f04512-d1e155">
-      ¶ Tertio. quia si deum in 
-      <lb ed="#V" n="91"/>funderet in angelo prudentiam de moralibus: ipsa es 
-      <lb ed="#V" n="92"/>set speculatiua. quia certum est quod non practica. eo quod non 
-      <lb ed="#V" n="93"/>haberet quod regularet.
-    </p>
-            <p xml:id="FrMS88-f04512-d1e165">
-      ¶ Quarto. quia si deus mihi 
-      da<lb ed="#V" n="94" break="no"/>ret potentiam creatiuam de rosa: scientia de rose 
-      crea<lb ed="#V" n="95" break="no"/>tione: que nunc in me existens est speculatiua: esset 
-      pra<lb ed="#V" n="96" break="no"/>ctica.
-    </p>
-            <p xml:id="FrMS88-f04512-d1e174">
-      ¶ Ad primum dico. quod non esset notitia eiusdem 
-      ratio<lb ed="#V" n="97" break="no"/>nis. quia ibi ex voluntate deus nouit illa. nos autem vel 
-      <lb ed="#V" n="98"/>ille sanctus ex reuelatione.
-    </p>
-            <p xml:id="FrMS88-f04512-d1e181">
-      ¶ Ad 2m dico. quod angelus 
-      <lb ed="#V" n="99"/>habet scientiam de hoc quod celum est mobile: et similiter 
-      <lb ed="#V" n="100"/>de omnibus que consequuntur rationem speculatiuam 
-      <lb ed="#V" n="101"/>quiditatiuam in communi: et illa scientia non est directi 
-      <lb ed="#V" n="102"/>ua: sed tamen cum hoc bene habet artem quomodo actus 
-      <lb ed="#V" n="103"/>motus debeat fieri: et illa bene est practica.
-    </p>
-            <p xml:id="FrMS88-f04512-d1e194">
-      ¶ Ad 3m 
-      <lb ed="#V" n="104"/>dico. quod non esset repugnantia ex parte prudentie: quod 
-      <lb ed="#V" n="105"/>non regularet: quia ipsa esset quantum est in se 
-      regulati<lb ed="#V" n="106" break="no"/>ua. Quod autem non possit in isto regulare: non impedit 
-      <lb ed="#V" n="107"/>quin sit practica.
-    </p>
-            <p xml:id="FrMS88-f04512-d1e205">
-      ¶ Exemplum. si sim impotens ad 
-      eun<lb ed="#V" n="108" break="no"/>dum ad bellum. dum tamen modo habeam scientiam 
-      <lb ed="#V" n="109"/>bellandi: non minus propter hoc ipsa scientia esset 
-      pra<lb ed="#V" n="110" break="no"/>ctica. Eodem modo de prudentia in angelo. quia quantum 
-      <lb ed="#V" n="111"/>est ex se esset regulatiua.
-    </p>
-            <p xml:id="FrMS88-f04512-d1e216">
-      ¶ Ad 4m dico. quod contingit 
-      ha<lb ed="#V" n="112" break="no"/>bere scientiam de rosa quod est flos et cetera vniuersalia. 
-      <lb ed="#V" n="113"/>et illa est speculatiua: sed si daretur notitia de modo 
-      pro<lb ed="#V" n="114" break="no"/>ducendi rosam qualiter fit: et huius esset alius 
-      habi<lb ed="#V" n="115" break="no"/>tus: et ille esset ars.
-    </p>
-            <p xml:id="FrMS88-f04512-d1e228">
-      ¶ Sed hic est di. quia quicumque 
-      co<lb ed="#V" n="116" break="no"/>gnoscit quiditatem alicuius: potest cognoscere passio 
-      <lb ed="#V" n="117"/>nem: et eam demonstrare que per se inest illi: et ideo si 
-      <lb ed="#V" n="118"/>scias quid est rosa poteris scire quomodo est 
-      produ<lb ed="#V" n="119" break="no"/>cibilis.
-    </p>
-            <p xml:id="FrMS88-f04512-d1e239">
-      ¶ hic dico. quod non omnes conclusiones que 
-      pro<lb ed="#V" n="120" break="no"/>bantur de vno subiecto pertinent ad vnum habitum. Unde in 
-      <lb ed="#V" n="121"/>la que probantur de rosa in vniversali que non sunt applicabilia 
-      <lb ed="#V" n="122"/>ad opus: talia pertinent ad scientiam speculatiuam. 
-      <lb ed="#V" n="123"/>Alia autem per que habetur huiusmodi applicatio ad opus: 
-      <lb ed="#V" n="124"/>pertinent ad alium habitum practicum scilicet artem. Amen¬ 
-      </p>
-            <p xml:id="FrMS88-f04512-d1e252">
-               <lb ed="#V" n="125"/>¶ Illuminati doctoris fratris francisci maronis: 
-      ordi<lb ed="#V" n="126" break="no"/>nis minorum prouicie scint 2udouici. scriptum praeclarissimum 
-      su<lb ed="#V" n="127" break="no"/>per primum senientarum: conflatus nuncupatum: fine felici teriatur: 
-      <lb ed="#V" n="128"/>correctum atque decoratum summa cura atque solertia 
-      sa<lb ed="#V" n="129" break="no"/>cre Theologie doctoris eximii patris fratris Mauritii 
-      <lb ed="#V" n="130"/>de hibernia: eiusdem religionis: dum actu theologiam 
-      <lb ed="#V" n="131"/>publice in alma vniuersitate Patauina legebat. 
-      <!--286.xml-->
-      <pb ed="#V" n="142-r"/>
-               <cb ed="#V" n="a"/>
-            </p>
-            <p xml:id="FrMS88-f04512-d1e276">
-               <lb ed="#V" n="1"/>¶ Illuminati doctor fratris Francisci maronis 
-      <lb ed="#V" n="2"/>ordinis mir. prouincie prouincie vel scilicet Ludo 
-      <lb ed="#V" n="3"/>uici. in secundum sninarum luculentissimum 
-      scri<lb ed="#V" n="4" break="no"/>ptum. feliciter inchoatur. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="141-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-f04512"><!-- l1d48q4 -->
+        <head xml:id="FrMS88-f04512-Hd1e108">Quaestio 4</head>
+        <p xml:id="FrMS88-f04512-d1e111">
+          Quaestio. iiii. 
+          <lb ed="#V" n="74"/>eadem scientia possit esse 
+          specula<lb ed="#V" n="75" break="no"/>Tum tiua: et praectica: et hoc eadem specie. 
+          <lb ed="#V" n="76"/>non. quia quiquid conuenit 
+          <lb ed="#V" n="77"/>Dico quod vni indiuiduo alicuius spei 
+          <lb ed="#V" n="78"/>ciei per se conuenit omnibus: hoc patet: 
+          <lb ed="#V" n="79"/>quia per se predicata consequuntur quiditatem que est 
+          <lb ed="#V" n="80"/>eis conis: sed practicum conuenit per se illi indiuiduo 
+          <lb ed="#V" n="81"/>cui conuenit. ergo et omnibus indiuinduis eiusdem 
+          spe<lb ed="#V" n="82" break="no"/>ciei. Minor patet. quia est respectus fundamentalis qui 
+          <lb ed="#V" n="83"/>est propria passio. Eodem modo de speculatiuo.
+        </p>
+        <p xml:id="FrMS88-f04512-d1e135">
+          ¶ Sed 
+          <lb ed="#V" n="84"/>contra. quia dictum est quod deus de futuris contingentibus 
+          <lb ed="#V" n="85"/>non habet scientiam practicam: et sic notitiam de futuria 
+          <lb ed="#V" n="86"/>contingentibus reuelaret alicui sancto: tunc sanctus de 
+          <lb ed="#V" n="87"/>eis haberet notitiam practicam. ergo etc.
+        </p>
+        <p xml:id="FrMS88-f04512-d1e146">
+          ¶ Secundo 
+          <lb ed="#V" n="88"/>quia angelus mouens celum. videtur quod habeat scientiam 
+          pra<lb ed="#V" n="89" break="no"/>cticam de motu celi: nos tamen de eodem motu habe 
+          <lb ed="#V" n="90"/>mus scientiam speculatiuam.
+        </p>
+        <p xml:id="FrMS88-f04512-d1e155">
+          ¶ Tertio. quia si deum in 
+          <lb ed="#V" n="91"/>funderet in angelo prudentiam de moralibus: ipsa es 
+          <lb ed="#V" n="92"/>set speculatiua. quia certum est quod non practica. eo quod non 
+          <lb ed="#V" n="93"/>haberet quod regularet.
+        </p>
+        <p xml:id="FrMS88-f04512-d1e165">
+          ¶ Quarto. quia si deus mihi 
+          da<lb ed="#V" n="94" break="no"/>ret potentiam creatiuam de rosa: scientia de rose 
+          crea<lb ed="#V" n="95" break="no"/>tione: que nunc in me existens est speculatiua: esset 
+          pra<lb ed="#V" n="96" break="no"/>ctica.
+        </p>
+        <p xml:id="FrMS88-f04512-d1e174">
+          ¶ Ad primum dico. quod non esset notitia eiusdem 
+          ratio<lb ed="#V" n="97" break="no"/>nis. quia ibi ex voluntate deus nouit illa. nos autem vel 
+          <lb ed="#V" n="98"/>ille sanctus ex reuelatione.
+        </p>
+        <p xml:id="FrMS88-f04512-d1e181">
+          ¶ Ad 2m dico. quod angelus 
+          <lb ed="#V" n="99"/>habet scientiam de hoc quod celum est mobile: et similiter 
+          <lb ed="#V" n="100"/>de omnibus que consequuntur rationem speculatiuam 
+          <lb ed="#V" n="101"/>quiditatiuam in communi: et illa scientia non est directi 
+          <lb ed="#V" n="102"/>ua: sed tamen cum hoc bene habet artem quomodo actus 
+          <lb ed="#V" n="103"/>motus debeat fieri: et illa bene est practica.
+        </p>
+        <p xml:id="FrMS88-f04512-d1e194">
+          ¶ Ad 3m 
+          <lb ed="#V" n="104"/>dico. quod non esset repugnantia ex parte prudentie: quod 
+          <lb ed="#V" n="105"/>non regularet: quia ipsa esset quantum est in se 
+          regulati<lb ed="#V" n="106" break="no"/>ua. Quod autem non possit in isto regulare: non impedit 
+          <lb ed="#V" n="107"/>quin sit practica.
+        </p>
+        <p xml:id="FrMS88-f04512-d1e205">
+          ¶ Exemplum. si sim impotens ad 
+          eun<lb ed="#V" n="108" break="no"/>dum ad bellum. dum tamen modo habeam scientiam 
+          <lb ed="#V" n="109"/>bellandi: non minus propter hoc ipsa scientia esset 
+          pra<lb ed="#V" n="110" break="no"/>ctica. Eodem modo de prudentia in angelo. quia quantum 
+          <lb ed="#V" n="111"/>est ex se esset regulatiua.
+        </p>
+        <p xml:id="FrMS88-f04512-d1e216">
+          ¶ Ad 4m dico. quod contingit 
+          ha<lb ed="#V" n="112" break="no"/>bere scientiam de rosa quod est flos et cetera vniuersalia. 
+          <lb ed="#V" n="113"/>et illa est speculatiua: sed si daretur notitia de modo 
+          pro<lb ed="#V" n="114" break="no"/>ducendi rosam qualiter fit: et huius esset alius 
+          habi<lb ed="#V" n="115" break="no"/>tus: et ille esset ars.
+        </p>
+        <p xml:id="FrMS88-f04512-d1e228">
+          ¶ Sed hic est di. quia quicumque 
+          co<lb ed="#V" n="116" break="no"/>gnoscit quiditatem alicuius: potest cognoscere passio 
+          <lb ed="#V" n="117"/>nem: et eam demonstrare que per se inest illi: et ideo si 
+          <lb ed="#V" n="118"/>scias quid est rosa poteris scire quomodo est 
+          produ<lb ed="#V" n="119" break="no"/>cibilis.
+        </p>
+        <p xml:id="FrMS88-f04512-d1e239">
+          ¶ hic dico. quod non omnes conclusiones que 
+          pro<lb ed="#V" n="120" break="no"/>bantur de vno subiecto pertinent ad vnum habitum. Unde in 
+          <lb ed="#V" n="121"/>la que probantur de rosa in vniversali que non sunt applicabilia 
+          <lb ed="#V" n="122"/>ad opus: talia pertinent ad scientiam speculatiuam. 
+          <lb ed="#V" n="123"/>Alia autem per que habetur huiusmodi applicatio ad opus: 
+          <lb ed="#V" n="124"/>pertinent ad alium habitum practicum scilicet artem. Amen¬ 
+        </p>
+        <p xml:id="FrMS88-f04512-d1e252">
+          <lb ed="#V" n="125"/>¶ Illuminati doctoris fratris francisci maronis: 
+          ordi<lb ed="#V" n="126" break="no"/>nis minorum prouicie scint 2udouici. scriptum praeclarissimum 
+          su<lb ed="#V" n="127" break="no"/>per primum senientarum: conflatus nuncupatum: fine felici teriatur: 
+          <lb ed="#V" n="128"/>correctum atque decoratum summa cura atque solertia 
+          sa<lb ed="#V" n="129" break="no"/>cre Theologie doctoris eximii patris fratris Mauritii 
+          <lb ed="#V" n="130"/>de hibernia: eiusdem religionis: dum actu theologiam 
+          <lb ed="#V" n="131"/>publice in alma vniuersitate Patauina legebat. 
+          <!--286.xml-->
+          <pb ed="#V" n="142-r"/>
+          <cb ed="#V" n="a"/>
+        </p>
+        <p xml:id="FrMS88-f04512-d1e276">
+          <lb ed="#V" n="1"/>¶ Illuminati doctor fratris Francisci maronis 
+          <lb ed="#V" n="2"/>ordinis mir. prouincie prouincie vel scilicet Ludo 
+          <lb ed="#V" n="3"/>uici. in secundum sninarum luculentissimum 
+          scri<lb ed="#V" n="4" break="no"/>ptum. feliciter inchoatur. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

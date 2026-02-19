@@ -1,277 +1,277 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 6</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 6</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="36-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e26170"><!-- l1d5q6 -->
-            <head xml:id="FrMS88-e26170-Hd1e108">Quaestio 6</head>
-            <p xml:id="FrMS88-e26170-d1e111">
-      Quaestio. vi. 
-      <lb ed="#V" n="94"/>UTrum filius semper generetur de substantia 
-      <lb ed="#V" n="95"/>patris. Quod non. quia secundum Greg. 
-      <lb ed="#V" n="96"/>magis dibet dici esse genitum quam semper generari 
-      </p>
-            <p xml:id="FrMS88-e26170-d1e120">
-               <lb ed="#V" n="97"/>¶ Contra. nam Aug. comparat eum spl endo 
-      <lb ed="#V" n="98"/>ri qui continue gignitur ab igne. 
-      <lb ed="#V" n="99"/>quod licet in sensibilibus inuenian 
-      <lb ed="#V" n="100"/>hic sciendum turgnationes multe dissimiles 
-      <lb ed="#V" n="101"/>generationi verbi: tamen accipiendo de omnibus quod non est in 
-      <lb ed="#V" n="102"/>eis aliquid imperfectionis poterimus eam aliqualiter inuestiga 
-      <lb ed="#V" n="103"/>re.
-    </p>
-            <p xml:id="FrMS88-e26170-d1e138">
-      ¶ Quedam enim est gneatio quae est simil proficiens et deficiens: 
-      <lb ed="#V" n="104"/>sicut geneartio motus et omnium successiuorum. Alia est proficiens 
-      <lb ed="#V" n="105"/>et non deficiens. sicut in generatione accidentis 
-      permanen<lb ed="#V" n="106" break="no"/>tis: quia ibi est augmentatio et non corruptio. Alia est 
-      neu<lb ed="#V" n="107" break="no"/>tra: nec est deficiens: nec proficiens: sed raptim transiens 
-      <lb ed="#V" n="108"/>tam generatum quam generatio: sicut generatio radii a sole: quia 
-      <lb ed="#V" n="109"/>non manet nisi per instans. Alia est. cuius genitum est in 
-      <lb ed="#V" n="110"/>instanti: et illud non raptim transit: sed permanet: transeum 
-      <lb ed="#V" n="111"/>te tamen nuncgenerationis non remanet generatio. sicut 
-      <lb ed="#V" n="112"/>est in generatione forme substantialis: manet enim 
-      for<lb ed="#V" n="113" break="no"/>ma et non gnatio. Iste quatuor gneartiones remouentur a 
-      diui<lb ed="#V" n="114" break="no"/>nis: patet enim de tribus primis: quia nihil est ibi proficiens et 
-      <lb ed="#V" n="115"/>deficiens simul: sicut in prima. Nec est ibi profectio sicut in 
-      <lb ed="#V" n="116"/>2a. Nec raptim transit gnatio et genitum: sicut in 3a. Ned 
-      <lb ed="#V" n="117"/>etiam 4a: quia non transit gnero diuina: immo est coeterna genito: 
-      <lb ed="#V" n="118"/>quia per ipsam constituitur in esse personali. Sicut ergo eius 
-      persone<lb ed="#V" n="119" break="no"/>litas semper stat. ita eius generto.
-    </p>
-            <p xml:id="FrMS88-e26170-d1e175">
-      ¶ Alia autem inuenitur que est 
-      <lb ed="#V" n="120"/>simillima scilicet genertio actus intelligendi scilicet verbi nostri: caret enim 
-      <lb ed="#V" n="121"/>imperfectionibus praedictis: propter quas praedicte generationes 
-      amoue<lb ed="#V" n="122" break="no"/>tur a diuinis. Ipsa enim est permanens et non deficiens sicut 
-      <lb ed="#V" n="123"/>prima. nec proficiens sicut secunda: sed instantaneam est contra tertiam 
-      <lb ed="#V" n="124"/>non raptim transit: sicut generatio radii: sed permanet cum 
-      <lb ed="#V" n="125"/>genito. Nec raptim transit sicut generatio forme substantia 
-      <lb ed="#V" n="126"/>lis: tam diu enim durat gnatio actus intelligendi quandiu durat 
-      <lb ed="#V" n="127"/>ipse actus. Et hoc magis apparet de verbo: quia verbum 
-      <lb ed="#V" n="128"/>in esse verbi constituitur per generationem passiuam: et ideo 
-      <lb ed="#V" n="129"/>stante verbo contradictionem includit quod non sit 
-      gneratio<lb ed="#V" n="130" break="no"/>est vna difficultas. Utrum actus 
-      intelligendi<lb ed="#V" n="131" break="no"/>Sed hic semper generetur: sicut nunc dictum est. Et 
-      <lb ed="#V" n="132"/>videtur quod non. Quanto forma perfectior est tanto minus depen¬ 
-      <!--76.xml-->
-      <pb ed="#V" n="37-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>det: forma autem perfectissima in intellectu est actus 
-      intelligen<lb ed="#V" n="2" break="no"/>di: habitus autem et species quae sunt imperfectiores non semper dependent 
-      <lb ed="#V" n="3"/>ergo etc.
-    </p>
-            <p xml:id="FrMS88-e26170-d1e220">
-      ¶ Ad istud dicendum est. quod propositio assumpta non est vera 
-      <lb ed="#V" n="4"/>scilicet quod res quanto perfectior: tanto minus vel a paucioribus 
-      <lb ed="#V" n="5"/>dependet. Nam certum est quod compositum est nobilius ipsa materia 
-      <lb ed="#V" n="6"/>et tamen a pluribus dependet quam ipsa materia. Eodem modo de actu 
-      in<lb ed="#V" n="7" break="no"/>telligendi dico. quod licet sit nobilior: tamen a pluribus dependeu 
-      <lb ed="#V" n="8"/>quam species vel habitus: quia aliquando vltra illa a quibus dependeni 
-      <lb ed="#V" n="9"/>ista a quibus etiam dependet actus: actus adhuc dependet ab 
-      <lb ed="#V" n="10"/>istismet scilicet a specie et habitu. Plus etiam dependet: quia postquam 
-      <lb ed="#V" n="11"/>illa sunt in esse posita: iam non dependent nisi forte a 
-      <lb ed="#V" n="12"/>conseruante: tamen eorum generatio non stat. Actus autem 
-      intelligen<lb ed="#V" n="13" break="no"/>di ita continue quam diu est generatur: sicut in primo nunc quando incipit 
-      <lb ed="#V" n="14"/>esse.
-    </p>
-            <p xml:id="FrMS88-e26170-d1e246">
-      ¶ Secunda difficultas cum omnis actio habeat terminum capientem 
-      <lb ed="#V" n="15"/>esse per ipsam. cum per generationem actus intelligendi in primo 
-      <lb ed="#V" n="16"/>instanti actus ipse intelligendi capiat esse: quid in 
-      se<lb ed="#V" n="17" break="no"/>cundo instanti capit esse: quia vel idem capiet bis esse: quia iam 
-      <lb ed="#V" n="18"/>prehabuit esse. vel aliud nouum.
-    </p>
-            <p xml:id="FrMS88-e26170-d1e257">
-      ¶ Dico quod hic non est 
-      <lb ed="#V" n="19"/>difficile respondere: si ponatur productio permanens sicut 
-      pro<lb ed="#V" n="20" break="no"/>ductum. Et tunc esset dicendum quod difficultas esset: si esset 
-      in<lb ed="#V" n="21" break="no"/>secundo instanti noua productio: sed quia non est noua 
-      pro<lb ed="#V" n="22" break="no"/>ductio. sed eadem quae prius: ideo non accipit esse nisi eadem 
-      acce<lb ed="#V" n="23" break="no"/>ptione qua ante.
-    </p>
-            <p xml:id="FrMS88-e26170-d1e270">
-      ¶ Exemplum. causa materialis semper causat materialiter 
-      <lb ed="#V" n="24"/>suum effectum: quia suum causare est suum recipere: et effectus 
-      depen<lb ed="#V" n="25" break="no"/>det ab ea: semper autem eadem causalitate causat: et eadem receptio 
-      <lb ed="#V" n="26"/>ne recipit.
-    </p>
-            <p xml:id="FrMS88-e26170-d1e279">
-      ¶ Tertia difficultas est de agentibus naturalibus quando 
-      <lb ed="#V" n="27"/>approximantur passiuo quanto ibi plus manent: tanto 
-      <lb ed="#V" n="28"/>magis intendunt suos effectus. Non autem experimur hoc 
-      <lb ed="#V" n="29"/>de actu intelligendi. Unde ergo hoc:
-    </p>
-            <p xml:id="FrMS88-e26170-d1e288">
-      ¶ hic ergo dico. quod 
-      ali<lb ed="#V" n="30" break="no"/>qua agentia sunt qua continuant actionem suam innouando 
-      <lb ed="#V" n="31"/>ipsam. Aliqua non: sicut si sol staret et non moueretur 
-      <lb ed="#V" n="32"/>semper eundem radium causaret: nec ille radius intenderetur: 
-      <lb ed="#V" n="33"/>sed in primo instanti esset eque perfectus: sicut in vltimo. Et 
-      <lb ed="#V" n="34"/>tota ratio est: quia eadem actione numero causaret: non sic autem 
-      <lb ed="#V" n="35"/>agentia philosophica: sicut ignis qui per modum contrarii agit. habet enim contrarium 
-      <lb ed="#V" n="36"/>et ideo alia et alia actione. et alio et alio influxn causat continue: et 
-      <lb ed="#V" n="37"/>semper aliquid nouum producit: et etiam augmentat.
-    </p>
-            <p xml:id="FrMS88-e26170-d1e309">
-      ¶ 
-      Quar<lb ed="#V" n="38" break="no"/>ta difficultas est. Utrum posset demonstrari. quod talis actus 
-      intelli<lb ed="#V" n="39" break="no"/>gendi sic continue dependeat.
-    </p>
-            <p xml:id="FrMS88-e26170-d1e316">
-      ¶ Ad hoc dico quod 
-      depen<lb ed="#V" n="40" break="no"/>dentia b. ad a. probatur precise per hoc. quia ad presen 
-      <lb ed="#V" n="41"/>tiam a. sequitur be. et ad absintiam a. sequitur desinitiob. Num 
-      <lb ed="#V" n="42"/>quam aliam viam habemus ad probandum: siue ostendendum aliquid esse 
-      <lb ed="#V" n="43"/>causam alicuius. Eodem modo dico de continue causare: quia enim 
-      vi<lb ed="#V" n="44" break="no"/>demus quod aliqui effectus postquam positi stur in esse quantum 
-      <lb ed="#V" n="45"/>cumquam deficiat causa illum effectum ponens in esse: non propter hoc 
-      <lb ed="#V" n="46"/>deficit ille effectus: dicimus quod ille continue non catur. 
-      <lb ed="#V" n="47"/>Exitum de calore causato a sole: recedente enim sole remanet 
-      ca<lb ed="#V" n="48" break="no"/>lor. ideo etc. Quandocumque enim ex absitia esse sequitur corruptio 
-      effe<lb ed="#V" n="49" break="no"/>ctus: tunc dicimus quod ille effectus contunue dependet: et 
-      <lb ed="#V" n="50"/>est in continuo causari. Exitum de luce causata a sole: 
-      recedente<lb ed="#V" n="51" break="no"/>enim sole iam amplius non remanet. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e26170-d1e345">
-      ¶ Ad propositum 
-      <lb ed="#V" n="52"/>applicanus quantum ad ea quae sunt in anima: quia videmus quod lic 
-      <lb ed="#V" n="53"/>praesente obiecto vel specie causetur habitus: tamen postquam causatus est 
-      <lb ed="#V" n="54"/>abeunte obiecto adhuc remanet habitus. Probamus. ni 
-      <lb ed="#V" n="55"/>habitum ex hoc non continue dependere. neccontinue causari 
-      <lb ed="#V" n="56"/>quia autem videmus quod praesente obiecto actus ponitur in esse. abinte 
-      <lb ed="#V" n="57"/>autem non stat actus: ideo arguimus euidenter quod actus continue 
-      <lb ed="#V" n="58"/>causatur: et dependet eque euidenter: sicut de radio respectu 
-      <lb ed="#V" n="59"/>solis.
-    </p>
-            <p xml:id="FrMS88-e26170-d1e365">
-      ¶ Quinta difficultas quomodo corrumpuntur et permanent ea que 
-      <lb ed="#V" n="60"/>sunt in anima nostra.
-    </p>
-            <p xml:id="FrMS88-e26170-d1e370">
-      ¶ Ad hoc dico quod aliqua corrumpuntur praecise ex 
-      <lb ed="#V" n="61"/>defectu agentis. Exuitum de luce in aere que non 
-      corrum<lb ed="#V" n="62" break="no"/>pitur propter aduentum contrarii. nec propter innaturalem potentiam 
-      subiecti<lb ed="#V" n="63" break="no"/>sed precise ex defectu agentis. huiusmodi est in anima actus 
-      intell<lb ed="#V" n="64" break="no"/>gendi. non enim. propter contrarium corrumpitur. nec propter innaturalitatem 
-      <lb ed="#V" n="65"/>substanti: sed precise propter defectum agentis. Intellectus enim 
-      <lb ed="#V" n="66"/>agens potest occupari circa aliud obiectum: et sic non occu¬ 
-      <!--76.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>pabit se circa istud. et per consequens ex tali defectu sequitur de 
-      <lb ed="#V" n="68"/>sitio actus intelligendi. Aliqua autem sunt in sensibilibus 
-      <lb ed="#V" n="69"/>quae corrumpuntur ex defectu principii patientis scilicet subiecti. et hoc 
-      <lb ed="#V" n="70"/>fit quando subiectum desinit materialiter causare propter aduentum alicuius 
-      <lb ed="#V" n="71"/>contrarii. Et isto modo albedo in superficie esse desinit 
-      nigre<lb ed="#V" n="72" break="no"/>dine adueniente. hiumodi in anima nostra sunt habitus aliqui 
-      qui<lb ed="#V" n="73" break="no"/>habent contrarium. Nam ipsi non corrumpuntur propter primum: quia postquam positi 
-      <lb ed="#V" n="74"/>sunt in esse non amplius dependent a causis suis: sed quia omne 
-      <lb ed="#V" n="75"/>inherens dependet a subiecto. cessante subiecto causare in genere 
-      <lb ed="#V" n="76"/>sue causalitatis: statim desinunt isti habitus. hoc autem fit 
-      quan<lb ed="#V" n="77" break="no"/>do aliis habitus isti incompossibiles inducuntur: quia tunc 
-      <lb ed="#V" n="78"/>subiectum desinit causare respectu istorum: et incipit respectu 
-      il<lb ed="#V" n="79" break="no"/>lorum. Isti autem habitus sunt imperfecti: vt in sequentibus 
-      appare<lb ed="#V" n="80" break="no"/>bit.
-    </p>
-            <p xml:id="FrMS88-e26170-d1e420">
-      ¶ Sed tunc ex istis potest elici vna conclusio quod perfecti habitus 
-      <lb ed="#V" n="81"/>non possunt corrumpi. Nam de imperfectis sicut de opione 
-      <lb ed="#V" n="82"/>vera et falsa: et fide patet oppositum. sed de scientia et sapienta quae 
-      <lb ed="#V" n="83"/>sunt vere et perfecte videtur quod sunt incorruptibiles. 
-      Pro<lb ed="#V" n="84" break="no"/>bo: nam omne quod corrumpitur vel corrumpitur propter 
-      defectum<lb ed="#V" n="85" break="no"/>agentis: sicut de luce: vel propter defectum subiecti: quia desinit 
-      <lb ed="#V" n="86"/>causare. Vel propter aliquod incompossibile inductum in subiecto: ex 
-      <lb ed="#V" n="87"/>quo sequitur secundum scilicet quod subiectum non possit causare. Propter primum 
-      <lb ed="#V" n="88"/>non corrumpuntur isti habitus: quia postquam positi sunt in esset 
-      <lb ed="#V" n="89"/>abeunte causa sua adhuc remanent. Nec per scientiam falsam 
-      <lb ed="#V" n="90"/>sibi incompossibilem: vel propter sapinam falsam. quia iste non 
-      <lb ed="#V" n="91"/>sunt. Includit enim contradictionem quod aliqua scientia sit falsa: vel 
-      <lb ed="#V" n="92"/>etiam sapina. sicut quod homo sit irrationalis. Scientia enim est habitus 
-      veri<lb ed="#V" n="93" break="no"/>dicus.
-    </p>
-            <p xml:id="FrMS88-e26170-d1e452">
-      ¶ Sed dices. quod licet non possit corrumpi per scientiam 
-      <lb ed="#V" n="94"/>falsam. eo quod non sit: tamen ad corruptionem sufficit 
-      opi<lb ed="#V" n="95" break="no"/>nio falsa: que bene est possibilis: et ista ita est 
-      incompos<lb ed="#V" n="96" break="no"/>sibilis scientie: sicut albedo ningredini.
-    </p>
-            <p xml:id="FrMS88-e26170-d1e461">
-      ¶ Sed hoc est 
-      <lb ed="#V" n="97"/>incompossibile: quia quando alique due causae sunt 
-      eque<lb ed="#V" n="98" break="no"/>approximate respectu alicuius passiui: si vna est 
-      poten<lb ed="#V" n="99" break="no"/>tior alia: et effectus eorum sunt simpliciter 
-      incompos<lb ed="#V" n="100" break="no"/>sibiles: quia nunquam impotentior poterit effectum suum in 
-      pas<lb ed="#V" n="101" break="no"/>siuo causare: nec per consequens effectum potentioris destruere. hoc 
-      <lb ed="#V" n="102"/>patet. maxime si vtraque secundum vltimum sue potentie agit 
-      <lb ed="#V" n="103"/>Momon ita est quod opinio falsa: que est incompossibilis scientiae 
-      <lb ed="#V" n="104"/>non potest causari in intellectu nisi mediante actu circa obiectum 
-      <lb ed="#V" n="105"/>illud quod est scitum. Constat autem quod illud obiectum scitum pro tunc 
-      <lb ed="#V" n="106"/>erit praesens intellectui: et sic premisse respectu 
-      demonstra<lb ed="#V" n="107" break="no"/>tionis: sed demonstratione eque approximata poten 
-      <lb ed="#V" n="108"/>tie cum syllogismo probabili: demonstratio est 
-      poten<lb ed="#V" n="109" break="no"/>tior: cum ergo effectus demonstrationis qui est scientia sit in 
-      <lb ed="#V" n="110"/>compossibilis opinioni false: sequitur quod spllitus 
-      probabi<lb ed="#V" n="111" break="no"/>lis numquam poterit effectum suum causare in potentia. et per consequens nec 
-      scien<lb ed="#V" n="112" break="no"/>tiam destruere.
-    </p>
-            <p xml:id="FrMS88-e26170-d1e498">
-      ¶ Ex his potest alicui videri: quod veri et 
-      per<lb ed="#V" n="113" break="no"/>fecti habitus intellectualis non possunt corrumpi.
-    </p>
-            <p xml:id="FrMS88-e26170-d1e503">
-      ¶ Ad Grego. 
-      <lb ed="#V" n="114"/>dico. quod ideo est: quia generatio est coeua genito. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 6</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 6</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="36-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e26170"><!-- l1d5q6 -->
+        <head xml:id="FrMS88-e26170-Hd1e108">Quaestio 6</head>
+        <p xml:id="FrMS88-e26170-d1e111">
+          Quaestio. vi. 
+          <lb ed="#V" n="94"/>UTrum filius semper generetur de substantia 
+          <lb ed="#V" n="95"/>patris. Quod non. quia secundum Greg. 
+          <lb ed="#V" n="96"/>magis dibet dici esse genitum quam semper generari 
+        </p>
+        <p xml:id="FrMS88-e26170-d1e120">
+          <lb ed="#V" n="97"/>¶ Contra. nam Aug. comparat eum spl endo 
+          <lb ed="#V" n="98"/>ri qui continue gignitur ab igne. 
+          <lb ed="#V" n="99"/>quod licet in sensibilibus inuenian 
+          <lb ed="#V" n="100"/>hic sciendum turgnationes multe dissimiles 
+          <lb ed="#V" n="101"/>generationi verbi: tamen accipiendo de omnibus quod non est in 
+          <lb ed="#V" n="102"/>eis aliquid imperfectionis poterimus eam aliqualiter inuestiga 
+          <lb ed="#V" n="103"/>re.
+        </p>
+        <p xml:id="FrMS88-e26170-d1e138">
+          ¶ Quedam enim est gneatio quae est simil proficiens et deficiens: 
+          <lb ed="#V" n="104"/>sicut geneartio motus et omnium successiuorum. Alia est proficiens 
+          <lb ed="#V" n="105"/>et non deficiens. sicut in generatione accidentis 
+          permanen<lb ed="#V" n="106" break="no"/>tis: quia ibi est augmentatio et non corruptio. Alia est 
+          neu<lb ed="#V" n="107" break="no"/>tra: nec est deficiens: nec proficiens: sed raptim transiens 
+          <lb ed="#V" n="108"/>tam generatum quam generatio: sicut generatio radii a sole: quia 
+          <lb ed="#V" n="109"/>non manet nisi per instans. Alia est. cuius genitum est in 
+          <lb ed="#V" n="110"/>instanti: et illud non raptim transit: sed permanet: transeum 
+          <lb ed="#V" n="111"/>te tamen nuncgenerationis non remanet generatio. sicut 
+          <lb ed="#V" n="112"/>est in generatione forme substantialis: manet enim 
+          for<lb ed="#V" n="113" break="no"/>ma et non gnatio. Iste quatuor gneartiones remouentur a 
+          diui<lb ed="#V" n="114" break="no"/>nis: patet enim de tribus primis: quia nihil est ibi proficiens et 
+          <lb ed="#V" n="115"/>deficiens simul: sicut in prima. Nec est ibi profectio sicut in 
+          <lb ed="#V" n="116"/>2a. Nec raptim transit gnatio et genitum: sicut in 3a. Ned 
+          <lb ed="#V" n="117"/>etiam 4a: quia non transit gnero diuina: immo est coeterna genito: 
+          <lb ed="#V" n="118"/>quia per ipsam constituitur in esse personali. Sicut ergo eius 
+          persone<lb ed="#V" n="119" break="no"/>litas semper stat. ita eius generto.
+        </p>
+        <p xml:id="FrMS88-e26170-d1e175">
+          ¶ Alia autem inuenitur que est 
+          <lb ed="#V" n="120"/>simillima scilicet genertio actus intelligendi scilicet verbi nostri: caret enim 
+          <lb ed="#V" n="121"/>imperfectionibus praedictis: propter quas praedicte generationes 
+          amoue<lb ed="#V" n="122" break="no"/>tur a diuinis. Ipsa enim est permanens et non deficiens sicut 
+          <lb ed="#V" n="123"/>prima. nec proficiens sicut secunda: sed instantaneam est contra tertiam 
+          <lb ed="#V" n="124"/>non raptim transit: sicut generatio radii: sed permanet cum 
+          <lb ed="#V" n="125"/>genito. Nec raptim transit sicut generatio forme substantia 
+          <lb ed="#V" n="126"/>lis: tam diu enim durat gnatio actus intelligendi quandiu durat 
+          <lb ed="#V" n="127"/>ipse actus. Et hoc magis apparet de verbo: quia verbum 
+          <lb ed="#V" n="128"/>in esse verbi constituitur per generationem passiuam: et ideo 
+          <lb ed="#V" n="129"/>stante verbo contradictionem includit quod non sit 
+          gneratio<lb ed="#V" n="130" break="no"/>est vna difficultas. Utrum actus 
+          intelligendi<lb ed="#V" n="131" break="no"/>Sed hic semper generetur: sicut nunc dictum est. Et 
+          <lb ed="#V" n="132"/>videtur quod non. Quanto forma perfectior est tanto minus depen¬ 
+          <!--76.xml-->
+          <pb ed="#V" n="37-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>det: forma autem perfectissima in intellectu est actus 
+          intelligen<lb ed="#V" n="2" break="no"/>di: habitus autem et species quae sunt imperfectiores non semper dependent 
+          <lb ed="#V" n="3"/>ergo etc.
+        </p>
+        <p xml:id="FrMS88-e26170-d1e220">
+          ¶ Ad istud dicendum est. quod propositio assumpta non est vera 
+          <lb ed="#V" n="4"/>scilicet quod res quanto perfectior: tanto minus vel a paucioribus 
+          <lb ed="#V" n="5"/>dependet. Nam certum est quod compositum est nobilius ipsa materia 
+          <lb ed="#V" n="6"/>et tamen a pluribus dependet quam ipsa materia. Eodem modo de actu 
+          in<lb ed="#V" n="7" break="no"/>telligendi dico. quod licet sit nobilior: tamen a pluribus dependeu 
+          <lb ed="#V" n="8"/>quam species vel habitus: quia aliquando vltra illa a quibus dependeni 
+          <lb ed="#V" n="9"/>ista a quibus etiam dependet actus: actus adhuc dependet ab 
+          <lb ed="#V" n="10"/>istismet scilicet a specie et habitu. Plus etiam dependet: quia postquam 
+          <lb ed="#V" n="11"/>illa sunt in esse posita: iam non dependent nisi forte a 
+          <lb ed="#V" n="12"/>conseruante: tamen eorum generatio non stat. Actus autem 
+          intelligen<lb ed="#V" n="13" break="no"/>di ita continue quam diu est generatur: sicut in primo nunc quando incipit 
+          <lb ed="#V" n="14"/>esse.
+        </p>
+        <p xml:id="FrMS88-e26170-d1e246">
+          ¶ Secunda difficultas cum omnis actio habeat terminum capientem 
+          <lb ed="#V" n="15"/>esse per ipsam. cum per generationem actus intelligendi in primo 
+          <lb ed="#V" n="16"/>instanti actus ipse intelligendi capiat esse: quid in 
+          se<lb ed="#V" n="17" break="no"/>cundo instanti capit esse: quia vel idem capiet bis esse: quia iam 
+          <lb ed="#V" n="18"/>prehabuit esse. vel aliud nouum.
+        </p>
+        <p xml:id="FrMS88-e26170-d1e257">
+          ¶ Dico quod hic non est 
+          <lb ed="#V" n="19"/>difficile respondere: si ponatur productio permanens sicut 
+          pro<lb ed="#V" n="20" break="no"/>ductum. Et tunc esset dicendum quod difficultas esset: si esset 
+          in<lb ed="#V" n="21" break="no"/>secundo instanti noua productio: sed quia non est noua 
+          pro<lb ed="#V" n="22" break="no"/>ductio. sed eadem quae prius: ideo non accipit esse nisi eadem 
+          acce<lb ed="#V" n="23" break="no"/>ptione qua ante.
+        </p>
+        <p xml:id="FrMS88-e26170-d1e270">
+          ¶ Exemplum. causa materialis semper causat materialiter 
+          <lb ed="#V" n="24"/>suum effectum: quia suum causare est suum recipere: et effectus 
+          depen<lb ed="#V" n="25" break="no"/>det ab ea: semper autem eadem causalitate causat: et eadem receptio 
+          <lb ed="#V" n="26"/>ne recipit.
+        </p>
+        <p xml:id="FrMS88-e26170-d1e279">
+          ¶ Tertia difficultas est de agentibus naturalibus quando 
+          <lb ed="#V" n="27"/>approximantur passiuo quanto ibi plus manent: tanto 
+          <lb ed="#V" n="28"/>magis intendunt suos effectus. Non autem experimur hoc 
+          <lb ed="#V" n="29"/>de actu intelligendi. Unde ergo hoc:
+        </p>
+        <p xml:id="FrMS88-e26170-d1e288">
+          ¶ hic ergo dico. quod 
+          ali<lb ed="#V" n="30" break="no"/>qua agentia sunt qua continuant actionem suam innouando 
+          <lb ed="#V" n="31"/>ipsam. Aliqua non: sicut si sol staret et non moueretur 
+          <lb ed="#V" n="32"/>semper eundem radium causaret: nec ille radius intenderetur: 
+          <lb ed="#V" n="33"/>sed in primo instanti esset eque perfectus: sicut in vltimo. Et 
+          <lb ed="#V" n="34"/>tota ratio est: quia eadem actione numero causaret: non sic autem 
+          <lb ed="#V" n="35"/>agentia philosophica: sicut ignis qui per modum contrarii agit. habet enim contrarium 
+          <lb ed="#V" n="36"/>et ideo alia et alia actione. et alio et alio influxn causat continue: et 
+          <lb ed="#V" n="37"/>semper aliquid nouum producit: et etiam augmentat.
+        </p>
+        <p xml:id="FrMS88-e26170-d1e309">
+          ¶ 
+          Quar<lb ed="#V" n="38" break="no"/>ta difficultas est. Utrum posset demonstrari. quod talis actus 
+          intelli<lb ed="#V" n="39" break="no"/>gendi sic continue dependeat.
+        </p>
+        <p xml:id="FrMS88-e26170-d1e316">
+          ¶ Ad hoc dico quod 
+          depen<lb ed="#V" n="40" break="no"/>dentia b. ad a. probatur precise per hoc. quia ad presen 
+          <lb ed="#V" n="41"/>tiam a. sequitur be. et ad absintiam a. sequitur desinitiob. Num 
+          <lb ed="#V" n="42"/>quam aliam viam habemus ad probandum: siue ostendendum aliquid esse 
+          <lb ed="#V" n="43"/>causam alicuius. Eodem modo dico de continue causare: quia enim 
+          vi<lb ed="#V" n="44" break="no"/>demus quod aliqui effectus postquam positi stur in esse quantum 
+          <lb ed="#V" n="45"/>cumquam deficiat causa illum effectum ponens in esse: non propter hoc 
+          <lb ed="#V" n="46"/>deficit ille effectus: dicimus quod ille continue non catur. 
+          <lb ed="#V" n="47"/>Exitum de calore causato a sole: recedente enim sole remanet 
+          ca<lb ed="#V" n="48" break="no"/>lor. ideo etc. Quandocumque enim ex absitia esse sequitur corruptio 
+          effe<lb ed="#V" n="49" break="no"/>ctus: tunc dicimus quod ille effectus contunue dependet: et 
+          <lb ed="#V" n="50"/>est in continuo causari. Exitum de luce causata a sole: 
+          recedente<lb ed="#V" n="51" break="no"/>enim sole iam amplius non remanet. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e26170-d1e345">
+          ¶ Ad propositum 
+          <lb ed="#V" n="52"/>applicanus quantum ad ea quae sunt in anima: quia videmus quod lic 
+          <lb ed="#V" n="53"/>praesente obiecto vel specie causetur habitus: tamen postquam causatus est 
+          <lb ed="#V" n="54"/>abeunte obiecto adhuc remanet habitus. Probamus. ni 
+          <lb ed="#V" n="55"/>habitum ex hoc non continue dependere. neccontinue causari 
+          <lb ed="#V" n="56"/>quia autem videmus quod praesente obiecto actus ponitur in esse. abinte 
+          <lb ed="#V" n="57"/>autem non stat actus: ideo arguimus euidenter quod actus continue 
+          <lb ed="#V" n="58"/>causatur: et dependet eque euidenter: sicut de radio respectu 
+          <lb ed="#V" n="59"/>solis.
+        </p>
+        <p xml:id="FrMS88-e26170-d1e365">
+          ¶ Quinta difficultas quomodo corrumpuntur et permanent ea que 
+          <lb ed="#V" n="60"/>sunt in anima nostra.
+        </p>
+        <p xml:id="FrMS88-e26170-d1e370">
+          ¶ Ad hoc dico quod aliqua corrumpuntur praecise ex 
+          <lb ed="#V" n="61"/>defectu agentis. Exuitum de luce in aere que non 
+          corrum<lb ed="#V" n="62" break="no"/>pitur propter aduentum contrarii. nec propter innaturalem potentiam 
+          subiecti<lb ed="#V" n="63" break="no"/>sed precise ex defectu agentis. huiusmodi est in anima actus 
+          intell<lb ed="#V" n="64" break="no"/>gendi. non enim. propter contrarium corrumpitur. nec propter innaturalitatem 
+          <lb ed="#V" n="65"/>substanti: sed precise propter defectum agentis. Intellectus enim 
+          <lb ed="#V" n="66"/>agens potest occupari circa aliud obiectum: et sic non occu¬ 
+          <!--76.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>pabit se circa istud. et per consequens ex tali defectu sequitur de 
+          <lb ed="#V" n="68"/>sitio actus intelligendi. Aliqua autem sunt in sensibilibus 
+          <lb ed="#V" n="69"/>quae corrumpuntur ex defectu principii patientis scilicet subiecti. et hoc 
+          <lb ed="#V" n="70"/>fit quando subiectum desinit materialiter causare propter aduentum alicuius 
+          <lb ed="#V" n="71"/>contrarii. Et isto modo albedo in superficie esse desinit 
+          nigre<lb ed="#V" n="72" break="no"/>dine adueniente. hiumodi in anima nostra sunt habitus aliqui 
+          qui<lb ed="#V" n="73" break="no"/>habent contrarium. Nam ipsi non corrumpuntur propter primum: quia postquam positi 
+          <lb ed="#V" n="74"/>sunt in esse non amplius dependent a causis suis: sed quia omne 
+          <lb ed="#V" n="75"/>inherens dependet a subiecto. cessante subiecto causare in genere 
+          <lb ed="#V" n="76"/>sue causalitatis: statim desinunt isti habitus. hoc autem fit 
+          quan<lb ed="#V" n="77" break="no"/>do aliis habitus isti incompossibiles inducuntur: quia tunc 
+          <lb ed="#V" n="78"/>subiectum desinit causare respectu istorum: et incipit respectu 
+          il<lb ed="#V" n="79" break="no"/>lorum. Isti autem habitus sunt imperfecti: vt in sequentibus 
+          appare<lb ed="#V" n="80" break="no"/>bit.
+        </p>
+        <p xml:id="FrMS88-e26170-d1e420">
+          ¶ Sed tunc ex istis potest elici vna conclusio quod perfecti habitus 
+          <lb ed="#V" n="81"/>non possunt corrumpi. Nam de imperfectis sicut de opione 
+          <lb ed="#V" n="82"/>vera et falsa: et fide patet oppositum. sed de scientia et sapienta quae 
+          <lb ed="#V" n="83"/>sunt vere et perfecte videtur quod sunt incorruptibiles. 
+          Pro<lb ed="#V" n="84" break="no"/>bo: nam omne quod corrumpitur vel corrumpitur propter 
+          defectum<lb ed="#V" n="85" break="no"/>agentis: sicut de luce: vel propter defectum subiecti: quia desinit 
+          <lb ed="#V" n="86"/>causare. Vel propter aliquod incompossibile inductum in subiecto: ex 
+          <lb ed="#V" n="87"/>quo sequitur secundum scilicet quod subiectum non possit causare. Propter primum 
+          <lb ed="#V" n="88"/>non corrumpuntur isti habitus: quia postquam positi sunt in esset 
+          <lb ed="#V" n="89"/>abeunte causa sua adhuc remanent. Nec per scientiam falsam 
+          <lb ed="#V" n="90"/>sibi incompossibilem: vel propter sapinam falsam. quia iste non 
+          <lb ed="#V" n="91"/>sunt. Includit enim contradictionem quod aliqua scientia sit falsa: vel 
+          <lb ed="#V" n="92"/>etiam sapina. sicut quod homo sit irrationalis. Scientia enim est habitus 
+          veri<lb ed="#V" n="93" break="no"/>dicus.
+        </p>
+        <p xml:id="FrMS88-e26170-d1e452">
+          ¶ Sed dices. quod licet non possit corrumpi per scientiam 
+          <lb ed="#V" n="94"/>falsam. eo quod non sit: tamen ad corruptionem sufficit 
+          opi<lb ed="#V" n="95" break="no"/>nio falsa: que bene est possibilis: et ista ita est 
+          incompos<lb ed="#V" n="96" break="no"/>sibilis scientie: sicut albedo ningredini.
+        </p>
+        <p xml:id="FrMS88-e26170-d1e461">
+          ¶ Sed hoc est 
+          <lb ed="#V" n="97"/>incompossibile: quia quando alique due causae sunt 
+          eque<lb ed="#V" n="98" break="no"/>approximate respectu alicuius passiui: si vna est 
+          poten<lb ed="#V" n="99" break="no"/>tior alia: et effectus eorum sunt simpliciter 
+          incompos<lb ed="#V" n="100" break="no"/>sibiles: quia nunquam impotentior poterit effectum suum in 
+          pas<lb ed="#V" n="101" break="no"/>siuo causare: nec per consequens effectum potentioris destruere. hoc 
+          <lb ed="#V" n="102"/>patet. maxime si vtraque secundum vltimum sue potentie agit 
+          <lb ed="#V" n="103"/>Momon ita est quod opinio falsa: que est incompossibilis scientiae 
+          <lb ed="#V" n="104"/>non potest causari in intellectu nisi mediante actu circa obiectum 
+          <lb ed="#V" n="105"/>illud quod est scitum. Constat autem quod illud obiectum scitum pro tunc 
+          <lb ed="#V" n="106"/>erit praesens intellectui: et sic premisse respectu 
+          demonstra<lb ed="#V" n="107" break="no"/>tionis: sed demonstratione eque approximata poten 
+          <lb ed="#V" n="108"/>tie cum syllogismo probabili: demonstratio est 
+          poten<lb ed="#V" n="109" break="no"/>tior: cum ergo effectus demonstrationis qui est scientia sit in 
+          <lb ed="#V" n="110"/>compossibilis opinioni false: sequitur quod spllitus 
+          probabi<lb ed="#V" n="111" break="no"/>lis numquam poterit effectum suum causare in potentia. et per consequens nec 
+          scien<lb ed="#V" n="112" break="no"/>tiam destruere.
+        </p>
+        <p xml:id="FrMS88-e26170-d1e498">
+          ¶ Ex his potest alicui videri: quod veri et 
+          per<lb ed="#V" n="113" break="no"/>fecti habitus intellectualis non possunt corrumpi.
+        </p>
+        <p xml:id="FrMS88-e26170-d1e503">
+          ¶ Ad Grego. 
+          <lb ed="#V" n="114"/>dico. quod ideo est: quia generatio est coeua genito. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

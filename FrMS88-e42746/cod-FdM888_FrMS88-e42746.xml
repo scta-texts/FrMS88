@@ -1,366 +1,366 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 2</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 2</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="59-r"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e42746"><!-- l1q11q2 -->
-            <head xml:id="FrMS88-e42746-Hd1e108">Quaestio 2</head>
-            <p xml:id="FrMS88-e42746-d1e111">
-      Quaestio. ii
-      <lb ed="#V" n="17"/>UTrum spiritus sanctus si non pro 
-      <lb ed="#V" n="18" break="no"/>cederet a filio distingueretur 
-      <lb ed="#V" n="19"/>ab eo. quod non. quia secundum Augustinum. Deus est 
-      <lb ed="#V" n="20"/>quicquid habet. excepto eo quod relatiue 
-      <lb ed="#V" n="21"/>U dicitur.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e124">
-      ¶ Contra. Spiritussanctus 
-      pro<lb ed="#V" n="22" break="no"/>cedit quomodo datus non quomodo natus. 
-      <lb ed="#V" n="23"/>quod questio ista non est 
-      admit<lb ed="#V" n="24" break="no"/>Aliqui dicun. tenda: quia includit impossibile. 
-      </p>
-            <p xml:id="FrMS88-e42746-d1e133">
-               <lb ed="#V" n="25"/>¶ Sed contra istud arguiter duplici testimonio snctorum. 
-      </p>
-            <p xml:id="FrMS88-e42746-d1e138">
-               <lb ed="#V" n="26"/>¶ Primum est. Aug. 5. de tri. c. 5. vbi sic dicit. Si pater non 
-      <lb ed="#V" n="27"/>esset inascibilis. nihil prohiberet eum filium genuisse. et tamen 
-      <lb ed="#V" n="28"/>ita impossibile est patrem non ese inascibilem: sicut filium non spirare. 
-      </p>
-            <p xml:id="FrMS88-e42746-d1e148">
-               <lb ed="#V" n="29"/>¶ 2m testimonium est Richar. de tri. 3o. dicentis sic. Si in 
-      <lb ed="#V" n="30"/>diuinis non esset nisi vna persona. nihil prohiberet eam 
-      ha<lb ed="#V" n="31" break="no"/>bere plenitudinem sapientie et potentie. Antecedens similiter videtur 
-      inclu<lb ed="#V" n="32" break="no"/>dere impossibile. ergo etc. Idcirco ad praemissam questionem dicunt 
-      <lb ed="#V" n="33"/>aliquin duas conclusiones. Prima est quod filius non distinguitur 
-      <lb ed="#V" n="34"/>a pre nisi per filiationem: quia per ipsam ad nullum alium se habet. 
-      </p>
-            <p xml:id="FrMS88-e42746-d1e164">
-               <lb ed="#V" n="35"/>¶ 2a conclusio est. quod filius non distinguitur a spiritusancto 
-      <lb ed="#V" n="36"/>nisi per spirationem actiuam: quia per nullam aliam 
-      habi<lb ed="#V" n="37" break="no"/>tudinem respicit ipsum. Quo habito patet. quod si filius non 
-      <lb ed="#V" n="38"/>haberet spirationem actiuam: non distingueretur a 
-      spiritu<lb ed="#V" n="39" break="no"/>sancto. Ratio vtriusque conclusionis est. quia relatio non 
-      di<lb ed="#V" n="40" break="no"/>stinguitur nisi ab opposito: eo quod tota quiditas relationis 
-      prae<lb ed="#V" n="41" break="no"/>cise oppositum respicit: cum ergo filius per filiationem non 
-      re<lb ed="#V" n="42" break="no"/>spiciat nisi solum patrem: ergo per ipsam non 
-      distingui<lb ed="#V" n="43" break="no"/>tur nisi a patre: et similiter cum filiatione spitumsanctum non respiciat: 
-      <lb ed="#V" n="44"/>sed per spirationem actiuam: praecise distinguitur per eam ab eo. 
-      </p>
-            <p xml:id="FrMS88-e42746-d1e188">
-               <lb ed="#V" n="45"/>¶ Contra primam de filiatione: et contra rationem 
-      am<lb ed="#V" n="46" break="no"/>barum conclusionum arguo sic. Primo. sicut relatio secundum totam 
-      suan<lb ed="#V" n="47" break="no"/>quiditatem est ad aliud scilicet ad terminum. ita essentia est ad 
-      <lb ed="#V" n="48"/>se. si ergo relatio a nullo potest distingui nisi ab illo ad 
-      <lb ed="#V" n="49"/>quod est: cum secundum Aug. Essentia secundum totam rationem 
-      <lb ed="#V" n="50"/>uam sit ad se: a nullo distingueretur: eo quod nihil extra se 
-      <lb ed="#V" n="51"/>respiciat: vt terminum: istud est impossibile. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e206">
-      ¶ 2o 
-      <lb ed="#V" n="52"/>sic. Si filiatio non distinguitur nisi ab opposito. cum in 
-      <lb ed="#V" n="53"/>filio non respiciat oppositum aliquod: a nullo: quod est in 
-      <lb ed="#V" n="54"/>filio distingueretur: et sic in filio no erunt due emanatio 
-      <lb ed="#V" n="55"/>nes: sed tantum vna. Et praeterea: si sint vna: quicquid vna 
-      re<lb ed="#V" n="56" break="no"/>spicit vt terminum: et alia.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e219">
-      ¶ 3o sic. non solum in deo: sed 
-      <lb ed="#V" n="57"/>etiam in ereaturis equalitas est relatio distincta a 
-      pa<lb ed="#V" n="58" break="no"/>ternitate: et tamen equalitas non est ad paternitatem vt 
-      <lb ed="#V" n="59"/>ad terminum.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e228">
-      ¶ 4o filiatio diuina distinguitur a filiatio 
-      <lb ed="#V" n="60"/>ne in creaturis: et tamen non respicit eam: vt terminum. 
-      <lb ed="#V" n="61"/>ergo quod filius per filiationem distinguitur a quocunque 
-      <lb ed="#V" n="62"/>Dic non filio. quod patet per primum prinium complexum. 
-      </p>
-            <p xml:id="FrMS88-e42746-d1e238">
-               <lb ed="#V" n="63"/>¶ Quecunque non sunt distincta secundum a. necessario videntur esse 
-      <lb ed="#V" n="64"/>idem secundum. a. si a. formaliter in eis existat. Ista patet. quia 
-      <lb ed="#V" n="65"/>distinctum et idem sunt immediata circa quodcunque ens. vel 
-      <lb ed="#V" n="66"/>saltem idem et non idem. Si ergo filius filiatione non sit 
-      <!--120.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>non idem spirituisancto: vel distinctus: necessario sequitur quod 
-      <lb ed="#V" n="68"/>erit idem.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e258">
-      ¶ Confirmatur. quia extrema contradictionis 
-      <lb ed="#V" n="69"/>non possunt conuenire aliquibus nisi propter aliud et a iud: 
-      <lb ed="#V" n="70"/>et secundum quod sunt distincta: sed filius non est idem cum spiritusancto 
-      <lb ed="#V" n="71"/>per spirationem: et non est non idem per filiationem. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e267">
-      ¶ Ad  
-      <lb ed="#V" n="72"/>rationem per conclusione quando ipsi dicunt quod tota quiditas relationis 
-      <lb ed="#V" n="73"/>est ad aliud. verum est. sicut tota quiditas hominis est 
-      <lb ed="#V" n="74"/>ad se. Est enim animal rationale: hoc autem non obstante: 
-      <lb ed="#V" n="75"/>pomini possunt conuenire adhuc proprie passiones scilicet idem 
-      <lb ed="#V" n="76"/>et diuersum que sunt passiones entis: quanuis enim albedo 
-      <lb ed="#V" n="77"/>sit aliquid ad se. tamen distinctio a nigredine sibi aduenit. Eo 
-      <lb ed="#V" n="78"/>dem modo dico de relatione: que licet sit ad aliud: tamen potest 
-      si<lb ed="#V" n="79" break="no"/>bi competere passio entis.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e287">
-      ¶ Contra secundam 
-      conclusio<lb ed="#V" n="80" break="no"/>nem de spiratione arguo quadrupliciter. Primo sic: quando 
-      <lb ed="#V" n="81"/>cumque aliqua distinguuntur per priora: amoto quocumque 
-      <lb ed="#V" n="82"/>posteriori adhuc distinguuntur: sed filius et spiritussan 
-      <lb ed="#V" n="83"/>ctus distinguuntur per sua priora: quia per sua constitutiua. 
-      <lb ed="#V" n="84"/>Spiratio autem actiua est posterior filio. vt patebit 
-      infe<lb ed="#V" n="85" break="no"/>rius. ergo ea amota adhuc remaneret distinctio filii 
-      a<lb ed="#V" n="86" break="no"/>pairitusancto.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e305">
-      ¶ 2o sic. quandocumque aliqua distinguuntur 
-      <lb ed="#V" n="87"/>ex rationibus suis formalibus: remanentibus illis 
-      ratio<lb ed="#V" n="88" break="no"/>nibus formalibus remanent adhuc illa distincta: sed 
-      fi<lb ed="#V" n="89" break="no"/>lius a spiritusancto distinguitur ex sua ratione formali: quae 
-      <lb ed="#V" n="90"/>constat ex essentia et relatione: et similiter spiritussanctus 
-      <lb ed="#V" n="91"/>a filio. constat enim ratio formalis spiritussancti ex essentia et 
-      <lb ed="#V" n="92"/>spiratione passiua: ergo cum spiratio actiua non sit de ratione 
-      <lb ed="#V" n="93"/>filii. ea amota adhuc remanet ratio filii: et per consequens eius 
-      <lb ed="#V" n="94"/>distinctio formalis a spiritusancto.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e325">
-      ¶ 3o sic. quandocumque 
-      <lb ed="#V" n="95"/>aliqua relatio ponit effectum suum formalem: non solum 
-      <lb ed="#V" n="96"/>circa fundamentum: sed etiam circa suppositum: illa 
-      neces<lb ed="#V" n="97" break="no"/>sario refert suppositum in quo est. Exitum de similitudine que 
-      <lb ed="#V" n="98"/>ponit effectum suum: non solum circa albedinem: sed 
-      cir<lb ed="#V" n="99" break="no"/>ta subiectum: ideo non solum refert fundamentum scilicet albedinem: 
-      <lb ed="#V" n="100"/>sed etiam suppositum. subiectum enim dicitur simile: sed distinctio 
-      <lb ed="#V" n="101"/>est talis relatio. Duo autem sunt hic fundamenta 
-      distin<lb ed="#V" n="102" break="no"/>ctionis scilicet filiatio et spiratio: que secundum omnes sunt 
-      emana<lb ed="#V" n="103" break="no"/>tiones distincte. Distinctio autem fundatur in istis: cum 
-      ergo<lb ed="#V" n="104" break="no"/>si non esset spiratio in filio: adhuc esset filiatio in filio: et 
-      spi<lb ed="#V" n="105" break="no"/>ratio in spiritusancto: et adhuc essent distincte 
-      emana<lb ed="#V" n="106" break="no"/>tiones necessario: ergo distinctio in eis fundata non 
-      so<lb ed="#V" n="107" break="no"/>lum denominaret eas: sed etiam supposita: et sic persona filii 
-      <lb ed="#V" n="108"/>et spiritussancti adhuc distinguerentur.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e359">
-      ¶ 4o sic. CEadem 
-      prin<lb ed="#V" n="109" break="no"/>cipia sunt essendi et distinguendi. Nam per idem vnumquodque 
-      <lb ed="#V" n="110"/>per quod est ens etiam est vnum. et per consequens 
-      distin<lb ed="#V" n="111" break="no"/>ctum: sed persona filii habet esse personale: et constituitur 
-      <lb ed="#V" n="112"/>per generationem passiuam. et spiritussanctus per spirationem 
-      pas<lb ed="#V" n="113" break="no"/>siuam. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e372">
-      ¶ Sed hic occurrunt 4r difficultas
-    </p>
-            <p xml:id="FrMS88-e42746-d1e375">
-      ¶ Prima. 
-      <lb ed="#V" n="114"/>si filius non produceretur a patre: vtrum esset distinctus 
-      <lb ed="#V" n="115"/>ab eo. Dico quod non. quia distinctio praesupponit esse: filius 
-      <lb ed="#V" n="116"/>autem si non esset a patre: simpliciter non esset. ergo etc. 
-      </p>
-            <p xml:id="FrMS88-e42746-d1e384">
-               <lb ed="#V" n="117"/>¶ 2a difficultas si spiritussanctus non procederet a patre. vtrum 
-      <lb ed="#V" n="118"/>distingueretur ab eo.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e391">
-      ¶ Dico propter eandem rationem 
-      <lb ed="#V" n="119"/>quod non: tunc enim non esset. quia per spirationem constituitur 
-      <lb ed="#V" n="120"/>in esse: cui repugnat esse in primo modo: nisi a 
-      spira<lb ed="#V" n="121" break="no"/>tione: sicut ergo homo si non esset a nullo 
-      distinguere<lb ed="#V" n="122" break="no"/>tur: sic dico in proposito: sequitur enim per locum a 
-      par<lb ed="#V" n="123" break="no"/>te in modo. si filius est distinctus. vel spiritussanctus: 
-      <lb ed="#V" n="124"/>ergo est: et si non est: non est distinctus. per locum a 
-      to<lb ed="#V" n="125" break="no"/>to in modo destructiue. vnde quicunque ponit quod 
-      spira<lb ed="#V" n="126" break="no"/>tio actiua constituat filium. consequenter debet dicere quod 
-      <lb ed="#V" n="127"/>si non spiraret non distingueretur ab aliquo alio.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e413">
-      ¶ 3a 
-      <lb ed="#V" n="128"/>difficultas est. Utrum spiratio et generatio passiue possunt se 
-      <lb ed="#V" n="129"/>compati. et videtur quod sic. nam in creaturis vnus et idem 
-      <lb ed="#V" n="130"/>actus amandi est generatus: quia ab obiecto et est 
-      spira<lb ed="#V" n="131" break="no"/>tus: quia a potentia volitiua. Similiter si actiue se 
-      com<lb ed="#V" n="132" break="no"/>patiuntur scilicet paternitas et spiratio quare non passiue. 
-      <!--121.xml-->
-      <pb ed="#V" n="59-v"/>
-               <cb ed="#V" n="a"/>
-            </p>
-            <p xml:id="FrMS88-e42746-d1e434">
-               <lb ed="#V" n="1"/>¶ Dico quod impossibile est idem productum produci 
-      dua<lb ed="#V" n="2" break="no"/>bus productionibus totalibus: in actu aute volendi in 
-      <lb ed="#V" n="3"/>creaturis generatio et spiratio se compatiuntur: quia neutra est 
-      <lb ed="#V" n="4"/>totalis productio: in divinis autem generatio est totalis: et spiratio 
-      <lb ed="#V" n="5"/>est totalis: ideo non sunt ibi diuerse productiones 
-      partia<lb ed="#V" n="6" break="no"/>les: sed vna est ibi totalis.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e450">
-      ¶ 4a difficultas est. quare 
-      ma<lb ed="#V" n="7" break="no"/>gis actiue sunt compossibiles quam passiue.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e455">
-      ¶ Dico hic 
-      <lb ed="#V" n="8"/>quod licet idem producens producat plura pluribus 
-      productioni<lb ed="#V" n="9" break="no"/>bus totalibus. sicut sol plures radios: quia non accipit 
-      <lb ed="#V" n="10"/>esse per istas productiones: tamen quod idem producatur totalibus 
-      <lb ed="#V" n="11"/>duabus productionibus inconueniens est. quia productum capit 
-      <lb ed="#V" n="12"/>esse per productionem: repugnans autem est: quod idem capia 
-      <lb ed="#V" n="13"/>esse totaliter duabus productionibus: suppositum ergo 
-      pa<lb ed="#V" n="14" break="no"/>tris producit duo supposita duabus totalibus 
-      produ<lb ed="#V" n="15" break="no"/>ctionibus: quia non accipit esse ab illis: ideo sibi 
-      simul<lb ed="#V" n="16" break="no"/>non repugnat: sed spiritussanctus totaliter spiratione 
-      passi<lb ed="#V" n="17" break="no"/>ua accipit esse: ideo non potest habere aliam productionem 
-      <lb ed="#V" n="18"/>qua accipiat esse.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e481">
-      ¶ Sed adhuc remanet vnum dubium. 
-      <lb ed="#V" n="19"/>Duo enim signa naturae ponuntur in diuinis.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e486">
-      ¶ Primum est 
-      <lb ed="#V" n="20"/>fecunditatis intellectiue. in quo est ordo originis inter 
-      <lb ed="#V" n="21"/>patrem et filium totum quantum ad esse.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e493">
-      ¶ 2m signum 
-      <lb ed="#V" n="22"/>est fecunditatis volitiue potentie. Ponatur ergo quod primum 
-      si<lb ed="#V" n="23" break="no"/>gnum sit 2m. et econuerso. Utrum esset ne inconueniens 
-      </p>
-            <p xml:id="FrMS88-e42746-d1e501">
-               <lb ed="#V" n="24"/>¶ Dico quod ista hypothesi posita: sequuntur quatuor mui 
-      <lb ed="#V" n="25"/>rabilia magna. Primum est. quod prima persona constituetur 
-      acti<lb ed="#V" n="26" break="no"/>ua spiratione: sicut nunc actiua generatione: spiratio enim 
-      <lb ed="#V" n="27"/>tunc precederet generationem propter transpositionem fecunditatum 
-      <lb ed="#V" n="28"/>et signorum corrspondentium illis fecunditatibus. 
-      Con<lb ed="#V" n="29" break="no"/>stat autem quod prima relatio primum suppositum constitueret: et 2a 2m. 
-      <lb ed="#V" n="30"/>spiratio autem passiua esset 2a. ita quod 2a persona constitueret 
-      <lb ed="#V" n="31"/>spiratione passiua. et ita 3a persona filiatione.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e521">
-      ¶ 2m mira 
-      <lb ed="#V" n="32"/>bile est. quod relatio paternitatis esset communis duabus persouis: sicut 
-      <lb ed="#V" n="33"/>nunc est spiratio actiua: nam eodem modo comnicaretur 2o 
-      perso<lb ed="#V" n="34" break="no"/>ne fecunditas intellectiua: sicut nunc comunicatur 
-      fecundi<lb ed="#V" n="35" break="no"/>tas volitiua. propter autem communicationem fecunditatis volitiuem 
-      <lb ed="#V" n="36"/>consequitur communicabilitas spirationis actiue: ergo tunc propter 
-      <lb ed="#V" n="37"/>cmenicationem fecunditatis intellectiue consequeretur comunica 
-      <lb ed="#V" n="38"/>bilitas generationis actiue.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e539">
-      ¶ 3m mirabile est. quod sicut 
-      <lb ed="#V" n="39"/>nunc pater est princima persona. filius 2a. spiritusancus 3a. ita tunc 
-      spira<lb ed="#V" n="40" break="no"/>tor esset prima persona. quia per spirationem actiuam constitueretur. 
-      <lb ed="#V" n="41"/>spiritums sanctus esset 2a persona. quia per secundam relationem 
-      constitue<lb ed="#V" n="42" break="no"/>retur scilicet per spirationem passiuam. 3a persona esset filius: quia licet 
-      <lb ed="#V" n="43"/>paternitas praecederet filiationem: sicut nunc spiratio actiua 
-      <lb ed="#V" n="44"/>spirationem passiuam: tamen paternitas non constitueret: sed 
-      <lb ed="#V" n="45"/>esset communis et communicabilis: quod repugnat patris constitutiuo. 
-      <lb ed="#V" n="46"/>iliatio autem 3o loco tertiam personam constitueret. sicut numerc 
-      <lb ed="#V" n="47"/>constituit spiratio passiua.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e561">
-      ¶ 4m mirabile est. quod 
-      spiritussan<lb ed="#V" n="48" break="no"/>ctus tunc ab vna persona sola procederet: quia a spiratore 
-      <lb ed="#V" n="49"/>que esset prima persona. filius autem a duabus scilicet a spirante et 
-      spira<lb ed="#V" n="50" break="no"/>to: quibus communis esset paternitas. Ista autem mirabilia et 
-      mu<lb ed="#V" n="51" break="no"/>ta alia sequuntur propter illud secundum suppositum.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e572">
-      ¶ Sed 
-      con<lb ed="#V" n="52" break="no"/>tra ista sunt duo dubia.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e577">
-      ¶ Primum est. quod illud cui quo 
-      <lb ed="#V" n="53"/>cunque posito: aliquid non repugnat: habet vim et 
-      aptitudi<lb ed="#V" n="54" break="no"/>nem illius: sed hoc posito non repugnaret predicte 
-      spi<lb ed="#V" n="55" break="no"/>rationi actiue constituere: ergo spiratio actiua habet vim 
-      con<lb ed="#V" n="56" break="no"/>stituendi: et tunc sequitur quod constituit. quia in diuinis non 
-      difficult<lb ed="#V" n="57" break="no"/>Ext esse et posse.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e591">
-      ¶ 2m dubium. quia illis positis non 
-      re<lb ed="#V" n="58" break="no"/>pugnat paternitati communicabilitas. nam saluata ratione 
-      for<lb ed="#V" n="59" break="no"/>mali paternitatis variato solum ordine: tu dicis: quod ipsa 
-      <lb ed="#V" n="60"/>esset communis: et per consequens comunicabilis: omne autem ibi comunicabile 
-      ne<lb ed="#V" n="61" break="no"/>cessario conicatur: ergo paternitas in divinis necessario est 
-      <lb ed="#V" n="62"/>ommunis: et per consequens non constituit.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e604">
-      ¶ Iste rationes me 
-      conuin<lb ed="#V" n="63" break="no"/>cunt ad tenendum. quod si varientur ista signa. ita quod primum fieret 
-      <lb ed="#V" n="64"/>2m. et econverso. dummodo saluarentur rationes formales 
-      pater<lb ed="#V" n="65" break="no"/>mitatis et aliarum proprietatum que nunc sunt. eodem modo constitue 
-      <lb ed="#V" n="66"/>rentur: sicut nunc. Ex ratione enim formali paternitatis quae est in deo 
-      <!--121.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>sibi competit constituere: et incommunicabilitas: et opposita 
-      com<lb ed="#V" n="68" break="no"/>ueniunt spirationi actiue: et sic conuenirent tunc.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e624">
-      ¶ Sed dices. 
-      <lb ed="#V" n="69"/>quod non est intelligibile quod prima relatio esset spiratio: et tamen non 
-      con<lb ed="#V" n="70" break="no"/>stitueret.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e631">
-      ¶ Dico quod oppositum est eque male 
-      intelligibi<lb ed="#V" n="71" break="no"/>le: et melius est dicere quod ista hypothesi posita: sicut 
-      mira<lb ed="#V" n="72" break="no"/>bilia multa sequuntur. ita istud inter alia. ita quod paternitas 
-      <lb ed="#V" n="73"/>non esset eiusdem rationis cum ista. et sic de aliis. variato enim 
-      or<lb ed="#V" n="74" break="no"/>dine: variantur rationes formales eorum.
-    </p>
-            <p xml:id="FrMS88-e42746-d1e642">
-      ¶ Ad argumentum dico. quod spiritus 
-      <lb ed="#V" n="75"/>seuns haberet respectum distinctionis ad filium etc. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 2</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 2</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="59-r"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e42746"><!-- l1q11q2 -->
+        <head xml:id="FrMS88-e42746-Hd1e108">Quaestio 2</head>
+        <p xml:id="FrMS88-e42746-d1e111">
+          Quaestio. ii
+          <lb ed="#V" n="17"/>UTrum spiritus sanctus si non pro 
+          <lb ed="#V" n="18" break="no"/>cederet a filio distingueretur 
+          <lb ed="#V" n="19"/>ab eo. quod non. quia secundum Augustinum. Deus est 
+          <lb ed="#V" n="20"/>quicquid habet. excepto eo quod relatiue 
+          <lb ed="#V" n="21"/>U dicitur.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e124">
+          ¶ Contra. Spiritussanctus 
+          pro<lb ed="#V" n="22" break="no"/>cedit quomodo datus non quomodo natus. 
+          <lb ed="#V" n="23"/>quod questio ista non est 
+          admit<lb ed="#V" n="24" break="no"/>Aliqui dicun. tenda: quia includit impossibile. 
+        </p>
+        <p xml:id="FrMS88-e42746-d1e133">
+          <lb ed="#V" n="25"/>¶ Sed contra istud arguiter duplici testimonio snctorum. 
+        </p>
+        <p xml:id="FrMS88-e42746-d1e138">
+          <lb ed="#V" n="26"/>¶ Primum est. Aug. 5. de tri. c. 5. vbi sic dicit. Si pater non 
+          <lb ed="#V" n="27"/>esset inascibilis. nihil prohiberet eum filium genuisse. et tamen 
+          <lb ed="#V" n="28"/>ita impossibile est patrem non ese inascibilem: sicut filium non spirare. 
+        </p>
+        <p xml:id="FrMS88-e42746-d1e148">
+          <lb ed="#V" n="29"/>¶ 2m testimonium est Richar. de tri. 3o. dicentis sic. Si in 
+          <lb ed="#V" n="30"/>diuinis non esset nisi vna persona. nihil prohiberet eam 
+          ha<lb ed="#V" n="31" break="no"/>bere plenitudinem sapientie et potentie. Antecedens similiter videtur 
+          inclu<lb ed="#V" n="32" break="no"/>dere impossibile. ergo etc. Idcirco ad praemissam questionem dicunt 
+          <lb ed="#V" n="33"/>aliquin duas conclusiones. Prima est quod filius non distinguitur 
+          <lb ed="#V" n="34"/>a pre nisi per filiationem: quia per ipsam ad nullum alium se habet. 
+        </p>
+        <p xml:id="FrMS88-e42746-d1e164">
+          <lb ed="#V" n="35"/>¶ 2a conclusio est. quod filius non distinguitur a spiritusancto 
+          <lb ed="#V" n="36"/>nisi per spirationem actiuam: quia per nullam aliam 
+          habi<lb ed="#V" n="37" break="no"/>tudinem respicit ipsum. Quo habito patet. quod si filius non 
+          <lb ed="#V" n="38"/>haberet spirationem actiuam: non distingueretur a 
+          spiritu<lb ed="#V" n="39" break="no"/>sancto. Ratio vtriusque conclusionis est. quia relatio non 
+          di<lb ed="#V" n="40" break="no"/>stinguitur nisi ab opposito: eo quod tota quiditas relationis 
+          prae<lb ed="#V" n="41" break="no"/>cise oppositum respicit: cum ergo filius per filiationem non 
+          re<lb ed="#V" n="42" break="no"/>spiciat nisi solum patrem: ergo per ipsam non 
+          distingui<lb ed="#V" n="43" break="no"/>tur nisi a patre: et similiter cum filiatione spitumsanctum non respiciat: 
+          <lb ed="#V" n="44"/>sed per spirationem actiuam: praecise distinguitur per eam ab eo. 
+        </p>
+        <p xml:id="FrMS88-e42746-d1e188">
+          <lb ed="#V" n="45"/>¶ Contra primam de filiatione: et contra rationem 
+          am<lb ed="#V" n="46" break="no"/>barum conclusionum arguo sic. Primo. sicut relatio secundum totam 
+          suan<lb ed="#V" n="47" break="no"/>quiditatem est ad aliud scilicet ad terminum. ita essentia est ad 
+          <lb ed="#V" n="48"/>se. si ergo relatio a nullo potest distingui nisi ab illo ad 
+          <lb ed="#V" n="49"/>quod est: cum secundum Aug. Essentia secundum totam rationem 
+          <lb ed="#V" n="50"/>uam sit ad se: a nullo distingueretur: eo quod nihil extra se 
+          <lb ed="#V" n="51"/>respiciat: vt terminum: istud est impossibile. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e206">
+          ¶ 2o 
+          <lb ed="#V" n="52"/>sic. Si filiatio non distinguitur nisi ab opposito. cum in 
+          <lb ed="#V" n="53"/>filio non respiciat oppositum aliquod: a nullo: quod est in 
+          <lb ed="#V" n="54"/>filio distingueretur: et sic in filio no erunt due emanatio 
+          <lb ed="#V" n="55"/>nes: sed tantum vna. Et praeterea: si sint vna: quicquid vna 
+          re<lb ed="#V" n="56" break="no"/>spicit vt terminum: et alia.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e219">
+          ¶ 3o sic. non solum in deo: sed 
+          <lb ed="#V" n="57"/>etiam in ereaturis equalitas est relatio distincta a 
+          pa<lb ed="#V" n="58" break="no"/>ternitate: et tamen equalitas non est ad paternitatem vt 
+          <lb ed="#V" n="59"/>ad terminum.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e228">
+          ¶ 4o filiatio diuina distinguitur a filiatio 
+          <lb ed="#V" n="60"/>ne in creaturis: et tamen non respicit eam: vt terminum. 
+          <lb ed="#V" n="61"/>ergo quod filius per filiationem distinguitur a quocunque 
+          <lb ed="#V" n="62"/>Dic non filio. quod patet per primum prinium complexum. 
+        </p>
+        <p xml:id="FrMS88-e42746-d1e238">
+          <lb ed="#V" n="63"/>¶ Quecunque non sunt distincta secundum a. necessario videntur esse 
+          <lb ed="#V" n="64"/>idem secundum. a. si a. formaliter in eis existat. Ista patet. quia 
+          <lb ed="#V" n="65"/>distinctum et idem sunt immediata circa quodcunque ens. vel 
+          <lb ed="#V" n="66"/>saltem idem et non idem. Si ergo filius filiatione non sit 
+          <!--120.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>non idem spirituisancto: vel distinctus: necessario sequitur quod 
+          <lb ed="#V" n="68"/>erit idem.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e258">
+          ¶ Confirmatur. quia extrema contradictionis 
+          <lb ed="#V" n="69"/>non possunt conuenire aliquibus nisi propter aliud et a iud: 
+          <lb ed="#V" n="70"/>et secundum quod sunt distincta: sed filius non est idem cum spiritusancto 
+          <lb ed="#V" n="71"/>per spirationem: et non est non idem per filiationem. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e267">
+          ¶ Ad  
+          <lb ed="#V" n="72"/>rationem per conclusione quando ipsi dicunt quod tota quiditas relationis 
+          <lb ed="#V" n="73"/>est ad aliud. verum est. sicut tota quiditas hominis est 
+          <lb ed="#V" n="74"/>ad se. Est enim animal rationale: hoc autem non obstante: 
+          <lb ed="#V" n="75"/>pomini possunt conuenire adhuc proprie passiones scilicet idem 
+          <lb ed="#V" n="76"/>et diuersum que sunt passiones entis: quanuis enim albedo 
+          <lb ed="#V" n="77"/>sit aliquid ad se. tamen distinctio a nigredine sibi aduenit. Eo 
+          <lb ed="#V" n="78"/>dem modo dico de relatione: que licet sit ad aliud: tamen potest 
+          si<lb ed="#V" n="79" break="no"/>bi competere passio entis.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e287">
+          ¶ Contra secundam 
+          conclusio<lb ed="#V" n="80" break="no"/>nem de spiratione arguo quadrupliciter. Primo sic: quando 
+          <lb ed="#V" n="81"/>cumque aliqua distinguuntur per priora: amoto quocumque 
+          <lb ed="#V" n="82"/>posteriori adhuc distinguuntur: sed filius et spiritussan 
+          <lb ed="#V" n="83"/>ctus distinguuntur per sua priora: quia per sua constitutiua. 
+          <lb ed="#V" n="84"/>Spiratio autem actiua est posterior filio. vt patebit 
+          infe<lb ed="#V" n="85" break="no"/>rius. ergo ea amota adhuc remaneret distinctio filii 
+          a<lb ed="#V" n="86" break="no"/>pairitusancto.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e305">
+          ¶ 2o sic. quandocumque aliqua distinguuntur 
+          <lb ed="#V" n="87"/>ex rationibus suis formalibus: remanentibus illis 
+          ratio<lb ed="#V" n="88" break="no"/>nibus formalibus remanent adhuc illa distincta: sed 
+          fi<lb ed="#V" n="89" break="no"/>lius a spiritusancto distinguitur ex sua ratione formali: quae 
+          <lb ed="#V" n="90"/>constat ex essentia et relatione: et similiter spiritussanctus 
+          <lb ed="#V" n="91"/>a filio. constat enim ratio formalis spiritussancti ex essentia et 
+          <lb ed="#V" n="92"/>spiratione passiua: ergo cum spiratio actiua non sit de ratione 
+          <lb ed="#V" n="93"/>filii. ea amota adhuc remanet ratio filii: et per consequens eius 
+          <lb ed="#V" n="94"/>distinctio formalis a spiritusancto.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e325">
+          ¶ 3o sic. quandocumque 
+          <lb ed="#V" n="95"/>aliqua relatio ponit effectum suum formalem: non solum 
+          <lb ed="#V" n="96"/>circa fundamentum: sed etiam circa suppositum: illa 
+          neces<lb ed="#V" n="97" break="no"/>sario refert suppositum in quo est. Exitum de similitudine que 
+          <lb ed="#V" n="98"/>ponit effectum suum: non solum circa albedinem: sed 
+          cir<lb ed="#V" n="99" break="no"/>ta subiectum: ideo non solum refert fundamentum scilicet albedinem: 
+          <lb ed="#V" n="100"/>sed etiam suppositum. subiectum enim dicitur simile: sed distinctio 
+          <lb ed="#V" n="101"/>est talis relatio. Duo autem sunt hic fundamenta 
+          distin<lb ed="#V" n="102" break="no"/>ctionis scilicet filiatio et spiratio: que secundum omnes sunt 
+          emana<lb ed="#V" n="103" break="no"/>tiones distincte. Distinctio autem fundatur in istis: cum 
+          ergo<lb ed="#V" n="104" break="no"/>si non esset spiratio in filio: adhuc esset filiatio in filio: et 
+          spi<lb ed="#V" n="105" break="no"/>ratio in spiritusancto: et adhuc essent distincte 
+          emana<lb ed="#V" n="106" break="no"/>tiones necessario: ergo distinctio in eis fundata non 
+          so<lb ed="#V" n="107" break="no"/>lum denominaret eas: sed etiam supposita: et sic persona filii 
+          <lb ed="#V" n="108"/>et spiritussancti adhuc distinguerentur.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e359">
+          ¶ 4o sic. CEadem 
+          prin<lb ed="#V" n="109" break="no"/>cipia sunt essendi et distinguendi. Nam per idem vnumquodque 
+          <lb ed="#V" n="110"/>per quod est ens etiam est vnum. et per consequens 
+          distin<lb ed="#V" n="111" break="no"/>ctum: sed persona filii habet esse personale: et constituitur 
+          <lb ed="#V" n="112"/>per generationem passiuam. et spiritussanctus per spirationem 
+          pas<lb ed="#V" n="113" break="no"/>siuam. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e372">
+          ¶ Sed hic occurrunt 4r difficultas
+        </p>
+        <p xml:id="FrMS88-e42746-d1e375">
+          ¶ Prima. 
+          <lb ed="#V" n="114"/>si filius non produceretur a patre: vtrum esset distinctus 
+          <lb ed="#V" n="115"/>ab eo. Dico quod non. quia distinctio praesupponit esse: filius 
+          <lb ed="#V" n="116"/>autem si non esset a patre: simpliciter non esset. ergo etc. 
+        </p>
+        <p xml:id="FrMS88-e42746-d1e384">
+          <lb ed="#V" n="117"/>¶ 2a difficultas si spiritussanctus non procederet a patre. vtrum 
+          <lb ed="#V" n="118"/>distingueretur ab eo.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e391">
+          ¶ Dico propter eandem rationem 
+          <lb ed="#V" n="119"/>quod non: tunc enim non esset. quia per spirationem constituitur 
+          <lb ed="#V" n="120"/>in esse: cui repugnat esse in primo modo: nisi a 
+          spira<lb ed="#V" n="121" break="no"/>tione: sicut ergo homo si non esset a nullo 
+          distinguere<lb ed="#V" n="122" break="no"/>tur: sic dico in proposito: sequitur enim per locum a 
+          par<lb ed="#V" n="123" break="no"/>te in modo. si filius est distinctus. vel spiritussanctus: 
+          <lb ed="#V" n="124"/>ergo est: et si non est: non est distinctus. per locum a 
+          to<lb ed="#V" n="125" break="no"/>to in modo destructiue. vnde quicunque ponit quod 
+          spira<lb ed="#V" n="126" break="no"/>tio actiua constituat filium. consequenter debet dicere quod 
+          <lb ed="#V" n="127"/>si non spiraret non distingueretur ab aliquo alio.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e413">
+          ¶ 3a 
+          <lb ed="#V" n="128"/>difficultas est. Utrum spiratio et generatio passiue possunt se 
+          <lb ed="#V" n="129"/>compati. et videtur quod sic. nam in creaturis vnus et idem 
+          <lb ed="#V" n="130"/>actus amandi est generatus: quia ab obiecto et est 
+          spira<lb ed="#V" n="131" break="no"/>tus: quia a potentia volitiua. Similiter si actiue se 
+          com<lb ed="#V" n="132" break="no"/>patiuntur scilicet paternitas et spiratio quare non passiue. 
+          <!--121.xml-->
+          <pb ed="#V" n="59-v"/>
+          <cb ed="#V" n="a"/>
+        </p>
+        <p xml:id="FrMS88-e42746-d1e434">
+          <lb ed="#V" n="1"/>¶ Dico quod impossibile est idem productum produci 
+          dua<lb ed="#V" n="2" break="no"/>bus productionibus totalibus: in actu aute volendi in 
+          <lb ed="#V" n="3"/>creaturis generatio et spiratio se compatiuntur: quia neutra est 
+          <lb ed="#V" n="4"/>totalis productio: in divinis autem generatio est totalis: et spiratio 
+          <lb ed="#V" n="5"/>est totalis: ideo non sunt ibi diuerse productiones 
+          partia<lb ed="#V" n="6" break="no"/>les: sed vna est ibi totalis.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e450">
+          ¶ 4a difficultas est. quare 
+          ma<lb ed="#V" n="7" break="no"/>gis actiue sunt compossibiles quam passiue.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e455">
+          ¶ Dico hic 
+          <lb ed="#V" n="8"/>quod licet idem producens producat plura pluribus 
+          productioni<lb ed="#V" n="9" break="no"/>bus totalibus. sicut sol plures radios: quia non accipit 
+          <lb ed="#V" n="10"/>esse per istas productiones: tamen quod idem producatur totalibus 
+          <lb ed="#V" n="11"/>duabus productionibus inconueniens est. quia productum capit 
+          <lb ed="#V" n="12"/>esse per productionem: repugnans autem est: quod idem capia 
+          <lb ed="#V" n="13"/>esse totaliter duabus productionibus: suppositum ergo 
+          pa<lb ed="#V" n="14" break="no"/>tris producit duo supposita duabus totalibus 
+          produ<lb ed="#V" n="15" break="no"/>ctionibus: quia non accipit esse ab illis: ideo sibi 
+          simul<lb ed="#V" n="16" break="no"/>non repugnat: sed spiritussanctus totaliter spiratione 
+          passi<lb ed="#V" n="17" break="no"/>ua accipit esse: ideo non potest habere aliam productionem 
+          <lb ed="#V" n="18"/>qua accipiat esse.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e481">
+          ¶ Sed adhuc remanet vnum dubium. 
+          <lb ed="#V" n="19"/>Duo enim signa naturae ponuntur in diuinis.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e486">
+          ¶ Primum est 
+          <lb ed="#V" n="20"/>fecunditatis intellectiue. in quo est ordo originis inter 
+          <lb ed="#V" n="21"/>patrem et filium totum quantum ad esse.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e493">
+          ¶ 2m signum 
+          <lb ed="#V" n="22"/>est fecunditatis volitiue potentie. Ponatur ergo quod primum 
+          si<lb ed="#V" n="23" break="no"/>gnum sit 2m. et econuerso. Utrum esset ne inconueniens 
+        </p>
+        <p xml:id="FrMS88-e42746-d1e501">
+          <lb ed="#V" n="24"/>¶ Dico quod ista hypothesi posita: sequuntur quatuor mui 
+          <lb ed="#V" n="25"/>rabilia magna. Primum est. quod prima persona constituetur 
+          acti<lb ed="#V" n="26" break="no"/>ua spiratione: sicut nunc actiua generatione: spiratio enim 
+          <lb ed="#V" n="27"/>tunc precederet generationem propter transpositionem fecunditatum 
+          <lb ed="#V" n="28"/>et signorum corrspondentium illis fecunditatibus. 
+          Con<lb ed="#V" n="29" break="no"/>stat autem quod prima relatio primum suppositum constitueret: et 2a 2m. 
+          <lb ed="#V" n="30"/>spiratio autem passiua esset 2a. ita quod 2a persona constitueret 
+          <lb ed="#V" n="31"/>spiratione passiua. et ita 3a persona filiatione.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e521">
+          ¶ 2m mira 
+          <lb ed="#V" n="32"/>bile est. quod relatio paternitatis esset communis duabus persouis: sicut 
+          <lb ed="#V" n="33"/>nunc est spiratio actiua: nam eodem modo comnicaretur 2o 
+          perso<lb ed="#V" n="34" break="no"/>ne fecunditas intellectiua: sicut nunc comunicatur 
+          fecundi<lb ed="#V" n="35" break="no"/>tas volitiua. propter autem communicationem fecunditatis volitiuem 
+          <lb ed="#V" n="36"/>consequitur communicabilitas spirationis actiue: ergo tunc propter 
+          <lb ed="#V" n="37"/>cmenicationem fecunditatis intellectiue consequeretur comunica 
+          <lb ed="#V" n="38"/>bilitas generationis actiue.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e539">
+          ¶ 3m mirabile est. quod sicut 
+          <lb ed="#V" n="39"/>nunc pater est princima persona. filius 2a. spiritusancus 3a. ita tunc 
+          spira<lb ed="#V" n="40" break="no"/>tor esset prima persona. quia per spirationem actiuam constitueretur. 
+          <lb ed="#V" n="41"/>spiritums sanctus esset 2a persona. quia per secundam relationem 
+          constitue<lb ed="#V" n="42" break="no"/>retur scilicet per spirationem passiuam. 3a persona esset filius: quia licet 
+          <lb ed="#V" n="43"/>paternitas praecederet filiationem: sicut nunc spiratio actiua 
+          <lb ed="#V" n="44"/>spirationem passiuam: tamen paternitas non constitueret: sed 
+          <lb ed="#V" n="45"/>esset communis et communicabilis: quod repugnat patris constitutiuo. 
+          <lb ed="#V" n="46"/>iliatio autem 3o loco tertiam personam constitueret. sicut numerc 
+          <lb ed="#V" n="47"/>constituit spiratio passiua.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e561">
+          ¶ 4m mirabile est. quod 
+          spiritussan<lb ed="#V" n="48" break="no"/>ctus tunc ab vna persona sola procederet: quia a spiratore 
+          <lb ed="#V" n="49"/>que esset prima persona. filius autem a duabus scilicet a spirante et 
+          spira<lb ed="#V" n="50" break="no"/>to: quibus communis esset paternitas. Ista autem mirabilia et 
+          mu<lb ed="#V" n="51" break="no"/>ta alia sequuntur propter illud secundum suppositum.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e572">
+          ¶ Sed 
+          con<lb ed="#V" n="52" break="no"/>tra ista sunt duo dubia.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e577">
+          ¶ Primum est. quod illud cui quo 
+          <lb ed="#V" n="53"/>cunque posito: aliquid non repugnat: habet vim et 
+          aptitudi<lb ed="#V" n="54" break="no"/>nem illius: sed hoc posito non repugnaret predicte 
+          spi<lb ed="#V" n="55" break="no"/>rationi actiue constituere: ergo spiratio actiua habet vim 
+          con<lb ed="#V" n="56" break="no"/>stituendi: et tunc sequitur quod constituit. quia in diuinis non 
+          difficult<lb ed="#V" n="57" break="no"/>Ext esse et posse.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e591">
+          ¶ 2m dubium. quia illis positis non 
+          re<lb ed="#V" n="58" break="no"/>pugnat paternitati communicabilitas. nam saluata ratione 
+          for<lb ed="#V" n="59" break="no"/>mali paternitatis variato solum ordine: tu dicis: quod ipsa 
+          <lb ed="#V" n="60"/>esset communis: et per consequens comunicabilis: omne autem ibi comunicabile 
+          ne<lb ed="#V" n="61" break="no"/>cessario conicatur: ergo paternitas in divinis necessario est 
+          <lb ed="#V" n="62"/>ommunis: et per consequens non constituit.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e604">
+          ¶ Iste rationes me 
+          conuin<lb ed="#V" n="63" break="no"/>cunt ad tenendum. quod si varientur ista signa. ita quod primum fieret 
+          <lb ed="#V" n="64"/>2m. et econverso. dummodo saluarentur rationes formales 
+          pater<lb ed="#V" n="65" break="no"/>mitatis et aliarum proprietatum que nunc sunt. eodem modo constitue 
+          <lb ed="#V" n="66"/>rentur: sicut nunc. Ex ratione enim formali paternitatis quae est in deo 
+          <!--121.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>sibi competit constituere: et incommunicabilitas: et opposita 
+          com<lb ed="#V" n="68" break="no"/>ueniunt spirationi actiue: et sic conuenirent tunc.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e624">
+          ¶ Sed dices. 
+          <lb ed="#V" n="69"/>quod non est intelligibile quod prima relatio esset spiratio: et tamen non 
+          con<lb ed="#V" n="70" break="no"/>stitueret.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e631">
+          ¶ Dico quod oppositum est eque male 
+          intelligibi<lb ed="#V" n="71" break="no"/>le: et melius est dicere quod ista hypothesi posita: sicut 
+          mira<lb ed="#V" n="72" break="no"/>bilia multa sequuntur. ita istud inter alia. ita quod paternitas 
+          <lb ed="#V" n="73"/>non esset eiusdem rationis cum ista. et sic de aliis. variato enim 
+          or<lb ed="#V" n="74" break="no"/>dine: variantur rationes formales eorum.
+        </p>
+        <p xml:id="FrMS88-e42746-d1e642">
+          ¶ Ad argumentum dico. quod spiritus 
+          <lb ed="#V" n="75"/>seuns haberet respectum distinctionis ad filium etc. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

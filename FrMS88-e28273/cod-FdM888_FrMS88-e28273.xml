@@ -1,413 +1,413 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 4</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 4</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="39-v"/>
-            <cb ed="#V" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e28273"><!-- l1d6q4 -->
-            <head xml:id="FrMS88-e28273-Hd1e108">Quaestio 4</head>
-            <p xml:id="FrMS88-e28273-d1e111">
-      Quaestio. ilii. 
-      <lb ed="#V" n="16"/>pater genuerit filium natura. Quod non 
-      <lb ed="#V" n="17"/>Trum quia generatio diuina est supra 
-      <lb ed="#V" n="18"/>naturam: sicut patet per hyla. ergo eius principium non est natura¬ 
-      </p>
-            <p xml:id="FrMS88-e28273-d1e120">
-               <lb ed="#V" n="19"/>¶ Contra. quia secundum Dam. in suis sententiis 
-      <lb ed="#V" n="20"/>generatio est opus naturae. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e127">
-      ¶ hic prae 
-      viden<lb ed="#V" n="21" break="no"/>dum est: quid est natura. 2o vtrum generatio sit proprie naturalis 
-      <lb ed="#V" n="22"/>ad primum sciendum. quod oetius de duabus 
-      <lb ed="#V" n="23"/>Quantum naturis et vna persona christi: accipit 
-      e<lb ed="#V" n="24" break="no"/>distinguit naturam 4r. Primo communissime pro omni eo quod 
-      intelligi<lb ed="#V" n="25" break="no"/>potest. 2o pro illo quod agere vel pati potest. et ista est magis 
-      pro<lb ed="#V" n="26" break="no"/>pria. 3a acceptio est secundum quod natura est principium motus per se. 4a est 
-      <lb ed="#V" n="27"/>quod natura est vnumquodque informans specifica differentia. Sed mag 
-      <lb ed="#V" n="28"/>artificio se inuestigando dicunt aliqui quod natura est illud quod 
-      <lb ed="#V" n="29"/>potest esse principium natiuitatis: quia omne quod nasci dicitur: ideo proprie 
-      nasci<lb ed="#V" n="30" break="no"/>dicitur: quia est a principio naturali. et hec videtur acceptio hy. 5. di 
-      <lb ed="#V" n="31"/>tri.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e153">
-      ¶ Ad cuius euindentiam sciendum quod quatuor sunt ratio 
-      <lb ed="#V" n="32"/>nes formales: que a se inuincem abstrahunt. Prima et 
-      <lb ed="#V" n="33"/>insima est ratio substantie a qua substrahit ratio naturae. Nam omnis substanti 
-      <lb ed="#V" n="34"/>est natuam et non econverso. nam qualitas est natura: non tamen substantia. 2a est ratio 
-      na<lb ed="#V" n="35" break="no"/>ture: a qua abstrahit ratio essentie: et continetur sub 
-      ra<lb ed="#V" n="36" break="no"/>tione essentie. 3a est ratio essentie. Nam omnis natura est 
-      essen<lb ed="#V" n="37" break="no"/>tia. sicut patet inductiue in omnibus: non tamen econuerso. Nam 
-      <lb ed="#V" n="38"/>illud est essentia quod diffinitur: et ideo omnis species 
-      cuiuscum<lb ed="#V" n="39" break="no"/>que generis potest dici essentia: non tamen natura: quia multa sunt quo 
-      <lb ed="#V" n="40"/>non possunt esse principium productiuum alicuius: sicut forte sunt 
-      <lb ed="#V" n="41"/>respectus et materia. et talia. 4a est quiditas. Nam omnis 
-      <lb ed="#V" n="42"/>essentia est quiditas: et non econverso. Ab omnibus enim ponuntur 
-      mu<lb ed="#V" n="43" break="no"/>te quiditates in diuinis: non tamen nisi vna essentia. Unde 
-      essen<lb ed="#V" n="44" break="no"/>tia et quiditas non dicuntur communiter naturae: eo quod ab eis nihil 
-      na<lb ed="#V" n="45" break="no"/>scitur.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e187">
-      ¶ Ex hoc arguitur quod nomen nature solum 
-      con<lb ed="#V" n="46" break="no"/>ueniat substantie et qualitati: excepta quarta specie: 
-      <lb ed="#V" n="47"/>que est precise respectus: quia vniversaliter omne quod est principium 
-      <lb ed="#V" n="48"/>alicuius quod dicitur natu: potest dici natura. Ista autem sunt 
-      <lb ed="#V" n="49"/>uiusmod. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e198">
-      ¶ Sed hic instatur. Primo. quia cum intellect 
-      <lb ed="#V" n="50"/>per se non sit natura: vt distinguitur contra essentiam 
-      <lb ed="#V" n="51"/>quia sic in deo essent plures nature: quare in diuinis 
-      pro<lb ed="#V" n="52" break="no"/>ductio intellectiua dicitur naturalis. Nec valet dicere quod 
-      ratio<lb ed="#V" n="53" break="no"/>ne essentie quia etiam essentia concurrit in alia que non 
-      <lb ed="#V" n="54"/>dicitur naturalis.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e211">
-      ¶ Dico quod naturalis productio non solum est 
-      <lb ed="#V" n="55"/>a natura: sed etiam a naturali eius perfectione: cuius est 
-      <lb ed="#V" n="56"/>intellectus.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e218">
-      ¶ Sed nunc stat dubium: quia voluntas est 
-      <lb ed="#V" n="57"/>ita naturalis perfectio: sicut intellectus: quare ergo non 
-      <lb ed="#V" n="58"/>dicitur ita naturalis eius productio: sicut intellectus 
-      </p>
-            <p xml:id="FrMS88-e28273-d1e225">
-               <lb ed="#V" n="59"/>¶ Dico quod licet voluntas in perficiendo sit eque natura 
-      <lb ed="#V" n="60"/>lis: sicut intellectus: non tamen in principiando: quia 
-      intelle<lb ed="#V" n="61" break="no"/>ctus coincidit in modum essentie connaturalem.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e234">
-      ¶ 
-      Aliu<lb ed="#V" n="62" break="no"/>dubium est: quomodo iste perfectiones subordinate. scilicet 
-      <lb ed="#V" n="63"/>substantia. natura. essentia. quiditas possunt esse in essentia: cum 
-      <lb ed="#V" n="64"/>fit simpliciter simplex.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e244">
-      ¶ Dico quod licet simpliciter 
-      sin<lb ed="#V" n="65" break="no"/>plex nullum quiditatiuum superius adminttat: bene 
-      ta<lb ed="#V" n="66" break="no"/>men admittit tale predicatum: sicut differentia subalternata 
-      <!--81.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>differentiam subalternantem: sicut superius dictum est de 
-      <lb ed="#V" n="68"/>ente.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e260">
-      ¶ Tunc restat dubium: si ista quatuor in deo 
-      di<lb ed="#V" n="69" break="no"/>stinguuntur formaliter.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e265">
-      ¶ Dico quod sic: quia aliquid 
-      repu<lb ed="#V" n="70" break="no"/>gnat deitati inquantum substantia: quod non inquantum 
-      <lb ed="#V" n="71"/>natura: et aliquid inquantum natura: quod non 
-      inquan<lb ed="#V" n="72" break="no"/>tum essentia. Similiter repugnat ei aliquid inquantum 
-      <lb ed="#V" n="73"/>essentia: quod non inquantum quiditas. valet. quod distinguitur in per 
-      <lb ed="#V" n="74"/>sonis. Nam per quiditates relationum distinguuntur 
-      di<lb ed="#V" n="75" break="no"/>uine persone.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e281">
-      ¶ Sed adhuc videtur remanere dubium. vtrum 
-      <lb ed="#V" n="76"/>omne naturale posset dici natura.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e286">
-      ¶ Dico quod naturale in plus se 
-      ha<lb ed="#V" n="77" break="no"/>bet: quia in deo sunt plura naturalia: non tamen nisi vna natura: quia 
-      <lb ed="#V" n="78"/>intellectus est naturalis: sed praecise non est natura. voluntas autem 
-      <lb ed="#V" n="79"/>sicut dictum est: licet fit perfectio simpliciter: non tamen dicitur naturalis 
-      inquan<lb ed="#V" n="80" break="no"/>tum est principiatiua alicuius. eo quod non habet modum 
-      natura<lb ed="#V" n="81" break="no"/>lem. vnde eius principiatum non potest dici natum. 
-      <lb ed="#V" n="82"/>ad 2m scilicet vtrum generatio diuina posset 
-      <lb ed="#V" n="83"/>Quantum dici naturalis.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e304">
-      ¶ Dico quod sicut 
-      natura<lb ed="#V" n="84" break="no"/>le potest dici 4or modis. ita oportet respondere. Accipitur enim 
-      <lb ed="#V" n="85"/>naturale: vt distinguitur contra supernaturale. Et isto modo generatio 
-      diuina<lb ed="#V" n="86" break="no"/>non est naturalis. sed supernaturalis secundum Dion.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e314">
-      ¶ Alio modo 
-      acci<lb ed="#V" n="87" break="no"/>pitur vt distinguitur contra violentum. Et isto modo est naturalis. quia 
-      <lb ed="#V" n="88"/>nullum violentum proprie est in diuinis: eo modo qua nullum 
-      vio<lb ed="#V" n="89" break="no"/>lentum est perpetuum.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e323">
-      ¶ 3o modo vt distinguitur contra artificiale: et 
-      <lb ed="#V" n="90"/>isto modo est est naturalis: quia licet verbum sit ars patris secundum Augu. en 
-      <lb ed="#V" n="91"/>tamen producitur per artem. quia ars non respicit eternum: sed 
-      <lb ed="#V" n="92"/>factibile.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e332">
-      ¶ 4o modo vt distinguitur contra liberum. Et isto modo 
-      <lb ed="#V" n="93"/>intellctur quaestio.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e337">
-      ¶ Et dico quod sic. quia sola productio spiritussanci 
-      <lb ed="#V" n="94"/>in diuinis dicitur libera: secundum Aug. Uerum est quod aliquo 
-      vo<lb ed="#V" n="95" break="no"/>lunt dicere: quod productio spiritussancti est eque naturalis sicut 
-      <lb ed="#V" n="96"/>filii.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e346">
-      ¶ Contra hoc est Aug. Nam secundum eum filius procedit quodo 
-      <lb ed="#V" n="97"/>natus: non quomodo datus: et spiritussanctus quomodo datus: non 
-      <lb ed="#V" n="98"/>non quomodo natus.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e353">
-      ¶ Pyla. etiam dicit quod natura est principium 
-      ge<lb ed="#V" n="99" break="no"/>nerandi. Ideo si spiritussanctus procederet per modum naturae: spiritussat 
-      <lb ed="#V" n="100"/>ctus esset vere generatus.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e361">
-      ¶ Praeterea nama est principium natiuitatis: ergo 
-      s<lb ed="#V" n="101" break="no"/>procederet per modum naturae esset et diceretur natus: tamen non est hoc 
-      <lb ed="#V" n="102"/>tutum dicere: quia ad minus videtur esse contra auctoritates 
-      sctoru<lb ed="#V" n="103" break="no"/>Ideo alii tenentes quod sit naturalis ponunt causam naturalitatis: quia 
-      pro<lb ed="#V" n="104" break="no"/>ductio filii est prima. sicut in naturalibus illa est naturalis quae est primas 
-      <lb ed="#V" n="105"/>Et quia dicere praecedit spirare. dicere erit naturale.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e374">
-      ¶ Contri 
-      <lb ed="#V" n="106"/>hoc arguo. 4r. primo. quia creatio in creaturis est prima 
-      produ<lb ed="#V" n="107" break="no"/>ctio et generatio non est prima. ergo creatio erit naturalis. et generatio non 
-      <lb ed="#V" n="108"/>erit naturalis.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e383">
-      ¶ 2o actus imperatus in potentia intellectiua 
-      <lb ed="#V" n="109"/>dicitur naturaliter gigni. cum tamen praesupponat actum liberum voluntatis. 
-      </p>
-            <p xml:id="FrMS88-e28273-d1e388">
-               <lb ed="#V" n="110"/>¶ 3o sic. quandocumque est aliquod suppositum: quod per idem 
-      principi<lb ed="#V" n="111" break="no"/>um et eiusdem rationis formalis producit duo supposita. 
-      <lb ed="#V" n="112"/>productiones sunt eiusdem rationis formalis. sicut producens 
-      <lb ed="#V" n="113"/>vnum filium post alium: sed sic est in proposito: per te: quia non est 
-      <lb ed="#V" n="114"/>differentia ex parte principii: ergo erunt in diuinis due productiones 
-      <lb ed="#V" n="115"/>eiusdem rationis.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e404">
-      ¶ 4o sic. Omnem negationem oportet resoluere 
-      <lb ed="#V" n="116"/>in affirmationem: quia propositiones affirmatiue sunt priores 
-      <lb ed="#V" n="117"/>ordine essentiali negatiuis: et affirmationes 
-      negationi<lb ed="#V" n="118" break="no"/>bus. et continent causam negationis. sicut homo non est 
-      asinu<lb ed="#V" n="119" break="no"/>resoluiter in istas. homo est rationalis: et asinus est irrationalis 
-      <lb ed="#V" n="120"/>Sic relationem oportet in absoluere scilicet in fundamentum et 
-      ter<lb ed="#V" n="121" break="no"/>minum: quia ista superiora.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e420">
-      ¶ Exemplum. quare isti 
-      se<lb ed="#V" n="122" break="no"/>similes: statim fit resolutio ad absoluta. quia sunt 
-      albi<lb ed="#V" n="123" break="no"/>cum ergo prioritas et posterioritas sint rationes relatiue: oportet 
-      <lb ed="#V" n="124"/>eas resoluere in aliquid absolutum: et aliquid distinctum: 
-      <lb ed="#V" n="125"/>eo quod relationes disquipearantie sunt: non ad ipsas 
-      productio<lb ed="#V" n="126" break="no"/>nes: quia respectus sunt: ergo ad ipsa principium productiua. ergo oportet 
-      di<lb ed="#V" n="127" break="no"/>cere. quod propter principia productiua alia et alia: hec sit prior: et 
-      <lb ed="#V" n="128"/>alia posterior: et hec sit naturalis. et alia libera: quod est 
-      pro<lb ed="#V" n="129" break="no"/>positum.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e441">
-      ¶ Alii dicunt. quod ideo productio filii est naturalis. quia 
-      <lb ed="#V" n="130"/>ab vno: sed productio spiritussancti: ideo non est naturalis: quia a 
-      <lb ed="#V" n="131"/>duobus.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e448">
-      ¶ Sed contra. vbicumque principium productiuum est eiusdem 
-      <lb ed="#V" n="132"/>rationis: pluralitas suppositorum non variat rationem forma 
-      <!--82.xml-->
-      <pb ed="#V" n="40-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>lem. Exemplum: calor existens in duobus sumppositis produceret 
-      <lb ed="#V" n="2"/>eodem modo: sicut tantum in vno.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e464">
-      ¶ Praeterea. vnitas et pluralitas non 
-      <lb ed="#V" n="3"/>variant rationem formalem: sicut vnus homo et multi homines sun 
-      <lb ed="#V" n="4"/>eiusdem rationis formtus.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e471">
-      ¶ Alii dicunt quod ideo productio filii est 
-      natura<lb ed="#V" n="5" break="no"/>lis. quia ipsa refert verbum in esse cognito per actum 
-      intelligen<lb ed="#V" n="6" break="no"/>di inter seipsum.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e478">
-      ¶ Contra. spiritusactus producitur in esse 
-      co<lb ed="#V" n="7" break="no"/>gnito per actum intelligendi terminatum ad ipsum.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e483">
-      ¶ Praeterea 
-      in<lb ed="#V" n="8" break="no"/>tellectus diuinus cognoscit intra se contingentia post 
-      de<lb ed="#V" n="9" break="no"/>terminationem voluntatis diuine: et sic producit ea in esse 
-      <lb ed="#V" n="10"/>cognito. Constat autem quod non naturaliter: quia sic necessario 
-      eueni<lb ed="#V" n="11" break="no"/>rent.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e495">
-      ¶ Ideo dico. quod ideo productio verbi est naturalis: quia a 
-      prin<lb ed="#V" n="12" break="no"/>cipio naturali est scilicet a memoria fecunda que continet essentiam 
-      <lb ed="#V" n="13"/>cum intellectu. quorum vtrumque principiat naturaliter.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e502">
-      ¶ Sed hic sunt 
-      <lb ed="#V" n="14"/>difficul. Prima est cum: secundum te: essentia concurrat cum 
-      volun<lb ed="#V" n="15" break="no"/>tate in productione spiritussancti. quae est libera: quodo potest esse 
-      <lb ed="#V" n="16"/>principium naturale: et si sic: quare non ita bene productio spiritussancti 
-      dici<lb ed="#V" n="17" break="no"/>tur esse naturalis: Dico quod modus agendin determinatur a causa per 
-      <lb ed="#V" n="18"/>ticulari: licet enim voluntas diuina concurrat ad actum 
-      generatio<lb ed="#V" n="19" break="no"/>nis creature et libere: tamen generatio dicitur naturalis propter principium 
-      deter<lb ed="#V" n="20" break="no"/>minatum.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e520">
-      ¶ Aliter dico et melius. quia quandocumque duo 
-      princi<lb ed="#V" n="21" break="no"/>pia concurrunt ad aliquid producendum. si vnum eorum contingens est: 
-      <lb ed="#V" n="22"/>tota productio simul et productum erit contingens. sicut ex 
-      al<lb ed="#V" n="23" break="no"/>tera contingenti: et altera necessaria est ergo contingens simpliciter. 
-      <lb ed="#V" n="24"/>Similiter in composito mteam est incorruptibilis: forma autem est 
-      cor<lb ed="#V" n="25" break="no"/>ruptibilis: totum compositum est corruptibile. Nam sic est in 
-      <lb ed="#V" n="26"/>omnibus quod tam productio quam productum semper sequitur debiliorem 
-      <lb ed="#V" n="27"/>partem. Tiberum autem et naturale sic se habent: quod si mille necessario 
-      <lb ed="#V" n="28"/>causare concurrant ad vnum effectum: et vna sit libera. totum 
-      produ<lb ed="#V" n="29" break="no"/>ctum erit liberum. Ticet ergo essentia in productione 
-      spiritussan<lb ed="#V" n="30" break="no"/>cti concurrat: tamen quia voluntas qua concurrit est libera: hinc est quod 
-      <lb ed="#V" n="31"/>totum habet esse liberum.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e546">
-      ¶ Sed tunc remanet dubium: quomodo 
-      volun<lb ed="#V" n="32" break="no"/>tas adueniens essentie facit ipsam principiare libere: cum 
-      <lb ed="#V" n="33"/>ipsa ex se fit principium naturale. Dico quod sicut in creatis aliquid  
-      <lb ed="#V" n="34"/>quod ex se est principium productiuum necessarium: potest tamen principiare 
-      con<lb ed="#V" n="35" break="no"/>tingenter: propter aliud et aliud principium contingens cum eo concurrens 
-      <lb ed="#V" n="36"/>sic principium necessarium et naturale cuiusmodi est essentia: propter 
-      cor<lb ed="#V" n="37" break="no"/>cursum principii liberi cuiusmodi est voluntas: poterit 
-      pri<lb ed="#V" n="38" break="no"/>cipiare libere.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e564">
-      ¶ Sed aliud dubium est. quare voluntas et 
-      <lb ed="#V" n="39"/>intellectus non concurrunt ad aliquod principiatum sicut 
-      duo<lb ed="#V" n="40" break="no"/>particularia et sufficientia: sicut quodlibet eorum cum essentia¬ 
-      </p>
-            <p xml:id="FrMS88-e28273-d1e571">
-               <lb ed="#V" n="41"/>¶ Dico quod quanuis cum principio vniversali particulare principium possit 
-      com<lb ed="#V" n="42" break="no"/>currere vel econverso. tamen duo principia particlsraria et sufficientia: quod 
-      <lb ed="#V" n="43"/>libet in suo genere non possunt concurrere. sicut duo 
-      homi<lb ed="#V" n="44" break="no"/>nes particulares non possunt concurrere ad 
-      generatio<lb ed="#V" n="45" break="no"/>nem hominis: sed sol et homo.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e585">
-      ¶ Sed quare 
-      volun<lb ed="#V" n="46" break="no"/>tas non habet vnum principiatum et intellectus aliud: et 
-      <lb ed="#V" n="47"/>essentia aliud:
-    </p>
-            <p xml:id="FrMS88-e28273-d1e592">
-      ¶ Dico quod si quodlibet istorum esset principium 
-      <lb ed="#V" n="48"/>simpliciter: tunc bene esset dubium: sed dico quod duo illorum 
-      <lb ed="#V" n="49"/>coincidunt in idem principium: et faciunt vnum 
-      princi<lb ed="#V" n="50" break="no"/>pium scilicet intellectus cum essentia. et voluntas cum 
-      essen<lb ed="#V" n="51" break="no"/>tia: et in productionibus obiectiuis obiectum: sine 
-      po<lb ed="#V" n="52" break="no"/>tentia non potest aliquid producere. Et ideo oportet 
-      sem<lb ed="#V" n="53" break="no"/>per potentiam concurrere. Nunc autem ille 
-      productio<lb ed="#V" n="54" break="no"/>nes diuine sunt obiectiue. et ideo essentia non potest 
-      ni<lb ed="#V" n="55" break="no"/>si cum potentus.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e612">
-      ¶ Aliud dubium quare verbum 
-      no<lb ed="#V" n="56" break="no"/>strum est liberum: cum producatur a potentia 
-      intelle<lb ed="#V" n="57" break="no"/>ctiua cum obiecto. Dico quod verbum nostrum numquam est liberum 
-      <lb ed="#V" n="58"/>nisi fit imperatum a voluntate: et tunc fit liberum 
-      alte<lb ed="#V" n="59" break="no"/>ro principio ab illis duobus concurrente.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e623">
-      ¶ Aliud 
-      du<lb ed="#V" n="60" break="no"/>bium est. quod si propter concursum vnius cause libere totum 
-      <lb ed="#V" n="61"/>est liberum: sequitur quod productio nulla erit in 
-      creatu<lb ed="#V" n="62" break="no"/>ra: nisi libera: quia in omni effectu concurrit voluntas 
-      di<lb ed="#V" n="63" break="no"/>uina: que mere libere principiat. Dico quod licet omnes 
-      effe<lb ed="#V" n="64" break="no"/>ctus naturales creaturarum sint secundum quid necessarii. 
-      <lb ed="#V" n="65"/>sunt tamen contingentes simpliciter propter concursum 
-      volun<lb ed="#V" n="66" break="no"/>tatis diuine contingenter causantis. Eodem modo dico de libet 
-      <!--82.xml-->
-      <cb ed="#V" n="b"/>
-               <lb ed="#V" n="67"/>tate simpliciter: licet effectus particulares in comparatione ad causas 
-      <lb ed="#V" n="68"/>particulares sint contingentes vel naturales. non tamen possunt esse mere 
-      <lb ed="#V" n="69"/>naturales: quia ab aliqua causa libera concauntur. Et sic patet quod non est 
-      im<lb ed="#V" n="70" break="no"/>conueniens quod vnus et idem effectus respectu vnius causae potentie. 
-      <lb ed="#V" n="71"/>fit esse naturalis: et respectu alterius possit esse liber.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e656">
-      ¶ Sd 
-      <lb ed="#V" n="72"/>tunc queritur quare spiritussanctus non potest dici naturaliter 
-      productu<lb ed="#V" n="73" break="no"/>respectu essentie: et libem respectu voluntatis.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e663">
-      ¶ Dico quod 
-      <lb ed="#V" n="74"/>quia i creaturis duo principia concurrunt simpliciter. hinc est quod 
-      <lb ed="#V" n="75"/>due actiones concurrunt simpliciter. tunc vna erit libera. et 
-      <lb ed="#V" n="76"/>altera naturalis. nec est repugnantia. et per consequens effectus vtram 
-      <lb ed="#V" n="77"/>quam denominationem recipiet. In deo autem quia illa 
-      princi<lb ed="#V" n="78" break="no"/>pia identice sunt eadem. hinc est quod eadem numero 
-      rela<lb ed="#V" n="79" break="no"/>tio. et idem numero respectus productionis potest 
-      fun<lb ed="#V" n="80" break="no"/>dari et fundatur in eis. non potest autem idem respectus vel ea 
-      <lb ed="#V" n="81"/>dem productio dici libera et naturalis: quia contradictio est.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e684">
-      ¶ Alia 
-      <lb ed="#V" n="82"/>difficultas. quare intellectus non determinat essentiam ad 
-      pro<lb ed="#V" n="83" break="no"/>ducendum per modum intellectus sicut voluntas.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e691">
-      ¶ Di 
-      <lb ed="#V" n="84"/>co quod intellectus vt distinguitur ab essentia solum 
-      ha<lb ed="#V" n="85" break="no"/>bet modum nature sicut essentia.
-    </p>
-            <p xml:id="FrMS88-e28273-d1e698">
-      ¶ Ad auctoritatem 
-      <lb ed="#V" n="86"/>in principio patet per iam dicta. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="39-v"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e28273"><!-- l1d6q4 -->
+        <head xml:id="FrMS88-e28273-Hd1e108">Quaestio 4</head>
+        <p xml:id="FrMS88-e28273-d1e111">
+          Quaestio. ilii. 
+          <lb ed="#V" n="16"/>pater genuerit filium natura. Quod non 
+          <lb ed="#V" n="17"/>Trum quia generatio diuina est supra 
+          <lb ed="#V" n="18"/>naturam: sicut patet per hyla. ergo eius principium non est natura¬ 
+        </p>
+        <p xml:id="FrMS88-e28273-d1e120">
+          <lb ed="#V" n="19"/>¶ Contra. quia secundum Dam. in suis sententiis 
+          <lb ed="#V" n="20"/>generatio est opus naturae. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e127">
+          ¶ hic prae 
+          viden<lb ed="#V" n="21" break="no"/>dum est: quid est natura. 2o vtrum generatio sit proprie naturalis 
+          <lb ed="#V" n="22"/>ad primum sciendum. quod oetius de duabus 
+          <lb ed="#V" n="23"/>Quantum naturis et vna persona christi: accipit 
+          e<lb ed="#V" n="24" break="no"/>distinguit naturam 4r. Primo communissime pro omni eo quod 
+          intelligi<lb ed="#V" n="25" break="no"/>potest. 2o pro illo quod agere vel pati potest. et ista est magis 
+          pro<lb ed="#V" n="26" break="no"/>pria. 3a acceptio est secundum quod natura est principium motus per se. 4a est 
+          <lb ed="#V" n="27"/>quod natura est vnumquodque informans specifica differentia. Sed mag 
+          <lb ed="#V" n="28"/>artificio se inuestigando dicunt aliqui quod natura est illud quod 
+          <lb ed="#V" n="29"/>potest esse principium natiuitatis: quia omne quod nasci dicitur: ideo proprie 
+          nasci<lb ed="#V" n="30" break="no"/>dicitur: quia est a principio naturali. et hec videtur acceptio hy. 5. di 
+          <lb ed="#V" n="31"/>tri.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e153">
+          ¶ Ad cuius euindentiam sciendum quod quatuor sunt ratio 
+          <lb ed="#V" n="32"/>nes formales: que a se inuincem abstrahunt. Prima et 
+          <lb ed="#V" n="33"/>insima est ratio substantie a qua substrahit ratio naturae. Nam omnis substanti 
+          <lb ed="#V" n="34"/>est natuam et non econverso. nam qualitas est natura: non tamen substantia. 2a est ratio 
+          na<lb ed="#V" n="35" break="no"/>ture: a qua abstrahit ratio essentie: et continetur sub 
+          ra<lb ed="#V" n="36" break="no"/>tione essentie. 3a est ratio essentie. Nam omnis natura est 
+          essen<lb ed="#V" n="37" break="no"/>tia. sicut patet inductiue in omnibus: non tamen econuerso. Nam 
+          <lb ed="#V" n="38"/>illud est essentia quod diffinitur: et ideo omnis species 
+          cuiuscum<lb ed="#V" n="39" break="no"/>que generis potest dici essentia: non tamen natura: quia multa sunt quo 
+          <lb ed="#V" n="40"/>non possunt esse principium productiuum alicuius: sicut forte sunt 
+          <lb ed="#V" n="41"/>respectus et materia. et talia. 4a est quiditas. Nam omnis 
+          <lb ed="#V" n="42"/>essentia est quiditas: et non econverso. Ab omnibus enim ponuntur 
+          mu<lb ed="#V" n="43" break="no"/>te quiditates in diuinis: non tamen nisi vna essentia. Unde 
+          essen<lb ed="#V" n="44" break="no"/>tia et quiditas non dicuntur communiter naturae: eo quod ab eis nihil 
+          na<lb ed="#V" n="45" break="no"/>scitur.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e187">
+          ¶ Ex hoc arguitur quod nomen nature solum 
+          con<lb ed="#V" n="46" break="no"/>ueniat substantie et qualitati: excepta quarta specie: 
+          <lb ed="#V" n="47"/>que est precise respectus: quia vniversaliter omne quod est principium 
+          <lb ed="#V" n="48"/>alicuius quod dicitur natu: potest dici natura. Ista autem sunt 
+          <lb ed="#V" n="49"/>uiusmod. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e198">
+          ¶ Sed hic instatur. Primo. quia cum intellect 
+          <lb ed="#V" n="50"/>per se non sit natura: vt distinguitur contra essentiam 
+          <lb ed="#V" n="51"/>quia sic in deo essent plures nature: quare in diuinis 
+          pro<lb ed="#V" n="52" break="no"/>ductio intellectiua dicitur naturalis. Nec valet dicere quod 
+          ratio<lb ed="#V" n="53" break="no"/>ne essentie quia etiam essentia concurrit in alia que non 
+          <lb ed="#V" n="54"/>dicitur naturalis.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e211">
+          ¶ Dico quod naturalis productio non solum est 
+          <lb ed="#V" n="55"/>a natura: sed etiam a naturali eius perfectione: cuius est 
+          <lb ed="#V" n="56"/>intellectus.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e218">
+          ¶ Sed nunc stat dubium: quia voluntas est 
+          <lb ed="#V" n="57"/>ita naturalis perfectio: sicut intellectus: quare ergo non 
+          <lb ed="#V" n="58"/>dicitur ita naturalis eius productio: sicut intellectus 
+        </p>
+        <p xml:id="FrMS88-e28273-d1e225">
+          <lb ed="#V" n="59"/>¶ Dico quod licet voluntas in perficiendo sit eque natura 
+          <lb ed="#V" n="60"/>lis: sicut intellectus: non tamen in principiando: quia 
+          intelle<lb ed="#V" n="61" break="no"/>ctus coincidit in modum essentie connaturalem.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e234">
+          ¶ 
+          Aliu<lb ed="#V" n="62" break="no"/>dubium est: quomodo iste perfectiones subordinate. scilicet 
+          <lb ed="#V" n="63"/>substantia. natura. essentia. quiditas possunt esse in essentia: cum 
+          <lb ed="#V" n="64"/>fit simpliciter simplex.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e244">
+          ¶ Dico quod licet simpliciter 
+          sin<lb ed="#V" n="65" break="no"/>plex nullum quiditatiuum superius adminttat: bene 
+          ta<lb ed="#V" n="66" break="no"/>men admittit tale predicatum: sicut differentia subalternata 
+          <!--81.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>differentiam subalternantem: sicut superius dictum est de 
+          <lb ed="#V" n="68"/>ente.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e260">
+          ¶ Tunc restat dubium: si ista quatuor in deo 
+          di<lb ed="#V" n="69" break="no"/>stinguuntur formaliter.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e265">
+          ¶ Dico quod sic: quia aliquid 
+          repu<lb ed="#V" n="70" break="no"/>gnat deitati inquantum substantia: quod non inquantum 
+          <lb ed="#V" n="71"/>natura: et aliquid inquantum natura: quod non 
+          inquan<lb ed="#V" n="72" break="no"/>tum essentia. Similiter repugnat ei aliquid inquantum 
+          <lb ed="#V" n="73"/>essentia: quod non inquantum quiditas. valet. quod distinguitur in per 
+          <lb ed="#V" n="74"/>sonis. Nam per quiditates relationum distinguuntur 
+          di<lb ed="#V" n="75" break="no"/>uine persone.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e281">
+          ¶ Sed adhuc videtur remanere dubium. vtrum 
+          <lb ed="#V" n="76"/>omne naturale posset dici natura.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e286">
+          ¶ Dico quod naturale in plus se 
+          ha<lb ed="#V" n="77" break="no"/>bet: quia in deo sunt plura naturalia: non tamen nisi vna natura: quia 
+          <lb ed="#V" n="78"/>intellectus est naturalis: sed praecise non est natura. voluntas autem 
+          <lb ed="#V" n="79"/>sicut dictum est: licet fit perfectio simpliciter: non tamen dicitur naturalis 
+          inquan<lb ed="#V" n="80" break="no"/>tum est principiatiua alicuius. eo quod non habet modum 
+          natura<lb ed="#V" n="81" break="no"/>lem. vnde eius principiatum non potest dici natum. 
+          <lb ed="#V" n="82"/>ad 2m scilicet vtrum generatio diuina posset 
+          <lb ed="#V" n="83"/>Quantum dici naturalis.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e304">
+          ¶ Dico quod sicut 
+          natura<lb ed="#V" n="84" break="no"/>le potest dici 4or modis. ita oportet respondere. Accipitur enim 
+          <lb ed="#V" n="85"/>naturale: vt distinguitur contra supernaturale. Et isto modo generatio 
+          diuina<lb ed="#V" n="86" break="no"/>non est naturalis. sed supernaturalis secundum Dion.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e314">
+          ¶ Alio modo 
+          acci<lb ed="#V" n="87" break="no"/>pitur vt distinguitur contra violentum. Et isto modo est naturalis. quia 
+          <lb ed="#V" n="88"/>nullum violentum proprie est in diuinis: eo modo qua nullum 
+          vio<lb ed="#V" n="89" break="no"/>lentum est perpetuum.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e323">
+          ¶ 3o modo vt distinguitur contra artificiale: et 
+          <lb ed="#V" n="90"/>isto modo est est naturalis: quia licet verbum sit ars patris secundum Augu. en 
+          <lb ed="#V" n="91"/>tamen producitur per artem. quia ars non respicit eternum: sed 
+          <lb ed="#V" n="92"/>factibile.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e332">
+          ¶ 4o modo vt distinguitur contra liberum. Et isto modo 
+          <lb ed="#V" n="93"/>intellctur quaestio.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e337">
+          ¶ Et dico quod sic. quia sola productio spiritussanci 
+          <lb ed="#V" n="94"/>in diuinis dicitur libera: secundum Aug. Uerum est quod aliquo 
+          vo<lb ed="#V" n="95" break="no"/>lunt dicere: quod productio spiritussancti est eque naturalis sicut 
+          <lb ed="#V" n="96"/>filii.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e346">
+          ¶ Contra hoc est Aug. Nam secundum eum filius procedit quodo 
+          <lb ed="#V" n="97"/>natus: non quomodo datus: et spiritussanctus quomodo datus: non 
+          <lb ed="#V" n="98"/>non quomodo natus.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e353">
+          ¶ Pyla. etiam dicit quod natura est principium 
+          ge<lb ed="#V" n="99" break="no"/>nerandi. Ideo si spiritussanctus procederet per modum naturae: spiritussat 
+          <lb ed="#V" n="100"/>ctus esset vere generatus.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e361">
+          ¶ Praeterea nama est principium natiuitatis: ergo 
+          s<lb ed="#V" n="101" break="no"/>procederet per modum naturae esset et diceretur natus: tamen non est hoc 
+          <lb ed="#V" n="102"/>tutum dicere: quia ad minus videtur esse contra auctoritates 
+          sctoru<lb ed="#V" n="103" break="no"/>Ideo alii tenentes quod sit naturalis ponunt causam naturalitatis: quia 
+          pro<lb ed="#V" n="104" break="no"/>ductio filii est prima. sicut in naturalibus illa est naturalis quae est primas 
+          <lb ed="#V" n="105"/>Et quia dicere praecedit spirare. dicere erit naturale.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e374">
+          ¶ Contri 
+          <lb ed="#V" n="106"/>hoc arguo. 4r. primo. quia creatio in creaturis est prima 
+          produ<lb ed="#V" n="107" break="no"/>ctio et generatio non est prima. ergo creatio erit naturalis. et generatio non 
+          <lb ed="#V" n="108"/>erit naturalis.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e383">
+          ¶ 2o actus imperatus in potentia intellectiua 
+          <lb ed="#V" n="109"/>dicitur naturaliter gigni. cum tamen praesupponat actum liberum voluntatis. 
+        </p>
+        <p xml:id="FrMS88-e28273-d1e388">
+          <lb ed="#V" n="110"/>¶ 3o sic. quandocumque est aliquod suppositum: quod per idem 
+          principi<lb ed="#V" n="111" break="no"/>um et eiusdem rationis formalis producit duo supposita. 
+          <lb ed="#V" n="112"/>productiones sunt eiusdem rationis formalis. sicut producens 
+          <lb ed="#V" n="113"/>vnum filium post alium: sed sic est in proposito: per te: quia non est 
+          <lb ed="#V" n="114"/>differentia ex parte principii: ergo erunt in diuinis due productiones 
+          <lb ed="#V" n="115"/>eiusdem rationis.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e404">
+          ¶ 4o sic. Omnem negationem oportet resoluere 
+          <lb ed="#V" n="116"/>in affirmationem: quia propositiones affirmatiue sunt priores 
+          <lb ed="#V" n="117"/>ordine essentiali negatiuis: et affirmationes 
+          negationi<lb ed="#V" n="118" break="no"/>bus. et continent causam negationis. sicut homo non est 
+          asinu<lb ed="#V" n="119" break="no"/>resoluiter in istas. homo est rationalis: et asinus est irrationalis 
+          <lb ed="#V" n="120"/>Sic relationem oportet in absoluere scilicet in fundamentum et 
+          ter<lb ed="#V" n="121" break="no"/>minum: quia ista superiora.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e420">
+          ¶ Exemplum. quare isti 
+          se<lb ed="#V" n="122" break="no"/>similes: statim fit resolutio ad absoluta. quia sunt 
+          albi<lb ed="#V" n="123" break="no"/>cum ergo prioritas et posterioritas sint rationes relatiue: oportet 
+          <lb ed="#V" n="124"/>eas resoluere in aliquid absolutum: et aliquid distinctum: 
+          <lb ed="#V" n="125"/>eo quod relationes disquipearantie sunt: non ad ipsas 
+          productio<lb ed="#V" n="126" break="no"/>nes: quia respectus sunt: ergo ad ipsa principium productiua. ergo oportet 
+          di<lb ed="#V" n="127" break="no"/>cere. quod propter principia productiua alia et alia: hec sit prior: et 
+          <lb ed="#V" n="128"/>alia posterior: et hec sit naturalis. et alia libera: quod est 
+          pro<lb ed="#V" n="129" break="no"/>positum.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e441">
+          ¶ Alii dicunt. quod ideo productio filii est naturalis. quia 
+          <lb ed="#V" n="130"/>ab vno: sed productio spiritussancti: ideo non est naturalis: quia a 
+          <lb ed="#V" n="131"/>duobus.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e448">
+          ¶ Sed contra. vbicumque principium productiuum est eiusdem 
+          <lb ed="#V" n="132"/>rationis: pluralitas suppositorum non variat rationem forma 
+          <!--82.xml-->
+          <pb ed="#V" n="40-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>lem. Exemplum: calor existens in duobus sumppositis produceret 
+          <lb ed="#V" n="2"/>eodem modo: sicut tantum in vno.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e464">
+          ¶ Praeterea. vnitas et pluralitas non 
+          <lb ed="#V" n="3"/>variant rationem formalem: sicut vnus homo et multi homines sun 
+          <lb ed="#V" n="4"/>eiusdem rationis formtus.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e471">
+          ¶ Alii dicunt quod ideo productio filii est 
+          natura<lb ed="#V" n="5" break="no"/>lis. quia ipsa refert verbum in esse cognito per actum 
+          intelligen<lb ed="#V" n="6" break="no"/>di inter seipsum.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e478">
+          ¶ Contra. spiritusactus producitur in esse 
+          co<lb ed="#V" n="7" break="no"/>gnito per actum intelligendi terminatum ad ipsum.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e483">
+          ¶ Praeterea 
+          in<lb ed="#V" n="8" break="no"/>tellectus diuinus cognoscit intra se contingentia post 
+          de<lb ed="#V" n="9" break="no"/>terminationem voluntatis diuine: et sic producit ea in esse 
+          <lb ed="#V" n="10"/>cognito. Constat autem quod non naturaliter: quia sic necessario 
+          eueni<lb ed="#V" n="11" break="no"/>rent.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e495">
+          ¶ Ideo dico. quod ideo productio verbi est naturalis: quia a 
+          prin<lb ed="#V" n="12" break="no"/>cipio naturali est scilicet a memoria fecunda que continet essentiam 
+          <lb ed="#V" n="13"/>cum intellectu. quorum vtrumque principiat naturaliter.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e502">
+          ¶ Sed hic sunt 
+          <lb ed="#V" n="14"/>difficul. Prima est cum: secundum te: essentia concurrat cum 
+          volun<lb ed="#V" n="15" break="no"/>tate in productione spiritussancti. quae est libera: quodo potest esse 
+          <lb ed="#V" n="16"/>principium naturale: et si sic: quare non ita bene productio spiritussancti 
+          dici<lb ed="#V" n="17" break="no"/>tur esse naturalis: Dico quod modus agendin determinatur a causa per 
+          <lb ed="#V" n="18"/>ticulari: licet enim voluntas diuina concurrat ad actum 
+          generatio<lb ed="#V" n="19" break="no"/>nis creature et libere: tamen generatio dicitur naturalis propter principium 
+          deter<lb ed="#V" n="20" break="no"/>minatum.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e520">
+          ¶ Aliter dico et melius. quia quandocumque duo 
+          princi<lb ed="#V" n="21" break="no"/>pia concurrunt ad aliquid producendum. si vnum eorum contingens est: 
+          <lb ed="#V" n="22"/>tota productio simul et productum erit contingens. sicut ex 
+          al<lb ed="#V" n="23" break="no"/>tera contingenti: et altera necessaria est ergo contingens simpliciter. 
+          <lb ed="#V" n="24"/>Similiter in composito mteam est incorruptibilis: forma autem est 
+          cor<lb ed="#V" n="25" break="no"/>ruptibilis: totum compositum est corruptibile. Nam sic est in 
+          <lb ed="#V" n="26"/>omnibus quod tam productio quam productum semper sequitur debiliorem 
+          <lb ed="#V" n="27"/>partem. Tiberum autem et naturale sic se habent: quod si mille necessario 
+          <lb ed="#V" n="28"/>causare concurrant ad vnum effectum: et vna sit libera. totum 
+          produ<lb ed="#V" n="29" break="no"/>ctum erit liberum. Ticet ergo essentia in productione 
+          spiritussan<lb ed="#V" n="30" break="no"/>cti concurrat: tamen quia voluntas qua concurrit est libera: hinc est quod 
+          <lb ed="#V" n="31"/>totum habet esse liberum.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e546">
+          ¶ Sed tunc remanet dubium: quomodo 
+          volun<lb ed="#V" n="32" break="no"/>tas adueniens essentie facit ipsam principiare libere: cum 
+          <lb ed="#V" n="33"/>ipsa ex se fit principium naturale. Dico quod sicut in creatis aliquid  
+          <lb ed="#V" n="34"/>quod ex se est principium productiuum necessarium: potest tamen principiare 
+          con<lb ed="#V" n="35" break="no"/>tingenter: propter aliud et aliud principium contingens cum eo concurrens 
+          <lb ed="#V" n="36"/>sic principium necessarium et naturale cuiusmodi est essentia: propter 
+          cor<lb ed="#V" n="37" break="no"/>cursum principii liberi cuiusmodi est voluntas: poterit 
+          pri<lb ed="#V" n="38" break="no"/>cipiare libere.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e564">
+          ¶ Sed aliud dubium est. quare voluntas et 
+          <lb ed="#V" n="39"/>intellectus non concurrunt ad aliquod principiatum sicut 
+          duo<lb ed="#V" n="40" break="no"/>particularia et sufficientia: sicut quodlibet eorum cum essentia¬ 
+        </p>
+        <p xml:id="FrMS88-e28273-d1e571">
+          <lb ed="#V" n="41"/>¶ Dico quod quanuis cum principio vniversali particulare principium possit 
+          com<lb ed="#V" n="42" break="no"/>currere vel econverso. tamen duo principia particlsraria et sufficientia: quod 
+          <lb ed="#V" n="43"/>libet in suo genere non possunt concurrere. sicut duo 
+          homi<lb ed="#V" n="44" break="no"/>nes particulares non possunt concurrere ad 
+          generatio<lb ed="#V" n="45" break="no"/>nem hominis: sed sol et homo.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e585">
+          ¶ Sed quare 
+          volun<lb ed="#V" n="46" break="no"/>tas non habet vnum principiatum et intellectus aliud: et 
+          <lb ed="#V" n="47"/>essentia aliud:
+        </p>
+        <p xml:id="FrMS88-e28273-d1e592">
+          ¶ Dico quod si quodlibet istorum esset principium 
+          <lb ed="#V" n="48"/>simpliciter: tunc bene esset dubium: sed dico quod duo illorum 
+          <lb ed="#V" n="49"/>coincidunt in idem principium: et faciunt vnum 
+          princi<lb ed="#V" n="50" break="no"/>pium scilicet intellectus cum essentia. et voluntas cum 
+          essen<lb ed="#V" n="51" break="no"/>tia: et in productionibus obiectiuis obiectum: sine 
+          po<lb ed="#V" n="52" break="no"/>tentia non potest aliquid producere. Et ideo oportet 
+          sem<lb ed="#V" n="53" break="no"/>per potentiam concurrere. Nunc autem ille 
+          productio<lb ed="#V" n="54" break="no"/>nes diuine sunt obiectiue. et ideo essentia non potest 
+          ni<lb ed="#V" n="55" break="no"/>si cum potentus.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e612">
+          ¶ Aliud dubium quare verbum 
+          no<lb ed="#V" n="56" break="no"/>strum est liberum: cum producatur a potentia 
+          intelle<lb ed="#V" n="57" break="no"/>ctiua cum obiecto. Dico quod verbum nostrum numquam est liberum 
+          <lb ed="#V" n="58"/>nisi fit imperatum a voluntate: et tunc fit liberum 
+          alte<lb ed="#V" n="59" break="no"/>ro principio ab illis duobus concurrente.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e623">
+          ¶ Aliud 
+          du<lb ed="#V" n="60" break="no"/>bium est. quod si propter concursum vnius cause libere totum 
+          <lb ed="#V" n="61"/>est liberum: sequitur quod productio nulla erit in 
+          creatu<lb ed="#V" n="62" break="no"/>ra: nisi libera: quia in omni effectu concurrit voluntas 
+          di<lb ed="#V" n="63" break="no"/>uina: que mere libere principiat. Dico quod licet omnes 
+          effe<lb ed="#V" n="64" break="no"/>ctus naturales creaturarum sint secundum quid necessarii. 
+          <lb ed="#V" n="65"/>sunt tamen contingentes simpliciter propter concursum 
+          volun<lb ed="#V" n="66" break="no"/>tatis diuine contingenter causantis. Eodem modo dico de libet 
+          <!--82.xml-->
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="67"/>tate simpliciter: licet effectus particulares in comparatione ad causas 
+          <lb ed="#V" n="68"/>particulares sint contingentes vel naturales. non tamen possunt esse mere 
+          <lb ed="#V" n="69"/>naturales: quia ab aliqua causa libera concauntur. Et sic patet quod non est 
+          im<lb ed="#V" n="70" break="no"/>conueniens quod vnus et idem effectus respectu vnius causae potentie. 
+          <lb ed="#V" n="71"/>fit esse naturalis: et respectu alterius possit esse liber.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e656">
+          ¶ Sd 
+          <lb ed="#V" n="72"/>tunc queritur quare spiritussanctus non potest dici naturaliter 
+          productu<lb ed="#V" n="73" break="no"/>respectu essentie: et libem respectu voluntatis.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e663">
+          ¶ Dico quod 
+          <lb ed="#V" n="74"/>quia i creaturis duo principia concurrunt simpliciter. hinc est quod 
+          <lb ed="#V" n="75"/>due actiones concurrunt simpliciter. tunc vna erit libera. et 
+          <lb ed="#V" n="76"/>altera naturalis. nec est repugnantia. et per consequens effectus vtram 
+          <lb ed="#V" n="77"/>quam denominationem recipiet. In deo autem quia illa 
+          princi<lb ed="#V" n="78" break="no"/>pia identice sunt eadem. hinc est quod eadem numero 
+          rela<lb ed="#V" n="79" break="no"/>tio. et idem numero respectus productionis potest 
+          fun<lb ed="#V" n="80" break="no"/>dari et fundatur in eis. non potest autem idem respectus vel ea 
+          <lb ed="#V" n="81"/>dem productio dici libera et naturalis: quia contradictio est.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e684">
+          ¶ Alia 
+          <lb ed="#V" n="82"/>difficultas. quare intellectus non determinat essentiam ad 
+          pro<lb ed="#V" n="83" break="no"/>ducendum per modum intellectus sicut voluntas.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e691">
+          ¶ Di 
+          <lb ed="#V" n="84"/>co quod intellectus vt distinguitur ab essentia solum 
+          ha<lb ed="#V" n="85" break="no"/>bet modum nature sicut essentia.
+        </p>
+        <p xml:id="FrMS88-e28273-d1e698">
+          ¶ Ad auctoritatem 
+          <lb ed="#V" n="86"/>in principio patet per iam dicta. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

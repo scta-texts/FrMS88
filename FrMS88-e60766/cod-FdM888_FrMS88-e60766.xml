@@ -1,147 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 4</title>
-            <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 4</title>
-               <date when="2021-09-06">September 06, 2021</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2021-09-06" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#V" n="82-v"/>
-            <cb ed="#V" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="FrMS88-e60766"><!-- l1d24-25q4 -->
-            <head xml:id="FrMS88-e60766-Hd1e108">Quaestio 4</head>
-            <p xml:id="FrMS88-e60766-d1e111">
-      Questio. <sic>iii</sic> 
-               <lb ed="#V" n="126"/>numerum habeat aliquam vni 
-      <lb ed="#V" n="127"/>Tum tatem. Dicit quidam doct. Quod sini. 
-      <lb ed="#V" n="128"/>quia vnum et multa ex opposito distinguuntur 
-      </p>
-            <p xml:id="FrMS88-e60766-d1e123">
-               <lb ed="#V" n="129"/>¶ Sed contra. De quocumque dicitur subiectum: et passio 
-      <lb ed="#V" n="130"/> illius: sed numerus est vere ens et vnitas 
-      <lb ed="#V" n="131"/>est passio illius scilicet entis. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e60766-d1e132">
-      ¶ 2o sic. Omne quod est in genere: 
-      <lb ed="#V" n="132"/>vel est vnum genere: vel specie vel numero. sed numerus ponitur 
-      <!--168.xml-->
-      <pb ed="#V" n="83-r"/>
-               <cb ed="#V" n="a"/>
-               <lb ed="#V" n="1"/>in predicamento. ergo oportet quod habeat vnam istarum vnitatum. 
-      </p>
-            <p xml:id="FrMS88-e60766-d1e145">
-               <lb ed="#V" n="2"/>¶ Dico ergo quod numerus habet propriam vnitatem: sicut spassionem 
-      <lb ed="#V" n="3"/>sicut et alia entia.
-    </p>
-            <p xml:id="FrMS88-e60766-d1e153">
-      ¶ Sed contra. Que ex opposito 
-      distingui<lb ed="#V" n="4" break="no"/>tur vnum non potest esse aliud: sed vnum et multa sunt huiusmodi. constat 
-      <lb ed="#V" n="5"/>autem quod numerus est species quae cadit sub multo. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e60766-d1e160">
-      ¶ 
-      Confiri<lb ed="#V" n="6" break="no"/>matur: quia plura inquantum plura non sunt vnum: sed numerus 
-      in<lb ed="#V" n="7" break="no"/>quantum numerus est plura. ergo non est vnum.
-    </p>
-            <p xml:id="FrMS88-e60766-d1e167">
-      ¶ Dico ad ista 
-      <lb ed="#V" n="8"/>quod qua. ex opposito distinguuntur vnum non potest esse aliud 
-      quidi<lb ed="#V" n="9" break="no"/>tatiue: sed tamen denominatiue non est inconueniens: sicut ens 
-      di<lb ed="#V" n="10" break="no"/>uiditur per absolutum et respectiuum. licet ergo absolutum 
-      quidi<lb ed="#V" n="11" break="no"/>tatiue non possit esse respectiuum: tamen denominatiue videmus 
-      <lb ed="#V" n="12"/>quod absolutum est respectiuum. substantia enim est ad aliud 
-      denominati<lb ed="#V" n="13" break="no"/>ue: et quantitas et qualitas: eodem modo de numero. Posset 
-      tan<lb ed="#V" n="14" break="no"/>dici aliter. quod vnitas per quam numerus dicitur vnus non est sibi 
-      <lb ed="#V" n="15"/>opposita: sed numerus opponitur vnitati quae priuat eum: non 
-      <lb ed="#V" n="16"/>opponitur autem vnitati quae denominat eum. patet igitur quod oportet quod 
-      nu<lb ed="#V" n="17" break="no"/>merus ponatur aliquo modo vnus.
-    </p>
-            <p xml:id="FrMS88-e60766-d1e191">
-      ¶ hic tamen sunt aliqua 
-      du<lb ed="#V" n="18" break="no"/>bia. Primo quomodo vna forma potest esse in distinctis subieci 
-      <lb ed="#V" n="19"/>et pluribus numero. Dico quod sicut vnitas specifica et 
-      forma<lb ed="#V" n="20" break="no"/>lis est in numeris. ita oportet quod ibi ponatur vera vnitas 
-      nume<lb ed="#V" n="21" break="no"/>ralis: sicut enim dualitas est vna species numeri: ita hec dualitas 
-      <lb ed="#V" n="22"/>est vnum indiuiduum dualitatis.
-    </p>
-            <p xml:id="FrMS88-e60766-d1e204">
-      ¶ Dico ergo quod tali 
-      dualita<lb ed="#V" n="23" break="no"/>ti quae est eadem numero non repugnat esse in duobus subiectis: 
-      in<lb ed="#V" n="24" break="no"/>mo necessario ita determinat sibi duo: quod repugnat 
-      si<lb ed="#V" n="25" break="no"/>bi esse in vno: sed oportet quod sit in duobus: sicut omnes concedunt quod 
-      <lb ed="#V" n="26"/>pualitas est duplum ad vnitatem: quaero in quo subiecto est dupli 
-      <lb ed="#V" n="27"/>citas: oportet dicere quod in duobus numero distinctis. sic hic.
-    </p>
-            <p xml:id="FrMS88-e60766-d1e217">
-      ¶ 2o 
-      <lb ed="#V" n="28"/>dubium vtrum numerus sit essentialiter multitudo. dico quod 
-      multitu<lb ed="#V" n="29" break="no"/>do est transcendens. et ideo oportet dicere. quod sicut multa 
-      transcenden<lb ed="#V" n="30" break="no"/>tia includuntur in aliis transcendentibus: ita multitudo in 
-      nu<lb ed="#V" n="31" break="no"/>mero. non tamen est genus numeri: quod autem multitudo sit superio 
-      <lb ed="#V" n="32"/>ad numerum. probo. primo quia in diffinitione numeri ponitur multitudo 
-      <lb ed="#V" n="33"/>2o. quia numerus est multitudo mensurata per vnum. 3o. quia numerus 
-      <lb ed="#V" n="34"/>dicitur multitudo ex vnitatibus aggregata. Et confirmatur. quia 
-      <lb ed="#V" n="35"/>multitudo diuiditur per finitum et infinitum: sed numerus cadit subfi 
-      <lb ed="#V" n="36"/>nito: ergo cadit sub multiume. finitum autem est differentia diuidens 
-      mult<lb ed="#V" n="37" break="no"/>tudinem. ergo etc.
-    </p>
-            <p xml:id="FrMS88-e60766-d1e242">
-      ¶ 3a di. quae est species divisa contra numerum. dico quod quando 
-      grgo<lb ed="#V" n="38" break="no"/>nus diditur per differentias bene oportet quod si vna species sit sub vna differentia 
-      <lb ed="#V" n="39"/>quod inueniatur alia species sub alia: sed non est sic de diisione 
-      transcen<lb ed="#V" n="40" break="no"/>dentis: cuiusmodi est multiuo.
-    </p>
-            <p xml:id="FrMS88-e60766-d1e251">
-      ¶ 4a di. Utrum numerus sit summa. 
-      <lb ed="#V" n="41"/>dico quod si intelligatur per summam aliquid factum ab anima: sic dico 
-      <lb ed="#V" n="42"/>quod non est summa: si autem intelligatur per summam aliqua clausio: sicut mul¬¬
-      <lb ed="#V" n="43" break="no"/>titudo finita claudit: sic dico quod est summa: et sic patet etc. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 4</title>
+        <author ref="#FrancisofMeyronnes">Francis de Meyronnes</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 4</title>
+          <date when="2021-09-06">September 06, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-FdM888">Venice 1519</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-09-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="82-v"/>
+        <cb ed="#V" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="FrMS88-e60766"><!-- l1d24-25q4 -->
+        <head xml:id="FrMS88-e60766-Hd1e108">Quaestio 4</head>
+        <p xml:id="FrMS88-e60766-d1e111">
+          Questio. <sic>iii</sic> 
+          <lb ed="#V" n="126"/>numerum habeat aliquam vni 
+          <lb ed="#V" n="127"/>Tum tatem. Dicit quidam doct. Quod sini. 
+          <lb ed="#V" n="128"/>quia vnum et multa ex opposito distinguuntur 
+        </p>
+        <p xml:id="FrMS88-e60766-d1e123">
+          <lb ed="#V" n="129"/>¶ Sed contra. De quocumque dicitur subiectum: et passio 
+          <lb ed="#V" n="130"/> illius: sed numerus est vere ens et vnitas 
+          <lb ed="#V" n="131"/>est passio illius scilicet entis. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e60766-d1e132">
+          ¶ 2o sic. Omne quod est in genere: 
+          <lb ed="#V" n="132"/>vel est vnum genere: vel specie vel numero. sed numerus ponitur 
+          <!--168.xml-->
+          <pb ed="#V" n="83-r"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>in predicamento. ergo oportet quod habeat vnam istarum vnitatum. 
+        </p>
+        <p xml:id="FrMS88-e60766-d1e145">
+          <lb ed="#V" n="2"/>¶ Dico ergo quod numerus habet propriam vnitatem: sicut spassionem 
+          <lb ed="#V" n="3"/>sicut et alia entia.
+        </p>
+        <p xml:id="FrMS88-e60766-d1e153">
+          ¶ Sed contra. Que ex opposito 
+          distingui<lb ed="#V" n="4" break="no"/>tur vnum non potest esse aliud: sed vnum et multa sunt huiusmodi. constat 
+          <lb ed="#V" n="5"/>autem quod numerus est species quae cadit sub multo. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e60766-d1e160">
+          ¶ 
+          Confiri<lb ed="#V" n="6" break="no"/>matur: quia plura inquantum plura non sunt vnum: sed numerus 
+          in<lb ed="#V" n="7" break="no"/>quantum numerus est plura. ergo non est vnum.
+        </p>
+        <p xml:id="FrMS88-e60766-d1e167">
+          ¶ Dico ad ista 
+          <lb ed="#V" n="8"/>quod qua. ex opposito distinguuntur vnum non potest esse aliud 
+          quidi<lb ed="#V" n="9" break="no"/>tatiue: sed tamen denominatiue non est inconueniens: sicut ens 
+          di<lb ed="#V" n="10" break="no"/>uiditur per absolutum et respectiuum. licet ergo absolutum 
+          quidi<lb ed="#V" n="11" break="no"/>tatiue non possit esse respectiuum: tamen denominatiue videmus 
+          <lb ed="#V" n="12"/>quod absolutum est respectiuum. substantia enim est ad aliud 
+          denominati<lb ed="#V" n="13" break="no"/>ue: et quantitas et qualitas: eodem modo de numero. Posset 
+          tan<lb ed="#V" n="14" break="no"/>dici aliter. quod vnitas per quam numerus dicitur vnus non est sibi 
+          <lb ed="#V" n="15"/>opposita: sed numerus opponitur vnitati quae priuat eum: non 
+          <lb ed="#V" n="16"/>opponitur autem vnitati quae denominat eum. patet igitur quod oportet quod 
+          nu<lb ed="#V" n="17" break="no"/>merus ponatur aliquo modo vnus.
+        </p>
+        <p xml:id="FrMS88-e60766-d1e191">
+          ¶ hic tamen sunt aliqua 
+          du<lb ed="#V" n="18" break="no"/>bia. Primo quomodo vna forma potest esse in distinctis subieci 
+          <lb ed="#V" n="19"/>et pluribus numero. Dico quod sicut vnitas specifica et 
+          forma<lb ed="#V" n="20" break="no"/>lis est in numeris. ita oportet quod ibi ponatur vera vnitas 
+          nume<lb ed="#V" n="21" break="no"/>ralis: sicut enim dualitas est vna species numeri: ita hec dualitas 
+          <lb ed="#V" n="22"/>est vnum indiuiduum dualitatis.
+        </p>
+        <p xml:id="FrMS88-e60766-d1e204">
+          ¶ Dico ergo quod tali 
+          dualita<lb ed="#V" n="23" break="no"/>ti quae est eadem numero non repugnat esse in duobus subiectis: 
+          in<lb ed="#V" n="24" break="no"/>mo necessario ita determinat sibi duo: quod repugnat 
+          si<lb ed="#V" n="25" break="no"/>bi esse in vno: sed oportet quod sit in duobus: sicut omnes concedunt quod 
+          <lb ed="#V" n="26"/>pualitas est duplum ad vnitatem: quaero in quo subiecto est dupli 
+          <lb ed="#V" n="27"/>citas: oportet dicere quod in duobus numero distinctis. sic hic.
+        </p>
+        <p xml:id="FrMS88-e60766-d1e217">
+          ¶ 2o 
+          <lb ed="#V" n="28"/>dubium vtrum numerus sit essentialiter multitudo. dico quod 
+          multitu<lb ed="#V" n="29" break="no"/>do est transcendens. et ideo oportet dicere. quod sicut multa 
+          transcenden<lb ed="#V" n="30" break="no"/>tia includuntur in aliis transcendentibus: ita multitudo in 
+          nu<lb ed="#V" n="31" break="no"/>mero. non tamen est genus numeri: quod autem multitudo sit superio 
+          <lb ed="#V" n="32"/>ad numerum. probo. primo quia in diffinitione numeri ponitur multitudo 
+          <lb ed="#V" n="33"/>2o. quia numerus est multitudo mensurata per vnum. 3o. quia numerus 
+          <lb ed="#V" n="34"/>dicitur multitudo ex vnitatibus aggregata. Et confirmatur. quia 
+          <lb ed="#V" n="35"/>multitudo diuiditur per finitum et infinitum: sed numerus cadit subfi 
+          <lb ed="#V" n="36"/>nito: ergo cadit sub multiume. finitum autem est differentia diuidens 
+          mult<lb ed="#V" n="37" break="no"/>tudinem. ergo etc.
+        </p>
+        <p xml:id="FrMS88-e60766-d1e242">
+          ¶ 3a di. quae est species divisa contra numerum. dico quod quando 
+          grgo<lb ed="#V" n="38" break="no"/>nus diditur per differentias bene oportet quod si vna species sit sub vna differentia 
+          <lb ed="#V" n="39"/>quod inueniatur alia species sub alia: sed non est sic de diisione 
+          transcen<lb ed="#V" n="40" break="no"/>dentis: cuiusmodi est multiuo.
+        </p>
+        <p xml:id="FrMS88-e60766-d1e251">
+          ¶ 4a di. Utrum numerus sit summa. 
+          <lb ed="#V" n="41"/>dico quod si intelligatur per summam aliquid factum ab anima: sic dico 
+          <lb ed="#V" n="42"/>quod non est summa: si autem intelligatur per summam aliqua clausio: sicut mul¬¬
+          <lb ed="#V" n="43" break="no"/>titudo finita claudit: sic dico quod est summa: et sic patet etc. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
