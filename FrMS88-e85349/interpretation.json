@@ -1,0 +1,141 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-24T00:00:00Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "af9ba6cc2b587516c4901c7c68560a9e179f0925",
+    "generation_method": "hierarchical"
+  },
+
+  "FrMS88-e85349-d1e111": {
+    "summary": "States the question of the quaestio — whether God is in all time — and gives the negative opening objection: God is eternal and without time, per Augustine's De Trinitate book 15 and elsewhere, and so cannot properly be said to be 'in' time at all.",
+    "claims": [
+      "God is eternal and exists without time.",
+      "If God is timeless, he is not properly said to be in every time."
+    ],
+    "concepts": ["divine eternity", "time", "quaestio disputata"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["FrMS88-e85349"]
+    }
+  },
+
+  "FrMS88-e85349-d1e122": {
+    "summary": "Gives the contrary position (the 'sed contra'): God is present to every time, setting up the dialectical tension with the opening objection that God, being eternal, is not in time.",
+    "claims": [
+      "God is present in every time."
+    ],
+    "concepts": ["divine presence", "time"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["FrMS88-e85349-d1e111"]
+    }
+  },
+
+  "FrMS88-e85349-d1e127": {
+    "summary": "Transitional paragraph announcing the analytic procedure: before resolving the question, one must first determine what it means to be in time, and this will be pursued through four conclusions.",
+    "claims": [],
+    "concepts": ["method of conclusions", "being in time"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["FrMS88-e85349-d1e111", "FrMS88-e85349-d1e122"]
+    }
+  },
+
+  "FrMS88-e85349-d1e132": {
+    "summary": "States the first of the four conclusions: being in time is not a mere respectus rationis (a relation constructed by the intellect), because God is really in time — the relation has a real, not merely mental, foundation.",
+    "claims": [
+      "God's being in time is not a respectus rationis.",
+      "God is really (not merely conceptually) in time."
+    ],
+    "concepts": ["respectus rationis", "real relation"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["FrMS88-e85349-d1e127"]
+    }
+  },
+
+  "FrMS88-e85349-d1e140": {
+    "summary": "States the second conclusion: being in time does not denote a privation, because if it did, either nothing would be in time, or things existing merely in potency would be in time in the same way as actual things — both unacceptable consequences.",
+    "claims": [
+      "Being in time is not a privation.",
+      "If it were a privation, nothing would properly be in time, or potential beings would be in time just as actual beings are."
+    ],
+    "concepts": ["privation", "potency vs. actuality"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["FrMS88-e85349-d1e132"]
+    }
+  },
+
+  "FrMS88-e85349-d1e147": {
+    "summary": "States the third conclusion: being in time does not denote something absolute, referring back ('sicut prius') to the parallel argument already established elsewhere (in the companion question on God's being everywhere) that such predicates are relative rather than absolute.",
+    "claims": [
+      "Being in time does not denote something absolute in God."
+    ],
+    "concepts": ["absolute vs. relative predicate"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["FrMS88-e85349-d1e140", "FrMS88-e84800-d1e210"]
+    }
+  },
+
+  "FrMS88-e85349-d1e152": {
+    "summary": "States the fourth conclusion: this respect is not the same respect as was discussed previously with regard to God (i.e., it is not the respectus already treated under the question of divine ubiquity), again invoking the parallel treatment 'sicut prius'.",
+    "claims": [
+      "The respect involved in being in time is not identical to the respect already established in the prior discussion of God's presence in place."
+    ],
+    "concepts": ["respectus", "distinction between time and place"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["FrMS88-e85349-d1e147", "FrMS88-e84800-d1e226"]
+    }
+  },
+
+  "FrMS88-e85349-d1e159": {
+    "summary": "Gives the author's determinative conclusion, framed in explicit parallel to the resolution of the companion question on divine ubiquity (where God's being everywhere was resolved via a respectus praesentialitatis grounded in the creature): here the text states God's relation to time in terms of the presentiality of each temporal thing to God, closing the question ('et sic patet').",
+    "claims": [
+      "The relation between God and time is articulated through the presentiality of temporal creatures to God, mirroring the resolution given for God's presence in place."
+    ],
+    "concepts": ["respectus praesentialitatis", "divine eternity and time"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["FrMS88-e85349-d1e111", "FrMS88-e85349-d1e152", "FrMS88-e84800-d1e238"]
+    }
+  },
+
+  "FrMS88-e85349": {
+    "summary": "Quaestio 2 of distinction 37 asks whether God is in all time. Structured as a companion piece to Quaestio 1 (whether God is everywhere), it opens with the objection that God's eternity precludes his being in time (Augustine, De Trinitate 15) against the contrary claim that God is present to every time. The question is resolved through four conclusions modeled directly on those of Quaestio 1: being in time is not a respectus rationis (since God is really in time), not a privation, not something absolute, and not the same respect treated under place. The question closes by characterizing God's relation to time via the presentiality of temporal things to him, in explicit parallel with the resolution of divine ubiquity.",
+    "claims": [
+      "God is not in time as a respectus rationis, since he is really in time.",
+      "Being in time is not a privation.",
+      "Being in time does not denote something absolute in God.",
+      "The relation involved is distinct from that treated under God's presence in place.",
+      "God's relation to time is ultimately articulated through the presentiality of temporal creatures to him, paralleling the treatment of divine ubiquity."
+    ],
+    "concepts": ["divine eternity", "time", "respectus rationis", "privation", "absolute vs. relative predicate", "respectus praesentialitatis"],
+    "_metadata": {
+      "level": "div",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "FrMS88-e85349-d1e111",
+        "FrMS88-e85349-d1e122",
+        "FrMS88-e85349-d1e127",
+        "FrMS88-e85349-d1e132",
+        "FrMS88-e85349-d1e140",
+        "FrMS88-e85349-d1e147",
+        "FrMS88-e85349-d1e152",
+        "FrMS88-e85349-d1e159"
+      ]
+    }
+  }
+}
