@@ -1,0 +1,131 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-03T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "3b67d269e23636c87fcbb10d789a341123ba5bb3",
+    "generation_method": "hierarchical"
+  },
+  "FrMS88-de4563-d1e111": {
+    "summary": "Poses the twelfth question: whether being is said analogically of its subjects. Lists positions: some say univocally (by one notion), others equivocally (by diverse notions), others analogically (prior of one, posterior of others).",
+    "claims": [
+      "Positions on being: univocal, equivocal, analogical."
+    ],
+    "concepts": [
+      "analogy of being",
+      "univocity",
+      "equivocity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "FrMS88-de4563"
+      ]
+    }
+  },
+  "FrMS88-de4563-d1e133": {
+    "summary": "Others say 'ambiguously'. Distinguishes analogy: one kind is said of two by one notion but more perfectly of one; another is said properly of one and of others by attribution to it, which reduces to equivocity.",
+    "claims": [
+      "Analogy by attribution reduces to equivocity.",
+      "Analogy as one notion with unequal perfection is distinct from attribution."
+    ],
+    "concepts": [
+      "ambiguity",
+      "analogy of attribution",
+      "analogy of inequality"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "FrMS88-de4563",
+        "FrMS88-de4563-d1e111"
+      ]
+    }
+  },
+  "FrMS88-de4563-d1e153": {
+    "summary": "Concludes that every term is either equivocal or univocal, since when things are defined by immediate contraries they are immediate contraries, and univocal and equivocal are such.",
+    "claims": [
+      "Every term is either univocal or equivocal."
+    ],
+    "concepts": [
+      "univocal and equivocal",
+      "immediate contraries"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "FrMS88-de4563",
+        "FrMS88-de4563-d1e133"
+      ]
+    }
+  },
+  "FrMS88-de4563-d1e162": {
+    "summary": "Raises a difficulty: whether being is said equally or unequally of its inferiors.",
+    "claims": [],
+    "concepts": [
+      "equality of predication"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "FrMS88-de4563",
+        "FrMS88-de4563-d1e153"
+      ]
+    }
+  },
+  "FrMS88-de4563-d1e168": {
+    "summary": "Answers with four conclusions: being is not predicated by more and less, by prior and posterior, unequally, or dissimilarly. One reason proves all: an essential predication cannot be varied by anything posterior, and quantity of power — by which more/less, prior/posterior, equal/unequal, similar/dissimilar are measured — is posterior to being and to its subjects. When something is called more perfectly a being, it is so by something posterior to being; in the prior in which being is predicated, the predication is uniform.",
+    "claims": [
+      "Being is not predicated by more and less, prior and posterior, unequally, or dissimilarly.",
+      "Quantity of power is posterior to being and cannot vary its essential predication.",
+      "Being is predicated uniformly in the prior in which predication occurs."
+    ],
+    "concepts": [
+      "degrees of perfection",
+      "quantity of power",
+      "essential predication",
+      "analogy of being"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "FrMS88-de4563",
+        "FrMS88-de4563-d1e162"
+      ]
+    }
+  },
+  "FrMS88-de4563": {
+    "summary": "The twelfth question of the prologue asks whether being is said analogically of the things of which it is said. Meyronnes surveys four positions — univocal, equivocal, analogical (prior and posterior), and ambiguous — and distinguishes two senses of analogy: one notion said of two but more perfectly of one (compatible with univocity), and attribution of a term properly to one and to others by relation to it (reducible to equivocity). Since univocal and equivocal are defined by immediate contraries, every term is one or the other. To the difficulty whether being is said equally or unequally of its inferiors, he answers with four conclusions: being is not predicated according to more and less, prior and posterior, unequally, or dissimilarly, because these all follow quantity of power, which is posterior to being, and so cannot vary an essential predication. When something is called 'more perfectly a being', that is by something posterior to being; in the prior moment of predication being is uniform.",
+    "claims": [
+      "Every term is either univocal or equivocal; analogy by attribution reduces to equivocity.",
+      "Analogy in the sense of one notion said more perfectly of one is compatible with univocity.",
+      "Being is not predicated by more and less, prior and posterior, unequally, or dissimilarly.",
+      "Degrees of perfection belong to what is posterior to being and do not vary its essential predication."
+    ],
+    "concepts": [
+      "analogy of being",
+      "univocity of being",
+      "equivocity",
+      "analogy of attribution",
+      "degrees of perfection",
+      "quantity of power"
+    ],
+    "_metadata": {
+      "level": "div",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "FrMS88-de4563-d1e111",
+        "FrMS88-de4563-d1e133",
+        "FrMS88-de4563-d1e153",
+        "FrMS88-de4563-d1e162",
+        "FrMS88-de4563-d1e168"
+      ]
+    }
+  }
+}

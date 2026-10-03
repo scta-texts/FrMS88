@@ -1,0 +1,128 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-03T00:00:00Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "3b67d269e23636c87fcbb10d789a341123ba5bb3",
+    "generation_method": "hierarchical"
+  },
+  "FrMS88-de3661-d1e111": {
+    "summary": "Poses the ninth question: whether a common concept can be abstracted from all things that exclude the notion of a universal. Names four kinds from which no common quidditative concept is abstracted — transcendental notions, pure perfections, the simply simple, and ultimate differences — and proves the first: otherwise the transcendentals would not be transcendental.",
+    "claims": [
+      "No common quidditative concept can be abstracted from transcendental notions."
+    ],
+    "concepts": [
+      "abstraction",
+      "transcendentals",
+      "universal"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "FrMS88-de3661"
+      ]
+    }
+  },
+  "FrMS88-de3661-d1e133": {
+    "summary": "Proves the case of pure perfections: what would be included in them would compose with their proper notions, which is impossible since they are found in God.",
+    "claims": [
+      "Pure perfections, found in God, admit no composition with a common quidditative element."
+    ],
+    "concepts": [
+      "pure perfection",
+      "divine simplicity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "FrMS88-de3661",
+        "FrMS88-de3661-d1e111"
+      ]
+    }
+  },
+  "FrMS88-de3661-d1e138": {
+    "summary": "Proves the case of the simply simple: otherwise they would not be simply simple, their concepts being resolvable.",
+    "claims": [
+      "Simply simple concepts are irresolvable."
+    ],
+    "concepts": [
+      "simpliciter simplicia",
+      "resolution of concepts"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "FrMS88-de3661",
+        "FrMS88-de3661-d1e111"
+      ]
+    }
+  },
+  "FrMS88-de3661-d1e145": {
+    "summary": "Proves the case of ultimate differences: otherwise they would not be ultimate.",
+    "claims": [
+      "Ultimate differences include no common quidditative concept."
+    ],
+    "concepts": [
+      "ultimate differences"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "FrMS88-de3661",
+        "FrMS88-de3661-d1e111"
+      ]
+    }
+  },
+  "FrMS88-de3661-d1e151": {
+    "summary": "Raises the difficulty whether the distinction of all formal notions precedes the act of intellect or is fabricated by it, and answers that it precedes: the same act of understanding cannot both terminate and not terminate at the same formal notion, yet an act can terminate at the notion from which something is abstracted without terminating at the abstracted notion; so there is a distinction from the nature of the thing.",
+    "claims": [
+      "The distinction of formal notions precedes the act of intellect.",
+      "There is a distinction ex natura rei between formal notions."
+    ],
+    "concepts": [
+      "distinctio ex natura rei",
+      "formal distinction",
+      "act of understanding",
+      "abstraction"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "FrMS88-de3661"
+      ]
+    }
+  },
+  "FrMS88-de3661": {
+    "summary": "The ninth question of the prologue asks whether a common concept can be abstracted from all things that exclude the notion of a universal. Meyronnes names four kinds from which no common quidditative concept can be abstracted: transcendental notions (else they would not be transcendental), pure perfections (a common element would compose with their proper notions, impossible since they are in God), the simply simple (else they would be resolvable), and ultimate differences (else they would not be ultimate). He then addresses whether the distinction of formal notions precedes the act of intellect or is fabricated by it, arguing that it precedes: since an act of understanding can terminate at the notion from which something is abstracted without terminating at the abstracted notion, and the same act cannot both terminate and not terminate at the same notion, there is a distinction ex natura rei.",
+    "claims": [
+      "No common quidditative concept can be abstracted from transcendental notions, pure perfections, the simply simple, or ultimate differences.",
+      "The distinction of formal notions precedes the act of intellect; there is a distinction ex natura rei."
+    ],
+    "concepts": [
+      "abstraction",
+      "transcendentals",
+      "pure perfection",
+      "simpliciter simplicia",
+      "ultimate differences",
+      "distinctio ex natura rei",
+      "formal distinction"
+    ],
+    "_metadata": {
+      "level": "div",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "FrMS88-de3661-d1e111",
+        "FrMS88-de3661-d1e133",
+        "FrMS88-de3661-d1e138",
+        "FrMS88-de3661-d1e145",
+        "FrMS88-de3661-d1e151"
+      ]
+    }
+  }
+}
